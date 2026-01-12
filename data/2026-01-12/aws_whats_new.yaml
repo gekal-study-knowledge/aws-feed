@@ -107,4 +107,24 @@ entries:
       where Amazon SageMaker HyperPod is supported. For a complete list of service
       quota validation checks performed, refer to the <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-prerequisites.html#sagemaker-hyperpod-prerequisites-quotas">Amazon
       SageMaker HyperPod User Guide</a>.</p>
-last_updated: '2026-01-12T21:17:38.184401'
+  a1d3e9b19c581f2a5c09e2e6be18787d:
+    id: a1d3e9b19c581f2a5c09e2e6be18787d
+    title: Amazon Lex launches configurable voice activity detection sensitivity
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lex-configurable-voice-activity-detection-sensitivity/
+    published: '2026-01-12'
+    summary: "<p>Amazon Lex now provides three VAD sensitivity levels that can be\
+      \ configured for each bot locale: Default, High, and Maximum. The Default setting\
+      \ is suitable for most environments with typical background noise levels. High\
+      \ is designed for environments with consistent but moderate noise levels, such\
+      \ as busy offices or retail spaces. Maximum provides the highest tolerance for\
+      \ very noisy environments such as manufacturing floors, construction sites,\
+      \ or outdoor locations with significant ambient noise. You can configure VAD\
+      \ sensitivity when creating or updating a bot locale in the Amazon Connect's\
+      \ Conversational AI designer.</p> \n<p>This feature is available in all AWS\
+      \ commercial regions where Amazon Connect and Lex operate. To learn more, visit\
+      \ the <a href=\"https://docs.aws.amazon.com/lexv2/latest/dg/customizing-speech-vad-sensitivity.html\"\
+      \ target=\"_blank\">Amazon Lex documentation</a> or explore the Amazon Connect\
+      \ <a href=\"https://aws.amazon.com/connect/self-service/\" target=\"_blank\"\
+      >website</a> to learn how Amazon Connect and Amazon Lex deliver seamless end-customer\
+      \ self-service experiences.</p>"
+last_updated: '2026-01-12T22:16:29.035930'
