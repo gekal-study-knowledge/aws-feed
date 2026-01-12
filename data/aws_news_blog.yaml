@@ -1,0 +1,177 @@
+entries:
+  37027166ed4a4b74a4e83d463fa6bcd2:
+    id: 37027166ed4a4b74a4e83d463fa6bcd2
+    title: 'Happy New Year! AWS Weekly Roundup: 10,000 AIdeas Competition, Amazon
+      EC2, Amazon ECS Managed Instances and more (January 5, 2026)'
+    link: https://aws.amazon.com/blogs/aws/happy-new-year-aws-weekly-roundup-10000-aideas-competition-amazon-ec2-amazon-ecs-managed-instances-and-more-january-5-2026/
+    published: '2026-01-05'
+    summary: Happy New Year! I hope the holidays gave you time to recharge and spend
+      time with your loved ones. Like every year, I took a few weeks off after AWS
+      re:Invent to rest and plan ahead. I used some of that downtime to plan the next
+      cohort for Become a Solutions Architect (BeSA). BeSA is […]
+  51155b151147a12145b19831e6b4cbf8:
+    id: 51155b151147a12145b19831e6b4cbf8
+    title: 'AWS Weekly Roundup: Amazon ECS, Amazon CloudWatch, Amazon Cognito and
+      more (December 15, 2025)'
+    link: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ecs-amazon-cloudwatch-amazon-cognito-and-more-december-15-2025/
+    published: '2025-12-15'
+    summary: Can you believe it? We’re nearly at the end of 2025. And what a year
+      it’s been! From re:Invent recap events, to AWS Summits, AWS Innovate, AWS re:Inforce,
+      Community Days, and DevDays and, recently, adding that cherry on the cake, re:Invent
+      2025, we have lived through a year filled with exciting moments and technology
+      advancements […]
+  32f2a36a7c6f1bb34c5de2221efbf49a:
+    id: 32f2a36a7c6f1bb34c5de2221efbf49a
+    title: 'AWS Weekly Roundup: AWS re:Invent keynote recap, on-demand videos, and
+      more (December 8, 2025)'
+    link: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-reinvent-keynote-recap-on-demand-videos-and-more-december-8-2025/
+    published: '2025-12-08'
+    summary: The week after AWS re:Invent builds on the excitement and energy of the
+      event and is a good time to learn more and understand how the recent announcements
+      can help you solve your challenges and unlock new opportunities. As usual, we
+      have you covered with our top announcements of AWS re:Invent 2025 that you can
+      […]
+  96a53fb27b82c978e7b3f60da205d803:
+    id: 96a53fb27b82c978e7b3f60da205d803
+    title: Amazon Bedrock adds reinforcement ﬁne-tuning simplifying how developers
+      build smarter, more accurate AI models
+    link: https://aws.amazon.com/blogs/aws/improve-model-accuracy-with-reinforcement-fine-tuning-in-amazon-bedrock/
+    published: '2025-12-03'
+    summary: Amazon Bedrock now supports reinforcement fine-tuning delivering 66%
+      accuracy gains on average over base models.
+  271a840a8007a2aca82d1ea414e25908:
+    id: 271a840a8007a2aca82d1ea414e25908
+    title: New serverless customization in Amazon SageMaker AI accelerates model fine-tuning
+    link: https://aws.amazon.com/blogs/aws/new-serverless-customization-in-amazon-sagemaker-ai-accelerates-model-fine-tuning/
+    published: '2025-12-03'
+    summary: Accelerate AI model development with new training features that enable
+      rapid recovery from failures and automatic scaling based on resource availability.
+  e479d0746e180e8234b7e05c8e2f0eac:
+    id: e479d0746e180e8234b7e05c8e2f0eac
+    title: Introducing checkpointless and elastic training on Amazon SageMaker HyperPod
+    link: https://aws.amazon.com/blogs/aws/introducing-checkpointless-and-elastic-training-on-amazon-sagemaker-hyperpod/
+    published: '2025-12-03'
+    summary: Accelerate AI model development with new training features that enable
+      instant recovery from failures and automatic scaling based on resource availability.
+  7a97425506e0bf90fe82876a63da8db8:
+    id: 7a97425506e0bf90fe82876a63da8db8
+    title: Announcing replication support and Intelligent-Tiering for Amazon S3 Tables
+    link: https://aws.amazon.com/blogs/aws/announcing-replication-support-and-intelligent-tiering-for-amazon-s3-tables/
+    published: '2025-12-02'
+    summary: New features enable automatic cost optimization through intelligent storage
+      tiering and simplified table replication across AWS Regions and accounts.
+  250d86d1652c7e0b13ee9587ff5d7ec1:
+    id: 250d86d1652c7e0b13ee9587ff5d7ec1
+    title: Amazon S3 Storage Lens adds performance metrics, support for billions of
+      prefixes, and export to S3 Tables
+    link: https://aws.amazon.com/blogs/aws/amazon-s3-storage-lens-adds-performance-metrics-support-for-billions-of-prefixes-and-export-to-s3-tables/
+    published: '2025-12-02'
+    summary: New capabilities help optimize application performance, analyze unlimited
+      prefixes, and simplify metrics analysis through S3 Tables integration.
+  fad93b82e594aa42133ff2ab46ea7dd9:
+    id: fad93b82e594aa42133ff2ab46ea7dd9
+    title: Amazon Bedrock AgentCore adds quality evaluations and policy controls for
+      deploying trusted AI agents
+    link: https://aws.amazon.com/blogs/aws/amazon-bedrock-agentcore-adds-quality-evaluations-and-policy-controls-for-deploying-trusted-ai-agents/
+    published: '2025-12-02'
+    summary: Deploy AI agents with confidence using new quality evaluations and policy
+      controls—enabling precise boundaries on agent actions, continuous quality monitoring,
+      and experience-based learning while maintaining natural conversation flows.
+  a48243f22ced54b470facc1ebeb58845:
+    id: a48243f22ced54b470facc1ebeb58845
+    title: Build multi-step applications and AI workflows with AWS Lambda durable
+      functions
+    link: https://aws.amazon.com/blogs/aws/build-multi-step-applications-and-ai-workflows-with-aws-lambda-durable-functions/
+    published: '2025-12-02'
+    summary: New Lambda capability lets you build applications that coordinate multiple
+      steps reliably over extended periods—from seconds to up to one year—without
+      paying for idle compute time when waiting for external events or human decisions.
+  d189fb6b66741c4b6ef12914c6e684fc:
+    id: d189fb6b66741c4b6ef12914c6e684fc
+    title: New capabilities to optimize costs and improve scalability on Amazon RDS
+      for SQL Server and Oracle
+    link: https://aws.amazon.com/blogs/aws/amazon-rds-for-oracle-and-rds-for-sql-server-add-new-capabilities-to-enhance-performance-and-optimize-costs/
+    published: '2025-12-02'
+    summary: Manage development, testing, and production database workloads more efficiently
+      with new features including Developer Edition support for SQL Server, M7i/R7i
+      instance support with optimize CPU, and expanded storage options up to 256 TiB.
+  c928585a451ded5eafc1d9ad4bfa59d5:
+    id: c928585a451ded5eafc1d9ad4bfa59d5
+    title: Introducing Database Savings Plans for AWS Databases
+    link: https://aws.amazon.com/blogs/aws/introducing-database-savings-plans-for-aws-databases/
+    published: '2025-12-02'
+    summary: New pricing model helps maintain cost efficiency while providing flexibility
+      with database services and deployment options.
+  c5bd93745a4383c502d1801237b2056a:
+    id: c5bd93745a4383c502d1801237b2056a
+    title: Amazon CloudWatch introduces unified data management and analytics for
+      operations, security, and compliance
+    link: https://aws.amazon.com/blogs/aws/amazon-cloudwatch-introduces-unified-data-management-and-analytics-for-operations-security-and-compliance/
+    published: '2025-12-02'
+    summary: Reduce data management complexity and costs with automatic normalization
+      across sources, native analytics integration, and built-in support for industry-standard
+      formats like OCSF and Apache Iceberg.
+  0f150ea33ec2a182c4d353a650650c42:
+    id: 0f150ea33ec2a182c4d353a650650c42
+    title: New and enhanced AWS Support plans add AI capabilities to expert guidance
+    link: https://aws.amazon.com/blogs/aws/new-and-enhanced-aws-support-plans-add-ai-capabilities-to-expert-guidance/
+    published: '2025-12-02'
+    summary: Prevent cloud infrastructure issues before they impact your business
+      with AWS Support plans that combine AI-powered insights with expert guidance,
+      offering faster response times and proactive monitoring across performance,
+      security, and cost dimensions.
+  a3817392f628acd801347a352b4d8fa9:
+    id: a3817392f628acd801347a352b4d8fa9
+    title: Amazon OpenSearch Service improves vector database performance and cost
+      with GPU acceleration and auto-optimization
+    link: https://aws.amazon.com/blogs/aws/amazon-opensearch-service-improves-vector-database-performance-and-cost-with-gpu-acceleration-and-auto-optimization/
+    published: '2025-12-02'
+    summary: Build and optimize large-scale vector databases up to 10 times faster
+      and at a quarter of the cost with new GPU acceleration and auto-optimization
+      capabilities that automatically balance search quality, speed, and resource
+      usage.
+  264940381b14984329ce8465c27a9576:
+    id: 264940381b14984329ce8465c27a9576
+    title: Amazon S3 Vectors now generally available with increased scale and performance
+    link: https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-generally-available-with-increased-scale-and-performance/
+    published: '2025-12-02'
+    summary: Scale vector storage and querying to new heights with S3 Vectors' general
+      availability—now supporting up to 1 billion vectors per index, 100ms query latencies,
+      and expanded regional availability, while reducing costs up to 90% compared
+      to specialized databases.
+  b97298639f472d59f4b1a6e4daba205f:
+    id: b97298639f472d59f4b1a6e4daba205f
+    title: Amazon Bedrock adds 18 fully managed open weight models, including the
+      new Mistral Large 3 and Ministral 3 models
+    link: https://aws.amazon.com/blogs/aws/amazon-bedrock-adds-fully-managed-open-weight-models/
+    published: '2025-12-02'
+    summary: Access fully managed foundation models from leading providers like Google,
+      Kimi AI, MiniMax AI, Mistral AI, NVIDIA, OpenAI, and Qwen, including the new
+      Mistral Large 3 and Ministral 3 3B, 8B, and 14B models through Amazon Bedrock.
+  d1a6721c7ca520f142a6095bac54bd3e:
+    id: d1a6721c7ca520f142a6095bac54bd3e
+    title: Introducing Amazon EC2 X8aedz instances powered by 5th Gen AMD EPYC processors
+      for memory-intensive workloads
+    link: https://aws.amazon.com/blogs/aws/introducing-amazon-ec2-x8aedz-instances-powered-by-5th-gen-amd-epyc-processors-for-memory-intensive-workloads/
+    published: '2025-12-02'
+    summary: New memory-optimized instances deliver up to 5 GHz processor speeds and
+      3 TiB of memory—ideal for electronic design automation workloads and memory-intensive
+      databases requiring high single-threaded performance.
+  fe9e07c2fdef318efeea8bf516c4187d:
+    id: fe9e07c2fdef318efeea8bf516c4187d
+    title: AWS DevOps Agent helps you accelerate incident response and improve system
+      reliability (preview)
+    link: https://aws.amazon.com/blogs/aws/aws-devops-agent-helps-you-accelerate-incident-response-and-improve-system-reliability-preview/
+    published: '2025-12-02'
+    summary: New service acts as an always-on DevOps engineer, helping you respond
+      to incidents, identify root causes, and prevent future issues through systematic
+      analysis of incidents and operational patterns.
+  49452bb2e954df639e6bf3e8395a9473:
+    id: 49452bb2e954df639e6bf3e8395a9473
+    title: Accelerate AI development using Amazon SageMaker AI with serverless MLflow
+    link: https://aws.amazon.com/blogs/aws/accelerate-ai-development-using-amazon-sagemaker-ai-with-serverless-mlflow/
+    published: '2025-12-02'
+    summary: Simplify AI experimentation with zero-infrastructure MLflow that launches
+      in minutes, scales automatically, and seamlessly integrates with SageMaker's
+      model customization and pipeline capabilities.
+last_updated: '2026-01-12T11:15:50.615451'
