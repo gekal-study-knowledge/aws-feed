@@ -1,0 +1,33 @@
+entries:
+  a59e556e0c5aa3260b8c6484a74efcce:
+    id: a59e556e0c5aa3260b8c6484a74efcce
+    title: Amazon Redshift Serverless is now available in the AWS Asia Pacific (New
+      Zealand) region
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-redshift-serverless-aws-asia-pacific-new-zealand-region
+    published: '2026-01-12'
+    summary: <p><a href="https://aws.amazon.com/redshift/redshift-serverless/" target="_blank">Amazon
+      Redshift Serverless</a>, which allows you to run and scale analytics without
+      having to provision and manage data warehouse clusters, is now generally available
+      in the AWS Asia Pacific (New Zealand) region. With Amazon Redshift Serverless,
+      all users, including data analysts, developers, and data scientists, can use
+      Amazon Redshift to get insights from data in seconds. Amazon Redshift Serverless
+      automatically provisions and intelligently scales data warehouse capacity to
+      deliver high performance for all your analytics. You only pay for the compute
+      used for the duration of the workloads on a per-second basis. You can benefit
+      from this simplicity without making any changes to your existing analytics and
+      business intelligence applications.<br /> <br /> With a few clicks in the AWS
+      Management Console, you can get started with querying data using the Query Editor
+      V2 or your tool of choice with Amazon Redshift Serverless. There is no need
+      to choose node types, node count, workload management, scaling, and other manual
+      configurations. You can create databases, schemas, and tables, and load your
+      own data from Amazon S3, access data using Amazon Redshift data shares, or restore
+      an existing Amazon Redshift provisioned cluster snapshot. With Amazon Redshift
+      Serverless, you can directly query data in open formats, such as Apache Parquet,
+      Apache Iceberg in Amazon S3 data lakes. Amazon Redshift Serverless provides
+      unified billing for queries on any of these data sources, helping you efficiently
+      monitor and manage costs.<br /> <br /> To get started, see the Amazon Redshift
+      Serverless <a href="https://aws.amazon.com/redshift/redshift-serverless/" target="_blank">feature
+      page</a>, <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-serverless.html"
+      target="_blank">user documentation</a>, and <a href="https://docs.aws.amazon.com/redshift-serverless/latest/APIReference/Welcome.html"
+      target="_blank">API Reference</a>.</p>
+last_updated: '2026-01-12T16:23:45.102098'
