@@ -13,3 +13,4 @@ feeds:
 
 data_dir: "data"
 output_dir: "daily_reports"
+docs_dir: "docs"

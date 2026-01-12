@@ -184,6 +184,44 @@ def generate_daily_markdown(entries: List[Dict[str, Any]], output_dir: str):
         print(f"Generated: {output_file}")
 
 
+def generate_reports_index(output_dir: str, docs_dir: str):
+    """レポート一覧のJSONとHTMLページを生成する"""
+    Path(docs_dir).mkdir(parents=True, exist_ok=True)
+
+    # daily_reportsディレクトリ内の全Markdownファイルを取得
+    reports = []
+    output_path = Path(output_dir)
+
+    if output_path.exists():
+        for md_file in sorted(output_path.glob("*.md"), reverse=True):
+            date_str = md_file.stem
+
+            # Markdownファイルを読み込んでエントリー数をカウント
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+                # "###" で始まる行（記事タイトル）の数をカウント
+                entry_count = content.count('\n### ')
+
+            reports.append({
+                'date': date_str,
+                'url': f'../daily_reports/{md_file.name}',
+                'count': entry_count
+            })
+
+    # JSONファイルを生成
+    reports_json = {
+        'last_updated': datetime.now().isoformat(),
+        'reports': reports
+    }
+
+    json_file = Path(docs_dir) / 'reports.json'
+    import json
+    with open(json_file, 'w', encoding='utf-8') as f:
+        json.dump(reports_json, f, ensure_ascii=False, indent=2)
+
+    print(f"Generated: {json_file}")
+
+
 def main():
     """メイン処理"""
     # 設定を読み込む
@@ -204,6 +242,10 @@ def main():
         print(f"\nTotal: {len(all_new_entries)} new entries processed")
     else:
         print("\nNo new entries found")
+
+    # GitHub Pages用のインデックスを生成
+    docs_dir = config.get('docs_dir', 'docs')
+    generate_reports_index(output_dir, docs_dir)
 
 
 if __name__ == '__main__':

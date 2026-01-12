@@ -8,6 +8,7 @@ AWS公式のRSSフィードを自動的に購読し、日単位でまとめたMa
 - **変更検出**: 新規エントリーのみを検出して処理
 - **日単位レポート**: 新しい情報が公開された日ごとにMarkdownファイルを生成
 - **GitHub Actions連携**: 1時間ごとに自動実行し、変更を自動コミット
+- **GitHub Pages公開**: Webブラウザでレポートを閲覧可能
 
 ## ディレクトリ構成
 
@@ -28,10 +29,14 @@ aws-feed/
 │   │   ├── aws_whats_new.yaml
 │   │   └── aws_news_blog.yaml
 │   └── ...
-└── daily_reports/             # 日単位のMarkdownレポート (自動生成)
-    ├── 2026-01-12.md
-    ├── 2026-01-13.md
-    └── ...
+├── daily_reports/             # 日単位のMarkdownレポート (自動生成)
+│   ├── 2026-01-12.md
+│   ├── 2026-01-13.md
+│   └── ...
+└── docs/                      # GitHub Pages用ファイル (自動生成)
+    ├── index.html             # メインページ
+    ├── style.css              # スタイルシート
+    └── reports.json           # レポート一覧データ
 ```
 
 ## セットアップ
@@ -63,6 +68,7 @@ python main.py
 
 1. GitHubリポジトリにコードをプッシュ
 2. リポジトリの Settings → Actions → General で、Workflow permissionsを「Read and write permissions」に設定
+3. リポジトリの Settings → Pages で、Sourceを「Deploy from a branch」、Branchを「main」、フォルダを「/docs」に設定
 
 ### 実行スケジュール
 
@@ -75,7 +81,23 @@ python main.py
 2. 新規エントリーを検出
 3. YAMLデータを更新 (`data/`)
 4. 日単位のMarkdownを生成 (`daily_reports/`)
-5. 変更を自動コミット&プッシュ
+5. GitHub Pages用のインデックスを生成 (`docs/`)
+6. 変更を自動コミット&プッシュ
+
+## GitHub Pagesでの公開
+
+設定完了後、以下のURLでアクセス可能になります:
+
+```
+https://YOUR_USERNAME.github.io/aws-feed/
+```
+
+### 表示内容
+
+- 日付別のレポート一覧
+- 各レポートへのリンク
+- 更新件数の表示
+- レスポンシブデザイン対応
 
 ## 設定ファイル (config.yaml)
 

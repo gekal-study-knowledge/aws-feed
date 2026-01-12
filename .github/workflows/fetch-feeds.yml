@@ -34,6 +34,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/ daily_reports/
+          git add data/ daily_reports/ docs/
           git diff --cached --quiet || git commit -m "Update AWS feeds - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push
