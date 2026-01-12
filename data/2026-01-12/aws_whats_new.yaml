@@ -30,4 +30,55 @@ entries:
       page</a>, <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-serverless.html"
       target="_blank">user documentation</a>, and <a href="https://docs.aws.amazon.com/redshift-serverless/latest/APIReference/Welcome.html"
       target="_blank">API Reference</a>.</p>
-last_updated: '2026-01-12T16:23:45.102098'
+  40d3f3acf0475a1f29d66b3bb82bbb07:
+    id: 40d3f3acf0475a1f29d66b3bb82bbb07
+    title: Amazon Connect now provides agent screen recording status tracking
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-agent-screen-recording-status-tracking
+    published: '2026-01-12'
+    summary: <p>Amazon Connect now offers customers the ability to view status of
+      agent screen recordings in near real time in CloudWatch using Amazon EventBridge.
+      With screen recording, supervisors can identify areas for agent coaching (e.g.,
+      non-compliance with business processes) by not only listening to customer calls
+      or reviewing chat transcripts, but also watching agents’ actions while handling
+      a contact (i.e., a voice call, chat and task). Using Amazon EventBridge, customers
+      can see status of each agent screen recording including success/failure, failure
+      codes with description, installed client version, agent web browser version,
+      agent operating system, screen recording start and end times from CloudWatch.<br
+      /> <br /> Customers can start using Amazon Connect screen recording status tracking
+      by subscribing to <i>Screen Recording Status Changed </i>event type in Amazon
+      EventBridge event bus.<br /> <br /> Screen recording status tracking is available
+      in all the <a href="https://docs.aws.amazon.com/general/latest/gr/connect_region.html"
+      target="_blank">AWS Regions</a> where Amazon Connect is already available. To
+      learn more about screen recording, please visit the <a href="https://docs.aws.amazon.com/connect/latest/adminguide/agent-screen-recording.html"
+      target="_blank">documentation</a> and <a href="https://aws.amazon.com/connect/contact-lens/"
+      target="_blank">webpage</a>. For information about screen recording pricing,
+      visit the <a href="https://aws.amazon.com/connect/pricing/" target="_blank">Amazon
+      Connect pricing page.</a></p>
+  06f0aa8037e9d34c33cdadc3915c6d57:
+    id: 06f0aa8037e9d34c33cdadc3915c6d57
+    title: Amazon Inspector adds Java Gradle support and expands ecosystem coverage
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-inspector-java-gradle-ecosystem/
+    published: '2026-01-12'
+    summary: <p>Amazon Inspector scanning for Lambda functions and Elastic Container
+      Registry (ECR) images now supports Java Gradle inventory and vulnerability scanning.
+      This release also adds coverage for MySQL, MariaDB, PHP, Jenkins-core, 7zip
+      (on Windows), Elasticsearch, and Curl/LibCurl. This update enhances Amazon Inspector's
+      ability to detect vulnerabilities and misconfigurations across a broader range
+      of applications and environments. Amazon Inspector is an automated vulnerability
+      management service that continually scans AWS workloads for software vulnerabilities
+      and unintended network exposure, helping organizations improve their security
+      posture and meet compliance requirements.<br /> <br /> The new Java Gradle support
+      allows Inspector to scan Java dependencies based on gradle.lockfile content,
+      providing comprehensive vulnerability assessments for Java applications. When
+      you use Inspector to scan Lambda functions and ECR images, you will now see
+      findings for MySQL, MariaDB, PHP, Jenkins-core, 7zip (on Windows), Elasticsearch,
+      and Curl/LibCurl installations. These enhancements enable more accurate detection
+      of vulnerabilities in packages installed outside of package managers, improving
+      overall security coverage for AWS customers using these technologies.<br />
+      <br /> To learn more about Amazon Inspector and how it can help secure your
+      AWS workloads, visit the <a href="https://aws.amazon.com/inspector/">Amazon
+      Inspector page</a>. For a full list of Amazon Inspector supported operating
+      systems and programming languages, see the <a href="https://docs.aws.amazon.com/inspector/latest/user/supported.html">user
+      guide</a>. You can start using these new features today in all AWS Regions where
+      Amazon Inspector is available.</p>
+last_updated: '2026-01-12T18:28:21.362803'
