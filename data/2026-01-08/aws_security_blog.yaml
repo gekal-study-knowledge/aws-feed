@@ -1,0 +1,14 @@
+entries:
+  84b51190c7331aedb45b6cd3cc66dcb2:
+    id: 84b51190c7331aedb45b6cd3cc66dcb2
+    title: 'Real-time malware defense: Leveraging AWS Network Firewall active threat
+      defense'
+    link: https://aws.amazon.com/blogs/security/real-time-malware-defense-leveraging-aws-network-firewall-active-threat-defense/
+    published: '2026-01-08'
+    summary: Cyber threats are evolving faster than traditional security defense can
+      respond; workloads with potential security issues are discovered by threat actors
+      within 90 seconds, with exploitation attempts beginning within 3 minutes. Threat
+      actors are quickly evolving their attack methodologies, resulting in new malware
+      variants, exploit techniques, and evasion tactics. They also rotate their infrastructure—IP
+      addresses, […]
+last_updated: '2026-01-12T11:22:41.438308'

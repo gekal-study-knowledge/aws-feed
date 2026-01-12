@@ -1,0 +1,24 @@
+entries:
+  80d2221012fc84230cb315ea4028759d:
+    id: 80d2221012fc84230cb315ea4028759d
+    title: AWS Private Certificate Authority now supports partitioned CRLs
+    link: https://aws.amazon.com/blogs/security/aws-private-certificate-authority-now-supports-partitioned-crls/
+    published: '2025-11-26'
+    summary: Public Key Infrastructure (PKI) is essential for securing and establishing
+      trust in digital communications. As you scale your digital operations, you’ll
+      issue and revoke certificates. Revoking certificates is useful especially when
+      employees leave, migrate to a new certificate authority hierarchy, meet compliance,
+      and respond to security incidents. Use the Certificate Revocation List (CRL)
+      or Online […]
+  0d6c7ab0a28243a3933e0c349a3a1c2c:
+    id: 0d6c7ab0a28243a3933e0c349a3a1c2c
+    title: How to use the Secrets Store CSI Driver provider Amazon EKS add-on with
+      Secrets Manager
+    link: https://aws.amazon.com/blogs/security/how-to-use-the-secrets-store-csi-driver-provider-amazon-eks-add-on-with-secrets-manager/
+    published: '2025-11-26'
+    summary: In this post, we introduce the AWS provider for the Secrets Store CSI
+      Driver, a new AWS Secrets Manager add-on for Amazon Elastic Kubernetes Service
+      (Amazon EKS) that you can use to fetch secrets from Secrets Manager and parameters
+      from AWS Systems Manager Parameter Store and mount them as files in Kubernetes
+      pods. The add-on […]
+last_updated: '2026-01-12T11:22:41.447457'

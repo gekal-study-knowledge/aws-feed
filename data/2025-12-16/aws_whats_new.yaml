@@ -1,0 +1,25 @@
+entries:
+  7b4a9dc51ec4915e0a60b981114189fe:
+    id: 7b4a9dc51ec4915e0a60b981114189fe
+    title: AWS IoT Device Management Commands now supports dynamic payloads
+    link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-iot-device-management-commands-dynamic-payload/
+    published: '2025-12-16'
+    summary: "<p>AWS IoT Device Management commands now supports dynamic payload functionality,\
+      \ enabling developers to create reusable command templates with placeholders\
+      \ that can be replaced with different values during command execution. The enhancement\
+      \ also includes parameter validation rules to verify that parameter values conform\
+      \ to specified criteria before execution. With this update, developers can now\
+      \ set parameters for the command during runtime, making it easier for them to\
+      \ re-use a command.<br /> <br /> This feature is ideal for scenarios where you\
+      \ need to send similar commands with different parameter values to your Internet\
+      \ of Things (IoT) devices. For example, instead of creating separate commands\
+      \ to set different temperature values of a thermostat, you can now create one\
+      \ template with a temperature placeholder and specify the actual value during\
+      \ runtime. This template-based approach helps streamline command management\
+      \ for applications, such as adjusting device configurations or controlling smart\
+      \ home devices with variable settings.&nbsp;</p> \n<p>AWS IoT Device Management\
+      \ commands with dynamic payload support is available in all AWS Regions where\
+      \ AWS IoT Device Management is currently available. To learn more about dynamic\
+      \ payloads and payload templates, visit AWS IoT <a href=\"https://docs.aws.amazon.com/iot/latest/developerguide/iot-remote-command.html\"\
+      >Device Management Commands Developer Guide</a>.</p>"
+last_updated: '2026-01-12T11:22:40.867994'

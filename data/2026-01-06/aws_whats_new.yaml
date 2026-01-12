@@ -1,0 +1,97 @@
+entries:
+  a07e85334df3e08f1f6d9f5be3ad853f:
+    id: a07e85334df3e08f1f6d9f5be3ad853f
+    title: AWS Marketplace Seller Reporting now provides collections visibility
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-marketplace-seller-reporting-collections/
+    published: '2026-01-06'
+    summary: <p>Today, AWS announces collection visibility in AWS Marketplace Seller
+      Reporting, which adds up-to-date payment collection status to the Billed Revenue
+      Dashboard and Billing Event Data Feed.<br /> <br /> This enhancement enables
+      sellers to distinguish between invoiced, collected, and disbursed amounts, eliminating
+      the visibility gap between invoice creation and disbursement. With this feature,
+      sellers can make informed business decisions and reduce unnecessary follow-ups
+      with customers about payment status.<br /> <br /> Collection visibility particularly
+      benefits sellers using monthly disbursement who previously waited up to 30 days
+      to understand payment collection status. All AWS Marketplace sellers can now
+      improve payment forecasting accuracy and detect collection issues earlier. This
+      enhanced visibility streamlines seller operations and improves customer relationships
+      by providing clarity on payment status.<br /> <br /> Collection visibility is
+      available in all AWS Regions where AWS Seller Reporting is available. The feature
+      launches on January 6th, 2026 for all AWS sellers.<br /> <br /> To access collection
+      visibility, log into the <a href="https://aws.amazon.com/marketplace/management/homepage/"
+      target="_blank">AWS Marketplace Management Portal</a> and navigate to Insights
+      → <a href="https://aws.amazon.com/marketplace/management/insights/finance" target="_blank">Finance
+      Operations</a></p>
+  072a11cead3e40c8709971d6b1341e71:
+    id: 072a11cead3e40c8709971d6b1341e71
+    title: Amazon ECS now supports tmpfs mounts on AWS Fargate and ECS Managed Instances
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-tmpfs-mounts-aws-fargate-managed-instances
+    published: '2026-01-06'
+    summary: <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
+      Container Service</a> (Amazon ECS) now supports tmpfs mounts for Linux tasks
+      running on AWS Fargate and Amazon ECS Managed Instances, extending beyond the
+      EC2 launch type. With tmpfs, you can now create memory‑backed file systems for
+      your containerized workloads without writing this data to task storage.<br />
+      <br /> tmpfs mounts provide a temporary file system that is backed by memory
+      and exposed inside the container at a path you choose. This is ideal for performance‑sensitive
+      workloads that need fast access to scratch files, caches, or temporary working
+      sets, and for security‑sensitive data such as short‑lived secrets or credentials,
+      because the data does not persist after the task stops. tmpfs also lets you
+      keep the container root file system read‑only using the readonlyRootFilesystem
+      setting while still allowing applications to write to specific in‑memory directories.<br
+      /> <br /> To get started, update your task definition so that the container
+      definitions include a linuxParameters block with one or more tmpfs entries.
+      For each tmpfs mount, specify the containerPath, size, and optional mountOptions.
+      You can register or update task definitions using the Amazon ECS console, AWS
+      CLI, AWS CloudFormation, or AWS CDK. This feature is available in all AWS Regions
+      where Amazon ECS, AWS Fargate, and Amazon ECS Managed Instances are supported.
+      To learn more, see the LinuxParameters and Tmpfs sections in the <a href="https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_Tmpfs.html"
+      target="_blank">Amazon ECS API Reference</a> and the <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html"
+      target="_blank">Amazon ECS Developer Guide</a>.</p>
+  4f7ba2d296502e4f73e2653413be2164:
+    id: 4f7ba2d296502e4f73e2653413be2164
+    title: Amazon MQ now supports HTTP based authentication for RabbitMQ brokers
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-http-based-rabbitmq-brokers/
+    published: '2026-01-06'
+    summary: <p>Amazon MQ now supports the ability for RabbitMQ brokers to perform
+      authentication (determining who can log in) and authorization (determining what
+      permissions they have) by making requests to an HTTP server. This plugin can
+      be configured on brokers running RabbitMQ 4.2 and above on Amazon MQ by making
+      changes to the associated configuration file.<br /> <br /> To start using HTTP
+      based authentication and authorization on Amazon MQ, simply select RabbitMQ
+      4.2 when creating a new broker using the m7g instance type through the AWS Management
+      console, AWS CLI, or AWS SDKs, and then edit the associated configuration file.
+      To learn more about the plugin, see the <a href="https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/amazon-mq-release-notes.html"
+      target="_blank">Amazon MQ release notes</a> and the Amazon MQ <a href="https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/working-with-rabbitmq.html"
+      target="_blank">developer guide</a>. This plugin is available in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/"
+      target="_blank">regions</a> where Amazon MQ RabbitMQ 4 instances are available
+      today.&nbsp;</p>
+  c8c8bd2777c19b819b0ccc62c336c1f9:
+    id: c8c8bd2777c19b819b0ccc62c336c1f9
+    title: AWS Config now supports 21 new resource types
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-config-new-resource-types
+    published: '2026-01-06'
+    summary: "<p>AWS Config now supports 21 additional AWS resource types across key\
+      \ services including Amazon EC2, Amazon SageMaker, and Amazon S3 Tables. This\
+      \ expansion provides greater coverage over your AWS environment, enabling you\
+      \ to more effectively discover, assess, audit, and remediate an even broader\
+      \ range of resources.<br /> <br /> With this launch, if you have enabled recording\
+      \ for all resource types, then AWS Config will automatically track these new\
+      \ additions. The newly supported resource types are also available in Config\
+      \ rules and Config aggregators.<br /> <br /> You can now use AWS Config to monitor\
+      \ the following newly supported resource types in all <a href=\"https://docs.aws.amazon.com/config/latest/developerguide/what-is-resource-config-coverage.html\"\
+      \ target=\"_blank\">AWS Regions</a> where the supported resources are available:<br\
+      \ /> <br /> Resource Types:<br /> </p> \n<table> \n <tbody>\n  <tr>\n   <td>AWS::AppStream::AppBlockBuilder</td>\
+      \ \n   <td>AWS::IoT::ThingGroup</td> \n  </tr>\n  <tr>\n   <td>AWS::B2BI::Capability</td>\
+      \ \n   <td>AWS::IoTSiteWise::Asset</td> \n  </tr>\n  <tr>\n   <td>AWS::CleanRoomsML::TrainingDataset</td>\
+      \ \n   <td>AWS::Location::APIKey</td> \n  </tr>\n  <tr>\n   <td>AWS::CloudFront::KeyValueStore</td>\
+      \ \n   <td>AWS::MediaPackageV2::OriginEndpoint</td> \n  </tr>\n  <tr>\n   <td>AWS::Connect::SecurityProfile</td>\
+      \ \n   <td>AWS::PCAConnectorAD::Connector</td> \n  </tr>\n  <tr>\n   <td>AWS::Deadline::Monitor</td>\
+      \ \n   <td>AWS::Route53::DNSSEC</td> \n  </tr>\n  <tr>\n   <td>AWS::EC2::SubnetCidrBlock</td>\
+      \ \n   <td>AWS::S3Tables::TableBucketPolicy</td> \n  </tr>\n  <tr>\n   <td>AWS::ECR::ReplicationConfiguration</td>\
+      \ \n   <td>AWS::SageMaker::UserProfile</td> \n  </tr>\n  <tr>\n   <td>AWS::GameLift::Build</td>\
+      \ \n   <td>AWS::SecretsManager::ResourcePolicy</td> \n  </tr>\n  <tr>\n   <td>AWS::GuardDuty::MalwareProtectionPlan&nbsp;\
+      \ &nbsp; &nbsp;&nbsp;</td> \n   <td>AWS::SSMContacts::Contact</td> \n  </tr>\n\
+      \  <tr>\n   <td>AWS::ImageBuilder::LifecyclePolicy</td> \n   <td>&nbsp;</td>\
+      \ \n  </tr>\n </tbody>\n</table>"
+last_updated: '2026-01-12T11:22:40.751961'

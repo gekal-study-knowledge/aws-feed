@@ -1,0 +1,24 @@
+entries:
+  8ca31bcf3c38bb99b85417f4b0780fac:
+    id: 8ca31bcf3c38bb99b85417f4b0780fac
+    title: Practical steps to minimize key exposure using AWS Security Services
+    link: https://aws.amazon.com/blogs/security/practical-steps-to-minimize-key-exposure-using-aws-security-services/
+    published: '2025-11-21'
+    summary: Exposed long-term credentials continue to be the top entry point used
+      by threat actors in security incidents observed by the AWS Customer Incident
+      Response Team (CIRT). The exposure and subsequent use of long-term credentials
+      or access keys by threat actors poses security risks in cloud environments.
+      Additionally, poor key rotation practices, sharing of access keys […]
+  17e7599798fd77ff00e69cafebf5a3cc:
+    id: 17e7599798fd77ff00e69cafebf5a3cc
+    title: Accelerate investigations with AWS Security Incident Response AI-powered
+      capabilities
+    link: https://aws.amazon.com/blogs/security/accelerate-investigations-with-aws-security-incident-response-ai-powered-capabilities/
+    published: '2025-11-21'
+    summary: If you’ve ever spent hours manually digging through AWS CloudTrail logs,
+      checking AWS Identity and Access Management (IAM) permissions, and piecing together
+      the timeline of a security event, you understand the time investment required
+      for incident investigation. Today, we’re excited to announce the addition of
+      AI-powered investigation capabilities to AWS Security Incident Response that
+      automate […]
+last_updated: '2026-01-12T11:22:41.450045'

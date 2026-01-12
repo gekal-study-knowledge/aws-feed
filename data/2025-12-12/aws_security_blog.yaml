@@ -1,0 +1,24 @@
+entries:
+  736f67d3c8ee91e5b5c734ff86862f1e:
+    id: 736f67d3c8ee91e5b5c734ff86862f1e
+    title: Implementing HTTP Strict Transport Security (HSTS) across AWS services
+    link: https://aws.amazon.com/blogs/security/implementing-http-strict-transport-security-hsts-across-aws-services/
+    published: '2025-12-12'
+    summary: Modern web applications built on Amazon Web Services (AWS) often span
+      multiple services to deliver scalable, performant solutions. However, customers
+      encounter challenges when implementing a cohesive HTTP Strict Transport Security
+      (HSTS) strategy across these distributed architectures. Customers face fragmented
+      security implementation challenges because different AWS services require distinct
+      approaches to HSTS configuration, leading to inconsistent […]
+  39ff5f5bd162c97f45c4d84f76603f2a:
+    id: 39ff5f5bd162c97f45c4d84f76603f2a
+    title: Meet digital sovereignty needs with AWS Dedicated Local Zones expanded
+      services
+    link: https://aws.amazon.com/blogs/security/meet-digital-sovereignty-needs-with-aws-dedicated-local-zones-expanded-services/
+    published: '2025-12-12'
+    summary: At Amazon Web Services (AWS), we continue to invest in and deliver digital
+      sovereignty solutions to help customers meet their most sensitive workload requirements.
+      To address the regulatory and digital sovereignty needs of public sector and
+      regulated industry customers, we launched AWS Dedicated Local Zones in 2023,
+      with the Government Technology Agency of Singapore (GovTech […]
+last_updated: '2026-01-12T11:22:41.441956'
