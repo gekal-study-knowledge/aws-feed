@@ -19,10 +19,15 @@ aws-feed/
 ├── config.yaml                # フィード設定ファイル
 ├── main.py                    # メインプログラム
 ├── requirements.txt           # Python依存パッケージ
-├── data/                      # 情報源ごとのYAMLデータ (自動生成)
-│   ├── aws_whats_new.yaml
-│   ├── aws_news_blog.yaml
-│   └── aws_security_blog.yaml
+├── data/                      # 日毎・情報源ごとのYAMLデータ (自動生成)
+│   ├── 2026-01-12/
+│   │   ├── aws_whats_new.yaml
+│   │   ├── aws_news_blog.yaml
+│   │   └── aws_security_blog.yaml
+│   ├── 2026-01-13/
+│   │   ├── aws_whats_new.yaml
+│   │   └── aws_news_blog.yaml
+│   └── ...
 └── daily_reports/             # 日単位のMarkdownレポート (自動生成)
     ├── 2026-01-12.md
     ├── 2026-01-13.md
@@ -107,7 +112,9 @@ feeds:
 
 ### データファイル (YAML)
 
-各情報源のエントリーは `data/` ディレクトリに保存されます:
+各情報源のエントリーは日毎に `data/YYYY-MM-DD/` ディレクトリに保存されます:
+
+**例**: `data/2026-01-12/aws_whats_new.yaml`
 
 ```yaml
 entries:
@@ -117,6 +124,12 @@ entries:
     link: "https://..."
     published: "2026-01-12"
     summary: "記事の概要"
+  def789ghi012:
+    id: def789ghi012
+    title: "別の記事のタイトル"
+    link: "https://..."
+    published: "2026-01-12"
+    summary: "別の記事の概要"
 last_updated: "2026-01-12T10:30:00"
 ```
 

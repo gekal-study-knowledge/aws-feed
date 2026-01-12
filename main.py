@@ -33,21 +33,43 @@ def generate_entry_id(entry: Any) -> str:
     return hashlib.md5(content.encode()).hexdigest()
 
 
-def load_source_data(source_id: str, data_dir: str) -> Dict[str, Any]:
-    """情報源ごとのYAMLデータを読み込む"""
-    data_file = Path(data_dir) / f"{source_id}.yaml"
+def load_daily_data(entry_date: date, source_id: str, data_dir: str) -> Dict[str, Any]:
+    """日毎・情報源ごとのYAMLデータを読み込む"""
+    date_dir = Path(data_dir) / entry_date.isoformat()
+    data_file = date_dir / f"{source_id}.yaml"
     if data_file.exists():
         with open(data_file, 'r', encoding='utf-8') as f:
             return yaml.safe_load(f) or {}
     return {}
 
 
-def save_source_data(source_id: str, data: Dict[str, Any], data_dir: str):
-    """情報源ごとのYAMLデータを保存する"""
-    Path(data_dir).mkdir(parents=True, exist_ok=True)
-    data_file = Path(data_dir) / f"{source_id}.yaml"
+def save_daily_data(entry_date: date, source_id: str, data: Dict[str, Any], data_dir: str):
+    """日毎・情報源ごとのYAMLデータを保存する"""
+    date_dir = Path(data_dir) / entry_date.isoformat()
+    date_dir.mkdir(parents=True, exist_ok=True)
+    data_file = date_dir / f"{source_id}.yaml"
     with open(data_file, 'w', encoding='utf-8') as f:
         yaml.dump(data, f, allow_unicode=True, sort_keys=False)
+
+
+def load_all_existing_ids(source_id: str, data_dir: str) -> set:
+    """特定の情報源の全ての既存エントリーIDを読み込む"""
+    existing_ids = set()
+    data_path = Path(data_dir)
+    if not data_path.exists():
+        return existing_ids
+
+    # 全ての日付ディレクトリを走査
+    for date_dir in data_path.iterdir():
+        if date_dir.is_dir():
+            data_file = date_dir / f"{source_id}.yaml"
+            if data_file.exists():
+                with open(data_file, 'r', encoding='utf-8') as f:
+                    daily_data = yaml.safe_load(f) or {}
+                    entries = daily_data.get('entries', {})
+                    existing_ids.update(entries.keys())
+
+    return existing_ids
 
 
 def parse_entry_date(entry: Any) -> date:
@@ -67,13 +89,12 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> List[Dict[str, A
     source_id = feed_config['source_id']
     feed = fetch_feed(feed_config['url'])
 
-    # 既存データを読み込む
-    existing_data = load_source_data(source_id, data_dir)
-    existing_ids = set(existing_data.get('entries', {}).keys())
+    # 既存の全エントリーIDを読み込む
+    existing_ids = load_all_existing_ids(source_id, data_dir)
 
-    # 新規エントリーを検出
+    # 新規エントリーを検出し、日付ごとに分類
     new_entries = []
-    entries_dict = existing_data.get('entries', {})
+    entries_by_date = {}
 
     for entry in feed.entries:
         entry_id = generate_entry_id(entry)
@@ -88,7 +109,12 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> List[Dict[str, A
                 'summary': entry.get('summary', '')
             }
 
-            entries_dict[entry_id] = entry_data
+            # 日付ごとに分類
+            if entry_date not in entries_by_date:
+                entries_by_date[entry_date] = {}
+
+            entries_by_date[entry_date][entry_id] = entry_data
+
             new_entries.append({
                 'source_name': feed_config['name'],
                 'source_id': source_id,
@@ -96,10 +122,19 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> List[Dict[str, A
                 **entry_data
             })
 
-    # データを保存
-    existing_data['entries'] = entries_dict
-    existing_data['last_updated'] = datetime.now().isoformat()
-    save_source_data(source_id, existing_data, data_dir)
+    # 日付ごとにデータを保存
+    for entry_date, entries_dict in entries_by_date.items():
+        # 既存の日次データを読み込む
+        daily_data = load_daily_data(entry_date, source_id, data_dir)
+
+        # 既存エントリーに新規エントリーを追加
+        if 'entries' not in daily_data:
+            daily_data['entries'] = {}
+        daily_data['entries'].update(entries_dict)
+        daily_data['last_updated'] = datetime.now().isoformat()
+
+        # 保存
+        save_daily_data(entry_date, source_id, daily_data, data_dir)
 
     return new_entries
 
