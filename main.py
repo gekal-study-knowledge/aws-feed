@@ -184,13 +184,51 @@ def generate_daily_markdown(entries: List[Dict[str, Any]], output_dir: str):
         print(f"Generated: {output_file}")
 
 
+def markdown_to_html(md_file: Path, html_file: Path):
+    """MarkdownファイルをHTMLに変換する"""
+    import markdown
+
+    with open(md_file, 'r', encoding='utf-8') as f:
+        md_content = f.read()
+
+    # MarkdownをHTMLに変換
+    html_content = markdown.markdown(md_content, extensions=['extra', 'codehilite'])
+
+    # HTMLテンプレートを作成
+    html_template = f"""<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Updates - {md_file.stem}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AWS Updates Feed</h1>
+            <p class="subtitle"><a href="index.html">← トップに戻る</a></p>
+        </header>
+        <main class="report-content">
+            {html_content}
+        </main>
+        <footer>
+            <p>自動更新: 1時間ごと | <a href="https://github.com/YOUR_USERNAME/aws-feed" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>"""
+
+    with open(html_file, 'w', encoding='utf-8') as f:
+        f.write(html_template)
+
+
 def generate_reports_index(output_dir: str, docs_dir: str):
-    """レポート一覧のJSONとHTMLページを生成する"""
+    """daily_reportsのMarkdownからHTMLを生成し、インデックスページを作成する"""
     Path(docs_dir).mkdir(parents=True, exist_ok=True)
 
-    # daily_reportsディレクトリ内の全Markdownファイルを取得
-    reports = []
     output_path = Path(output_dir)
+    reports = []
 
     if output_path.exists():
         for md_file in sorted(output_path.glob("*.md"), reverse=True):
@@ -199,27 +237,72 @@ def generate_reports_index(output_dir: str, docs_dir: str):
             # Markdownファイルを読み込んでエントリー数をカウント
             with open(md_file, 'r', encoding='utf-8') as f:
                 content = f.read()
-                # "###" で始まる行（記事タイトル）の数をカウント
                 entry_count = content.count('\n### ')
+
+            # HTMLファイルを生成
+            html_file = Path(docs_dir) / f"{date_str}.html"
+            markdown_to_html(md_file, html_file)
+            print(f"Generated: {html_file}")
 
             reports.append({
                 'date': date_str,
-                'url': f'../daily_reports/{md_file.name}',
+                'filename': f"{date_str}.html",
                 'count': entry_count
             })
 
-    # JSONファイルを生成
-    reports_json = {
-        'last_updated': datetime.now().isoformat(),
-        'reports': reports
-    }
+    # インデックスページを生成
+    index_html = generate_index_html(reports)
+    index_file = Path(docs_dir) / 'index.html'
+    with open(index_file, 'w', encoding='utf-8') as f:
+        f.write(index_html)
+    print(f"Generated: {index_file}")
 
-    json_file = Path(docs_dir) / 'reports.json'
-    import json
-    with open(json_file, 'w', encoding='utf-8') as f:
-        json.dump(reports_json, f, ensure_ascii=False, indent=2)
 
-    print(f"Generated: {json_file}")
+def generate_index_html(reports: List[Dict[str, Any]]) -> str:
+    """インデックスHTMLを生成する"""
+    reports_html = ""
+
+    if not reports:
+        reports_html = '<p class="no-reports">レポートがありません</p>'
+    else:
+        reports_html = '<div class="reports-grid">'
+        for report in reports:
+            date_obj = datetime.strptime(report['date'], '%Y-%m-%d').date()
+            formatted_date = date_obj.strftime('%Y年%m月%d日')
+            weekday = ['月', '火', '水', '木', '金', '土', '日'][date_obj.weekday()]
+
+            reports_html += f"""
+                <div class="report-card">
+                    <div class="report-date">{formatted_date} ({weekday})</div>
+                    <div class="report-count">{report['count']}件の更新</div>
+                    <a href="{report['filename']}" class="report-link">レポートを見る →</a>
+                </div>
+            """
+        reports_html += '</div>'
+
+    return f"""<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Updates Feed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AWS Updates Feed</h1>
+            <p class="subtitle">AWS公式フィードの日次まとめ</p>
+        </header>
+        <main>
+            {reports_html}
+        </main>
+        <footer>
+            <p>最終更新: {datetime.now().strftime('%Y年%m月%d日 %H:%M')} | 自動更新: 1時間ごと | <a href="https://github.com/YOUR_USERNAME/aws-feed" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>"""
 
 
 def main():

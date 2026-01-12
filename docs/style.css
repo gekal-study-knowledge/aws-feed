@@ -131,6 +131,81 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* レポートコンテンツのスタイル */
+.report-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.report-content h1 {
+    color: #333;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.report-content h2 {
+    color: #667eea;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    border-left: 4px solid #764ba2;
+    padding-left: 15px;
+}
+
+.report-content h3 {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.report-content p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.report-content ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.report-content li {
+    margin-bottom: 8px;
+}
+
+.report-content a {
+    color: #667eea;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.report-content a:hover {
+    text-decoration: underline;
+}
+
+.report-content hr {
+    border: none;
+    border-top: 1px solid #e9ecef;
+    margin: 30px 0;
+}
+
+.report-content strong {
+    color: #333;
+    font-weight: 600;
+}
+
+.subtitle a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.subtitle a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
@@ -146,5 +221,17 @@ footer a:hover {
 
     main {
         padding: 20px;
+    }
+
+    .report-content h1 {
+        font-size: 1.6rem;
+    }
+
+    .report-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .report-content h3 {
+        font-size: 1.2rem;
     }
 }
