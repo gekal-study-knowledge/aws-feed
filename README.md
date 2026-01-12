@@ -89,7 +89,7 @@ python main.py
 設定完了後、以下のURLでアクセス可能になります:
 
 ```
-https://YOUR_USERNAME.github.io/aws-feed/
+https://gekal-study-knowledge.github.io/aws-feed/
 ```
 
 ### 表示内容
