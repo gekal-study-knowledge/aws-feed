@@ -84,8 +84,8 @@ def parse_entry_date(entry: Any) -> date:
         return date.today()
 
 
-def process_feed(feed_config: Dict[str, str], data_dir: str) -> List[Dict[str, Any]]:
-    """フィードを処理して新規エントリーを抽出する"""
+def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[str, Any]], set]:
+    """フィードを処理して新規エントリーを抽出する。更新があった日付も返す。"""
     source_id = feed_config['source_id']
     feed = fetch_feed(feed_config['url'])
 
@@ -95,6 +95,7 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> List[Dict[str, A
     # 新規エントリーを検出し、日付ごとに分類
     new_entries = []
     entries_by_date = {}
+    updated_dates = set()
 
     for entry in feed.entries:
         entry_id = generate_entry_id(entry)
@@ -114,6 +115,7 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> List[Dict[str, A
                 entries_by_date[entry_date] = {}
 
             entries_by_date[entry_date][entry_id] = entry_data
+            updated_dates.add(entry_date)
 
             new_entries.append({
                 'source_name': feed_config['name'],
@@ -136,7 +138,7 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> List[Dict[str, A
         # 保存
         save_daily_data(entry_date, source_id, daily_data, data_dir)
 
-    return new_entries
+    return new_entries, updated_dates
 
 
 def generate_daily_markdown(entries: List[Dict[str, Any]], output_dir: str):
@@ -184,15 +186,39 @@ def generate_daily_markdown(entries: List[Dict[str, Any]], output_dir: str):
         print(f"Generated: {output_file}")
 
 
-def markdown_to_html(md_file: Path, html_file: Path):
-    """MarkdownファイルをHTMLに変換する"""
-    import markdown
+def generate_html_from_yaml(entry_date: date, data_dir: str, config: Dict[str, Any], html_file: Path):
+    """YAMLデータから直接HTMLを生成する"""
+    # 該当日付の全情報源のYAMLデータを読み込む
+    entries_by_source = {}
 
-    with open(md_file, 'r', encoding='utf-8') as f:
-        md_content = f.read()
+    for feed_config in config['feeds']:
+        source_id = feed_config['source_id']
+        source_name = feed_config['name']
 
-    # MarkdownをHTMLに変換
-    html_content = markdown.markdown(md_content, extensions=['extra', 'codehilite'])
+        daily_data = load_daily_data(entry_date, source_id, data_dir)
+        if daily_data.get('entries'):
+            entries = []
+            for entry_id, entry_data in daily_data['entries'].items():
+                entries.append(entry_data)
+
+            # 公開日順にソート
+            entries.sort(key=lambda x: x['published'])
+            entries_by_source[source_name] = entries
+
+    # HTMLコンテンツを生成
+    html_content = f'<h1>AWS Updates - {entry_date.isoformat()}</h1>\n\n'
+
+    for source_name, entries in entries_by_source.items():
+        html_content += f'<h2>{source_name}</h2>\n\n'
+        for entry in entries:
+            html_content += f'<h3>{entry["title"]}</h3>\n\n'
+            html_content += f'<ul>\n'
+            html_content += f'<li><strong>Link</strong>: <a href="{entry["link"]}">{entry["link"]}</a></li>\n'
+            html_content += f'<li><strong>Published</strong>: {entry["published"]}</li>\n'
+            html_content += f'</ul>\n\n'
+            if entry.get('summary'):
+                html_content += f'<p>{entry["summary"]}</p>\n\n'
+            html_content += f'<hr>\n\n'
 
     # HTMLテンプレートを作成
     html_template = f"""<!DOCTYPE html>
@@ -200,7 +226,7 @@ def markdown_to_html(md_file: Path, html_file: Path):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWS Updates - {md_file.stem}</title>
+    <title>AWS Updates - {entry_date.isoformat()}</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -223,26 +249,46 @@ def markdown_to_html(md_file: Path, html_file: Path):
         f.write(html_template)
 
 
-def generate_reports_index(output_dir: str, docs_dir: str):
-    """daily_reportsのMarkdownからHTMLを生成し、インデックスページを作成する"""
+def generate_reports_index(data_dir: str, docs_dir: str, config: Dict[str, Any], updated_dates: set = None):
+    """YAMLデータからHTMLを生成し、インデックスページを作成する。updated_datesが指定されている場合は該当日のみ更新。"""
     Path(docs_dir).mkdir(parents=True, exist_ok=True)
 
-    output_path = Path(output_dir)
+    data_path = Path(data_dir)
     reports = []
 
-    if output_path.exists():
-        for md_file in sorted(output_path.glob("*.md"), reverse=True):
-            date_str = md_file.stem
+    if data_path.exists():
+        # 全ての日付ディレクトリを取得
+        date_dirs = sorted([d for d in data_path.iterdir() if d.is_dir()], reverse=True)
 
-            # Markdownファイルを読み込んでエントリー数をカウント
-            with open(md_file, 'r', encoding='utf-8') as f:
-                content = f.read()
-                entry_count = content.count('\n### ')
+        for date_dir in date_dirs:
+            date_str = date_dir.name
+
+            try:
+                entry_date = datetime.strptime(date_str, '%Y-%m-%d').date()
+            except ValueError:
+                continue
+
+            # updated_datesが指定されている場合、該当日のみ処理
+            if updated_dates is not None and entry_date not in updated_dates:
+                # 既存HTMLがある場合はエントリー数だけカウント
+                html_file = Path(docs_dir) / f"{date_str}.html"
+                if html_file.exists():
+                    # エントリー数を計算
+                    entry_count = count_entries_for_date(entry_date, data_dir, config)
+                    reports.append({
+                        'date': date_str,
+                        'filename': f"{date_str}.html",
+                        'count': entry_count
+                    })
+                continue
 
             # HTMLファイルを生成
             html_file = Path(docs_dir) / f"{date_str}.html"
-            markdown_to_html(md_file, html_file)
+            generate_html_from_yaml(entry_date, data_dir, config, html_file)
             print(f"Generated: {html_file}")
+
+            # エントリー数を計算
+            entry_count = count_entries_for_date(entry_date, data_dir, config)
 
             reports.append({
                 'date': date_str,
@@ -256,6 +302,17 @@ def generate_reports_index(output_dir: str, docs_dir: str):
     with open(index_file, 'w', encoding='utf-8') as f:
         f.write(index_html)
     print(f"Generated: {index_file}")
+
+
+def count_entries_for_date(entry_date: date, data_dir: str, config: Dict[str, Any]) -> int:
+    """特定の日付のエントリー数をカウントする"""
+    total_count = 0
+    for feed_config in config['feeds']:
+        source_id = feed_config['source_id']
+        daily_data = load_daily_data(entry_date, source_id, data_dir)
+        if daily_data.get('entries'):
+            total_count += len(daily_data['entries'])
+    return total_count
 
 
 def generate_index_html(reports: List[Dict[str, Any]]) -> str:
@@ -311,12 +368,16 @@ def main():
     config = load_config()
     data_dir = config.get('data_dir', 'data')
     output_dir = config.get('output_dir', 'daily_reports')
+    docs_dir = config.get('docs_dir', 'docs')
 
-    # 全ての新規エントリーを収集
+    # 全ての新規エントリーと更新された日付を収集
     all_new_entries = []
+    all_updated_dates = set()
+
     for feed_config in config['feeds']:
-        new_entries = process_feed(feed_config, data_dir)
+        new_entries, updated_dates = process_feed(feed_config, data_dir)
         all_new_entries.extend(new_entries)
+        all_updated_dates.update(updated_dates)
         print(f"Found {len(new_entries)} new entries from {feed_config['name']}")
 
     # 新規エントリーがあれば日単位のMarkdownを生成
@@ -326,9 +387,13 @@ def main():
     else:
         print("\nNo new entries found")
 
-    # GitHub Pages用のインデックスを生成
-    docs_dir = config.get('docs_dir', 'docs')
-    generate_reports_index(output_dir, docs_dir)
+    # GitHub Pages用のHTMLを生成（更新があった日付のみ）
+    if all_updated_dates:
+        print(f"\nUpdating HTML for dates: {sorted([d.isoformat() for d in all_updated_dates])}")
+        generate_reports_index(data_dir, docs_dir, config, all_updated_dates)
+    else:
+        # 更新がない場合でもインデックスページは生成（初回実行時など）
+        generate_reports_index(data_dir, docs_dir, config)
 
 
 if __name__ == '__main__':
