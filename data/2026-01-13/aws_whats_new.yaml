@@ -70,4 +70,38 @@ entries:
       On-Demand instances, and Spot instances. To get started, sign in to the AWS
       Management Console. For more information visit the Amazon EC2 <a href="https://aws.amazon.com/ec2/instance-types/x8aedz">X8aedz
       instance page</a>.</p>
-last_updated: '2026-01-13T20:21:21.406621'
+  41be9216f12f93abcd296d79ae981ddd:
+    id: 41be9216f12f93abcd296d79ae981ddd
+    title: Amazon Connect Cases now supports AWS CloudFormation
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-aws-cloudformation/
+    published: '2026-01-13'
+    summary: '<p>Amazon Connect Cases now supports AWS CloudFormation, enabling you
+      to model, provision, and manage case resources as infrastructure as code. With
+      this launch, administrators can create CloudFormation templates to programmatically
+      deploy and update their Cases configuration—such as templates, fields, and layouts—across
+      Amazon Connect instances, reducing manual setup time and minimizing configuration
+      errors.<br /> <br /> Amazon Connect Cases is available in the following AWS
+      Regions: US East (N. Virginia), US West (Oregon), Canada (Central), Europe (Frankfurt),
+      Europe (London), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific
+      (Sydney), Asia Pacific (Tokyo), and Africa (Cape Town). To learn more and get
+      started, visit the Amazon Connect Cases <a href="https://aws.amazon.com/connect/cases/">webpage</a>
+      and <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/AWS_Cases.html">documentation</a>.</p>'
+  ac7955f41a5f99efc3546fa01f0fc049:
+    id: ac7955f41a5f99efc3546fa01f0fc049
+    title: Amazon Lex launches improved speech recognition models for English
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lex-improved-speech-recognition-models-english
+    published: '2026-01-13'
+    summary: <p>Amazon Lex now offers a neural automatic speech recognition (ASR)
+      model for English that delivers improved recognition accuracy for your voice
+      bots. Trained on data from multiple English locales, the model excels at recognizing
+      conversational speech patterns across diverse speaking styles, including non-native
+      English speakers and regional accents. This reduces the need for end-customers
+      to repeat themselves and improves self-service success rates. To enable this
+      feature, select "Neural" as the speech recognition option in your bot's locale
+      settings.<br /> <br /> This feature is available in all AWS commercial regions
+      where Amazon Connect and Lex operate. To learn more, visit the <a href="https://docs.aws.amazon.com/lexv2/latest/dg/customizing-speech-model-preferences.html"
+      target="_blank">Amazon Lex documentation</a> or explore the Amazon Connect <a
+      href="https://aws.amazon.com/connect/self-service/" target="_blank">website</a>
+      to learn how Amazon Connect and Amazon Lex deliver seamless end-customer self-service
+      experiences.&nbsp;</p>
+last_updated: '2026-01-13T22:18:59.383533'
