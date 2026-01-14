@@ -273,4 +273,33 @@ entries:
       https://aws.amazon.com/wickr/\" style=\"cursor: pointer;\">AWS Wickr Product\
       \ Page</a></li> \n <li><a href=\"https://docs.aws.amazon.com/wickr/latest/adminguide/what-is-wickr.html\"\
       \ style=\"cursor: pointer;\">AWS Wickr Administrator Guide</a></li> \n</ul>"
-last_updated: '2026-01-12T11:22:40.786693'
+  e46ef648de7ecbd0f639e71f29706327:
+    id: e46ef648de7ecbd0f639e71f29706327
+    title: Amazon ECS Service Connect enhances observability with Envoy access logs
+      in AWS GovCloud (US) Regions
+    link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-service-connect-observability-envoy-access-logs-govcloud-regions
+    published: '2025-12-22'
+    summary: <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
+      Container Service</a> (Amazon ECS) Service Connect now supports Envoy access
+      logs, providing deeper observability into request-level traffic patterns and
+      service interactions. This new capability captures detailed per-request telemetry
+      for end-to-end tracing, debugging, and compliance monitoring.<br /> <br /> Amazon
+      ECS Service Connect makes it simple to build secure, resilient service-to-service
+      communication across clusters, VPCs, and AWS accounts. It integrates service
+      discovery and service mesh capabilities by automatically injecting AWS-managed
+      Envoy proxies as sidecars that handle traffic routing, load balancing, and inter-service
+      connectivity. Envoy Access logs capture detailed traffic metadata enabling request-level
+      visibility into service communication patterns. This enables you to perform
+      network diagnostics, troubleshoot issues efficiently, and maintain audit trails
+      for compliance requirements.<br /> <br /> You can now configure access logs
+      within ECS Service Connect by updating the ServiceConnectConfiguration to enable
+      access logging. Query strings are redacted by default to protect sensitive data.
+      Envoy access logs will output to the standard output (STDOUT) stream alongside
+      application logs and flow through the existing ECS log pipeline without requiring
+      additional infrastructure. This configuration supports all existing application
+      protocols (HTTP, HTTP2, GRPC and TCP).&nbsp;This feature is available with both
+      Fargate and EC2 launch modes in AWS GovCloud (US-West) and AWS GovCloud (US-East)
+      regions via the AWS Management Console, API, SDK, CLI, and CloudFormation. To
+      learn more, visit the <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect-envoy-access-logs.html"
+      target="_blank">Amazon ECS Developer Guide</a>.</p>
+last_updated: '2026-01-14T20:18:24.156565'
