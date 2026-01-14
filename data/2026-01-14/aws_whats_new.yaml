@@ -25,4 +25,35 @@ entries:
       Europe (Ireland) To learn more, refer to the <a href="https://docs.aws.amazon.com/iot-mi/latest/devguide/what-is-managedintegrations.html">developer
       guide</a> and get started on the <a href="https://console.aws.amazon.com/iot/home">AWS
       IoT console</a>.</p>
-last_updated: '2026-01-14T17:24:37.653690'
+  dc1662e5f6499e1cec7ab2f33a6bd8a2:
+    id: dc1662e5f6499e1cec7ab2f33a6bd8a2
+    title: Amazon VPC IPAM policies now support RDS and Application Load Balancers
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-vpc-ipam-policies-rds-alb/
+    published: '2026-01-14'
+    summary: <p>Amazon Virtual Private Cloud (VPC) IP Address Manager (IPAM) now supports
+      policies for Amazon Relational Database Service (RDS) instances and Application
+      Load Balancers (ALB). This feature enables IP administrators to centrally configure
+      and enforce IP allocation strategies for these resources, improving operational
+      posture and simplifying network and security management.<br /> <br /> Using
+      IPAM policies, IP administrators can centrally define public IP allocation rules
+      for AWS resources, such as RDS instances, Application Load Balancers and Network
+      Address Translation (NAT) Gateways when used in regional availability mode,
+      and Elastic IP addresses. The IP allocation policy configured centrally cannot
+      be superseded by individual application teams, ensuring compliance at all times.
+      Before this feature, IP administrators had to educate database administrators
+      and application developers about IP allocation requirements for RDS instances
+      and Application Load Balancers, and rely on them to always comply with best
+      practices. Now, you can add IP-based filters for RDS and ALB traffic in your
+      networking and security constructs like access control lists, route tables,
+      security groups, and firewalls, with confidence that public IPv4 address assignments
+      to these resources always come from specific IPAM pools.<br /> <br /> The feature
+      is available in all AWS commercial regions and the AWS GovCloud (US) Regions,
+      in both Free Tier and Advanced Tier of VPC IPAM. When used with the Advanced
+      Tier of VPC IPAM, customers can set policies across AWS accounts and AWS regions.
+      To get started please see the <a href="https://docs.aws.amazon.com/vpc/latest/ipam/define-public-ipv4-allocation-strategy-with-ipam-policies.html"
+      target="_blank">IPAM policies documentation page</a>.<br /> <br /> To learn
+      more about IPAM, view the <a href="https://docs.aws.amazon.com/vpc/latest/ipam/what-it-is-ipam.html"
+      target="_blank">IPAM documentation</a>. For details on pricing, refer to the
+      IPAM tab on the <a href="https://www.amazonaws.cn/en/vpc/pricing/" target="_blank">Amazon
+      VPC Pricing Page</a>.</p>
+last_updated: '2026-01-14T18:29:12.638971'
