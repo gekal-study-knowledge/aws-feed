@@ -239,7 +239,7 @@ def generate_html_from_yaml(entry_date: date, data_dir: str, config: Dict[str, A
             {html_content}
         </main>
         <footer>
-            <p>自動更新: 1時間ごと | <a href="https://github.com/YOUR_USERNAME/aws-feed" target="_blank">GitHub</a></p>
+            <p>自動更新: 1時間ごと | <a href="https://github.com/gekal-study-knowledge/aws-feed" target="_blank">GitHub</a></p>
         </footer>
     </div>
 </body>
@@ -355,7 +355,7 @@ def generate_index_html(reports: List[Dict[str, Any]]) -> str:
             {reports_html}
         </main>
         <footer>
-            <p>最終更新: {datetime.now().strftime('%Y年%m月%d日 %H:%M')} | 自動更新: 1時間ごと | <a href="https://github.com/YOUR_USERNAME/aws-feed" target="_blank">GitHub</a></p>
+            <p>最終更新: {datetime.now().strftime('%Y年%m月%d日 %H:%M')} | 自動更新: 1時間ごと | <a href="https://github.com/gekal-study-knowledge/aws-feed" target="_blank">GitHub</a></p>
         </footer>
     </div>
 </body>
