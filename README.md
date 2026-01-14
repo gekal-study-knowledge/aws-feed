@@ -44,7 +44,7 @@ aws-feed/
 ### 1. リポジトリのクローン
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/gekal-study-knowledge/aws-feed.git
 cd aws-feed
 ```
 
