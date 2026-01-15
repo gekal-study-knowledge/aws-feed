@@ -60,4 +60,28 @@ entries:
       and supervisors.<br /> <br /> This feature is available in all <a href="https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#optimization_region">AWS
       Regions</a> where Amazon Connect agent scheduling is available. To learn more
       about Amazon Connect agent scheduling, click <a href="https://docs.aws.amazon.com/connect/latest/adminguide/forecasting-capacity-planning-scheduling.html">here</a>.</p>
-last_updated: '2026-01-15T18:32:09.135757'
+  151e00da9a8bd4c459687b407e355c3b:
+    id: 151e00da9a8bd4c459687b407e355c3b
+    title: Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL
+      Server
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-cu-gdr-updates-microsoft-sql-server
+    published: '2026-01-15'
+    summary: <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
+      Relational Database Service (Amazon RDS) for SQL Server </a>now supports the
+      latest General Distribution Release (GDR) updates for Microsoft SQL Server.
+      This release includes support for Microsoft SQL Server 2016 SP3+GDR <a href="https://support.microsoft.com/help/5068401"
+      target="_blank">KB5068401</a> (RDS version 13.00.6475.1.v1), SQL Server 2017
+      CU31+GDR <a href="https://support.microsoft.com/help/5068402" target="_blank">KB5068402</a>
+      (RDS version 14.00.3515.1.v1), SQL Server 2019 CU32+GDR <a href="https://support.microsoft.com/help/5068404"
+      target="_blank">KB5068404</a> (RDS version 15.00.4455.2.1.v1) and SQL Server
+      2022 CU22 <a href="https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate22"
+      target="_blank">KB5068450</a> (RDS version 16.00.4225.2.1.v1).<br /> <br />
+      The GDR updates address vulnerabilities described in CVE-2025-59499. For additional
+      information on the improvements and fixes included in these updates, see Microsoft
+      documentation for KB5068401, KB5068402, KB5068404, KB5068450. We recommend that
+      you upgrade your Amazon RDS for SQL Server instances to apply these updates
+      using Amazon RDS Management Console, or by using the AWS SDK or CLI. You can
+      learn more about upgrading your database instance in the <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.SQLServer.html"
+      target="_blank">Amazon RDS SQL Server User Guide for upgrading your RDS Microsoft
+      SQL Server DB engine</a>.</p>
+last_updated: '2026-01-15T20:21:46.582247'
