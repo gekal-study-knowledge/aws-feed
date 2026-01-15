@@ -84,4 +84,29 @@ entries:
       learn more about upgrading your database instance in the <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.SQLServer.html"
       target="_blank">Amazon RDS SQL Server User Guide for upgrading your RDS Microsoft
       SQL Server DB engine</a>.</p>
-last_updated: '2026-01-15T20:21:46.582247'
+  b3ddf57f721ac4984cb30c501021608c:
+    id: b3ddf57f721ac4984cb30c501021608c
+    title: AWS Clean Rooms now supports parameters in PySpark analysis templates
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-parameters-pyspark-analysis-templates/
+    published: '2026-01-15'
+    summary: "<p>AWS Clean Rooms announces support for parameters in PySpark analysis\
+      \ templates, offering increased flexibility for organizations and their partners\
+      \ to scale their privacy-enhanced data collaboration use cases. With this launch,\
+      \ you can create a single <a href=\"https://docs.aws.amazon.com/clean-rooms/latest/userguide/pyspark-analysis-templates.html\"\
+      \ target=\"_blank\">PySpark analysis template</a> that allows different values\
+      \ to be provided by the Clean Rooms collaborator running a job at submission\
+      \ time without modifying the template code. With parameters in PySpark analysis\
+      \ templates, the code author creates a PySpark template with parameters support,\
+      \ and if approved to run, the job runner submits parameter values directly to\
+      \ the PySpark job. For example, a measurement company running attribution analysis\
+      \ for advertising campaigns can input time windows and geographic regions dynamically\
+      \ to surface insights that drive campaign optimizations and media planning accelerating\
+      \ time-to-insights.</p> \n<p><br /> With AWS Clean Rooms, customers can create\
+      \ a secure data clean room in minutes and collaborate with any company on AWS\
+      \ or Snowflake to generate unique insights about advertising campaigns, investment\
+      \ decisions, and research and development. For more information about the AWS\
+      \ Regions where AWS Clean Rooms is available, see the <a href=\"https://docs.aws.amazon.com/general/latest/gr/clean-rooms.html#clean-rooms_region\"\
+      \ target=\"_blank\">AWS Regions</a> table. To learn more about collaborating\
+      \ with AWS Clean Rooms, visit <a href=\"https://aws.amazon.com/clean-rooms/\"\
+      \ target=\"_blank\">AWS Clean Rooms</a>.</p>"
+last_updated: '2026-01-15T21:18:44.972574'
