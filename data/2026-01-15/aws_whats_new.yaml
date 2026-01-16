@@ -237,4 +237,51 @@ entries:
       \ href=\"https://docs.aws.amazon.com/ebs/latest/userguide/ebs-modify-volume.html\"\
       >Modify an Amazon EBS volume using Elastic Volumes operations</a>&nbsp;in the\
       \ Amazon EBS User Guide.<br /> </p>"
-last_updated: '2026-01-15T23:18:13.694238'
+  f78646416a9617e61b675ce9a2adeed6:
+    id: f78646416a9617e61b675ce9a2adeed6
+    title: Amazon S3 on Outposts is now available on second-generation AWS Outposts
+      racks
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-s3-second-generation-aws-outposts-racks
+    published: '2026-01-15'
+    summary: '<p>Amazon S3 on Outposts is now available on second-generation AWS Outposts
+      racks for your data residency, low latency, and local data processing use cases
+      on-premises. S3 on Outposts on second-generation Outposts racks offers three
+      storage tiers: 196 TB, 490 TB, and 786 TB. Choose the storage tier that matches
+      your workload, whether for production workloads, backups, or archival workloads.<br
+      /> <br /> With S3 on Outposts, you can store, secure, retrieve, and control
+      access to your data using familiar S3 APIs and features. AWS Outposts is a fully
+      managed service that extends AWS infrastructure, services, and tools to virtually
+      any data center, co-location space, or on-premises facility for a consistent
+      hybrid experience.<br /> <br /> S3 on Outposts on second-generation Outposts
+      racks is available in all AWS Regions and countries/territories where these
+      <a href="https://aws.amazon.com/outposts/faqs/" target="_blank">racks are available</a>.
+      To learn more, visit the <a href="https://aws.amazon.com/s3/outposts/" target="_blank">S3
+      on Outposts page</a> or read our <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/S3onOutposts.html"
+      target="_blank">documentation</a>.</p>'
+  8eab1bc188a1645662f757d18ad8c4bb:
+    id: 8eab1bc188a1645662f757d18ad8c4bb
+    title: AWS Data Exports  adds granular operation visibility for Amazon Bedrock
+      model usage
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/granular-amazon-bedrock/
+    published: '2026-01-15'
+    summary: <p>AWS Data Exports now enables customers to distinguish between Amazon
+      Bedrock operation types in their cost reports for enhanced cost analysis and
+      optimization. This granular operation information is available in Cost and Usage
+      Reports (CUR), CUR 2.0, and Data Exports for FOCUS, and is particularly valuable
+      for FinOps teams, cost optimization professionals, and organizations using Amazon
+      Bedrock that require detailed billing analysis.<br /> <br /> Customers will
+      now see specific operation types such as "InvokeModelInference" and "InvokeModelStreamingInference"
+      in their cost reports, replacing generic "Usage" labels. These granular operation
+      types appear in the "line_item_operation" column in Legacy CUR and CUR 2.0 reports,
+      the "x_Operation" column in FOCUS reports, and AWS Cost Explorer API Operation
+      dimension values. This visibility now extends to all foundation models on Amazon
+      Bedrock, enabling precise tracking of usage patterns and cost optimization opportunities
+      across all model providers.<br /> <br /> To learn more about AWS Billing and
+      Cost Management, visit the <a href="https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html">AWS
+      Billing and Cost Management documentation</a>, and for AWS Data Exports, visit
+      the <a href="https://docs.aws.amazon.com/cur/latest/userguide/what-is-data-exports.html">AWS
+      Data Exports documentation</a>. To get started with Amazon Bedrock, visit the
+      <a href="https://aws.amazon.com/bedrock/">Amazon Bedrock page</a> and see the
+      <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html">Amazon
+      Bedrock documentation</a> for more details.</p>
+last_updated: '2026-01-16T01:24:33.968797'
