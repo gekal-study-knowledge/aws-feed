@@ -1,0 +1,29 @@
+entries:
+  ad8168d04393d73e328153777270bead:
+    id: ad8168d04393d73e328153777270bead
+    title: Amazon S3 Storage Lens is now available in AWS GovCloud (US) Regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/s3-storage-lens-aws-govcloud-us-regions/
+    published: '2026-01-16'
+    summary: <p>Amazon S3 Storage Lens provides organization-wide visibility into
+      your storage usage and activity. S3 Storage Lens is now available in AWS GovCloud
+      (US) Regions, bringing metrics to help you optimize storage costs, identify
+      data protection opportunities, and improve application performance.<br /> <br
+      /> S3 Storage Lens provides a single view of object storage usage and activity
+      across thousands of accounts in an organization, with drill-downs to generate
+      insights at multiple aggregation levels. You can optimize storage costs by identifying
+      prefixes with incomplete multipart uploads or buckets accumulating non-current
+      object versions. You can identify buckets that don’t follow your data protection
+      best practices, such as using S3 Cross-Region Replication to replicate data
+      across AWS Regions or S3 Versioning to keep multiple versions of an object.
+      With the newly added performance metrics, you can identify application performance
+      constraints—for example, using request and object size distribution metrics
+      to detect inefficient access patterns or tracking cross-Region data transfer
+      to reduce latency and costs.<br /> <br /> Amazon S3 Storage Lens is available
+      in all AWS Regions. S3 Storage Lens is pre-configured to receive free metrics
+      by default for all customers and 14 days of historical data. For more detailed
+      visibility with up to 15 months data retention, you can upgrade to S3 Storage
+      Lens advanced metrics. To learn more about S3 Storage Lens metrics, including
+      free and advanced metrics, refer to the <a href="https://docs.amazonaws.cn/en_us/AmazonS3/latest/userguide/storage_lens_view_metrics.html">documentation</a>.
+      For S3 Storage Lens Advanced pricing details, visit the <a href="https://www.amazonaws.cn/en/s3/pricing/">Amazon
+      S3 pricing page</a>.</p>
+last_updated: '2026-01-16T18:28:09.614169'
