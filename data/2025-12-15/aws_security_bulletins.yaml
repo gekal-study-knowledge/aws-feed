@@ -1,0 +1,18 @@
+entries:
+  daebda30295a8fc2e9ca697725b1fad0:
+    id: daebda30295a8fc2e9ca697725b1fad0
+    title: Overly Permissive Trust Policy in Harmonix on AWS EKS
+    link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-031/
+    published: '2025-12-15'
+    summary: "<p><b>Bulletin ID:</b> AWS-2025-031<br /> <b>Scope:</b> AWS<br /> <b>Content\
+      \ Type:</b> Informational<br /> <b>Publication Date:</b> 2025/12/15 11:45 AM\
+      \ PST</p> \n<p><b>Description:</b></p> \n<p>Harmonix on AWS is an open source\
+      \ reference architecture and implementation of a Developer Platform that extends\
+      \ the CNCF Backstage project. We identified CVE-2025-14503 where an overly-permissive\
+      \ IAM trust policy in the Harmonix on AWS framework may allow authenticated\
+      \ users to escalate privileges via role assumption. The sample code for the\
+      \ EKS environment provisioning role is configured to trust the account root\
+      \ principal, which may enable any account principal with sts:AssumeRole permissions\
+      \ to assume the role with administrative privileges.</p> \n<p><b>Resolution:</b></p>\
+      \ \n<p>v0.3.0 through v0.4.1</p>"
+last_updated: '2026-01-17T00:23:07.325057'

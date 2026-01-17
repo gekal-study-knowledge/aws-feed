@@ -176,4 +176,26 @@ entries:
       custom, visit the <a href="https://aws.amazon.com/transform/custom/" target="_blank"><u>product
       page</u></a> and <a href="https://docs.aws.amazon.com/transform/latest/userguide/custom.html"
       target="_blank"><u>user guide</u></a>.</p>
-last_updated: '2026-01-14T23:15:51.380603'
+  7d96f987c673cf021bfc8dfe35023810:
+    id: 7d96f987c673cf021bfc8dfe35023810
+    title: Amazon VPC Route Server now available in new regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-vpc-route-server-available-new-regions
+    published: '2026-01-14'
+    summary: '<p>Amazon VPC Route Server is now available in 16 new regions in addition
+      to the 14 existing ones.<br /> <br /> VPC Route Server simplifies dynamic routing
+      between virtual appliances in your Amazon VPC. It allows you to advertise routing
+      information through Border Gateway Protocol (BGP) from virtual appliances and
+      dynamically update the VPC route tables associated with subnets and internet
+      gateway.<br /> <br /> With this launch, Amazon VPC Route Server is available
+      in 30 AWS Regions: US East (Virginia), US East (Ohio), US West (Oregon), Europe
+      (Ireland), Europe (Frankfurt), Asia Pacific (Tokyo), US West (N. California),
+      Canada West (Calgary), Asia Pacific (Malaysia), Europe (Milan), Europe (Paris),
+      Asia Pacific (Sydney), Europe (London), Canada (Central), Mexico (Central),&nbsp;South
+      America (Sao Paulo),Asia Pacific (Seoul), Europe (Zurich), Europe (Stockholm),
+      Middle East (UAE), Israel (Tel Aviv), Asia Pacific (Taipei), Asia Pacific (New
+      Zealand), Asia Pacific (Melbourne), Middle East (Bahrain), Asia Pacific (Jakarta),
+      Africa (Cape Town), Asia Pacific (Hong Kong), Asia Pacific (Osaka) and Asia
+      Pacific (Thailand). To learn more about Amazon VPC Route Server, visit this
+      <a href="https://docs.aws.amazon.com/vpc/latest/userguide/route-server-how-it-works.html"
+      target="_blank">page</a>.</p>'
+last_updated: '2026-01-17T00:23:06.581095'

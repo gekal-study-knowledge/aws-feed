@@ -1,0 +1,19 @@
+entries:
+  5f61068fb8ffbf0558578fef52fe9179:
+    id: 5f61068fb8ffbf0558578fef52fe9179
+    title: Privilege Escalation in Aurora PostgreSQL using AWS JDBC Wrapper, AWS Go
+      Wrapper, AWS NodeJS Wrapper, AWS Python Wrapper, AWS PGSQL ODBC driver
+    link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-028/
+    published: '2025-11-10'
+    summary: "<p><b>Bulletin ID:</b> AWS-2025-028<br /> <b>Scope:</b> AWS<br /> <b>Content\
+      \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/11/10\
+      \ 10:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon Aurora PostgreSQL\
+      \ a fully managed relational database engine that's compatible with PostgreSQL.</p>\
+      \ \n<p>We identified CVE-2025-12967, an issue in AWS Wrappers for Amazon Aurora\
+      \ PostgreSQL may allow for privilege escalation to rds_superuser role. A low\
+      \ privilege authenticated user can create a crafted function that could be executed\
+      \ with permissions of other Amazon Relational Database Service (RDS) users.</p>\
+      \ \n<p><b>Impacted versions:</b></p> \n<p>- AWS JDBC Wrapper &lt;2.6.5<br />\
+      \ - AWS Go Wrapper &lt;2025-10-17<br /> - AWS NodeJS Wrapper &lt;2.0.1<br />\
+      \ - AWS Python Wrapper &lt;1.4.0<br /> - AWS ODBC driver &lt;1.0.1</p>"
+last_updated: '2026-01-17T00:23:07.342309'

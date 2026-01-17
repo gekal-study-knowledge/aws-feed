@@ -1,0 +1,23 @@
+entries:
+  255715712892d66579686787d31db777:
+    id: 255715712892d66579686787d31db777
+    title: CVE-2025-8069 - AWS Client VPN Windows Client Local Privilege Escalation
+    link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-014/
+    published: '2025-07-23'
+    summary: "<p><strong>Scope: </strong>Amazon/AWS<br /> <strong>Content Type:</strong>\
+      \ Important (requires attention)<br /> <strong>Publication Date:</strong> 2025/07/23\
+      \ 8:30 AM PDT</p> \n<p><strong>Description:</strong></p> \n<p><a href=\"https://aws.amazon.com/vpn/client-vpn/\"\
+      >AWS Client VPN</a> is a managed client-based VPN service that enables secure\
+      \ access to AWS and on-premises resources. The AWS Client VPN client software\
+      \ runs on end-user devices, supporting Windows, macOS, and Linux and provides\
+      \ the ability for end users to establish a secure tunnel to the AWS Client VPN\
+      \ Service.</p> \n<p>We identified CVE-2025-###, an issue in AWS Client VPN.\
+      \ During the AWS Client VPN client installation on Windows devices, the install\
+      \ process references the C:\\usr\\local\\windows-x86_64-openssl-localbuild\\\
+      ssl directory location to fetch the OpenSSL configuration file. As a result,\
+      \ a non-admin user could place arbitrary code in the configuration file. If\
+      \ an admin user starts the AWS Client VPN client installation process, that\
+      \ code could be executed with root-level privileges. This issue does not affect\
+      \ Linux or Mac devices.</p> \n<p><strong>Affected version:</strong> 4.1.0, 5.0.0,\
+      \ 5.0.1, 5.0.2, 5.1.0, 5.2.0, 5.2.1</p>"
+last_updated: '2026-01-17T00:23:07.334039'

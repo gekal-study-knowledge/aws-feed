@@ -1,0 +1,17 @@
+entries:
+  b36e1001f279e2dab35d162d167c5178:
+    id: b36e1001f279e2dab35d162d167c5178
+    title: CVE-2026-0830 - Command Injection in Kiro GitLab Merge Request Helper
+    link: https://aws.amazon.com/security/security-bulletins/rss/2026-001-aws/
+    published: '2026-01-09'
+    summary: "<p><b>Bulletin ID:</b> 2026-001-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+      \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/01/09\
+      \ 13:15 PM PST</p> \n<p><b>Description:</b></p> \n<p>Kiro is an agentic IDE\
+      \ users install on their desktop. We identified CVE-2026-0830 where opening\
+      \ a maliciously crafted workspace may lead to arbitrary command injection in\
+      \ Kiro IDE before Kiro version 0.6.18. This may occur if the workspace has specially\
+      \ crafted folder names within the workspace containing injected commands.</p>\
+      \ \n<p><b>Resolution:</b> Kiro IDE &lt;0.6.18</p> \n<p><b>Please refer to the\
+      \ article below for the most up-to-date information related to this AWS Security\
+      \ Bulletin.</b></p>"
+last_updated: '2026-01-17T00:23:07.326067'

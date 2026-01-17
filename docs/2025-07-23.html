@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Updates - 2025-07-23</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AWS Updates Feed</h1>
+            <p class="subtitle"><a href="index.html">← トップに戻る</a></p>
+        </header>
+        <main class="report-content">
+            <h1>AWS Updates - 2025-07-23</h1>
+
+<h2>AWS Security Bulletins</h2>
+
+<h3>CVE-2025-8069 - AWS Client VPN Windows Client Local Privilege Escalation</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/security/security-bulletins/rss/aws-2025-014/">https://aws.amazon.com/security/security-bulletins/rss/aws-2025-014/</a></li>
+<li><strong>Published</strong>: 2025-07-23</li>
+</ul>
+
+<p><p><strong>Scope: </strong>Amazon/AWS<br /> <strong>Content Type:</strong> Important (requires attention)<br /> <strong>Publication Date:</strong> 2025/07/23 8:30 AM PDT</p> 
+<p><strong>Description:</strong></p> 
+<p><a href="https://aws.amazon.com/vpn/client-vpn/">AWS Client VPN</a> is a managed client-based VPN service that enables secure access to AWS and on-premises resources. The AWS Client VPN client software runs on end-user devices, supporting Windows, macOS, and Linux and provides the ability for end users to establish a secure tunnel to the AWS Client VPN Service.</p> 
+<p>We identified CVE-2025-###, an issue in AWS Client VPN. During the AWS Client VPN client installation on Windows devices, the install process references the C:\usr\local\windows-x86_64-openssl-localbuild\ssl directory location to fetch the OpenSSL configuration file. As a result, a non-admin user could place arbitrary code in the configuration file. If an admin user starts the AWS Client VPN client installation process, that code could be executed with root-level privileges. This issue does not affect Linux or Mac devices.</p> 
+<p><strong>Affected version:</strong> 4.1.0, 5.0.0, 5.0.1, 5.0.2, 5.1.0, 5.2.0, 5.2.1</p></p>
+
+<hr>
+
+
+        </main>
+        <footer>
+            <p>自動更新: 1時間ごと | <a href="https://github.com/gekal-study-knowledge/aws-feed" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>

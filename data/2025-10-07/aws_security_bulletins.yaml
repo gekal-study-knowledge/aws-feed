@@ -1,0 +1,60 @@
+entries:
+  a00ffb8f18a9fb80c6248c7102bf260e:
+    id: a00ffb8f18a9fb80c6248c7102bf260e
+    title: CVE-2025-11462 AWS ClientVPN macOS Client Local Privilege Escalation
+    link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-020/
+    published: '2025-10-07'
+    summary: "<p><b>Bulletin ID:</b> AWS-2025-020<br /> <b>Scope:</b> AWS<br /> <b>Content\
+      \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/10/07\
+      \ 01:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS Client VPN is a managed\
+      \ client-based VPN service that enables secure access to AWS and on-premises\
+      \ resources. The AWS Client VPN client software runs on end-user devices, supporting\
+      \ Windows, macOS, and Linux and provides the ability for end users to establish\
+      \ a secure tunnel to the AWS Client VPN Service.</p> \n<p>We have identified\
+      \ CVE-2025-11462, an issue in AWS Client VPN. The macOS version of the AWS VPN\
+      \ Client lacked proper validation checks on the log destination directory during\
+      \ log rotation. This allowed a non-administrator user to create a symlink from\
+      \ a client log file to a privileged location (e.g., Crontab). Triggering an\
+      \ internal API with arbitrary inputs would then write these inputs to the privileged\
+      \ location on log rotation, allowing execution with root privileges. This issue\
+      \ does not affect Windows or Linux devices.</p> \n<p><b>Affected versions:</b></p>\
+      \ \n<p>AWS Client VPN Client versions 1.3.2 through 5.2.0</p>"
+  4ab6e18e80a64191a21cebdab82fb092:
+    id: 4ab6e18e80a64191a21cebdab82fb092
+    title: Amazon Q Developer and Kiro – Prompt Injection Issues in Kiro and Q IDE
+      plugins
+    link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-019/
+    published: '2025-10-07'
+    summary: "<p><b>Bulletin ID:</b> AWS-2025-019<br /> <b>Scope:</b> AWS<br /> <b>Content\
+      \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/10/07\
+      \ 01:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>We are aware of blog posts\
+      \ by Embrace The Red (“The Month of AI Bugs”) describing prompt injection issues\
+      \ in Amazon Q Developer and Kiro.</p> \n<p><b>Amazon Q Developer: Remote Code\
+      \ Execution with Prompt Injection” and “Amazon Q Developer for VS Code Vulnerable\
+      \ to Invisible Prompt Injection.</b></p> \n<p>These issues require an open chat\
+      \ session and intentional access to a malicious file using commands such as\
+      \ find, grep, or echo, which could be executed without Human-in-the-Loop (HITL)\
+      \ confirmation. In some cases, invisible control characters could obfuscate\
+      \ these commands. On July 17, 2025, we released Language Server v1.22.0, which\
+      \ requires HITL confirmation for these commands</p> \n<p><b>Amazon Q Developer:\
+      \ Secrets Leaked via DNS and Prompt Injection.</b></p> \n<p>This issue requires\
+      \ a developer to accept a prompt-injected suggestion including commands such\
+      \ as ping or dig, which could exfiltrate metadata via DNS queries without HITL\
+      \ confirmation. On July 29, 2025, we released Language Server v1.24.0, which\
+      \ requires HITL confirmation for these commands.</p> \n<p><b>AWS Kiro: Arbitrary\
+      \ Code Execution via Indirect Prompt Injection.</b></p> \n<p>This issue requires\
+      \ local system access to inject instructions that lead to arbitrary code execution\
+      \ via Kiro IDE or MCP settings files without HITL confirmation in either Kiro's\
+      \ Autopilot or Supervised mode. On August 1, 2025, we released Kiro version\
+      \ 0.1.42, which requires HITL confirmation for these actions when configured\
+      \ in Supervised mode.</p> \n<p>Amazon Q Developer and Kiro are built on the\
+      \ principles of agentic development, enabling developers to work more efficiently\
+      \ with the help of AI agents. As customers adopt AI-enhanced development workflows,\
+      \ we recommend they evaluate and implement appropriate security controls and\
+      \ policies based on their specific environments and shared responsibility models\
+      \ (AWS, Amazon Q, Kiro). Amazon Q Developer and Kiro provide safeguards, including\
+      \ Human-in-the-Loop protections and customizable execution policies, to support\
+      \ secure adoption.</p> \n<p><b>Affected versions:</b></p> \n<p>Amazon Q Developer\
+      \ for find, grep, echo (version &lt;1.22.0)<br /> Amazon Q Developer for ping,\
+      \ dig: (versions &lt;1.24.0)<br /> AWS Kiro: version 0.1.42</p>"
+last_updated: '2026-01-17T00:23:07.321594'

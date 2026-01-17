@@ -270,6 +270,26 @@
 
 <hr>
 
+<h2>AWS Security Bulletins</h2>
+
+<h3>Key Commitment Issues in S3 Encryption Clients</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/security/security-bulletins/rss/aws-2025-032/">https://aws.amazon.com/security/security-bulletins/rss/aws-2025-032/</a></li>
+<li><strong>Published</strong>: 2025-12-17</li>
+</ul>
+
+<p><p><b>Bulletin ID:</b> AWS-2025-032<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/12/17 12:15 PM PST</p> 
+<p><b>We identify the following CVEs:</b></p> 
+<p>CVE-2025-14763 - Key Commitment Issues in S3 Encryption Client in Java<br /> CVE-2025-14764 - Key Commitment Issues in S3 Encryption Client in Go<br /> CVE-2025-14759 - Key Commitment Issues in S3 Encryption Client in .NET<br /> CVE-2025-14760 - Key Commitment Issues in S3 Encryption Client in C++ - part of the AWS SDK for C++<br /> CVE-2025-14761 - Key Commitment Issues in S3 Encryption Client in PHP - part of the AWS SDK for PHP<br /> CVE-2025-14762 - Key Commitment Issues in S3 Encryption Client in Ruby - part of the AWS SDK for Ruby</p> 
+<p><b>Description:</b></p> 
+<p>S3 Encryption Clients for Java, Go, .NET, C++, PHP, and Ruby are open-source client-side encryption libraries used to facilitate writing and reading encrypted records to S3.</p> 
+<p>When the encrypted data key (EDK) is stored in an "Instruction File" instead of S3's metadata record, the EDK is exposed to an "Invisible Salamanders" attack, which could allow the EDK to be replaced with a new key.</p> 
+<p><b>Resolution:</b></p> 
+<p> - S3 Encryption Client Java: &lt;= 3.5.0<br /> - S3 Encryption Client Go: &lt;= 3.1.0<br /> - S3 Encryption Client .NET: &lt;= 3.1<br /> - AWS SDK for C++: &lt;= 1.11.711<br /> - AWS SDK for PHP: &lt;= 3.367.0<br /> - AWS SDK for Ruby: &lt;= 1.207.0</p></p>
+
+<hr>
+
 
         </main>
         <footer>

@@ -176,6 +176,24 @@
 
 <hr>
 
+<h2>AWS Security Bulletins</h2>
+
+<h3>Unanchored ACCOUNT_ID webhook filters for CodeBuild</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/security/security-bulletins/rss/2026-002-aws/">https://aws.amazon.com/security/security-bulletins/rss/2026-002-aws/</a></li>
+<li><strong>Published</strong>: 2026-01-15</li>
+</ul>
+
+<p><p><b>Bulletin ID:</b> 2026-002-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Informational<br /> <b>Publication Date:</b> 2026/01/15 07:03 AM PST</p> 
+<p><b>Description:</b></p> 
+<p>A security research team identified a configuration issue affecting the following AWS-managed open source GitHub repositories that could have resulted in the introduction of inappropriate code:<br /> - aws-sdk-js-v3<br /> - aws-lc<br /> - amazon-corretto-crypto-provider<br /> - awslabs/open-data-registry</p> 
+<p>Specifically, researchers identified the above repositories' configured regular expressions for AWS CodeBuild webhook filters intended to limit trusted actor IDs were insufficient, allowing a predictably acquired actor ID to gain administrative permissions for the affected repositories. We can confirm these were project-specific misconfigurations in webhook actor ID filters for these repositories and not an issue in the CodeBuild service itself. The researchers carefully demonstrated the potential to commit inappropriate code, through an empty code commit, to one repository and promptly informed AWS Security of their research activity and its potential negative impact.</p> 
+<p>No inappropriate code was introduced to any of the affected repositories during this security research activity, the demonstrated empty code commit to one repository had no impact to any AWS customer environments and did not impact any AWS services or infrastructure. No customer action is required.</p> 
+<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p></p>
+
+<hr>
+
 
         </main>
         <footer>

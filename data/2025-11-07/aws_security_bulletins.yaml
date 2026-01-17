@@ -1,0 +1,16 @@
+entries:
+  3a383161c5c3645b1a10e75dae3dd4aa:
+    id: 3a383161c5c3645b1a10e75dae3dd4aa
+    title: CVE-2025-12829 - Integer Overflow issue in Amazon Ion-C
+    link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-027/
+    published: '2025-11-07'
+    summary: "<p><b>Bulletin ID:</b> AWS-2025-027<br /> <b>Scope:</b> Amazon<br />\
+      \ <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b>\
+      \ 2025/11/7 10:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon's Ion-C\
+      \ is a library for the C language that is used to read and write Amazon Ion\
+      \ data.</p> \n<p>We Identified CVE-2025-12829, which describes an uninitialized\
+      \ stack read issue in Ion-C versions &lt; v1.1.4 that may allow a threat actor\
+      \ to craft data and serialize it to Ion text in such a way that sensitive data\
+      \ in memory could be exposed through UTF-8 escape sequences.</p> \n<p><b>Impacted\
+      \ versions:</b> &lt; v1.1.4</p>"
+last_updated: '2026-01-17T00:23:07.329268'
