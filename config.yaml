@@ -11,6 +11,10 @@ feeds:
     url: "https://aws.amazon.com/blogs/security/feed/"
     source_id: "aws_security_blog"
 
+  - name: "AWS Security Bulletins"
+    url: "https://aws.amazon.com/security/security-bulletins/rss/feed/"
+    source_id: "aws_security_bulletins"
+
 data_dir: "data"
 output_dir: "daily_reports"
 docs_dir: "docs"
