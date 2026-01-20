@@ -102,4 +102,82 @@ entries:
       for Oracle Enterprise Edition Standard Edition 2. Refer to <a href="https://aws.amazon.com/rds/oracle/pricing/"
       target="_blank">Amazon RDS for Oracle Pricing</a> for available instance configurations,
       pricing, and region availability.</p>
-last_updated: '2026-01-20T21:18:25.037165'
+  232fd145c33d799277486dae4202b7c9:
+    id: 232fd145c33d799277486dae4202b7c9
+    title: Amazon EC2 G7e instances are now generally available
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-g7e-instances-generally-available
+    published: '2026-01-20'
+    summary: "<p>Today, Amazon announces the general availability of Amazon Elastic\
+      \ Compute Cloud (Amazon EC2) G7e instances, accelerated by NVIDIA RTX PRO 6000\
+      \ Blackwell Server Edition GPUs.&nbsp;G7e instances offer up to 2.3x inference\
+      \ performance compared to G6e.</p> \n<p>Customers can use G7e instances to deploy\
+      \ large language models (LLMs), agentic AI models, multimodal generative AI\
+      \ models, and physical AI models. G7e instances offer the highest performance\
+      \ for spatial computing workloads as well as workloads that require both graphics\
+      \ and AI processing capabilities.&nbsp;G7e instances feature up to 8 NVIDIA\
+      \ RTX PRO 6000 Blackwell Server Edition GPUs, with 96 GB of memory per GPU,\
+      \ and 5th Generation Intel Xeon processors. They support up to 192 virtual CPUs\
+      \ (vCPUs) and up to 1600 Gbps of Elastic Fabric Adapter networking bandwidth.\
+      \ G7e instances support NVIDIA GPUDirect Peer to Peer (P2P) that boosts performance\
+      \ for multi-GPU workloads. Multi-GPU G7e instances also support NVIDIA GPUDirect\
+      \ Remote Direct Memory Access (RDMA) with EFAv4 in EC2 UltraClusters, reducing\
+      \ latency for small-scale multi-node workloads.</p> \n<p>You can use G7e instances\
+      \ for Amazon EC2 in the following AWS Regions: US East (N. Virginia) and US\
+      \ East (Ohio). You can purchase G7e instances as On-Demand Instances, Spot Instances,\
+      \ or as part of Savings Plans.</p> \n<p>To get started, visit the&nbsp;<a href=\"\
+      https://console.aws.amazon.com/\" target=\"_blank\">AWS Management Console</a>,&nbsp;<a\
+      \ href=\"https://aws.amazon.com/cli/\" target=\"_blank\">AWS Command Line Interface</a>&nbsp;(CLI),\
+      \ and AWS SDKs. To learn more, visit&nbsp;<a href=\"https://aws.amazon.com/ec2/instance-types/g7e/\"\
+      \ target=\"_blank\">G7e instances</a>.</p>"
+  421bcbef716991a39d4f37f4980deb5c:
+    id: 421bcbef716991a39d4f37f4980deb5c
+    title: Amazon RDS Blue/Green Deployments reduces downtime to under five seconds
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-blue-green-deployments-reduces-downtime
+    published: '2026-01-20'
+    summary: <p><a href="https://aws.amazon.com/rds/" target="_blank">Amazon Relational
+      Database Service (Amazon RDS)</a> now supports faster Blue/Green Deployments
+      switchover, reducing your primary database, or writer node, upgrade downtime
+      to typically five seconds or lower for single-Region configurations. Blue/Green
+      Deployment creates a staging environment (Green) to test changes while keeping
+      production (Blue) safe, enabling seamless switchover that requires no application
+      endpoint changes.<br /> <br /> Your database writer instance downtime during
+      switchover varies based on your connection method. For single-Region configurations,
+      applications connecting directly to the database endpoint experience typically
+      five seconds or lower downtime, while those using the AWS Advanced JDBC Driver
+      typically see two seconds or lower due to eliminated DNS propagation delays.
+      You can use Amazon RDS Blue/Green Deployments for deploying changes to production,
+      such as major version database engine upgrades, maintenance updates, and scaling
+      instances.<br /> <br /> Support for faster RDS Blue/Green Deployments switchover
+      for single-Region configurations is available for Amazon Aurora and Amazon RDS
+      database engines including PostgreSQL, MySQL, and MariaDB in all AWS regions.<br
+      /> <br /> In a few clicks, update your databases using RDS Blue/Green Deployments
+      via the <a href="https://console.aws.amazon.com/rds/home" target="_blank">Amazon
+      RDS Console</a> or <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/blue-green-deployments-creating.html#blue-green-deployments-creating-create"
+      target="_blank">Amazon RDS CLI</a>. Learn more about RDS Blue/Green Deployments
+      and the supported engine versions <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/blue-green-deployments-overview.html"
+      target="_blank">here</a>.</p>
+  1f7753468dd4499c9a42a7a681d50464:
+    id: 1f7753468dd4499c9a42a7a681d50464
+    title: Amazon EVS now supports VCF and VMware ESX software version selection
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-evs-vcf-vmware-esx-software-version
+    published: '2026-01-20'
+    summary: "<p>Amazon Elastic VMware Service (Amazon EVS) now supports the ability\
+      \ to specify supported combinations of VMware Cloud Foundation (VCF)&nbsp;and\
+      \ ESX software versions when setting up your EVS environments and hosts.</p>\
+      \ \n<p>Amazon EVS lets you run VCF natively within your Amazon Virtual Private\
+      \ Cloud (VPC), powered by AWS Nitro EC2 bare-metal instances. Amazon EVS automates\
+      \ deployment of a complete VCF environment in hours using either an intuitive\
+      \ step-by-step configuration workflow on the AWS console or the AWS Command\
+      \ Line Interface (CLI). This newest enhancement addresses the critical need\
+      \ for version flexibility to help you migrate workloads to AWS faster, reduce\
+      \ operational complexity and risk, and meet data center exit deadlines with\
+      \ Amazon EVS.</p> \n<p>With software versioning support, you can now a specify\
+      \ VCF version when creating new environments using the CreateEnvironment API\
+      \ and select an ESX version when adding new hosts to existing environments using\
+      \ the CreateEnvironmentHost API. You can also query supported version combinations\
+      \ with the new GetVersions API.&nbsp;As part of this capability, we're also\
+      \ adding support for new environment deployments with VCF 5.2.2.<br /> </p>\
+      \ \n<p>To get started, visit the Amazon EVS&nbsp;<a href=\"https://aws.amazon.com/evs/\"\
+      >product detail page</a>&nbsp;and&nbsp;<a href=\"https://docs.aws.amazon.com/evs/latest/userguide/what-is-evs.html\"\
+      >user guide</a>.</p>"
+last_updated: '2026-01-20T22:20:08.896908'

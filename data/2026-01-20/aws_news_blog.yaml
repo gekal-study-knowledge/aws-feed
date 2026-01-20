@@ -9,4 +9,14 @@ entries:
       summers that the southern hemisphere provides. I’m back and writing my first
       post in 2026 which also happens to be my last post for the AWS News Blog (more
       on this later). The AWS community is starting the […]
-last_updated: '2026-01-20T01:23:43.613623'
+  9aab762a57853393236d45230a94ba61:
+    id: 9aab762a57853393236d45230a94ba61
+    title: Announcing Amazon EC2 G7e instances accelerated by NVIDIA RTX PRO 6000
+      Blackwell Server Edition GPUs
+    link: https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7e-instances-accelerated-by-nvidia-rtx-pro-6000-blackwell-server-edition-gpus/
+    published: '2026-01-20'
+    summary: AWS introduces Amazon EC2 G7e instances accelerated by the NVIDIA RTX
+      PRO 6000 Blackwell Server Edition GPUs with up to 2.3 times inference performance.
+      G7e instances deliver cost-effective performance for generative AI inference
+      workloads and the highest performance for graphics workloads.
+last_updated: '2026-01-20T22:20:09.150508'
