@@ -19,4 +19,20 @@ entries:
       target="_blank">supported Amazon Quick Sight regions</a>. To get started with
       these new customization features, see our <a href="https://aws.amazon.com/blogs/business-intelligence/amazon-quick-sight-expands-dashboard-customization-in-tables-and-pivot-tables/"
       target="_blank">blog post.</a></p>
-last_updated: '2026-01-20T16:31:01.810474'
+  48db11769f79b058d4ffb4314b797ff8:
+    id: 48db11769f79b058d4ffb4314b797ff8
+    title: AWS Glue is now available in Asia Pacific (New Zealand) Region
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-glue-available-new-zealand-region
+    published: '2026-01-20'
+    summary: <p>AWS Glue is now available in the Asia Pacific (New Zealand) Region,
+      enabling customers to build and run their ETL workloads closer to their data
+      sources in this region.<br /> <br /> AWS Glue is a serverless data integration
+      service that makes it simple to discover, prepare, and combine data for analytics,
+      machine learning, and application development. AWS Glue provides both visual
+      and code-based interfaces to make data integration simpler so you can analyze
+      your data and put it to use in minutes instead of months.<br /> <br /> To learn
+      more, visit the AWS Glue <a href="https://aws.amazon.com/glue/">product page</a>
+      and our <a href="https://docs.aws.amazon.com/glue/">documentation</a>.&nbsp;For
+      AWS Glue Region availability, please see the&nbsp;<a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
+      Region table</a>.</p>
+last_updated: '2026-01-20T20:09:45.428639'
