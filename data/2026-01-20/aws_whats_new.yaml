@@ -35,4 +35,71 @@ entries:
       and our <a href="https://docs.aws.amazon.com/glue/">documentation</a>.&nbsp;For
       AWS Glue Region availability, please see the&nbsp;<a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
       Region table</a>.</p>
-last_updated: '2026-01-20T20:09:45.428639'
+  674635679d1c0bc9d89bb083a829ed4a:
+    id: 674635679d1c0bc9d89bb083a829ed4a
+    title: AWS expands managed integrations for AWS IoT Device Management service
+      coverage to the Middle East (UAE) region
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/managed-integrations-iot-device-coverage-uae/
+    published: '2026-01-20'
+    summary: <p>AWS IoT Device Management now offers the managed integrations feature
+      in the Middle East (UAE) region. Organizations operating in this region can
+      now better serve their local customers, helping them build unified Internet
+      of Things (IoT) solutions that can easily onboard and manage diverse IoT devices
+      through a single interface, regardless of connection type - direct, hub-based,
+      or third-party cloud-based.<br /> <br /> Managed integrations provides developers
+      with a unified interface and device SDKs supporting ZigBee, Z-Wave, Matter and
+      Wi-Fi protocols. The feature includes partner built cloud-to-cloud connectors
+      and 80+ device data model templates based on AWS's implementation of the Matter
+      data model standard. These capabilities allow developers to rapidly integrate
+      devices into end user applications, such as home security, energy management,
+      and elderly care monitoring.<br /> <br /> The managed integrations feature is
+      available in Canada (Central), Europe (Ireland) and Middle East (UAE) regions.
+      To learn more, refer to the <a href="https://docs.aws.amazon.com/iot-mi/latest/devguide/what-is-managedintegrations.html">developer
+      guide</a> and get started on the <a href="https://console.aws.amazon.com/iot/home">AWS
+      IoT console</a>.</p>
+  41f9ed0b1fc437f009f3b33511c6546a:
+    id: 41f9ed0b1fc437f009f3b33511c6546a
+    title: Amazon Quick Suite launches expanded size, faster ingestion, and richer
+      data type support for SPICE datasets
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-quick-suite-launches-expanded-spice
+    published: '2026-01-20'
+    summary: <p><a href="https://aws.amazon.com/quicksight/" target="_blank">Amazon
+      Quick Suite</a> SPICE engine is now supporting higher scale, faster ingestion,
+      and broader data types to power advanced analytics and AI-driven workloads.
+      With this launch, customers can load up to 2TB of data per dataset, doubling
+      the previous 1TB limit, when using the new data preparation experience. Despite
+      the increased dataset size, SPICE continues to deliver strong performance, with
+      ingestion further optimized to enable even faster data loading and refresh to
+      reduce time to insight. We’ve also expanded SPICE’s data type support by increasing
+      string length limits from 2K to 64K Unicode characters and extending the supported
+      timestamp range from year 1400 back to year 0001. As Quick Suite customers bring
+      richer, more complex, and increasingly AI-driven workloads into SPICE, these
+      enhancements enable broader data coverage, faster data onboarding, and more
+      powerful analytics, without compromising performance. To learn more, visit <a
+      href="https://docs.aws.amazon.com/quicksuite/latest/userguide/data-source-limits.html#spice-limits"
+      target="_blank">our documentation.</a><br /> <br /> The new SPICE dataset size
+      limitation is now available in Amazon Quick Sight Enterprise Editions across
+      all <a href="https://docs.aws.amazon.com/quicksight/latest/user/regions-qs.html"
+      target="_blank">supported Amazon Quick Sight regions</a>.&nbsp;</p>
+  6a1053487d0d3d35d1706ea216346207:
+    id: 6a1053487d0d3d35d1706ea216346207
+    title: Amazon RDS for Oracle extends support for bare metal instances to Standard
+      Edition 2
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-oracle-support-bare-metal-instances-standard-edition-2
+    published: '2026-01-20'
+    summary: <p>Amazon RDS for Oracle now supports bare metal instances with Bring
+      Your Own License (BYOL) license for Oracle Standard Edition 2. You can use M7i,
+      R7i, X2iedn, X2idn, X2iezn, M6i, M6id, M6in, R6i, R6id, and R6in bare metal
+      instances at 25% lower price compared to equivalent virtualized instances.<br
+      /> <br /> With bare metal instances, you may be able to reduce your commercial
+      database license and support costs by using bare metal instances since they
+      provide full visibility into the number of CPU cores and sockets of the underlying
+      server. Most bare metal instances have 2 sockets while db.m7i.metal-24xl and
+      db.r7i.metal-24xl instances each have a single socket. Consult your legal or
+      licensing partner to determine if you can use bare metal instances with Oracle
+      Standard Edition 2 and if you can reduce license and support costs.<br /> <br
+      /> Bare metal instances are available with Bring Your Own License (BYOL) license
+      for Oracle Enterprise Edition Standard Edition 2. Refer to <a href="https://aws.amazon.com/rds/oracle/pricing/"
+      target="_blank">Amazon RDS for Oracle Pricing</a> for available instance configurations,
+      pricing, and region availability.</p>
+last_updated: '2026-01-20T21:18:25.037165'
