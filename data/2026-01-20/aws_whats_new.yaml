@@ -1,0 +1,22 @@
+entries:
+  8b7e51747a50af9d4a8efc20ac108f11:
+    id: 8b7e51747a50af9d4a8efc20ac108f11
+    title: Amazon Quick Sight expands dashboard customization in tables and pivot
+      tables
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-quicksight-expands-dashboard-customization-tables-pivot-tables
+    published: '2026-01-20'
+    summary: <p>Building on our recent launch of <a href="https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-quick-sight-dashboard-tables-pivot-tables/"
+      target="_blank">customizable tables and pivot tables</a>, <a href="https://aws.amazon.com/quicksuite/quicksight/"
+      target="_blank">Amazon Quick Sight </a>now enables readers to add or remove
+      fields, change aggregations, and modify formatting directly in dashboards—all
+      without requiring updates from dashboard authors.<br /> <br /> These enhanced
+      capabilities empower readers with even greater flexibility to tailor their data
+      views for specific analytical needs. For example, sales managers can add revenue
+      breakdowns by product category to identify growth opportunities, while finance
+      teams can change aggregations from sum to average to better understand spending
+      patterns across departments.<br /> <br /> These new customization features are
+      now available in Amazon Quick Sight Enterprise Edition across all <a href="https://docs.aws.amazon.com/quicksight/latest/user/regions-qs.html"
+      target="_blank">supported Amazon Quick Sight regions</a>. To get started with
+      these new customization features, see our <a href="https://aws.amazon.com/blogs/business-intelligence/amazon-quick-sight-expands-dashboard-customization-in-tables-and-pivot-tables/"
+      target="_blank">blog post.</a></p>
+last_updated: '2026-01-20T16:31:01.810474'
