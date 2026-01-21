@@ -144,6 +144,17 @@
 
 <hr>
 
+<h3>Amazon ECR now supports cross-repository layer sharing to optimize storage and improve push performance</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecr-cross-repository-layer-sharing/">https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecr-cross-repository-layer-sharing/</a></li>
+<li><strong>Published</strong>: 2026-01-20</li>
+</ul>
+
+<p><p>Amazon Elastic Container Registry (ECR) now enables you to share common image layers across repositories within a registry through a capability called blob mounting. This feature is especially valuable if you manage multiple microservices or applications built from common base images. With blob mounting, you can achieve faster image pushes by reusing existing layers instead of re-uploading identical content, and reduce storage costs by storing common layers once and referencing them across repositories.<br /> <br /> Getting started is simple, enable the registry-level setting through the ECR console or AWS CLI. Once enabled, ECR automatically handles layer sharing when you push images.<br /> <br /> Blob mounting is available in all AWS commercial and AWS GovCloud (US) Regions. To learn more about blob mounting, please visit our&nbsp;<a href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/registry-settings.html">documentation</a>.</p></p>
+
+<hr>
+
 <h2>AWS News Blog</h2>
 
 <h3>AWS Weekly Roundup: Kiro CLI latest features, AWS European Sovereign Cloud, EC2 X8i instances, and more (January 19, 2026)</h3>
