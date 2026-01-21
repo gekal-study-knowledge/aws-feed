@@ -57,4 +57,26 @@ entries:
       Management Console</a>,&nbsp;<a href="https://aws.amazon.com/cli/">AWS Command
       Line Interface (AWS CLI)</a>, and&nbsp;<a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">AWS
       SDKs</a>.</p>'
-last_updated: '2026-01-21T18:38:07.747631'
+  194caa999a82698f384dce85aa51fef6:
+    id: 194caa999a82698f384dce85aa51fef6
+    title: AWS Clean Rooms adds support for join and partition hints in SQL
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-join-partition-hints-sql/
+    published: '2026-01-21'
+    summary: <p>AWS Clean Rooms announces support for join and partition hints for
+      SQL queries, enabling optimization of join strategies and data partitioning
+      for improved query performance and reduced costs. This launch enables you to
+      apply SQL hints to your queries using comment-style syntax in pre-approved analysis
+      templates as well as ad hoc SQL queries. You can now optimize large table joins
+      using a broadcast join hint and you can improve data distribution with partition
+      hints for better parallel processing. For example, a measurement company analyzing
+      how many households viewed a live sports event uses a broadcast join hint on
+      their lookup table to improve query performance and reduce costs.<br /> <br
+      /> With AWS Clean Rooms, customers can create a secure data clean room in minutes
+      and collaborate with any company on AWS or Snowflake to generate unique insights
+      about advertising campaigns, investment decisions, and research and development.
+      For more information about the AWS Regions where AWS Clean Rooms is available,
+      see the <a href="https://docs.aws.amazon.com/general/latest/gr/clean-rooms.html#clean-rooms_region"
+      target="_blank">AWS Regions</a> table. To learn more about collaborating with
+      AWS Clean Rooms, visit <a href="https://aws.amazon.com/clean-rooms/" target="_blank">AWS
+      Clean Rooms</a>.</p>
+last_updated: '2026-01-21T19:24:27.244885'
