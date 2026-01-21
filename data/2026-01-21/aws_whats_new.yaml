@@ -151,4 +151,87 @@ entries:
       is available including AWS GovCloud (US) and China regions. To learn more, see
       <a href="https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/disk-encryption-cmk.html">Local
       Disk Encryption with AWS KMS CMK</a> in the Amazon EMR Serverless User Guide.</p>
-last_updated: '2026-01-21T20:27:19.596139'
+  53b1d021ebf42744661766ddc2fbdd1d:
+    id: 53b1d021ebf42744661766ddc2fbdd1d
+    title: Amazon Bedrock Reserved Tier available now for Claude Sonnet 4.5 in AWS
+      GovCloud (US-West)
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-reserved-tier-for-claude-sonnet-in-govcloud/
+    published: '2026-01-21'
+    summary: <p>Today, Amazon Bedrock introduces the expansion of the Reserved service
+      tier designed for workloads requiring predictable performance and guaranteed
+      tokens-per-minute capacity. The Reserved tier provides the ability to reserve
+      prioritized compute capacity, keeping service levels predictable for your mission
+      critical applications. It also includes the flexibility to allocate different
+      input and output tokens-per-minute capacities to match the exact requirements
+      of your workload and control cost. This is particularly valuable because many
+      workloads have asymmetric token usage patterns. For instance, summarization
+      tasks consume many input tokens but generate fewer output tokens, while content
+      generation applications require less input and more output capacity. When your
+      application needs more tokens-per-minute capacity than what you reserved , the
+      service automatically overflows to the pay-as-you-go Standard tier, ensuring
+      uninterrupted operations. The Reserved tier is available today for Anthropic
+      Claude Sonnet 4.5 in AWS GovCloud (US-West). Customers can reserve capacity
+      for 1 month or 3 month duration. Customers pay a fixed price per 1K tokens-per-minute
+      and are billed monthly. Amazon Bedrock Reserved Tier is available for customers
+      in AWS GovCloud (US-West) via <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/inference-profiles-support.html"
+      target="_blank">GOV-CRIS cross-region profile</a>.<br /> <br /> With the expansion
+      of the Reserved service tier, Amazon Bedrock continues to provide more choice
+      to customers, helping them develop, scale, and deploy applications and agents
+      that improve productivity and customer experiences while balancing performance
+      and cost requirements.<br /> <br /> For more information about the AWS Regions
+      where Amazon Bedrock Reserved tier is available, refer to the<a href="https://docs.aws.amazon.com/bedrock/latest/userguide/service-tiers-inference.html"
+      target="_blank"> Documentation</a>. To get access to the Reserved tier, please
+      contact your AWS account team.&nbsp;</p>
+  d88023254ec71d9ffd8953247bdf38f5:
+    id: d88023254ec71d9ffd8953247bdf38f5
+    title: AWS introduces additional policy details to access denied error messages
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/additional-policy-details-access-denied-error/
+    published: '2026-01-21'
+    summary: <p>AWS now includes the&nbsp;<a href="https://aws.amazon.com/iam/">AWS
+      Identity and Access Management (IAM)</a>&nbsp;and <a href="https://docs.aws.amazon.com/organizations/">AWS
+      Organizations</a>&nbsp;policy’s Amazon Resource Name (ARN) in access denied
+      error messages in same account and same organization scenarios. This allows
+      you to quickly identify the exact policy responsible for the denied access and
+      take action to troubleshoot the issue.<br /> <br /> Before this launch, customers
+      had to identify the root cause of access denied errors based only on the policy
+      type in the&nbsp;<br /> error message. This launch expedites troubleshooting
+      when you have multiple policies of the same type, as you can&nbsp;<br /> directly
+      see which policy to address for explicit deny cases. The error message now includes
+      the policy ARN for Service Control Policies (SCP), Resource Control Policies
+      (RCP), identity-based policies, session policies, and permission boundaries.<br
+      /> <br /> This additional context will gradually become available across AWS
+      services in all AWS regions. To learn more, refer to&nbsp;<a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/troubleshoot_access-denied.html">IAM
+      documentation</a>.</p>
+  c0b608e63ff7e0b70be261f596905aa8:
+    id: c0b608e63ff7e0b70be261f596905aa8
+    title: Instance Scheduler on AWS adds enhanced scaling, reliability, and event-driven
+      automation
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/instance-scheduler-adds-enhanced-scaling/
+    published: '2026-01-21'
+    summary: "<p>Today AWS announced enhanced scheduling orchestration to track AWS\
+      \ tagging events, self-service troubleshooting via informational resource tags,\
+      \ an optional EC2 insufficient-capacity retry flow using alternate instance\
+      \ types, and automatic creation of a dedicated EventBridge bus for scheduling\
+      \ events for Instance Scheduler (IS) on AWS. IS’s orchestration and fan-out\
+      \ mechanisms have been re-architected to enable customers to track AWS tagging\
+      \ events, allowing the product to more intelligently sequence and distribute\
+      \ scheduling operations - improving scaling performance and addressing cost-scaling\
+      \ concerns. The product now enables distributed cloud engineer personas to perform\
+      \ self-service troubleshooting in their spoke accounts through informational\
+      \ tags applied to their resources without relying on a central cloud administrator.\
+      \ In addition, an optional Insufficient Capacity Error Retry flow has been added\
+      \ to automatically retry failed start actions using alternate instance types\
+      \ when EC2 encounters insufficient capacity errors, ensuring workloads start\
+      \ reliably even in constrained Availability Zones or regions. Lastly, Instance\
+      \ Scheduler on AWS now automatically creates a dedicated EventBus for scheduling-related\
+      \ events, streamlining integrations and automation workflows.</p> \n<p>This\
+      \ update improves Instance Scheduler’s scalability, reduces operational overhead,\
+      \ and increases workload reliability across complex customer environments. You\
+      \ can accelerate issue resolution and boost operational efficiency by empowering\
+      \ distributed cloud engineers to troubleshoot independently. You can enhance\
+      \ overall workload resilience by improving handling of EC2 capacity shortages\
+      \ and simplify integrations by streamlining event routing through the new EventBus\
+      \ to support more extensible automation workflows.</p> \n<p>To learn more about\
+      \ Instance Scheduler, visit the <a href=\"https://aws.amazon.com/solutions/implementations/instance-scheduler-on-aws/\"\
+      >Product Page </a>or contact your AWS account team.</p>"
+last_updated: '2026-01-21T21:25:02.402055'
