@@ -299,4 +299,23 @@ entries:
       to&nbsp;<a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_PerfInsights.Overview.Engines.html#USER_PerfInsights.Overview.PIfeatureEngnRegSupport"
       target="_blank">Aurora documentation</a>&nbsp;or&nbsp;<a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.Overview.Engines.html"
       target="_blank">RDS documentation</a>&nbsp;to get started.&nbsp;</p>
-last_updated: '2026-01-21T18:38:07.767281'
+  7b8ea6f09d87fe203e7379e9fa38ed92:
+    id: 7b8ea6f09d87fe203e7379e9fa38ed92
+    title: SageMaker Unified Studio adds cross-Region subscriptions support for IDC
+      based domains
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/sagemaker-unified-studio-adds-cross-region-iam/
+    published: '2026-01-20'
+    summary: <p>Amazon SageMaker Unified Studio now supports cross-Region subscriptions
+      for comprehensive and flexible data access and governance. With cross-Region
+      support, you can subscribe to AWS Glue tables and views, as well as Amazon Redshift
+      tables and views published in a different AWS Region than your project. This
+      capability helps break down data silos and enable better collaboration across
+      your organization by allowing teams to access curated data assets from any AWS
+      Region without manual replication.<br /> <br /> To get started with cross-Region
+      subscriptions, log into SageMaker Unified Studio, or use the Amazon DataZone
+      API, SDK, or AWS CLI. Cross-Region subscriptions support is available in all&nbsp;<a
+      href="https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/supported-regions.html">AWS
+      Regions where SageMaker Unified Studio</a> is supported. To learn more, see
+      the SageMaker Unified Studio <a href="https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/grant-access-to-unmanaged-asset.html">user
+      guide</a>.</p>
+last_updated: '2026-01-22T17:25:42.344222'
