@@ -49,4 +49,29 @@ entries:
       refer to the <a href="https://aws.amazon.com/neptune/pricing/" target="_blank">Neptune
       pricing page</a> and <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/"
       target="_blank">AWS Region Table</a>.</p>
-last_updated: '2026-01-22T18:27:58.121383'
+  a060734bbaf9afeadc09d84cd030ec80:
+    id: a060734bbaf9afeadc09d84cd030ec80
+    title: Amazon Bedrock AgentCore Browser now supports custom browser extensions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-agentcore-browser-custom-extensions
+    published: '2026-01-22'
+    summary: "<p>Amazon Bedrock AgentCore Browser now supports custom Chrome browser\
+      \ extensions, enabling automation for complex workflows that standard browser\
+      \ automation cannot handle alone. This enhancement builds upon AgentCore’s existing\
+      \ secure browser features, allowing users to upload Chrome-compatible extensions\
+      \ to S3 and automatically install them during browser sessions. The feature\
+      \ serves enterprise developers, automation engineers, and organizations&nbsp;across\
+      \ industries requiring specialized browser functionality within a secure environment.</p>\
+      \ \n<p>This new feature&nbsp;enables powerful use cases including custom authentication\
+      \ flows, automated testing, and improved web navigation with performance optimization\
+      \ through ad blocking. Organizations gain the ability to integrate third-party\
+      \ tools that operate as browser extensions, eliminating manual processes while\
+      \ maintaining security within the AgentCore Browser environment.<br /> <br />\
+      \ This feature is available in all nine <a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-regions.html\"\
+      \ target=\"_blank\">AWS Regions</a> where Amazon Bedrock AgentCore Browser is\
+      \ available: US East (N. Virginia), US East (Ohio), US West (Oregon), Asia Pacific\
+      \ (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo),\
+      \ Europe (Frankfurt), and Europe (Ireland).<br /> <br /> To learn more about\
+      \ implementing custom browser extensions in Amazon Bedrock AgentCore, visit\
+      \ the<a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/browser-extensions.html\"\
+      \ target=\"_blank\"> Browser documentation.</a></p>"
+last_updated: '2026-01-22T19:22:03.941213'
