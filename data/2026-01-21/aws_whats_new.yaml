@@ -265,4 +265,32 @@ entries:
       guide</a>. For the most updated list of countries and territories and the AWS
       Regions where second-generation Outposts racks are supported, check out the
       <a href="https://aws.amazon.com/outposts/rack/faqs/">Outposts rack FAQs page</a>.</p>
-last_updated: '2026-01-22T01:26:19.060294'
+  a82a85a35c9886a3b6c35e1f3baa81d0:
+    id: a82a85a35c9886a3b6c35e1f3baa81d0
+    title: Amazon RDS for SQL Server enhances differential and transaction log restores
+      support
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-sql-server-diff-and-log-restores-for-maz-and-rr/
+    published: '2026-01-21'
+    summary: <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
+      Relational Database Service (Amazon RDS) for SQL Server</a> now supports differential
+      and transaction log restores for instances configured with Multi-AZ and instances
+      with read replicas in the same region. The native SQL Server backup and restore
+      component provides an essential safeguard for protecting critical data stored
+      in your SQL Server databases, and it allows you to migrate your databases between
+      different environments, such as from on-premises to Amazon RDS for SQL Server.
+      Differential backups are cumulative backups of all data changes that have occurred
+      since the most recent full backup, while transaction log backups record every
+      single transaction in the database. Combining these with full backups you can
+      create a disaster recovery strategy to minimize data loss.<br /> <br /> Previously,
+      customers who needs to use native SQL Server differential and transaction log
+      restores were required to remove Multi-AZ and Read Replica so that the instance
+      is in Single-AZ mode, restore the databases, and then reconfigure the instance
+      back to Multi-AZ and Read Replica. Now customers can reduce the restore time
+      by using differential and transaction log restores directly on these instances
+      without having to convert them to Single-AZ first, while keeping Multi-AZ working
+      for high availability, and read replica working to serve read workloads in the
+      same region.<br /> <br /> For more information about using differential and
+      transaction log restores, see the <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/SQLServer.Procedural.Importing.html"
+      target="_blank">Amazon RDS for SQL Server User Guide</a>. This feature is available
+      in all AWS Regions where Amazon RDS for SQL Server is available.</p>
+last_updated: '2026-01-22T03:44:47.599832'
