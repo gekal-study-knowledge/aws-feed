@@ -151,4 +151,56 @@ entries:
       about the new <a href="https://aws.amazon.com/ec2/instance-types/c8i/" target="_blank">C8i
       and C8i-flex</a> instances visit the <a href="https://aws.amazon.com/blogs/aws/introducing-new-compute-optimized-amazon-ec2-c8i-and-c8i-flex-instances/"
       target="_blank">AWS News blog</a>.</p>
-last_updated: '2026-01-22T21:20:09.136379'
+  a384a78dfc72942ea885e47e01df70d9:
+    id: a384a78dfc72942ea885e47e01df70d9
+    title: AWS Config launches 13 new managed rules
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-config-launches-new-rules/
+    published: '2026-01-22'
+    summary: "<p>AWS Config announces launch of an additional 13 managed Config rules\
+      \ for various use cases such as security, durability, and operations. You can\
+      \ now search, discover, enable and manage these additional rules directly from\
+      \ AWS Config and govern more use cases for your AWS environment.<br /> <br />\
+      \ With this launch, you can now enable these controls across your account or\
+      \ across your organization. For example, you can assess your security posture\
+      \ across Amazon Cognito User pools, Amazon EBS Snapshots, AWS Cloudformation\
+      \ Stacks and more. Additionally, you can leverage Conformance Packs to group\
+      \ these new controls and deploy across an account or across organization, streamlining\
+      \ your multi-account governance.<br /> <br /> For the full list of recently\
+      \ released rules, visit the&nbsp;<a href=\"https://docs.aws.amazon.com/config/latest/developerguide/DocumentHistory.html\"\
+      >AWS Config developer guide</a>. For description of each rule and the AWS Regions\
+      \ in which it is available, please refer our&nbsp;<a href=\"https://docs.aws.amazon.com/config/latest/developerguide/managed-rules-by-aws-config.html\"\
+      >Config managed rules documentation</a>. To start using Config rules, please\
+      \ refer our&nbsp;<a href=\"https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_add-rules.html\"\
+      >documentation</a>.<br /> <br /> New Rules Launched:<br /> </p> \n<ol> \n <li>AURORA_GLOBAL_DATABASE_ENCRYPTION_AT_REST</li>\
+      \ \n <li>CLOUDFORMATION_STACK_SERVICE_ROLE_CHECK</li> \n <li>CLOUDFORMATION_TERMINATION_PROTECTION_CHECK</li>\
+      \ \n <li>CLOUDFRONT_DISTRIBUTION_KEY_GROUP_ENABLED</li> \n <li>COGNITO_USER_POOL_DELETE_PROTECTION_ENABLED</li>\
+      \ \n <li>COGNITO_USER_POOL_MFA_ENABLED</li> \n <li>COGNITO_USERPOOL_CUST_AUTH_THREAT_FULL_CHECK</li>\
+      \ \n <li>EBS_SNAPSHOT_BLOCK_PUBLIC_ACCESS</li> \n <li>ECS_CAPACITY_PROVIDER_TERMINATION_CHECK</li>\
+      \ \n <li>ECS_TASK_DEFINITION_EFS_ENCRYPTION_ENABLED</li> \n <li>ECS_TASK_DEFINITION_LINUX_USER_NON_ROOT</li>\
+      \ \n <li>ECS_TASK_DEFINITION_WINDOWS_USER_NON_ADMIN</li> \n <li>SES_SENDING_TLS_REQUIRED</li>\
+      \ \n</ol>"
+  4ac3f72013971d79b19ab220b0b9e462:
+    id: 4ac3f72013971d79b19ab220b0b9e462
+    title: Microsoft Office, Visio and Project 2024 Apps now on Amazon WorkSpaces
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/microsoft-office-visio-project-2024-amazon-workspaces/
+    published: '2026-01-22'
+    summary: "<p>Today,&nbsp;Amazon WorkSpaces Personal&nbsp;and Core announce the\
+      \ availability of new Microsoft productivity applications for WorkSpaces instances,\
+      \ including Microsoft Office LTSC Professional Plus 2024, Microsoft Office LTSC\
+      \ Standard 2024, Microsoft Visio LTSC Professional 2024, Microsoft Visio LTSC\
+      \ Standard 2024, Microsoft Project Professional 2024 and Microsoft Project Standard\
+      \ 2024.<br /> <br /> Microsoft&nbsp;Office 2024, Visio 2024 and Project 2024\
+      \ applications are now part of Amazon WorkSpaces’ managed applications catalog\
+      \ and&nbsp;can be added to eligible&nbsp;new or existing WorkSpaces using your\
+      \ existing Manage application workflow. This helps you standardize on a modern,\
+      \ secure, productivity-focused desktop experience without changing your current\
+      \ bundles.</p> \n<p>These applications are available in all AWS Regions that\
+      \ support Amazon WorkSpaces Personal and Core. You will be charged the applications\
+      \ you choose for your WorkSpaces instances. For more details on pricing, refer\
+      \ to <a href=\"https://aws.amazon.com/workspaces/desktop-as-a-service/pricing/\"\
+      \ target=\"_blank\">Amazon WorkSpaces Pricing</a>. To get started, refer to\
+      \ <a href=\"https://docs.aws.amazon.com/workspaces/latest/adminguide/administer-workspaces.html\"\
+      \ target=\"_blank\">Administer your WorkSpaces</a> and <a href=\"https://docs.aws.amazon.com/workspaces/latest/adminguide/manage-applications.html\"\
+      \ target=\"_blank\">Manage applications</a> for Amazon WorkSpaces.</p> \n<p>&nbsp;</p>\
+      \ \n<p>&nbsp;</p> \n<p>&nbsp;</p> \n<p>&nbsp;</p> \n<p>&nbsp;</p>"
+last_updated: '2026-01-22T22:19:17.358470'
