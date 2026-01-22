@@ -203,4 +203,54 @@ entries:
       \ target=\"_blank\">Administer your WorkSpaces</a> and <a href=\"https://docs.aws.amazon.com/workspaces/latest/adminguide/manage-applications.html\"\
       \ target=\"_blank\">Manage applications</a> for Amazon WorkSpaces.</p> \n<p>&nbsp;</p>\
       \ \n<p>&nbsp;</p> \n<p>&nbsp;</p> \n<p>&nbsp;</p> \n<p>&nbsp;</p>"
-last_updated: '2026-01-22T22:19:17.358470'
+  6511abb2a6a380ab039bd03682020e07:
+    id: 6511abb2a6a380ab039bd03682020e07
+    title: 'Now available: 48xlarge and metal-48xl sizes for EBS optimized Amazon
+      EC2 instances'
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/graviton4-ebs-optimized-larger-sizes
+    published: '2026-01-22'
+    summary: "<p>Today, AWS announces the general availability of the Amazon Elastic\
+      \ Block Storage (Amazon EBS) optimized Amazon Elastic Compute Cloud (Amazon\
+      \ EC2) C8gb, M8gb, and R8gb instances in 48xlarge sizes. We are also offering\
+      \ C8gb and R8gb in metal-48xl sizes. These instances are powered by AWS Graviton4\
+      \ processors to deliver up to 30% better compute performance than AWS Graviton3\
+      \ processors. At up to 300 Gbps of EBS bandwidth, these instances offer the\
+      \ highest EBS performance among non-accelerated compute EC2 instances. Take\
+      \ advantage of the higher block storage performance offered by these new EBS\
+      \ optimized EC2 instances to scale the performance and throughput of a wide\
+      \ variety of workloads.</p> \n<p>For increased scalability, these instances\
+      \ offer sizes up to 48xlarge, including two metal sizes (C8gb and R8gb only),\
+      \ 3 varieties of memory to vCPUs ratios, up to 300 Gbps of EBS bandwidth, up\
+      \ to 400 Gbps of networking bandwidth. Offering up to 1440K IOPS, these instances\
+      \ have the highest Amazon EBS IOPS performance in Amazon EC2. These new instances\
+      \ support Elastic Fabric Adapter (EFA) networking, which enables lower latency\
+      \ and improved cluster performance for workloads deployed on tightly coupled\
+      \ clusters.</p> \n<p>The new instance sizes are available in US East (N. Virginia)\
+      \ and US West (Oregon) regions. Metal sizes are only available in US East (N.\
+      \ Virginia) region.</p> \n<p>To learn more, see Amazon <a href=\"https://aws.amazon.com/ec2/instance-types/c8g/\"\
+      >C8gb</a>, <a href=\"https://aws.amazon.com/ec2/instance-types/m8g/\">M8gb</a>,\
+      \ and <a href=\"https://aws.amazon.com/ec2/instance-types/r8g\">R8gb</a> Instances.\
+      \ To begin your Graviton journey, visit the <a href=\"https://aws.amazon.com/ec2/graviton/level-up-with-graviton/\"\
+      >Level up your compute with AWS Graviton page</a>. To get started, see <a href=\"\
+      https://console.aws.amazon.com/\">AWS Management Console</a>, <a href=\"https://aws.amazon.com/cli/\"\
+      >AWS Command Line Interface (AWS CLI)</a>, and <a href=\"https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html\"\
+      >AWS SDKs</a>.</p>"
+  1596e1755650739e005a18bd44bb5c3f:
+    id: 1596e1755650739e005a18bd44bb5c3f
+    title: Announcing availability of AWS Outposts racks in Rwanda
+    link: https://aws.amazon.comabout-aws/whats-new/2026/01/availability-aws-outposts-racks-rwanda
+    published: '2026-01-22'
+    summary: <p>AWS Outposts racks can now be shipped and installed at your data center
+      and on-premises locations in Rwanda.<br /> <br /> AWS Outposts racks extend
+      AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises
+      data center or colocation space for a truly consistent hybrid experience. Outposts
+      racks allow customers to run workloads that need low latency access to on-premises
+      systems locally while connecting back to a home Region for application management.
+      Customers can also use Outposts racks to manage and process data that needs
+      to remain on-premises to meet data residency requirements.<br /> <br /> To learn
+      more about Outposts racks, read the <a href="https://aws.amazon.com/outposts/rack/"
+      target="_blank">product overview</a> and <a href="https://docs.aws.amazon.com/outposts/index.html"
+      target="_blank">user guide</a>. For the most updated list of countries and territories
+      and the AWS Regions where Outposts racks are supported, check out the <a href="https://aws.amazon.com/outposts/rack/faqs/"
+      target="_blank"><u>Outposts rack FAQs page</u></a>.</p>
+last_updated: '2026-01-22T23:18:21.790644'
