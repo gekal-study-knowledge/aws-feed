@@ -51,6 +51,17 @@
 
 <hr>
 
+<h3>EC2 Auto Scaling Introduces New Mechanisms for Group Deletion Protection</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-auto-scaling-new-mechanisms-group-deletion-protection">https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-auto-scaling-new-mechanisms-group-deletion-protection</a></li>
+<li><strong>Published</strong>: 2026-01-23</li>
+</ul>
+
+<p><p>EC2 Auto Scaling is introducing a new policy condition key <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2autoscaling.html#amazonec2autoscaling-policy-keys" target="_blank">autoscaling:ForceDelete</a>. This condition key is used with the DeleteAutoScalingGroup action to control whether the ForceDelete parameter can be used during deletion, which determines if an Auto Scaling group (ASG) can be deleted while it still contains running instances. You can use this condition key in IAM policies to restrict deletion permissions. This provides a safety measure to prevent accidental deletion of ASGs that still have running instances.<br /> <br /> Furthermore, EC2 Auto Scaling now offers deletion protection at the group level. The new deletion-protection configuration can be set either when you create your ASGs or update them. This new feature lets you set enhanced controls based on your workload's criticality, with multiple protection levels available to safeguard against accidental deletions and help maintain application availability.<br /> <br /> Combining the autoscaling:ForceDelete condition key with deletion protection at the group level provides a layered defense against unwanted ASG termination by allowing you to both restrict IAM permissions for force-delete operations and set enhanced protection controls directly on critical ASGs.<br /> <br /> The features now available in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/" target="_blank">AWS Regions</a> and AWS GovCloud (US) Regions. To get started, visit the EC2 Auto Scaling console or refer to our <a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/resource-deletion-protection.html" target="_blank">technical documentation for deletion protection</a> and <a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/control-access-using-iam.html#policy-auto-scaling-condition-keys" target="_blank">policy condition keys</a> for Amazon EC2 Auto Scaling.</p></p>
+
+<hr>
+
 <h2>AWS Security Blog</h2>
 
 <h3>Exploring common centralized and decentralized approaches to secrets management</h3>

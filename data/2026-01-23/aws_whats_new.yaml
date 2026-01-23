@@ -67,4 +67,30 @@ entries:
       \ available in US East (N. Virginia) and US West (Oregon).&nbsp; To learn more\
       \ about Amazon EC2 M4 Max Mac instances, visit the <a href=\"https://aws.amazon.com/ec2/instance-types/mac/\"\
       >Amazon EC2 Mac page.</a></p>"
-last_updated: '2026-01-23T19:21:59.715582'
+  5c696b18c0fa4fb29ff8bf76a6394d73:
+    id: 5c696b18c0fa4fb29ff8bf76a6394d73
+    title: EC2 Auto Scaling Introduces New Mechanisms for Group Deletion Protection
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-auto-scaling-new-mechanisms-group-deletion-protection
+    published: '2026-01-23'
+    summary: <p>EC2 Auto Scaling is introducing a new policy condition key <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2autoscaling.html#amazonec2autoscaling-policy-keys"
+      target="_blank">autoscaling:ForceDelete</a>. This condition key is used with
+      the DeleteAutoScalingGroup action to control whether the ForceDelete parameter
+      can be used during deletion, which determines if an Auto Scaling group (ASG)
+      can be deleted while it still contains running instances. You can use this condition
+      key in IAM policies to restrict deletion permissions. This provides a safety
+      measure to prevent accidental deletion of ASGs that still have running instances.<br
+      /> <br /> Furthermore, EC2 Auto Scaling now offers deletion protection at the
+      group level. The new deletion-protection configuration can be set either when
+      you create your ASGs or update them. This new feature lets you set enhanced
+      controls based on your workload's criticality, with multiple protection levels
+      available to safeguard against accidental deletions and help maintain application
+      availability.<br /> <br /> Combining the autoscaling:ForceDelete condition key
+      with deletion protection at the group level provides a layered defense against
+      unwanted ASG termination by allowing you to both restrict IAM permissions for
+      force-delete operations and set enhanced protection controls directly on critical
+      ASGs.<br /> <br /> The features now available in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/"
+      target="_blank">AWS Regions</a> and AWS GovCloud (US) Regions. To get started,
+      visit the EC2 Auto Scaling console or refer to our <a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/resource-deletion-protection.html"
+      target="_blank">technical documentation for deletion protection</a> and <a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/control-access-using-iam.html#policy-auto-scaling-condition-keys"
+      target="_blank">policy condition keys</a> for Amazon EC2 Auto Scaling.</p>
+last_updated: '2026-01-23T20:21:53.452365'
