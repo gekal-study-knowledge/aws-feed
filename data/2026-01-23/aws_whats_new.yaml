@@ -1,0 +1,25 @@
+entries:
+  5039f2102023fdb2dca820be689fcda6:
+    id: 5039f2102023fdb2dca820be689fcda6
+    title: Amazon Connect adds conditional logic and real-time updates to Step-by-Step
+      Guides
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-conditional-logic-real-time-updates-step-by-step-guides/
+    published: '2026-01-23'
+    summary: '<p>Amazon Connect Step-by-Step Guides now enables managers to build
+      more dynamic and responsive guided experiences. Managers can create conditional
+      user interfaces that adapt based on user interactions, making workflows more
+      efficient. For example, managers can configure dropdown menus to show or hide
+      fields, change default values, or adjust required fields based on the input
+      in prior fields, creating tailored experiences for different scenarios.<br />
+      <br /> In addition, Step-by-Step Guides can now automatically refresh data from
+      Connect resources such as flow modules at specified intervals, ensuring agents
+      always work with the most current information.<br /> <br /> Amazon Connect Step-by-Step
+      Guides is available in the following <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/"
+      target="_blank">AWS regions</a>: US East (N. Virginia), US West (Oregon), Canada
+      (Central), Africa (Cape Town), Asia Pacific (Seoul), Asia Pacific (Singapore),
+      Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Frankfurt), Europe (London),
+      and the AWS GovCloud (US-West) Region. To learn more and get started, visit
+      the Amazon Connect <a href="https://aws.amazon.com/connect/agent-workspace/"
+      target="_blank">webpage</a> and <a href="https://docs.aws.amazon.com/connect/latest/adminguide/agent-workspace.html"
+      target="_blank">documentation.</a></p>'
+last_updated: '2026-01-23T15:22:13.421318'
