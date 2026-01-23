@@ -31,4 +31,14 @@ entries:
       with 183 services in scope. This alignment with C5 requirements demonstrates
       our ongoing commitment to adhere to the heightened expectations for cloud service
       providers. AWS customers in Germany and across Europe can run […]
-last_updated: '2026-01-23T22:15:28.925888'
+  3d150d2002d796a3258262f6a4690073:
+    id: 3d150d2002d796a3258262f6a4690073
+    title: Updated PCI PIN compliance package for AWS Payment Cryptography now available
+    link: https://aws.amazon.com/blogs/security/updated-pci-pin-compliance-package-for-aws-payment-cryptography-now-available/
+    published: '2026-01-23'
+    summary: Amazon Web Services (AWS) is pleased to announce the successful completion
+      of Payment Card Industry Personal Identification Number (PCI PIN) audit for
+      the AWS Payment Cryptography service. With AWS Payment Cryptography, your payment
+      processing applications can use payment hardware security modules (HSMs) that
+      are PCI PIN Transaction Security (PTS) HSM certified and fully managed by […]
+last_updated: '2026-01-23T23:18:20.014203'
