@@ -1,0 +1,12 @@
+entries:
+  a9147ea3b711006f9eb29c6269e32d53:
+    id: a9147ea3b711006f9eb29c6269e32d53
+    title: Exploring common centralized and decentralized approaches to secrets management
+    link: https://aws.amazon.com/blogs/security/exploring-common-centralized-and-decentralized-approaches-to-secrets-management/
+    published: '2026-01-23'
+    summary: 'One of the most common questions about secrets management strategies
+      on Amazon Web Services (AWS) is whether an organization should centralize its
+      secrets. Though this question is often focused on whether secrets should be
+      centrally stored, there are four aspects of centralizing the secrets management
+      process that need to be considered: creation, storage, rotation, and […]'
+last_updated: '2026-01-23T19:22:00.360942'
