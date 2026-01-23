@@ -21,4 +21,14 @@ entries:
       (Tokyo), and Asia Pacific (Singapore). Additionally, the AWS US East (Ohio)
       and Europe (Paris) Regions have been recertified. All certifications are under
       the […]'
-last_updated: '2026-01-23T21:18:21.570351'
+  ab7e520a9a70a0095ff72a1e3357bbd4:
+    id: ab7e520a9a70a0095ff72a1e3357bbd4
+    title: AWS achieves 2025 C5 Type 2 attestation report with 183 services in scope
+    link: https://aws.amazon.com/blogs/security/aws-achieves-2025-c5-type-2-attestation-report-with-183-services-in-scope/
+    published: '2026-01-23'
+    summary: Amazon Web Services (AWS) is pleased to announce a successful completion
+      of the 2025 Cloud Computing Compliance Criteria Catalogue (C5) attestation cycle
+      with 183 services in scope. This alignment with C5 requirements demonstrates
+      our ongoing commitment to adhere to the heightened expectations for cloud service
+      providers. AWS customers in Germany and across Europe can run […]
+last_updated: '2026-01-23T22:15:28.925888'
