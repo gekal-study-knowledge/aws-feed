@@ -1,0 +1,26 @@
+entries:
+  181541327d6f1afe28ddf8b322f5aee4:
+    id: 181541327d6f1afe28ddf8b322f5aee4
+    title: CVE-2026-1386 - Arbitrary Host File Overwrite via Symlink in Firecracker
+      Jailer
+    link: https://aws.amazon.com/security/security-bulletins/rss/2026-003-aws/
+    published: '2026-01-23'
+    summary: "<p><b>Bulletin ID:</b> 2026-003-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+      \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/01/23\
+      \ 12:30 PM PST</p> \n<p><b>Description:</b></p> \n<p>Firecracker is an open\
+      \ source virtualization technology that is purpose-built for creating and managing\
+      \ secure, multi-tenant container and function-based services. Firecracker runs\
+      \ in user space and uses the Linux Kernel-based Virtual Machine (KVM) to create\
+      \ microVMs. Each Firecracker microVM is further isolated with common Linux user-space\
+      \ security barriers by a companion program called \"jailer\". The jailer provides\
+      \ a second line of defense in case a user escapes from the microVM boundaries\
+      \ and it is released at each Firecracker version.</p> \n<p>We are aware of CVE-2026-1386,\
+      \ an issue that is related to the Firecracker jailer, which under certain circumstances\
+      \ can allow an user to overwrite arbitrary files in the host filesystem.</p>\
+      \ \n<p>AWS services that use Firecracker are not impacted by the issue as we\
+      \ appropriately restrict access to the host and the jailer folder, blocking\
+      \ the preconditions required for the attack to happen.</p> \n<p><b>Impacted\
+      \ versions:</b> Firecracker version v1.13.1 and earlier and 1.14.0</p> \n<p><b>Please\
+      \ refer to the article below for the most up-to-date and complete information\
+      \ related to this AWS Security Bulletin.</b></p>"
+last_updated: '2026-01-23T21:18:21.688947'

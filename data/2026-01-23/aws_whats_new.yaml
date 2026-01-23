@@ -93,4 +93,56 @@ entries:
       visit the EC2 Auto Scaling console or refer to our <a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/resource-deletion-protection.html"
       target="_blank">technical documentation for deletion protection</a> and <a href="https://docs.aws.amazon.com/autoscaling/ec2/userguide/control-access-using-iam.html#policy-auto-scaling-condition-keys"
       target="_blank">policy condition keys</a> for Amazon EC2 Auto Scaling.</p>
-last_updated: '2026-01-23T20:21:53.452365'
+  f3bbe6790c2de866c9b5ac4405767b72:
+    id: f3bbe6790c2de866c9b5ac4405767b72
+    title: Amazon Route 53 Domains adds support for .ai, and other top-level domains
+    link: https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-route-53-domains-adds-support-for-.ai-and-other-top-level-domains/
+    published: '2026-01-23'
+    summary: "<p>Amazon Route 53 Domains now supports registration and management\
+      \ of ten new top-level domains (TLDs): .ai, .nz, .shop, .bot, .moi, .spot, .free,\
+      \ .deal, .now, and .hot. This expansion enhances Route 53's capabilities as\
+      \ a domain registration and DNS management service, offering customers more\
+      \ options to establish their online presence. With these additions, businesses\
+      \ and individuals can now leverage domain names tailored to specific industries,\
+      \ regions, or purposes directly through Amazon Web Services (AWS).<br /> <br\
+      \ /> The new TLDs cater to various use cases. To name a few, the .ai domain,\
+      \ originally for Anguilla, has become popular among artificial intelligence\
+      \ companies. E-commerce sites can utilize .shop for their online storefronts.\
+      \ The .bot domain suits chatbot and AI-related services. The .now domain works\
+      \ well for time-sensitive services and instant delivery platforms. Users can\
+      \ register these domains through the Route 53 console, AWS CLI, or SDKs, enjoying\
+      \ integrated DNS management and automatic renewal features. This seamless integration\
+      \ allows for efficient domain administration alongside existing Route 53 hosted\
+      \ zones and DNS records.<br /> <br /> To learn more about Amazon Route 53 Domains\
+      \ and start registering new domains, visit the <a href=\"https://aws.amazon.com/route53/\"\
+      >Amazon Route 53 page</a>. Domain registration pricing varies by TLD. Visit\
+      \ the <a href=\"http://aws.amazon.com/route53/pricing/\">pricing page</a> for\
+      \ detailed pricing information.</p> \n<p>&nbsp;</p>"
+  232bb24d86fc87d143883d674018483b:
+    id: 232bb24d86fc87d143883d674018483b
+    title: Amazon RDS for Oracle now supports replicas in Oracle multi-tenant configuration
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-for-oracle-replica-multi-tenant-configuration-support
+    published: '2026-01-23'
+    summary: "<p>Amazon RDS for Oracle now supports database replicas for instances\
+      \ set up in Oracle multi-tenant configuration. Oracle multi-tenant configuration\
+      \ allows customers to host multiple, isolated pluggable databases in a single\
+      \ container database, which allows for cost reduction through consolidation\
+      \ and easier management. With support for replicas in Oracle multi-tenant configuration,\
+      \ customers can now distribute read workloads to a replica to scale workloads,\
+      \ or setup cross-Region replicas. In disaster recovery situations, customers\
+      \ can promote replicas to serve as a new standalone database, or execute a switchover\
+      \ to reverse roles between the primary database and the replica for a quick\
+      \ recovery.</p> \n<p>To set up replicas in Oracle multi-tenant configuration,\
+      \ customers can create a replica in either mounted or read-only mode using the\
+      \ AWS management console, AWS CLI, or AWS SDK. Once a replica is set up, Amazon\
+      \ RDS for Oracle manages asynchronous physical replication between primary and\
+      \ replica database instances using Oracle Data Guard.</p> \n<p>Amazon RDS for\
+      \ Oracle read replicas use Oracle Data Guard. Using mounted mode replicas require\
+      \ an Oracle Database Enterprise Edition (EE) license, and using read-only mode\
+      \ replicas require additional Oracle Active Data Guard licenses. We recommend\
+      \ customers to consult their Oracle licensing expert to determine Oracle licensing\
+      \ requirements. Refer to <a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/oracle-read-replicas.overview.html#oracle-read-replicas.overview.data-guard\"\
+      >RDS for Oracle User Guide</a> for more information, and <a href=\"https://aws.amazon.com/rds/oracle/pricing/\"\
+      >Amazon RDS for Oracle pricing</a> for available instance configurations, pricing,\
+      \ and region availability.</p>"
+last_updated: '2026-01-23T21:18:20.895558'

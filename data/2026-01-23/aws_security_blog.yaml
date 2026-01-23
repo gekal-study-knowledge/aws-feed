@@ -9,4 +9,16 @@ entries:
       secrets. Though this question is often focused on whether secrets should be
       centrally stored, there are four aspects of centralizing the secrets management
       process that need to be considered: creation, storage, rotation, and […]'
-last_updated: '2026-01-23T19:22:00.360942'
+  81d0a7ad3a306ea8b5d386aa3a3af230:
+    id: 81d0a7ad3a306ea8b5d386aa3a3af230
+    title: AWS renews the GSMA SAS-SM certification for two AWS Regions and expands
+      to cover four new Regions
+    link: https://aws.amazon.com/blogs/security/aws-renews-the-gsma-sas-sm-certification-for-two-aws-regions-and-expands-to-cover-four-new-regions/
+    published: '2026-01-23'
+    summary: 'Amazon Web Services (AWS) is pleased to announce the expansion of GSMA
+      Security Accreditation Scheme for Subscription Management (SAS-SM) certification
+      to four new AWS Regions: US West (Oregon), Europe (Frankfurt), Asia Pacific
+      (Tokyo), and Asia Pacific (Singapore). Additionally, the AWS US East (Ohio)
+      and Europe (Paris) Regions have been recertified. All certifications are under
+      the […]'
+last_updated: '2026-01-23T21:18:21.570351'
