@@ -9,4 +9,14 @@ entries:
       the AWS CloudHSM service. With CloudHSM, you can manage and access your keys
       on FIPS 140-3 Level 3 validated hardware, protected with customer-owned, single-tenant
       hardware security module (HSM) instances that run in your […]
-last_updated: '2026-01-26T18:30:18.689386'
+  e5a497f6ac091acf4c35877fb799327a:
+    id: e5a497f6ac091acf4c35877fb799327a
+    title: IAM Identity Center now supports IPv6
+    link: https://aws.amazon.com/blogs/security/iam-identity-center-now-supports-ipv6/
+    published: '2026-01-26'
+    summary: Amazon Web Services (AWS) recommends using AWS IAM Identity Center to
+      provide your workforce access to AWS managed applications—such as Amazon Q Developer—and
+      AWS accounts. Today, we announced IAM Identity Center support for IPv6. To learn
+      more about the advantages of IPv6, visit the IPv6 product page. When you enable
+      IAM Identity center, it provides […]
+last_updated: '2026-01-26T20:23:06.263268'
