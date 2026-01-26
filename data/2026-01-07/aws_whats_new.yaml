@@ -107,4 +107,24 @@ entries:
       <a href="https://aws.amazon.com/ec2/instance-types/c8i/" target="_blank">C8i
       and C8i-flex</a> instances visit the <a href="https://aws.amazon.com/blogs/aws/introducing-new-compute-optimized-amazon-ec2-c8i-and-c8i-flex-instances/"
       target="_blank">AWS News blog</a>.</p>
-last_updated: '2026-01-12T11:22:40.741269'
+  a813a75a2cec19732852a3ac6d20aaa6:
+    id: a813a75a2cec19732852a3ac6d20aaa6
+    title: AWS IAM Identity Center now supports IPv6
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/iam-identity-center-ipv6-dualstack-support/
+    published: '2026-01-07'
+    summary: <p>AWS IAM Identity Center now supports Internet Protocol version 6 (IPv6)
+      through new dual-stack endpoints. Customers can now connect to AWS IAM Identity
+      Center using IPv6, IPv4, or dual-stack clients. The existing AWS IAM Identity
+      Center endpoints supporting IPv4 remain available for backward compatibility.<br
+      /> <br /> IAM Identity Center allows customers to enable workforce access to
+      AWS managed applications and AWS accounts. When your client, such as a browsers
+      or an application, makes a request to a dual-stack endpoint, the endpoint resolves
+      to an IPv4 or IPv6 address, depending on the protocol used by your network and
+      client. This launch helps you meet IPv6 compliance requirements, and minimize
+      the need for complex NAT infrastructure.<br /> <br /> IPv6 support is available
+      in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/"
+      target="_blank">AWS Regions</a> where IAM Identity Center is available, except
+      the AWS GovCloud (US) Regions and the Taipei Region. To learn more, visit the
+      <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html"
+      target="_blank">IAM Identity Center User Guide</a>.</p>
+last_updated: '2026-01-26T21:20:47.955674'

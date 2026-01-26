@@ -31,4 +31,24 @@ entries:
       for VDI partners pricing page</a>. For more information, see the <a href="https://aws.amazon.com/workspaces/vdi-partners/">WorkSpaces
       for VDI partners product page</a>. For technical documentation, see the <a href="https://docs.aws.amazon.com/workspaces-core/">Amazon
       WorkSpaces Core Documentation</a>.</p>
-last_updated: '2026-01-26T17:26:32.367959'
+  efe645b34e29cbe9b2a64dfaabe726a1:
+    id: efe645b34e29cbe9b2a64dfaabe726a1
+    title: AWS Transfer Family now supports Amazon FSx for NetApp ONTAP
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-amazon-fsx-netapp-ontap
+    published: '2026-01-26'
+    summary: <p>AWS Transfer Family customers can now access file system data stored
+      in Amazon FSx for NetApp ONTAP over SFTP, FTPS, and FTP.&nbsp;<br /> <br />
+      AWS Transfer Family provides fully managed file transfers over SFTP, FTP, FTPS,
+      AS2, and web browser-based interfaces. With this launch, you can now access
+      FSx for ONTAP file systems over Transfer Family’s supported protocols through
+      S3 Access Points, while maintaining access via native file protocols (NFS/SMB).
+      This allows you to maintain existing file system workflows while adding secure
+      access via industry-standard protocols for external partners and internal users.
+      Access is controlled through standard IAM policies and S3 Access Point configurations,
+      helping you meet data security and compliance requirements.<br /> <br /> Transfer
+      Family support for FSx for ONTAP is available in select&nbsp;<a href="https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/accessing-data-via-s3-access-points.html#access-points-for-fsx-ontap-supported-regions"
+      target="_blank">AWS Regions</a>.&nbsp;To get started, visit the AWS Transfer
+      Family console, or use AWS CLI/SDK.&nbsp;To learn more, visit the Transfer Family&nbsp;<a
+      href="https://docs.aws.amazon.com/transfer/latest/userguide/fsx-s3-access-points.html"
+      target="_blank">User Guide</a>.</p>
+last_updated: '2026-01-26T21:20:47.946267'
