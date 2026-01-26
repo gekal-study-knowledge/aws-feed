@@ -1,0 +1,12 @@
+entries:
+  b37f3bdf757555d3c688144950ea4dd3:
+    id: b37f3bdf757555d3c688144950ea4dd3
+    title: Updated PCI PIN compliance package for AWS CloudHSM now available
+    link: https://aws.amazon.com/blogs/security/updated-pci-pin-compliance-package-for-aws-cloudhsm-now-available/
+    published: '2026-01-26'
+    summary: Amazon Web Services (AWS) is pleased to announce the successful completion
+      of Payment Card Industry Personal Identification Number (PCI PIN) audit for
+      the AWS CloudHSM service. With CloudHSM, you can manage and access your keys
+      on FIPS 140-3 Level 3 validated hardware, protected with customer-owned, single-tenant
+      hardware security module (HSM) instances that run in your […]
+last_updated: '2026-01-26T18:30:18.689386'
