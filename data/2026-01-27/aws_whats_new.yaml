@@ -51,4 +51,30 @@ entries:
       \ Administration Guide, or visit the <a href=\"https://aws.amazon.com/workspaces-family/workspaces/\"\
       \ target=\"_blank\">Amazon WorkSpaces</a> page to learn more about virtual desktop\
       \ solutions from AWS.</p>"
-last_updated: '2026-01-27T20:19:43.971908'
+  b7351fc6593b493bc28499ae1577294e:
+    id: b7351fc6593b493bc28499ae1577294e
+    title: AWS Network Firewall now supports GenAI traffic visibility and enforcement
+      with Web category-based filtering
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-network-firewall-web-category-based-filtering
+    published: '2026-01-27'
+    summary: <p>AWS Network Firewall now provides visibility into generative AI (GenAI)
+      application traffic and supports traffic filtering based on web categories.
+      This new capability simplifies governance by enabling you to identify and control
+      access to GenAI services, social media platforms, streaming sites, and other
+      web categories directly within your firewall rules using pre-defined URL categories.<br
+      /> <br /> This approach of inspecting traffic based on URL categories helps
+      security and compliance teams enforce consistent policies across their AWS environments
+      while providing visibility into usage of emerging technologies like GenAI. You
+      can now easily block access to inappropriate or high-risk domains, restrict
+      GenAI tool usage to approved services, and meet regulatory requirements—all
+      while reducing operational overhead. When combined with AWS Network Firewall's
+      TLS inspection feature, you can inspect the full URL path using category-based
+      rules for even more granular control.<br /> <br /> This feature is available
+      in all AWS commercial regions where AWS Network Firewall is supported.<br />
+      <br /> To learn more about URL category filtering in AWS Network Firewall, visit
+      AWS Network Firewall <a href="https://aws.amazon.com/network-firewall/" target="_blank">product
+      page</a> and service <a href="https://docs.aws.amazon.com/network-firewall/"
+      target="_blank">documentation</a>. You can get started by updating your stateful
+      rule groups in the AWS Management Console, AWS CLI, or AWS SDKs.&nbsp;<a href="https://aws.amazon.com"
+      target="_blank"></a></p>
+last_updated: '2026-01-27T21:15:24.073109'
