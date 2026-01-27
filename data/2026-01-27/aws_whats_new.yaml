@@ -21,4 +21,34 @@ entries:
       Marketplace Seller Guide</a> and the AWS Marketplace <a href="https://docs.aws.amazon.com/marketplace/latest/APIReference/work-with-single-ami-products.html">Catalog
       API guide</a>. To get started, visit the server <a href="https://aws.amazon.com/marketplace/management/products/server?refid=a1eab8e1-44df-4b59-97a0-7f429e638b4b">product
       page</a> in the AWS Marketplace Management Portal.</p>
-last_updated: '2026-01-27T19:24:04.591739'
+  a4efcf926bac758cdf6a0f9564c60d23:
+    id: a4efcf926bac758cdf6a0f9564c60d23
+    title: Amazon WorkSpaces announces advanced printer redirection
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-workspaces-advanced-printer-redirection/
+    published: '2026-01-27'
+    summary: "<p>AWS announces advanced printer redirection for Amazon WorkSpaces\
+      \ Personal, enabling Windows users to access the full feature set of their printers\
+      \ from their virtual desktop environments. With this feature, customers can\
+      \ now use printer-specific capabilities such as double-sided printing, paper\
+      \ tray selection, finishing options (stapling, hole-punching), and color management\
+      \ directly from their Windows WorkSpaces.</p> \n<p>Advanced printer redirection\
+      \ addresses the need for specialized printing features that require printer-specific\
+      \ drivers rather than generic drivers. This capability is ideal for organizations\
+      \ with users who need advanced printing features for professional documents,\
+      \ labels, or specialized output. The feature includes configurable driver validation\
+      \ modes (exact match, partial match, or name-only matching) to balance compatibility\
+      \ with feature support, allowing administrators to optimize for their specific\
+      \ environment. When matching drivers are not found, WorkSpaces automatically\
+      \ falls back to basic printing mode, ensuring users can always print.</p> \n\
+      <p>This feature is available in all AWS Regions where Amazon WorkSpaces Personal\
+      \ is offered. Advanced printer redirection is supported on Windows WorkSpaces\
+      \ with Windows clients only, and requires WorkSpaces Agent version 2.2.0.2116\
+      \ or later and Windows client version 5.31 or later. Matching printer drivers\
+      \ must be installed on both the WorkSpace and the client device.</p> \n<p>For\
+      \ more information about advanced printer redirection in Amazon WorkSpaces,\
+      \ see <a href=\"https://docs.aws.amazon.com/workspaces/latest/adminguide/group_policy.html\"\
+      \ target=\"_blank\">Configure Printer Support for DCV</a> in the Amazon WorkSpaces\
+      \ Administration Guide, or visit the <a href=\"https://aws.amazon.com/workspaces-family/workspaces/\"\
+      \ target=\"_blank\">Amazon WorkSpaces</a> page to learn more about virtual desktop\
+      \ solutions from AWS.</p>"
+last_updated: '2026-01-27T20:19:43.971908'
