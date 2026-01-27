@@ -1,0 +1,13 @@
+entries:
+  1fc5a163f14e493ed2522d7fe5083879:
+    id: 1fc5a163f14e493ed2522d7fe5083879
+    title: File integrity monitoring with AWS Systems Manager and Amazon Security
+      Lake
+    link: https://aws.amazon.com/blogs/security/file-integrity-monitoring-with-aws-systems-manager-and-amazon-security-lake/
+    published: '2026-01-27'
+    summary: Customers need solutions to track inventory data such as files and software
+      across Amazon Elastic Compute Cloud (Amazon EC2) instances, detect unauthorized
+      changes, and integrate alerts into their existing security workflows. In this
+      blog post, I walk you through a highly scalable serverless file integrity monitoring
+      solution. It uses AWS Systems Manager Inventory to collect […]
+last_updated: '2026-01-27T18:33:56.919743'
