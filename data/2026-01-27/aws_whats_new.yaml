@@ -77,4 +77,21 @@ entries:
       target="_blank">documentation</a>. You can get started by updating your stateful
       rule groups in the AWS Management Console, AWS CLI, or AWS SDKs.&nbsp;<a href="https://aws.amazon.com"
       target="_blank"></a></p>
-last_updated: '2026-01-27T21:15:24.073109'
+  85d02935d060f4488ab9d88bf77c0538:
+    id: 85d02935d060f4488ab9d88bf77c0538
+    title: AWS Deadline Cloud now supports editing job name and description
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-deadline-cloud-editing-job-name-description/
+    published: '2026-01-27'
+    summary: <p>AWS Deadline Cloud now supports editing job names and descriptions
+      after submission. This new feature makes it easier to organize and identify
+      jobs after submission by updating names or adding useful tracking details in
+      the description field.<br /> <br /> Job names and descriptions are critical
+      metadata for organizing and understanding between users and projects, often
+      tracking things like shot and sequence number across systems. Previously they
+      could only be set at job creation during submission, being able to edit them
+      after submission allows you to fix issues in naming as well as add key tracking
+      information to the job description for other users.<br /> <br /> You can edit
+      job names and descriptions using the AWS SDK, Deadline client, and Deadline
+      Monitor. To learn more see the&nbsp;<a href="https://docs.aws.amazon.com/deadline-cloud/latest/userguide/jobs-monitoring.html">AWS
+      Deadline Cloud documentation</a>.</p>
+last_updated: '2026-01-27T22:20:13.577418'
