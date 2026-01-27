@@ -1,0 +1,24 @@
+entries:
+  f415e484818abd717a37104dcc401226:
+    id: f415e484818abd717a37104dcc401226
+    title: AWS Marketplace expands AMI self-service listing experience to FPGA products
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-marketplace-expands-ami-self-service-listing-experience-to-fpga-products
+    published: '2026-01-27'
+    summary: <p>AWS Marketplace now offers a self-service listing experience for sellers
+      listing Amazon Machine Image (AMI) products with FPGA (Field Programmable Gate
+      Array) images. This new capability eliminates the previous dependency on manual
+      Product Load Forms and accelerates time-to-market for AWS partners that offer
+      specialized hardware accelerators using FPGA technology on supported Amazon
+      F2 instance types.<br /> <br /> With this launch, sellers can now create and
+      manage AMIs with Amazon FPGA images using a new UI experience or programmatically
+      through the AWS Marketplace Catalog API. During listing creation, sellers are
+      guided through a step-by-step workflow to fill in required information about
+      their listings including up to 15 Amazon FPGA images. The self-service experience
+      includes comprehensive inline validation and error messages to help sellers
+      identify and resolve configuration issues before submission, streamlining the
+      publishing process and improving speed to market.<br /> <br /> To learn more,
+      see the <a href="https://docs.aws.amazon.com/marketplace/latest/userguide/ami-getting-started.html#ami-fpga-products">AWS
+      Marketplace Seller Guide</a> and the AWS Marketplace <a href="https://docs.aws.amazon.com/marketplace/latest/APIReference/work-with-single-ami-products.html">Catalog
+      API guide</a>. To get started, visit the server <a href="https://aws.amazon.com/marketplace/management/products/server?refid=a1eab8e1-44df-4b59-97a0-7f429e638b4b">product
+      page</a> in the AWS Marketplace Management Portal.</p>
+last_updated: '2026-01-27T19:24:04.591739'
