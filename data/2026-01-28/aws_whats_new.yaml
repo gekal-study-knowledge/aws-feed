@@ -1,0 +1,44 @@
+entries:
+  306361ebdce4ace3f19f08a2c0f49b99:
+    id: 306361ebdce4ace3f19f08a2c0f49b99
+    title: Amazon EC2 R7gd instances are now available in Europe (Paris) Region
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/r7gd-instances-available-in-paris
+    published: '2026-01-28'
+    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R7gd instances
+      with up to 3.8 TB of local NVMe-based SSD block-level storage are available
+      in Europe (Paris) Region.<br /> <br /> R7gd are powered by AWS Graviton3 processors
+      with DDR5 memory are built on the&nbsp;<a href="https://aws.amazon.com/ec2/nitro/"
+      target="_blank">AWS Nitro System</a>. They are ideal for memory-intensive workloads
+      such as open-source databases, in-memory caches, and real-time big data analytics
+      and are a great fit for applications that need access to high-speed, low latency
+      local storage, including those that need temporary storage of data for scratch
+      space, temporary files, and caches.&nbsp;<br /> <br /> To learn more, see&nbsp;<a
+      href="https://aws.amazon.com/ec2/instance-types/r7g/" target="_blank">Amazon
+      R7gd Instances</a>. To get started, see the&nbsp;<a href="https://console.aws.amazon.com/"
+      target="_blank">AWS Management Console</a>.</p>
+  a8fa1050d45442b0f962c9ce766ebf4f:
+    id: a8fa1050d45442b0f962c9ce766ebf4f
+    title: Amazon MSK Replicator is now available in Asia Pacific (New Zealand)
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-msk-replicator-asia-pacific-new-zealand
+    published: '2026-01-28'
+    summary: <p>You can now use Amazon MSK Replicator to replicate streaming data
+      across Amazon Managed Streaming for Apache Kafka (<a href="https://aws.amazon.com/msk/">Amazon
+      MSK</a>) clusters in Asia Pacific (New Zealand) Region.<br /> <br /> MSK Replicator
+      is a feature of Amazon MSK that enables you to reliably replicate data across
+      Amazon MSK clusters in different or the same AWS Region(s) in a few clicks.
+      With MSK Replicator, you can easily build regionally resilient streaming applications
+      for increased availability and business continuity. MSK Replicator provides
+      automatic asynchronous replication across MSK clusters, eliminating the need
+      to write custom code, manage infrastructure, or setup cross-region networking.
+      MSK Replicator automatically scales the underlying resources so that you can
+      replicate data on-demand without having to monitor or scale capacity. MSK Replicator
+      also replicates the necessary Kafka metadata including topic configurations,
+      Access Control Lists (ACLs), and consumer group offsets. If an unexpected event
+      occurs in a region, you can failover to the other AWS Region and seamlessly
+      resume processing.<br /> <br /> You can get started with MSK Replicator from
+      the Amazon MSK console or the Amazon CLI. With this launch, MSK Replicator is
+      now available in thirty six AWS Regions. To learn more, visit the MSK Replicator
+      <a href="https://docs.aws.amazon.com/msk/latest/developerguide/msk-replicator.html">documentation</a>,
+      <a href="https://aws.amazon.com/msk/features/msk-replicator/">product page</a>,
+      and <a href="https://aws.amazon.com/msk/pricing/">pricing page</a>.</p>
+last_updated: '2026-01-28T23:23:23.387093'
