@@ -113,4 +113,29 @@ entries:
       visit the Amazon Connect Cases <a href="https://aws.amazon.com/connect/cases/"
       target="_blank">webpage</a> and <a href="https://docs.aws.amazon.com/connect/latest/adminguide/cases-tag-based-access-control.html"
       target="_blank">documentation</a>.</p>'
-last_updated: '2026-01-27T23:18:46.150487'
+  ed27c6d624bb15d8a29d13d4e3c8d797:
+    id: ed27c6d624bb15d8a29d13d4e3c8d797
+    title: Amazon RDS for PostgreSQL, MySQL and MariaDB now support r6id and r6gd
+      database instances in additional AWS Regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-product-generally-available-rds-r6id-r6gd-expansion
+    published: '2026-01-27'
+    summary: <p>AWS memory optimized R6id database instances are now generally available
+      for Amazon RDS for PostgreSQL, MySQL, and MariaDB in the Tel Aviv region. R6gd
+      instances are now supported for Amazon RDS for PostgreSQL, MySQL, and MariaDB
+      in Asia Pacific (Osaka), and EU (Spain, Zurich) regions.<br /> <br /> &nbsp;AWS
+      Graviton2-based instances provide up to 40% performance improvement over R5-based
+      instances of equivalent sizes on Amazon Aurora and Amazon RDS databases, depending
+      on database engine, version, and workload. R6gd instances also deliver local
+      NVMe-based block level storage for low latency local storage. Memory-optimized
+      R6id instances offer 58% higher TB storage per vCPU and 15% better price performance
+      when compared with R5d instances.<br /> <br /> You can easily launch R6gd or
+      R6id database instances through the <a href="https://console.aws.amazon.com/rds/home"
+      target="_blank">Amazon RDS Management Console</a> or by using the <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.CreateInstance.html"
+      target="_blank">AWS Command Line Interface</a> (CLI). For detailed information
+      about specific engine versions that support these database instance types, please
+      refer to the <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.DBInstanceClass.SupportAurora.html"
+      target="_blank">Aurora&nbsp;</a>and <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.Support.html"
+      target="_blank">RDS</a> documentation. For complete information on pricing and
+      regional availability, please refer to the Amazon RDS <a href="https://aws.amazon.com/rds/pricing/"
+      target="_blank">pricing page</a>.</p>
+last_updated: '2026-01-28T01:26:16.784088'
