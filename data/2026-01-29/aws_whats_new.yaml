@@ -1,0 +1,33 @@
+entries:
+  b52c267fe458024a76df797920c83486:
+    id: b52c267fe458024a76df797920c83486
+    title: AWS announces Deployment Agent SOPs in AWS MCP Server (preview)
+    link: https://aws.amazon.com/about-aws/whats-new/2025/01/aws-announces-deployment-agent-sops-in-aws-mcp-server-preview
+    published: '2026-01-29'
+    summary: <p>AWS announces the launch of deployment Standard Operating Procedures
+      (SOPs) available in the <a href="https://docs.aws.amazon.com/aws-mcp/latest/userguide/what-is-mcp-server.html">AWS
+      MCP Server</a>. SOPs are structured, natural language instructions that guide
+      AI agents through complex, multi-step tasks to ensure consistent, reliable,
+      and efficient behavior. With these automated procedures, customers can deploy
+      web applications to their AWS account using natural language prompts from any
+      MCP-compatible IDE or CLI, including Kiro, Kiro CLI, Cursor, and Claude Code.
+      Deployment works by generating AWS CDK infrastructure, deploying CloudFormation
+      stacks, and creating CI/CD pipelines with recommended AWS security best practices.<br
+      /> <br /> Previously, developers struggled to take their vibe-coded applications
+      to production with DevOps best practices in place. Now, developers can move
+      quickly from prototype to production in as little as one prompt. When you ask
+      your AI assistant configured with AWS MCP Server to deploy your web application,
+      your AI agent will follow the multi-step plan defined in Agent SOPs to analyze
+      the project structure, generate CDK infrastructure, and deploy a preview environment
+      hosted on Amazon S3 and Amazon CloudFront. Once you are ready, it can configure
+      AWS CodePipeline for automated production deployments from source repositories,
+      setting up CI/CD automatically for your application. The Agent SOPs support
+      web applications built with popular frameworks including React, Vue.js, Angular,
+      and Next.js. Deployment documentation is automatically created in the repository,
+      enabling agents to handle future deployments, query logs for troubleshooting
+      and resume work across sessions.<br /> <br /> The Agent SOPs are available in
+      preview as part of the AWS MCP Server at no additional cost in the US East (N.
+      Virginia) Region. You pay only for AWS resources you create and applicable data
+      transfer costs. To get started, see the <a href="https://docs.aws.amazon.com/aws-mcp/latest/userguide/agent-sops-deployment.html">AWS
+      MCP Server documentation</a>.</p>
+last_updated: '2026-01-29T13:57:52.801984'
