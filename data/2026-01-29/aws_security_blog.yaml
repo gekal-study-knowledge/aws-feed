@@ -1,0 +1,12 @@
+entries:
+  0804f665b0ef46a2ef5322cf8ba4140d:
+    id: 0804f665b0ef46a2ef5322cf8ba4140d
+    title: How to get started with security response automation on AWS
+    link: https://aws.amazon.com/blogs/security/how-get-started-security-response-automation-aws/
+    published: '2026-01-29'
+    summary: At AWS, we encourage you to use automation. Not just to deploy your workloads
+      and configure services, but to also help you quickly detect and respond to security
+      events within your AWS environments. In addition to increasing the speed of
+      detection and response, automation also helps you scale your security operations
+      as your workloads in […]
+last_updated: '2026-01-29T20:26:33.158264'
