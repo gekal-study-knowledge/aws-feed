@@ -39,6 +39,28 @@
 
 <hr>
 
+<h3>Amazon EKS and Amazon EKS Distro now supports Kubernetes version 1.35</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eks-distro-kubernetes-version-1-35">https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eks-distro-kubernetes-version-1-35</a></li>
+<li><strong>Published</strong>: 2026-01-28</li>
+</ul>
+
+<p><p>Kubernetes version 1.35 introduced several new features and bug fixes, and AWS is excited to announce that you can now use <a href="https://aws.amazon.com/eks/">Amazon Elastic Kubernetes Service</a> (EKS) and <a href="https://aws.amazon.com/eks/eks-distro/">Amazon EKS Distro</a> to run Kubernetes version 1.35. Starting today, you can create new EKS clusters using version 1.35 and upgrade existing clusters to version 1.35 using the EKS console, the eksctl command line interface, or through an infrastructure-as-code tool.<br /> <br /> Kubernetes version 1.35 introduces several key improvements, including In-Place Pod Resource Updates allowing CPU and memory adjustments without restarting Pods, and PreferSameNode Traffic Distribution prioritizing local endpoints before routing to remote nodes for reduced latency. The release brings Node Topology Labels via Downward API enabling Pods to access region and zone information without API server queries, alongside Image Volumes delivering data artifacts like AI models using OCI container images. To learn more about the changes in Kubernetes version 1.35, see our <a href="https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions-standard.html">documentation</a> and the Kubernetes project <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md">release notes.</a><br /> <br /> EKS now supports Kubernetes version 1.35 in all the AWS Regions where EKS is available, including the AWS GovCloud (US) Regions.<br /> <br /> You can learn more about the Kubernetes versions available on EKS and instructions to update your cluster to version 1.35 by visiting EKS documentation. You can use <a href="https://docs.aws.amazon.com/eks/latest/userguide/cluster-insights.html">EKS cluster insights</a> to check if there are any issues that can impact your Kubernetes cluster upgrades. EKS Distro builds of Kubernetes version 1.35 are available through ECR Public Gallery and GitHub. Learn more about the EKS version lifecycle policies in the <a href="https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html">documentation</a>.</p></p>
+
+<hr>
+
+<h3>Amazon DynamoDB global tables with multi-Region strong consistency now supports application resiliency testing with AWS Fault Injection Service</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-dynamodb-global-tables-with-mrsc-fis/">https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-dynamodb-global-tables-with-mrsc-fis/</a></li>
+<li><strong>Published</strong>: 2026-01-28</li>
+</ul>
+
+<p><p>Amazon <a href="https://aws.amazon.com/dynamodb/">DynamoDB</a> global tables with multi-Region strong consistency (MRSC) now supports application resiliency testing with AWS <a href="https://aws.amazon.com/fis/">Fault Injection Service</a> (FIS), a fully managed service for running controlled fault injection experiments to improve application performance, observability, and resilience. With this launch, you can create real-world failure scenarios to MRSC global tables, such as during regional failures, enabling you to observe how your applications respond to these disruptions and validate your resilience mechanisms.<br /> <br /> MRSC global tables replicate your DynamoDB tables automatically across your choice of AWS Regions to achieve fast, strongly consistent read and write performance, providing you <a href="https://aws.amazon.com/dynamodb/sla/">99.999% availability</a>, increased application resiliency, and improved business continuity. FIS is a fully managed service for running controlled fault injection experiments to improve an application’s performance, observability, and resilience.&nbsp;You can use the new FIS action to observe how your application responds to a pause in regional replication and tune monitoring and recovery processes to improve resiliency and application availability.<br /> <br /> MRSC global tables support for FIS is available in the following <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS Regions</a>: US East (N. Virginia), US East (Ohio), US West (Oregon), Asia Pacific (Tokyo), Asia Pacific (Osaka), Asia Pacific (Seoul), Europe (Ireland), Europe (London), Europe (Frankfurt), and Europe (Paris). To get started, visit the <a href="https://docs.aws.amazon.com/fis/latest/userguide/fis-actions-reference.html#dynamodb-actions-reference">DynamoDB FIS actions documentation</a>.</p></p>
+
+<hr>
+
 
         </main>
         <footer>
