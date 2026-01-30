@@ -1,0 +1,13 @@
+entries:
+  5f356b943a18d27552f0d8eb311128cb:
+    id: 5f356b943a18d27552f0d8eb311128cb
+    title: Explore scaling options for AWS Directory Service for Microsoft Active
+      Directory
+    link: https://aws.amazon.com/blogs/security/explore-scaling-options-for-aws-directory-service-for-microsoft-active-directory/
+    published: '2026-01-30'
+    summary: You can use AWS Directory Service for Microsoft Active Directory as your
+      primary Active Directory Forest for hosting your users’ identities. Your IT
+      teams can continue using existing skills and applications while your organization
+      benefits from the enhanced security, reliability, and scalability of AWS managed
+      services. You can also run AWS Managed Microsoft AD as […]
+last_updated: '2026-01-30T20:26:15.505340'
