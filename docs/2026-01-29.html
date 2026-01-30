@@ -87,6 +87,17 @@
 
 <hr>
 
+<h3>Change the server-side encryption type of Amazon S3 objects</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/01/change-the-server-side-encryption-type-of-s3-objects">https://aws.amazon.com/about-aws/whats-new/2026/01/change-the-server-side-encryption-type-of-s3-objects</a></li>
+<li><strong>Published</strong>: 2026-01-29</li>
+</ul>
+
+<p><p>You can now change the server-side encryption type of encrypted objects in Amazon S3 without any data movement. You can use the UpdateObjectEncryption API to atomically change the encryption key of your objects regardless of the object size or storage class. With S3 Batch Operations, you can use UpdateObjectEncryption at scale to standardize the encryption type on entire buckets of objects while preserving object properties and S3 Lifecycle eligibility.<br /> <br /> Customers across many industries face increasingly stringent audit and compliance requirements on data security and privacy. A common requirement for these compliance frameworks is more rigorous encryption standards for data-at-rest, where organizations must encrypt data using a key management service. With UpdateObjectEncryption, customers can now change the encryption type of existing encrypted objects to move from Amazon S3 managed server-side encryption (SSE-S3) to use server-side encryption with AWS KMS keys (SSE-KMS). You can also change the customer-managed KMS key used to encrypt your data to comply with custom key rotation standards or enable the use of S3 Bucket Keys to reduce your KMS requests.<br /> <br /> The Amazon S3 UpdateObjectEncryption API is available in all AWS Regions. To get started, you can use the AWS Management Console or the latest AWS SDKs to update the server-side encryption type of your objects. To learn more, please visit the <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/update-sse-encryption.html">documentation</a>.</p></p>
+
+<hr>
+
 <h2>AWS Security Blog</h2>
 
 <h3>How to get started with security response automation on AWS</h3>
