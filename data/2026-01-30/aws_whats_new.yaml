@@ -92,4 +92,56 @@ entries:
       is available in all AWS Regions including the AWS GovCloud (US) Regions. To
       learn more, see <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/User_Oracle_AdditionalStorage.html">Amazon
       RDS for Oracle User Guide</a>.</p>
-last_updated: '2026-01-30T20:26:14.882059'
+  b46003b1742522a3c8a89936f7b3e04e:
+    id: b46003b1742522a3c8a89936f7b3e04e
+    title: Amazon SageMaker Unified Studio now supports AWS PrivateLink
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-unified-studio-aws-privatelink/
+    published: '2026-01-30'
+    summary: '<p>Today, Amazon SageMaker announced a new capability allowing you to
+      establish connectivity between your Amazon Virtual Private Cloud (VPC) and Amazon
+      SageMaker Unified Studio without customer data traffic going through the public
+      internet. Customers needing to go beyond the standard data transfer protocol
+      (HTTPS/TLS2) can choose to configure their VPC so data transfer stays within
+      the AWS network.<br /> <br /> Through <a href="https://docs.aws.amazon.com/vpc/latest/privatelink/what-is-privatelink.html">AWS
+      PrivateLink</a>, Network Administrators can now onboard AWS service endpoints
+      to their VPC used by Amazon SageMaker Unified Studio. With the endpoints are
+      onboarded, IAM policies used by Amazon SageMaker will enforce that customer
+      data stay within the AWS network.<br /> <br /> Amazon SageMaker private access
+      using AWS PrivateLink is available in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
+      Regions</a> where Amazon SageMaker Unified Studio is supported, including: Asia
+      Pacific (Tokyo), Europe (Ireland), US East (N. Virginia), US East (Ohio), US
+      West (Oregon), Europe (Frankfurt), South America (São Paulo), Asia Pacific (Seoul),
+      Europe (London), Asia Pacific (Singapore), Asia Pacific (Sydney), Canada (Central),
+      Asia Pacific (Mumbai), Europe (Paris), Europe (Stockholm)<br /> <br /> To learn
+      more, visit <a href="https://aws.amazon.com/sagemaker/">Amazon SageMaker</a>
+      then get started with the <a href="https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/network-isolation.html">network
+      isolation documentation</a>.</p>'
+  b1c671efe6c47686db1913da1c68718c:
+    id: b1c671efe6c47686db1913da1c68718c
+    title: Amazon ECS now publishes container health status as a CloudWatch metric
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-container-health-status-metric/
+    published: '2026-01-30'
+    summary: <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
+      Container Service</a> (Amazon ECS) now publishes container health status as
+      a new metric in CloudWatch Container Insights with enhanced observability. Customers
+      can now track the operational health of their containers through a dedicated
+      CloudWatch metric and create alarms to respond proactively to unhealthy containers.<br
+      /> <br /> When customers configure a container health check in the container
+      definition of an ECS task definition, Container Insights now publishes the UnHealthyContainerHealthStatus
+      metric in the ECS/ContainerInsights namespace. The metric reports 0 for HEALTHY
+      and 1 for UNHEALTHY. Container health state information is also available in
+      embedded metric format (EMF) logs, providing additional context while health
+      checks are being evaluated during the UNKNOWN state. The metric is available
+      across cluster, service, task, and container-level dimensions, enabling customers
+      to monitor health at their preferred level of granularity. Customers can create
+      CloudWatch alarms on the metric to receive notifications when containers become
+      unhealthy, allowing teams to take immediate action and maintain application
+      reliability.<br /> <br /> To get started, enable Container Insights with enhanced
+      observability on your ECS cluster and configure a container health check in
+      your task definition to start collecting the metric in CloudWatch. Container
+      health metric is available in all AWS Regions where Amazon ECS Container Insights
+      is supported. For more information, see the <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/healthcheck.html"
+      target="_blank">Amazon ECS container health checks documentation</a> and the
+      <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Container-Insights-enhanced-observability-metrics-ECS.html"
+      target="_blank">CloudWatch Container Insights documentation</a>.</p>
+last_updated: '2026-01-30T21:25:19.004548'
