@@ -1,0 +1,19 @@
+entries:
+  a059d24944ab85736a06946f58c5d71d:
+    id: a059d24944ab85736a06946f58c5d71d
+    title: New Partner Revenue Measurement gives visibility into AWS service consumption
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/new-partner-revenue-measurement
+    published: '2026-01-30'
+    summary: "<p>Today, AWS announces the launch of Partner Revenue Measurement, a\
+      \ new capability that gives AWS Partners visibility into how their solutions\
+      \ impact AWS service consumption across partner-managed and customer-managed\
+      \ accounts.</p> \n<p>Partner Revenue Measurement allows Partners to better understand\
+      \ their AWS revenue impact and product consumption patterns. Partners can now\
+      \ tag AWS resources using the product code from their AWS Marketplace listing\
+      \ with tag key: aws-apn-id and tag value<i><i>:</i></i> pc:&lt;AWS Marketplace\
+      \ product-code&gt; to quantify and measure the AWS revenue impact of that solution.</p>\
+      \ \n<p>Partner Revenue Measurement is generally available in all commercial\
+      \ regions. To learn more about implementing Partner Revenue Measurement, review\
+      \ the <a href=\"https://docs.aws.amazon.com/PRM/latest/aws-prm-onboarding-guide/what-is-service.html\"\
+      >onboarding guide</a> for more information.</p>"
+last_updated: '2026-01-30T18:37:17.614549'
