@@ -64,4 +64,102 @@ entries:
       \ To learn more about Amazon Connect, AWS’s AI-native customer experience solution,\
       \ please visit the <a href=\"https://aws.amazon.com/connect/\">Amazon Connect\
       \ website</a>.</p>"
-last_updated: '2026-02-02T18:38:23.066736'
+  43c27afa8d7c3790b4b3eafbe6c09700:
+    id: 43c27afa8d7c3790b4b3eafbe6c09700
+    title: DeepSeek OCR, MiniMax M2.1, and Qwen3-VL-8B-Instruct models are now available
+      on SageMaker JumpStart
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/new-models-on-sagemaker-jumpstart
+    published: '2026-02-02'
+    summary: <p>Today, AWS announced the availability of DeepSeek OCR, MiniMax M2.1,
+      and Qwen3-VL-8B-Instruct in Amazon SageMaker JumpStart, expanding the portfolio
+      of foundation models available to AWS customers. These three models bring specialized
+      capabilities spanning document intelligence, multilingual coding, advanced multimodal
+      reasoning, and vision-language understanding, enabling customers to build sophisticated
+      AI applications across diverse use cases on AWS infrastructure.<br /> <br />
+      These models address different enterprise AI challenges with specialized capabilities:<br
+      /> <b>DeepSeek OCR</b> explores visual-text compression for document processing.
+      It can extract structured information from forms, invoices, diagrams, and complex
+      documents with dense text layouts.<br /> <b>MiniMax M2.1</b> is optimized for
+      coding, tool use, instruction following, and long-horizon planning. It automates
+      multilingual software development and executes complex, multi-step office workflows,
+      empowering developers to build autonomous applications.<br /> <b>Qwen3-VL-8B-Instruct</b>
+      delivers ssuperior text understanding and generation, deeper visual perception
+      and reasoning, extended context length, enhanced spatial and video dynamics
+      comprehension, and stronger agent interaction capabilities.<br /> With SageMaker
+      JumpStart, customers can deploy any of these models with just a few clicks to
+      address their specific AI use cases.<br /> <br /> To get started with these
+      models, navigate to the SageMaker JumpStart model catalog in the SageMaker console
+      or use the SageMaker Python SDK to deploy the models to your AWS account. For
+      more information about deploying and using foundation models in SageMaker JumpStart,
+      see the <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html">Amazon
+      SageMaker JumpStart documentation</a>.&nbsp;</p>
+  2ebb2739cbff202106c692e73c554076:
+    id: 2ebb2739cbff202106c692e73c554076
+    title: Announcing memory-optimized instance bundles for Amazon Lightsail
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-lightsail-memory-optimized-instances/
+    published: '2026-02-02'
+    summary: <p>Amazon Lightsail now offers memory-optimized instance bundles with
+      up to 512 GB memory. The new instance bundles are available in 7 sizes, with
+      Linux and Windows operating system (OS) and application blueprints, for both
+      IPv6-only and dual-stack networking types. You can create instances using the
+      new bundles with pre-configured OS and application blueprints including WordPress,
+      cPanel &amp; WHM, Plesk, Drupal, Magento, MEAN, LAMP, Node.js, Ruby on Rails,
+      Amazon Linux, Ubuntu, CentOS, Debian, AlmaLinux, and Windows.<br /> <br /> The
+      new memory-optimized instance bundles enable you to run memory-intensive workloads
+      that require high RAM-to-vCPU ratios in Lightsail. These high-memory instance
+      bundles are ideal for workloads such as in-memory databases, real-time big data
+      analytics, in-memory caching systems, high-performance computing (HPC) applications,
+      and large-scale enterprise applications that process extensive datasets in memory.<br
+      /> <br /> These new bundles are now available in all <a href="https://docs.aws.amazon.com/lightsail/latest/userguide/understanding-regions-and-availability-zones-in-amazon-lightsail.html">AWS
+      Regions where Amazon Lightsail is available</a>. For more information on pricing,
+      <a href="https://aws.amazon.com/lightsail/pricing/">click here.</a></p>
+  2e08defc60c2986a66fa0189307590da:
+    id: 2e08defc60c2986a66fa0189307590da
+    title: AWS STS now supports validation of select identity provider specific claims
+      from Google, GitHub, CircleCI and OCI
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-sts-supports-validation-identity-provider-claims
+    published: '2026-02-02'
+    summary: <p>AWS Security Token Service (STS) now supports validation of select
+      identity provider specific claims from Google, GitHub, CircleCI and Oracle Cloud
+      Infrastructure in IAM role trust policies and resource control policies for
+      OpenID Connect (OIDC) federation into AWS via the AssumeRoleWithWebIdentity
+      API. <br /> <br /> With this new capability, you can reference these custom
+      claims as condition keys in IAM role trust policies and resource control policies,
+      expanding your ability to implement fine-grained access control for federated
+      identities and help you establish your data perimeters. This enhancement builds
+      upon IAM's existing OIDC federation capabilities, which allow you to grant temporary
+      AWS credentials to users authenticated through external OIDC-compatible identity
+      providers.<br /> </p>
+  3893bee86e7d5ebbc7761b0c419e4c15:
+    id: 3893bee86e7d5ebbc7761b0c419e4c15
+    title: Amazon CloudFront announces mutual TLS support for origins
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-mutual-tls-for-origins/
+    published: '2026-02-02'
+    summary: <p>Amazon CloudFront announces support for mutual TLS authentication
+      (mTLS) for origins, a security protocol that enables customers to verify that
+      requests to their origin servers come only from their authorized CloudFront
+      distributions using TLS certificates. This certificate-based authentication
+      provides cryptographic verification of CloudFront's identity, eliminating the
+      need for customers to manage custom security controls.<br /> <br /> Previously,
+      verifying that requests came from CloudFront distributions required customers
+      to build and maintain custom authentication solutions like shared secret headers
+      or IP allow-lists, particularly for public or externally hosted origins. These
+      approaches required ongoing operational overhead to rotate secrets, update allow-lists,
+      and maintain custom code. Now with origin mTLS support, customers can implement
+      a standardized, certificate-based authentication approach that eliminates this
+      operational burden. This enables organizations to enforce strict authentication
+      for their proprietary content, ensuring that only verified CloudFront distributions
+      can establish connections to backend infrastructure ranging from AWS origins
+      and on-premises servers to third-party cloud providers and external CDNs. Customers
+      can leverage client certificates issued by <a href="https://docs.aws.amazon.com/privateca/latest/userguide/PcaWelcome.html">AWS
+      Private Certificate Authority</a> or third-party private Certificate Authorities,
+      which they import through <a href="https://aws.amazon.com/certificate-manager/">AWS
+      Certificate Manager</a>.<br /> <br /> Customers can configure origin mTLS using
+      the AWS Management Console, CLI, SDK, CDK, or CloudFormation. Origin mTLS is
+      supported for all origins that support mutual TLS on AWS such as Application
+      Load Balancer and API Gateway, as well as on-premises and custom origins. There
+      is no additional charge for origin mTLS. Origin mTLS is also available in the
+      Business and Premium flat-rate pricing plans. For detailed implementation guidance
+      and best practices, visit the CloudFront origin <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/origin-mtls-authentication.html">mutual
+      TLS documentation</a>.</p>
+last_updated: '2026-02-02T23:25:11.194720'

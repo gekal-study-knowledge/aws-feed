@@ -1,0 +1,29 @@
+entries:
+  fc13cba129fabf2f5a6430010ad24015:
+    id: fc13cba129fabf2f5a6430010ad24015
+    title: Security Findings in SageMaker Python SDK
+    link: https://aws.amazon.com/security/security-bulletins/rss/2026-004-aws/
+    published: '2026-02-02'
+    summary: "<p><b>Bulletin ID:</b> 2026-004-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+      \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/02/02\
+      \ 14:30 PM PST</p> \n<p><b>Description:</b></p> \n<p>CVE-2026-1777 - Exposed\
+      \ HMAC in SageMaker Python SDK<br /> SageMaker Python SDK’s remote functions\
+      \ feature uses a per‑job HMAC key to protect the integrity of serialized functions,\
+      \ arguments, and results stored in S3. We identified an issue where the HMAC\
+      \ secret key is stored in environment variables and disclosed via the DescribeTrainingJob\
+      \ API. This allows third parties with DescribeTrainingJob permissions to extract\
+      \ the key, forge cloud-pickled payloads with valid HMACs, and overwrite S3 objects.</p>\
+      \ \n<p>CVE-2026-1778 - Insecure TLS Configuration in SageMaker Python SDK<br\
+      \ /> SageMaker Python SDK is an open source library for training and deploying\
+      \ machine learning models on Amazon SageMaker. We identified an issue where\
+      \ SSL certificate verification was globally disabled in the Triton Python backend.\
+      \ This configuration was introduced to work around SSL errors during model downloads\
+      \ from public sources (e.g., TorchVision) and it affected all HTTPS connections\
+      \ when the Triton Python model was imported.</p> \n<p><b>Impacted versions:</b></p>\
+      \ \n<p>- HMAC Configuration in SageMaker Python SDK v3 &lt; v3.2.0<br /> - HMAC\
+      \ Configuration in SageMaker Python SDK v2 &lt; v2.256.0<br /> - Insecure TLS\
+      \ Configuration in SageMaker Python SDK v3 &lt; v3.1.1<br /> - Insecure TLS\
+      \ Configuration in SageMaker Python SDK v2 &lt; v2.256.0</p> \n<p><b>Please\
+      \ refer to the article below for the most up-to-date and complete information\
+      \ related to this AWS Security Bulletin.</b></p>"
+last_updated: '2026-02-02T23:25:12.233981'

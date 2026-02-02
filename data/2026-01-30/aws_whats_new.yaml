@@ -199,4 +199,20 @@ entries:
       the Lambda Kafka ESM developer&nbsp;<a href="https://docs.aws.amazon.com/lambda/latest/dg/with-kafka-esm.html">documentation</a>.
       These logs and metrics are charged at standard&nbsp;<a href="https://aws.amazon.com/cloudwatch/pricing/">CloudWatch
       pricing</a>.&nbsp; &nbsp;</p>'
-last_updated: '2026-01-31T01:43:34.616528'
+  ca724af49a7d7940d59cfa76eb3770b4:
+    id: ca724af49a7d7940d59cfa76eb3770b4
+    title: Amazon Connect launches improved wait time estimates
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-launches-improved-wait-time/
+    published: '2026-01-30'
+    summary: <p>Amazon Connect now delivers improved estimated wait time metrics for
+      queues and enqueued contacts, empowering organizations. This allows contact
+      centers to set accurate customer expectations, provide convenient options such
+      as callbacks when hold times are extended, and balance workloads effectively
+      across multiple queues. By leveraging the improved estimated wait time metrics,
+      contact centers can make more strategic routing choices across queues while
+      gaining enhanced visibility for better resource planning. For example, a customer
+      calling about billing during peak hours with a 15-minute wait is seamlessly
+      transferred to a cross-trained team with 2-minute availability, getting help
+      faster without repeating their issue. The metric works seamlessly with routing
+      criteria and agent proficiency configurations.&nbsp;</p>
+last_updated: '2026-02-02T23:25:11.214708'
