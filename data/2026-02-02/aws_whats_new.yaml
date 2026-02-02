@@ -13,4 +13,55 @@ entries:
       \ data and reduces your storage costs. Further, you can retrieve stored image\
       \ frames in the JPEG XL format without the latency of transcoding at retrieval\
       \ time.</p>"
-last_updated: '2026-02-02T17:35:29.863969'
+  92fabc6451ccd536cb87456ade54a8f0:
+    id: 92fabc6451ccd536cb87456ade54a8f0
+    title: AWS announces Flexible Cost Allocation in AWS GovCloud (US)
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-flexible-cost-allocation-govcloud/
+    published: '2026-02-02'
+    summary: <p><a href="https://aws.amazon.com/network-firewall/">AWS Network Firewall
+      </a>now supports flexible cost allocation through <a href="https://aws.amazon.com/transit-gateway/">AWS
+      Transit Gateway</a> native attachments in <a href="https://aws.amazon.com/govcloud-us/">AWS
+      GovCloud (US) Regions</a>, enabling you to automatically distribute data processing
+      costs across different AWS accounts. Customers can create metering policies
+      to apply data processing charges based on their organization's chargeback requirements
+      instead of consolidating all expenses in the firewall owner account.<br /> <br
+      /> This capability helps security and network teams better manage centralized
+      firewall costs by distributing charges to application teams based on actual
+      usage. Organizations can now maintain centralized security controls while automatically
+      allocating inspection costs to the appropriate business units or application
+      owners, eliminating the need for custom cost management solutions.<br /> <br
+      /> Flexible cost allocation is available in AWS GovCloud (US-East) and AWS GovCloud
+      (US-West) Regions. You can enable these features using the AWS Management Console,
+      AWS Command Line Interface (CLI) and the AWS Software Development Kit (SDK).<br
+      /> <br /> There are no additional charges for using this attachment or flexible
+      cost allocation beyond standard pricing of <a href="https://aws.amazon.com/network-firewall/pricing/">AWS
+      Network Firewall</a> and <a href="https://aws.amazon.com/transit-gateway/pricing/">AWS
+      Transit Gateway</a>. To get started, visit the Flexible Cost Allocation on AWS
+      Transit Gateway service <a href="https://docs.aws.amazon.com/vpc/latest/tgw/metering-policy.html">documentation</a>.</p>
+  825dd384a5dc605a3af21692cf67b736:
+    id: 825dd384a5dc605a3af21692cf67b736
+    title: Amazon Connect now provides APIs to test and simulate voice interactions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-provides-apis-test-simulate-voice-interactions/
+    published: '2026-02-02'
+    summary: "<p>Amazon Connect now offers APIs to configure and run tests that simulate\
+      \ contact center experiences, making it easy to validate workflows, self-service\
+      \ voice interactions, and their outcomes. With these APIs, you can programmatically\
+      \ configure test parameters, including the caller's phone number or customer\
+      \ profile, the reason for the call (such as \"I need to check my order status\"\
+      ), the expected responses (such as \"Your request has been processed\"), and\
+      \ business conditions like after-hours scenarios or full call queues. With this\
+      \ launch, you can also integrate testing directly into CI/CD pipelines, run\
+      \ multiple tests simultaneously to validate workflows at scale, and enable automated\
+      \ regression testing as part of your deployment cycles. These capabilities allow\
+      \ you to rapidly validate changes to your workflows and confidently deploy new\
+      \ customer experiences to production.</p> \n<p>To learn more about these features,\
+      \ see the <a href=\"https://docs.aws.amazon.com/connect/latest/APIReference/Welcome.html\"\
+      >Amazon Connect API Reference</a> and <a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/what-is-amazon-connect.html\"\
+      >Amazon Connect Administrator Guide</a>. These features are available in Asia\
+      \ Pacific (Mumbai), Africa (Cape Town), Europe (Frankfurt), US East (N. Virginia),\
+      \ Asia Pacific (Seoul), Europe (London), Asia Pacific (Tokyo), US West (Oregon),\
+      \ Asia Pacific (Singapore), Asia Pacific (Sydney), and Canada (Central) regions.\
+      \ To learn more about Amazon Connect, AWS’s AI-native customer experience solution,\
+      \ please visit the <a href=\"https://aws.amazon.com/connect/\">Amazon Connect\
+      \ website</a>.</p>"
+last_updated: '2026-02-02T18:38:23.066736'
