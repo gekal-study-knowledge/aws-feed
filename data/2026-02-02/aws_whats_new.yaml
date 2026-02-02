@@ -1,0 +1,16 @@
+entries:
+  39b0d5fec4ce2ece52bb844208712258:
+    id: 39b0d5fec4ce2ece52bb844208712258
+    title: AWS HealthImaging adds JPEG XL support
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-healthimaging-adds-jpeg-xl
+    published: '2026-02-02'
+    summary: "<p>AWS HealthImaging now supports storing and retrieving lossy compressed\
+      \ medical images in the JPEG XL transfer syntax (1.2.840.10008.1.2.4.112). It\
+      \ is now simpler than ever to integrate HealthImaging with applications that\
+      \ require JPEG XL encoded DICOM data, such as digital pathology whole slide\
+      \ imaging systems.</p> \n<p>With this launch, HealthImaging stores your JPEG\
+      \ XL Lossy image data without transcoding, which maintains the fidelity of your\
+      \ data and reduces your storage costs. Further, you can retrieve stored image\
+      \ frames in the JPEG XL format without the latency of transcoding at retrieval\
+      \ time.</p>"
+last_updated: '2026-02-02T17:35:29.863969'
