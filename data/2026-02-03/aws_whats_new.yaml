@@ -34,4 +34,61 @@ entries:
       >visit the product detail page</a>.&nbsp;To get started, see the <a href=\"\
       https://docs.aws.amazon.com/singlesignon/latest/userguide/multi-region-iam-identity-center.html\"\
       >IAM Identity Center User Guide</a>.&nbsp;</p>"
-last_updated: '2026-02-03T18:53:05.011748'
+  ebef5557435280e96d1e9462a5ed157d:
+    id: ebef5557435280e96d1e9462a5ed157d
+    title: AWS Lake Formation is now available in Asia Pacific (New Zealand) Region
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/AWS-Lake-Formation-Asia-Pacific-New-Zealand-Region
+    published: '2026-02-03'
+    summary: <p>AWS Lake Formation is now available in the Asia Pacific (New Zealand)
+      Region, enabling you to centrally manage and scale fine-grained data access
+      permissions and share data securely within and outside your organization.<br
+      /> <br /> <a href="https://aws.amazon.com/lake-formation/">AWS Lake Formation</a>
+      is a service that allows you to define where your data resides and what data
+      access and security policies you want to apply. Your users can then access the
+      centralized AWS Glue Data Catalog which describes available data sets and their
+      appropriate usage. Your users can then usethese data sets with their choice
+      of analytics and machine learning services, like Amazon EMR for Apache Spark,
+      Amazon Redshift, AWS Glue, Amazon QuickSight, and Amazon Athena.<br /> <br />
+      To learn more about Lake Formation, visit the <a href="https://docs.aws.amazon.com/lake-formation/">documentation</a>.
+      For AWS Lake Formation Region availability, please see the <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
+      Region table</a>.</p>
+  6dde073c8b0f1feb081b8b0323a95ca9:
+    id: 6dde073c8b0f1feb081b8b0323a95ca9
+    title: Amazon Connect launches an appeals workflow for agent performance evaluations
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-appeals-workflow-agent-performance-evaluations/
+    published: '2026-02-03'
+    summary: <p>Amazon Connect now provides an integrated workflow to capture and
+      resolve agent appeals of performance evaluations, enhancing evaluation fairness
+      and agent engagement. When agents disagree with an evaluation, they can appeal
+      the evaluation along with their reasoning directly within the Connect UI. For
+      example, an agent who received a low evaluation score for active listening on
+      a conversation, may appeal their evaluation by citing specific examples where
+      they actively listened and acknowledged the customer’s problem. Designated managers
+      then receive automated email notifications to review and resolve the appeal.
+      Additionally, managers can monitor which evaluations have been appealed, and
+      track their status, ensuring timely resolution of appeals.<br /> <br /> This
+      feature is available in all regions where&nbsp;<a href="https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#amazonconnect_region">Amazon
+      Connect</a>&nbsp;is offered. To learn more, please visit our&nbsp;<a href="https://docs.aws.amazon.com/connect/latest/adminguide/evaluation-review-requests.html">documentation</a>&nbsp;and
+      our&nbsp;<a href="https://aws.amazon.com/connect/contact-lens/">webpage</a>.</p>
+  ec959186bd6ace4908f2718b28879ac7:
+    id: ec959186bd6ace4908f2718b28879ac7
+    title: AWS Management Console now displays Account Name on the Navigation bar
+      for easier account identification
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/console-displays-account-name-on-nav-bar
+    published: '2026-02-03'
+    summary: <p>Today, AWS announces the general availability of displaying account
+      name in AWS Management Console across all Public Regions. AWS customers now
+      have an easy way to identify their accounts at a glance. Users can now quickly
+      distinguish between accounts visually using the account name that appears in
+      the navigation bar for all authorized users in that account.<br /> <br /> AWS
+      customers manage multiple accounts to separate their workloads, such as maintaining
+      distinct accounts for development and production environments or for different
+      business units. Previously, users had to rely on account numbers to identify
+      accounts. With this new feature, all authorized users can quickly identify the
+      account using its name on the navigation bar.<br /> <br /> The account name
+      display feature is available at no additional cost in all public AWS Regions.
+      To get started, make sure your administrator has enabled the feature (visit
+      our <a href="https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/security-iam-awsmanpol.html">managed
+      policy documentation</a>) and sign in to <a href="http://console.aws.com/">AWS
+      Management Console</a>.&nbsp;</p>
+last_updated: '2026-02-03T19:42:42.256770'
