@@ -183,4 +183,48 @@ entries:
       interface.<br /> <br /> AWS Multi-party approval with OTP verification for voting
       is available in all AWS Regions where Mulit-party approval is offered at no
       additional charge. To learn more, visit the AWS Multi-party approval documentation</p>
-last_updated: '2026-02-03T15:45:04.214476'
+  97b51ef82e16ef6d79ee169525b12e13:
+    id: 97b51ef82e16ef6d79ee169525b12e13
+    title: Build Production-Ready Drug Discovery and Robotics Pipelines with NVIDIA
+      NIMs on SageMaker JumpStart
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/accelerate-biosciences-and-robotics-with-NVIDIA-NIMs-on-sagemaker-jumpstart
+    published: '2026-02-02'
+    summary: "<p>Amazon SageMaker JumpStart now enables one-click deployment of four\
+      \ NVIDIA NIMs models purpose-built for biosciences and physical AI: ProteinMPNN,\
+      \ Nemotron-3.5B-Instruct, MSA Search NIM, and Cosmos Reason. NVIDIA NIM™ provides\
+      \ prebuilt, optimized inference microservices for rapidly deploying the latest\
+      \ AI models on any NVIDIA-accelerated infrastructure. These models bring advanced\
+      \ capabilities spanning protein design, reasoning with configurable outputs,\
+      \ and physical world understanding, enabling customers to accelerate biosciences\
+      \ research, drug discovery, and embodied AI applications on AWS infrastructure.</p>\
+      \ \n<p><b>ProteinMPNN </b>enables fast and efficient protein sequence optimization\
+      \ guided by structural data. This NIM generates high-quality sequences with\
+      \ enhanced binding affinity and stability, validated through experimental results.\
+      \ Designed for scalability and flexibility, ProteinMPNN integrates seamlessly\
+      \ into protein engineering workflows, transforming applications like enzyme\
+      \ design and therapeutic development.</p> \n<p><b>MSA Search NIM</b>&nbsp;supports\
+      \ GPU-accelerated Multiple Sequence Alignment (MSA) of a query amino acid sequence\
+      \ against a set of protein sequence databases. These databases are searched\
+      \ for similar sequences to the query and then the collection of sequences are\
+      \ aligned to establish similar regions even when the proteins have different\
+      \ lengths and motifs.</p> \n<p><b>Nemotron-3.5B-Instruct</b>&nbsp;delivers high\
+      \ reasoning performance, native tool calling support, and extended context processing\
+      \ with 256k token context window. This model employs an efficient hybrid Mixture-of-Experts\
+      \ (MoE) architecture to ensure higher throughput than its predecessors for agentic\
+      \ and coding workloads, while maintaining the reasoning depth of a larger model.&nbsp;It\
+      \ is ideal for building multi-agent workflows, developer productivity tools,\
+      \ processes automation, and for scientific and mathematical reasoning analysis,\
+      \ amongst others.</p> \n<p><b>Cosmos Reason</b>&nbsp;is an open , customizable,\
+      \ reasoning vision language model (VLM) for physical AI and robotics. It enables\
+      \ robots and vision AI agents to reason like humans, using prior knowledge,\
+      \ physics understanding, and common sense to understand and act in the real\
+      \ world. This model understands space, time, and fundamental physics, and can\
+      \ serve as a planning model to reason what steps an embodied agent might take\
+      \ next.</p> \n<p>With SageMaker JumpStart, customers can deploy any of these\
+      \ models with just a few clicks to address their specific AI use cases.</p>\
+      \ \n<p>To get started with these models, navigate to the SageMaker JumpStart\
+      \ model catalog in the SageMaker console or use the SageMaker Python SDK to\
+      \ deploy the models to your AWS account. For more information about deploying\
+      \ and using foundation models in SageMaker JumpStart, see the <a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html\"\
+      >Amazon SageMaker JumpStart documentation</a>.</p>"
+last_updated: '2026-02-03T18:53:05.025326'
