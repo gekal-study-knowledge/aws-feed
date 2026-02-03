@@ -215,4 +215,36 @@ entries:
       transferred to a cross-trained team with 2-minute availability, getting help
       faster without repeating their issue. The metric works seamlessly with routing
       criteria and agent proficiency configurations.&nbsp;</p>
-last_updated: '2026-02-02T23:25:11.214708'
+  257be51c8d96c29ab54425d11f566981:
+    id: 257be51c8d96c29ab54425d11f566981
+    title: Amazon CloudWatch Application Signals now supports integration with Kiro
+      powers
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/cloudwatch-application-signals-kiro-powers
+    published: '2026-01-30'
+    summary: "<p>Today, AWS announces <b><b>Amazon CloudWatch Application Signals\
+      \ integration with Kiro powers</b></b>, enabling developers and operators to\
+      \ investigate application health issues faster with AI agent-assisted workflows\
+      \ in Kiro. Kiro Powers is a repository of curated and pre-packaged Model Context\
+      \ Protocol (MCP) servers, steering files, and hooks validated by Kiro partners\
+      \ to accelerate specialized software development and deployment use cases.<br\
+      \ /> <br /> Kiro power for Amazon CloudWatch Application Signals packages the\
+      \ Application Signals MCP server with targeted observability guidance, giving\
+      \ the Kiro agent instant context for service health monitoring, SLO compliance,\
+      \ and investigation workflows. With Kiro power for Application Signals, developers\
+      \ can now accelerate troubleshooting their distributed applications in minutes\
+      \ instead of spending hours, directly in their IDE. For example, developers\
+      \ triaging an SLO or isolating an impacted service or operation, the Kiro power\
+      \ will dynamically load the relevant guidance and operational signals, so AI\
+      \ agents receive only the context needed for the specific task at hand.</p>\
+      \ \n<p>Amazon CloudWatch Application Signals Kiro power Kiro power is available\
+      \ within <a href=\"https://kiro.dev/powers/#how-do-i-install-powers\">Kiro IDE</a>\
+      \ and <a href=\"https://kiro.dev/powers/\">Kiro powers webpage</a> for <a href=\"\
+      https://kiro.dev/launch/powers/cloudwatch-application-signals/\">one-click installation</a>\
+      \ in all AWS Regions. To learn more about Application signals MCP server, visit\
+      \ our <a href=\"https://awslabs.github.io/mcp/servers/cloudwatch-applicationsignals-mcp-server\"\
+      >documentation</a>. Amazon CloudWatch Application Signals helps you monitor\
+      \ and improve application performance on AWS by automatically collecting application\
+      \ telemetry and enabling you to track application health, performance, and service\
+      \ relationships. To get started, see the <a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Application-Monitoring-Sections.html?utm_source=chatgpt.com\"\
+      >Amazon CloudWatch Application Signals documentation</a>.</p>"
+last_updated: '2026-02-03T22:26:10.197223'
