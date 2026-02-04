@@ -238,4 +238,28 @@ entries:
       To learn more, visit Oracle Database@AWS <a href="https://aws.amazon.com/marketplace/featured-seller/oracle"
       target="_blank">overview </a>and <a href="https://docs.aws.amazon.com/odb/latest/UserGuide/getting-started.html"
       target="_blank"><u>documentation</u></a>.</p>'
-last_updated: '2026-02-03T22:26:10.171723'
+  473ee5f1b614e41a713bb4f6138f8082:
+    id: 473ee5f1b614e41a713bb4f6138f8082
+    title: AWS Batch now provides Array Job Status Summary in ListJobs API
+    link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-batch-array-job-status-summary/
+    published: '2026-02-03'
+    summary: '<p>AWS Batch now includes a status summary for Array Jobs in the ListJobs
+      API response, giving you immediate visibility into the distribution of child
+      job statuses without additional API calls. This enhancement helps you monitor
+      large-scale workloads more efficiently.<br /> <br /> When you call the <i>ListJobs</i>
+      API for Array Jobs, the response now includes a <i>statusSummary</i> field that
+      shows the count of child jobs in each state: SUBMITTED, PENDING, RUNNABLE, STARTING,
+      RUNNING, SUCCEEDED, and FAILED. Previously,&nbsp;<i>statusSummary</i> field
+      was only available in the response of <i>DescribeJobs</i> API call. Using the
+      new field you can now monitor the progress of multiple array jobs in your queue
+      with a single API call.. The response also includes a <i>statusSummaryLastUpdatedAt</i>
+      timestamp, allowing you to assess the freshness of the status information. This
+      transparency helps you make informed decisions about your workload management
+      and troubleshooting.<br /> <br /> This feature is particularly valuable for
+      high-scale batch processing workloads in financial services, automotive, and
+      other industries where monitoring thousands of parallel jobs is critical for
+      operational visibility. Available today in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
+      Regions</a> where AWS Batch is available. For more information, see the ListJobs
+      API page in <a href="https://docs.aws.amazon.com/batch/latest/APIReference/API_ListJobs.html">AWS
+      Batch API Reference</a>.</p>'
+last_updated: '2026-02-04T23:24:03.765333'

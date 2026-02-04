@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Updates - 2026-02-04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AWS Updates Feed</h1>
+            <p class="subtitle"><a href="index.html">← トップに戻る</a></p>
+        </header>
+        <main class="report-content">
+            <h1>AWS Updates - 2026-02-04</h1>
+
+<h2>AWS What's New</h2>
+
+<h3>AWS Batch now supports unmanaged compute environments for Amazon EKS</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-on-eks-unmanaged-compute-environments">https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-on-eks-unmanaged-compute-environments</a></li>
+<li><strong>Published</strong>: 2026-02-04</li>
+</ul>
+
+<p><p>AWS Batch now extends its job scheduling capabilities to unmanaged compute environments on Amazon EKS. With unmanaged EKS compute environments, you can leverage AWS Batch's job orchestration while maintaining full control over your Kubernetes infrastructure for security, compliance, or operational requirements.<br /> <br /> With this capability, you can create unmanaged compute environments through CreateComputeEnvironment API and AWS Batch console by selecting your existing EKS cluster and specifying a Kubernetes namespace, then associate your EKS nodes with the compute environment using <i>kubectl</i> labeling.<br /> <br /> AWS Batch supports developers, scientists, and engineers in running efficient batch processing for ML model training, simulations, and analysis at any scale. Unmanaged compute environments on Amazon EKS are available today in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS regions</a> where AWS Batch is available. For more information, see the <a href="https://docs.aws.amazon.com/batch/latest/userguide/create-compute-environment-unmanaged-eks.html">AWS Batch User Guide</a>.</p></p>
+
+<hr>
+
+<h3>Structured outputs now available in Amazon Bedrock</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/structured-outputs-available-amazon-bedrock/">https://aws.amazon.com/about-aws/whats-new/2026/02/structured-outputs-available-amazon-bedrock/</a></li>
+<li><strong>Published</strong>: 2026-02-04</li>
+</ul>
+
+<p><p>Amazon Bedrock now supports structured outputs, a capability that provides consistent, machine-readable responses from foundation models that adhere to your defined JSON schemas. Instead of prompting for valid JSON and adding extra checks in your application, you can specify the format you want and receive responses that match it—making production workflows more predictable and resilient.<br /> <br /> Structured outputs helps with common production tasks such as extracting key fields and powering workflows that use APIs or tools, where small formatting errors can break downstream systems. By ensuring schema compliance, it reduces the need for custom validation logic and lowers operational overhead through fewer failed requests and retries—so you can confidently deploy AI applications that require predictable, machine-readable outputs. You can use structured outputs in two ways: define a JSON schema that describes the response format you want, or use strict tool definitions to ensure a model’s tool calls match your specifications.<br /> <br /> Structured outputs is generally available for Anthropic Claude 4.5 models and select <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/structured-output.html#structured-output-supported-models" target="_blank">open-weight models</a> across the Converse, ConverseStream, InvokeModel, and InvokeModelWithResponseStream APIs in all commercial <a href="https://docs.aws.amazon.com/general/latest/gr/bedrock.html" target="_blank">AWS Regions</a> where Amazon Bedrock is supported. To learn more about structured outputs and the supported models, visit the <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/structured-output.html" target="_blank">Amazon Bedrock documentation.</a></p></p>
+
+<hr>
+
+<h3>Amazon EC2 G7e instances now available in US West (Oregon) region</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g7e-instances-oregon-region/">https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g7e-instances-oregon-region/</a></li>
+<li><strong>Published</strong>: 2026-02-04</li>
+</ul>
+
+<p><p>Starting today, Amazon EC2 G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs are now available in US West (Oregon) region. G7e instances offer up to 2.3x inference performance compared to G6e.</p> 
+<p>Customers can use G7e instances to deploy large language models (LLMs), agentic AI models, multimodal generative AI models, and physical AI models. G7e instances offer the highest performance for spatial computing workloads as well as workloads that require both graphics and AI processing capabilities. G7e instances feature up to 8 NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, with 96 GB of memory per GPU, and 5th Generation Intel Xeon processors. They support up to 192 virtual CPUs (vCPUs) and up to 1600 Gbps of networking bandwidth. G7e instances support NVIDIA GPUDirect Peer to Peer (P2P) that boosts performance for multi-GPU workloads. Multi-GPU G7e instances also support NVIDIA GPUDirect Remote Direct Memory Access (RDMA) with EFA in EC2 UltraClusters, reducing latency for small-scale multi-node workloads.</p> 
+<p>You can use G7e instances for Amazon EC2 in the following AWS Regions: US West (Oregon), US East (N. Virginia) and US East (Ohio). You can purchase G7e instances as On-Demand Instances, Spot Instances, or as part of Savings Plans.</p> 
+<p>To get started, visit the <a href="https://console.aws.amazon.com/">AWS Management Console</a>, <a href="https://aws.amazon.com/cli/">AWS Command Line Interface</a> (CLI), and AWS SDKs. To learn more, visit <a href="https://aws.amazon.com/ec2/instance-types/g7e/">G7e instances</a>.</p></p>
+
+<hr>
+
+<h3>Cartesia Sonic 3 text-to-speech model is now available on Amazon SageMaker JumpStart</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/cartesia-sonic-3-on-sagemaker-jumpstart">https://aws.amazon.com/about-aws/whats-new/2026/02/cartesia-sonic-3-on-sagemaker-jumpstart</a></li>
+<li><strong>Published</strong>: 2026-02-04</li>
+</ul>
+
+<p><p>Cartesia’s Sonic 3 model is now available in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. Sonic 3 is Cartesia's latest state space model (SSM) for streaming text-to-speech (TTS), delivering high naturalness, accurate transcript following, and industry-leading latency with fine-grained control over volume, speed, and emotion.</p> 
+<p>Sonic 3 supports 42 languages and provides advanced controllability through API parameters and SSML tags for volume, speed, and emotion adjustments. The model includes natural laughter support, stable voices optimized for voice agents, and emotive voices for expressive characters. With sub-100ms latency, Sonic 3 enables real-time conversational AI that captures human speech nuances including emotions and tonal shifts.<br /> <br /> With SageMaker JumpStart, customers can deploy Sonic 3 with just a few clicks to address their voice AI use cases. To get started with this model, navigate to the SageMaker JumpStart model catalog in the SageMaker Studio or use the SageMaker Python SDK to deploy the model to your AWS account. For more information about deploying and using foundation models in SageMaker JumpStart, see the <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/studio-jumpstart.html">Amazon SageMaker JumpStart documentation</a>.</p></p>
+
+<hr>
+
+<h3>Amazon ECS adds Network Load Balancer support for Linear and Canary deployments</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecs-nlb-linear-canary-deployments">https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecs-nlb-linear-canary-deployments</a></li>
+<li><strong>Published</strong>: 2026-02-04</li>
+</ul>
+
+<p><p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic Container Service</a> (Amazon ECS) announces native support for linear and canary deployment strategies for ECS services using Network Load Balancers (NLB). Now, applications that commonly use NLB, such as those requiring TCP/UDP-based connections, low latency, long-lived connections, or static IP addresses, can take advantage of managed, incremental traffic shifting natively from ECS when rolling out updates.</p> 
+<p>With this launch, ECS customers using NLB can shift traffic in a controlled manner during deployments, such as moving traffic in increments or starting with a small percentage to validate changes before completing a rollout. These deployment strategies provide additional confidence during updates by allowing teams to observe application behavior at each traffic-shift step, and integrate with Amazon CloudWatch alarms to automatically stop or roll back deployments if issues are detected. This is especially valuable for workloads running behind an NLB, such as online gaming backends, financial transaction systems, and real-time messaging services.</p> 
+<p>To get started, select your NLB target groups, listener, and preferred deployment strategy in the ECS service configuration using the AWS Management Console, AWS CLI, or Infrastructure-as-Code tools. This can be enabled for both new and existing ECS services in all AWS commercial and AWS GovCloud (US) <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/" target="_blank">Regions</a>. For more information, see the documentation for <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-linear.html" target="_blank">Amazon ECS linear deployments</a> and <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/canary-deployment.html" target="_blank">Amazon ECS canary deployments</a>.</p></p>
+
+<hr>
+
+<h3>Apache Spark lineage now available in Amazon SageMaker Unified Studio for IDC based domains</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/apache-spark-lineage-amazon-sageMaker-unified-studio">https://aws.amazon.com/about-aws/whats-new/2026/02/apache-spark-lineage-amazon-sageMaker-unified-studio</a></li>
+<li><strong>Published</strong>: 2026-02-04</li>
+</ul>
+
+<p><p>Amazon SageMaker announces general availability of Data Lineage for Apache Spark jobs executed on Amazon EMR and AWS Glue in SageMaker Unified Studio for IDC based domains. Data Lineage provides you with the information you need to identify the root cause of complex issues and understand the impact of changes.<br /> <br /> This feature supports lineage capture of schema and transformations of data assets and columns from Spark executions in EMR-EC2, EMR-Serverless, EMR-EKS, and AWS Glue. You can then explore this lineage visually as a graph in SageMaker Unified Studio or query it using APIs. You can also use lineage to compare transformations across Spark job's history.<br /> <br /> Spark lineage is available in all existing SageMaker Unified Studio <a href="https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/supported-regions.html">regions</a>. For detailed information on how to get started with lineage using these new features, refer to the <a href="https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/datazone-data-lineage-automate-capture-from-tools.html">documentation</a>.</p></p>
+
+<hr>
+
+<h3>Introducing Amazon EC2 C8id, M8id, and R8id instances</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8id-m8id-r8id-instances/">https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8id-m8id-r8id-instances/</a></li>
+<li><strong>Published</strong>: 2026-02-04</li>
+</ul>
+
+<p><p>AWS is announcing the general availability of new Amazon EC2 C8id, M8id, and R8id instances powered by custom Intel Xeon 6 processors. These instances deliver up to 43% higher performance and 3.3x more memory bandwidth compared to previous generation C6id, M6id, and R6id instances.<br /> <br /> C8id, M8id, and R8id instances offer up to 384 vCPUs, 3TiB of memory, and 22.8TB of NVMe SSD storage, 3x more than previous generation instances. These instances deliver up to 46% higher performance for I/O intensive database workloads, and up to 30% faster query results for I/O intensive real-time data analytics than previous sixth-generation instances<b>.</b> Additionally, these instances support Instance Bandwidth Configuration, allowing 25% flexible allocation between network and EBS bandwidth, allocating resources optimally for each workload.<br /> <br /> C8id instances are ideal for compute-intensive workloads such as high-performance web servers, batch processing, distributed analytics, ad serving, video encoding, and gaming servers. M8id instances are well-suited for balanced workloads including application servers, microservices, enterprise applications, and small to medium databases. R8id instances are ideal for memory-intensive workloads such as in-memory databases, real-time big data analytics, large in-memory caches, and scientific computing applications.<br /> <br /> C8id, M8id and R8id instances are available in US East (N. Virginia), US East (Ohio), and US West (Oregon). R8id instances are additionally available in Europe (Frankfurt). Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information visit the <a href="https://aws.amazon.com/ec2/instance-types/">Amazon EC2 instance type page.</a></p></p>
+
+<hr>
+
+<h3>Amazon EC2 and VPC now display related resources for security groups</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/aws-console-related-resources-generally-available">https://aws.amazon.com/about-aws/whats-new/2026/02/aws-console-related-resources-generally-available</a></li>
+<li><strong>Published</strong>: 2026-02-04</li>
+</ul>
+
+<p><p>Amazon Web Services (AWS) is announcing the general availability of the "Related resources" tab for security groups in the Amazon EC2 and VPC consoles. This new feature provides customers with a consolidated view of all resources that depend on a specific security group, eliminating the need to manually check multiple services before making configuration changes. Security groups act as virtual firewalls that control inbound and outbound traffic for AWS resources, and understanding their dependencies is critical for maintaining secure and stable infrastructure.<br /> <br /> Previously, customers managing complex security group configurations had to navigate through multiple AWS services individually to identify dependencies before modifying or deleting security groups. This manual process required checking EC2 instances, Elastic Network Interfaces, ElastiCache clusters, RDS databases, and other services one by one, making it time-consuming and error-prone. The "Related resources" tab streamlines this workflow by displaying all dependent resources in a single location, enabling customers to quickly assess the impact of proposed changes and make informed decisions with confidence. This enhancement is beneficial for organizations managing large-scale deployments where security groups may be attached to dozens or hundreds of resources across different services.<br /> <br /> This feature is now available in all AWS commercial regions at no additional cost.<br /> <br /> To learn more about managing security groups and viewing the "Related resources" tab in the Amazon EC2 and VPC consoles, see the <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html">Amazon EC2 User Guide</a>.</p></p>
+
+<hr>
+
+<h3>Amazon EKS simplifies providing IAM permissions to EKS add-ons in AWS GovCloud (US) Regions</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-simplifies-iam-permissions-eks-addons">https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-simplifies-iam-permissions-eks-addons</a></li>
+<li><strong>Published</strong>: 2026-02-04</li>
+</ul>
+
+<p><p>Amazon Elastic Kubernetes Service (EKS) now offers a direct integration between EKS add-ons and EKS Pod Identity in AWS GovCloud (US) Regions, streamlining the lifecycle management process for critical cluster operational software that needs to interact with AWS services outside the cluster.<br /> <br /> EKS add-ons that enable integration with underlying AWS resources need IAM permissions to interact with AWS services. EKS Pod Identities simplify how Kubernetes applications obtain AWS IAM permissions. With today's launch, you can directly manage EKS Pod Identities using EKS add-ons operations through the EKS console, CLI, API, eksctl, and IAC tools like AWS CloudFormation, simplifying usage of Pod Identities for EKS add-ons. This integration expands the selection of Pod Identity compatible EKS add-ons available for installation through the EKS console during cluster creation.<br /> <br /> EKS add-ons integration with Pod Identities is generally available in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. To get started, see the <a href="https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html">EKS user guide</a>.</p></p>
+
+<hr>
+
+<h3>Amazon Redshift now supports autonomics for multi-cluster environments</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-autonomics-for-multi-cluster">https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-autonomics-for-multi-cluster</a></li>
+<li><strong>Published</strong>: 2026-02-04</li>
+</ul>
+
+<p><p>Amazon Redshift now supports autonomics—automatic optimization features—for multi-cluster environments. Database administrators managing distributed Amazon Redshift workloads can now benefit from autonomics that work intelligently across multiple warehouses, eliminating manual performance tuning across consumer clusters.<br /> <br /> This launch extends Amazon Redshift's autonomics capabilities, including Automatic Table Optimization (ATO), Automatic Table Sorting (ATS), Auto Vacuum, and Auto Analyze, to consider query patterns from all consumer clusters when managing table layouts and maintenance operations. Organizations where multiple business units access shared data can benefit from holistic optimization that considers all workload patterns, reducing manual optimization processes. This launch also includes a denylist feature, allowing you to exclude specific endpoints or AWS accounts from influencing optimization decisions—particularly useful for cross-organizational data sharing scenarios. These enhanced autonomics features are available at no additional cost for Amazon Redshift customers.<br /> <br /> This feature is available in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS Regions</a> that support <a href="https://aws.amazon.com/redshift/">Amazon Redshift</a>. To learn more, see the <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html">Amazon Redshift Management Guide</a>.</p></p>
+
+<hr>
+
+<h2>AWS News Blog</h2>
+
+<h3>Amazon EC2 C8id, M8id, and R8id instances with up to 22.8 TB local NVMe storage are generally available</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/blogs/aws/amazon-ec2-c8id-m8id-and-r8id-instances-with-up-to-22-8-tb-local-nvme-storage-are-generally-available/">https://aws.amazon.com/blogs/aws/amazon-ec2-c8id-m8id-and-r8id-instances-with-up-to-22-8-tb-local-nvme-storage-are-generally-available/</a></li>
+<li><strong>Published</strong>: 2026-02-04</li>
+</ul>
+
+<p>AWS launches Amazon EC2 C8id, M8id, and R8id instances backed by NVMe-based SSD block-level instance storage physically connected to the host server. These instances offer 3 times more vCPUs, memory, and local storage with up to 22.8TB of local NVMe-backed SSD block-level storage.</p>
+
+<hr>
+
+
+        </main>
+        <footer>
+            <p>自動更新: 1時間ごと | <a href="https://github.com/gekal-study-knowledge/aws-feed" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
