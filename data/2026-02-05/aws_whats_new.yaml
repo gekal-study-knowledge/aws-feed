@@ -189,4 +189,29 @@ entries:
       \ your Capacity Blocks for ML resources, and specify the target accounts you\
       \ wish to share with. For more details, please refer to the <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/capacity-blocks-share.html\"\
       >Capacity Block Guide</a></p>"
-last_updated: '2026-02-06T04:12:04.918091'
+  f2b41b2a3ebf66cf4cc0c9ad115a79cf:
+    id: f2b41b2a3ebf66cf4cc0c9ad115a79cf
+    title: AWS Glue launches native REST API connector for universal data integration
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-glue-rest-api-connector
+    published: '2026-02-05'
+    summary: <p>AWS Glue now offers a native REST-based connector that enables customers
+      to easily read data from any source with a REST-based API. Customers can now
+      create custom connectors to any REST-enabled data source and seamlessly integrate
+      that data into their AWS Glue ETL (Extract, Transform, and Load) jobs. This
+      capability extends AWS Glue's existing connectivity to 100+ non-AWS data sources
+      through 60+ native connectors and additional options on AWS Marketplace.<br
+      /> <br /> Previously, connecting to proprietary systems or emerging platforms
+      required customers to build custom connectors by providing specialized JARs
+      with the necessary libraries. The new native REST API connector eliminates this
+      complexity, making it easier to integrate data from any REST-enabled source.
+      It reduces operational overhead by eliminating the need to install, update,
+      or manage custom libraries, freeing teams from maintenance burdens. The connector
+      also enhances flexibility, enabling organizations to quickly adapt to new data
+      sources as business needs evolve. It also streamlines ETL management by allowing
+      data engineers to focus on data transformation and business logic rather than
+      spending time building and maintaining connector infrastructure.<br /> <br />
+      The AWS Glue REST API connector is available in all AWS commercial regions where
+      AWS Glue is available.<br /> <br /> You can start using the AWS Glue REST API
+      connector using AWS Glue APIs, AWS Command Line Interface (CLI), or AWS Software
+      Development Kit (SDK). To get started, see AWS Glue <a href="https://docs.aws.amazon.com/glue/latest/dg/glue-connections.html">documentation</a>.</p>
+last_updated: '2026-02-06T08:37:31.296196'
