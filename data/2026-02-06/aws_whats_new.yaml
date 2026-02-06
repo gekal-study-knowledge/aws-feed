@@ -1,0 +1,81 @@
+entries:
+  51c25007ae464e4f943f5e3a21e4275f:
+    id: 51c25007ae464e4f943f5e3a21e4275f
+    title: Amazon WorkSpaces Secure Browser now supports custom domain
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-secure-browser-custom-domains/
+    published: '2026-02-06'
+    summary: <p>Amazon WorkSpaces Secure Browser now supports custom domains for your
+      WorkSpaces Secure Browser portals, enabling you to configure portal access through
+      your own domain name instead of the default portal URL. This feature provides
+      users with a more integrated experience using a domain that aligns with your
+      organization's branding for each secure browser session.<br /> <br /> As an
+      administrator you simply add the custom domain in the WorkSpaces Secure browser
+      portal and set up a reverse proxy (for example Amazon CloudFront). Once set
+      up, traffic is routed through your reverse proxy to the portal endpoint, and
+      WorkSpaces Secure Browser automatically redirects users to the configured custom
+      domain after authentication and authorization. Authentication can be via AWS
+      Identity Center or your own Identity Provider (IdP), supporting both IdP-initiated
+      and service provider-initiated flows.<br /> <br /> This feature is available
+      at no additional cost in 10 AWS Regions, including US East (N. Virginia), US
+      West (Oregon), Canada (Central), Europe (Frankfurt, London, Ireland), and Asia
+      Pacific (Tokyo, Mumbai, Sydney, Singapore). WorkSpaces Secure Browser offers
+      pay-as-you go <a href="https://aws.amazon.com/workspaces/secure-browser/pricing/"
+      target="_blank">pricing</a>.<br /> <br /> To get started, visit the Amazon WorkSpaces
+      Secure Browser console to configure your custom domain for your WorkSpaces Secure
+      Browser portal. For more information, see the custom domain section in the Amazon
+      WorkSpaces Secure Browser’s<a href="https://docs.aws.amazon.com/workspaces-web/latest/adminguide/custom-domains.html"
+      target="_blank"> documentation.</a></p>
+  8b142d9ccdb4b9b2f21c5c7af8c3334b:
+    id: 8b142d9ccdb4b9b2f21c5c7af8c3334b
+    title: Amazon Connect Cases now supports CSV uploads to map related field options
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-cases-csv-related-field-options
+    published: '2026-02-06'
+    summary: '<p>Amazon Connect Cases now supports using a CSV file to define which
+      field options appear based on other field values, making it easier to configure
+      complex field relationships on case templates. Instead of manually defining
+      valid options — such as applicable defect types based on product category —
+      admins can upload a file to define these relationships at scale, reducing onboarding
+      effort and configuration time.<br /> <br /> Amazon Connect Cases is available
+      in the following AWS regions: US East (N. Virginia), US West (Oregon), Canada
+      (Central), Europe (Frankfurt), Europe (London), Asia Pacific (Seoul), Asia Pacific
+      (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), and Africa (Cape Town)
+      AWS regions. To learn more and get started, visit the Amazon Connect Cases <a
+      href="https://aws.amazon.com/connect/cases/" target="_blank">webpage</a> and
+      <a href="https://docs.aws.amazon.com/connect/latest/adminguide/case-field-dependent-csv-upload.html"
+      target="_blank">documentation</a>.</p>'
+  5ae76961424c0e3f272e0d43a249a440:
+    id: 5ae76961424c0e3f272e0d43a249a440
+    title: AWS Network Firewall announces new price reductions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-network-firewall-new-price-reduction/
+    published: '2026-02-06'
+    summary: "<p><a href=\"https://aws.amazon.com/network-firewall/\">AWS Network\
+      \ Firewall</a> has introduced two pricing improvements for customers. The service\
+      \ has added the hourly and data processing discounts on NAT Gateways that are\
+      \ service-chained with Network Firewall secondary endpoints. Additionally, AWS\
+      \ Network Firewall has removed additional data processing charges for Advanced\
+      \ Inspection, which enables Transport Layer Security (TLS) inspection of encrypted\
+      \ network traffic.</p> \n<p>Previously, NAT Gateway discounts were limited to\
+      \ primary Network Firewall endpoints, and customers paid additional data processing\
+      \ charges when using Advanced Inspection for TLS inspection in select AWS regions.\
+      \ With these improvements, the NAT Gateway discounts now apply when service-chained\
+      \ with both primary and secondary firewall endpoints. Customers also no longer\
+      \ pay the additional data processing charge for Advanced Inspection that ranged\
+      \ from $0.001/GB to $0.009/GB in 13 AWS regions: Middle East (Bahrain), Asia\
+      \ Pacific (Hong Kong), Asia Pacific (Tokyo), Asia Pacific (Osaka), Asia Pacific\
+      \ (Mumbai), EU (Milan), South America (São Paulo), US West (N. California),\
+      \ Africa (Cape Town), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific\
+      \ (Sydney), and Asia Pacific (Melbourne).</p> \n<p>These changes help to reduce\
+      \ costs for architectures that use Network Firewall's multiple VPC endpoint\
+      \ capability and TLS inspection features. Multiple VPC endpoints allow you to\
+      \ connect 50 VPCs per Availability Zone to a single Network Firewall, helping\
+      \ to reduce operational complexity and lower costs as you protect more VPCs.\
+      \ By removing additional data processing charges when using Advanced Inspection,\
+      \ customers can now implement TLS inspection more cost-effectively across their\
+      \ network security architecture.</p> \n<p>These pricing improvements are available\
+      \ in all <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
+      >AWS regions</a> where Network Firewall is offered and are applied automatically\
+      \ to eligible configurations. No action is required from customers.</p> \n<p>To\
+      \ learn more, see AWS Network Firewall <a href=\"https://aws.amazon.com/network-firewall/pricing/\"\
+      >pricing</a> and the AWS Network Firewall service <a href=\"https://docs.aws.amazon.com/network-firewall/latest/developerguide/firewall-creating.html\"\
+      >documentation</a>.</p>"
+last_updated: '2026-02-06T19:35:51.384623'
