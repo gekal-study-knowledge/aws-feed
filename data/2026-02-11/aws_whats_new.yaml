@@ -1,0 +1,293 @@
+entries:
+  68f48f9bed31ff1a65db1e91eec3876c:
+    id: 68f48f9bed31ff1a65db1e91eec3876c
+    title: AWS Payment Cryptography Achieves Cartes Bancaires Approval
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/payment-cryptography-cartes-bancaires
+    published: '2026-02-11'
+    summary: '<p>Today, <a href="https://aws.amazon.com/payment-cryptography/">AWS
+      Payment Cryptography</a> has become one of the first cloud-based payment cryptography
+      services to obtain approval from <a href="https://www.cartes-bancaires.com/">Groupement
+      des Cartes Bancaires (CB</a>), France''s national card payment network. This
+      CB approval, combined with existing compliance credentials, enables customers
+      to run payment workloads in AWS while helping customers maintain CB compliance.<br
+      /> <br /> Organizations such as acquirers, payment facilitators, networks, switches,
+      processors, and issuing banks that are moving workloads to the cloud can rely
+      on AWS Payment Cryptography’s CB approval as part of their compliance frameworks.
+      Organizations processing card payments typically require Hardware Security Modules
+      (HSM) to perform cryptography in a compliant manner. AWS Payment Cryptography
+      provides equivalent functionality in an elastic, scalable service, eliminating
+      the operational burden of procuring and manage standalone payment HSMs. Customers
+      can leverage the service’s shared responsibility model with PCI PIN, PCI P2PE,
+      PCI 3DS, PCI DSS, SOC-2, CSA STAR and ISO27001 certifications as well as the
+      additional CB approval.<br /> <br /> AWS Payment Cryptography is available in
+      the following AWS Regions: Canada (Montreal), US East (Ohio, N. Virginia), US
+      West (Oregon), Europe (Ireland, Frankfurt, London, Paris), Africa (Cape Town)
+      and Asia Pacific (Singapore, Tokyo, Osaka, Mumbai, Hyderabad, Sydney).<br />
+      <br /> To start using the service, please download the latest AWS <a href="https://aws.amazon.com/developer/tools/">CLI/SDK</a>
+      and see the <a href="https://docs.aws.amazon.com/payment-cryptography/latest/userguide/what-is.html">AWS
+      Payment Cryptography</a> user guide for more information including further compliance
+      details.</p>'
+  90dc37b3410198ab715b66f54e4e743f:
+    id: 90dc37b3410198ab715b66f54e4e743f
+    title: Amazon Connect launches after contact work timeout configuration for tasks,
+      chats, and emails
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-omnichannel-acw-timeouts
+    published: '2026-02-11'
+    summary: <p>Amazon Connect now supports the ability to configure agents with after
+      contact work timeout settings for chat, tasks, emails, and callbacks. After
+      contact work timeouts improve agent efficiency by time-boxing the amount of
+      time each agent can spend doing after contact work for a contact, before being
+      automatically set back to a ready state so they can be offered another contact.
+      You can now enable these settings at the channel level for each agent to further
+      optimize how agents spend their time. For example, you could choose to enable
+      a shorter ACW timeout for emails while maintaining a longer ACW timeout for
+      voice contacts to give agents a cool-down period between phone calls to prepare
+      for the next customer interaction.</p>
+  5596fd910660235b003912503bfbc55d:
+    id: 5596fd910660235b003912503bfbc55d
+    title: Amazon Connect launches auto-accept for tasks, chats, and emails
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-omnichannel-auto-accept
+    published: '2026-02-11'
+    summary: <p>Amazon Connect now supports the ability to configure agents with auto-accept
+      settings for chat, tasks, emails, and callbacks. When auto-accept is enabled,
+      incoming contacts are automatically connected to available agents instead of
+      waiting on the agent to manually accept or reject each contact, ensuring that
+      customers receive timely assistance. Previously, these settings were available
+      only for inbound voice contacts. You can now enable these settings at the channel
+      level for each agent to further optimize how agents spend their time. For example,&nbsp;you
+      could choose to enable auto-accept for tasks while keeping auto-accept disabled
+      for voice calls to ensure that the agent is connected to a voice call only once
+      they indicate they are ready.</p>
+  a298e75802a5321699bfd0250b5f45f7:
+    id: a298e75802a5321699bfd0250b5f45f7
+    title: Amazon Aurora DSQL is now available in additional AWS Regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-additional-aws-regions
+    published: '2026-02-11'
+    summary: '<p>Amazon Aurora DSQL is now available with single-Region clusters in
+      Asia Pacific (Melbourne), Asia Pacific (Sydney), Canada (Central), and Canada
+      West (Calgary). Aurora DSQL is the fastest serverless, distributed SQL database
+      that enables you to build always available applications with virtually unlimited
+      scalability, the highest availability, and zero infrastructure management. It
+      is designed to make scaling and resilience effortless for your applications
+      and offers the fastest distributed SQL reads and writes.<br /> <br /> With this
+      launch, Aurora DSQL is available in the following <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
+      Regions</a>: US East (N. Virginia), US East (Ohio), US West (Oregon), Canada
+      (Central), Canada West (Calgary), Asia Pacific (Melbourne), Asia Pacific (Sydney),
+      Asia Pacific (Osaka), Asia Pacific (Tokyo), Asia Pacific (Seoul), Europe (Ireland),
+      Europe (London), Europe (Frankfurt), and Europe (Paris).<br /> <br /> Get started
+      with Aurora DSQL for free with the <a href="https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&amp;all-free-tier.sort-order=asc&amp;awsf.Free%20Tier%20Types=*all&amp;awsf.Free%20Tier%20Categories=categories%23databases">AWS
+      Free Tier</a>. To learn more, visit the Aurora DSQL <a href="https://aws.amazon.com/rds/aurora/dsql/">webpage</a>
+      and <a href="https://docs.aws.amazon.com/aurora-dsql/latest/userguide/what-is-aurora-dsql.html">documentation</a>.</p>'
+  55d5056008646dd5dcb09f8535515339:
+    id: 55d5056008646dd5dcb09f8535515339
+    title: Amazon MSK now supports broker logs on Express Brokers
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-msk-express-brokers-support-broker-logs
+    published: '2026-02-11'
+    summary: <p><a href="https://aws.amazon.com/msk/">Amazon Managed Streaming for
+      Apache Kafka (MSK)</a> now supports broker logs for <a href="https://aws.amazon.com/msk/features/express-brokers-for-amazon-msk/">Express
+      brokers</a> at no additional cost. With access to broker logs, you can troubleshoot
+      client connectivity and availability issues and get insights into broker behavior
+      during rebalances or fail-overs. You can also easily integrate Kafka operational
+      telemetry into existing observability pipelines using pre-built integrations
+      with Amazon CloudWatch Logs and Amazon S3. Broker Logs are available for both
+      new and existing Express brokers . You can enable them from the Amazon MSK Console
+      or AWS CLI. To learn how to setup broker log delivery, see the <a href="https://docs.aws.amazon.com/msk/latest/developerguide/msk-logging.html">Amazon
+      MSK broker logs documentation</a>.<br /> <br /> MSK Express brokers are designed
+      to deliver up to three times more throughput per broker, scale up to 20 times
+      faster, and reduce recovery time by 90 percent compared to Standard brokers
+      running Apache Kafka. Express broker logs are supported in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
+      regions</a> where express brokers are available. With Amazon MSK, you spend
+      more time innovating on applications and less time managing clusters. Visit
+      the <a href="https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html">Amazon
+      MSK developer guide</a> to get started.&nbsp;</p>
+  06495b2df4a7467ac6944406c1458df9:
+    id: 06495b2df4a7467ac6944406c1458df9
+    title: AWS Elastic Beanstalk now supports GitHub Actions for automated application
+      deployment
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-elastic-beanstalk-github-action
+    published: '2026-02-11'
+    summary: "<p><a href=\"https://aws.amazon.com/elasticbeanstalk\">AWS Elastic Beanstalk</a>\
+      \ now enables you to use GitHub Actions to automatically deploy web applications\
+      \ when you push code or configuration changes to your GitHub repository, streamlining\
+      \ your continuous integration and continuous deployment (CI/CD) pipeline for\
+      \ scalable web applications.<a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
+      ></a></p> \n<p>GitHub Actions allow development teams to automate their software\
+      \ delivery process, enabling CI/CD workflows that automatically build, test,\
+      \ and deploy code changes whenever developers push updates to their repositories.\
+      \ Teams deploying to Elastic Beanstalk can now benefit from enhanced automation\
+      \ that handles deployment package creation, S3 uploads, version management,\
+      \ and environment monitoring. The new GitHub Action provides a simplified way\
+      \ to deploy applications to Elastic Beanstalk using declarative configuration\
+      \ in GitHub Actions workflows, offering comprehensive automation for the entire\
+      \ deployment lifecycle. This action automatically creates applications and environments\
+      \ when needed, manages deployment packages with configurable exclusions, and\
+      \ integrates seamlessly with IAM using OpenID Connect (OIDC) authentication.</p>\
+      \ \n<p>To get started, add the \"aws-elasticbeanstalk-deploy\" action to your\
+      \ GitHub Actions workflow file with configuration parameters for your application\
+      \ deployment. The action supports configuring environment settings and platform\
+      \ versions, optional health monitoring and deployment validation, intelligent\
+      \ retry logic for reliable deployments, and S3 bucket management for deployment\
+      \ artifacts. To learn more, visit the <a href=\"https://github.com/aws-actions/aws-elasticbeanstalk-deploy/blob/main/README.md\"\
+      >README</a> for the&nbsp;AWS Elastic Beanstalk Deploy GitHub action.</p> \n\
+      <p>You can use this GitHub Action for your Elastic Beanstalk applications in\
+      \ all commercial&nbsp;<a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services\"\
+      >AWS Regions</a> where Elastic Beanstalk is available.</p> \n<p>&nbsp;</p>"
+  b89c72369d72562d277a0accae268d7c:
+    id: b89c72369d72562d277a0accae268d7c
+    title: AWS Lake Formation enhances cross-account sharing
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-lake-formation-cross-account-sharing
+    published: '2026-02-11'
+    summary: "<p>AWS Lake Formation now enhances cross-account sharing, allowing you\
+      \ to share hundreds of thousands of tables across accounts. You can centralize\
+      \ permissions in Lake Formation for resources such as catalogs, databases, and\
+      \ tables for multi-account analytics environments that require fine-grained\
+      \ access controls at scale.<br /> <br /> You can share Data Catalog resources\
+      \ (databases, tables, and columns) with external IAM principals, AWS accounts,\
+      \ AWS Organizations, and organizational units (OUs). Lake Formation sets up\
+      \ a single AWS Resource Access Manager resource share for an unlimited number\
+      \ of tables to another account, eliminating previous resource association limits\
+      \ per resource type. To get started, upgrade to cross-account version 5 through\
+      \ the Lake Formation console or API. Any new cross-account permission grants\
+      \ will automatically use wildcard patterns in the AWS Resource Access Manager\
+      \ resource shares instead of individual resource associations. All existing\
+      \ cross-account shares continue to function, and all existing Lake Formation\
+      \ APIs remain compatible.</p> \n<p>To learn more, visit the AWS Lake Formation\
+      \ <a href=\"https://aws.amazon.com/lake-formation/\">product page</a> and <a\
+      \ href=\"https://docs.aws.amazon.com/lake-formation/latest/dg/cross-account-permissions.html\"\
+      >documentation</a>. For AWS Lake Formation Region availability, please see the\
+      \ <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
+      >AWS Region table</a>.</p>"
+  f0f650d5b119791bbba412c701d91d8e:
+    id: f0f650d5b119791bbba412c701d91d8e
+    title: Amazon EC2 C8i and C8i-flex instances are now available in Europe (Paris),
+      Canada (Central), and US West (N. California) regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-c8i-flex-instances-europe-paris-canada-central-uswest-ncalifornia-regions
+    published: '2026-02-11'
+    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
+      C8i-flex instances are available in the Europe (Paris), Canada (Central), and
+      US West (N. California) regions. These instances are powered by custom Intel
+      Xeon 6 processors, available only on AWS, delivering the highest performance
+      and fastest memory bandwidth among comparable Intel processors in the cloud.
+      These C8i and C8i-flex instances offer up to 15% better price-performance, and
+      2.5x more memory bandwidth compared to previous generation Intel-based instances.
+      They deliver up to 20% higher performance than C7i and C7i-flex instances, with
+      even higher gains for specific workloads. The C8i and C8i-flex are up to 60%
+      faster for NGINX web applications, up to 40% faster for AI deep learning recommendation
+      models, and 35% faster for Memcached stores compared to C7i and C7i-flex.<br
+      /> <br /> C8i-flex are the easiest way to get price performance benefits for
+      a majority of compute intensive workloads like web and application servers,
+      databases, caches, Apache Kafka, Elasticsearch, and enterprise applications.
+      They offer the most common sizes, from large to 16xlarge, and are a great first
+      choice for applications that don't fully utilize all compute resources.<br />
+      <br /> C8i instances are a great choice for all memory-intensive workloads,
+      especially for workloads that need the largest instance sizes or continuous
+      high CPU usage. C8i instances offer 13 sizes including 2 bare metal sizes and
+      the new 96xlarge size for the largest applications.<br /> <br /> To get started,
+      sign in to the <a href="https://aws.amazon.com/console/" target="_blank">AWS
+      Management Console</a>. Customers can purchase these instances via Savings Plans,
+      On-Demand instances, and Spot instances. For more information about the new
+      <a href="https://aws.amazon.com/ec2/instance-types/c8i/" target="_blank">C8i
+      and C8i-flex</a> instances visit the <a href="https://aws.amazon.com/blogs/aws/introducing-new-compute-optimized-amazon-ec2-c8i-and-c8i-flex-instances/"
+      target="_blank">AWS News blog</a>.</p>
+  409f044ab417a2175b9083539d1881ea:
+    id: 409f044ab417a2175b9083539d1881ea
+    title: Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.25,
+      10.11.16, 11.4.10, and 11.8.6
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-mariadb-community-versions/
+    published: '2026-02-11'
+    summary: <p><a href="https://aws.amazon.com/rds/mariadb/" target="_blank">Amazon
+      Relational Database Service (Amazon RDS) for MariaDB</a> now supports community
+      MariaDB minor versions 10.6.25, 10.11.16, 11.4.10, and 11.8.6. We recommend
+      that you upgrade to the latest minor versions to fix known security vulnerabilities
+      in prior versions of MariaDB, and to benefit from the bug fixes, performance
+      improvements, and new functionality added by the MariaDB community.<br /> <br
+      /> You can leverage automatic minor version upgrades to automatically upgrade
+      your databases to more recent minor versions during scheduled maintenance windows.
+      You can also leverage <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/blue-green-deployments.html"
+      target="_blank">Amazon RDS Managed Blue/Green deployments</a> for safer, simpler,
+      and faster updates to your MariaDB instances. Learn more about upgrading your
+      database instances, including automatic minor version upgrades and Blue/Green
+      Deployments, in the <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.MariaDB.html"
+      target="_blank">Amazon RDS User Guide.</a><br /> <br /> Amazon RDS for MariaDB
+      makes it straightforward to set up, operate, and scale MariaDB deployments in
+      the cloud. Learn more about pricing details and regional availability at <a
+      href="https://aws.amazon.com/rds/mariadb/pricing/" target="_blank">Amazon RDS
+      for MariaDB</a>. Create or update a fully managed Amazon RDS database in the
+      <a href="https://console.aws.amazon.com/rds/home" target="_blank">Amazon RDS
+      Management Console</a>.</p>
+  9ec623606ed74b5794e9754f0779484c:
+    id: 9ec623606ed74b5794e9754f0779484c
+    title: Amazon DocumentDB (with MongoDB compatibility) is Now Available in the
+      Asia Pacific (Melbourne) Region
+    link: https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-documentdb-mongodb-compatibility-asia-pacific-melbourne-region
+    published: '2026-02-11'
+    summary: "<p>Amazon DocumentDB (with MongoDB compatibility) is now available in\
+      \ the Asia Pacific (Melbourne) region adding to the <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
+      >list of available regions where you can use Amazon DocumentDB</a>.</p> \n<p>Amazon\
+      \ DocumentDB is a fully managed, native JSON database that makes it simple and\
+      \ cost-effective to operate critical document workloads at virtually any scale\
+      \ without managing infrastructure. Amazon DocumentDB is designed to give you\
+      \ the scalability and durability you need when operating mission-critical MongoDB\
+      \ workloads. Storage scales automatically up to 128TiB without any impact to\
+      \ your application. In addition, Amazon DocumentDB natively integrates with\
+      \ AWS Database Migration Service (DMS), Amazon CloudWatch, AWS CloudTrail, AWS\
+      \ Lambda, AWS Backup and more. Amazon DocumentDB supports millions of requests\
+      \ per second and can be scaled out to 15 low latency read replicas in minutes\
+      \ with no application downtime.</p> \n<p>To learn more about Amazon DocumentDB,\
+      \ please visit the Amazon DocumentDB <a href=\"https://aws.amazon.com/documentdb/\"\
+      >product page</a> and <a href=\"https://aws.amazon.com/documentdb/pricing/\"\
+      >pricing page</a>.</p> \n<p>You can create a Amazon DocumentDB cluster from\
+      \ the <a href=\"https://console.aws.amazon.com/docdb\">AWS Management console</a>,\
+      \ <a href=\"https://awscli.amazonaws.com/v2/documentation/api/latest/reference/docdb/index.html\"\
+      >AWS Command Line Interface (CLI)</a>, or SDK.</p>"
+  573b1c5f8b3ea52dd911c66a2164002e:
+    id: 573b1c5f8b3ea52dd911c66a2164002e
+    title: Amazon DocumentDB (with MongoDB compatibility) is Now Available in the
+      Europe (Zurich) Region
+    link: https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-documentdb-mongodb-compatibility-europe-zurich-region
+    published: '2026-02-11'
+    summary: "<p>Amazon DocumentDB (with MongoDB compatibility) is now available in\
+      \ the Europe (Zurich) region adding to the <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
+      >list of available regions where you can use Amazon DocumentDB</a>.</p> \n<p>Amazon\
+      \ DocumentDB is a fully managed, native JSON database that makes it simple and\
+      \ cost-effective to operate critical document workloads at virtually any scale\
+      \ without managing infrastructure. Amazon DocumentDB is designed to give you\
+      \ the scalability and durability you need when operating mission-critical MongoDB\
+      \ workloads. Storage scales automatically up to 128TiB without any impact to\
+      \ your application. In addition, Amazon DocumentDB natively integrates with\
+      \ AWS Database Migration Service (DMS), Amazon CloudWatch, AWS CloudTrail, AWS\
+      \ Lambda, AWS Backup and more. Amazon DocumentDB supports millions of requests\
+      \ per second and can be scaled out to 15 low latency read replicas in minutes\
+      \ with no application downtime.</p> \n<p>To learn more about Amazon DocumentDB,\
+      \ please visit the Amazon DocumentDB <a href=\"https://aws.amazon.com/documentdb/\"\
+      >product page</a> and <a href=\"https://aws.amazon.com/documentdb/pricing/\"\
+      >pricing page</a>.</p> \n<p>You can create a Amazon DocumentDB cluster from\
+      \ the <a href=\"https://console.aws.amazon.com/docdb\">AWS Management console</a>,\
+      \ <a href=\"https://awscli.amazonaws.com/v2/documentation/api/latest/reference/docdb/index.html\"\
+      >AWS Command Line Interface (CLI)</a>, or SDK.</p>"
+  934eb6a1b11a555116074f7011e16706:
+    id: 934eb6a1b11a555116074f7011e16706
+    title: Amazon Connect introduces audio enhancements for noisy environments
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-audio-enhancements
+    published: '2026-02-11'
+    summary: <p>Today, AWS announces the release of Audio Enhancement for Amazon Connect,
+      helping improve audio quality and reliability for voice calls in noisy contact
+      center environments. With this launch, you can enable Audio Enhancement for
+      your agents so that end customers can hear them more clearly, even in the presence
+      of background noise within the contact center environment.<br /> <br /> The
+      Audio Enhancement capability suppresses agent-side background noises and isolates
+      agent voices, removing the effect of background noise and chatter in busy contact
+      center environments. Audio Enhancement offers two specialized modes to match
+      different agent setups. The "Voice Isolation" mode suppresses noises as well
+      as background speech within the contact center, while the "Noise Suppression"
+      mode only suppresses background noises. Contact center administrators can enable
+      these capabilities for agents through the User Management page and select the
+      appropriate mode based on their equipment and setup. Agents with proper permissions
+      can also adjust their settings directly from the Contact Control Panel to optimize
+      for their current environment.<br /> <br /> The Audio Enhancement capability
+      is available in all commercial <a href="https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#amazonconnect_region"
+      target="_blank">AWS Regions</a> where Amazon Connect is offered.<br /> <br />
+      To learn more about Amazon Connect Audio Enhancement, please see the <a href="https://aws.amazon.com/connect/"
+      target="_blank">Amazon Connect website</a> and the <a href="https://docs.aws.amazon.com/connect/latest/adminguide/what-is-amazon-connect.html"
+      target="_blank">Amazon Connect Administrator Guide</a>.&nbsp;</p>
+last_updated: '2026-02-11T22:26:13.755740'
