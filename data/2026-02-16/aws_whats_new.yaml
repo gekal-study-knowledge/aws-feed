@@ -1,0 +1,14 @@
+entries:
+  d1ba0e30634e68061ccf41b1eb9068ca:
+    id: d1ba0e30634e68061ccf41b1eb9068ca
+    title: Amazon EC2 supports nested virtualization on virtual Amazon EC2 instances
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-nested-virtualization-on-virtual
+    published: '2026-02-16'
+    summary: "<p>Starting today, customers can create nested environments within virtualized\
+      \ Amazon EC2 instances. Previously, customers could only create and manage virtual\
+      \ machines inside bare metal EC2 instances. With this launch, customers can\
+      \ create nested virtual machines by running KVM or Hyper-V on virtual EC2 instances.\
+      \ Customers can leverage this capability for use cases such as running emulators\
+      \ for mobile applications, simulating in-vehicle hardware for automobiles, and\
+      \ running Windows Subsystem for Linux on Windows workstations.</p> \n<p>&nbsp;</p>"
+last_updated: '2026-02-16T17:35:11.995300'

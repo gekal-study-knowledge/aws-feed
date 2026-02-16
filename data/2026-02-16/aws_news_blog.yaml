@@ -1,0 +1,13 @@
+entries:
+  3782bdbd233aef74d0baa82b8d17020b:
+    id: 3782bdbd233aef74d0baa82b8d17020b
+    title: 'AWS Weekly Roundup: Amazon EC2 M8azn instances, new open weights models
+      in Amazon Bedrock, and more (February 16, 2026)'
+    link: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ec2-m8azn-instances-new-open-weights-models-in-amazon-bedrock-and-more-february-16-2026/
+    published: '2026-02-16'
+    summary: I joined AWS in 2021, and since then I’ve watched the Amazon Elastic
+      Compute Cloud (Amazon EC2) instance family grow at a pace that still surprises
+      me. From AWS Graviton-powered instances to specialized accelerated computing
+      options, it feels like every few months there’s a new instance type landing
+      that pushes performance boundaries further. As of […]
+last_updated: '2026-02-16T17:35:12.279537'
