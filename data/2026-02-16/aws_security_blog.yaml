@@ -1,0 +1,14 @@
+entries:
+  0c43a0d79859e9a3adf17704d7beb3c1:
+    id: 0c43a0d79859e9a3adf17704d7beb3c1
+    title: Building an AI-powered defense-in-depth security architecture for serverless
+      microservices
+    link: https://aws.amazon.com/blogs/security/building-an-ai-powered-defense-in-depth-security-architecture-for-serverless-microservices/
+    published: '2026-02-16'
+    summary: Enterprise customers face an unprecedented security landscape where sophisticated
+      cyber threats use artificial intelligence to identify vulnerabilities, automate
+      attacks, and evade detection at machine speed. Traditional perimeter-based security
+      models are insufficient when adversaries can analyze millions of attack vectors
+      in seconds and exploit zero-day vulnerabilities before patches are available.
+      The distributed nature of serverless architectures […]
+last_updated: '2026-02-16T20:26:15.294224'
