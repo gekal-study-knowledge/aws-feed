@@ -10,4 +10,12 @@ entries:
       me. From AWS Graviton-powered instances to specialized accelerated computing
       options, it feels like every few months there’s a new instance type landing
       that pushes performance boundaries further. As of […]
-last_updated: '2026-02-16T17:35:12.279537'
+  d248ced1ad3564f18fb487b7d6f065bd:
+    id: d248ced1ad3564f18fb487b7d6f065bd
+    title: Announcing Amazon SageMaker Inference for custom Amazon Nova models
+    link: https://aws.amazon.com/blogs/aws/announcing-amazon-sagemaker-inference-for-custom-amazon-nova-models/
+    published: '2026-02-16'
+    summary: AWS launches Amazon SageMaker AI Inference for custom Amazon Nova models.
+      You can now configure the instance types, auto-scaling policies, and concurrency
+      settings for custom Nova model deployments to best meet their needs.
+last_updated: '2026-02-16T22:24:11.812312'
