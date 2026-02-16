@@ -132,4 +132,28 @@ entries:
       To learn more and get started, refer to the help <a href="https://docs.aws.amazon.com/connect/latest/adminguide/what-is-amazon-connect.html">documentation</a>,
       <a href="https://aws.amazon.com/connect/pricing/">pricing page</a>, or visit
       the <a href="https://aws.amazon.com/connect/">Amazon Connect</a> website.</p>
-last_updated: '2026-02-13T22:29:30.084392'
+  91f93041dd8cbeccc0b0f9733e5cad38:
+    id: 91f93041dd8cbeccc0b0f9733e5cad38
+    title: Amazon EC2 High Memory U7i instances now available in additional regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-highmem-instances-available/
+    published: '2026-02-13'
+    summary: "<p>Amazon EC2 High Memory instances are now available in new regions\
+      \ - U7i-6tb.112xlarge instances in AWS South America (Sao Paulo) and Europe\
+      \ (Milan), U7i-12tb.224xlarge in AWS GovCloud (US-East), and U7in-16tb.224xlarge\
+      \ instances in Europe (London). U7i instances are part of AWS 7th generation\
+      \ and are powered by custom fourth generation Intel Xeon Scalable Processors\
+      \ (Sapphire Rapids). U7i-6tb instances offer 6TiB of DDR5 memory, U7i-12tb instances\
+      \ offer 12TiB of DDR5 memory, and&nbsp;U7in-16tb instances offer 16TiB of DDR5\
+      \ memory, enabling customers to scale transaction processing throughput in a\
+      \ fast-growing data environment.<br /> <br /> U7i-6tb instances offer 448 vCPUs\
+      \ and support up to 100Gbps Elastic Block Storage (EBS) and deliver up to 100Gbps\
+      \ of network bandwidth. U7i-12tb instances offer 896 vCPUs, support up to 100Gbps\
+      \ Elastic Block Storage (EBS) and deliver up to 100Gbps of network bandwidth.\
+      \ U7in-16tb instances offer 896 vCPUs, support up to 100Gbps Elastic Block Storage\
+      \ (EBS) and deliver up to 200Gbps of network bandwidth for faster data loading\
+      \ and backups. All U7i instances support ENA Express.&nbsp;</p> \n<p>U7i instances\
+      \ are ideal for customers using mission-critical in-memory databases like SAP\
+      \ HANA, Oracle, and SQL Server.<br /> <br /> To learn more about U7i instances,\
+      \ visit the <a href=\"https://aws.amazon.com/ec2/instance-types/u7i/\">High\
+      \ Memory instances page</a>.</p>"
+last_updated: '2026-02-16T18:37:57.900816'
