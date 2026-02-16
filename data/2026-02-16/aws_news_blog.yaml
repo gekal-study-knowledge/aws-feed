@@ -18,4 +18,14 @@ entries:
     summary: AWS launches Amazon SageMaker AI Inference for custom Amazon Nova models.
       You can now configure the instance types, auto-scaling policies, and concurrency
       settings for custom Nova model deployments to best meet their needs.
-last_updated: '2026-02-16T22:24:11.812312'
+  9ed6e6bb679d75e5e38bf5bacec70697:
+    id: 9ed6e6bb679d75e5e38bf5bacec70697
+    title: Amazon EC2 Hpc8a Instances powered by 5th Gen AMD EPYC processors are now
+      available
+    link: https://aws.amazon.com/blogs/aws/amazon-ec2-hpc8a-instances-powered-by-5th-gen-amd-epyc-processors-are-now-available/
+    published: '2026-02-16'
+    summary: Amazon EC2 Hpc8a instances, powered by 5th Gen AMD EPYC processors, deliver
+      up to 40% higher performance, increased memory bandwidth, and 300 Gbps Elastic
+      Fabric Adapter networking, helping customers accelerate compute-intensive simulations,
+      engineering workloads, and tightly coupled HPC applications.
+last_updated: '2026-02-16T23:25:54.831721'
