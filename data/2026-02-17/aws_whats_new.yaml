@@ -32,4 +32,20 @@ entries:
       \ Sonnet 4.6&nbsp;in&nbsp;Amazon Bedrock, read the <a href=\"https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock\"\
       \ target=\"_blank\">About Amazon blog </a>and visit the <a href=\"https://console.aws.amazon.com/bedrock/\"\
       \ target=\"_blank\">Amazon Bedrock console</a>.</p>"
-last_updated: '2026-02-17T19:44:30.361213'
+  d4afabbddf444e5bed1474df5d5cde52:
+    id: d4afabbddf444e5bed1474df5d5cde52
+    title: Amazon Connect now includes agent time-off requests in draft schedules
+    link: https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-connect-time-off-draft-schedules
+    published: '2026-02-17'
+    summary: <p>Amazon Connect now includes agent time-off requests in draft schedules,
+      making it easier for you to view why an agent was not scheduled on a particular
+      day or part of the day. For example, when generating schedules for next month,
+      you can see that an agent who typically works Monday to Friday wasn't scheduled
+      for the first week because they're on leave without needing to check the published
+      schedules or troubleshooting configuration as to why agent was not scheduled.
+      This launch helps schedulers quickly identify coverage gaps and adjust schedules
+      before publishing them to agents.<br /> <br /> This feature is available in
+      all <a href="https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#optimization_region">AWS
+      Regions</a> where Amazon Connect agent scheduling is available. To learn more
+      about Amazon Connect agent scheduling, click <a href="https://docs.aws.amazon.com/connect/latest/adminguide/forecasting-capacity-planning-scheduling.html">here</a>.</p>
+last_updated: '2026-02-17T20:33:03.172543'

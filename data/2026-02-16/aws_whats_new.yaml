@@ -149,4 +149,27 @@ entries:
       \ Unified Studio.&nbsp;To learn more, visit the AWS Glue <a href=\"https://aws.amazon.com/glue/\"\
       >product page</a> and our <a href=\"https://docs.aws.amazon.com/glue/latest/dg/release-notes.html\"\
       >documentation</a>.&nbsp;</p>"
-last_updated: '2026-02-17T07:05:37.079212'
+  745f8584d185559a6943786508ca7a49:
+    id: 745f8584d185559a6943786508ca7a49
+    title: Amazon Aurora now supports Server-Side Encryption at Rest
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-server-side-encryption-at-rest
+    published: '2026-02-16'
+    summary: <p>Amazon Aurora further strengthens your security posture by automatically
+      applying server-side encryption by default to all new databases clusters, created
+      starting today, using <a href="https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#aws-owned-key">AWS-owned
+      keys</a>. This encryption is fully managed, transparent to users, with no cost
+      or performance impact.<br /> <br /> Aurora now automatically encrypts all new
+      database clusters created without custom encryption settings using server-side
+      encryption by default. Existing clusters remain unaffected and you can continue
+      using the current encryption configuration with customer-managed or AWS-managed
+      KMS keys.<b> </b>This automatic encryption only applies to new clusters where
+      no encryption configuration is provided. You cannot disable encryption on new
+      clusters, but can choose customer-managed or AWS-managed KMS keys instead of
+      server side encryption during cluster creation. Server side encryption provides
+      encryption protection without requiring you to provision, rotate, or manage
+      keys.<br /> <br /> This update is available in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
+      Regions</a>, including the <a href="https://aws.amazon.com/govcloud-us/">AWS
+      GovCloud (US) Regions</a>. To learn more about encryption at rest, refer to
+      our blog or see <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Overview.Encryption.html">Aurora
+      encryption documentation</a>.</p>
+last_updated: '2026-02-17T20:33:03.184369'
