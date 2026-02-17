@@ -54,6 +54,28 @@
 
 <hr>
 
+<h3>Amazon Bedrock reinforcement fine-tuning adds support for open-weight models with OpenAI-compatible APIs</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-reinforcement-fine-tuning-openai">https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-reinforcement-fine-tuning-openai</a></li>
+<li><strong>Published</strong>: 2026-02-17</li>
+</ul>
+
+<p><p>Amazon Bedrock now extends reinforcement fine-tuning (RFT) support to popular open-weight models, including OpenAI GPT-OSS and Qwen models, and introduces OpenAI-compatible fine-tuning APIs. These capabilities make it easier for developers to improve open-weight model accuracy without requiring deep machine learning expertise or large volumes of labeled data. Reinforcement fine-tuning in Amazon Bedrock automates the end-to-end customization workflow, allowing models to learn from feedback on multiple possible responses using a small set of prompts, rather than traditional large training datasets. Reinforcement fine-tuning enables customers to use smaller, faster, and more cost-effective model variants while maintaining high quality.<br /> <br /> Organizations often struggle to adapt foundation models to their unique business requirements, forcing tradeoffs between generic models with limited performance and complex, expensive customization pipelines that require specialized infrastructure and expertise. Amazon Bedrock removes this complexity by providing a fully managed, secure reinforcement fine-tuning experience. Customers define reward functions using verifiable rule-based graders or AI-based judges, including built-in templates for both objective tasks such as code generation and math reasoning, and subjective tasks such as instruction following or conversational quality. During training, customers can use AWS Lambda functions for custom grading logic, and access intermediate model checkpoints to evaluate, debug, and select the best-performing model, improving iteration speed and training efficiency. All proprietary data remains within AWS’s secure, governed environment throughout the customization process.<br /> <br /> Models supported at this launch are: qwen.qwen3-32b and openai.gpt-oss-20b. After fine-tuning completes, customers can immediately use the resulting fine tuned model for on-demand inference through Amazon Bedrock’s OpenAI-compatible APIs - Responses API and Chat Completions API, without any additional deployment steps. To learn more, see the Amazon Bedrock <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/reinforcement-fine-tuning.html" target="_blank">documentation</a>.</p></p>
+
+<hr>
+
+<h3>Amazon MSK now supports dual-stack (IPv4 and IPv6) connectivity for existing clusters</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/aws-msk-dual-stack-ipv4-and-ipv6">https://aws.amazon.com/about-aws/whats-new/2026/02/aws-msk-dual-stack-ipv4-and-ipv6</a></li>
+<li><strong>Published</strong>: 2026-02-17</li>
+</ul>
+
+<p><p>Amazon Managed Streaming for Apache Kafka (<a href="https://aws.amazon.com/msk/">Amazon MSK</a>) now supports dual-stack connectivity (IPv4 and IPv6) for existing MSK Provisioned and MSK Serverless clusters. This capability enables customers to connect to Amazon MSK using both IPv4 and IPv6 protocols, in addition to the existing IPv4-only option. It helps customers modernize applications for IPv6 environments while maintaining IPv4 compatibility, making it easier to meet compliance requirements and prepare for future network architectures.<br /> <br /> Amazon MSK is a fully managed service for Apache Kafka that makes it easier for customers to build and run applications that use Apache Kafka as a data store. Previously, MSK Provisioned and Serverless clusters exclusively utilized IPv4 addressing for all connectivity options. With this new capability, customers can now enable dual-stack connectivity (IPv4 and IPv6) on existing MSK clusters using Amazon MSK Console, AWS CLI, SDK, or CloudFormation by modifying the Network Type parameter for a cluster from IPv4 to dual-stack. Upon successful update, MSK provisions IPv6-enabled network interfaces while maintaining existing IPv4 connectivity, ensuring uninterrupted service. To retrieve new IPv6 bootstrap broker strings for MSK Provisioned clusters, customers can use the GetBootstrapBrokers API to obtain the necessary connection information. All MSK Provisioned and Serverless clusters will retain IPv4-only connectivity unless explicitly updated.<br /> <br /> Dual-stack connectivity for existing MSK Provisioned and Serverless clusters is now available in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS Regions</a> where Amazon MSK is available, at no additional cost. To learn more about Amazon MSK dual-stack support, refer to the <a href="https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html">Amazon MSK developer guide</a>.&nbsp;</p></p>
+
+<hr>
+
 
         </main>
         <footer>
