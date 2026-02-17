@@ -48,4 +48,29 @@ entries:
       all <a href="https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#optimization_region">AWS
       Regions</a> where Amazon Connect agent scheduling is available. To learn more
       about Amazon Connect agent scheduling, click <a href="https://docs.aws.amazon.com/connect/latest/adminguide/forecasting-capacity-planning-scheduling.html">here</a>.</p>
-last_updated: '2026-02-17T20:33:03.172543'
+  9d785b2fb99df67e400b4b12091a9b27:
+    id: 9d785b2fb99df67e400b4b12091a9b27
+    title: Amazon EC2 C8a instances now available in the Europe (Frankfurt) and Europe
+      (Ireland) region
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8a-instances-europe-frankfurt-europe-ireland-regions
+    published: '2026-02-17'
+    summary: <p>Starting today, the compute-optimized Amazon EC2 C8a instances are
+      available in the Europe (Frankfurt) and Europe (Ireland) regions. C8a instances
+      are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with
+      a maximum frequency of 4.5 GHz, delivering up to 30% higher performance and
+      up to 19% better price-performance compared to C7a instances.<br /> <br /> C8a
+      instances deliver 33% more memory bandwidth compared to C7a instances, making
+      these instances ideal for latency sensitive workloads. Compared to Amazon EC2
+      C7a instances, they are up to 57% faster for GroovyJVM allowing better response
+      times for Java-based applications. C8a instances offer 12 sizes including 2
+      bare metal sizes. This range of instance sizes allows customers to precisely
+      match their workload requirements.<br /> <br /> C8a instances are built on <a
+      href="https://aws.amazon.com/ec2/nitro/">AWS Nitro System</a> and are ideal
+      for high performance, compute-intensive workloads such as batch processing,
+      distributed analytics, high performance computing (HPC), ad serving, highly-scalable
+      multiplayer gaming, and video encoding.<br /> <br /> To get started, sign in
+      to the AWS Management Console. Customers can purchase these instances via Savings
+      Plans, On-Demand instances, and Spot instances. For more information visit the
+      <a href="https://aws.amazon.com/ec2/instance-types/c8a/">Amazon EC2 C8a instance
+      page.</a></p>
+last_updated: '2026-02-17T22:27:29.210260'
