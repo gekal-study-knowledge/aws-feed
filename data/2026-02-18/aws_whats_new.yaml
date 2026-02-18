@@ -1,0 +1,53 @@
+entries:
+  672b58ad7f2c394a1b9ca0c756aef203:
+    id: 672b58ad7f2c394a1b9ca0c756aef203
+    title: Amazon OpenSearch Service expands support for Graviton4 (c8g,m8g & r8g
+      ) instances
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-expands-support-graviton4-based-instances
+    published: '2026-02-18'
+    summary: '<p>Amazon OpenSearch Service expands support for the latest generation
+      Graviton4-based Amazon EC2 instance families. These new instance types are compute
+      optimized (c8g), general purpose (m8g), and memory optimized (r8g, r8gd) instances.<br
+      /> <br /> AWS Graviton4 processors provide up to 30% better performance than
+      AWS Graviton3 processors with c8g, m8g and r8g &amp; r8gd offering the best
+      price performance for compute-intensive, general purpose, and memory-intensive
+      workloads respectively. To learn more about Graviton4 improvements, please see
+      the <a href="https://aws.amazon.com/blogs/aws/aws-graviton4-based-amazon-ec2-r8g-instances-best-price-performance-in-amazon-ec2/">blog</a>
+      on r8g instances and the <a href="https://aws.amazon.com/blogs/aws/run-your-compute-intensive-and-general-purpose-workloads-sustainably-with-the-new-amazon-ec2-c8g-m8g-instances/">blog</a>
+      on c8g &amp; m8g instances.<br /> <br /> Amazon OpenSearch Service Graviton4
+      instances are supported for all OpenSearch versions, and Elasticsearch (open
+      source) versions 7.9 and 7.10.<br /> <br /> Apart from the regions already supported,
+      one or more than one Graviton4 instance types are now also available in following
+      region: Asia Pacific (Hong Kong), Asia Pacific (Hyderabad), Asia Pacific (Jakarta),
+      Asia Pacific (Melbourne), Asia Pacific (Osaka), Asia Pacific (Thailand), Europe
+      (Milan), Europe (Paris), Europe (Zurich), Middle East (UAE), AWS GovCloud (US-West)
+      and AWS GovCloud (US-East).<br /> <br /> For region specific availability &amp;
+      pricing, visit our <a href="https://aws.amazon.com/opensearch-service/pricing/">pricing
+      page</a>. To learn more about Amazon OpenSearch Service and its capabilities,
+      visit our <a href="https://aws.amazon.com/opensearch-service/">product page</a>.</p>'
+  418ec76474f4a10c68b6d14f477cc266:
+    id: 418ec76474f4a10c68b6d14f477cc266
+    title: Amazon OpenSearch Service now supports storage optimized  i7i  instances
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-supports-i7i-instances
+    published: '2026-02-18'
+    summary: <p>Amazon OpenSearch Service now supports latest generation x86 based
+      high performance Storage Optimized i7i instances. Powered by 5th generation
+      Intel Xeon Scalable processors, I7i instances deliver up to 23% better compute
+      performance and more than 10% better price performance over previous generation
+      I4i instances.<br /> <br /> I7i instances have 3rd generation AWS Nitro SSDs
+      with up to 50% better real-time storage performance, up to 50% lower storage
+      I/O latency, and up to 60% lower storage I/O latency variability compared to
+      I4i instances. Built on the <a href="https://aws.amazon.com/ec2/nitro/">AWS
+      Nitro System</a>, these instances oﬄoad CPU virtualization, storage, and networking
+      functions to dedicated hardware and software enhancing the performance and security
+      for your workloads.<br /> <br /> Amazon OpenSearch Service supports i7i instances
+      in following <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
+      Regions</a> US East (N. Virginia, Ohio), US West (N. California, Oregon), Canada
+      (Central), Canada West (Calgary), Europe (Frankfurt, Ireland, London, Milan,
+      Spain, Stockholm, Zurich ), Africa (Cape Town), Asia Pacific (Hong Kong, Hyderabad,
+      Jakarta, Malaysia, Melbourne, Mumbai, Osaka, Seoul, Singapore, Sydney, Tokyo),
+      Middle East (UAE), South America (São Paulo) &amp; AWS GovCloud (US-West).<br
+      /> <br /> For region specific availability &amp; pricing, visit our <a href="https://aws.amazon.com/opensearch-service/pricing/">pricing
+      page</a>. To learn more about Amazon OpenSearch Service and its capabilities,
+      visit our <a href="https://aws.amazon.com/opensearch-service/">product page</a>.</p>
+last_updated: '2026-02-18T17:55:00.921830'
