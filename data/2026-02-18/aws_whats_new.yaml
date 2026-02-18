@@ -67,4 +67,59 @@ entries:
       Cases <a href="https://aws.amazon.com/connect/cases/" target="_blank">webpage</a>
       and <a href="https://docs.aws.amazon.com/connect/latest/adminguide/amazon-connect-service-limits.html#cases-quotas"
       target="_blank">documentation</a>.</p>'
-last_updated: '2026-02-18T21:32:06.244507'
+  8dd99c890c5f314829f8d21d5c3071af:
+    id: 8dd99c890c5f314829f8d21d5c3071af
+    title: Amazon Aurora DSQL now integrates with Kiro powers and AI agent skills
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-integrates-with-kiro-powers-and-agent-skills
+    published: '2026-02-18'
+    summary: "<p>Today, AWS announces Amazon Aurora DSQL integration with Kiro powers\
+      \ and AI agent skills, enabling developers to build Aurora DSQL-backed applications\
+      \ faster with AI agent-assisted development. These integrations bundle the Aurora\
+      \ DSQL Model Context Protocol (MCP) server with development best practices,\
+      \ so AI agents can help you with Aurora DSQL schema design, performance optimization,\
+      \ and database operations out of the box.<br /> <br /> Kiro powers is a registry\
+      \ of curated and pre-packaged MCP servers, steering files, and agent hooks to\
+      \ accelerate specialized software development and deployment use cases. With\
+      \ the Kiro power for Aurora DSQL, agents have instant access to specialized\
+      \ knowledge, so developers can work confidently without any prior context, reducing\
+      \ trial-and-error development cycles. The power is available within the <a href=\"\
+      https://kiro.dev/launch/powers/amazon-aurora-dsql/\">Kiro IDE</a> for one-click\
+      \ installation.<br /> <br /> The <a href=\"https://skills.sh/awslabs/mcp/dsql\"\
+      >Aurora DSQL skill</a> extends the same capabilities to additional AI coding\
+      \ agents through the <a href=\"https://skills.sh/docs/cli\">Skills CLI</a>.\
+      \ Developers can install the skill with a single command and select their preferred\
+      \ agents including Kiro CLI, Claude Code, Gemini, Codex, Cursor, Copilot, Cline,\
+      \ Windsurf, Roo, OpenCode, and more. When developers work on database tasks,\
+      \ the agent dynamically loads relevant skill guidance, including Aurora DSQL\
+      \ Postgres-compatible SQL patterns, distributed database design, and IAM authentication,\
+      \ eliminating the need to repeatedly provide the same context across conversations.&nbsp;As\
+      \ Aurora DSQL adds new features, future skill releases will include updated\
+      \ patterns and guidance, ensuring that agents always have current best practices.</p>\
+      \ \n<p>For more information on the Aurora DSQL Kiro power and agent skills,\
+      \ visit the&nbsp;<a href=\"https://docs.aws.amazon.com/aurora-dsql/latest/userguide/SECTION_aurora-dsql-steering.html\"\
+      >Aurora DSQL steering documentation</a> and <a href=\"https://github.com/awslabs/mcp/tree/main/src/aurora-dsql-mcp-server\"\
+      >GitHub page</a>. Get started with Aurora DSQL for free with the <a href=\"\
+      https://aws.amazon.com/free/\">AWS Free Tier</a>.<br /> </p>"
+  975b797ee08cb89c184c1c26b576dcbd:
+    id: 975b797ee08cb89c184c1c26b576dcbd
+    title: Amazon Managed Grafana now supports AWS KMS customer managed keys
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-managed-grafana-customer-managed-keys
+    published: '2026-02-18'
+    summary: "<p>Amazon Managed Grafana now supports customer-managed keys (CMK) through\
+      \ AWS Key Management Service (KMS), enabling you to encrypt data stored in&nbsp;in\
+      \ your Amazon Managed Grafana workspaces with your own encryption keys. Amazon\
+      \ Managed Grafana is a fully managed service based on open-source Grafana that\
+      \ makes it easier for you to visualize and analyze your operational data at\
+      \ scale.</p> \n<p>Amazon Managed Grafana provides encryption at rest using AWS\
+      \ owned keys by default. With this launch, you now have an option to use a customer-managed\
+      \ key when creating an Amazon Managed Grafana workspace. This allows you to\
+      \ add a self-managed security layer, helping you meet your organization’s compliance\
+      \ and regulatory requirements.</p> \n<p>This feature is now available in all\
+      \ regions where Amazon Managed Grafana is generally available, except in AWS\
+      \ GovCloud (US) Regions.&nbsp;To get started with Amazon Managed Grafana, refer&nbsp;<a\
+      \ href=\"https://docs.aws.amazon.com/grafana/latest/userguide/what-is-Amazon-Managed-Service-Grafana.html\"\
+      \ target=\"_blank\">Amazon Managed Grafana user guide</a>. To learn more about\
+      \ Amazon Managed Grafana, visit the&nbsp;<a href=\"https://aws.amazon.com/grafana/\"\
+      \ target=\"_blank\">product page</a>&nbsp;and&nbsp;<a href=\"https://aws.amazon.com/grafana/pricing/\"\
+      \ target=\"_blank\">pricing page</a>.</p>"
+last_updated: '2026-02-18T22:28:49.786899'
