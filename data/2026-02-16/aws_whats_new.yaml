@@ -196,4 +196,28 @@ entries:
       our <a href="https://aws.amazon.com/blogs/database/use-default-encryption-at-rest-for-new-amazon-aurora-clusters/">blog</a>
       or see <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Overview.Encryption.html">Aurora
       encryption documentation</a>.</p>
-last_updated: '2026-02-17T23:25:33.489151'
+  c01215e6a4c9a5a9d703ced7a2b5cbe0:
+    id: c01215e6a4c9a5a9d703ced7a2b5cbe0
+    title: Kiro is now available in AWS GovCloud (US) Regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/kiro-launch-aws-govcloud-us/
+    published: '2026-02-16'
+    summary: <p>Kiro brings agentic AI development capabilities to workloads with
+      elevated compliance needs in AWS GovCloud (US-East) and AWS GovCloud (US-West)
+      Regions. Kiro is an agentic AI with an integrated development environment (IDE)
+      and command-line interface (CLI) that helps you go from prototype to production
+      with spec-driven development. From simple to complex tasks, Kiro works alongside
+      you to turn prompts into detailed specs, then into working code, docs, and tests—so
+      what you build is exactly what you want and ready to share with your team.<br
+      /> <br /> Kiro's agents help you solve challenging problems and automate tasks
+      like generating documentation and unit tests. With native Model Context Protocol
+      (MCP) support, Kiro connects to documentation, databases, APIs, and other enterprise
+      resources, providing capability for mission-critical development workflows.<br
+      /> <br /> Kiro in AWS GovCloud (US) Regions uses enterprise authentication via
+      AWS IAM Identity Center. To learn more about building with Kiro in AWS GovCloud
+      (US), read the <a href="https://kiro.dev/blog/introducing-govcloud/" title="blog
+      post">blog post</a>. For more details about Kiro in AWS GovCloud (US), visit
+      the <a href="https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/govcloud-kiro.html"
+      title="GovCloud Documentation">GovCloud documentation</a>&nbsp;or contact your
+      AWS account team for more information. To learn more about Kiro, visit the <a
+      href="https://kiro.dev" title="Kiro product page">Kiro product page</a>.</p>
+last_updated: '2026-02-18T18:50:19.537919'
