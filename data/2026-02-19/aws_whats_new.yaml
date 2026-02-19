@@ -1,0 +1,28 @@
+entries:
+  f3fc9510e2d4e030842226277bf507e6:
+    id: f3fc9510e2d4e030842226277bf507e6
+    title: Amazon EC2 M8i-flex instances are now available in additional AWS regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8i-flex-instances-FRA-ICN-KUL-NRT-SIN-YUL-region/
+    published: '2026-02-19'
+    summary: <p>Starting today, Amazon EC2 M8i-flex instances are now available in
+      Asia Pacific (Malaysia, Seoul, Singapore, Tokyo), Europe (Frankfurt) and Canada
+      (Central) regions. These instances are powered by custom Intel Xeon 6 processors,
+      available only on AWS, delivering the highest performance and fastest memory
+      bandwidth among comparable Intel processors in the cloud. The M8i-flex instances
+      offer up to 15% better price-performance, and 2.5x more memory bandwidth compared
+      to previous generation Intel-based instances. They deliver up to 20% better
+      performance than M7i-flex instances, with even higher gains for specific workloads.
+      The M8i-flex instances are up to 30% faster for PostgreSQL databases, up to
+      60% faster for NGINX web applications, and up to 40% faster for AI deep learning
+      recommendation models compared to M7i-flex instances.<br /> <br /> M8i-flex
+      instances are the easiest way to get price performance benefits for a majority
+      of general-purpose workloads like web and application servers, microservices,
+      small and medium data stores, virtual desktops, and enterprise applications.
+      They offer the most common sizes, from large to 16xlarge, and are a great first
+      choice for applications that don't fully utilize all compute resources.<br />
+      <br /> To get started, sign in to the <a href="https://aws.amazon.com/console/"
+      target="_blank">AWS Management Console</a>. For more information about the <a
+      href="https://aws.amazon.com/ec2/instance-types/m8i/" target="_blank">M8i-flex
+      </a>instances visit the AWS News <a href="https://aws.amazon.com/blogs/aws/new-general-purpose-amazon-ec2-m8i-and-m8i-flex-instances-are-now-available/"
+      target="_blank">blog</a>.</p>
+last_updated: '2026-02-19T18:45:41.635327'
