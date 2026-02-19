@@ -142,4 +142,28 @@ entries:
       about the AWS Regions where AWS Clean Rooms is available, see the <a href="https://docs.aws.amazon.com/general/latest/gr/clean-rooms.html#clean-rooms_region">AWS
       Regions</a> table. To learn more about collaborating with AWS Clean Rooms, visit
       <a href="https://aws.amazon.com/clean-rooms/">AWS Clean Rooms</a>.</p>
-last_updated: '2026-02-18T23:26:37.413324'
+  183d7a53f46145ceceb4279c34ee06ce:
+    id: 183d7a53f46145ceceb4279c34ee06ce
+    title: AWS Certificate Manager updates default certificate validity to comply
+      with new guidelines
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-certificate-manager-updates-default/
+    published: '2026-02-18'
+    summary: <p>Starting today, public certificates issued from AWS Certificate Manager
+      (ACM) have a maximum validity period of 198 days, compared to previous validity
+      period of 395 days. With this change, ACM-issued public certificates will be
+      compliant with new Certification Authority Browser (CA/Browser) Forum mandate
+      that certificates be no longer than 200 days starting 15th March 2026.<br />
+      <br /> No action is required from the customers to receive this change. All
+      new and renewed public certificates will by default have a validity of 198 days.
+      Existing certificates with 395 days validity continue to be valid and can be
+      used until they renew or expire. All other certificate functionality remains
+      in place. ACM will still continue to auto renew the certificates before expiry.
+      The certificates are now renewed 45 days before expiry. Existing 398 day validity
+      certificates will renew 60 days before expiry and will renew with 198 days validity
+      period.<br /> <br /> We have reduced the pricing for ACM’s exportable public
+      certificates in line with the shorter validity period. 198-day exportable public
+      certificate will now cost $7/Fully Qualified domain name (down from $15) and
+      $79/ wildcard name (down from $149). Please refer to ACM’s pricing page for
+      more details. For more information about ACM, visit the <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-certificate-characteristics.html">ACM
+      documentation</a>.</p>
+last_updated: '2026-02-19T17:46:59.439906'
