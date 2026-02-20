@@ -1,0 +1,13 @@
+entries:
+  2b8dadf34426ae00105fd6c4e31799e3:
+    id: 2b8dadf34426ae00105fd6c4e31799e3
+    title: AI-augmented threat actor accesses FortiGate devices at scale
+    link: https://aws.amazon.com/blogs/security/ai-augmented-threat-actor-accesses-fortigate-devices-at-scale/
+    published: '2026-02-20'
+    summary: 'Commercial AI services are enabling even unsophisticated threat actors
+      to conduct cyberattacks at scale—a trend Amazon Threat Intelligence has been
+      tracking closely. A recent investigation illustrates this shift: Amazon Threat
+      Intelligence observed a Russian-speaking financially motivated threat actor
+      leveraging multiple commercial generative AI services to compromise over 600
+      FortiGate devices across more than 55 countries […]'
+last_updated: '2026-02-20T21:21:04.612205'
