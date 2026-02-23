@@ -27,4 +27,26 @@ entries:
       <u>Serverless feature page</u></a>, <a href="https://aws.amazon.com/redshift/pricing/"><u>Redshift
       Pricing Page</u></a>, or the <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/serverless-billing-reserved.html">Amazon
       Redshift Management Guide</a>.&nbsp;</p>
-last_updated: '2026-02-23T21:40:41.334016'
+  dc2a86b64886a1bd3c6ced2c1305bbb3:
+    id: dc2a86b64886a1bd3c6ced2c1305bbb3
+    title: AWS IAM Policy Autopilot is now available as a Kiro Power
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-policy-autopilot-kiro-power/
+    published: '2026-02-23'
+    summary: "<p>AWS IAM Policy Autopilot, the open source static code analysis tool\
+      \ launched at re:Invent 2025, is now available as a Kiro power to bring policy\
+      \ expertise to agentic AI development. This tool helps developers quickly create\
+      \ baseline AWS IAM policies that can be refined as applications evolve, eliminating\
+      \ the need for manual IAM policy creation.</p> \n<p>The Kiro power delivers\
+      \ significant benefits through one-click installation directly from the Kiro\
+      \ IDE and web interface, removing the need for manual MCP server configuration.\
+      \ This streamlined workflow enables faster policy creation and integrates seamlessly\
+      \ into AI-assisted development environments. Key use cases include rapid prototyping\
+      \ of AWS applications requiring IAM policies, baseline policy creation for new\
+      \ AWS projects, and enhanced productivity within IDE environments where developers\
+      \ can generate policies without leaving their coding workflow.</p> \n<p>To learn\
+      \ more about AWS IAM Policy Autopilot and access the integration, visit the\
+      \ <a href=\"https://github.com/awslabs/iam-policy-autopilot\" target=\"_blank\"\
+      >AWS IAM Policy Autopilot GitHub repository</a>. To learn more about Kiro powers,\
+      \ visit the <a href=\"https://kiro.dev/powers/\" target=\"_blank\">Kiro powers\
+      \ page</a>.&nbsp;</p>"
+last_updated: '2026-02-23T22:37:49.504920'
