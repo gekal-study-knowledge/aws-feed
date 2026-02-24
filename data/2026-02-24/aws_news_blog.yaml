@@ -1,0 +1,12 @@
+entries:
+  8ede684d71db75603d3e449867b539c1:
+    id: 8ede684d71db75603d3e449867b539c1
+    title: Transform live video for mobile audiences with AWS Elemental Inference
+    link: https://aws.amazon.com/blogs/aws/transform-live-video-for-mobile-audiences-with-aws-elemental-inference/
+    published: '2026-02-24'
+    summary: AWS Elemental Inference is a fully managed AI service that automatically
+      transforms live and on-demand video broadcasts into vertical formats optimized
+      for mobile and social platforms in real time, enabling broadcasters to reach
+      audiences on TikTok, Instagram Reels, and YouTube Shorts without manual editing
+      or AI expertise.
+last_updated: '2026-02-24T18:57:20.017786'
