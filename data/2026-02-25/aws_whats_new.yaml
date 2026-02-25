@@ -1,0 +1,34 @@
+entries:
+  aa35fd2a78adafa11f2011d8c116d305:
+    id: aa35fd2a78adafa11f2011d8c116d305
+    title: Announcing new metal sizes for Amazon EC2 M8gn and M8gb instances
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8gn-m8gb-new-metal-sizes/
+    published: '2026-02-25'
+    summary: "<p>Today, AWS announces the general availability of metal-24xl and metal-48xl\
+      \ sizes for Amazon Elastic Compute Cloud (Amazon EC2) M8gn and M8gb instances.\
+      \ These instances are powered by AWS Graviton4 processors to deliver up to 30%\
+      \ better compute performance than AWS Graviton3 processors. M8gn instances feature\
+      \ the latest 6th generation AWS Nitro Cards, and offer up to 600 Gbps network\
+      \ bandwidth, the highest network bandwidth among network optimized EC2 instances.\
+      \ M8gb offers up to 300 Gbps of EBS bandwidth to provide higher EBS performance\
+      \ compared to same-sized equivalent Graviton4-based instances.</p> \n<p>M8gn\
+      \ and M8gb instances offer instance sizes up to 48xlarge and metal-48xl, with\
+      \ up to 768 GiB of memory. M8gn instances offer up to 600 Gbps of networking\
+      \ bandwidth, up to 60 Gbps of bandwidth to Amazon Elastic Block Store (EBS),\
+      \ and are ideal for network-intensive workloads such as high-performance file\
+      \ systems, distributed web scale in-memory caches, caching fleets, real-time\
+      \ big data analytics, Telco applications such as 5G User Plane Function (UPF).\
+      \ M8gb instances offer up to 300 Gbps of EBS bandwidth, up to 400 Gbps of networking\
+      \ bandwidth, and are ideal for workloads requiring high block storage performance\
+      \ such as high-performance databases and NoSQL databases.</p> \n<p>M8gn and\
+      \ M8gb instances support Elastic Fabric Adapter (EFA) networking on 16xlarge,\
+      \ 24xlarge, 48xlarge, metal-24xl, and metal-48xl sizes. EFA networking enables\
+      \ lower latency and improved cluster performance for workloads deployed on tightly\
+      \ coupled clusters.</p> \n<p>The new metal-24xl and metal-48xl sizes are available\
+      \ in the AWS US East (N. Virginia) region.&nbsp;</p> \n<p>To begin your Graviton\
+      \ journey, visit the <a href=\"https://aws.amazon.com/ec2/graviton/level-up-with-graviton/\"\
+      >Level up your compute with AWS Graviton page</a>. To get started, see <a href=\"\
+      https://console.aws.amazon.com/\">AWS Management Console</a>, <a href=\"https://aws.amazon.com/cli/\"\
+      >AWS Command Line Interface (AWS CLI)</a>, and <a href=\"https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html\"\
+      >AWS SDKs</a>.</p>"
+last_updated: '2026-02-25T20:32:18.012071'
