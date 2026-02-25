@@ -213,4 +213,103 @@ entries:
       about the new <a href="https://aws.amazon.com/ec2/instance-types/c8i/" target="_blank">C8i
       and C8i-flex</a> instances visit the <a href="https://aws.amazon.com/blogs/aws/introducing-new-compute-optimized-amazon-ec2-c8i-and-c8i-flex-instances/"
       target="_blank">AWS News blog</a>.</p>
-last_updated: '2026-02-24T22:29:57.882516'
+  e69cd126141dff85ae7f9473028bde5b:
+    id: e69cd126141dff85ae7f9473028bde5b
+    title: AWS Compute Optimizer now applies AWS-generated tags to EBS snapshots created
+      during automation
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-compute-optimizer-applies-tags-ebs-snapshots/
+    published: '2026-02-24'
+    summary: "<p>AWS Compute Optimizer makes it easier to identify snapshots that\
+      \ are created when snapshotting and deleting unattached Amazon Elastic Block\
+      \ Store (EBS) volumes by automatically applying an AWS-generated tag during\
+      \ creation. This enhancement improves visibility and tracking of EBS snapshots\
+      \ created through Compute Optimizer Automation.</p> \n<p>When Compute Optimizer\
+      \ creates a snapshot before deleting an unattached EBS volume—whether initiated\
+      \ through manual actions or automation rules—the snapshot now receives the tag\
+      \ <i>aws:compute-optimizer:automation-event-id</i> with a tag value that links\
+      \ the snapshot to the unique identifier of the automation event that created\
+      \ it. This allows you to easily identify, track, and manage snapshots created\
+      \ through the automated optimization process, helping you maintain better governance\
+      \ over your backup resources and understand the source of snapshots in your\
+      \ environment.</p> \n<p>This is available in all AWS Regions where AWS Compute\
+      \ Optimizer Automation is available. To get started with automated optimization,\
+      \ go to the AWS Compute Optimizer console or visit the <a href=\"https://docs.aws.amazon.com/compute-optimizer/latest/ug/automation.html\"\
+      ><u>user guide</u></a> documentation.</p>"
+  7f6ac4681f1c41758b0292a6f9429cd6:
+    id: 7f6ac4681f1c41758b0292a6f9429cd6
+    title: AWS Observability now available as a Kiro power
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-observability-kiro-power/
+    published: '2026-02-24'
+    summary: '<p>Today, AWS announces AWS Observability as a Kiro power, enabling
+      developers and operators to investigate infrastructure and application health
+      issues faster with AI agent-assisted workflows in Kiro. Kiro Powers is a repository
+      of curated and pre-packaged Model Context Protocol (MCP) servers, steering files,
+      and hooks validated by Kiro partners to accelerate specialized software development
+      and deployment use cases.<br /> <br /> The AWS Observability power packages
+      four specialized MCP servers with targeted observability guidance: the CloudWatch
+      MCP server for observability data; the Application Signals MCP server for application
+      performance monitoring; the CloudTrail MCP server for security analysis and
+      compliance; and the AWS Documentation MCP server for contextual reference access.
+      This unified platform gives Kiro agents instant context for comprehensive workflows
+      including alarm response, anomaly detection, distributed tracing, SLO compliance
+      monitoring, and security investigation. Additionally, the power includes automated
+      gap analysis that helps you identify and fix missing instrumentation.<br />
+      <br /> With the AWS Observability power, developers can now accelerate troubleshooting
+      their distributed applications and infrastructure in minutes, directly in their
+      IDE. The power addresses two critical needs: reducing mean time to resolution
+      (MTTR) for active incidents and proactively improving your observability stack.
+      For faster incident response, when investigating an active alarm, the power
+      dynamically loads relevant guidance and operational signals so AI agents receive
+      only the context needed for the specific troubleshooting task at hand. For stack
+      improvement, the automated gap analysis examines your code to identify missing
+      instrumentation patterns—such as unlogged errors, missing correlation IDs, or
+      absent distributed tracing—and provides actionable recommendations. The power
+      includes eight comprehensive steering guides covering incident response, alerting,
+      performance monitoring, security auditing, and gap analysis.<br /> <br /> The
+      AWS Observability power is available for <a href="https://kiro.dev/launch/powers/aws-observability">one-click
+      installation</a> within <a href="https://kiro.dev/powers/#how-do-i-install-powers">Kiro
+      IDE</a> and <a href="https://kiro.dev/powers/">Kiro powers webpage</a> in all
+      AWS Regions, with each underlying MCP server functional based on regional support
+      of the corresponding AWS service. To learn more about AWS observability MCP
+      servers, visit our <a href="https://awslabs.github.io/mcp/">documentation</a>.&nbsp;</p>'
+  7d7c5869d186c5965a37f8d082fe6003:
+    id: 7d7c5869d186c5965a37f8d082fe6003
+    title: Amazon EC2 I7ie instances now available in AWS Africa (Cape Town) region
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/
+    published: '2026-02-24'
+    summary: <p>AWS is announcing Amazon EC2 I7ie instances are now available in AWS
+      Africa (Cape Town) region. Designed for large storage I/O intensive workloads,
+      I7ie instances are powered by 5th Gen Intel Xeon Processors with an all-core
+      turbo frequency of 3.2 GHz, offering up to 40% better compute performance and
+      20% better price performance over existing I3en instances. I7ie instances offer
+      up to 120TB local NVMe storage density for storage optimized instances and offer
+      up to twice as many vCPUs and memory compared to prior generation instances.
+      Powered by 3rd generation AWS Nitro SSDs, I7ie instances deliver up to 65% better
+      real-time storage performance, up to 50% lower storage I/O latency, and 65%
+      lower storage I/O latency variability compared to I3en instances.<br /> <br
+      /> I7ie are high density storage optimized instances, ideal for workloads requiring
+      fast local storage with high random read/write performance at very low latency
+      consistency to access large data sets. These instances are available in 9 different
+      virtual sizes and deliver up to 100Gbps of network bandwidth and 60Gbps of bandwidth
+      for Amazon Elastic Block Store (EBS).<br /> <br /> To learn more, visit the
+      I7ie instances<a href="https://aws.amazon.com/ec2/instance-types/i7ie/" target="_blank">
+      page</a>.</p>
+  d1d9bb9aa5f7a34c35c790bff4b805d2:
+    id: d1d9bb9aa5f7a34c35c790bff4b805d2
+    title: Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL
+      Server
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-custom-supports-latest-gdr-updates-for-microsoft-sql-server/
+    published: '2026-02-24'
+    summary: <p><a href="https://aws.amazon.com/rds/custom/" target="_blank">Amazon
+      Relational Database Service (Amazon RDS) Custom for SQL Server</a> now supports
+      the latest General Distribution Release (GDR) updates for Microsoft SQL Server.
+      This release includes support for SQL Server 2022 Cumulative Update and <a href="https://support.microsoft.com/help/5072936"
+      target="_blank">KB5072936</a> (16.00.4230.2.v1).<br /> <br /> The GDR updates
+      address vulnerabilities described in CVE-2026-20803. For additional information
+      on the improvements and fixes included in these updates, see Microsoft documentation
+      for KB5072936. You can upgrade your Amazon RDS Custom for SQL Server instances
+      to apply these recommended updates using Amazon RDS Management Console, or by
+      using the AWS SDK or CLI. To learn more about upgrading your database instances,
+      see <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/custom-upgrading-sqlserver.html"
+      target="_blank">Amazon RDS Custom User Guide</a>.</p>
+last_updated: '2026-02-25T01:54:07.057113'
