@@ -54,6 +54,100 @@
 
 <hr>
 
+<h3>AWS Outposts racks now support additional Amazon CloudWatch metrics in AWS GovCloud (US) Regions</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/aws-outposts-racks-cloudwatch-metrics-govcloud-regions/">https://aws.amazon.com/about-aws/whats-new/2026/02/aws-outposts-racks-cloudwatch-metrics-govcloud-regions/</a></li>
+<li><strong>Published</strong>: 2026-02-25</li>
+</ul>
+
+<p><p>AWS Outposts racks now support VifConnectionStatus and VifBgpSessionState Amazon CloudWatch metrics in AWS GovCloud (US) Regions. These metrics provide visibility into the connectivity status of your Outposts racks' Local Gateway (LGW) and Service Link Virtual Interfaces (VIFs) with your on-premises devices.<br /> <br /> These metrics provide you with the ability to monitor Outposts VIF connectivity status directly within the CloudWatch console, without having to rely on external networking tools or coordination with other teams. You can use these metrics to set alarms, troubleshoot connectivity issues, and ensure your Outposts racks are properly integrated with your on-premises infrastructure. The VifConnectionStatus metric indicates whether an Outposts VIF is successfully connected, configured, and ready to forward traffic. A value of "1" means that the VIF is operational, while "0" means that it is not ready. The VifBgpSessionState metric shows the current state of the BGP session between the Outposts VIF and the on-premises device, with values ranging from 1 (IDLE) to 6 (ESTABLISHED).<br /> <br /> The VifConnectionStatus and VifBgpSessionState metrics are now available for all Outposts VIFs in AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions where Outposts racks are available.<br /> <br /> To get started, read this <a href="https://aws.amazon.com/blogs/compute/improving-network-observability-with-new-aws-outposts-racks-network-metrics/" target="_blank">blog post </a>and access the metrics in the CloudWatch console. To learn more, check out the CloudWatch metrics for <a href="https://docs.aws.amazon.com/outposts/latest/userguide/outposts-cloudwatch-metrics.html#metrics-vif" target="_blank">Outposts documentation</a> for first-generation Outposts racks.</p></p>
+
+<hr>
+
+<h3>Aurora DSQL launches new support for Tortoise, Flyway, and Prisma</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/aurora-dsql-launches-tortoise-flyway-prisma/">https://aws.amazon.com/about-aws/whats-new/2026/02/aurora-dsql-launches-tortoise-flyway-prisma/</a></li>
+<li><strong>Published</strong>: 2026-02-25</li>
+</ul>
+
+<p><p>Today we are announcing the release of Aurora DSQL integrations for popular ORM and database migration tools: an adapter for Tortoise (Python ORM), a dialect for Flyway (schema management tool), and CLI tools for Prisma (Node.js ORM). These integrations help developers use their preferred frameworks with Aurora DSQL while automatically handling IAM authentication and Aurora DSQL-specific compatibility requirements.<br /> <br /> The Aurora DSQL Adapter for Tortoise enables Python developers to build applications using Tortoise without writing custom authentication code. The adapter supports both asyncpg and psycopg drivers, integrates with the Aurora DSQL Connector for Python for automatic IAM token generation, and includes compatibility patches for rich migrations. The Flyway dialect adapts Flyway for Aurora DSQL's distributed architecture by automatically handling Aurora DSQL-specific behaviors such as IAM-based authentication.&nbsp;The Prisma CLI tools help Node.js developers validate their Prisma schemas for Aurora DSQL compatibility and generate Aurora DSQL-compatible migrations, streamlining the path from development to production.<br /> <br /> To get started, visit the GitHub repositories for <a href="https://github.com/awslabs/aurora-dsql-orms/tree/main/python/tortoise-orm">Tortoise ORM</a>, <a href="https://github.com/awslabs/aurora-dsql-tools/tree/main/flyway">Flyway</a>, and <a href="https://github.com/awslabs/aurora-dsql-orms/tree/main/node/prisma">Prisma</a>. Get started with Aurora DSQL for free with the <a href="https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&amp;all-free-tier.sort-order=asc&amp;awsf.Free%20Tier%20Types=*all&amp;awsf.Free%20Tier%20Categories=categories%23databases">AWS Free Tier</a>. To learn more about Aurora DSQL, visit the <a href="https://aws.amazon.com/rds/aurora/dsql/">webpage</a>.</p></p>
+
+<hr>
+
+<h3>Aurora DSQL launches new integrations for Visual Studio Code SQLTools and DBeaver</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/aurora-dsql-visual-studio-code-sqltools-dbeaver/">https://aws.amazon.com/about-aws/whats-new/2026/02/aurora-dsql-visual-studio-code-sqltools-dbeaver/</a></li>
+<li><strong>Published</strong>: 2026-02-25</li>
+</ul>
+
+<p><p>Today we are announcing the release of the Aurora DSQL Driver for SQLTools and the Aurora DSQL Plugin for DBeaver Community Edition. These integrations allow customers to leverage popular database tools to run queries against Aurora DSQL clusters, explore database schemas, and manage their data. Both integrations simplify database connectivity by automatically handling IAM authentication and transparently managing access tokens, eliminating the need to write token generation code or manually supply IAM tokens.<br /> <br /> The SQLTools driver integrates Aurora DSQL with Visual Studio Code and is also available on Open VSX Registry for use with VS Code-compatible editors such as Cursor and Kiro. The DBeaver plugin is built on top of the Aurora DSQL Connector for JDBC. Both integrations eliminate security risks associated with traditional user-generated passwords by using AWS IAM credentials for secure, password-free authentication.<br /> <br /> To get started, visit the Aurora DSQL documentation page for <a href="https://docs.aws.amazon.com/aurora-dsql/latest/userguide/accessing-vscode.html">VSCode</a> and <a href="https://docs.aws.amazon.com/aurora-dsql/latest/userguide/accessing-dbeaver.html">DBeaver</a>. Get started with Aurora DSQL for free with the <a href="https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&amp;all-free-tier.sort-order=asc&amp;awsf.Free%20Tier%20Types=*all&amp;awsf.Free%20Tier%20Categories=categories%23databases">AWS Free Tier</a>.&nbsp;To learn more about Aurora DSQL, visit the <a href="https://aws.amazon.com/rds/aurora/dsql/">webpage</a>.</p></p>
+
+<hr>
+
+<h3>Amazon EC2 R8a instances now available in the Europe (Ireland) region</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8a-instances-europe-ireland-regions/">https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8a-instances-europe-ireland-regions/</a></li>
+<li><strong>Published</strong>: 2026-02-25</li>
+</ul>
+
+<p><p>Starting today, Amazon EC2 R8a instances are now available in Europe (Ireland) region. These instances, feature 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher performance, and up to 19% better price-performance compared to R7a instances.<br /> <br /> R8a instances deliver 45% more memory bandwidth compared to R7a instances, making these instances ideal for latency sensitive workloads. Compared to Amazon EC2 R7a instances, R8a instances provide up to 60% faster performance for GroovyJVM, allowing higher request throughput and better response times for business-critical applications.<br /> <br /> Built on the <a href="https://aws.amazon.com/ec2/nitro/" target="_blank">AWS Nitro System</a> using sixth generation Nitro Cards, R8a instances are ideal for high performance, memory-intensive workloads, such as SQL and NoSQL databases, distributed web scale in-memory caches, in-memory databases, real-time big data analytics, and Electronic Design Automation (EDA) applications. R8a instances offer 12 sizes including 2 bare metal sizes. Amazon EC2 R8a instances are SAP-certified, and providing 38% more SAPS compared to R7a instances.<br /> <br /> To get started, sign in to the <a href="https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#LaunchInstances:instanceType=r8a.large" target="_blank">AWS Management Console</a>. For more information about the new instances, visit the Amazon EC2 <a href="https://aws.amazon.com/ec2/instance-types/r8a" target="_blank">R8a instance page</a>.</p></p>
+
+<hr>
+
+<h3>Amazon EC2 M8i and M8i-flex instances are now available in Africa (Cape Town) region</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8i-m8i-flex-instances-africa-cape-town-regions/">https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8i-m8i-flex-instances-africa-cape-town-regions/</a></li>
+<li><strong>Published</strong>: 2026-02-25</li>
+</ul>
+
+<p><p>Starting today, Amazon EC2 M8i and M8i-flex instances are now available in Africa (Cape Town) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. The M8i and M8i-flex instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% better performance than M7i and M7i-flex instances, with even higher gains for specific workloads. The M8i and M8i-flex instances are up to 30% faster for PostgreSQL databases, up to 60% faster for NGINX web applications, and up to 40% faster for AI deep learning recommendation models compared to M7i and M7i-flex instances.<br /> <br /> M8i-flex are the easiest way to get price performance benefits for a majority of general-purpose workloads like web and application servers, microservices, small and medium data stores, virtual desktops, and enterprise applications. They offer the most common sizes, from large to 16xlarge, and are a great first choice for applications that don't fully utilize all compute resources.<br /> <br /> M8i instances are a great choice for all general purpose workloads, especially for workloads that need the largest instance sizes or continuous high CPU usage. The SAP-certified M8i instances offer 13 sizes including 2 bare metal sizes and the new 96xlarge size for the largest applications.<br /> <br /> To get started, sign in to the <a href="https://aws.amazon.com/console/">AWS Management Console</a>. For more information about the new instances, visit the <a href="https://aws.amazon.com/ec2/instance-types/m8i/">M8i and M8i-flex</a> page or visit the <a href="https://aws.amazon.com/blogs/aws/new-general-purpose-amazon-ec2-m8i-and-m8i-flex-instances-are-now-available/">AWS News</a> blog.</p></p>
+
+<hr>
+
+<h3>Amazon Location Service introduces LLM Context as a Kiro power and Claude Code plugin to improve AI performance</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-location-service-introduces-kiro-power-claude-skill-llm-context/">https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-location-service-introduces-kiro-power-claude-skill-llm-context/</a></li>
+<li><strong>Published</strong>: 2026-02-25</li>
+</ul>
+
+<p><p>Today, Amazon Location launched curated AI Agent context as a <a href="https://kiro.dev/powers/">Kiro </a><a href="https://kiro.dev/powers/">power</a>, <a href="https://code.claude.com/docs/en/plugins">Claude Code plugin</a>, and agent skill in the open <a href="https://agentskills.io/home">Agent Skills</a> format, usable by any compatible agent. Developers can use this context with generative AI tools such as Kiro, Claude Code, and Cursor to improve code accuracy, accelerate feature implementation, and reduce iteration time when adding Amazon Location-enabled capabilities to their applications. Amazon Location Service is a mapping service that offers geospatial data and location functionality such as maps, places search and geocoding, route planning, device tracking, and geofencing.</p> 
+<p>Once loaded by AI development tools, the curated Amazon Location context accelerates development of common location-based solutions such as address entry forms for delivery applications, map display, nearest-store lookup, and route visualization. The context includes pre-validated implementation patterns and step-by-step instructions for these use cases, allowing developers to focus on application-specific logic rather than API integration details.</p> 
+<p>Amazon Location Service is available in the following AWS Regions: US East (Ohio), US East (N. Virginia), US West (Oregon), Asia Pacific (Malaysia), Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Canada (Central), Europe (Frankfurt), Europe (Ireland), Europe (London), Europe (Spain), Europe (Stockholm), South America (São Paulo), and AWS GovCloud (US-West).</p> 
+<p>To get started, download and install the context to your agent of choice from the <a href="https://github.com/aws-geospatial/amazon-location-agent-context">amazon-location-agent-context repository on GitHub</a>, or learn more about using <a href="https://docs.aws.amazon.com/location/latest/developerguide/ai-llms.html">AI and LLMs</a> to accelerate development with Amazon Location Service.</p></p>
+
+<hr>
+
+<h3>Amazon WorkSpaces Applications extends support for 4K resolution</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-applications-4K-resolution/">https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-applications-4K-resolution/</a></li>
+<li><strong>Published</strong>: 2026-02-25</li>
+</ul>
+
+<p><p>Amazon WorkSpaces Applications now supports up to 4K (4096 x 2160) resolution on non-accelerated instance types and across all client connection modes. Previously, higher resolution monitors were limited to graphics-accelerated instances in WorkSpaces Applications classic mode. This update allows you to choose the appropriate instance type and provide a better end-user experience that aligns with your hardware investments.<br /> <br /> This new feature benefits customers by providing a consistent and high-quality streaming experience across instances regardless of hardware acceleration capabilities. Whether using native application mode, classic application mode, or desktop view, your end users can now enjoy up to 4K resolution if their display device supports it. This enhancement is particularly valuable for users with ultra-wide monitors (21:9 aspect ratio) at 4K resolution, ensuring applications display with optimal clarity and detail at the maximum supported resolution of 4K.<br /> <br /> These features are available at no additional cost in all the AWS&nbsp;<a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">Regions</a>&nbsp;where WorkSpaces Applications is available. WorkSpaces Applications offers pay-as-you-go&nbsp;<a href="https://aws.amazon.com/appstream2/pricing/">pricing</a>. To get started with WorkSpaces Applications, see Amazon&nbsp;<a href="https://aws.amazon.com/workspaces/applications/getting-started/">WorkSpaces applications: Getting started</a>.&nbsp;<br /> </p> 
+<p>To enable these features for your users, you must use a WorkSpaces Applications image that uses a&nbsp;<a href="https://docs.aws.amazon.com/appstream2/latest/developerguide/base-images-agent.html">WorkSpaces Applications agent</a>&nbsp;released on or after February 4, 2026, or an image that uses <a href="https://docs.aws.amazon.com/appstream2/latest/developerguide/keep-image-updated-managed-image-updates.html">Managed WorkSpaces Applications image updates</a>&nbsp;released on or after February 18, 2026.</p></p>
+
+<hr>
+
+<h3>AWS Backup extends support for Amazon Neptune to five additional AWS Regions</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-extends-amazon-neptune-five-additional-regions/">https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-extends-amazon-neptune-five-additional-regions/</a></li>
+<li><strong>Published</strong>: 2026-02-25</li>
+</ul>
+
+<p><p>AWS Backup now supports Amazon Neptune in five additional AWS Regions: Europe (Zurich), Asia Pacific (Melbourne), Canada West (Calgary), Asia Pacific (Malaysia), and Europe (Spain).</p> 
+<p>This expansion brings policy-based data protection and recovery to your Amazon Neptune clusters in these newly supported Regions.</p> 
+<p>To start protecting your Amazon Neptune clusters with AWS Backup, add your Amazon Neptune clusters to your existing backup plans or create a new backup plan, and attach your Neptune clusters to the newly created backup plan. To learn more about AWS Backup for Amazon Neptune clusters, visit the <a href="https://aws.amazon.com/backup/" style="background-color: rgb(255,255,255);">product page</a>, <a href="https://aws.amazon.com/backup/pricing/" style="background-color: rgb(255,255,255);">pricing page</a>, and <a href="https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html" style="background-color: rgb(255,255,255);">documentation</a>. To get started, visit the <a href="https://console.aws.amazon.com/backup" style="background-color: rgb(255,255,255);">AWS Backup console</a>, AWS Command Line Interface (CLI), or AWS SDKs.</p></p>
+
+<hr>
+
 
         </main>
         <footer>
