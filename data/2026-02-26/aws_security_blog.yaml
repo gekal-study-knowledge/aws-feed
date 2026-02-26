@@ -1,0 +1,14 @@
+entries:
+  54f0ee2036f6d62a55fe1816ebc092ee:
+    id: 54f0ee2036f6d62a55fe1816ebc092ee
+    title: 'Inside AWS Security Agent: A multi-agent architecture for automated penetration
+      testing'
+    link: https://aws.amazon.com/blogs/security/inside-aws-security-agent-a-multi-agent-architecture-for-automated-penetration-testing/
+    published: '2026-02-26'
+    summary: 'AI agents have traditionally faced three core limitations: they can’t
+      retain learned information or operate autonomously beyond short periods, and
+      they require constant supervision. AWS addresses these limitations with frontier
+      agents—a new category of AI that performs complex reasoning, multi-step planning,
+      and autonomous execution for hours or days. Multi-agent collaboration has emerged
+      as a powerful […]'
+last_updated: '2026-02-26T22:30:13.266570'
