@@ -11,4 +11,16 @@ entries:
       agents—a new category of AI that performs complex reasoning, multi-step planning,
       and autonomous execution for hours or days. Multi-agent collaboration has emerged
       as a powerful […]'
-last_updated: '2026-02-26T22:30:13.266570'
+  8931b4b34d73aaf2a35b0b15ae69f634:
+    id: 8931b4b34d73aaf2a35b0b15ae69f634
+    title: AWS successfully completed its first surveillance audit for ISO 42001:2023
+      with no findings
+    link: https://aws.amazon.com/blogs/security/aws-successfully-completed-its-first-surveillance-audit-for-iso-420012023-with-no-findings/
+    published: '2026-02-26'
+    summary: 'In November 2024, Amazon Web Services (AWS) was the first major cloud
+      service provider to announce the ISO/IEC 42001 accredited certification for
+      AI services, covering: Amazon Bedrock, Amazon Q Business, Amazon Textract, and
+      Amazon Transcribe. In November 2025, AWS successfully completed its first surveillance
+      audit for ISO 42001:2023, Artificial Intelligence Management System with no
+      findings. […]'
+last_updated: '2026-02-26T23:26:06.120525'

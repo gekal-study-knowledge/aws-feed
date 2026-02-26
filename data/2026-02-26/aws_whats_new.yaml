@@ -169,4 +169,95 @@ entries:
       more, visit <a href="https://aws.amazon.com/ec2/instance-types/i8g/">EC2 I8g
       instances</a>. To begin your Graviton journey, visit the <a href="https://aws.amazon.com/ec2/graviton/level-up-with-graviton/">Level
       up your compute with AWS Graviton page</a>.</p>
-last_updated: '2026-02-26T22:30:12.655398'
+  d6684ecdfc560ab5bf89798a429a159a:
+    id: d6684ecdfc560ab5bf89798a429a159a
+    title: Amazon ECS Managed Instances now integrates with Amazon EC2 Capacity Reservations
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/ecs-mi-ec2-capacity-reservations/
+    published: '2026-02-26'
+    summary: '<p>Amazon Elastic Container Service (Amazon ECS) Managed Instances now
+      integrates with Amazon EC2 Capacity Reservations, enabling you to leverage your
+      reserved capacity for predictable workload availability, while ECS handles all
+      infrastructure management. This integration helps you balance reliable capacity
+      scaling with cost efficiency, helping achieve high availability for mission‑critical
+      workloads.<br /> <br /> <a href="https://aws.amazon.com/ecs/managed-instances/">Amazon
+      ECS Managed Instances</a> is a fully managed compute option designed to eliminate
+      infrastructure management overhead, dynamically scale EC2 instances to match
+      your workload requirements, and continuously optimize task placement to reduce
+      infrastructure costs. With today’s launch, you can configure your ECS Managed
+      Instances capacity providers to use capacity reservations by setting the capacityOptionType
+      parameter to reserved, in addition to the existing spot and on-demand options.
+      You can also specify reservation preferences to optimize cost and availability:
+      use reservations-only to launch EC2 instances exclusively in reserved capacity
+      for maximum predictability, reservations-first to prefer reservations while
+      maintaining flexibility to fall back to on-demand capacity when needed, or reservations-excluded
+      to prevent your capacity provider from using reservations altogether.<br />
+      <br /> To get started, you can use the AWS Management Console, AWS CLI, AWS
+      CloudFormation, or AWS SDKs to configure your ECS Managed Instances capacity
+      provider by choosing capacityOptionType=reserved and providing a capacity reservation
+      group and reservation strategy. This feature is now available in all AWS Regions.
+      For more details, refer to the <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/managed-instances-instance-types.html#managed-instances-instance-billing-and-purchase-options">documentation</a>.</p>'
+  3505916abc49723bb692d60da2e85ab1:
+    id: 3505916abc49723bb692d60da2e85ab1
+    title: AWS Marketplace now supports multiple purchases of SaaS and Professional
+      Services products
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/concurrent-agreements-february/
+    published: '2026-02-26'
+    summary: "<p>AWS Marketplace now supports Concurrent Agreements for SaaS and Professional\
+      \ Services products, enabling buyers to make multiple purchases for the same\
+      \ product within a single AWS account. Previously, buyers could only maintain\
+      \ one active agreement per product per AWS account, requiring sellers to use\
+      \ workarounds to support expansion deals. Concurrent Agreements removes this\
+      \ constraint, allowing different business units to procure independently with\
+      \ their own negotiated terms and pricing.</p> \n<p>Both buyers and sellers benefit\
+      \ from the flexibility Concurrent Agreements provides. Buyers can accept multiple\
+      \ offers for the same product without disrupting existing agreements, supporting\
+      \ multi-team procurement within centralized AWS accounts, mid-term expansions,\
+      \ and repeat purchases. Sellers can close multi-business unit deals that couldn't\
+      \ happen before, transact expansions immediately instead of waiting for renewal\
+      \ cycles, and eliminate the operational overhead of managing workarounds.&nbsp;</p>\
+      \ \n<p>Concurrent Agreements is enabled by default for all Professional Services\
+      \ listings starting today, with no seller action required. For SaaS listings,\
+      \ sellers must update their AWS Marketplace integration to handle multiple active\
+      \ subscriptions, including updating subscription notifications to use EventBridge\
+      \ and updating entitlement and metering APIs. Starting June 1, 2026, support\
+      \ for Concurrent Agreements will be required for new SaaS products. Sellers\
+      \ who have completed the integration work can opt in to enable Concurrent Agreements\
+      \ for their SaaS products now.&nbsp;</p> \n<p>This capability is available in\
+      \ all&nbsp;<a href=\"https://docs.aws.amazon.com/marketplace/latest/buyerguide/supported-regions.html\"\
+      >AWS Regions</a>&nbsp;where AWS Marketplace is supported. Concurrent Agreements\
+      \ purchasing is available on SaaS products where sellers have completed the\
+      \ integration, and is enabled by default for all Professional Services listings.\
+      \ To learn more about enabling Concurrent Agreements as a seller of SaaS products,\
+      \ review the <a href=\"https://catalog.workshops.aws/mpseller/en-US/saas/integration-for-concurrent-agreements\"\
+      >Concurrent Agreements integration lab</a>.</p>"
+  ec8c9ceed62faed9733ab9cd827c4888:
+    id: ec8c9ceed62faed9733ab9cd827c4888
+    title: Amazon CloudWatch now provides lock contention diagnostics for Amazon RDS
+      for PostgreSQL
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-cloudwatch-lock-contention-diagnostics-rds-postgresql/
+    published: '2026-02-26'
+    summary: <p>Amazon CloudWatch Database Insights now provides lock contention diagnostics
+      for Amazon RDS for PostgreSQL instances. This feature helps you identify the
+      root cause behind both ongoing and historical lock contention issues within
+      minutes. The lock contention diagnostics feature is available exclusively in
+      the Advanced mode of CloudWatch Database Insights.<br /> <br /> With this launch,
+      you can visualize a locking condition in the Database Insights console, which
+      shows the relationship between blocking and waiting sessions. The visualization
+      helps you quickly identify the dominating sessions, queries, or objects causing
+      lock contention. Additionally, this feature persists historical locking data
+      for 15 months, allowing you to analyze and investigate historical locking conditions.
+      You no longer need to manually run custom queries or rely on application logs
+      to diagnose lock contention issues, streamlining the troubleshooting process.<br
+      /> <br /> You can get started with this feature by enabling the Advanced mode
+      of CloudWatch Database Insights on your Amazon RDS for PostgreSQL clusters using
+      the RDS console, AWS APIs, or the AWS SDK. CloudWatch Database Insights delivers
+      database health monitoring aggregated at the fleet level, as well as instance-level
+      dashboards for detailed database and SQL query analysis.<br /> <br /> CloudWatch
+      Database Insights is available in&nbsp;<a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/"
+      target="_blank">all public AWS Regions</a><a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">&nbsp;</a>and
+      offers vCPU-based pricing – see the&nbsp;<a href="https://aws.amazon.com/cloudwatch/pricing/"
+      target="_blank">pricing page</a>&nbsp;for details. For further information,
+      visit the<a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Database-Insights.html"
+      target="_blank">&nbsp;</a><a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Database-Insights.html"
+      target="_blank">Database Insights documentation.</a></p>
+last_updated: '2026-02-26T23:26:05.561970'
