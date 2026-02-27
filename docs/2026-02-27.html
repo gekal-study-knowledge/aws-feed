@@ -68,6 +68,17 @@
 
 <hr>
 
+<h3>AWS Resource Access Manager now supports maintaining shares when accounts change organizations</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/aws-resource-access-manager/">https://aws.amazon.com/about-aws/whats-new/2026/02/aws-resource-access-manager/</a></li>
+<li><strong>Published</strong>: 2026-02-27</li>
+</ul>
+
+<p><p>AWS Resource Access Manager (RAM) now supports a resource share configuration that allows you to maintain resource sharing continuity when accounts move between AWS Organizations. With the new <i>RetainSharingOnAccountLeaveOrganization</i> parameter and corresponding <i>ram:RetainSharingOnAccountLeaveOrganization</i> condition key, security administrators can configure resource shares to retain access when accounts leave the organization and enforce consistent policies across their organization using Service Control Policies (SCPs).<br /> <br /> This capability helps organizations undergoing mergers, acquisitions, or restructuring maintain access to shared resources like Route53 Resolver Rules, Transit Gateways, and IPAM pools without disruption. Security teams can use SCPs to enforce the <i>RetainSharingOnAccountLeaveOrganization</i> configuration organization-wide. When enabled, RAM treats organization accounts as external accounts, requiring explicit invitation acceptance and preserving resource access during account transitions between organizations.<br /> <br /> This feature is available in all AWS commercial Regions at no additional cost. To learn more about resource share configurations, see the <a href="https://docs.aws.amazon.com/ram/latest/userguide/working-with-sharing-create.html" target="_blank">AWS RAM documentation</a> or visit the <a href="https://aws.amazon.com/ram/" target="_blank">AWS RAM product page</a>.</p></p>
+
+<hr>
+
 
         </main>
         <footer>
