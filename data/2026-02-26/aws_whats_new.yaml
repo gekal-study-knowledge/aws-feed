@@ -260,4 +260,26 @@ entries:
       visit the<a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Database-Insights.html"
       target="_blank">&nbsp;</a><a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Database-Insights.html"
       target="_blank">Database Insights documentation.</a></p>
-last_updated: '2026-02-26T23:26:05.561970'
+  1fa35ba240152e807c7da5947871387a:
+    id: 1fa35ba240152e807c7da5947871387a
+    title: Amazon SNS now supports push notifications in the Europe (Spain) Region
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sns-push-expansion-spain/
+    published: '2026-02-26'
+    summary: "<p><a href=\"https://aws.amazon.com/sns/\" target=\"_blank\">Amazon\
+      \ Simple Notification Service (Amazon SNS)</a> now supports sending push notifications\
+      \ in the AWS Europe (Spain) Region.&nbsp;</p> \n<p>Amazon SNS is a fully managed\
+      \ pub/sub service that provides message delivery to multiple endpoints, including\
+      \ AWS Lambda, Amazon SQS, Amazon Data Firehose, HTTP, SMS (via AWS End User\
+      \ Messaging), push notifications, and email. With this launch,&nbsp;customers&nbsp;in\
+      \ the Europe (Spain) Region&nbsp;can use Amazon SNS to send push notifications\
+      \ to the following supported push notification services:&nbsp;Amazon Device\
+      \ Messaging (ADM), Apple Push Notification Service (APNs), Baidu Cloud Push\
+      \ (Baidu), Firebase Cloud Messaging (FCM), Microsoft Push Notification Service\
+      \ for Windows Phone (MPNS), and Windows Push Notification Services (WNS).&nbsp;</p>\
+      \ \n<p>With this expansion, Amazon SNS now supports sending push notifications\
+      \ from 25 regions. For the full list of regions from which you can send push\
+      \ notifications, see <a target=\"_blank\"></a><a href=\"https://docs.aws.amazon.com/sns/latest/dg/sns-mobile-push-supported-regions.html\"\
+      \ target=\"_blank\">Supported Regions and Countries</a> in&nbsp;the Amazon SNS\
+      \ Developer Guide.</p> \n<p>For more information, see the <a href=\"https://docs.aws.amazon.com/sns/latest/dg/sns-mobile-application-as-subscriber.html\"\
+      \ target=\"_blank\">Amazon SNS push notifications documentation</a>.</p>"
+last_updated: '2026-02-27T01:48:32.520975'

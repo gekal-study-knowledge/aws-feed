@@ -209,4 +209,27 @@ entries:
       href="https://aws.amazon.com/ec2/instance-types/r8i" target="_blank">R8i and
       R8i-flex </a>instances visit the AWS News <a href="https://aws.amazon.com/blogs/aws/best-performance-and-fastest-memory-with-the-new-amazon-ec2-r8i-and-r8i-flex-instances/"
       target="_blank">blog</a>.</p>
-last_updated: '2026-02-19T01:54:18.786520'
+  db6cf350b46c28b98cf5f564f9bd6c6d:
+    id: db6cf350b46c28b98cf5f564f9bd6c6d
+    title: Amazon EventBridge Scheduler adds resource count metrics for quota monitoring
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eventbridge-scheduler-resource-metrics/
+    published: '2026-02-17'
+    summary: "<p>Amazon EventBridge Scheduler now emits resource count metrics to\
+      \ Amazon CloudWatch, enabling you to monitor the approximate number of schedules\
+      \ and schedule groups in your account. These new metrics help you identify when\
+      \ you're approaching your service quota limits so you can request increases\
+      \ before running out of capacity. You can increase the schedules quota, for\
+      \ instance, from the default of 10 million to billions.</p> \n<p>With Amazon\
+      \ EventBridge Scheduler, you can create billions of scheduled events and tasks\
+      \ that run across more than 270 AWS services, without provisioning or managing\
+      \ infrastructure. You can set up one-time or recurring schedules using cron\
+      \ expressions, rate expressions, or specific times, with support for time zones\
+      \ and daylight savings. Today's addition of resource count metrics enhances\
+      \ your ability to manage capacity planning and scale your scheduled workloads\
+      \ with confidence.</p> \n<p>These metrics are available at no additional cost\
+      \ in all AWS Regions, including the AWS GovCloud (US) Regions.</p> \n<p>To learn\
+      \ more, see the <a href=\"https://docs.aws.amazon.com/scheduler/latest/UserGuide/monitoring-cloudwatch-usage-metrics.html#monitoring-cloudwatch-resource-count-metrics\"\
+      >Monitoring EventBridge Scheduler documentation</a>&nbsp;or view the metrics\
+      \ in the <a href=\"https://console.aws.amazon.com/cloudwatch/home#metricsV2:graph=~();query=~%27*7bAWS*2fUsage*2cClass*2cResource*2cService*2cType*7d*20Service*3d*22Scheduler*22\"\
+      >CloudWatch console</a>.</p>"
+last_updated: '2026-02-27T01:48:32.580857'
