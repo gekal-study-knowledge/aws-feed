@@ -29,4 +29,27 @@ entries:
       To learn more, visit the <a href="https://docs.aws.amazon.com/opensearch-service/latest/developerguide/cluster-insights.html">Cluster
       Insights documentation</a> or view the complete <a href="https://docs.aws.amazon.com/opensearch-service/latest/developerguide/insights-catalog.html">catalog
       of available insights</a>.</p>
-last_updated: '2026-02-27T17:32:32.609819'
+  abeec699a8f70afb457a119445b6477b:
+    id: abeec699a8f70afb457a119445b6477b
+    title: AWS now supports Bacs Direct Debit as a payment method for UK customers
+    link: https://aws.amazon.com/about-aws/whats-new/aws-supports-bacs-direct-debit-payment-method/
+    published: '2026-02-27'
+    summary: "<p>Starting today, AWS customers based in the United Kingdom can use\
+      \ Bacs Direct Debit to pay for their AWS services. This new feature provides\
+      \ a convenient and automated way to manage your cloud spend directly from your\
+      \ GBP-based bank account.</p> \n<p>Customers can securely connect any personal\
+      \ or business bank account that supports the Bacs standard.&nbsp;Previously,\
+      \ AWS only&nbsp; accepted credit or debit cards and EUR-based bank accounts\
+      \ in the UK.</p> \n<p>During sign-up, customers can choose \"Bacs Direct Debit\"\
+      \ from the AWS sign-up page, select their bank, and authenticate using their\
+      \ bank's mobile app or online banking credentials. This securely verifies ownership\
+      \ and links the bank account to the AWS account. By default, this account will\
+      \ be used for future AWS invoices.</p> \n<p>Existing customers can add Bacs\
+      \ Direct Debit by navigating to the Payment Preferences page in the AWS Billing\
+      \ console. They choose \"Add payment method,\" select \"Bacs Direct Debit,\"\
+      \ and follow the same bank selection and authentication flow. Once verified,\
+      \ the bank account is available as a payment method for future invoices.</p>\
+      \ \n<p>Bacs Direct Debit is available to customers in UK regions at not additional\
+      \ cost. To learn more, see&nbsp;<a href=\"https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-bacs-emea.html\"\
+      >Managing your Bacs direct debit payment method</a>.&nbsp;</p>"
+last_updated: '2026-02-27T18:37:31.313331'
