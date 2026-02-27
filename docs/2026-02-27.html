@@ -79,6 +79,51 @@
 
 <hr>
 
+<h3>EC2 Image Builder enhances lifecycle policies with wildcard support and simplified IAM</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-image-builder-lifecycle-enhancements/">https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-image-builder-lifecycle-enhancements/</a></li>
+<li><strong>Published</strong>: 2026-02-27</li>
+</ul>
+
+<p><p>EC2 Image Builder, a service that helps you automate the creation, distribution, and management of customized Amazon Machine Images, now supports wildcard patterns in lifecycle policies and simplifies IAM role creation. You can now use wildcard patterns to manage images from multiple recipes within a single lifecycle policy, and create IAM roles with pre-populated default permissions directly from the console.<br /> <br /> Previously, you had to create separate lifecycle policies for each new recipe or manually select individual recipes, making it difficult to scale as new recipes were added. Now with wildcard pattern support, you can specify patterns like my-recipe-1.x.x to automatically apply lifecycle policies to all matching recipes—including new recipes created in the future. Additionally, creating IAM roles for lifecycle management previously required manually configuring the required permissions. Now when creating a new role in the console, EC2 Image Builder automatically populates the required default permissions, reducing setup time and potential configuration errors. Together, these capabilities simplify onboarding and ongoing maintenance, enabling you to manage your image lifecycle at scale with less operational overhead.<br /> <br /> Lifecycle Policies are available in all commercial AWS regions. To learn more, refer to the <a href="https://docs.aws.amazon.com/imagebuilder/latest/userguide/manage-image-lifecycles.html">documentation</a>.</p></p>
+
+<hr>
+
+<h3>ARC Region switch adds three new capabilities: post-recovery workflows, RDS orchestration and AWS provider support for Terraform</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/arc-region-switch-post-recovery-rdsblock/">https://aws.amazon.com/about-aws/whats-new/2026/02/arc-region-switch-post-recovery-rdsblock/</a></li>
+<li><strong>Published</strong>: 2026-02-27</li>
+</ul>
+
+<p><p>Amazon Application Recovery Controller (ARC) Region switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. It automates multi-Region disaster recovery, reducing engineering effort and eliminating operational overhead when recovering applications across multiple AWS accounts and Regions. Region switch now includes three new capabilities: post-recovery workflows, native RDS execution blocks, and AWS provider for Terraform support.<br /> <br /> <b>Post-recovery workflows.</b> Disaster recovery doesn't end when customers failover to a standby Region. After orchestrating a failover or failback, customers must prepare the other Region for the next recovery event. Today, this requires manual coordination of scaling, recreating read replicas, and validating configurations. Post-recovery workflows help customers automate these preparation steps. With this launch, post-recovery workflows support the custom action Lambda execution block, Amazon RDS create read replica execution block, ARC Region switch plan execution block, and the manual approval execution block. Customers can create read replicas, run custom logic via Lambda functions, add manual approval gates, and embed child plans for complex orchestration as part of post-recovery. Post-recovery workflows are available for active/passive deployments and can be triggered manually.<br /> <br /> <b>RDS execution blocks.</b> Coordinating Amazon RDS database recovery during Regional failover requires manual steps to promote read replicas and recreate replication, introducing delays and errors. Region switch now natively supports two Amazon RDS execution blocks that automate RDS recovery orchestration. The RDS promote read replica execution block orchestrates promotion of a read replica to a standalone instance during failover. The RDS create read replica execution block orchestrates replica creation as part of post-recovery workflows.<br /> <br /> <b>AWS provider for Terraform support.</b> Region switch is now supported by the AWS provider for Terraform, enabling customers to manage disaster recovery plans as Infrastructure-as-Code and integrate them into CI/CD pipelines alongside application deployments.</p> 
+<p><br /> To learn more, about AWS provider support for Terraform, visit <a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/arcregionswitch_plan">Terraform provider documentation</a>. To learn about post-recovery workflows in action, read the <a href="https://docs.aws.amazon.com/r53recovery/latest/dg/tutorial-post-recovery.html">post-recovery workflow tutorial</a>. To get started with Region switch, read our <a href="https://aws.amazon.com/blogs/aws/introducing-amazon-application-recovery-controller-region-switch-a-multi-region-application-recovery-service/">launch blog</a> or <a href="https://docs.aws.amazon.com/r53recovery/latest/dg/region-switch.html">documentation</a>.</p></p>
+
+<hr>
+
+<h3>AWS Network Firewall now supports firewall state change notifications through Amazon EventBridge</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/firewall-state-change-notifications/">https://aws.amazon.com/about-aws/whats-new/2026/02/firewall-state-change-notifications/</a></li>
+<li><strong>Published</strong>: 2026-02-27</li>
+</ul>
+
+<p><p>AWS Network Firewall now integrates with Amazon EventBridge to provide real-time notifications for firewall state changes and configuration updates. This new capability enables you to monitor critical firewall operations including firewall configuration updates and endpoint status modifications across your network security infrastructure. You gain immediate visibility into changes affecting AWS Managed Rules, Partner Managed Rules, and firewall configurations.<br /> <br /> With EventBridge integration, you gain enhanced visibility into your firewall operations in real-time. You can build automated workflows to send notifications through Amazon SNS, create tickets in your IT service management (ITSM) systems, or integrate with third-party security information and event management (SIEM) solutions. This integration helps you maintain better operational awareness of your network security infrastructure and respond quickly to configuration changes or potential issues.<br /> <br /> AWS Network Firewall state change notifications through Amazon EventBridge are available in all AWS Regions where AWS Network Firewall and Amazon EventBridge is currently available.<br /> <br /> To learn more about AWS Network Firewall EventBridge integration, visit the <a href="https://docs.aws.amazon.com/network-firewall/" target="_blank">AWS Network Firewall documentation</a>. For information about Amazon EventBridge, see the <a href="https://docs.aws.amazon.com/eventbridge/latest/ref/events-ref-network-firewall.html" target="_blank">Amazon EventBridge documentation</a>.</p></p>
+
+<hr>
+
+<h3>Oracle Database@AWS is now available in the Dublin AWS Region</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/oracle-database-aws-available-dublin-aws-region/">https://aws.amazon.com/about-aws/whats-new/2026/02/oracle-database-aws-available-dublin-aws-region/</a></li>
+<li><strong>Published</strong>: 2026-02-27</li>
+</ul>
+
+<p><p>Oracle Database@AWS is now available in EU-West-1 (Dublin), starting with one Availability Zone (AZ). Oracle Database@AWS enables customers to access database services on Oracle Cloud Infrastructure (OCI) managed Oracle Exadata systems within AWS data centers. As a result, customers can easily migrate their on-premises Oracle Exadata and Oracle Real Application Clusters (RAC) applications to a like-for-like environment on AWS, and also benefit from integrations with AWS services such as AWS Key Management Service (KMS) for data encryption and AWS CloudWatch for monitoring. With expansion to the Dublin region, customers with data residency requirements in that region can migrate their on-premises Oracle Exadata and RAC applications to AWS.<br /> <br /> With this expansion, Oracle Database@AWS services are now available in eight Regions: US-East-1 (N. Virginia), US-West-2 (Oregon), US-East-2 (Ohio), CA-Central-1 (Canada Central), EU-Central-1 (Frankfurt), EU-West-1 (Dublin), AP-Northeast-1 (Tokyo), and AP-Southeast-2 (Sydney). To use Oracle Database@AWS services, request a <a href="https://aws.amazon.com/marketplace/pp/prodview-qks5dl3hr7nfw?sr=0-1&amp;ref_=beagle&amp;applicationId=AWSMPContessa" target="_blank"><u>private offer from Oracle through the AWS Marketplace</u></a>, and use AWS Management Console to setup and use your databases.<br /> <br /> To learn more, visit Oracle Database@AWS <a href="https://aws.amazon.com/marketplace/featured-seller/oracle" target="_blank">overview </a>and <a href="https://docs.aws.amazon.com/odb/latest/UserGuide/getting-started.html" target="_blank"><u>documentation</u></a>.</p></p>
+
+<hr>
+
 
         </main>
         <footer>
