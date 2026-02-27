@@ -43,6 +43,20 @@
 
 <hr>
 
+<h3>Amazon CloudWatch logs centralization rules now support customizable destination log group structure</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/cloudwatch-centralization-custom-groups/">https://aws.amazon.com/about-aws/whats-new/2026/02/cloudwatch-centralization-custom-groups/</a></li>
+<li><strong>Published</strong>: 2026-02-27</li>
+</ul>
+
+<p><p>Amazon CloudWatch now supports customizing destination log group names when creating CloudWatch log centralization rules. Organizations managing logs across multiple accounts can now use attributes to organize centralized logs into meaningful hierarchies — by account ID, region, organizational unit, or other AWS Organizations metadata — that match how their organization operates and what their compliance requirements demand.</p> 
+<p>You can define a destination log group name structure using attributes that CloudWatch Logs automatically replaces with actual values when logs are copied. For example, using the pattern ${source.accountId}/${source.region}/${source.logGroup} creates destination log groups like 123456789012/us-east-1/cloudtrail/managementevent, making it easy to identify which account and region logs originated from. You can use attributes, including source account ID, region, log group name, organization ID, organizational unit ID, root ID, and the full organizational path.</p> 
+<p>Customizable destination log group names are available in all <a href="https://builder.aws.com/build/capabilities/explore" target="_blank">centralization rules supported regions</a>.</p> 
+<p>Customers can use centralization rules to centralize one copy of logs for free (ingestion). Additional copies are charged at $0.05/GB of logs centralized (the backup region feature is considered an additional copy). Storage charges apply. To learn more, visit the <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatchLogs_Centralization.html" target="_blank">CloudWatch Logs Centralization documentation</a>.</p></p>
+
+<hr>
+
 
         </main>
         <footer>
