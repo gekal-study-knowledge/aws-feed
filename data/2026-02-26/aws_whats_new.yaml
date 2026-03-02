@@ -338,4 +338,37 @@ entries:
       \ To learn more about enabling Concurrent Agreements as a seller of SaaS products,\
       \ review the <a href=\"https://catalog.workshops.aws/mpseller/en-US/saas/integration-for-concurrent-agreements\"\
       >Concurrent Agreements integration lab</a>.</p>"
-last_updated: '2026-02-27T20:24:01.245600'
+  408856bb0f428901e521d3fead128caa:
+    id: 408856bb0f428901e521d3fead128caa
+    title: Application Performance Monitoring Enabled by Default in CloudWatch Observability
+      EKS Add-on
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/application-performance-monitoring-cloudwatch-eks/
+    published: '2026-02-26'
+    summary: "<p>Today, Amazon CloudWatch Observability EKS add-on version 5.0.0 automatically\
+      \ enables CloudWatch Application Signals — Amazon's application performance\
+      \ monitoring (APM) capability — for all new installations and upgrades, eliminating\
+      \ the previous manual opt-in step. Amazon Elastic Kubernetes Service (EKS) is\
+      \ a managed Kubernetes service that simplifies running containerized applications\
+      \ at scale. The CloudWatch Observability add-on for EKS extends native Kubernetes\
+      \ observability by integrating Enhanced Container Insights, Container Logs,\
+      \ and now Application Signals directly into your clusters. The Observability\
+      \ add-on automatically instruments your services to collect traces, metrics,\
+      \ and logs for a unified, application-centric view. For DevOps engineers, platform\
+      \ teams, and developers who needed application-level visibility into their EKS-hosted\
+      \ services — such as service latency, error rates, and request traces — this\
+      \ change closes that gap by making those capabilities available out of the box,\
+      \ so teams can focus on building and operating applications rather than configuring\
+      \ observability tooling.azon EKS.</p> \n<p>With Application Signals now enabled\
+      \ by default, customers immediately benefit from automatic service instrumentation\
+      \ — no manual configuration or Kubernetes workload annotations required — along\
+      \ with pre-built dashboards that surface application performance metrics and\
+      \ a rich troubleshooting experience that goes beyond infrastructure-level data\
+      \ to help teams quickly identify and resolve issues. For example, a platform\
+      \ team managing a microservices application on EKS can now detect latency spikes\
+      \ or error rate increases at the service level without any additional setup,\
+      \ accelerating root cause analysis during incidents.</p> \n<p>This feature is\
+      \ available in all commercial AWS regions where Amazon CloudWatch Application\
+      \ Signals is available; to get started, you can refer to the <a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Observability-EKS-addon.html#Container-Insights-setup-EKS-appsignalsconfiguration\"\
+      >Amazon CloudWatch Application Signals documentation</a> and upgrade to version\
+      \ 5.0.0 of the add-on.</p>"
+last_updated: '2026-03-02T22:23:46.238206'

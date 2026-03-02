@@ -36,4 +36,22 @@ entries:
       \ \n  </tr>\n  <tr>\n   <td height=\"21\">AWS::DataBrew::Ruleset</td> \n   <td>AWS::Scheduler::ScheduleGroup</td>\
       \ \n  </tr>\n  <tr>\n   <td height=\"21\">AWS::DataBrew::Schedule</td> \n  \
       \ <td>AWS::VerifiedPermissions::IdentitySource</td> \n  </tr>\n </tbody>\n</table>"
-last_updated: '2026-03-02T20:33:42.590443'
+  66ce24bf2efec38bb7dbff6e083880e5:
+    id: 66ce24bf2efec38bb7dbff6e083880e5
+    title: AWS Batch now supports configurable scale down delay
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-batch-configurable-scale-down-delay/
+    published: '2026-03-02'
+    summary: <p>AWS Batch now allows you to configure a scale down delay for managed
+      compute environments, helping reduce job processing delays for intermittent
+      and periodic workloads. With the new <i>minScaleDownDelayMinutes</i> parameter,
+      you can specify how long AWS Batch keeps instances running after their jobs
+      complete (from 20 minutes to 1 week), preventing unnecessary instance terminations
+      and relaunches that can delay subsequent job processing.<br /> <br /> You can
+      configure the scale down delay when creating or updating a compute environment
+      via the AWS Batch API (<i>CreateComputeEnvironment</i> or <i>UpdateComputeEnvironment</i>)
+      or the AWS Batch Management Console. The delay is applied at the instance level,
+      based on when each instance last completed a job.<br /> <br /> Scale down delay
+      is supported today in all <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
+      Regions</a> where AWS Batch is available. For more information, see the <a href="https://docs.aws.amazon.com/batch/latest/APIReference/API_ComputeScalingPolicy.html#Batch-Type-ComputeScalingPolicy-minScaleDownDelayMinutes">AWS
+      Batch API Guide</a>.</p>
+last_updated: '2026-03-02T22:23:46.215884'
