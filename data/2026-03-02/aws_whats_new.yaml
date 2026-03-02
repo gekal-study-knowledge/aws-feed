@@ -1,0 +1,39 @@
+entries:
+  b8de2ef28f1e3779aa8472eca69f3d67:
+    id: b8de2ef28f1e3779aa8472eca69f3d67
+    title: AWS Config now supports 30 new resource types
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-config-new-resource-types/
+    published: '2026-03-02'
+    summary: "<p>AWS Config now supports 30 additional AWS resource types across key\
+      \ services including Amazon Bedrock AgentCore and Amazon Cognito. This expansion\
+      \ provides greater coverage over your AWS environment, enabling you to more\
+      \ effectively discover, assess, audit, and remediate an even broader range of\
+      \ resources.<br /> <br /> With this launch, if you have enabled recording for\
+      \ all resource types, then AWS Config will automatically track these new additions.\
+      \ The newly supported resource types are also available in Config rules and\
+      \ Config aggregators.<br /> <br /> You can now use AWS Config to monitor the\
+      \ following newly supported resource types in all <a href=\"https://docs.aws.amazon.com/config/latest/developerguide/what-is-resource-config-coverage.html\"\
+      \ target=\"_blank\">AWS Regions</a>&nbsp;where the supported resources are available:<br\
+      \ /> <br /> Resource Types:</p> \n<table border=\"0\" cellpadding=\"0\" cellspacing=\"\
+      0\" width=\"643\"> \n <tbody>\n  <tr>\n   <td height=\"21\" width=\"355\">AWS::AppSync::DataSource</td>\
+      \ \n   <td width=\"288\">AWS::Deadline::LicenseEndpoint</td> \n  </tr>\n  <tr>\n\
+      \   <td height=\"21\">AWS::Batch::ConsumableResource</td> \n   <td>AWS::Deadline::QueueEnvironment</td>\
+      \ \n  </tr>\n  <tr>\n   <td height=\"21\">AWS::Bedrock::DataSource</td> \n \
+      \  <td>AWS::Detective::OrganizationAdmin</td> \n  </tr>\n  <tr>\n   <td height=\"\
+      21\">AWS::BedrockAgentCore::Gateway</td> \n   <td>AWS::GameLift::ContainerFleet</td>\
+      \ \n  </tr>\n  <tr>\n   <td height=\"21\">AWS::BedrockAgentCore::Memory</td>\
+      \ \n   <td>AWS::GameLift::ContainerGroupDefinition</td> \n  </tr>\n  <tr>\n\
+      \   <td height=\"21\">AWS::Cognito::IdentityPoolRoleAttachment</td> \n   <td>AWS::GameLift::GameServerGroup</td>\
+      \ \n  </tr>\n  <tr>\n   <td height=\"21\">AWS::Cognito::LogDeliveryConfiguration</td>\
+      \ \n   <td>AWS::GameLift::Location</td> \n  </tr>\n  <tr>\n   <td height=\"\
+      21\">AWS::Cognito::UserPoolUICustomizationAttachment</td> \n   <td>AWS::IoT::TopicRule</td>\
+      \ \n  </tr>\n  <tr>\n   <td height=\"21\">AWS::Connect::RoutingProfile</td>\
+      \ \n   <td>AWS::Omics::ReferenceStore</td> \n  </tr>\n  <tr>\n   <td height=\"\
+      21\">AWS::DataBrew::Dataset</td> \n   <td>AWS::PCAConnectorAD::Template</td>\
+      \ \n  </tr>\n  <tr>\n   <td height=\"21\">AWS::DataBrew::Job</td> \n   <td>AWS::PCAConnectorSCEP::Challenge</td>\
+      \ \n  </tr>\n  <tr>\n   <td height=\"21\">AWS::DataBrew::Project</td> \n   <td>AWS::ResourceExplorer2::View</td>\
+      \ \n  </tr>\n  <tr>\n   <td height=\"21\">AWS::DataBrew::Recipe</td> \n   <td>AWS::ResourceGroups::Group</td>\
+      \ \n  </tr>\n  <tr>\n   <td height=\"21\">AWS::DataBrew::Ruleset</td> \n   <td>AWS::Scheduler::ScheduleGroup</td>\
+      \ \n  </tr>\n  <tr>\n   <td height=\"21\">AWS::DataBrew::Schedule</td> \n  \
+      \ <td>AWS::VerifiedPermissions::IdentitySource</td> \n  </tr>\n </tbody>\n</table>"
+last_updated: '2026-03-02T20:33:42.590443'
