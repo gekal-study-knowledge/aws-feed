@@ -1,0 +1,25 @@
+entries:
+  c482651293813b72d53fd71745f8962d:
+    id: c482651293813b72d53fd71745f8962d
+    title: AWS announces pricing for VPC Encryption Controls
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/vpc-encryption-controls-pricing/
+    published: '2026-03-01'
+    summary: '<p>AWS is launching pricing for VPC Encryption Controls, a security
+      and compliance feature that enables you to audit and enforce encryption-in-transit
+      of all traffic flows within and across Virtual Private Clouds (VPCs) in a region.
+      VPC Encryption controls can be enabled in two modes: Monitor mode detects presence
+      of any unencrypted traffic within your VPCs, and Enforce Mode ensures all data-in-transit
+      is encrypted and prevents the bring up of any resources that allow unencrypted
+      traffic within your VPC.&nbsp;<br /> <br /> Starting March 1, 2026, VPC Encryption
+      Controls will transition from a free preview to a paid feature. You will be
+      charged a fixed hourly rate for every non-empty VPC (VPC that has network interfaces
+      in them) that has Encryption Controls enabled in either monitor or enforce mode.
+      There will be no charge for empty VPCs that have encryption controls enabled.
+      When you enable encryption support on a Transit Gateway, standard VPC Encryption
+      Controls charges apply to all VPCs attached to that Transit Gateway irrespective
+      of their encryption controls mode (monitor, enforce or off) even if they are
+      empty.&nbsp;<br /> <br /> To learn more about VPC Encryption Controls and view
+      detailed regional pricing, visit the&nbsp;<a href="https://docs.aws.amazon.com/vpc/latest/userguide/vpc-encryption-controls.html">VPC
+      Encryption Controls documentation</a>&nbsp;and&nbsp;<a href="https://aws.amazon.com/vpc/pricing/">VPC
+      pricing page</a>.</p>'
+last_updated: '2026-03-02T07:47:09.975456'
