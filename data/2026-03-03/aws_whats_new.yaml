@@ -24,4 +24,35 @@ entries:
       \ href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/policy.html\"\
       >documentation</a>, and get started with the&nbsp;<a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-get-started-toolkit.html\"\
       >AgentCore Starter Toolkit</a>.</p>"
-last_updated: '2026-03-03T21:30:14.389126'
+  8916b5b1fdae1102f0bca9dc8f13a006:
+    id: 8916b5b1fdae1102f0bca9dc8f13a006
+    title: Amazon SageMaker Unified Studio launches support for remote connection
+      from Kiro IDE
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-kiro-ide/
+    published: '2026-03-03'
+    summary: "<p>Today, AWS announces the ability to remotely connect from Kiro IDE\
+      \ to Amazon SageMaker Unified Studio. This new capability allows data scientists,\
+      \ ML engineers, and developers to leverage their Kiro setup - including its\
+      \ spec-driven development, conversational coding, and automated feature generation\
+      \ capabilities - while accessing the scalable compute resources of Amazon SageMaker.\
+      \ By connecting Kiro to SageMaker Unified Studio using the AWS toolkit extension,\
+      \ you can eliminate context switching between your local IDE and cloud infrastructure,\
+      \ maintaining your existing agentic development workflows within a single environment\
+      \ for all your AWS analytics and AI/ML services.</p> \n<p><a href=\"https://aws.amazon.com/sagemaker/unified-studio/\"\
+      >SageMaker Unified Studio</a>, part of the next generation of Amazon SageMaker,\
+      \ offers a broad set of fully managed cloud interactive development environments\
+      \ (IDE), including JupyterLab and Code Editor based on Code-OSS (Open-Source\
+      \ Software). Starting today, you can also use your customized local Kiro setup\
+      \ - complete with specs, steering files, and hooks - while accessing your compute\
+      \ resources and data on Amazon SageMaker. Since Kiro is built on Code-OSS, authentication\
+      \ is secure via IAM through the AWS Toolkit extension, giving you access to\
+      \ all your SageMaker Unified Studio domains and projects. This integration provides\
+      \ a convenient path from your local AI-powered development environment to scalable\
+      \ infrastructure for running workloads across data processing, SQL analytics\
+      \ services like Amazon EMR, AWS Glue, and Amazon Athena, and ML workflows -\
+      \ all with enterprise-grade security including customer-managed encryption keys\
+      \ and AWS IAM integration.</p> \n<p>This feature is available in all Regions\
+      \ where Amazon SageMaker Unified Studio is available. To learn more, refer to\
+      \ the <a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/local-ide-support.html\"\
+      >SageMaker user guide.</a></p>"
+last_updated: '2026-03-03T22:25:25.445922'
