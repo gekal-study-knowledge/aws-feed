@@ -291,4 +291,25 @@ entries:
       To get started, see <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/batch-inference-create.html">Create
       a batch inference job</a> and <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/batch-inference-data.html">Format
       and upload your batch inference data</a> in the Amazon Bedrock User Guide.</p>
-last_updated: '2026-02-28T01:39:48.687557'
+  a8d657681d3cf2394b364ca51d73391b:
+    id: a8d657681d3cf2394b364ca51d73391b
+    title: AWS IAM Identity Center now supports IPv6 dual-stack endpoints in AWS Asia
+      Pacific (Taipei) and AWS GovCloud (US) Regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-ipv6-asia-pacific-govcloud/
+    published: '2026-02-27'
+    summary: "<p>AWS IAM Identity Center now supports Internet Protocol version 6\
+      \ (IPv6) via dual-stack endpoints in the AWS Asia Pacific (Taipei) and AWS GovCloud\
+      \ (US) Regions, completing global availability of this feature across all AWS\
+      \ Regions where IAM Identity Center is available.</p> \n<p>IAM Identity Center\
+      \ allows customers to enable workforce access to AWS managed applications and\
+      \ AWS accounts. When your client, such as a browser or an application, makes\
+      \ a request to a dual-stack endpoint, the endpoint resolves to an IPv4 or IPv6\
+      \ address, depending on the protocol used by your network and client.</p> \n\
+      <p>To get started, locate the dual-stack access portal URL in the IAM Identity\
+      \ Center console under Settings, and share it with your workforce. For GovCloud\
+      \ deployments, refer to the AWS GovCloud (US) documentation for region-specific\
+      \ endpoint details. To learn more about IPv6 support in IAM Identity Center,\
+      \ see the <a href=\"https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html\"\
+      \ title=\"IAM Identity Center User Guide\">IAM Identity Center User Guide</a>.</p>\
+      \ \n<p>&nbsp;</p>"
+last_updated: '2026-03-03T18:42:12.310000'
