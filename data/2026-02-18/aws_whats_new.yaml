@@ -166,4 +166,26 @@ entries:
       $79/ wildcard name (down from $149). Please refer to ACM’s pricing page for
       more details. For more information about ACM, visit the <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-certificate-characteristics.html">ACM
       documentation</a>.</p>
-last_updated: '2026-02-19T17:46:59.439906'
+  59e69c5ac14acff2dfa8b1e37c733a47:
+    id: 59e69c5ac14acff2dfa8b1e37c733a47
+    title: Mistral AI Devstral 2 now available on Amazon Bedrock
+    link: https://aws.amazon.com/about-aws/whats-new/2026/02/mistral-ai-devstral-bedrock/
+    published: '2026-02-18'
+    summary: "<p>Customers can now use Mistral AI Devstral 2 123B on Amazon Bedrock,\
+      \ a platform for building generative AI applications and agents at production\
+      \ scale.</p> \n<p>Devstral 2 123B is a state-of-the-art, open-weight large language\
+      \ model purpose-built for agentic software engineering workflows. With 123B\
+      \ parameters and deep specialization in code generation, automation, and multi-step\
+      \ reasoning, Devstral 2 is designed for developers building AI-powered engineering\
+      \ agents that can plan, write, and iterate on code at scale. Amazon Bedrock\
+      \ gives customers access to Devstral 2 123B through a single, fully managed\
+      \ API — no infrastructure to provision, no models to host. The model is well-suited\
+      \ for production-grade coding assistants, automated code review pipelines, and\
+      \ complex software development agents requiring long-context comprehension and\
+      \ reliable multi-turn reasoning.</p> \n<p>Devstral 2 123B is now available in\
+      \ Amazon Bedrock across select AWS Regions. For the full list of available AWS\
+      \ Regions, refer to the <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html\"\
+      \ target=\"_blank\">documentation</a>.</p> \n<p>To get started with Devstral\
+      \ 2 123B in Amazon Bedrock, visit the <a href=\"https://aws.amazon.com/bedrock/mistral/\"\
+      \ target=\"_blank\">Amazon Bedrock Mistral AI page</a>.</p>"
+last_updated: '2026-03-04T23:26:41.418177'
