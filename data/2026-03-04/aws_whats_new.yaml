@@ -109,4 +109,28 @@ entries:
       console or using the AWS CLI and point their OpenTelemetry clients to the new
       unified endpoint.<br /> <br /> To learn more and get started, visit the <a href="https://docs.aws.amazon.com/opensearch-service/latest/developerguide/configure-client-otel.html"
       target="_blank">Amazon OpenSearch Ingestion documentation</a>.</p>
-last_updated: '2026-03-04T21:30:34.449833'
+  2b1403ac41f9f89b2337114f03f22056:
+    id: 2b1403ac41f9f89b2337114f03f22056
+    title: AWS simplifies IAM role creation and setup in service workflows
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-simplifies-iam-role-creation-and-setup/
+    published: '2026-03-04'
+    summary: <p><a href="https://aws.amazon.com/iam/">AWS Identity and Access Management
+      (IAM)</a> now makes it easier to create and configure IAM roles directly within
+      service workflows, allowing you to customize role permissions without switching
+      between browser tabs. Now, when you are performing console tasks that involve
+      role configuration, a new panel will appear to set the permissions required.<br
+      /> <br /> IAM roles enable secure AWS cross-service connections using temporary
+      credentials, eliminating the need for hardcoded access keys. This launch integrates
+      role creation capabilities with custom permissions directly into service workflows,
+      allowing you to configure roles and permissions without navigating to the IAM
+      console. You can use default policies or the simplified statement builder to
+      customize your permissions, streamlining your resource setup while maintaining
+      the full functionality of IAM role management.<br /> <br /> This feature is
+      available when working with Amazon EC2, AWS Lambda, Amazon EKS, Amazon ECS,
+      AWS Glue, AWS CloudFormation, AWS Database Migration Service, AWS Systems Manager,
+      AWS Secrets Manager, Amazon Relational Database Service, and AWS IoT Core in
+      the US East (N. Virginia) Region. The feature will gradually become available
+      across additional AWS services and regions.<br /> <br /> To learn more, refer
+      to individual service User Guide or <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html">IAM
+      documentation</a>.</p>
+last_updated: '2026-03-04T22:27:27.674544'
