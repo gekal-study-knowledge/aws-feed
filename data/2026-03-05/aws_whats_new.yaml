@@ -1,0 +1,27 @@
+entries:
+  210bef963a885016fefe0ecf0066c01c:
+    id: 210bef963a885016fefe0ecf0066c01c
+    title: Accelerate Lambda durable functions development with new Kiro power
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-durable-kiro-power/
+    published: '2026-03-05'
+    summary: "<p>Today, AWS announces the Lambda durable functions Kiro power, bringing\
+      \ Lambda durable function development expertise to agentic AI development in\
+      \ Kiro. With this power, you can build resilient, long-running multi-step applications\
+      \ and AI workflows faster with AI agent-assisted development directly in your\
+      \ local development environment.</p> \n<p>When you work with durable functions,\
+      \ the AI agent dynamically loads relevant guidance and development expertise.\
+      \ This includes replay model best practices, step and wait operations, concurrent\
+      \ execution with map and parallel patterns, error handling with retry strategies\
+      \ and compensating transactions, testing patterns, and deployment with AWS CloudFormation,\
+      \ AWS Cloud Development Kit (AWS CDK), and AWS Serverless Application Model\
+      \ (AWS SAM). With this guidance, you can go from idea to a working durable function\
+      \ quickly, whether you are building order processing pipelines, AI agent orchestration\
+      \ with human-in-the-loop approvals, or payment coordination workflows.</p> \n\
+      <p>The Lambda durable functions power is available today with one-click installation\
+      \ from the <a href=\"https://kiro.dev/launch/powers/aws-lambda-durable-functions/\"\
+      \ target=\"_blank\">Kiro IDE</a> and the <a href=\"https://kiro.dev/powers/\"\
+      \ target=\"_blank\">Kiro powers page</a>. Explore the <a href=\"https://github.com/aws/aws-durable-execution-docs/tree/main/aws-lambda-durable-functions-power\"\
+      \ target=\"_blank\">power on GitHub</a>. To get started with Lambda durable\
+      \ functions, see the <a href=\"https://docs.aws.amazon.com/lambda/latest/dg/durable-functions.html\"\
+      \ target=\"_blank\">developer guide</a>.</p>"
+last_updated: '2026-03-05T18:00:19.942671'

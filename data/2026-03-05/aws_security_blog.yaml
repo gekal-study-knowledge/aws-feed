@@ -10,4 +10,15 @@ entries:
       27701:2019, 20000-1:2018, 22301:2019, and Cloud Security Alliance (CSA) STAR
       Cloud Controls Matrix (CCM) v4.0. The objective of the audit was to enable AWS
       to expand their ISO and CSA STAR certifications to include one new AWS […]
-last_updated: '2026-03-05T01:50:36.376784'
+  543db52de5d04ebb3494ec3b9d7b0a6a:
+    id: 543db52de5d04ebb3494ec3b9d7b0a6a
+    title: AWS completes the 2026 annual Dubai Electronic Security Centre (DESC) certification
+      audit
+    link: https://aws.amazon.com/blogs/security/aws-completes-the-2026-annual-dubai-electronic-security-centre-desc-certification-audit/
+    published: '2026-03-05'
+    summary: We’re excited to announce that Amazon Web Services (AWS) has completed
+      the annual Dubai Electronic Security Centre (DESC) certification audit to operate
+      as a Tier 1 Cloud Service Provider (CSP) for the AWS Middle East (UAE) Region.
+      This alignment with DESC requirements demonstrates our continued commitment
+      to adhere to the heightened expectations for CSPs. Government […]
+last_updated: '2026-03-05T18:00:20.487392'
