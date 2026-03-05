@@ -203,4 +203,31 @@ entries:
       based on a combination of the misconfiguration identified and the network topology
       of the resource the finding is associated with.<br /> <br /> To learn more,
       visit the <a href="https://aws.amazon.com/shield/"><u>overview</u></a> page.</p>
-last_updated: '2026-03-05T20:33:46.014215'
+  87889699d53dd20676480dfbcea58d36:
+    id: 87889699d53dd20676480dfbcea58d36
+    title: Database Savings Plans now supports Amazon OpenSearch Service and Amazon
+      Neptune Analytics
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/dbsp-opensearch-service-neptune-analytics/
+    published: '2026-03-05'
+    summary: <p>Today, AWS announces expanded coverage for Database Savings Plans,
+      with support for<a href="https://aws.amazon.com/opensearch-service/"> Amazon
+      OpenSearch Service</a> and <a href="https://aws.amazon.com/neptune/">Amazon
+      Neptune Analytics</a>.<br /> <br /> With Database Savings Plans, you can save
+      up to 35% in exchange for a commitment to a consistent amount of usage (measured
+      in $/hour) over a one-year term with no upfront payment. Database Savings Plans
+      automatically applies to eligible serverless and provisioned instance usage
+      regardless of supported engine, instance family, size, deployment option, or
+      AWS Region. For example, with Database Savings Plans, you can change from&nbsp;m7i.large.search
+      to c8g.2xlarge.search within OpenSearch Service, or scale Neptune Analytics
+      workloads while continuing to benefit from the discounted pricing.<br /> <br
+      /> Database Savings Plans for Amazon OpenSearch Service and Amazon Neptune Analytics
+      is available starting today in all AWS Regions, except China Regions.<br />
+      <br /> You can get started with Database Savings Plans from the AWS Billing
+      and Cost Management Console or by using the AWS CLI. To realize the largest
+      savings, you can make a commitment to Savings Plans by using purchase recommendations
+      provided in the console. For a more customized analysis, you can use the Savings
+      Plans Purchase Analyzer to estimate potential cost savings for custom purchase
+      scenarios. For more information, visit the <a href="https://aws.amazon.com/savingsplans/database-pricing/">Database
+      Savings Plans pricing page</a> and the <a href="https://aws.amazon.com/savingsplans/faqs/#database-savings-plans">AWS
+      Savings Plans FAQs</a>.</p>
+last_updated: '2026-03-05T21:30:41.908245'

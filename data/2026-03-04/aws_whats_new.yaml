@@ -160,4 +160,33 @@ entries:
       \ available in all AWS Regions where SageMaker&nbsp;HyperPod&nbsp;RIG is supported.\
       \ To learn more, visit the&nbsp;<a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-hyperpod-observability-addon.html\"\
       \ target=\"_blank\">documentation</a>.</p>"
-last_updated: '2026-03-05T01:50:35.844461'
+  c439d30b3bd3a04a22ffa584742b3d21:
+    id: c439d30b3bd3a04a22ffa584742b3d21
+    title: Amazon EC2 M8g instances now available in additional regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8g-instances-africa-cape-town-asia-pacific-malaysia-europe-milan-zurich-canada-west-calgary-regions
+    published: '2026-03-04'
+    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances
+      are available in Africa (Cape Town), Asia Pacific (Malaysia), Europe (Milan,
+      Zurich), and Canada West (Calgary) regions. These instances are powered by AWS
+      Graviton4 processors and deliver up to 30% better performance compared to AWS
+      Graviton3-based instances. Amazon EC2 M8g instances are built for general-purpose
+      workloads, such as application servers, microservices, gaming servers, midsize
+      data stores, and caching fleets. These instances are built on the <a href="https://aws.amazon.com/ec2/nitro/"
+      target="_blank">AWS Nitro System</a>, which offloads CPU virtualization, storage,
+      and networking functions to dedicated hardware and software to enhance the performance
+      and security of your workloads.<br /> <br /> AWS Graviton4-based Amazon EC2
+      instances deliver the best performance and energy efficiency for a broad range
+      of workloads running on Amazon EC2. These instances offer larger instance sizes
+      with up to 3x more vCPUs and memory compared to Graviton3-based Amazon M7g instances.
+      AWS Graviton4 processors are up to 40% faster for databases, 30% faster for
+      web applications, and 45% faster for large Java applications than AWS Graviton3
+      processors. M8g instances are available in 12 different instance sizes, including
+      two bare metal sizes. They offer up to 50 Gbps enhanced networking bandwidth
+      and up to 40 Gbps of bandwidth to the Amazon Elastic Block Store (Amazon EBS).<br
+      /> <br /> To learn more, see <a href="https://aws.amazon.com/ec2/instance-types/m8g/"
+      target="_blank">Amazon EC2 M8g Instances</a>. To explore how to migrate your
+      workloads to Graviton-based instances, see <a href="https://aws.amazon.com/ec2/graviton/fast-start/"
+      target="_blank">AWS Graviton Fast Start program</a> and <a href="https://github.com/aws/porting-advisor-for-graviton"
+      target="_blank">Porting Advisor for Graviton</a>. To get started, see the <a
+      href="https://console.aws.amazon.com/" target="_blank">AWS Management Console</a>.&nbsp;</p>
+last_updated: '2026-03-05T21:30:41.930229'
