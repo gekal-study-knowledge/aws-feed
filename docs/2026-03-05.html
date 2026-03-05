@@ -30,6 +30,58 @@
 
 <hr>
 
+<h3>Amazon OpenSearch Service introduces capacity optimized blue/green deployments</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-bg/">https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-bg/</a></li>
+<li><strong>Published</strong>: 2026-03-05</li>
+</ul>
+
+<p><p><a href="https://aws.amazon.com/opensearch-service/">Amazon OpenSearch Service</a> now offers a Capacity Optimized option for blue/green deployments, ensuring domain updates can complete even when available instance capacity is less than required. Updates are performed in incremental batches, reducing the number of additional instances needed during the process.<br /> <br /> Amazon OpenSearch Service uses a blue/green deployment process when updating domains — creating an idle copy of the original environment, applying updates, and routing traffic to the new environment once complete. This minimizes downtime and preserves the original environment as a fallback. Until now, blue/green deployments required 100% instance capacity upfront. For example, for a cluster with 100 data nodes, another 100 nodes were needed to proceed. If sufficient capacity was unavailable, customers had to wait and retry later.<br /> <br /> Now, customers can choose between two deployment strategies. The default Full Swap option maintains current behavior, requiring full capacity upfront for the fastest deployment. The new Capacity Optimized option attempts a full capacity deployment first, but automatically falls back to batch deployment if capacity is insufficient. OpenSearch Service determines the appropriate batch size based on cluster size and available instances. Because updates are applied in batches, this option may take longer than a full-swap deployment. Customers can select their preferred option in the deployment configuration settings via the OpenSearch Service console or API. We recommend choosing the Capacity Optimized deployment option for clusters with 30 or more nodes.<br /> <br /> The Capacity Optimized option is available for all OpenSearch and Elasticsearch versions, across all AWS Commercial Regions where OpenSearch Service is available. See <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">here</a> for a full listing of our Regions. To learn more, visit the <a href="https://docs.aws.amazon.com/opensearch-service/latest/developerguide/managedomains-configuration-changes.html">documentation page</a>.</p></p>
+
+<hr>
+
+<h3>Introducing Amazon Connect Health, Agentic AI Built for Healthcare</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-health-agentic-ai-healthcare/">https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-health-agentic-ai-healthcare/</a></li>
+<li><strong>Published</strong>: 2026-03-05</li>
+</ul>
+
+<p><p>Amazon Connect Health is now generally available, bringing purpose-built agentic AI to healthcare organizations to streamline patient engagement and point-of-care workflows. Amazon Connect Health delivers five AI agents designed to reduce administrative burden across the care continuum — enabling patients faster access to care and freeing clinicians from paperwork and administrative burden to focus on what matters most: their patients. These agents are ready to deploy within existing patient, clinician, and healthcare workflows — such as patient access centers (i.e., contact centers), Electronic Health Records (EHR) applications, and telehealth solutions — in days, not months. All the features follow responsible AI best practices, implement safety guardrails, are HIPAA-eligible, and deliver the same security and reliability standards as any AWS service.</p> 
+<p>Agents available at launch:</p> 
+<ul> 
+ <li><p>Patient verification (GA) – Confirms patient identity in real time against EHR records with appointment lookup, reducing inbound call-handling time.</p> </li> 
+</ul> 
+<ul> 
+ <li><p>Appointment management (Preview) – Books appointments via natural language voice interaction, 24/7, with real-time insurance eligibility checks, enabling after-hours scheduling, and relieving burden on human staff.&nbsp;</p> </li> 
+</ul> 
+<ul> 
+ <li><p>Patient insights (Preview) – Surfaces relevant patient history and clinical context before the visit, so clinicians walk in prepared. Reduces the time clinicians spend piecing together information before a patient’s visit.</p> </li> 
+</ul> 
+<ul> 
+ <li><p>Ambient documentation (GA) – Captures patient-clinician conversations during the visit and generates clinical notes in real time.</p> </li> 
+</ul> 
+<ul> 
+ <li><p>Medical coding (Preview) – Automatically generates ICD-10 and CPT codes from clinical notes post-visit, with full audit trails.</p> </li> 
+</ul> 
+<p>Amazon Connect Health patient engagement capabilities are natively integrated with <a href="https://aws.amazon.com/connect/">Amazon Connect</a>, a complete AI-powered contact center solution delivering personalized customer experiences at scale. Clinical and administrative staff can configure and customize these AI capabilities in minutes using the Amazon Connect Health application, enabling rapid testing and seamless deployment into contact center workflows. The point-of-care capabilities — ambient listening, patient insight, and medical coding — are available via Amazon Connect Health unified SDK (SDK documentation), enabling developers to integrate the features directly into existing EHR and clinician-facing applications.&nbsp;</p> 
+<p>&nbsp;</p> 
+<p>Amazon Connect Health is available in US East (N. Virginia) and US West (Oregon). To get started, visit the <a href="https://aws.amazon.com/health/connect-health/">Amazon Connect Health product page</a>. For technical details, see the <a href="https://aws.amazon.com/health/connect-health/">Amazon Connect Health documentation</a></p></p>
+
+<hr>
+
+<h3>AWS HealthLake announces data transformation agent for automated CCDA-to-FHIR data conversion (Preview)</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthlake-data-transformation-agent/">https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthlake-data-transformation-agent/</a></li>
+<li><strong>Published</strong>: 2026-03-05</li>
+</ul>
+
+<p><p>Starting today, healthcare organizations can now transform legacy clinical documents into queryable FHIR resources in AWS HealthLake in days instead of months, unlocking use cases such as longitudinal patient record generation, population health analytics, and clinical data exchange. AWS HealthLake data transformation agent (preview) is an AI-powered capability that converts Consolidated Clinical Document Architecture (CCDA) files into Fast Health Interoperability Resources Release 4 (FHIR R4)-compliant resources without requiring specialized FHIR expertise, through an integrated experience that combines real-time conversion testing, AI-assisted template customization, and scalable bulk import.<br /> <br /> The data transformation agent includes ready-to-use templates for CCDA 2.1 to FHIR R4 data conversion. Developers can submit individual CCDA files through a synchronous conversion API or console workflow and receive transformed FHIR Bundles in seconds. They can preview results, interactively validate conversion quality, and sign off on templates before production use. An enhanced import workflow automatically detects uploaded CCDA files, applies the active template, matches and reconciles patients based on identifiers, and ingests the resulting FHIR resources into the target AWS HealthLake datastore with detailed logs. All capabilities are available both on the AWS console and programmatically via API for seamless integration into existing workflows.<br /> <br /> When default templates need adjustment, the data transformation agent offers an AI-powered experience to customize them directly in the console. Users can describe changes such as "skip medications with status entered-in-error" or "map procedure dates to performedDateTime instead of performedPeriod" in natural language, and the AI agent modifies the underlying template automatically. Manual curation is also available for power users who wish to make targeted template edits. Users can then immediately test against sample files, iterate conversationally, and publish once satisfied.<br /> <br /> AWS HealthLake is available in the US East (N. Virginia), US East (Ohio), US West (Oregon), Asia Pacific (Mumbai), Europe West (London), Europe (Ireland), and Asia Pacific SouthEast (Sydney) Regions. Visit the <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS Region Table</a> to see all the regions.<br /> <br /> To learn more, see the <a href="https://aws.amazon.com/healthlake/">AWS HealthLake product page</a>.</p></p>
+
+<hr>
+
 <h2>AWS Security Blog</h2>
 
 <h3>2025 ISO and CSA STAR certificates are now available with one additional service and one new region</h3>
