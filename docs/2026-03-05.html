@@ -139,6 +139,18 @@
 
 <hr>
 
+<h3>Amazon Redshift Serverless now maintains datashare permissions during restore</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-serverless-maintains-datashare-permissions-on-restore/">https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-serverless-maintains-datashare-permissions-on-restore/</a></li>
+<li><strong>Published</strong>: 2026-03-05</li>
+</ul>
+
+<p><p>Amazon Redshift Serverless now preserves datashare permissions when you restore a snapshot to the same namespace, simplifying data sharing workflows and reducing administrative overhead. Previously, restoring a serverless namespace from a snapshot required administrators to manually re-grant datashare permissions to consumer clusters and recreate consumer databases, even when restoring to the same namespace.</p> 
+<p><br /> With this enhancement, datashare permissions are automatically maintained when you restore a snapshot to the same producer namespace, provided the datashare permission existed both when the snapshot was taken and on the current namespace. For consumer namespaces, datashare access remains unchanged after restore, eliminating the need for producer administrators to re-grant permissions. This streamlines disaster recovery and testing workflows by reducing manual configuration steps and potential errors. Amazon Redshift also provides EventBridge notifications to alert you when datashares are dropped, consumer access is revoked, or public accessibility changes during restore operations.<br /> <br /> This feature is available in all AWS Regions that support <a href="https://aws.amazon.com/redshift/">Amazon Redshift</a>. To learn more, see the <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html">Amazon Redshift Management Guide</a>.</p></p>
+
+<hr>
+
 <h2>AWS Security Blog</h2>
 
 <h3>2025 ISO and CSA STAR certificates are now available with one additional service and one new region</h3>
