@@ -285,4 +285,23 @@ entries:
       \ in all AWS Regions that support <a href=\"https://aws.amazon.com/redshift/\"\
       >Amazon Redshift</a>. To learn more, see the <a href=\"https://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html\"\
       >Amazon Redshift Management Guide</a>.</p>"
-last_updated: '2026-03-06T19:31:37.080327'
+  40bc12bea117e25670974ca9a66631ae:
+    id: 40bc12bea117e25670974ca9a66631ae
+    title: Amazon SageMaker Unified Studio adds light mode support for IAM-based domains
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-light-mode/
+    published: '2026-03-05'
+    summary: "<p>Today, AWS announces light mode support in <a href=\"https://aws.amazon.com/sagemaker/unified-studio/\"\
+      >Amazon SageMaker Unified Studio</a> for IAM-based domains. Customers can now\
+      \ configure the visual interface mode to match their preference, choosing between\
+      \ dark and light themes.</p> \n<p>Light mode helps improve readability in bright\
+      \ environments and provides a familiar visual experience for customers who prefer\
+      \ lighter interfaces. Combined with the existing dark mode, this update gives\
+      \ you full control over your development environment's appearance, improving\
+      \ accessibility and reducing eye strain across varying lighting conditions.\
+      \ In SageMaker Unified Studio settings, you can click on 'customize appearance'\
+      \ under your Profile settings to choose between visual modes including dark\
+      \ and light. The setting persists across browsers and devices.</p> \n<p>This\
+      \ feature is available in all regions where Amazon SageMaker Unified Studio\
+      \ is available. To learn more, refer to the <a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/navigating-sagemaker-unified-studio.html#display-mode\"\
+      >User Guide.</a></p>"
+last_updated: '2026-03-06T22:24:42.334680'
