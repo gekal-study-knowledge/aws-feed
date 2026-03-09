@@ -24,4 +24,75 @@ entries:
       Asia Pacific (Malaysia), Asia Pacific (Auckland), Asia Pacific (Taipei), and
       Mexico (Querétaro). For more information, visit the&nbsp; Amazon CloudWatch
       Logs <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html">documentation</a>.&nbsp;</p>
-last_updated: '2026-03-09T21:29:16.911508'
+  495d5a6232445971ac3ad169646e3dd1:
+    id: 495d5a6232445971ac3ad169646e3dd1
+    title: Amazon Cognito is now available in Asia Pacific (Taipei) and Asia Pacific
+      (New Zealand) Regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/cognito-taipei-and-new-zealand-regions/
+    published: '2026-03-09'
+    summary: "<p>Amazon Cognito is now available in the AWS Asia Pacific (Taipei)\
+      \ and Asia Pacific (New Zealand) Regions. This launch introduces all Amazon\
+      \ Cognito features and tiers, allowing customers to implement secure sign-in\
+      \ and access control for users, AI agents, and microservices in minutes.</p>\
+      \ \n<p>For a full list of regions where Amazon Cognito is available, refer to\
+      \ the&nbsp;<a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
+      >AWS Region Table</a>. To learn more about Amazon Cognito, refer to&nbsp;<a\
+      \ href=\"https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html\"\
+      >Developer Guide</a>,&nbsp;<a href=\"https://aws.amazon.com/cognito/\">Product\
+      \ Detail Page</a>, and&nbsp;<a href=\"https://aws.amazon.com/cognito/pricing/\"\
+      >Pricing Detail Page</a>.</p>"
+  ff58131a2c255a292b254dd9130b30a6:
+    id: ff58131a2c255a292b254dd9130b30a6
+    title: IAM Roles Anywhere now supports post-quantum digital certificates
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/iam-roles-anywhere-post-quantum-digital-certificates
+    published: '2026-03-09'
+    summary: <p><a href="https://aws.amazon.com/iam/roles-anywhere/">AWS Identity
+      and Access Management (IAM) Roles Anywhere</a> now supports the <a href="https://csrc.nist.gov/pubs/fips/204/final">FIPS
+      204 Module-Lattice Digital Signature Standard (ML-DSA)</a>, a quantum-resistant
+      digital signature algorithm standardized by the National Institute of Standards
+      and Technology (NIST) to help protect against threat actors in possession of
+      a large-scale quantum computer. ML-DSA is particularly valuable for IAM Roles
+      Anywhere customers who authenticate workloads to AWS using X.509 certificates
+      issued by certificate authorities, where a weakened signature algorithm could
+      allow an unintended user to issue certificates and obtain unauthorized access.<br
+      /> <br /> IAM Roles Anywhere enables workloads running outside of AWS to obtain
+      temporary AWS credentials using X.509 certificates to access AWS resources.
+      You establish trust between your AWS environment and your public key infrastructure
+      (PKI) by creating a trust anchor, either by referencing your <a href="https://aws.amazon.com/private-ca/">AWS
+      Private Certificate Authority</a> or registering your own certificate authorities
+      (CAs) with IAM Roles Anywhere. You can now use ML-DSA-signed CA certificates
+      as IAM Roles Anywhere trust anchors, and issue end entity certificates bound
+      to ML-DSA keys.<br /> <br /> This feature is available in all <a href="https://docs.aws.amazon.com/general/latest/gr/rolesanywhere.html">AWS
+      Regions</a> where IAM Roles Anywhere is available, including the AWS GovCloud
+      (US) Regions, AWS European Sovereign Cloud (Germany) Region, and China Regions.
+      To learn more, see the <a href="https://docs.aws.amazon.com/rolesanywhere/latest/userguide/authentication-sign-process.html">IAM
+      Roles Anywhere User Guide</a>.</p>
+  c5b21eb099a7c8ad9763afeefe4a3af3:
+    id: c5b21eb099a7c8ad9763afeefe4a3af3
+    title: Amazon EC2 G7e instances now available in Asia Pacific (Seoul) and Europe
+      (Spain) regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-g7e-seoul-spain-regions/
+    published: '2026-03-09'
+    summary: "<p>Starting today, Amazon EC2 G7e instances accelerated by NVIDIA RTX\
+      \ PRO 6000 Blackwell Server Edition GPUs are now available in &nbsp;Asia Pacific\
+      \ (Seoul) and Europe (Spain) regions. G7e instances offer up to 2.3x inference\
+      \ performance compared to G6e.</p> \n<p>Customers can use G7e instances to deploy\
+      \ large language models (LLMs), agentic AI models, multimodal generative AI\
+      \ models, and physical AI models. G7e instances offer the highest performance\
+      \ for spatial computing workloads as well as workloads that require both graphics\
+      \ and AI processing capabilities. G7e instances feature up to 8 NVIDIA RTX PRO\
+      \ 6000 Blackwell Server Edition GPUs, with 96 GB of memory per GPU, and 5th\
+      \ Generation Intel Xeon processors. They support up to 192 virtual CPUs (vCPUs)\
+      \ and up to 1600 Gbps of networking bandwidth. G7e instances support NVIDIA\
+      \ GPUDirect Peer to Peer (P2P) that boosts performance for multi-GPU workloads.\
+      \ Multi-GPU G7e instances also support NVIDIA GPUDirect Remote Direct Memory\
+      \ Access (RDMA) with EFA in EC2 UltraClusters, reducing latency for small-scale\
+      \ multi-node workloads.</p> \n<p>You can use G7e instances for Amazon EC2 in\
+      \ the following AWS Regions: US West (Oregon), US East (N. Virginia, Ohio),\
+      \ Europe (Spain) and Asia Pacific (Tokyo, Seoul). You can purchase G7e instances\
+      \ as On-Demand Instances, Spot Instances, or as part of Savings Plans.</p> \n\
+      <p>To get started, visit the&nbsp;<a href=\"https://console.aws.amazon.com/\"\
+      >AWS Management Console</a>,&nbsp;<a href=\"https://aws.amazon.com/cli/\">AWS\
+      \ Command Line Interface</a>&nbsp;(CLI), and AWS SDKs. To learn more, visit&nbsp;<a\
+      \ href=\"https://aws.amazon.com/ec2/instance-types/g7e/\">G7e instances</a>.</p>"
+last_updated: '2026-03-09T22:25:05.564452'
