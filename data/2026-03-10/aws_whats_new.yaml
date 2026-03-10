@@ -1,0 +1,47 @@
+entries:
+  bef80efa5daf11d1c590d4fcddd9e61c:
+    id: bef80efa5daf11d1c590d4fcddd9e61c
+    title: Amazon Connect introduces AI-powered manager assistance (Preview)
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-ai-powered-manager-assistance/
+    published: '2026-03-10'
+    summary: "<p>Today, Amazon Connect announces the preview of an AI-powered assistant\
+      \ that enables contact center managers to get instant answers to operational\
+      \ questions using natural language. You can query across 150+ Amazon Connect\
+      \ metrics, including agent scheduling, self-service experience, and performance\
+      \ evaluations, with historical data for all of these, and receive results in\
+      \ seconds—eliminating hours of manual data gathering. The assistant can also\
+      \ diagnose underlying issues, such as identifying which queues are at risk of\
+      \ missing service level targets and recommending specific recovery actions.</p>\
+      \ \n<p>This feature is available as a preview. To request access, contact your\
+      \ AWS account team or an <a href=\"https://aws.amazon.com/contact-us/?nc2=h_l1\"\
+      >AWS Representative</a>. To learn more about Amazon Connect, the AWS cloud-based\
+      \ contact center, visit the <a href=\"https://aws.amazon.com/connect/\">Amazon\
+      \ Connect website.</a></p>"
+  13a05762557cd49f8d227a6409240936:
+    id: 13a05762557cd49f8d227a6409240936
+    title: Amazon Connect now supports conversational analytics for email
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-conversational-analytics-email/
+    published: '2026-03-10'
+    summary: <p>Amazon Connect now supports conversational analytics for email contacts,
+      enabling contact center managers to automatically categorize emails, redact
+      personally identifiable information (PII), and generate contact summaries. This
+      allows you to quickly identify emerging trends, better maintain compliance by
+      protecting sensitive information, and reduce the time spent reviewing agent
+      performance. For example, when customers email about account issues, Amazon
+      Connect automatically categorizes the email, redacts sensitive information,
+      and generates a summary for supervisor review.<br /> <br /> To enable this feature,
+      add the <a href="https://docs.aws.amazon.com/connect/latest/adminguide/set-recording-analytics-processing-behavior.html">Set
+      recording, analytics and processing behavior</a> block to your flows before
+      an email contact is assigned to your agent or sent to your end customer. You
+      can customize which PII types to redact, choose whether redacted content shows
+      specific PII type indicators e.g., [SSN] or generic markings ([PII]), opt to
+      store both original and redacted versions in separate storage, as well as enable
+      contact summaries. Using these analytics, you can quickly create rules to automatically
+      trigger actions such as assigning categories, creating tasks, or updating cases.<br
+      /> <br /> Amazon Connect conversational analytics is available in the US East
+      (N. Virginia), US West (Oregon), Asia Pacific (Seoul), Asia Pacific (Singapore),
+      Asia Pacific (Sydney), Asia Pacific (Tokyo), Canada (Central), Europe (Frankfurt),
+      and Europe (London) <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">regions</a>.
+      To learn more and get started, please refer to the help <a href="https://docs.aws.amazon.com/connect/latest/adminguide/analyze-conversations.html">documentation</a>
+      or visit the <a href="https://aws.amazon.com/connect/">Amazon Connect</a> website.</p>
+last_updated: '2026-03-10T16:05:52.558633'
