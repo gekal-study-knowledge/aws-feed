@@ -96,4 +96,27 @@ entries:
       \ (Sydney), Canada (Central).</p> \n<p>To learn more, visit our webpages for\
       \ Customer Profiles and explore the AI-powered <a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/customer-profiles-predictive-insights.html\"\
       >predictive insights documentation</a>.</p>"
-last_updated: '2026-03-10T18:42:13.705354'
+  412e96da600fd516761dafef5ceb54c2:
+    id: 412e96da600fd516761dafef5ceb54c2
+    title: AWS Builder ID now supports Sign in with GitHub and Amazon
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-builder-id-sign-in-github-amazon/
+    published: '2026-03-10'
+    summary: "<p>AWS Builder ID, your&nbsp;profile for accessing AWS applications\
+      \ including AWS Builder Center, AWS Training and Certification and Kiro, now\
+      \ supports&nbsp;two new social logins:&nbsp;GitHub&nbsp;and Amazon. This expansion\
+      \ of&nbsp;sign-in&nbsp;options&nbsp;builds on&nbsp;the existing Google&nbsp;Apple&nbsp;social\
+      \ sign-in&nbsp;capabilities, providing&nbsp;GitHub and&nbsp;Amazon&nbsp;users\
+      \ with a streamlined way to access AWS resources without managing separate credentials&nbsp;on&nbsp;AWS.</p>\
+      \ \n<p>With Sign in&nbsp;with&nbsp;Github&nbsp;and Amazon&nbsp;integration,\
+      \ developers and&nbsp;builders can now enjoy&nbsp;access to their AWS Builder\
+      \ ID profile using their&nbsp;GitHub&nbsp;or&nbsp;Amazon&nbsp;Account credentials.\
+      \ This enhancement&nbsp;eliminates&nbsp;password management complexity, reduces\
+      \ forgotten password issues, and provides a frictionless experience for both\
+      \ new user registration and returning user sign-ins. Whether&nbsp;you're&nbsp;accessing\
+      \ development resources in AWS Builder Center, enrolling in certification programs&nbsp;or&nbsp;using&nbsp;Kiro&nbsp;to\
+      \ code your next app, your&nbsp;GitHub&nbsp;and Amazon&nbsp;Accounts&nbsp;can&nbsp;now\
+      \ serve&nbsp;as a secure gateway to your&nbsp;builder&nbsp;AWS journey.</p>\
+      \ \n<p>To learn more about AWS Builder ID and&nbsp;get&nbsp;started with Sign\
+      \ in with&nbsp;GitHub and Amazon, visit the&nbsp;<a href=\"https://docs.aws.amazon.com/signin/latest/userguide/sign-in-builder-id.html\"\
+      >AWS Builder ID documentation</a>.</p>"
+last_updated: '2026-03-10T21:26:26.129539'
