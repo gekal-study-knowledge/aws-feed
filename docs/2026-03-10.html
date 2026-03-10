@@ -40,6 +40,17 @@
 
 <hr>
 
+<h3>Amazon OpenSearch Service now supports in-place volume increases for all volume sizes</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-in-place-volume/">https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-in-place-volume/</a></li>
+<li><strong>Published</strong>: 2026-03-10</li>
+</ul>
+
+<p><p><a href="https://aws.amazon.com/opensearch-service/">Amazon OpenSearch Service</a> now extends in-place cluster volume size increases to volumes exceeding 3 TiB. With this enhancement, you can scale storage capacity across all volume sizes without requiring a blue/green deployment.<br /> <br /> Previously, you could perform volume increases up to 3 TiB on your clusters without a blue/green deployment. This release removes that limitation, making it easier for you to scale up quickly even beyond 3 TiB when required. Domains that already have a volume size above 3 TiB will require a blue/green deployment the first time a volume increase is made; subsequent volume increases will not require a blue/green deployment.<br /> <br /> Decreasing storage volume size, or making volume increases within short intervals, will still require a blue/green deployment. You can use the <a href="https://docs.aws.amazon.com/opensearch-service/latest/developerguide/managedomains-configuration-changes.html#dryrun">dry-run</a> option to check whether your change requires a blue/green deployment.<br /> <br /> This feature is available in all AWS Commercial and AWS GovCloud (US) Regions where Amazon OpenSearch Service is available. See <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">here</a> for a full list of our Regions. To learn more about Amazon OpenSearch Service configurations, visit the <a href="https://docs.aws.amazon.com/opensearch-service/latest/developerguide/managedomains-configuration-changes.html">documentation page</a>.</p></p>
+
+<hr>
+
 <h2>AWS Security Blog</h2>
 
 <h3>AWS Security Hub is expanding to unify security operations across multicloud environments</h3>
