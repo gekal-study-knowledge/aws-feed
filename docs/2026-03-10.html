@@ -78,6 +78,33 @@
 
 <hr>
 
+<h3>Amazon Bedrock AgentCore Runtime now supports stateful MCP server features</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-runtime-stateful-mcp/">https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-runtime-stateful-mcp/</a></li>
+<li><strong>Published</strong>: 2026-03-10</li>
+</ul>
+
+<p><p>Amazon Bedrock AgentCore Runtime now supports stateful Model Context Protocol (MCP) server features, enabling developers to build MCP servers that leverage elicitation, sampling, and progress notifications alongside existing support for resources, prompts, and tools. These capabilities allow MCP servers deployed to AgentCore Runtime to collect user input interactively during tool execution, request LLM-generated content from clients, and provide real-time progress updates for long-running operations.<br /> <br /> With stateful MCP sessions, each user session runs in a dedicated microVM with isolated resources, and the server maintains session context across multiple interactions using an Mcp-Session-Id header. Elicitation enables server-initiated, multi-turn conversations to gather information such as user preferences. Sampling allows servers to request AI-powered text generation from the client for tasks like personalized recommendations. Progress notifications keep clients informed during operations such as searching for flights or processing bookings. These features work together to support complex, interactive agent workflows that go beyond simple request-response patterns.</p> 
+<p>Stateful MCP server features are supported in AgentCore Runtime across&nbsp;<a href="https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-regions.html">fourteen AWS Regions</a>: US East (N. Virginia), US East (Ohio), US West (Oregon), Asia Pacific (Mumbai), Canada (Central), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Frankfurt), Europe (Ireland), Europe (London), Europe (Paris), and Europe (Stockholm).</p> 
+<p>To learn more, see <a href="https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/mcp-stateful-features.html">Stateful MCP server features</a> in the Amazon Bedrock AgentCore documentation.</p></p>
+
+<hr>
+
+<h3>Amazon Bedrock now supports observability of First Token Latency and Quota Consumption</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-observability-ttft-quota/">https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-observability-ttft-quota/</a></li>
+<li><strong>Published</strong>: 2026-03-10</li>
+</ul>
+
+<p><p>Amazon Bedrock is a fully managed service for building generative AI applications using high-performing foundation models from leading AI providers. It now supports two new CloudWatch metrics, TimeToFirstToken and EstimatedTPMQuotaUsage, giving you deeper visibility into inference performance and quota consumption.</p> 
+<p>TimeToFirstToken measures the latency from when a request is sent to when the first token is received, for streaming APIs (ConverseStream and InvokeModelWithResponseStream). You can use this metric to set CloudWatch alarms which monitor latency degradation and establish SLA baselines, without any client-side instrumentation. EstimatedTPMQuotaUsage tracks your estimated Tokens Per Minute (TPM) quota consumption, including cache write tokens and <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/quotas-token-burndown.html">output burndown multipliers</a>, across all inference APIs (Converse, InvokeModel, ConverseStream, and InvokeModelWithResponseStream). You can use this metric to set proactive alarms before reaching your quota limit, track your quota consumption across your models, and request further quota increases before usage is rate limited.</p> 
+<p>Both metrics are supported in all commercial Bedrock regions for <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html">models </a>available via cross-region inference profiles and in-region inference, updated every minute for successfully completed requests. These are available in your CloudWatch out of the box; you pay only for the underlying model inference you consume, with no API changes or opt-in required.</p> 
+<p>To learn more about TimeToFirstToken and EstimatedTPMQuotaUsage, see <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/monitoring.html">our documentation page on Monitoring Amazon Bedrock</a>.</p></p>
+
+<hr>
+
 <h2>AWS Security Blog</h2>
 
 <h3>AWS Security Hub is expanding to unify security operations across multicloud environments</h3>

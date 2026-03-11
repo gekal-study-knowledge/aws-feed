@@ -119,4 +119,60 @@ entries:
       \ \n<p>To learn more about AWS Builder ID and&nbsp;get&nbsp;started with Sign\
       \ in with&nbsp;GitHub and Amazon, visit the&nbsp;<a href=\"https://docs.aws.amazon.com/signin/latest/userguide/sign-in-builder-id.html\"\
       >AWS Builder ID documentation</a>.</p>"
-last_updated: '2026-03-10T21:26:26.129539'
+  e5528680175b95545b2e9f7b9742c43d:
+    id: e5528680175b95545b2e9f7b9742c43d
+    title: Amazon Bedrock AgentCore Runtime now supports stateful MCP server features
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-runtime-stateful-mcp/
+    published: '2026-03-10'
+    summary: "<p>Amazon Bedrock AgentCore Runtime now supports stateful Model Context\
+      \ Protocol (MCP) server features, enabling developers to build MCP servers that\
+      \ leverage elicitation, sampling, and progress notifications alongside existing\
+      \ support for resources, prompts, and tools. These capabilities allow MCP servers\
+      \ deployed to AgentCore Runtime to collect user input interactively during tool\
+      \ execution, request LLM-generated content from clients, and provide real-time\
+      \ progress updates for long-running operations.<br /> <br /> With stateful MCP\
+      \ sessions, each user session runs in a dedicated microVM with isolated resources,\
+      \ and the server maintains session context across multiple interactions using\
+      \ an Mcp-Session-Id header. Elicitation enables server-initiated, multi-turn\
+      \ conversations to gather information such as user preferences. Sampling allows\
+      \ servers to request AI-powered text generation from the client for tasks like\
+      \ personalized recommendations. Progress notifications keep clients informed\
+      \ during operations such as searching for flights or processing bookings. These\
+      \ features work together to support complex, interactive agent workflows that\
+      \ go beyond simple request-response patterns.</p> \n<p>Stateful MCP server features\
+      \ are supported in AgentCore Runtime across&nbsp;<a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-regions.html\"\
+      >fourteen AWS Regions</a>: US East (N. Virginia), US East (Ohio), US West (Oregon),\
+      \ Asia Pacific (Mumbai), Canada (Central), Asia Pacific (Seoul), Asia Pacific\
+      \ (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Frankfurt),\
+      \ Europe (Ireland), Europe (London), Europe (Paris), and Europe (Stockholm).</p>\
+      \ \n<p>To learn more, see <a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/mcp-stateful-features.html\"\
+      >Stateful MCP server features</a> in the Amazon Bedrock AgentCore documentation.</p>"
+  c7ea0fd2884d85fb24cc8f81fa49147c:
+    id: c7ea0fd2884d85fb24cc8f81fa49147c
+    title: Amazon Bedrock now supports observability of First Token Latency and Quota
+      Consumption
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-observability-ttft-quota/
+    published: '2026-03-10'
+    summary: "<p>Amazon Bedrock is a fully managed service for building generative\
+      \ AI applications using high-performing foundation models from leading AI providers.\
+      \ It now supports two new CloudWatch metrics, TimeToFirstToken and EstimatedTPMQuotaUsage,\
+      \ giving you deeper visibility into inference performance and quota consumption.</p>\
+      \ \n<p>TimeToFirstToken measures the latency from when a request is sent to\
+      \ when the first token is received, for streaming APIs (ConverseStream and InvokeModelWithResponseStream).\
+      \ You can use this metric to set CloudWatch alarms which monitor latency degradation\
+      \ and establish SLA baselines, without any client-side instrumentation. EstimatedTPMQuotaUsage\
+      \ tracks your estimated Tokens Per Minute (TPM) quota consumption, including\
+      \ cache write tokens and <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/quotas-token-burndown.html\"\
+      >output burndown multipliers</a>, across all inference APIs (Converse, InvokeModel,\
+      \ ConverseStream, and InvokeModelWithResponseStream). You can use this metric\
+      \ to set proactive alarms before reaching your quota limit, track your quota\
+      \ consumption across your models, and request further quota increases before\
+      \ usage is rate limited.</p> \n<p>Both metrics are supported in all commercial\
+      \ Bedrock regions for <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html\"\
+      >models </a>available via cross-region inference profiles and in-region inference,\
+      \ updated every minute for successfully completed requests. These are available\
+      \ in your CloudWatch out of the box; you pay only for the underlying model inference\
+      \ you consume, with no API changes or opt-in required.</p> \n<p>To learn more\
+      \ about TimeToFirstToken and EstimatedTPMQuotaUsage, see <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/monitoring.html\"\
+      >our documentation page on Monitoring Amazon Bedrock</a>.</p>"
+last_updated: '2026-03-11T01:45:57.738308'
