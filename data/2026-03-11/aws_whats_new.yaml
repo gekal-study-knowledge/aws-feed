@@ -49,4 +49,114 @@ entries:
       or AWS CloudFormation. Please refer to&nbsp;<a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_PerfInsights.Overview.Engines.html#USER_PerfInsights.Overview.PIfeatureEngnRegSupport"
       target="_blank">Aurora documentation&nbsp;</a>or&nbsp;<a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.Overview.Engines.html#USER_PerfInsights.Overview.PIfeatureEngnRegSupport"
       target="_blank">RDS documentation</a>&nbsp;to get started.&nbsp;</p>
-last_updated: '2026-03-11T19:39:03.294340'
+  eca2bc9744e1a2fa41b43c1563fee2c5:
+    id: eca2bc9744e1a2fa41b43c1563fee2c5
+    title: Amazon EC2 C8id instances are now available in Europe (Spain)
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8id-instances-europe-spain/
+    published: '2026-03-11'
+    summary: <p>Amazon Elastic Compute Cloud (EC2) C8id instances powered by custom
+      Intel Xeon 6 processors feature up to 384 vCPUs, 768GiB of memory, and 22.8TB
+      of NVMe SSD storage and deliver up to 43% higher performance and 3.3x more memory
+      bandwidth compared to previous generation C6id instances. Starting today, C8id
+      instances are available in Europe (Spain) region.<br /> <br /> These instances
+      deliver up to 46% higher performance for I/O intensive database workloads, and
+      up to 30% faster query results for I/O intensive real-time data analytics than
+      previous sixth-generation instances<b>.</b> Additionally, these instances support
+      Instance Bandwidth Configuration, allowing 25% flexible allocation between network
+      and EBS bandwidth, allocating resources optimally for each workload.<br /> <br
+      /> C8id instances are ideal for compute-intensive workloads such as high-performance
+      web servers, batch processing, distributed analytics, ad serving, video encoding,
+      and gaming servers.<br /> <br /> C8id instances are available in US East (N.
+      Virginia, Ohio), US West (Oregon), Europe (Frankfurt, Spain), and Asia Pacific
+      (Tokyo) regions. Customers can purchase these instances via Savings Plans, On-Demand
+      instances, and Spot instances. For more information visit the <a href="https://aws.amazon.com/ec2/instance-types/">Amazon
+      EC2 instance type page.</a></p>
+  8176d0515f03f9478ecd3c9ed06c5a4e:
+    id: 8176d0515f03f9478ecd3c9ed06c5a4e
+    title: Amazon EC2 C8gd and M8gd instances are now available in additional AWS
+      Regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8gd-m8gd-instances-available/
+    published: '2026-03-11'
+    summary: <p>Amazon Elastic Compute Cloud (Amazon EC2) C8gd and M8gd instances
+      with up to 11.4 TB of local NVMe-based SSD block-level storage are now available
+      in additional regions. C8gd instances are now available in South America (Sao
+      Paulo). M8gd instances are now available in Europe (Ireland). These instances
+      are powered by AWS Graviton4 processors, delivering up to 30% better performance
+      over Graviton3-based instances. They have up to 40% higher performance for I/O
+      intensive database workloads, and up to 20% faster query results for I/O intensive
+      real-time data analytics than comparable AWS Graviton3-based instances. These
+      instances are built on the AWS Nitro System and are a great fit for applications
+      that need access to high-speed, low latency local storage.<br /> <br /> Each
+      instance is available in 12 different sizes. They provide up to 50 Gbps of network
+      bandwidth and up to 40 Gbps of bandwidth to the Amazon Elastic Block Store (Amazon
+      EBS). Additionally, customers can now adjust the network and<br /> Amazon EBS
+      bandwidth on these instances by 25% using EC2 instance bandwidth weighting conﬁguration,
+      providing greater ﬂexibility with the allocation of bandwidth resources to better
+      optimize workloads. These instances offer Elastic Fabric Adapter (EFA) networking
+      on 24xlarge, 48xlarge, metal-24xl, and metal-48xl sizes.<br /> <br /> To learn
+      more, see <a href="https://aws.amazon.com/ec2/instance-types/c8g/">Amazon C8gd
+      Instances</a> and <a href="https://aws.amazon.com/ec2/instance-types/m8g/">Amazon
+      M8gd Instances</a>. To explore how to migrate your workloads to Graviton-based
+      instances, see <a href="https://aws.amazon.com/ec2/graviton/fast-start/">AWS
+      Graviton Fast Start program</a> and <a href="https://github.com/aws/porting-advisor-for-graviton">Porting
+      Advisor for Graviton</a>. To get started, see the <a href="https://console.aws.amazon.com/">AWS
+      Management Console</a>.</p>
+  fca8ba817c743f039e0aca2879f98cb3:
+    id: fca8ba817c743f039e0aca2879f98cb3
+    title: Amazon EC2 R7gd instances are now available in South America (Sao Paulo)
+      Region
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r7gd-instances-available/
+    published: '2026-03-11'
+    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R7gd instances
+      with up to 3.8 TB of local NVMe-based SSD block-level storage are available
+      in South America (Sao Paulo) Region.<br /> <br /> R7gd are powered by AWS Graviton3
+      processors with DDR5 memory are built on the <a href="https://aws.amazon.com/ec2/nitro/">AWS
+      Nitro System</a>. They are ideal for memory-intensive workloads such as open-source
+      databases, in-memory caches, and real-time big data analytics and are a great
+      fit for applications that need access to high-speed, low latency local storage,
+      including those that need temporary storage of data for scratch space, temporary
+      files, and caches.<br /> <br /> To learn more, see <a href="https://aws.amazon.com/ec2/instance-types/r7g/">Amazon
+      R7gd Instances</a>. To get started, see the <a href="https://console.aws.amazon.com/">AWS
+      Management Console</a>.</p>
+  527f06c005567ebb524785cb2fbfcd90:
+    id: 527f06c005567ebb524785cb2fbfcd90
+    title: Amazon EC2 High Memory U7i instances now available in additional regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-high-memory-u7i-instances/
+    published: '2026-03-11'
+    summary: "<p>Amazon EC2 High Memory U7i instances with 8TB of memory (u7i-8tb.112xlarge)\
+      \ are now available in AWS Asia Pacific (Hyderabad), and U7i instances with\
+      \ 12TB of memory (u7i-12tb.224xlarge) are now available in AWS Europe (Spain).\
+      \ U7i instances are part of AWS 7th generation and are powered by custom fourth\
+      \ generation Intel Xeon Scalable Processors (Sapphire Rapids). U7i-8tb instances\
+      \ offer 8TiB of DDR5 memory, U7i-12tb instances offer 12TiB of DDR5 memory,\
+      \ enabling customers to scale transaction processing throughput in a fast-growing\
+      \ data environment.</p> \n<p>U7i-8tb instances offer 448 vCPUs and U7i-12tb\
+      \ instances offer 896 vCPUs. Both instance types support up to 100 Gbps of Amazon\
+      \ Elastic Block Store (Amazon EBS) bandwidth for faster data loading and backups,\
+      \ up to 100 Gbps of network bandwidth, and ENA Express.&nbsp;</p> \n<p>U7i instances\
+      \ are ideal for customers using mission-critical in-memory databases like SAP\
+      \ HANA, Oracle, and SQL Server.</p> \n<p><br /> To learn more about U7i instances,\
+      \ visit the <a href=\"https://aws.amazon.com/ec2/instance-types/u7i/\">High\
+      \ Memory instances page</a>.</p>"
+  b9c0211403029a63f3ec86898b6f8158:
+    id: b9c0211403029a63f3ec86898b6f8158
+    title: Amazon Connect now lets you select different From email addresses when
+      sending emails
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-agents-select-from-email/
+    published: '2026-03-11'
+    summary: "<p>Amazon Connect now enables you to choose the \"From\" email address\
+      \ when replying to inbound emails or sending new outbound messages, helping\
+      \ contact centers ensure the correct brand or business identity is used for\
+      \ every customer interaction. Administrators can configure multiple sender addresses\
+      \ per queue, allowing agents to search and select the appropriate email address\
+      \ based on the queue they are working in. This capability is especially useful\
+      \ for contact centers that support multiple brands or lines of business from\
+      \ a single Amazon Connect instance.<br /> <br /> Amazon Connect email is available\
+      \ in the US East (N. Virginia), US West (Oregon), Africa (Cape Town), Asia Pacific\
+      \ (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo),\
+      \ Canada (Central), Europe (Frankfurt), and Europe (London) <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
+      >regions</a>. To learn more and get started, please refer to the help <a href=\"\
+      https://docs.aws.amazon.com/connect/latest/adminguide/agent-select-from-email.html\"\
+      >documentation</a> or visit the <a href=\"https://aws.amazon.com/connect/\"\
+      >Amazon Connect</a> website.</p> \n<p>&nbsp;</p>"
+last_updated: '2026-03-11T20:30:24.298123'
