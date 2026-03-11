@@ -1,0 +1,24 @@
+entries:
+  260a7cce5ceb0fe66b30832648ccd8dc:
+    id: 260a7cce5ceb0fe66b30832648ccd8dc
+    title: Amazon Connect now provides integrated workflows for managers to coach
+      agents
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-integrated-agent-coaching-workflows/
+    published: '2026-03-11'
+    summary: <p>Amazon Connect now delivers integrated agent coaching workflows that
+      enable contact center managers to provide timely, targeted feedback directly
+      within the Connect UI. When managers identify improvement opportunities through
+      evaluation scorecards, they can immediately create coaching plans with specific
+      customer interaction examples. For example, a manager can share interactions
+      with an agent where they excelled at problem-solving but could show more customer
+      empathy, with examples of empathetic language to use going forward. After coaching
+      sessions, agents acknowledge feedback and add notes to confirm understanding
+      of expectations and next steps. Both managers and agents access all coaching
+      history on a single page, enabling systematic progress tracking and improved
+      coaching effectiveness. This integrated approach eliminates coaching delays
+      and creates accountability throughout the agent development process, accelerating
+      performance improvement across contact center operations.<br /> <br /> This
+      feature is available in all regions where <a href="https://docs.aws.amazon.com/connect/latest/adminguide/regions.html#amazonconnect_region">Amazon
+      Connect</a> is offered. To learn more, please visit our <a href="https://docs.aws.amazon.com/connect/latest/adminguide/provide-coaching.html">documentation</a>
+      and our <a href="https://aws.amazon.com/connect/conversational-analytics/">webpage</a>.&nbsp;</p>
+last_updated: '2026-03-11T18:49:47.701388'
