@@ -159,4 +159,43 @@ entries:
       https://docs.aws.amazon.com/connect/latest/adminguide/agent-select-from-email.html\"\
       >documentation</a> or visit the <a href=\"https://aws.amazon.com/connect/\"\
       >Amazon Connect</a> website.</p> \n<p>&nbsp;</p>"
-last_updated: '2026-03-11T20:30:24.298123'
+  dd37d70c942a87711a5077a2c1ca926d:
+    id: dd37d70c942a87711a5077a2c1ca926d
+    title: Amazon Connect now provides case data in analytics data lake
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-cases-data-lake
+    published: '2026-03-11'
+    summary: '<p>Amazon Connect now provides case data in the analytics data lake,
+      making it easier for you to generate reports and insights. With case data available
+      alongside other Amazon Connect analytics, you can use Amazon Athena and Amazon
+      QuickSight to build custom reports and analyze trends such as case volume by
+      type, case handling across agent shifts, or contact sentiment across cases without
+      building and maintaining complex data pipelines.<br /> <br /> Amazon Connect
+      Cases is available in the following AWS regions: US East (N. Virginia), US West
+      (Oregon), Canada (Central), Europe (Frankfurt), Europe (London), Asia Pacific
+      (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo),
+      and Africa (Cape Town) AWS regions. To learn more and get started, visit the
+      Amazon Connect Cases <a href="https://aws.amazon.com/connect/cases/" target="_blank">webpage</a>
+      and <a href="https://docs.aws.amazon.com/connect/latest/adminguide/data-lake-cases-data.html"
+      target="_blank">documentation</a>.</p>'
+  803a438bf3110e3c0a6f1e6dcec51e8c:
+    id: 803a438bf3110e3c0a6f1e6dcec51e8c
+    title: AWS Backup expands support for Amazon RDS Multi-AZ clusters to 17 Regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-expands-amazon-rds-multi-az-clusters-17-regions/
+    published: '2026-03-11'
+    summary: "<p>AWS Backup for Amazon RDS Multi-AZ clusters is now available in 17\
+      \ additional AWS Regions: Asia Pacific (Mumbai, Osaka, Seoul, Hong Kong, Jakarta,\
+      \ Hyderabad, Melbourne, Malaysia), Europe (London, Paris, Milan, Zurich, Spain),\
+      \ South America (Sao Paulo), Africa (Cape Town), Canada (Central), and Canada\
+      \ West (Calgary).</p> \n<p>This expansion brings AWS Backup's comprehensive\
+      \ data protection capabilities—including automated lifecycle management, and\
+      \ immutable backups with AWS Backup Vault Lock —to your Amazon RDS Multi-AZ\
+      \ clusters in these Regions.</p> \n<p>To start protecting your RDS Multi-AZ\
+      \ clusters with AWS Backup, add your RDS Multi-AZ clusters to your existing\
+      \ backup plans or create a new backup plan, and attach your RDS clusters to\
+      \ the newly created backup plan. To learn more about AWS Backup for Amazon RDS\
+      \ Multi-AZ clusters, visit the <a href=\"https://aws.amazon.com/backup/\">product\
+      \ page</a>, <a href=\"https://aws.amazon.com/backup/pricing/\">pricing page</a>,\
+      \ and <a href=\"https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html\"\
+      >documentation</a>. To get started, visit the <a href=\"https://console.aws.amazon.com/backup\"\
+      >AWS Backup console</a>, AWS Command Line Interface (CLI), or AWS SDKs.</p>"
+last_updated: '2026-03-11T22:23:40.390666'
