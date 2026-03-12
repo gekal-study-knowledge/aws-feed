@@ -158,4 +158,51 @@ entries:
       >User Guide</a>. To learn more about AWS Glue zero-ETL integrations, visit the\
       \ AWS Glue <a href=\"https://docs.aws.amazon.com/glue/latest/dg/zero-etl-using.html\"\
       >documentation</a>.&nbsp;</p>"
-last_updated: '2026-03-12T21:29:01.275880'
+  82f5ac9204089ee91182b1c962bbf43b:
+    id: 82f5ac9204089ee91182b1c962bbf43b
+    title: Amazon Bedrock AgentCore Memory announces streaming notifications for long-term
+      memory
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-memory-streaming-ltm/
+    published: '2026-03-12'
+    summary: "<p>Amazon Bedrock AgentCore Memory now supports streaming notifications\
+      \ for long-term memory, eliminating the need to poll for changes. Long-term\
+      \ memory extracts insights from agent interactions to deliver personalized experiences\
+      \ in future interactions. Developers now receive push notifications whenever\
+      \ memory records are created or modified.<br /> <br /> Updates stream directly\
+      \ to Amazon Kinesis each time a memory record is created or modified. This enables\
+      \ developers to trigger downstream workflows, refresh application state, and\
+      \ audit memory updates automatically without writing polling logic or managing\
+      \ refresh intervals.</p> \n<p>This feature is available in&nbsp;<a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-regions.html\"\
+      >15 AWS Regions</a>: US East (N. Virginia), US East (Ohio), US West (Oregon),\
+      \ Europe (Frankfurt), Europe (Ireland), Europe (London), Europe (Paris), Europe\
+      \ (Stockholm), Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific\
+      \ (Sydney), Asia Pacific (Tokyo), Asia Pacific (Seoul), Canada (Central), and\
+      \ South America (São Paulo).&nbsp;</p> \n<p>To learn more about implementing\
+      \ streaming notifications&nbsp;in AgentCore Memory,&nbsp;visit&nbsp;the&nbsp;<a\
+      \ href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/memory-record-streaming.html\"\
+      >documentation</a>.</p>"
+  a83a39c9946b4a2c5ae86f42b9f5038a:
+    id: a83a39c9946b4a2c5ae86f42b9f5038a
+    title: Amazon S3 introduces account regional namespaces for general purpose buckets
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-account-regional-namespaces/
+    published: '2026-03-12'
+    summary: <p>You can now create Amazon S3 general purpose buckets in your own reserved
+      namespace, eliminating the need to find globally unique bucket names and making
+      it easier to build workloads that utilize a bucket per customer, team, or dataset.
+      With account regional namespaces, you can create predictable bucket names across
+      multiple AWS Regions with assurance that the names you want will always be available
+      for you to use.<br /> <br /> Account regional namespaces help simplify bucket
+      creation and management as your data storage needs grow in size and scope. To
+      get started, add the new bucket namespace request header when creating buckets
+      through the CreateBucket API or by updating your AWS CloudFormation templates
+      to include your unique account regional suffix in the requested name. Additionally,
+      cloud security teams can use service control policies (SCP) and IAM policies
+      to enforce that users only create buckets in their account regional namespace,
+      helping teams enforce consistent bucket naming practices across their enterprise.<br
+      /> <br /> Account regional namespaces for S3 general purpose buckets are now
+      available in 37 AWS Regions including the AWS China and AWS GovCloud (US) Regions
+      at no additional cost through the AWS Management Console, S3 REST API, AWS CLI,
+      AWS SDK, and AWS CloudFormation. To learn more, read the <a href="https://aws.amazon.com/blogs/aws/introducing-account-regional-namespaces-for-amazon-s3-general-purpose-buckets/"
+      target="_blank">AWS News Blog</a> or visit the <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/gpbucketnamespaces.html"
+      target="_blank">S3 user guide</a>.&nbsp;</p>
+last_updated: '2026-03-12T22:21:35.618740'
