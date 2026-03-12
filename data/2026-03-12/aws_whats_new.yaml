@@ -23,4 +23,31 @@ entries:
       \ target=\"_blank\">AWS Regions</a> where Amazon WorkSpaces is available. For\
       \ pricing information, visit Amazon WorkSpaces <a href=\"https://aws.amazon.com/workspaces/pricing/\"\
       \ target=\"_blank\">pricing page</a>.</p>"
-last_updated: '2026-03-12T16:56:58.903243'
+  76c72fcc11c48ada1322aa55f0444394:
+    id: 76c72fcc11c48ada1322aa55f0444394
+    title: AWS Elastic Beanstalk launches Deployments tab with in-progress deployment
+      logs
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/elastic-beanstalk-deployments-tab/
+    published: '2026-03-12'
+    summary: "<p>AWS Elastic Beanstalk now provides a Deployments tab in the environment\
+      \ dashboard, giving customers a consolidated view of their deployment history\
+      \ and real-time deployment progress with step-by-step deployment logs. Previously,\
+      \ customers had to wait until a deployment completed before retrieving logs,\
+      \ and then correlate events across multiple sources to understand what happened.\
+      \ With this launch, customers can view deployment status, events, and detailed\
+      \ logs in a single interface directly from the Elastic Beanstalk console, even\
+      \ while a deployment is still in progress.</p> \n<p>The Deployments tab displays\
+      \ a history of recent deployments for an environment, including application\
+      \ deployments, configuration updates, and environment launches. Each deployment\
+      \ includes a detailed view with deployment events and a new consolidated log\
+      \ that captures each step of the deployment process, including dependency installation,\
+      \ application builds, .ebextensions, platform hooks, and application startup\
+      \ output.</p> \n<p>This feature is supported across all Elastic Beanstalk Linux-based\
+      \ platform branches. It is available in all AWS Commercial Regions and AWS GovCloud\
+      \ (US) Regions where Elastic Beanstalk is available. For a complete list of\
+      \ supported Regions, see <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
+      >AWS Regions</a>.</p> \n<p>To learn more, see the <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-deployment-logs.html\"\
+      >AWS Elastic Beanstalk Developer Guide</a>. For additional information, visit\
+      \ the <a href=\"https://aws.amazon.com/elasticbeanstalk/\">AWS Elastic Beanstalk\
+      \ product page</a>.</p>"
+last_updated: '2026-03-12T19:39:58.228113'
