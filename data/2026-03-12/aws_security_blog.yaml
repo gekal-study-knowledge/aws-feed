@@ -1,0 +1,14 @@
+entries:
+  9efd2e438bb592e95e404e968627811f:
+    id: 9efd2e438bb592e95e404e968627811f
+    title: How to manage the lifecycle of Amazon Machine Images using AMI Lineage
+      for AWS
+    link: https://aws.amazon.com/blogs/security/how-to-manage-the-lifecycle-of-amazon-machine-images-using-ami-lineage-for-aws/
+    published: '2026-03-12'
+    summary: As organizations scale their cloud infrastructure, maintaining proper
+      lifecycle management of Amazon Machine Images (AMIs) is a critical component
+      of their security and risk management goals. AMIs provide the essential information
+      required to launch Amazon Elastic Compute Cloud (Amazon EC2) instances, however;
+      they present security and compliance challenges if not tracked and managed throughout
+      their […]
+last_updated: '2026-03-12T17:49:50.748179'
