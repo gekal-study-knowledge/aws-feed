@@ -1,0 +1,26 @@
+entries:
+  80a7c1924eebbbcd00eef056fa352d9f:
+    id: 80a7c1924eebbbcd00eef056fa352d9f
+    title: Amazon WorkSpaces now supports Microsoft Windows Server 2025
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-workspaces-windows-server-2025/
+    published: '2026-03-12'
+    summary: "<p>AWS announces availability of new bundles powered by&nbsp;Microsoft\
+      \ Windows&nbsp;Server 2025, offered for Amazon WorkSpaces Personal and Amazon\
+      \ WorkSpaces Core. With these bundles, customers can launch Windows Server 2025\
+      \ WorkSpaces and take advantage of the latest Windows server operating systems\
+      \ features. Customers can run applications such as eligible Microsoft 365 Apps\
+      \ for enterprise that require newer Windows versions.<br /> <br /> While Windows\
+      \ Server 2016, 2019, and 2022 powered WorkSpaces bundles remain available, the\
+      \ Windows Server 2025 option brings enhanced security and modern capabilities\
+      \ such as Trusted Platform Module 2.0 (TPM 2.0), Unified Extensible Firmware\
+      \ Interface (UEFI) Secure Boot, Secured-core server, Credential Guard and Hypervisor-protected\
+      \ Code Integrity (HVCI) and DNS-over-HTTPS.</p> \n<p>You can get started using\
+      \ the managed Windows Server 2025 WorkSpaces bundles or create your own custom\
+      \ bundle and image tailored to your requirements. For more information on Amazon\
+      \ WorkSpaces’ new Windows Server Bundles, visit <a href=\"https://aws.amazon.com/workspaces-family/workspaces/faqs/\"\
+      \ target=\"_blank\">Amazon WorkSpaces FAQs</a>.&nbsp;The new WorkSpaces Windows\
+      \ Server 2025 support is available in all <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
+      \ target=\"_blank\">AWS Regions</a> where Amazon WorkSpaces is available. For\
+      \ pricing information, visit Amazon WorkSpaces <a href=\"https://aws.amazon.com/workspaces/pricing/\"\
+      \ target=\"_blank\">pricing page</a>.</p>"
+last_updated: '2026-03-12T16:56:58.903243'
