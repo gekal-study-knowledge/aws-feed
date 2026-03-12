@@ -68,6 +68,42 @@
 
 <hr>
 
+<h3>AWS Private CA Connector for SCEP now supports AWS PrivateLink</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/aws-private-ca-connector-scep-privatelink/">https://aws.amazon.com/about-aws/whats-new/2026/03/aws-private-ca-connector-scep-privatelink/</a></li>
+<li><strong>Published</strong>: 2026-03-12</li>
+</ul>
+
+<p><p>AWS Private CA Connector for SCEP now supports AWS PrivateLink, allowing your clients to request certificates from within your Amazon Virtual Private Cloud (VPC) without traversing the public internet. With this launch, you can create VPC endpoints to connect to your SCEP connector privately, keeping all traffic within the AWS network.<br /> <br /> AWS Private CA Connector for SCEP is a managed connector that enables you to use the Simple Certificate Enrollment Protocol (SCEP) to issue certificates from AWS Private Certificate Authority (CA). SCEP is widely used for automated certificate enrollment and renewal for mobile devices, network equipment, and IoT devices. AWS PrivateLink support simplifies network connectivity by eliminating the need for internet gateways, NAT devices, or VPN connections to access your SCEP connector endpoints, while helping you meet compliance requirements that mandate private connectivity for certificate management.<br /> <br /> AWS PrivateLink support for AWS Private CA Connector for SCEP is available in all AWS Regions where the connector is available. For more information about Regional availability, see the AWS Region Table.<br /> <br /> To learn more and get started, visit the <a href="https://docs.aws.amazon.com/privateca/latest/userguide/connector-for-scep.html">AWS Private CA Connector for SCEP documentation</a>.&nbsp;For more information, please refer to the AWS PrivateLink <a href="https://docs.aws.amazon.com/vpc/latest/privatelink/create-interface-endpoint.html">documentation</a>.</p></p>
+
+<hr>
+
+<h3>AWS Glue zero-ETL integrations with Amazon DynamoDB as the source support new configurations</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/aws-glue-zetl-dynamodb-configurations/">https://aws.amazon.com/about-aws/whats-new/2026/03/aws-glue-zetl-dynamodb-configurations/</a></li>
+<li><strong>Published</strong>: 2026-03-12</li>
+</ul>
+
+<p><p>AWS Glue zero-ETL now supports configurable change data capture (CDC) refresh intervals and on-demand data ingestion for integrations with Amazon DynamoDB as the source. This enhancement can help you to customize how frequently data changes are captured from your Amazon DynamoDB tables, with refresh intervals ranging from 15 minutes to 6 days, and trigger immediate data ingestion when needed. These capabilities bring zero-ETL integrations from Amazon DynamoDB sources to feature parity with zero-ETL integrations from SaaS sources, like Salesforce, SAP, and ServiceNow, ensuring consistent functionality across different source types.<br /> <br /> With configurable CDC refresh intervals, you can optimize your data pipeline performance by adjusting the frequency of change capture to match your specific business requirements—whether you need near real-time updates every 15 minutes or can work with longer intervals up to 6 days to reduce costs. The on-demand ingestion capability allows you to immediately capture critical data changes without waiting for the next scheduled CDC interval. This functionality is ideal for scenarios that require data to be immediately available for analytics, reporting, or downstream applications and helps strike a balance between data freshness requirements and operational efficiency.<br /> <br /> These features are available today in all AWS regions where AWS Glue zero-ETL is supported.</p> 
+<p><br /> To get started with configuring CDC refresh intervals and on-demand ingestion for your Amazon DynamoDB integrations, see the AWS Glue <a href="https://docs.aws.amazon.com/glue/latest/dg/zero-etl-configuring-integration.html">User Guide</a>. To learn more about AWS Glue zero-ETL integrations, visit the AWS Glue <a href="https://docs.aws.amazon.com/glue/latest/dg/zero-etl-using.html">documentation</a>.&nbsp;</p></p>
+
+<hr>
+
+<h2>AWS News Blog</h2>
+
+<h3>Introducing account regional namespaces for Amazon S3 general purpose buckets</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/blogs/aws/introducing-account-regional-namespaces-for-amazon-s3-general-purpose-buckets/">https://aws.amazon.com/blogs/aws/introducing-account-regional-namespaces-for-amazon-s3-general-purpose-buckets/</a></li>
+<li><strong>Published</strong>: 2026-03-12</li>
+</ul>
+
+<p>AWS launches a new feature of Amazon S3 that lets you create general purpose buckets in your own account regional namespace simplifying bucket creation and management as your data storage needs grow in size and scope.</p>
+
+<hr>
+
 <h2>AWS Security Blog</h2>
 
 <h3>How to manage the lifecycle of Amazon Machine Images using AMI Lineage for AWS</h3>
