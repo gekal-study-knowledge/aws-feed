@@ -250,4 +250,24 @@ entries:
       \ offered. To learn more about spatial data capabilities and how they can enhance\
       \ your location-aware applications, check out the <a href=\"https://docs.aws.amazon.com/neptune/latest/userguide/intro.html\"\
       \ target=\"_blank\">Neptune Database documentation</a>.</p>"
-last_updated: '2026-03-12T01:51:19.243950'
+  2dd520617f43909657ee9da3de1c9d72:
+    id: 2dd520617f43909657ee9da3de1c9d72
+    title: AWS Firewall Manager launches in AWS Asia Pacific (New Zealand) Region
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-firewall-manager-launches-asia-pacific-new-zealand/
+    published: '2026-03-11'
+    summary: <p>AWS Firewall Manager announces that it is now available in AWS Asia
+      Pacific (New Zealand) Region. AWS Firewall Manager helps cloud security administrators
+      and site reliability engineers protect applications while reducing the operational
+      overhead of manually configuring and managing rules.<br /> <br /> Working with
+      AWS Firewall Manager, customers can provide defense in depth policies to address
+      the full range of AWS security services for customers hosting their applications
+      and workloads in AWS Taipei. Customers wishing to establish secured assets using
+      AWS WAF can create and maintain security policies with AWS Firewall Manager.<br
+      /> <br /> To learn more about how AWS Firewall Manager works, see the AWS Firewall
+      Manager <a href="https://docs.aws.amazon.com/waf/latest/developerguide/fms-chapter.html">documentation</a>
+      for more details and the <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
+      Region Table</a> for the list of regions where AWS Firewall Manager is currently
+      available. To learn more about AWS Firewall Manager, its features, and its pricing,
+      visit the <a href="https://aws.amazon.com/firewall-manager/">AWS Firewall Manager
+      website</a>.</p>
+last_updated: '2026-03-13T23:24:32.460176'
