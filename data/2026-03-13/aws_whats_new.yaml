@@ -21,4 +21,28 @@ entries:
       Region Table</a>. For more information, please see the AWS Network Firewall
       <a href="https://aws.amazon.com/network-firewall/">product page</a> and the
       service <a href="https://docs.aws.amazon.com/network-firewall/latest/developerguide/">documentation</a>.</p>
-last_updated: '2026-03-13T17:31:56.534844'
+  327bd02eb4e33fd282407bd2463beeb4:
+    id: 327bd02eb4e33fd282407bd2463beeb4
+    title: AWS Lambda Managed Instances now supports Rust
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-lambda-managed-instances-rust/
+    published: '2026-03-13'
+    summary: <p>AWS Lambda Managed Instances now supports Rust, enabling developers
+      to run high-performance Rust-based functions on Lambda-managed Amazon EC2 instances
+      while maintaining Lambda’s operational simplicity. This combination makes it
+      easier than ever to run performance-critical applications without the complexity
+      of managing servers.<br /> <br /> Lambda Managed Instances gives Lambda developers
+      access to specialized compute configurations, including the latest-generation
+      processors and high-bandwidth networking. Lambda Managed Instances are fully
+      managed EC2 instances, with built-in routing, load-balancing and auto-scaling,
+      with no operational overhead. They combine Lambda’s serverless experience with
+      EC2 pricing advantages including Compute Savings Plans and Reserved Instances.
+      Rust support for Lambda Managed Instances combines these benefits with the performance
+      and efficiency of Rust, including parallel request processing within each execution
+      environment. Together, using Lambda Managed Instances with Rust maximizes utilization
+      and price-performance.<br /> <br /> Rust support for Lambda Managed Instances
+      is available today in all AWS Regions where Lambda Managed Instances is available.<br
+      /> <br /> To get started with Rust on Lambda Managed Instances, see the <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-managed-instances-rust.html"
+      target="_blank">Lambda documentation</a>. To learn more about more about this
+      release, see the <a href="https://github.com/aws/aws-lambda-rust-runtime/releases/tag/lambda_runtime-v1.1.1"
+      target="_blank">release notes</a>.</p>
+last_updated: '2026-03-13T19:28:37.507939'
