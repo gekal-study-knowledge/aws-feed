@@ -231,4 +231,27 @@ entries:
       >AWS CloudFormation</a> is supported.</p> \n<p>To get started with CDK Mixins,\
       \ visit the <a href=\"https://docs.aws.amazon.com/cdk/v2/guide/mixins.html\"\
       >AWS documentation</a>.</p>"
-last_updated: '2026-03-13T04:09:42.800838'
+  d75c877cc25166f2ada8c1b02db68ca4:
+    id: d75c877cc25166f2ada8c1b02db68ca4
+    title: OpenSearch UI supports Cross Account Data Access to OpenSearch domains
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/opensearch-ui-cross-account-data-access-domains/
+    published: '2026-03-12'
+    summary: <p>Amazon OpenSearch Service now supports cross-account data access,
+      enabling users to access OpenSearch domains hosted in different AWS accounts
+      from within a single OpenSearch UI application. With this feature, you can query
+      or build dashboard with data from OpenSearch domains across different accounts
+      in the same region - without switching to a new endpoint or replicating data.
+      Cross-account data access is available for OpenSearch domains hosted in both
+      public and Virtual Private Cloud (VPC) configurations.<br /> <br /> With cross-account
+      data access, teams no longer need to consolidate data into a single account
+      or maintain costly data pipelines to enable unified analysis across organizational
+      boundaries. This makes it easier to build centralized observability, search,
+      and security analytics workflows that span multiple AWS accounts while keeping
+      data in place and maintaining each account's access controls. Cross-account
+      data access supports both IAM (including SAML via IAM federation) and IAM Identity
+      Center (IdC) for end user authentication.<br /> <br /> Cross-account data access
+      to OpenSearch domains is available in all AWS Regions where OpenSearch UI is
+      available. To learn more, see <a href="https://docs.aws.amazon.com/opensearch-service/latest/developerguide/application-cross-account-data-access-domains.html">Cross-account
+      data access to OpenSearch domains</a> in the Amazon OpenSearch Service Developer
+      Guide.</p>
+last_updated: '2026-03-13T06:48:07.340437'
