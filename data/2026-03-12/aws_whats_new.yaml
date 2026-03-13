@@ -254,4 +254,25 @@ entries:
       available. To learn more, see <a href="https://docs.aws.amazon.com/opensearch-service/latest/developerguide/application-cross-account-data-access-domains.html">Cross-account
       data access to OpenSearch domains</a> in the Amazon OpenSearch Service Developer
       Guide.</p>
-last_updated: '2026-03-13T06:48:07.340437'
+  ee545fc56be4c0b4494acb555bfe882d:
+    id: ee545fc56be4c0b4494acb555bfe882d
+    title: New LZA MCP Server for AI-assisted configuration management
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/new-lza-mcp-server-ai-assisted/
+    published: '2026-03-12'
+    summary: "<p>The <a href=\"https://aws.amazon.com/solutions/implementations/landing-zone-accelerator-on-aws/\"\
+      >Landing Zone Accelerator on AWS</a> (LZA) Model Context Protocol (MCP) Server\
+      \ is now open source, enabling organizations to manage LZA deployments through\
+      \ natural language conversations with AI assistants.<br /> <br /> Using the\
+      \ new LZA MCP Server, you can streamline configuration tasks that previously\
+      \ required time-intenstive manual work. The LZA MCP Server provides 20 specialized\
+      \ tools that help you search documentation across multiple LZA versions, manage\
+      \ configurations, monitor pipelines, and surface actionable insights when deployment\
+      \ failures occur.<br /> <br /> The server operates as a containerized MCP endpoint\
+      \ compatible with IDEs including Kiro, Amazon Q Developer, and Claude Code,\
+      \ using temporary credentials following AWS security best practices.<br /> <br\
+      \ /> The LZA MCP Server is open source and available now. Visit the <a href=\"\
+      https://github.com/awslabs/lza-mcp-server\">AWS Labs GitHub repository </a>to\
+      \ view the source, download, and get started. The LZA MCP Server is available\
+      \ in all commercial AWS Regions and&nbsp;AWS GovCloud (US) Regions where Landing\
+      \ Zone Accelerator is supported.</p> \n<p>&nbsp;</p>"
+last_updated: '2026-03-13T14:49:00.456414'
