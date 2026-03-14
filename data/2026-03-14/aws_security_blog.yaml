@@ -1,0 +1,13 @@
+entries:
+  d943e5e096313f86cd26adca60b03cb5:
+    id: d943e5e096313f86cd26adca60b03cb5
+    title: Deploy AWS applications and access AWS accounts across multiple Regions
+      with IAM Identity Center
+    link: https://aws.amazon.com/blogs/security/deploy-aws-applications-and-access-aws-accounts-across-multiple-regions-with-iam-identity-center/
+    published: '2026-03-14'
+    summary: If your organization relies on AWS IAM Identity Center for workforce
+      access, you can now extend that access across multiple AWS Regions with multi-Region
+      replication. Previously, AWS access portal was only available in one Region,
+      when you add an additional Region, users get an active access portal endpoint
+      there. If the primary Region experiences a […]
+last_updated: '2026-03-14T21:23:04.774197'
