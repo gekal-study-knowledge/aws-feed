@@ -47,4 +47,32 @@ entries:
       Canada (Central), Europe (Frankfurt), and Europe (London) <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">regions</a>.
       To learn more and get started, please refer to the help <a href="https://docs.aws.amazon.com/connect/latest/adminguide/agent-forward-email.html">documentation</a>
       or visit the <a href="https://aws.amazon.com/connect/">Amazon Connect</a> website.</p>
-last_updated: '2026-03-16T19:04:33.978922'
+  e6ff0281be2d7a6fc40a7f4251bc8277:
+    id: e6ff0281be2d7a6fc40a7f4251bc8277
+    title: Announcing AWS Partner Central agents to accelerate co-sell
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-partner-central-agents-accelerate-co-sell/
+    published: '2026-03-16'
+    summary: "<p>Today, AWS announces the general availability of AWS Partner Central\
+      \ agents, new AI-powered capabilities designed to accelerate partner co-selling\
+      \ with AWS. Built on Amazon Bedrock AgentCore, these agentic capabilities work\
+      \ alongside partner sales teams to shorten sales cycles and simplify funding\
+      \ access. AWS Partners can engage with these agentic capabilities directly in\
+      \ the console or programmatically through Model Context Protocol (MCP), enabling\
+      \ sales teams to access from within their own customer relationship management\
+      \ (CRM) systems.</p> \n<p>With AWS Partner Central agents, partner teams get\
+      \ pipeline insights, tailored sales plays, and next-step recommendations on\
+      \ demand, so they know where to focus and what to do next. Partner sales teams\
+      \ can share meeting transcripts, notes, or emails with agents that automatically\
+      \ populate fields and advance deals, so they stay focused on selling, not data\
+      \ entry. Agents recommend funding at the opportunity level, highlight eligibility\
+      \ gaps, and create pre-populated fund requests, so partners capture available\
+      \ funding faster.</p> \n<p>AWS Partner Central agents are available today in\
+      \ all commercial AWS Regions. To learn more about agentic capabilities in AWS\
+      \ Partner Central, review this <a href=\"https://aws.amazon.com/blogs/apn/introducing-aws-partner-central-agents/\"\
+      \ target=\"_blank\">blog</a>. Partners can start using agents by visiting AWS\
+      \ Partner Central in the AWS console and accessing opportunities, after reviewing\
+      \ the <a href=\"https://docs.aws.amazon.com/partner-central/latest/sales-guide/partner-cosell-agent.html\"\
+      \ target=\"_blank\">agents guide</a>, and to integrate agents into your own\
+      \ CRM, visit the <a href=\"https://docs.aws.amazon.com/partner-central/latest/APIReference/partner-central-mcp-server.html\"\
+      \ target=\"_blank\">Partner Central agents MCP server guide</a>.</p>"
+last_updated: '2026-03-16T20:34:59.588361'
