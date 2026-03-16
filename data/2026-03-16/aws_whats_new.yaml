@@ -75,4 +75,25 @@ entries:
       \ target=\"_blank\">agents guide</a>, and to integrate agents into your own\
       \ CRM, visit the <a href=\"https://docs.aws.amazon.com/partner-central/latest/APIReference/partner-central-mcp-server.html\"\
       \ target=\"_blank\">Partner Central agents MCP server guide</a>.</p>"
-last_updated: '2026-03-16T20:34:59.588361'
+  6a37227736cbe24d1ac2868b8f9b428a:
+    id: 6a37227736cbe24d1ac2868b8f9b428a
+    title: Amazon SimpleDB now supports exporting domain data to Amazon S3
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-simpledb-domain-export-to-amazon-s3/
+    published: '2026-03-16'
+    summary: "<p>Amazon SimpleDB now supports exporting domain data directly to Amazon\
+      \ S3 buckets in standard JSON format. Exports run in the background with no\
+      \ impact on database performance, making it simple to migrate data to other\
+      \ systems or meet data archival requirements.</p> \n<p>The export tool offers\
+      \ features including cross-region and cross-account support, multiple encryption\
+      \ options, and flexible S3 bucket configuration. Key use cases include migrating\
+      \ data for long-term archival or compliance purposes. The tool provides three\
+      \ new APIs (StartDomainExport, GetExport, and ListExports) with built-in rate\
+      \ limiting of 5 exports per domain and 25 per account within 24 hours. There\
+      \ is no charge to use this tool. However, standard data transfer charges apply.&nbsp;</p>\
+      \ \n<p>&nbsp;The export tool is available in all regions where Amazon SimpleDB\
+      \ is available. You can get started with the export tool by using the AWS API\
+      \ or CLI. For more information, see the&nbsp;<a href=\"https://docs.aws.amazon.com/AmazonSimpleDB/latest/DeveloperGuide/WorkingWithDomainsExport.html\"\
+      \ target=\"_blank\"><u>Amazon SimpleDB documentation</u></a>&nbsp;or the&nbsp;<a\
+      \ href=\"https://aws.amazon.com/blogs/database/export-amazon-simpledb-domain-data-to-amazon-s3/\"\
+      \ target=\"_blank\"><u>AWS Database Blog</u></a><u>.</u></p>"
+last_updated: '2026-03-16T21:35:22.641104'
