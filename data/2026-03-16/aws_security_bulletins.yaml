@@ -1,0 +1,28 @@
+entries:
+  30964cf283b8e0932cec5d177f5aa553:
+    id: 30964cf283b8e0932cec5d177f5aa553
+    title: CVE-2026-4270 - AWS API MCP File Access Restriction Bypass
+    link: https://aws.amazon.com/security/security-bulletins/rss/2026-007-aws/
+    published: '2026-03-16'
+    summary: "<p><b>Bulletin ID:</b> 2026-007-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+      \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/03/16\
+      \ 09:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS API MCP Server\
+      \ is an open source Model Context Protocol (MCP) server that enables AI assistants\
+      \ to interact with AWS services and resources through AWS CLI commands. It provides\
+      \ programmatic access to manage your AWS infrastructure while maintaining proper\
+      \ security controls.</p> \n<p>This server acts as a bridge between AI assistants\
+      \ and AWS services, allowing you to create, update, and manage AWS resources\
+      \ across all available services. The server includes a configurable file access\
+      \ feature that controls how AWS CLI commands interact with the local file system.\
+      \ By default, file operations are restricted to a designated working directory\
+      \ (workdir), but this can be configured to allow unrestricted file system access\
+      \ (unrestricted) or to block all local file path arguments entirely (no-access).</p>\
+      \ \n<p>We identified CVE-2026-4270: Improper Protection of Alternate Path exists\
+      \ in the no-access and workdir feature of the AWS API MCP Server versions &gt;=\
+      \ 0.2.14 and &lt; 1.3.9 on all platforms may allow the bypass of intended file\
+      \ access restriction and expose arbitrary local file contents in the MCP client\
+      \ application context.</p> \n<p><b>Impacted versions:</b> awslabs.aws-api-mcp-server\
+      \ &gt;= 0.2.14, &lt; 1.3.9</p> \n<p><b>Please refer to the article below for\
+      \ the most up-to-date and complete information related to this AWS Security\
+      \ Bulletin.</b></p>"
+last_updated: '2026-03-16T17:57:08.442434'
