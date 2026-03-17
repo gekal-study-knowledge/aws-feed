@@ -89,4 +89,113 @@ entries:
       \ Europe (Ireland), Europe (London), Europe (Paris), and Europe (Stockholm).</p>\
       \ \n<p>To learn more, see <a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-execute-command.html\"\
       >Execute shell commands in AgentCore Runtime</a>.</p>"
-last_updated: '2026-03-17T21:34:19.831496'
+  db05f93a2caa29f8c3d830d6ab97d618:
+    id: db05f93a2caa29f8c3d830d6ab97d618
+    title: Amazon SageMaker Unified Studio supports aggregated view of data lineage
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sageMaker-unified-studio-aggregated-view
+      -data-lineage/
+    published: '2026-03-17'
+    summary: <p><a href="https://aws.amazon.com/sagemaker/unified-studio/">Amazon
+      SageMaker Unified Studio</a> now provides an aggregated view of data lineage,
+      displaying all jobs contributing to your dataset. The aggregated view gives
+      you a complete picture of data transformations and dependencies across your
+      entire lineage graph, helping you quickly identify all upstream sources and
+      downstream consumers of your datasets.<br /> <br /> Previously, SageMaker Unified
+      Studio showed the lineage graph as it existed at a specific point in time, which
+      is useful for troubleshooting and investigating specific data processing events.
+      The aggregated view now provides a complete picture of data transformations
+      and dependencies across multiple levels of the lineage graph. You can use this
+      view to understand the full scope of jobs impacting your datasets and to identify
+      all upstream sources and downstream consumers.<br /> <br /> The aggregated view
+      is available as the default lineage view in Amazon SageMaker Unified Studio
+      for IdC-based domains. You can switch to the previous view by toggling the "display
+      in event timestamp order" option. You can also query the lineage graph using
+      the new QueryGraph API, which provides lineage node graphs with metadata and
+      augmented business context.<br /> <br /> Aggregated view of lineage is available
+      in all existing Amazon SageMaker Unified Studio <a href="https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/supported-regions.html">regions</a>.
+      For detailed information on how to get started with lineage using these new
+      features, refer to the <a href="https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/aggregated-lineage-view.html">documentation</a>
+      and <a href="https://docs.aws.amazon.com/boto3/latest/reference/services/datazone/paginator/QueryGraph.html">API</a>.</p>
+  b8c699405c453671b0994d0b26379d04:
+    id: b8c699405c453671b0994d0b26379d04
+    title: AWS Blu Insights is now AWS Transform for mainframe refactor
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-transform-mainframe-refactor/
+    published: '2026-03-17'
+    summary: <p>AWS Blu Insights capabilities are now available as part of AWS Transform,
+      enabling customers to launch mainframe refactoring projects from the AWS Transform
+      console. This launch unifies all three mainframe modernization patterns — refactor,
+      replatform, and reimagine — within AWS Transform for mainframe. Code transformation
+      is now offered at no cost, replacing the previous lines-of-code based pricing
+      model.<br /> <br /> With this launch, you can access AWS Transform for mainframe
+      refactor directly from the AWS Transform console using your existing AWS credentials.
+      The mandatory three-level certification requirement to access the Transformation
+      Center has been removed, lowering the friction to exploring refactor projects.
+      Self-paced training content remains available within the application for those
+      who want to build deeper knowledge.<br /> <br /> AWS Transform for mainframe
+      refactor is available in <a href="https://bluinsights.aws/docs/faq-account-multi-region">18
+      AWS Regions</a>. In regions where AWS Transform for mainframe is not yet available,
+      you can continue to access the service through the AWS Mainframe Modernization
+      console.<br /> <br /> To get started, visit the AWS Transform for mainframe
+      refactor <a href="https://bluinsights.aws/docs/quick-start-get-started">user
+      guide</a>.</p>
+  4e0c3fd0643d6059867c0de46d083bc0:
+    id: 4e0c3fd0643d6059867c0de46d083bc0
+    title: Amazon Corretto 26 is now generally available
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-corretto-26-generally-available/
+    published: '2026-03-17'
+    summary: "<p>Amazon Corretto 26, a Feature Release (FR) version, is now available\
+      \ for download. <a href=\"https://aws.amazon.com/corretto/\">Amazon Corretto</a>\
+      \ is a no-cost, multi-platform, production-ready distribution of <a href=\"\
+      https://aws.amazon.com/blogs/opensource/amazon-corretto-no-cost-distribution-openjdk-long-term-support/\"\
+      >OpenJDK</a>. You can download Corretto 26 for Linux, Windows, and macOS from\
+      \ our <a href=\"https://docs.aws.amazon.com/corretto/latest/corretto-26-ug/downloads-list.html\"\
+      >downloads page</a>. Corretto 26 will be supported through October 2026.<br\
+      \ /> </p> \n<ul> \n <li><b>HTTP/3 Support</b> - Java applications can now use\
+      \ the latest HTTP/3 protocol, which is faster and more efficient than older\
+      \ HTTP versions (JEP 517)</li> \n <li><b>Ahead-of-Time Object Caching</b> -\
+      \ Applications can start up faster by pre-caching commonly used objects, working\
+      \ with any garbage collector (JEP 516)</li> \n <li><b>Enhanced Pattern Matching</b>\
+      \ - Developers can write cleaner code when checking types and values, now including\
+      \ support for primitive types like int and boolean (JEP 530)</li> \n <li><b>Making\
+      \ Final Mean Final</b> - Starts warning when code uses reflection to modify\
+      \ final fields, preparing for a future release where final fields will truly\
+      \ be immutable. This change improves both program safety and enables better\
+      \ optimizations like constant folding (JEP 500)</li> \n <li><b>Structured Concurrency\
+      \ (continued preview) </b>- Introduces API for structured concurrency, treating\
+      \ groups of related tasks running in different threads as single units of work,\
+      \ streamlining error handling and cancellation, improving reliability, and enhancing\
+      \ observability (JEP 525)</li> \n <li><b>Vector API (continued incubator)</b>\
+      \ - Improved support for high-performance mathematical operations that can take\
+      \ advantage of modern CPU capabilities (JEP 529)</li> \n <li><b>Lazy Constants\
+      \ (continued preview)</b> - Provides API to defer initialization of immutable\
+      \ data until it is actually needed, combining the performance benefits of final\
+      \ fields with the flexibility of lazy initialization (JEP 526)</li> \n</ul>\
+      \ \n<p>A detailed description of these features can be found on the <a href=\"\
+      https://openjdk.org/projects/jdk/26/\">OpenJDK 26 Project page</a>. Amazon Corretto\
+      \ 26 is distributed by Amazon under an <a href=\"https://openjdk.org/legal/gplv2+ce.html\"\
+      >open source license</a>.</p>"
+  57a80088249ac658995deb9a4194646c:
+    id: 57a80088249ac658995deb9a4194646c
+    title: Amazon RDS enhancements for SQL Server Developer Edition
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-enhancements-for-sql-server-developer-edition/
+    published: '2026-03-17'
+    summary: <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
+      Relational Database Service (Amazon RDS) for SQL Server</a> now supports Additional
+      Storage Volumes, Resource Governor, and SQL Server 2019 with SQL Server Developer
+      Edition. SQL Server Developer Edition is an ideal choice to build and test applications
+      because it includes all the functionality of Enterprise edition, and is free
+      of license charges for use as a development and test system, not as production
+      server. <br /> <br /> You can use Additional Storage Volumes to your Amazon
+      RDS for SQL Server Developer Edition instances, which provide you up to 256
+      TiB, 4X more storage. You can also use SQL Server Resource Governor, which lets
+      you manage workload and resource consumption by defining resource pools and
+      workload groups to control CPU and memory usage, enabling more realistic performance
+      testing. Amazon RDS for SQL Server Developer Edition now also supports SQL Server
+      2019 (CU32 GDR - 15.0.4455.2), so you can match the SQL Server version used
+      in your development and testing environments with what you use for your production
+      environment.<br /> <br /> For more information about these features and region
+      availability, see <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/sqlserver-dev-edition.html"
+      target="_blank">Working with SQL Server Developer Edition on RDS for SQL Server</a>.
+      For pricing details, see <a href="https://aws.amazon.com/rds/sqlserver/pricing/"
+      target="_blank">Amazon RDS for SQL Server Pricing</a>.</p>
+last_updated: '2026-03-17T22:29:25.958762'
