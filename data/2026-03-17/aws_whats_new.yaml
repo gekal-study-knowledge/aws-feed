@@ -198,4 +198,21 @@ entries:
       target="_blank">Working with SQL Server Developer Edition on RDS for SQL Server</a>.
       For pricing details, see <a href="https://aws.amazon.com/rds/sqlserver/pricing/"
       target="_blank">Amazon RDS for SQL Server Pricing</a>.</p>
-last_updated: '2026-03-17T22:29:25.958762'
+  a26ba61bd1b5816eac6620133f65ffe4:
+    id: a26ba61bd1b5816eac6620133f65ffe4
+    title: Simplified permissions for Amazon S3 Tables and Iceberg materialized views
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/gdc-simplified-permissions-s3tables-iceberg-views/
+    published: '2026-03-17'
+    summary: <p>AWS Glue Data Catalog now supports AWS IAM-based authorization for
+      Amazon S3 Tables and Apache Iceberg materialized views. With IAM-based authorization,
+      you can define all necessary permissions across storage, catalog, and query
+      engines in a single IAM policy.<br /> <br /> This capability simplifies the
+      integration of S3 Tables or materialized views with any AWS Analytics service,
+      including Amazon Athena, Amazon EMR, Amazon Redshift, and AWS Glue. You can
+      also opt in to AWS Lake Formation at any time to manage fine-grained access
+      controls using the AWS Management Console, AWS CLI, API, and AWS CloudFormation.<br
+      /> <br /> This feature is now available in select AWS Regions. To learn more,
+      visit the <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-integration-overview.html"
+      target="_blank">S3 Tables documentation</a> and the <a href="https://docs.aws.amazon.com/glue/latest/dg/glue-federation-s3tables.html"
+      target="_blank">AWS Glue Data Catalog documentation</a>.</p>
+last_updated: '2026-03-17T23:28:48.184753'
