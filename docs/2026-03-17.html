@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Updates - 2026-03-17</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AWS Updates Feed</h1>
+            <p class="subtitle"><a href="index.html">← トップに戻る</a></p>
+        </header>
+        <main class="report-content">
+            <h1>AWS Updates - 2026-03-17</h1>
+
+<h2>AWS What's New</h2>
+
+<h3>SageMaker Training Plans now enables extending of existing capacity commitments without workload reconfiguration</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-training-plan-extension/">https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-training-plan-extension/</a></li>
+<li><strong>Published</strong>: 2026-03-17</li>
+</ul>
+
+<p><p><a href="https://docs.aws.amazon.com/sagemaker/latest/dg/reserve-capacity-with-training-plans.html">SageMaker Training Plans</a> allows you to reserve GPU capacity within specified time frames in cluster sizes of up to 64 instances. Today, Amazon SageMaker AI announces that Training Plans can now be extended when your AI workloads take longer than anticipated, ensuring uninterrupted access to capacity. You can extend plans by 1-day increments up to 14 days, or 7-day increments up to 182 days (26 weeks). Extensions can be initiated via API or the SageMaker console. Once the extension is purchased the workload continues to run un-interrupted without you needing to reconfgure the workload.<br /> <br /> SageMaker AI helps you create the most cost-efficient training plans that fits within your timeline and AI budget. Once you create and purchase your training plans, SageMaker automatically provisions the infrastructure and runs the AI workloads on these compute resources without requiring any manual intervention. See the <a href="https://aws.amazon.com/sagemaker/ai/pricing/">SageMaker AI pricing page</a> for a detailed breakdown of instance availability by AWS Region.<br /> <br /> To learn more about training plan extensions, see the <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/reserve-capacity-with-training-plans.html">Amazon SageMaker Training Plans User Guide</a></p></p>
+
+<hr>
+
+<h3>Amazon MSK expands Express brokers to Africa (Cape Town) and Asia Pacific (Taipei) regions</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-express-2-new-aws-regions/">https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-express-2-new-aws-regions/</a></li>
+<li><strong>Published</strong>: 2026-03-17</li>
+</ul>
+
+<p><p>You can now create provisioned&nbsp;<a href="https://aws.amazon.com/msk/">Amazon Managed Streaming for Apache Kafka (Amazon MSK)</a>&nbsp;clusters with Express brokers in Africa (Cape Town) and Asia Pacific (Taipei) regions.</p> 
+<p>Express brokers are a new broker type for Amazon MSK Provisioned designed to deliver up to 3x more throughput per broker, scale up to 20x faster, and reduce recovery time by 90% as compared to standard Apache Kafka brokers. Express brokers come pre-configured with Kafka best practices by default, support all Kafka APIs, and provide the same low-latency performance that Amazon MSK customers expect, so they can continue using existing client applications without any changes.</p> 
+<p>To get started, create a new cluster with Express brokers through the Amazon MSK console or the Amazon CLI and read our&nbsp;<a href="https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html">Amazon MSK Developer Guide</a>&nbsp;for more information.</p></p>
+
+<hr>
+
+<h3>Amazon Bedrock is now available in Asia Pacific (New Zealand)</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-asia-pacific-new-zealand/">https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-asia-pacific-new-zealand/</a></li>
+<li><strong>Published</strong>: 2026-03-17</li>
+</ul>
+
+<p><p>Starting today, customers can use Amazon Bedrock in the Asia Pacific (New Zealand) Region to easily build and scale generative AI applications using a variety of foundation models (FMs) as well as powerful tools to build generative AI applications.<br /> <br /> Amazon Bedrock is a fully managed service that offers a choice of high-performing large language models (LLMs) and other FMs from&nbsp;<a href="https://docs.aws.amazon.com/bedrock/latest/userguide/models.html">leading AI companies</a>&nbsp;like AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, OpenAI,&nbsp;Stability AI, as well as Amazon via a single API. Amazon Bedrock also provides a broad set of capabilities customers need to build generative AI applications with security, privacy, and responsible AI built in. These capabilities help you build tailored applications for multiple use cases across different industries, helping organizations unlock sustainable growth from generative AI while maintaining privacy and security.<br /> <br /> With this launch, customers can now use models from Anthropic (Sonnet 4.5, Sonnet 4.6, Opus 4.5, Opus 4.6, Haiku 4.5) and Amazon (Nova 2 Lite) in New Zealand with cross region inference.<br /> <br /> To get started, visit the&nbsp;<a href="https://aws.amazon.com/bedrock/">Amazon Bedrock page</a>&nbsp;and see the&nbsp;<a href="https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html">Amazon Bedrock documentation</a>&nbsp;for more details.</p></p>
+
+<hr>
+
+<h2>AWS Security Bulletins</h2>
+
+<h3>Arbitrary code execution via crafted project files in Kiro IDE</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/security/security-bulletins/rss/2026-009-aws/">https://aws.amazon.com/security/security-bulletins/rss/2026-009-aws/</a></li>
+<li><strong>Published</strong>: 2026-03-17</li>
+</ul>
+
+<p><p><b>Bulletin ID:</b> 2026-009-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/03/17 12:15 PM PDT</p> 
+<p><b>Description:</b></p> 
+<p>Kiro is an AI-powered IDE for agentic software development. We identified CVE-2026-4295, where improper trust boundary enforcement allowed arbitrary code execution when a user opened a maliciously crafted project directory.</p> 
+<p><b>Impacted versions:</b> &lt; 0.8.0</p> 
+<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p></p>
+
+<hr>
+
+
+        </main>
+        <footer>
+            <p>自動更新: 1時間ごと | <a href="https://github.com/gekal-study-knowledge/aws-feed" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>

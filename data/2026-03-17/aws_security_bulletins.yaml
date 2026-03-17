@@ -1,0 +1,15 @@
+entries:
+  8c1b1a1bc08a15517b780b7bbfbac03b:
+    id: 8c1b1a1bc08a15517b780b7bbfbac03b
+    title: Arbitrary code execution via crafted project files in Kiro IDE
+    link: https://aws.amazon.com/security/security-bulletins/rss/2026-009-aws/
+    published: '2026-03-17'
+    summary: "<p><b>Bulletin ID:</b> 2026-009-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+      \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/03/17\
+      \ 12:15 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Kiro is an AI-powered IDE\
+      \ for agentic software development. We identified CVE-2026-4295, where improper\
+      \ trust boundary enforcement allowed arbitrary code execution when a user opened\
+      \ a maliciously crafted project directory.</p> \n<p><b>Impacted versions:</b>\
+      \ &lt; 0.8.0</p> \n<p><b>Please refer to the article below for the most up-to-date\
+      \ and complete information related to this AWS Security Bulletin.</b></p>"
+last_updated: '2026-03-17T19:54:36.849443'
