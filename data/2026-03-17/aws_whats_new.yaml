@@ -64,4 +64,29 @@ entries:
       started, visit the&nbsp;<a href="https://aws.amazon.com/bedrock/">Amazon Bedrock
       page</a>&nbsp;and see the&nbsp;<a href="https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html">Amazon
       Bedrock documentation</a>&nbsp;for more details.</p>
-last_updated: '2026-03-17T19:54:36.206486'
+  a35298d51ff6cb7211e945ecfc62c9a5:
+    id: a35298d51ff6cb7211e945ecfc62c9a5
+    title: Amazon Bedrock AgentCore Runtime now supports shell command execution
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/bedrock-agentcore-runtime-shell-command/
+    published: '2026-03-17'
+    summary: "<p>Amazon Bedrock AgentCore Runtime now supports InvokeAgentRuntimeCommand,\
+      \ a new API that lets you execute shell commands directly inside a running AgentCore\
+      \ Runtime session. Developers can send a command, stream the output in real\
+      \ time over HTTP/2, and receive the exit code — without building custom command\
+      \ execution logic in their containers.</p> \n<p>AI agents often operate in workflows\
+      \ where deterministic operations such as running tests, installing dependencies,\
+      \ or executing git commands need to run alongside LLM-powered reasoning. Previously,\
+      \ developers had to build custom logic inside their containers to distinguish\
+      \ agent invocations from shell commands, spawn child processes, capture stdout\
+      \ and stderr, and handle timeouts. InvokeAgentRuntimeCommand eliminates this\
+      \ undifferentiated work by providing a platform-level API for command execution.\
+      \ Commands run inside the same container, filesystem, and environment as the\
+      \ agent session, and can execute concurrently with agent invocations without\
+      \ blocking.</p> \n<p>Executing shell commands in AgentCore Runtime is supported\
+      \ across fourteen AWS Regions: US East (N. Virginia), US East (Ohio), US West\
+      \ (Oregon), Asia Pacific (Mumbai), Canada (Central), Asia Pacific (Seoul), Asia\
+      \ Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Europe (Frankfurt),\
+      \ Europe (Ireland), Europe (London), Europe (Paris), and Europe (Stockholm).</p>\
+      \ \n<p>To learn more, see <a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-execute-command.html\"\
+      >Execute shell commands in AgentCore Runtime</a>.</p>"
+last_updated: '2026-03-17T21:34:19.831496'
