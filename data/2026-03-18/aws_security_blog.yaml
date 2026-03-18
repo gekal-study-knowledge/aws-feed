@@ -1,0 +1,14 @@
+entries:
+  39c4973d1f0ac9935992035fce180868:
+    id: 39c4973d1f0ac9935992035fce180868
+    title: Amazon threat intelligence teams identify Interlock ransomware campaign
+      targeting enterprise firewalls
+    link: https://aws.amazon.com/blogs/security/amazon-threat-intelligence-teams-identify-interlock-ransomware-campaign-targeting-enterprise-firewalls/
+    published: '2026-03-18'
+    summary: Amazon threat intelligence has identified an active Interlock ransomware
+      campaign exploiting CVE-2026-20131, a critical vulnerability in Cisco Secure
+      Firewall Management Center (FMC) Software that could allow an unauthenticated,
+      remote attacker to execute arbitrary Java code as root on an affected device,
+      which was disclosed by Cisco on March 4, 2026. After Cisco’s disclosure, Amazon
+      threat […]
+last_updated: '2026-03-18T16:12:48.586187'
