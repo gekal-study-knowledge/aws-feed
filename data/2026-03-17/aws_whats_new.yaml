@@ -215,4 +215,23 @@ entries:
       visit the <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-integration-overview.html"
       target="_blank">S3 Tables documentation</a> and the <a href="https://docs.aws.amazon.com/glue/latest/dg/glue-federation-s3tables.html"
       target="_blank">AWS Glue Data Catalog documentation</a>.</p>
-last_updated: '2026-03-17T23:28:48.184753'
+  3684834c3841fd009d960cd6c45c11d1:
+    id: 3684834c3841fd009d960cd6c45c11d1
+    title: Amazon Connect voice AI agents now supports 13 new languages
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-voice-ai-agents-13-languages/
+    published: '2026-03-17'
+    summary: "<p>Amazon Connect now supports 13 new languages for voice AI agents,\
+      \ bringing the total to 40 language locales.&nbsp;&nbsp;New languages include\
+      \ Arabic (Saudi Arabia), Czech, Danish, Dutch (Belgium), English (Ireland),\
+      \ English (New Zealand), English (Wales), German (Switzerland), Icelandic, Romanian,\
+      \ Spanish (Mexico), Turkish, and Welsh.</p> \n<p>Amazon&nbsp;Connect's&nbsp;agentic\
+      \ self-service capabilities enable AI agents to understand, reason, and&nbsp;take\
+      \ action&nbsp;across voice and digital channels to automate routine and complex\
+      \ customer service tasks&nbsp;across multiple languages.&nbsp;&nbsp;</p> \n\
+      <p>To learn more about this feature, see the Amazon Connect&nbsp;<a href=\"\
+      https://docs.aws.amazon.com/connect/latest/adminguide/what-is-amazon-connect.html\"\
+      >Administrator Guide</a>.&nbsp;To&nbsp;learn more about Amazon Connect,&nbsp;a&nbsp;complete\
+      \ AI-powered contact center solution delivering personalized customer experiences\
+      \ at scale, visit the&nbsp;Amazon Connect&nbsp;<a href=\"https://aws.amazon.com/connect/\"\
+      >website.</a></p>"
+last_updated: '2026-03-18T04:24:49.029513'

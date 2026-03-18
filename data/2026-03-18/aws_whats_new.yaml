@@ -1,0 +1,25 @@
+entries:
+  27ccf2c92562162db535835ed74aaedd:
+    id: 27ccf2c92562162db535835ed74aaedd
+    title: Amazon Connect expands agentic speech-to-speech voice experiences to the
+      London (Europe) region and adds three new voices
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-london-europe-region/
+    published: '2026-03-18'
+    summary: "<p>Amazon Connect now offers agentic speech-to-speech voice experiences\
+      \ in an&nbsp;additional&nbsp;AWS Region: Europe (London). Amazon Connect also\
+      \ adds three new speech-to-speech voices across US Spanish and UK English: Pedro\
+      \ (es-US), Amy (en-GB), and Brian (en-GB).</p> \n<p>Amazon&nbsp;Connect's&nbsp;agentic\
+      \ self-service capabilities enable AI agents to understand, reason, and&nbsp;take\
+      \ action&nbsp;across voice and messaging channels to automate routine and complex\
+      \ customer service tasks.&nbsp;Connect's&nbsp;agentic speech-to-speech voice\
+      \ AI agents understand not only what customers say but how they say it, adapting\
+      \ voice responses to match customer tone and sentiment while&nbsp;maintaining&nbsp;natural\
+      \ conversational pace. With these updates, you can deliver agentic speech-to-speech\
+      \ voice experiences to customers across a new region with a wider selection\
+      \ of voices.</p> \n<p>To learn more about this feature, see the Amazon Connect&nbsp;<a\
+      \ href=\"https://docs.aws.amazon.com/connect/latest/adminguide/what-is-amazon-connect.html\"\
+      >Administrator Guide</a>.&nbsp;To&nbsp;learn more about Amazon Connect, a complete\
+      \ AI-powered contact center solution delivering personalized customer experiences\
+      \ at scale, visit the&nbsp;Amazon Connect&nbsp;<a href=\"https://aws.amazon.com/connect/\"\
+      >website.</a></p>"
+last_updated: '2026-03-18T04:24:49.015022'
