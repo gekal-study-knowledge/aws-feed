@@ -81,4 +81,32 @@ entries:
       \ see the <a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html\"\
       \ target=\"_blank\">documentation</a>. OpenSearch 3.5 is now available in all\
       \ AWS Regions where Amazon OpenSearch Service is available.</p>"
-last_updated: '2026-03-18T16:12:48.024490'
+  33e96a941d7807d2fdb08fd635064969:
+    id: 33e96a941d7807d2fdb08fd635064969
+    title: Amazon Inspector expands agentless EC2 scanning and introduces Windows
+      KB-based findings
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-inspector-agentless-ec2-scanning-windows/
+    published: '2026-03-18'
+    summary: "<p>Amazon Inspector now offers expanded agentless EC2 scanning with\
+      \ enhanced detection coverage, including new support for Windows operating system\
+      \ vulnerability scanning without requiring an agent. Security teams and IT administrators\
+      \ can now detect vulnerabilities across a broader range of software and applications\
+      \ on their EC2 instances — including WordPress, Apache HTTP Server, Python packages,\
+      \ and Ruby gems — as well as Windows OS vulnerabilities, all through agentless\
+      \ scanning. Customers automatically receive findings for newly supported software\
+      \ and applications with no configuration changes required.</p> \n<p>Amazon Inspector\
+      \ is also introducing Windows Knowledge Base (KB)-based findings for Windows\
+      \ OS vulnerabilities. Rather than receiving a separate finding for each CVE\
+      \ addressed by a single Microsoft patch, customers now receive a single consolidated\
+      \ KB finding that groups all related CVEs together. Each KB finding surfaces\
+      \ the highest CVSS score, EPSS score, and exploit availability from its constituent\
+      \ CVEs, and includes a direct link to the relevant Microsoft KB article — making\
+      \ it straightforward to understand exactly which patch to apply and why. All\
+      \ existing CVE-based Windows OS findings will automatically transition to KB-based\
+      \ findings.&nbsp;All existing CVE-based Windows OS findings will automatically\
+      \ transition to KB-based findings, and customers do not need to take any additional\
+      \ action.</p> \n<p>Both capabilities are available in all AWS Regions where\
+      \ Amazon Inspector is available. To learn more, visit the <a href=\"https://aws.amazon.com/inspector/\"\
+      >Amazon Inspector product page</a>&nbsp;and the <a href=\"https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html\"\
+      >Amazon Inspector documentation</a>.&nbsp;</p>"
+last_updated: '2026-03-18T17:58:06.173545'
