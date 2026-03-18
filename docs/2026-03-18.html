@@ -68,9 +68,132 @@
 
 <hr>
 
+<h3>Amazon S3 Access Grants are now available in the AWS Asia Pacific (New Zealand) Region</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-access-grants-new-zealand/">https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-access-grants-new-zealand/</a></li>
+<li><strong>Published</strong>: 2026-03-18</li>
+</ul>
+
+<p><p>You can now create Amazon S3 Access Grants in the AWS Asia Pacific (New Zealand) Region.</p> 
+<p>Amazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals, to datasets in S3. This helps you manage data permissions at scale by automatically granting S3 access to end users based on their corporate identity.</p> 
+<p>Visit the <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-grants-limitations.html#access-grants-limitations-regions" target="_blank">AWS Region Table</a> for complete regional availability information. To learn more about Amazon S3 Access Grants, visit our <a href="https://aws.amazon.com/s3/features/access-grants/" target="_blank">product page</a>.</p></p>
+
+<hr>
+
+<h3>Amazon EC2 C8a instances now available in the Asia Pacific (Tokyo) region</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-asia-pacific-tokyo-regions/">https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-asia-pacific-tokyo-regions/</a></li>
+<li><strong>Published</strong>: 2026-03-18</li>
+</ul>
+
+<p><p>Starting today, the compute-optimized Amazon EC2 C8a instances are available in the Asia Pacific (Tokyo) region. C8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, delivering up to 30% higher performance and up to 19% better price-performance compared to C7a instances.<br /> <br /> C8a instances deliver 33% more memory bandwidth compared to C7a instances, making these instances ideal for latency sensitive workloads. Compared to Amazon EC2 C7a instances, they are up to 57% faster for GroovyJVM allowing better response times for Java-based applications. C8a instances offer 12 sizes including 2 bare metal sizes. This range of instance sizes allows customers to precisely match their workload requirements.<br /> <br /> C8a instances are built on <a href="https://aws.amazon.com/ec2/nitro/" target="_blank">AWS Nitro System</a> and are ideal for high performance, compute-intensive workloads such as batch processing, distributed analytics, high performance computing (HPC), ad serving, highly-scalable multiplayer gaming, and video encoding.<br /> <br /> To get started, sign in to the AWS Management Console. Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information visit the <a href="https://aws.amazon.com/ec2/instance-types/c8a/" target="_blank">Amazon EC2 C8a instance page.</a></p></p>
+
+<hr>
+
+<h3>AWS Config launches 75 new managed rules</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/aws-config-launches-new-rules/">https://aws.amazon.com/about-aws/whats-new/2026/02/aws-config-launches-new-rules/</a></li>
+<li><strong>Published</strong>: 2026-03-18</li>
+</ul>
+
+<p><p>AWS Config announces the launch of an additional 75 managed Config rules for various use cases such as security, durability, and operations. You can now search, discover, enable and manage these additional rules directly from AWS Config and govern more use cases for your AWS environment.<br /> <br /> With this launch, you can now enable these controls across your account or across your organization. For example, you can assess your security posture across AWS Amplify, Amazon SageMaker, Amazon Route 53, and more. Additionally, you can leverage Conformance Packs to group these new controls and deploy across an account or across organization, streamlining your multi-account governance.<br /> <br /> For the full list of recently released rules, visit the&nbsp;<a href="https://docs.aws.amazon.com/config/latest/developerguide/DocumentHistory.html" target="_blank">AWS Config developer guide</a>. For description of each rule and the AWS Regions in which it is available, please refer our&nbsp;<a href="https://docs.aws.amazon.com/config/latest/developerguide/managed-rules-by-aws-config.html" target="_blank">Config managed rules documentation</a>. To start using Config rules, please refer our&nbsp;<a href="https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_add-rules.html" target="_blank">documentation</a>.<br /> <br /> New Rules Launched:</p> 
+<ol> 
+ <li>ACM_CERTIFICATE_TRANSPARENT_LOGGING_ENABLED</li> 
+ <li>AMPLIFY_APP_BUILD_SPEC_CONFIGURED</li> 
+ <li>AMPLIFY_APP_PLATFORM_CHECK</li> 
+ <li>AMPLIFY_BRANCH_AUTO_BUILD_ENABLED</li> 
+ <li>AMPLIFY_BRANCH_BUILD_SPEC_CONFIGURED</li> 
+ <li>AMPLIFY_BRANCH_FRAMEWORK_CONFIGURED</li> 
+ <li>AMPLIFY_BRANCH_PULL_REQUEST_PREVIEW_ENABLED</li> 
+ <li>APIGATEWAY_DOMAIN_NAME_TLS_CHECK</li> 
+ <li>APIGATEWAYV2_INTEGRATION_PRIVATE_HTTPS_ENABLED</li> 
+ <li>APPINTEGRATIONS_APPLICATION_APPROVED_ORIGINS_CHECK</li> 
+ <li>APPINTEGRATIONS_APPLICATION_TAGGED</li> 
+ <li>APPMESH_MESH_IP_PREF_CHECK</li> 
+ <li>APPMESH_VIRTUAL_GATEWAY_LISTENERS_HEALTH_CHECK_ENABLED</li> 
+ <li>APPMESH_VIRTUAL_NODE_LISTENERS_HEALTH_CHECK_ENABLED</li> 
+ <li>APPMESH_VIRTUAL_NODE_LISTENERS_OUTLIER_DETECT_ENABLED</li> 
+ <li>APPMESH_VIRTUAL_NODE_SERVICE_BACKENDS_TLS_ENFORCED</li> 
+ <li>CLOUDTRAIL_EVENT_DATA_STORE_MULTI_REGION</li> 
+ <li>CLOUDWATCH_ALARM_DESCRIPTION</li> 
+ <li>CODEARTIFACT_REPOSITORY_TAGGED</li> 
+ <li>CODEBUILD_PROJECT_TAGGED</li> 
+ <li>EC2_IPAMSCOPE_TAGGED</li> 
+ <li>EC2_LAUNCHTEMPLATE_EBS_ENCRYPTED</li> 
+ <li>ECS_SERVICE_PROPAGATE_TAGS_ENABLED</li> 
+ <li>ELBV2_TARGETGROUP_HEALTHCHECK_PROTOCOL_ENCRYPTED</li> 
+ <li>ELBV2_TARGETGROUP_PROTOCOL_ENCRYPTED</li> 
+ <li>EVENTSCHEMAS_DISCOVERER_TAGGED</li> 
+ <li>EVENTSCHEMAS_REGISTRY_TAGGED</li> 
+ <li>GROUNDSTATION_CONFIG_TAGGED</li> 
+ <li>GROUNDSTATION_DATAFLOWENDPOINTGROUP_TAGGED</li> 
+ <li>GROUNDSTATION_MISSIONPROFILE_TAGGED</li> 
+ <li>HEALTHLAKE_FHIRDATASTORE_TAGGED</li> 
+ <li>IAM_OIDC_PROVIDER_CLIENT_ID_LIST_CHECK</li> 
+ <li>IAM_POLICY_DESCRIPTION</li> 
+ <li>IMAGEBUILDER_DISTRIBUTIONCONFIGURATION_TAGGED</li> 
+ <li>IMAGEBUILDER_IMAGEPIPELINE_TAGGED</li> 
+ <li>IMAGEBUILDER_IMAGERECIPE_EBS_VOLUMES_ENCRYPTED</li> 
+ <li>IMAGEBUILDER_IMAGERECIPE_TAGGED</li> 
+ <li>IMAGEBUILDER_INFRASTRUCTURECONFIGURATION_TAGGED</li> 
+ <li>KINESISVIDEO_SIGNALINGCHANNEL_TAGGED</li> 
+ <li>KINESISVIDEO_STREAM_TAGGED</li> 
+ <li>LAMBDA_FUNCTION_APPLICATION_LOG_LEVEL_CHECK</li> 
+ <li>LAMBDA_FUNCTION_LOG_FORMAT_JSON</li> 
+ <li>LAMBDA_FUNCTION_SYSTEM_LOG_LEVEL_CHECK</li> 
+ <li>LIGHTSAIL_BUCKET_OBJECT_VERSIONING_ENABLED</li> 
+ <li>MEDIAPACKAGE_PACKAGINGCONFIGURATION_TAGGED</li> 
+ <li>MEDIATAILOR_PLAYBACKCONFIGURATION_TAGGED</li> 
+ <li>MEMORYDB_SUBNETGROUP_TAGGED</li> 
+ <li>NEPTUNE_CLUSTER_SNAPSHOT_IAM_DATABASE_AUTH_ENABLED</li> 
+ <li>OPENSEARCHSERVERLESS_COLLECTION_DESCRIPTION</li> 
+ <li>OPENSEARCHSERVERLESS_COLLECTION_STANDBYREPLICAS_ENABLED</li> 
+ <li>PANORAMA_PACKAGE_TAGGED</li> 
+ <li>RDS_CLUSTER_BACKUP_RETENTION_CHECK</li> 
+ <li>RDS_GLOBAL_CLUSTER_AURORA_MYSQL_SUPPORTED_VERSION</li> 
+ <li>RESILIENCEHUB_APP_TAGGED</li> 
+ <li>RESILIENCEHUB_RESILIENCYPOLICY_TAGGED</li> 
+ <li>ROUTE53_RECOVERY_CONTROL_CLUSTER_TAGGED</li> 
+ <li>ROUTE53_RECOVERY_READINESS_CELL_TAGGED</li> 
+ <li>ROUTE53_RECOVERY_READINESS_READINESS_CHECK_TAGGED</li> 
+ <li>ROUTE53_RECOVERY_READINESS_RECOVERY_GROUP_TAGGED</li> 
+ <li>ROUTE53_RECOVERY_READINESS_RESOURCE_SET_TAGGED</li> 
+ <li>ROUTE53_RESOLVER_RESOLVER_ENDPOINT_TAGGED</li> 
+ <li>S3_DIRECTORY_BUCKET_LIFECYCLE_POLICY_RULE_CHECK</li> 
+ <li>SAGEMAKER_DATA_QUALITY_JOB_ENCRYPT_IN_TRANSIT</li> 
+ <li>SAGEMAKER_DATA_QUALITY_JOB_ISOLATION</li> 
+ <li>SAGEMAKER_FEATUREGROUP_DESCRIPTION</li> 
+ <li>SAGEMAKER_INFERENCEEXPERIMENT_TAGGED</li> 
+ <li>SAGEMAKER_MODEL_BIAS_JOB_ENCRYPT_IN_TRANSIT</li> 
+ <li>SAGEMAKER_MODEL_BIAS_JOB_ISOLATION</li> 
+ <li>SAGEMAKER_MODEL_EXPLAINABILITY_JOB_ENCRYPT_IN_TRANSIT</li> 
+ <li>SAGEMAKER_MODEL_QUALITY_JOB_ENCRYPT_TRANSIT</li> 
+ <li>SAGEMAKER_MONITORING_SCHEDULE_ISOLATION</li> 
+ <li>SIGNER_SIGNINGPROFILE_TAGGED</li> 
+ <li>TRANSFER_CONNECTOR_AS2_ENCRYPTION_ALGORITHM_CHECK</li> 
+ <li>TRANSFER_CONNECTOR_AS2_MDN_SIGNING_ALGORITHM_CHECK</li> 
+ <li>TRANSFER_CONNECTOR_AS2_SIGNING_ALGORITHM_CHECK</li> 
+</ol></p>
+
+<hr>
+
 <h2>AWS News Blog</h2>
 
 <h3>Our First 2026 Heroes Cohort Is Here!</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/blogs/aws/our-first-2026-heroes-cohort-is-here/">https://aws.amazon.com/blogs/aws/our-first-2026-heroes-cohort-is-here/</a></li>
+<li><strong>Published</strong>: 2026-03-18</li>
+</ul>
+
+<p>We’re thrilled to celebrate three exceptional developer community leaders as AWS Heroes. These individuals represent the heart of what makes the AWS community so vibrant. In addition to sharing technical knowledge, they build connections, forge genuine human relationships, and create pathways for others to grow. From pioneering cloud culture in mountain villages to leading cybersecurity […]</p>
+
+<hr>
+
+<h3>Our First 2026 AWS Heroes Cohort Is Here!</h3>
 
 <ul>
 <li><strong>Link</strong>: <a href="https://aws.amazon.com/blogs/aws/our-first-2026-heroes-cohort-is-here/">https://aws.amazon.com/blogs/aws/our-first-2026-heroes-cohort-is-here/</a></li>

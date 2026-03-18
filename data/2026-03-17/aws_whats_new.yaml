@@ -234,4 +234,54 @@ entries:
       \ AI-powered contact center solution delivering personalized customer experiences\
       \ at scale, visit the&nbsp;Amazon Connect&nbsp;<a href=\"https://aws.amazon.com/connect/\"\
       >website.</a></p>"
-last_updated: '2026-03-18T04:24:49.029513'
+  a565820d54783188d2b542c8e18dd5fb:
+    id: a565820d54783188d2b542c8e18dd5fb
+    title: AWS Elemental MediaConnect adds support for NDI® inputs
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/mediaconnect-ndi-inputs/
+    published: '2026-03-17'
+    summary: <p>Starting today, <a href="https://aws.amazon.com/mediaconnect/">AWS
+      Elemental MediaConnect </a>supports <a href="https://ndi.video/">NDI® (Network
+      Device Interface)</a> as a live video source, enabling broadcasters and live
+      production teams to ingest NDI streams and convert them to transport stream
+      outputs such as SRT for downstream distribution. NDI is a widely adopted IP
+      video technology used in live production environments and supported by more
+      than 500 hardware products and 400 software applications.<br /> <br /> With
+      this new capability, live production teams can bridge NDI-based production environments
+      with standards-based cloud distribution workflows without requiring custom transcoding
+      or protocol conversion infrastructure. For example, you can route an NDI feed
+      from an EC2 instance running NDI Tools directly into a MediaConnect flow, convert
+      it to a transport stream, and pass it downstream to AWS Elemental MediaLive
+      for transcoding and AWS Elemental MediaPackage for origin and packaging. This
+      eliminates the complexity of egressing NDI content from the AWS Cloud and enables
+      seamless integration with existing IP-based broadcast workflows.<br /> <br />
+      NDI support is available in most regions where MediaConnect is currently deployed.
+      For more information and details on pricing, please refer to the <a href="https://docs.aws.amazon.com/mediaconnect/latest/ug/sources-using-ndi.html">NDI
+      documentation</a> and the <a href="https://aws.amazon.com/mediaconnect/pricing">MediaConnect
+      pricing page</a>.</p>
+  cfaa8c191c495bc36c95c527bc07ddae:
+    id: cfaa8c191c495bc36c95c527bc07ddae
+    title: Amazon SageMaker Unified Studio supports aggregated view of data lineage
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-aggregated-lineage/
+    published: '2026-03-17'
+    summary: <p><a href="https://aws.amazon.com/sagemaker/unified-studio/">Amazon
+      SageMaker Unified Studio</a> now provides an aggregated view of data lineage,
+      displaying all jobs contributing to your dataset. The aggregated view gives
+      you a complete picture of data transformations and dependencies across your
+      entire lineage graph, helping you quickly identify all upstream sources and
+      downstream consumers of your datasets.<br /> <br /> Previously, SageMaker Unified
+      Studio showed the lineage graph as it existed at a specific point in time, which
+      is useful for troubleshooting and investigating specific data processing events.
+      The aggregated view now provides a complete picture of data transformations
+      and dependencies across multiple levels of the lineage graph. You can use this
+      view to understand the full scope of jobs impacting your datasets and to identify
+      all upstream sources and downstream consumers.<br /> <br /> The aggregated view
+      is available as the default lineage view in Amazon SageMaker Unified Studio
+      for IdC-based domains. You can switch to the previous view by toggling the "display
+      in event timestamp order" option. You can also query the lineage graph using
+      the new QueryGraph API, which provides lineage node graphs with metadata and
+      augmented business context.<br /> <br /> Aggregated view of lineage is available
+      in all existing Amazon SageMaker Unified Studio <a href="https://docs.aws.amazon.com/sagemaker-unified-studio/latest/adminguide/supported-regions.html">regions</a>.
+      For detailed information on how to get started with lineage using these new
+      features, refer to the <a href="https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/aggregated-lineage-view.html">documentation</a>
+      and <a href="https://docs.aws.amazon.com/boto3/latest/reference/services/datazone/paginator/QueryGraph.html">API</a>.</p>
+last_updated: '2026-03-18T19:07:23.389822'
