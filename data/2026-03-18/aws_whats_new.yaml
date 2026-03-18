@@ -208,4 +208,41 @@ entries:
       \ \n <li>SAGEMAKER_MONITORING_SCHEDULE_ISOLATION</li> \n <li>SIGNER_SIGNINGPROFILE_TAGGED</li>\
       \ \n <li>TRANSFER_CONNECTOR_AS2_ENCRYPTION_ALGORITHM_CHECK</li> \n <li>TRANSFER_CONNECTOR_AS2_MDN_SIGNING_ALGORITHM_CHECK</li>\
       \ \n <li>TRANSFER_CONNECTOR_AS2_SIGNING_ALGORITHM_CHECK</li> \n</ol>"
-last_updated: '2026-03-18T19:07:23.363218'
+  346fcc3412da7a90fbed45072253edef:
+    id: 346fcc3412da7a90fbed45072253edef
+    title: Amazon EC2 High Memory U7i-6TB instances now available in Asia Pacific
+      (Malaysia)
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-high-memory-u7i-6tb-asia-pacific/
+    published: '2026-03-18'
+    summary: "<p>Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge)\
+      \ are now available in AWS Asia Pacific (Malaysia). U7i instances are part of\
+      \ AWS 7th generation and are powered by custom fourth generation Intel Xeon\
+      \ Scalable Processors (Sapphire Rapids). U7i-6tb instances offer 6TiB of DDR5\
+      \ memory, enabling customers to scale transaction processing throughput in a\
+      \ fast-growing data environment.</p> \n<p>U7i-6tb instances deliver 448 vCPUs\
+      \ with up to 100 Gbps of Amazon EBS bandwidth for faster data loading and backups,\
+      \ 100 Gbps of network bandwidth, and ENA Express. U7i instances are ideal for\
+      \ customers using mission-critical in-memory databases like SAP HANA, Oracle,\
+      \ and SQL Server.</p> \n<p>To learn more about U7i instances, visit the&nbsp;<a\
+      \ href=\"https://aws.amazon.com/ec2/instance-types/u7i/\">High Memory instances\
+      \ page</a>.</p>"
+  cc337e6ff74739addf2fc0e5f10cd2b1:
+    id: cc337e6ff74739addf2fc0e5f10cd2b1
+    title: Amazon ECR now supports pull through cache for Chainguard
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecr-pull-through-cache-chainguard/
+    published: '2026-03-18'
+    summary: <p><a href="https://aws.amazon.com/ecr/">Amazon Elastic Container Registry
+      (Amazon ECR)</a>&nbsp;pull through cache now supports Chainguard’s registry
+      as an upstream source.&nbsp;With today’s release, customers now benefit from
+      the security and availability of Amazon ECR for private Chainguard images.<br
+      /> <br /> As customers continue to scale their use of Chainguard images, keeping
+      them synchronized with Chainguard's registry becomes increasingly important.
+      With ECR's pull through cache feature, customers can keep Chainguard images
+      in sync without additional workflows or tools to manage. Amazon ECR's pull through
+      cache supports frequent registry syncs, helping to keep container images sourced
+      from Chainguard up to&nbsp;date. Later,&nbsp;customers can apply ECR features
+      such as image scanning and lifecycle policies to their cached Chainguard images.<br
+      /> <br /> The pull through cache for Chainguard is available in all AWS Regions
+      where Amazon ECR pull through cache is supported. To get started, review our<a
+      href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/pull-through-cache.html">&nbsp;documentation</a>.</p>
+last_updated: '2026-03-18T20:32:01.660305'
