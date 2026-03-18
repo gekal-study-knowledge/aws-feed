@@ -22,4 +22,63 @@ entries:
       \ AI-powered contact center solution delivering personalized customer experiences\
       \ at scale, visit the&nbsp;Amazon Connect&nbsp;<a href=\"https://aws.amazon.com/connect/\"\
       >website.</a></p>"
-last_updated: '2026-03-18T04:24:49.015022'
+  98aab35b07dc08839847ced6f566a433:
+    id: 98aab35b07dc08839847ced6f566a433
+    title: Amazon Redshift increases performance for new queries in dashboards and
+      ETL workloads by up to 7x
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-increases-performance-for-new-queries/
+    published: '2026-03-18'
+    summary: <p><a href="https://aws.amazon.com/redshift">Amazon Redshift</a> improves
+      the performance of BI dashboards and ETL workloads by speeding up new queries
+      by up to 7x. This significantly improves the response times of low-latency SQL
+      queries, such as those used in near real-time analytics applications, BI dashboards,
+      ETL pipelines, and autonomous, goal-seeking AI agents. Customers experience
+      substantially faster query response times as Redshift accelerates the process
+      of preparing the SQL query for execution. Queries start faster and return results
+      quicker. This improvement is automatically enabled at no additional cost.<br
+      /> <br /> To deliver this major improvement, Redshift added a new optimization
+      to query compilation where new queries are processed immediately using composition.
+      Composition is a technique that generates a lightweight arrangement of pre-existing
+      logic while simultaneously creating highly optimized, query-specific code that
+      is compiled and executed across available compute resources to further boost
+      performance. Composition removes compilation from the critical path of query
+      execution and provides immediate execution while compilation proceeds in the
+      background. With this optimization, new queries processed by Redshift start
+      faster and deliver performance consistent with subsequent runs.<br /> <br />
+      This optimization is enabled by default for any SQL query across all provisioned
+      clusters and serverless workgroups, in all commercial AWS Regions where Amazon
+      Redshift operates. It is available on the Redshift current track with other
+      tracks following in upcoming patch releases. No action is required from customers
+      to benefit from this enhancement, and it is free of charge.</p>
+  d194688cad361b4e0c335ce99fca7904:
+    id: d194688cad361b4e0c335ce99fca7904
+    title: Amazon OpenSearch Service now supports OpenSearch version 3.5
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-version-3-5/
+    published: '2026-03-18'
+    summary: "<p>You can now run OpenSearch version 3.5 on Amazon OpenSearch Service.\
+      \ OpenSearch 3.5 introduces significant improvements in agentic AI capabilities,\
+      \ search relevance tooling, and observability features to help you build powerful\
+      \ agentic applications.</p> \n<p>With this launch, <a href=\"https://docs.opensearch.org/latest/ml-commons-plugin/api/agent-apis/execute-agent/\"\
+      \ target=\"_blank\">agentic conversation memory</a>&nbsp;captures conversation\
+      \ context and tool reasoning in persistent storage, enabling your agents to\
+      \ provide coherent, accurate responses across multi-turn conversations. In addition\
+      \ to this, <a href=\"https://docs.opensearch.org/latest/ml-commons-plugin/context-management\"\
+      \ target=\"_blank\">context management</a> optimizes what you send to large\
+      \ language models (LLMs) through automatic truncation and summarization, reducing\
+      \ your token costs while maintaining response quality. Finally a redesigned\
+      \ no-code agent interface supports Model Context Protocol (MCP) integration,\
+      \ search templates, conversational memory, and single model configurations,\
+      \ allowing you to build sophisticated agents without writing code.</p> \n<p>You\
+      \ can now tune search quality faster with expanded <a href=\"https://docs.opensearch.org/latest/search-plugins/search-relevance/using-search-relevance-workbench/\"\
+      \ target=\"_blank\">search relevance workbench</a> capabilities. LLM-powered\
+      \ evaluation automatically assesses search results with customizable prompts,\
+      \ letting you scale relevance testing beyond manual judgments and accelerate\
+      \ quality improvements. Scheduled experiments run tests nightly, weekly, or\
+      \ monthly, helping you track search quality trends over time and catch regressions\
+      \ early. Enhanced single query comparison displays agentic search queries alongside\
+      \ agent summaries, making it easier to validate and optimize agent-driven search\
+      \ experiences.</p> \n<p>For information on upgrading to OpenSearch 3.5, please\
+      \ see the <a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html\"\
+      \ target=\"_blank\">documentation</a>. OpenSearch 3.5 is now available in all\
+      \ AWS Regions where Amazon OpenSearch Service is available.</p>"
+last_updated: '2026-03-18T16:12:48.024490'
