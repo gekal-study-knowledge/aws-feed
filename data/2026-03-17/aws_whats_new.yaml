@@ -309,4 +309,25 @@ entries:
       \ AI-powered contact center solution delivering personalized customer experiences\
       \ at scale, visit the&nbsp;Amazon Connect&nbsp;<a href=\"https://aws.amazon.com/connect/\"\
       >website.</a></p>"
-last_updated: '2026-03-18T20:32:01.687433'
+  04863be7f1b24799de30c2ee2ffa02fd:
+    id: 04863be7f1b24799de30c2ee2ffa02fd
+    title: AWS Security Agent now supports downloading penetration testing reports
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-agent-generates-customizable/
+    published: '2026-03-17'
+    summary: "<p>AWS Security Agent now provides the ability to download penetration\
+      \ testing reports.&nbsp;This enhancement to the AWS Security Agent allows users\
+      \ to create customized reports based on specific filters.&nbsp;Each report includes\
+      \ an executive summary with a high-level overview of security posture and findings,\
+      \ the scope of test, the test methodology detailing the approach and techniques\
+      \ used along with task details, and comprehensive findings details with vulnerability\
+      \ information and risk assessments.</p> \n<p>The new report download capability\
+      \ allows users to filter findings based on risk level, confidence level, finding\
+      \ status, risk types, and task status. Reports are downloadable in PDF format,\
+      \ making it easy to share and review findings across teams. This functionality\
+      \ enhances the AWS Security Agent's ability to provide flexiblity to teams,\
+      \ that use AWS Security Agent's on-demand penetration testing capability to\
+      \ accelerate pentestion testing from weeks to hours.&nbsp;<br /> <br /> To learn\
+      \ more about AWS Security Agent and its new report generation feature, visit\
+      \ the <a href=\"https://aws.amazon.com/security-agent/\">AWS Security Agent\
+      \ page</a>.</p>"
+last_updated: '2026-03-19T06:55:06.138020'
