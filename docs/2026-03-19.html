@@ -79,6 +79,17 @@
 
 <hr>
 
+<h3>AWS Direct Connect announces new location in Sydney, Australia</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-sydney-sy5/">https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-sydney-sy5/</a></li>
+<li><strong>Published</strong>: 2026-03-19</li>
+</ul>
+
+<p><p>Today, AWS announced the opening of a new <a href="https://aws.amazon.com/directconnect">AWS Direct Connect</a> location at Equinix SY5 in Sydney, Australia. You can now establish private, direct network access to all public AWS Regions (except those in China), AWS GovCloud Regions, and <a href="https://aws.amazon.com/about-aws/global-infrastructure/localzones/">AWS Local Zones</a> from this location.&nbsp;This site is the fourth AWS Direct Connect location in Sydney and the tenth AWS Direct Connect location within Australia. This Direct Connect location offers dedicated 10 Gbps and 100 Gbps connections with MACsec encryption available.<br /> <br /> The Direct Connect service enables you to establish a private, physical network connection between AWS and your data center, office, or colocation environment. These private connections can provide a more consistent network experience than those made over the public internet.<br /> <br /> For more information on the over 150 Direct Connect locations worldwide, visit the <a href="https://aws.amazon.com/directconnect/locations/">locations</a> section of the Direct Connect <a href="https://aws.amazon.com/directconnect">product detail pages</a>. Or, visit our <a href="https://aws.amazon.com/directconnect/getting-started/">getting started</a> page to learn more about how to purchase and deploy Direct Connect.</p></p>
+
+<hr>
+
 <h2>AWS News Blog</h2>
 
 <h3>20 years in the AWS Cloud – how time flies!</h3>
@@ -89,6 +100,25 @@
 </ul>
 
 <p>Celebrating twenty years of innovation in ML and AI technology at AWS. Countless developers—myself included—have embraced cloud computing and actively used its capabilities to accomplish what was previously impossible.</p>
+
+<hr>
+
+<h2>AWS Security Bulletins</h2>
+
+<h3>CVE-2026-4428: Issues with AWS-LC - CRL Distribution Point Scope Check Logic Error</h3>
+
+<ul>
+<li><strong>Link</strong>: <a href="https://aws.amazon.com/security/security-bulletins/rss/2026-010-aws/">https://aws.amazon.com/security/security-bulletins/rss/2026-010-aws/</a></li>
+<li><strong>Published</strong>: 2026-03-19</li>
+</ul>
+
+<p><p><b>Bulletin ID:</b> 2026-010-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/03/19 13:30 PM PDT</p> 
+<p><b>Description:</b></p> 
+<p>AWS-LC is a general-purpose cryptographic library maintained by AWS. We identified CVE-2026-4428 affecting X.509 certificate verification.</p> 
+<p>A logic error in the CRL (Certificate Revocation List) distribution point matching in AWS-LC allows a revoked certificate to bypass revocation checks during certificate validation, when the application enables CRL checking and uses partitioned CRLs with Issuing Distribution Point (IDP) extensions.</p> 
+<p>Applications that do not enable CRL checking (X509_V_FLAG_CRL_CHECK) are not affected. Applications using complete (non-partitioned) CRLs without IDP extensions are also not affected.</p> 
+<p><b>Impacted versions:</b><br /> - CRL Distribution Point Scope Check Logic Error in AWS-LC &gt;= v1.24.0, &lt; v1.71.0<br /> - CRL Distribution Point Scope Check Logic Error in AWS-LC-FIPS &gt;= AWS-LC-FIPS-3.0.0, &lt; AWS-LC-FIPS-3.3.0<br /> - CRL Distribution Point Scope Check Logic Error in aws-lc-sys &gt;= v0.15.0, &lt; v0.39.0<br /> - CRL Distribution Point Scope Check Logic Error in aws-lc-fips-sys &gt;= v0.13.0, &lt; v0.13.13</p> 
+<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p></p>
 
 <hr>
 

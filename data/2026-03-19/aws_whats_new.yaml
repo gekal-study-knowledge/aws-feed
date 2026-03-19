@@ -133,4 +133,25 @@ entries:
       >EC2 Fleet documentation</a>. To learn more about interruptible Capacity Reservations,\
       \ visit the <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/interruptible-capacity-reservations.html\"\
       >EC2 Capacity Reservations user guide</a>.&nbsp;<br /> </p>"
-last_updated: '2026-03-19T21:32:25.304078'
+  8b9398d545c0189b7f207edcf607481d:
+    id: 8b9398d545c0189b7f207edcf607481d
+    title: AWS Direct Connect announces new location in Sydney, Australia
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-sydney-sy5/
+    published: '2026-03-19'
+    summary: <p>Today, AWS announced the opening of a new <a href="https://aws.amazon.com/directconnect">AWS
+      Direct Connect</a> location at Equinix SY5 in Sydney, Australia. You can now
+      establish private, direct network access to all public AWS Regions (except those
+      in China), AWS GovCloud Regions, and <a href="https://aws.amazon.com/about-aws/global-infrastructure/localzones/">AWS
+      Local Zones</a> from this location.&nbsp;This site is the fourth AWS Direct
+      Connect location in Sydney and the tenth AWS Direct Connect location within
+      Australia. This Direct Connect location offers dedicated 10 Gbps and 100 Gbps
+      connections with MACsec encryption available.<br /> <br /> The Direct Connect
+      service enables you to establish a private, physical network connection between
+      AWS and your data center, office, or colocation environment. These private connections
+      can provide a more consistent network experience than those made over the public
+      internet.<br /> <br /> For more information on the over 150 Direct Connect locations
+      worldwide, visit the <a href="https://aws.amazon.com/directconnect/locations/">locations</a>
+      section of the Direct Connect <a href="https://aws.amazon.com/directconnect">product
+      detail pages</a>. Or, visit our <a href="https://aws.amazon.com/directconnect/getting-started/">getting
+      started</a> page to learn more about how to purchase and deploy Direct Connect.</p>
+last_updated: '2026-03-19T22:24:50.695009'
