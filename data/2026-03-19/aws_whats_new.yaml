@@ -115,4 +115,22 @@ entries:
       1.47.0 or higher on all EFA-enabled EC2 instance types in all AWS regions at
       no additional cost. For more information, visit the <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html">EFA
       documentation</a>.</p>'
-last_updated: '2026-03-19T20:33:06.892963'
+  a1e12ab5d9cdbb76fefb1e9c8f4e689f:
+    id: a1e12ab5d9cdbb76fefb1e9c8f4e689f
+    title: Amazon EC2 Fleet now supports interruptible Capacity Reservations
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-fleet-interruptible-capacity-reservations/
+    published: '2026-03-19'
+    summary: "<p>Amazon EC2 Fleet now supports interruptible Capacity Reservations.\
+      \ EC2 Fleet allows you to launch instances across multiple instance types and\
+      \ Availability Zones. Starting today, you can specify interruptible Capacity\
+      \ Reservation IDs across your Launch Templates to provision instances in a single\
+      \ EC2 Fleet call.</p> \n<p>When On-Demand Capacity Reservations are not in use,\
+      \ customers can make them temporarily available as interruptible reservations\
+      \ within their AWS Organization to improve utilization and save costs. When\
+      \ these interruptible reservations are available to your account, you can now\
+      \ use EC2 Fleet to easily consume them.</p> \n<p>This feature is available in\
+      \ all AWS commercial regions. To get started, refer to the&nbsp;<a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-fleet-launch-instances-interruptible-cr-walkthrough.html\"\
+      >EC2 Fleet documentation</a>. To learn more about interruptible Capacity Reservations,\
+      \ visit the <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/interruptible-capacity-reservations.html\"\
+      >EC2 Capacity Reservations user guide</a>.&nbsp;<br /> </p>"
+last_updated: '2026-03-19T21:32:25.304078'
