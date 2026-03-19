@@ -1,0 +1,26 @@
+entries:
+  af40e9e29b21a81df771111890c321db:
+    id: af40e9e29b21a81df771111890c321db
+    title: 'CVE-2026-4428: Issues with AWS-LC - CRL Distribution Point Scope Check
+      Logic Error'
+    link: https://aws.amazon.com/security/security-bulletins/rss/2026-010-aws/
+    published: '2026-03-19'
+    summary: "<p><b>Bulletin ID:</b> 2026-010-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+      \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/03/19\
+      \ 13:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS-LC is a general-purpose\
+      \ cryptographic library maintained by AWS. We identified CVE-2026-4428 affecting\
+      \ X.509 certificate verification.</p> \n<p>A logic error in the CRL (Certificate\
+      \ Revocation List) distribution point matching in AWS-LC allows a revoked certificate\
+      \ to bypass revocation checks during certificate validation, when the application\
+      \ enables CRL checking and uses partitioned CRLs with Issuing Distribution Point\
+      \ (IDP) extensions.</p> \n<p>Applications that do not enable CRL checking (X509_V_FLAG_CRL_CHECK)\
+      \ are not affected. Applications using complete (non-partitioned) CRLs without\
+      \ IDP extensions are also not affected.</p> \n<p><b>Impacted versions:</b><br\
+      \ /> - CRL Distribution Point Scope Check Logic Error in AWS-LC &gt;= v1.24.0,\
+      \ &lt; v1.71.0<br /> - CRL Distribution Point Scope Check Logic Error in AWS-LC-FIPS\
+      \ &gt;= AWS-LC-FIPS-3.0.0, &lt; AWS-LC-FIPS-3.3.0<br /> - CRL Distribution Point\
+      \ Scope Check Logic Error in aws-lc-sys &gt;= v0.15.0, &lt; v0.39.0<br /> -\
+      \ CRL Distribution Point Scope Check Logic Error in aws-lc-fips-sys &gt;= v0.13.0,\
+      \ &lt; v0.13.13</p> \n<p><b>Please refer to the article below for the most up-to-date\
+      \ and complete information related to this AWS Security Bulletin.</b></p>"
+last_updated: '2026-03-19T22:24:51.398761'
