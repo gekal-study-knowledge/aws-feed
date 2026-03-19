@@ -154,4 +154,30 @@ entries:
       section of the Direct Connect <a href="https://aws.amazon.com/directconnect">product
       detail pages</a>. Or, visit our <a href="https://aws.amazon.com/directconnect/getting-started/">getting
       started</a> page to learn more about how to purchase and deploy Direct Connect.</p>
-last_updated: '2026-03-19T22:24:50.695009'
+  31cbdf6ed87036f41a75ca8123de6e92:
+    id: 31cbdf6ed87036f41a75ca8123de6e92
+    title: Amazon Redshift supports federated permissions with IAM Identity Center
+      in multiple AWS Regions
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/redshift-federated-permissions-idc-mrr/
+    published: '2026-03-19'
+    summary: <p>Amazon Redshift federated permissions are now supported with AWS IAM
+      Identity Center (IdC) in multiple AWS Regions. You can extend IdC from your
+      primary AWS Region to additional Regions for improved performance through proximity
+      to users and reliability. In the additional regions, you now have simplified
+      administration of Redshift fine-grained access controls at the table and column
+      level using existing workforce identities with IdC.<br /> <br /> When a new
+      Region is added in IdC, you can create Redshift and Lake Formation Identity
+      Center applications in the new Region without replicating identities from the
+      primary Region. This enables you to use existing workforce identities to query
+      data across warehouses in the new Region. Regardless of which warehouse is used
+      for querying, row-level, column-level, and masking controls always apply automatically,
+      delivering fine-grained access compliance. You can also access Amazon Redshift
+      with single sign-on in these new Regions from Amazon QuickSight, Amazon Redshift
+      Query Editor, or third-party SQL tools.<br /> <br /> To get started with Redshift
+      federated permissions using IdC, read the <a href="https://aws.amazon.com/blogs/big-data/scale-fine-grained-permissions-across-warehouses-with-amazon-redshift-and-aws-iam-identity-center/">blog</a>
+      and <a href="https://docs.aws.amazon.com/redshift/latest/dg/federated-permissions.html">documentation</a>.
+      To extend IdC support in multiple regions, read <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/multi-region-iam-identity-center.html">IdC
+      documentation</a>, <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/redshift-iam-access-control-idp-connect-console.html">Redshift
+      documentation</a>, <a href="https://docs.aws.amazon.com/lake-formation/latest/dg/connect-lf-identity-center.html">Lake
+      Formation documentation</a>, and see the region <a href="https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-regions.html#manage-acct-regions-regional-availability">availability</a>.</p>
+last_updated: '2026-03-19T23:26:39.239676'
