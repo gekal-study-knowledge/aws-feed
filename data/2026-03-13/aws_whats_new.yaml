@@ -221,4 +221,21 @@ entries:
       \ Pacific (Tokyo), Europe (Frankfurt), Europe (Ireland), Europe (London), Europe\
       \ (Paris), and Europe (Stockholm).</p> \n<p>To learn more, see <a href=\"https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-agui.html\"\
       >Deploy AG-UI servers in AgentCore Runtime</a>.</p>"
-last_updated: '2026-03-16T16:04:07.487214'
+  fdeb17b7c84c56c0c480ccce656542d5:
+    id: fdeb17b7c84c56c0c480ccce656542d5
+    title: AWS Security Agent now available with Service Quotas
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-agent-available-with-service/
+    published: '2026-03-13'
+    summary: "<p>Amazon Security Agent now supports AWS Service Quotas, giving users\
+      \ a centralized way to view applied limits, monitor utilization, and scale case\
+      \ workloads without hitting unexpected service constraints. You can request\
+      \ quota increases directly from the Service Quotas console, and eligible requests\
+      \ are automatically approved without manual intervention.&nbsp;</p> \n<p>The\
+      \ service supports limits on pentesting action hours, and concurrent running\
+      \ pentest jobs. AWS Security Agent is ideal for security teams, and development\
+      \ teams looking to enhance their security practices&nbsp;<br /> <br /> To learn\
+      \ more about AWS Security Agent and its capabilities, visit the <a href=\"https://aws.amazon.com/security-agent/\"\
+      >AWS Security Agent page</a>. For detailed information on service quotas and\
+      \ how to request increases, refer to the <a href=\"https://us-east-1.console.aws.amazon.com/servicequotas/home/services/securityagent/quotas\"\
+      >AWS Security Agent documentation</a>.</p>"
+last_updated: '2026-03-19T06:55:06.165225'
