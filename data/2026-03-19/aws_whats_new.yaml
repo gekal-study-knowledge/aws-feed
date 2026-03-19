@@ -95,4 +95,24 @@ entries:
       \ target=\"_blank\">AWS Regions</a>&nbsp;where Lambda is available.&nbsp;To\
       \ learn more, visit&nbsp;<a href=\"https://docs.aws.amazon.com/lambda/latest/dg/configuration-metadata-endpoint.html\"\
       \ target=\"_blank\">Lambda documentation</a>.</p>"
-last_updated: '2026-03-19T19:44:12.109656'
+  9b4190d04d7327e198184ff92a26ebd0:
+    id: 9b4190d04d7327e198184ff92a26ebd0
+    title: AWS adds support for NIXL with EFA to accelerate LLM inference at scale
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-support-nixl-with-efa/
+    published: '2026-03-19'
+    summary: '<p>AWS announces support for NVIDIA Inference Xfer Library (NIXL) with
+      Elastic Fabric Adapter (EFA) to accelerate disaggregated large language model
+      (LLM) inference on Amazon EC2. This integration enhances disaggregated inference
+      serving through three key improvements: increased KV-cache throughput, reduced
+      inter-token latency, and optimized KV-cache memory utilization.<br /> <br />
+      NIXL with EFA enables high throughput, low-latency KV-cache transfer between
+      prefill and decode nodes, and it enables efficient KV-cache movement between
+      various storage layers. NIXL is interoperable with all EFA-enabled EC2 instances
+      and integrates natively with frameworks including NVIDIA Dynamo, SGLang, and
+      vLLM. Combined, NIXL with EFA enables flexible integration with your EC2 instance
+      and framework of choice, providing performant disaggregated inference at scale.<br
+      /> <br /> AWS supports NIXL version 1.0.0 or higher with EFA installer version
+      1.47.0 or higher on all EFA-enabled EC2 instance types in all AWS regions at
+      no additional cost. For more information, visit the <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/efa.html">EFA
+      documentation</a>.</p>'
+last_updated: '2026-03-19T20:33:06.892963'
