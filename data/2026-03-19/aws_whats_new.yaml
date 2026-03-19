@@ -59,4 +59,40 @@ entries:
       https://aws.amazon.com/cli/\">AWS Command Line Interface (AWS CLI)</a>, and&nbsp;<a\
       \ href=\"https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html\"\
       >AWS SDKs</a>.</p>"
-last_updated: '2026-03-19T18:53:46.077558'
+  223f2f5abc0c255db5ae15093bb0186d:
+    id: 223f2f5abc0c255db5ae15093bb0186d
+    title: AWS Lambda now supports Availability Zone metadata
+    link: https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-availability-zone-metadata/
+    published: '2026-03-19'
+    summary: "<p>AWS Lambda now provides Availability Zone (AZ) metadata through a\
+      \ new metadata endpoint in the Lambda execution environment. With this capability,\
+      \ developers can&nbsp;determine&nbsp;the AZ ID (e.g., use1-az1) of the AZ their\
+      \ Lambda function is running in, enabling them to&nbsp;build functions that\
+      \ make AZ-aware routing decisions,&nbsp;such as preferring same-AZ endpoints\
+      \ for downstream services to reduce cross-AZ latency.&nbsp;This capability&nbsp;also&nbsp;enables\
+      \ operators to implement AZ-aware resilience patterns like&nbsp;AZ-specific&nbsp;fault\
+      \ injection testing.</p> \n<p>Lambda automatically provisions and&nbsp;maintains&nbsp;execution\
+      \ environments ready to serve function invocations across multiple AZs within\
+      \ an AWS&nbsp;Region to provide high availability and fault tolerance without\
+      \ any&nbsp;additional&nbsp;configuration or management overhead for customers.&nbsp;\
+      \ As development teams scale their serverless applications, their functions\
+      \ often need to interact with other AWS services like Amazon&nbsp;ElastiCache&nbsp;and\
+      \ Amazon RDS that provide endpoints specific to each AZ.&nbsp;Until now, Lambda\
+      \ did not&nbsp;provide&nbsp;a way for functions to&nbsp;determine&nbsp;which\
+      \ AZ they were running in. With the new metadata endpoint, functions can&nbsp;now&nbsp;retrieve\
+      \ their AZ ID&nbsp;with&nbsp;a simple HTTP request, making it&nbsp;easy&nbsp;to\
+      \ implement AZ-aware logic without building and&nbsp;maintaining&nbsp;custom\
+      \ solutions.</p> \n<p>To get started, use the <a href=\"https://docs.aws.amazon.com/powertools/typescript/latest/\"\
+      \ target=\"_blank\">Powertools&nbsp;for AWS Lambda</a> metadata utility or call\
+      \ the metadata endpoint directly using the environment variables&nbsp;that&nbsp;Lambda\
+      \ automatically sets in&nbsp;the&nbsp;execution environment. This&nbsp;capability&nbsp;is\
+      \ supported for all&nbsp;Lambda runtimes, including custom runtimes and functions\
+      \ packaged as container&nbsp;images,&nbsp;and integrates seamlessly with&nbsp;Lambda\
+      \ capabilities like&nbsp;SnapStart&nbsp;and provisioned concurrency, regardless\
+      \ of whether your functions are VPC-enabled. </p> \n<p>AZ metadata support is\
+      \ available&nbsp;at no&nbsp;additional&nbsp;cost&nbsp;in all&nbsp;commercial <a\
+      \ href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
+      \ target=\"_blank\">AWS Regions</a>&nbsp;where Lambda is available.&nbsp;To\
+      \ learn more, visit&nbsp;<a href=\"https://docs.aws.amazon.com/lambda/latest/dg/configuration-metadata-endpoint.html\"\
+      \ target=\"_blank\">Lambda documentation</a>.</p>"
+last_updated: '2026-03-19T19:44:12.109656'
