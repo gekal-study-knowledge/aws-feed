@@ -9,6 +9,7 @@ interface PostData {
   month: string;
   day: string;
   title: string;
+  newsCounter?: number;
 }
 
 interface PostListProps {

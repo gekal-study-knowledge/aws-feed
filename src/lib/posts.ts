@@ -14,6 +14,7 @@ export interface PostData {
   day: string;
   title: string;
   date: string;
+  newsCounter?: number;
   lastUpdated?: string;
   contentHtml?: string;
   previous?: string | null;
