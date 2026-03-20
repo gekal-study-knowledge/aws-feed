@@ -27,7 +27,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
             {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
             <CssBaseline />
             <NextTopLoader
-              color="#667eea"
+              color="#ff9900" // AWS Orange
               showSpinner={false}
               height={4}
               showAtBottom={false}

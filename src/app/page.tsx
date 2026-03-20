@@ -48,6 +48,7 @@ export default function Home() {
           gutterBottom
           align="center"
           color="primary"
+          sx={{ fontWeight: 800, mb: 2 }}
         >
           AWS News Feed Archive
         </Typography>

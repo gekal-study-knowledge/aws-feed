@@ -1,3 +1,5 @@
+"use client";
+
 import * as React from "react";
 import { Box, Typography, Paper } from "@mui/material";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
@@ -22,7 +24,9 @@ export default function PostHeader({
         mb: 4,
         borderRadius: "16px",
         background: (theme) =>
-          `linear-gradient(135deg, ${theme.palette.primary.main} 0%, ${theme.palette.primary.dark || "#0d4d4d"} 100%)`,
+          theme.palette.mode === "light"
+            ? `linear-gradient(135deg, #232f3e 0%, #1a242f 100%)`
+            : `linear-gradient(135deg, #1e2b3e 0%, #151e2b 100%)`,
         color: "common.white",
         position: "relative",
         overflow: "hidden",

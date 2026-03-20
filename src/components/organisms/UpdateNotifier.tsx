@@ -1,8 +1,9 @@
 "use client";
 
 import * as React from "react";
-import { Alert, Snackbar, IconButton, Box, Collapse } from "@mui/material";
+import { Alert, IconButton, Box, Collapse } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
+import NotificationsActiveIcon from "@mui/icons-material/NotificationsActive";
 
 interface UpdateNotifierProps {
   currentLatestDate: string;
@@ -67,6 +68,7 @@ export default function UpdateNotifier({
       <Collapse in={open}>
         <Alert
           severity="info"
+          icon={<NotificationsActiveIcon fontSize="inherit" />}
           action={
             <IconButton
               aria-label="close"
@@ -79,7 +81,16 @@ export default function UpdateNotifier({
               <CloseIcon fontSize="inherit" />
             </IconButton>
           }
-          sx={{ mb: 2 }}
+          sx={{
+            mb: 2,
+            bgcolor: (theme) =>
+              theme.palette.mode === "light" ? "#ff9900" : "#ff9900",
+            color: "#232f3e",
+            fontWeight: "bold",
+            "& .MuiAlert-icon": {
+              color: "#232f3e",
+            },
+          }}
         >
           {message}
         </Alert>

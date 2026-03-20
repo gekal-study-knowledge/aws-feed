@@ -1,3 +1,5 @@
+"use client";
+
 import * as React from "react";
 import { Box, Button } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
@@ -20,7 +22,7 @@ export default function NavigationLinks({
         alignItems: "center",
         mt: 4,
         pt: 2,
-        borderTop: "1px solid #eee",
+        borderTop: (theme) => `1px solid ${theme.palette.divider}`,
       }}
     >
       <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-start" }}>

@@ -1,3 +1,5 @@
+"use client";
+
 import * as React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -26,7 +28,21 @@ export default function PostCard({
   newsCounter,
 }: PostCardProps) {
   return (
-    <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
+    <Card
+      sx={{
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
+        transition: "transform 0.2s, box-shadow 0.2s",
+        "&:hover": {
+          transform: "translateY(-4px)",
+          boxShadow: (theme) =>
+            theme.palette.mode === "light"
+              ? "0 8px 16px rgba(0,0,0,0.1)"
+              : "0 8px 16px rgba(0,0,0,0.4)",
+        },
+      }}
+    >
       <Link
         href={`/posts/${year}/${month}/${day}/${slug}`}
         passHref

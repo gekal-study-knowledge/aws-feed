@@ -24,8 +24,7 @@ export default function PostContent({ contentHtml }: PostContentProps) {
           color: "primary.main",
           fontSize: { xs: "1.5rem", md: "1.875rem" },
           fontWeight: 700,
-          borderBottom: (theme) =>
-            `2px solid ${theme.palette.primary.light || "#eee"}`,
+          borderBottom: (theme) => `2px solid ${theme.palette.divider}`,
           pb: 1,
           display: "flex",
           alignItems: "center",
@@ -33,7 +32,7 @@ export default function PostContent({ contentHtml }: PostContentProps) {
             content: '""',
             width: "8px",
             height: "1.5em",
-            bgcolor: "primary.main",
+            bgcolor: "secondary.main",
             mr: 2,
             borderRadius: "4px",
           },
@@ -69,15 +68,19 @@ export default function PostContent({ contentHtml }: PostContentProps) {
           pl: 3,
           py: 1,
           borderLeft: "4px solid",
-          borderColor: "primary.light",
-          bgcolor: "rgba(102, 126, 234, 0.05)",
+          borderColor: "secondary.main",
+          bgcolor: (theme) =>
+            theme.palette.mode === "light"
+              ? "rgba(255, 153, 0, 0.05)"
+              : "rgba(255, 153, 0, 0.1)",
           fontStyle: "italic",
         },
         "& code": {
           px: 1,
           py: 0.5,
           borderRadius: "4px",
-          bgcolor: "grey.100",
+          bgcolor: (theme) =>
+            theme.palette.mode === "light" ? "grey.200" : "grey.800",
           fontSize: "0.9em",
           fontFamily: 'Monaco, Menlo, Consolas, "Courier New", monospace',
         },

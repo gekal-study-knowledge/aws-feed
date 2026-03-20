@@ -10,27 +10,27 @@ const theme = createTheme({
     light: {
       palette: {
         primary: {
-          main: "#667eea", // docs/style.css background start color
+          main: "#232f3e", // AWS Squid Ink
         },
         secondary: {
-          main: "#764ba2", // docs/style.css background end color
+          main: "#ff9900", // AWS Orange
         },
         background: {
-          default: "#f4f7f6",
+          default: "#f2f3f3", // Light gray background common in AWS console
         },
       },
     },
     dark: {
       palette: {
         primary: {
-          main: "#8e9eef", // Lighter version for dark mode
+          main: "#ecf0f1", // Light text for dark mode
         },
         secondary: {
-          main: "#a589c3", // Lighter version for dark mode
+          main: "#ff9900", // Keep AWS Orange
         },
         background: {
-          default: "#0d1117",
-          paper: "#161b22",
+          default: "#0f171e", // Darker blue/black
+          paper: "#1e2b3e",
         },
       },
     },

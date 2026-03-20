@@ -112,6 +112,7 @@ export default async function MonthPage({ params }: MonthPageProps) {
           gutterBottom
           align="center"
           color="primary"
+          sx={{ fontWeight: 800, mb: 4 }}
         >
           {year}年{month}月の記事一覧
         </Typography>
