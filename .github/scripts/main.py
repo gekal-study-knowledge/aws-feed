@@ -141,49 +141,46 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[
     return new_entries, updated_dates
 
 
-def generate_daily_markdown(entries: List[Dict[str, Any]], output_dir: str):
-    """日単位のMarkdownファイルを生成する"""
+def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, Any], output_dir: str):
+    """YAMLデータから日単位のMarkdownファイルを生成する"""
     Path(output_dir).mkdir(parents=True, exist_ok=True)
+    output_file = Path(output_dir) / f"{entry_date.isoformat()}.md"
 
-    # 日付ごとにグループ化
-    entries_by_date = {}
-    for entry in entries:
-        entry_date = entry['date']
-        if entry_date not in entries_by_date:
-            entries_by_date[entry_date] = []
-        entries_by_date[entry_date].append(entry)
+    # 該当日付の全情報源のYAMLデータを読み込む
+    entries_by_source = {}
 
-    # 日付ごとにMarkdownを生成
-    for entry_date, date_entries in entries_by_date.items():
-        output_file = Path(output_dir) / f"{entry_date.isoformat()}.md"
+    for feed_config in config['feeds']:
+        source_id = feed_config['source_id']
+        source_name = feed_config['name']
 
-        # 情報源ごとにグループ化
-        entries_by_source = {}
-        for entry in date_entries:
-            source_name = entry['source_name']
-            if source_name not in entries_by_source:
-                entries_by_source[source_name] = []
-            entries_by_source[source_name].append(entry)
+        daily_data = load_daily_data(entry_date, source_id, data_dir)
+        if daily_data.get('entries'):
+            entries = []
+            for entry_id, entry_data in daily_data['entries'].items():
+                entries.append(entry_data)
 
-        # 各情報源内で公開日順にソート
-        for source_name in entries_by_source:
-            entries_by_source[source_name].sort(key=lambda x: x['published'])
+            # 公開日順にソート
+            entries.sort(key=lambda x: x['published'])
+            entries_by_source[source_name] = entries
 
-        # Markdownコンテンツを生成
-        with open(output_file, 'w', encoding='utf-8') as f:
-            f.write(f"# AWS Updates - {entry_date.isoformat()}\n\n")
+    if not entries_by_source:
+        return
 
-            for source_name, source_entries in entries_by_source.items():
-                f.write(f"## {source_name}\n\n")
-                for entry in source_entries:
-                    f.write(f"### {entry['title']}\n\n")
-                    f.write(f"- **Link**: {entry['link']}\n")
-                    f.write(f"- **Published**: {entry['published']}\n\n")
-                    if entry.get('summary'):
-                        f.write(f"{entry['summary']}\n\n")
-                    f.write("---\n\n")
+    # Markdownコンテンツを生成
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(f"# AWS Updates - {entry_date.isoformat()}\n\n")
 
-        print(f"Generated: {output_file}")
+        for source_name, source_entries in entries_by_source.items():
+            f.write(f"## {source_name}\n\n")
+            for entry in source_entries:
+                f.write(f"### {entry['title']}\n\n")
+                f.write(f"- **Link**: {entry['link']}\n")
+                f.write(f"- **Published**: {entry['published']}\n\n")
+                if entry.get('summary'):
+                    f.write(f"{entry['summary']}\n\n")
+                f.write("---\n\n")
+
+    print(f"Generated: {output_file}")
 
 
 def generate_html_from_yaml(entry_date: date, data_dir: str, config: Dict[str, Any], html_file: Path):
@@ -380,9 +377,10 @@ def main():
         all_updated_dates.update(updated_dates)
         print(f"Found {len(new_entries)} new entries from {feed_config['name']}")
 
-    # 新規エントリーがあれば日単位のMarkdownを生成
-    if all_new_entries:
-        generate_daily_markdown(all_new_entries, output_dir)
+    # 新規エントリーがあれば日単位のMarkdownを生成（更新があった日付のみ）
+    if all_updated_dates:
+        for entry_date in all_updated_dates:
+            generate_daily_markdown(entry_date, data_dir, config, output_dir)
         print(f"\nTotal: {len(all_new_entries)} new entries processed")
     else:
         print("\nNo new entries found")
