@@ -1,6 +1,10 @@
 name: Fetch AWS Feeds
 
 on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   schedule:
     # 1時間ごとに実行 (毎時0分)
     - cron: '0 * * * *'
@@ -12,28 +16,37 @@ permissions:
 jobs:
   fetch-and-update:
     runs-on: ubuntu-latest
+    outputs:
+      pushed: ${{ steps.commit_and_push.outputs.pushed }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          python -m pip install --upgrade pip
+          pip install -r .github/scripts/requirements.txt
 
       - name: Fetch AWS feeds
-        run: |
-          python main.py
+        run: python .github/scripts/main.py
 
       - name: Commit and push changes
+        id: commit_and_push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/ daily_reports/ docs/
-          git diff --cached --quiet || git commit -m "Update AWS feeds - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-          git push
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git commit -m "Update AWS feeds - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No changes in data/, skipping commit."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+          fi
