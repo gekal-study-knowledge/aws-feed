@@ -141,7 +141,9 @@ export async function getPostData(
     filteredContent = contentLines.join('\n').trim();
   }
 
-  const processedContent = await remark().use(html).process(filteredContent);
+  const processedContent = await remark()
+    .use(html, { sanitize: false })
+    .process(filteredContent);
   const contentHtml = processedContent.toString();
 
   const allPosts = getSortedPostsData();
