@@ -210,11 +210,14 @@ def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, A
         last_updated = get_jst_now().strftime('%Y-%m-%d %H:%M:%S JST')
 
     # Markdownコンテンツを生成
+    total_entries = sum(len(entries) for entries in entries_by_source.values())
+
     with open(output_file, 'w', encoding='utf-8') as f:
         # YAML Front Matter
         f.write("---\n")
         f.write("layout: default\n")
         f.write(f"title: AWS News - {entry_date.isoformat()}\n")
+        f.write(f"news_counter: {total_entries}\n")
         f.write(f"last_updated: {last_updated}\n")
         f.write("---\n\n")
 
@@ -224,7 +227,7 @@ def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, A
             f.write(f"## {source_name}\n\n")
             for entry in source_entries:
                 f.write(f"### {entry['title']}\n\n")
-                f.write(f"- **Link**: {entry['link']}\n")
+                f.write(f"- **Link**: [{entry['link']}]({entry['link']})\n")
                 f.write(f"- **Published**: {entry['published']}\n\n")
                 if entry.get('summary'):
                     f.write(f"{entry['summary']}\n\n")
