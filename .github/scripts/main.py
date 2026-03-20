@@ -77,16 +77,20 @@ def load_all_existing_ids(source_id: str, data_dir: str) -> set:
     return existing_ids
 
 
+def parse_entry_datetime(entry: Any) -> datetime:
+    """エントリーの公開日時を解析する。JSTを前提とする。"""
+    if hasattr(entry, 'published_parsed') and entry.published_parsed:
+        return datetime(*entry.published_parsed[:6])
+    elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
+        return datetime(*entry.updated_parsed[:6])
+    else:
+        return datetime.now()
+
+
 def parse_entry_date(entry: Any) -> date:
     """エントリーの日付を解析する"""
-    if hasattr(entry, 'published_parsed') and entry.published_parsed:
-        dt = datetime(*entry.published_parsed[:6])
-        return dt.date()
-    elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
-        dt = datetime(*entry.updated_parsed[:6])
-        return dt.date()
-    else:
-        return date.today()
+    dt = parse_entry_datetime(entry)
+    return dt.date()
 
 
 def get_jst_now() -> datetime:
@@ -111,12 +115,13 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[
         entry_id = generate_entry_id(entry)
 
         if entry_id not in existing_ids:
-            entry_date = parse_entry_date(entry)
+            entry_datetime = parse_entry_datetime(entry)
+            entry_date = entry_datetime.date()
             entry_data = {
                 'id': entry_id,
                 'title': entry.get('title', ''),
                 'link': entry.get('link', ''),
-                'published': entry_date.isoformat(),
+                'published': entry_datetime.strftime('%Y-%m-%d %H:%M:%S'),
                 'summary': entry.get('summary', '')
             }
 
@@ -228,7 +233,13 @@ def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, A
             for entry in source_entries:
                 f.write(f"### {entry['title']}\n\n")
                 f.write(f"- **Link**: [{entry['link']}]({entry['link']})\n")
-                f.write(f"- **Published**: {entry['published']}\n\n")
+                
+                # 公開日時のフォーマット（YYYY-MM-DD HH:MM:SS 形式でない場合は補完する）
+                published = entry['published']
+                if len(published) == 10: # YYYY-MM-DD
+                    published = f"{published} 00:00:00"
+                
+                f.write(f"- **Published**: {published}\n\n")
                 if entry.get('summary'):
                     f.write(f"{entry['summary']}\n\n")
                 f.write("---\n\n")
