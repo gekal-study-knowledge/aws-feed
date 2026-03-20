@@ -1,3 +1,5 @@
+"use client";
+
 import * as React from "react";
 import Grid from "@mui/material/Grid";
 import PostCard from "@/components/molecules/PostCard";
