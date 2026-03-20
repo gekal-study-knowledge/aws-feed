@@ -369,7 +369,7 @@ def main():
     # 設定を読み込む
     config = load_config()
     data_dir = config.get('data_dir', 'data')
-    output_dir = config.get('output_dir', 'daily_reports')
+    output_dir = config.get('output_dir', '_posts')
     docs_dir = config.get('docs_dir', 'docs')
 
     all_updated_dates = set()
