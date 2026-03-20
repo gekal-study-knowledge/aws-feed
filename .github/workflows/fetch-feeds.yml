@@ -1,10 +1,6 @@
 name: Fetch AWS Feeds
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
   schedule:
     # 1時間ごとに実行 (毎時0分)
     - cron: '0 * * * *'
@@ -14,7 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  fetch-and-update:
+  fetch-rss:
     runs-on: ubuntu-latest
     outputs:
       pushed: ${{ steps.commit_and_push.outputs.pushed }}
@@ -50,3 +46,10 @@ jobs:
             echo "No changes in data/, skipping commit."
             echo "pushed=false" >> "$GITHUB_OUTPUT"
           fi
+
+  call_deploy:
+    needs: fetch-rss
+    if: needs.fetch-rss.outputs.pushed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      branch_name: ${{ github.ref_name }}
