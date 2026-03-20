@@ -116,7 +116,7 @@ feeds:
     source_id: "aws_security_blog"
 
 data_dir: "data"
-output_dir: "daily_reports"
+output_dir: "_posts"
 ```
 
 ### フィードの追加方法
