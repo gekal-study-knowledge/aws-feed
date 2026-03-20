@@ -11,7 +11,6 @@ from datetime import datetime, date
 from pathlib import Path
 from typing import List, Dict, Any
 import hashlib
-import argparse
 
 
 def load_config(config_path: str = "config.yaml") -> Dict[str, Any]:
@@ -362,53 +361,34 @@ def generate_index_html(reports: List[Dict[str, Any]]) -> str:
 
 def main():
     """メイン処理"""
-    parser = argparse.ArgumentParser(description='AWS Feed購読システム')
-    parser.add_argument('--rebuild', action='store_true', help='全ての既存データからレポートを再生成する')
-    args = parser.parse_args()
-
     # 設定を読み込む
     config = load_config()
     data_dir = config.get('data_dir', 'data')
-    output_dir = config.get('output_dir', '_posts')
+    output_dir = config.get('output_dir', 'daily_reports')
     docs_dir = config.get('docs_dir', 'docs')
 
-    all_updated_dates = set()
+    # 全ての新規エントリーと更新された日付を収集
     all_new_entries = []
+    all_updated_dates = set()
 
-    if args.rebuild:
-        print("Rebuilding all reports from existing data...")
-        data_path = Path(data_dir)
-        if data_path.exists():
-            for date_dir in data_path.iterdir():
-                if date_dir.is_dir():
-                    try:
-                        entry_date = datetime.strptime(date_dir.name, '%Y-%m-%d').date()
-                        all_updated_dates.add(entry_date)
-                    except ValueError:
-                        continue
-    else:
-        # 全ての新規エントリーと更新された日付を収集
-        for feed_config in config['feeds']:
-            new_entries, updated_dates = process_feed(feed_config, data_dir)
-            all_new_entries.extend(new_entries)
-            all_updated_dates.update(updated_dates)
-            print(f"Found {len(new_entries)} new entries from {feed_config['name']}")
+    for feed_config in config['feeds']:
+        new_entries, updated_dates = process_feed(feed_config, data_dir)
+        all_new_entries.extend(new_entries)
+        all_updated_dates.update(updated_dates)
+        print(f"Found {len(new_entries)} new entries from {feed_config['name']}")
 
-    # Markdownを生成（更新があった日付、または全日付）
+    # 新規エントリーがあれば日単位のMarkdownを生成（更新があった日付のみ）
     if all_updated_dates:
-        for entry_date in sorted(all_updated_dates):
+        for entry_date in all_updated_dates:
             generate_daily_markdown(entry_date, data_dir, config, output_dir)
-        
-        if not args.rebuild:
-            print(f"\nTotal: {len(all_new_entries)} new entries processed")
+        print(f"\nTotal: {len(all_new_entries)} new entries processed")
     else:
-        if not args.rebuild:
-            print("\nNo new entries found")
+        print("\nNo new entries found")
 
-    # GitHub Pages用のHTMLを生成
+    # GitHub Pages用のHTMLを生成（更新があった日付のみ）
     if all_updated_dates:
         print(f"\nUpdating HTML for dates: {sorted([d.isoformat() for d in all_updated_dates])}")
-        generate_reports_index(data_dir, docs_dir, config, all_updated_dates if not args.rebuild else None)
+        generate_reports_index(data_dir, docs_dir, config, all_updated_dates)
     else:
         # 更新がない場合でもインデックスページは生成（初回実行時など）
         generate_reports_index(data_dir, docs_dir, config)
