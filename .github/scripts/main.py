@@ -14,7 +14,7 @@ import hashlib
 import argparse
 
 
-def load_config(config_path: str = "config.yaml") -> Dict[str, Any]:
+def load_config(config_path: str = ".github/scripts/config.yaml") -> Dict[str, Any]:
     """設定ファイルを読み込む"""
     with open(config_path, 'r', encoding='utf-8') as f:
         return yaml.safe_load(f)
