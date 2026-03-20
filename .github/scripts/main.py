@@ -122,7 +122,7 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[
                 'title': entry.get('title', ''),
                 'link': entry.get('link', ''),
                 'published': entry_datetime.strftime('%Y-%m-%d %H:%M:%S'),
-                'summary': entry.get('summary', '')
+                'summary': entry.get('summary', '') or entry.get('description', '')
             }
 
             # 日付ごとに分類

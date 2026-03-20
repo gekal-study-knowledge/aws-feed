@@ -46,6 +46,40 @@ export default function PostContent({ contentHtml }: PostContentProps) {
           mb: 2,
           lineHeight: 1.8,
         },
+        '& ul, & ol': {
+          mt: 2,
+          mb: 2,
+          pl: 4,
+        },
+        '& li': {
+          mb: 1,
+          lineHeight: 1.8,
+        },
+        '& b, & strong': {
+          fontWeight: 700,
+        },
+        '& br': {
+          display: 'block',
+          content: '""',
+          mt: 1,
+        },
+        '& blockquote': {
+          m: 0,
+          pl: 3,
+          py: 1,
+          borderLeft: '4px solid',
+          borderColor: 'primary.light',
+          bgcolor: 'rgba(102, 126, 234, 0.05)',
+          fontStyle: 'italic',
+        },
+        '& code': {
+          px: 1,
+          py: 0.5,
+          borderRadius: '4px',
+          bgcolor: 'grey.100',
+          fontSize: '0.9em',
+          fontFamily: 'Monaco, Menlo, Consolas, "Courier New", monospace',
+        },
         '& hr': { my: 6, border: '0', borderTop: '1px solid', borderColor: 'divider' },
         '& a': {
           color: 'primary.main',
