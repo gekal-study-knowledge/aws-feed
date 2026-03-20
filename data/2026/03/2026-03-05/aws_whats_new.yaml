@@ -3,8 +3,9 @@ entries:
     id: 210bef963a885016fefe0ecf0066c01c
     title: Accelerate Lambda durable functions development with new Kiro power
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-durable-kiro-power/
-    published: '2026-03-05'
-    summary: "<p>Today, AWS announces the Lambda durable functions Kiro power, bringing\
+    published: "2026-03-05"
+    summary:
+      "<p>Today, AWS announces the Lambda durable functions Kiro power, bringing\
       \ Lambda durable function development expertise to agentic AI development in\
       \ Kiro. With this power, you can build resilient, long-running multi-step applications\
       \ and AI workflows faster with AI agent-assisted development directly in your\
@@ -28,8 +29,9 @@ entries:
     id: e7f55c4f5fdce1ee9bae268f458995d7
     title: Amazon OpenSearch Service introduces capacity optimized blue/green deployments
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-bg/
-    published: '2026-03-05'
-    summary: <p><a href="https://aws.amazon.com/opensearch-service/">Amazon OpenSearch
+    published: "2026-03-05"
+    summary:
+      <p><a href="https://aws.amazon.com/opensearch-service/">Amazon OpenSearch
       Service</a> now offers a Capacity Optimized option for blue/green deployments,
       ensuring domain updates can complete even when available instance capacity is
       less than required. Updates are performed in incremental batches, reducing the
@@ -59,8 +61,9 @@ entries:
     id: b585c63b6c611e79f8aef0d196138219
     title: Introducing Amazon Connect Health, Agentic AI Built for Healthcare
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-health-agentic-ai-healthcare/
-    published: '2026-03-05'
-    summary: "<p>Amazon Connect Health is now generally available, bringing purpose-built\
+    published: "2026-03-05"
+    summary:
+      "<p>Amazon Connect Health is now generally available, bringing purpose-built\
       \ agentic AI to healthcare organizations to streamline patient engagement and\
       \ point-of-care workflows. Amazon Connect Health delivers five AI agents designed\
       \ to reduce administrative burden across the care continuum — enabling patients\
@@ -101,11 +104,13 @@ entries:
       >Amazon Connect Health documentation</a></p>"
   fe7372f841fa0e1c2483569a0562b639:
     id: fe7372f841fa0e1c2483569a0562b639
-    title: AWS HealthLake announces data transformation agent for automated CCDA-to-FHIR
+    title:
+      AWS HealthLake announces data transformation agent for automated CCDA-to-FHIR
       data conversion (Preview)
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthlake-data-transformation-agent/
-    published: '2026-03-05'
-    summary: <p>Starting today, healthcare organizations can now transform legacy
+    published: "2026-03-05"
+    summary:
+      <p>Starting today, healthcare organizations can now transform legacy
       clinical documents into queryable FHIR resources in AWS HealthLake in days instead
       of months, unlocking use cases such as longitudinal patient record generation,
       population health analytics, and clinical data exchange. AWS HealthLake data
@@ -141,8 +146,9 @@ entries:
     id: ec7b5cde61dc83579df7f2063e020cbd
     title: Multi-party approval now supports approval team baselining
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/multi-party-approval-team-baselining/
-    published: '2026-03-05'
-    summary: <p>Multi-party approval (MPA) now supports MPA administrators running
+    published: "2026-03-05"
+    summary:
+      <p>Multi-party approval (MPA) now supports MPA administrators running
       test approvals to confirm that their approval team is set up correctly and that
       approvers are active and reachable. With this new capability, customers ensure
       their approval teams do not become unresponsive due to natural attrition, incorrect
@@ -163,8 +169,9 @@ entries:
     id: 088c1a76616c7d5ebda1e8855ce085fb
     title: AWS Elastic Beanstalk now offers AI-powered environment analysis
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/elastic-beanstalk-ai-analysis/
-    published: '2026-03-05'
-    summary: "<p>AWS Elastic Beanstalk now offers AI-powered environment analysis\
+    published: "2026-03-05"
+    summary:
+      "<p>AWS Elastic Beanstalk now offers AI-powered environment analysis\
       \ to help you quickly identify root causes and get recommended solutions for\
       \ environment health issues. When your environment experiences problems, Elastic\
       \ Beanstalk collects recent events, instance health, and logs from your environment\
@@ -186,11 +193,13 @@ entries:
       \ page</a>.</p>"
   9cbbfcdb45531ae8eae5e14a83bba1e8:
     id: 9cbbfcdb45531ae8eae5e14a83bba1e8
-    title: AWS Shield network security director findings are now available in AWS
+    title:
+      AWS Shield network security director findings are now available in AWS
       Security Hub
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/network-security-director-findings/
-    published: '2026-03-05'
-    summary: <p>Today, AWS Shield announces findings from network security director,
+    published: "2026-03-05"
+    summary:
+      <p>Today, AWS Shield announces findings from network security director,
       currently in preview, are now available in AWS Security Hub. AWS Shield network
       security director identifies missing or misconfigured network security services
       like AWS WAF, VPC security groups, and VPC network access control lists (ACLs)
@@ -205,11 +214,13 @@ entries:
       visit the <a href="https://aws.amazon.com/shield/"><u>overview</u></a> page.</p>
   87889699d53dd20676480dfbcea58d36:
     id: 87889699d53dd20676480dfbcea58d36
-    title: Database Savings Plans now supports Amazon OpenSearch Service and Amazon
+    title:
+      Database Savings Plans now supports Amazon OpenSearch Service and Amazon
       Neptune Analytics
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/dbsp-opensearch-service-neptune-analytics/
-    published: '2026-03-05'
-    summary: <p>Today, AWS announces expanded coverage for Database Savings Plans,
+    published: "2026-03-05"
+    summary:
+      <p>Today, AWS announces expanded coverage for Database Savings Plans,
       with support for<a href="https://aws.amazon.com/opensearch-service/"> Amazon
       OpenSearch Service</a> and <a href="https://aws.amazon.com/neptune/">Amazon
       Neptune Analytics</a>.<br /> <br /> With Database Savings Plans, you can save
@@ -232,11 +243,13 @@ entries:
       Savings Plans FAQs</a>.</p>
   ea60a2d588ac6cccaf6a7a90d8817a59:
     id: ea60a2d588ac6cccaf6a7a90d8817a59
-    title: Amazon EC2 I8ge instances now generally available in Europe (Ireland) AWS
+    title:
+      Amazon EC2 I8ge instances now generally available in Europe (Ireland) AWS
       region.
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-I8ge-expansion-ireland/
-    published: '2026-03-05'
-    summary: <p>Amazon Web Services (AWS) announces the availability of Amazon EC2
+    published: "2026-03-05"
+    summary:
+      <p>Amazon Web Services (AWS) announces the availability of Amazon EC2
       I8ge instances in Europe (Ireland) AWS region. Designed for large storage I/O
       intensive workloads, these new instances are powered by 5th generation Intel
       Xeon Scalable processors with an all-core turbo frequency of 3.2 GHz, offering
@@ -266,8 +279,9 @@ entries:
     id: 18136dc19bdfa8ce2d569ccb6fa98875
     title: Amazon Redshift Serverless now maintains datashare permissions during restore
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-serverless-maintains-datashare-permissions-on-restore/
-    published: '2026-03-05'
-    summary: "<p>Amazon Redshift Serverless now preserves datashare permissions when\
+    published: "2026-03-05"
+    summary:
+      "<p>Amazon Redshift Serverless now preserves datashare permissions when\
       \ you restore a snapshot to the same namespace, simplifying data sharing workflows\
       \ and reducing administrative overhead. Previously, restoring a serverless namespace\
       \ from a snapshot required administrators to manually re-grant datashare permissions\
@@ -289,8 +303,9 @@ entries:
     id: 40bc12bea117e25670974ca9a66631ae
     title: Amazon SageMaker Unified Studio adds light mode support for IAM-based domains
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-light-mode/
-    published: '2026-03-05'
-    summary: "<p>Today, AWS announces light mode support in <a href=\"https://aws.amazon.com/sagemaker/unified-studio/\"\
+    published: "2026-03-05"
+    summary:
+      "<p>Today, AWS announces light mode support in <a href=\"https://aws.amazon.com/sagemaker/unified-studio/\"\
       >Amazon SageMaker Unified Studio</a> for IAM-based domains. Customers can now\
       \ configure the visual interface mode to match their preference, choosing between\
       \ dark and light themes.</p> \n<p>Light mode helps improve readability in bright\
@@ -304,4 +319,4 @@ entries:
       \ feature is available in all regions where Amazon SageMaker Unified Studio\
       \ is available. To learn more, refer to the <a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/navigating-sagemaker-unified-studio.html#display-mode\"\
       >User Guide.</a></p>"
-last_updated: '2026-03-06T22:24:42.334680'
+last_updated: "2026-03-06T22:24:42.334680"

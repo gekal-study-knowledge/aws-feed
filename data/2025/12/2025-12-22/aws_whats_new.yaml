@@ -1,11 +1,13 @@
 entries:
   c5957572f728e59030105a123040b8a7:
     id: c5957572f728e59030105a123040b8a7
-    title: AWS Deadline Cloud now supports direct job submission from the Deadline
+    title:
+      AWS Deadline Cloud now supports direct job submission from the Deadline
       Cloud Monitor
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-deadline-cloud-direct-job-submission-from/
-    published: '2025-12-22'
-    summary: <p>AWS Deadline Cloud now lets you submit rendering jobs directly from
+    published: "2025-12-22"
+    summary:
+      <p>AWS Deadline Cloud now lets you submit rendering jobs directly from
       the Deadline Cloud Monitor desktop application. This new feature makes it easier
       to submit renders for applications that don’t have built-in Deadline Cloud plugins
       or submission scripts, expanding compatibility with content creation tools and
@@ -22,11 +24,13 @@ entries:
       Deadline Cloud documentation.</a></p>
   32d6ab35feb31a989796b9128ab6bb7f:
     id: 32d6ab35feb31a989796b9128ab6bb7f
-    title: Oracle Database@AWS now supports sharing of AWS Marketplace entitlements
+    title:
+      Oracle Database@AWS now supports sharing of AWS Marketplace entitlements
       across accounts
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/oracle-database-aws-marketplace-entitlements-across-accounts/
-    published: '2025-12-22'
-    summary: <p>Today, <a href="https://aws.amazon.com/marketplace/featured-seller/oracle/"
+    published: "2025-12-22"
+    summary:
+      <p>Today, <a href="https://aws.amazon.com/marketplace/featured-seller/oracle/"
       target="_blank">Oracle Database@AWS</a> announced ability to share AWS Marketplace
       entitlements across accounts within an AWS Organization. With this feature,
       customers can now accept an Oracle Database@AWS AWS Marketplace offer in one
@@ -55,8 +59,9 @@ entries:
     id: 48775190727e0f5e034c3a568b114856
     title: Amazon ECS Service Connect enhances observability with Envoy Access Logs
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-service-connect-observability-envoy-access-logs
-    published: '2025-12-22'
-    summary: <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
+    published: "2025-12-22"
+    summary:
+      <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
       Container Service</a> (Amazon ECS) Service Connect now supports Envoy access
       logs, providing deeper observability into request-level traffic patterns and
       service interactions. This new capability captures detailed per-request telemetry
@@ -82,8 +87,9 @@ entries:
     id: 90c25ac771f2023b8e40e9844dcb8681
     title: Amazon Kinesis Video Streams now supports IPv6 for WebRTC
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-kinesis-video-streams-webrtc-ipv6/
-    published: '2025-12-22'
-    summary: "<p>Amazon Kinesis Video Streams (Amazon KVS) now supports Internet Protocol\
+    published: "2025-12-22"
+    summary:
+      "<p>Amazon Kinesis Video Streams (Amazon KVS) now supports Internet Protocol\
       \ version 6 (IPv6) addressing for WebRTC. This release introduces dual-stack\
       \ endpoint support, enabling developers to use both IPv4 and IPv6 addresses\
       \ to stream video from millions of devices. The dual-stack support is designed\
@@ -97,11 +103,13 @@ entries:
       \ target=\"_blank\">Amazon KVS Developer Guide</a>.<br /> </p>"
   9002d65593f76f53c89d742820f943c5:
     id: 9002d65593f76f53c89d742820f943c5
-    title: Amazon GameLift Streams launches Gen6-based stream classes and enhanced
+    title:
+      Amazon GameLift Streams launches Gen6-based stream classes and enhanced
       autoscaling for better performance and pricing
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-gameliftstream-gen6-enhanced-autoscaling
-    published: '2025-12-22'
-    summary: '<p>Today, Amazon GameLift Streams launched two new capabilities to optimize
+    published: "2025-12-22"
+    summary:
+      '<p>Today, Amazon GameLift Streams launched two new capabilities to optimize
       performance and cost: Gen6 stream classes and enhanced autoscaling with warm
       buffer. The new Gen6 stream classes provide a wider range of price performance
       options, while autoscaling enables customers to dynamically manage capacity
@@ -128,11 +136,13 @@ entries:
       configuration option</a>&nbsp;for stream groups</p>'
   99ce521126560e4636059b22d6970cab:
     id: 99ce521126560e4636059b22d6970cab
-    title: Amazon GameLift Streams launches real-time performance stats and improved
+    title:
+      Amazon GameLift Streams launches real-time performance stats and improved
       API error messaging
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-gameliftstream-performance-stats-error-messaging
-    published: '2025-12-22'
-    summary: "<p>Today, Amazon GameLift Streams launched new powerful observability\
+    published: "2025-12-22"
+    summary:
+      "<p>Today, Amazon GameLift Streams launched new powerful observability\
       \ capabilities with session performance stats that provide real-time data for\
       \ individual stream sessions, offering insights into application performance\
       \ issues.</p> \n<p>Game developers requested deeper visibility into session\
@@ -163,8 +173,9 @@ entries:
     id: dfec33a72ebeada2be74d9ec5b52c97c
     title: Research and Engineering Studio on AWS Version 2025.12 now available
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/research-engineering-studio-aws-new-version-available/
-    published: '2025-12-22'
-    summary: <p>Today we announce Research and Engineering Studio (RES) on AWS version
+    published: "2025-12-22"
+    summary:
+      <p>Today we announce Research and Engineering Studio (RES) on AWS version
       2025.12, which introduces tag propagation for CloudFormation resources, enhanced
       Windows domain configuration options, default session scheduling, and security
       improvements.<br /> <br /> Research and Engineering Studio on AWS is an open
@@ -190,8 +201,9 @@ entries:
     id: 102f53098ae78a9dbbd9c821a141983e
     title: AWS Storage Gateway now supports Nutanix AHV hypervisor
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-storage-gateway-nutanix-avh-hypervisor
-    published: '2025-12-22'
-    summary: "<p>The <a href=\"https://aws.amazon.com/storagegateway/\" target=\"\
+    published: "2025-12-22"
+    summary:
+      "<p>The <a href=\"https://aws.amazon.com/storagegateway/\" target=\"\
       _blank\">AWS Storage Gateway</a> service now supports the Nutanix AHV hypervisor\
       \ as a deployment option for S3 File, Tape and Volume gateways. If you use Nutanix\
       \ AHV hypervisor-based on-premises infrastructure, you can now deploy Storage\
@@ -215,8 +227,9 @@ entries:
     id: 6651b85bf149e925e4580d7c891d89d1
     title: Announcing AWS Neuron SDK 2.27.0
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/announcing-aws-neuron-2-27
-    published: '2025-12-22'
-    summary: "<p>Today, AWS announces Neuron SDK 2.27.0, introducing support for <a\
+    published: "2025-12-22"
+    summary:
+      "<p>Today, AWS announces Neuron SDK 2.27.0, introducing support for <a\
       \ href=\"https://aws.amazon.com/ai/machine-learning/trainium/\">Trainium3 UltraServer</a>\
       \ with expanded open source components. Neuron also introduces the Neuron Explorer\
       \ tools suite, Enhanced NKI with open source NKI Compiler built on MLIR (private\
@@ -240,8 +253,9 @@ entries:
     id: 528b6d36ac826a0f654ea66ac1207491
     title: AWS Wickr launches admin APIs for programmatic network management at scale
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-wickr-admin-apis-generally-available/
-    published: '2025-12-22'
-    summary: "<p>AWS Wickr now provides a suite of admin APIs that empower administrators\
+    published: "2025-12-22"
+    summary:
+      "<p>AWS Wickr now provides a suite of admin APIs that empower administrators\
       \ to programmatically manage secure communication networks at scale. These APIs\
       \ enable you to automate critical administrative workflows including user lifecycle\
       \ management, network configuration, and security group administration. With\
@@ -275,11 +289,13 @@ entries:
       \ style=\"cursor: pointer;\">AWS Wickr Administrator Guide</a></li> \n</ul>"
   e46ef648de7ecbd0f639e71f29706327:
     id: e46ef648de7ecbd0f639e71f29706327
-    title: Amazon ECS Service Connect enhances observability with Envoy access logs
+    title:
+      Amazon ECS Service Connect enhances observability with Envoy access logs
       in AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-service-connect-observability-envoy-access-logs-govcloud-regions
-    published: '2025-12-22'
-    summary: <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
+    published: "2025-12-22"
+    summary:
+      <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
       Container Service</a> (Amazon ECS) Service Connect now supports Envoy access
       logs, providing deeper observability into request-level traffic patterns and
       service interactions. This new capability captures detailed per-request telemetry
@@ -302,4 +318,4 @@ entries:
       regions via the AWS Management Console, API, SDK, CLI, and CloudFormation. To
       learn more, visit the <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect-envoy-access-logs.html"
       target="_blank">Amazon ECS Developer Guide</a>.</p>
-last_updated: '2026-01-14T20:18:24.156565'
+last_updated: "2026-01-14T20:18:24.156565"

@@ -1,11 +1,13 @@
 entries:
   e7e962d9e8119b4ff11ef2ab8d1f6963:
     id: e7e962d9e8119b4ff11ef2ab8d1f6963
-    title: 'AWS Weekly Roundup: Claude Opus 4.6 in Amazon Bedrock, AWS Builder ID
-      Sign in with Apple, and more (February 9, 2026)'
+    title:
+      "AWS Weekly Roundup: Claude Opus 4.6 in Amazon Bedrock, AWS Builder ID
+      Sign in with Apple, and more (February 9, 2026)"
     link: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-6-in-amazon-bedrock-aws-builder-id-sign-in-with-apple-and-more-february-9-2026/
-    published: '2026-02-09'
-    summary: This week's roundup covers launches across compute, networking, security,
+    published: "2026-02-09"
+    summary:
+      This week's roundup covers launches across compute, networking, security,
       and AI. Amazon EC2 introduces new C8id, M8id, and R8id instances powered by
       custom Intel Xeon 6 processors. AWS Network Firewall announces price reductions.
       Amazon DynamoDB global tables now support replication across multiple AWS accounts
@@ -17,4 +19,4 @@ entries:
       for agentic tasks and complex coding projects. Amazon Bedrock also adds structured
       outputs for consistent, machine-readable responses that adhere to your defined
       JSON schemas.
-last_updated: '2026-02-09T21:36:56.640651'
+last_updated: "2026-02-09T21:36:56.640651"

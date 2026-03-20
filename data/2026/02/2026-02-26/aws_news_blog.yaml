@@ -1,11 +1,13 @@
 entries:
   710dadb2fa3ac6b9c9a7b614d1da4493:
     id: 710dadb2fa3ac6b9c9a7b614d1da4493
-    title: AWS Security Hub Extended offers full-stack enterprise security with curated
+    title:
+      AWS Security Hub Extended offers full-stack enterprise security with curated
       partner solutions
     link: https://aws.amazon.com/blogs/aws/aws-security-hub-extended-offers-full-stack-enterprise-security-with-curated-partner-solutions/
-    published: '2026-02-26'
-    summary: AWS announces the general availability of AWS Security Hub Extended,
+    published: "2026-02-26"
+    summary:
+      AWS announces the general availability of AWS Security Hub Extended,
       a unified, full-stack enterprise security solution. It brings together AWS detection
       services and curated partner solutions through a single, simplified experience.
-last_updated: '2026-02-26T19:41:13.738485'
+last_updated: "2026-02-26T19:41:13.738485"

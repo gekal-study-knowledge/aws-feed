@@ -1,11 +1,13 @@
 entries:
   340d54039e9220fc1a7b057400264860:
     id: 340d54039e9220fc1a7b057400264860
-    title: 'Issue with AWS-LC: an open-source, general-purpose cryptographic library
-      (CVE-2026-3336, CVE-2026-3337, CVE-2026-3338)'
+    title:
+      "Issue with AWS-LC: an open-source, general-purpose cryptographic library
+      (CVE-2026-3336, CVE-2026-3337, CVE-2026-3338)"
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-005-aws/
-    published: '2026-03-02'
-    summary: "<p><b>Bulletin ID:</b> 2026-005-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2026-03-02"
+    summary:
+      "<p><b>Bulletin ID:</b> 2026-005-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/03/02\
       \ 14:30 PM PST</p> \n<p><b>Description:</b></p> \n<p>AWS-LC is an open-source,\
       \ general-purpose cryptographic library. We identified three distinct issues:</p>\
@@ -32,4 +34,4 @@ entries:
       \ bypass in aws-lc-sys &gt;= v0.24.0, &lt; v0.38.0</p> \n<p><b>Please refer\
       \ to the article below for the most up-to-date and complete information related\
       \ to this AWS Security Bulletin.</b></p>"
-last_updated: '2026-03-03T01:53:28.780690'
+last_updated: "2026-03-03T01:53:28.780690"

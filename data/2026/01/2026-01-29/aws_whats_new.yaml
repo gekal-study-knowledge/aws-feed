@@ -3,8 +3,9 @@ entries:
     id: b52c267fe458024a76df797920c83486
     title: AWS announces Deployment Agent SOPs in AWS MCP Server (preview)
     link: https://aws.amazon.com/about-aws/whats-new/2025/01/aws-announces-deployment-agent-sops-in-aws-mcp-server-preview
-    published: '2026-01-29'
-    summary: <p>AWS announces the launch of deployment Standard Operating Procedures
+    published: "2026-01-29"
+    summary:
+      <p>AWS announces the launch of deployment Standard Operating Procedures
       (SOPs) available in the <a href="https://docs.aws.amazon.com/aws-mcp/latest/userguide/what-is-mcp-server.html">AWS
       MCP Server</a>. SOPs are structured, natural language instructions that guide
       AI agents through complex, multi-step tasks to ensure consistent, reliable,
@@ -34,8 +35,9 @@ entries:
     id: 466771600f3a05fbe101d79126c1e5f2
     title: Announcing increased 1 MB payload size support in Amazon EventBridge
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eventbridge-increases-event-payload-size-256-kb-1-mb
-    published: '2026-01-29'
-    summary: <p>Amazon EventBridge increases event payload size from 256 KB to 1 MB,
+    published: "2026-01-29"
+    summary:
+      <p>Amazon EventBridge increases event payload size from 256 KB to 1 MB,
       enabling developers to ingest richer, complex payloads for their event-driven
       workloads without the need to split, compress, or externalize data.<br /> <br
       /> <a href="https://aws.amazon.com/eventbridge/">Amazon EventBridge</a> is a
@@ -55,8 +57,9 @@ entries:
     id: c24bf891c15befd9a93069922dbd8218
     title: Amazon Cognito introduces inbound federation Lambda triggers
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cognito-inbound-federation-lambda-trigger/
-    published: '2026-01-29'
-    summary: "<p>Amazon Cognito introduces inbound federation Lambda triggers that\
+    published: "2026-01-29"
+    summary:
+      "<p>Amazon Cognito introduces inbound federation Lambda triggers that\
       \ enable you to transform and customize federated user attributes during the\
       \ authentication process. You can now modify responses from external SAML and\
       \ OIDC providers before they are stored in your user pool, providing complete\
@@ -79,11 +82,13 @@ entries:
       >Amazon Cognito Developer Guide</a>&nbsp;for implementation examples and best&nbsp;practices.</p>"
   71efba2ef4d0649e55b4fcc7ff035d79:
     id: 71efba2ef4d0649e55b4fcc7ff035d79
-    title: Amazon Keyspaces (for Apache Cassandra) introduces pre-warming with WarmThroughput
+    title:
+      Amazon Keyspaces (for Apache Cassandra) introduces pre-warming with WarmThroughput
       for your tables
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-keyspaces-apache-cassandra-pre-warming-warmthroughput-tables
-    published: '2026-01-29'
-    summary: <p><a href="https://aws.amazon.com/keyspaces/" target="_blank">Amazon
+    published: "2026-01-29"
+    summary:
+      <p><a href="https://aws.amazon.com/keyspaces/" target="_blank">Amazon
       Keyspaces (for Apache Cassandra)</a> now supports table pre-warming, allowing
       you to proactively prepare both new and existing tables to meet future traffic
       demands. This capability is available for tables in both provisioned and on-demand
@@ -108,11 +113,13 @@ entries:
       Keyspaces documentation</a>.</p>
   ee16cd22b66c6831bbd64a5cd7cfe33a:
     id: ee16cd22b66c6831bbd64a5cd7cfe33a
-    title: Amazon Bedrock now supports server-side custom tools using the Responses
+    title:
+      Amazon Bedrock now supports server-side custom tools using the Responses
       API
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-server-side-custom-tools-responses-api
-    published: '2026-01-29'
-    summary: "<p>Amazon Bedrock now supports server-side tools in the Responses API\
+    published: "2026-01-29"
+    summary:
+      "<p>Amazon Bedrock now supports server-side tools in the Responses API\
       \ using OpenAI API-compatible service endpoints. Bedrock already supports client-side\
       \ tool use with the Converse, Chat Completions, and Responses APIs. Now, with\
       \ the launch of server-side tool use for Responses API, Amazon Bedrock calls\
@@ -130,11 +137,13 @@ entries:
       >documentation</a>.</p>"
   3224c5cea25a179997360c4eb9fb4933:
     id: 3224c5cea25a179997360c4eb9fb4933
-    title: Amazon GameLift Servers now supports automatic scaling to and from zero
+    title:
+      Amazon GameLift Servers now supports automatic scaling to and from zero
       instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-gamelift-servers-automatic-scaling
-    published: '2026-01-29'
-    summary: <p>Amazon GameLift Servers now enables automatic scaling to and from
+    published: "2026-01-29"
+    summary:
+      <p>Amazon GameLift Servers now enables automatic scaling to and from
       zero instances, addressing a critical cost optimization challenge for game developers.
       Previously, developers had to maintain running instances even during periods
       of low or no activity in order for Fleet autoscaling to remain active. This
@@ -157,8 +166,9 @@ entries:
     id: 5fdfe9a267880b7ce81d7f9613971b0a
     title: Change the server-side encryption type of Amazon S3 objects
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/change-the-server-side-encryption-type-of-s3-objects
-    published: '2026-01-29'
-    summary: <p>You can now change the server-side encryption type of encrypted objects
+    published: "2026-01-29"
+    summary:
+      <p>You can now change the server-side encryption type of encrypted objects
       in Amazon S3 without any data movement. You can use the UpdateObjectEncryption
       API to atomically change the encryption key of your objects regardless of the
       object size or storage class. With S3 Batch Operations, you can use UpdateObjectEncryption
@@ -177,4 +187,4 @@ entries:
       get started, you can use the AWS Management Console or the latest AWS SDKs to
       update the server-side encryption type of your objects. To learn more, please
       visit the <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/update-sse-encryption.html">documentation</a>.</p>
-last_updated: '2026-01-30T01:47:37.398397'
+last_updated: "2026-01-30T01:47:37.398397"

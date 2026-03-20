@@ -1,22 +1,26 @@
 entries:
   6379d2673a447d3902c9257ccf10b1a9:
     id: 6379d2673a447d3902c9257ccf10b1a9
-    title: 'AWS Weekly Roundup: Kiro CLI latest features, AWS European Sovereign Cloud,
-      EC2 X8i instances, and more (January 19, 2026)'
+    title:
+      "AWS Weekly Roundup: Kiro CLI latest features, AWS European Sovereign Cloud,
+      EC2 X8i instances, and more (January 19, 2026)"
     link: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-kiro-cli-latest-features-aws-european-sovereign-cloud-ec2-x8i-instances-and-more-january-19-2026/
-    published: '2026-01-20'
-    summary: At the end of 2025 I was happy to take a long break to enjoy the incredible
+    published: "2026-01-20"
+    summary:
+      At the end of 2025 I was happy to take a long break to enjoy the incredible
       summers that the southern hemisphere provides. I’m back and writing my first
       post in 2026 which also happens to be my last post for the AWS News Blog (more
       on this later). The AWS community is starting the […]
   9aab762a57853393236d45230a94ba61:
     id: 9aab762a57853393236d45230a94ba61
-    title: Announcing Amazon EC2 G7e instances accelerated by NVIDIA RTX PRO 6000
+    title:
+      Announcing Amazon EC2 G7e instances accelerated by NVIDIA RTX PRO 6000
       Blackwell Server Edition GPUs
     link: https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7e-instances-accelerated-by-nvidia-rtx-pro-6000-blackwell-server-edition-gpus/
-    published: '2026-01-20'
-    summary: AWS introduces Amazon EC2 G7e instances accelerated by the NVIDIA RTX
+    published: "2026-01-20"
+    summary:
+      AWS introduces Amazon EC2 G7e instances accelerated by the NVIDIA RTX
       PRO 6000 Blackwell Server Edition GPUs with up to 2.3 times inference performance.
       G7e instances deliver cost-effective performance for generative AI inference
       workloads and the highest performance for graphics workloads.
-last_updated: '2026-01-20T22:20:09.150508'
+last_updated: "2026-01-20T22:20:09.150508"

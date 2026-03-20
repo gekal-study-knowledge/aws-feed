@@ -3,8 +3,9 @@ entries:
     id: dffe3720042e41e5e3e967b8ab9a42fc
     title: Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-lightsail-openclaw/
-    published: '2026-03-04'
-    summary: <p>Amazon Lightsail now lets you deploy OpenClaw, a private self-hosted
+    published: "2026-03-04"
+    summary:
+      <p>Amazon Lightsail now lets you deploy OpenClaw, a private self-hosted
       AI assistant, on your own cloud infrastructure in a simple and secure manner.<br
       /> <br /> Every Lightsail OpenClaw instance ships with built-in security controls,
       pre-configured and ready to use. Sandboxing isolates each agent session for
@@ -24,11 +25,13 @@ entries:
       start documentation</a> pages.</p>
   c24d557d830170cbe62629f596ad6cbc:
     id: c24d557d830170cbe62629f596ad6cbc
-    title: Amazon OpenSearch Ingestion now supports Amazon Managed Service for Prometheus
+    title:
+      Amazon OpenSearch Ingestion now supports Amazon Managed Service for Prometheus
       as a sink
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-ingestion-supports-amazon-managed-service-prometheus-sink
-    published: '2026-03-04'
-    summary: "<p>Amazon OpenSearch Ingestion now supports Amazon Managed Service for\
+    published: "2026-03-04"
+    summary:
+      "<p>Amazon OpenSearch Ingestion now supports Amazon Managed Service for\
       \ Prometheus&nbsp; as a sink, making it possible to build fully managed, end-to-end\
       \ metrics ingestion pipelines without any custom forwarding infrastructure.&nbsp;With\
       \ this launch, customers can now manage their entire metrics ingestion workflow\
@@ -59,8 +62,9 @@ entries:
     id: 0ebc82b8d4955725a44954058714509d
     title: Amazon GameLift Servers launches DDoS Protection
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-gamelift-servers-ddos-protection/
-    published: '2026-03-04'
-    summary: "<p>We’re excited to announce&nbsp;Amazon GameLift Servers DDoS Protection,\
+    published: "2026-03-04"
+    summary:
+      "<p>We’re excited to announce&nbsp;Amazon GameLift Servers DDoS Protection,\
       \ a new feature&nbsp;that helps game developers protect&nbsp;session-based multiplayer\
       \ games that utilize <a href=\"https://aws.amazon.com/gamelift/servers/\">Amazon\
       \ GameLift Servers</a> to help improve overall game session resiliency. DDoS\
@@ -84,11 +88,13 @@ entries:
       \ (Tokyo), Pacific (Seoul).</p>"
   9aa0d3f0eea2990327be37d707096531:
     id: 9aa0d3f0eea2990327be37d707096531
-    title: Amazon OpenSearch Ingestion now supports unified ingestion endpoint for
+    title:
+      Amazon OpenSearch Ingestion now supports unified ingestion endpoint for
       OpenTelemetry data
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-ingestion-unified-ingestion-endpoint-opentelemetry
-    published: '2026-03-04'
-    summary: <p>Amazon OpenSearch Ingestion now supports a unified ingestion endpoint
+    published: "2026-03-04"
+    summary:
+      <p>Amazon OpenSearch Ingestion now supports a unified ingestion endpoint
       that can accept all three OpenTelemetry observability signals — logs, metrics,
       and traces — through a single pipeline. Previously, customers who wanted to
       ingest all three&nbsp;OpenTelemetry data types had to create and manage three
@@ -113,8 +119,9 @@ entries:
     id: 2b1403ac41f9f89b2337114f03f22056
     title: AWS simplifies IAM role creation and setup in service workflows
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-simplifies-iam-role-creation-and-setup/
-    published: '2026-03-04'
-    summary: <p><a href="https://aws.amazon.com/iam/">AWS Identity and Access Management
+    published: "2026-03-04"
+    summary:
+      <p><a href="https://aws.amazon.com/iam/">AWS Identity and Access Management
       (IAM)</a> now makes it easier to create and configure IAM roles directly within
       service workflows, allowing you to customize role permissions without switching
       between browser tabs. Now, when you are performing console tasks that involve
@@ -135,11 +142,13 @@ entries:
       documentation</a>.</p>
   7e7c782a032793bf93f75ebc89c6197a:
     id: 7e7c782a032793bf93f75ebc89c6197a
-    title: Amazon SageMaker HyperPod now provides comprehensive observability for
+    title:
+      Amazon SageMaker HyperPod now provides comprehensive observability for
       Restricted Instance Groups
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-hyperpod-observability-rig/
-    published: '2026-03-04'
-    summary: "<p>Amazon SageMaker HyperPod now offers comprehensive observability\
+    published: "2026-03-04"
+    summary:
+      "<p>Amazon SageMaker HyperPod now offers comprehensive observability\
       \ for Restricted Instance Groups (RIG), enabling teams training foundation models\
       \ with Nova Forge to gain deep visibility into their compute resources and training\
       \ workloads. This new capability eliminates the manual effort of collecting\
@@ -164,8 +173,9 @@ entries:
     id: c439d30b3bd3a04a22ffa584742b3d21
     title: Amazon EC2 M8g instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8g-instances-africa-cape-town-asia-pacific-malaysia-europe-milan-zurich-canada-west-calgary-regions
-    published: '2026-03-04'
-    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances
+    published: "2026-03-04"
+    summary:
+      <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances
       are available in Africa (Cape Town), Asia Pacific (Malaysia), Europe (Milan,
       Zurich), and Canada West (Calgary) regions. These instances are powered by AWS
       Graviton4 processors and deliver up to 30% better performance compared to AWS
@@ -191,11 +201,13 @@ entries:
       href="https://console.aws.amazon.com/" target="_blank">AWS Management Console</a>.&nbsp;</p>
   b71b00ba49ff0343d2f1e56dbba2cfcd:
     id: b71b00ba49ff0343d2f1e56dbba2cfcd
-    title: Amazon EventBridge Scheduler now provides a higher default quota for the
+    title:
+      Amazon EventBridge Scheduler now provides a higher default quota for the
       CreateSchedule API
     link: https://aws.amazon.com/about-aws/whats-new/2026/2/eventbridge-default-quota-increase/
-    published: '2026-03-04'
-    summary: <p>Amazon EventBridge Scheduler now has a higher default service quota
+    published: "2026-03-04"
+    summary:
+      <p>Amazon EventBridge Scheduler now has a higher default service quota
       for the CreateSchedule API action. The default CreateSchedule request rate quota
       is now 5,000 requests per second in 11 AWS Regions. Quotas can be further increased
       to tens of thousands of requests per second by making a request through the
@@ -219,4 +231,4 @@ entries:
       Europe (Ireland), South America (São Paulo), Asia Pacific (Mumbai), Europe (Frankfurt),
       Europe (London), Asia Pacific (Tokyo), Asia Pacific (Singapore), and Asia Pacific
       (Sydney) Regions.&nbsp;</p>
-last_updated: '2026-03-06T21:26:29.266323'
+last_updated: "2026-03-06T21:26:29.266323"

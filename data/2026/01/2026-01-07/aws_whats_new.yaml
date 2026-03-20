@@ -3,8 +3,9 @@ entries:
     id: b9485efccafc62d43ea3006e14f605e3
     title: AWS simplifies Client VPN onboarding with Quickstart setup
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-client-vpn-onboarding-quickstart-setup
-    published: '2026-01-07'
-    summary: "<p>Today, AWS announces a simplified onboarding experience for AWS Client\
+    published: "2026-01-07"
+    summary:
+      "<p>Today, AWS announces a simplified onboarding experience for AWS Client\
       \ VPN, introducing a new Quickstart setup method that streamlines the process\
       \ of creating and configuring Client VPN endpoints.<br /> <br /> AWS Client\
       \ VPN allows you to securely connect remote users to AWS resources and on-premises\
@@ -29,11 +30,13 @@ entries:
       >documentation</a></li> \n</ul>"
   ad574e382a2c079f229d9e42b255a8ee:
     id: ad574e382a2c079f229d9e42b255a8ee
-    title: Announcing Apache Airflow 2.11 Support in Amazon Managed Workflows for
+    title:
+      Announcing Apache Airflow 2.11 Support in Amazon Managed Workflows for
       Apache Airflow
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/apache-airflow-2-11-support-amazon-managed-workflows/
-    published: '2026-01-07'
-    summary: <p>You can now create Apache Airflow version 2.11 environments on Amazon
+    published: "2026-01-07"
+    summary:
+      <p>You can now create Apache Airflow version 2.11 environments on Amazon
       Managed Workflows for Apache Airflow (MWAA). Apache Airflow 2.11 introduces
       several changes to help you prepare for upgrading to Apache Airflow 3.&nbsp;<br
       /> <br /> Amazon MWAA is a managed orchestration service for Apache Airflow
@@ -56,8 +59,9 @@ entries:
     id: 7aea47f41e32daef7188894449e36ddb
     title: Amazon EC2 I7ie instances now available in additional AWS regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-i7ie-instances-additional-aws-regions/
-    published: '2026-01-07'
-    summary: <p>AWS is announcing starting today, Amazon EC2 I7ie instances are now
+    published: "2026-01-07"
+    summary:
+      <p>AWS is announcing starting today, Amazon EC2 I7ie instances are now
       available in AWS Asia Pacific (Mumbai), Canada West (Calgary) and Europe (Paris)
       regions. Designed for large storage I/O intensive workloads, I7ie instances
       are powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency
@@ -77,11 +81,13 @@ entries:
       page</a>.</p>
   3dde45a7421717bdcfc7bf442c9a2e1b:
     id: 3dde45a7421717bdcfc7bf442c9a2e1b
-    title: Amazon EC2 C8i and C8i-flex instances are now available in additional AWS
+    title:
+      Amazon EC2 C8i and C8i-flex instances are now available in additional AWS
       regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8i-c8i-flex-instances-additional-aws-regions
-    published: '2026-01-07'
-    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
+    published: "2026-01-07"
+    summary:
+      <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
       C8i-flex instances are available in the Asia Pacific (Mumbai), Asia Pacific
       (Seoul), and Asia Pacific (Tokyo) regions. These instances are powered by custom
       Intel Xeon 6 processors, available only on AWS, delivering the highest performance
@@ -111,8 +117,9 @@ entries:
     id: a813a75a2cec19732852a3ac6d20aaa6
     title: AWS IAM Identity Center now supports IPv6
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/iam-identity-center-ipv6-dualstack-support/
-    published: '2026-01-07'
-    summary: <p>AWS IAM Identity Center now supports Internet Protocol version 6 (IPv6)
+    published: "2026-01-07"
+    summary:
+      <p>AWS IAM Identity Center now supports Internet Protocol version 6 (IPv6)
       through new dual-stack endpoints. Customers can now connect to AWS IAM Identity
       Center using IPv6, IPv4, or dual-stack clients. The existing AWS IAM Identity
       Center endpoints supporting IPv4 remain available for backward compatibility.<br
@@ -127,4 +134,4 @@ entries:
       the AWS GovCloud (US) Regions and the Taipei Region. To learn more, visit the
       <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html"
       target="_blank">IAM Identity Center User Guide</a>.</p>
-last_updated: '2026-01-26T21:20:47.955674'
+last_updated: "2026-01-26T21:20:47.955674"

@@ -1,11 +1,13 @@
 entries:
   5cebb74e7b60f3ca428590783fdc0398:
     id: 5cebb74e7b60f3ca428590783fdc0398
-    title: 'IAM Policy Autopilot: An open-source tool that brings IAM policy expertise
-      to builders and AI coding assistants'
+    title:
+      "IAM Policy Autopilot: An open-source tool that brings IAM policy expertise
+      to builders and AI coding assistants"
     link: https://aws.amazon.com/blogs/security/iam-policy-autopilot-an-open-source-tool-that-brings-iam-policy-expertise-to-builders-and-ai-coding-assistants/
-    published: '2025-12-08'
-    summary: Today, we’re excited to announce IAM Policy Autopilot, an open-source
+    published: "2025-12-08"
+    summary:
+      Today, we’re excited to announce IAM Policy Autopilot, an open-source
       static analysis tool that helps your AI coding assistants quickly create baseline
       AWS Identity and Access Management (IAM) policies that you can review and refine
       as your application evolves. IAM Policy Autopilot is available as a command-line
@@ -14,10 +16,11 @@ entries:
     id: 4225ef8e240e19c891fa823a9780f9b3
     title: AWS launches AI-enhanced security innovations at re:Invent 2025
     link: https://aws.amazon.com/blogs/security/aws-launches-ai-enhanced-security-innovations-at-reinvent-2025/
-    published: '2025-12-08'
-    summary: At re:Invent 2025, AWS unveiled its latest AI- and automation-enabled
+    published: "2025-12-08"
+    summary:
+      At re:Invent 2025, AWS unveiled its latest AI- and automation-enabled
       innovations to strengthen cloud security for customers to grow their business.
       Organizations are likely to increase security spending from $213 billion in
       2025 to $377 billion by 2028 as they adopt generative AI. This 77% increase
       highlights the importance organizations place on securing their AI […]
-last_updated: '2026-01-12T11:22:41.445407'
+last_updated: "2026-01-12T11:22:41.445407"

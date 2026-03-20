@@ -1,11 +1,13 @@
 entries:
   5039f2102023fdb2dca820be689fcda6:
     id: 5039f2102023fdb2dca820be689fcda6
-    title: Amazon Connect adds conditional logic and real-time updates to Step-by-Step
+    title:
+      Amazon Connect adds conditional logic and real-time updates to Step-by-Step
       Guides
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-conditional-logic-real-time-updates-step-by-step-guides/
-    published: '2026-01-23'
-    summary: '<p>Amazon Connect Step-by-Step Guides now enables managers to build
+    published: "2026-01-23"
+    summary:
+      '<p>Amazon Connect Step-by-Step Guides now enables managers to build
       more dynamic and responsive guided experiences. Managers can create conditional
       user interfaces that adapt based on user interactions, making workflows more
       efficient. For example, managers can configure dropdown menus to show or hide
@@ -26,8 +28,9 @@ entries:
     id: 106131b0e5c130e6b240a582d0b8647a
     title: Amazon EVS now supports multiple VMware NSX Edge Gateways
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-evs-multiple-vmware-nsx-edge-gateways
-    published: '2026-01-23'
-    summary: <p>Today, we're announcing that Amazon Elastic VMware Service (Amazon
+    published: "2026-01-23"
+    summary:
+      <p>Today, we're announcing that Amazon Elastic VMware Service (Amazon
       EVS) now supports the ability to deploy multiple VMware NSX Tier-0 Gateways
       within VMware Software-Defined Data Centers (SDDC), enabling enhanced network
       segmentation and more flexible routing configurations.<br /> <br /> Multiple
@@ -50,8 +53,9 @@ entries:
     id: d82dcbe4924365669e76ab620218e744
     title: Announcing general availability of Amazon EC2 M4 Max Mac instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-m4-max-mac-instances-ga
-    published: '2026-01-23'
-    summary: "<p>Amazon Web Services announces general availability of Amazon EC2\
+    published: "2026-01-23"
+    summary:
+      "<p>Amazon Web Services announces general availability of Amazon EC2\
       \ M4 Max Mac instances, powered by the latest Mac Studio hardware. Amazon EC2\
       \ M4 Max Mac instances are the next-generation EC2 Mac instances, that enable\
       \ Apple developers to migrate their most demanding build and test workloads\
@@ -71,8 +75,9 @@ entries:
     id: 5c696b18c0fa4fb29ff8bf76a6394d73
     title: EC2 Auto Scaling Introduces New Mechanisms for Group Deletion Protection
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-auto-scaling-new-mechanisms-group-deletion-protection
-    published: '2026-01-23'
-    summary: <p>EC2 Auto Scaling is introducing a new policy condition key <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2autoscaling.html#amazonec2autoscaling-policy-keys"
+    published: "2026-01-23"
+    summary:
+      <p>EC2 Auto Scaling is introducing a new policy condition key <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2autoscaling.html#amazonec2autoscaling-policy-keys"
       target="_blank">autoscaling:ForceDelete</a>. This condition key is used with
       the DeleteAutoScalingGroup action to control whether the ForceDelete parameter
       can be used during deletion, which determines if an Auto Scaling group (ASG)
@@ -97,8 +102,9 @@ entries:
     id: f3bbe6790c2de866c9b5ac4405767b72
     title: Amazon Route 53 Domains adds support for .ai, and other top-level domains
     link: https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-route-53-domains-adds-support-for-.ai-and-other-top-level-domains/
-    published: '2026-01-23'
-    summary: "<p>Amazon Route 53 Domains now supports registration and management\
+    published: "2026-01-23"
+    summary:
+      "<p>Amazon Route 53 Domains now supports registration and management\
       \ of ten new top-level domains (TLDs): .ai, .nz, .shop, .bot, .moi, .spot, .free,\
       \ .deal, .now, and .hot. This expansion enhances Route 53's capabilities as\
       \ a domain registration and DNS management service, offering customers more\
@@ -122,8 +128,9 @@ entries:
     id: 232bb24d86fc87d143883d674018483b
     title: Amazon RDS for Oracle now supports replicas in Oracle multi-tenant configuration
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-for-oracle-replica-multi-tenant-configuration-support
-    published: '2026-01-23'
-    summary: "<p>Amazon RDS for Oracle now supports database replicas for instances\
+    published: "2026-01-23"
+    summary:
+      "<p>Amazon RDS for Oracle now supports database replicas for instances\
       \ set up in Oracle multi-tenant configuration. Oracle multi-tenant configuration\
       \ allows customers to host multiple, isolated pluggable databases in a single\
       \ container database, which allows for cost reduction through consolidation\
@@ -145,4 +152,4 @@ entries:
       >RDS for Oracle User Guide</a> for more information, and <a href=\"https://aws.amazon.com/rds/oracle/pricing/\"\
       >Amazon RDS for Oracle pricing</a> for available instance configurations, pricing,\
       \ and region availability.</p>"
-last_updated: '2026-01-23T21:18:20.895558'
+last_updated: "2026-01-23T21:18:20.895558"

@@ -3,10 +3,11 @@ entries:
     id: 199b16a5b9a827a492f738b15fbb07b1
     title: Understanding IAM for Managed AWS MCP Servers
     link: https://aws.amazon.com/blogs/security/understanding-iam-for-managed-aws-mcp-servers/
-    published: '2026-03-02'
-    summary: As AI agents become part of your development workflows on Amazon Web
+    published: "2026-03-02"
+    summary:
+      As AI agents become part of your development workflows on Amazon Web
       Services (AWS), you want them to work with your existing AWS Identity and Access
       Management (IAM) permissions, not force you to build a separate permissions
       model. At the same time, you need the flexibility to apply different governance
       controls when an AI agent […]
-last_updated: '2026-03-02T16:40:23.808899'
+last_updated: "2026-03-02T16:40:23.808899"

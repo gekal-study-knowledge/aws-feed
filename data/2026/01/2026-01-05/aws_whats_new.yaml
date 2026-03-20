@@ -3,8 +3,9 @@ entries:
     id: 48b3e0058c286e7ddcadc76484539c5a
     title: Amazon EC2 G5 instances are now available in Asia Pacific (Hong Kong) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-g5-now-available-asia-pacific-hong-kong
-    published: '2026-01-05'
-    summary: "<p>Starting today, the Amazon Elastic Compute Cloud (Amazon EC2) G5\
+    published: "2026-01-05"
+    summary:
+      "<p>Starting today, the Amazon Elastic Compute Cloud (Amazon EC2) G5\
       \ instances powered by NVIDIA A10G Tensor Core GPUs are now available in the\
       \ Asia Pacific (Hong Kong) region. G5 instances can be used for a wide range\
       \ of graphics intensive and machine learning use cases.</p> \n<p>Customers can\
@@ -23,11 +24,13 @@ entries:
       \ as On-Demand Instances or Reserved Instances.</p>"
   320d234ad1f55b744faec041f6db035d:
     id: 320d234ad1f55b744faec041f6db035d
-    title: AWS Resource Explorer is now available in AWS Asia Pacific (New Zealand)
+    title:
+      AWS Resource Explorer is now available in AWS Asia Pacific (New Zealand)
       Region.
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-resource-explorer-aws-asia-pacific-new-zealand/
-    published: '2026-01-05'
-    summary: <p>Today, AWS Resource Explorer has expanded the availability of resource
+    published: "2026-01-05"
+    summary:
+      <p>Today, AWS Resource Explorer has expanded the availability of resource
       search and discovery to the Asia Pacific (New Zealand) Region.<br /> <br />
       With AWS Resource Explorer you can search for and discover your AWS resources
       across AWS Regions and accounts in your organization, either using the AWS Resource
@@ -42,11 +45,13 @@ entries:
       Resource Explorer product page</u></a>.</p>
   9de62f5f861093af37392c2e81279a18:
     id: 9de62f5f861093af37392c2e81279a18
-    title: AWS Transfer Family is now available in AWS Asia Pacific (New Zealand)
+    title:
+      AWS Transfer Family is now available in AWS Asia Pacific (New Zealand)
       region
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-asia-pacific-new-zealand-region
-    published: '2026-01-05'
-    summary: <p>Customers in AWS Asia Pacific (New Zealand) Region can now use AWS
+    published: "2026-01-05"
+    summary:
+      <p>Customers in AWS Asia Pacific (New Zealand) Region can now use AWS
       Transfer Family for file transfers over Secure File Transfer Protocol (SFTP),
       File Transfer Protocol (FTP), FTP over SSL (FTPS) and Applicability Statement
       2 (AS2).<br /> <br /> AWS Transfer Family provides fully managed file transfers
@@ -63,8 +68,9 @@ entries:
     id: b46f2b87057661371bcc22462bcbf415
     title: EC2 Capacity Manager now includes Spot interruption metrics
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-capacity-manager-spot-interruption-metrics/
-    published: '2026-01-05'
-    summary: '<p>Today, AWS announces new Spot interruption metrics for Amazon EC2
+    published: "2026-01-05"
+    summary:
+      '<p>Today, AWS announces new Spot interruption metrics for Amazon EC2
       Capacity Manager that allow you to better understand Spot capacity across your
       organization. EC2 Capacity Manager helps you monitor, analyze, and manage your
       EC2 capacity across On-Demand, Spot, and Capacity Reservations from a single
@@ -86,4 +92,4 @@ entries:
       target="_blank">commercial AWS Regions enabled by default</a> at no additional
       cost.<br /> <br /> To get started, visit <a href="https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#CapacityManagerHome"
       target="_blank">EC2 Capacity Manager in the AWS console</a>.</p>'
-last_updated: '2026-01-12T11:22:40.759205'
+last_updated: "2026-01-12T11:22:40.759205"

@@ -3,8 +3,9 @@ entries:
     id: 39b0d5fec4ce2ece52bb844208712258
     title: AWS HealthImaging adds JPEG XL support
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-healthimaging-adds-jpeg-xl
-    published: '2026-02-02'
-    summary: "<p>AWS HealthImaging now supports storing and retrieving lossy compressed\
+    published: "2026-02-02"
+    summary:
+      "<p>AWS HealthImaging now supports storing and retrieving lossy compressed\
       \ medical images in the JPEG XL transfer syntax (1.2.840.10008.1.2.4.112). It\
       \ is now simpler than ever to integrate HealthImaging with applications that\
       \ require JPEG XL encoded DICOM data, such as digital pathology whole slide\
@@ -17,8 +18,9 @@ entries:
     id: 92fabc6451ccd536cb87456ade54a8f0
     title: AWS announces Flexible Cost Allocation in AWS GovCloud (US)
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-flexible-cost-allocation-govcloud/
-    published: '2026-02-02'
-    summary: <p><a href="https://aws.amazon.com/network-firewall/">AWS Network Firewall
+    published: "2026-02-02"
+    summary:
+      <p><a href="https://aws.amazon.com/network-firewall/">AWS Network Firewall
       </a>now supports flexible cost allocation through <a href="https://aws.amazon.com/transit-gateway/">AWS
       Transit Gateway</a> native attachments in <a href="https://aws.amazon.com/govcloud-us/">AWS
       GovCloud (US) Regions</a>, enabling you to automatically distribute data processing
@@ -42,8 +44,9 @@ entries:
     id: 825dd384a5dc605a3af21692cf67b736
     title: Amazon Connect now provides APIs to test and simulate voice interactions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-provides-apis-test-simulate-voice-interactions/
-    published: '2026-02-02'
-    summary: "<p>Amazon Connect now offers APIs to configure and run tests that simulate\
+    published: "2026-02-02"
+    summary:
+      "<p>Amazon Connect now offers APIs to configure and run tests that simulate\
       \ contact center experiences, making it easy to validate workflows, self-service\
       \ voice interactions, and their outcomes. With these APIs, you can programmatically\
       \ configure test parameters, including the caller's phone number or customer\
@@ -66,11 +69,13 @@ entries:
       \ website</a>.</p>"
   43c27afa8d7c3790b4b3eafbe6c09700:
     id: 43c27afa8d7c3790b4b3eafbe6c09700
-    title: DeepSeek OCR, MiniMax M2.1, and Qwen3-VL-8B-Instruct models are now available
+    title:
+      DeepSeek OCR, MiniMax M2.1, and Qwen3-VL-8B-Instruct models are now available
       on SageMaker JumpStart
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/new-models-on-sagemaker-jumpstart
-    published: '2026-02-02'
-    summary: <p>Today, AWS announced the availability of DeepSeek OCR, MiniMax M2.1,
+    published: "2026-02-02"
+    summary:
+      <p>Today, AWS announced the availability of DeepSeek OCR, MiniMax M2.1,
       and Qwen3-VL-8B-Instruct in Amazon SageMaker JumpStart, expanding the portfolio
       of foundation models available to AWS customers. These three models bring specialized
       capabilities spanning document intelligence, multilingual coding, advanced multimodal
@@ -97,8 +102,9 @@ entries:
     id: 2ebb2739cbff202106c692e73c554076
     title: Announcing memory-optimized instance bundles for Amazon Lightsail
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-lightsail-memory-optimized-instances/
-    published: '2026-02-02'
-    summary: <p>Amazon Lightsail now offers memory-optimized instance bundles with
+    published: "2026-02-02"
+    summary:
+      <p>Amazon Lightsail now offers memory-optimized instance bundles with
       up to 512 GB memory. The new instance bundles are available in 7 sizes, with
       Linux and Windows operating system (OS) and application blueprints, for both
       IPv6-only and dual-stack networking types. You can create instances using the
@@ -115,11 +121,13 @@ entries:
       <a href="https://aws.amazon.com/lightsail/pricing/">click here.</a></p>
   2e08defc60c2986a66fa0189307590da:
     id: 2e08defc60c2986a66fa0189307590da
-    title: AWS STS now supports validation of select identity provider specific claims
+    title:
+      AWS STS now supports validation of select identity provider specific claims
       from Google, GitHub, CircleCI and OCI
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-sts-supports-validation-identity-provider-claims
-    published: '2026-02-02'
-    summary: <p>AWS Security Token Service (STS) now supports validation of select
+    published: "2026-02-02"
+    summary:
+      <p>AWS Security Token Service (STS) now supports validation of select
       identity provider specific claims from Google, GitHub, CircleCI and Oracle Cloud
       Infrastructure in IAM role trust policies and resource control policies for
       OpenID Connect (OIDC) federation into AWS via the AssumeRoleWithWebIdentity
@@ -134,8 +142,9 @@ entries:
     id: 3893bee86e7d5ebbc7761b0c419e4c15
     title: Amazon CloudFront announces mutual TLS support for origins
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-mutual-tls-for-origins/
-    published: '2026-02-02'
-    summary: <p>Amazon CloudFront announces support for mutual TLS authentication
+    published: "2026-02-02"
+    summary:
+      <p>Amazon CloudFront announces support for mutual TLS authentication
       (mTLS) for origins, a security protocol that enables customers to verify that
       requests to their origin servers come only from their authorized CloudFront
       distributions using TLS certificates. This certificate-based authentication
@@ -164,11 +173,13 @@ entries:
       TLS documentation</a>.</p>
   335e2f82f2351828eb4a8e7fe1e0acb5:
     id: 335e2f82f2351828eb4a8e7fe1e0acb5
-    title: AWS Multi-party approval now requires one-time password verification for
+    title:
+      AWS Multi-party approval now requires one-time password verification for
       voting
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-multi-party-approval-requires-one-time-password-verification-for-voting
-    published: '2026-02-02'
-    summary: <p>AWS Multi-Party Approval now requires approvers to verify their voting
+    published: "2026-02-02"
+    summary:
+      <p>AWS Multi-Party Approval now requires approvers to verify their voting
       actions with a one-time password (OTP) sent to their registered AWS Identity
       Center email address. This additional security layer prevents AWS IAM Identity
       Center administrators from bypassing multi-party approval controls by impersonating
@@ -185,11 +196,13 @@ entries:
       additional charge. To learn more, visit the AWS Multi-party approval documentation</p>
   97b51ef82e16ef6d79ee169525b12e13:
     id: 97b51ef82e16ef6d79ee169525b12e13
-    title: Build Production-Ready Drug Discovery and Robotics Pipelines with NVIDIA
+    title:
+      Build Production-Ready Drug Discovery and Robotics Pipelines with NVIDIA
       NIMs on SageMaker JumpStart
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/accelerate-biosciences-and-robotics-with-NVIDIA-NIMs-on-sagemaker-jumpstart
-    published: '2026-02-02'
-    summary: "<p>Amazon SageMaker JumpStart now enables one-click deployment of four\
+    published: "2026-02-02"
+    summary:
+      "<p>Amazon SageMaker JumpStart now enables one-click deployment of four\
       \ NVIDIA NIMs models purpose-built for biosciences and physical AI: ProteinMPNN,\
       \ Nemotron-3.5B-Instruct, MSA Search NIM, and Cosmos Reason. NVIDIA NIM™ provides\
       \ prebuilt, optimized inference microservices for rapidly deploying the latest\
@@ -231,8 +244,9 @@ entries:
     id: 0ad5ec2b15c96774912e736b10421afa
     title: Amazon RDS for MySQL now supports new minor versions 8.0.45 and 8.4.8
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-mysql-minor-versions/
-    published: '2026-02-02'
-    summary: <p><a href="https://aws.amazon.com/rds/mysql/" target="_blank">Amazon
+    published: "2026-02-02"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/mysql/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for MySQL</a> now supports MySQL minor
       versions 8.0.45 and 8.4.8, the latest minors released by the MySQL community.
       We recommend upgrading to the newer minor versions to fix known security vulnerabilities
@@ -252,4 +266,4 @@ entries:
       target="_blank">Amazon RDS for MySQL</a>. Create or update a fully managed Amazon
       RDS for MySQL database in the <a href="https://console.aws.amazon.com/rds/home"
       target="_blank">Amazon RDS Management Console</a>.</p>
-last_updated: '2026-02-04T23:24:03.791713'
+last_updated: "2026-02-04T23:24:03.791713"

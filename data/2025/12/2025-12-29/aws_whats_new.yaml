@@ -1,11 +1,13 @@
 entries:
   358a22188c261bd2afe31d878f63c164:
     id: 358a22188c261bd2afe31d878f63c164
-    title: Amazon Connect dashboards now support filtering metrics based on custom
+    title:
+      Amazon Connect dashboards now support filtering metrics based on custom
       business dimensions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-connect-dashboards-filtering-metrics-custom-business-dimensions
-    published: '2025-12-29'
-    summary: <p>Amazon Connect dashboards now support filtering metrics based on custom
+    published: "2025-12-29"
+    summary:
+      <p>Amazon Connect dashboards now support filtering metrics based on custom
       business dimensions such as business divisions, product lines, or customer segments.
       Using predefined attributes, you can create business dimensions to filter metrics
       helping you customize the dashboards based on your unique business need. For
@@ -22,8 +24,9 @@ entries:
     id: 4e9728c177b48a670cfa53e5b92f49d1
     title: Amazon OpenSearch UI supports CMK and increased metadata size
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-opensearch-ui-cmk-metadata/
-    published: '2025-12-29'
-    summary: '<p>Amazon OpenSearch Service now supports AWS KMS customer managed keys
+    published: "2025-12-29"
+    summary:
+      '<p>Amazon OpenSearch Service now supports AWS KMS customer managed keys
       (CMKs) and increased size for OpenSearch UI metadata. Amazon OpenSearch UI is
       a managed service for dashboarding and operational analytics that provides a
       unified view across multiple data sources, including OpenSearch domains and
@@ -37,4 +40,4 @@ entries:
       style="cursor: pointer;" target="_blank">all regions that OpenSearch UI is available</a>.
       Learn more at <a href="https://docs.aws.amazon.com/opensearch-service/latest/developerguide/application.html"
       style="cursor: pointer;" target="_blank">Amazon OpenSearch UI Developer Guide</a>.</p>'
-last_updated: '2026-01-12T11:22:40.768981'
+last_updated: "2026-01-12T11:22:40.768981"

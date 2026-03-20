@@ -3,8 +3,9 @@ entries:
     id: 7fc56fb78dbd8d0f7f9a520cbd4e102e
     title: Amazon Aurora Global Database now supports managed minor version upgrades
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-global-database-managed-minor/
-    published: '2026-02-10'
-    summary: "<p>Amazon Aurora Global Database now supports managed minor version\
+    published: "2026-02-10"
+    summary:
+      "<p>Amazon Aurora Global Database now supports managed minor version\
       \ upgrades across your global topology with minimal downtime, eliminating the\
       \ need to manually upgrade each cluster individually and reducing operational\
       \ overhead for global cluster management.</p> \n<p><br /> Aurora Global Database\
@@ -25,8 +26,9 @@ entries:
     id: c3f891e351c33b3591a0a4407516c8c4
     title: Amazon SageMaker HyperPod now supports node actions from the console
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sagemaker-hyperpod-node-actions/
-    published: '2026-02-10'
-    summary: <p>Amazon SageMaker HyperPod now enables you to manage individual cluster
+    published: "2026-02-10"
+    summary:
+      <p>Amazon SageMaker HyperPod now enables you to manage individual cluster
       nodes directly from the AWS Console. HyperPod cluster operators managing large-scale
       AI/ML workloads often need to connect to nodes for troubleshooting, reboot unresponsive
       instances, or replace degraded nodes. Connecting to a node previously required
@@ -53,8 +55,9 @@ entries:
     id: 550680fdb0bf49a84824da9b8448a1d2
     title: Amazon EC2 C8id, M8id, and R8id instances are available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/c8id-m8id-and-r8id-in-additional-regions/
-    published: '2026-02-10'
-    summary: <p>Amazon Elastic Compute Cloud (EC2) C8id, M8id, and R8id instances
+    published: "2026-02-10"
+    summary:
+      <p>Amazon Elastic Compute Cloud (EC2) C8id, M8id, and R8id instances
       powered by custom Intel Xeon 6 processors feature up to 384 vCPUs, 3TiB of memory,
       and 22.8TB of NVMe SSD storage and deliver up to 43% higher performance and
       3.3x more memory bandwidth compared to previous generation C6id, M6id, and R6id
@@ -83,8 +86,9 @@ entries:
     id: ee767795ff142559263634d7bcf65b1b
     title: Amazon Athena now supports 1-minute reservations and 4 DPU minimum capacity
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-athena-one-minute-capacity-reservations/
-    published: '2026-02-10'
-    summary: <p><a href="https://aws.amazon.com/athena/" target="_blank">Amazon Athena</a>
+    published: "2026-02-10"
+    summary:
+      <p><a href="https://aws.amazon.com/athena/" target="_blank">Amazon Athena</a>
       now supports 1-minute Capacity Reservations and a lower minimum capacity of
       4 Data Processing Units (DPUs) for all reservations. Now, you can get started
       with less capacity and make more frequent, fine-grained adjustments to match
@@ -102,8 +106,9 @@ entries:
     id: 725ea1443a14f72a4c42b1b891900831
     title: Amazon Bedrock adds support for six fully-managed open weights models
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-adds-support-six-open-weights-models
-    published: '2026-02-10'
-    summary: "<p>Amazon Bedrock now supports six new models spanning frontier reasoning\
+    published: "2026-02-10"
+    summary:
+      "<p>Amazon Bedrock now supports six new models spanning frontier reasoning\
       \ and agentic coding: DeepSeek V3.2, MiniMax M2.1, GLM 4.7, GLM 4.7 Flash, Kimi\
       \ K2.5, and Qwen3 Coder Next. These six models bring customers access to the\
       \ most capable open weights models available today, delivering frontier-class\
@@ -129,8 +134,9 @@ entries:
     id: bef5eb14bddd3a36372dd6cd375ce963
     title: Amazon OpenSearch Serverless now supports Collection Groups
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-serverless-supports-collection-groups/
-    published: '2026-02-10'
-    summary: <p>Amazon OpenSearch Serverless now supports Collection Groups, a new
+    published: "2026-02-10"
+    summary:
+      <p>Amazon OpenSearch Serverless now supports Collection Groups, a new
       capability that enables you to share OpenSearch Compute Units (OCUs) across
       collections with different AWS KMS keys. This new capability delivers enhanced
       cost optimization through a shared compute model that reduces overall OCU expenses
@@ -152,11 +158,13 @@ entries:
       target="_blank">Amazon OpenSearch Serverless documentation</a>.</p>
   c350d827728493fa9abd33cac524ed0e:
     id: c350d827728493fa9abd33cac524ed0e
-    title: Amazon EKS Auto Mode Announces Enhanced Logging for its Managed Kubernetes
+    title:
+      Amazon EKS Auto Mode Announces Enhanced Logging for its Managed Kubernetes
       Capabilities
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-auto-mode-enhanced-logging
-    published: '2026-02-10'
-    summary: <p>Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode’s managed
+    published: "2026-02-10"
+    summary:
+      <p>Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode’s managed
       capabilities can now be configured as log delivery sources using Amazon CloudWatch
       Vended Logs. This integration enables customers to monitor and troubleshoot
       their EKS Auto Mode clusters more effectively by automatically collecting logs
@@ -176,8 +184,9 @@ entries:
     id: ed7bc9ba4c8d93aefc7c406260f94879
     title: AWS CloudWatch Alarm Mute Rules eliminate alert fatigue
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-cloudwatch-alarm-muting-rules
-    published: '2026-02-10'
-    summary: "<p>Amazon CloudWatch now supports Alarm Mute Rules, enabling customers\
+    published: "2026-02-10"
+    summary:
+      "<p>Amazon CloudWatch now supports Alarm Mute Rules, enabling customers\
       \ to temporarily mute alarm notifications during planned deployments, maintenance\
       \ windows, and off-hours without compromising monitoring visibility. This new\
       \ capability helps eliminate alert fatigue while maintaining complete situational\
@@ -198,4 +207,4 @@ entries:
       \ target=\"_blank\">CloudWatch User Guide for Alarm Mute Rules</a>. You can\
       \ create mute rules through the <a href=\"https://console.aws.amazon.com/cloudwatch/\"\
       \ target=\"_blank\">Amazon CloudWatch Console</a>.&nbsp;</p>"
-last_updated: '2026-02-13T21:32:16.600705'
+last_updated: "2026-02-13T21:32:16.600705"

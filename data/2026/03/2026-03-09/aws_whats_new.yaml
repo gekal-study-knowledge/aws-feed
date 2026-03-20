@@ -3,8 +3,9 @@ entries:
     id: 12bddc6bbb4f3d5c935decfc6ce7a79e
     title: Amazon CloudWatch Logs announces increased query concurrency and API limits
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-logs-increased-limits/
-    published: '2026-03-09'
-    summary: <p>Amazon CloudWatch Logs customers can now run up to 100 concurrent
+    published: "2026-03-09"
+    summary:
+      <p>Amazon CloudWatch Logs customers can now run up to 100 concurrent
       queries per account and execute 10 StartQuery and GetQueryResults API calls
       per second per account/per-region, using the Logs Insights Query Language (Logs
       Insights QL). These limit increases enable customers to support more users and
@@ -26,11 +27,13 @@ entries:
       Logs <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html">documentation</a>.&nbsp;</p>
   495d5a6232445971ac3ad169646e3dd1:
     id: 495d5a6232445971ac3ad169646e3dd1
-    title: Amazon Cognito is now available in Asia Pacific (Taipei) and Asia Pacific
+    title:
+      Amazon Cognito is now available in Asia Pacific (Taipei) and Asia Pacific
       (New Zealand) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/cognito-taipei-and-new-zealand-regions/
-    published: '2026-03-09'
-    summary: "<p>Amazon Cognito is now available in the AWS Asia Pacific (Taipei)\
+    published: "2026-03-09"
+    summary:
+      "<p>Amazon Cognito is now available in the AWS Asia Pacific (Taipei)\
       \ and Asia Pacific (New Zealand) Regions. This launch introduces all Amazon\
       \ Cognito features and tiers, allowing customers to implement secure sign-in\
       \ and access control for users, AI agents, and microservices in minutes.</p>\
@@ -45,8 +48,9 @@ entries:
     id: ff58131a2c255a292b254dd9130b30a6
     title: IAM Roles Anywhere now supports post-quantum digital certificates
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/iam-roles-anywhere-post-quantum-digital-certificates
-    published: '2026-03-09'
-    summary: <p><a href="https://aws.amazon.com/iam/roles-anywhere/">AWS Identity
+    published: "2026-03-09"
+    summary:
+      <p><a href="https://aws.amazon.com/iam/roles-anywhere/">AWS Identity
       and Access Management (IAM) Roles Anywhere</a> now supports the <a href="https://csrc.nist.gov/pubs/fips/204/final">FIPS
       204 Module-Lattice Digital Signature Standard (ML-DSA)</a>, a quantum-resistant
       digital signature algorithm standardized by the National Institute of Standards
@@ -69,11 +73,13 @@ entries:
       Roles Anywhere User Guide</a>.</p>
   c5b21eb099a7c8ad9763afeefe4a3af3:
     id: c5b21eb099a7c8ad9763afeefe4a3af3
-    title: Amazon EC2 G7e instances now available in Asia Pacific (Seoul) and Europe
+    title:
+      Amazon EC2 G7e instances now available in Asia Pacific (Seoul) and Europe
       (Spain) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-g7e-seoul-spain-regions/
-    published: '2026-03-09'
-    summary: "<p>Starting today, Amazon EC2 G7e instances accelerated by NVIDIA RTX\
+    published: "2026-03-09"
+    summary:
+      "<p>Starting today, Amazon EC2 G7e instances accelerated by NVIDIA RTX\
       \ PRO 6000 Blackwell Server Edition GPUs are now available in &nbsp;Asia Pacific\
       \ (Seoul) and Europe (Spain) regions. G7e instances offer up to 2.3x inference\
       \ performance compared to G6e.</p> \n<p>Customers can use G7e instances to deploy\
@@ -99,8 +105,9 @@ entries:
     id: def764738653544fd7dc788d47a8be25
     title: Amazon Quick Suite launches User Preferences for chat personalization
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/user-preferences-in-quick/
-    published: '2026-03-09'
-    summary: <p>We are announcing User Preferences in Amazon Quick Suite – a new feature
+    published: "2026-03-09"
+    summary:
+      <p>We are announcing User Preferences in Amazon Quick Suite – a new feature
       that gives users greater control over how Quick looks, feels, and works for
       them. With User Preferences, users can now customize their Chat panel layout
       by setting it to open expanded or collapsed by default; Quick also automatically
@@ -122,8 +129,9 @@ entries:
     id: 796690a1d23a2e22d51cd5a6455f8d9d
     title: Amazon Route 53 Global Resolver is now generally available
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-route-53-global-resolver/
-    published: '2026-03-09'
-    summary: <p>Today, AWS announced the general availability of Amazon Route 53 Global
+    published: "2026-03-09"
+    summary:
+      <p>Today, AWS announced the general availability of Amazon Route 53 Global
       Resolver, an internet-reachable anycast DNS resolver that delivers easy, secure,
       and reliable DNS resolution for authorized clients from anywhere. Global Resolver
       is now available across 30 AWS Regions, with support for both IPv4 and IPv6
@@ -143,11 +151,13 @@ entries:
       target="_blank">documentation</a>.</p>
   9eeeff2ca8f09bb89840aefdd4e7379f:
     id: 9eeeff2ca8f09bb89840aefdd4e7379f
-    title: Amazon SageMaker Unified Studio now supports faster data preview in Visual
+    title:
+      Amazon SageMaker Unified Studio now supports faster data preview in Visual
       ETL
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-faster-data-preview/
-    published: '2026-03-09'
-    summary: "<p><a href=\"https://aws.amazon.com/sagemaker/unified-studio/\">Amazon\
+    published: "2026-03-09"
+    summary:
+      "<p><a href=\"https://aws.amazon.com/sagemaker/unified-studio/\">Amazon\
       \ SageMaker Unified Studio </a>introduces data preview v2.0 for Visual ETL,\
       \ a new data preview mode that delivers near-instant results when building and\
       \ iterating on visual ETL jobs. With data preview v2.0, data engineers and analysts\
@@ -173,8 +183,9 @@ entries:
     id: b535402746544a0e0bd171ba6df16888
     title: IAM Roles Anywhere now supports post-quantum digital certificates
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/iam-roles-anywhere-post-quantum-digital-certificates/
-    published: '2026-03-09'
-    summary: <p><a href="https://aws.amazon.com/iam/roles-anywhere/">AWS Identity
+    published: "2026-03-09"
+    summary:
+      <p><a href="https://aws.amazon.com/iam/roles-anywhere/">AWS Identity
       and Access Management (IAM) Roles Anywhere</a> now supports the <a href="https://csrc.nist.gov/pubs/fips/204/final">FIPS
       204 Module-Lattice Digital Signature Standard (ML-DSA)</a>, a quantum-resistant
       digital signature algorithm standardized by the National Institute of Standards
@@ -195,4 +206,4 @@ entries:
       (US) Regions, AWS European Sovereign Cloud (Germany) Region, and China Regions.
       To learn more, see the <a href="https://docs.aws.amazon.com/rolesanywhere/latest/userguide/authentication-sign-process.html">IAM
       Roles Anywhere User Guide</a>.</p>
-last_updated: '2026-03-17T18:58:43.296814'
+last_updated: "2026-03-17T18:58:43.296814"

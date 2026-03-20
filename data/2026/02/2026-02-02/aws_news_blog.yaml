@@ -1,13 +1,15 @@
 entries:
   5f17d55e02d1cab7a0958ff283824ac9:
     id: 5f17d55e02d1cab7a0958ff283824ac9
-    title: 'AWS Weekly Roundup: Amazon Bedrock agent workflows, Amazon SageMaker private
-      connectivity, and more (February 2, 2026)'
+    title:
+      "AWS Weekly Roundup: Amazon Bedrock agent workflows, Amazon SageMaker private
+      connectivity, and more (February 2, 2026)"
     link: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-agent-workflows-amazon-sagemaker-private-connectivity-and-more-february-2-2026/
-    published: '2026-02-02'
-    summary: Over the past week, we passed Laba festival, a traditional marker in
+    published: "2026-02-02"
+    summary:
+      Over the past week, we passed Laba festival, a traditional marker in
       the Chinese calendar that signals the final stretch leading up to the Lunar
       New Year. For many in China, it’s a moment associated with reflection and preparation,
       wrapping up what the year has carried, and turning attention toward what lies
       ahead. Looking forward, […]
-last_updated: '2026-02-02T17:35:30.116869'
+last_updated: "2026-02-02T17:35:30.116869"

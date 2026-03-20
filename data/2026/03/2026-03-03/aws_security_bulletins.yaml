@@ -3,8 +3,9 @@ entries:
     id: b5b3fb7750d10b80074bed8240d79c52
     title: MariaDB Server Audit Plugin Comment Handling Bypass
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-006-aws/
-    published: '2026-03-03'
-    summary: "<p><b>Bulletin ID:</b> 2026-006-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2026-03-03"
+    summary:
+      "<p><b>Bulletin ID:</b> 2026-006-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Informational<br /> <b>Publication Date:</b> 2026/03/03 10:15 AM\
       \ PST</p> \n<p><b>Description:</b></p> \n<p>Amazon RDS/Aurora is a managed relational\
       \ database service. We identified CVE-2026-3494. In MariaDB server version through\
@@ -20,4 +21,4 @@ entries:
       \ 11.4.3 to 11.4.9, and 11.8.3 to 11.8.5)</p> \n<p><b>Please refer to the article\
       \ below for the most up-to-date and complete information related to this AWS\
       \ Security Bulletin.</b></p>"
-last_updated: '2026-03-03T18:42:13.031978'
+last_updated: "2026-03-03T18:42:13.031978"

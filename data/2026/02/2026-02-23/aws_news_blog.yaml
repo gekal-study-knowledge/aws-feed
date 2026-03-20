@@ -1,13 +1,15 @@
 entries:
   4c77c84dd3da84136b2e97cc8334908f:
     id: 4c77c84dd3da84136b2e97cc8334908f
-    title: 'AWS Weekly Roundup: Claude Sonnet 4.6 in Amazon Bedrock, Kiro in GovCloud
-      Regions, new Agent Plugins, and more (February 23, 2026)'
+    title:
+      "AWS Weekly Roundup: Claude Sonnet 4.6 in Amazon Bedrock, Kiro in GovCloud
+      Regions, new Agent Plugins, and more (February 23, 2026)"
     link: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-4-6-in-amazon-bedrock-kiro-in-govcloud-regions-new-agent-plugins-and-more-february-23-2026/
-    published: '2026-02-23'
-    summary: Last week, my team met many developers at Developer Week in San Jose.
+    published: "2026-02-23"
+    summary:
+      Last week, my team met many developers at Developer Week in San Jose.
       My colleague, Vinicius Senger delivered a great keynote about renascent software—a
       new way of building and evolving applications where humans and AI collaborate
       as co-developers using Kiro. Other colleagues spoke about building and deploying
       production-ready AI agents. Everyone stayed to ask and […]
-last_updated: '2026-02-23T17:58:57.184487'
+last_updated: "2026-02-23T17:58:57.184487"

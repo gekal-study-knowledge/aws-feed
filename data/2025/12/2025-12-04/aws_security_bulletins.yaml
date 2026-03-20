@@ -1,10 +1,11 @@
 entries:
   d75354aa1dfac0f5528107677997059e:
     id: d75354aa1dfac0f5528107677997059e
-    title: 'CVE-2025-66478: RCE in React Server Components'
+    title: "CVE-2025-66478: RCE in React Server Components"
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-030/
-    published: '2025-12-04'
-    summary: "<p><b>Bulletin ID:</b> AWS-2025-030<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2025-12-04"
+    summary:
+      "<p><b>Bulletin ID:</b> AWS-2025-030<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/12/03\
       \ 20:00 PM PST</p> \n<p><b>Description:</b></p> \n<p>AWS is aware of the recently\
       \ disclosed CVE-2025-55182 which affects the React Server Flight protocol in\
@@ -19,4 +20,4 @@ entries:
       \ Server Functions and RSC Components should update to the latest patched versions\
       \ 19.0.1, 19.1.2, and 19.2.1<br /> - Customers using Next.js 15-16 with App\
       \ Router should update to a patched version</p>"
-last_updated: '2026-01-17T00:23:07.314519'
+last_updated: "2026-01-17T00:23:07.314519"

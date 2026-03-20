@@ -1,11 +1,13 @@
 entries:
   af40e9e29b21a81df771111890c321db:
     id: af40e9e29b21a81df771111890c321db
-    title: 'CVE-2026-4428: Issues with AWS-LC - CRL Distribution Point Scope Check
-      Logic Error'
+    title:
+      "CVE-2026-4428: Issues with AWS-LC - CRL Distribution Point Scope Check
+      Logic Error"
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-010-aws/
-    published: '2026-03-19'
-    summary: "<p><b>Bulletin ID:</b> 2026-010-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2026-03-19"
+    summary:
+      "<p><b>Bulletin ID:</b> 2026-010-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/03/19\
       \ 13:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS-LC is a general-purpose\
       \ cryptographic library maintained by AWS. We identified CVE-2026-4428 affecting\
@@ -23,4 +25,4 @@ entries:
       \ CRL Distribution Point Scope Check Logic Error in aws-lc-fips-sys &gt;= v0.13.0,\
       \ &lt; v0.13.13</p> \n<p><b>Please refer to the article below for the most up-to-date\
       \ and complete information related to this AWS Security Bulletin.</b></p>"
-last_updated: '2026-03-19T22:24:51.398761'
+last_updated: "2026-03-19T22:24:51.398761"

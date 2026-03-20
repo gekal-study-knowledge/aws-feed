@@ -1,11 +1,13 @@
 entries:
   3782bdbd233aef74d0baa82b8d17020b:
     id: 3782bdbd233aef74d0baa82b8d17020b
-    title: 'AWS Weekly Roundup: Amazon EC2 M8azn instances, new open weights models
-      in Amazon Bedrock, and more (February 16, 2026)'
+    title:
+      "AWS Weekly Roundup: Amazon EC2 M8azn instances, new open weights models
+      in Amazon Bedrock, and more (February 16, 2026)"
     link: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ec2-m8azn-instances-new-open-weights-models-in-amazon-bedrock-and-more-february-16-2026/
-    published: '2026-02-16'
-    summary: I joined AWS in 2021, and since then I’ve watched the Amazon Elastic
+    published: "2026-02-16"
+    summary:
+      I joined AWS in 2021, and since then I’ve watched the Amazon Elastic
       Compute Cloud (Amazon EC2) instance family grow at a pace that still surprises
       me. From AWS Graviton-powered instances to specialized accelerated computing
       options, it feels like every few months there’s a new instance type landing
@@ -14,18 +16,21 @@ entries:
     id: d248ced1ad3564f18fb487b7d6f065bd
     title: Announcing Amazon SageMaker Inference for custom Amazon Nova models
     link: https://aws.amazon.com/blogs/aws/announcing-amazon-sagemaker-inference-for-custom-amazon-nova-models/
-    published: '2026-02-16'
-    summary: AWS launches Amazon SageMaker AI Inference for custom Amazon Nova models.
+    published: "2026-02-16"
+    summary:
+      AWS launches Amazon SageMaker AI Inference for custom Amazon Nova models.
       You can now configure the instance types, auto-scaling policies, and concurrency
       settings for custom Nova model deployments to best meet their needs.
   9ed6e6bb679d75e5e38bf5bacec70697:
     id: 9ed6e6bb679d75e5e38bf5bacec70697
-    title: Amazon EC2 Hpc8a Instances powered by 5th Gen AMD EPYC processors are now
+    title:
+      Amazon EC2 Hpc8a Instances powered by 5th Gen AMD EPYC processors are now
       available
     link: https://aws.amazon.com/blogs/aws/amazon-ec2-hpc8a-instances-powered-by-5th-gen-amd-epyc-processors-are-now-available/
-    published: '2026-02-16'
-    summary: Amazon EC2 Hpc8a instances, powered by 5th Gen AMD EPYC processors, deliver
+    published: "2026-02-16"
+    summary:
+      Amazon EC2 Hpc8a instances, powered by 5th Gen AMD EPYC processors, deliver
       up to 40% higher performance, increased memory bandwidth, and 300 Gbps Elastic
       Fabric Adapter networking, helping customers accelerate compute-intensive simulations,
       engineering workloads, and tightly coupled HPC applications.
-last_updated: '2026-02-16T23:25:54.831721'
+last_updated: "2026-02-16T23:25:54.831721"

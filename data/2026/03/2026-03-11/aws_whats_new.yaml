@@ -1,11 +1,13 @@
 entries:
   260a7cce5ceb0fe66b30832648ccd8dc:
     id: 260a7cce5ceb0fe66b30832648ccd8dc
-    title: Amazon Connect now provides integrated workflows for managers to coach
+    title:
+      Amazon Connect now provides integrated workflows for managers to coach
       agents
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-integrated-agent-coaching-workflows/
-    published: '2026-03-11'
-    summary: <p>Amazon Connect now delivers integrated agent coaching workflows that
+    published: "2026-03-11"
+    summary:
+      <p>Amazon Connect now delivers integrated agent coaching workflows that
       enable contact center managers to provide timely, targeted feedback directly
       within the Connect UI. When managers identify improvement opportunities through
       evaluation scorecards, they can immediately create coaching plans with specific
@@ -23,11 +25,13 @@ entries:
       and our <a href="https://aws.amazon.com/connect/conversational-analytics/">webpage</a>.&nbsp;</p>
   74caa5c191aff9ce4cb483b11e880dcd:
     id: 74caa5c191aff9ce4cb483b11e880dcd
-    title: Amazon CloudWatch Database Insights on-demand analysis now available in
+    title:
+      Amazon CloudWatch Database Insights on-demand analysis now available in
       AWS Govcloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-database-insights-on-demand-analysis-in-govcloud/
-    published: '2026-03-11'
-    summary: <p>Amazon CloudWatch Database Insights expands the availability of its
+    published: "2026-03-11"
+    summary:
+      <p>Amazon CloudWatch Database Insights expands the availability of its
       on-demand analysis experience to AWS GovCloud (US-East) and AWS GovCloud (US-West).
       CloudWatch Database Insights is a monitoring and diagnostics solution that helps
       database administrators and developers optimize database performance by providing
@@ -53,8 +57,9 @@ entries:
     id: eca2bc9744e1a2fa41b43c1563fee2c5
     title: Amazon EC2 C8id instances are now available in Europe (Spain)
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8id-instances-europe-spain/
-    published: '2026-03-11'
-    summary: <p>Amazon Elastic Compute Cloud (EC2) C8id instances powered by custom
+    published: "2026-03-11"
+    summary:
+      <p>Amazon Elastic Compute Cloud (EC2) C8id instances powered by custom
       Intel Xeon 6 processors feature up to 384 vCPUs, 768GiB of memory, and 22.8TB
       of NVMe SSD storage and deliver up to 43% higher performance and 3.3x more memory
       bandwidth compared to previous generation C6id instances. Starting today, C8id
@@ -73,11 +78,13 @@ entries:
       EC2 instance type page.</a></p>
   8176d0515f03f9478ecd3c9ed06c5a4e:
     id: 8176d0515f03f9478ecd3c9ed06c5a4e
-    title: Amazon EC2 C8gd and M8gd instances are now available in additional AWS
+    title:
+      Amazon EC2 C8gd and M8gd instances are now available in additional AWS
       Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8gd-m8gd-instances-available/
-    published: '2026-03-11'
-    summary: <p>Amazon Elastic Compute Cloud (Amazon EC2) C8gd and M8gd instances
+    published: "2026-03-11"
+    summary:
+      <p>Amazon Elastic Compute Cloud (Amazon EC2) C8gd and M8gd instances
       with up to 11.4 TB of local NVMe-based SSD block-level storage are now available
       in additional regions. C8gd instances are now available in South America (Sao
       Paulo). M8gd instances are now available in Europe (Ireland). These instances
@@ -103,11 +110,13 @@ entries:
       Management Console</a>.</p>
   fca8ba817c743f039e0aca2879f98cb3:
     id: fca8ba817c743f039e0aca2879f98cb3
-    title: Amazon EC2 R7gd instances are now available in South America (Sao Paulo)
+    title:
+      Amazon EC2 R7gd instances are now available in South America (Sao Paulo)
       Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r7gd-instances-available/
-    published: '2026-03-11'
-    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R7gd instances
+    published: "2026-03-11"
+    summary:
+      <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R7gd instances
       with up to 3.8 TB of local NVMe-based SSD block-level storage are available
       in South America (Sao Paulo) Region.<br /> <br /> R7gd are powered by AWS Graviton3
       processors with DDR5 memory are built on the <a href="https://aws.amazon.com/ec2/nitro/">AWS
@@ -122,8 +131,9 @@ entries:
     id: 527f06c005567ebb524785cb2fbfcd90
     title: Amazon EC2 High Memory U7i instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-high-memory-u7i-instances/
-    published: '2026-03-11'
-    summary: "<p>Amazon EC2 High Memory U7i instances with 8TB of memory (u7i-8tb.112xlarge)\
+    published: "2026-03-11"
+    summary:
+      "<p>Amazon EC2 High Memory U7i instances with 8TB of memory (u7i-8tb.112xlarge)\
       \ are now available in AWS Asia Pacific (Hyderabad), and U7i instances with\
       \ 12TB of memory (u7i-12tb.224xlarge) are now available in AWS Europe (Spain).\
       \ U7i instances are part of AWS 7th generation and are powered by custom fourth\
@@ -140,11 +150,13 @@ entries:
       \ Memory instances page</a>.</p>"
   b9c0211403029a63f3ec86898b6f8158:
     id: b9c0211403029a63f3ec86898b6f8158
-    title: Amazon Connect now lets you select different From email addresses when
+    title:
+      Amazon Connect now lets you select different From email addresses when
       sending emails
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-agents-select-from-email/
-    published: '2026-03-11'
-    summary: "<p>Amazon Connect now enables you to choose the \"From\" email address\
+    published: "2026-03-11"
+    summary:
+      "<p>Amazon Connect now enables you to choose the \"From\" email address\
       \ when replying to inbound emails or sending new outbound messages, helping\
       \ contact centers ensure the correct brand or business identity is used for\
       \ every customer interaction. Administrators can configure multiple sender addresses\
@@ -163,8 +175,9 @@ entries:
     id: dd37d70c942a87711a5077a2c1ca926d
     title: Amazon Connect now provides case data in analytics data lake
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-cases-data-lake
-    published: '2026-03-11'
-    summary: '<p>Amazon Connect now provides case data in the analytics data lake,
+    published: "2026-03-11"
+    summary:
+      '<p>Amazon Connect now provides case data in the analytics data lake,
       making it easier for you to generate reports and insights. With case data available
       alongside other Amazon Connect analytics, you can use Amazon Athena and Amazon
       QuickSight to build custom reports and analyze trends such as case volume by
@@ -181,8 +194,9 @@ entries:
     id: 803a438bf3110e3c0a6f1e6dcec51e8c
     title: AWS Backup expands support for Amazon RDS Multi-AZ clusters to 17 Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-expands-amazon-rds-multi-az-clusters-17-regions/
-    published: '2026-03-11'
-    summary: "<p>AWS Backup for Amazon RDS Multi-AZ clusters is now available in 17\
+    published: "2026-03-11"
+    summary:
+      "<p>AWS Backup for Amazon RDS Multi-AZ clusters is now available in 17\
       \ additional AWS Regions: Asia Pacific (Mumbai, Osaka, Seoul, Hong Kong, Jakarta,\
       \ Hyderabad, Melbourne, Malaysia), Europe (London, Paris, Milan, Zurich, Spain),\
       \ South America (Sao Paulo), Africa (Cape Town), Canada (Central), and Canada\
@@ -202,8 +216,9 @@ entries:
     id: 872d524629ed91c93a291aa3430e5f28
     title: Amazon Neptune Database is now available in Asia Pacific (Hyderabad) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-neptune-hyderabad/
-    published: '2026-03-11'
-    summary: "<p><a href=\"https://aws.amazon.com/neptune/\" target=\"_blank\">Amazon\
+    published: "2026-03-11"
+    summary:
+      "<p><a href=\"https://aws.amazon.com/neptune/\" target=\"_blank\">Amazon\
       \ Neptune</a> Database is now available in the <a href=\"https://aws.amazon.com/local/india/\"\
       \ target=\"_blank\">AWS Asia Pacific (Hyderabad)</a> region. You can now create\
       \ Neptune clusters using R5, R5d, R6g, R6i, X2iedn, T4g, and T3 instance types\
@@ -228,8 +243,9 @@ entries:
     id: 21cc492abc11f149055b80dcb0178817
     title: Amazon Neptune Database adds native spatial data support
     link: https://aws.amazon.comhttps://aws.amazon.com/about-aws/whats-new/2026/03/amazon-neptune-database-spatial-data/
-    published: '2026-03-11'
-    summary: "<p><a href=\"https://aws.amazon.com/neptune/\" target=\"_blank\">Amazon\
+    published: "2026-03-11"
+    summary:
+      "<p><a href=\"https://aws.amazon.com/neptune/\" target=\"_blank\">Amazon\
       \ Neptune</a> Database now includes comprehensive spatial data capabilities,\
       \ addressing the growing need for location-aware insights in graph database\
       \ applications. Spatial support provides 11 built-in spatial functions following\
@@ -254,8 +270,9 @@ entries:
     id: 2dd520617f43909657ee9da3de1c9d72
     title: AWS Firewall Manager launches in AWS Asia Pacific (New Zealand) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-firewall-manager-launches-asia-pacific-new-zealand/
-    published: '2026-03-11'
-    summary: <p>AWS Firewall Manager announces that it is now available in AWS Asia
+    published: "2026-03-11"
+    summary:
+      <p>AWS Firewall Manager announces that it is now available in AWS Asia
       Pacific (New Zealand) Region. AWS Firewall Manager helps cloud security administrators
       and site reliability engineers protect applications while reducing the operational
       overhead of manually configuring and managing rules.<br /> <br /> Working with
@@ -270,4 +287,4 @@ entries:
       available. To learn more about AWS Firewall Manager, its features, and its pricing,
       visit the <a href="https://aws.amazon.com/firewall-manager/">AWS Firewall Manager
       website</a>.</p>
-last_updated: '2026-03-13T23:24:32.460176'
+last_updated: "2026-03-13T23:24:32.460176"

@@ -3,8 +3,9 @@ entries:
     id: b41b6470b0b4cd196822b60ca66d8ac2
     title: AWS Builder ID now supports Sign in with Apple
     link: https://aws.amazon.comabout-aws/whats-new/2026/02/aws-builder-id-sign-in-apple
-    published: '2026-02-05'
-    summary: "<div class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode\
+    published: "2026-02-05"
+    summary:
+      "<div class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode\
       \ usehover\" id=\"WACViewPanel_ClipboardElement\" style=\"overflow: hidden;\
       \ direction: ltr;\">\n <div class=\"OutlineElement Ltr SCXW27133560 BCX2\" style=\"\
       direction: ltr;\">\n  <p>AWS Builder ID, your&nbsp;profile for accessing AWS\
@@ -26,11 +27,13 @@ entries:
       >AWS Builder ID documentation</a>.</p> \n </div> \n</div>"
   e5fadea340b957bfaf35ca3a1bb16bec:
     id: e5fadea340b957bfaf35ca3a1bb16bec
-    title: Amazon EC2 High Memory U7i-6TB instances now available in AWS GovCloud
+    title:
+      Amazon EC2 High Memory U7i-6TB instances now available in AWS GovCloud
       (US-West)
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-u7i-6tb-instances-available/
-    published: '2026-02-05'
-    summary: <p>Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge)
+    published: "2026-02-05"
+    summary:
+      <p>Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge)
       are now available in AWS GovCloud (US-West). U7i instances are part of AWS 7th
       generation and are powered by custom fourth generation Intel Xeon Scalable Processors
       (Sapphire Rapids). U7i-6tb instances offer 6TiB of DDR5 memory, enabling customers
@@ -45,8 +48,9 @@ entries:
     id: 0b5b046a7c566f5ad2b8f93687a9250f
     title: Claude Opus 4.6 now available in Amazon Bedrock
     link: https://aws.amazon.com/about-aws/whats-new/2026/2/claude-opus-4.6-available-amazon-bedrock/
-    published: '2026-02-05'
-    summary: <p>Starting today, Amazon Bedrock supports Claude Opus 4.6. According
+    published: "2026-02-05"
+    summary:
+      <p>Starting today, Amazon Bedrock supports Claude Opus 4.6. According
       to Anthropic, Opus 4.6 is their most intelligent model and the world's best
       model for coding, enterprise agents, and professional work. Claude Opus 4.6
       brings advanced capabilities to Amazon Bedrock customers, including industry-leading
@@ -73,8 +77,9 @@ entries:
     id: 4de76dc1503ec2c3ce07d3b2ac7d580a
     title: Amazon EC2 G6e instances now available in Dubai region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g6e-instances-dubai-region/
-    published: '2026-02-05'
-    summary: "<p>Starting today, the Amazon EC2 G6e instances powered by NVIDIA L40S\
+    published: "2026-02-05"
+    summary:
+      "<p>Starting today, the Amazon EC2 G6e instances powered by NVIDIA L40S\
       \ Tensor Core GPUs is now available in Middle East (UAE) Region. G6e instances\
       \ can be used for a wide range of machine learning and spatial computing use\
       \ cases.</p> \n<p>Customers can use G6e instances to deploy large language models\
@@ -97,8 +102,9 @@ entries:
     id: 3933b92c7954b538b76b3cdfbb6f4354
     title: AWS Builder ID now supports Sign in with Apple
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-builder-id-sign-in-apple
-    published: '2026-02-05'
-    summary: "<div class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode\
+    published: "2026-02-05"
+    summary:
+      "<div class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode\
       \ usehover\" id=\"WACViewPanel_ClipboardElement\" style=\"overflow: hidden;\
       \ direction: ltr;\">\n <div class=\"OutlineElement Ltr SCXW27133560 BCX2\" style=\"\
       direction: ltr;\">\n  <p>AWS Builder ID, your&nbsp;profile for accessing AWS\
@@ -122,8 +128,9 @@ entries:
     id: 9781678af4d86045c4c83ceccd597b5b
     title: Amazon WorkSpaces launches Graphics G6, Gr6, and G6f bundles
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-personal-core-graphics-g6-gr6-g6f-bundles/
-    published: '2026-02-05'
-    summary: "<p>Today, Amazon WorkSpaces announces the availability of 12 new Graphics\
+    published: "2026-02-05"
+    summary:
+      "<p>Today, Amazon WorkSpaces announces the availability of 12 new Graphics\
       \ G6, Gr6, and G6f WorkSpaces bundles built on the Amazon <a href=\"https://aws.amazon.com/ec2/instance-types/g6/?refid=2216ee97-52d4-4886-aa83-21d21672d6ee\"\
       >EC2 G6</a> family. These bundles expand customers’ options for running graphics-intensive\
       \ and GPU-accelerated workloads, and are available on both Amazon WorkSpaces\
@@ -150,8 +157,9 @@ entries:
     id: 759cd44c4aab1317259f5918dc29150d
     title: Amazon EC2 I7ie instances now available in AWS Canada (Central)
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-i7ie-instances-available-aws-canada/
-    published: '2026-02-05'
-    summary: <p>AWS is announcing Amazon EC2 I7ie instances are now available in AWS
+    published: "2026-02-05"
+    summary:
+      <p>AWS is announcing Amazon EC2 I7ie instances are now available in AWS
       Canada (Central) regions. Designed for large storage I/O intensive workloads,
       I7ie instances are powered by 5th Gen Intel Xeon Processors with an all-core
       turbo frequency of 3.2 GHz, offering up to 40% better compute performance and
@@ -172,8 +180,9 @@ entries:
     id: 021f698bc3ea85131ca5b53a60d72619
     title: Amazon EC2 capacity blocks for ML can be shared across multiple accounts
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-capacity-blocks-multiple-accounts
-    published: '2026-02-05'
-    summary: "<p>Amazon Web Services (AWS) is announcing the general availability\
+    published: "2026-02-05"
+    summary:
+      "<p>Amazon Web Services (AWS) is announcing the general availability\
       \ of cross-account sharing for Amazon EC2 Capacity Blocks for ML. This capability\
       \ allows organizations to share reserved GPU capacity across AWS accounts using\
       \ AWS Resource Access Manager (RAM), helping optimize utilization and reduce\
@@ -193,8 +202,9 @@ entries:
     id: f2b41b2a3ebf66cf4cc0c9ad115a79cf
     title: AWS Glue launches native REST API connector for universal data integration
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-glue-rest-api-connector
-    published: '2026-02-05'
-    summary: <p>AWS Glue now offers a native REST-based connector that enables customers
+    published: "2026-02-05"
+    summary:
+      <p>AWS Glue now offers a native REST-based connector that enables customers
       to easily read data from any source with a REST-based API. Customers can now
       create custom connectors to any REST-enabled data source and seamlessly integrate
       that data into their AWS Glue ETL (Extract, Transform, and Load) jobs. This
@@ -218,8 +228,9 @@ entries:
     id: 08fabe2c59a7afd292c415c311635872
     title: Amazon EC2 G6e instances now available in the UAE region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g6e-instances-uae-region/
-    published: '2026-02-05'
-    summary: "<p>Starting today, the Amazon EC2 G6e instances powered by NVIDIA L40S\
+    published: "2026-02-05"
+    summary:
+      "<p>Starting today, the Amazon EC2 G6e instances powered by NVIDIA L40S\
       \ Tensor Core GPUs is now available in Middle East (UAE) Region. G6e instances\
       \ can be used for a wide range of machine learning and spatial computing use\
       \ cases.</p> \n<p>Customers can use G6e instances to deploy large language models\
@@ -238,4 +249,4 @@ entries:
       >AWS Management Console</a>, <a href=\"https://aws.amazon.com/cli/\">AWS Command\
       \ Line Interface</a> (CLI), and AWS SDKs. To learn more, visit the <a href=\"\
       https://aws.amazon.com/ec2/instance-types/g6e/\">G6e instance page</a>.</p>"
-last_updated: '2026-02-07T04:05:39.700009'
+last_updated: "2026-02-07T04:05:39.700009"

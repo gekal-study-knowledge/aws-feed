@@ -1,11 +1,13 @@
 entries:
   f8e7bf0ac5c1e1f00b62a19bcafc3171:
     id: f8e7bf0ac5c1e1f00b62a19bcafc3171
-    title: 'Security Update for Amazon Q Developer Extension for Visual Studio Code
-      (Version #1.84)'
+    title:
+      "Security Update for Amazon Q Developer Extension for Visual Studio Code
+      (Version #1.84)"
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-015/
-    published: '2025-08-11'
-    summary: "<p><b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires\
+    published: "2025-08-11"
+    summary:
+      "<p><b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires\
       \ attention)<br /> <b>Publication Date:</b>&nbsp;2025/07/23 6:00 PM PDT<br />\
       \ <b>Updated Date:</b> 2025/07/25 6:00 PM PDT</p> \n<p><strong>Description:</strong></p>\
       \ \n<p>Amazon Q Developer for Visual Studio Code (VS Code) Extension is a development\
@@ -19,4 +21,4 @@ entries:
       \ \n<p>We will update this bulletin if we have additional information to share.</p>\
       \ \n<p><strong>Affected version:</strong> Amazon Q Developer for Visual Studio\
       \ Code Extension (version 1.84.0)</p>"
-last_updated: '2026-01-17T00:23:07.331797'
+last_updated: "2026-01-17T00:23:07.331797"

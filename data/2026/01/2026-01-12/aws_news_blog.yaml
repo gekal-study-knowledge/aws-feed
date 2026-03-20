@@ -1,12 +1,14 @@
 entries:
   ef6b4521092aaaef5c9fe8532c9867a9:
     id: ef6b4521092aaaef5c9fe8532c9867a9
-    title: 'AWS Weekly Roundup: AWS Lambda for .NET 10, AWS Client VPN quickstart,
-      Best of AWS re:Invent, and more (January 12, 2026)'
+    title:
+      "AWS Weekly Roundup: AWS Lambda for .NET 10, AWS Client VPN quickstart,
+      Best of AWS re:Invent, and more (January 12, 2026)"
     link: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-for-net-10-aws-client-vpn-quickstart-best-of-aws-reinvent-and-more-january-12-2026/
-    published: '2026-01-12'
-    summary: At the beginning of January, I tend to set my top resolutions for the
+    published: "2026-01-12"
+    summary:
+      At the beginning of January, I tend to set my top resolutions for the
       year, a way to focus on what I want to achieve. If AI and cloud computing are
       on your resolution list, consider creating an AWS Free Tier account to receive
       up to $200 in credits and have 6 months of risk-free […]
-last_updated: '2026-01-13T14:55:58.291814'
+last_updated: "2026-01-13T14:55:58.291814"

@@ -3,8 +3,9 @@ entries:
     id: d28f82d1e8e5f3748e5e6bce88254fbb
     title: Amazon Redshift Serverless introduces 3-year Serverless Reservations
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-serverless-three-year-reservations/
-    published: '2026-02-23'
-    summary: <p>Amazon Redshift now offers 3-year Serverless Reservations for Amazon
+    published: "2026-02-23"
+    summary:
+      <p>Amazon Redshift now offers 3-year Serverless Reservations for Amazon
       Redshift Serverless, a new discounted pricing option that provides up to 45%
       savings and improved cost predictability for your analytics workloads. With
       Serverless Reservations, you commit to a specific number of Redshift Processing
@@ -31,8 +32,9 @@ entries:
     id: dc2a86b64886a1bd3c6ced2c1305bbb3
     title: AWS IAM Policy Autopilot is now available as a Kiro Power
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-policy-autopilot-kiro-power/
-    published: '2026-02-23'
-    summary: "<p>AWS IAM Policy Autopilot, the open source static code analysis tool\
+    published: "2026-02-23"
+    summary:
+      "<p>AWS IAM Policy Autopilot, the open source static code analysis tool\
       \ launched at re:Invent 2025, is now available as a Kiro power to bring policy\
       \ expertise to agentic AI development. This tool helps developers quickly create\
       \ baseline AWS IAM policies that can be refined as applications evolve, eliminating\
@@ -51,11 +53,13 @@ entries:
       \ page</a>.&nbsp;</p>"
   bbe8a2968d26c931ab4f885d73c98e18:
     id: bbe8a2968d26c931ab4f885d73c98e18
-    title: AWS Trusted Advisor now delivers more accurate unused NAT Gateway checks
+    title:
+      AWS Trusted Advisor now delivers more accurate unused NAT Gateway checks
       powered by AWS Compute Optimizer
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/trusted-advisor-unused-nat-gateway-check/
-    published: '2026-02-23'
-    summary: <p>AWS Trusted Advisor has enhanced its detection of unused NAT Gateway
+    published: "2026-02-23"
+    summary:
+      <p>AWS Trusted Advisor has enhanced its detection of unused NAT Gateway
       checks powered by AWS Compute Optimizer detection capabilities. The enhanced
       detection analyzes additional CloudWatch metrics over a 32-day lookback period
       and verifies whether NAT Gateways are associated with route tables, reducing
@@ -75,11 +79,13 @@ entries:
       Trusted Advisor documentation</a>.</p>
   1dbea6eaf1fc2cfed7cc33a28a11c0a5:
     id: 1dbea6eaf1fc2cfed7cc33a28a11c0a5
-    title: Amazon announces generative AI-based artifacts in Amazon Q Developer for
+    title:
+      Amazon announces generative AI-based artifacts in Amazon Q Developer for
       visualizing resource and cost data
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/generative-ai-based-Amazon-Q-artifacts/
-    published: '2026-02-23'
-    summary: <p>Today, AWS announces the general availability of Amazon Q Developer
+    published: "2026-02-23"
+    summary:
+      <p>Today, AWS announces the general availability of Amazon Q Developer
       artifacts in the AWS Management Console. Amazon Q artifacts is a generative
       AI-based user experience that enables customers to visualize resource data in
       tables and cost data in charts. The launch also moves the Q icon to the navigation
@@ -106,8 +112,9 @@ entries:
     id: 8c08f63583dfdff5e00c3efde729a344
     title: AWS Elemental Media Services Now Available in Asia Pacific (Malaysia) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/elemental-Malaysia/
-    published: '2026-02-23'
-    summary: <p><a href="https://aws.amazon.com/media-services/">AWS Elemental Media
+    published: "2026-02-23"
+    summary:
+      <p><a href="https://aws.amazon.com/media-services/">AWS Elemental Media
       Services</a> are now available in the Asia Pacific (Malaysia) Region, expanding
       your ability to build cloud-based video workflows closer to your audiences in
       Southeast Asia. AWS Elemental MediaConnect, MediaLive, MediaPackage, MediaConvert,
@@ -131,8 +138,9 @@ entries:
     id: 4c871d389e7ed75b73d24642daa97179
     title: Amazon S3 Tables are now available in AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-tables-aws-govcloud-us/
-    published: '2026-02-23'
-    summary: "<p>Amazon S3 Tables are now available in AWS GovCloud (US-East) and\
+    published: "2026-02-23"
+    summary:
+      "<p>Amazon S3 Tables are now available in AWS GovCloud (US-East) and\
       \ AWS GovCloud (US-West).<br /> <br /> Amazon S3 Tables deliver the first cloud\
       \ object store with built-in Apache Iceberg support, offering optimized tabular\
       \ data storage at scale. S3 Tables are designed to perform continual table maintenance\
@@ -152,8 +160,9 @@ entries:
     id: 62d49297d3819f9c9e95685a3118fe4f
     title: Automated Reasoning policies now include references to the source document
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/automated-reasoning-policies-include-references/
-    published: '2026-02-23'
-    summary: <p>AWS announces the launch of source document references for Automated
+    published: "2026-02-23"
+    summary:
+      <p>AWS announces the launch of source document references for Automated
       Reasoning policies, simplifying the task of reviewing and refining an Automated
       Reasoning policy. Automated Reasoning checks uses formal verification techniques
       to validate that content generated by foundation models is compliant with an
@@ -179,8 +188,9 @@ entries:
     id: 7ded3b2b2476eda8973b8e5a1b113de9
     title: Amazon S3 now provides AWS source region information in server access logs
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-source-region-information/
-    published: '2026-02-23'
-    summary: "<p>Amazon S3 server access logs now include source region information,\
+    published: "2026-02-23"
+    summary:
+      "<p>Amazon S3 server access logs now include source region information,\
       \ specifying which AWS Region requests to your data originate from. This identifies\
       \ applications that are making cross-region requests, helping you to optimize\
       \ cost and performance.</p> \n<p>Source region information automatically appears\
@@ -191,4 +201,4 @@ entries:
       \ at no additional cost. To learn more about S3 server access log format and\
       \ best practices, visit the <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/LogFormat.html\"\
       \ target=\"_blank\">S3 User Guide</a>.</p>"
-last_updated: '2026-02-25T21:31:53.331968'
+last_updated: "2026-02-25T21:31:53.331968"

@@ -3,8 +3,9 @@ entries:
     id: f4328983ffb2c9ab228860941c05f234
     title: AWS Transfer Family Terraform module now supports web apps
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-terraform-webapps
-    published: '2026-01-21'
-    summary: <p>You can now use the&nbsp;<a href="https://github.com/aws-ia/terraform-aws-transfer-family"
+    published: "2026-01-21"
+    summary:
+      <p>You can now use the&nbsp;<a href="https://github.com/aws-ia/terraform-aws-transfer-family"
       target="_blank">AWS Transfer Family Terraform module</a>&nbsp;to deploy Transfer
       Family web apps, which enable end users to transfer files to and from Amazon
       S3 over a web interface. This release streamlines centralized provisioning of
@@ -29,8 +30,9 @@ entries:
     id: 0bbd778cf4e17c26ee5b003fbae80456
     title: Amazon EC2 C8gn instances are now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8gn-instances-additional-regions
-    published: '2026-01-21'
-    summary: '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances,
+    published: "2026-01-21"
+    summary:
+      '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances,
       powered by the latest-generation AWS Graviton4 processors, are available in
       the AWS Region&nbsp;Asia Pacific (Mumbai), Africa (Cape Town), Europe (Ireland,
       London), Canada West (Calgary). The new instances provide up to 30% better compute
@@ -61,8 +63,9 @@ entries:
     id: 194caa999a82698f384dce85aa51fef6
     title: AWS Clean Rooms adds support for join and partition hints in SQL
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-join-partition-hints-sql/
-    published: '2026-01-21'
-    summary: <p>AWS Clean Rooms announces support for join and partition hints for
+    published: "2026-01-21"
+    summary:
+      <p>AWS Clean Rooms announces support for join and partition hints for
       SQL queries, enabling optimization of join strategies and data partitioning
       for improved query performance and reduced costs. This launch enables you to
       apply SQL hints to your queries using comment-style syntax in pre-approved analysis
@@ -83,8 +86,9 @@ entries:
     id: c9ebf7a9a4b490e46e58998f7330c1f0
     title: Amazon SageMaker HyperPod introduces enhanced lifecycle scripts debugging
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-hyperpod-lcs-enhanced-debug/
-    published: '2026-01-21'
-    summary: <p>Amazon SageMaker HyperPod now provides enhanced troubleshooting capabilities
+    published: "2026-01-21"
+    summary:
+      <p>Amazon SageMaker HyperPod now provides enhanced troubleshooting capabilities
       for lifecycle scripts, making it easier to identify and resolve issues during
       cluster node provisioning. SageMaker HyperPod helps you provision resilient
       clusters for running AI/ML workloads and developing state-of-the-art models
@@ -109,11 +113,13 @@ entries:
       SageMaker Developer Guide.</p>
   53bb07b8fc635e8e1bf91ed368985f43:
     id: 53bb07b8fc635e8e1bf91ed368985f43
-    title: Amazon Connect can now automatically select random samples of agent contacts
+    title:
+      Amazon Connect can now automatically select random samples of agent contacts
       for evaluation
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-automatically-select-random-contacts-evaluation/
-    published: '2026-01-21'
-    summary: <p>Amazon Connect can now provide managers with random samples of agent
+    published: "2026-01-21"
+    summary:
+      <p>Amazon Connect can now provide managers with random samples of agent
       contacts for evaluation, so they can provide fair coaching feedback to agents.
       Managers can specify how many contacts they need to review per agent, as per
       union agreements, regulations, or internal guidelines. They then receive the
@@ -127,11 +133,13 @@ entries:
       and our <a href="https://aws.amazon.com/connect/">webpage</a>.</p>
   07f62c2473c44ddd38a3417fa2bee740:
     id: 07f62c2473c44ddd38a3417fa2bee740
-    title: Amazon EMR Serverless now supports AWS KMS customer managed keys for encrypting
+    title:
+      Amazon EMR Serverless now supports AWS KMS customer managed keys for encrypting
       local disks
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-aws-kms-customer-managed
-    published: '2026-01-21'
-    summary: <p><a href="https://aws.amazon.com/emr/serverless/">Amazon EMR Serverless</a>
+    published: "2026-01-21"
+    summary:
+      <p><a href="https://aws.amazon.com/emr/serverless/">Amazon EMR Serverless</a>
       now supports encrypting local disks with AWS Key Management Service (KMS) customer
       managed keys (CMKs). You can now meet strict regulatory and compliance requirements
       with additional encryption options beyond default AWS-owned keys, giving you
@@ -153,11 +161,13 @@ entries:
       Disk Encryption with AWS KMS CMK</a> in the Amazon EMR Serverless User Guide.</p>
   53b1d021ebf42744661766ddc2fbdd1d:
     id: 53b1d021ebf42744661766ddc2fbdd1d
-    title: Amazon Bedrock Reserved Tier available now for Claude Sonnet 4.5 in AWS
+    title:
+      Amazon Bedrock Reserved Tier available now for Claude Sonnet 4.5 in AWS
       GovCloud (US-West)
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-reserved-tier-for-claude-sonnet-in-govcloud/
-    published: '2026-01-21'
-    summary: <p>Today, Amazon Bedrock introduces the expansion of the Reserved service
+    published: "2026-01-21"
+    summary:
+      <p>Today, Amazon Bedrock introduces the expansion of the Reserved service
       tier designed for workloads requiring predictable performance and guaranteed
       tokens-per-minute capacity. The Reserved tier provides the ability to reserve
       prioritized compute capacity, keeping service levels predictable for your mission
@@ -186,8 +196,9 @@ entries:
     id: d88023254ec71d9ffd8953247bdf38f5
     title: AWS introduces additional policy details to access denied error messages
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/additional-policy-details-access-denied-error/
-    published: '2026-01-21'
-    summary: <p>AWS now includes the&nbsp;<a href="https://aws.amazon.com/iam/">AWS
+    published: "2026-01-21"
+    summary:
+      <p>AWS now includes the&nbsp;<a href="https://aws.amazon.com/iam/">AWS
       Identity and Access Management (IAM)</a>&nbsp;and <a href="https://docs.aws.amazon.com/organizations/">AWS
       Organizations</a>&nbsp;policy’s Amazon Resource Name (ARN) in access denied
       error messages in same account and same organization scenarios. This allows
@@ -204,11 +215,13 @@ entries:
       documentation</a>.</p>
   c0b608e63ff7e0b70be261f596905aa8:
     id: c0b608e63ff7e0b70be261f596905aa8
-    title: Instance Scheduler on AWS adds enhanced scaling, reliability, and event-driven
+    title:
+      Instance Scheduler on AWS adds enhanced scaling, reliability, and event-driven
       automation
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/instance-scheduler-adds-enhanced-scaling/
-    published: '2026-01-21'
-    summary: "<p>Today AWS announced enhanced scheduling orchestration to track AWS\
+    published: "2026-01-21"
+    summary:
+      "<p>Today AWS announced enhanced scheduling orchestration to track AWS\
       \ tagging events, self-service troubleshooting via informational resource tags,\
       \ an optional EC2 insufficient-capacity retry flow using alternate instance\
       \ types, and automatic creation of a dedicated EventBridge bus for scheduling\
@@ -236,11 +249,13 @@ entries:
       >Product Page </a>or contact your AWS account team.</p>"
   ec8da8817475021cea7eae00bd1dfd26:
     id: ec8da8817475021cea7eae00bd1dfd26
-    title: Announcing availability of second-generation AWS Outposts racks in 20 more
+    title:
+      Announcing availability of second-generation AWS Outposts racks in 20 more
       countries
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/availability-second-generation-aws-outposts-racks-more-countries
-    published: '2026-01-21'
-    summary: <p>Second-generation AWS Outposts racks can now be shipped and installed
+    published: "2026-01-21"
+    summary:
+      <p>Second-generation AWS Outposts racks can now be shipped and installed
       at your data center and on-premises locations in Argentina, Bangladesh, Colombia,
       Dominican Republic, Ecuador, India, Kazakhstan, Mexico, Morocco, Nigeria, Oman,
       Panama, Qatar, Senegal, Serbia, South Africa, Republic of Korea, Taiwan, Thailand,
@@ -267,11 +282,13 @@ entries:
       <a href="https://aws.amazon.com/outposts/rack/faqs/">Outposts rack FAQs page</a>.</p>
   a82a85a35c9886a3b6c35e1f3baa81d0:
     id: a82a85a35c9886a3b6c35e1f3baa81d0
-    title: Amazon RDS for SQL Server enhances differential and transaction log restores
+    title:
+      Amazon RDS for SQL Server enhances differential and transaction log restores
       support
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-sql-server-diff-and-log-restores-for-maz-and-rr/
-    published: '2026-01-21'
-    summary: <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
+    published: "2026-01-21"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for SQL Server</a> now supports differential
       and transaction log restores for instances configured with Multi-AZ and instances
       with read replicas in the same region. The native SQL Server backup and restore
@@ -293,4 +310,4 @@ entries:
       transaction log restores, see the <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/SQLServer.Procedural.Importing.html"
       target="_blank">Amazon RDS for SQL Server User Guide</a>. This feature is available
       in all AWS Regions where Amazon RDS for SQL Server is available.</p>
-last_updated: '2026-01-22T03:44:47.599832'
+last_updated: "2026-01-22T03:44:47.599832"

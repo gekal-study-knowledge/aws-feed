@@ -3,8 +3,9 @@ entries:
     id: b0d1f706971ca186206c614ff083393d
     title: Amazon MSK Connect is now available in three additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-msk-connect-additional-aws-regions
-    published: '2026-01-13'
-    summary: '<p>Amazon MSK Connect is now available in three additional AWS Regions:
+    published: "2026-01-13"
+    summary:
+      '<p>Amazon MSK Connect is now available in three additional AWS Regions:
       Asia Pacific (New Zealand), AWS GovCloud (US-East), and AWS GovCloud (US-West).<br
       /> <br /> MSK Connect enables you to run fully managed Kafka Connect clusters
       with Amazon Managed Streaming for Apache Kafka (Amazon MSK). With a few clicks,
@@ -24,11 +25,13 @@ entries:
       target="_blank">Amazon MSK Developer Guide</a>.</p>'
   a776a5af518f8bc05b01566a92268653:
     id: a776a5af518f8bc05b01566a92268653
-    title: Amazon Neptune Database now supports R7g and R8g instances in 5 additional
+    title:
+      Amazon Neptune Database now supports R7g and R8g instances in 5 additional
       regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-neptune-database-r7g-r8g-additional-regions
-    published: '2026-01-13'
-    summary: <p><a href="https://aws.amazon.com/neptune/">Amazon Neptune Database</a>
+    published: "2026-01-13"
+    summary:
+      <p><a href="https://aws.amazon.com/neptune/">Amazon Neptune Database</a>
       now supports Graviton3-based R7g and Graviton4-based R8g instances for Amazon
       Neptune engine versions 1.4.5 or above, in Asia Pacific (Hong Kong), Asia Pacific
       (Osaka), Asia Pacific (Singapore), Canada (Central) and US West (N. California).
@@ -48,11 +51,13 @@ entries:
       Neptune pricing page</a>.</p>
   f1b562048ee4f97ec65dc4eff3e4eade:
     id: f1b562048ee4f97ec65dc4eff3e4eade
-    title: Amazon EC2 X8aedz instances are now available in Asia Pacific (Mumbai,
+    title:
+      Amazon EC2 X8aedz instances are now available in Asia Pacific (Mumbai,
       Seoul) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-x8aedz-instances-asia-pacific-mumbai-seoul-regions
-    published: '2026-01-13'
-    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8aedz instances
+    published: "2026-01-13"
+    summary:
+      <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8aedz instances
       are available in Asia Pacific (Mumbai) and Asia Pacific (Seoul) regions. These
       instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin).
       These instances offer the highest maximum CPU frequency, 5GHz in the cloud.<br
@@ -74,8 +79,9 @@ entries:
     id: 41be9216f12f93abcd296d79ae981ddd
     title: Amazon Connect Cases now supports AWS CloudFormation
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-aws-cloudformation/
-    published: '2026-01-13'
-    summary: '<p>Amazon Connect Cases now supports AWS CloudFormation, enabling you
+    published: "2026-01-13"
+    summary:
+      '<p>Amazon Connect Cases now supports AWS CloudFormation, enabling you
       to model, provision, and manage case resources as infrastructure as code. With
       this launch, administrators can create CloudFormation templates to programmatically
       deploy and update their Cases configuration—such as templates, fields, and layouts—across
@@ -90,8 +96,9 @@ entries:
     id: ac7955f41a5f99efc3546fa01f0fc049
     title: Amazon Lex launches improved speech recognition models for English
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lex-improved-speech-recognition-models-english
-    published: '2026-01-13'
-    summary: <p>Amazon Lex now offers a neural automatic speech recognition (ASR)
+    published: "2026-01-13"
+    summary:
+      <p>Amazon Lex now offers a neural automatic speech recognition (ASR)
       model for English that delivers improved recognition accuracy for your voice
       bots. Trained on data from multiple English locales, the model excels at recognizing
       conversational speech patterns across diverse speaking styles, including non-native
@@ -106,11 +113,13 @@ entries:
       experiences.&nbsp;</p>
   9fb98ada9b1ff89c393365f6d336024e:
     id: 9fb98ada9b1ff89c393365f6d336024e
-    title: Amazon RDS for PostgreSQL announces Extended Support minor  12.22-rds.20251114
+    title:
+      Amazon RDS for PostgreSQL announces Extended Support minor  12.22-rds.20251114
       and 11.22-rds.20251114
     link: https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-rds-for-postgresql-announces-extended-support-minor-12-22-rds-20251114-and-11-22-rds-20251114
-    published: '2026-01-13'
-    summary: <p>Amazon Relational Database Service (RDS) for PostgreSQL announces
+    published: "2026-01-13"
+    summary:
+      <p>Amazon Relational Database Service (RDS) for PostgreSQL announces
       Amazon RDS Extended Support minor version &nbsp;12.22-rds.20251114 and 11.22-rds.20251114.
       We recommend that you upgrade to this version to fix known security vulnerabilities
       and bugs in prior versions of PostgreSQL.<br /> <br /> Amazon RDS Extended Support
@@ -133,4 +142,4 @@ entries:
       RDS for PostgreSQL</a> for pricing details. Create or update a fully managed
       Amazon RDS database in the <a href="https://console.amazonaws.cn/?nc2=h_m_mc"
       target="_blank">Amazon RDS Management Console</a>.<b><br /> </b></p>
-last_updated: '2026-01-16T21:18:03.489139'
+last_updated: "2026-01-16T21:18:03.489139"

@@ -3,8 +3,9 @@ entries:
     id: 4fd8a741a827c3b62ca5bf2eaa409b2e
     title: CVE-2025-9039 - Issue with Amazon ECS agent introspection server
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-018/
-    published: '2025-08-14'
-    summary: "<p><b>Bulletin ID:</b> AWS-2025-018<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2025-08-14"
+    summary:
+      "<p><b>Bulletin ID:</b> AWS-2025-018<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/08/14\
       \ 09:15 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon Elastic Container\
       \ Service (Amazon ECS) is a fully managed container orchestration service that\
@@ -18,4 +19,4 @@ entries:
       \ server port. This issue does not affect instances where the option to allow\
       \ off-host access to the introspection server is set to \"false\".</p> \n<p><b>Affected\
       \ versions:</b></p> \n<p>ECS Agent versions 0.0.3 through 1.97.0</p>"
-last_updated: '2026-01-17T00:23:07.338575'
+last_updated: "2026-01-17T00:23:07.338575"

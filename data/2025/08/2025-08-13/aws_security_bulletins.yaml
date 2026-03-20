@@ -3,8 +3,9 @@ entries:
     id: b36adea3b8da04e5e0b2c42f3cb3847c
     title: CVE-2025-8904 - Issue with Amazon EMR Secret Agent component
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-017/
-    published: '2025-08-13'
-    summary: "<p><b>Bulletin ID:</b> AWS-2025-017<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2025-08-13"
+    summary:
+      "<p><b>Bulletin ID:</b> AWS-2025-017<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b>&nbsp;2025/08/13\
       \ 10:00 PM PDT</p> \n<p><strong>Description:</strong></p> \n<p>Amazon EMR is\
       \ a managed cluster platform that simplifies running big data frameworks on\
@@ -20,4 +21,4 @@ entries:
       \ credentials, eliminating the possibility of users accessing the keytab file.\
       \ The fix is available in Amazon EMR release 7.5 and higher.</p> \n<p><b>Affected\
       \ versions:</b></p> \n<p>Amazon EMR version 6.10 through 7.4</p>"
-last_updated: '2026-01-17T00:23:07.340997'
+last_updated: "2026-01-17T00:23:07.340997"

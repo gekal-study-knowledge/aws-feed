@@ -3,8 +3,9 @@ entries:
     id: d9c10ae63d8af0f48702523e06130a17
     title: Announcing larger managed database bundles for Amazon Lightsail
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/larger-managed-database-bundles-lightsail/
-    published: '2026-01-09'
-    summary: <p>Amazon Lightsail now offers two larger database bundles with up to
+    published: "2026-01-09"
+    summary:
+      <p>Amazon Lightsail now offers two larger database bundles with up to
       8 vCPUs, 32GB memory, and 960GB SSD storage. The new database bundles are available
       in both standard and high-availability plans. You can create MySQL and PostgreSQL
       databases using the new Lightsail managed database bundles.<br /> <br /> The
@@ -22,8 +23,9 @@ entries:
     id: 96615b15b84be01568636a83498120c9
     title: Amazon EMR Serverless adds support for job run level cost allocation
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-adds-job-run-level
-    published: '2026-01-09'
-    summary: <p><a href="https://aws.amazon.com/emr/serverless/">Amazon EMR Serverless
+    published: "2026-01-09"
+    summary:
+      <p><a href="https://aws.amazon.com/emr/serverless/">Amazon EMR Serverless
       </a>now supports job run-level cost allocation that provides better visibility
       into charges for individual job runs by allowing you to configure granular billing
       attribution at the individual job run level. You can get granular cost visibility
@@ -48,11 +50,13 @@ entries:
       Job Level Cost Allocation</a> in the Amazon EMR Serverless User Guide</p>
   5d2d0e82721b36ca3f3027d2fa80115f:
     id: 5d2d0e82721b36ca3f3027d2fa80115f
-    title: Amazon RDS for SQL Server now supports cross-region read replica in additional
+    title:
+      Amazon RDS for SQL Server now supports cross-region read replica in additional
       AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-sql-server-cross-region-read-replica-in-additional-aws-regions/
-    published: '2026-01-09'
-    summary: '<p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
+    published: "2026-01-09"
+    summary:
+      '<p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for SQL Server</a> now supports setting
       up cross-region read replicas in 16 additional AWS Regions. Cross-region read
       replicas enable customers to provide a replica database for read-only applications
@@ -68,4 +72,4 @@ entries:
       (Spain), Europe (Zurich), Israel (Tel Aviv), Mexico (Central), Middle East (Bahrain),
       and Middle East (UAE). To get started, visit the <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/SQLServer.ReadReplicas.html"
       target="_blank">Amazon RDS SQL Server User Guide</a>.</p>'
-last_updated: '2026-01-13T14:55:58.071747'
+last_updated: "2026-01-13T14:55:58.071747"

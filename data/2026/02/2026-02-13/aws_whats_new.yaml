@@ -3,8 +3,9 @@ entries:
     id: 2210f539e40f98522d346228a447e89f
     title: AWS Batch now provides Job Queue and Share Utilization Visibility
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-provides-job-queue-share-utilization
-    published: '2026-02-13'
-    summary: <p>AWS Batch now provides Queue and Share Utilization Visibility, giving
+    published: "2026-02-13"
+    summary:
+      <p>AWS Batch now provides Queue and Share Utilization Visibility, giving
       you insights into how your workloads are distributed across compute resources.
       This feature introduces queue utilization data in job queue snapshots, revealing
       compute capacity used by your first-in-first-out (FIFO) and fair share job queues,
@@ -26,11 +27,13 @@ entries:
       Service Jobs</a> pages of the AWS Batch API Reference Guide.</p>
   493e0828948502d74a500015283192bb:
     id: 493e0828948502d74a500015283192bb
-    title: Amazon Connect launches in-app notifications to surface critical operational
+    title:
+      Amazon Connect launches in-app notifications to surface critical operational
       alerts to business users
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-in-app-notifications
-    published: '2026-02-13'
-    summary: <p>Amazon Connect now supports in-app notifications in the workspace
+    published: "2026-02-13"
+    summary:
+      <p>Amazon Connect now supports in-app notifications in the workspace
       header, visible from any page, so your team can stay informed without interrupting
       their workflow— whether configuring, analyzing data, or servicing customers.
       A notification icon appears in the header of every workspace page, with a badge
@@ -52,11 +55,13 @@ entries:
       target="_blank" title="Amazon Connect website">Amazon Connect website</a>.</p>
   193df7d346a3051e6915629cd0e893f1:
     id: 193df7d346a3051e6915629cd0e893f1
-    title: Amazon Connect now provides real time AI-powered overviews and recommended
+    title:
+      Amazon Connect now provides real time AI-powered overviews and recommended
       next actions for Tasks
     link: https://aws.amazon.comamazon-connect-tasks-ai-assistance
-    published: '2026-02-13'
-    summary: <p>Amazon Connect now provides AI-powered Task overviews with suggested
+    published: "2026-02-13"
+    summary:
+      <p>Amazon Connect now provides AI-powered Task overviews with suggested
       next actions so agents can understand work items faster and resolve them more
       quickly. For example, when an agent receives a Task to process a refund request
       submitted through an online form, Amazon Connect summarizes earlier activities
@@ -75,8 +80,9 @@ entries:
     id: 841459b725241ca1462e7792a89dbecd
     title: Amazon RDS now supports backup configuration when restoring snapshots
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/rds-aurora-backup-configuration-restoring-snapshots/
-    published: '2026-02-13'
-    summary: <p>Amazon Relational Database Service (RDS) and Amazon Aurora now offer
+    published: "2026-02-13"
+    summary:
+      <p>Amazon Relational Database Service (RDS) and Amazon Aurora now offer
       greater flexibility for restore operations to view and modify backup retention
       period and preferred backup window prior to and upon restoring database snapshots.
       The backup retention period lets you specify how many days backups are retained,
@@ -102,8 +108,9 @@ entries:
     id: 1398813f83d3430037b64e4420513288
     title: Amazon Aurora DSQL adds support for identity columns and sequence objects
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-adds-identity-columns-sequence/
-    published: '2026-02-13'
-    summary: <p><a href="https://aws.amazon.com/rds/aurora/dsql/">Amazon Aurora DSQL</a>
+    published: "2026-02-13"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/aurora/dsql/">Amazon Aurora DSQL</a>
       now supports&nbsp;identity columns and&nbsp;sequence objects enabling developers
       to generate auto-incrementing, integer-based IDs directly in the database using
       familiar SQL patterns.<br /> <br /> This launch simplifies migrations of existing
@@ -113,11 +120,13 @@ entries:
       ID generation logic in application code or middleware.&nbsp;</p>
   444d395eb97b7f08ac01b0f137950ced:
     id: 444d395eb97b7f08ac01b0f137950ced
-    title: Amazon Connect now provides real time AI-powered overviews and recommended
+    title:
+      Amazon Connect now provides real time AI-powered overviews and recommended
       next actions for Tasks
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/connect-tasks-ai-assistance
-    published: '2026-02-13'
-    summary: <p>Amazon Connect now provides AI-powered Task overviews with suggested
+    published: "2026-02-13"
+    summary:
+      <p>Amazon Connect now provides AI-powered Task overviews with suggested
       next actions so agents can understand work items faster and resolve them more
       quickly. For example, when an agent receives a Task to process a refund request
       submitted through an online form, Amazon Connect summarizes earlier activities
@@ -136,8 +145,9 @@ entries:
     id: 91f93041dd8cbeccc0b0f9733e5cad38
     title: Amazon EC2 High Memory U7i instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-highmem-instances-available/
-    published: '2026-02-13'
-    summary: "<p>Amazon EC2 High Memory instances are now available in new regions\
+    published: "2026-02-13"
+    summary:
+      "<p>Amazon EC2 High Memory instances are now available in new regions\
       \ - U7i-6tb.112xlarge instances in AWS South America (Sao Paulo) and Europe\
       \ (Milan), U7i-12tb.224xlarge in AWS GovCloud (US-East), and U7in-16tb.224xlarge\
       \ instances in Europe (London). U7i instances are part of AWS 7th generation\
@@ -156,4 +166,4 @@ entries:
       \ HANA, Oracle, and SQL Server.<br /> <br /> To learn more about U7i instances,\
       \ visit the <a href=\"https://aws.amazon.com/ec2/instance-types/u7i/\">High\
       \ Memory instances page</a>.</p>"
-last_updated: '2026-02-16T18:37:57.900816'
+last_updated: "2026-02-16T18:37:57.900816"

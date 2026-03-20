@@ -3,8 +3,9 @@ entries:
     id: 100a5aa477aafb770955d158970d2c45
     title: Unanchored ACCOUNT_ID webhook filters for CodeBuild
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-002-aws/
-    published: '2026-01-15'
-    summary: "<p><b>Bulletin ID:</b> 2026-002-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2026-01-15"
+    summary:
+      "<p><b>Bulletin ID:</b> 2026-002-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Informational<br /> <b>Publication Date:</b> 2026/01/15 07:03 AM\
       \ PST</p> \n<p><b>Description:</b></p> \n<p>A security research team identified\
       \ a configuration issue affecting the following AWS-managed open source GitHub\
@@ -25,4 +26,4 @@ entries:
       \ and did not impact any AWS services or infrastructure. No customer action\
       \ is required.</p> \n<p><b>Please refer to the article below for the most up-to-date\
       \ and complete information related to this AWS Security Bulletin.</b></p>"
-last_updated: '2026-01-17T00:23:07.330268'
+last_updated: "2026-01-17T00:23:07.330268"

@@ -3,8 +3,9 @@ entries:
     id: bd6171427b7dbde34e01d548d391bbad
     title: MediaConvert Introduces new video probe API and UI
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-mediaconvert-introduces-video-probe/
-    published: '2026-02-24'
-    summary: <p>Introducing Probe API, a powerful and free metadata analysis tool
+    published: "2026-02-24"
+    summary:
+      <p>Introducing Probe API, a powerful and free metadata analysis tool
       for AWS Elemental MediaConvert. Optimized for efficiency, Probe API reads header
       metadata to quickly return essential information about your media files, including
       codec specifications, pixel formats, color space details, and container information
@@ -25,8 +26,9 @@ entries:
     id: 3c61015df7faf3de8ea6ce097d1c6edf
     title: AWS AppConfig integrates with New Relic for automated rollbacks
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/
-    published: '2026-02-24'
-    summary: "<p>AWS AppConfig today launched a new integration that enables automated,\
+    published: "2026-02-24"
+    summary:
+      "<p>AWS AppConfig today launched a new integration that enables automated,\
       \ intelligent rollbacks during feature flag and dynamic configuration deployments\
       \ using <a></a><a href=\"https://docs.newrelic.com/docs/workflow-automation/introduction-to-workflow/\"\
       \ target=\"_blank\">New Relic Workflow Automation</a>. Building on AWS AppConfig's\
@@ -48,8 +50,9 @@ entries:
     id: a1d155939d2ceff14f6199451a2a177c
     title: Amazon EKS Node Monitoring Agent is now open source
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-node-monitoring-agent-open-source/
-    published: '2026-02-24'
-    summary: <p>Amazon Elastic Kubernetes Service (Amazon EKS) Node Monitoring Agent
+    published: "2026-02-24"
+    summary:
+      <p>Amazon Elastic Kubernetes Service (Amazon EKS) Node Monitoring Agent
       is now open source. You can access the Amazon EKS Node Monitoring Agent source
       code and contribute to its development on <a href="https://github.com/aws/eks-node-monitoring-agent"
       title="GitHub">GitHub</a>.<br /> <br /> Running workloads reliably in Kubernetes
@@ -71,8 +74,9 @@ entries:
     id: 836fb874eda08c33bee1e5dc4269d9d4
     title: Announcing AWS Elemental Inference
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-elemental-inference-generally-avail/
-    published: '2026-02-24'
-    summary: "<p>AWS Elemental Inference, a&nbsp;fully managed Artificial Intelligence\
+    published: "2026-02-24"
+    summary:
+      "<p>AWS Elemental Inference, a&nbsp;fully managed Artificial Intelligence\
       \ (AI) service&nbsp;that&nbsp;enables broadcasters and streamers to&nbsp;automatically&nbsp;generate&nbsp;vertical\
       \ content and highlight clips for mobile and social platforms&nbsp;in real time,\
       \ is now generally available.&nbsp;The service applies AI capabilities to live\
@@ -104,8 +108,9 @@ entries:
     id: 28efdff8c90841d34d905732a021eefd
     title: Amazon EC2 M8a instances now available in AWS Europe (Frankfurt) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/
-    published: '2026-02-24'
-    summary: <p>Starting today, the general-purpose Amazon EC2 M8a instances are available
+    published: "2026-02-24"
+    summary:
+      <p>Starting today, the general-purpose Amazon EC2 M8a instances are available
       in AWS Europe (Frankfurt) region. M8a instances are powered by 5th Gen AMD EPYC
       processors (formerly code named Turin) with a maximum frequency of 4.5 GHz,
       deliver up to 30% higher performance, and up to 19% better price-performance
@@ -129,8 +134,9 @@ entries:
     id: 55a5bacadc854dd398797b6257d5d5ee
     title: Amazon RDS Snapshot Export to S3 now available in AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/rds-exports-s3-available-gov-cloud/
-    published: '2026-02-24'
-    summary: <p><a href="https://aws.amazon.com/rds/">Amazon RDS</a> Snapshot Export
+    published: "2026-02-24"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/">Amazon RDS</a> Snapshot Export
       to S3 is now available in AWS GovCloud (US) regions, enabling you to export
       snapshot data in Apache Parquet format for analytics, data retention, and machine
       learning use cases.<br /> <br /> Snapshot export to S3 supports all DB snapshot
@@ -150,8 +156,9 @@ entries:
     id: 5e54ef8fc9963f0eb9369324cb5055f5
     title: AWS Deadline Cloud now supports running tasks together in chunks
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-deadline-cloud-running-tasks-together-in/
-    published: '2026-02-24'
-    summary: <p>Today, AWS Deadline Cloud announces support for grouping tasks into
+    published: "2026-02-24"
+    summary:
+      <p>Today, AWS Deadline Cloud announces support for grouping tasks into
       chunks to efficiently execute multiple tasks together. AWS Deadline Cloud is
       a fully managed service that simplifies render management for computer-generated
       2D/3D graphics and visual effects for films, TV shows, commercials, games, and
@@ -168,11 +175,13 @@ entries:
       Cloud developer guide.</a></p>
   bd5b656689ec75d6b0df8f18aad45962:
     id: bd5b656689ec75d6b0df8f18aad45962
-    title: Amazon EC2 R7a instances are now available in the Asia Pacific (Hyderabad)
+    title:
+      Amazon EC2 R7a instances are now available in the Asia Pacific (Hyderabad)
       Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r7a-instances-asia-pacific-hyderabad-regions/
-    published: '2026-02-24'
-    summary: <p>Starting today, the general-purpose Amazon EC2 R7a instances are now
+    published: "2026-02-24"
+    summary:
+      <p>Starting today, the general-purpose Amazon EC2 R7a instances are now
       available in AWS Asia Pacific (Hyderabad) Region. R7a instances, powered by
       4th Gen AMD EPYC processors (code-named Genoa) with a maximum frequency of 3.7
       GHz, deliver up to 50% higher performance compared to R6a instances.<br /> <br
@@ -184,11 +193,13 @@ entries:
       target="_blank">7a instances</a> page.</p>
   c7aad25329bd8e96ee76c00de0b5ec0a:
     id: c7aad25329bd8e96ee76c00de0b5ec0a
-    title: Amazon EC2 C8i and C8i-flex instances are now available in Asia Pacific
+    title:
+      Amazon EC2 C8i and C8i-flex instances are now available in Asia Pacific
       (Malaysia) and South America (Sao Paulo) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-c8i-flex-instances-asia-pacific-malaysia-south-america-sao--paulo-regions/
-    published: '2026-02-24'
-    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
+    published: "2026-02-24"
+    summary:
+      <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
       C8i-flex instances are available in the Asia Pacific (Malaysia) and South America
       (Sao Paulo) regions. These instances are powered by custom Intel Xeon 6 processors,
       available only on AWS, delivering the highest performance and fastest memory
@@ -215,11 +226,13 @@ entries:
       target="_blank">AWS News blog</a>.</p>
   e69cd126141dff85ae7f9473028bde5b:
     id: e69cd126141dff85ae7f9473028bde5b
-    title: AWS Compute Optimizer now applies AWS-generated tags to EBS snapshots created
+    title:
+      AWS Compute Optimizer now applies AWS-generated tags to EBS snapshots created
       during automation
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-compute-optimizer-applies-tags-ebs-snapshots/
-    published: '2026-02-24'
-    summary: "<p>AWS Compute Optimizer makes it easier to identify snapshots that\
+    published: "2026-02-24"
+    summary:
+      "<p>AWS Compute Optimizer makes it easier to identify snapshots that\
       \ are created when snapshotting and deleting unattached Amazon Elastic Block\
       \ Store (EBS) volumes by automatically applying an AWS-generated tag during\
       \ creation. This enhancement improves visibility and tracking of EBS snapshots\
@@ -239,8 +252,9 @@ entries:
     id: 7f6ac4681f1c41758b0292a6f9429cd6
     title: AWS Observability now available as a Kiro power
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-observability-kiro-power/
-    published: '2026-02-24'
-    summary: '<p>Today, AWS announces AWS Observability as a Kiro power, enabling
+    published: "2026-02-24"
+    summary:
+      '<p>Today, AWS announces AWS Observability as a Kiro power, enabling
       developers and operators to investigate infrastructure and application health
       issues faster with AI agent-assisted workflows in Kiro. Kiro Powers is a repository
       of curated and pre-packaged Model Context Protocol (MCP) servers, steering files,
@@ -276,8 +290,9 @@ entries:
     id: 7d7c5869d186c5965a37f8d082fe6003
     title: Amazon EC2 I7ie instances now available in AWS Africa (Cape Town) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/
-    published: '2026-02-24'
-    summary: <p>AWS is announcing Amazon EC2 I7ie instances are now available in AWS
+    published: "2026-02-24"
+    summary:
+      <p>AWS is announcing Amazon EC2 I7ie instances are now available in AWS
       Africa (Cape Town) region. Designed for large storage I/O intensive workloads,
       I7ie instances are powered by 5th Gen Intel Xeon Processors with an all-core
       turbo frequency of 3.2 GHz, offering up to 40% better compute performance and
@@ -296,11 +311,13 @@ entries:
       page</a>.</p>
   d1d9bb9aa5f7a34c35c790bff4b805d2:
     id: d1d9bb9aa5f7a34c35c790bff4b805d2
-    title: Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL
+    title:
+      Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL
       Server
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-custom-supports-latest-gdr-updates-for-microsoft-sql-server/
-    published: '2026-02-24'
-    summary: <p><a href="https://aws.amazon.com/rds/custom/" target="_blank">Amazon
+    published: "2026-02-24"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/custom/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) Custom for SQL Server</a> now supports
       the latest General Distribution Release (GDR) updates for Microsoft SQL Server.
       This release includes support for SQL Server 2022 Cumulative Update and <a href="https://support.microsoft.com/help/5072936"
@@ -316,8 +333,9 @@ entries:
     id: c7c25d423e627eff7d1f41dc1cb725ba
     title: Amazon Bedrock now supports server-side tool execution with AgentCore Gateway
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-server-side-tool-execution-agentcore-gateway/
-    published: '2026-02-24'
-    summary: "<p>Amazon Bedrock now enables server-side tool execution through Amazon\
+    published: "2026-02-24"
+    summary:
+      "<p>Amazon Bedrock now enables server-side tool execution through Amazon\
       \ Bedrock AgentCore Gateway integration with the Responses API. Customers can\
       \ connect their AgentCore Gateway tools to Amazon Bedrock models, enabling server-side\
       \ tool execution without client-side orchestration.</p> \n<p>With this launch,\
@@ -344,11 +362,13 @@ entries:
       >AgentCore documentation</a>.</p>"
   19c02d7bae8aa798993b5cb31898f1c6:
     id: 19c02d7bae8aa798993b5cb31898f1c6
-    title: AWS WAF announces AI activity dashboard for visibility into AI bot and
+    title:
+      AWS WAF announces AI activity dashboard for visibility into AI bot and
       agent traffic
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-waf-ai-activity-dashboard/
-    published: '2026-02-24'
-    summary: <p>Today, AWS WAF announced a new AI activity dashboard that provides
+    published: "2026-02-24"
+    summary:
+      <p>Today, AWS WAF announced a new AI activity dashboard that provides
       centralized visibility into AI bot and agent traffic reaching your applications.
       With this launch, AWS WAF Bot Control expands its detection coverage to track
       more than 650 unique bots and agents, offering one of the most comprehensive
@@ -380,11 +400,13 @@ entries:
       WAF Bot Control documentation</a>.</p>
   51b0557eab63b25b47ce75090425e4cd:
     id: 51b0557eab63b25b47ce75090425e4cd
-    title: Amazon EC2 C7i and C7i-flex instances are now available in the Africa (Cape
+    title:
+      Amazon EC2 C7i and C7i-flex instances are now available in the Africa (Cape
       Town) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c7i-c7i-flex-instances-africa-cape-town-regions/
-    published: '2026-02-24'
-    summary: '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i-flex
+    published: "2026-02-24"
+    summary:
+      '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i-flex
       and C7i instances are available in the Africa (Cape Town) region. These instances
       are powered by powered by custom 4th Generation Intel Xeon Scalable processors
       (code-named Sapphire Rapids) custom processors, available only on AWS, and offer
@@ -407,4 +429,4 @@ entries:
       /> <br /> To learn more, visit <a href="https://aws.amazon.com/ec2/instance-types/c7i/"
       target="_blank">Amazon EC2 C7i Instances</a>. To get started, see the <a href="https://console.aws.amazon.com/"
       target="_blank">AWS Management Console</a>.</p>'
-last_updated: '2026-02-25T23:25:12.160886'
+last_updated: "2026-02-25T23:25:12.160886"

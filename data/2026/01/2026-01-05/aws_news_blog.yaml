@@ -1,12 +1,14 @@
 entries:
   37027166ed4a4b74a4e83d463fa6bcd2:
     id: 37027166ed4a4b74a4e83d463fa6bcd2
-    title: 'Happy New Year! AWS Weekly Roundup: 10,000 AIdeas Competition, Amazon
-      EC2, Amazon ECS Managed Instances and more (January 5, 2026)'
+    title:
+      "Happy New Year! AWS Weekly Roundup: 10,000 AIdeas Competition, Amazon
+      EC2, Amazon ECS Managed Instances and more (January 5, 2026)"
     link: https://aws.amazon.com/blogs/aws/happy-new-year-aws-weekly-roundup-10000-aideas-competition-amazon-ec2-amazon-ecs-managed-instances-and-more-january-5-2026/
-    published: '2026-01-05'
-    summary: Happy New Year! I hope the holidays gave you time to recharge and spend
+    published: "2026-01-05"
+    summary:
+      Happy New Year! I hope the holidays gave you time to recharge and spend
       time with your loved ones. Like every year, I took a few weeks off after AWS
       re:Invent to rest and plan ahead. I used some of that downtime to plan the next
       cohort for Become a Solutions Architect (BeSA). BeSA is […]
-last_updated: '2026-01-12T11:22:41.104236'
+last_updated: "2026-01-12T11:22:41.104236"

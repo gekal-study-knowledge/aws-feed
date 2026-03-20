@@ -1,11 +1,13 @@
 entries:
   d4552127d9367eb2956afbc424cdbff7:
     id: d4552127d9367eb2956afbc424cdbff7
-    title: Amazon Bedrock increases default quotas for Anthropic’s Claude Sonnet 4.5
+    title:
+      Amazon Bedrock increases default quotas for Anthropic’s Claude Sonnet 4.5
       model in AWS GovCloud (US)
     link: https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-bedrock-increases-default-sonnet-4.5-quotas-aws-govcloud-us
-    published: '2026-02-12'
-    summary: <p>Amazon Bedrock has increased the default quotas for Anthropic’s Claude
+    published: "2026-02-12"
+    summary:
+      <p>Amazon Bedrock has increased the default quotas for Anthropic’s Claude
       Sonnet 4.5 in AWS GovCloud (US-West) and AWS GovCloud (US-East) to 5,000,000
       tokens per minute and 1,000 requests per minute, aligning with commercial AWS
       regions. This 25x increase enables customers to scale their AI workloads more
@@ -14,11 +16,13 @@ entries:
       tasks while maintaining optimal speed and cost-efficiency for high-volume use-cases.</p>
   f6b0f5a204b9c3105b1a5fd944a35cf9:
     id: f6b0f5a204b9c3105b1a5fd944a35cf9
-    title: AI Troubleshooting in the AWS Support Center Console now supports 7 additional
+    title:
+      AI Troubleshooting in the AWS Support Center Console now supports 7 additional
       languages
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/ai-troubleshooting-in-aws-support-center/
-    published: '2026-02-12'
-    summary: '<p>AI troubleshooting in the AWS Support Center Console is now available
+    published: "2026-02-12"
+    summary:
+      "<p>AI troubleshooting in the AWS Support Center Console is now available
       in seven languages in addition to English: Japanese, Korean, Mandarin (Simplified),
       Mandarin (Traditional), Spanish, Portuguese, French. AWS Support Center Console
       is the primary interface where customers manage their AWS support experience,
@@ -26,7 +30,7 @@ entries:
       capabilities were only available in English, creating a barrier for customers
       who prefer to work in their native language. With this launch, customers can
       now interact with AI-powered troubleshooting assistance in their preferred language.<br
-      /> <br /> AWS Support''s AI troubleshooting helps customers resolve issues faster
+      /> <br /> AWS Support's AI troubleshooting helps customers resolve issues faster
       by providing immediate, contextual recommendations while they create a support
       case. For example, a Japanese developer troubleshooting an EC2 connectivity
       issue can now receive AI-generated insights and potential solutions in Japanese,
@@ -36,14 +40,16 @@ entries:
       barrier to self-service support.<br /> <br /> All customers regardless of support
       plan can access the experience by selecting a supported language in their console
       settings and clicking the “Try it now” link in the banner at the top of the
-      AWS Support Center Console.<br /> </p>'
+      AWS Support Center Console.<br /> </p>"
   2c9720bdf085d3730162783570831e94:
     id: 2c9720bdf085d3730162783570831e94
-    title: Amazon RDS for PostgreSQL supports minor versions  18.2, 17.8, 16.12, 15.16
+    title:
+      Amazon RDS for PostgreSQL supports minor versions  18.2, 17.8, 16.12, 15.16
       and 14.21
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/rds-minor-version-18-2-17-8-16-12-15-16-14-21
-    published: '2026-02-12'
-    summary: "<p><a href=\"https://aws.amazon.com/rds/postgresql/\" target=\"_blank\"\
+    published: "2026-02-12"
+    summary:
+      "<p><a href=\"https://aws.amazon.com/rds/postgresql/\" target=\"_blank\"\
       >Amazon Relational Database Service (RDS)</a> for PostgreSQL now supports the\
       \ latest minor versions 18.2, 17.8, 16.12, 15.16, and 14.21. We recommend that\
       \ you upgrade to the latest minor versions to fix known security vulnerabilities\
@@ -69,8 +75,9 @@ entries:
     id: b55a1cc428091395d626d9997aa49ee1
     title: Announcing new Amazon EC2 general purpose M8azn instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-m8azn-instances-generally-available
-    published: '2026-02-12'
-    summary: '<p>AWS is announcing the general availability of new Amazon EC2 M8azn
+    published: "2026-02-12"
+    summary:
+      '<p>AWS is announcing the general availability of new Amazon EC2 M8azn
       instances, general purpose high-frequency high-network instances powered by
       fifth generation AMD EPYC (formerly code named Turin) processors, offering the
       highest maximum CPU frequency, 5GHz in the cloud. M8azn instances offer up to
@@ -95,11 +102,13 @@ entries:
       EC2 M8azn instance page</a>.</p>'
   dbc5750dea802844e651fa973bed00d9:
     id: dbc5750dea802844e651fa973bed00d9
-    title: Amazon S3 Tables add partition and sort order definition in the CreateTable
+    title:
+      Amazon S3 Tables add partition and sort order definition in the CreateTable
       API
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/s3-tables-partition-and-sort-order-createtable-api/
-    published: '2026-02-12'
-    summary: <p>Amazon S3 Tables announce partition and sort order definition support
+    published: "2026-02-12"
+    summary:
+      <p>Amazon S3 Tables announce partition and sort order definition support
       for the CreateTable API. This enhancement simplifies setting these properties
       programmatically, making it easier to manage and optimize data in tables when
       they are created.<br /> <br /> To use this feature, you can specify fields for
@@ -114,11 +123,13 @@ entries:
       target="_blank">documentation</a>.</p>
   b09ff49904cb07cf7887937a6da6149c:
     id: b09ff49904cb07cf7887937a6da6149c
-    title: AWS Backup adds cross-Region database snapshot copy to logically air-gapped
+    title:
+      AWS Backup adds cross-Region database snapshot copy to logically air-gapped
       vaults
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-adds-cross-region-database-snapshot-logically-air-gapped-vaults/
-    published: '2026-02-12'
-    summary: "<p>AWS Backup now supports single-action database snapshot copies to\
+    published: "2026-02-12"
+    summary:
+      "<p>AWS Backup now supports single-action database snapshot copies to\
       \ logically air-gapped vaults across AWS Regions. This capability is available\
       \ for Amazon Aurora, Amazon Neptune, and Amazon DocumentDB snapshots, eliminating\
       \ the need for an intermediate copying step in target Regions.</p> \n<p>You\
@@ -138,11 +149,13 @@ entries:
       >AWS Backup documentation</a>.</p>"
   911e68eef34f747e9c20cc3c5ec16918:
     id: 911e68eef34f747e9c20cc3c5ec16918
-    title: Announcing Amazon EC2 C8i, M8i, and R8i instances on second-generation
+    title:
+      Announcing Amazon EC2 C8i, M8i, and R8i instances on second-generation
       AWS Outposts racks
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-m8i-and-r8i-instances-on-aws-outposts/
-    published: '2026-02-12'
-    summary: <p>AWS is announcing local support for the latest generation of x86-powered
+    published: "2026-02-12"
+    summary:
+      <p>AWS is announcing local support for the latest generation of x86-powered
       Amazon EC2 instances on second-generation AWS Outposts racks, including C8i
       compute-optimized instances, M8i general-purpose instances, and R8i memory-optimized
       instances. These new instances deliver 20% better performance and 2.5x more
@@ -165,11 +178,13 @@ entries:
       target="_blank"><u>Outposts rack FAQs page</u></a>.</p>
   01f4eee11a9ccc7dd5da277c92e2f659:
     id: 01f4eee11a9ccc7dd5da277c92e2f659
-    title: Amazon Bedrock adds support for the latest open-weight models in Asia Pacific
+    title:
+      Amazon Bedrock adds support for the latest open-weight models in Asia Pacific
       (Sydney)
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-support-latest-open-weight-models-asia-pacific-sydney/
-    published: '2026-02-12'
-    summary: "<p>Amazon Bedrock is a fully managed service that provides secure, enterprise-grade\
+    published: "2026-02-12"
+    summary:
+      "<p>Amazon Bedrock is a fully managed service that provides secure, enterprise-grade\
       \ access to high-performing foundation models from leading AI companies, enabling\
       \ you to build and scale generative AI applications. Today, Amazon Bedrock announced\
       \ support for the latest open-weight models in Asia Pacific (Sydney) using the\
@@ -190,11 +205,13 @@ entries:
       >documentation</a>.</p>"
   55e05a75241df548e9c63202da6dbc25:
     id: 55e05a75241df548e9c63202da6dbc25
-    title: Amazon S3 Access Grants are now available in the AWS Asia Pacific (Taipei)
+    title:
+      Amazon S3 Access Grants are now available in the AWS Asia Pacific (Taipei)
       Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-access-grants-are-available-in-taipei
-    published: '2026-02-12'
-    summary: "<p>You can now create Amazon S3 Access Grants in the AWS Asia Pacific\
+    published: "2026-02-12"
+    summary:
+      "<p>You can now create Amazon S3 Access Grants in the AWS Asia Pacific\
       \ (Taipei) Region.</p> \n<p>Amazon S3 Access Grants map identities in directories\
       \ such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals,\
       \ to datasets in S3. This helps you manage data permissions at scale by automatically\
@@ -208,8 +225,9 @@ entries:
     id: 9a11a984efae53ea5f6a8151ede202e7
     title: Amazon Bedrock expands support for AWS PrivateLink
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-expands-aws-privatelink-support-openai-api-endpoints/
-    published: '2026-02-12'
-    summary: "<p>Amazon Bedrock is a fully managed service that provides secure, enterprise-grade\
+    published: "2026-02-12"
+    summary:
+      "<p>Amazon Bedrock is a fully managed service that provides secure, enterprise-grade\
       \ access to high-performing foundation models from leading AI companies. It\
       \ enables you to build and scale generative AI applications. Amazon Bedrock\
       \ already supported AWS PrivateLink for the <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/endpoints.html\"\
@@ -236,8 +254,9 @@ entries:
     id: f06d15424c1cfc20945edb3383980408
     title: AWS expands Resource Control Policies support to Amazon DynamoDB
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-expands-resource-control-policies-amazon
-    published: '2026-02-12'
-    summary: "<p>AWS Resource Control Policies (RCPs)&nbsp;now&nbsp;support&nbsp;<a\
+    published: "2026-02-12"
+    summary:
+      "<p>AWS Resource Control Policies (RCPs)&nbsp;now&nbsp;support&nbsp;<a\
       \ href=\"https://aws.amazon.com/dynamodb/?trk=292f3097-d805-46ec-9150-f185787f6c21&amp;trk=292f3097-d805-46ec-9150-f185787f6c21&amp;sc_channel=ps&amp;sc_channel=ps&amp;ef_id=EAIaIQobChMIhpqQ-oHDkgMVmTStBh0g5wH3EAAYASAAEgI5QfD_BwE:G:s&amp;s_kwcid=AL!4422!3!651751059996!e!!g!!amazon%20dynamodb!19852662209!145019198137&amp;gclid=EAIaIQobChMIhpqQ-oHDkgMVmTStBh0g5wH3EAAYASAAEgI5QfD_BwE\"\
       \ target=\"_blank\">Amazon&nbsp;DynamoDB</a>. RCPs are a type of organization\
       \ policy that you can use to manage permissions in your organization. RCPs offer\
@@ -255,11 +274,13 @@ entries:
       \ the AWS Organizations User Guide.</p>"
   7ab49e0af7b918e7a17daaa5e3d65a3b:
     id: 7ab49e0af7b918e7a17daaa5e3d65a3b
-    title: Amazon Bedrock increases default quotas for Anthropic’s Claude Sonnet 4.5
+    title:
+      Amazon Bedrock increases default quotas for Anthropic’s Claude Sonnet 4.5
       model in AWS GovCloud (US)
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-s4.5-quota-aws-govcloud-us
-    published: '2026-02-12'
-    summary: <p>Amazon Bedrock has increased the default quotas for Anthropic’s Claude
+    published: "2026-02-12"
+    summary:
+      <p>Amazon Bedrock has increased the default quotas for Anthropic’s Claude
       Sonnet 4.5 in AWS GovCloud (US-West) and AWS GovCloud (US-East) to 5,000,000
       tokens per minute and 1,000 requests per minute, aligning with commercial AWS
       regions. This 25x increase enables customers to scale their AI workloads more
@@ -268,11 +289,13 @@ entries:
       tasks while maintaining optimal speed and cost-efficiency for high-volume use-cases.</p>
   de02cd2898483e13fe5f83ebb1264867:
     id: de02cd2898483e13fe5f83ebb1264867
-    title: Amazon RDS now supports latest Cumulative Update (CU23) for Microsoft SQL
+    title:
+      Amazon RDS now supports latest Cumulative Update (CU23) for Microsoft SQL
       Server
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-supports-latest-cumulative-update-cu23-for-microsoft-sql-server
-    published: '2026-02-12'
-    summary: <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
+    published: "2026-02-12"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for SQL Server </a>now supports the
       latest Cumulative Update (CU23) <a href="https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate23"
       target="_blank">KB5078297</a> for SQL Server 2022.<br /> <br /> We recommend
@@ -285,8 +308,9 @@ entries:
     id: a4b6311c54341dab12006693ebedd02f
     title: Amazon Connect  launches granular access controls for analytics dashboards
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-launches-granular-access
-    published: '2026-02-12'
-    summary: "<p>Amazon Connect dashboards now provides granular access controls for\
+    published: "2026-02-12"
+    summary:
+      "<p>Amazon Connect dashboards now provides granular access controls for\
       \ analytics dashboards. This enables you to apply resource tags that control\
       \ who is able to see metrics for specific resources such as agents, queues,\
       \ and routing profiles. You can now&nbsp;filter&nbsp;metrics using tags to view\
@@ -304,8 +328,9 @@ entries:
     id: 90b2bab1f0263c7992bcffc17b3d66e2
     title: Amazon EC2 X8i instances are now available in Europe (Stockholm)
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ARN-region/
-    published: '2026-02-12'
-    summary: '<p>Amazon Web Services (AWS) is announcing the general availability
+    published: "2026-02-12"
+    summary:
+      '<p>Amazon Web Services (AWS) is announcing the general availability
       of Amazon EC2 X8i instances, next-generation memory optimized instances powered
       by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified
       and deliver the highest performance and fastest memory bandwidth among comparable
@@ -324,4 +349,4 @@ entries:
       Console</a>. X8i instances can be purchased via Savings Plans, On-Demand instances,
       and Spot instances. For more information visit <a href="https://aws.amazon.com/ec2/instance-types/x8i/"
       target="_blank">X8i instances page</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>'
-last_updated: '2026-02-19T01:54:18.815065'
+last_updated: "2026-02-19T01:54:18.815065"

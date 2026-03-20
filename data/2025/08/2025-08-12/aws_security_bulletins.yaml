@@ -1,10 +1,11 @@
 entries:
   1da3555faa32a924d6eca7bace9dc8c5:
     id: 1da3555faa32a924d6eca7bace9dc8c5
-    title: '[Redirected] Memory Dump Issue in AWS CodeBuild'
+    title: "[Redirected] Memory Dump Issue in AWS CodeBuild"
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-016/
-    published: '2025-08-12'
-    summary: "<p><b>Bulletin ID:</b> AWS-2025-016<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2025-08-12"
+    summary:
+      "<p><b>Bulletin ID:</b> AWS-2025-016<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b>&nbsp;2025/07/25\
       \ 6:00 PM PDT</p> \n<p><strong>Description:</strong></p> \n<p>AWS CodeBuild\
       \ is a fully managed on-demand continuous integration service that compiles\
@@ -42,4 +43,4 @@ entries:
       \ support automatic builds of untrusted contributions, we advise using the self-hosted\
       \ GitHub Actions runners feature in CodeBuild as it is not impacted by this\
       \ issue.</p>"
-last_updated: '2026-01-17T00:23:07.327019'
+last_updated: "2026-01-17T00:23:07.327019"

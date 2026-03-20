@@ -3,8 +3,9 @@ entries:
     id: 30964cf283b8e0932cec5d177f5aa553
     title: CVE-2026-4270 - AWS API MCP File Access Restriction Bypass
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-007-aws/
-    published: '2026-03-16'
-    summary: "<p><b>Bulletin ID:</b> 2026-007-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2026-03-16"
+    summary:
+      "<p><b>Bulletin ID:</b> 2026-007-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/03/16\
       \ 09:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS API MCP Server\
       \ is an open source Model Context Protocol (MCP) server that enables AI assistants\
@@ -27,11 +28,13 @@ entries:
       \ Bulletin.</b></p>"
   518dc999711902cceb366a640c538a0a:
     id: 518dc999711902cceb366a640c538a0a
-    title: CVE-2026-4269 - Improper S3 ownership verification in Bedrock AgentCore
+    title:
+      CVE-2026-4269 - Improper S3 ownership verification in Bedrock AgentCore
       Starter Toolkit
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-008-aws/
-    published: '2026-03-16'
-    summary: "<p><b>Bulletin ID:</b> 2026-008-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2026-03-16"
+    summary:
+      "<p><b>Bulletin ID:</b> 2026-008-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/03/16\
       \ 11:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>A missing S3 ownership\
       \ verification in the Bedrock AgentCore Starter Toolkit before version v0.1.13\
@@ -44,4 +47,4 @@ entries:
       \ toolkit before September 24, 2025 are not affected.</p> \n<p><b>Please refer\
       \ to the article below for the most up-to-date and complete information related\
       \ to this AWS Security Bulletin.</b></p>"
-last_updated: '2026-03-16T20:35:00.256750'
+last_updated: "2026-03-16T20:35:00.256750"

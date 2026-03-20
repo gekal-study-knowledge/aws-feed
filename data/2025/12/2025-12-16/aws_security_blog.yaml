@@ -1,14 +1,16 @@
 entries:
   90259b3d9e6bcd2b7a6424947be7d760:
     id: 90259b3d9e6bcd2b7a6424947be7d760
-    title: GuardDuty Extended Threat Detection uncovers cryptomining campaign on Amazon
+    title:
+      GuardDuty Extended Threat Detection uncovers cryptomining campaign on Amazon
       EC2 and Amazon ECS
     link: https://aws.amazon.com/blogs/security/cryptomining-campaign-targeting-amazon-ec2-and-amazon-ecs/
-    published: '2025-12-16'
-    summary: Amazon GuardDuty and our automated security monitoring systems identified
+    published: "2025-12-16"
+    summary:
+      Amazon GuardDuty and our automated security monitoring systems identified
       an ongoing cryptocurrency (crypto) mining campaign beginning on November 2,
       2025. The operation uses compromised AWS Identity and Access Management (IAM)
       credentials to target Amazon Elastic Container Service (Amazon ECS) and Amazon
       Elastic Compute Cloud (Amazon EC2). GuardDuty Extended Threat Detection was
       able to correlate signals […]
-last_updated: '2026-01-12T11:22:41.439802'
+last_updated: "2026-01-12T11:22:41.439802"

@@ -3,8 +3,9 @@ entries:
     id: 773fce574df4a814a99a698527052dde
     title: AWS WAF is now available in the AWS Asia Pacific (New Zealand) Region
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-waf-asia-pacific-new-zealand-region/
-    published: '2025-12-30'
-    summary: <p>Starting today, AWS WAF is available in the AWS Asia Pacific (New
+    published: "2025-12-30"
+    summary:
+      <p>Starting today, AWS WAF is available in the AWS Asia Pacific (New
       Zealand) Region.<br /> <br /> AWS WAF is a web application firewall that helps
       you protect your web application resources against common web exploits and bots
       that can affect availability, compromise security, or consume excessive resources.
@@ -23,8 +24,9 @@ entries:
     id: 168fd21e091bab6055fcaf030e1c56cf
     title: AWS launches simplified import of CloudTrail Lake data in Amazon CloudWatch
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-simplified-import-cloudtrail-lake-data-amazon-cloudwatch
-    published: '2025-12-30'
-    summary: <p>Today, AWS launches simplified import of CloudTrail Lake data in Amazon
+    published: "2025-12-30"
+    summary:
+      <p>Today, AWS launches simplified import of CloudTrail Lake data in Amazon
       CloudWatch, a data management and analytics service that allows you to unify
       operational, security, and compliance data across your AWS environment and third-party
       sources. With this launch, you can now import your historical CloudTrail Lake
@@ -37,4 +39,4 @@ entries:
       on custom logs pricing. To learn more about simplified import of CloudTrail
       Lake data and supported AWS regions, visit the <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/telemetry-config-cloudwatch.html"
       target="_blank">Amazon CloudWatch documentation.</a></p>
-last_updated: '2026-01-12T11:22:40.766833'
+last_updated: "2026-01-12T11:22:40.766833"

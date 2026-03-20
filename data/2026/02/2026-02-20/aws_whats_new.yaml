@@ -1,11 +1,13 @@
 entries:
   d25928e252279beb9b7aa74b3783015b:
     id: d25928e252279beb9b7aa74b3783015b
-    title: Amazon RDS for Oracle now supports January 2026 Release Update and Spatial
+    title:
+      Amazon RDS for Oracle now supports January 2026 Release Update and Spatial
       Patch Bundle
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rd-for-oracle-jan-release-update-spatial-patch-bundle/
-    published: '2026-02-20'
-    summary: <p><a href="https://aws.amazon.com/rds/oracle/" target="_blank">Amazon
+    published: "2026-02-20"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/oracle/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for Oracle</a> now supports the <a
       href="https://www.oracle.com/security-alerts/cpujan2026.html#AppendixDB" target="_blank">Oracle
       January 2026 Release Update</a> (RU) for Oracle Database versions 19c and 21c,
@@ -31,8 +33,9 @@ entries:
     id: f4dc24ee69ff990b31701fec9bc46985
     title: Amazon MSK Serverless expands to three new AWS regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-serverless-3-regions/
-    published: '2026-02-20'
-    summary: <p>You can now connect your Apache Kafka applications to <a href="https://aws.amazon.com/msk/features/msk-serverless/">Amazon
+    published: "2026-02-20"
+    summary:
+      <p>You can now connect your Apache Kafka applications to <a href="https://aws.amazon.com/msk/features/msk-serverless/">Amazon
       MSK Serverless</a> in the Africa (Cape Town), Asia Pacific (Taipei), and Canada
       West (Calgary) <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">AWS
       Regions</a>.<br /> <br /> Amazon MSK is a fully managed service that makes it
@@ -49,4 +52,4 @@ entries:
       and US West (Oregon) AWS regions. To learn more and get started, see our <a
       href="https://docs.aws.amazon.com/msk/latest/developerguide/serverless.html">developer
       guide</a>.</p>
-last_updated: '2026-03-09T21:29:16.915048'
+last_updated: "2026-03-09T21:29:16.915048"

@@ -3,8 +3,9 @@ entries:
     id: a07e85334df3e08f1f6d9f5be3ad853f
     title: AWS Marketplace Seller Reporting now provides collections visibility
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-marketplace-seller-reporting-collections/
-    published: '2026-01-06'
-    summary: <p>Today, AWS announces collection visibility in AWS Marketplace Seller
+    published: "2026-01-06"
+    summary:
+      <p>Today, AWS announces collection visibility in AWS Marketplace Seller
       Reporting, which adds up-to-date payment collection status to the Billed Revenue
       Dashboard and Billing Event Data Feed.<br /> <br /> This enhancement enables
       sellers to distinguish between invoiced, collected, and disbursed amounts, eliminating
@@ -26,8 +27,9 @@ entries:
     id: 072a11cead3e40c8709971d6b1341e71
     title: Amazon ECS now supports tmpfs mounts on AWS Fargate and ECS Managed Instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-tmpfs-mounts-aws-fargate-managed-instances
-    published: '2026-01-06'
-    summary: <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
+    published: "2026-01-06"
+    summary:
+      <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
       Container Service</a> (Amazon ECS) now supports tmpfs mounts for Linux tasks
       running on AWS Fargate and Amazon ECS Managed Instances, extending beyond the
       EC2 launch type. With tmpfs, you can now create memory‑backed file systems for
@@ -52,8 +54,9 @@ entries:
     id: 4f7ba2d296502e4f73e2653413be2164
     title: Amazon MQ now supports HTTP based authentication for RabbitMQ brokers
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-http-based-rabbitmq-brokers/
-    published: '2026-01-06'
-    summary: <p>Amazon MQ now supports the ability for RabbitMQ brokers to perform
+    published: "2026-01-06"
+    summary:
+      <p>Amazon MQ now supports the ability for RabbitMQ brokers to perform
       authentication (determining who can log in) and authorization (determining what
       permissions they have) by making requests to an HTTP server. This plugin can
       be configured on brokers running RabbitMQ 4.2 and above on Amazon MQ by making
@@ -70,8 +73,9 @@ entries:
     id: c8c8bd2777c19b819b0ccc62c336c1f9
     title: AWS Config now supports 21 new resource types
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-config-new-resource-types
-    published: '2026-01-06'
-    summary: "<p>AWS Config now supports 21 additional AWS resource types across key\
+    published: "2026-01-06"
+    summary:
+      "<p>AWS Config now supports 21 additional AWS resource types across key\
       \ services including Amazon EC2, Amazon SageMaker, and Amazon S3 Tables. This\
       \ expansion provides greater coverage over your AWS environment, enabling you\
       \ to more effectively discover, assess, audit, and remediate an even broader\
@@ -94,4 +98,4 @@ entries:
       \ &nbsp; &nbsp;&nbsp;</td> \n   <td>AWS::SSMContacts::Contact</td> \n  </tr>\n\
       \  <tr>\n   <td>AWS::ImageBuilder::LifecyclePolicy</td> \n   <td>&nbsp;</td>\
       \ \n  </tr>\n </tbody>\n</table>"
-last_updated: '2026-01-12T11:22:40.751961'
+last_updated: "2026-01-12T11:22:40.751961"

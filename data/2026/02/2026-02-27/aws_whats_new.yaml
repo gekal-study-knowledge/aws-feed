@@ -3,8 +3,9 @@ entries:
     id: 82e7a0d6f5c3bcf62254c9c620883f18
     title: Amazon OpenSearch Service adds new insights for improved cluster stability
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-adds-new-insights-improved-cluster-stability/
-    published: '2026-02-27'
-    summary: <p><a href="https://aws.amazon.com/opensearch-service/">Amazon OpenSearch
+    published: "2026-02-27"
+    summary:
+      <p><a href="https://aws.amazon.com/opensearch-service/">Amazon OpenSearch
       Service</a> has enhanced Cluster Insights with two new insights — Cluster Overload
       and Suboptimal Sharding Strategy. Suboptimal Sharding Strategy provides instant
       visibility into shard imbalances that cause uneven workload distribution, while
@@ -33,8 +34,9 @@ entries:
     id: abeec699a8f70afb457a119445b6477b
     title: AWS now supports Bacs Direct Debit as a payment method for UK customers
     link: https://aws.amazon.com/about-aws/whats-new/aws-supports-bacs-direct-debit-payment-method/
-    published: '2026-02-27'
-    summary: "<p>Starting today, AWS customers based in the United Kingdom can use\
+    published: "2026-02-27"
+    summary:
+      "<p>Starting today, AWS customers based in the United Kingdom can use\
       \ Bacs Direct Debit to pay for their AWS services. This new feature provides\
       \ a convenient and automated way to manage your cloud spend directly from your\
       \ GBP-based bank account.</p> \n<p>Customers can securely connect any personal\
@@ -54,11 +56,13 @@ entries:
       >Managing your Bacs direct debit payment method</a>.&nbsp;</p>"
   29879a48402063e91e56ef9723a3ed49:
     id: 29879a48402063e91e56ef9723a3ed49
-    title: Amazon CloudWatch logs centralization rules now support customizable destination
+    title:
+      Amazon CloudWatch logs centralization rules now support customizable destination
       log group structure
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/cloudwatch-centralization-custom-groups/
-    published: '2026-02-27'
-    summary: "<p>Amazon CloudWatch now supports customizing destination log group\
+    published: "2026-02-27"
+    summary:
+      "<p>Amazon CloudWatch now supports customizing destination log group\
       \ names when creating CloudWatch log centralization rules. Organizations managing\
       \ logs across multiple accounts can now use attributes to organize centralized\
       \ logs into meaningful hierarchies — by account ID, region, organizational unit,\
@@ -81,11 +85,13 @@ entries:
       \ target=\"_blank\">CloudWatch Logs Centralization documentation</a>.</p>"
   f615802b6b6d56e0ec5d5e2a62ba2e30:
     id: f615802b6b6d56e0ec5d5e2a62ba2e30
-    title: Amazon RDS for PostgreSQL supports minor versions 18.3, 17.9, 16.13, 15.17,
+    title:
+      Amazon RDS for PostgreSQL supports minor versions 18.3, 17.9, 16.13, 15.17,
       and 14.22
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/rds-minor-version-18-3-17-9-16-13-15-17-14-22/
-    published: '2026-02-27'
-    summary: <p><a href="https://aws.amazon.com/rds/postgresql/" target="_blank">Amazon
+    published: "2026-02-27"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/postgresql/" target="_blank">Amazon
       Relational Database Service (RDS)</a> for PostgreSQL now supports the latest
       minor versions 18.3, 17.9, 16.13, 15.17, and 14.22. These versions address the
       regression from the February 12, 2026 PostgreSQL community release. We recommend
@@ -108,11 +114,13 @@ entries:
       target="_blank">AWS Command Line Interface</a> (CLI).</p>
   e63ef92160da735d15e897223c29d72d:
     id: e63ef92160da735d15e897223c29d72d
-    title: AWS Resource Access Manager now supports maintaining shares when accounts
+    title:
+      AWS Resource Access Manager now supports maintaining shares when accounts
       change organizations
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-resource-access-manager/
-    published: '2026-02-27'
-    summary: <p>AWS Resource Access Manager (RAM) now supports a resource share configuration
+    published: "2026-02-27"
+    summary:
+      <p>AWS Resource Access Manager (RAM) now supports a resource share configuration
       that allows you to maintain resource sharing continuity when accounts move between
       AWS Organizations. With the new <i>RetainSharingOnAccountLeaveOrganization</i>
       parameter and corresponding <i>ram:RetainSharingOnAccountLeaveOrganization</i>
@@ -132,11 +140,13 @@ entries:
       target="_blank">AWS RAM product page</a>.</p>
   4c61f48c1864db142b0ed9c5b4c1c9bd:
     id: 4c61f48c1864db142b0ed9c5b4c1c9bd
-    title: EC2 Image Builder enhances lifecycle policies with wildcard support and
+    title:
+      EC2 Image Builder enhances lifecycle policies with wildcard support and
       simplified IAM
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-image-builder-lifecycle-enhancements/
-    published: '2026-02-27'
-    summary: <p>EC2 Image Builder, a service that helps you automate the creation,
+    published: "2026-02-27"
+    summary:
+      <p>EC2 Image Builder, a service that helps you automate the creation,
       distribution, and management of customized Amazon Machine Images, now supports
       wildcard patterns in lifecycle policies and simplifies IAM role creation. You
       can now use wildcard patterns to manage images from multiple recipes within
@@ -156,11 +166,13 @@ entries:
       learn more, refer to the <a href="https://docs.aws.amazon.com/imagebuilder/latest/userguide/manage-image-lifecycles.html">documentation</a>.</p>
   9dd19183cf5dd3d391974414dbee5eea:
     id: 9dd19183cf5dd3d391974414dbee5eea
-    title: 'ARC Region switch adds three new capabilities: post-recovery workflows,
-      RDS orchestration and AWS provider support for Terraform'
+    title:
+      "ARC Region switch adds three new capabilities: post-recovery workflows,
+      RDS orchestration and AWS provider support for Terraform"
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/arc-region-switch-post-recovery-rdsblock/
-    published: '2026-02-27'
-    summary: "<p>Amazon Application Recovery Controller (ARC) Region switch helps\
+    published: "2026-02-27"
+    summary:
+      "<p>Amazon Application Recovery Controller (ARC) Region switch helps\
       \ customers orchestrate the failover of their multi-Region applications to achieve\
       \ a bounded recovery time in the event of a Regional impairment. It automates\
       \ multi-Region disaster recovery, reducing engineering effort and eliminating\
@@ -199,11 +211,13 @@ entries:
       >documentation</a>.</p>"
   ff58f7f9ee5c3c843ee44e5ced564c10:
     id: ff58f7f9ee5c3c843ee44e5ced564c10
-    title: AWS Network Firewall now supports firewall state change notifications through
+    title:
+      AWS Network Firewall now supports firewall state change notifications through
       Amazon EventBridge
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/firewall-state-change-notifications/
-    published: '2026-02-27'
-    summary: <p>AWS Network Firewall now integrates with Amazon EventBridge to provide
+    published: "2026-02-27"
+    summary:
+      <p>AWS Network Firewall now integrates with Amazon EventBridge to provide
       real-time notifications for firewall state changes and configuration updates.
       This new capability enables you to monitor critical firewall operations including
       firewall configuration updates and endpoint status modifications across your
@@ -227,8 +241,9 @@ entries:
     id: f4f3a7322dedfbba9a4a0265dc88e7d5
     title: Oracle Database@AWS is now available in the Dublin AWS Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/oracle-database-aws-available-dublin-aws-region/
-    published: '2026-02-27'
-    summary: '<p>Oracle Database@AWS is now available in EU-West-1 (Dublin), starting
+    published: "2026-02-27"
+    summary:
+      '<p>Oracle Database@AWS is now available in EU-West-1 (Dublin), starting
       with one Availability Zone (AZ). Oracle Database@AWS enables customers to access
       database services on Oracle Cloud Infrastructure (OCI) managed Oracle Exadata
       systems within AWS data centers. As a result, customers can easily migrate their
@@ -251,8 +266,9 @@ entries:
     id: 0fe6d507be7703f8dcda43bc639fd585
     title: Amazon Lightsail expands blueprint selection with a new WordPress blueprint
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/wordpress-blueprint-lightsail/
-    published: '2026-02-27'
-    summary: <p>Amazon Lightsail now offers a new WordPress blueprint, making it easier
+    published: "2026-02-27"
+    summary:
+      <p>Amazon Lightsail now offers a new WordPress blueprint, making it easier
       than ever to launch and manage a WordPress website on the cloud. With just a
       few clicks, you can create a Lightsail virtual private server (VPS) preinstalled
       with WordPress, and follow a guided setup wizard to get your site fully configured
@@ -275,8 +291,9 @@ entries:
     id: 3876d5e4303c07e0b827d2eb83420c47
     title: Amazon Bedrock batch inference now supports the Converse API format
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-batch-inference-supports-converse-api-format/
-    published: '2026-02-27'
-    summary: <p>Amazon Bedrock batch inference now supports the Converse API as a
+    published: "2026-02-27"
+    summary:
+      <p>Amazon Bedrock batch inference now supports the Converse API as a
       model invocation type, enabling you to use a consistent, model-agnostic input
       format for your batch workloads.<br /> <br /> Previously, batch inference required
       model-specific request formats using the InvokeModel API. Now, when creating
@@ -293,11 +310,13 @@ entries:
       and upload your batch inference data</a> in the Amazon Bedrock User Guide.</p>
   a8d657681d3cf2394b364ca51d73391b:
     id: a8d657681d3cf2394b364ca51d73391b
-    title: AWS IAM Identity Center now supports IPv6 dual-stack endpoints in AWS Asia
+    title:
+      AWS IAM Identity Center now supports IPv6 dual-stack endpoints in AWS Asia
       Pacific (Taipei) and AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-ipv6-asia-pacific-govcloud/
-    published: '2026-02-27'
-    summary: "<p>AWS IAM Identity Center now supports Internet Protocol version 6\
+    published: "2026-02-27"
+    summary:
+      "<p>AWS IAM Identity Center now supports Internet Protocol version 6\
       \ (IPv6) via dual-stack endpoints in the AWS Asia Pacific (Taipei) and AWS GovCloud\
       \ (US) Regions, completing global availability of this feature across all AWS\
       \ Regions where IAM Identity Center is available.</p> \n<p>IAM Identity Center\
@@ -312,4 +331,4 @@ entries:
       \ see the <a href=\"https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html\"\
       \ title=\"IAM Identity Center User Guide\">IAM Identity Center User Guide</a>.</p>\
       \ \n<p>&nbsp;</p>"
-last_updated: '2026-03-03T18:42:12.310000'
+last_updated: "2026-03-03T18:42:12.310000"

@@ -3,8 +3,9 @@ entries:
     id: 61675a2b6d1357f3c726bd153923e4da
     title: Call audio termination issue in AWS Wickr desktop clients
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-029/
-    published: '2025-11-21'
-    summary: "<p><b>Bulletin ID:</b> AWS-2025-029<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2025-11-21"
+    summary:
+      "<p><b>Bulletin ID:</b> AWS-2025-029<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/11/21\
       \ 12:15 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS Wickr is an end-to-end\
       \ encrypted service that helps organizations communicate securely through messaging,\
@@ -18,4 +19,4 @@ entries:
       \ terminates their application.</p> \n<p><b>Impacted versions:</b></p> \n<p>AWS\
       \ Wickr, Wickr Gov and Wickr Enterprise desktop (Windows, Mac and Linux) versions\
       \ prior to 6.62.13.</p>"
-last_updated: '2026-01-17T00:23:07.339813'
+last_updated: "2026-01-17T00:23:07.339813"

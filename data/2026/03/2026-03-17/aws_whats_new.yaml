@@ -1,11 +1,13 @@
 entries:
   177f19686f72577b888dd308a1c00ab3:
     id: 177f19686f72577b888dd308a1c00ab3
-    title: SageMaker Training Plans now enables extending of existing capacity commitments
+    title:
+      SageMaker Training Plans now enables extending of existing capacity commitments
       without workload reconfiguration
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-training-plan-extension/
-    published: '2026-03-17'
-    summary: <p><a href="https://docs.aws.amazon.com/sagemaker/latest/dg/reserve-capacity-with-training-plans.html">SageMaker
+    published: "2026-03-17"
+    summary:
+      <p><a href="https://docs.aws.amazon.com/sagemaker/latest/dg/reserve-capacity-with-training-plans.html">SageMaker
       Training Plans</a> allows you to reserve GPU capacity within specified time
       frames in cluster sizes of up to 64 instances. Today, Amazon SageMaker AI announces
       that Training Plans can now be extended when your AI workloads take longer than
@@ -24,11 +26,13 @@ entries:
       SageMaker Training Plans User Guide</a></p>
   1c7de13508c0098a1deeb74815145565:
     id: 1c7de13508c0098a1deeb74815145565
-    title: Amazon MSK expands Express brokers to Africa (Cape Town) and Asia Pacific
+    title:
+      Amazon MSK expands Express brokers to Africa (Cape Town) and Asia Pacific
       (Taipei) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-express-2-new-aws-regions/
-    published: '2026-03-17'
-    summary: "<p>You can now create provisioned&nbsp;<a href=\"https://aws.amazon.com/msk/\"\
+    published: "2026-03-17"
+    summary:
+      "<p>You can now create provisioned&nbsp;<a href=\"https://aws.amazon.com/msk/\"\
       >Amazon Managed Streaming for Apache Kafka (Amazon MSK)</a>&nbsp;clusters with\
       \ Express brokers in Africa (Cape Town) and Asia Pacific (Taipei) regions.</p>\
       \ \n<p>Express brokers are a new broker type for Amazon MSK Provisioned designed\
@@ -45,8 +49,9 @@ entries:
     id: 2edddc57fc88b69998bdedd9ae3ee67c
     title: Amazon Bedrock is now available in Asia Pacific (New Zealand)
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-asia-pacific-new-zealand/
-    published: '2026-03-17'
-    summary: <p>Starting today, customers can use Amazon Bedrock in the Asia Pacific
+    published: "2026-03-17"
+    summary:
+      <p>Starting today, customers can use Amazon Bedrock in the Asia Pacific
       (New Zealand) Region to easily build and scale generative AI applications using
       a variety of foundation models (FMs) as well as powerful tools to build generative
       AI applications.<br /> <br /> Amazon Bedrock is a fully managed service that
@@ -68,8 +73,9 @@ entries:
     id: a35298d51ff6cb7211e945ecfc62c9a5
     title: Amazon Bedrock AgentCore Runtime now supports shell command execution
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/bedrock-agentcore-runtime-shell-command/
-    published: '2026-03-17'
-    summary: "<p>Amazon Bedrock AgentCore Runtime now supports InvokeAgentRuntimeCommand,\
+    published: "2026-03-17"
+    summary:
+      "<p>Amazon Bedrock AgentCore Runtime now supports InvokeAgentRuntimeCommand,\
       \ a new API that lets you execute shell commands directly inside a running AgentCore\
       \ Runtime session. Developers can send a command, stream the output in real\
       \ time over HTTP/2, and receive the exit code — without building custom command\
@@ -92,10 +98,12 @@ entries:
   db05f93a2caa29f8c3d830d6ab97d618:
     id: db05f93a2caa29f8c3d830d6ab97d618
     title: Amazon SageMaker Unified Studio supports aggregated view of data lineage
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sageMaker-unified-studio-aggregated-view
+    link:
+      https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sageMaker-unified-studio-aggregated-view
       -data-lineage/
-    published: '2026-03-17'
-    summary: <p><a href="https://aws.amazon.com/sagemaker/unified-studio/">Amazon
+    published: "2026-03-17"
+    summary:
+      <p><a href="https://aws.amazon.com/sagemaker/unified-studio/">Amazon
       SageMaker Unified Studio</a> now provides an aggregated view of data lineage,
       displaying all jobs contributing to your dataset. The aggregated view gives
       you a complete picture of data transformations and dependencies across your
@@ -120,8 +128,9 @@ entries:
     id: b8c699405c453671b0994d0b26379d04
     title: AWS Blu Insights is now AWS Transform for mainframe refactor
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-transform-mainframe-refactor/
-    published: '2026-03-17'
-    summary: <p>AWS Blu Insights capabilities are now available as part of AWS Transform,
+    published: "2026-03-17"
+    summary:
+      <p>AWS Blu Insights capabilities are now available as part of AWS Transform,
       enabling customers to launch mainframe refactoring projects from the AWS Transform
       console. This launch unifies all three mainframe modernization patterns — refactor,
       replatform, and reimagine — within AWS Transform for mainframe. Code transformation
@@ -142,8 +151,9 @@ entries:
     id: 4e0c3fd0643d6059867c0de46d083bc0
     title: Amazon Corretto 26 is now generally available
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-corretto-26-generally-available/
-    published: '2026-03-17'
-    summary: "<p>Amazon Corretto 26, a Feature Release (FR) version, is now available\
+    published: "2026-03-17"
+    summary:
+      "<p>Amazon Corretto 26, a Feature Release (FR) version, is now available\
       \ for download. <a href=\"https://aws.amazon.com/corretto/\">Amazon Corretto</a>\
       \ is a no-cost, multi-platform, production-ready distribution of <a href=\"\
       https://aws.amazon.com/blogs/opensource/amazon-corretto-no-cost-distribution-openjdk-long-term-support/\"\
@@ -178,8 +188,9 @@ entries:
     id: 57a80088249ac658995deb9a4194646c
     title: Amazon RDS enhancements for SQL Server Developer Edition
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-enhancements-for-sql-server-developer-edition/
-    published: '2026-03-17'
-    summary: <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
+    published: "2026-03-17"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for SQL Server</a> now supports Additional
       Storage Volumes, Resource Governor, and SQL Server 2019 with SQL Server Developer
       Edition. SQL Server Developer Edition is an ideal choice to build and test applications
@@ -202,8 +213,9 @@ entries:
     id: a26ba61bd1b5816eac6620133f65ffe4
     title: Simplified permissions for Amazon S3 Tables and Iceberg materialized views
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/gdc-simplified-permissions-s3tables-iceberg-views/
-    published: '2026-03-17'
-    summary: <p>AWS Glue Data Catalog now supports AWS IAM-based authorization for
+    published: "2026-03-17"
+    summary:
+      <p>AWS Glue Data Catalog now supports AWS IAM-based authorization for
       Amazon S3 Tables and Apache Iceberg materialized views. With IAM-based authorization,
       you can define all necessary permissions across storage, catalog, and query
       engines in a single IAM policy.<br /> <br /> This capability simplifies the
@@ -219,8 +231,9 @@ entries:
     id: 3684834c3841fd009d960cd6c45c11d1
     title: Amazon Connect voice AI agents now supports 13 new languages
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-voice-ai-agents-13-languages/
-    published: '2026-03-17'
-    summary: "<p>Amazon Connect now supports 13 new languages for voice AI agents,\
+    published: "2026-03-17"
+    summary:
+      "<p>Amazon Connect now supports 13 new languages for voice AI agents,\
       \ bringing the total to 40 language locales.&nbsp;&nbsp;New languages include\
       \ Arabic (Saudi Arabia), Czech, Danish, Dutch (Belgium), English (Ireland),\
       \ English (New Zealand), English (Wales), German (Switzerland), Icelandic, Romanian,\
@@ -238,8 +251,9 @@ entries:
     id: a565820d54783188d2b542c8e18dd5fb
     title: AWS Elemental MediaConnect adds support for NDI® inputs
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/mediaconnect-ndi-inputs/
-    published: '2026-03-17'
-    summary: <p>Starting today, <a href="https://aws.amazon.com/mediaconnect/">AWS
+    published: "2026-03-17"
+    summary:
+      <p>Starting today, <a href="https://aws.amazon.com/mediaconnect/">AWS
       Elemental MediaConnect </a>supports <a href="https://ndi.video/">NDI® (Network
       Device Interface)</a> as a live video source, enabling broadcasters and live
       production teams to ingest NDI streams and convert them to transport stream
@@ -262,8 +276,9 @@ entries:
     id: cfaa8c191c495bc36c95c527bc07ddae
     title: Amazon SageMaker Unified Studio supports aggregated view of data lineage
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-aggregated-lineage/
-    published: '2026-03-17'
-    summary: <p><a href="https://aws.amazon.com/sagemaker/unified-studio/">Amazon
+    published: "2026-03-17"
+    summary:
+      <p><a href="https://aws.amazon.com/sagemaker/unified-studio/">Amazon
       SageMaker Unified Studio</a> now provides an aggregated view of data lineage,
       displaying all jobs contributing to your dataset. The aggregated view gives
       you a complete picture of data transformations and dependencies across your
@@ -286,11 +301,13 @@ entries:
       and <a href="https://docs.aws.amazon.com/boto3/latest/reference/services/datazone/paginator/QueryGraph.html">API</a>.</p>
   cec651e8a432fdc4e70662ea83d077a7:
     id: cec651e8a432fdc4e70662ea83d077a7
-    title: Amazon Connect adds new generative text-to-speech voices and expands to
+    title:
+      Amazon Connect adds new generative text-to-speech voices and expands to
       new regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-adds-generative-text-to-speech-voices/
-    published: '2026-03-17'
-    summary: "<p>Amazon Connect now offers generative text-to-speech voices in three&nbsp;additional&nbsp;AWS\
+    published: "2026-03-17"
+    summary:
+      "<p>Amazon Connect now offers generative text-to-speech voices in three&nbsp;additional&nbsp;AWS\
       \ Regions: Europe (London), Asia Pacific (Seoul), and Asia Pacific (Sydney).\
       \ Amazon Connect also expands support for nine new generative text-to-speech\
       \ voices across US English, UK English, European French, German, and Italian:\
@@ -313,8 +330,9 @@ entries:
     id: 04863be7f1b24799de30c2ee2ffa02fd
     title: AWS Security Agent now supports downloading penetration testing reports
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-agent-generates-customizable/
-    published: '2026-03-17'
-    summary: "<p>AWS Security Agent now provides the ability to download penetration\
+    published: "2026-03-17"
+    summary:
+      "<p>AWS Security Agent now provides the ability to download penetration\
       \ testing reports.&nbsp;This enhancement to the AWS Security Agent allows users\
       \ to create customized reports based on specific filters.&nbsp;Each report includes\
       \ an executive summary with a high-level overview of security posture and findings,\
@@ -330,4 +348,4 @@ entries:
       \ more about AWS Security Agent and its new report generation feature, visit\
       \ the <a href=\"https://aws.amazon.com/security-agent/\">AWS Security Agent\
       \ page</a>.</p>"
-last_updated: '2026-03-19T06:55:06.138020'
+last_updated: "2026-03-19T06:55:06.138020"

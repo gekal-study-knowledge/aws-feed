@@ -3,8 +3,9 @@ entries:
     id: 8205eed48ebb52d232a93989ed158797
     title: Our First 2026 Heroes Cohort Is Here!
     link: https://aws.amazon.com/blogs/aws/our-first-2026-heroes-cohort-is-here/
-    published: '2026-03-18'
-    summary: We’re thrilled to celebrate three exceptional developer community leaders
+    published: "2026-03-18"
+    summary:
+      We’re thrilled to celebrate three exceptional developer community leaders
       as AWS Heroes. These individuals represent the heart of what makes the AWS community
       so vibrant. In addition to sharing technical knowledge, they build connections,
       forge genuine human relationships, and create pathways for others to grow. From
@@ -13,10 +14,11 @@ entries:
     id: a1cb964f07774c73465dbbb7cc1ec02f
     title: Our First 2026 AWS Heroes Cohort Is Here!
     link: https://aws.amazon.com/blogs/aws/our-first-2026-heroes-cohort-is-here/
-    published: '2026-03-18'
-    summary: We’re thrilled to celebrate three exceptional developer community leaders
+    published: "2026-03-18"
+    summary:
+      We’re thrilled to celebrate three exceptional developer community leaders
       as AWS Heroes. These individuals represent the heart of what makes the AWS community
       so vibrant. In addition to sharing technical knowledge, they build connections,
       forge genuine human relationships, and create pathways for others to grow. From
       pioneering cloud culture in mountain villages to leading cybersecurity […]
-last_updated: '2026-03-18T19:07:23.635596'
+last_updated: "2026-03-18T19:07:23.635596"

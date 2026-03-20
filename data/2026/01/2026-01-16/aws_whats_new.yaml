@@ -3,8 +3,9 @@ entries:
     id: ad8168d04393d73e328153777270bead
     title: Amazon S3 Storage Lens is now available in AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/s3-storage-lens-aws-govcloud-us-regions/
-    published: '2026-01-16'
-    summary: <p>Amazon S3 Storage Lens provides organization-wide visibility into
+    published: "2026-01-16"
+    summary:
+      <p>Amazon S3 Storage Lens provides organization-wide visibility into
       your storage usage and activity. S3 Storage Lens is now available in AWS GovCloud
       (US) Regions, bringing metrics to help you optimize storage costs, identify
       data protection opportunities, and improve application performance.<br /> <br
@@ -30,8 +31,9 @@ entries:
     id: f2cd3ae7e98dd1b53d94e885bb38e688
     title: Amazon MWAA now available in additional Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mwaa-additional-region
-    published: '2026-01-16'
-    summary: <p>Amazon Managed Workflows for Apache Airflow (MWAA) is now available
+    published: "2026-01-16"
+    summary:
+      <p>Amazon Managed Workflows for Apache Airflow (MWAA) is now available
       in AWS Region&nbsp;Asia Pacific (Thailand).<br /> <br /> Amazon MWAA is a managed
       service for Apache Airflow that lets you use the same familiar Apache Airflow
       platform as you do today to orchestrate your workflows and enjoy improved scalability,
@@ -48,8 +50,9 @@ entries:
     id: f7cc820a0bd1c5448c19c9ee025b009e
     title: AWS Outposts racks support multiple LGW routing domains
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/aws-outposts-multiple-lgw-routing-domain
-    published: '2026-01-16'
-    summary: <p>AWS Outposts racks now support multiple local gateway (LGW) routing
+    published: "2026-01-16"
+    summary:
+      <p>AWS Outposts racks now support multiple local gateway (LGW) routing
       domains, enabling you to create up to 10 isolated routing domains per Outpost,
       each with independent route tables and BGP sessions to your on-premises network.
       This feature provides traffic separation between routing domains and enables
@@ -68,11 +71,13 @@ entries:
       documentation</a>.</p>
   d077852ae44796e91695a75719d61851:
     id: d077852ae44796e91695a75719d61851
-    title: Second-generation AWS Outposts racks are now supported in additional AWS
+    title:
+      Second-generation AWS Outposts racks are now supported in additional AWS
       Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/second-generation-aws-outposts-racks-additional-aws-regions
-    published: '2026-01-16'
-    summary: <p>Second-generation AWS Outposts racks are now supported in the South
+    published: "2026-01-16"
+    summary:
+      <p>Second-generation AWS Outposts racks are now supported in the South
       America (Sao Paulo) and Europe (Stockholm) Regions. Outposts racks extend AWS
       infrastructure, AWS services, APIs, and tools to virtually any on-premises data
       center or colocation space for a truly consistent hybrid experience.<br /> <br
@@ -95,8 +100,9 @@ entries:
     id: 7d39f4973edd7eb724e4d92edad1aeb5
     title: AWS Outposts racks support multiple LGW routing domains
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-outposts-multiple-lgw-routing-domain
-    published: '2026-01-16'
-    summary: <p>AWS Outposts racks now support multiple local gateway (LGW) routing
+    published: "2026-01-16"
+    summary:
+      <p>AWS Outposts racks now support multiple local gateway (LGW) routing
       domains, enabling you to create up to 10 isolated routing domains per Outpost,
       each with independent route tables and BGP sessions to your on-premises network.
       This feature provides traffic separation between routing domains and enables
@@ -115,11 +121,13 @@ entries:
       documentation</a>.</p>
   37f7efaf23739eacb629f9a5d708a541:
     id: 37f7efaf23739eacb629f9a5d708a541
-    title: Amazon Bedrock Reserved Tier available now for Claude Opus 4.5 and Haiku
+    title:
+      Amazon Bedrock Reserved Tier available now for Claude Opus 4.5 and Haiku
       4.5
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-reserved-tier-claude-opus-haiku/
-    published: '2026-01-16'
-    summary: <p>Today, Amazon Bedrock announces the expansion of the Reserved service
+    published: "2026-01-16"
+    summary:
+      <p>Today, Amazon Bedrock announces the expansion of the Reserved service
       tier designed for workloads requiring predictable performance and guaranteed
       tokens-per-minute capacity. The Reserved tier provides the ability to reserve
       prioritized compute capacity, keeping service levels predictable for your mission
@@ -146,8 +154,9 @@ entries:
     id: fbcbc49dec1d0968d477a1e9c0c04b98
     title: Amazon EC2 High Memory U7i instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec-high-memory-ui-instances-additional-regions/
-    published: '2026-01-16'
-    summary: "<p>Amazon EC2 High Memory U7i instances are available in new regions.\
+    published: "2026-01-16"
+    summary:
+      "<p>Amazon EC2 High Memory U7i instances are available in new regions.\
       \ U7i-6tb.112xlarge instances are now available in AWS Asia Pacific (Thailand,\
       \ Sydney, Singapore), Canada (Central), and AWS GovCloud (US-East), u7i-8tb.112xlarge\
       \ instances are now available in AWS South America (Sao Paulo), and u7in-16tb.224xlarge\
@@ -166,4 +175,4 @@ entries:
       \ in-memory databases like SAP HANA, Oracle, and SQL Server.&nbsp;</p> \n<p>To\
       \ learn more about U7i instances, visit the&nbsp;<a href=\"https://aws.amazon.com/ec2/instance-types/u7i/\"\
       >High Memory instances page</a>.</p>"
-last_updated: '2026-01-22T01:26:19.083081'
+last_updated: "2026-01-22T01:26:19.083081"

@@ -3,8 +3,9 @@ entries:
     id: 399b2b8fcb0f76a86c9d8d9b24f1a1e5
     title: Amazon Neptune Analytics is now available in 7 additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-neptune-analytics-in-seven-additional-regions
-    published: '2026-02-09'
-    summary: <p><a href="https://docs.aws.amazon.com/neptune-analytics/latest/userguide/what-is-neptune-analytics.html"
+    published: "2026-02-09"
+    summary:
+      <p><a href="https://docs.aws.amazon.com/neptune-analytics/latest/userguide/what-is-neptune-analytics.html"
       target="_blank">Amazon Neptune Analytics</a> is now available in Middle East
       (Bahrain), Middle East (UAE), Israel (Tel Aviv), Africa (Cape Town), Canada
       (Calgary), Asia Pacific (Malaysia), and Europe (Zurich) regions. You can now
@@ -31,8 +32,9 @@ entries:
     id: 0a9c6225ccd45331b2a2304bc52f4edb
     title: Amazon Redshift now supports allocating extra compute for automatic optimizations
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-allocate-extra-compute-for-automatic-optimizations
-    published: '2026-02-09'
-    summary: <p>Amazon Redshift now supports allocating extra compute for automatic
+    published: "2026-02-09"
+    summary:
+      <p>Amazon Redshift now supports allocating extra compute for automatic
       optimization features, known as autonomics. Database administrators managing
       Amazon Redshift workloads can now allocate additional resources for their clusters
       to enable autonomics even during periods of high user activity, eliminating
@@ -51,11 +53,13 @@ entries:
       extra compute resources for automatic database optimization</a>.</p>
   10691577aa6dff11f82eb7117eb7e436:
     id: 10691577aa6dff11f82eb7117eb7e436
-    title: AWS HealthOmics introduces a Kiro Power and Kiro IDE extension for bioinformatics
+    title:
+      AWS HealthOmics introduces a Kiro Power and Kiro IDE extension for bioinformatics
       workflow development
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-healthomics-introduces-kiro-plugin-for-bioinformatics-workflow-development/
-    published: '2026-02-09'
-    summary: <p>AWS HealthOmics announces a <a href="https://kiro.dev/powers/">Kiro
+    published: "2026-02-09"
+    summary:
+      <p>AWS HealthOmics announces a <a href="https://kiro.dev/powers/">Kiro
       Power</a> and Kiro IDE extension to create, run, debug, and optimize HealthOmics
       workflows faster with AI agent-assisted development. With the HealthOmics extension
       for Kiro IDE, customers can create, modify, and analyze workflows in domain-specific
@@ -78,8 +82,9 @@ entries:
     id: 7e459777a6f22f951a5388e7eba33944
     title: Amazon EC2 C8gn instances are now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8gn-instances-additional-regions
-    published: '2026-02-09'
-    summary: '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances,
+    published: "2026-02-09"
+    summary:
+      '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances,
       powered by the latest-generation AWS Graviton4 processors, are available in
       the AWS Region&nbsp;Asia Pacific (Seoul, Melbourne), Canada (Central), Europe
       (Spain), and AWS GovCloud (US-East, US-West). The new instances provide up to
@@ -107,4 +112,4 @@ entries:
       Management Console</a>,&nbsp;<a href="https://aws.amazon.com/cli/">AWS Command
       Line Interface (AWS CLI)</a>, and&nbsp;<a href="https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html">AWS
       SDKs</a>.</p>'
-last_updated: '2026-02-11T22:26:13.785228'
+last_updated: "2026-02-11T22:26:13.785228"

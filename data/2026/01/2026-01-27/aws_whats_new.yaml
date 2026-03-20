@@ -3,8 +3,9 @@ entries:
     id: f415e484818abd717a37104dcc401226
     title: AWS Marketplace expands AMI self-service listing experience to FPGA products
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-marketplace-expands-ami-self-service-listing-experience-to-fpga-products
-    published: '2026-01-27'
-    summary: <p>AWS Marketplace now offers a self-service listing experience for sellers
+    published: "2026-01-27"
+    summary:
+      <p>AWS Marketplace now offers a self-service listing experience for sellers
       listing Amazon Machine Image (AMI) products with FPGA (Field Programmable Gate
       Array) images. This new capability eliminates the previous dependency on manual
       Product Load Forms and accelerates time-to-market for AWS partners that offer
@@ -25,8 +26,9 @@ entries:
     id: a4efcf926bac758cdf6a0f9564c60d23
     title: Amazon WorkSpaces announces advanced printer redirection
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-workspaces-advanced-printer-redirection/
-    published: '2026-01-27'
-    summary: "<p>AWS announces advanced printer redirection for Amazon WorkSpaces\
+    published: "2026-01-27"
+    summary:
+      "<p>AWS announces advanced printer redirection for Amazon WorkSpaces\
       \ Personal, enabling Windows users to access the full feature set of their printers\
       \ from their virtual desktop environments. With this feature, customers can\
       \ now use printer-specific capabilities such as double-sided printing, paper\
@@ -53,11 +55,13 @@ entries:
       \ solutions from AWS.</p>"
   b7351fc6593b493bc28499ae1577294e:
     id: b7351fc6593b493bc28499ae1577294e
-    title: AWS Network Firewall now supports GenAI traffic visibility and enforcement
+    title:
+      AWS Network Firewall now supports GenAI traffic visibility and enforcement
       with Web category-based filtering
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-network-firewall-web-category-based-filtering
-    published: '2026-01-27'
-    summary: <p>AWS Network Firewall now provides visibility into generative AI (GenAI)
+    published: "2026-01-27"
+    summary:
+      <p>AWS Network Firewall now provides visibility into generative AI (GenAI)
       application traffic and supports traffic filtering based on web categories.
       This new capability simplifies governance by enabling you to identify and control
       access to GenAI services, social media platforms, streaming sites, and other
@@ -81,8 +85,9 @@ entries:
     id: 85d02935d060f4488ab9d88bf77c0538
     title: AWS Deadline Cloud now supports editing job name and description
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-deadline-cloud-editing-job-name-description/
-    published: '2026-01-27'
-    summary: <p>AWS Deadline Cloud now supports editing job names and descriptions
+    published: "2026-01-27"
+    summary:
+      <p>AWS Deadline Cloud now supports editing job names and descriptions
       after submission. This new feature makes it easier to organize and identify
       jobs after submission by updating names or adding useful tracking details in
       the description field.<br /> <br /> Job names and descriptions are critical
@@ -98,8 +103,9 @@ entries:
     id: 3af27b6269086095372c3c51296a74fd
     title: Amazon Connect now supports granular access controls for cases
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-granular-access-controls/
-    published: '2026-01-27'
-    summary: '<p>Amazon Connect now enables you to apply tag-based access control
+    published: "2026-01-27"
+    summary:
+      '<p>Amazon Connect now enables you to apply tag-based access control
       to cases, giving administrators more control over who can view and manage case
       data. With this capability, you can associate tags with case templates and configure
       security profiles to control which users can access cases that include specific
@@ -115,11 +121,13 @@ entries:
       target="_blank">documentation</a>.</p>'
   ed27c6d624bb15d8a29d13d4e3c8d797:
     id: ed27c6d624bb15d8a29d13d4e3c8d797
-    title: Amazon RDS for PostgreSQL, MySQL and MariaDB now support r6id and r6gd
+    title:
+      Amazon RDS for PostgreSQL, MySQL and MariaDB now support r6id and r6gd
       database instances in additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-product-generally-available-rds-r6id-r6gd-expansion
-    published: '2026-01-27'
-    summary: <p>AWS memory optimized R6id database instances are now generally available
+    published: "2026-01-27"
+    summary:
+      <p>AWS memory optimized R6id database instances are now generally available
       for Amazon RDS for PostgreSQL, MySQL, and MariaDB in the Tel Aviv region. R6gd
       instances are now supported for Amazon RDS for PostgreSQL, MySQL, and MariaDB
       in Asia Pacific (Osaka), and EU (Spain, Zurich) regions.<br /> <br /> &nbsp;AWS
@@ -138,4 +146,4 @@ entries:
       target="_blank">RDS</a> documentation. For complete information on pricing and
       regional availability, please refer to the Amazon RDS <a href="https://aws.amazon.com/rds/pricing/"
       target="_blank">pricing page</a>.</p>
-last_updated: '2026-01-28T01:26:16.784088'
+last_updated: "2026-01-28T01:26:16.784088"

@@ -3,8 +3,9 @@ entries:
     id: fc13cba129fabf2f5a6430010ad24015
     title: Security Findings in SageMaker Python SDK
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-004-aws/
-    published: '2026-02-02'
-    summary: "<p><b>Bulletin ID:</b> 2026-004-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2026-02-02"
+    summary:
+      "<p><b>Bulletin ID:</b> 2026-004-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/02/02\
       \ 14:30 PM PST</p> \n<p><b>Description:</b></p> \n<p>CVE-2026-1777 - Exposed\
       \ HMAC in SageMaker Python SDK<br /> SageMaker Python SDK’s remote functions\
@@ -26,4 +27,4 @@ entries:
       \ Configuration in SageMaker Python SDK v2 &lt; v2.256.0</p> \n<p><b>Please\
       \ refer to the article below for the most up-to-date and complete information\
       \ related to this AWS Security Bulletin.</b></p>"
-last_updated: '2026-02-02T23:25:12.233981'
+last_updated: "2026-02-02T23:25:12.233981"

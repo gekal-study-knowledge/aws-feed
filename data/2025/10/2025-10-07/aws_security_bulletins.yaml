@@ -3,8 +3,9 @@ entries:
     id: a00ffb8f18a9fb80c6248c7102bf260e
     title: CVE-2025-11462 AWS ClientVPN macOS Client Local Privilege Escalation
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-020/
-    published: '2025-10-07'
-    summary: "<p><b>Bulletin ID:</b> AWS-2025-020<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2025-10-07"
+    summary:
+      "<p><b>Bulletin ID:</b> AWS-2025-020<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/10/07\
       \ 01:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS Client VPN is a managed\
       \ client-based VPN service that enables secure access to AWS and on-premises\
@@ -21,11 +22,13 @@ entries:
       \ \n<p>AWS Client VPN Client versions 1.3.2 through 5.2.0</p>"
   4ab6e18e80a64191a21cebdab82fb092:
     id: 4ab6e18e80a64191a21cebdab82fb092
-    title: Amazon Q Developer and Kiro – Prompt Injection Issues in Kiro and Q IDE
+    title:
+      Amazon Q Developer and Kiro – Prompt Injection Issues in Kiro and Q IDE
       plugins
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-019/
-    published: '2025-10-07'
-    summary: "<p><b>Bulletin ID:</b> AWS-2025-019<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2025-10-07"
+    summary:
+      "<p><b>Bulletin ID:</b> AWS-2025-019<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/10/07\
       \ 01:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>We are aware of blog posts\
       \ by Embrace The Red (“The Month of AI Bugs”) describing prompt injection issues\
@@ -57,4 +60,4 @@ entries:
       \ secure adoption.</p> \n<p><b>Affected versions:</b></p> \n<p>Amazon Q Developer\
       \ for find, grep, echo (version &lt;1.22.0)<br /> Amazon Q Developer for ping,\
       \ dig: (versions &lt;1.24.0)<br /> AWS Kiro: version 0.1.42</p>"
-last_updated: '2026-01-17T00:23:07.321594'
+last_updated: "2026-01-17T00:23:07.321594"

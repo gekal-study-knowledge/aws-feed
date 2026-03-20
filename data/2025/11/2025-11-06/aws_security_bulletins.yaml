@@ -1,11 +1,13 @@
 entries:
   8f791b4572be602dad5f2edf198e1f7c:
     id: 8f791b4572be602dad5f2edf198e1f7c
-    title: CVE-2025-12815 - RES web portal may display preview of Virtual Desktops
+    title:
+      CVE-2025-12815 - RES web portal may display preview of Virtual Desktops
       that the user shouldn't have access to
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-026/
-    published: '2025-11-06'
-    summary: "<p><b>Bulletin ID:</b> AWS-2025-026<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2025-11-06"
+    summary:
+      "<p><b>Bulletin ID:</b> AWS-2025-026<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/11/6\
       \ 09:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Research and Engineering\
       \ Studio on AWS (RES) is an open source, easy-to-use web-based portal for administrators\
@@ -15,4 +17,4 @@ entries:
       \ on AWS before version 2025.09 may allow an authenticated remote user to view\
       \ another user's active desktop session metadata, including periodical desktop\
       \ preview screenshots.</p> \n<p><b>Impacted versions:</b> &lt; 2025.09</p>"
-last_updated: '2026-01-17T00:23:07.333000'
+last_updated: "2026-01-17T00:23:07.333000"

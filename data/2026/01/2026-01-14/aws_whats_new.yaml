@@ -3,8 +3,9 @@ entries:
     id: e6fdeb53bcec2f50a589cbff827498e3
     title: AWS IoT Device Management launches Wi-Fi Simple Setup for managed integrations
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-iot-device-management-wifi-simple-setup/
-    published: '2026-01-14'
-    summary: <p>AWS IoT Device Management now offers Wi-Fi Simple Setup (WSS) for
+    published: "2026-01-14"
+    summary:
+      <p>AWS IoT Device Management now offers Wi-Fi Simple Setup (WSS) for
       managed integrations, enabling developers to implement simplified Wi-Fi provisioning
       in Internet of Things (IoT) solutions. With WSS, developers can now integrate
       QR code scanning functionality that empowers end users to connect their Wi-Fi
@@ -29,8 +30,9 @@ entries:
     id: dc1662e5f6499e1cec7ab2f33a6bd8a2
     title: Amazon VPC IPAM policies now support RDS and Application Load Balancers
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-vpc-ipam-policies-rds-alb/
-    published: '2026-01-14'
-    summary: <p>Amazon Virtual Private Cloud (VPC) IP Address Manager (IPAM) now supports
+    published: "2026-01-14"
+    summary:
+      <p>Amazon Virtual Private Cloud (VPC) IP Address Manager (IPAM) now supports
       policies for Amazon Relational Database Service (RDS) instances and Application
       Load Balancers (ALB). This feature enables IP administrators to centrally configure
       and enforce IP allocation strategies for these resources, improving operational
@@ -58,11 +60,13 @@ entries:
       VPC Pricing Page</a>.</p>
   73a23e6b6b5581d32ef869485223c9ea:
     id: 73a23e6b6b5581d32ef869485223c9ea
-    title: Amazon Connect makes it easier to manage recurring overrides for hours
+    title:
+      Amazon Connect makes it easier to manage recurring overrides for hours
       of operation
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-connect-recurring-hour-operation-overrides
-    published: '2026-01-14'
-    summary: <p>Amazon Connect now makes it easier to manage contact center operating
+    published: "2026-01-14"
+    summary:
+      <p>Amazon Connect now makes it easier to manage contact center operating
       hours for recurring events like holidays, maintenance windows, and promotional
       periods, with a visual calendar that provides at-a-glance visibility by day,
       month, or year. You can set up recurring overrides that automatically take effect
@@ -84,8 +88,9 @@ entries:
     id: 2fa52d4efca2c2aba39fafd5aa09f288
     title: Enhanced Transactions view now available in AWS Billing Console
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/enhanced-transactions-view-aws-billing-console
-    published: '2026-01-14'
-    summary: <p>AWS announces significant improvements to the Transactions view in
+    published: "2026-01-14"
+    summary:
+      <p>AWS announces significant improvements to the Transactions view in
       the AWS Billing and Cost Management Console’s Payments page, delivering faster
       performance, simplified payment reconciliation, and improved data accuracy.
       The enhanced view provides customers with a unified interface to manage all
@@ -111,8 +116,9 @@ entries:
     id: 7c18adb36492e228222f1d91d449a410
     title: Amazon VPC Route Server now available in new regions
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-vpc-route-server-available-new-regions
-    published: '2026-01-14'
-    summary: '<p>Amazon VPC Route Server is now available in 16 new regions in addition
+    published: "2026-01-14"
+    summary:
+      '<p>Amazon VPC Route Server is now available in 16 new regions in addition
       to the 14 existing ones.<br /> <br /> VPC Route Server simplifies dynamic routing
       between virtual appliances in your Amazon VPC. It allows you to advertise routing
       information through Border Gateway Protocol (BGP) from virtual appliances and
@@ -131,11 +137,13 @@ entries:
       target="_blank">page</a>.</p>'
   4f51494c9112ec39bc96678c5e144060:
     id: 4f51494c9112ec39bc96678c5e144060
-    title: Amazon Bedrock introduces API keys to streamline development in GovCloud
+    title:
+      Amazon Bedrock introduces API keys to streamline development in GovCloud
       regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-bedrock-api-keys-streamline-development-govcloud/
-    published: '2026-01-14'
-    summary: <p>API keys for Amazon Bedrock are now available in AWS GovCloud (US)
+    published: "2026-01-14"
+    summary:
+      <p>API keys for Amazon Bedrock are now available in AWS GovCloud (US)
       regions, expanding a feature that simplifies authentication and accelerates
       generative AI development. Originally launched in commercial AWS regions in
       July 2025, API keys for Amazon Bedrock enable developers to quickly generate
@@ -155,11 +163,13 @@ entries:
       for code snippets and implementation examples.</p>
   d494d0eadf51a9b9a9a6f146b7f30200:
     id: d494d0eadf51a9b9a9a6f146b7f30200
-    title: AWS Transform custom adds AWS PrivateLink support and expands to Europe
+    title:
+      AWS Transform custom adds AWS PrivateLink support and expands to Europe
       (Frankfurt) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transform-custom-privatelink-europe-frankfurt-region/
-    published: '2026-01-14'
-    summary: <p>AWS Transform custom now supports AWS PrivateLink and is available
+    published: "2026-01-14"
+    summary:
+      <p>AWS Transform custom now supports AWS PrivateLink and is available
       in a new AWS Region, Europe (Frankfurt), in addition to the US East (N. Virginia)
       Region. AWS Transform custom helps organizations reduce technical debt by automating
       repetitive transformation tasks such as language version upgrades, API migrations,
@@ -180,8 +190,9 @@ entries:
     id: 7d96f987c673cf021bfc8dfe35023810
     title: Amazon VPC Route Server now available in new regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-vpc-route-server-available-new-regions
-    published: '2026-01-14'
-    summary: '<p>Amazon VPC Route Server is now available in 16 new regions in addition
+    published: "2026-01-14"
+    summary:
+      '<p>Amazon VPC Route Server is now available in 16 new regions in addition
       to the 14 existing ones.<br /> <br /> VPC Route Server simplifies dynamic routing
       between virtual appliances in your Amazon VPC. It allows you to advertise routing
       information through Border Gateway Protocol (BGP) from virtual appliances and
@@ -198,4 +209,4 @@ entries:
       Pacific (Thailand). To learn more about Amazon VPC Route Server, visit this
       <a href="https://docs.aws.amazon.com/vpc/latest/userguide/route-server-how-it-works.html"
       target="_blank">page</a>.</p>'
-last_updated: '2026-01-17T00:23:06.581095'
+last_updated: "2026-01-17T00:23:06.581095"

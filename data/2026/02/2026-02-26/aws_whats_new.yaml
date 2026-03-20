@@ -3,8 +3,9 @@ entries:
     id: 202c1c8e8ca019afdb79faaeeb508421
     title: AWS Security Hub launches Extended plan for pay-as-you-go partner solutions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/sec-hub-extended/
-    published: '2026-02-26'
-    summary: <p>Today, we're announcing the general availability of AWS Security Hub
+    published: "2026-02-26"
+    summary:
+      <p>Today, we're announcing the general availability of AWS Security Hub
       Extended, a new plan that extends unified security operations across your enterprise
       through a single-vendor experience. This plan helps address the complexity of
       managing multiple vendor relationships and lengthy procurement cycles by bringing
@@ -34,11 +35,13 @@ entries:
       or <a href="https://aws.amazon.com/security-hub/?nc=sn&amp;loc=1">product page</a>.</p>
   7651a14a689afbd5b131f9fbc0604ce9:
     id: 7651a14a689afbd5b131f9fbc0604ce9
-    title: Amazon Cognito enhances client secret management with secret rotation and
+    title:
+      Amazon Cognito enhances client secret management with secret rotation and
       custom secrets
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-cognito-client-secret-lifecycle/
-    published: '2026-02-26'
-    summary: "<p>Amazon Cognito enhances client secret lifecycle management for app\
+    published: "2026-02-26"
+    summary:
+      "<p>Amazon Cognito enhances client secret lifecycle management for app\
       \ clients of Cognito user pools by adding client secret rotation and support\
       \ for custom client secrets. Cognito helps you implement secure sign-in and\
       \ access control for users, AI agents, and microservices in minutes, and a Cognito\
@@ -63,8 +66,9 @@ entries:
     id: 48478b55cc925fb79828644ee7e63685
     title: AWS Lambda Durable Execution SDK for Java now available in Developer Preview
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/lambda-durable-execution-java-preview/
-    published: '2026-02-26'
-    summary: "<p>Today, AWS announces the developer preview of the AWS Lambda Durable\
+    published: "2026-02-26"
+    summary:
+      "<p>Today, AWS announces the developer preview of the AWS Lambda Durable\
       \ Execution SDK for Java. With this SDK, developers can build resilient multi-step\
       \ applications like order processing pipelines, AI-assisted workflows, and human-in-the-loop\
       \ approvals using Lambda durable functions, without implementing custom progress\
@@ -87,11 +91,13 @@ entries:
       \ target=\"_blank\">AWS Regional Services List</a>.</p>"
   7721aa5e5405c6427d6a5b63a6ed3563:
     id: 7721aa5e5405c6427d6a5b63a6ed3563
-    title: Amazon Connect now supports dynamic dialing mode switching for outbound
+    title:
+      Amazon Connect now supports dynamic dialing mode switching for outbound
       campaigns
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/connect-dynamic-dialing-modes/
-    published: '2026-02-26'
-    summary: "<p>Today, AWS announces the general availability of dynamic dialing\
+    published: "2026-02-26"
+    summary:
+      "<p>Today, AWS announces the general availability of dynamic dialing\
       \ mode switching for Amazon Connect Outbound Campaigns, which allows contact\
       \ center administrators to change between preview and non-preview dialing modes\
       \ during active campaign execution. Previously, campaigns were locked into their\
@@ -117,8 +123,9 @@ entries:
     id: 6ea0a7162cd381082b687b5c4cb97deb
     title: Amazon EC2 M8i and M8i-flex instances are available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8i-m8i-flex-instances-additional-regions/
-    published: '2026-02-26'
-    summary: <p>Starting today, Amazon EC2 M8i and M8i-flex instances are now available
+    published: "2026-02-26"
+    summary:
+      <p>Starting today, Amazon EC2 M8i and M8i-flex instances are now available
       in US West (N. California), Europe (Paris), Asia Pacific (Hyderabad), and South
       America (Sao Paulo) regions. These instances are powered by custom Intel Xeon
       6 processors, available only on AWS, delivering the highest performance and
@@ -147,8 +154,9 @@ entries:
     id: e373e78ebe446fd1d233cf418a550419
     title: Introducing Amazon EC2 I8g.metal-48xl instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-i8g-metal-48xl-generally-available/
-    published: '2026-02-26'
-    summary: <p>AWS is announcing the general availability of Amazon EC2 Storage Optimized
+    published: "2026-02-26"
+    summary:
+      <p>AWS is announcing the general availability of Amazon EC2 Storage Optimized
       I8g.metal-48xl instances. I8g instances are powered by AWS Graviton4 processors
       that deliver up to 60% better compute performance compared to previous generation
       I4g instances. I8g instances use the latest third generation AWS Nitro SSDs,
@@ -173,8 +181,9 @@ entries:
     id: d6684ecdfc560ab5bf89798a429a159a
     title: Amazon ECS Managed Instances now integrates with Amazon EC2 Capacity Reservations
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/ecs-mi-ec2-capacity-reservations/
-    published: '2026-02-26'
-    summary: '<p>Amazon Elastic Container Service (Amazon ECS) Managed Instances now
+    published: "2026-02-26"
+    summary:
+      '<p>Amazon Elastic Container Service (Amazon ECS) Managed Instances now
       integrates with Amazon EC2 Capacity Reservations, enabling you to leverage your
       reserved capacity for predictable workload availability, while ECS handles all
       infrastructure management. This integration helps you balance reliable capacity
@@ -198,11 +207,13 @@ entries:
       For more details, refer to the <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/managed-instances-instance-types.html#managed-instances-instance-billing-and-purchase-options">documentation</a>.</p>'
   3505916abc49723bb692d60da2e85ab1:
     id: 3505916abc49723bb692d60da2e85ab1
-    title: AWS Marketplace now supports multiple purchases of SaaS and Professional
+    title:
+      AWS Marketplace now supports multiple purchases of SaaS and Professional
       Services products
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/concurrent-agreements-february/
-    published: '2026-02-26'
-    summary: "<p>AWS Marketplace now supports Concurrent Agreements for SaaS and Professional\
+    published: "2026-02-26"
+    summary:
+      "<p>AWS Marketplace now supports Concurrent Agreements for SaaS and Professional\
       \ Services products, enabling buyers to make multiple purchases for the same\
       \ product within a single AWS account. Previously, buyers could only maintain\
       \ one active agreement per product per AWS account, requiring sellers to use\
@@ -232,11 +243,13 @@ entries:
       >Concurrent Agreements integration lab</a>.</p>"
   ec8c9ceed62faed9733ab9cd827c4888:
     id: ec8c9ceed62faed9733ab9cd827c4888
-    title: Amazon CloudWatch now provides lock contention diagnostics for Amazon RDS
+    title:
+      Amazon CloudWatch now provides lock contention diagnostics for Amazon RDS
       for PostgreSQL
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-cloudwatch-lock-contention-diagnostics-rds-postgresql/
-    published: '2026-02-26'
-    summary: <p>Amazon CloudWatch Database Insights now provides lock contention diagnostics
+    published: "2026-02-26"
+    summary:
+      <p>Amazon CloudWatch Database Insights now provides lock contention diagnostics
       for Amazon RDS for PostgreSQL instances. This feature helps you identify the
       root cause behind both ongoing and historical lock contention issues within
       minutes. The lock contention diagnostics feature is available exclusively in
@@ -264,8 +277,9 @@ entries:
     id: 1fa35ba240152e807c7da5947871387a
     title: Amazon SNS now supports push notifications in the Europe (Spain) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sns-push-expansion-spain/
-    published: '2026-02-26'
-    summary: "<p><a href=\"https://aws.amazon.com/sns/\" target=\"_blank\">Amazon\
+    published: "2026-02-26"
+    summary:
+      "<p><a href=\"https://aws.amazon.com/sns/\" target=\"_blank\">Amazon\
       \ Simple Notification Service (Amazon SNS)</a> now supports sending push notifications\
       \ in the AWS Europe (Spain) Region.&nbsp;</p> \n<p>Amazon SNS is a fully managed\
       \ pub/sub service that provides message delivery to multiple endpoints, including\
@@ -286,8 +300,9 @@ entries:
     id: dd519b12d780932ba12507bf54a86446
     title: Amazon Bedrock announces OpenAI-compatible Projects API
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-projects-api-mantle-inference-engine/
-    published: '2026-02-26'
-    summary: <p>Amazon Bedrock now supports OpenAI-compatible Projects API in the
+    published: "2026-02-26"
+    summary:
+      <p>Amazon Bedrock now supports OpenAI-compatible Projects API in the
       Mantle inference engine in Amazon Bedrock. Amazon Bedrock is a fully managed
       service that offers a broad selection of best-in-class foundation models from
       leading AI companies like Anthropic, Meta, and OpenAI, along with a broad set
@@ -306,11 +321,13 @@ entries:
       Bedrock documentation</a>.&nbsp;</p>
   09f7cbf7aafae01e6432140ff514cb02:
     id: 09f7cbf7aafae01e6432140ff514cb02
-    title: AWS Marketplace now supports multiple purchases of SaaS & Professional
+    title:
+      AWS Marketplace now supports multiple purchases of SaaS & Professional
       Services products from the same account
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/concurrent-agreements-february/
-    published: '2026-02-26'
-    summary: "<p>AWS Marketplace now supports Concurrent Agreements for SaaS and Professional\
+    published: "2026-02-26"
+    summary:
+      "<p>AWS Marketplace now supports Concurrent Agreements for SaaS and Professional\
       \ Services products, enabling buyers to make multiple purchases for the same\
       \ product within a single AWS account. Previously, buyers could only maintain\
       \ one active agreement per product per AWS account, requiring sellers to use\
@@ -340,11 +357,13 @@ entries:
       >Concurrent Agreements integration lab</a>.</p>"
   408856bb0f428901e521d3fead128caa:
     id: 408856bb0f428901e521d3fead128caa
-    title: Application Performance Monitoring Enabled by Default in CloudWatch Observability
+    title:
+      Application Performance Monitoring Enabled by Default in CloudWatch Observability
       EKS Add-on
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/application-performance-monitoring-cloudwatch-eks/
-    published: '2026-02-26'
-    summary: "<p>Today, Amazon CloudWatch Observability EKS add-on version 5.0.0 automatically\
+    published: "2026-02-26"
+    summary:
+      "<p>Today, Amazon CloudWatch Observability EKS add-on version 5.0.0 automatically\
       \ enables CloudWatch Application Signals — Amazon's application performance\
       \ monitoring (APM) capability — for all new installations and upgrades, eliminating\
       \ the previous manual opt-in step. Amazon Elastic Kubernetes Service (EKS) is\
@@ -375,8 +394,9 @@ entries:
     id: 7f86b3e8c015b6643ce2b1fae625aad3
     title: Amazon SageMaker HyperPod now supports API-driven Slurm configuration
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sagemaker-hyperpod-slurm/
-    published: '2026-02-26'
-    summary: "<p>Amazon SageMaker HyperPod now supports API-driven Slurm configuration,\
+    published: "2026-02-26"
+    summary:
+      "<p>Amazon SageMaker HyperPod now supports API-driven Slurm configuration,\
       \ enabling you to define Slurm topology and shared filesystem configurations\
       \ directly in the cluster create and update APIs or through the AWS Console.\
       \ SageMaker HyperPod helps you provision resilient clusters for running machine\
@@ -406,4 +426,4 @@ entries:
       \ target=\"_blank\">CLI</a>, and the API reference for&nbsp;<a href=\"https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_CreateCluster.html\"\
       \ target=\"_blank\">CreateCluster</a>&nbsp;and&nbsp;<a href=\"https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_UpdateCluster.html\"\
       \ target=\"_blank\">UpdateCluster</a>.</p>"
-last_updated: '2026-03-03T01:53:27.866764'
+last_updated: "2026-03-03T01:53:27.866764"

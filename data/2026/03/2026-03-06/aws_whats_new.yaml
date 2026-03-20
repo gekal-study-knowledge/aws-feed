@@ -3,8 +3,9 @@ entries:
     id: 344945d7986fd28fcc52327e3b2b94ae
     title: Amazon EC2 R8g instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8g-instances-additional-regions/
-    published: '2026-03-06'
-    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances
+    published: "2026-03-06"
+    summary:
+      <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances
       are available in AWS Middle East (UAE), AWS Mexico (Central), and AWS Europe
       (Zurich) regions. These instances are powered by AWS Graviton4 processors and
       deliver up to 30% better performance compared to AWS Graviton3-based instances.
@@ -32,8 +33,9 @@ entries:
     id: 7a6b26f2fa520f52b6e4228d160f720a
     title: Amazon Redshift introduces reusable templates for COPY operations
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-reusable-templates-copy/
-    published: '2026-03-06'
-    summary: '<p style="text-align: left;"><a href="https://aws.amazon.com/redshift/">Amazon
+    published: "2026-03-06"
+    summary:
+      '<p style="text-align: left;"><a href="https://aws.amazon.com/redshift/">Amazon
       Redshift</a> now supports templates for the COPY command, allowing you to store
       and reuse frequently used <a href="https://docs.aws.amazon.com/redshift/latest/dg/r_COPY-parameters.html">COPY
       parameters</a>. This new feature enables you to create reusable templates that
@@ -52,11 +54,13 @@ entries:
       Blog</a>.</p>'
   47738a15bc91881eee45b9b7f54fa823:
     id: 47738a15bc91881eee45b9b7f54fa823
-    title: Amazon Redshift introduces new array functions for semi-structured data
+    title:
+      Amazon Redshift introduces new array functions for semi-structured data
       processing
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-nine-new-array-functions/
-    published: '2026-03-06'
-    summary: <p><a href="https://aws.amazon.com/redshift/">Amazon Redshift</a> now
+    published: "2026-03-06"
+    summary:
+      <p><a href="https://aws.amazon.com/redshift/">Amazon Redshift</a> now
       supports nine new array functions for working with semi-structured data stored
       in the <a href="https://docs.aws.amazon.com/redshift/latest/dg/super-overview.html">SUPER</a>
       data type. The new functions include ARRAY_CONTAINS, ARRAY_DISTINCT, ARRAY_EXCEPT,
@@ -74,4 +78,4 @@ entries:
       Redshift array functions are available in all AWS Regions, including the AWS
       GovCloud (US) Regions, where Amazon Redshift is available. To learn more, please
       visit our <a href="https://docs.aws.amazon.com/redshift/latest/dg/c_Array_Functions.html">documentation</a>.</p>
-last_updated: '2026-03-06T22:24:42.314481'
+last_updated: "2026-03-06T22:24:42.314481"

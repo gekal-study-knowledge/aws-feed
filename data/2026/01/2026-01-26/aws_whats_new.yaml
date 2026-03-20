@@ -3,8 +3,9 @@ entries:
     id: 4ec55dffd0d3b03ccbdc40611425c4b6
     title: Amazon WorkSpaces Core announces monthly pricing for managed instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-workspaces-core-managed-instances-flexible-billing/
-    published: '2026-01-26'
-    summary: <p>AWS is announcing flexible billing for Amazon WorkSpaces Core managed
+    published: "2026-01-26"
+    summary:
+      <p>AWS is announcing flexible billing for Amazon WorkSpaces Core managed
       instances, adding monthly flat-rate pricing alongside existing hourly billing.
       Customers can now choose the optimal pricing model based on their end user usage
       patterns. Monthly billing is ideal for predictable full-time desktops and hourly
@@ -35,8 +36,9 @@ entries:
     id: efe645b34e29cbe9b2a64dfaabe726a1
     title: AWS Transfer Family now supports Amazon FSx for NetApp ONTAP
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-amazon-fsx-netapp-ontap
-    published: '2026-01-26'
-    summary: <p>AWS Transfer Family customers can now access file system data stored
+    published: "2026-01-26"
+    summary:
+      <p>AWS Transfer Family customers can now access file system data stored
       in Amazon FSx for NetApp ONTAP over SFTP, FTPS, and FTP.&nbsp;<br /> <br />
       AWS Transfer Family provides fully managed file transfers over SFTP, FTP, FTPS,
       AS2, and web browser-based interfaces. With this launch, you can now access
@@ -53,11 +55,13 @@ entries:
       target="_blank">User Guide</a>.</p>
   ae2a58d9950826251ccf1a7e3b616cd0:
     id: ae2a58d9950826251ccf1a7e3b616cd0
-    title: Amazon Lightsail expands blueprint selection with updated support for Node.js,
+    title:
+      Amazon Lightsail expands blueprint selection with updated support for Node.js,
       LAMP, and Ruby on Rails blueprints
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-lightsail-nodejs-lamp-and-ruby-on-rails/
-    published: '2026-01-26'
-    summary: <p>Amazon Lightsail now offers new Node.js, LAMP, and Ruby on Rails blueprints.
+    published: "2026-01-26"
+    summary:
+      <p>Amazon Lightsail now offers new Node.js, LAMP, and Ruby on Rails blueprints.
       These new blueprint have Instance Metadata Service Version 2 (IMDSv2) enforced
       by default, and support IPv6-only instances. With just a few clicks, you can
       create a Lightsail virtual private server (VPS) of your preferred size with
@@ -75,8 +79,9 @@ entries:
     id: be8aed4065ea9005da5d1d28b872460e
     title: Amazon Bedrock now supports 1-hour duration for prompt caching
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-one-hour-duration-prompt-caching/
-    published: '2026-01-26'
-    summary: <p>Amazon Bedrock now supports a 1-hour time-to-live (TTL) option for
+    published: "2026-01-26"
+    summary:
+      <p>Amazon Bedrock now supports a 1-hour time-to-live (TTL) option for
       prompt caching for select Anthropic Claude models. With this update, you can
       extend the persistence of cached prompt prefixes from the default 5 minutes
       to 1 hour, improving cost efficiency and performance for long-running agentic
@@ -98,8 +103,9 @@ entries:
     id: 22f310ab7554cee319d1fa0a585f1b02
     title: Amazon Managed Grafana now available in the AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-managed-grafana-aws-govcloud-us-regions
-    published: '2026-01-26'
-    summary: <p>Amazon Managed Grafana is now available in both AWS GovCloud (US-West)
+    published: "2026-01-26"
+    summary:
+      <p>Amazon Managed Grafana is now available in both AWS GovCloud (US-West)
       and AWS GovCloud (US-East) Regions, enabling government customers and regulated
       industries to securely visualize and analyze their operational data while meeting
       stringent compliance requirements. Amazon Managed Grafana is a fully managed
@@ -114,11 +120,13 @@ entries:
       page</a>.</p>
   cf71178811c1d44451ac49255645bcdd:
     id: cf71178811c1d44451ac49255645bcdd
-    title: Amazon Lightsail expands blueprint selection with updated support for Node.js,
+    title:
+      Amazon Lightsail expands blueprint selection with updated support for Node.js,
       LAMP, and Ruby on Rails blueprints
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lightsail-nodejs-lamp-and-ruby-on-rails/
-    published: '2026-01-26'
-    summary: <p>Amazon Lightsail now offers new Node.js, LAMP, and Ruby on Rails blueprints.
+    published: "2026-01-26"
+    summary:
+      <p>Amazon Lightsail now offers new Node.js, LAMP, and Ruby on Rails blueprints.
       These new blueprint have Instance Metadata Service Version 2 (IMDSv2) enforced
       by default, and support IPv6-only instances. With just a few clicks, you can
       create a Lightsail virtual private server (VPS) of your preferred size with
@@ -132,4 +140,4 @@ entries:
       supported on Lightsail, see <a href="https://lightsail.aws.amazon.com/ls/docs/en_us/articles/compare-options-choose-lightsail-instance-image">Lightsail
       documentation</a>. For more information on pricing, or to get started with your
       free trial, <a href="https://aws.amazon.com/lightsail/pricing/">click here.</a></p>
-last_updated: '2026-01-27T19:24:04.600383'
+last_updated: "2026-01-27T19:24:04.600383"

@@ -3,20 +3,22 @@ entries:
     id: 6cbfdf43ac3ffd1185f9ecba60af8ab5
     title: Fall 2025 PCI DSS compliance package available now
     link: https://aws.amazon.com/blogs/security/fall-2025-pci-dss-compliance-package-available-now/
-    published: '2026-01-13'
-    summary: 'Amazon Web Services (AWS) is pleased to announce that two additional
+    published: "2026-01-13"
+    summary:
+      "Amazon Web Services (AWS) is pleased to announce that two additional
       AWS services and one additional AWS Region have been added to the scope of our
       Payment Card Industry Data Security Standard (PCI DSS) certification: Newly
       added services: AWS Security Incident Response AWS Transform Newly added AWS
-      Region: Asia Pacific (Taipei) This certification allows customers […]'
+      Region: Asia Pacific (Taipei) This certification allows customers […]"
   d189eb29f3ca2250e598ca08b65a7ac9:
     id: d189eb29f3ca2250e598ca08b65a7ac9
     title: Streamline security response at scale with AWS Security Hub automation
     link: https://aws.amazon.com/blogs/security/streamline-security-response-at-scale-with-aws-security-hub-automation/
-    published: '2026-01-13'
-    summary: A new version of AWS Security Hub, is now generally available, introducing
+    published: "2026-01-13"
+    summary:
+      A new version of AWS Security Hub, is now generally available, introducing
       new ways for organizations to manage and respond to security findings. The enhanced
       Security Hub helps you improve your organization’s security posture and simplify
       cloud security operations by centralizing security management across your Amazon
       Web Services (AWS) environment. The new Security Hub transforms […]
-last_updated: '2026-01-13T18:27:41.937407'
+last_updated: "2026-01-13T18:27:41.937407"

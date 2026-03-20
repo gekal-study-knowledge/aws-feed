@@ -3,8 +3,9 @@ entries:
     id: aa35fd2a78adafa11f2011d8c116d305
     title: Announcing new metal sizes for Amazon EC2 M8gn and M8gb instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8gn-m8gb-new-metal-sizes/
-    published: '2026-02-25'
-    summary: "<p>Today, AWS announces the general availability of metal-24xl and metal-48xl\
+    published: "2026-02-25"
+    summary:
+      "<p>Today, AWS announces the general availability of metal-24xl and metal-48xl\
       \ sizes for Amazon Elastic Compute Cloud (Amazon EC2) M8gn and M8gb instances.\
       \ These instances are powered by AWS Graviton4 processors to deliver up to 30%\
       \ better compute performance than AWS Graviton3 processors. M8gn instances feature\
@@ -35,8 +36,9 @@ entries:
     id: 109b9470332e8811e092b876c77f2477
     title: Amazon Aurora DSQL launches Playground for interactive database exploration
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-launches-playground/
-    published: '2026-02-25'
-    summary: <p>Today, AWS announces Amazon Aurora DSQL Playground, a browser-based
+    published: "2026-02-25"
+    summary:
+      <p>Today, AWS announces Amazon Aurora DSQL Playground, a browser-based
       interactive environment that enables developers to explore and experiment with
       Aurora DSQL without requiring an AWS account. Developers can write and execute
       SQL queries, test schema designs, and experience Aurora DSQL's PostgreSQL-compatible
@@ -53,11 +55,13 @@ entries:
       To learn more about Amazon Aurora DSQL, visit the <a href="https://aws.amazon.com/rds/aurora/dsql/">webpage</a>.</p>
   d91244435c2b5582b1b4da625bac4ffe:
     id: d91244435c2b5582b1b4da625bac4ffe
-    title: AWS Security Agent adds support for penetration tests on shared VPCs across
+    title:
+      AWS Security Agent adds support for penetration tests on shared VPCs across
       AWS accounts
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-security-agent-adds-penetration-tests-shared/
-    published: '2026-02-25'
-    summary: <p>AWS Security Agent now enables customers to run penetration tests
+    published: "2026-02-25"
+    summary:
+      <p>AWS Security Agent now enables customers to run penetration tests
       against Virtual Private Cloud (VPC) resources shared from other AWS accounts
       within the same organization. This&nbsp;<a href="https://docs.aws.amazon.com/securityagent/latest/userguide/connect-agent-vpc.html">new
       capabilit</a>y allows security teams to perform comprehensive security assessments
@@ -78,11 +82,13 @@ entries:
       Security Agent documentation</a>.&nbsp;</p>
   e9925f5541f93c2cbe713a6ea0805e4c:
     id: e9925f5541f93c2cbe713a6ea0805e4c
-    title: AWS Outposts racks now support additional Amazon CloudWatch metrics in
+    title:
+      AWS Outposts racks now support additional Amazon CloudWatch metrics in
       AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-outposts-racks-cloudwatch-metrics-govcloud-regions/
-    published: '2026-02-25'
-    summary: <p>AWS Outposts racks now support VifConnectionStatus and VifBgpSessionState
+    published: "2026-02-25"
+    summary:
+      <p>AWS Outposts racks now support VifConnectionStatus and VifBgpSessionState
       Amazon CloudWatch metrics in AWS GovCloud (US) Regions. These metrics provide
       visibility into the connectivity status of your Outposts racks' Local Gateway
       (LGW) and Service Link Virtual Interfaces (VIFs) with your on-premises devices.<br
@@ -107,8 +113,9 @@ entries:
     id: aa09393a92891291272b1cb901ee9a12
     title: Aurora DSQL launches new support for Tortoise, Flyway, and Prisma
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aurora-dsql-launches-tortoise-flyway-prisma/
-    published: '2026-02-25'
-    summary: '<p>Today we are announcing the release of Aurora DSQL integrations for
+    published: "2026-02-25"
+    summary:
+      '<p>Today we are announcing the release of Aurora DSQL integrations for
       popular ORM and database migration tools: an adapter for Tortoise (Python ORM),
       a dialect for Flyway (schema management tool), and CLI tools for Prisma (Node.js
       ORM). These integrations help developers use their preferred frameworks with
@@ -130,11 +137,13 @@ entries:
       Free Tier</a>. To learn more about Aurora DSQL, visit the <a href="https://aws.amazon.com/rds/aurora/dsql/">webpage</a>.</p>'
   7cdeda29d8ff880a7917359fadbd0f9c:
     id: 7cdeda29d8ff880a7917359fadbd0f9c
-    title: Aurora DSQL launches new integrations for Visual Studio Code SQLTools and
+    title:
+      Aurora DSQL launches new integrations for Visual Studio Code SQLTools and
       DBeaver
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aurora-dsql-visual-studio-code-sqltools-dbeaver/
-    published: '2026-02-25'
-    summary: <p>Today we are announcing the release of the Aurora DSQL Driver for
+    published: "2026-02-25"
+    summary:
+      <p>Today we are announcing the release of the Aurora DSQL Driver for
       SQLTools and the Aurora DSQL Plugin for DBeaver Community Edition. These integrations
       allow customers to leverage popular database tools to run queries against Aurora
       DSQL clusters, explore database schemas, and manage their data. Both integrations
@@ -154,8 +163,9 @@ entries:
     id: abdbbdef5acfee1bfa17c02e52528098
     title: Amazon EC2 R8a instances now available in the Europe (Ireland) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8a-instances-europe-ireland-regions/
-    published: '2026-02-25'
-    summary: <p>Starting today, Amazon EC2 R8a instances are now available in Europe
+    published: "2026-02-25"
+    summary:
+      <p>Starting today, Amazon EC2 R8a instances are now available in Europe
       (Ireland) region. These instances, feature 5th Gen AMD EPYC processors (formerly
       code named Turin) with a maximum frequency of 4.5 GHz, deliver up to 30% higher
       performance, and up to 19% better price-performance compared to R7a instances.<br
@@ -176,11 +186,13 @@ entries:
       target="_blank">R8a instance page</a>.</p>
   08b2a36326b45e31a76aa448b73d117f:
     id: 08b2a36326b45e31a76aa448b73d117f
-    title: Amazon EC2 M8i and M8i-flex instances are now available in Africa (Cape
+    title:
+      Amazon EC2 M8i and M8i-flex instances are now available in Africa (Cape
       Town) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8i-m8i-flex-instances-africa-cape-town-regions/
-    published: '2026-02-25'
-    summary: <p>Starting today, Amazon EC2 M8i and M8i-flex instances are now available
+    published: "2026-02-25"
+    summary:
+      <p>Starting today, Amazon EC2 M8i and M8i-flex instances are now available
       in Africa (Cape Town) region. These instances are powered by custom Intel Xeon
       6 processors, available only on AWS, delivering the highest performance and
       fastest memory bandwidth among comparable Intel processors in the cloud. The
@@ -206,11 +218,13 @@ entries:
       News</a> blog.</p>
   c4b2fbba7d652fc5f666a5eaf959241b:
     id: c4b2fbba7d652fc5f666a5eaf959241b
-    title: Amazon Location Service introduces LLM Context as a Kiro power and Claude
+    title:
+      Amazon Location Service introduces LLM Context as a Kiro power and Claude
       Code plugin to improve AI performance
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-location-service-introduces-kiro-power-claude-skill-llm-context/
-    published: '2026-02-25'
-    summary: "<p>Today, Amazon Location launched curated AI Agent context as a <a\
+    published: "2026-02-25"
+    summary:
+      "<p>Today, Amazon Location launched curated AI Agent context as a <a\
       \ href=\"https://kiro.dev/powers/\">Kiro </a><a href=\"https://kiro.dev/powers/\"\
       >power</a>, <a href=\"https://code.claude.com/docs/en/plugins\">Claude Code\
       \ plugin</a>, and agent skill in the open <a href=\"https://agentskills.io/home\"\
@@ -240,8 +254,9 @@ entries:
     id: e529a33f701cd275fe197a9dbed819bd
     title: Amazon WorkSpaces Applications extends support for 4K resolution
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-applications-4K-resolution/
-    published: '2026-02-25'
-    summary: "<p>Amazon WorkSpaces Applications now supports up to 4K (4096 x 2160)\
+    published: "2026-02-25"
+    summary:
+      "<p>Amazon WorkSpaces Applications now supports up to 4K (4096 x 2160)\
       \ resolution on non-accelerated instance types and across all client connection\
       \ modes. Previously, higher resolution monitors were limited to graphics-accelerated\
       \ instances in WorkSpaces Applications classic mode. This update allows you\
@@ -271,8 +286,9 @@ entries:
     id: 2762ae8d752c766f980442d762294115
     title: AWS Backup extends support for Amazon Neptune to five additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-extends-amazon-neptune-five-additional-regions/
-    published: '2026-02-25'
-    summary: "<p>AWS Backup now supports Amazon Neptune in five additional AWS Regions:\
+    published: "2026-02-25"
+    summary:
+      "<p>AWS Backup now supports Amazon Neptune in five additional AWS Regions:\
       \ Europe (Zurich), Asia Pacific (Melbourne), Canada West (Calgary), Asia Pacific\
       \ (Malaysia), and Europe (Spain).</p> \n<p>This expansion brings policy-based\
       \ data protection and recovery to your Amazon Neptune clusters in these newly\
@@ -292,8 +308,9 @@ entries:
     id: ecb16dc8a48755f4a931df1271694524
     title: AWS launches a playground for interactive Aurora DSQL database exploration
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-launches-playground/
-    published: '2026-02-25'
-    summary: <p>Today, AWS announces a browser-based playground that enables developers
+    published: "2026-02-25"
+    summary:
+      <p>Today, AWS announces a browser-based playground that enables developers
       to interact with an Amazon Aurora DSQL database without requiring an AWS account.
       With zero setup or infrastructure configuration, developers can create schemas,
       load data, and execute SQL queries directly form their browser.<br /> <br />
@@ -303,4 +320,4 @@ entries:
       minutes.<br /> <br /> To start exploring, visit the <a href="https://playground.dsql.demo.aws/">playground</a>
       for Aurora DSQL. To get started with your production workloads and learn more
       visit <a href="https://aws.amazon.com/rds/aurora/dsql/">Amazon Aurora DSQL</a>.</p>
-last_updated: '2026-02-27T01:48:32.552950'
+last_updated: "2026-02-27T01:48:32.552950"

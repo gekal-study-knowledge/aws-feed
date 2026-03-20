@@ -1,11 +1,13 @@
 entries:
   215c8495d763d0e1bb0fc4e0c94d557f:
     id: 215c8495d763d0e1bb0fc4e0c94d557f
-    title: 'Implementing data governance on AWS: Automation, tagging, and lifecycle
-      strategy – Part 2'
+    title:
+      "Implementing data governance on AWS: Automation, tagging, and lifecycle
+      strategy – Part 2"
     link: https://aws.amazon.com/blogs/security/implementing-data-governance-on-aws-automation-tagging-and-lifecycle-strategy-part-2/
-    published: '2026-01-16'
-    summary: In Part 1, we explored the foundational strategy, including data classification
+    published: "2026-01-16"
+    summary:
+      In Part 1, we explored the foundational strategy, including data classification
       frameworks and tagging approaches. In this post, we examine the technical implementation
       approach and key architectural patterns for building a governance framework.
       We explore governance controls across four implementation areas, building from
@@ -13,13 +15,15 @@ entries:
       one, […]
   d09f487b173f11438295c1192090e4da:
     id: d09f487b173f11438295c1192090e4da
-    title: 'Implementing data governance on AWS: Automation, tagging, and lifecycle
-      strategy – Part 1'
+    title:
+      "Implementing data governance on AWS: Automation, tagging, and lifecycle
+      strategy – Part 1"
     link: https://aws.amazon.com/blogs/security/implementing-data-governance-on-aws-automation-tagging-and-lifecycle-strategy-part-1/
-    published: '2026-01-16'
-    summary: 'Generative AI and machine learning workloads create massive amounts
+    published: "2026-01-16"
+    summary:
+      "Generative AI and machine learning workloads create massive amounts
       of data. Organizations need data governance to manage this growth and stay compliant.
       While data governance isn’t a new concept, recent studies highlight a concerning
       gap: a Gartner study of 300 IT executives revealed that only 60% of organizations
-      have implemented a data governance strategy, with […]'
-last_updated: '2026-01-16T21:18:04.331573'
+      have implemented a data governance strategy, with […]"
+last_updated: "2026-01-16T21:18:04.331573"

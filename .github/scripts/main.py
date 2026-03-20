@@ -57,7 +57,7 @@ def save_daily_data(entry_date: date, source_id: str, data: Dict[str, Any], data
     date_dir.mkdir(parents=True, exist_ok=True)
     data_file = date_dir / f"{source_id}.yaml"
     with open(data_file, 'w', encoding='utf-8') as f:
-        yaml.dump(data, f, allow_unicode=True, sort_keys=False)
+        yaml.dump(data, f, allow_unicode=True, sort_keys=False, width=float('inf'), default_style='"')
 
 
 def load_all_existing_ids(source_id: str, data_dir: str) -> set:
@@ -230,7 +230,7 @@ def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, A
 
         for source_name, source_entries in entries_by_source.items():
             f.write(f"## {source_name}\n\n")
-            for entry in source_entries:
+            for i, entry in enumerate(source_entries):
                 f.write(f"### {entry['title']}\n\n")
                 f.write(f"- **Link**: [{entry['link']}]({entry['link']})\n")
                 
@@ -242,7 +242,6 @@ def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, A
                 f.write(f"- **Published**: {published}\n\n")
                 if entry.get('summary'):
                     f.write(f"{entry['summary']}\n\n")
-                f.write("---\n\n")
 
     print(f"Generated: {output_file}")
 

@@ -1,11 +1,13 @@
 entries:
   8b7e51747a50af9d4a8efc20ac108f11:
     id: 8b7e51747a50af9d4a8efc20ac108f11
-    title: Amazon Quick Sight expands dashboard customization in tables and pivot
+    title:
+      Amazon Quick Sight expands dashboard customization in tables and pivot
       tables
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-quicksight-expands-dashboard-customization-tables-pivot-tables
-    published: '2026-01-20'
-    summary: <p>Building on our recent launch of <a href="https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-quick-sight-dashboard-tables-pivot-tables/"
+    published: "2026-01-20"
+    summary:
+      <p>Building on our recent launch of <a href="https://aws.amazon.com/about-aws/whats-new/2025/11/amazon-quick-sight-dashboard-tables-pivot-tables/"
       target="_blank">customizable tables and pivot tables</a>, <a href="https://aws.amazon.com/quicksuite/quicksight/"
       target="_blank">Amazon Quick Sight </a>now enables readers to add or remove
       fields, change aggregations, and modify formatting directly in dashboards—all
@@ -23,8 +25,9 @@ entries:
     id: 48db11769f79b058d4ffb4314b797ff8
     title: AWS Glue is now available in Asia Pacific (New Zealand) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-glue-available-new-zealand-region
-    published: '2026-01-20'
-    summary: <p>AWS Glue is now available in the Asia Pacific (New Zealand) Region,
+    published: "2026-01-20"
+    summary:
+      <p>AWS Glue is now available in the Asia Pacific (New Zealand) Region,
       enabling customers to build and run their ETL workloads closer to their data
       sources in this region.<br /> <br /> AWS Glue is a serverless data integration
       service that makes it simple to discover, prepare, and combine data for analytics,
@@ -37,11 +40,13 @@ entries:
       Region table</a>.</p>
   674635679d1c0bc9d89bb083a829ed4a:
     id: 674635679d1c0bc9d89bb083a829ed4a
-    title: AWS expands managed integrations for AWS IoT Device Management service
+    title:
+      AWS expands managed integrations for AWS IoT Device Management service
       coverage to the Middle East (UAE) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/managed-integrations-iot-device-coverage-uae/
-    published: '2026-01-20'
-    summary: <p>AWS IoT Device Management now offers the managed integrations feature
+    published: "2026-01-20"
+    summary:
+      <p>AWS IoT Device Management now offers the managed integrations feature
       in the Middle East (UAE) region. Organizations operating in this region can
       now better serve their local customers, helping them build unified Internet
       of Things (IoT) solutions that can easily onboard and manage diverse IoT devices
@@ -59,11 +64,13 @@ entries:
       IoT console</a>.</p>
   41f9ed0b1fc437f009f3b33511c6546a:
     id: 41f9ed0b1fc437f009f3b33511c6546a
-    title: Amazon Quick Suite launches expanded size, faster ingestion, and richer
+    title:
+      Amazon Quick Suite launches expanded size, faster ingestion, and richer
       data type support for SPICE datasets
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-quick-suite-launches-expanded-spice
-    published: '2026-01-20'
-    summary: <p><a href="https://aws.amazon.com/quicksight/" target="_blank">Amazon
+    published: "2026-01-20"
+    summary:
+      <p><a href="https://aws.amazon.com/quicksight/" target="_blank">Amazon
       Quick Suite</a> SPICE engine is now supporting higher scale, faster ingestion,
       and broader data types to power advanced analytics and AI-driven workloads.
       With this launch, customers can load up to 2TB of data per dataset, doubling
@@ -83,11 +90,13 @@ entries:
       target="_blank">supported Amazon Quick Sight regions</a>.&nbsp;</p>
   6a1053487d0d3d35d1706ea216346207:
     id: 6a1053487d0d3d35d1706ea216346207
-    title: Amazon RDS for Oracle extends support for bare metal instances to Standard
+    title:
+      Amazon RDS for Oracle extends support for bare metal instances to Standard
       Edition 2
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-oracle-support-bare-metal-instances-standard-edition-2
-    published: '2026-01-20'
-    summary: <p>Amazon RDS for Oracle now supports bare metal instances with Bring
+    published: "2026-01-20"
+    summary:
+      <p>Amazon RDS for Oracle now supports bare metal instances with Bring
       Your Own License (BYOL) license for Oracle Standard Edition 2. You can use M7i,
       R7i, X2iedn, X2idn, X2iezn, M6i, M6id, M6in, R6i, R6id, and R6in bare metal
       instances at 25% lower price compared to equivalent virtualized instances.<br
@@ -106,8 +115,9 @@ entries:
     id: 232fd145c33d799277486dae4202b7c9
     title: Amazon EC2 G7e instances are now generally available
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-g7e-instances-generally-available
-    published: '2026-01-20'
-    summary: "<p>Today, Amazon announces the general availability of Amazon Elastic\
+    published: "2026-01-20"
+    summary:
+      "<p>Today, Amazon announces the general availability of Amazon Elastic\
       \ Compute Cloud (Amazon EC2) G7e instances, accelerated by NVIDIA RTX PRO 6000\
       \ Blackwell Server Edition GPUs.&nbsp;G7e instances offer up to 2.3x inference\
       \ performance compared to G6e.</p> \n<p>Customers can use G7e instances to deploy\
@@ -133,8 +143,9 @@ entries:
     id: 421bcbef716991a39d4f37f4980deb5c
     title: Amazon RDS Blue/Green Deployments reduces downtime to under five seconds
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-blue-green-deployments-reduces-downtime
-    published: '2026-01-20'
-    summary: <p><a href="https://aws.amazon.com/rds/" target="_blank">Amazon Relational
+    published: "2026-01-20"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/" target="_blank">Amazon Relational
       Database Service (Amazon RDS)</a> now supports faster Blue/Green Deployments
       switchover, reducing your primary database, or writer node, upgrade downtime
       to typically five seconds or lower for single-Region configurations. Blue/Green
@@ -160,8 +171,9 @@ entries:
     id: 1f7753468dd4499c9a42a7a681d50464
     title: Amazon EVS now supports VCF and VMware ESX software version selection
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-evs-vcf-vmware-esx-software-version
-    published: '2026-01-20'
-    summary: "<p>Amazon Elastic VMware Service (Amazon EVS) now supports the ability\
+    published: "2026-01-20"
+    summary:
+      "<p>Amazon Elastic VMware Service (Amazon EVS) now supports the ability\
       \ to specify supported combinations of VMware Cloud Foundation (VCF)&nbsp;and\
       \ ESX software versions when setting up your EVS environments and hosts.</p>\
       \ \n<p>Amazon EVS lets you run VCF natively within your Amazon Virtual Private\
@@ -182,11 +194,13 @@ entries:
       >user guide</a>.</p>"
   6cf845fe7aab2deb50f78a0e97e7ee5c:
     id: 6cf845fe7aab2deb50f78a0e97e7ee5c
-    title: SageMaker Unified Studio adds support for cross-Region and IAM role-based
+    title:
+      SageMaker Unified Studio adds support for cross-Region and IAM role-based
       subscriptions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/sagemaker-unified-studio-adds-cross-region-iam/
-    published: '2026-01-20'
-    summary: <p>Amazon SageMaker Unified Studio now supports cross-Region subscriptions
+    published: "2026-01-20"
+    summary:
+      <p>Amazon SageMaker Unified Studio now supports cross-Region subscriptions
       and IAM role-based subscriptions for simple and flexible data access and governance.
       With cross-Region support, you can subscribe to AWS Glue tables and views, as
       well as Amazon Redshift tables and views published in a different AWS Region
@@ -208,8 +222,9 @@ entries:
     id: 8e0a6748b750023757a7f0d01d85099b
     title: Amazon Corretto January 2026 Quarterly Updates
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-corretto-january-2026-quarterly-updates
-    published: '2026-01-20'
-    summary: <p>On January 20, 2026 Amazon announced quarterly security and critical
+    published: "2026-01-20"
+    summary:
+      <p>On January 20, 2026 Amazon announced quarterly security and critical
       updates for Amazon Corretto Long-Term Supported (LTS) versions of OpenJDK. Corretto
       25.0.2, 21.0.10, 17.0.18, 11.0.30, and 8u482 are now available for <a href="https://aws.amazon.com/corretto/"
       target="_blank">download</a>. Amazon Corretto is a no-cost, multi-platform,
@@ -221,11 +236,13 @@ entries:
       <a href="https://github.com/corretto" target="_blank">welcomed</a>!</p>
   14d0ff76780f8ed9a57bca832cc06127:
     id: 14d0ff76780f8ed9a57bca832cc06127
-    title: Amazon Aurora and RDS for PostgreSQL, MySQL and MariaDB now support r8g,
+    title:
+      Amazon Aurora and RDS for PostgreSQL, MySQL and MariaDB now support r8g,
       r7g, and r7i database instances in additional AWS Regions
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-aurora-rds-r8g-r7g-r7i-instances-additional-regions/
-    published: '2026-01-20'
-    summary: <p>AWS Graviton4-based R8g database instances are now generally available
+    published: "2026-01-20"
+    summary:
+      <p>AWS Graviton4-based R8g database instances are now generally available
       for Amazon Aurora (MySQL and PostgreSQL compatibility) and Amazon RDS for PostgreSQL,
       MySQL, and MariaDB in additional Asia Pacific regions (Hong Kong, Osaka, and
       Jakarta). R8G instances are now supported for Amazon Aurora with MySQL compatibility
@@ -254,11 +271,13 @@ entries:
       target="_blank">pricing page</a>.</p>
   d9519cbfe15d9dd76b1f09af52413fee:
     id: d9519cbfe15d9dd76b1f09af52413fee
-    title: Amazon ECR now supports cross-repository layer sharing to optimize storage
+    title:
+      Amazon ECR now supports cross-repository layer sharing to optimize storage
       and improve push performance
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecr-cross-repository-layer-sharing/
-    published: '2026-01-20'
-    summary: <p>Amazon Elastic Container Registry (ECR) now enables you to share common
+    published: "2026-01-20"
+    summary:
+      <p>Amazon Elastic Container Registry (ECR) now enables you to share common
       image layers across repositories within a registry through a capability called
       blob mounting. This feature is especially valuable if you manage multiple microservices
       or applications built from common base images. With blob mounting, you can achieve
@@ -271,11 +290,13 @@ entries:
       learn more about blob mounting, please visit our&nbsp;<a href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/registry-settings.html">documentation</a>.</p>
   bfa82fe3dbeb48665170f6eed28e39c7:
     id: bfa82fe3dbeb48665170f6eed28e39c7
-    title: Amazon CloudWatch Database Insights on-demand analysis now available in
+    title:
+      Amazon CloudWatch Database Insights on-demand analysis now available in
       four additional Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudwatch-database-insights-on-demand-analysis-available-additional-regions
-    published: '2026-01-20'
-    summary: <p>Amazon CloudWatch Database Insights expands the availability of its
+    published: "2026-01-20"
+    summary:
+      <p>Amazon CloudWatch Database Insights expands the availability of its
       on-demand analysis experience to four additional Regions - Asia Pacific (New
       Zealand), Asia Pacific (Taipei), Asia Pacific (Thailand), and Mexico (Central).
       CloudWatch Database Insights is a monitoring and diagnostics solution that helps
@@ -301,11 +322,13 @@ entries:
       target="_blank">RDS documentation</a>&nbsp;to get started.&nbsp;</p>
   7b8ea6f09d87fe203e7379e9fa38ed92:
     id: 7b8ea6f09d87fe203e7379e9fa38ed92
-    title: SageMaker Unified Studio adds cross-Region subscriptions support for IDC
+    title:
+      SageMaker Unified Studio adds cross-Region subscriptions support for IDC
       based domains
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/sagemaker-unified-studio-adds-cross-region-iam/
-    published: '2026-01-20'
-    summary: <p>Amazon SageMaker Unified Studio now supports cross-Region subscriptions
+    published: "2026-01-20"
+    summary:
+      <p>Amazon SageMaker Unified Studio now supports cross-Region subscriptions
       for comprehensive and flexible data access and governance. With cross-Region
       support, you can subscribe to AWS Glue tables and views, as well as Amazon Redshift
       tables and views published in a different AWS Region than your project. This
@@ -318,4 +341,4 @@ entries:
       Regions where SageMaker Unified Studio</a> is supported. To learn more, see
       the SageMaker Unified Studio <a href="https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/grant-access-to-unmanaged-asset.html">user
       guide</a>.</p>
-last_updated: '2026-01-22T17:25:42.344222'
+last_updated: "2026-01-22T17:25:42.344222"

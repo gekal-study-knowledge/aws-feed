@@ -3,8 +3,9 @@ entries:
     id: b543bf413d82f696fbc51899eec9ca86
     title: AWS Secrets Manager launches Managed External Secrets for Third-Party Credentials
     link: https://aws.amazon.com/blogs/security/aws-secrets-manager-launches-managed-external-secrets-for-third-party-credentials/
-    published: '2025-11-25'
-    summary: Although AWS Secrets Manager excels at managing the lifecycle of Amazon
+    published: "2025-11-25"
+    summary:
+      Although AWS Secrets Manager excels at managing the lifecycle of Amazon
       Web Services (AWS) secrets, managing credentials from third-party software providers
       presents unique challenges for organizations as they scale usage of their cloud
       applications. Organizations using multiple third-party services frequently develop
@@ -14,10 +15,11 @@ entries:
     id: 3cb979b82d226488537584e0880bae32
     title: Introducing guidelines for network scanning
     link: https://aws.amazon.com/blogs/security/introducing-guidelines-for-network-scanning/
-    published: '2025-11-25'
-    summary: Amazon Web Services (AWS) is introducing guidelines for network scanning
+    published: "2025-11-25"
+    summary:
+      Amazon Web Services (AWS) is introducing guidelines for network scanning
       of customer workloads. By following these guidelines, conforming scanners will
       collect more accurate data, minimize abuse reports, and help improve the security
       of the internet for everyone. Network scanning is a practice in modern IT environments
       that can be used for either legitimate security needs […]
-last_updated: '2026-01-12T11:22:41.448724'
+last_updated: "2026-01-12T11:22:41.448724"

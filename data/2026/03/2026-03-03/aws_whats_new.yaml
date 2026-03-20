@@ -3,8 +3,9 @@ entries:
     id: 0663fbef0f362b0c7b5f2930262c9652
     title: Policy in Amazon Bedrock AgentCore is now generally available
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/policy-amazon-bedrock-agentcore-generally-available/
-    published: '2026-03-03'
-    summary: "<p>Policy in Amazon Bedrock&nbsp;AgentCore&nbsp;is now generally available,\
+    published: "2026-03-03"
+    summary:
+      "<p>Policy in Amazon Bedrock&nbsp;AgentCore&nbsp;is now generally available,\
       \ providing organizations with centralized, fine-grained controls for agent-tool\
       \ interactions.&nbsp;Policy&nbsp;operates&nbsp;outside your&nbsp;agent&nbsp;code,\
       \ enabling security,&nbsp;compliance, and operations teams to define&nbsp;tool&nbsp;access\
@@ -26,11 +27,13 @@ entries:
       >AgentCore Starter Toolkit</a>.</p>"
   8916b5b1fdae1102f0bca9dc8f13a006:
     id: 8916b5b1fdae1102f0bca9dc8f13a006
-    title: Amazon SageMaker Unified Studio launches support for remote connection
+    title:
+      Amazon SageMaker Unified Studio launches support for remote connection
       from Kiro IDE
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-kiro-ide/
-    published: '2026-03-03'
-    summary: "<p>Today, AWS announces the ability to remotely connect from Kiro IDE\
+    published: "2026-03-03"
+    summary:
+      "<p>Today, AWS announces the ability to remotely connect from Kiro IDE\
       \ to Amazon SageMaker Unified Studio. This new capability allows data scientists,\
       \ ML engineers, and developers to leverage their Kiro setup - including its\
       \ spec-driven development, conversational coding, and automated feature generation\
@@ -59,8 +62,9 @@ entries:
     id: b82a224231fa69c2232a66970d84b737
     title: Amazon SageMaker Unified Studio adds metadata sync with third-party catalogs
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-3p-catalogs/
-    published: '2026-03-03'
-    summary: "<p><a href=\"https://aws.amazon.com/sagemaker/unified-studio/\">Amazon\
+    published: "2026-03-03"
+    summary:
+      "<p><a href=\"https://aws.amazon.com/sagemaker/unified-studio/\">Amazon\
       \ SageMaker Unified Studio</a> now supports metadata and context sync across\
       \ Atlan, Collibra, and Alation. These integrations synchronize catalog metadata\
       \ between <a href=\"https://aws.amazon.com/sagemaker/catalog/\">Amazon SageMaker\
@@ -85,11 +89,13 @@ entries:
       >Alation blog post</a>.</p>"
   ceb41801aa6b55a529d1e2b2e352fce7:
     id: ceb41801aa6b55a529d1e2b2e352fce7
-    title: Amazon SageMaker Unified Studio now supports AWS Glue 5.1 for data processing
+    title:
+      Amazon SageMaker Unified Studio now supports AWS Glue 5.1 for data processing
       jobs
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-aws-glue-5-1/
-    published: '2026-03-03'
-    summary: "<p><a href=\"https://aws.amazon.com/sagemaker/unified-studio/\">Amazon\
+    published: "2026-03-03"
+    summary:
+      "<p><a href=\"https://aws.amazon.com/sagemaker/unified-studio/\">Amazon\
       \ SageMaker Unified Studio </a>now supports <a href=\"https://aws.amazon.com/about-aws/whats-new/2025/11/aws-glue-5-1/\"\
       >AWS Glue 5.1 </a>for Visual ETL, notebook, and code-based data processing jobs.\
       \ With AWS Glue 5.1 in Amazon SageMaker Unified Studio, data engineers and data\
@@ -111,4 +117,4 @@ entries:
       \ updated open table format support and access control capabilities, see the\
       \ AWS Glue <a href=\"https://docs.aws.amazon.com/glue/latest/dg/release-notes.html\"\
       >documentation</a>.</p>"
-last_updated: '2026-03-04T01:47:52.097840'
+last_updated: "2026-03-04T01:47:52.097840"

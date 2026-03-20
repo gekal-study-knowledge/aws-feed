@@ -1,13 +1,15 @@
 entries:
   6d5c2758e1000bd6d7fa0e235e223ecd:
     id: 6d5c2758e1000bd6d7fa0e235e223ecd
-    title: Introducing OpenClaw on Amazon Lightsail to run your autonomous private
+    title:
+      Introducing OpenClaw on Amazon Lightsail to run your autonomous private
       AI agents
     link: https://aws.amazon.com/blogs/aws/introducing-openclaw-on-amazon-lightsail-to-run-your-autonomous-private-ai-agents/
-    published: '2026-03-04'
-    summary: AWS launches OpenClaw on Amazon Lightsail to run OpenClaw instance, pairing
+    published: "2026-03-04"
+    summary:
+      AWS launches OpenClaw on Amazon Lightsail to run OpenClaw instance, pairing
       your browser, enabling AI capabilities, and optionally connecting messaging
       channels. Your Lightsail OpenClaw instance is pre-configured with Amazon Bedrock
       for starting with your AI assistant immediately — no additional configuration
       required.
-last_updated: '2026-03-04T20:28:52.471881'
+last_updated: "2026-03-04T20:28:52.471881"

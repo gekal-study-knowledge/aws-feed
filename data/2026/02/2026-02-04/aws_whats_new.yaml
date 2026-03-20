@@ -3,8 +3,9 @@ entries:
     id: 73712117847d9f188a7912d5836b88f1
     title: AWS Batch now supports unmanaged compute environments for Amazon EKS
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-on-eks-unmanaged-compute-environments
-    published: '2026-02-04'
-    summary: <p>AWS Batch now extends its job scheduling capabilities to unmanaged
+    published: "2026-02-04"
+    summary:
+      <p>AWS Batch now extends its job scheduling capabilities to unmanaged
       compute environments on Amazon EKS. With unmanaged EKS compute environments,
       you can leverage AWS Batch's job orchestration while maintaining full control
       over your Kubernetes infrastructure for security, compliance, or operational
@@ -22,8 +23,9 @@ entries:
     id: 545b264f8d33788593d54fcf4e477756
     title: Structured outputs now available in Amazon Bedrock
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/structured-outputs-available-amazon-bedrock/
-    published: '2026-02-04'
-    summary: '<p>Amazon Bedrock now supports structured outputs, a capability that
+    published: "2026-02-04"
+    summary:
+      '<p>Amazon Bedrock now supports structured outputs, a capability that
       provides consistent, machine-readable responses from foundation models that
       adhere to your defined JSON schemas. Instead of prompting for valid JSON and
       adding extra checks in your application, you can specify the format you want
@@ -47,8 +49,9 @@ entries:
     id: 9c370e354c680256e3d4c086920234f8
     title: Amazon EC2 G7e instances now available in US West (Oregon) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g7e-instances-oregon-region/
-    published: '2026-02-04'
-    summary: "<p>Starting today, Amazon EC2 G7e instances accelerated by NVIDIA RTX\
+    published: "2026-02-04"
+    summary:
+      "<p>Starting today, Amazon EC2 G7e instances accelerated by NVIDIA RTX\
       \ PRO 6000 Blackwell Server Edition GPUs are now available in US West (Oregon)\
       \ region. G7e instances offer up to 2.3x inference performance compared to G6e.</p>\
       \ \n<p>Customers can use G7e instances to deploy large language models (LLMs),\
@@ -71,11 +74,13 @@ entries:
       >G7e instances</a>.</p>"
   76e4863665efdb217dc08eb1501320b7:
     id: 76e4863665efdb217dc08eb1501320b7
-    title: Cartesia Sonic 3 text-to-speech model is now available on Amazon SageMaker
+    title:
+      Cartesia Sonic 3 text-to-speech model is now available on Amazon SageMaker
       JumpStart
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/cartesia-sonic-3-on-sagemaker-jumpstart
-    published: '2026-02-04'
-    summary: "<p>Cartesia’s Sonic 3 model is now available in Amazon SageMaker JumpStart,\
+    published: "2026-02-04"
+    summary:
+      "<p>Cartesia’s Sonic 3 model is now available in Amazon SageMaker JumpStart,\
       \ expanding the portfolio of foundation models available to AWS customers. Sonic\
       \ 3 is Cartesia's latest state space model (SSM) for streaming text-to-speech\
       \ (TTS), delivering high naturalness, accurate transcript following, and industry-leading\
@@ -96,8 +101,9 @@ entries:
     id: 321bbeabf1d4e01bf1ad5e2ba3529dc6
     title: Amazon ECS adds Network Load Balancer support for Linear and Canary deployments
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecs-nlb-linear-canary-deployments
-    published: '2026-02-04'
-    summary: "<p><a href=\"https://aws.amazon.com/ecs/\" target=\"_blank\">Amazon\
+    published: "2026-02-04"
+    summary:
+      "<p><a href=\"https://aws.amazon.com/ecs/\" target=\"_blank\">Amazon\
       \ Elastic Container Service</a> (Amazon ECS) announces native support for linear\
       \ and canary deployment strategies for ECS services using Network Load Balancers\
       \ (NLB). Now, applications that commonly use NLB, such as those requiring TCP/UDP-based\
@@ -123,11 +129,13 @@ entries:
       \ target=\"_blank\">Amazon ECS canary deployments</a>.</p>"
   5e60b1c60abf0614248896e2547d1951:
     id: 5e60b1c60abf0614248896e2547d1951
-    title: Apache Spark lineage now available in Amazon SageMaker Unified Studio for
+    title:
+      Apache Spark lineage now available in Amazon SageMaker Unified Studio for
       IDC based domains
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/apache-spark-lineage-amazon-sageMaker-unified-studio
-    published: '2026-02-04'
-    summary: <p>Amazon SageMaker announces general availability of Data Lineage for
+    published: "2026-02-04"
+    summary:
+      <p>Amazon SageMaker announces general availability of Data Lineage for
       Apache Spark jobs executed on Amazon EMR and AWS Glue in SageMaker Unified Studio
       for IDC based domains. Data Lineage provides you with the information you need
       to identify the root cause of complex issues and understand the impact of changes.<br
@@ -143,8 +151,9 @@ entries:
     id: 5be947eee6d13da69e0db1664db2bb99
     title: Introducing Amazon EC2 C8id, M8id, and R8id instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8id-m8id-r8id-instances/
-    published: '2026-02-04'
-    summary: <p>AWS is announcing the general availability of new Amazon EC2 C8id,
+    published: "2026-02-04"
+    summary:
+      <p>AWS is announcing the general availability of new Amazon EC2 C8id,
       M8id, and R8id instances powered by custom Intel Xeon 6 processors. These instances
       deliver up to 43% higher performance and 3.3x more memory bandwidth compared
       to previous generation C6id, M6id, and R6id instances.<br /> <br /> C8id, M8id,
@@ -171,8 +180,9 @@ entries:
     id: 4dcc774d9e9d6c1252e8ae48bdac34ae
     title: Amazon EC2 and VPC now display related resources for security groups
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-console-related-resources-generally-available
-    published: '2026-02-04'
-    summary: <p>Amazon Web Services (AWS) is announcing the general availability of
+    published: "2026-02-04"
+    summary:
+      <p>Amazon Web Services (AWS) is announcing the general availability of
       the "Related resources" tab for security groups in the Amazon EC2 and VPC consoles.
       This new feature provides customers with a consolidated view of all resources
       that depend on a specific security group, eliminating the need to manually check
@@ -196,11 +206,13 @@ entries:
       EC2 User Guide</a>.</p>
   90d2172ea3d5c6ffca46598ce8023a8b:
     id: 90d2172ea3d5c6ffca46598ce8023a8b
-    title: Amazon EKS simplifies providing IAM permissions to EKS add-ons in AWS GovCloud
+    title:
+      Amazon EKS simplifies providing IAM permissions to EKS add-ons in AWS GovCloud
       (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-simplifies-iam-permissions-eks-addons
-    published: '2026-02-04'
-    summary: <p>Amazon Elastic Kubernetes Service (EKS) now offers a direct integration
+    published: "2026-02-04"
+    summary:
+      <p>Amazon Elastic Kubernetes Service (EKS) now offers a direct integration
       between EKS add-ons and EKS Pod Identity in AWS GovCloud (US) Regions, streamlining
       the lifecycle management process for critical cluster operational software that
       needs to interact with AWS services outside the cluster.<br /> <br /> EKS add-ons
@@ -219,8 +231,9 @@ entries:
     id: 72f6d92164cbf3a39348f33056db7388
     title: Amazon Redshift now supports autonomics for multi-cluster environments
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-autonomics-for-multi-cluster
-    published: '2026-02-04'
-    summary: <p>Amazon Redshift now supports autonomics—automatic optimization features—for
+    published: "2026-02-04"
+    summary:
+      <p>Amazon Redshift now supports autonomics—automatic optimization features—for
       multi-cluster environments. Database administrators managing distributed Amazon
       Redshift workloads can now benefit from autonomics that work intelligently across
       multiple warehouses, eliminating manual performance tuning across consumer clusters.<br
@@ -238,4 +251,4 @@ entries:
       Regions</a> that support <a href="https://aws.amazon.com/redshift/">Amazon Redshift</a>.
       To learn more, see the <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html">Amazon
       Redshift Management Guide</a>.</p>
-last_updated: '2026-02-04T23:24:03.738921'
+last_updated: "2026-02-04T23:24:03.738921"

@@ -3,8 +3,9 @@ entries:
     id: 530914921ac4c5e70290e4dad721d8b7
     title: Amazon EC2 now supports Availability Zone ID across its APIs
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-az-id-api-support
-    published: '2025-12-18'
-    summary: <p>Amazon EC2 now supports Availability Zone ID (AZ ID) parameter, enabling
+    published: "2025-12-18"
+    summary:
+      <p>Amazon EC2 now supports Availability Zone ID (AZ ID) parameter, enabling
       you to create and manage resources such as instances, volumes, and subnets using
       consistent zone identifiers. AZ IDs are consistent and static identifiers that
       represent the same physical location across all AWS accounts, helping you optimize
@@ -26,8 +27,9 @@ entries:
     id: 47c0ff8a309342b3a109cd4b7e9d4cd5
     title: Amazon Aurora now supports PostgreSQL 17.7, 16.11, 15.15, 14.20 and 13.23
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-aurora-postgresql-17-7-16-11-15-15-14-20-13-23
-    published: '2025-12-18'
-    summary: <p>Amazon Aurora PostgreSQL-Compatible Edition has added support for
+    published: "2025-12-18"
+    summary:
+      <p>Amazon Aurora PostgreSQL-Compatible Edition has added support for
       PostgreSQL versions 17.7, 16.11, 15.15, 14.20 and 13.23. The <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/AuroraPostgreSQL.Updates.html"
       target="_blank">update</a> includes the PostgreSQL community's product improvements
       and bug fixes, and also includes Aurora-specific enhancements.<br /> <br />
@@ -51,11 +53,13 @@ entries:
       target="_blank">getting started page</a>.<b><br /> </b></p>
   39c3f781cc0927df453e32e374fd1f26:
     id: 39c3f781cc0927df453e32e374fd1f26
-    title: Amazon WorkSpaces Applications announces Elastic fleets powered by Ubuntu
+    title:
+      Amazon WorkSpaces Applications announces Elastic fleets powered by Ubuntu
       Pro 24.04 LTS
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-ubuntu-elasticfleets
-    published: '2025-12-18'
-    summary: <p>Amazon WorkSpaces Applications now offers support for Ubuntu Pro 24.04
+    published: "2025-12-18"
+    summary:
+      <p>Amazon WorkSpaces Applications now offers support for Ubuntu Pro 24.04
       LTS on&nbsp;Elastic fleets, enabling Independent Software Vendors (ISVs)&nbsp;and
       central IT organizations to stream Ubuntu desktop applications to users while
       leveraging the flexibility, scalability, and cost-effectiveness of the AWS Cloud.<br
@@ -77,8 +81,9 @@ entries:
     id: d0af44b7c1fd536407dbac8d76f4ab79
     title: Amazon EC2 C8a instances now available in the Europe (Spain) region
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-c8a-instances-europe-spain-region
-    published: '2025-12-18'
-    summary: <p>Starting today, the compute-optimized Amazon EC2 C8a instances are
+    published: "2025-12-18"
+    summary:
+      <p>Starting today, the compute-optimized Amazon EC2 C8a instances are
       available in the Europe (Spain) region. C8a instances are powered by 5th Gen
       AMD EPYC processors (formerly code named Turin) with a maximum frequency of
       4.5 GHz, delivering up to 30% higher performance and up to 19% better price-performance
@@ -100,8 +105,9 @@ entries:
     id: 65c3efef264588d10e151bbb8de5dfc9
     title: AWS IoT Core adds message batching to HTTP rule action
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-iot-core-message-batching-http-rule-action
-    published: '2025-12-18'
-    summary: <p><a href="https://aws.amazon.com/iot-core/" target="_blank">AWS IoT
+    published: "2025-12-18"
+    summary:
+      <p><a href="https://aws.amazon.com/iot-core/" target="_blank">AWS IoT
       Core</a> now lets you batch multiple IoT messages into a single <a href="https://docs.aws.amazon.com/iot/latest/developerguide/https-rule-action.html"
       target="_blank">HTTP rule action</a>, before routing the messages to downstream
       HTTP endpoints. This enhancement helps you to reduce cost and throughput overhead
@@ -130,8 +136,9 @@ entries:
     id: 1bdcfeddba8667bc9ff2e614f9d24fa3
     title: Amazon WorkSpaces now supports IPv6
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-ipv6/
-    published: '2025-12-18'
-    summary: <p>Amazon WorkSpaces now supports IPv6 for <a href="https://docs.aws.amazon.com/workspaces/latest/adminguide/workspaces-port-requirements.html#whitelisted_ports">WorkSpaces
+    published: "2025-12-18"
+    summary:
+      <p>Amazon WorkSpaces now supports IPv6 for <a href="https://docs.aws.amazon.com/workspaces/latest/adminguide/workspaces-port-requirements.html#whitelisted_ports">WorkSpaces
       domains and external endpoints</a>, enabling users to connect through an IPv4/IPv6
       dual-stack configuration from compatible clients (excluding SAML authentication).
       This helps customers meet IPv6 compliance requirements and eliminates the need
@@ -154,11 +161,13 @@ entries:
       WorkSpaces administration guide</a>.</p>
   c0e06a9c8be8fe05ac26eef6f9be6b31:
     id: c0e06a9c8be8fe05ac26eef6f9be6b31
-    title: Amazon MSK Connect now supports dual-stack (IPv4 and IPv6) connectivity
+    title:
+      Amazon MSK Connect now supports dual-stack (IPv4 and IPv6) connectivity
       for new connectors
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-msk-connect-dual-stack-ipv-and-ipv/
-    published: '2025-12-18'
-    summary: <p>Amazon Managed Streaming for Apache Kafka (<a href="https://aws.amazon.com/msk/">Amazon
+    published: "2025-12-18"
+    summary:
+      <p>Amazon Managed Streaming for Apache Kafka (<a href="https://aws.amazon.com/msk/">Amazon
       MSK</a>) now supports dual-stack connectivity (IPv4 and IPv6) for new connectors
       on Amazon MSK Connect. This capability enables customers to create connectors
       on MSK Connect using both IPv4 and IPv6 protocols, in addition to the existing
@@ -183,8 +192,9 @@ entries:
     id: 92cdb712a2153ade4b2093f0e153b84b
     title: Amazon ECS Managed Instances now supports Amazon EC2 Spot Instances
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-managed-instances-ec2-spot-instances
-    published: '2025-12-18'
-    summary: <p><a href="https://aws.amazon.com/ecs/managed-instances/" target="_blank">Amazon
+    published: "2025-12-18"
+    summary:
+      <p><a href="https://aws.amazon.com/ecs/managed-instances/" target="_blank">Amazon
       ECS Managed Instances</a> now supports <a href="https://aws.amazon.com/ec2/spot/"
       target="_blank">Amazon EC2 Spot Instances,</a> extending the range of capabilities
       available with AWS-managed infrastructure. With this launch, you can leverage
@@ -211,11 +221,13 @@ entries:
       target="_blank">AWS News launch blog</a>.</p>
   ad9a2462f857a7fe8aee214c41f993e5:
     id: ad9a2462f857a7fe8aee214c41f993e5
-    title: Amazon EC2 R8i and R8i-flex instances are now available in additional AWS
+    title:
+      Amazon EC2 R8i and R8i-flex instances are now available in additional AWS
       regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-r8i-r8i-flex-instances-additional-regions/
-    published: '2025-12-18'
-    summary: '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and
+    published: "2025-12-18"
+    summary:
+      '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and
       R8i-flex instances are available in the Asia Pacific (Seoul), South America
       (Sao Paulo), and Asia Pacific (Tokyo) regions. These instances are powered by
       custom Intel Xeon 6 processors, available only on AWS, delivering the highest
@@ -248,8 +260,9 @@ entries:
     id: 8d4f5461087a43751382d205f49fafed
     title: AWS Lambda durable functions are now available in 14 additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/lambda-durable-functions-14-additional-regions/
-    published: '2025-12-18'
-    summary: '<p>AWS Lambda durable functions enable developers to build reliable
+    published: "2025-12-18"
+    summary:
+      '<p>AWS Lambda durable functions enable developers to build reliable
       multi-step applications and AI workflows within the Lambda developer experience.
       Starting today, durable functions are available in 14 additional AWS Regions:
       US East (N. Virginia), US West (Oregon), Europe (Ireland), Europe (Frankfurt),
@@ -274,11 +287,13 @@ entries:
       by Region <a href="https://builder.aws.com/build/capabilities">page</a>.</p>'
   18145a7dba6ccec381a074602e117dc6:
     id: 18145a7dba6ccec381a074602e117dc6
-    title: AWS Direct Connect now supports resilience testing with AWS Fault Injection
+    title:
+      AWS Direct Connect now supports resilience testing with AWS Fault Injection
       Service
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/direct-connect-resilience-testing-fault-injection-service/
-    published: '2025-12-18'
-    summary: '<p>AWS Direct Connect now supports resilience testing with AWS Fault
+    published: "2025-12-18"
+    summary:
+      '<p>AWS Direct Connect now supports resilience testing with AWS Fault
       Injection Service (FIS), a fully managed service for running controlled fault
       injection experiments to improve application performance, observability, and
       resilience. With this capability, you can test and observe how your applications
@@ -299,8 +314,9 @@ entries:
     id: 93bde50160403023cea09ea95d6b3589
     title: AWS Clean Rooms now supports change requests for existing collaborations
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/clean-rooms-change-requests-existing-collaborations/
-    published: '2025-12-18'
-    summary: <p>AWS Clean Rooms now supports change requests to modify existing collaboration
+    published: "2025-12-18"
+    summary:
+      <p>AWS Clean Rooms now supports change requests to modify existing collaboration
       settings, offering customers greater flexibility in managing collaborations
       and developing new use cases with their partners. With this new capability,
       you can submit a change request for a collaboration, including adding new members,
@@ -324,8 +340,9 @@ entries:
     id: bab644d6d2c7561345be7459fe2520a8
     title: Announcing 176 new AWS Security Hub controls  in AWS Control Tower
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/176-security-hub-controls-control-tower/
-    published: '2025-12-18'
-    summary: '<p>Today, AWS announces that AWS Control Tower supports an additional
+    published: "2025-12-18"
+    summary:
+      '<p>Today, AWS announces that AWS Control Tower supports an additional
       176 Security Hub controls in Control Catalog for use cases such as security,
       cost, durability, and operations. With this launch, you can now search, discover,
       enable and manage these additional controls directly from AWS Control Tower
@@ -344,11 +361,13 @@ entries:
       style="cursor: pointer;">AWS Control Tower User Guide</a>.</p>'
   50bff700c6cf7da37d8b366c531d4abd:
     id: 50bff700c6cf7da37d8b366c531d4abd
-    title: Amazon ECS now enables you to define weekly event windows for scheduling
+    title:
+      Amazon ECS now enables you to define weekly event windows for scheduling
       task retirements on AWS Fargate
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/ecs-weekly-windows-scheduling-task-retirements-fargate/
-    published: '2025-12-18'
-    summary: '<p>Amazon ECS now enables you to define weekly event windows for scheduling
+    published: "2025-12-18"
+    summary:
+      '<p>Amazon ECS now enables you to define weekly event windows for scheduling
       task retirements on AWS Fargate. This capability provides precise control over
       when infrastructure updates and task replacements occur, helping prevent disruption
       to mission-critical workloads during peak business hours.<br /> <br /> AWS Fargate
@@ -378,11 +397,13 @@ entries:
       style="cursor: pointer;">documentation</a>.</p>'
   afa0f184dbdbb728d5925c36fd15caca:
     id: afa0f184dbdbb728d5925c36fd15caca
-    title: Amazon MSK introduces KRaft support for Express Brokers with Apache Kafka
+    title:
+      Amazon MSK introduces KRaft support for Express Brokers with Apache Kafka
       v3.9
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-msk-express-brokers-support-kraft/
-    published: '2025-12-18'
-    summary: "<p>Amazon Managed Streaming for Apache Kafka (MSK) now supports Apache\
+    published: "2025-12-18"
+    summary:
+      "<p>Amazon Managed Streaming for Apache Kafka (MSK) now supports Apache\
       \ Kafka version 3.9 for Express Brokers. This release introduces support for\
       \ KRaft (Kafka Raft), Apache Kafka's new consensus protocol that eliminates\
       \ the dependency on Apache ZooKeeper for metadata management. KRaft shifts metadata\
@@ -401,8 +422,9 @@ entries:
     id: 929742650218dbab9bae6a1a7eb32308
     title: Amazon Neptune Database is now available in the AWS Europe (Zurich) Region
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-neptune-zurich-region
-    published: '2025-12-18'
-    summary: '<p><a contenteditable="false" href="https://aws.amazon.com/neptune/"
+    published: "2025-12-18"
+    summary:
+      '<p><a contenteditable="false" href="https://aws.amazon.com/neptune/"
       style="cursor: pointer;">Amazon Neptune</a> Database is now available in the
       Europe (Zurich)<b> </b>Region on engine versions 1.4.5.0 and later. You can
       now create Neptune clusters using R5, R5d, R6g, R6i, X2iedn, T4g, and T3 instance
@@ -427,8 +449,9 @@ entries:
     id: 0999406b8c7763ef12545cd7332203dc
     title: Amazon SES announces email validation
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ses-email-validation/
-    published: '2025-12-18'
-    summary: "<p>Today, Amazon Simple Email Service (SES) announces email validation,\
+    published: "2025-12-18"
+    summary:
+      "<p>Today, Amazon Simple Email Service (SES) announces email validation,\
       \ a new capability that helps customers reduce bounce rates and protect sender\
       \ reputation by validating email addresses before sending. Customers can validate\
       \ individual addresses via API calls or enable automatic validation across all\
@@ -444,4 +467,4 @@ entries:
       \ on Email Validation in the&nbsp;<a href=\"https://docs.aws.amazon.com/ses/latest/dg/email-validation.html\"\
       ><i>Amazon SES Developer Guide</i></a>. To start using Email Validation, visit\
       \ the&nbsp;<a href=\"https://console.aws.amazon.com/ses/home\">Amazon SES console</a>.</p>"
-last_updated: '2026-01-12T11:22:40.817064'
+last_updated: "2026-01-12T11:22:40.817064"

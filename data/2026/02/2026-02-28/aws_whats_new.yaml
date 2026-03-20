@@ -3,8 +3,9 @@ entries:
     id: c39ce9195d79ba81c69a8b946144653a
     title: AWS Elemental MediaLive Now Supports SRT Listener Mode
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-medialive-introduces-srt-listener/
-    published: '2026-02-28'
-    summary: "<p>AWS Elemental&nbsp;MediaLive&nbsp;now supports Secure Reliable Transport\
+    published: "2026-02-28"
+    summary:
+      "<p>AWS Elemental&nbsp;MediaLive&nbsp;now supports Secure Reliable Transport\
       \ (SRT) Listener mode for both inputs and outputs. With SRT Listener mode,&nbsp;MediaLive&nbsp;waits\
       \ for connections rather than&nbsp;initiating&nbsp;them. Upstream sources push\
       \ live video directly to&nbsp;MediaLive, and downstream systems pull encoded\
@@ -26,4 +27,4 @@ entries:
       >Setting up an SRT Listener input</a>&nbsp;and&nbsp;<a href=\"https://docs.aws.amazon.com/medialive/latest/ug/creating-srt-listener-output.html\"\
       >Creating SRT outputs in listener mode</a>&nbsp;in the AWS Elemental&nbsp;MediaLive&nbsp;User\
       \ Guide.</p>"
-last_updated: '2026-03-03T19:36:57.652752'
+last_updated: "2026-03-03T19:36:57.652752"

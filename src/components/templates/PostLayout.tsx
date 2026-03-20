@@ -1,17 +1,17 @@
-'use client';
+"use client";
 
-import * as React from 'react';
-import { Box, Button, Container, Fab } from '@mui/material';
-import HomeIcon from '@mui/icons-material/Home';
-import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
-import Link from 'next/link';
-import StickyHeader from '@/components/organisms/StickyHeader';
-import PostHeader from '@/components/molecules/PostHeader';
-import PostContent from '@/components/organisms/PostContent';
-import NavigationLinks from '@/components/organisms/NavigationLinks';
+import * as React from "react";
+import { Box, Button, Container, Fab } from "@mui/material";
+import HomeIcon from "@mui/icons-material/Home";
+import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
+import Link from "next/link";
+import StickyHeader from "@/components/organisms/StickyHeader";
+import PostHeader from "@/components/molecules/PostHeader";
+import PostContent from "@/components/organisms/PostContent";
+import NavigationLinks from "@/components/organisms/NavigationLinks";
 
 interface PostLayoutProps {
   title: string;
@@ -43,8 +43,8 @@ export default function PostLayout({
 
   React.useEffect(() => {
     // 訪問済みとして保存
-    const visitedKey = 'visited_posts';
-    const visitedPosts = JSON.parse(localStorage.getItem(visitedKey) || '[]');
+    const visitedKey = "visited_posts";
+    const visitedPosts = JSON.parse(localStorage.getItem(visitedKey) || "[]");
     const currentPostId = `${year}/${month}/${day}/${slug}`;
     if (!visitedPosts.includes(currentPostId)) {
       visitedPosts.push(currentPostId);
@@ -64,9 +64,9 @@ export default function PostLayout({
       setIsBottom(atBottom);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     handleScroll(); // 初期状態のチェック
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [year, month, day, slug]);
 
   return (
@@ -79,13 +79,13 @@ export default function PostLayout({
           <Link href="/" passHref>
             <Button
               component="span"
-              startIcon={<HomeIcon sx={{ fontSize: '1.5rem !important' }} />}
+              startIcon={<HomeIcon sx={{ fontSize: "1.5rem !important" }} />}
               variant="text"
               size="large"
               sx={{
-                color: 'text.secondary',
-                '&:hover': { color: 'primary.main' },
-                fontSize: '1.1rem',
+                color: "text.secondary",
+                "&:hover": { color: "primary.main" },
+                fontSize: "1.1rem",
                 fontWeight: 600,
               }}
             >
@@ -99,27 +99,27 @@ export default function PostLayout({
         {/* Decorative Divider */}
         <Box
           sx={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
             my: 6,
-            position: 'relative',
-            '&::before, &::after': {
+            position: "relative",
+            "&::before, &::after": {
               content: '""',
               flex: 1,
-              height: '1px',
+              height: "1px",
               background: (theme) =>
-                `linear-gradient(to ${theme.direction === 'rtl' ? 'left' : 'right'}, transparent, ${theme.palette.primary.light}, transparent)`,
+                `linear-gradient(to ${theme.direction === "rtl" ? "left" : "right"}, transparent, ${theme.palette.primary.light}, transparent)`,
             },
           }}
         >
           <AutoAwesomeIcon
             sx={{
               mx: 3,
-              color: 'primary.light',
+              color: "primary.light",
               opacity: 0.5,
-              fontSize: '1.5rem',
-              transform: 'rotate(-10deg)',
+              fontSize: "1.5rem",
+              transform: "rotate(-10deg)",
             }}
           />
         </Box>
@@ -134,11 +134,11 @@ export default function PostLayout({
       {!isBottom && (
         <Box
           sx={{
-            position: 'fixed',
+            position: "fixed",
             bottom: 32,
             right: 32,
-            display: 'flex',
-            flexDirection: 'column',
+            display: "flex",
+            flexDirection: "column",
             gap: 2,
             zIndex: 1000,
           }}
@@ -150,9 +150,9 @@ export default function PostLayout({
                 size="medium"
                 aria-label="next day"
                 sx={{
-                  boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
-                  '&:hover': { transform: 'scale(1.1)' },
-                  transition: 'transform 0.2s',
+                  boxShadow: "0 4px 20px rgba(0,0,0,0.15)",
+                  "&:hover": { transform: "scale(1.1)" },
+                  transition: "transform 0.2s",
                 }}
               >
                 <ArrowForwardIcon />
@@ -164,11 +164,11 @@ export default function PostLayout({
             color="secondary"
             size="medium"
             aria-label="scroll to top"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             sx={{
-              boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
-              '&:hover': { transform: 'scale(1.1)' },
-              transition: 'transform 0.2s',
+              boxShadow: "0 4px 20px rgba(0,0,0,0.15)",
+              "&:hover": { transform: "scale(1.1)" },
+              transition: "transform 0.2s",
             }}
           >
             <ArrowUpwardIcon />
@@ -181,9 +181,9 @@ export default function PostLayout({
                 size="medium"
                 aria-label="previous day"
                 sx={{
-                  boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
-                  '&:hover': { transform: 'scale(1.1)' },
-                  transition: 'transform 0.2s',
+                  boxShadow: "0 4px 20px rgba(0,0,0,0.15)",
+                  "&:hover": { transform: "scale(1.1)" },
+                  transition: "transform 0.2s",
                 }}
               >
                 <ArrowBackIcon />

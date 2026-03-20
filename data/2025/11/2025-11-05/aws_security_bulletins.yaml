@@ -1,11 +1,13 @@
 entries:
   37f16bce29fafebdba053f79398886f9:
     id: 37f16bce29fafebdba053f79398886f9
-    title: Improper authentication token handling in the Amazon WorkSpaces client
+    title:
+      Improper authentication token handling in the Amazon WorkSpaces client
       for Linux
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-025/
-    published: '2025-11-05'
-    summary: "<p><b>Bulletin ID:</b> AWS-2025-025<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2025-11-05"
+    summary:
+      "<p><b>Bulletin ID:</b> AWS-2025-025<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/11/5\
       \ 13:20 PM PDT</p> \n<p><b>Description:</b></p> \n<p>We identified CVE-2025-12779,\
       \ which describes an issue in the Amazon WorkSpaces client for Linux . Improper\
@@ -21,8 +23,9 @@ entries:
     id: 27cb7024b811494de91404ca7fa8ced7
     title: CVE-2025-31133, CVE-2025-52565, CVE-2025-52881 - runc container issues
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-024/
-    published: '2025-11-05'
-    summary: "<p><b>Bulletin ID:</b> AWS-2025-024<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2025-11-05"
+    summary:
+      "<p><b>Bulletin ID:</b> AWS-2025-024<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/11/5\
       \ 8:45 PM PDT</p> \n<p><b>CVE Identifiers: CVE-2025-31133, CVE-2025-52565, CVE-2025-52881</b></p>\
       \ \n<p>AWS is aware of recently disclosed security issues affecting the runc\
@@ -41,4 +44,4 @@ entries:
       \ (ECS)<br /> Amazon Elastic Kubernetes Service (EKS)<br /> AWS Elastic Beanstalk<br\
       \ /> Finch<br /> AWS Deep Learning AMI<br /> AWS Batch<br /> Amazon SageMaker<br\
       \ /></p>"
-last_updated: '2026-01-17T00:23:07.335318'
+last_updated: "2026-01-17T00:23:07.335318"

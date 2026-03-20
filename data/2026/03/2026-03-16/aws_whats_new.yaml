@@ -1,11 +1,13 @@
 entries:
   b26a1ae6548da3c0d3c22d9e3d2bc22d:
     id: b26a1ae6548da3c0d3c22d9e3d2bc22d
-    title: Amazon Timestream for InfluxDB 3 Now Supports Expanded Multi-Node Cluster
+    title:
+      Amazon Timestream for InfluxDB 3 Now Supports Expanded Multi-Node Cluster
       Configurations
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-for-influxdb-3-multi-node-cluster/
-    published: '2026-03-16'
-    summary: <p>Amazon Timestream for InfluxDB now supports expanded multi-node cluster
+    published: "2026-03-16"
+    summary:
+      <p>Amazon Timestream for InfluxDB now supports expanded multi-node cluster
       configurations for InfluxDB 3 Enterprise edition, enabling you to scale clusters
       up to 15 nodes for demanding production workloads requiring high read throughput
       and high availability.<br /> <br /> With this launch, you can now configure
@@ -31,11 +33,13 @@ entries:
       page</a>.</p>
   0b9b91c9fecd99df368682ad5fac389f:
     id: 0b9b91c9fecd99df368682ad5fac389f
-    title: Amazon Connect now enables agents to forward email contacts to external
+    title:
+      Amazon Connect now enables agents to forward email contacts to external
       email addresses
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-forward-email-contacts/
-    published: '2026-03-16'
-    summary: <p>Amazon Connect now enables agents to forward email contacts to external
+    published: "2026-03-16"
+    summary:
+      <p>Amazon Connect now enables agents to forward email contacts to external
       email addresses and distribution lists directly from the Agent workspace and
       Contact Center Panel. When an email is forwarded, agents still retain ownership
       and complete communication trail of the original contact. This makes it easy
@@ -51,8 +55,9 @@ entries:
     id: e6ff0281be2d7a6fc40a7f4251bc8277
     title: Announcing AWS Partner Central agents to accelerate co-sell
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-partner-central-agents-accelerate-co-sell/
-    published: '2026-03-16'
-    summary: "<p>Today, AWS announces the general availability of AWS Partner Central\
+    published: "2026-03-16"
+    summary:
+      "<p>Today, AWS announces the general availability of AWS Partner Central\
       \ agents, new AI-powered capabilities designed to accelerate partner co-selling\
       \ with AWS. Built on Amazon Bedrock AgentCore, these agentic capabilities work\
       \ alongside partner sales teams to shorten sales cycles and simplify funding\
@@ -79,8 +84,9 @@ entries:
     id: 6a37227736cbe24d1ac2868b8f9b428a
     title: Amazon SimpleDB now supports exporting domain data to Amazon S3
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-simpledb-domain-export-to-amazon-s3/
-    published: '2026-03-16'
-    summary: "<p>Amazon SimpleDB now supports exporting domain data directly to Amazon\
+    published: "2026-03-16"
+    summary:
+      "<p>Amazon SimpleDB now supports exporting domain data directly to Amazon\
       \ S3 buckets in standard JSON format. Exports run in the background with no\
       \ impact on database performance, making it simple to migrate data to other\
       \ systems or meet data archival requirements.</p> \n<p>The export tool offers\
@@ -100,8 +106,9 @@ entries:
     id: 242dd35ac0f8816c3dd6590a4653cbee
     title: Amazon Neptune now supports reading S3 data using openCyper
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/neptune-read-s3-opencypher/
-    published: '2026-03-16'
-    summary: "<p><a href=\"https://aws.amazon.com/neptune/\" target=\"_blank\">Amazon\
+    published: "2026-03-16"
+    summary:
+      "<p><a href=\"https://aws.amazon.com/neptune/\" target=\"_blank\">Amazon\
       \ Neptune</a>&nbsp;now supports reading data from Amazon S3 within openCypher\
       \ queries. Through the new `neptune.read()` procedure, customers now have an\
       \ additional option of federating with external data stored in S3 versus needing\
@@ -118,11 +125,13 @@ entries:
       \ target=\"_blank\">Neptune Database documentation</a>.</p>"
   9f34f1623c15c0f6295d143cc23a0c19:
     id: 9f34f1623c15c0f6295d143cc23a0c19
-    title: SageMaker HyperPod now supports idle resource sharing for dynamic cluster
+    title:
+      SageMaker HyperPod now supports idle resource sharing for dynamic cluster
       utilization
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-hyperpod-idle-resource-sharing/
-    published: '2026-03-16'
-    summary: '<p>Amazon SageMaker HyperPod task governance now supports dynamic resource
+    published: "2026-03-16"
+    summary:
+      '<p>Amazon SageMaker HyperPod task governance now supports dynamic resource
       sharing, allowing teams to borrow unallocated compute capacity in HyperPod clusters
       beyond their guaranteed quotas. Administrators can also configure borrow limits
       for specific resource types, such as accelerators, vCPU, or memory, to ensure
@@ -152,11 +161,13 @@ entries:
       task governance documentation</a>.</p>'
   134af2a52a0f801fe8c96df879ec7b3a:
     id: 134af2a52a0f801fe8c96df879ec7b3a
-    title: Amazon CloudWatch introduces organization-wide EC2 detailed monitoring
+    title:
+      Amazon CloudWatch introduces organization-wide EC2 detailed monitoring
       enablement
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-org-enablement-ec2-metrics/
-    published: '2026-03-16'
-    summary: "<p>Amazon CloudWatch now allows customers to automatically enable Amazon\
+    published: "2026-03-16"
+    summary:
+      "<p>Amazon CloudWatch now allows customers to automatically enable Amazon\
       \ Elastic Compute Cloud (EC2) detailed monitoring across their AWS Organization.\
       \ Customers can create enablement rules in CloudWatch Ingestion that automatically\
       \ enable detailed monitoring for both existing and newly launched EC2 instances\
@@ -177,8 +188,9 @@ entries:
     id: fdf0ddce3a177359f9d6af58c1bce9dc
     title: Amazon CloudWatch Logs now supports log ingestion using HTTP-based protocol
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-http-log-collector/
-    published: '2026-03-16'
-    summary: "<p>Amazon CloudWatch Logs now supports HTTP Log Collector (HLC), ND-JSON,\
+    published: "2026-03-16"
+    summary:
+      "<p>Amazon CloudWatch Logs now supports HTTP Log Collector (HLC), ND-JSON,\
       \ Structured JSON and OTEL for&nbsp;sending logs using HTTP-based protocol with\
       \ bearer token.&nbsp;With this launch, customers can ingest logs where AWS SDK\
       \ integration is not&nbsp;feasible, such as with third-party or packaged software.&nbsp;The\
@@ -203,4 +215,4 @@ entries:
       \ US West (Oregon), and US East (Ohio). To learn more about the HLC endpoint\
       \ and security best practices, refer to the&nbsp;<a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_HTTP_Endpoints.html\"\
       \ target=\"_blank\">CloudWatch Logs Documentation</a>.&nbsp;</p>"
-last_updated: '2026-03-17T04:15:42.355157'
+last_updated: "2026-03-17T04:15:42.355157"

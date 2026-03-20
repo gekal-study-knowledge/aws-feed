@@ -3,8 +3,9 @@ entries:
     id: d1ba0e30634e68061ccf41b1eb9068ca
     title: Amazon EC2 supports nested virtualization on virtual Amazon EC2 instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-nested-virtualization-on-virtual
-    published: '2026-02-16'
-    summary: "<p>Starting today, customers can create nested environments within virtualized\
+    published: "2026-02-16"
+    summary:
+      "<p>Starting today, customers can create nested environments within virtualized\
       \ Amazon EC2 instances. Previously, customers could only create and manage virtual\
       \ machines inside bare metal EC2 instances. With this launch, customers can\
       \ create nested virtual machines by running KVM or Hyper-V on virtual EC2 instances.\
@@ -15,8 +16,9 @@ entries:
     id: 4484b456b0440bc650b7e32933b9a84c
     title: Announcing Amazon DocumentDB long-term support (LTS) on 5.0
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/announcing-amazon-documentdb-5-0-long-term-support
-    published: '2026-02-16'
-    summary: '<p>Starting today, Amazon DocumentDB (with MongoDB compatibility) offers
+    published: "2026-02-16"
+    summary:
+      '<p>Starting today, Amazon DocumentDB (with MongoDB compatibility) offers
       Long-Term Support (LTS) on DocumentDB 5.0, enabling customers to reduce database
       upgrade frequency and maintenance overhead. LTS versions will receive only critical
       stability and security patches without introducing new features.<br /> <br />
@@ -33,8 +35,9 @@ entries:
     id: 9ed01f7fe1c17df5daddf5ac60c9706b
     title: AWS Backup announces PrivateLink support for SAP HANA on AWS
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-announces-privatelink-sap-hana-aws/
-    published: '2026-02-16'
-    summary: "<p>AWS Backup now supports AWS PrivateLink for SAP HANA systems running\
+    published: "2026-02-16"
+    summary:
+      "<p>AWS Backup now supports AWS PrivateLink for SAP HANA systems running\
       \ on Amazon EC2. This enables customers to route all backup traffic through\
       \ private network connections without traversing the public internet, helping\
       \ organizations meet security and compliance requirements for regulated workloads.</p>\
@@ -55,8 +58,9 @@ entries:
     id: ebbba7820d8b5fcdf70960323654b67f
     title: AWS HealthImaging launches additional metrics for monitoring data stores
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-healthimaging-additional-metrics/
-    published: '2026-02-16'
-    summary: '<p>AWS HealthImaging has launched additional metrics through <a href="https://docs.aws.amazon.com/cloudwatch/">Amazon
+    published: "2026-02-16"
+    summary:
+      '<p>AWS HealthImaging has launched additional metrics through <a href="https://docs.aws.amazon.com/cloudwatch/">Amazon
       CloudWatch</a> that enable monitoring storage at the account and data store
       levels. These new metrics help customers better understand their medical imaging
       storage and growth trends over time.<br /> <br /> HealthImaging now provides
@@ -75,8 +79,9 @@ entries:
     id: e8e9da3102dc6d5ae424d371ca4ec105
     title: Announcing new high performance computing Amazon EC2 Hpc8a instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/announcing-amazon-ec2-hpc8a-instances/
-    published: '2026-02-16'
-    summary: <p>AWS announces Amazon EC2 Hpc8a instances, the next generation of high
+    published: "2026-02-16"
+    summary:
+      <p>AWS announces Amazon EC2 Hpc8a instances, the next generation of high
       performance computing optimized instance, powered by 5th Gen AMD EPYC processors
       (formerly code named Turin). With a maximum frequency of 4.5GHz, Hpc8a instances
       deliver up to 40% higher performance and up to 25% better price performance
@@ -102,8 +107,9 @@ entries:
     id: e23c393a5aedd253657723ab143cc1b5
     title: Amazon EC2 M7i instances are now available in the Israel (Tel Aviv) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m7i-israel-tel-aviv-regions
-    published: '2026-02-16'
-    summary: '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M7i instances
+    published: "2026-02-16"
+    summary:
+      '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M7i instances
       powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire
       Rapids) are available in the Israel (Tel Aviv) region. These custom processors,
       available only on AWS, offer up to 15% better performance over comparable x86-based
@@ -123,8 +129,9 @@ entries:
     id: 7061f12cb4a2876ff19135a641fcb38a
     title: AWS Glue 5.1 is now available in 18 additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-glue-5-1-eighteen-additional-regions
-    published: '2026-02-16'
-    summary: "<p>AWS Glue 5.1 is now available in eighteen additional AWS Regions:\
+    published: "2026-02-16"
+    summary:
+      "<p>AWS Glue 5.1 is now available in eighteen additional AWS Regions:\
       \ Africa (Cape Town), Asia Pacific (Hyderabad, Jakarta, Melbourne, Osaka, Seoul,\
       \ Taipei), Canada (Calgary, Central), Europe (London, Milan, Paris, Zurich),\
       \ Israel (Tel Aviv), Mexico (Central), Middle East (Bahrain, UAE), and US West\
@@ -153,8 +160,9 @@ entries:
     id: 745f8584d185559a6943786508ca7a49
     title: Amazon Aurora now supports Server-Side Encryption at Rest
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-server-side-encryption-at-rest
-    published: '2026-02-16'
-    summary: <p>Amazon Aurora further strengthens your security posture by automatically
+    published: "2026-02-16"
+    summary:
+      <p>Amazon Aurora further strengthens your security posture by automatically
       applying server-side encryption by default to all new databases clusters, created
       starting today, using <a href="https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#aws-owned-key">AWS-owned
       keys</a>. This encryption is fully managed, transparent to users, with no cost
@@ -176,8 +184,9 @@ entries:
     id: af30987fcbd58dedd9dd1836f56ffabd
     title: Amazon Aurora now supports Server-Side Encryption by default
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-server-side-encryption-at-rest
-    published: '2026-02-16'
-    summary: <p>Amazon Aurora further strengthens your security posture by automatically
+    published: "2026-02-16"
+    summary:
+      <p>Amazon Aurora further strengthens your security posture by automatically
       applying server-side encryption by default to all new databases clusters, created
       starting today, using <a href="https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#aws-owned-key">AWS-owned
       keys</a>. This encryption is fully managed, transparent to users, with no cost
@@ -200,8 +209,9 @@ entries:
     id: c01215e6a4c9a5a9d703ced7a2b5cbe0
     title: Kiro is now available in AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/kiro-launch-aws-govcloud-us/
-    published: '2026-02-16'
-    summary: <p>Kiro brings agentic AI development capabilities to workloads with
+    published: "2026-02-16"
+    summary:
+      <p>Kiro brings agentic AI development capabilities to workloads with
       elevated compliance needs in AWS GovCloud (US-East) and AWS GovCloud (US-West)
       Regions. Kiro is an agentic AI with an integrated development environment (IDE)
       and command-line interface (CLI) that helps you go from prototype to production
@@ -220,4 +230,4 @@ entries:
       title="GovCloud Documentation">GovCloud documentation</a>&nbsp;or contact your
       AWS account team for more information. To learn more about Kiro, visit the <a
       href="https://kiro.dev" title="Kiro product page">Kiro product page</a>.</p>
-last_updated: '2026-02-18T18:50:19.537919'
+last_updated: "2026-02-18T18:50:19.537919"

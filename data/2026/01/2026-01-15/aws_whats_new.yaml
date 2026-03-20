@@ -1,11 +1,13 @@
 entries:
   6103bb70b1de2b5f6d1ce36c432c0a36:
     id: 6103bb70b1de2b5f6d1ce36c432c0a36
-    title: Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL
+    title:
+      Amazon RDS Custom now supports the latest GDR updates for Microsoft SQL
       Server
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-custom-gdr-updates-microsoft-sql-server
-    published: '2026-01-15'
-    summary: <p><a href="https://aws.amazon.com/rds/custom/" target="_blank">Amazon
+    published: "2026-01-15"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/custom/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) Custom for SQL Server</a> now supports
       the latest General Distribution Release (GDR) updates for Microsoft SQL Server.
       This release includes support for SQL Server 2019 CU32+GDR <a href="https://support.microsoft.com/help/5068404"
@@ -23,8 +25,9 @@ entries:
     id: 6b4e97ebf2ba451930fcbe89e6482f0e
     title: Amazon Redshift Serverless adds queue-based query resource management
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-redshift-serverless-queue-based-query-resource-management
-    published: '2026-01-15'
-    summary: <p>Amazon Redshift Serverless introduces queue-based query resource management.
+    published: "2026-01-15"
+    summary:
+      <p>Amazon Redshift Serverless introduces queue-based query resource management.
       You can create dedicated query queues with customized monitoring rules for different
       workloads. This feature provides granular control over resource usage. Queues
       let you set metrics-based predicates and automated responses. For example, you
@@ -46,8 +49,9 @@ entries:
     id: f5fbd8c61c043e4e6f627dd319d666bb
     title: Amazon Connect now provides agent scheduling metrics in data lake
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-scheduling-metrics/
-    published: '2026-01-15'
-    summary: <p>Amazon Connect now provides agent scheduling metrics in data lake,
+    published: "2026-01-15"
+    summary:
+      <p>Amazon Connect now provides agent scheduling metrics in data lake,
       making it easier for you to generate reports and insights from this data. For
       example, after publishing schedules for next month, you can access interval
       level (15 minutes or 30 minutes) metrics such as forecasted headcount, scheduled
@@ -62,11 +66,13 @@ entries:
       about Amazon Connect agent scheduling, click <a href="https://docs.aws.amazon.com/connect/latest/adminguide/forecasting-capacity-planning-scheduling.html">here</a>.</p>
   151e00da9a8bd4c459687b407e355c3b:
     id: 151e00da9a8bd4c459687b407e355c3b
-    title: Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL
+    title:
+      Amazon RDS now supports the latest CU and GDR updates for Microsoft SQL
       Server
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-cu-gdr-updates-microsoft-sql-server
-    published: '2026-01-15'
-    summary: <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
+    published: "2026-01-15"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for SQL Server </a>now supports the
       latest General Distribution Release (GDR) updates for Microsoft SQL Server.
       This release includes support for Microsoft SQL Server 2016 SP3+GDR <a href="https://support.microsoft.com/help/5068401"
@@ -88,8 +94,9 @@ entries:
     id: b3ddf57f721ac4984cb30c501021608c
     title: AWS Clean Rooms now supports parameters in PySpark analysis templates
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-parameters-pyspark-analysis-templates/
-    published: '2026-01-15'
-    summary: "<p>AWS Clean Rooms announces support for parameters in PySpark analysis\
+    published: "2026-01-15"
+    summary:
+      "<p>AWS Clean Rooms announces support for parameters in PySpark analysis\
       \ templates, offering increased flexibility for organizations and their partners\
       \ to scale their privacy-enhanced data collaboration use cases. With this launch,\
       \ you can create a single <a href=\"https://docs.aws.amazon.com/clean-rooms/latest/userguide/pyspark-analysis-templates.html\"\
@@ -111,11 +118,13 @@ entries:
       \ target=\"_blank\">AWS Clean Rooms</a>.</p>"
   f12605a2adfddeaf9589db73b554e942:
     id: f12605a2adfddeaf9589db73b554e942
-    title: Amazon S3 on Outposts is now available on second-generation AWS Outposts
+    title:
+      Amazon S3 on Outposts is now available on second-generation AWS Outposts
       racks
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-s3-second-generation-aws-outposts-racks
-    published: '2026-01-15'
-    summary: '<p>Amazon S3 on Outposts is now available on second-generation AWS Outposts
+    published: "2026-01-15"
+    summary:
+      '<p>Amazon S3 on Outposts is now available on second-generation AWS Outposts
       racks for your data residency, low latency, and local data processing use cases
       on-premises. S3 on Outposts on second-generation Outposts racks offers three
       storage tiers: 196 TB, 490 TB, and 786 TB. Choose the storage tier that matches
@@ -134,8 +143,9 @@ entries:
     id: dccefe709df741121e789f6a30105a19
     title: AWS Databases are now available on v0 by Vercel
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-databases-available-vercel-v0/
-    published: '2026-01-15'
-    summary: '<p>Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB
+    published: "2026-01-15"
+    summary:
+      '<p>Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB
       serverless databases are now available on v0 by Vercel, an AI-powered tool that
       transforms your ideas into production-ready, full-stack web applications in
       minutes. With this launch, you can build your ideas as well as create and connect
@@ -169,8 +179,9 @@ entries:
     id: da49894dd6271fc4f7e40ab9e48b4db1
     title: Announcing Amazon EC2 Memory optimized X8i instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-amazon-ec2-x8i-generally-available
-    published: '2026-01-15'
-    summary: '<p>Amazon Web Services (AWS) is announcing the general availability
+    published: "2026-01-15"
+    summary:
+      '<p>Amazon Web Services (AWS) is announcing the general availability
       of Amazon EC2 X8i instances, next-generation memory optimized instances powered
       by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified
       and deliver the highest performance and fastest memory bandwidth among comparable
@@ -192,8 +203,9 @@ entries:
     id: b7aa0fb22cc11912323f0df957bf9da9
     title: AWS Lambda announces cross-account access for DynamoDB Streams
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-lambda-cross-account-access-dynamodb-streams
-    published: '2026-01-15'
-    summary: <p>AWS Lambda now supports cross-account access for AWS DynamoDB Streams
+    published: "2026-01-15"
+    summary:
+      <p>AWS Lambda now supports cross-account access for AWS DynamoDB Streams
       event-source mappings (ESMs),<br /> enabling you to trigger Lambda functions
       in one account from DynamoDB Streams in another account.<br /> <br /> Customers
       build event-driven applications using Lambda's fully-managed DynamoDB Streams
@@ -216,11 +228,13 @@ entries:
       href="https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventsourcemapping.html#invocation-eventsourcemapping-provisioned-mode">.&nbsp;</a></p>
   190ae917a917137f1a8a0390c2bfbf11:
     id: 190ae917a917137f1a8a0390c2bfbf11
-    title: Amazon EBS now supports up to four Elastic Volumes modifications in 24
+    title:
+      Amazon EBS now supports up to four Elastic Volumes modifications in 24
       hours
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ebs-up-to-four-volume-modifications/
-    published: '2026-01-15'
-    summary: "<p>Amazon Elastic Block Store (EBS) now supports up to four Elastic\
+    published: "2026-01-15"
+    summary:
+      "<p>Amazon Elastic Block Store (EBS) now supports up to four Elastic\
       \ Volumes modifications per volume within a rolling 24-hour window. Elastic\
       \ Volumes modifications allow you to increase the size, change the type, and\
       \ adjust the performance of your EBS volumes. With this update, you can start\
@@ -239,11 +253,13 @@ entries:
       \ Amazon EBS User Guide.<br /> </p>"
   f78646416a9617e61b675ce9a2adeed6:
     id: f78646416a9617e61b675ce9a2adeed6
-    title: Amazon S3 on Outposts is now available on second-generation AWS Outposts
+    title:
+      Amazon S3 on Outposts is now available on second-generation AWS Outposts
       racks
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-s3-second-generation-aws-outposts-racks
-    published: '2026-01-15'
-    summary: '<p>Amazon S3 on Outposts is now available on second-generation AWS Outposts
+    published: "2026-01-15"
+    summary:
+      '<p>Amazon S3 on Outposts is now available on second-generation AWS Outposts
       racks for your data residency, low latency, and local data processing use cases
       on-premises. S3 on Outposts on second-generation Outposts racks offers three
       storage tiers: 196 TB, 490 TB, and 786 TB. Choose the storage tier that matches
@@ -260,11 +276,13 @@ entries:
       target="_blank">documentation</a>.</p>'
   8eab1bc188a1645662f757d18ad8c4bb:
     id: 8eab1bc188a1645662f757d18ad8c4bb
-    title: AWS Data Exports  adds granular operation visibility for Amazon Bedrock
+    title:
+      AWS Data Exports  adds granular operation visibility for Amazon Bedrock
       model usage
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/granular-amazon-bedrock/
-    published: '2026-01-15'
-    summary: <p>AWS Data Exports now enables customers to distinguish between Amazon
+    published: "2026-01-15"
+    summary:
+      <p>AWS Data Exports now enables customers to distinguish between Amazon
       Bedrock operation types in their cost reports for enhanced cost analysis and
       optimization. This granular operation information is available in Cost and Usage
       Reports (CUR), CUR 2.0, and Data Exports for FOCUS, and is particularly valuable
@@ -286,11 +304,13 @@ entries:
       Bedrock documentation</a> for more details.</p>
   7d60449305e9f39ade80b85e10639646:
     id: 7d60449305e9f39ade80b85e10639646
-    title: AWS Data Exports  adds granular operation visibility for Amazon Bedrock
+    title:
+      AWS Data Exports  adds granular operation visibility for Amazon Bedrock
       model usage
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-granular-usage-visibility
-    published: '2026-01-15'
-    summary: <p>AWS Data Exports now enables customers to distinguish between Amazon
+    published: "2026-01-15"
+    summary:
+      <p>AWS Data Exports now enables customers to distinguish between Amazon
       Bedrock operation types in their cost reports for enhanced cost analysis and
       optimization. This granular operation information is available in Cost and Usage
       Reports (CUR), CUR 2.0, and Data Exports for FOCUS, and is particularly valuable
@@ -312,11 +332,13 @@ entries:
       Bedrock documentation</a> for more details.</p>
   5b5df9e93a7a24bf1311b7b25d8de16d:
     id: 5b5df9e93a7a24bf1311b7b25d8de16d
-    title: AWS Deadline Cloud now supports machine learning training using Foundry
+    title:
+      AWS Deadline Cloud now supports machine learning training using Foundry
       Nuke CopyCat
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-deadline-cloud-machine-learning-training
-    published: '2026-01-15'
-    summary: <p>Today, AWS Deadline Cloud announces integration with Foundry Nuke
+    published: "2026-01-15"
+    summary:
+      <p>Today, AWS Deadline Cloud announces integration with Foundry Nuke
       CopyCat, allowing you to run machine learning training jobs for visual effects
       in the cloud. AWS Deadline Cloud is a fully managed service that simplifies
       render management for computer-generated 2D/3D graphics and visual effects for
@@ -335,4 +357,4 @@ entries:
       integration is available in all AWS Regions where AWS Deadline Cloud is supported.
       To get started, visit our <a href="https://aws-deadline.github.io/nuke/using-submitter/copycat-submissions/">CopyCat
       integration user guide.</a></p>
-last_updated: '2026-01-22T19:22:03.963492'
+last_updated: "2026-01-22T19:22:03.963492"

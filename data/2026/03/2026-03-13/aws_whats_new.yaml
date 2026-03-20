@@ -3,8 +3,9 @@ entries:
     id: 4641556da57b3db6a14b0848fa49fa24
     title: AWS Network Firewall Launch in the AWS European Sovereign Cloud
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/network-firewall-european-sovereign-cloud-region/
-    published: '2026-03-13'
-    summary: <p>Starting today, AWS Network Firewall is available in the AWS European
+    published: "2026-03-13"
+    summary:
+      <p>Starting today, AWS Network Firewall is available in the AWS European
       Sovereign Cloud. With this launch, European customers, particularly those in
       highly regulated industries, government agencies, and organizations with strict
       data sovereignty requirements, can deploy AWS Network Firewall to protect their
@@ -25,8 +26,9 @@ entries:
     id: 327bd02eb4e33fd282407bd2463beeb4
     title: AWS Lambda Managed Instances now supports Rust
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-lambda-managed-instances-rust/
-    published: '2026-03-13'
-    summary: <p>AWS Lambda Managed Instances now supports Rust, enabling developers
+    published: "2026-03-13"
+    summary:
+      <p>AWS Lambda Managed Instances now supports Rust, enabling developers
       to run high-performance Rust-based functions on Lambda-managed Amazon EC2 instances
       while maintaining Lambda’s operational simplicity. This combination makes it
       easier than ever to run performance-critical applications without the complexity
@@ -49,8 +51,9 @@ entries:
     id: 57b7e0dd6a5301c500e6a0e59a2c7564
     title: Accelerate serverless application development with new SAM Kiro power
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-sam-kiro-power/
-    published: '2026-03-13'
-    summary: "<p>AWS announces the AWS Serverless Application Model (SAM)&nbsp;Kiro\
+    published: "2026-03-13"
+    summary:
+      "<p>AWS announces the AWS Serverless Application Model (SAM)&nbsp;Kiro\
       \ power, bringing serverless application development&nbsp;expertise&nbsp;to\
       \ agentic AI development in Kiro. With this power, you can build, deploy, and\
       \ manage serverless applications with AI agent-assisted development directly\
@@ -75,11 +78,13 @@ entries:
       \ target=\"_blank\">developer guide</a>&nbsp;to learn more about SAM.</p>"
   8be333e69121ca6ff7e846084e1e8c45:
     id: 8be333e69121ca6ff7e846084e1e8c45
-    title: Amazon MSK announces support for Standard brokers Graviton-3 instance in
+    title:
+      Amazon MSK announces support for Standard brokers Graviton-3 instance in
       Africa (Cape Town) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-standardm7g-cpt-region/
-    published: '2026-03-13'
-    summary: "<p>You can now create provisioned&nbsp;<a href=\"https://aws.amazon.com/msk/\"\
+    published: "2026-03-13"
+    summary:
+      "<p>You can now create provisioned&nbsp;<a href=\"https://aws.amazon.com/msk/\"\
       >Amazon Managed Streaming for Apache Kafka (Amazon MSK)</a>&nbsp;clusters with\
       \ Standard brokers&nbsp;running on AWS Graviton3-based M7g instances in Africa\
       \ (Cape Town) region.</p> \n<p>Graviton M7g instances for Standard brokers deliver\
@@ -92,8 +97,9 @@ entries:
     id: 4b866298674a1b88f260fec657b1f5ac
     title: Amazon CloudWatch Application Signals adds new SLO capabilities
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-application-signals-adds-slo-capabilities/
-    published: '2026-03-13'
-    summary: '<p>Amazon CloudWatch Application Signals now offers three new console
+    published: "2026-03-13"
+    summary:
+      '<p>Amazon CloudWatch Application Signals now offers three new console
       based capabilities for Service Level Objectives (SLOs): SLO Recommendations,
       Service-Level SLOs, and SLO Performance Report. CloudWatch Application Signals
       helps customers monitor and improve application performance on AWS. It automatically
@@ -124,8 +130,9 @@ entries:
     id: bcf221c26fa4cc55f5e1d0f4435caa1e
     title: Amazon EC2 R8a instances are now available in Asia Pacific (Tokyo) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-tokyo/
-    published: '2026-03-13'
-    summary: <p>Starting today, Amazon EC2 R8a instances are now available in Asia
+    published: "2026-03-13"
+    summary:
+      <p>Starting today, Amazon EC2 R8a instances are now available in Asia
       Pacific (Tokyo) Region. These instances, feature 5th Gen AMD EPYC processors
       (formerly code named Turin) with a maximum frequency of 4.5 GHz, deliver up
       to 30% higher performance, and up to 19% better price-performance compared to
@@ -149,8 +156,9 @@ entries:
     id: bec3eab9b379eaf190939a5c0017c4e9
     title: Amazon EC2 M8azn instances are now available in US East (Ohio) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8azn-instances-ohio/
-    published: '2026-03-13'
-    summary: <p>Starting today, Amazon EC2 M8azn instances are now available in US
+    published: "2026-03-13"
+    summary:
+      <p>Starting today, Amazon EC2 M8azn instances are now available in US
       East (Ohio) Region. These general purpose high-frequency high-network instances
       are powered by fifth generation AMD EPYC (formerly code named Turin) processors
       and offer the highest maximum CPU frequency, 5GHz in the cloud. M8azn instances
@@ -172,11 +180,13 @@ entries:
       EC2 M8azn instance page</a>.</p>
   5470ee3c14c23fadfac4545b7b11c731:
     id: 5470ee3c14c23fadfac4545b7b11c731
-    title: Amazon EC2 Hpc8a instances are now available in Asia Pacific (Tokyo) and
+    title:
+      Amazon EC2 Hpc8a instances are now available in Asia Pacific (Tokyo) and
       AWS GovCloud (US-West)
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-hpc8a-additional-regions/
-    published: '2026-03-13'
-    summary: <p>Starting today, Amazon EC2 Hpc8a instances are available in Asia Pacific
+    published: "2026-03-13"
+    summary:
+      <p>Starting today, Amazon EC2 Hpc8a instances are available in Asia Pacific
       (Tokyo) and AWS GovCloud (US-West) regions. These instances are powered by 5th
       Gen AMD EPYC processors (formerly code named Turin). With a maximum frequency
       of 4.5GHz, Hpc8a instances deliver up to 40% higher performance and up to 25%
@@ -198,8 +208,9 @@ entries:
     id: 5840b74997302d5b2b8cf2c7b5d34f45
     title: Amazon Bedrock AgentCore Runtime now supports the AG-UI protocol
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-runtime-ag-ui-protocol/
-    published: '2026-03-13'
-    summary: "<p>Amazon Bedrock AgentCore Runtime now supports the Agent-User Interaction\
+    published: "2026-03-13"
+    summary:
+      "<p>Amazon Bedrock AgentCore Runtime now supports the Agent-User Interaction\
       \ (AG-UI) protocol, enabling developers to deploy AG-UI servers that deliver\
       \ responsive, real-time agent experiences to user-facing applications. With\
       \ AG-UI support, AgentCore Runtime handles authentication, session isolation,\
@@ -225,8 +236,9 @@ entries:
     id: fdeb17b7c84c56c0c480ccce656542d5
     title: AWS Security Agent now available with Service Quotas
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-agent-available-with-service/
-    published: '2026-03-13'
-    summary: "<p>Amazon Security Agent now supports AWS Service Quotas, giving users\
+    published: "2026-03-13"
+    summary:
+      "<p>Amazon Security Agent now supports AWS Service Quotas, giving users\
       \ a centralized way to view applied limits, monitor utilization, and scale case\
       \ workloads without hitting unexpected service constraints. You can request\
       \ quota increases directly from the Service Quotas console, and eligible requests\
@@ -238,4 +250,4 @@ entries:
       >AWS Security Agent page</a>. For detailed information on service quotas and\
       \ how to request increases, refer to the <a href=\"https://us-east-1.console.aws.amazon.com/servicequotas/home/services/securityagent/quotas\"\
       >AWS Security Agent documentation</a>.</p>"
-last_updated: '2026-03-19T06:55:06.165225'
+last_updated: "2026-03-19T06:55:06.165225"

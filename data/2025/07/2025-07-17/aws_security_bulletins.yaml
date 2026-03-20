@@ -3,8 +3,9 @@ entries:
     id: e27cbd1a159899a35fd789bf29f27348
     title: CVE-2025-6031 - Insecure device pairing in end-of-life Amazon Cloud Cam
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-013/
-    published: '2025-07-17'
-    summary: "<p><strong>Scope: Amazon<br /> Content Type: Informational<br /> Publication\
+    published: "2025-07-17"
+    summary:
+      "<p><strong>Scope: Amazon<br /> Content Type: Informational<br /> Publication\
       \ Date: 2025/06/12 10:30 AM PDT</strong></p>\n<p> </p>\n<p><strong>Description</strong></p>\
       \ \n<p>Amazon Cloud Cam is a home security camera that was deprecated on December\
       \ 2, 2022, is end of life, and is no longer actively supported.</p> \n<p>When\
@@ -14,4 +15,4 @@ entries:
       \ can bypass SSL pinning to associate the device to an arbitrary network, allowing\
       \ for network traffic interception and modification.</p> \n<p><strong>Affected\
       \ version:</strong> All</p>"
-last_updated: '2026-01-17T00:23:07.337592'
+last_updated: "2026-01-17T00:23:07.337592"

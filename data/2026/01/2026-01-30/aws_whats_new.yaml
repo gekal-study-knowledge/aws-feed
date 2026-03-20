@@ -3,8 +3,9 @@ entries:
     id: a059d24944ab85736a06946f58c5d71d
     title: New Partner Revenue Measurement gives visibility into AWS service consumption
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/new-partner-revenue-measurement
-    published: '2026-01-30'
-    summary: "<p>Today, AWS announces the launch of Partner Revenue Measurement, a\
+    published: "2026-01-30"
+    summary:
+      "<p>Today, AWS announces the launch of Partner Revenue Measurement, a\
       \ new capability that gives AWS Partners visibility into how their solutions\
       \ impact AWS service consumption across partner-managed and customer-managed\
       \ accounts.</p> \n<p>Partner Revenue Measurement allows Partners to better understand\
@@ -20,8 +21,9 @@ entries:
     id: a044b23a7bc473d8b1305b0bc7d14f9a
     title: Amazon GameLift Streams expands streaming capability to six new regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/glstreams-new-regions
-    published: '2026-01-30'
-    summary: '<p>Starting today, Amazon GameLift Streams provides streaming capabilities
+    published: "2026-01-30"
+    summary:
+      '<p>Starting today, Amazon GameLift Streams provides streaming capabilities
       in six new locations - eu-west-2 (London), eu-north-1 (Stockholm), sa-east-1
       (São Paulo), ap-south-1 (Mumbai), ap-northeast-2 (Seoul), and ap-southeast-2
       (Sydney) for all customers.<br /> <br /> New streaming locations enable customers
@@ -36,11 +38,13 @@ entries:
       Regions and remote locations</a></p>'
   4901a7b20d93b9e1f31489dfb5f33e63:
     id: 4901a7b20d93b9e1f31489dfb5f33e63
-    title: Amazon EC2 R8a instances are now available in Europe (Spain) and Europe
+    title:
+      Amazon EC2 R8a instances are now available in Europe (Spain) and Europe
       (Frankfurt) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-r8a-instances-are-available-europe
-    published: '2026-01-30'
-    summary: <p>Starting today, Amazon EC2 R8a instances are now available in Europe
+    published: "2026-01-30"
+    summary:
+      <p>Starting today, Amazon EC2 R8a instances are now available in Europe
       (Spain) and Europe (Frankfurt) Regions. These instances, feature 5th Gen AMD
       EPYC processors (formerly code named Turin) with a maximum frequency of 4.5
       GHz, deliver up to 30% higher performance, and up to 19% better price-performance
@@ -62,11 +66,13 @@ entries:
       target="_blank">R8a instance page</a>.</p>
   033f197caac05b5c092d1034a50b7bf4:
     id: 033f197caac05b5c092d1034a50b7bf4
-    title: Amazon RDS for Oracle now supports cross-Region replicas with additional
+    title:
+      Amazon RDS for Oracle now supports cross-Region replicas with additional
       storage volumes
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/rds-for-oracle-cross-region-replicas-additional-storage-volumes
-    published: '2026-01-30'
-    summary: <p><a href="https://aws.amazon.com/rds/oracle/">Amazon RDS for Oracle</a>
+    published: "2026-01-30"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/oracle/">Amazon RDS for Oracle</a>
       now supports cross-Region replicas with additional storage volumes. With additional
       storage volumes, customers can add up to three storage volumes, each with up
       to 64 TiB, in addition to the primary storage volume for their database instance.
@@ -96,8 +102,9 @@ entries:
     id: b46003b1742522a3c8a89936f7b3e04e
     title: Amazon SageMaker Unified Studio now supports AWS PrivateLink
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-unified-studio-aws-privatelink/
-    published: '2026-01-30'
-    summary: '<p>Today, Amazon SageMaker announced a new capability allowing you to
+    published: "2026-01-30"
+    summary:
+      '<p>Today, Amazon SageMaker announced a new capability allowing you to
       establish connectivity between your Amazon Virtual Private Cloud (VPC) and Amazon
       SageMaker Unified Studio without customer data traffic going through the public
       internet. Customers needing to go beyond the standard data transfer protocol
@@ -120,8 +127,9 @@ entries:
     id: b1c671efe6c47686db1913da1c68718c
     title: Amazon ECS now publishes container health status as a CloudWatch metric
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-container-health-status-metric/
-    published: '2026-01-30'
-    summary: <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
+    published: "2026-01-30"
+    summary:
+      <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
       Container Service</a> (Amazon ECS) now publishes container health status as
       a new metric in CloudWatch Container Insights with enhanced observability. Customers
       can now track the operational health of their containers through a dedicated
@@ -148,8 +156,9 @@ entries:
     id: aa8babd4fa7f3d8c4907bc4838cde334
     title: Amazon RDS now supports IPv6 for VPC endpoints of RDS Service APIs
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-ipv6-vpc-endpoints-service-apis
-    published: '2026-01-30'
-    summary: <p>Amazon RDS now supports Internet Protocol version 6 (IPv6) for VPC
+    published: "2026-01-30"
+    summary:
+      <p>Amazon RDS now supports Internet Protocol version 6 (IPv6) for VPC
       endpoints of RDS Service APIs, in addition to the existing IPv6 support for
       public endpoints. This allows you to configure dual-stack (IPv4 and IPv6) connectivity
       to access <a href="https://docs.aws.amazon.com/general/latest/gr/rds-service.html"
@@ -169,8 +178,9 @@ entries:
     id: 9eb1a498cea779b76c0d09b77e6db91e
     title: AWS Lambda launches enhanced observability for Kafka event source mappings
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-Lambda-observability-for-kafka-esm/
-    published: '2026-01-30'
-    summary: '<p style="text-align: left;">AWS Lambda launches enhanced observability
+    published: "2026-01-30"
+    summary:
+      '<p style="text-align: left;">AWS Lambda launches enhanced observability
       for Kafka event source mappings (ESM) that provides Amazon CloudWatch Logs and
       metrics to monitor event polling setup, scaling, and processing state of Kafka
       events. This capability allows customers to quickly diagnose setup issues and
@@ -203,8 +213,9 @@ entries:
     id: ca724af49a7d7940d59cfa76eb3770b4
     title: Amazon Connect launches improved wait time estimates
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-launches-improved-wait-time/
-    published: '2026-01-30'
-    summary: <p>Amazon Connect now delivers improved estimated wait time metrics for
+    published: "2026-01-30"
+    summary:
+      <p>Amazon Connect now delivers improved estimated wait time metrics for
       queues and enqueued contacts, empowering organizations. This allows contact
       centers to set accurate customer expectations, provide convenient options such
       as callbacks when hold times are extended, and balance workloads effectively
@@ -217,11 +228,13 @@ entries:
       criteria and agent proficiency configurations.&nbsp;</p>
   257be51c8d96c29ab54425d11f566981:
     id: 257be51c8d96c29ab54425d11f566981
-    title: Amazon CloudWatch Application Signals now supports integration with Kiro
+    title:
+      Amazon CloudWatch Application Signals now supports integration with Kiro
       powers
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/cloudwatch-application-signals-kiro-powers
-    published: '2026-01-30'
-    summary: "<p>Today, AWS announces <b><b>Amazon CloudWatch Application Signals\
+    published: "2026-01-30"
+    summary:
+      "<p>Today, AWS announces <b><b>Amazon CloudWatch Application Signals\
       \ integration with Kiro powers</b></b>, enabling developers and operators to\
       \ investigate application health issues faster with AI agent-assisted workflows\
       \ in Kiro. Kiro Powers is a repository of curated and pre-packaged Model Context\
@@ -247,4 +260,4 @@ entries:
       \ telemetry and enabling you to track application health, performance, and service\
       \ relationships. To get started, see the <a href=\"https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Application-Monitoring-Sections.html?utm_source=chatgpt.com\"\
       >Amazon CloudWatch Application Signals documentation</a>.</p>"
-last_updated: '2026-02-03T22:26:10.197223'
+last_updated: "2026-02-03T22:26:10.197223"

@@ -3,8 +3,9 @@ entries:
     id: 9526c6693a7b9d2826ca952a3a8cb939
     title: IMDS impersonation
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-021/
-    published: '2025-10-08'
-    summary: "<p><b>Bulletin ID:</b> AWS-2025-021<br /> <b>Scope:</b> AWS<br /> <b>Content\
+    published: "2025-10-08"
+    summary:
+      "<p><b>Bulletin ID:</b> AWS-2025-021<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/10/07\
       \ 01:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS is aware of a potential\
       \ Instance Metadata Service (IMDS) impersonation issue that would lead to customers\
@@ -22,4 +23,4 @@ entries:
       \ recommend that you monitor for IMDS endpoints that may be running in your\
       \ on-prem environment to proactively prevent such impersonation issues from\
       \ a third party.</p> \n<p><b>Affected versions:</b></p> \n<p>IMDSv1 and IMDSv2</p>"
-last_updated: '2026-01-17T00:23:07.318456'
+last_updated: "2026-01-17T00:23:07.318456"

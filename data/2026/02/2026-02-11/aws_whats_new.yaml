@@ -3,8 +3,9 @@ entries:
     id: 68f48f9bed31ff1a65db1e91eec3876c
     title: AWS Payment Cryptography Achieves Cartes Bancaires Approval
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/payment-cryptography-cartes-bancaires
-    published: '2026-02-11'
-    summary: '<p>Today, <a href="https://aws.amazon.com/payment-cryptography/">AWS
+    published: "2026-02-11"
+    summary:
+      '<p>Today, <a href="https://aws.amazon.com/payment-cryptography/">AWS
       Payment Cryptography</a> has become one of the first cloud-based payment cryptography
       services to obtain approval from <a href="https://www.cartes-bancaires.com/">Groupement
       des Cartes Bancaires (CB</a>), France''s national card payment network. This
@@ -29,11 +30,13 @@ entries:
       details.</p>'
   90dc37b3410198ab715b66f54e4e743f:
     id: 90dc37b3410198ab715b66f54e4e743f
-    title: Amazon Connect launches after contact work timeout configuration for tasks,
+    title:
+      Amazon Connect launches after contact work timeout configuration for tasks,
       chats, and emails
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-omnichannel-acw-timeouts
-    published: '2026-02-11'
-    summary: <p>Amazon Connect now supports the ability to configure agents with after
+    published: "2026-02-11"
+    summary:
+      <p>Amazon Connect now supports the ability to configure agents with after
       contact work timeout settings for chat, tasks, emails, and callbacks. After
       contact work timeouts improve agent efficiency by time-boxing the amount of
       time each agent can spend doing after contact work for a contact, before being
@@ -47,8 +50,9 @@ entries:
     id: 5596fd910660235b003912503bfbc55d
     title: Amazon Connect launches auto-accept for tasks, chats, and emails
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-omnichannel-auto-accept
-    published: '2026-02-11'
-    summary: <p>Amazon Connect now supports the ability to configure agents with auto-accept
+    published: "2026-02-11"
+    summary:
+      <p>Amazon Connect now supports the ability to configure agents with auto-accept
       settings for chat, tasks, emails, and callbacks. When auto-accept is enabled,
       incoming contacts are automatically connected to available agents instead of
       waiting on the agent to manually accept or reject each contact, ensuring that
@@ -62,8 +66,9 @@ entries:
     id: a298e75802a5321699bfd0250b5f45f7
     title: Amazon Aurora DSQL is now available in additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-additional-aws-regions
-    published: '2026-02-11'
-    summary: '<p>Amazon Aurora DSQL is now available with single-Region clusters in
+    published: "2026-02-11"
+    summary:
+      '<p>Amazon Aurora DSQL is now available with single-Region clusters in
       Asia Pacific (Melbourne), Asia Pacific (Sydney), Canada (Central), and Canada
       West (Calgary). Aurora DSQL is the fastest serverless, distributed SQL database
       that enables you to build always available applications with virtually unlimited
@@ -82,8 +87,9 @@ entries:
     id: 55d5056008646dd5dcb09f8535515339
     title: Amazon MSK now supports broker logs on Express Brokers
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-msk-express-brokers-support-broker-logs
-    published: '2026-02-11'
-    summary: <p><a href="https://aws.amazon.com/msk/">Amazon Managed Streaming for
+    published: "2026-02-11"
+    summary:
+      <p><a href="https://aws.amazon.com/msk/">Amazon Managed Streaming for
       Apache Kafka (MSK)</a> now supports broker logs for <a href="https://aws.amazon.com/msk/features/express-brokers-for-amazon-msk/">Express
       brokers</a> at no additional cost. With access to broker logs, you can troubleshoot
       client connectivity and availability issues and get insights into broker behavior
@@ -102,11 +108,13 @@ entries:
       MSK developer guide</a> to get started.&nbsp;</p>
   06495b2df4a7467ac6944406c1458df9:
     id: 06495b2df4a7467ac6944406c1458df9
-    title: AWS Elastic Beanstalk now supports GitHub Actions for automated application
+    title:
+      AWS Elastic Beanstalk now supports GitHub Actions for automated application
       deployment
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-elastic-beanstalk-github-action
-    published: '2026-02-11'
-    summary: "<p><a href=\"https://aws.amazon.com/elasticbeanstalk\">AWS Elastic Beanstalk</a>\
+    published: "2026-02-11"
+    summary:
+      "<p><a href=\"https://aws.amazon.com/elasticbeanstalk\">AWS Elastic Beanstalk</a>\
       \ now enables you to use GitHub Actions to automatically deploy web applications\
       \ when you push code or configuration changes to your GitHub repository, streamlining\
       \ your continuous integration and continuous deployment (CI/CD) pipeline for\
@@ -136,8 +144,9 @@ entries:
     id: b89c72369d72562d277a0accae268d7c
     title: AWS Lake Formation enhances cross-account sharing
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-lake-formation-cross-account-sharing
-    published: '2026-02-11'
-    summary: "<p>AWS Lake Formation now enhances cross-account sharing, allowing you\
+    published: "2026-02-11"
+    summary:
+      "<p>AWS Lake Formation now enhances cross-account sharing, allowing you\
       \ to share hundreds of thousands of tables across accounts. You can centralize\
       \ permissions in Lake Formation for resources such as catalogs, databases, and\
       \ tables for multi-account analytics environments that require fine-grained\
@@ -159,11 +168,13 @@ entries:
       >AWS Region table</a>.</p>"
   f0f650d5b119791bbba412c701d91d8e:
     id: f0f650d5b119791bbba412c701d91d8e
-    title: Amazon EC2 C8i and C8i-flex instances are now available in Europe (Paris),
+    title:
+      Amazon EC2 C8i and C8i-flex instances are now available in Europe (Paris),
       Canada (Central), and US West (N. California) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-c8i-flex-instances-europe-paris-canada-central-uswest-ncalifornia-regions
-    published: '2026-02-11'
-    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
+    published: "2026-02-11"
+    summary:
+      <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
       C8i-flex instances are available in the Europe (Paris), Canada (Central), and
       US West (N. California) regions. These instances are powered by custom Intel
       Xeon 6 processors, available only on AWS, delivering the highest performance
@@ -191,11 +202,13 @@ entries:
       target="_blank">AWS News blog</a>.</p>
   409f044ab417a2175b9083539d1881ea:
     id: 409f044ab417a2175b9083539d1881ea
-    title: Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.25,
+    title:
+      Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.25,
       10.11.16, 11.4.10, and 11.8.6
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-mariadb-community-versions/
-    published: '2026-02-11'
-    summary: <p><a href="https://aws.amazon.com/rds/mariadb/" target="_blank">Amazon
+    published: "2026-02-11"
+    summary:
+      <p><a href="https://aws.amazon.com/rds/mariadb/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for MariaDB</a> now supports community
       MariaDB minor versions 10.6.25, 10.11.16, 11.4.10, and 11.8.6. We recommend
       that you upgrade to the latest minor versions to fix known security vulnerabilities
@@ -217,11 +230,13 @@ entries:
       Management Console</a>.</p>
   9ec623606ed74b5794e9754f0779484c:
     id: 9ec623606ed74b5794e9754f0779484c
-    title: Amazon DocumentDB (with MongoDB compatibility) is Now Available in the
+    title:
+      Amazon DocumentDB (with MongoDB compatibility) is Now Available in the
       Asia Pacific (Melbourne) Region
     link: https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-documentdb-mongodb-compatibility-asia-pacific-melbourne-region
-    published: '2026-02-11'
-    summary: "<p>Amazon DocumentDB (with MongoDB compatibility) is now available in\
+    published: "2026-02-11"
+    summary:
+      "<p>Amazon DocumentDB (with MongoDB compatibility) is now available in\
       \ the Asia Pacific (Melbourne) region adding to the <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
       >list of available regions where you can use Amazon DocumentDB</a>.</p> \n<p>Amazon\
       \ DocumentDB is a fully managed, native JSON database that makes it simple and\
@@ -242,11 +257,13 @@ entries:
       >AWS Command Line Interface (CLI)</a>, or SDK.</p>"
   573b1c5f8b3ea52dd911c66a2164002e:
     id: 573b1c5f8b3ea52dd911c66a2164002e
-    title: Amazon DocumentDB (with MongoDB compatibility) is Now Available in the
+    title:
+      Amazon DocumentDB (with MongoDB compatibility) is Now Available in the
       Europe (Zurich) Region
     link: https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-documentdb-mongodb-compatibility-europe-zurich-region
-    published: '2026-02-11'
-    summary: "<p>Amazon DocumentDB (with MongoDB compatibility) is now available in\
+    published: "2026-02-11"
+    summary:
+      "<p>Amazon DocumentDB (with MongoDB compatibility) is now available in\
       \ the Europe (Zurich) region adding to the <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
       >list of available regions where you can use Amazon DocumentDB</a>.</p> \n<p>Amazon\
       \ DocumentDB is a fully managed, native JSON database that makes it simple and\
@@ -269,8 +286,9 @@ entries:
     id: 934eb6a1b11a555116074f7011e16706
     title: Amazon Connect introduces audio enhancements for noisy environments
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-audio-enhancements
-    published: '2026-02-11'
-    summary: <p>Today, AWS announces the release of Audio Enhancement for Amazon Connect,
+    published: "2026-02-11"
+    summary:
+      <p>Today, AWS announces the release of Audio Enhancement for Amazon Connect,
       helping improve audio quality and reliability for voice calls in noisy contact
       center environments. With this launch, you can enable Audio Enhancement for
       your agents so that end customers can hear them more clearly, even in the presence
@@ -294,8 +312,9 @@ entries:
     id: 408afd7fe81d009815a7c47b3f1bef1c
     title: AWS announces 6 new locations for AWS Data Transfer Terminal
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-data-transfer-terminal-6-new-locations/
-    published: '2026-02-11'
-    summary: <p>AWS Data Transfer Terminal is now available in six additional locations
+    published: "2026-02-11"
+    summary:
+      <p>AWS Data Transfer Terminal is now available in six additional locations
       in Seattle and Phoenix (US), London (UK), Paris (France), Sydney (Australia),
       and Tokyo (Japan), expanding availability alongside existing locations in San
       Francisco, Los Angeles, and New York City (US), and Munich (Germany)<b>. </b>AWS
@@ -320,8 +339,9 @@ entries:
     id: 25c7b84fc37030d5736e1a9d975c4821
     title: MSK simplifies Kafka topic management with new APIs and console integration
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-msk-kafka-topics-public-apis/
-    published: '2026-02-11'
-    summary: <p>Amazon Managed Streaming for Apache Kafka (Amazon MSK) now offers
+    published: "2026-02-11"
+    summary:
+      <p>Amazon Managed Streaming for Apache Kafka (Amazon MSK) now offers
       three new APIs (CreateTopic, UpdateTopic, and DeleteTopic), making it easier
       to manage your Kafka topics for your MSK provisioned clusters without the need
       to set up and maintain Kafka admin clients. You can programmatically create,
@@ -342,11 +362,13 @@ entries:
       target="_blank">Amazon MSK Developer Guide</a>.</p>
   e141951ef93efaf3885d28df885dd024:
     id: e141951ef93efaf3885d28df885dd024
-    title: Amazon EC2 R8i and R8i-flex instances are now available in additional AWS
+    title:
+      Amazon EC2 R8i and R8i-flex instances are now available in additional AWS
       regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8i-r8i-flex-instances-AKL-DXB-region/
-    published: '2026-02-11'
-    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and
+    published: "2026-02-11"
+    summary:
+      <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and
       R8i-flex instances are available in the Asia Pacific (New Zealand) and Middle
       East (UAE) regions. These instances are powered by custom Intel Xeon 6 processors,
       available only on AWS, delivering the highest performance and fastest memory
@@ -375,8 +397,9 @@ entries:
     id: dd59f2e5454e6c835bfa067eae18252a
     title: Amazon Bedrock AgentCore Browser now supports proxy configuration
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/bedrock-agentcore-browser-proxy
-    published: '2026-02-11'
-    summary: '<p>Amazon Bedrock AgentCore Browser now supports customer-provided proxy
+    published: "2026-02-11"
+    summary:
+      '<p>Amazon Bedrock AgentCore Browser now supports customer-provided proxy
       configuration, enabling customers to route browser sessions through their own
       proxy infrastructure for geo-targeting, regional content access, and compliance
       requirements. Organizations can access geo-restricted content, verify region-specific
@@ -398,4 +421,4 @@ entries:
       Canada (Central), Europe (Frankfurt), Europe (Ireland), Europe (London), Europe
       (Paris), and Europe (Stockholm).<br /> <br /> To learn more, visit the <a href="https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/browser-proxies.html">Browser
       Proxies documentation</a>.</p>'
-last_updated: '2026-02-12T21:29:33.781426'
+last_updated: "2026-02-12T21:29:33.781426"

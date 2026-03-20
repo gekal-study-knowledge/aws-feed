@@ -3,8 +3,9 @@ entries:
     id: 410f38a2002b717c1118b7105ea46c0d
     title: Claude Sonnet 4.6 now available in Amazon Bedrock
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/claude-sonnet-4.6-available-in-amazon-bedrock/
-    published: '2026-02-17'
-    summary: "<p>Starting today, Amazon Bedrock supports Claude Sonnet 4.6, which\
+    published: "2026-02-17"
+    summary:
+      "<p>Starting today, Amazon Bedrock supports Claude Sonnet 4.6, which\
       \ offers frontier performance across coding, agents, and professional work at\
       \ scale.&nbsp;According to Anthropic, Claude Sonnet 4.6 is their best computer\
       \ use model yet, allowing organizations&nbsp;to deploy browser-based automation\
@@ -36,8 +37,9 @@ entries:
     id: d4afabbddf444e5bed1474df5d5cde52
     title: Amazon Connect now includes agent time-off requests in draft schedules
     link: https://aws.amazon.com/about-aws/whats-new/2025/02/amazon-connect-time-off-draft-schedules
-    published: '2026-02-17'
-    summary: <p>Amazon Connect now includes agent time-off requests in draft schedules,
+    published: "2026-02-17"
+    summary:
+      <p>Amazon Connect now includes agent time-off requests in draft schedules,
       making it easier for you to view why an agent was not scheduled on a particular
       day or part of the day. For example, when generating schedules for next month,
       you can see that an agent who typically works Monday to Friday wasn't scheduled
@@ -50,11 +52,13 @@ entries:
       about Amazon Connect agent scheduling, click <a href="https://docs.aws.amazon.com/connect/latest/adminguide/forecasting-capacity-planning-scheduling.html">here</a>.</p>
   9d785b2fb99df67e400b4b12091a9b27:
     id: 9d785b2fb99df67e400b4b12091a9b27
-    title: Amazon EC2 C8a instances now available in the Europe (Frankfurt) and Europe
+    title:
+      Amazon EC2 C8a instances now available in the Europe (Frankfurt) and Europe
       (Ireland) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8a-instances-europe-frankfurt-europe-ireland-regions
-    published: '2026-02-17'
-    summary: <p>Starting today, the compute-optimized Amazon EC2 C8a instances are
+    published: "2026-02-17"
+    summary:
+      <p>Starting today, the compute-optimized Amazon EC2 C8a instances are
       available in the Europe (Frankfurt) and Europe (Ireland) regions. C8a instances
       are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with
       a maximum frequency of 4.5 GHz, delivering up to 30% higher performance and
@@ -75,11 +79,13 @@ entries:
       page.</a></p>
   c7dfaa4984fc73e4700645e50ba74472:
     id: c7dfaa4984fc73e4700645e50ba74472
-    title: Amazon Bedrock reinforcement fine-tuning adds support for open-weight models
+    title:
+      Amazon Bedrock reinforcement fine-tuning adds support for open-weight models
       with OpenAI-compatible APIs
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-reinforcement-fine-tuning-openai
-    published: '2026-02-17'
-    summary: '<p>Amazon Bedrock now extends reinforcement fine-tuning (RFT) support
+    published: "2026-02-17"
+    summary:
+      '<p>Amazon Bedrock now extends reinforcement fine-tuning (RFT) support
       to popular open-weight models, including OpenAI GPT-OSS and Qwen models, and
       introduces OpenAI-compatible fine-tuning APIs. These capabilities make it easier
       for developers to improve open-weight model accuracy without requiring deep
@@ -109,11 +115,13 @@ entries:
       target="_blank">documentation</a>.</p>'
   3f44fc46843fa8f6b412834563a7600d:
     id: 3f44fc46843fa8f6b412834563a7600d
-    title: Amazon MSK now supports dual-stack (IPv4 and IPv6) connectivity for existing
+    title:
+      Amazon MSK now supports dual-stack (IPv4 and IPv6) connectivity for existing
       clusters
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-msk-dual-stack-ipv4-and-ipv6
-    published: '2026-02-17'
-    summary: <p>Amazon Managed Streaming for Apache Kafka (<a href="https://aws.amazon.com/msk/">Amazon
+    published: "2026-02-17"
+    summary:
+      <p>Amazon Managed Streaming for Apache Kafka (<a href="https://aws.amazon.com/msk/">Amazon
       MSK</a>) now supports dual-stack connectivity (IPv4 and IPv6) for existing MSK
       Provisioned and MSK Serverless clusters. This capability enables customers to
       connect to Amazon MSK using both IPv4 and IPv6 protocols, in addition to the
@@ -141,8 +149,9 @@ entries:
     id: 657cc35d32a9fea20322972d8521caec
     title: Amazon Connect now supports multi-line text fields on case templates
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-cases-multiline-text-fields/
-    published: '2026-02-17'
-    summary: '<p>Amazon Connect now supports larger, multi-line text fields on case
+    published: "2026-02-17"
+    summary:
+      '<p>Amazon Connect now supports larger, multi-line text fields on case
       templates allowing agents to capture detailed free-form notes and structured
       data directly within cases. These fields expand vertically to accommodate multiple
       paragraphs, making it easier to document root cause analysis, transaction details,
@@ -156,11 +165,13 @@ entries:
       target="_blank">documentation</a>.</p>'
   57618071e3a986b51319c37c392b3af4:
     id: 57618071e3a986b51319c37c392b3af4
-    title: Amazon Aurora MySQL 3.12 (compatible with MySQL 8.0.44) is now generally
+    title:
+      Amazon Aurora MySQL 3.12 (compatible with MySQL 8.0.44) is now generally
       available
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-mysql-312-available/
-    published: '2026-02-17'
-    summary: <p>Starting today, Amazon Aurora MySQL - Compatible Edition 3 (with MySQL
+    published: "2026-02-17"
+    summary:
+      <p>Starting today, Amazon Aurora MySQL - Compatible Edition 3 (with MySQL
       8.0 compatibility) will support MySQL 8.0.44 through Aurora MySQL v3.12.<br
       /> <br /> In addition to many security enhancements and bug fixes, Aurora MySQL
       v3.12 contains several availability improvements. For more details, refer to
@@ -180,11 +191,13 @@ entries:
       target="_blank">getting started page</a>.</p>
   bbea1eee2ae97db7f8c184280cbc1ce0:
     id: bbea1eee2ae97db7f8c184280cbc1ce0
-    title: Amazon EC2 R8i and R8i-flex instances are now available in Europe (Ireland)
+    title:
+      Amazon EC2 R8i and R8i-flex instances are now available in Europe (Ireland)
       region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8i-r8i-flex-instances-DUB-region/
-    published: '2026-02-17'
-    summary: <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and
+    published: "2026-02-17"
+    summary:
+      <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and
       R8i-flex instances are available in the Europe (Ireland) region. These instances
       are powered by custom Intel Xeon 6 processors, available only on AWS, delivering
       the highest performance and fastest memory bandwidth among comparable Intel
@@ -213,8 +226,9 @@ entries:
     id: db6cf350b46c28b98cf5f564f9bd6c6d
     title: Amazon EventBridge Scheduler adds resource count metrics for quota monitoring
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eventbridge-scheduler-resource-metrics/
-    published: '2026-02-17'
-    summary: "<p>Amazon EventBridge Scheduler now emits resource count metrics to\
+    published: "2026-02-17"
+    summary:
+      "<p>Amazon EventBridge Scheduler now emits resource count metrics to\
       \ Amazon CloudWatch, enabling you to monitor the approximate number of schedules\
       \ and schedule groups in your account. These new metrics help you identify when\
       \ you're approaching your service quota limits so you can request increases\
@@ -232,4 +246,4 @@ entries:
       >Monitoring EventBridge Scheduler documentation</a>&nbsp;or view the metrics\
       \ in the <a href=\"https://console.aws.amazon.com/cloudwatch/home#metricsV2:graph=~();query=~%27*7bAWS*2fUsage*2cClass*2cResource*2cService*2cType*7d*20Service*3d*22Scheduler*22\"\
       >CloudWatch console</a>.</p>"
-last_updated: '2026-02-27T01:48:32.580857'
+last_updated: "2026-02-27T01:48:32.580857"

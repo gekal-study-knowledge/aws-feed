@@ -1,10 +1,10 @@
-import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardActionArea from '@mui/material/CardActionArea';
-import Typography from '@mui/material/Typography';
-import Link from 'next/link';
-import VisitedIcon from '@/components/atoms/VisitedIcon';
+import * as React from "react";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardActionArea from "@mui/material/CardActionArea";
+import Typography from "@mui/material/Typography";
+import Link from "next/link";
+import VisitedIcon from "@/components/atoms/VisitedIcon";
 
 interface PostCardProps {
   slug: string;
@@ -26,22 +26,38 @@ export default function PostCard({
   newsCounter,
 }: PostCardProps) {
   return (
-    <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+    <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
       <Link
         href={`/posts/${year}/${month}/${day}/${slug}`}
         passHref
-        style={{ textDecoration: 'none', color: 'inherit' }}
+        style={{ textDecoration: "none", color: "inherit" }}
       >
         <CardActionArea component="span" sx={{ flexGrow: 1 }}>
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div" color="primary">
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="div"
+              color="primary"
+            >
               {title}
               <VisitedIcon year={year} month={month} day={day} slug={slug} />
             </Typography>
-            <Typography variant="body2" color="text.secondary" sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <Typography
+              variant="body2"
+              color="text.secondary"
+              sx={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+              }}
+            >
               <span>{date}</span>
               {newsCounter !== undefined && (
-                <Typography variant="caption" sx={{ fontWeight: 'bold', color: 'secondary.main' }}>
+                <Typography
+                  variant="caption"
+                  sx={{ fontWeight: "bold", color: "secondary.main" }}
+                >
                   {newsCounter} 件の更新
                 </Typography>
               )}
