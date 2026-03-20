@@ -7,7 +7,7 @@ RSSフィードを取得し、日単位でまとめてMarkdownを生成します
 import feedparser
 import yaml
 import os
-from datetime import datetime, date
+from datetime import datetime, date, timedelta, timezone
 from pathlib import Path
 from typing import List, Dict, Any
 import hashlib
@@ -34,9 +34,15 @@ def generate_entry_id(entry: Any) -> str:
     return hashlib.md5(content.encode()).hexdigest()
 
 
+def get_date_path(entry_date: date) -> str:
+    """日付から年/月のパスを生成する"""
+    return os.path.join(str(entry_date.year), f"{entry_date.month:02d}")
+
+
 def load_daily_data(entry_date: date, source_id: str, data_dir: str) -> Dict[str, Any]:
     """日毎・情報源ごとのYAMLデータを読み込む"""
-    date_dir = Path(data_dir) / entry_date.isoformat()
+    date_path = get_date_path(entry_date)
+    date_dir = Path(data_dir) / date_path / entry_date.isoformat()
     data_file = date_dir / f"{source_id}.yaml"
     if data_file.exists():
         with open(data_file, 'r', encoding='utf-8') as f:
@@ -46,7 +52,8 @@ def load_daily_data(entry_date: date, source_id: str, data_dir: str) -> Dict[str
 
 def save_daily_data(entry_date: date, source_id: str, data: Dict[str, Any], data_dir: str):
     """日毎・情報源ごとのYAMLデータを保存する"""
-    date_dir = Path(data_dir) / entry_date.isoformat()
+    date_path = get_date_path(entry_date)
+    date_dir = Path(data_dir) / date_path / entry_date.isoformat()
     date_dir.mkdir(parents=True, exist_ok=True)
     data_file = date_dir / f"{source_id}.yaml"
     with open(data_file, 'w', encoding='utf-8') as f:
@@ -60,15 +67,12 @@ def load_all_existing_ids(source_id: str, data_dir: str) -> set:
     if not data_path.exists():
         return existing_ids
 
-    # 全ての日付ディレクトリを走査
-    for date_dir in data_path.iterdir():
-        if date_dir.is_dir():
-            data_file = date_dir / f"{source_id}.yaml"
-            if data_file.exists():
-                with open(data_file, 'r', encoding='utf-8') as f:
-                    daily_data = yaml.safe_load(f) or {}
-                    entries = daily_data.get('entries', {})
-                    existing_ids.update(entries.keys())
+    # 全ての日付ディレクトリを再帰的に走査
+    for yaml_file in data_path.rglob(f"{source_id}.yaml"):
+        with open(yaml_file, 'r', encoding='utf-8') as f:
+            daily_data = yaml.safe_load(f) or {}
+            entries = daily_data.get('entries', {})
+            existing_ids.update(entries.keys())
 
     return existing_ids
 
@@ -83,6 +87,11 @@ def parse_entry_date(entry: Any) -> date:
         return dt.date()
     else:
         return date.today()
+
+
+def get_jst_now() -> datetime:
+    """JSTの現在時刻を取得する"""
+    return datetime.now(timezone(timedelta(hours=9)))
 
 
 def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[str, Any]], set]:
@@ -134,7 +143,7 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[
         if 'entries' not in daily_data:
             daily_data['entries'] = {}
         daily_data['entries'].update(entries_dict)
-        daily_data['last_updated'] = datetime.now().isoformat()
+        daily_data['last_updated'] = get_jst_now().strftime('%Y-%m-%d %H:%M:%S JST')
 
         # 保存
         save_daily_data(entry_date, source_id, daily_data, data_dir)
@@ -144,11 +153,15 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[
 
 def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, Any], output_dir: str):
     """YAMLデータから日単位のMarkdownファイルを生成する"""
-    Path(output_dir).mkdir(parents=True, exist_ok=True)
-    output_file = Path(output_dir) / f"{entry_date.isoformat()}.md"
+    date_path = get_date_path(entry_date)
+    target_dir = Path(output_dir) / date_path
+    target_dir.mkdir(parents=True, exist_ok=True)
+    output_file = target_dir / f"{entry_date.isoformat()}-news.md"
 
     # 該当日付の全情報源のYAMLデータを読み込む
     entries_by_source = {}
+    last_updated_list = []
+    all_published_dates = []
 
     for feed_config in config['feeds']:
         source_id = feed_config['source_id']
@@ -159,16 +172,52 @@ def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, A
             entries = []
             for entry_id, entry_data in daily_data['entries'].items():
                 entries.append(entry_data)
+                if entry_data.get('published'):
+                    all_published_dates.append(entry_data['published'])
 
             # 公開日順にソート
             entries.sort(key=lambda x: x['published'])
             entries_by_source[source_name] = entries
 
+            if daily_data.get('last_updated'):
+                last_updated_list.append(daily_data['last_updated'])
+
     if not entries_by_source:
         return
 
+    # last_updatedの決定
+    # 1. YAMLに保存されているlast_updatedがある場合、最新のものを使う
+    # 2. 無い場合、全エントリーのpublishedの最大値を "YYYY-MM-DD 00:00:00 JST" 形式で作成
+    if last_updated_list:
+        # 文字列比較で最新を取得
+        raw_latest = max(last_updated_list)
+        # ISO形式 (2026-03-02T07:47:09...) の場合は JST 形式に変換を試みる
+        if 'T' in raw_latest and ' JST' not in raw_latest:
+            try:
+                # 2026-03-02T07:47:09.975456 -> 2026-03-02 07:47:09 JST
+                dt = datetime.fromisoformat(raw_latest)
+                last_updated = dt.strftime('%Y-%m-%d %H:%M:%S JST')
+            except ValueError:
+                last_updated = raw_latest
+        else:
+            last_updated = raw_latest
+    elif all_published_dates:
+        latest_pub = max(all_published_dates)
+        # 既存分は feed の最後の日付とのことなので、published の最大値を使う。時間はとりあえず 00:00:00 JST か 23:59:59 JST?
+        # ユーザーの例が 21:40:01 なので、特に指定がなければ 00:00:00 とかで良さそう。
+        last_updated = f"{latest_pub} 00:00:00 JST"
+    else:
+        last_updated = get_jst_now().strftime('%Y-%m-%d %H:%M:%S JST')
+
     # Markdownコンテンツを生成
     with open(output_file, 'w', encoding='utf-8') as f:
+        # YAML Front Matter
+        f.write("---\n")
+        f.write("layout: default\n")
+        f.write(f"title: AWS News - {entry_date.isoformat()}\n")
+        f.write(f"last_updated: {last_updated}\n")
+        f.write("---\n\n")
+
         f.write(f"# AWS Updates - {entry_date.isoformat()}\n\n")
 
         for source_name, source_entries in entries_by_source.items():
@@ -255,8 +304,17 @@ def generate_reports_index(data_dir: str, docs_dir: str, config: Dict[str, Any],
     reports = []
 
     if data_path.exists():
-        # 全ての日付ディレクトリを取得
-        date_dirs = sorted([d for d in data_path.iterdir() if d.is_dir()], reverse=True)
+        # 全ての日付ディレクトリ（YYYY-MM-DD形式）を再帰的に取得
+        date_dirs = []
+        for d in data_path.rglob("*"):
+            if d.is_dir() and len(d.name) == 10: # YYYY-MM-DD
+                try:
+                    datetime.strptime(d.name, '%Y-%m-%d')
+                    date_dirs.append(d)
+                except ValueError:
+                    continue
+        
+        date_dirs.sort(key=lambda x: x.name, reverse=True)
 
         for date_dir in date_dirs:
             date_str = date_dir.name
@@ -353,7 +411,7 @@ def generate_index_html(reports: List[Dict[str, Any]]) -> str:
             {reports_html}
         </main>
         <footer>
-            <p>最終更新: {datetime.now().strftime('%Y年%m月%d日 %H:%M')} | 自動更新: 1時間ごと | <a href="https://github.com/gekal-study-knowledge/aws-feed" target="_blank">GitHub</a></p>
+            <p>最終更新: {get_jst_now().strftime('%Y年%m月%d日 %H:%M')} | 自動更新: 1時間ごと | <a href="https://github.com/gekal-study-knowledge/aws-feed" target="_blank">GitHub</a></p>
         </footer>
     </div>
 </body>
@@ -379,8 +437,9 @@ def main():
         print("Rebuilding all reports from existing data...")
         data_path = Path(data_dir)
         if data_path.exists():
-            for date_dir in data_path.iterdir():
-                if date_dir.is_dir():
+            # 再帰的に日付ディレクトリを探す
+            for date_dir in data_path.rglob("*"):
+                if date_dir.is_dir() and len(date_dir.name) == 10:
                     try:
                         entry_date = datetime.strptime(date_dir.name, '%Y-%m-%d').date()
                         all_updated_dates.add(entry_date)

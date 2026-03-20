@@ -1,6 +1,11 @@
 ### IntelliJ IDEA ###
 .idea
 
+# Next.js
+.next/
+out/
+node_modules/
+
 # Python
 __pycache__/
 *.py[cod]
