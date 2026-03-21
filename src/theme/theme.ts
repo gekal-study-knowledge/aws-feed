@@ -53,6 +53,18 @@ const theme = createTheme({
           wordBreak: "break-all",
           overflowWrap: "break-word",
         },
+        "& table": {
+          display: "block",
+          width: "100% !important",
+          maxWidth: "100%",
+          overflowX: "auto",
+          WebkitOverflowScrolling: "touch",
+          borderCollapse: "collapse",
+          whiteSpace: "nowrap",
+        },
+        "& th, & td": {
+          padding: "8px 16px",
+        },
       },
     },
     MuiButton: {
