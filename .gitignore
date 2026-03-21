@@ -2,6 +2,7 @@
 .idea
 
 # Next.js
+next-env.d.ts
 .next/
 out/
 node_modules/
