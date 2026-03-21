@@ -24,13 +24,31 @@ export default function VisitedIcon({
 
   React.useEffect(() => {
     const visitedKey = "visited_posts";
-    const visitedPosts = JSON.parse(
-      localStorage.getItem(visitedKey) || "{}",
-    ) as Record<string, number>;
-    const currentPostId = `${year}/${month}/${day}/${slug}` as string;
-    if (visitedPosts.hasOwnProperty(currentPostId)) {
+    const currentPostId = `${year}/${month}/${day}/${slug}`;
+
+    let visitedPosts: Record<string, number> = {};
+
+    try {
+      const parsedData = JSON.parse(localStorage.getItem(visitedKey) || "{}");
+
+      if (Array.isArray(parsedData)) {
+        parsedData.forEach((postId) => {
+          if (typeof postId === "string") {
+            visitedPosts[postId] = -1;
+          }
+        });
+      } else if (parsedData !== null && typeof parsedData === "object") {
+        visitedPosts = parsedData as Record<string, number>;
+      }
+    } catch (error) {
+      console.error("Failed to parse visited_posts in useEffect:", error);
+    }
+
+    const postCounter = visitedPosts[currentPostId];
+
+    if (postCounter !== undefined) {
       setVisited(true);
-      setUpdated(visitedPosts[currentPostId] === newsCounter);
+      setUpdated(postCounter === newsCounter);
     }
   }, [year, month, day, slug, newsCounter]);
 

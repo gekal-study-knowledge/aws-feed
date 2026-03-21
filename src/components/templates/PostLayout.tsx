@@ -53,7 +53,7 @@ export default function PostLayout({
       if (Array.isArray(parsedData)) {
         parsedData.forEach((postId) => {
           if (typeof postId === "string") {
-            visitedPosts[postId] = newsCounter;
+            visitedPosts[postId] = -1;
           }
         });
       } else if (parsedData !== null && typeof parsedData === "object") {
