@@ -17,7 +17,7 @@ export default function Icon() {
     <div
       style={{
         fontSize: 24,
-        background: "#157878",
+        background: "#ff9900",
         width: "100%",
         height: "100%",
         display: "flex",
@@ -28,7 +28,7 @@ export default function Icon() {
         fontWeight: "bold",
       }}
     >
-      DA
+      AN
     </div>,
     // ImageResponse options
     {
