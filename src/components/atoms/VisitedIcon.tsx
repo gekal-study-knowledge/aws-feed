@@ -48,7 +48,7 @@ export default function VisitedIcon({
 
     if (postCounter !== undefined) {
       setVisited(true);
-      setUpdated(postCounter === newsCounter);
+      setUpdated(postCounter !== newsCounter);
     }
   }, [year, month, day, slug, newsCounter]);
 

@@ -57,7 +57,13 @@ export default function PostCard({
               color="primary"
             >
               {title}
-              <VisitedIcon year={year} month={month} day={day} slug={slug} />
+              <VisitedIcon
+                year={year}
+                month={month}
+                day={day}
+                slug={slug}
+                newsCounter={newsCounter}
+              />
             </Typography>
             <Typography
               variant="body2"
