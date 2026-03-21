@@ -16,6 +16,7 @@ import NavigationLinks from "@/components/organisms/NavigationLinks";
 interface PostLayoutProps {
   title: string;
   date: string;
+  newsCounter?: number;
   lastUpdated?: string;
   contentHtml: string;
   previous?: string | null;
@@ -29,6 +30,7 @@ interface PostLayoutProps {
 export default function PostLayout({
   title,
   date,
+  newsCounter = -1,
   lastUpdated,
   contentHtml,
   previous,
@@ -44,10 +46,15 @@ export default function PostLayout({
   React.useEffect(() => {
     // 訪問済みとして保存
     const visitedKey = "visited_posts";
-    const visitedPosts = JSON.parse(localStorage.getItem(visitedKey) || "[]");
+    const visitedPosts = JSON.parse(
+      localStorage.getItem(visitedKey) || "{}",
+    ) as Record<string, number>;
     const currentPostId = `${year}/${month}/${day}/${slug}`;
-    if (!visitedPosts.includes(currentPostId)) {
-      visitedPosts.push(currentPostId);
+    if (
+      !visitedPosts.hasOwnProperty(currentPostId) ||
+      visitedPosts[currentPostId] !== newsCounter
+    ) {
+      visitedPosts[currentPostId] = newsCounter;
       localStorage.setItem(visitedKey, JSON.stringify(visitedPosts));
     }
 

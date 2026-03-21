@@ -24,11 +24,11 @@ export async function generateMetadata({
 
 export async function generateStaticParams() {
   const allPostParams = getAllPostSlugs();
-  return allPostParams.map((p) => ({
-    year: p.params.year,
-    month: p.params.month,
-    day: p.params.day,
-    slug: p.params.slug,
+  return allPostParams.map((postParam) => ({
+    year: postParam.params.year,
+    month: postParam.params.month,
+    day: postParam.params.day,
+    slug: postParam.params.slug,
   }));
 }
 
@@ -42,6 +42,7 @@ export default async function Post({ params }: PostProps) {
     <PostLayout
       title={postData.title}
       date={postData.date}
+      newsCounter={postData.newsCounter}
       lastUpdated={postData.lastUpdated}
       contentHtml={postData.contentHtml || ""}
       previous={postData.previous}
