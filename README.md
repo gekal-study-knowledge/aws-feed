@@ -104,19 +104,19 @@ https://gekal-study-knowledge.github.io/aws-feed/
 ```yaml
 feeds:
   - name: "AWS What's New"
-    url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
-    source_id: "aws_whats_new"
+    url: 'https://aws.amazon.com/about-aws/whats-new/recent/feed/'
+    source_id: 'aws_whats_new'
 
-  - name: "AWS News Blog"
-    url: "https://aws.amazon.com/blogs/aws/feed/"
-    source_id: "aws_news_blog"
+  - name: 'AWS News Blog'
+    url: 'https://aws.amazon.com/blogs/aws/feed/'
+    source_id: 'aws_news_blog'
 
-  - name: "AWS Security Blog"
-    url: "https://aws.amazon.com/blogs/security/feed/"
-    source_id: "aws_security_blog"
+  - name: 'AWS Security Blog'
+    url: 'https://aws.amazon.com/blogs/security/feed/'
+    source_id: 'aws_security_blog'
 
-data_dir: "data"
-output_dir: "_posts"
+data_dir: 'data'
+output_dir: '_posts'
 ```
 
 ### フィードの追加方法
@@ -125,9 +125,9 @@ output_dir: "_posts"
 
 ```yaml
 feeds:
-  - name: "表示名"
-    url: "RSSフィードのURL"
-    source_id: "一意な識別子"
+  - name: '表示名'
+    url: 'RSSフィードのURL'
+    source_id: '一意な識別子'
 ```
 
 ## 出力形式
@@ -142,17 +142,17 @@ feeds:
 entries:
   abc123def456:
     id: abc123def456
-    title: "記事のタイトル"
-    link: "https://..."
-    published: "2026-01-12"
-    summary: "記事の概要"
+    title: '記事のタイトル'
+    link: 'https://...'
+    published: '2026-01-12'
+    summary: '記事の概要'
   def789ghi012:
     id: def789ghi012
-    title: "別の記事のタイトル"
-    link: "https://..."
-    published: "2026-01-12"
-    summary: "別の記事の概要"
-last_updated: "2026-01-12T10:30:00"
+    title: '別の記事のタイトル'
+    link: 'https://...'
+    published: '2026-01-12'
+    summary: '別の記事の概要'
+last_updated: '2026-01-12T10:30:00'
 ```
 
 ### 日単位レポート (Markdown)

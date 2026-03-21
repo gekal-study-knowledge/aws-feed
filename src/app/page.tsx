@@ -1,21 +1,21 @@
-import * as React from "react";
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import Divider from "@mui/material/Divider";
-import Chip from "@mui/material/Chip";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import Link from "next/link";
-import { getSortedPostsData, getPostsByMonth } from "@/lib/posts";
-import PostList from "@/components/organisms/PostList";
-import ThemeSwitcher from "@/components/atoms/ThemeSwitcher";
-import UpdateNotifier from "@/components/organisms/UpdateNotifier";
-import type { Metadata } from "next";
-import { subMonths, startOfMonth, format, isAfter, parseISO } from "date-fns";
+import * as React from 'react';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Divider from '@mui/material/Divider';
+import Chip from '@mui/material/Chip';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import Link from 'next/link';
+import { getSortedPostsData, getPostsByMonth } from '@/lib/posts';
+import PostList from '@/components/organisms/PostList';
+import ThemeSwitcher from '@/components/atoms/ThemeSwitcher';
+import UpdateNotifier from '@/components/organisms/UpdateNotifier';
+import type { Metadata } from 'next';
+import { subMonths, startOfMonth, format, isAfter, parseISO } from 'date-fns';
 
 export const metadata: Metadata = {
-  title: "AWS News Feed Archive",
+  title: 'AWS News Feed Archive',
 };
 
 export default function Home() {
@@ -24,14 +24,11 @@ export default function Home() {
 
   // 先月1日の日付を取得
   const lastMonthFirstDay = startOfMonth(subMonths(new Date(), 1));
-  const filterDateStr = format(lastMonthFirstDay, "yyyy-MM-01");
+  const filterDateStr = format(lastMonthFirstDay, 'yyyy-MM-01');
 
   // 先月1日以降の記事をフィルタリング
   const recentPosts = allPostsData.filter((post) => {
-    return (
-      isAfter(parseISO(post.date), lastMonthFirstDay) ||
-      post.date === filterDateStr
-    );
+    return isAfter(parseISO(post.date), lastMonthFirstDay) || post.date === filterDateStr;
   });
 
   const monthKeys = Object.keys(postsByMonth).sort().reverse();
@@ -39,7 +36,7 @@ export default function Home() {
   return (
     <Container maxWidth="lg">
       <Box sx={{ my: 4 }}>
-        <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
+        <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
           <ThemeSwitcher />
         </Box>
         <Typography
@@ -67,22 +64,17 @@ export default function Home() {
 
         <Box
           sx={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "center",
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
             gap: 2,
             mb: 6,
           }}
         >
           {monthKeys.map((key) => {
-            const [year, month] = key.split("-");
+            const [year, month] = key.split('-');
             return (
-              <Link
-                key={key}
-                href={`/archive/${key}`}
-                passHref
-                style={{ textDecoration: "none" }}
-              >
+              <Link key={key} href={`/archive/${key}`} passHref style={{ textDecoration: 'none' }}>
                 <Button variant="outlined" size="small" component="span">
                   {year}年{month}月
                 </Button>
@@ -96,7 +88,7 @@ export default function Home() {
         </Divider>
 
         <UpdateNotifier
-          currentLatestDate={allPostsData[0]?.date || ""}
+          currentLatestDate={allPostsData[0]?.date || ''}
           currentNewsCount={allPostsData[0]?.newsCounter || 0}
         />
 

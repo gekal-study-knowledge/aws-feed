@@ -1,16 +1,16 @@
-"use client";
+'use client';
 
-import * as React from "react";
-import { useColorScheme } from "@mui/material/styles";
-import IconButton from "@mui/material/IconButton";
-import LightModeIcon from "@mui/icons-material/LightMode";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
-import SettingsBrightnessIcon from "@mui/icons-material/SettingsBrightness";
-import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import Tooltip from "@mui/material/Tooltip";
+import * as React from 'react';
+import { useColorScheme } from '@mui/material/styles';
+import IconButton from '@mui/material/IconButton';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import SettingsBrightnessIcon from '@mui/icons-material/SettingsBrightness';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import Tooltip from '@mui/material/Tooltip';
 
 export default function ThemeSwitcher() {
   const { mode, setMode } = useColorScheme();
@@ -25,7 +25,7 @@ export default function ThemeSwitcher() {
     setAnchorEl(null);
   };
 
-  const handleModeChange = (newMode: "light" | "dark" | "system") => {
+  const handleModeChange = (newMode: 'light' | 'dark' | 'system') => {
     setMode(newMode);
     handleClose();
   };
@@ -39,8 +39,8 @@ export default function ThemeSwitcher() {
   }
 
   const getIcon = () => {
-    if (mode === "light") return <LightModeIcon />;
-    if (mode === "dark") return <DarkModeIcon />;
+    if (mode === 'light') return <LightModeIcon />;
+    if (mode === 'dark') return <DarkModeIcon />;
     return <SettingsBrightnessIcon />;
   };
 
@@ -51,12 +51,12 @@ export default function ThemeSwitcher() {
           onClick={handleClick}
           size="large"
           color="inherit"
-          aria-controls={open ? "theme-menu" : undefined}
+          aria-controls={open ? 'theme-menu' : undefined}
           aria-haspopup="true"
-          aria-expanded={open ? "true" : undefined}
+          aria-expanded={open ? 'true' : undefined}
           sx={{
-            color: "text.secondary",
-            "&:hover": { color: "primary.main" },
+            color: 'text.secondary',
+            '&:hover': { color: 'primary.main' },
           }}
         >
           {getIcon()}
@@ -68,31 +68,22 @@ export default function ThemeSwitcher() {
         open={open}
         onClose={handleClose}
         onClick={handleClose}
-        transformOrigin={{ horizontal: "right", vertical: "top" }}
-        anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
+        transformOrigin={{ horizontal: 'right', vertical: 'top' }}
+        anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
       >
-        <MenuItem
-          selected={mode === "light"}
-          onClick={() => handleModeChange("light")}
-        >
+        <MenuItem selected={mode === 'light'} onClick={() => handleModeChange('light')}>
           <ListItemIcon>
             <LightModeIcon fontSize="small" />
           </ListItemIcon>
           <ListItemText>ライト</ListItemText>
         </MenuItem>
-        <MenuItem
-          selected={mode === "dark"}
-          onClick={() => handleModeChange("dark")}
-        >
+        <MenuItem selected={mode === 'dark'} onClick={() => handleModeChange('dark')}>
           <ListItemIcon>
             <DarkModeIcon fontSize="small" />
           </ListItemIcon>
           <ListItemText>ダーク</ListItemText>
         </MenuItem>
-        <MenuItem
-          selected={mode === "system"}
-          onClick={() => handleModeChange("system")}
-        >
+        <MenuItem selected={mode === 'system'} onClick={() => handleModeChange('system')}>
           <ListItemIcon>
             <SettingsBrightnessIcon fontSize="small" />
           </ListItemIcon>

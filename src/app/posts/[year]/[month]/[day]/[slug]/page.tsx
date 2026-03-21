@@ -1,7 +1,7 @@
-import * as React from "react";
-import { getPostData, getAllPostSlugs } from "@/lib/posts";
-import PostLayout from "@/components/templates/PostLayout";
-import type { Metadata } from "next";
+import * as React from 'react';
+import { getPostData, getAllPostSlugs } from '@/lib/posts';
+import PostLayout from '@/components/templates/PostLayout';
+import type { Metadata } from 'next';
 
 interface PostProps {
   params: Promise<{
@@ -12,9 +12,7 @@ interface PostProps {
   }>;
 }
 
-export async function generateMetadata({
-  params,
-}: PostProps): Promise<Metadata> {
+export async function generateMetadata({ params }: PostProps): Promise<Metadata> {
   const { year, month, day, slug } = await params;
   const postData = await getPostData(year, month, day, slug);
   return {
@@ -44,7 +42,7 @@ export default async function Post({ params }: PostProps) {
       date={postData.date}
       newsCounter={postData.newsCounter}
       lastUpdated={postData.lastUpdated}
-      contentHtml={postData.contentHtml || ""}
+      contentHtml={postData.contentHtml || ''}
       previous={postData.previous}
       next={postData.next}
       year={year}

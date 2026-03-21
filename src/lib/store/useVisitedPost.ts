@@ -1,25 +1,25 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback } from 'react';
 
-const VISITED_KEY = "visited_posts";
+const VISITED_KEY = 'visited_posts';
 
 const getVisitedPosts = (): Record<string, number> => {
-  if (typeof window === "undefined") return {};
+  if (typeof window === 'undefined') return {};
 
   let visitedPosts: Record<string, number> = {};
   try {
-    const parsedData = JSON.parse(localStorage.getItem(VISITED_KEY) || "{}");
+    const parsedData = JSON.parse(localStorage.getItem(VISITED_KEY) || '{}');
 
     if (Array.isArray(parsedData)) {
       parsedData.forEach((postId) => {
-        if (typeof postId === "string") {
+        if (typeof postId === 'string') {
           visitedPosts[postId] = -1;
         }
       });
-    } else if (parsedData !== null && typeof parsedData === "object") {
+    } else if (parsedData !== null && typeof parsedData === 'object') {
       visitedPosts = parsedData as Record<string, number>;
     }
   } catch (error) {
-    console.error("Failed to parse visited_posts:", error);
+    console.error('Failed to parse visited_posts:', error);
   }
   return visitedPosts;
 };
@@ -32,13 +32,7 @@ interface UseVisitedPostProps {
   newsCounter: number;
 }
 
-export const useVisitedPost = ({
-  year,
-  month,
-  day,
-  slug,
-  newsCounter,
-}: UseVisitedPostProps) => {
+export const useVisitedPost = ({ year, month, day, slug, newsCounter }: UseVisitedPostProps) => {
   const [isVisited, setIsVisited] = useState(false);
   const [isUpdated, setIsUpdated] = useState(false);
 

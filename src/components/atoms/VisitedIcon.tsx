@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import * as React from "react";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
-import Box from "@mui/material/Box";
-import { useVisitedPost } from "@/lib/store/useVisitedPost";
+import * as React from 'react';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import Box from '@mui/material/Box';
+import { useVisitedPost } from '@/lib/store/useVisitedPost';
 
 interface VisitedIconProps {
   year: string;
@@ -31,14 +31,8 @@ export default function VisitedIcon({
   if (!isVisited) return null;
 
   return (
-    <Box
-      component="span"
-      sx={{ display: "inline-flex", verticalAlign: "middle", ml: 1 }}
-    >
-      <CheckCircleIcon
-        fontSize="small"
-        color={!isUpdated ? "success" : "warning"}
-      />
+    <Box component="span" sx={{ display: 'inline-flex', verticalAlign: 'middle', ml: 1 }}>
+      <CheckCircleIcon fontSize="small" color={!isUpdated ? 'success' : 'warning'} />
     </Box>
   );
 }

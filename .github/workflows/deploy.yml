@@ -7,7 +7,7 @@ on:
   workflow_call:
     inputs:
       branch_name:
-        description: "The branch to checkout and process"
+        description: 'The branch to checkout and process'
         required: true
         type: string
   workflow_dispatch:
@@ -30,7 +30,7 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: 24
-          cache: "npm"
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm install

@@ -1,35 +1,35 @@
 feeds:
   - name: "AWS What's New"
-    url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/"
-    source_id: "aws_whats_new"
+    url: 'https://aws.amazon.com/about-aws/whats-new/recent/feed/'
+    source_id: 'aws_whats_new'
 
-  - name: "AWS News Blog"
-    url: "https://aws.amazon.com/blogs/aws/feed/"
-    source_id: "aws_news_blog"
+  - name: 'AWS News Blog'
+    url: 'https://aws.amazon.com/blogs/aws/feed/'
+    source_id: 'aws_news_blog'
 
-  - name: "AWS Japan Blog"
-    url: "https://aws.amazon.com/jp/blogs/news/feed/"
-    source_id: "aws_japan_blog"
+  - name: 'AWS Japan Blog'
+    url: 'https://aws.amazon.com/jp/blogs/news/feed/'
+    source_id: 'aws_japan_blog'
 
-  - name: "AWS Security Blog"
-    url: "https://aws.amazon.com/blogs/security/feed/"
-    source_id: "aws_security_blog"
+  - name: 'AWS Security Blog'
+    url: 'https://aws.amazon.com/blogs/security/feed/'
+    source_id: 'aws_security_blog'
 
-  - name: "AWS Security Bulletins"
-    url: "https://aws.amazon.com/security/security-bulletins/rss/feed/"
-    source_id: "aws_security_bulletins"
+  - name: 'AWS Security Bulletins'
+    url: 'https://aws.amazon.com/security/security-bulletins/rss/feed/'
+    source_id: 'aws_security_bulletins'
 
-  - name: "AWS Architecture Blog"
-    url: "https://aws.amazon.com/jp/blogs/architecture/feed/"
-    source_id: "aws_architecture_blog"
+  - name: 'AWS Architecture Blog'
+    url: 'https://aws.amazon.com/jp/blogs/architecture/feed/'
+    source_id: 'aws_architecture_blog'
 
-  - name: "AWS Machine Learning Blog"
-    url: "https://aws.amazon.com/blogs/machine-learning/feed/"
-    source_id: "aws_machine_learning_blog"
+  - name: 'AWS Machine Learning Blog'
+    url: 'https://aws.amazon.com/blogs/machine-learning/feed/'
+    source_id: 'aws_machine_learning_blog'
 
-  - name: "AWS Compute Blog"
-    url: "https://aws.amazon.com/blogs/compute/feed/"
-    source_id: "aws_compute_blog"
+  - name: 'AWS Compute Blog'
+    url: 'https://aws.amazon.com/blogs/compute/feed/'
+    source_id: 'aws_compute_blog'
 
-data_dir: "data"
-output_dir: "_posts"
+data_dir: 'data'
+output_dir: '_posts'
