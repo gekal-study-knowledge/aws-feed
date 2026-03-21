@@ -15,6 +15,9 @@ feeds:
     url: "https://aws.amazon.com/security/security-bulletins/rss/feed/"
     source_id: "aws_security_bulletins"
 
+  - name: "AWS Architecture Blog"
+    url: "https://aws.amazon.com/jp/blogs/architecture/feed/"
+    source_id: "aws_architecture_blog"
+
 data_dir: "data"
 output_dir: "_posts"
-docs_dir: "docs"
