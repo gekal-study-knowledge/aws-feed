@@ -12,6 +12,7 @@ import StickyHeader from "@/components/organisms/StickyHeader";
 import PostHeader from "@/components/molecules/PostHeader";
 import PostContent from "@/components/organisms/PostContent";
 import NavigationLinks from "@/components/organisms/NavigationLinks";
+import { useVisitedPost } from "@/lib/store/useVisitedPost";
 
 interface PostLayoutProps {
   title: string;
@@ -43,31 +44,16 @@ export default function PostLayout({
   const [isBottom, setIsBottom] = React.useState(false);
   const [showSticky, setShowSticky] = React.useState(false);
 
+  const { markAsVisited } = useVisitedPost({
+    year,
+    month,
+    day,
+    slug,
+    newsCounter,
+  });
+
   React.useEffect(() => {
-    // 訪問済みとして保存
-    const visitedKey = "visited_posts";
-    let visitedPosts: Record<string, number> = {};
-
-    try {
-      const parsedData = JSON.parse(localStorage.getItem(visitedKey) || "{}");
-      if (Array.isArray(parsedData)) {
-        parsedData.forEach((postId) => {
-          if (typeof postId === "string") {
-            visitedPosts[postId] = -1;
-          }
-        });
-      } else if (parsedData !== null && typeof parsedData === "object") {
-        visitedPosts = parsedData as Record<string, number>;
-      }
-    } catch (error) {
-      console.error("Failed to parse visitedPosts:", error);
-    }
-
-    const currentPostId = `${year}/${month}/${day}/${slug}`;
-    if (visitedPosts[currentPostId] !== newsCounter) {
-      visitedPosts[currentPostId] = newsCounter;
-      localStorage.setItem(visitedKey, JSON.stringify(visitedPosts));
-    }
+    markAsVisited();
 
     const handleScroll = () => {
       const scrollY = window.scrollY;
