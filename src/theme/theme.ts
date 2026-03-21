@@ -47,6 +47,14 @@ const theme = createTheme({
     },
   },
   components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        ".markdown-body": {
+          wordBreak: "break-all",
+          overflowWrap: "break-word",
+        },
+      },
+    },
     MuiButton: {
       styleOverrides: {
         root: {
