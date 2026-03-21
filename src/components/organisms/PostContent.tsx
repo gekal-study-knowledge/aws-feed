@@ -56,6 +56,8 @@ export default function PostContent({ contentHtml }: PostContentProps) {
         "& li": {
           mb: 1,
           lineHeight: 1.8,
+          wordBreak: "break-all",
+          overflowWrap: "break-word",
         },
         "& b, & strong": {
           fontWeight: 700,
