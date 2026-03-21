@@ -1,0 +1,8 @@
+"entries":
+  "24d9ae2e78b137bbcb8cdb8cb90f2970":
+    "id": "24d9ae2e78b137bbcb8cdb8cb90f2970"
+    "title": "The Hidden Price Tag: Uncovering Hidden Costs in Cloud Architectures with the AWS Well-Architected Framework"
+    "link": "https://aws.amazon.com/blogs/architecture/the-hidden-price-tag-uncovering-hidden-costs-in-cloud-architectures-with-the-aws-well-architected-framework/"
+    "published": "2026-03-03 16:08:00"
+    "summary": "In this post, we discuss how following the AWS Cloud Adoption Framework (AWS CAF) and AWS Well-Architected Framework can help reduce these risks through proper implementation of AWS guidance and best practices while taking into consideration the practical challenges organizations face in implementing these best practices, including resource constraints, evaluating trade-offs and competing business priorities."
+"last_updated": "2026-03-21 16:29:24 JST"

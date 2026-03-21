@@ -1,0 +1,8 @@
+"entries":
+  "c942b94a09e0ab7f8f9768bd8b2d0deb":
+    "id": "c942b94a09e0ab7f8f9768bd8b2d0deb"
+    "title": "Secure Amazon Elastic VMware Service (Amazon EVS) with AWS Network Firewall"
+    "link": "https://aws.amazon.com/blogs/architecture/secure-amazon-elastic-vmware-service-amazon-evs-with-aws-network-firewall/"
+    "published": "2025-11-26 16:22:03"
+    "summary": "In this post, we demonstrate how to utilize AWS Network Firewall to secure an Amazon EVS environment, using a centralized inspection architecture across an EVS cluster, VPCs, on-premises data centers and the internet. We walk through the implementation steps to deploy this architecture using AWS Network Firewall and AWS Transit Gateway."
+"last_updated": "2026-03-21 16:29:24 JST"
