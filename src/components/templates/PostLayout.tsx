@@ -46,14 +46,25 @@ export default function PostLayout({
   React.useEffect(() => {
     // 訪問済みとして保存
     const visitedKey = "visited_posts";
-    const visitedPosts = JSON.parse(
-      localStorage.getItem(visitedKey) || "{}",
-    ) as Record<string, number>;
+    let visitedPosts: Record<string, number> = {};
+
+    try {
+      const parsedData = JSON.parse(localStorage.getItem(visitedKey) || "{}");
+      if (Array.isArray(parsedData)) {
+        parsedData.forEach((postId) => {
+          if (typeof postId === "string") {
+            visitedPosts[postId] = newsCounter;
+          }
+        });
+      } else if (parsedData !== null && typeof parsedData === "object") {
+        visitedPosts = parsedData as Record<string, number>;
+      }
+    } catch (error) {
+      console.error("Failed to parse visitedPosts:", error);
+    }
+
     const currentPostId = `${year}/${month}/${day}/${slug}`;
-    if (
-      !visitedPosts.hasOwnProperty(currentPostId) ||
-      visitedPosts[currentPostId] !== newsCounter
-    ) {
+    if (visitedPosts[currentPostId] !== newsCounter) {
       visitedPosts[currentPostId] = newsCounter;
       localStorage.setItem(visitedKey, JSON.stringify(visitedPosts));
     }
