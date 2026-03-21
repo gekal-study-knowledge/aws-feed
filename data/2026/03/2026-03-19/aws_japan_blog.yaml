@@ -1,0 +1,56 @@
+"entries":
+  "d9a0ca74b9ca1074b52e3fc5013912fd":
+    "id": "d9a0ca74b9ca1074b52e3fc5013912fd"
+    "title": "Amazon SageMaker を使用したレイクハウスのアーキテクチャ選択ガイド"
+    "link": "https://aws.amazon.com/jp/blogs/news/navigating-architectural-choices-for-a-lakehouse-using-amazon-sagemaker/"
+    "published": "2026-03-19 10:41:10"
+    "summary": "Amazon SageMaker のレイクハウスアーキテクチャにおけるストレージパターンの選択ガイドです。データレイク (汎用 S3、S3 Tables) とデータウェアハウス (Redshift Managed Storage) の特性を比較し、ETL、Zero-ETL、データフェデレーションなどのデータ取り込みパターンとともに、ユースケースに応じた最適なアーキテクチャの選択方法を解説します。"
+  "c27ed31f5616ef79d85c8d7a38dae5ae":
+    "id": "c27ed31f5616ef79d85c8d7a38dae5ae"
+    "title": "Amazon EMR Serverless のベストプラクティス 10 選"
+    "link": "https://aws.amazon.com/jp/blogs/news/top-10-best-practices-for-amazon-emr-serverless/"
+    "published": "2026-03-19 10:40:32"
+    "summary": "Amazon EMR Serverless のパフォーマンス、コスト、スケーラビリティを最適化するためのベストプラクティス 10 選を紹介します。アプリケーション設計、ワーカーの適正化、Graviton プロセッサの活用、ストレージ選択、マルチ AZ 構成など、効率的なデータ処理パイプラインの構築に役立つ実践的な推奨事項をまとめています。"
+  "9de4470f34bde0fb3376c791427b5a6d":
+    "id": "9de4470f34bde0fb3376c791427b5a6d"
+    "title": "AWS Load Balancer Controller が Kubernetes Gateway API サポートの一般提供を開始"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-load-balancer-controller-adds-general-availability-support-for-kubernetes-gateway-api/"
+    "published": "2026-03-19 10:08:05"
+    "summary": "AWS は最近、Amazon Web Services (AWS) Load Balancer Controller による Kubernetes Gateway API サポートの一般提供を発表しました。これまで、AWS Load Balancer Controller は Kubernetes Ingress と Service リソースの要件を満たすため、それぞれ Application Load Balancer (ALB) と Network Load Balancer (NLB) をプロビジョニングしていました。この新機能により、標準の Kubernetes Gateway API を使用してAWSロードバランシング機能を定義できるようになりました。"
+  "4be23a6fe5a571bc789618dbf96d119f":
+    "id": "4be23a6fe5a571bc789618dbf96d119f"
+    "title": "Oracle Database@AWS におけるレジリエンシーのための Well-Architected 設計"
+    "link": "https://aws.amazon.com/jp/blogs/news/well-architected-design-for-resiliency-with-oracle-databaseaws/"
+    "published": "2026-03-19 08:15:07"
+    "summary": "本記事は 2026/2/24に投稿された Well-Architected design for resili […]"
+  "620c6f2c01992bbc32d22a71ee1dba46":
+    "id": "620c6f2c01992bbc32d22a71ee1dba46"
+    "title": "AWS Console for SAP Applications の発表：AWS 上の SAP アプリケーションを登録・管理するための統合エクスペリエンス"
+    "link": "https://aws.amazon.com/jp/blogs/news/announcing-aws-console-for-sap-applications-a-unified-experience-to-register-and-manage-your-sap-applications-on-aws/"
+    "published": "2026-03-19 07:00:27"
+    "summary": "本日、AWS Console for SAP Applications の提供開始を発表します。これは、AWS 上で稼働する SAP HANA ベースのアプリケーションを登録・管理するための、アプリケーション中心のビューを SAP のお客様に提供する新しい一元管理エクスペリエンスです。このコンソールは、登録済みの SAP アプリケーションの表示、ランディングゾーンのセットアップ状況の把握、SAP ワークロードが使用するリソースの可視化を行うための統合ダッシュボードを提供します。アプリケーション詳細ページでは、アプリケーショントポロジーや関連リソースの表示に加え、アプリケーションを考慮した起動/停止、SAP ワークロード構成の自動検証、スケジュールされたオペレーションなどの管理操作を実行できます。"
+  "fc4734ac95af80859a323cfbe49a072e":
+    "id": "fc4734ac95af80859a323cfbe49a072e"
+    "title": "CAE in the Cloud 2026　〜 自動車・製造業向けCAEセミナー 〜"
+    "link": "https://aws.amazon.com/jp/blogs/news/cae-in-the-cloud-2026-roadshow-japan/"
+    "published": "2026-03-19 06:51:39"
+    "summary": "イベント概要 自動車・製造業を中心にCAEワークロードを実行されているお客様向けに、本年2月（東京リージョンは […]"
+  "f886612d5af273f81e40038f264bac59":
+    "id": "f886612d5af273f81e40038f264bac59"
+    "title": "AWS Organizations における不正なアカウント離脱を防止するための重要なセキュリティコントロール"
+    "link": "https://aws.amazon.com/jp/blogs/news/essential-security-controls-to-prevent-unauthorized-account-removal-in-aws-organizations/"
+    "published": "2026-03-19 04:57:04"
+    "summary": "AWS メンバーアカウントが侵害された場合、攻撃者はアカウントを組織から離脱させ、すべてのガバナンスコントロールを無効化する可能性があります。本記事では、サービスコントロールポリシー (SCP)、安全なアカウント移行、一元化されたルートアクセス管理などの多層的なセキュリティコントロールを使用して、AWS 環境を保護する方法を解説します。"
+  "cc2cfa241fbb64f94ea7331ec7cb4046":
+    "id": "cc2cfa241fbb64f94ea7331ec7cb4046"
+    "title": "企業向けファイアウォールを標的とする Interlock ランサムウェアキャンペーンを Amazon Threat Intelligence チームが特定"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-threat-intelligence-teams-identify-interlock-ransomware-campaign-targeting-enterprise-firewalls/"
+    "published": "2026-03-19 04:46:07"
+    "summary": "Amazon Threat Intelligence が、Cisco Secure Firewall Management Center の重大な脆弱性 CVE-2026-20131 を悪用する Interlock ランサムウェアのキャンペーンを特定しました。調査の結果、この脆弱性は公開の 36 日前からゼロデイとして悪用されていたことが判明しました。攻撃者の設定ミスにより外部に露出していたインフラストラクチャから攻撃ツールキットの全容が明らかになり、本記事ではその技術分析、侵害インジケータ (IoC)、および多層防御の重要性を含む防御の推奨事項を共有します。"
+  "ea87b567a67d5e931ef922139b3b7a16":
+    "id": "ea87b567a67d5e931ef922139b3b7a16"
+    "title": "AWS Weekly Roundup: 20 周年を迎えた Amazon S3、Amazon Route 53 Global Resolver の一般提供など (2026 年 3 月 16 日)"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-amazon-s3-turns-20-amazon-route-53-global-resolver-general-availability-and-more-march-16-2026/"
+    "published": "2026-03-19 01:50:14"
+    "summary": "Amazon S3 の一般提供が開始されたのは、20 年前の先週にあたる 2006 年 3 月 14 日でした […]"
+"last_updated": "2026-03-21 16:38:27 JST"

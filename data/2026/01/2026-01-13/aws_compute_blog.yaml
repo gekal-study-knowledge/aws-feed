@@ -1,0 +1,8 @@
+"entries":
+  "aa86a9682d70c1e043b5c8d1edd288eb":
+    "id": "aa86a9682d70c1e043b5c8d1edd288eb"
+    "title": "Optimizing storage performance for Amazon EKS on AWS Outposts"
+    "link": "https://aws.amazon.com/blogs/compute/optimizing-storage-performance-for-amazon-eks-on-aws-outposts/"
+    "published": "2026-01-13 18:57:12"
+    "summary": "<a href=\"https://aws.amazon.com/eks/\" rel=\"noopener noreferrer\" target=\"_blank\">Amazon Elastic Kubernetes Service (Amazon EKS)</a> on \n<a href=\"https://aws.amazon.com/outposts/\" rel=\"noopener noreferrer\" target=\"_blank\">AWS Outposts</a> brings the power of managed \n<a href=\"https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-concepts.html\" rel=\"noopener noreferrer\" target=\"_blank\">Kubernetes</a> to your on-premises infrastructure. Use Amazon EKS on Outposts rack to create hybrid cloud deployments that maintain consistent AWS experiences across environments. As organizations increasingly adopt edge computing and hybrid architectures, storage optimization and performance tuning become critical for successful workload deployment."
+"last_updated": "2026-03-21 16:38:28 JST"

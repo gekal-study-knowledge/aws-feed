@@ -1,0 +1,8 @@
+"entries":
+  "bd4d52ed26e6f885e841d36fee6c1014":
+    "id": "bd4d52ed26e6f885e841d36fee6c1014"
+    "title": "AWS Security Hub がマルチクラウド環境全体のセキュリティオペレーション統合に向けて拡張"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-security-hub-is-expanding-to-unify-security-operations-across-multicloud-environments/"
+    "published": "2026-03-18 12:52:16"
+    "summary": "AWS Security Hub は、マルチクラウド環境全体でセキュリティオペレーションを統合する新しい機能を拡張します。共通データレイヤーによるセキュリティシグナルの統合、一貫したポスチャ管理、リスク分析の優先順位付けにより、複数のクラウド環境にまたがるセキュリティリスクの検出と対応を単一の統合エクスペリエンスで実現します。"
+"last_updated": "2026-03-21 16:38:27 JST"

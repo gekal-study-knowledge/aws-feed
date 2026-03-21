@@ -1,0 +1,8 @@
+"entries":
+  "eb4117be5c703985adac93f55a76c7f6":
+    "id": "eb4117be5c703985adac93f55a76c7f6"
+    "title": "Enabling high availability of Amazon EC2 instances on AWS Outposts servers (Part 3)"
+    "link": "https://aws.amazon.com/blogs/compute/enabling-high-availability-of-amazon-ec2-instances-on-aws-outposts-servers-part-3/"
+    "published": "2026-03-06 23:11:22"
+    "summary": "This post is part 3 of the three-part series ‘Enabling high availability of Amazon EC2 instances on&nbsp;AWS Outposts&nbsp;servers’. We provide you with code samples and considerations for implementing custom logic to automate&nbsp;Amazon Elastic Compute Cloud (EC2) relaunch on Outposts servers. This post focuses on guidance for using Outposts servers with third party storage for boot […]"
+"last_updated": "2026-03-21 16:38:28 JST"

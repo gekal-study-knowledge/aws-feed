@@ -1,0 +1,8 @@
+"entries":
+  "5a52fe36540cbf63cdcc4284d5799540":
+    "id": "5a52fe36540cbf63cdcc4284d5799540"
+    "title": ".NET 10 runtime now available in AWS Lambda"
+    "link": "https://aws.amazon.com/blogs/compute/net-10-runtime-now-available-in-aws-lambda/"
+    "published": "2026-01-08 21:01:05"
+    "summary": "Amazon Web Services (AWS) Lambda now supports .NET 10 as both a managed runtime and base container image. .NET is a popular language for building serverless applications. Developers can now use the new features and enhancements in .NET when creating serverless applications on Lambda. This includes support for file-based apps to streamline your projects by implementing functions using just a single file."
+"last_updated": "2026-03-21 16:38:28 JST"

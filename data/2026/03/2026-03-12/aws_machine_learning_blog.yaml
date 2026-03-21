@@ -1,0 +1,14 @@
+"entries":
+  "3e6bbee50d49bd8a655cf8b028fb0047":
+    "id": "3e6bbee50d49bd8a655cf8b028fb0047"
+    "title": "Improve operational visibility for inference workloads on Amazon Bedrock with new CloudWatch metrics for TTFT and Estimated Quota Consumption"
+    "link": "https://aws.amazon.com/blogs/machine-learning/improve-operational-visibility-for-inference-workloads-on-amazon-bedrock-with-new-cloudwatch-metrics-for-ttft-and-estimated-quota-consumption/"
+    "published": "2026-03-12 21:20:17"
+    "summary": "Today, we’re announcing two new Amazon CloudWatch metrics for Amazon Bedrock, TimeToFirstToken and EstimatedTPMQuotaUsage. In this post, we cover how these work and how to set alarms, establish baselines, and proactively manage capacity using them."
+  "301e18f54dd31aa871ff140deaee9696":
+    "id": "301e18f54dd31aa871ff140deaee9696"
+    "title": "Secure AI agents with Policy in Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-in-amazon-bedrock-agentcore/"
+    "published": "2026-03-12 21:16:50"
+    "summary": "In this post, you will understand how Policy in Amazon Bedrock AgentCore creates a deterministic enforcement layer that operates independently of the agent's own reasoning. You will learn how to turn natural language descriptions of your business rules into Cedar policies, then use those policies to enforce fine-grained, identity-aware controls so that agents only access the tools and data that their users are authorized to use. You will also see how to apply Policy through AgentCore Gateway, intercepting and evaluating every agent-to-tool request at runtime."
+"last_updated": "2026-03-21 16:38:28 JST"

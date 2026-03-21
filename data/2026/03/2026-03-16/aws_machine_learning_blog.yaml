@@ -1,0 +1,32 @@
+"entries":
+  "45ccbc7b0a04f5ab7b98c58d7d7488fe":
+    "id": "45ccbc7b0a04f5ab7b98c58d7d7488fe"
+    "title": "AWS and NVIDIA deepen strategic collaboration to accelerate AI from pilot to production"
+    "link": "https://aws.amazon.com/blogs/machine-learning/aws-and-nvidia-deepen-strategic-collaboration-to-accelerate-ai-from-pilot-to-production/"
+    "published": "2026-03-16 20:51:16"
+    "summary": "Today at NVIDIA GTC 2026, AWS and NVIDIA announced an expanded collaboration with new technology integrations to support growing AI compute demand and help you build and run AI solutions that are production-ready."
+  "ae0df668e1856845b66f1db1af2561fe":
+    "id": "ae0df668e1856845b66f1db1af2561fe"
+    "title": "Agentic AI in the Enterprise Part 2: Guidance by Persona"
+    "link": "https://aws.amazon.com/blogs/machine-learning/agentic-ai-in-the-enterprise-part-2-guidance-by-persona/"
+    "published": "2026-03-16 17:55:54"
+    "summary": "This is Part II of a two-part series from the AWS Generative AI Innovation Center. In Part II, we speak directly to the leaders who must turn that shared foundation into action. Each role carries a distinct set of responsibilities, risks, and leverage points. Whether you own a P&amp;L, run enterprise architecture, lead security, govern data, or manage compliance, this section is written in the language of your job—because that's where agentic AI either succeeds or quietly dies."
+  "4c034474365f4c017359e09cb339e393":
+    "id": "4c034474365f4c017359e09cb339e393"
+    "title": "Introducing Disaggregated Inference on AWS powered by llm-d"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-disaggregated-inference-on-aws-powered-by-llm-d/"
+    "published": "2026-03-16 16:55:53"
+    "summary": "In this blog post, we introduce the concepts behind next-generation inference capabilities, including disaggregated serving, intelligent request scheduling, and expert parallelism. We discuss their benefits and walk through how you can implement them on Amazon SageMaker HyperPod EKS to achieve significant improvements in inference performance, resource utilization, and operational efficiency."
+  "7637dd833075347c654bf18f24301c0c":
+    "id": "7637dd833075347c654bf18f24301c0c"
+    "title": "How Workhuman built multi-tenant self-service reporting using Amazon Quick Sight embedded dashboards"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-workhuman-built-multi-tenant-self-service-reporting-using-amazon-quick-sight-embedded-dashboards/"
+    "published": "2026-03-16 14:48:16"
+    "summary": "This post explores how Workhuman transformed their analytics delivery model and the key lessons learned from their implementation. We go through their architecture approach, implementation strategy, and the business outcomes they achieved—providing you with a practical blueprint for adding embedded analytics to your own software as a service (SaaS) applications."
+  "833828b2518f279cbc2206ab0b3d4e30":
+    "id": "833828b2518f279cbc2206ab0b3d4e30"
+    "title": "Build an offline feature store using Amazon SageMaker Unified Studio and SageMaker Catalog"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-an-offline-feature-store-using-amazon-sagemaker-unified-studio-and-sagemaker-catalog/"
+    "published": "2026-03-16 14:42:46"
+    "summary": "This blog post provides step-by-step guidance on implementing an offline feature store using SageMaker Catalog within a SageMaker Unified Studio domain. By adopting a publish-subscribe pattern, data producers can use this solution to publish curated, versioned feature tables—while data consumers can securely discover, subscribe to, and reuse them for model development."
+"last_updated": "2026-03-21 16:38:28 JST"
