@@ -33,6 +33,7 @@ export default function InFeedAd() {
         p: 2,
         bgcolor: 'background.paper',
         borderRadius: 1,
+        boxShadow: 1,
         minHeight: adSlot ? '250px' : '80px',
         display: { xs: 'none', md: 'flex' },
         alignItems: 'center',

@@ -12,6 +12,7 @@ import { getSortedPostsData, getPostsByMonth } from '@/lib/posts';
 import PostList from '@/components/organisms/PostList';
 import ThemeSwitcher from '@/components/atoms/ThemeSwitcher';
 import UpdateNotifier from '@/components/organisms/UpdateNotifier';
+import InFeedAd from '@/components/molecules/InFeedAd';
 import MobileAd from '@/components/molecules/MobileAd';
 import type { Metadata } from 'next';
 import { subMonths, startOfMonth, format, isAfter, parseISO } from 'date-fns';
@@ -95,7 +96,7 @@ export default function Home() {
         />
 
         <Grid container spacing={4}>
-          <Grid size={{ xs: 12, md: 12 }}>
+          <Grid size={{ xs: 12, md: 9 }}>
             {/* モバイル用広告（記事リスト前） */}
             <MobileAd position="content-top" />
 
@@ -109,6 +110,10 @@ export default function Home() {
 
             {/* モバイル用広告（記事リスト後） */}
             <MobileAd position="content-bottom" />
+          </Grid>
+          <Grid size={{ xs: 12, md: 3 }}>
+            {/* デスクトップ用サイドバー広告 */}
+            <InFeedAd />
           </Grid>
         </Grid>
       </Box>
