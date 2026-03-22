@@ -39,6 +39,9 @@ export default function Home() {
   return (
     <Container maxWidth="lg">
       <Box sx={{ my: 4 }}>
+        {/* モバイル用広告（トップ） */}
+        <MobileAd position="top" />
+
         <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
           <ThemeSwitcher />
         </Box>
@@ -98,7 +101,7 @@ export default function Home() {
         <Grid container spacing={4}>
           <Grid size={{ xs: 12, md: 9 }}>
             {/* モバイル用広告（記事リスト前） */}
-            <MobileAd position="content-top" />
+            <MobileAd position="top" />
 
             <PostList posts={recentPosts} />
 
@@ -109,7 +112,7 @@ export default function Home() {
             )}
 
             {/* モバイル用広告（記事リスト後） */}
-            <MobileAd position="content-bottom" />
+            <MobileAd position="bottom" />
           </Grid>
           <Grid size={{ xs: 12, md: 3 }}>
             {/* デスクトップ用サイドバー広告 */}

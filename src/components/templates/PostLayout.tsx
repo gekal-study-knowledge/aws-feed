@@ -102,10 +102,8 @@ export default function PostLayout({
 
         <Grid container spacing={4}>
           <Grid size={{ xs: 12, md: 9 }}>
-            {/* モバイル用広告（トップ） - ヘッダーのすぐ下は避ける */}
-            <Box sx={{ display: { xs: 'block', md: 'none' } }}>
-              <MobileAd position="middle" />
-            </Box>
+            {/* モバイル用広告（トップ） */}
+            <MobileAd position="top" />
 
             <PostHeader title={title} date={date} lastUpdated={lastUpdated} />
 
@@ -152,8 +150,8 @@ export default function PostLayout({
               <NavigationLinks previous={previous} next={next} />
             </Box>
 
-            {/* モバイル用広告（記事下） - フッターのすぐ上は避ける */}
-            <MobileAd position="content-bottom" />
+            {/* モバイル用広告（記事下） */}
+            <MobileAd position="bottom" />
           </Grid>
           <Grid size={{ xs: 12, md: 3 }}>
             {/* デスクトップ用サイドバー広告 */}

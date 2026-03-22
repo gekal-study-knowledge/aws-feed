@@ -4,10 +4,10 @@ import { useEffect } from 'react';
 import Box from '@mui/material/Box';
 
 interface MobileAdProps {
-  position?: 'middle' | 'content-top' | 'content-bottom';
+  position?: 'top' | 'bottom' | 'middle';
 }
 
-export default function MobileAd({ position = 'content-bottom' }: MobileAdProps) {
+export default function MobileAd({ position = 'bottom' }: MobileAdProps) {
   const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID || '';
   const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_MOBILE || '';
 
@@ -27,9 +27,9 @@ export default function MobileAd({ position = 'content-bottom' }: MobileAdProps)
   }
 
   const marginStyles = {
+    top: { mt: 2, mb: 3 },
     middle: { my: 4 },
-    'content-top': { mt: 4, mb: 3 },
-    'content-bottom': { mt: 4, mb: 2 },
+    bottom: { mt: 4, mb: 2 },
   };
 
   // モバイルのみ表示、デスクトップでは非表示
