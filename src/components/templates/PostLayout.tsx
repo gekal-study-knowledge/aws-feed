@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { Box, Button, Container, Fab } from '@mui/material';
+import { Box, Button, Container, Fab, Grid } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -12,6 +12,8 @@ import StickyHeader from '@/components/organisms/StickyHeader';
 import PostHeader from '@/components/molecules/PostHeader';
 import PostContent from '@/components/organisms/PostContent';
 import NavigationLinks from '@/components/organisms/NavigationLinks';
+import InFeedAd from '@/components/molecules/InFeedAd';
+import MobileAd from '@/components/molecules/MobileAd';
 import { useVisitedPost } from '@/lib/store/useVisitedPost';
 
 interface PostLayoutProps {
@@ -77,7 +79,7 @@ export default function PostLayout({
     <>
       <StickyHeader show={showSticky && !isBottom} date={date} />
 
-      <Container maxWidth="md">
+      <Container maxWidth="lg">
         <Box sx={{ mt: 4, mb: 2 }}>
           {/* Home Button */}
           <Link href="/" passHref>
@@ -98,40 +100,64 @@ export default function PostLayout({
           </Link>
         </Box>
 
-        <PostHeader title={title} date={date} lastUpdated={lastUpdated} />
+        <Grid container spacing={4}>
+          <Grid size={{ xs: 12, md: 9 }}>
+            {/* モバイル用広告（トップ） */}
+            <MobileAd position="top" />
 
-        {/* Decorative Divider */}
-        <Box
-          sx={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            my: 6,
-            position: 'relative',
-            '&::before, &::after': {
-              content: '""',
-              flex: 1,
-              height: '1px',
-              background: (theme) =>
-                `linear-gradient(to ${theme.direction === 'rtl' ? 'left' : 'right'}, transparent, ${theme.palette.primary.light}, transparent)`,
-            },
-          }}
-        >
-          <AutoAwesomeIcon
-            sx={{
-              mx: 3,
-              color: 'primary.light',
-              opacity: 0.5,
-              fontSize: '1.5rem',
-              transform: 'rotate(-10deg)',
-            }}
-          />
-        </Box>
+            <PostHeader title={title} date={date} lastUpdated={lastUpdated} />
 
-        <Box sx={{ my: 4 }}>
-          <PostContent contentHtml={contentHtml} />
-          <NavigationLinks previous={previous} next={next} />
-        </Box>
+            {/* デスクトップ用広告（記事タイトル下） */}
+            <Box sx={{ display: { xs: 'none', md: 'block' } }}>
+              <InFeedAd />
+            </Box>
+
+            {/* モバイル用広告（タイトル下） */}
+            <Box sx={{ display: { xs: 'block', md: 'none' } }}>
+              <MobileAd position="middle" />
+            </Box>
+
+            {/* Decorative Divider */}
+            <Box
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                my: 6,
+                position: 'relative',
+                '&::before, &::after': {
+                  content: '""',
+                  flex: 1,
+                  height: '1px',
+                  background: (theme) =>
+                    `linear-gradient(to ${theme.direction === 'rtl' ? 'left' : 'right'}, transparent, ${theme.palette.primary.light}, transparent)`,
+                },
+              }}
+            >
+              <AutoAwesomeIcon
+                sx={{
+                  mx: 3,
+                  color: 'primary.light',
+                  opacity: 0.5,
+                  fontSize: '1.5rem',
+                  transform: 'rotate(-10deg)',
+                }}
+              />
+            </Box>
+
+            <Box sx={{ my: 4 }}>
+              <PostContent contentHtml={contentHtml} />
+              <NavigationLinks previous={previous} next={next} />
+            </Box>
+
+            {/* モバイル用広告（記事下） */}
+            <MobileAd position="bottom" />
+          </Grid>
+          <Grid size={{ xs: 12, md: 3 }}>
+            {/* デスクトップ用サイドバー広告 */}
+            <InFeedAd />
+          </Grid>
+        </Grid>
       </Container>
 
       {/* Floating Action Buttons */}
