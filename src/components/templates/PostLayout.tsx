@@ -1,14 +1,10 @@
 'use client';
 
 import * as React from 'react';
-import { Box, Button, Container, Fab, Grid } from '@mui/material';
+import { Box, Button, Container, Typography } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import Link from 'next/link';
-import StickyHeader from '@/components/organisms/StickyHeader';
 import PostHeader from '@/components/molecules/PostHeader';
 import PostContent from '@/components/organisms/PostContent';
 import NavigationLinks from '@/components/organisms/NavigationLinks';
@@ -42,9 +38,6 @@ export default function PostLayout({
   day,
   slug,
 }: PostLayoutProps) {
-  const [isBottom, setIsBottom] = React.useState(false);
-  const [showSticky, setShowSticky] = React.useState(false);
-
   const { markAsVisited } = useVisitedPost({
     year,
     month,
@@ -55,163 +48,82 @@ export default function PostLayout({
 
   React.useEffect(() => {
     markAsVisited();
-
-    const handleScroll = () => {
-      const scrollY = window.scrollY;
-      const windowHeight = window.innerHeight;
-      const documentHeight = document.documentElement.scrollHeight;
-
-      // ヘッダー表示の判定 (少しスクロールしたら表示)
-      setShowSticky(scrollY > 200);
-
-      // 最下部判定 (遊びを持たせる)
-      const atBottom = scrollY + windowHeight >= documentHeight - 50;
-      setIsBottom(atBottom);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // 初期状態のチェック
-    return () => window.removeEventListener('scroll', handleScroll);
   }, [year, month, day, slug]);
 
   return (
-    <>
-      <StickyHeader show={showSticky && !isBottom} date={date} />
-
-      <Container maxWidth="lg">
-        <Box sx={{ mt: 4, mb: 2 }}>
-          {/* Home Button */}
-          <Link href="/" passHref>
-            <Button
-              component="span"
-              startIcon={<HomeIcon sx={{ fontSize: '1.5rem !important' }} />}
-              variant="text"
-              size="large"
-              sx={{
-                color: 'text.secondary',
-                '&:hover': { color: 'primary.main' },
-                fontSize: '1.1rem',
-                fontWeight: 600,
-              }}
-            >
-              Back to Archive
-            </Button>
-          </Link>
-        </Box>
-
-        <Grid container spacing={4}>
-          <Grid size={{ xs: 12, md: 12 }}>
-            {/* モバイル用広告（トップ） - ヘッダーのすぐ下は避ける */}
-            <Box sx={{ display: { xs: 'block', md: 'none' } }}>
-              <MobileAd position="middle" />
-            </Box>
-
-            <PostHeader title={title} date={date} lastUpdated={lastUpdated} />
-
-            {/* 広告（タイトル下） */}
-            <MobileAd position="middle" />
-
-            {/* Decorative Divider */}
-            <Box
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                my: 6,
-                position: 'relative',
-                '&::before, &::after': {
-                  content: '""',
-                  flex: 1,
-                  height: '1px',
-                  background: (theme) =>
-                    `linear-gradient(to ${theme.direction === 'rtl' ? 'left' : 'right'}, transparent, ${theme.palette.primary.light}, transparent)`,
-                },
-              }}
-            >
-              <AutoAwesomeIcon
-                sx={{
-                  mx: 3,
-                  color: 'primary.light',
-                  opacity: 0.5,
-                  fontSize: '1.5rem',
-                  transform: 'rotate(-10deg)',
-                }}
-              />
-            </Box>
-
-            <Box sx={{ my: 4 }}>
-              <PostContent contentHtml={contentHtml} />
-              <NavigationLinks previous={previous} next={next} />
-            </Box>
-
-            {/* モバイル用広告（記事下） - フッターのすぐ上は避ける */}
-            <MobileAd position="content-bottom" />
-          </Grid>
-        </Grid>
-      </Container>
-
-      {/* Floating Action Buttons */}
-      {!isBottom && (
-        <Box
-          sx={{
-            position: 'fixed',
-            bottom: 32,
-            right: 32,
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 2,
-            zIndex: 1000,
-          }}
-        >
-          {next && (
-            <Link href={next} passHref>
-              <Fab
-                color="primary"
-                size="medium"
-                aria-label="next day"
-                sx={{
-                  boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
-                  '&:hover': { transform: 'scale(1.1)' },
-                  transition: 'transform 0.2s',
-                }}
-              >
-                <ArrowForwardIcon />
-              </Fab>
-            </Link>
-          )}
-
-          <Fab
-            color="secondary"
-            size="medium"
-            aria-label="scroll to top"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+    <Container maxWidth="md">
+      <Box sx={{ mt: 4, mb: 2 }}>
+        {/* Home Button */}
+        <Link href="/" passHref>
+          <Button
+            component="span"
+            startIcon={<HomeIcon sx={{ fontSize: '1.5rem !important' }} />}
+            variant="text"
+            size="large"
             sx={{
-              boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
-              '&:hover': { transform: 'scale(1.1)' },
-              transition: 'transform 0.2s',
+              color: 'text.secondary',
+              '&:hover': { color: 'primary.main' },
+              fontSize: '1.1rem',
+              fontWeight: 600,
             }}
           >
-            <ArrowUpwardIcon />
-          </Fab>
+            Back to Archive
+          </Button>
+        </Link>
+      </Box>
 
-          {previous && (
-            <Link href={previous} passHref>
-              <Fab
-                color="primary"
-                size="medium"
-                aria-label="previous day"
-                sx={{
-                  boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
-                  '&:hover': { transform: 'scale(1.1)' },
-                  transition: 'transform 0.2s',
-                }}
-              >
-                <ArrowBackIcon />
-              </Fab>
-            </Link>
-          )}
-        </Box>
-      )}
-    </>
+      {/* モバイル用広告（トップ） - ヘッダーのすぐ下は避ける */}
+      <Box sx={{ display: { xs: 'block', md: 'none' } }}>
+        <MobileAd position="middle" />
+      </Box>
+
+      <PostHeader title={title} date={date} lastUpdated={lastUpdated} />
+
+      {/* 広告（タイトル下） */}
+      <MobileAd position="middle" />
+
+      {/* Decorative Divider */}
+      <Box
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          my: 6,
+          position: 'relative',
+          '&::before, &::after': {
+            content: '""',
+            flex: 1,
+            height: '1px',
+            background: (theme) =>
+              `linear-gradient(to ${theme.direction === 'rtl' ? 'left' : 'right'}, transparent, ${theme.palette.primary.light}, transparent)`,
+          },
+        }}
+      >
+        <AutoAwesomeIcon
+          sx={{
+            mx: 3,
+            color: 'primary.light',
+            opacity: 0.5,
+            fontSize: '1.5rem',
+            transform: 'rotate(-10deg)',
+          }}
+        />
+      </Box>
+
+      <Box sx={{ my: 4 }}>
+        <PostContent contentHtml={contentHtml} />
+        <NavigationLinks previous={previous} next={next} />
+      </Box>
+
+      {/* モバイル用広告（記事下） - フッターのすぐ上は避ける */}
+      <MobileAd position="content-bottom" />
+
+      {/* 日付ナビゲーション */}
+      <Box sx={{ mt: 6, mb: 4 }}>
+        <Typography variant="caption" color="text.secondary">
+          {date}
+        </Typography>
+      </Box>
+    </Container>
   );
 }
