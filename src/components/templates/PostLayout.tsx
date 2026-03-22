@@ -12,7 +12,6 @@ import StickyHeader from '@/components/organisms/StickyHeader';
 import PostHeader from '@/components/molecules/PostHeader';
 import PostContent from '@/components/organisms/PostContent';
 import NavigationLinks from '@/components/organisms/NavigationLinks';
-import InFeedAd from '@/components/molecules/InFeedAd';
 import MobileAd from '@/components/molecules/MobileAd';
 import { useVisitedPost } from '@/lib/store/useVisitedPost';
 
@@ -101,7 +100,7 @@ export default function PostLayout({
         </Box>
 
         <Grid container spacing={4}>
-          <Grid size={{ xs: 12, md: 9 }}>
+          <Grid size={{ xs: 12, md: 12 }}>
             {/* モバイル用広告（トップ） - ヘッダーのすぐ下は避ける */}
             <Box sx={{ display: { xs: 'block', md: 'none' } }}>
               <MobileAd position="middle" />
@@ -109,15 +108,8 @@ export default function PostLayout({
 
             <PostHeader title={title} date={date} lastUpdated={lastUpdated} />
 
-            {/* デスクトップ用広告（記事タイトル下） */}
-            <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-              <InFeedAd />
-            </Box>
-
-            {/* モバイル用広告（タイトル下） */}
-            <Box sx={{ display: { xs: 'block', md: 'none' } }}>
-              <MobileAd position="middle" />
-            </Box>
+            {/* 広告（タイトル下） */}
+            <MobileAd position="middle" />
 
             {/* Decorative Divider */}
             <Box
@@ -154,10 +146,6 @@ export default function PostLayout({
 
             {/* モバイル用広告（記事下） - フッターのすぐ上は避ける */}
             <MobileAd position="content-bottom" />
-          </Grid>
-          <Grid size={{ xs: 12, md: 3 }}>
-            {/* デスクトップ用サイドバー広告 */}
-            <InFeedAd />
           </Grid>
         </Grid>
       </Container>
