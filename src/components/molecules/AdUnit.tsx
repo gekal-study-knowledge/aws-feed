@@ -17,7 +17,7 @@ declare global {
   }
 }
 
-export default function AdUnit({ adSlot, adFormat = 'fluid', style }: AdUnitProps) {
+export default function AdUnit({ adSlot, adFormat = 'auto', style }: AdUnitProps) {
   const pathname = usePathname();
 
   useEffect(() => {
@@ -33,7 +33,7 @@ export default function AdUnit({ adSlot, adFormat = 'fluid', style }: AdUnitProp
 
   const formatStyles = {
     auto: { display: 'block' },
-    fluid: { display: 'block', minHeight: '50px' },
+    fluid: { display: 'block' },
     rectangle: { display: 'inline-block', width: '300px', height: '250px' },
     horizontal: { display: 'inline-block', width: '728px', height: '90px' },
     vertical: { display: 'inline-block', width: '160px', height: '600px' },
@@ -42,7 +42,7 @@ export default function AdUnit({ adSlot, adFormat = 'fluid', style }: AdUnitProp
   const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID || '';
 
   return (
-    <div style={{ margin: '12px 0' }}>
+    <div style={{ margin: '20px 0' }}>
       <ins
         className="adsbygoogle"
         style={{
