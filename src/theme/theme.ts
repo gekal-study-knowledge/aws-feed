@@ -1,8 +1,8 @@
 'use client';
 
-import { createTheme } from '@mui/material/styles';
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
-const theme = createTheme({
+const baseTheme = createTheme({
   cssVariables: {
     colorSchemeSelector: 'class',
   },
@@ -36,7 +36,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: '"Open Sans", "Roboto", "Helvetica", "Arial", sans-serif',
+    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
     h1: {
       fontSize: '2.5rem',
       fontWeight: 700,
@@ -83,5 +83,7 @@ const theme = createTheme({
     },
   },
 });
+
+const theme = responsiveFontSizes(baseTheme);
 
 export default theme;
