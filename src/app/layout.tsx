@@ -7,7 +7,6 @@ import InitColorSchemeScript from '@mui/material/InitColorSchemeScript';
 import NextTopLoader from 'nextjs-toploader';
 import Footer from '@/components/organisms/Footer';
 import Box from '@mui/material/Box';
-import GoogleAdSense from '@/components/atoms/GoogleAdSense';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -15,17 +14,12 @@ export const metadata: Metadata = {
     template: '%s | AWS News Feed Archive',
     default: 'AWS News Feed Archive',
   },
-  description: 'AWS 公式フィードの最新記事を日別でまとめています。',
+  description: 'AWS公式フィードの最新記事を日別でまとめています。',
 };
 
 export default function RootLayout(props: { children: React.ReactNode }) {
-  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID || '';
-
   return (
     <html lang="ja" suppressHydrationWarning>
-      <head>
-        {adsenseId && <GoogleAdSense adsenseId={adsenseId} />}
-      </head>
       <body>
         <InitColorSchemeScript attribute="class" />
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
