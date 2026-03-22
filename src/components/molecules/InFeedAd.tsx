@@ -1,13 +1,12 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 export default function InFeedAd() {
   const pathname = usePathname();
-  const [isLoaded, setIsLoaded] = useState(false);
   const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_ID || '';
   const adSlot = process.env.NEXT_PUBLIC_ADSENSE_SLOT_INFEED || '';
 
@@ -16,7 +15,6 @@ export default function InFeedAd() {
       if (typeof window !== 'undefined') {
         (window as any).adsbygoogle = (window as any).adsbygoogle || [];
         (window as any).adsbygoogle.push({});
-        setIsLoaded(true);
       }
     } catch (err) {
       console.error('InFeedAd error:', err);
