@@ -23,7 +23,9 @@ export default function RootLayout(props: { children: React.ReactNode }) {
 
   return (
     <html lang="ja" suppressHydrationWarning>
-      <head>{adsenseId && <GoogleAdSense adsenseId={adsenseId} />}</head>
+      <head>
+        {adsenseId && <GoogleAdSense adsenseId={adsenseId} />}
+      </head>
       <body>
         <InitColorSchemeScript attribute="class" />
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
