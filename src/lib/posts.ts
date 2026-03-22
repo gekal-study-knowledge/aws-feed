@@ -19,7 +19,7 @@ export interface PostData {
   contentHtml?: string;
   previous?: string | null;
   next?: string | null;
-  [key: string]: any;
+  [key: string]: string | number | null | undefined;
 }
 
 function getAllFiles(dirPath: string, arrayOfFiles: string[] = []) {
