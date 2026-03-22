@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { AppBar, Toolbar, IconButton, Typography, Box, Slide } from '@mui/material';
+import { AppBar, Toolbar, IconButton, Typography, Slide } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import Link from 'next/link';
 import ThemeSwitcher from '@/components/atoms/ThemeSwitcher';

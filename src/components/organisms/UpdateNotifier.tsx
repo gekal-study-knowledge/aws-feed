@@ -50,13 +50,6 @@ export default function UpdateNotifier({
     );
   }, [currentLatestDate, currentNewsCount]);
 
-  const handleClose = (event?: React.SyntheticEvent | Event, reason?: string) => {
-    if (reason === 'clickaway') {
-      return;
-    }
-    setOpen(false);
-  };
-
   return (
     <Box sx={{ width: '100%', mb: 2 }}>
       <Collapse in={open}>

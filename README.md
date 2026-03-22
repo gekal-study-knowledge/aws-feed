@@ -190,13 +190,13 @@ feeds:
 
 ```yaml
 entries:
-  "03e53c826d6aaecf116c86dbdce0075a":
-    "id": "03e53c826d6aaecf116c86dbdce0075a"
-    "title": "記事のタイトル"
-    "link": "https://..."
-    "published": "2026-03-20 18:38:00"
-    "summary": "記事の概要..."
-last_updated: "2026-03-21 10:45:50 JST"
+  '03e53c826d6aaecf116c86dbdce0075a':
+    'id': '03e53c826d6aaecf116c86dbdce0075a'
+    'title': '記事のタイトル'
+    'link': 'https://...'
+    'published': '2026-03-20 18:38:00'
+    'summary': '記事の概要...'
+last_updated: '2026-03-21 10:45:50 JST'
 ```
 
 ### 日単位レポート (Markdown)
@@ -210,7 +210,7 @@ last_updated: "2026-03-21 10:45:50 JST"
 layout: default
 title: AWS News - 2026-03-20
 news_counter: 15
-last_updated: "2026-03-21 10:45:50 JST"
+last_updated: '2026-03-21 10:45:50 JST'
 ---
 
 # AWS Updates - 2026-03-20
@@ -230,11 +230,13 @@ last_updated: "2026-03-21 10:45:50 JST"
 ## 技術スタック
 
 ### バックエンド（フィード取得）
+
 - **Python 3.x**
 - **feedparser**: RSS フィード解析
 - **PyYAML**: YAML 読み書き
 
 ### フロントエンド（Web UI）
+
 - **Next.js 16** (App Router)
 - **React 19**
 - **TypeScript 5**
@@ -243,6 +245,7 @@ last_updated: "2026-03-21 10:45:50 JST"
 - **remark**: Markdown → HTML 変換
 
 ### インフラ
+
 - **GitHub Actions**: 自動実行とデプロイ
 - **GitHub Pages**: 静的ホスティング
 

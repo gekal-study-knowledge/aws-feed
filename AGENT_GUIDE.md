@@ -49,11 +49,13 @@ aws-feed/
 ## 技術スタック
 
 ### バックエンド（フィード取得）
+
 - **Python 3.x**
 - **feedparser**: RSS フィード解析
 - **PyYAML**: YAML 読み書き
 
 ### フロントエンド（Web UI）
+
 - **Next.js 16** (App Router)
 - **React 19**
 - **TypeScript 5**
@@ -62,6 +64,7 @@ aws-feed/
 - **remark**: Markdown → HTML 変換
 
 ### インフラ
+
 - **GitHub Actions**: 自動実行とデプロイ
 - **GitHub Pages**: 静的ホスティング
 
@@ -152,6 +155,7 @@ Markdown レポートの読み込み・解析を行うユーティリティ。
 ### `src/components/`
 
 UI コンポーネント：
+
 - **Atoms**: ボタン、タイポグラフィなど最小単位
 - **Molecules**: カード、リストアイテムなど
 - **Organisms**: ヘッダー、記事一覧など複合コンポーネント
@@ -176,13 +180,13 @@ UI コンポーネント：
 
 ```yaml
 entries:
-  "<md5_hash>":
-    "id": "<md5_hash>"
-    "title": "記事タイトル"
-    "link": "https://..."
-    "published": "2026-03-20 18:38:00"
-    "summary": "記事概要..."
-last_updated: "2026-03-21 10:45:50 JST"
+  '<md5_hash>':
+    'id': '<md5_hash>'
+    'title': '記事タイトル'
+    'link': 'https://...'
+    'published': '2026-03-20 18:38:00'
+    'summary': '記事概要...'
+last_updated: '2026-03-21 10:45:50 JST'
 ```
 
 ### 日単位レポート (Markdown)
@@ -194,7 +198,7 @@ last_updated: "2026-03-21 10:45:50 JST"
 layout: default
 title: AWS News - 2026-03-20
 news_counter: 15
-last_updated: "2026-03-21 10:45:50 JST"
+last_updated: '2026-03-21 10:45:50 JST'
 ---
 
 # AWS Updates - 2026-03-20
