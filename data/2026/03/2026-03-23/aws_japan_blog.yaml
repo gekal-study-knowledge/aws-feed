@@ -11,4 +11,10 @@
     "link": "https://aws.amazon.com/jp/blogs/news/20-years-in-the-aws-cloud-how-time-flies/"
     "published": "2026-03-23 02:02:17"
     "summary": "AWS は創立 20 周年を迎えました! 着実なイノベーションのペースで、AWS は 240 を超える包括的な […]"
-"last_updated": "2026-03-23 13:32:17 JST"
+  "1830ca0f728d41eb510b42003fb03632":
+    "id": "1830ca0f728d41eb510b42003fb03632"
+    "title": "週刊生成AI with AWS – 2026/3/16 週"
+    "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260316/"
+    "published": "2026-03-23 06:46:19"
+    "summary": "週刊生成AI with AWS, AgentCore の機能拡充が目立つ2026年3月16日号 - Amazon Bedrock AgentCore によるネットワーク運用エージェント構築のブログ記事を紹介。サービスアップデートでは AgentCore Runtime の AG-UI プロトコル・シェルコマンド実行・WebRTC サポートや、Minimax M2.5・GLM 5・Nemotron 3 Super の新モデル追加、SageMaker HyperPod のアイドルリソース共有をはじめとする13件のアップデートを紹介。"
+"last_updated": "2026-03-23 17:00:28 JST"
