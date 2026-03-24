@@ -23,4 +23,10 @@
     "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260316/"
     "published": "2026-03-23 23:08:26"
     "summary": "Amazon CloudWatch が組織全体での EC2 詳細モニタリング有効化を導入、Amazon Connect でオ外部メールアドレスにメール連絡先を転送可能、Amazon S3 Tables と Iceberg マテリアライズドビューの権限管理を簡素化、Amazon RDS の SQL Server Developer Edition 向け機能強化、Amazon Bedrock AgentCore Runtime でシェルコマンド実行がサポート開始、Amazon Redshift がダッシュボードと ETL ワークロードの新しいクエリのパフォーマンスを最大 7 倍向上、Amazon RDS Custom for SQL Server にOSアップデートの表示とスケジュール機能を追加"
-"last_updated": "2026-03-24 08:29:04 JST"
+  "1c5c8c51d2bd34175f75f6baa90f3d48":
+    "id": "1c5c8c51d2bd34175f75f6baa90f3d48"
+    "title": "Amazon MSK Express ブローカーで Kafka 運用をシンプルにする"
+    "link": "https://aws.amazon.com/jp/blogs/news/simplifying-kafka-operations-with-amazon-msk-express-brokers/"
+    "published": "2026-03-23 18:36:26"
+    "summary": "本記事では、Amazon MSK Express ブローカーが Kafka クラスターの運用をどのようにシンプルにするかを紹介します。サイジング、ストレージ管理、コンピューティングのスケーリング、モニタリング、アクセス制御、高可用性について、Express ブローカーがもたらす改善を解説します。"
+"last_updated": "2026-03-24 13:15:59 JST"
