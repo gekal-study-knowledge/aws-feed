@@ -5,4 +5,10 @@
     "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-custom-entity-recognition-with-claude-tool-use-in-amazon-bedrock/"
     "published": "2026-03-24 17:56:00"
     "summary": "This post introduces Claude Tool use in Amazon Bedrock which uses the power of large language models (LLMs) to perform dynamic, adaptable entity recognition without extensive setup or training."
-"last_updated": "2026-03-25 03:58:39 JST"
+  "c5712d735ff9ff3d8ecfae0522d5c3a2":
+    "id": "c5712d735ff9ff3d8ecfae0522d5c3a2"
+    "title": "Deploy SageMaker AI inference endpoints with set GPU capacity using training plans"
+    "link": "https://aws.amazon.com/blogs/machine-learning/deploy-sagemaker-ai-inference-endpoints-with-set-gpu-capacity-using-training-plans/"
+    "published": "2026-03-24 20:27:49"
+    "summary": "In this post, we walk through how to search for available p-family GPU capacity, create a training plan reservation for inference, and deploy a SageMaker AI inference endpoint on that reserved capacity. We follow a data scientist's journey as they reserve capacity for model evaluation and manage the endpoint throughout the reservation lifecycle."
+"last_updated": "2026-03-25 05:37:51 JST"
