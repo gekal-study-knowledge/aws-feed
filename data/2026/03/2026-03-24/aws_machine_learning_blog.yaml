@@ -1,0 +1,8 @@
+"entries":
+  "05e8b5a178ed504177e2cf0c8077bf48":
+    "id": "05e8b5a178ed504177e2cf0c8077bf48"
+    "title": "Accelerating custom entity recognition with Claude tool use in Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-custom-entity-recognition-with-claude-tool-use-in-amazon-bedrock/"
+    "published": "2026-03-24 17:56:00"
+    "summary": "This post introduces Claude Tool use in Amazon Bedrock which uses the power of large language models (LLMs) to perform dynamic, adaptable entity recognition without extensive setup or training."
+"last_updated": "2026-03-25 03:58:39 JST"
