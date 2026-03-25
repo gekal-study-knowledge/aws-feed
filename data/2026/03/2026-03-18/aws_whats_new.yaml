@@ -1,366 +1,98 @@
-entries:
-  27ccf2c92562162db535835ed74aaedd:
-    id: 27ccf2c92562162db535835ed74aaedd
-    title:
-      Amazon Connect expands agentic speech-to-speech voice experiences to the
-      London (Europe) region and adds three new voices
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-london-europe-region/
-    published: "2026-03-18"
-    summary:
-      "<p>Amazon Connect now offers agentic speech-to-speech voice experiences\
-      \ in an&nbsp;additional&nbsp;AWS Region: Europe (London). Amazon Connect also\
-      \ adds three new speech-to-speech voices across US Spanish and UK English: Pedro\
-      \ (es-US), Amy (en-GB), and Brian (en-GB).</p> \n<p>Amazon&nbsp;Connect's&nbsp;agentic\
-      \ self-service capabilities enable AI agents to understand, reason, and&nbsp;take\
-      \ action&nbsp;across voice and messaging channels to automate routine and complex\
-      \ customer service tasks.&nbsp;Connect's&nbsp;agentic speech-to-speech voice\
-      \ AI agents understand not only what customers say but how they say it, adapting\
-      \ voice responses to match customer tone and sentiment while&nbsp;maintaining&nbsp;natural\
-      \ conversational pace. With these updates, you can deliver agentic speech-to-speech\
-      \ voice experiences to customers across a new region with a wider selection\
-      \ of voices.</p> \n<p>To learn more about this feature, see the Amazon Connect&nbsp;<a\
-      \ href=\"https://docs.aws.amazon.com/connect/latest/adminguide/what-is-amazon-connect.html\"\
-      >Administrator Guide</a>.&nbsp;To&nbsp;learn more about Amazon Connect, a complete\
-      \ AI-powered contact center solution delivering personalized customer experiences\
-      \ at scale, visit the&nbsp;Amazon Connect&nbsp;<a href=\"https://aws.amazon.com/connect/\"\
-      >website.</a></p>"
-  98aab35b07dc08839847ced6f566a433:
-    id: 98aab35b07dc08839847ced6f566a433
-    title:
-      Amazon Redshift increases performance for new queries in dashboards and
-      ETL workloads by up to 7x
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-increases-performance-for-new-queries/
-    published: "2026-03-18"
-    summary:
-      <p><a href="https://aws.amazon.com/redshift">Amazon Redshift</a> improves
-      the performance of BI dashboards and ETL workloads by speeding up new queries
-      by up to 7x. This significantly improves the response times of low-latency SQL
-      queries, such as those used in near real-time analytics applications, BI dashboards,
-      ETL pipelines, and autonomous, goal-seeking AI agents. Customers experience
-      substantially faster query response times as Redshift accelerates the process
-      of preparing the SQL query for execution. Queries start faster and return results
-      quicker. This improvement is automatically enabled at no additional cost.<br
-      /> <br /> To deliver this major improvement, Redshift added a new optimization
-      to query compilation where new queries are processed immediately using composition.
-      Composition is a technique that generates a lightweight arrangement of pre-existing
-      logic while simultaneously creating highly optimized, query-specific code that
-      is compiled and executed across available compute resources to further boost
-      performance. Composition removes compilation from the critical path of query
-      execution and provides immediate execution while compilation proceeds in the
-      background. With this optimization, new queries processed by Redshift start
-      faster and deliver performance consistent with subsequent runs.<br /> <br />
-      This optimization is enabled by default for any SQL query across all provisioned
-      clusters and serverless workgroups, in all commercial AWS Regions where Amazon
-      Redshift operates. It is available on the Redshift current track with other
-      tracks following in upcoming patch releases. No action is required from customers
-      to benefit from this enhancement, and it is free of charge.</p>
-  d194688cad361b4e0c335ce99fca7904:
-    id: d194688cad361b4e0c335ce99fca7904
-    title: Amazon OpenSearch Service now supports OpenSearch version 3.5
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-version-3-5/
-    published: "2026-03-18"
-    summary:
-      "<p>You can now run OpenSearch version 3.5 on Amazon OpenSearch Service.\
-      \ OpenSearch 3.5 introduces significant improvements in agentic AI capabilities,\
-      \ search relevance tooling, and observability features to help you build powerful\
-      \ agentic applications.</p> \n<p>With this launch, <a href=\"https://docs.opensearch.org/latest/ml-commons-plugin/api/agent-apis/execute-agent/\"\
-      \ target=\"_blank\">agentic conversation memory</a>&nbsp;captures conversation\
-      \ context and tool reasoning in persistent storage, enabling your agents to\
-      \ provide coherent, accurate responses across multi-turn conversations. In addition\
-      \ to this, <a href=\"https://docs.opensearch.org/latest/ml-commons-plugin/context-management\"\
-      \ target=\"_blank\">context management</a> optimizes what you send to large\
-      \ language models (LLMs) through automatic truncation and summarization, reducing\
-      \ your token costs while maintaining response quality. Finally a redesigned\
-      \ no-code agent interface supports Model Context Protocol (MCP) integration,\
-      \ search templates, conversational memory, and single model configurations,\
-      \ allowing you to build sophisticated agents without writing code.</p> \n<p>You\
-      \ can now tune search quality faster with expanded <a href=\"https://docs.opensearch.org/latest/search-plugins/search-relevance/using-search-relevance-workbench/\"\
-      \ target=\"_blank\">search relevance workbench</a> capabilities. LLM-powered\
-      \ evaluation automatically assesses search results with customizable prompts,\
-      \ letting you scale relevance testing beyond manual judgments and accelerate\
-      \ quality improvements. Scheduled experiments run tests nightly, weekly, or\
-      \ monthly, helping you track search quality trends over time and catch regressions\
-      \ early. Enhanced single query comparison displays agentic search queries alongside\
-      \ agent summaries, making it easier to validate and optimize agent-driven search\
-      \ experiences.</p> \n<p>For information on upgrading to OpenSearch 3.5, please\
-      \ see the <a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html\"\
-      \ target=\"_blank\">documentation</a>. OpenSearch 3.5 is now available in all\
-      \ AWS Regions where Amazon OpenSearch Service is available.</p>"
-  33e96a941d7807d2fdb08fd635064969:
-    id: 33e96a941d7807d2fdb08fd635064969
-    title:
-      Amazon Inspector expands agentless EC2 scanning and introduces Windows
-      KB-based findings
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-inspector-agentless-ec2-scanning-windows/
-    published: "2026-03-18"
-    summary:
-      "<p>Amazon Inspector now offers expanded agentless EC2 scanning with\
-      \ enhanced detection coverage, including new support for Windows operating system\
-      \ vulnerability scanning without requiring an agent. Security teams and IT administrators\
-      \ can now detect vulnerabilities across a broader range of software and applications\
-      \ on their EC2 instances — including WordPress, Apache HTTP Server, Python packages,\
-      \ and Ruby gems — as well as Windows OS vulnerabilities, all through agentless\
-      \ scanning. Customers automatically receive findings for newly supported software\
-      \ and applications with no configuration changes required.</p> \n<p>Amazon Inspector\
-      \ is also introducing Windows Knowledge Base (KB)-based findings for Windows\
-      \ OS vulnerabilities. Rather than receiving a separate finding for each CVE\
-      \ addressed by a single Microsoft patch, customers now receive a single consolidated\
-      \ KB finding that groups all related CVEs together. Each KB finding surfaces\
-      \ the highest CVSS score, EPSS score, and exploit availability from its constituent\
-      \ CVEs, and includes a direct link to the relevant Microsoft KB article — making\
-      \ it straightforward to understand exactly which patch to apply and why. All\
-      \ existing CVE-based Windows OS findings will automatically transition to KB-based\
-      \ findings.&nbsp;All existing CVE-based Windows OS findings will automatically\
-      \ transition to KB-based findings, and customers do not need to take any additional\
-      \ action.</p> \n<p>Both capabilities are available in all AWS Regions where\
-      \ Amazon Inspector is available. To learn more, visit the <a href=\"https://aws.amazon.com/inspector/\"\
-      >Amazon Inspector product page</a>&nbsp;and the <a href=\"https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html\"\
-      >Amazon Inspector documentation</a>.&nbsp;</p>"
-  322503980ad14aaf5bf1586acd16b717:
-    id: 322503980ad14aaf5bf1586acd16b717
-    title:
-      Amazon S3 Access Grants are now available in the AWS Asia Pacific (New
-      Zealand) Region
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-access-grants-new-zealand/
-    published: "2026-03-18"
-    summary:
-      "<p>You can now create Amazon S3 Access Grants in the AWS Asia Pacific\
-      \ (New Zealand) Region.</p> \n<p>Amazon S3 Access Grants map identities in directories\
-      \ such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals,\
-      \ to datasets in S3. This helps you manage data permissions at scale by automatically\
-      \ granting S3 access to end users based on their corporate identity.</p> \n\
-      <p>Visit the <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-grants-limitations.html#access-grants-limitations-regions\"\
-      \ target=\"_blank\">AWS Region Table</a> for complete regional availability\
-      \ information. To learn more about Amazon S3 Access Grants, visit our <a href=\"\
-      https://aws.amazon.com/s3/features/access-grants/\" target=\"_blank\">product\
-      \ page</a>.</p>"
-  c78336658fa4f2d08724d56bacfe260a:
-    id: c78336658fa4f2d08724d56bacfe260a
-    title: Amazon EC2 C8a instances now available in the Asia Pacific (Tokyo) region
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-asia-pacific-tokyo-regions/
-    published: "2026-03-18"
-    summary:
-      <p>Starting today, the compute-optimized Amazon EC2 C8a instances are
-      available in the Asia Pacific (Tokyo) region. C8a instances are powered by 5th
-      Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency
-      of 4.5 GHz, delivering up to 30% higher performance and up to 19% better price-performance
-      compared to C7a instances.<br /> <br /> C8a instances deliver 33% more memory
-      bandwidth compared to C7a instances, making these instances ideal for latency
-      sensitive workloads. Compared to Amazon EC2 C7a instances, they are up to 57%
-      faster for GroovyJVM allowing better response times for Java-based applications.
-      C8a instances offer 12 sizes including 2 bare metal sizes. This range of instance
-      sizes allows customers to precisely match their workload requirements.<br />
-      <br /> C8a instances are built on <a href="https://aws.amazon.com/ec2/nitro/"
-      target="_blank">AWS Nitro System</a> and are ideal for high performance, compute-intensive
-      workloads such as batch processing, distributed analytics, high performance
-      computing (HPC), ad serving, highly-scalable multiplayer gaming, and video encoding.<br
-      /> <br /> To get started, sign in to the AWS Management Console. Customers can
-      purchase these instances via Savings Plans, On-Demand instances, and Spot instances.
-      For more information visit the <a href="https://aws.amazon.com/ec2/instance-types/c8a/"
-      target="_blank">Amazon EC2 C8a instance page.</a></p>
-  8280e87a49a3c74cdb0159a1e23ce79b:
-    id: 8280e87a49a3c74cdb0159a1e23ce79b
-    title: AWS Config launches 75 new managed rules
-    link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-config-launches-new-rules/
-    published: "2026-03-18"
-    summary:
-      "<p>AWS Config announces the launch of an additional 75 managed Config\
-      \ rules for various use cases such as security, durability, and operations.\
-      \ You can now search, discover, enable and manage these additional rules directly\
-      \ from AWS Config and govern more use cases for your AWS environment.<br />\
-      \ <br /> With this launch, you can now enable these controls across your account\
-      \ or across your organization. For example, you can assess your security posture\
-      \ across AWS Amplify, Amazon SageMaker, Amazon Route 53, and more. Additionally,\
-      \ you can leverage Conformance Packs to group these new controls and deploy\
-      \ across an account or across organization, streamlining your multi-account\
-      \ governance.<br /> <br /> For the full list of recently released rules, visit\
-      \ the&nbsp;<a href=\"https://docs.aws.amazon.com/config/latest/developerguide/DocumentHistory.html\"\
-      \ target=\"_blank\">AWS Config developer guide</a>. For description of each\
-      \ rule and the AWS Regions in which it is available, please refer our&nbsp;<a\
-      \ href=\"https://docs.aws.amazon.com/config/latest/developerguide/managed-rules-by-aws-config.html\"\
-      \ target=\"_blank\">Config managed rules documentation</a>. To start using Config\
-      \ rules, please refer our&nbsp;<a href=\"https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_add-rules.html\"\
-      \ target=\"_blank\">documentation</a>.<br /> <br /> New Rules Launched:</p>\
-      \ \n<ol> \n <li>ACM_CERTIFICATE_TRANSPARENT_LOGGING_ENABLED</li> \n <li>AMPLIFY_APP_BUILD_SPEC_CONFIGURED</li>\
-      \ \n <li>AMPLIFY_APP_PLATFORM_CHECK</li> \n <li>AMPLIFY_BRANCH_AUTO_BUILD_ENABLED</li>\
-      \ \n <li>AMPLIFY_BRANCH_BUILD_SPEC_CONFIGURED</li> \n <li>AMPLIFY_BRANCH_FRAMEWORK_CONFIGURED</li>\
-      \ \n <li>AMPLIFY_BRANCH_PULL_REQUEST_PREVIEW_ENABLED</li> \n <li>APIGATEWAY_DOMAIN_NAME_TLS_CHECK</li>\
-      \ \n <li>APIGATEWAYV2_INTEGRATION_PRIVATE_HTTPS_ENABLED</li> \n <li>APPINTEGRATIONS_APPLICATION_APPROVED_ORIGINS_CHECK</li>\
-      \ \n <li>APPINTEGRATIONS_APPLICATION_TAGGED</li> \n <li>APPMESH_MESH_IP_PREF_CHECK</li>\
-      \ \n <li>APPMESH_VIRTUAL_GATEWAY_LISTENERS_HEALTH_CHECK_ENABLED</li> \n <li>APPMESH_VIRTUAL_NODE_LISTENERS_HEALTH_CHECK_ENABLED</li>\
-      \ \n <li>APPMESH_VIRTUAL_NODE_LISTENERS_OUTLIER_DETECT_ENABLED</li> \n <li>APPMESH_VIRTUAL_NODE_SERVICE_BACKENDS_TLS_ENFORCED</li>\
-      \ \n <li>CLOUDTRAIL_EVENT_DATA_STORE_MULTI_REGION</li> \n <li>CLOUDWATCH_ALARM_DESCRIPTION</li>\
-      \ \n <li>CODEARTIFACT_REPOSITORY_TAGGED</li> \n <li>CODEBUILD_PROJECT_TAGGED</li>\
-      \ \n <li>EC2_IPAMSCOPE_TAGGED</li> \n <li>EC2_LAUNCHTEMPLATE_EBS_ENCRYPTED</li>\
-      \ \n <li>ECS_SERVICE_PROPAGATE_TAGS_ENABLED</li> \n <li>ELBV2_TARGETGROUP_HEALTHCHECK_PROTOCOL_ENCRYPTED</li>\
-      \ \n <li>ELBV2_TARGETGROUP_PROTOCOL_ENCRYPTED</li> \n <li>EVENTSCHEMAS_DISCOVERER_TAGGED</li>\
-      \ \n <li>EVENTSCHEMAS_REGISTRY_TAGGED</li> \n <li>GROUNDSTATION_CONFIG_TAGGED</li>\
-      \ \n <li>GROUNDSTATION_DATAFLOWENDPOINTGROUP_TAGGED</li> \n <li>GROUNDSTATION_MISSIONPROFILE_TAGGED</li>\
-      \ \n <li>HEALTHLAKE_FHIRDATASTORE_TAGGED</li> \n <li>IAM_OIDC_PROVIDER_CLIENT_ID_LIST_CHECK</li>\
-      \ \n <li>IAM_POLICY_DESCRIPTION</li> \n <li>IMAGEBUILDER_DISTRIBUTIONCONFIGURATION_TAGGED</li>\
-      \ \n <li>IMAGEBUILDER_IMAGEPIPELINE_TAGGED</li> \n <li>IMAGEBUILDER_IMAGERECIPE_EBS_VOLUMES_ENCRYPTED</li>\
-      \ \n <li>IMAGEBUILDER_IMAGERECIPE_TAGGED</li> \n <li>IMAGEBUILDER_INFRASTRUCTURECONFIGURATION_TAGGED</li>\
-      \ \n <li>KINESISVIDEO_SIGNALINGCHANNEL_TAGGED</li> \n <li>KINESISVIDEO_STREAM_TAGGED</li>\
-      \ \n <li>LAMBDA_FUNCTION_APPLICATION_LOG_LEVEL_CHECK</li> \n <li>LAMBDA_FUNCTION_LOG_FORMAT_JSON</li>\
-      \ \n <li>LAMBDA_FUNCTION_SYSTEM_LOG_LEVEL_CHECK</li> \n <li>LIGHTSAIL_BUCKET_OBJECT_VERSIONING_ENABLED</li>\
-      \ \n <li>MEDIAPACKAGE_PACKAGINGCONFIGURATION_TAGGED</li> \n <li>MEDIATAILOR_PLAYBACKCONFIGURATION_TAGGED</li>\
-      \ \n <li>MEMORYDB_SUBNETGROUP_TAGGED</li> \n <li>NEPTUNE_CLUSTER_SNAPSHOT_IAM_DATABASE_AUTH_ENABLED</li>\
-      \ \n <li>OPENSEARCHSERVERLESS_COLLECTION_DESCRIPTION</li> \n <li>OPENSEARCHSERVERLESS_COLLECTION_STANDBYREPLICAS_ENABLED</li>\
-      \ \n <li>PANORAMA_PACKAGE_TAGGED</li> \n <li>RDS_CLUSTER_BACKUP_RETENTION_CHECK</li>\
-      \ \n <li>RDS_GLOBAL_CLUSTER_AURORA_MYSQL_SUPPORTED_VERSION</li> \n <li>RESILIENCEHUB_APP_TAGGED</li>\
-      \ \n <li>RESILIENCEHUB_RESILIENCYPOLICY_TAGGED</li> \n <li>ROUTE53_RECOVERY_CONTROL_CLUSTER_TAGGED</li>\
-      \ \n <li>ROUTE53_RECOVERY_READINESS_CELL_TAGGED</li> \n <li>ROUTE53_RECOVERY_READINESS_READINESS_CHECK_TAGGED</li>\
-      \ \n <li>ROUTE53_RECOVERY_READINESS_RECOVERY_GROUP_TAGGED</li> \n <li>ROUTE53_RECOVERY_READINESS_RESOURCE_SET_TAGGED</li>\
-      \ \n <li>ROUTE53_RESOLVER_RESOLVER_ENDPOINT_TAGGED</li> \n <li>S3_DIRECTORY_BUCKET_LIFECYCLE_POLICY_RULE_CHECK</li>\
-      \ \n <li>SAGEMAKER_DATA_QUALITY_JOB_ENCRYPT_IN_TRANSIT</li> \n <li>SAGEMAKER_DATA_QUALITY_JOB_ISOLATION</li>\
-      \ \n <li>SAGEMAKER_FEATUREGROUP_DESCRIPTION</li> \n <li>SAGEMAKER_INFERENCEEXPERIMENT_TAGGED</li>\
-      \ \n <li>SAGEMAKER_MODEL_BIAS_JOB_ENCRYPT_IN_TRANSIT</li> \n <li>SAGEMAKER_MODEL_BIAS_JOB_ISOLATION</li>\
-      \ \n <li>SAGEMAKER_MODEL_EXPLAINABILITY_JOB_ENCRYPT_IN_TRANSIT</li> \n <li>SAGEMAKER_MODEL_QUALITY_JOB_ENCRYPT_TRANSIT</li>\
-      \ \n <li>SAGEMAKER_MONITORING_SCHEDULE_ISOLATION</li> \n <li>SIGNER_SIGNINGPROFILE_TAGGED</li>\
-      \ \n <li>TRANSFER_CONNECTOR_AS2_ENCRYPTION_ALGORITHM_CHECK</li> \n <li>TRANSFER_CONNECTOR_AS2_MDN_SIGNING_ALGORITHM_CHECK</li>\
-      \ \n <li>TRANSFER_CONNECTOR_AS2_SIGNING_ALGORITHM_CHECK</li> \n</ol>"
-  346fcc3412da7a90fbed45072253edef:
-    id: 346fcc3412da7a90fbed45072253edef
-    title:
-      Amazon EC2 High Memory U7i-6TB instances now available in Asia Pacific
-      (Malaysia)
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-high-memory-u7i-6tb-asia-pacific/
-    published: "2026-03-18"
-    summary:
-      "<p>Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge)\
-      \ are now available in AWS Asia Pacific (Malaysia). U7i instances are part of\
-      \ AWS 7th generation and are powered by custom fourth generation Intel Xeon\
-      \ Scalable Processors (Sapphire Rapids). U7i-6tb instances offer 6TiB of DDR5\
-      \ memory, enabling customers to scale transaction processing throughput in a\
-      \ fast-growing data environment.</p> \n<p>U7i-6tb instances deliver 448 vCPUs\
-      \ with up to 100 Gbps of Amazon EBS bandwidth for faster data loading and backups,\
-      \ 100 Gbps of network bandwidth, and ENA Express. U7i instances are ideal for\
-      \ customers using mission-critical in-memory databases like SAP HANA, Oracle,\
-      \ and SQL Server.</p> \n<p>To learn more about U7i instances, visit the&nbsp;<a\
-      \ href=\"https://aws.amazon.com/ec2/instance-types/u7i/\">High Memory instances\
-      \ page</a>.</p>"
-  cc337e6ff74739addf2fc0e5f10cd2b1:
-    id: cc337e6ff74739addf2fc0e5f10cd2b1
-    title: Amazon ECR now supports pull through cache for Chainguard
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecr-pull-through-cache-chainguard/
-    published: "2026-03-18"
-    summary:
-      <p><a href="https://aws.amazon.com/ecr/">Amazon Elastic Container Registry
-      (Amazon ECR)</a>&nbsp;pull through cache now supports Chainguard’s registry
-      as an upstream source.&nbsp;With today’s release, customers now benefit from
-      the security and availability of Amazon ECR for private Chainguard images.<br
-      /> <br /> As customers continue to scale their use of Chainguard images, keeping
-      them synchronized with Chainguard's registry becomes increasingly important.
-      With ECR's pull through cache feature, customers can keep Chainguard images
-      in sync without additional workflows or tools to manage. Amazon ECR's pull through
-      cache supports frequent registry syncs, helping to keep container images sourced
-      from Chainguard up to&nbsp;date. Later,&nbsp;customers can apply ECR features
-      such as image scanning and lifecycle policies to their cached Chainguard images.<br
-      /> <br /> The pull through cache for Chainguard is available in all AWS Regions
-      where Amazon ECR pull through cache is supported. To get started, review our<a
-      href="https://docs.aws.amazon.com/AmazonECR/latest/userguide/pull-through-cache.html">&nbsp;documentation</a>.</p>
-  078ed78847f611d51908c32d48e6ba57:
-    id: 078ed78847f611d51908c32d48e6ba57
-    title:
-      Amazon EC2 M6in and M6idn instances are now available in Europe (London)
-      Region
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m6in-m6idn-instances-london/
-    published: "2026-03-18"
-    summary:
-      "<p>Starting today, <a href=\"https://aws.amazon.com/ec2/instance-types/m6i\"\
-      >Amazon Elastic Compute Cloud (Amazon EC2) M6in and M6idn instances</a> are\
-      \ available in AWS London Region. These sixth-generation network optimized instances,\
-      \ powered by 3<sup>rd</sup> Generation Intel Xeon Scalable processors and built\
-      \ on the <a href=\"https://aws.amazon.com/ec2/nitro/\">AWS Nitro System</a>,\
-      \ deliver up to 200Gbps network bandwidth, for 2x more network bandwidth over\
-      \ comparable fifth-generation instances. Customers can use M6in and M6idn instances\
-      \ to scale their performance and throughput of network-intensive workloads such\
-      \ as high-performance file systems, distributed web scale in-memory caches,\
-      \ caching fleets, real-time big data analytics, and Telco applications such\
-      \ as 5G User Plane Function.</p> \n<p>M6in and M6idn instances are available\
-      \ in 10 different instance sizes including metal, offering up to 128 vCPUs and\
-      \ 512 GiB of memory. They deliver up to 100Gbps of <a href=\"https://aws.amazon.com/ebs/\"\
-      >Amazon Elastic Block Store (EBS)</a> bandwidth, and up to 400K IOPS. M6in and\
-      \ M6idn instances offer <a href=\"https://aws.amazon.com/hpc/efa/\">Elastic\
-      \ Fabric Adapter (EFA)</a> networking support on 32xlarge and metal sizes. M6idn\
-      \ instances offer up to 7.6 TB of high-speed, low-latency instance storage.</p>\
-      \ \n<p>With this regional expansion, M6in and M6idn instances are available\
-      \ in the following AWS Regions: US East (Ohio, N. Virginia), US West (N. California,\
-      \ Oregon), Europe (Ireland, Frankfurt, Spain, Stockholm, Zurich, London), Asia\
-      \ Pacific (Mumbai, Singapore, Tokyo, Sydney, Seoul), Canada (Central), and AWS\
-      \ GovCloud (US-West). Customers can purchase the new instances through Savings\
-      \ Plans, On-Demand, and Spot instances. To learn more, see <a href=\"https://aws.amazon.com/ec2/instance-types/m6i/\"\
-      >M6in and M6idn instances page</a>.&nbsp;</p>"
-  d0e91cb5d8e7e3f86171626b2f3da5df:
-    id: d0e91cb5d8e7e3f86171626b2f3da5df
-    title: Minimax M2.5 and GLM 5 models now available on Amazon Bedrock
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-minimax-glm/
-    published: "2026-03-18"
-    summary:
-      "<p>Amazon Bedrock expands model selection for customers by adding support\
-      \ for GLM 5 and Minimax M2.5. GLM 5 is a frontier‑class, general‑purpose large\
-      \ language model optimized for complex systems engineering and long‑horizon\
-      \ agentic tasks. It builds on the GLM 4.5 agent‑centric lineage and is designed\
-      \ to support multi‑step reasoning, math (including AIME‑style benchmarks), advanced\
-      \ coding, and tool‑augmented workflows, with long context support suitable for\
-      \ sophisticated agents and enterprise applications. MiniMax M2.5 is an agent‑native\
-      \ frontier model trained explicitly to reason efficiently, decompose tasks optimally,\
-      \ and complete complex workflows under real‑world time and cost constraints.\
-      \ It achieves task completion speeds comparable to or faster than leading proprietary\
-      \ frontier models by combining high inference throughput with reinforcement\
-      \ learning focused on token‑efficient reasoning and better decision‑making in\
-      \ agentic scaffolds.</p> \n<p>MiniMax M2.5 and GLM 5 are now available in Amazon\
-      \ Bedrock across select AWS Regions. For the full list of available AWS Regions,\
-      \ refer to the&nbsp;<a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html\"\
-      >documentation</a>.</p>"
-  4e25d8bb0769bee31b12979e29f7f5f9:
-    id: 4e25d8bb0769bee31b12979e29f7f5f9
-    title: NVIDIA Nemotron 3 Super now available on Amazon Bedrock
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-nemotron-3-super/
-    published: "2026-03-18"
-    summary:
-      "<p>Amazon Bedrock now supports NVIDIA Nemotron 3 Super, an open hybrid\
-      \ Mixture-of-Experts (MoE) model designed for complex multi-agent applications.\
-      \ Built for agentic workloads, Nemotron 3 Super delivers fast, and cost-efficient\
-      \ inference enabling AI agents to maintain focus and accuracy across long, multi-step\
-      \ tasks without losing context. Fully open with weights, datasets, and recipes,\
-      \ the model supports easy customization and secure deployment, making it well-suited\
-      \ for enterprises, startups, and individual developers building multi-agent\
-      \ workflows, and advanced reasoning applications.</p> \n<p>Amazon Bedrock gives\
-      \ customers access to Nemotron 3 Super through a single, fully managed API —\
-      \ with no infrastructure to provision or models to host. Bedrock's serverless\
-      \ inference, built-in security controls, and compatibility with OpenAI API specifications\
-      \ make it easy to integrate Nemotron 3 Super into existing workflows and deploy\
-      \ at production scale with confidence.</p> \n<p>NVIDIA Nemotron 3 Super is now\
-      \ available in Amazon Bedrock across <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-nvidia\"\
-      \ target=\"_blank\">select AWS Regions</a>. For the full list of available AWS\
-      \ Regions, refer to the documentation. To learn more and get started, visit\
-      \ the Amazon Bedrock console or the service documentation here. To get started\
-      \ with Amazon Bedrock OpenAI API-compatible service endpoints, visit documentation\
-      \ <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/getting-started.html\"\
-      \ target=\"_blank\">here.</a></p>"
-  cfd14ba1bac21aa290458466bb89216d:
-    id: cfd14ba1bac21aa290458466bb89216d
-    title: Amazon SageMaker Unified Studio adds custom metadata filters
-    link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-smus-custom-metadata-search/
-    published: "2026-03-18"
-    summary:
-      <p>Amazon SageMaker Unified Studio adds custom metadata search filters,
-      enabling customers to narrow catalog search results using organization-specific
-      attributes. This helps customers find the right assets faster by filtering on
-      fields like business region, data classification, or study name, in addition
-      to existing keyword and semantic search.<br /> <br /> With custom metadata search
-      filters, customers can add filters based on any custom metadata fields available
-      in their catalog, such as sample type or study ID. Filters support string fields
-      with a "contains" operator and numeric fields (Integer, Long) with equals, greater
-      than, and less than operators. Customers can also filter by asset name, description,
-      and date range. Multiple filters can be combined, and filter selections persist
-      across browser sessions.<br /> <br /> Custom metadata search filters are available
-      in all AWS Regions where Amazon SageMaker Unified Studio is supported. Standard
-      Amazon SageMaker pricing applies.<br /> <br /> To get started, navigate to the
-      Browse Assets page in Amazon SageMaker Unified Studio and use the "+ Add Filter"
-      button to create custom filters. You can also use the SearchListings API with
-      metadata form attributes in the filters parameter. For more information, see
-      the <a href="https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/search-for-data.html">Amazon
-      SageMaker Unified Studio documentation</a>.</p>
-last_updated: "2026-03-18T23:27:49.534965"
+"entries":
+  "27ccf2c92562162db535835ed74aaedd":
+    "id": "27ccf2c92562162db535835ed74aaedd"
+    "title": "Amazon Connect expands agentic speech-to-speech voice experiences to the London (Europe) region and adds three new voices"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-london-europe-region/"
+    "published": "2026-03-18"
+    "summary": "<p>Amazon Connect now offers agentic speech-to-speech voice experiences in an&nbsp;additional&nbsp;AWS Region: Europe (London). Amazon Connect also adds three new speech-to-speech voices across US Spanish and UK English: Pedro (es-US), Amy (en-GB), and Brian (en-GB).</p> \n<p>Amazon&nbsp;Connect's&nbsp;agentic self-service capabilities enable AI agents to understand, reason, and&nbsp;take action&nbsp;across voice and messaging channels to automate routine and complex customer service tasks.&nbsp;Connect's&nbsp;agentic speech-to-speech voice AI agents understand not only what customers say but how they say it, adapting voice responses to match customer tone and sentiment while&nbsp;maintaining&nbsp;natural conversational pace. With these updates, you can deliver agentic speech-to-speech voice experiences to customers across a new region with a wider selection of voices.</p> \n<p>To learn more about this feature, see the Amazon Connect&nbsp;<a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/what-is-amazon-connect.html\">Administrator Guide</a>.&nbsp;To&nbsp;learn more about Amazon Connect, a complete AI-powered contact center solution delivering personalized customer experiences at scale, visit the&nbsp;Amazon Connect&nbsp;<a href=\"https://aws.amazon.com/connect/\">website.</a></p>"
+  "98aab35b07dc08839847ced6f566a433":
+    "id": "98aab35b07dc08839847ced6f566a433"
+    "title": "Amazon Redshift increases performance for new queries in dashboards and ETL workloads by up to 7x"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-increases-performance-for-new-queries/"
+    "published": "2026-03-18"
+    "summary": "<p><a href=\"https://aws.amazon.com/redshift\">Amazon Redshift</a> improves the performance of BI dashboards and ETL workloads by speeding up new queries by up to 7x. This significantly improves the response times of low-latency SQL queries, such as those used in near real-time analytics applications, BI dashboards, ETL pipelines, and autonomous, goal-seeking AI agents. Customers experience substantially faster query response times as Redshift accelerates the process of preparing the SQL query for execution. Queries start faster and return results quicker. This improvement is automatically enabled at no additional cost.<br /> <br /> To deliver this major improvement, Redshift added a new optimization to query compilation where new queries are processed immediately using composition. Composition is a technique that generates a lightweight arrangement of pre-existing logic while simultaneously creating highly optimized, query-specific code that is compiled and executed across available compute resources to further boost performance. Composition removes compilation from the critical path of query execution and provides immediate execution while compilation proceeds in the background. With this optimization, new queries processed by Redshift start faster and deliver performance consistent with subsequent runs.<br /> <br /> This optimization is enabled by default for any SQL query across all provisioned clusters and serverless workgroups, in all commercial AWS Regions where Amazon Redshift operates. It is available on the Redshift current track with other tracks following in upcoming patch releases. No action is required from customers to benefit from this enhancement, and it is free of charge.</p>"
+  "d194688cad361b4e0c335ce99fca7904":
+    "id": "d194688cad361b4e0c335ce99fca7904"
+    "title": "Amazon OpenSearch Service now supports OpenSearch version 3.5"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-version-3-5/"
+    "published": "2026-03-18"
+    "summary": "<p>You can now run OpenSearch version 3.5 on Amazon OpenSearch Service. OpenSearch 3.5 introduces significant improvements in agentic AI capabilities, search relevance tooling, and observability features to help you build powerful agentic applications.</p> \n<p>With this launch, <a href=\"https://docs.opensearch.org/latest/ml-commons-plugin/api/agent-apis/execute-agent/\" target=\"_blank\">agentic conversation memory</a>&nbsp;captures conversation context and tool reasoning in persistent storage, enabling your agents to provide coherent, accurate responses across multi-turn conversations. In addition to this, <a href=\"https://docs.opensearch.org/latest/ml-commons-plugin/context-management\" target=\"_blank\">context management</a> optimizes what you send to large language models (LLMs) through automatic truncation and summarization, reducing your token costs while maintaining response quality. Finally a redesigned no-code agent interface supports Model Context Protocol (MCP) integration, search templates, conversational memory, and single model configurations, allowing you to build sophisticated agents without writing code.</p> \n<p>You can now tune search quality faster with expanded <a href=\"https://docs.opensearch.org/latest/search-plugins/search-relevance/using-search-relevance-workbench/\" target=\"_blank\">search relevance workbench</a> capabilities. LLM-powered evaluation automatically assesses search results with customizable prompts, letting you scale relevance testing beyond manual judgments and accelerate quality improvements. Scheduled experiments run tests nightly, weekly, or monthly, helping you track search quality trends over time and catch regressions early. Enhanced single query comparison displays agentic search queries alongside agent summaries, making it easier to validate and optimize agent-driven search experiences.</p> \n<p>For information on upgrading to OpenSearch 3.5, please see the <a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/version-migration.html\" target=\"_blank\">documentation</a>. OpenSearch 3.5 is now available in all AWS Regions where Amazon OpenSearch Service is available.</p>"
+  "33e96a941d7807d2fdb08fd635064969":
+    "id": "33e96a941d7807d2fdb08fd635064969"
+    "title": "Amazon Inspector expands agentless EC2 scanning and introduces Windows KB-based findings"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-inspector-agentless-ec2-scanning-windows/"
+    "published": "2026-03-18"
+    "summary": "<p>Amazon Inspector now offers expanded agentless EC2 scanning with enhanced detection coverage, including new support for Windows operating system vulnerability scanning without requiring an agent. Security teams and IT administrators can now detect vulnerabilities across a broader range of software and applications on their EC2 instances — including WordPress, Apache HTTP Server, Python packages, and Ruby gems — as well as Windows OS vulnerabilities, all through agentless scanning. Customers automatically receive findings for newly supported software and applications with no configuration changes required.</p> \n<p>Amazon Inspector is also introducing Windows Knowledge Base (KB)-based findings for Windows OS vulnerabilities. Rather than receiving a separate finding for each CVE addressed by a single Microsoft patch, customers now receive a single consolidated KB finding that groups all related CVEs together. Each KB finding surfaces the highest CVSS score, EPSS score, and exploit availability from its constituent CVEs, and includes a direct link to the relevant Microsoft KB article — making it straightforward to understand exactly which patch to apply and why. All existing CVE-based Windows OS findings will automatically transition to KB-based findings.&nbsp;All existing CVE-based Windows OS findings will automatically transition to KB-based findings, and customers do not need to take any additional action.</p> \n<p>Both capabilities are available in all AWS Regions where Amazon Inspector is available. To learn more, visit the <a href=\"https://aws.amazon.com/inspector/\">Amazon Inspector product page</a>&nbsp;and the <a href=\"https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html\">Amazon Inspector documentation</a>.&nbsp;</p>"
+  "322503980ad14aaf5bf1586acd16b717":
+    "id": "322503980ad14aaf5bf1586acd16b717"
+    "title": "Amazon S3 Access Grants are now available in the AWS Asia Pacific (New Zealand) Region"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-access-grants-new-zealand/"
+    "published": "2026-03-18"
+    "summary": "<p>You can now create Amazon S3 Access Grants in the AWS Asia Pacific (New Zealand) Region.</p> \n<p>Amazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals, to datasets in S3. This helps you manage data permissions at scale by automatically granting S3 access to end users based on their corporate identity.</p> \n<p>Visit the <a href=\"https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-grants-limitations.html#access-grants-limitations-regions\" target=\"_blank\">AWS Region Table</a> for complete regional availability information. To learn more about Amazon S3 Access Grants, visit our <a href=\"https://aws.amazon.com/s3/features/access-grants/\" target=\"_blank\">product page</a>.</p>"
+  "c78336658fa4f2d08724d56bacfe260a":
+    "id": "c78336658fa4f2d08724d56bacfe260a"
+    "title": "Amazon EC2 C8a instances now available in the Asia Pacific (Tokyo) region"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-asia-pacific-tokyo-regions/"
+    "published": "2026-03-18"
+    "summary": "<p>Starting today, the compute-optimized Amazon EC2 C8a instances are available in the Asia Pacific (Tokyo) region. C8a instances are powered by 5th Gen AMD EPYC processors (formerly code named Turin) with a maximum frequency of 4.5 GHz, delivering up to 30% higher performance and up to 19% better price-performance compared to C7a instances.<br /> <br /> C8a instances deliver 33% more memory bandwidth compared to C7a instances, making these instances ideal for latency sensitive workloads. Compared to Amazon EC2 C7a instances, they are up to 57% faster for GroovyJVM allowing better response times for Java-based applications. C8a instances offer 12 sizes including 2 bare metal sizes. This range of instance sizes allows customers to precisely match their workload requirements.<br /> <br /> C8a instances are built on <a href=\"https://aws.amazon.com/ec2/nitro/\" target=\"_blank\">AWS Nitro System</a> and are ideal for high performance, compute-intensive workloads such as batch processing, distributed analytics, high performance computing (HPC), ad serving, highly-scalable multiplayer gaming, and video encoding.<br /> <br /> To get started, sign in to the AWS Management Console. Customers can purchase these instances via Savings Plans, On-Demand instances, and Spot instances. For more information visit the <a href=\"https://aws.amazon.com/ec2/instance-types/c8a/\" target=\"_blank\">Amazon EC2 C8a instance page.</a></p>"
+  "8280e87a49a3c74cdb0159a1e23ce79b":
+    "id": "8280e87a49a3c74cdb0159a1e23ce79b"
+    "title": "AWS Config launches 75 new managed rules"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-config-launches-new-rules/"
+    "published": "2026-03-18"
+    "summary": "<p>AWS Config announces the launch of an additional 75 managed Config rules for various use cases such as security, durability, and operations. You can now search, discover, enable and manage these additional rules directly from AWS Config and govern more use cases for your AWS environment.<br /> <br /> With this launch, you can now enable these controls across your account or across your organization. For example, you can assess your security posture across AWS Amplify, Amazon SageMaker, Amazon Route 53, and more. Additionally, you can leverage Conformance Packs to group these new controls and deploy across an account or across organization, streamlining your multi-account governance.<br /> <br /> For the full list of recently released rules, visit the&nbsp;<a href=\"https://docs.aws.amazon.com/config/latest/developerguide/DocumentHistory.html\" target=\"_blank\">AWS Config developer guide</a>. For description of each rule and the AWS Regions in which it is available, please refer our&nbsp;<a href=\"https://docs.aws.amazon.com/config/latest/developerguide/managed-rules-by-aws-config.html\" target=\"_blank\">Config managed rules documentation</a>. To start using Config rules, please refer our&nbsp;<a href=\"https://docs.aws.amazon.com/config/latest/developerguide/evaluate-config_add-rules.html\" target=\"_blank\">documentation</a>.<br /> <br /> New Rules Launched:</p> \n<ol> \n <li>ACM_CERTIFICATE_TRANSPARENT_LOGGING_ENABLED</li> \n <li>AMPLIFY_APP_BUILD_SPEC_CONFIGURED</li> \n <li>AMPLIFY_APP_PLATFORM_CHECK</li> \n <li>AMPLIFY_BRANCH_AUTO_BUILD_ENABLED</li> \n <li>AMPLIFY_BRANCH_BUILD_SPEC_CONFIGURED</li> \n <li>AMPLIFY_BRANCH_FRAMEWORK_CONFIGURED</li> \n <li>AMPLIFY_BRANCH_PULL_REQUEST_PREVIEW_ENABLED</li> \n <li>APIGATEWAY_DOMAIN_NAME_TLS_CHECK</li> \n <li>APIGATEWAYV2_INTEGRATION_PRIVATE_HTTPS_ENABLED</li> \n <li>APPINTEGRATIONS_APPLICATION_APPROVED_ORIGINS_CHECK</li> \n <li>APPINTEGRATIONS_APPLICATION_TAGGED</li> \n <li>APPMESH_MESH_IP_PREF_CHECK</li> \n <li>APPMESH_VIRTUAL_GATEWAY_LISTENERS_HEALTH_CHECK_ENABLED</li> \n <li>APPMESH_VIRTUAL_NODE_LISTENERS_HEALTH_CHECK_ENABLED</li> \n <li>APPMESH_VIRTUAL_NODE_LISTENERS_OUTLIER_DETECT_ENABLED</li> \n <li>APPMESH_VIRTUAL_NODE_SERVICE_BACKENDS_TLS_ENFORCED</li> \n <li>CLOUDTRAIL_EVENT_DATA_STORE_MULTI_REGION</li> \n <li>CLOUDWATCH_ALARM_DESCRIPTION</li> \n <li>CODEARTIFACT_REPOSITORY_TAGGED</li> \n <li>CODEBUILD_PROJECT_TAGGED</li> \n <li>EC2_IPAMSCOPE_TAGGED</li> \n <li>EC2_LAUNCHTEMPLATE_EBS_ENCRYPTED</li> \n <li>ECS_SERVICE_PROPAGATE_TAGS_ENABLED</li> \n <li>ELBV2_TARGETGROUP_HEALTHCHECK_PROTOCOL_ENCRYPTED</li> \n <li>ELBV2_TARGETGROUP_PROTOCOL_ENCRYPTED</li> \n <li>EVENTSCHEMAS_DISCOVERER_TAGGED</li> \n <li>EVENTSCHEMAS_REGISTRY_TAGGED</li> \n <li>GROUNDSTATION_CONFIG_TAGGED</li> \n <li>GROUNDSTATION_DATAFLOWENDPOINTGROUP_TAGGED</li> \n <li>GROUNDSTATION_MISSIONPROFILE_TAGGED</li> \n <li>HEALTHLAKE_FHIRDATASTORE_TAGGED</li> \n <li>IAM_OIDC_PROVIDER_CLIENT_ID_LIST_CHECK</li> \n <li>IAM_POLICY_DESCRIPTION</li> \n <li>IMAGEBUILDER_DISTRIBUTIONCONFIGURATION_TAGGED</li> \n <li>IMAGEBUILDER_IMAGEPIPELINE_TAGGED</li> \n <li>IMAGEBUILDER_IMAGERECIPE_EBS_VOLUMES_ENCRYPTED</li> \n <li>IMAGEBUILDER_IMAGERECIPE_TAGGED</li> \n <li>IMAGEBUILDER_INFRASTRUCTURECONFIGURATION_TAGGED</li> \n <li>KINESISVIDEO_SIGNALINGCHANNEL_TAGGED</li> \n <li>KINESISVIDEO_STREAM_TAGGED</li> \n <li>LAMBDA_FUNCTION_APPLICATION_LOG_LEVEL_CHECK</li> \n <li>LAMBDA_FUNCTION_LOG_FORMAT_JSON</li> \n <li>LAMBDA_FUNCTION_SYSTEM_LOG_LEVEL_CHECK</li> \n <li>LIGHTSAIL_BUCKET_OBJECT_VERSIONING_ENABLED</li> \n <li>MEDIAPACKAGE_PACKAGINGCONFIGURATION_TAGGED</li> \n <li>MEDIATAILOR_PLAYBACKCONFIGURATION_TAGGED</li> \n <li>MEMORYDB_SUBNETGROUP_TAGGED</li> \n <li>NEPTUNE_CLUSTER_SNAPSHOT_IAM_DATABASE_AUTH_ENABLED</li> \n <li>OPENSEARCHSERVERLESS_COLLECTION_DESCRIPTION</li> \n <li>OPENSEARCHSERVERLESS_COLLECTION_STANDBYREPLICAS_ENABLED</li> \n <li>PANORAMA_PACKAGE_TAGGED</li> \n <li>RDS_CLUSTER_BACKUP_RETENTION_CHECK</li> \n <li>RDS_GLOBAL_CLUSTER_AURORA_MYSQL_SUPPORTED_VERSION</li> \n <li>RESILIENCEHUB_APP_TAGGED</li> \n <li>RESILIENCEHUB_RESILIENCYPOLICY_TAGGED</li> \n <li>ROUTE53_RECOVERY_CONTROL_CLUSTER_TAGGED</li> \n <li>ROUTE53_RECOVERY_READINESS_CELL_TAGGED</li> \n <li>ROUTE53_RECOVERY_READINESS_READINESS_CHECK_TAGGED</li> \n <li>ROUTE53_RECOVERY_READINESS_RECOVERY_GROUP_TAGGED</li> \n <li>ROUTE53_RECOVERY_READINESS_RESOURCE_SET_TAGGED</li> \n <li>ROUTE53_RESOLVER_RESOLVER_ENDPOINT_TAGGED</li> \n <li>S3_DIRECTORY_BUCKET_LIFECYCLE_POLICY_RULE_CHECK</li> \n <li>SAGEMAKER_DATA_QUALITY_JOB_ENCRYPT_IN_TRANSIT</li> \n <li>SAGEMAKER_DATA_QUALITY_JOB_ISOLATION</li> \n <li>SAGEMAKER_FEATUREGROUP_DESCRIPTION</li> \n <li>SAGEMAKER_INFERENCEEXPERIMENT_TAGGED</li> \n <li>SAGEMAKER_MODEL_BIAS_JOB_ENCRYPT_IN_TRANSIT</li> \n <li>SAGEMAKER_MODEL_BIAS_JOB_ISOLATION</li> \n <li>SAGEMAKER_MODEL_EXPLAINABILITY_JOB_ENCRYPT_IN_TRANSIT</li> \n <li>SAGEMAKER_MODEL_QUALITY_JOB_ENCRYPT_TRANSIT</li> \n <li>SAGEMAKER_MONITORING_SCHEDULE_ISOLATION</li> \n <li>SIGNER_SIGNINGPROFILE_TAGGED</li> \n <li>TRANSFER_CONNECTOR_AS2_ENCRYPTION_ALGORITHM_CHECK</li> \n <li>TRANSFER_CONNECTOR_AS2_MDN_SIGNING_ALGORITHM_CHECK</li> \n <li>TRANSFER_CONNECTOR_AS2_SIGNING_ALGORITHM_CHECK</li> \n</ol>"
+  "346fcc3412da7a90fbed45072253edef":
+    "id": "346fcc3412da7a90fbed45072253edef"
+    "title": "Amazon EC2 High Memory U7i-6TB instances now available in Asia Pacific (Malaysia)"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-high-memory-u7i-6tb-asia-pacific/"
+    "published": "2026-03-18"
+    "summary": "<p>Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge) are now available in AWS Asia Pacific (Malaysia). U7i instances are part of AWS 7th generation and are powered by custom fourth generation Intel Xeon Scalable Processors (Sapphire Rapids). U7i-6tb instances offer 6TiB of DDR5 memory, enabling customers to scale transaction processing throughput in a fast-growing data environment.</p> \n<p>U7i-6tb instances deliver 448 vCPUs with up to 100 Gbps of Amazon EBS bandwidth for faster data loading and backups, 100 Gbps of network bandwidth, and ENA Express. U7i instances are ideal for customers using mission-critical in-memory databases like SAP HANA, Oracle, and SQL Server.</p> \n<p>To learn more about U7i instances, visit the&nbsp;<a href=\"https://aws.amazon.com/ec2/instance-types/u7i/\">High Memory instances page</a>.</p>"
+  "cc337e6ff74739addf2fc0e5f10cd2b1":
+    "id": "cc337e6ff74739addf2fc0e5f10cd2b1"
+    "title": "Amazon ECR now supports pull through cache for Chainguard"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecr-pull-through-cache-chainguard/"
+    "published": "2026-03-18"
+    "summary": "<p><a href=\"https://aws.amazon.com/ecr/\">Amazon Elastic Container Registry (Amazon ECR)</a>&nbsp;pull through cache now supports Chainguard’s registry as an upstream source.&nbsp;With today’s release, customers now benefit from the security and availability of Amazon ECR for private Chainguard images.<br /> <br /> As customers continue to scale their use of Chainguard images, keeping them synchronized with Chainguard's registry becomes increasingly important. With ECR's pull through cache feature, customers can keep Chainguard images in sync without additional workflows or tools to manage. Amazon ECR's pull through cache supports frequent registry syncs, helping to keep container images sourced from Chainguard up to&nbsp;date. Later,&nbsp;customers can apply ECR features such as image scanning and lifecycle policies to their cached Chainguard images.<br /> <br /> The pull through cache for Chainguard is available in all AWS Regions where Amazon ECR pull through cache is supported. To get started, review our<a href=\"https://docs.aws.amazon.com/AmazonECR/latest/userguide/pull-through-cache.html\">&nbsp;documentation</a>.</p>"
+  "078ed78847f611d51908c32d48e6ba57":
+    "id": "078ed78847f611d51908c32d48e6ba57"
+    "title": "Amazon EC2 M6in and M6idn instances are now available in Europe (London) Region"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m6in-m6idn-instances-london/"
+    "published": "2026-03-18"
+    "summary": "<p>Starting today, <a href=\"https://aws.amazon.com/ec2/instance-types/m6i\">Amazon Elastic Compute Cloud (Amazon EC2) M6in and M6idn instances</a> are available in AWS London Region. These sixth-generation network optimized instances, powered by 3<sup>rd</sup> Generation Intel Xeon Scalable processors and built on the <a href=\"https://aws.amazon.com/ec2/nitro/\">AWS Nitro System</a>, deliver up to 200Gbps network bandwidth, for 2x more network bandwidth over comparable fifth-generation instances. Customers can use M6in and M6idn instances to scale their performance and throughput of network-intensive workloads such as high-performance file systems, distributed web scale in-memory caches, caching fleets, real-time big data analytics, and Telco applications such as 5G User Plane Function.</p> \n<p>M6in and M6idn instances are available in 10 different instance sizes including metal, offering up to 128 vCPUs and 512 GiB of memory. They deliver up to 100Gbps of <a href=\"https://aws.amazon.com/ebs/\">Amazon Elastic Block Store (EBS)</a> bandwidth, and up to 400K IOPS. M6in and M6idn instances offer <a href=\"https://aws.amazon.com/hpc/efa/\">Elastic Fabric Adapter (EFA)</a> networking support on 32xlarge and metal sizes. M6idn instances offer up to 7.6 TB of high-speed, low-latency instance storage.</p> \n<p>With this regional expansion, M6in and M6idn instances are available in the following AWS Regions: US East (Ohio, N. Virginia), US West (N. California, Oregon), Europe (Ireland, Frankfurt, Spain, Stockholm, Zurich, London), Asia Pacific (Mumbai, Singapore, Tokyo, Sydney, Seoul), Canada (Central), and AWS GovCloud (US-West). Customers can purchase the new instances through Savings Plans, On-Demand, and Spot instances. To learn more, see <a href=\"https://aws.amazon.com/ec2/instance-types/m6i/\">M6in and M6idn instances page</a>.&nbsp;</p>"
+  "d0e91cb5d8e7e3f86171626b2f3da5df":
+    "id": "d0e91cb5d8e7e3f86171626b2f3da5df"
+    "title": "Minimax M2.5 and GLM 5 models now available on Amazon Bedrock"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-minimax-glm/"
+    "published": "2026-03-18"
+    "summary": "<p>Amazon Bedrock expands model selection for customers by adding support for GLM 5 and Minimax M2.5. GLM 5 is a frontier‑class, general‑purpose large language model optimized for complex systems engineering and long‑horizon agentic tasks. It builds on the GLM 4.5 agent‑centric lineage and is designed to support multi‑step reasoning, math (including AIME‑style benchmarks), advanced coding, and tool‑augmented workflows, with long context support suitable for sophisticated agents and enterprise applications. MiniMax M2.5 is an agent‑native frontier model trained explicitly to reason efficiently, decompose tasks optimally, and complete complex workflows under real‑world time and cost constraints. It achieves task completion speeds comparable to or faster than leading proprietary frontier models by combining high inference throughput with reinforcement learning focused on token‑efficient reasoning and better decision‑making in agentic scaffolds.</p> \n<p>MiniMax M2.5 and GLM 5 are now available in Amazon Bedrock across select AWS Regions. For the full list of available AWS Regions, refer to the&nbsp;<a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html\">documentation</a>.</p>"
+  "4e25d8bb0769bee31b12979e29f7f5f9":
+    "id": "4e25d8bb0769bee31b12979e29f7f5f9"
+    "title": "NVIDIA Nemotron 3 Super now available on Amazon Bedrock"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-nemotron-3-super/"
+    "published": "2026-03-18"
+    "summary": "<p>Amazon Bedrock now supports NVIDIA Nemotron 3 Super, an open hybrid Mixture-of-Experts (MoE) model designed for complex multi-agent applications. Built for agentic workloads, Nemotron 3 Super delivers fast, and cost-efficient inference enabling AI agents to maintain focus and accuracy across long, multi-step tasks without losing context. Fully open with weights, datasets, and recipes, the model supports easy customization and secure deployment, making it well-suited for enterprises, startups, and individual developers building multi-agent workflows, and advanced reasoning applications.</p> \n<p>Amazon Bedrock gives customers access to Nemotron 3 Super through a single, fully managed API — with no infrastructure to provision or models to host. Bedrock's serverless inference, built-in security controls, and compatibility with OpenAI API specifications make it easy to integrate Nemotron 3 Super into existing workflows and deploy at production scale with confidence.</p> \n<p>NVIDIA Nemotron 3 Super is now available in Amazon Bedrock across <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html#model-regions-nvidia\" target=\"_blank\">select AWS Regions</a>. For the full list of available AWS Regions, refer to the documentation. To learn more and get started, visit the Amazon Bedrock console or the service documentation here. To get started with Amazon Bedrock OpenAI API-compatible service endpoints, visit documentation <a href=\"https://docs.aws.amazon.com/bedrock/latest/userguide/getting-started.html\" target=\"_blank\">here.</a></p>"
+  "cfd14ba1bac21aa290458466bb89216d":
+    "id": "cfd14ba1bac21aa290458466bb89216d"
+    "title": "Amazon SageMaker Unified Studio adds custom metadata filters"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-smus-custom-metadata-search/"
+    "published": "2026-03-18"
+    "summary": "<p>Amazon SageMaker Unified Studio adds custom metadata search filters, enabling customers to narrow catalog search results using organization-specific attributes. This helps customers find the right assets faster by filtering on fields like business region, data classification, or study name, in addition to existing keyword and semantic search.<br /> <br /> With custom metadata search filters, customers can add filters based on any custom metadata fields available in their catalog, such as sample type or study ID. Filters support string fields with a \"contains\" operator and numeric fields (Integer, Long) with equals, greater than, and less than operators. Customers can also filter by asset name, description, and date range. Multiple filters can be combined, and filter selections persist across browser sessions.<br /> <br /> Custom metadata search filters are available in all AWS Regions where Amazon SageMaker Unified Studio is supported. Standard Amazon SageMaker pricing applies.<br /> <br /> To get started, navigate to the Browse Assets page in Amazon SageMaker Unified Studio and use the \"+ Add Filter\" button to create custom filters. You can also use the SearchListings API with metadata form attributes in the filters parameter. For more information, see the <a href=\"https://docs.aws.amazon.com/sagemaker-unified-studio/latest/userguide/search-for-data.html\">Amazon SageMaker Unified Studio documentation</a>.</p>"
+  "d3f94aaa8034197992ab37a5ad0ca30b":
+    "id": "d3f94aaa8034197992ab37a5ad0ca30b"
+    "title": "Amazon Quick Now Available in the AWS Tokyo Region"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-tokyo-region/"
+    "published": "2026-03-18 17:02:00"
+    "summary": "<p>Amazon Quick is now available in the AWS Asia Pacific (Tokyo) region (ap-northeast-1). This launch allows customers in Japan to access the full power of Amazon Quick while meeting local and regional requirements for data sovereignty.</p> \n<p>Amazon Quick provides business users an agentic teammate that quickly answers questions at work and turns those answers into actions. With Amazon Quick, every user is empowered to make better decisions, faster and take actions without switching applications using AI they can trust. Today’s launch allows customers to take advantage of Amazon Quick’s capabilities including AI-powered chat, Research, Spaces, Flows, and QuickSight dashboards — with their data stored and processed locally within the London region. This expansion also supports in-region inference through JP-CRIS (Japan Cross-Region Inference), ensuring that inference requests from Tokyo instances are routed exclusively within Japanese AWS Region. Customers in regulated industries such as financial services, healthcare, and the public sector can meet strict data sovereignty requirements of Japan's data protection frameworks, including the Act on the Protection of Personal Information (APPI).</p> \n<p>For a full list of AWS regions where Amazon Quick is available, visit the&nbsp;<a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\">Quick regional availability page.</a>&nbsp;To learn more, visit the&nbsp;<a href=\"https://docs.aws.amazon.com/quick/\">Amazon Quick documentation</a>&nbsp;or&nbsp;<a href=\"https://aws.amazon.com/quick/\">product detail page</a>.</p> \n<p>&nbsp;</p>"
+  "76ad9d7c3e3c34a7ee590d292c03de30":
+    "id": "76ad9d7c3e3c34a7ee590d292c03de30"
+    "title": "Amazon Quick Now Available in the AWS Frankfurt Region"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-frankfurt-region/"
+    "published": "2026-03-18 16:56:00"
+    "summary": "<p>Amazon Quick is now available in the AWS Europe (Frankfurt) region (eu-central-1). This launch allows customers in Germany to access the full power of Amazon Quick while meeting local and regional requirements for data sovereignty.</p> \n<p>Amazon Quick provides business users an agentic teammate that quickly answers questions at work and turns those answers into actions. With Amazon Quick, every user is empowered to make better decisions, faster and take actions without switching applications using AI they can trust. Today’s launch allows customers to take advantage of Amazon Quick’s capabilities including AI-powered chat, Research, Spaces, Flows, and QuickSight dashboards — with their data stored and processed locally within the Frankfurt region. This expansion also supports in-region inference through EU-CRIS (Europe Cross-Region Inference), ensuring that inference requests from Frankfurt instances are routed exclusively within European AWS Regions. Customers in regulated industries such as financial services, healthcare, and the public sector can meet strict data sovereignty requirements of EU data protection frameworks including GDPR. </p> \n<p>For a full list of AWS regions where Amazon Quick is available, visit the <a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\" target=\"_blank\">Quick regional availability page.</a> To learn more, visit the <a href=\"https://docs.aws.amazon.com/quick/\" target=\"_blank\">Amazon Quick documentation</a> or <a href=\"https://aws.amazon.com/quick/\">product detail page</a>.</p> \n<p>&nbsp;</p>"
+  "b3260b1936326203251edd22e3992ccd":
+    "id": "b3260b1936326203251edd22e3992ccd"
+    "title": "Amazon Quick Now Available in the AWS London Region"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-quick-now-available-in-the-aws-london-region/"
+    "published": "2026-03-18 16:47:00"
+    "summary": "<p>Amazon Quick is now available in the AWS Europe (London) region (eu-west-2). This launch allows customers in the United Kingdom to access the full power of Amazon Quick while meeting local and regional requirements for data sovereignty.</p> \n<p>Amazon Quick provides business users an agentic teammate that quickly answers questions at work and turns those answers into actions. With Amazon Quick, every user is empowered to make better decisions, faster and take actions without switching applications using AI they can trust. Today’s launch allows customers to take advantage of Amazon Quick’s capabilities including AI-powered chat, Research, Spaces, Flows, and QuickSight dashboards — with their data stored and processed locally within the London region. This expansion also supports in-region inference through EU-CRIS (Europe Cross-Region Inference), ensuring that inference requests from London instances are routed exclusively within European AWS Regions. Customers in regulated industries such as financial services, healthcare, and the public sector can meet strict data sovereignty requirements of UK data protection frameworks.</p> \n<p>For a full list of AWS regions where Amazon Quick is available, visit the <a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html\" target=\"_blank\">Quick regional availability page</a>. To learn more, visit the <a href=\"https://docs.aws.amazon.com/quick/\" target=\"_blank\">Amazon Quick documentation</a> or <a href=\"https://aws.amazon.com/quick/\">product detail page</a>.</p>"
+"last_updated": "2026-03-26 05:34:54 JST"
