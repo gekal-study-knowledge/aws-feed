@@ -1,0 +1,8 @@
+"entries":
+  "49c4b92e9fc0ffbf33c06474582a8f27":
+    "id": "49c4b92e9fc0ffbf33c06474582a8f27"
+    "title": "Announcing Amazon Aurora PostgreSQL serverless database creation in seconds"
+    "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-aurora-postgresql-serverless-database-creation-in-seconds/"
+    "published": "2026-03-25 20:37:11"
+    "summary": "AWS introduces a new express configuration for Amazon Aurora PostgreSQL, a streamlined database creation experience with preconfigured defaults designed to help you get started in seconds. With Aurora PostgreSQL, start building quickly from the RDS Console or your preferred developer tool—with the ability to modify configurations anytime. Plus, Aurora PostgreSQL is now available with AWS Free Tier."
+"last_updated": "2026-03-26 06:35:31 JST"
