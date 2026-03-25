@@ -5,4 +5,10 @@
     "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-influxdb-mexico-osaka-sao-paulo/"
     "published": "2026-03-24 17:44:00"
     "summary": "<p>You can now use Amazon Timestream for InfluxDB in the Mexico (Central), Japan (Osaka), and Brazil (Sao Paulo) AWS regions. Timestream for InfluxDB makes it easy for application developers and DevOps teams to run fully managed InfluxDB databases on AWS for real-time time-series applications using open-source APIs.<br /> <br /> Timestream for InfluxDB offers Multi-AZ high availability, read replicas, enhanced durability, and multi-node scaling — giving you flexible deployment options to match your workload as it evolves. Whether you're starting with a single-node setup or scaling to a 15-node Enterprise cluster, you can right-size your infrastructure without re-architecting.<br /> <br /> You can create your InfluxDB databases using the <a href=\"https://console.aws.amazon.com/timestream\">Amazon Timestream for InfluxDB console</a>. AWS CLI, or AWS SDKs . Amazon Timestream for InfluxDB is available in the following AWS <a href=\"https://docs.aws.amazon.com/general/latest/gr/timestream.html\">Regions</a>.<br /> <br /> For more information, see the <a href=\"https://docs.aws.amazon.com/timestream/latest/developerguide/multi-node-scaling.html\">Amazon Timestream for InfluxDB documentation</a> and <a href=\"https://aws.amazon.com/timestream/pricing/\">pricing page</a>.</p>"
-"last_updated": "2026-03-26 01:08:05 JST"
+  "68b859ee913497ecc54cd1c003d8d3a5":
+    "id": "68b859ee913497ecc54cd1c003d8d3a5"
+    "title": "LTS upgrade testing"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2025/01/example-post/"
+    "published": "2026-03-24 19:03:00"
+    "summary": "<p>Actively testing the LTS upgrade in production right now</p>"
+"last_updated": "2026-03-26 03:53:16 JST"
