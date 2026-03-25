@@ -1,0 +1,8 @@
+"entries":
+  "e4c2fe7204a65d85fd51df90d8ef4c6f":
+    "id": "e4c2fe7204a65d85fd51df90d8ef4c6f"
+    "title": "Kiro で Amazon Connect AI エージェント開発を加速"
+    "link": "https://aws.amazon.com/jp/blogs/news/accelerate-amazon-connect-ai-agent-development-with-kiro/"
+    "published": "2026-03-25 05:37:49"
+    "summary": "本記事では、Kiro を使って 15 のバックエンド API を備えた Amazon Connect AI エージェントをわずか 3 日間で構築した方法を紹介します。仕様駆動設計、高速コード生成、CloudWatch Logs の自動分析による高速イテレーションにより、従来 2〜3 週間かかる開発を大幅に短縮できました。"
+"last_updated": "2026-03-25 14:58:13 JST"
