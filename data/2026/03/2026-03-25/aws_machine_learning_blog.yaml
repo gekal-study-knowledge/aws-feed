@@ -1,0 +1,8 @@
+"entries":
+  "26327fdc725c050d21f63151acc7ddb8":
+    "id": "26327fdc725c050d21f63151acc7ddb8"
+    "title": "Reinforcement fine-tuning on Amazon Bedrock with OpenAI-Compatible APIs: a technical walkthrough"
+    "link": "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-on-amazon-bedrock-with-openai-compatible-apis-a-technical-walkthrough/"
+    "published": "2026-03-25 17:30:56"
+    "summary": "In this post, we walk through the end-to-end workflow of using RFT on Amazon Bedrock with OpenAI-compatible APIs: from setting up authentication, to deploying a Lambda-based reward function, to kicking off a training job and running on-demand inference on your fine-tuned model."
+"last_updated": "2026-03-26 02:55:42 JST"
