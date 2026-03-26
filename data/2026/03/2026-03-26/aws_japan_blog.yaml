@@ -17,4 +17,10 @@
     "link": "https://aws.amazon.com/jp/blogs/news/mitsubishi-electric-maws-jeff-barr-session-vol3/"
     "published": "2026-03-26 04:55:03"
     "summary": "本記事は、三菱電機グループの社内 AWS ユーザーグループ「MAWS（Mitsubishi AWS User Group）」シリーズの第 3 弾です。第 1 弾では一人のエンジニアの小さな行動から 300 人を超えるコミュニティへと成長した誕生ストーリーを、第 2 弾では実務への展開や経営層との対話、次世代への継承といった MAWS の進化をお伝えしました。2026 年 3 月 6 日、755 名に成長した MAWS のリーダーたちが AWS Tokyo Executive Briefing Center に集まり、AWS VP / Chief Evangelist の Jeff Barr とのセッションが実現しました。Jeff の 23 年間の AWS での経験をもとに、AI 時代における開発組織の変化、生産性のパラダイムシフト、そして人材育成の課題について議論が交わされました。本記事では、セッションで共有されたインサイトと、MAWS メンバーとの対話から見えてきた AI 時代の組織変革の姿をお伝えします。"
-"last_updated": "2026-03-26 14:02:36 JST"
+  "7a1326a1f27fb9f5a01131d5f54b98b8":
+    "id": "7a1326a1f27fb9f5a01131d5f54b98b8"
+    "title": "AWS DevOps Agent を本番環境にデプロイするためのベストプラクティ"
+    "link": "https://aws.amazon.com/jp/blogs/news/best-practices-for-deploying-aws-devops-agent-in-production/"
+    "published": "2026-03-26 06:32:44"
+    "summary": "インシデント発生時の根本原因分析は、クラウド運用において最も時間がかかる作業の一つです。AWS DevOps Agent は、自律的な調査能力により平均復旧時間 (MTTR) を数時間から数分に短縮します。本記事では、調査能力と運用効率のバランスを取る Agent Space のセットアップに関するベストプラクティスを紹介します。最適な調査精度を実現するための Agent Space の構成方法、適切なリソースアクセス範囲の決定方法、そして Infrastructure as Code を活用したデプロイの効率化について解説します。"
+"last_updated": "2026-03-26 16:03:36 JST"
