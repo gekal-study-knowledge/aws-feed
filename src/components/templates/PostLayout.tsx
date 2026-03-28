@@ -12,6 +12,7 @@ import StickyHeader from '@/components/organisms/StickyHeader';
 import PostHeader from '@/components/molecules/PostHeader';
 import PostContent from '@/components/organisms/PostContent';
 import NavigationLinks from '@/components/organisms/NavigationLinks';
+import PostUpdateNotifier from '@/components/organisms/PostUpdateNotifier';
 import { useVisitedPost } from '@/lib/store/useVisitedPost';
 
 interface PostLayoutProps {
@@ -97,6 +98,8 @@ export default function PostLayout({
             </Button>
           </Link>
         </Box>
+
+        <PostUpdateNotifier date={date} newsCounter={newsCounter} />
 
         <PostHeader title={title} date={date} lastUpdated={lastUpdated} />
 
