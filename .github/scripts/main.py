@@ -78,13 +78,26 @@ def load_all_existing_ids(source_id: str, data_dir: str) -> set:
 
 
 def parse_entry_datetime(entry: Any) -> datetime:
-    """エントリーの公開日時を解析する。JSTを前提とする。"""
+    """エントリーの公開日時を解析する。JSTを前提とする。
+    
+    解析の優先順位:
+    1. published_parsed (time.struct_time形式)
+    2. updated_parsed (time.struct_time形式)
+    3. 時刻を取得できない場合はデフォルトで00:00:00を使う
+    """
+    # published_parsedまたはupdated_parsedから時刻を取得
+    time_struct = None
     if hasattr(entry, 'published_parsed') and entry.published_parsed:
-        return datetime(*entry.published_parsed[:6])
+        time_struct = entry.published_parsed
     elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
-        return datetime(*entry.updated_parsed[:6])
+        time_struct = entry.updated_parsed
+    
+    if time_struct:
+        # time.struct_time から datetime を生成 (最初の6要素を使用)
+        return datetime(*time_struct[:6])
     else:
-        return datetime.now()
+        # フォールバック：今日の日付で00:00:00を返す
+        return datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
 
 
 def parse_entry_date(entry: Any) -> date:
@@ -234,10 +247,13 @@ def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, A
                 f.write(f"### {entry['title']}\n\n")
                 f.write(f"- **Link**: [{entry['link']}]({entry['link']})\n")
                 
-                # 公開日時のフォーマット（YYYY-MM-DD HH:MM:SS 形式でない場合は補完する）
+                # 公開日時のフォーマット確認（YYYY-MM-DD HH:MM:SS 形式を保証）
                 published = entry['published']
-                if len(published) == 10: # YYYY-MM-DD
-                    published = f"{published} 00:00:00"
+                if not published or len(published) < 19:  # YYYY-MM-DD HH:MM:SS の長さは19
+                    if len(published) == 10:  # YYYY-MM-DD のみの場合
+                        published = f"{published} 00:00:00"
+                    else:
+                        published = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 
                 f.write(f"- **Published**: {published}\n\n")
                 if entry.get('summary'):
