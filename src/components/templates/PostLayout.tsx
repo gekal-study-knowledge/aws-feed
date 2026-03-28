@@ -99,7 +99,13 @@ export default function PostLayout({
           </Link>
         </Box>
 
-        <PostUpdateNotifier year={year} month={month} day={day} slug={slug} newsCounter={newsCounter} />
+        <PostUpdateNotifier
+          year={year}
+          month={month}
+          day={day}
+          slug={slug}
+          newsCounter={newsCounter}
+        />
 
         <PostHeader title={title} date={date} lastUpdated={lastUpdated} />
 
