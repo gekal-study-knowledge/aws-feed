@@ -6,21 +6,9 @@
     ":semanticCommits",
     "schedule:weekly"
   ],
-  "prConcurrency": 3,
-  "prCreation": "not-pending",
   "semanticCommits": true,
   "semanticCommitScope": "deps",
   "semanticCommitType": "chore",
-  "python": {
-    "major": {
-      "enabled": true
-    }
-  },
-  "npm": {
-    "major": {
-      "enabled": true
-    }
-  },
   "packageRules": [
     {
       "description": "Group npm devDependencies updates",
