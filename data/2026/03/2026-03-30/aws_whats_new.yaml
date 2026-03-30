@@ -1,0 +1,8 @@
+"entries":
+  "0dcad5ec6dcbd3d9c7561a8dbebb6f9f":
+    "id": "0dcad5ec6dcbd3d9c7561a8dbebb6f9f"
+    "title": "Access Cluster Insights through the Amazon OpenSearch Service Console and Amazon EventBridge events"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/access-cluster-insights-opensearch/"
+    "published": "2026-03-30 14:51:00"
+    "summary": "<p>Amazon OpenSearch Service extends access to Cluster Insights through the AWS Management Console, in addition to the existing OpenSearch UI Dashboards. This launch makes it easier to review performance and resilience recommendations and make necessary configuration changes, all within the same Console. In addition, Cluster Insights now publishes insights as events to Amazon EventBridge.<br /> <br /> Cluster insights presents curated insights of a cluster’s operational health along with actionable recommendations to help prevent issues before they affect the stability or performance of the cluster. You can continue to use OpenSearch UI Dashboards for more detailed metrics, including index and shard-level data and top-N query analysis. In addition, with this release, you can monitor insights through Amazon EventBridge events.<br /> <br /> Cluster Insights is available at no additional cost for OpenSearch versions 2.17 or later in all Regions where OpenSearch Service is available. View the complete list of supported Regions <a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/opensearch-ui-endpoints-quotas.html\">here</a>. To learn more about Cluster Insights, refer to our <a href=\"https://docs.aws.amazon.com/opensearch-service/latest/developerguide/cluster-insights.html\">technical documentation</a>.</p>"
+"last_updated": "2026-03-31 02:51:59 JST"
