@@ -2,8 +2,8 @@ name: Fetch AWS Feeds
 
 on:
   schedule:
-    # 毎日 9:00 UTC (18:00 JST) に実行
-    - cron: '0 9 * * *'
+    # 1時間ごとに実行 (毎時0分)
+    - cron: '0 * * * *'
   workflow_dispatch: # 手動実行も可能
 
 permissions:
