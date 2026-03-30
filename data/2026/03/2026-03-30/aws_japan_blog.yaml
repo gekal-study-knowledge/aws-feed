@@ -17,4 +17,10 @@
     "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260323/"
     "published": "2026-03-30 06:21:09"
     "summary": "週刊生成AI with AWS, 関東は桜が綺麗な2026年3月23日号 – キヤノン株式会社様が取り組んだ生成AIハッカソン、三菱電機様とJeff Barr とのインタビュー記事含む8件のブログ記事を紹介。サービスアップデートでは、Agent Plugin for AWS Serverlessリリース、AWS Step Functions の Amazon Bedrock Agent対応、CoreAmazon Quickの東京リージョン一般提供開始含む7件を紹介。"
-"last_updated": "2026-03-30 16:22:34 JST"
+  "bf9506fff414fee434a5f8fccf3fda3f":
+    "id": "bf9506fff414fee434a5f8fccf3fda3f"
+    "title": "アカウントの色、リージョン、サービスの表示などの視覚的な設定を使用して AWS マネジメントコンソールのエクスペリエンスをカスタマイズ"
+    "link": "https://aws.amazon.com/jp/blogs/news/customize-your-aws-management-console-experience-with-visual-settings-including-account-color-region-and-service-visibility/"
+    "published": "2026-03-30 08:53:06"
+    "summary": "2025 年 8 月に、AWS User Experience Customization (UXC) 機能を […]"
+"last_updated": "2026-03-30 18:08:04 JST"
