@@ -1,0 +1,81 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":dependencyDashboard",
+    ":semanticCommits",
+    "schedule:weekly"
+  ],
+  "prConcurrency": 3,
+  "prCreation": "not-pending",
+  "semanticCommits": true,
+  "semanticCommitScope": "deps",
+  "semanticCommitType": "chore",
+  "python": {
+    "major": {
+      "enabled": true
+    }
+  },
+  "npm": {
+    "major": {
+      "enabled": true
+    }
+  },
+  "packageRules": [
+    {
+      "description": "Group npm devDependencies updates",
+      "groupName": "npm devDependencies",
+      "matchDepTypes": ["devDependencies"],
+      "matchManagers": ["npm"],
+      "schedule": ["before 3am on Monday"]
+    },
+    {
+      "description": "Group npm dependencies updates",
+      "groupName": "npm dependencies",
+      "matchDepTypes": ["dependencies"],
+      "matchManagers": ["npm"],
+      "schedule": ["before 3am on Monday"]
+    },
+    {
+      "description": "Group Python dependencies updates",
+      "groupName": "Python dependencies",
+      "matchManagers": ["pip"],
+      "schedule": ["before 3am on Monday"]
+    },
+    {
+      "description": "Minor and patch updates for Next.js ecosystem",
+      "groupName": "Next.js ecosystem",
+      "matchPackagePatterns": ["^next", "^@next", "^react", "^react-dom"],
+      "schedule": ["before 3am on Monday"]
+    },
+    {
+      "description": "Minor and patch updates for MUI",
+      "groupName": "Material-UI updates",
+      "matchPackagePatterns": ["^@mui"],
+      "schedule": ["before 3am on Monday"]
+    },
+    {
+      "description": "Auto-merge patch and minor updates for low-risk packages",
+      "extends": ["schedule:weekly"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchPackagePatterns": [
+        "^date-fns",
+        "^prettier",
+        "^@types/",
+        "^typescript"
+      ],
+      "automerge": true,
+      "automergeType": "pr"
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": ["security"],
+    "assignees": [],
+    "reviewers": []
+  },
+  "postUpdateOptions": [
+    "npmDedupe",
+    "yarnDedupeHighest"
+  ]
+}
