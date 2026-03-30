@@ -1,0 +1,8 @@
+"entries":
+  "357a8e4e3538c2474a73e5af1e916f33":
+    "id": "357a8e4e3538c2474a73e5af1e916f33"
+    "title": "Build high-performance apps with AWS Lambda Managed Instances"
+    "link": "https://aws.amazon.com/blogs/compute/build-high-performance-apps-with-aws-lambda-managed-instances/"
+    "published": "2026-03-30 14:53:01"
+    "summary": "In this post, you will learn how to configure AWS Lambda Managed Instances by creating a Capacity Provider that defines your compute infrastructure, associating your Lambda function with that provider, and publishing a function version to provision the execution environments. We will conclude with production best practices including scaling strategies, thread safety, and observability for reliable performance."
+"last_updated": "2026-03-31 00:00:48 JST"
