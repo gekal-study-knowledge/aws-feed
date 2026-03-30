@@ -49,6 +49,7 @@
     },
     {
       "description": "Auto-merge patch and minor updates for low-risk packages",
+      "groupName": "Low-risk auto-merge",
       "matchUpdateTypes": ["minor", "patch"],
       "matchPackagePatterns": [
         "^date-fns",
@@ -67,7 +68,6 @@
     "reviewers": []
   },
   "postUpdateOptions": [
-    "npmDedupe",
-    "yarnDedupeHighest"
+    "npmDedupe"
   ]
 }
