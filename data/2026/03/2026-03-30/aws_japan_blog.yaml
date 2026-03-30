@@ -23,4 +23,10 @@
     "link": "https://aws.amazon.com/jp/blogs/news/customize-your-aws-management-console-experience-with-visual-settings-including-account-color-region-and-service-visibility/"
     "published": "2026-03-30 08:53:06"
     "summary": "2025 年 8 月に、AWS User Experience Customization (UXC) 機能を […]"
-"last_updated": "2026-03-30 18:08:04 JST"
+  "012f4e5bdab1ee3d94af5169840594b0":
+    "id": "012f4e5bdab1ee3d94af5169840594b0"
+    "title": "Amazon CloudFront 定額料金プラン：新機能と対応機能の拡大"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-cloudfront-flat-rate-pricing-plans-new-features-and-expanded-capabilities/"
+    "published": "2026-03-30 11:35:02"
+    "summary": "Amazon CloudFront&nbsp;は定額料金プランのリリース以降、お客様からいただいたフィードバックをもとに新しい機能を追加してきました。この記事では、&nbsp;Lambda@Edge&nbsp;のサポート、&nbsp;CAPTCHA&nbsp;、相互 TLS&nbsp;(mTLS)&nbsp;、そして AI ボットやエージェントのトラフィックを可視化する AI アクティビティダッシュボードなど、最新の追加機能をご紹介します。また、使用量の上限を超えたトラフィックの扱いについても明確化しています。"
+"last_updated": "2026-03-30 20:56:12 JST"
