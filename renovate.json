@@ -5,12 +5,15 @@
     ":dependencyDashboard",
     ":semanticCommits"
   ],
+  "enabled": true,
   "semanticCommits": true,
   "semanticCommitScope": "deps",
   "semanticCommitType": "chore",
   "schedule": [
     "before 3am every day"
   ],
+  "rangeStrategy": "auto",
+  "ignoreDeps": [],
   "packageRules": [
     {
       "description": "Group npm devDependencies updates",
