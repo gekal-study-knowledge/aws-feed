@@ -1,0 +1,8 @@
+"entries":
+  "5a63553ade311c46a596e1ac5eaf8621":
+    "id": "5a63553ade311c46a596e1ac5eaf8621"
+    "title": "Streamlining access to powerful disaster recovery capabilities of AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/streamlining-access-to-powerful-disaster-recovery-capabilities-of-aws/"
+    "published": "2026-03-31 18:00:38"
+    "summary": "In this blog post, we take a building blocks approach. Starting with the tools like AWS Backup to protect your data, we then add protection for Amazon Elastic Compute Cloud (Amazon EC2) compute using AWS Elastic Disaster Recovery (AWS DRS). Finally, we show how to use the full capabilities of AWS to restore your entire workload—data, infrastructure, networking, and configuration, using Arpio disaster recovery automation."
+"last_updated": "2026-04-01 03:57:15 JST"
