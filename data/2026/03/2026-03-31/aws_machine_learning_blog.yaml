@@ -5,4 +5,22 @@
     "link": "https://aws.amazon.com/blogs/machine-learning/can-your-governance-keep-pace-with-your-ai-ambitions-ai-risk-intelligence-in-the-agentic-era/"
     "published": "2026-03-31 15:36:17"
     "summary": "Traditional frameworks designed for static deployments cannot address the dynamic interactions that define agentic workloads. AI Risk Intelligence (AIRI), from AWS Generative AI Innovation Center, provides the automated rigor required to govern agents at enterprise scale—a fundamental reimagining of how security, operations, and governance work together systemically."
-"last_updated": "2026-04-01 01:08:28 JST"
+  "b2a225e782978d7c78eefcf7a27be29c":
+    "id": "b2a225e782978d7c78eefcf7a27be29c"
+    "title": "Building an AI powered system for compliance evidence collection"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-system-for-compliance-evidence-collection/"
+    "published": "2026-03-31 17:52:15"
+    "summary": "In this post, we show you how to build a similar system for your organization. You will learn the architecture decisions, implementation details, and deployment process that can help you automate your own compliance workflows."
+  "5827459ab0c81c9f4872dd8289451deb":
+    "id": "5827459ab0c81c9f4872dd8289451deb"
+    "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act"
+    "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act/"
+    "published": "2026-03-31 17:46:50"
+    "summary": "In this post, we demonstrate how to implement agentic QA automation through QA Studio, a reference solution built with Amazon Nova Act. You will see how to define tests in natural language that adapt automatically to UI changes, explore the serverless architecture that executes tests reliably at scale, and get step-by-step deployment guidance for your AWS environment."
+  "d6d7e509d108aadb5a3b3d0250ded01f":
+    "id": "d6d7e509d108aadb5a3b3d0250ded01f"
+    "title": "AWS launches frontier agents for security testing and cloud operations"
+    "link": "https://aws.amazon.com/blogs/machine-learning/aws-launches-frontier-agents-for-security-testing-and-cloud-operations/"
+    "published": "2026-03-31 16:25:32"
+    "summary": "I'm excited to announce that AWS Security Agent on-demand penetration testing and AWS DevOps Agent are now generally available, representing a new class of AI capabilities we announced at re:Invent called frontier agents. These autonomous systems work independently to achieve goals, scale massively to tackle concurrent tasks, and run persistently for hours or days without constant human oversight. Together, these agents are changing the way we secure and operate software. In preview, customers and partners report that AWS Security Agent compresses penetration testing timelines from weeks to hours and the AWS DevOps Agent supports 3–5x faster incident resolution."
+"last_updated": "2026-04-01 02:53:47 JST"

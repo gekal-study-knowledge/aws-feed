@@ -1,0 +1,8 @@
+"entries":
+  "a06b760b5d1e3215010066e682f378c8":
+    "id": "a06b760b5d1e3215010066e682f378c8"
+    "title": "AWS Security Agent on-demand penetration testing now generally available"
+    "link": "https://aws.amazon.com/blogs/security/aws-security-agent-on-demand-penetration-testing-now-generally-available/"
+    "published": "2026-03-31 16:13:55"
+    "summary": "AWS Security Agent on-demand penetration testing is now generally available, enabling you to run comprehensive security tests across all your applications, not only your most critical ones. This milestone transforms penetration testing from a periodic bottleneck into an on-demand capability that scales with your development velocity across AWS, Azure, GCP, other cloud-providers, and on-premises. With […]"
+"last_updated": "2026-04-01 02:53:46 JST"
