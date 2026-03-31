@@ -5,4 +5,10 @@
     "link": "https://aws.amazon.com/blogs/security/aws-security-agent-on-demand-penetration-testing-now-generally-available/"
     "published": "2026-03-31 16:13:55"
     "summary": "AWS Security Agent on-demand penetration testing is now generally available, enabling you to run comprehensive security tests across all your applications, not only your most critical ones. This milestone transforms penetration testing from a periodic bottleneck into an on-demand capability that scales with your development velocity across AWS, Azure, GCP, other cloud-providers, and on-premises. With […]"
-"last_updated": "2026-04-01 02:53:46 JST"
+  "c590533939fb6b31f91d4c2f91c79240":
+    "id": "c590533939fb6b31f91d4c2f91c79240"
+    "title": "New compliance guide available: ISO/IEC 27001:2022 on AWS"
+    "link": "https://aws.amazon.com/blogs/security/new-compliance-guide-available-iso-iec-270012022-on-aws-compliance-guide/"
+    "published": "2026-03-31 20:36:56"
+    "summary": "We’re excited to announce the release of our latest compliance guide, ISO/IEC 27001:2022 on AWS, which provides practical guidance for organizations designing and operating an Information Security Management System (ISMS) using AWS services. As organizations migrate critical workloads to the cloud, aligning with globally recognized standards such as ISO/IEC 27001:2022 becomes an important step toward […]"
+"last_updated": "2026-04-01 05:39:58 JST"
