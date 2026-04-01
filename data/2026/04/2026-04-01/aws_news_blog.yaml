@@ -1,0 +1,8 @@
+"entries":
+  "edf402fc3b8b211423ddf7feebdaefda":
+    "id": "edf402fc3b8b211423ddf7feebdaefda"
+    "title": "Announcing managed daemon support for Amazon ECS Managed Instances"
+    "link": "https://aws.amazon.com/blogs/aws/announcing-managed-daemon-support-for-amazon-ecs-managed-instances/"
+    "published": "2026-04-01 23:31:24"
+    "summary": "Amazon ECS Managed Daemons gives platform engineers independent control over monitoring, logging, and tracing agents without application team coordination, ensuring consistent daemon deployment and comprehensive host-level observability at scale."
+"last_updated": "2026-04-02 08:32:53 JST"
