@@ -1,0 +1,8 @@
+"entries":
+  "1a2d29cf451e6606eaafbfdd68dfd597":
+    "id": "1a2d29cf451e6606eaafbfdd68dfd597"
+    "title": "Automate safety monitoring with computer vision and generative AI"
+    "link": "https://aws.amazon.com/blogs/architecture/automate-safety-monitoring-with-computer-vision-and-generative-ai/"
+    "published": "2026-04-01 18:59:02"
+    "summary": "This post describes a solution that uses fixed camera networks to monitor operational environments in near real-time, detecting potential safety hazards while capturing object floor projections and their relationships to floor markings. While we illustrate the approach through distribution center deployment examples, the underlying architecture applies broadly across industries. We explore the architectural decisions, strategies for scaling to hundreds of sites, reducing site onboarding time, synthetic data generation using generative AI tools like GLIGEN, and other critical technical hurdles we overcame."
+"last_updated": "2026-04-02 04:57:35 JST"
