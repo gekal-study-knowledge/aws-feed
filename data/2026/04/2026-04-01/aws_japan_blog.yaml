@@ -1,0 +1,14 @@
+"entries":
+  "96496baa1182b45c899c17d0cf0040a1":
+    "id": "96496baa1182b45c899c17d0cf0040a1"
+    "title": "大成株式会社様の AWS 生成 AI 活用事例「Amazon Bedrock と Amazon Q Developer で非エンジニアが実現する契約書管理 AI エージェントの構築」のご紹介"
+    "link": "https://aws.amazon.com/jp/blogs/news/179920-2/"
+    "published": "2026-04-01 04:31:02"
+    "summary": "みなさん、こんにちは。AWS ソリューションアーキテクトの古屋です。 日々のお客様との会話の中で、「業務課題を […]"
+  "286e63f93823b7f188910039bc6c7b2b":
+    "id": "286e63f93823b7f188910039bc6c7b2b"
+    "title": "Well-Architected Framework における Games Industry Lens のアップデート"
+    "link": "https://aws.amazon.com/jp/blogs/news/games-industry-lens-update-for-the-well-architected-framework/"
+    "published": "2026-04-01 02:24:51"
+    "summary": "ゲーム業界とライブサービスゲームが成長を続ける中、クラウドサービスは何百万ものプレイヤーに没入型の体験を提供する上で重要な役割を果たしています。世界中のゲーム開発チームは、Amazon Web Services (AWS) のインフラストラクチャを活用してゲームを構築、テスト、成長させています。彼らは分析を構築し、プレイヤーインサイトを獲得することで、開発を推進し、シームレスで低レイテンシーの体験を世界中に提供することに努めています。 AWS for Games チームは、AWS Well-Architected Games Industry Lens およびホワイトペーパー (Games Lens) のアップデート版のリリースを発表できることを嬉しく思います。Games Lens は、クラウドでゲームを構築および運用する際の独自の課題に対処することを目的としたベストプラクティスで構成されています。これらの推奨事項は、ゲーム業界の開発者、パブリッシャー、そして私たち自身の AWS for Games チームとの協働経験に基づいており、アップデートされた Games Lens に反映されています。Games Lens は、クラウドでゲームを構築および運用する際の特有の課題に対処するために設計されたベストプラクティスによって Well-Architected Framework を補完します。"
+"last_updated": "2026-04-01 14:21:14 JST"
