@@ -23,4 +23,10 @@
     "link": "https://aws.amazon.com/blogs/machine-learning/control-which-domains-your-ai-agents-can-access/"
     "published": "2026-04-02 13:28:19"
     "summary": "In this post, we show you how to configure AWS Network Firewall to restrict AgentCore resources to an allowlist of approved internet domains. This post focuses on domain-level filtering using SNI inspection — the first layer of a defense-in-depth approach."
-"last_updated": "2026-04-02 23:52:21 JST"
+  "77e37cf75e188c6774830d5e8a69e8f9":
+    "id": "77e37cf75e188c6774830d5e8a69e8f9"
+    "title": "Simulate realistic users to evaluate multi-turn AI agents in Strands Evals"
+    "link": "https://aws.amazon.com/blogs/machine-learning/simulate-realistic-users-to-evaluate-multi-turn-ai-agents-in-strands-evals/"
+    "published": "2026-04-02 17:34:02"
+    "summary": "In this post, we explore how ActorSimulator in Strands Evaluations SDK addresses the challenge with structured user simulation that integrates into your evaluation pipeline."
+"last_updated": "2026-04-03 02:53:57 JST"
