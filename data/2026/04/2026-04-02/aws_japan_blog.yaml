@@ -11,4 +11,10 @@
     "link": "https://aws.amazon.com/jp/blogs/news/operationalizing-agentic-ai-part-1-a-stakeholders-guide/"
     "published": "2026-04-02 00:09:51"
     "summary": "本記事は 2026 年 3 月 6 日 に公開された「Operationalizing Agentic AI […]"
-"last_updated": "2026-04-02 10:59:44 JST"
+  "8d852023ecfa2ff6013b15717b2877dc":
+    "id": "8d852023ecfa2ff6013b15717b2877dc"
+    "title": "Amazon CloudFront のパブリックオリジンからプライベート VPC オリジンへの移行"
+    "link": "https://aws.amazon.com/jp/blogs/news/migrate-amazon-cloudfront-public-origins-to-private-vpc-origins/"
+    "published": "2026-04-02 11:10:18"
+    "summary": "この記事では、さまざまな戦略を使用して&nbsp;Amazon CloudFront&nbsp;のパブリックオリジンを&nbsp;Amazon Virtual Private Cloud&nbsp;(Amazon VPC)&nbsp;オリジンに移行する方法を紹介します。また、クロスアカウントで&nbsp;VPC&nbsp;オリジンを使用することで、セキュリティを最優先としたアーキテクチャをサポートすることもできます。"
+"last_updated": "2026-04-02 20:42:58 JST"
