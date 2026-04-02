@@ -1,0 +1,14 @@
+"entries":
+  "460c6474f3af8f3bd08506030d136a4c":
+    "id": "460c6474f3af8f3bd08506030d136a4c"
+    "title": "Rocket Close transforms mortgage document processing with Amazon Bedrock and Amazon Textract"
+    "link": "https://aws.amazon.com/blogs/machine-learning/rocket-close-transforms-mortgage-document-processing-with-amazon-bedrock-and-amazon-textract/"
+    "published": "2026-04-02 12:59:31"
+    "summary": "Through a strategic partnership with the AWS Generative AI Innovation Center (GenAIIC), Rocket Close developed an intelligent document processing solution that has significantly reduced processing time, making the process 15 times faster. The solution, which uses Amazon Textract for OCR processing and Amazon Bedrock for foundation models (FMs), achieves a strong 90% overall accuracy in document segmentation, classification, and field extraction."
+  "eebd0d54f065585846f057764cdd0277":
+    "id": "eebd0d54f065585846f057764cdd0277"
+    "title": "Persist session state with filesystem configuration and execute shell commands"
+    "link": "https://aws.amazon.com/blogs/machine-learning/persist-session-state-with-filesystem-configuration-and-execute-shell-commands/"
+    "published": "2026-04-02 12:52:07"
+    "summary": "In this post, we go through how to use managed session storage to persist your agent's filesystem state and how to execute shell commands directly in your agent's environment."
+"last_updated": "2026-04-02 22:05:52 JST"
