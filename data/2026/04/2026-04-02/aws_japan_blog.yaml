@@ -17,4 +17,10 @@
     "link": "https://aws.amazon.com/jp/blogs/news/migrate-amazon-cloudfront-public-origins-to-private-vpc-origins/"
     "published": "2026-04-02 11:10:18"
     "summary": "この記事では、さまざまな戦略を使用して&nbsp;Amazon CloudFront&nbsp;のパブリックオリジンを&nbsp;Amazon Virtual Private Cloud&nbsp;(Amazon VPC)&nbsp;オリジンに移行する方法を紹介します。また、クロスアカウントで&nbsp;VPC&nbsp;オリジンを使用することで、セキュリティを最優先としたアーキテクチャをサポートすることもできます。"
-"last_updated": "2026-04-02 20:42:58 JST"
+  "d76f7781f2cc758146864931fc94bf6c":
+    "id": "d76f7781f2cc758146864931fc94bf6c"
+    "title": "AWS DevOps Agent の一般提供開始のお知らせ"
+    "link": "https://aws.amazon.com/jp/blogs/news/announcing-general-availability-of-aws-devops-agent/"
+    "published": "2026-04-02 15:51:23"
+    "summary": "AWS DevOps Agent の一般提供開始をお知らせします。AWS DevOps Agent は、インシデントの解決と予防、アプリケーションの信頼性とパフォーマンスの最適化、オンデマンドの SRE タスクを AWS、マルチクラウド、オンプレミス環境で処理する、いつでも対応可能な運用チームメイトです。"
+"last_updated": "2026-04-03 00:57:48 JST"
