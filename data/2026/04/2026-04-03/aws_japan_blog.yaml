@@ -5,4 +5,16 @@
     "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-aws-ai-ml-scholars-program-agent-plugin-for-aws-serverless-and-more-march-30-2026/"
     "published": "2026-04-03 01:20:42"
     "summary": "2026 年 3 月 23 日週の出来事で私が最も心を躍らせたのは、AWS Agentic AI バイスプレジ […]"
-"last_updated": "2026-04-03 11:01:18 JST"
+  "80f78cbd8ef3c5a532611c4bece038c7":
+    "id": "80f78cbd8ef3c5a532611c4bece038c7"
+    "title": "AWS Sustainability コンソールの提供開始 – プログラムによるアクセス、カスタム CSV レポート、スコープ 1-3 の排出量レポートを一か所で"
+    "link": "https://aws.amazon.com/jp/blogs/news/announcing-the-aws-sustainability-console-programmatic-access-configurable-csv-reports-and-scope-1-3-reporting-in-one-place-3/"
+    "published": "2026-04-03 07:53:18"
+    "summary": "AWS Sustainability コンソールが提供開始されました。サステナビリティに関するレポートとリソースを一か所に集約したスタンドアロンサービスで、Billing コンソールとは独立した権限モデル、スコープ 1〜3 の排出量表示、カスタム CSV レポート、API によるプログラムアクセスなどの機能を備えています。"
+  "be92bbe536fe89091b997b169af8db4d":
+    "id": "be92bbe536fe89091b997b169af8db4d"
+    "title": "エンタープライズガバナンス: MCP サーバーとモデルを管理する"
+    "link": "https://aws.amazon.com/jp/blogs/news/enterprise-governance-mcp-and-models/"
+    "published": "2026-04-03 07:48:00"
+    "summary": "Kiro に 2 つの新しいエンタープライズガバナンス機能が追加されました。管理者が承認済み MCP サーバーを JSON 形式のレジストリでホワイトリスト管理できる「MCP サーバーレジストリ」と、組織内の開発者が利用できる AI モデルを制限できる「モデルガバナンス」です。MCP レジストリは起動時・24 時間ごとに同期され、未承認サーバーへの接続を防止します。モデルガバナンスはデータレジデンシー要件への対応にも有効で、実験的モデルを承認完了まで無効化できます。これらの機能は Kiro IDE 0.11.28 / CLI 1.23 以降のエンタープライズユーザー向けに提供されます。"
+"last_updated": "2026-04-03 17:48:45 JST"
