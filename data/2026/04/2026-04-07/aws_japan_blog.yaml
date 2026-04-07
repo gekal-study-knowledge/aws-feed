@@ -17,4 +17,22 @@
     "link": "https://aws.amazon.com/jp/blogs/news/awa_documentdb_migration_part2/"
     "published": "2026-04-07 01:03:19"
     "summary": "AWA 株式会社が 23 億ドキュメントをニアゼロダウンタイムで Amazon DocumentDB へ移行したプロセスと、直面した課題（Writer への負荷集中、データ同期、TLS 認証対応）、そしてデータベースコスト約 50% 削減を含む移行後の効果を紹介します。"
-"last_updated": "2026-04-07 11:04:29 JST"
+  "9e683e18133678f27f219975175c8611":
+    "id": "9e683e18133678f27f219975175c8611"
+    "title": "Amazon OpenSearch Service、FAISS エンジンでのベクトル検索トラブル対処の考え方：新規ベクトルデータの投入が不安定、または失敗する場合"
+    "link": "https://aws.amazon.com/jp/blogs/news/opensearch-service-faiss-trouble-shoot-indexing/"
+    "published": "2026-04-07 06:37:56"
+    "summary": "はじめに Amazon OpenSearch Service を使用したベクトル検索では exact k-NN […]"
+  "c52b3b67659be9f53c27783706d9e45e":
+    "id": "c52b3b67659be9f53c27783706d9e45e"
+    "title": "Amazon OpenSearch Service、FAISS エンジンでのベクトル検索トラブル対処の考え方：検索レイテンシの増加が問題になっている場合"
+    "link": "https://aws.amazon.com/jp/blogs/news/opensearch-service-faiss-trouble-shoot-search-latency/"
+    "published": "2026-04-07 06:35:35"
+    "summary": "はじめに Amazon OpenSearch Service を使用したベクトル検索では exact k-NN […]"
+  "d9e45c6eb4ff5ed4c804d578367cf0d9":
+    "id": "d9e45c6eb4ff5ed4c804d578367cf0d9"
+    "title": "C# を使用した Amazon DynamoDB でのネストされたトランザクションの有効化"
+    "link": "https://aws.amazon.com/jp/blogs/news/enabling-nested-transactions-in-amazon-dynamodb-using-c/"
+    "published": "2026-04-07 05:17:31"
+    "summary": "Amazon DynamoDB は、あらゆる規模の高性能アプリケーション向けに設計された、フルマネージド型のサーバーレス NoSQL データベースサービスです。この記事では、C# を使用して DynamoDB で ACID (原子性、一貫性、分離性、永続性) 準拠のトランザクションを管理するフレームワークを紹介します。このフレームワークは、ネストされたトランザクションのサポートを特徴としています。この機能により、.NET アプリケーション内でデータの一貫性とエラー処理をより細かく制御しながら、洗練されたロジックを実装できます。このネストされたトランザクションフレームワークを使用すると、問題を分離し、部分的なロールバックを可能にし、DynamoDB の組み込みトランザクション機能の上に保守可能でモジュール化されたワークフローを構築できます。"
+"last_updated": "2026-04-07 16:10:41 JST"
