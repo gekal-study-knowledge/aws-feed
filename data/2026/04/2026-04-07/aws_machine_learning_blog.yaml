@@ -11,4 +11,10 @@
     "link": "https://aws.amazon.com/blogs/machine-learning/text-to-sql-solution-powered-by-amazon-bedrock/"
     "published": "2026-04-07 16:28:20"
     "summary": "In this post, we show you how to build a natural text-to-SQL solution using Amazon Bedrock that transforms business questions into database queries&nbsp;and returns actionable answers."
-"last_updated": "2026-04-08 01:53:58 JST"
+  "6c0dca5c8fd62e5b0eac448d8c28a300":
+    "id": "6c0dca5c8fd62e5b0eac448d8c28a300"
+    "title": "Manage AI costs with Amazon Bedrock Projects"
+    "link": "https://aws.amazon.com/blogs/machine-learning/manage-ai-costs-with-amazon-bedrock-projects/"
+    "published": "2026-04-07 23:32:00"
+    "summary": "With Amazon Bedrock Projects, you can attribute inference costs to specific workloads and analyze them in AWS Cost Explorer and AWS Data Exports. In this post, you will learn how to set up Projects end-to-end, from designing a tagging strategy to analyzing costs."
+"last_updated": "2026-04-08 08:34:07 JST"
