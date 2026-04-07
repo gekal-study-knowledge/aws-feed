@@ -47,4 +47,10 @@
     "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260330/"
     "published": "2026-04-06 07:29:05"
     "summary": "今週の「週刊 生成 AI with AWS」では、非エンジニアが Amazon Bedrock と Amazon Q Developer で契約書管理 AI エージェントを構築した大成様の事例や、Agentic AI を PoC から本番稼働へ引き上げるための組織論・ペルソナ別ガイドなど、生成 AI の「実用化」と「組織展開」に役立つコンテンツが充実しています。サービス面でも AWS DevOps Agent の GA、Amazon Bedrock AgentCore Evaluations と Amazon Bedrock Guardrails のクロスアカウントセーフガードの GA、Amazon OpenSearch Service へのエージェント AI 機能追加、Amazon S3 Vectors の 31 リージョン展開など、AI エージェントの本番運用を支える重要なアップデートを紹介しています。"
-"last_updated": "2026-04-06 18:05:05 JST"
+  "6f45483c07839fca7edced73ec625ad2":
+    "id": "6f45483c07839fca7edced73ec625ad2"
+    "title": "ヘルスケア業界のエンジニア 46 名がセキュリティインシデント疑似体験に挑戦 – AWS GameDay 開催レポート"
+    "link": "https://aws.amazon.com/jp/blogs/news/healthtech-security-gameday-2026-report/"
+    "published": "2026-04-06 23:57:01"
+    "summary": "2026 年 3 月 31 日にヘルスケア業界のお客様を AWS にお招きして「ヘルステック企業向け セキュリティインシデント疑似体験 GameDay」を開催しました。今回はそのイベントのご紹介や当日の雰囲気をお伝えし、セキュリティへの取り組みを知っていただければ幸いです。"
+"last_updated": "2026-04-07 11:04:29 JST"

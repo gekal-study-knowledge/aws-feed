@@ -1,0 +1,20 @@
+"entries":
+  "8ac89544537960866ccbe8edf7a20801":
+    "id": "8ac89544537960866ccbe8edf7a20801"
+    "title": "AWS Security Agent のオンデマンドペネトレーションテストの一般提供を開始"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-security-agent-on-demand-penetration-testing-now-generally-available/"
+    "published": "2026-04-07 01:59:54"
+    "summary": "AWS Security Agent のオンデマンドペネトレーションテストの一般提供を開始しました。エージェンティック AI を活用した自律型ペネトレーションテストにより、すべてのアプリケーションを対象に、手動テストの数分の一のコストで脆弱性の検出・検証・修復までを実現します。コンテキスト認識型のアプローチにより、単独では見過ごされる脆弱性も検出し、それらの連鎖がもたらす重大なリスクを特定します。本記事では、仕組み、セットアップ手順、料金体系を詳しく解説します。"
+  "65a6af016f9450df59212a550a444537":
+    "id": "65a6af016f9450df59212a550a444537"
+    "title": "AWA 株式会社、MongoDB on EC2 から Amazon DocumentDB への移行でデータベースコストを約 50% 削減（Part 1/2）"
+    "link": "https://aws.amazon.com/jp/blogs/news/awa_documentdb_migration_part1/"
+    "published": "2026-04-07 01:03:33"
+    "summary": "AWA 株式会社は、MongoDB on Amazon EC2 から Amazon DocumentDB への移行を実施しました。本記事では、ドキュメント指向データベースの活用方法（スキーマレス設計、配列・ネスト構造、非正規化設計）と、Amazon DocumentDB を選択した理由について紹介します。"
+  "b5b2e28faca84953daca41cb0716c3c6":
+    "id": "b5b2e28faca84953daca41cb0716c3c6"
+    "title": "AWA 株式会社、MongoDB on EC2 から Amazon DocumentDB への移行でデータベースコストを約 50% 削減（Part 2/2）"
+    "link": "https://aws.amazon.com/jp/blogs/news/awa_documentdb_migration_part2/"
+    "published": "2026-04-07 01:03:19"
+    "summary": "AWA 株式会社が 23 億ドキュメントをニアゼロダウンタイムで Amazon DocumentDB へ移行したプロセスと、直面した課題（Writer への負荷集中、データ同期、TLS 認証対応）、そしてデータベースコスト約 50% 削減を含む移行後の効果を紹介します。"
+"last_updated": "2026-04-07 11:04:29 JST"
