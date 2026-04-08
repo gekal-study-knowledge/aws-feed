@@ -1,0 +1,26 @@
+"entries":
+  "dbf5b5957c81739e1cf6cfbe5de175df":
+    "id": "dbf5b5957c81739e1cf6cfbe5de175df"
+    "title": "Customize Amazon Nova models with Amazon Bedrock fine-tuning"
+    "link": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-nova-models-with-amazon-bedrock-fine-tuning/"
+    "published": "2026-04-08 19:51:50"
+    "summary": "In this post, we'll walk you through a complete implementation of model fine-tuning in Amazon Bedrock using Amazon Nova models, demonstrating each step through an intent classifier example that achieves superior performance on a domain specific task. Throughout this guide, you'll learn to prepare high-quality training data that drives meaningful model improvements, configure hyperparameters to optimize learning without overfitting, and deploy your fine-tuned model for improved accuracy and reduced latency. We'll show you how to evaluate your results using training metrics and loss curves."
+  "bfaf03eb66acff29c194eadb4900bed5":
+    "id": "bfaf03eb66acff29c194eadb4900bed5"
+    "title": "Human-in-the-loop constructs for agentic workflows in healthcare and life sciences"
+    "link": "https://aws.amazon.com/blogs/machine-learning/human-in-the-loop-constructs-for-agentic-workflows-in-healthcare-and-life-sciences/"
+    "published": "2026-04-08 19:48:07"
+    "summary": "In healthcare and life sciences, AI agents help organizations process clinical data, submit regulatory filings, automate medical coding, and accelerate drug development and commercialization. However, the sensitive nature of healthcare data and regulatory requirements like Good Practice (GxP) compliance require human oversight at key decision points. This is where human-in-the-loop (HITL) constructs become essential. In this post, you will learn four practical approaches to implementing human-in-the-loop constructs using AWS services."
+  "da4ab8545039a44afb9a65ca1fc30b17":
+    "id": "da4ab8545039a44afb9a65ca1fc30b17"
+    "title": "Building intelligent audio search with Amazon Nova Embeddings: A deep dive into semantic audio understanding"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-intelligent-audio-search-with-amazon-nova-embeddings-a-deep-dive-into-semantic-audio-understanding/"
+    "published": "2026-04-08 19:45:13"
+    "summary": "This post walks you through understanding audio embeddings, implementing Amazon Nova Multimodal Embeddings, and building a practical search system for your audio content. You'll learn how embeddings represent audio as vectors, explore the technical capabilities of Amazon Nova, and see hands-on code examples for indexing and querying your audio libraries. By the end, you'll have the knowledge to deploy production-ready audio search capabilities."
+  "da68e95e6aaff880c7ab1cc455a28647":
+    "id": "da68e95e6aaff880c7ab1cc455a28647"
+    "title": "Reinforcement fine-tuning on Amazon Bedrock: Best practices"
+    "link": "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-on-amazon-bedrock-best-practices/"
+    "published": "2026-04-08 19:43:28"
+    "summary": "In this post, we explore where RFT is most effective, using the GSM8K mathematical reasoning dataset as a concrete example. We then walk through best practices for dataset preparation and reward function design, show how to monitor training progress using Amazon Bedrock metrics, and conclude with practical hyperparameter tuning guidelines informed by experiments across multiple models and use cases."
+"last_updated": "2026-04-09 04:56:42 JST"
