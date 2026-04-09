@@ -1,0 +1,8 @@
+"entries":
+  "733df1c99f0b56802c6ccc48f8aac3e4":
+    "id": "733df1c99f0b56802c6ccc48f8aac3e4"
+    "title": "AI を活用した大規模なセキュリティ防御の構築 — 脅威が出現する前に"
+    "link": "https://aws.amazon.com/jp/blogs/news/building-ai-defenses-at-scale-before-the-threats-emerge/"
+    "published": "2026-04-09 05:15:36"
+    "summary": "AWS が Anthropic と共同で取り組む Project Glasswing と Claude Mythos Preview の発表、自律型ペネトレーションテストを実現する AWS Security Agent の一般提供開始、Amazon Bedrock の自動推論によるハルシネーション防止など、AI を活用した大規模セキュリティ防御の最新の取り組みと、脅威が現実化する前に先手を打つ AWS のセキュリティ哲学を紹介します。"
+"last_updated": "2026-04-09 15:19:17 JST"
