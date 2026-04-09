@@ -1,0 +1,8 @@
+"entries":
+  "567c60d81ba3cbd1cd07a3c88da7e975":
+    "id": "567c60d81ba3cbd1cd07a3c88da7e975"
+    "title": "Introducing stateful MCP client capabilities on Amazon Bedrock AgentCore Runtime"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-stateful-mcp-client-capabilities-on-amazon-bedrock-agentcore-runtime/"
+    "published": "2026-04-09 14:47:57"
+    "summary": "In this post, you will learn how to build stateful MCP servers that request user input during execution, invoke LLM sampling for dynamic content generation, and stream progress updates for long-running tasks. You will see code examples for each capability and deploy a working stateful MCP server to Amazon Bedrock AgentCore Runtime."
+"last_updated": "2026-04-10 00:19:29 JST"
