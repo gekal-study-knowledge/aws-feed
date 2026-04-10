@@ -1,0 +1,8 @@
+"entries":
+  "8bde9e35bf9592a95428aa1218b83e34":
+    "id": "8bde9e35bf9592a95428aa1218b83e34"
+    "title": "S3 Files の提供開始 – S3 バケットがファイルシステムとしてアクセス可能に"
+    "link": "https://aws.amazon.com/jp/blogs/news/launching-s3-files-making-s3-buckets-accessible-as-file-systems/"
+    "published": "2026-04-10 03:57:43"
+    "summary": "Amazon S3 Files の提供が開始されました。S3 Files は S3 バケットをファイルシステムとしてアクセスできる新機能で、EC2 インスタンス、ECS/EKS コンテナ、Lambda 関数から NFS v4.1 以降でマウントできます。アクティブなデータに対して約 1 ミリ秒のレイテンシーを実現し、複数のコンピューティングリソースからの同時アクセスをサポートします。"
+"last_updated": "2026-04-10 14:21:44 JST"
