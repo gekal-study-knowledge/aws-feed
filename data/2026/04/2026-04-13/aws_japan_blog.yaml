@@ -11,4 +11,16 @@
     "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260406/"
     "published": "2026-04-13 02:27:49"
     "summary": "週刊生成AI with AWS, エージェント関連の話題が盛りだくさんの2026年4月6日週号 - 大豊建設様、丸紅グループ様の国内事例ブログを紹介。また、Claude Mythos PreviewやAWS Security Agent GA、AWS DevOps Agent GAなどのブログ記事も。サービスアップデートではAWS Agent Registryプレビューや Amazon Bedrock IAMコスト配分をはじめとする6件のアップデートを紹介。"
-"last_updated": "2026-04-13 14:37:42 JST"
+  "528823c94746be3b6803f4ab0d7f4cf3":
+    "id": "528823c94746be3b6803f4ab0d7f4cf3"
+    "title": "AI-DLC は開発をどう変えるか – ブラザー工業エンジニアが語る AI-DLC 体験記"
+    "link": "https://aws.amazon.com/jp/blogs/news/brother-ai-dlc-interview/"
+    "published": "2026-04-13 07:12:36"
+    "summary": "こんにちは。ソリューションアーキテクトの水野です。AWS のプロフェッショナルサービスでは、ブラザー工業株式会 […]"
+  "d1e34ad695727997e4e897caecd8aa1f":
+    "id": "d1e34ad695727997e4e897caecd8aa1f"
+    "title": "荏原製作所様と共催！社内クラウドイベント「Ebara Cloud Day」開催レポート"
+    "link": "https://aws.amazon.com/jp/blogs/news/2026-ebara-cloud-day/"
+    "published": "2026-04-13 06:44:28"
+    "summary": "荏原製作所様は社内クラウドイベント「Ebara Cloud Day」を開催しました。 AWSセッションや社内エンジニアによる実践的なLT(新入社員研修、EC2運用、中国リージョン導入、Wrike連携ツール、コスト半減事例)を通じて、参加者のクラウド活用意欲が大きく向上し、継続的な学習コミュニティ形成の基盤となりました。 ブログではイベントの内容やイベント実施の効果をお伝えしています。"
+"last_updated": "2026-04-13 16:57:48 JST"
