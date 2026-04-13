@@ -23,4 +23,10 @@
     "link": "https://aws.amazon.com/jp/blogs/news/2026-ebara-cloud-day/"
     "published": "2026-04-13 06:44:28"
     "summary": "荏原製作所様は社内クラウドイベント「Ebara Cloud Day」を開催しました。 AWSセッションや社内エンジニアによる実践的なLT(新入社員研修、EC2運用、中国リージョン導入、Wrike連携ツール、コスト半減事例)を通じて、参加者のクラウド活用意欲が大きく向上し、継続的な学習コミュニティ形成の基盤となりました。 ブログではイベントの内容やイベント実施の効果をお伝えしています。"
-"last_updated": "2026-04-13 16:57:48 JST"
+  "b697d78ee09a30db41e7d3a071f05db2":
+    "id": "b697d78ee09a30db41e7d3a071f05db2"
+    "title": "Spec-Driven Presentation Maker — 伝えたいことを先に設計し、スライド構築は AI に任せる"
+    "link": "https://aws.amazon.com/jp/blogs/news/spec-driven-presentation-maker-ja/"
+    "published": "2026-04-13 08:15:19"
+    "summary": "Spec-Driven Presentation Maker は、「何を伝えるか」を先に設計し、スライドの構築を AI に委ねるオープンソースのサンプル実装です。本記事では、仕様駆動アプローチの考え方と、AWS 環境への導入方法をご紹介します。"
+"last_updated": "2026-04-13 18:58:22 JST"
