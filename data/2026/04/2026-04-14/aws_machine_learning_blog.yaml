@@ -1,0 +1,8 @@
+"entries":
+  "5cc754696367b65ac49559589d54e36b":
+    "id": "5cc754696367b65ac49559589d54e36b"
+    "title": "Spring AI SDK for Amazon Bedrock AgentCore is now Generally Available"
+    "link": "https://aws.amazon.com/blogs/machine-learning/spring-ai-sdk-for-amazon-bedrock-agentcore-is-now-generally-available/"
+    "published": "2026-04-14 12:40:47"
+    "summary": "With the new Spring AI AgentCore SDK, you can build production-ready AI agents and run them on the highly scalable AgentCore Runtime. The Spring AI AgentCore SDK is an open source library that brings Amazon Bedrock AgentCore capabilities into Spring AI. In this post, we build an AI agent starting with a chat endpoint, then adding streaming responses, conversation memory, and tools for web browsing and code execution."
+"last_updated": "2026-04-14 23:48:12 JST"
