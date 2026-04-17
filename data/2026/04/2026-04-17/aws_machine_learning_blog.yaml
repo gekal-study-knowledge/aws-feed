@@ -27,4 +27,11 @@
     "published": "2026-04-17 19:43:35"
     "fetched": "2026-04-18 04:57:12"
     "summary": "In this post, we show you how to build a video semantic search solution on Amazon Bedrock using Nova Multimodal Embeddings that intelligently understands user intent and retrieves accurate video results across all signal types simultaneously. We also share a reference implementation you can deploy and explore with your own content."
-"last_updated": "2026-04-18 04:57:12 JST"
+  "ef03f57c242108503ec55b025ce30635":
+    "id": "ef03f57c242108503ec55b025ce30635"
+    "title": "Introducing granular cost attribution for Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-granular-cost-attribution-for-amazon-bedrock/"
+    "published": "2026-04-17 22:04:15"
+    "fetched": "2026-04-18 07:35:04"
+    "summary": "In this post, we share how Amazon Bedrock's granular cost attribution works and walk through example cost tracking scenarios."
+"last_updated": "2026-04-18 07:35:04 JST"
