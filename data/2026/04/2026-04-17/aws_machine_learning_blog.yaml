@@ -1,0 +1,16 @@
+"entries":
+  "86e6a8ee744d428b631dc9d3419a589d":
+    "id": "86e6a8ee744d428b631dc9d3419a589d"
+    "title": "Nova Forge SDK series part 2: Practical guide to fine-tune Nova models using data mixing capabilities"
+    "link": "https://aws.amazon.com/blogs/machine-learning/nova-forge-sdk-series-part-2-practical-guide-to-fine-tune-nova-models-using-data-mixing-capabilities/"
+    "published": "2026-04-17 17:27:40"
+    "fetched": "2026-04-18 02:48:07"
+    "summary": "This hands-on guide walks through every step of fine-tuning an Amazon Nova model with the Amazon Nova Forge SDK, from data preparation to training with data mixing to evaluation, giving you a repeatable playbook you can adapt to your own use case. This is the second part in our Nova Forge SDK series, building on the SDK introduction and first part, which covered kicking off customization experiments."
+  "d330b72d16f3d49514514ea78b4a5faa":
+    "id": "d330b72d16f3d49514514ea78b4a5faa"
+    "title": "From hours to minutes: How Agentic AI gave marketers time back for what matters"
+    "link": "https://aws.amazon.com/blogs/machine-learning/from-hours-to-minutes-how-agentic-ai-gave-marketers-time-back-for-what-matters/"
+    "published": "2026-04-17 17:12:10"
+    "fetched": "2026-04-18 02:48:07"
+    "summary": "In this post, we share how AWS Marketing’s Technology, AI, and Analytics (TAA) team worked with Gradial to build an agentic AI solution on Amazon Bedrock for accelerating content publishing workflows."
+"last_updated": "2026-04-18 02:48:07 JST"
