@@ -4,6 +4,7 @@ entries:
     title: MariaDB Server Audit Plugin Comment Handling Bypass
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-006-aws/
     published: "2026-03-03"
+    fetched: "2026-03-03"
     summary:
       "<p><b>Bulletin ID:</b> 2026-006-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Informational<br /> <b>Publication Date:</b> 2026/03/03 10:15 AM\

@@ -4,5 +4,6 @@
     "title": "How AWS KMS and AWS Encryption SDK overcome symmetric encryption bounds"
     "link": "https://aws.amazon.com/blogs/security/how-aws-kms-and-aws-encryption-sdk-overcome-symmetric-encryption-bounds/"
     "published": "2026-04-03 15:44:48"
+    "fetched": "2026-04-03 15:44:48"
     "summary": "If you run high-scale applications that encrypt large volumes of data, you might be concerned about tracking encryption limits and rotating keys. This post explains how AWS Key Management Service (AWS KMS) and the AWS Encryption SDK handle Advanced Encryption Standard in Galois Counter Mode’s (AES-GCM) encryption limits or bounds automatically by using derived key […]"
 "last_updated": "2026-04-04 01:36:15 JST"

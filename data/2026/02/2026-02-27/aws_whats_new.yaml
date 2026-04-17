@@ -4,6 +4,7 @@ entries:
     title: Amazon OpenSearch Service adds new insights for improved cluster stability
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-adds-new-insights-improved-cluster-stability/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       <p><a href="https://aws.amazon.com/opensearch-service/">Amazon OpenSearch
       Service</a> has enhanced Cluster Insights with two new insights — Cluster Overload
@@ -35,6 +36,7 @@ entries:
     title: AWS now supports Bacs Direct Debit as a payment method for UK customers
     link: https://aws.amazon.com/about-aws/whats-new/aws-supports-bacs-direct-debit-payment-method/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       "<p>Starting today, AWS customers based in the United Kingdom can use\
       \ Bacs Direct Debit to pay for their AWS services. This new feature provides\
@@ -61,6 +63,7 @@ entries:
       log group structure
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/cloudwatch-centralization-custom-groups/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       "<p>Amazon CloudWatch now supports customizing destination log group\
       \ names when creating CloudWatch log centralization rules. Organizations managing\
@@ -90,6 +93,7 @@ entries:
       and 14.22
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/rds-minor-version-18-3-17-9-16-13-15-17-14-22/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       <p><a href="https://aws.amazon.com/rds/postgresql/" target="_blank">Amazon
       Relational Database Service (RDS)</a> for PostgreSQL now supports the latest
@@ -119,6 +123,7 @@ entries:
       change organizations
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-resource-access-manager/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       <p>AWS Resource Access Manager (RAM) now supports a resource share configuration
       that allows you to maintain resource sharing continuity when accounts move between
@@ -145,6 +150,7 @@ entries:
       simplified IAM
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/ec2-image-builder-lifecycle-enhancements/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       <p>EC2 Image Builder, a service that helps you automate the creation,
       distribution, and management of customized Amazon Machine Images, now supports
@@ -171,6 +177,7 @@ entries:
       RDS orchestration and AWS provider support for Terraform"
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/arc-region-switch-post-recovery-rdsblock/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       "<p>Amazon Application Recovery Controller (ARC) Region switch helps\
       \ customers orchestrate the failover of their multi-Region applications to achieve\
@@ -216,6 +223,7 @@ entries:
       Amazon EventBridge
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/firewall-state-change-notifications/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       <p>AWS Network Firewall now integrates with Amazon EventBridge to provide
       real-time notifications for firewall state changes and configuration updates.
@@ -242,6 +250,7 @@ entries:
     title: Oracle Database@AWS is now available in the Dublin AWS Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/oracle-database-aws-available-dublin-aws-region/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       '<p>Oracle Database@AWS is now available in EU-West-1 (Dublin), starting
       with one Availability Zone (AZ). Oracle Database@AWS enables customers to access
@@ -267,6 +276,7 @@ entries:
     title: Amazon Lightsail expands blueprint selection with a new WordPress blueprint
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/wordpress-blueprint-lightsail/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       <p>Amazon Lightsail now offers a new WordPress blueprint, making it easier
       than ever to launch and manage a WordPress website on the cloud. With just a
@@ -292,6 +302,7 @@ entries:
     title: Amazon Bedrock batch inference now supports the Converse API format
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-batch-inference-supports-converse-api-format/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       <p>Amazon Bedrock batch inference now supports the Converse API as a
       model invocation type, enabling you to use a consistent, model-agnostic input
@@ -315,6 +326,7 @@ entries:
       Pacific (Taipei) and AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-ipv6-asia-pacific-govcloud/
     published: "2026-02-27"
+    fetched: "2026-02-27"
     summary:
       "<p>AWS IAM Identity Center now supports Internet Protocol version 6\
       \ (IPv6) via dual-stack endpoints in the AWS Asia Pacific (Taipei) and AWS GovCloud\

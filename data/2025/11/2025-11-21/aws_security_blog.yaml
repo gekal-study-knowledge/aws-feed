@@ -4,6 +4,7 @@ entries:
     title: Practical steps to minimize key exposure using AWS Security Services
     link: https://aws.amazon.com/blogs/security/practical-steps-to-minimize-key-exposure-using-aws-security-services/
     published: "2025-11-21"
+    fetched: "2025-11-21"
     summary:
       Exposed long-term credentials continue to be the top entry point used
       by threat actors in security incidents observed by the AWS Customer Incident
@@ -17,6 +18,7 @@ entries:
       capabilities
     link: https://aws.amazon.com/blogs/security/accelerate-investigations-with-aws-security-incident-response-ai-powered-capabilities/
     published: "2025-11-21"
+    fetched: "2025-11-21"
     summary:
       If you’ve ever spent hours manually digging through AWS CloudTrail logs,
       checking AWS Identity and Access Management (IAM) permissions, and piecing together

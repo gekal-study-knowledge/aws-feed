@@ -6,6 +6,7 @@ entries:
       AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-identity-center-multi-region-aws-account-access-and-application-deployment
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       "<p>IAM Identity Center helps you configure the single sign-on experience\
       \ of your workforce to AWS accounts and applications. You can now replicate\
@@ -41,6 +42,7 @@ entries:
     title: AWS Lake Formation is now available in Asia Pacific (New Zealand) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/AWS-Lake-Formation-Asia-Pacific-New-Zealand-Region
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       <p>AWS Lake Formation is now available in the Asia Pacific (New Zealand)
       Region, enabling you to centrally manage and scale fine-grained data access
@@ -60,6 +62,7 @@ entries:
     title: Amazon Connect launches an appeals workflow for agent performance evaluations
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-appeals-workflow-agent-performance-evaluations/
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       <p>Amazon Connect now provides an integrated workflow to capture and
       resolve agent appeals of performance evaluations, enhancing evaluation fairness
@@ -81,6 +84,7 @@ entries:
       for easier account identification
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/console-displays-account-name-on-nav-bar
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       <p>Today, AWS announces the general availability of displaying account
       name in AWS Management Console across all Public Regions. AWS customers now
@@ -104,6 +108,7 @@ entries:
       accounts
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/dynamodb-gt-multi-account/
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       '<p>Amazon DynamoDB global tables now support replication across multiple
       AWS accounts. DynamoDB global tables is a fully managed, serverless, multi-Region,
@@ -135,6 +140,7 @@ entries:
       from AWS EMEA
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-marketplace-localized-billing-professional/
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       <p>AWS Marketplace now offers a more localized experience for Europe,
       Middle East, and Africa (EMEA) customers purchasing Professional Service solutions
@@ -166,6 +172,7 @@ entries:
       database
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-provides-enhanced-console-experience
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       <p>Amazon RDS now provides an enhanced console experience that consolidates
       and provides all relevant information needed to connect to a database in one
@@ -190,6 +197,7 @@ entries:
     title: Amazon Aurora DSQL now supports indexes on the NUMERIC data type
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-indexes-numeric-data-type/
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       <p><a href="https://aws.amazon.com/rds/aurora/dsql/">Amazon Aurora DSQL</a>&nbsp;now
       supports index creation on NUMERIC data types. With this enhancement, you can
@@ -201,6 +209,7 @@ entries:
     title: Amazon Quick Suite Enables Easy Resolution of Ambiguous Map Locations
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/quick-ambiguous-locations-resolution
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       '<p><a href="https://aws.amazon.com/quick/quicksight/" target="_blank">Quick
       Sight in Amazon Quick Suite</a> now enables authors to resolve or update ambiguous
@@ -232,6 +241,7 @@ entries:
       Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/oracle-database-aws-available-canada-central-sydney-aws-regions
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       '<p>Oracle Database@AWS is now available in two additional AWS Regions:
       CA-Central-1 (Canada Central) and AP-Southeast-2 (Sydney), starting with one
@@ -259,6 +269,7 @@ entries:
     title: AWS Batch now provides Array Job Status Summary in ListJobs API
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-batch-array-job-status-summary/
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       '<p>AWS Batch now includes a status summary for Array Jobs in the ListJobs
       API response, giving you immediate visibility into the distribution of child

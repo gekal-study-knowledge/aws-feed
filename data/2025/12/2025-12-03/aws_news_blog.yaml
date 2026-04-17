@@ -6,6 +6,7 @@ entries:
       build smarter, more accurate AI models
     link: https://aws.amazon.com/blogs/aws/improve-model-accuracy-with-reinforcement-fine-tuning-in-amazon-bedrock/
     published: "2025-12-03"
+    fetched: "2025-12-03"
     summary:
       Amazon Bedrock now supports reinforcement fine-tuning delivering 66%
       accuracy gains on average over base models.
@@ -14,6 +15,7 @@ entries:
     title: New serverless customization in Amazon SageMaker AI accelerates model fine-tuning
     link: https://aws.amazon.com/blogs/aws/new-serverless-customization-in-amazon-sagemaker-ai-accelerates-model-fine-tuning/
     published: "2025-12-03"
+    fetched: "2025-12-03"
     summary:
       Accelerate AI model development with new training features that enable
       rapid recovery from failures and automatic scaling based on resource availability.
@@ -22,6 +24,7 @@ entries:
     title: Introducing checkpointless and elastic training on Amazon SageMaker HyperPod
     link: https://aws.amazon.com/blogs/aws/introducing-checkpointless-and-elastic-training-on-amazon-sagemaker-hyperpod/
     published: "2025-12-03"
+    fetched: "2025-12-03"
     summary:
       Accelerate AI model development with new training features that enable
       instant recovery from failures and automatic scaling based on resource availability.

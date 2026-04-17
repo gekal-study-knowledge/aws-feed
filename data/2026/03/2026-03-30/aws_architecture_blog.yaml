@@ -4,5 +4,6 @@
     "title": "How Aigen transformed agricultural robotics for sustainable farming with Amazon SageMaker AI"
     "link": "https://aws.amazon.com/blogs/architecture/how-aigen-transformed-agricultural-robotics-for-sustainable-farming-with-amazon-sagemaker-ai/"
     "published": "2026-03-30 15:36:36"
+    "fetched": "2026-03-30 15:36:36"
     "summary": "In this post, you will learn how Aigen modernized its machine learning (ML) pipeline with Amazon SageMaker AI to overcome industry-wide agricultural robotics challenges and scale sustainable farming. This post focuses on the strategies and architecture patterns that enabled Aigen to modernize its pipeline across hundreds of distributed edge solar robots and showcase the significant business outcomes unlocked through this transformation. By adopting automated data labeling and human-in-the-loop validation, Aigen increased image labeling throughput by 20x while reducing image labeling costs by 22.5x."
 "last_updated": "2026-03-31 01:52:24 JST"

@@ -6,6 +6,7 @@ entries:
       EC2 X8i instances, and more (January 19, 2026)"
     link: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-kiro-cli-latest-features-aws-european-sovereign-cloud-ec2-x8i-instances-and-more-january-19-2026/
     published: "2026-01-20"
+    fetched: "2026-01-20"
     summary:
       At the end of 2025 I was happy to take a long break to enjoy the incredible
       summers that the southern hemisphere provides. I’m back and writing my first
@@ -18,6 +19,7 @@ entries:
       Blackwell Server Edition GPUs
     link: https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7e-instances-accelerated-by-nvidia-rtx-pro-6000-blackwell-server-edition-gpus/
     published: "2026-01-20"
+    fetched: "2026-01-20"
     summary:
       AWS introduces Amazon EC2 G7e instances accelerated by the NVIDIA RTX
       PRO 6000 Blackwell Server Edition GPUs with up to 2.3 times inference performance.

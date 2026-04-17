@@ -6,6 +6,7 @@ entries:
       service and one new region
     link: https://aws.amazon.com/blogs/security/2025-iso-and-csa-star-certificates-are-now-available-with-one-additional-service-and-one-new-region/
     published: "2026-03-05"
+    fetched: "2026-03-05"
     summary:
       Amazon Web Services (AWS) successfully completed the annual recertification
       audit with no findings for ISO 9001:2015, 27001:2022, 27017:2015, 27018:2019,
@@ -19,6 +20,7 @@ entries:
       audit
     link: https://aws.amazon.com/blogs/security/aws-completes-the-2026-annual-dubai-electronic-security-centre-desc-certification-audit/
     published: "2026-03-05"
+    fetched: "2026-03-05"
     summary:
       We’re excited to announce that Amazon Web Services (AWS) has completed
       the annual Dubai Electronic Security Centre (DESC) certification audit to operate

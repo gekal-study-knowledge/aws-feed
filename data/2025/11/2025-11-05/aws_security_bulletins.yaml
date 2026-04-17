@@ -6,6 +6,7 @@ entries:
       for Linux
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-025/
     published: "2025-11-05"
+    fetched: "2025-11-05"
     summary:
       "<p><b>Bulletin ID:</b> AWS-2025-025<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/11/5\
@@ -24,6 +25,7 @@ entries:
     title: CVE-2025-31133, CVE-2025-52565, CVE-2025-52881 - runc container issues
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-024/
     published: "2025-11-05"
+    fetched: "2025-11-05"
     summary:
       "<p><b>Bulletin ID:</b> AWS-2025-024<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/11/5\

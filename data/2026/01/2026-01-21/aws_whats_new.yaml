@@ -4,6 +4,7 @@ entries:
     title: AWS Transfer Family Terraform module now supports web apps
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-terraform-webapps
     published: "2026-01-21"
+    fetched: "2026-01-21"
     summary:
       <p>You can now use the&nbsp;<a href="https://github.com/aws-ia/terraform-aws-transfer-family"
       target="_blank">AWS Transfer Family Terraform module</a>&nbsp;to deploy Transfer
@@ -31,6 +32,7 @@ entries:
     title: Amazon EC2 C8gn instances are now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8gn-instances-additional-regions
     published: "2026-01-21"
+    fetched: "2026-01-21"
     summary:
       '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances,
       powered by the latest-generation AWS Graviton4 processors, are available in
@@ -64,6 +66,7 @@ entries:
     title: AWS Clean Rooms adds support for join and partition hints in SQL
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-join-partition-hints-sql/
     published: "2026-01-21"
+    fetched: "2026-01-21"
     summary:
       <p>AWS Clean Rooms announces support for join and partition hints for
       SQL queries, enabling optimization of join strategies and data partitioning
@@ -87,6 +90,7 @@ entries:
     title: Amazon SageMaker HyperPod introduces enhanced lifecycle scripts debugging
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-hyperpod-lcs-enhanced-debug/
     published: "2026-01-21"
+    fetched: "2026-01-21"
     summary:
       <p>Amazon SageMaker HyperPod now provides enhanced troubleshooting capabilities
       for lifecycle scripts, making it easier to identify and resolve issues during
@@ -118,6 +122,7 @@ entries:
       for evaluation
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-automatically-select-random-contacts-evaluation/
     published: "2026-01-21"
+    fetched: "2026-01-21"
     summary:
       <p>Amazon Connect can now provide managers with random samples of agent
       contacts for evaluation, so they can provide fair coaching feedback to agents.
@@ -138,6 +143,7 @@ entries:
       local disks
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-aws-kms-customer-managed
     published: "2026-01-21"
+    fetched: "2026-01-21"
     summary:
       <p><a href="https://aws.amazon.com/emr/serverless/">Amazon EMR Serverless</a>
       now supports encrypting local disks with AWS Key Management Service (KMS) customer
@@ -166,6 +172,7 @@ entries:
       GovCloud (US-West)
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-reserved-tier-for-claude-sonnet-in-govcloud/
     published: "2026-01-21"
+    fetched: "2026-01-21"
     summary:
       <p>Today, Amazon Bedrock introduces the expansion of the Reserved service
       tier designed for workloads requiring predictable performance and guaranteed
@@ -197,6 +204,7 @@ entries:
     title: AWS introduces additional policy details to access denied error messages
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/additional-policy-details-access-denied-error/
     published: "2026-01-21"
+    fetched: "2026-01-21"
     summary:
       <p>AWS now includes the&nbsp;<a href="https://aws.amazon.com/iam/">AWS
       Identity and Access Management (IAM)</a>&nbsp;and <a href="https://docs.aws.amazon.com/organizations/">AWS
@@ -220,6 +228,7 @@ entries:
       automation
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/instance-scheduler-adds-enhanced-scaling/
     published: "2026-01-21"
+    fetched: "2026-01-21"
     summary:
       "<p>Today AWS announced enhanced scheduling orchestration to track AWS\
       \ tagging events, self-service troubleshooting via informational resource tags,\
@@ -254,6 +263,7 @@ entries:
       countries
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/availability-second-generation-aws-outposts-racks-more-countries
     published: "2026-01-21"
+    fetched: "2026-01-21"
     summary:
       <p>Second-generation AWS Outposts racks can now be shipped and installed
       at your data center and on-premises locations in Argentina, Bangladesh, Colombia,
@@ -287,6 +297,7 @@ entries:
       support
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-sql-server-diff-and-log-restores-for-maz-and-rr/
     published: "2026-01-21"
+    fetched: "2026-01-21"
     summary:
       <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for SQL Server</a> now supports differential

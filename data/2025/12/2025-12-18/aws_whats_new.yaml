@@ -4,6 +4,7 @@ entries:
     title: Amazon EC2 now supports Availability Zone ID across its APIs
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-az-id-api-support
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       <p>Amazon EC2 now supports Availability Zone ID (AZ ID) parameter, enabling
       you to create and manage resources such as instances, volumes, and subnets using
@@ -28,6 +29,7 @@ entries:
     title: Amazon Aurora now supports PostgreSQL 17.7, 16.11, 15.15, 14.20 and 13.23
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-aurora-postgresql-17-7-16-11-15-15-14-20-13-23
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       <p>Amazon Aurora PostgreSQL-Compatible Edition has added support for
       PostgreSQL versions 17.7, 16.11, 15.15, 14.20 and 13.23. The <a href="https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/AuroraPostgreSQL.Updates.html"
@@ -58,6 +60,7 @@ entries:
       Pro 24.04 LTS
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-ubuntu-elasticfleets
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       <p>Amazon WorkSpaces Applications now offers support for Ubuntu Pro 24.04
       LTS on&nbsp;Elastic fleets, enabling Independent Software Vendors (ISVs)&nbsp;and
@@ -82,6 +85,7 @@ entries:
     title: Amazon EC2 C8a instances now available in the Europe (Spain) region
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-c8a-instances-europe-spain-region
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       <p>Starting today, the compute-optimized Amazon EC2 C8a instances are
       available in the Europe (Spain) region. C8a instances are powered by 5th Gen
@@ -106,6 +110,7 @@ entries:
     title: AWS IoT Core adds message batching to HTTP rule action
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-iot-core-message-batching-http-rule-action
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       <p><a href="https://aws.amazon.com/iot-core/" target="_blank">AWS IoT
       Core</a> now lets you batch multiple IoT messages into a single <a href="https://docs.aws.amazon.com/iot/latest/developerguide/https-rule-action.html"
@@ -137,6 +142,7 @@ entries:
     title: Amazon WorkSpaces now supports IPv6
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-ipv6/
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       <p>Amazon WorkSpaces now supports IPv6 for <a href="https://docs.aws.amazon.com/workspaces/latest/adminguide/workspaces-port-requirements.html#whitelisted_ports">WorkSpaces
       domains and external endpoints</a>, enabling users to connect through an IPv4/IPv6
@@ -166,6 +172,7 @@ entries:
       for new connectors
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-msk-connect-dual-stack-ipv-and-ipv/
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       <p>Amazon Managed Streaming for Apache Kafka (<a href="https://aws.amazon.com/msk/">Amazon
       MSK</a>) now supports dual-stack connectivity (IPv4 and IPv6) for new connectors
@@ -193,6 +200,7 @@ entries:
     title: Amazon ECS Managed Instances now supports Amazon EC2 Spot Instances
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-managed-instances-ec2-spot-instances
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       <p><a href="https://aws.amazon.com/ecs/managed-instances/" target="_blank">Amazon
       ECS Managed Instances</a> now supports <a href="https://aws.amazon.com/ec2/spot/"
@@ -226,6 +234,7 @@ entries:
       regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-r8i-r8i-flex-instances-additional-regions/
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and
       R8i-flex instances are available in the Asia Pacific (Seoul), South America
@@ -261,6 +270,7 @@ entries:
     title: AWS Lambda durable functions are now available in 14 additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/lambda-durable-functions-14-additional-regions/
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       '<p>AWS Lambda durable functions enable developers to build reliable
       multi-step applications and AI workflows within the Lambda developer experience.
@@ -292,6 +302,7 @@ entries:
       Service
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/direct-connect-resilience-testing-fault-injection-service/
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       '<p>AWS Direct Connect now supports resilience testing with AWS Fault
       Injection Service (FIS), a fully managed service for running controlled fault
@@ -315,6 +326,7 @@ entries:
     title: AWS Clean Rooms now supports change requests for existing collaborations
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/clean-rooms-change-requests-existing-collaborations/
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       <p>AWS Clean Rooms now supports change requests to modify existing collaboration
       settings, offering customers greater flexibility in managing collaborations
@@ -341,6 +353,7 @@ entries:
     title: Announcing 176 new AWS Security Hub controls  in AWS Control Tower
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/176-security-hub-controls-control-tower/
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       '<p>Today, AWS announces that AWS Control Tower supports an additional
       176 Security Hub controls in Control Catalog for use cases such as security,
@@ -366,6 +379,7 @@ entries:
       task retirements on AWS Fargate
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/ecs-weekly-windows-scheduling-task-retirements-fargate/
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       '<p>Amazon ECS now enables you to define weekly event windows for scheduling
       task retirements on AWS Fargate. This capability provides precise control over
@@ -402,6 +416,7 @@ entries:
       v3.9
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-msk-express-brokers-support-kraft/
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       "<p>Amazon Managed Streaming for Apache Kafka (MSK) now supports Apache\
       \ Kafka version 3.9 for Express Brokers. This release introduces support for\
@@ -423,6 +438,7 @@ entries:
     title: Amazon Neptune Database is now available in the AWS Europe (Zurich) Region
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-neptune-zurich-region
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       '<p><a contenteditable="false" href="https://aws.amazon.com/neptune/"
       style="cursor: pointer;">Amazon Neptune</a> Database is now available in the
@@ -450,6 +466,7 @@ entries:
     title: Amazon SES announces email validation
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ses-email-validation/
     published: "2025-12-18"
+    fetched: "2025-12-18"
     summary:
       "<p>Today, Amazon Simple Email Service (SES) announces email validation,\
       \ a new capability that helps customers reduce bounce rates and protect sender\

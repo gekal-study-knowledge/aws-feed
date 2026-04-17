@@ -6,6 +6,7 @@ entries:
       AMR
     link: https://aws.amazon.com/blogs/security/how-to-customize-your-response-to-layer-7-ddos-attacks-using-aws-waf-anti-ddos-amr/
     published: "2025-12-10"
+    fetched: "2025-12-10"
     summary:
       Over the first half of this year, AWS WAF introduced new application-layer
       protections to address the growing trend of short-lived, high-throughput Layer

@@ -4,5 +4,6 @@
     "title": "AWS Outposts monitoring and reporting: A comprehensive Amazon EventBridge solution"
     "link": "https://aws.amazon.com/blogs/compute/aws-outposts-monitoring-and-reporting-a-comprehensive-amazon-eventbridge-solution/"
     "published": "2026-04-14 16:18:12"
+    "fetched": "2026-04-14 16:18:12"
     "summary": "Organizations using AWS Outposts racks commonly manage capacity from a single AWS account and share resources through AWS Resource Access Manager (AWS RAM) with other AWS accounts (consumer accounts) within AWS Organizations. In this post, we demonstrate one approach to create a multi-account serverless solution to surface costs in shared AWS Outposts environments using Amazon […]"
 "last_updated": "2026-04-15 03:01:29 JST"

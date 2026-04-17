@@ -4,6 +4,7 @@ entries:
     title: AWS Clean Rooms now supports detailed monitoring for collaboration queries
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/clean-rooms-detailed-monitoring-collaboration-queries
     published: "2026-01-02"
+    fetched: "2026-01-02"
     summary:
       '<p>Today, AWS Clean Rooms announces the launch of detailed monitoring
       for SQL queries in a collaboration. This new capability publishes detailed metrics
@@ -30,6 +31,7 @@ entries:
       and looping arrays
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-nested-json-object-looping-arrays
     published: "2026-01-02"
+    fetched: "2026-01-02"
     summary:
       <p>Amazon Connect now enables you to store and work with complex data
       structures in your flows, making it easy to build dynamic automated experiences

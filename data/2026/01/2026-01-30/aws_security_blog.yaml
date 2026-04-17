@@ -6,6 +6,7 @@ entries:
       Directory
     link: https://aws.amazon.com/blogs/security/explore-scaling-options-for-aws-directory-service-for-microsoft-active-directory/
     published: "2026-01-30"
+    fetched: "2026-01-30"
     summary:
       You can use AWS Directory Service for Microsoft Active Directory as your
       primary Active Directory Forest for hosting your users’ identities. Your IT

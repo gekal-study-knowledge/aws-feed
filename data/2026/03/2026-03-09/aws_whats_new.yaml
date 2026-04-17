@@ -4,6 +4,7 @@ entries:
     title: Amazon CloudWatch Logs announces increased query concurrency and API limits
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-logs-increased-limits/
     published: "2026-03-09"
+    fetched: "2026-03-09"
     summary:
       <p>Amazon CloudWatch Logs customers can now run up to 100 concurrent
       queries per account and execute 10 StartQuery and GetQueryResults API calls
@@ -32,6 +33,7 @@ entries:
       (New Zealand) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/cognito-taipei-and-new-zealand-regions/
     published: "2026-03-09"
+    fetched: "2026-03-09"
     summary:
       "<p>Amazon Cognito is now available in the AWS Asia Pacific (Taipei)\
       \ and Asia Pacific (New Zealand) Regions. This launch introduces all Amazon\
@@ -49,6 +51,7 @@ entries:
     title: IAM Roles Anywhere now supports post-quantum digital certificates
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/iam-roles-anywhere-post-quantum-digital-certificates
     published: "2026-03-09"
+    fetched: "2026-03-09"
     summary:
       <p><a href="https://aws.amazon.com/iam/roles-anywhere/">AWS Identity
       and Access Management (IAM) Roles Anywhere</a> now supports the <a href="https://csrc.nist.gov/pubs/fips/204/final">FIPS
@@ -78,6 +81,7 @@ entries:
       (Spain) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-g7e-seoul-spain-regions/
     published: "2026-03-09"
+    fetched: "2026-03-09"
     summary:
       "<p>Starting today, Amazon EC2 G7e instances accelerated by NVIDIA RTX\
       \ PRO 6000 Blackwell Server Edition GPUs are now available in &nbsp;Asia Pacific\
@@ -106,6 +110,7 @@ entries:
     title: Amazon Quick Suite launches User Preferences for chat personalization
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/user-preferences-in-quick/
     published: "2026-03-09"
+    fetched: "2026-03-09"
     summary:
       <p>We are announcing User Preferences in Amazon Quick Suite – a new feature
       that gives users greater control over how Quick looks, feels, and works for
@@ -130,6 +135,7 @@ entries:
     title: Amazon Route 53 Global Resolver is now generally available
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-route-53-global-resolver/
     published: "2026-03-09"
+    fetched: "2026-03-09"
     summary:
       <p>Today, AWS announced the general availability of Amazon Route 53 Global
       Resolver, an internet-reachable anycast DNS resolver that delivers easy, secure,
@@ -156,6 +162,7 @@ entries:
       ETL
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-faster-data-preview/
     published: "2026-03-09"
+    fetched: "2026-03-09"
     summary:
       "<p><a href=\"https://aws.amazon.com/sagemaker/unified-studio/\">Amazon\
       \ SageMaker Unified Studio </a>introduces data preview v2.0 for Visual ETL,\
@@ -184,6 +191,7 @@ entries:
     title: IAM Roles Anywhere now supports post-quantum digital certificates
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/iam-roles-anywhere-post-quantum-digital-certificates/
     published: "2026-03-09"
+    fetched: "2026-03-09"
     summary:
       <p><a href="https://aws.amazon.com/iam/roles-anywhere/">AWS Identity
       and Access Management (IAM) Roles Anywhere</a> now supports the <a href="https://csrc.nist.gov/pubs/fips/204/final">FIPS

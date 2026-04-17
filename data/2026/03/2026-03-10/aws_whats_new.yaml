@@ -4,6 +4,7 @@ entries:
     title: Amazon Connect introduces AI-powered manager assistance (Preview)
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-ai-powered-manager-assistance/
     published: "2026-03-10"
+    fetched: "2026-03-10"
     summary:
       "<p>Today, Amazon Connect announces the preview of an AI-powered assistant\
       \ that enables contact center managers to get instant answers to operational\
@@ -23,6 +24,7 @@ entries:
     title: Amazon Connect now supports conversational analytics for email
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-conversational-analytics-email/
     published: "2026-03-10"
+    fetched: "2026-03-10"
     summary:
       <p>Amazon Connect now supports conversational analytics for email contacts,
       enabling contact center managers to automatically categorize emails, redact
@@ -53,6 +55,7 @@ entries:
       volume sizes
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-service-in-place-volume/
     published: "2026-03-10"
+    fetched: "2026-03-10"
     summary:
       <p><a href="https://aws.amazon.com/opensearch-service/">Amazon OpenSearch
       Service</a> now extends in-place cluster volume size increases to volumes exceeding
@@ -77,6 +80,7 @@ entries:
     title: Amazon Connect enhances AI-powered predictive insights
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-predictive-insights/
     published: "2026-03-10"
+    fetched: "2026-03-10"
     summary:
       "<p>Today, Amazon Connect is announcing enhancements to AI-powered predictive\
       \ insights that make it easier for businesses to deliver proactive, personalized\
@@ -106,6 +110,7 @@ entries:
     title: AWS Builder ID now supports Sign in with GitHub and Amazon
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-builder-id-sign-in-github-amazon/
     published: "2026-03-10"
+    fetched: "2026-03-10"
     summary:
       "<p>AWS Builder ID, your&nbsp;profile for accessing AWS applications\
       \ including AWS Builder Center, AWS Training and Certification and Kiro, now\
@@ -130,6 +135,7 @@ entries:
     title: Amazon Bedrock AgentCore Runtime now supports stateful MCP server features
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-runtime-stateful-mcp/
     published: "2026-03-10"
+    fetched: "2026-03-10"
     summary:
       "<p>Amazon Bedrock AgentCore Runtime now supports stateful Model Context\
       \ Protocol (MCP) server features, enabling developers to build MCP servers that\
@@ -161,6 +167,7 @@ entries:
       Consumption
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-observability-ttft-quota/
     published: "2026-03-10"
+    fetched: "2026-03-10"
     summary:
       "<p>Amazon Bedrock is a fully managed service for building generative\
       \ AI applications using high-performing foundation models from leading AI providers.\
@@ -191,6 +198,7 @@ entries:
       Town) and Asia Pacific (Hyderabad) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8i-c8i-flex-instances-africa-cape-town-asia-pacific-hyderabad-regions/
     published: "2026-03-10"
+    fetched: "2026-03-10"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
       C8i-flex instances are available in the Africa (Cape Town) and Asia Pacific

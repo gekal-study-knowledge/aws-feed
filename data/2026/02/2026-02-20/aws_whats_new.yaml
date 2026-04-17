@@ -6,6 +6,7 @@ entries:
       Patch Bundle
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rd-for-oracle-jan-release-update-spatial-patch-bundle/
     published: "2026-02-20"
+    fetched: "2026-02-20"
     summary:
       <p><a href="https://aws.amazon.com/rds/oracle/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for Oracle</a> now supports the <a
@@ -34,6 +35,7 @@ entries:
     title: Amazon MSK Serverless expands to three new AWS regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-serverless-3-regions/
     published: "2026-02-20"
+    fetched: "2026-02-20"
     summary:
       <p>You can now connect your Apache Kafka applications to <a href="https://aws.amazon.com/msk/features/msk-serverless/">Amazon
       MSK Serverless</a> in the Africa (Cape Town), Asia Pacific (Taipei), and Canada

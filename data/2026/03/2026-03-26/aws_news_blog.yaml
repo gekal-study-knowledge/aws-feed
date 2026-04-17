@@ -4,5 +4,6 @@
     "title": "Customize your AWS Management Console experience with visual settings including account color, region and service visibility"
     "link": "https://aws.amazon.com/blogs/aws/customize-your-aws-management-console-experience-with-visual-settings-including-account-color-region-and-service-visibility/"
     "published": "2026-03-26 21:34:19"
+    "fetched": "2026-03-26 21:34:19"
     "summary": "AWS introduces visual customization capability in AWS Management Console that enables selective display of relevant AWS Regions and services for your team members. By hiding unused Regions and services, you can reduce cognitive load and eliminate unnecessary clicks and scrolling, helping you focus better and work faster."
 "last_updated": "2026-03-27 07:25:46 JST"

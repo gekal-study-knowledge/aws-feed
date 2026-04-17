@@ -4,6 +4,7 @@ entries:
     title: AWS Private Certificate Authority now supports partitioned CRLs
     link: https://aws.amazon.com/blogs/security/aws-private-certificate-authority-now-supports-partitioned-crls/
     published: "2025-11-26"
+    fetched: "2025-11-26"
     summary:
       Public Key Infrastructure (PKI) is essential for securing and establishing
       trust in digital communications. As you scale your digital operations, you’ll
@@ -18,6 +19,7 @@ entries:
       Secrets Manager
     link: https://aws.amazon.com/blogs/security/how-to-use-the-secrets-store-csi-driver-provider-amazon-eks-add-on-with-secrets-manager/
     published: "2025-11-26"
+    fetched: "2025-11-26"
     summary:
       In this post, we introduce the AWS provider for the Secrets Store CSI
       Driver, a new AWS Secrets Manager add-on for Amazon Elastic Kubernetes Service

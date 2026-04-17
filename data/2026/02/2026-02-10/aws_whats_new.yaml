@@ -4,6 +4,7 @@ entries:
     title: Amazon Aurora Global Database now supports managed minor version upgrades
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-global-database-managed-minor/
     published: "2026-02-10"
+    fetched: "2026-02-10"
     summary:
       "<p>Amazon Aurora Global Database now supports managed minor version\
       \ upgrades across your global topology with minimal downtime, eliminating the\
@@ -27,6 +28,7 @@ entries:
     title: Amazon SageMaker HyperPod now supports node actions from the console
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-sagemaker-hyperpod-node-actions/
     published: "2026-02-10"
+    fetched: "2026-02-10"
     summary:
       <p>Amazon SageMaker HyperPod now enables you to manage individual cluster
       nodes directly from the AWS Console. HyperPod cluster operators managing large-scale
@@ -56,6 +58,7 @@ entries:
     title: Amazon EC2 C8id, M8id, and R8id instances are available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/c8id-m8id-and-r8id-in-additional-regions/
     published: "2026-02-10"
+    fetched: "2026-02-10"
     summary:
       <p>Amazon Elastic Compute Cloud (EC2) C8id, M8id, and R8id instances
       powered by custom Intel Xeon 6 processors feature up to 384 vCPUs, 3TiB of memory,
@@ -87,6 +90,7 @@ entries:
     title: Amazon Athena now supports 1-minute reservations and 4 DPU minimum capacity
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-athena-one-minute-capacity-reservations/
     published: "2026-02-10"
+    fetched: "2026-02-10"
     summary:
       <p><a href="https://aws.amazon.com/athena/" target="_blank">Amazon Athena</a>
       now supports 1-minute Capacity Reservations and a lower minimum capacity of
@@ -107,6 +111,7 @@ entries:
     title: Amazon Bedrock adds support for six fully-managed open weights models
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-adds-support-six-open-weights-models
     published: "2026-02-10"
+    fetched: "2026-02-10"
     summary:
       "<p>Amazon Bedrock now supports six new models spanning frontier reasoning\
       \ and agentic coding: DeepSeek V3.2, MiniMax M2.1, GLM 4.7, GLM 4.7 Flash, Kimi\
@@ -135,6 +140,7 @@ entries:
     title: Amazon OpenSearch Serverless now supports Collection Groups
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-serverless-supports-collection-groups/
     published: "2026-02-10"
+    fetched: "2026-02-10"
     summary:
       <p>Amazon OpenSearch Serverless now supports Collection Groups, a new
       capability that enables you to share OpenSearch Compute Units (OCUs) across
@@ -163,6 +169,7 @@ entries:
       Capabilities
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-auto-mode-enhanced-logging
     published: "2026-02-10"
+    fetched: "2026-02-10"
     summary:
       <p>Amazon Elastic Kubernetes Service (Amazon EKS) Auto Mode’s managed
       capabilities can now be configured as log delivery sources using Amazon CloudWatch
@@ -185,6 +192,7 @@ entries:
     title: AWS CloudWatch Alarm Mute Rules eliminate alert fatigue
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-cloudwatch-alarm-muting-rules
     published: "2026-02-10"
+    fetched: "2026-02-10"
     summary:
       "<p>Amazon CloudWatch now supports Alarm Mute Rules, enabling customers\
       \ to temporarily mute alarm notifications during planned deployments, maintenance\

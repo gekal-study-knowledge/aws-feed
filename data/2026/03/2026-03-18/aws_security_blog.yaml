@@ -6,6 +6,7 @@ entries:
       targeting enterprise firewalls
     link: https://aws.amazon.com/blogs/security/amazon-threat-intelligence-teams-identify-interlock-ransomware-campaign-targeting-enterprise-firewalls/
     published: "2026-03-18"
+    fetched: "2026-03-18"
     summary:
       Amazon threat intelligence has identified an active Interlock ransomware
       campaign exploiting CVE-2026-20131, a critical vulnerability in Cisco Secure

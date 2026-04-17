@@ -4,6 +4,7 @@ entries:
     title: CVE-2025-8904 - Issue with Amazon EMR Secret Agent component
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-017/
     published: "2025-08-13"
+    fetched: "2025-08-13"
     summary:
       "<p><b>Bulletin ID:</b> AWS-2025-017<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b>&nbsp;2025/08/13\

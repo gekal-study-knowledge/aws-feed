@@ -4,6 +4,7 @@ entries:
     title: Amazon Redshift Serverless introduces 3-year Serverless Reservations
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-serverless-three-year-reservations/
     published: "2026-02-23"
+    fetched: "2026-02-23"
     summary:
       <p>Amazon Redshift now offers 3-year Serverless Reservations for Amazon
       Redshift Serverless, a new discounted pricing option that provides up to 45%
@@ -33,6 +34,7 @@ entries:
     title: AWS IAM Policy Autopilot is now available as a Kiro Power
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-iam-policy-autopilot-kiro-power/
     published: "2026-02-23"
+    fetched: "2026-02-23"
     summary:
       "<p>AWS IAM Policy Autopilot, the open source static code analysis tool\
       \ launched at re:Invent 2025, is now available as a Kiro power to bring policy\
@@ -58,6 +60,7 @@ entries:
       powered by AWS Compute Optimizer
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/trusted-advisor-unused-nat-gateway-check/
     published: "2026-02-23"
+    fetched: "2026-02-23"
     summary:
       <p>AWS Trusted Advisor has enhanced its detection of unused NAT Gateway
       checks powered by AWS Compute Optimizer detection capabilities. The enhanced
@@ -84,6 +87,7 @@ entries:
       visualizing resource and cost data
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/generative-ai-based-Amazon-Q-artifacts/
     published: "2026-02-23"
+    fetched: "2026-02-23"
     summary:
       <p>Today, AWS announces the general availability of Amazon Q Developer
       artifacts in the AWS Management Console. Amazon Q artifacts is a generative
@@ -113,6 +117,7 @@ entries:
     title: AWS Elemental Media Services Now Available in Asia Pacific (Malaysia) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/elemental-Malaysia/
     published: "2026-02-23"
+    fetched: "2026-02-23"
     summary:
       <p><a href="https://aws.amazon.com/media-services/">AWS Elemental Media
       Services</a> are now available in the Asia Pacific (Malaysia) Region, expanding
@@ -139,6 +144,7 @@ entries:
     title: Amazon S3 Tables are now available in AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-tables-aws-govcloud-us/
     published: "2026-02-23"
+    fetched: "2026-02-23"
     summary:
       "<p>Amazon S3 Tables are now available in AWS GovCloud (US-East) and\
       \ AWS GovCloud (US-West).<br /> <br /> Amazon S3 Tables deliver the first cloud\
@@ -161,6 +167,7 @@ entries:
     title: Automated Reasoning policies now include references to the source document
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/automated-reasoning-policies-include-references/
     published: "2026-02-23"
+    fetched: "2026-02-23"
     summary:
       <p>AWS announces the launch of source document references for Automated
       Reasoning policies, simplifying the task of reviewing and refining an Automated
@@ -189,6 +196,7 @@ entries:
     title: Amazon S3 now provides AWS source region information in server access logs
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-source-region-information/
     published: "2026-02-23"
+    fetched: "2026-02-23"
     summary:
       "<p>Amazon S3 server access logs now include source region information,\
       \ specifying which AWS Region requests to your data originate from. This identifies\

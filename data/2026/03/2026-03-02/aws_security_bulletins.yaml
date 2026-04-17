@@ -6,6 +6,7 @@ entries:
       (CVE-2026-3336, CVE-2026-3337, CVE-2026-3338)"
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-005-aws/
     published: "2026-03-02"
+    fetched: "2026-03-02"
     summary:
       "<p><b>Bulletin ID:</b> 2026-005-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/03/02\

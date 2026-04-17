@@ -6,6 +6,7 @@ entries:
       storage are generally available
     link: https://aws.amazon.com/blogs/aws/amazon-ec2-c8id-m8id-and-r8id-instances-with-up-to-22-8-tb-local-nvme-storage-are-generally-available/
     published: "2026-02-04"
+    fetched: "2026-02-04"
     summary:
       AWS launches Amazon EC2 C8id, M8id, and R8id instances backed by NVMe-based
       SSD block-level instance storage physically connected to the host server. These

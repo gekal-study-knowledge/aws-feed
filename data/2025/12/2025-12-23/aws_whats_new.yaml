@@ -4,6 +4,7 @@ entries:
     title: Oracle Database@AWS is now available in three additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/oracle-database-aws-available-three-additional-regions/
     published: "2025-12-23"
+    fetched: "2025-12-23"
     summary:
       <p>Oracle Database@AWS is now generally available in three additional
       AWS Regions - US-East-2 (Ohio), EU-Central-1 (Frankfurt), and AP-Northeast-1
@@ -24,6 +25,7 @@ entries:
     title: NVIDIA Nemotron 3 Nano now available on Amazon Bedrock
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/nvidia-nemotron-3-nano-amazon-bedrock
     published: "2025-12-23"
+    fetched: "2025-12-23"
     summary:
       "<p>Amazon Bedrock now supports NVIDIA Nemotron 3 Nano 30B A3B model,\
       \ NVIDIA's latest breakthrough in efficient language modeling that delivers\
@@ -60,6 +62,7 @@ entries:
       (New Zealand) Region
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-msk-additional-aws-region/
     published: "2025-12-23"
+    fetched: "2025-12-23"
     summary:
       '<p>Amazon Managed Streaming for Apache Kafka (<a href="https://aws.amazon.com/msk/"
       style="cursor: pointer;" target="_blank">Amazon MSK</a>) is now available in
@@ -93,6 +96,7 @@ entries:
       local Chromium browsers
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-secure-browser-webauthn-redirection-chromium-browsers
     published: "2025-12-23"
+    fetched: "2025-12-23"
     summary:
       <p>Amazon WorkSpaces Secure Browser now supports Web Authentication (WebAuthn)
       redirection, allowing users to authenticate to websites using their local FIDO2
@@ -125,6 +129,7 @@ entries:
       Preview Environment
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-rds-mysql-innovation-release/
     published: "2025-12-23"
+    fetched: "2025-12-23"
     summary:
       <p><a href="https://aws.amazon.com/rds/mysql/">Amazon RDS for MySQL</a>
       now supports community MySQL Innovation Release 9.5 in the <a href="https://aws.amazon.com/rds/databasepreview/">Amazon
@@ -156,6 +161,7 @@ entries:
     title: AWS Secrets Manager announces improved secret sorting capabilities
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-secrets-manager-secret-sorting-capabilities
     published: "2025-12-23"
+    fetched: "2025-12-23"
     summary:
       <p>Today, <a href="https://aws.amazon.com/secrets-manager/">AWS Secrets
       Manager</a> announces enhanced secret sorting capabilities in the Secrets Manager
@@ -175,6 +181,7 @@ entries:
     title: MiniMax-M2 is now available on Amazon SageMaker JumpStart
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/minimax-m2-on-sagemaker-jumpstart
     published: "2025-12-23"
+    fetched: "2025-12-23"
     summary:
       "<p>MiniMax-M2 is now available on Amazon SageMaker JumpStart, providing\
       \ customers with immediate access to deploy this efficient open-source model\
@@ -197,6 +204,7 @@ entries:
     title: AWS Transform enables network conversion for hybrid data center migrations
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-transform-hybrid-network-migration/
     published: "2025-12-23"
+    fetched: "2025-12-23"
     summary:
       <p>AWS Transform now supports automatic network conversion from hybrid
       data centers, eliminating manual network mapping for environments running both
@@ -219,6 +227,7 @@ entries:
     title: Amazon WorkSpaces Secure Browser enables branding customization
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-secure-browser-enables-branding/
     published: "2025-12-23"
+    fetched: "2025-12-23"
     summary:
       '<p>Amazon WorkSpaces Secure Browser now supports branding customization,
       enabling you to create a consistent, branded experience that helps you align
@@ -250,6 +259,7 @@ entries:
       (Preview)
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/end-user-messaging-sms-ai-registration-reviewer/
     published: "2025-12-23"
+    fetched: "2025-12-23"
     summary:
       <p>Starting today, AWS End User Messaging customers can use AWS generative
       AI to review their phone number registrations, so you can submit to mobile carriers
@@ -273,6 +283,7 @@ entries:
       shares
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-redshift-mv-datasharing-features
     published: "2025-12-23"
+    fetched: "2025-12-23"
     summary:
       '<p><a href="https://aws.amazon.com/redshift/" style="cursor: pointer;">Amazon
       Redshift</a> now allows you to run create MV and refresh MV commands from multiple

@@ -4,6 +4,7 @@ entries:
     title: Security Findings in SageMaker Python SDK
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-004-aws/
     published: "2026-02-02"
+    fetched: "2026-02-02"
     summary:
       "<p><b>Bulletin ID:</b> 2026-004-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/02/02\

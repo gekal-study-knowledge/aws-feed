@@ -4,5 +4,6 @@
     "title": "Architecting conversational observability for cloud applications"
     "link": "https://aws.amazon.com/blogs/architecture/architecting-conversational-observability-for-cloud-applications/"
     "published": "2025-12-11 15:59:39"
+    "fetched": "2025-12-11 15:59:39"
     "summary": "In this post, we walk through building a generative AI–powered troubleshooting assistant for Kubernetes. The goal is to give engineers a faster, self-service way to diagnose and resolve cluster issues, cut down Mean Time to Recovery (MTTR), and reduce the cycles experts spend finding the root cause of issues in complex distributed systems."
 "last_updated": "2026-03-21 16:29:24 JST"

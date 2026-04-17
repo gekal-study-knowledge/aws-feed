@@ -4,6 +4,7 @@ entries:
     title: Enhanced access denied error messages with policy ARNs
     link: https://aws.amazon.com/blogs/security/enhanced-access-denied-error-messages-with-policy-arns/
     published: "2026-03-04"
+    fetched: "2026-03-04"
     summary:
       To help you troubleshoot access denied errors, we recently added the
       Amazon Resource Name (ARN) of the denying policy to access denied error messages.

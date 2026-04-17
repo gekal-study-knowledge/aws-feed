@@ -6,6 +6,7 @@ entries:
       defense"
     link: https://aws.amazon.com/blogs/security/real-time-malware-defense-leveraging-aws-network-firewall-active-threat-defense/
     published: "2026-01-08"
+    fetched: "2026-01-08"
     summary:
       Cyber threats are evolving faster than traditional security defense can
       respond; workloads with potential security issues are discovered by threat actors

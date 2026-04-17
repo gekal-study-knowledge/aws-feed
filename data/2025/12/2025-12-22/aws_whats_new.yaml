@@ -6,6 +6,7 @@ entries:
       Cloud Monitor
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-deadline-cloud-direct-job-submission-from/
     published: "2025-12-22"
+    fetched: "2025-12-22"
     summary:
       <p>AWS Deadline Cloud now lets you submit rendering jobs directly from
       the Deadline Cloud Monitor desktop application. This new feature makes it easier
@@ -29,6 +30,7 @@ entries:
       across accounts
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/oracle-database-aws-marketplace-entitlements-across-accounts/
     published: "2025-12-22"
+    fetched: "2025-12-22"
     summary:
       <p>Today, <a href="https://aws.amazon.com/marketplace/featured-seller/oracle/"
       target="_blank">Oracle Database@AWS</a> announced ability to share AWS Marketplace
@@ -60,6 +62,7 @@ entries:
     title: Amazon ECS Service Connect enhances observability with Envoy Access Logs
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-service-connect-observability-envoy-access-logs
     published: "2025-12-22"
+    fetched: "2025-12-22"
     summary:
       <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
       Container Service</a> (Amazon ECS) Service Connect now supports Envoy access
@@ -88,6 +91,7 @@ entries:
     title: Amazon Kinesis Video Streams now supports IPv6 for WebRTC
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-kinesis-video-streams-webrtc-ipv6/
     published: "2025-12-22"
+    fetched: "2025-12-22"
     summary:
       "<p>Amazon Kinesis Video Streams (Amazon KVS) now supports Internet Protocol\
       \ version 6 (IPv6) addressing for WebRTC. This release introduces dual-stack\
@@ -108,6 +112,7 @@ entries:
       autoscaling for better performance and pricing
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-gameliftstream-gen6-enhanced-autoscaling
     published: "2025-12-22"
+    fetched: "2025-12-22"
     summary:
       '<p>Today, Amazon GameLift Streams launched two new capabilities to optimize
       performance and cost: Gen6 stream classes and enhanced autoscaling with warm
@@ -141,6 +146,7 @@ entries:
       API error messaging
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-gameliftstream-performance-stats-error-messaging
     published: "2025-12-22"
+    fetched: "2025-12-22"
     summary:
       "<p>Today, Amazon GameLift Streams launched new powerful observability\
       \ capabilities with session performance stats that provide real-time data for\
@@ -174,6 +180,7 @@ entries:
     title: Research and Engineering Studio on AWS Version 2025.12 now available
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/research-engineering-studio-aws-new-version-available/
     published: "2025-12-22"
+    fetched: "2025-12-22"
     summary:
       <p>Today we announce Research and Engineering Studio (RES) on AWS version
       2025.12, which introduces tag propagation for CloudFormation resources, enhanced
@@ -202,6 +209,7 @@ entries:
     title: AWS Storage Gateway now supports Nutanix AHV hypervisor
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-storage-gateway-nutanix-avh-hypervisor
     published: "2025-12-22"
+    fetched: "2025-12-22"
     summary:
       "<p>The <a href=\"https://aws.amazon.com/storagegateway/\" target=\"\
       _blank\">AWS Storage Gateway</a> service now supports the Nutanix AHV hypervisor\
@@ -228,6 +236,7 @@ entries:
     title: Announcing AWS Neuron SDK 2.27.0
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/announcing-aws-neuron-2-27
     published: "2025-12-22"
+    fetched: "2025-12-22"
     summary:
       "<p>Today, AWS announces Neuron SDK 2.27.0, introducing support for <a\
       \ href=\"https://aws.amazon.com/ai/machine-learning/trainium/\">Trainium3 UltraServer</a>\
@@ -254,6 +263,7 @@ entries:
     title: AWS Wickr launches admin APIs for programmatic network management at scale
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-wickr-admin-apis-generally-available/
     published: "2025-12-22"
+    fetched: "2025-12-22"
     summary:
       "<p>AWS Wickr now provides a suite of admin APIs that empower administrators\
       \ to programmatically manage secure communication networks at scale. These APIs\
@@ -294,6 +304,7 @@ entries:
       in AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecs-service-connect-observability-envoy-access-logs-govcloud-regions
     published: "2025-12-22"
+    fetched: "2025-12-22"
     summary:
       <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
       Container Service</a> (Amazon ECS) Service Connect now supports Envoy access

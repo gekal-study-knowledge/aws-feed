@@ -4,6 +4,7 @@ entries:
     title: AWS Payment Cryptography Achieves Cartes Bancaires Approval
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/payment-cryptography-cartes-bancaires
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       '<p>Today, <a href="https://aws.amazon.com/payment-cryptography/">AWS
       Payment Cryptography</a> has become one of the first cloud-based payment cryptography
@@ -35,6 +36,7 @@ entries:
       chats, and emails
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-omnichannel-acw-timeouts
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       <p>Amazon Connect now supports the ability to configure agents with after
       contact work timeout settings for chat, tasks, emails, and callbacks. After
@@ -51,6 +53,7 @@ entries:
     title: Amazon Connect launches auto-accept for tasks, chats, and emails
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-omnichannel-auto-accept
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       <p>Amazon Connect now supports the ability to configure agents with auto-accept
       settings for chat, tasks, emails, and callbacks. When auto-accept is enabled,
@@ -67,6 +70,7 @@ entries:
     title: Amazon Aurora DSQL is now available in additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-additional-aws-regions
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       '<p>Amazon Aurora DSQL is now available with single-Region clusters in
       Asia Pacific (Melbourne), Asia Pacific (Sydney), Canada (Central), and Canada
@@ -88,6 +92,7 @@ entries:
     title: Amazon MSK now supports broker logs on Express Brokers
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-msk-express-brokers-support-broker-logs
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       <p><a href="https://aws.amazon.com/msk/">Amazon Managed Streaming for
       Apache Kafka (MSK)</a> now supports broker logs for <a href="https://aws.amazon.com/msk/features/express-brokers-for-amazon-msk/">Express
@@ -113,6 +118,7 @@ entries:
       deployment
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-elastic-beanstalk-github-action
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       "<p><a href=\"https://aws.amazon.com/elasticbeanstalk\">AWS Elastic Beanstalk</a>\
       \ now enables you to use GitHub Actions to automatically deploy web applications\
@@ -145,6 +151,7 @@ entries:
     title: AWS Lake Formation enhances cross-account sharing
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-lake-formation-cross-account-sharing
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       "<p>AWS Lake Formation now enhances cross-account sharing, allowing you\
       \ to share hundreds of thousands of tables across accounts. You can centralize\
@@ -173,6 +180,7 @@ entries:
       Canada (Central), and US West (N. California) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-c8i-flex-instances-europe-paris-canada-central-uswest-ncalifornia-regions
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
       C8i-flex instances are available in the Europe (Paris), Canada (Central), and
@@ -207,6 +215,7 @@ entries:
       10.11.16, 11.4.10, and 11.8.6
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-mariadb-community-versions/
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       <p><a href="https://aws.amazon.com/rds/mariadb/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for MariaDB</a> now supports community
@@ -235,6 +244,7 @@ entries:
       Asia Pacific (Melbourne) Region
     link: https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-documentdb-mongodb-compatibility-asia-pacific-melbourne-region
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       "<p>Amazon DocumentDB (with MongoDB compatibility) is now available in\
       \ the Asia Pacific (Melbourne) region adding to the <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
@@ -262,6 +272,7 @@ entries:
       Europe (Zurich) Region
     link: https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-documentdb-mongodb-compatibility-europe-zurich-region
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       "<p>Amazon DocumentDB (with MongoDB compatibility) is now available in\
       \ the Europe (Zurich) region adding to the <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\"\
@@ -287,6 +298,7 @@ entries:
     title: Amazon Connect introduces audio enhancements for noisy environments
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-audio-enhancements
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       <p>Today, AWS announces the release of Audio Enhancement for Amazon Connect,
       helping improve audio quality and reliability for voice calls in noisy contact
@@ -313,6 +325,7 @@ entries:
     title: AWS announces 6 new locations for AWS Data Transfer Terminal
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-data-transfer-terminal-6-new-locations/
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       <p>AWS Data Transfer Terminal is now available in six additional locations
       in Seattle and Phoenix (US), London (UK), Paris (France), Sydney (Australia),
@@ -340,6 +353,7 @@ entries:
     title: MSK simplifies Kafka topic management with new APIs and console integration
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-msk-kafka-topics-public-apis/
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       <p>Amazon Managed Streaming for Apache Kafka (Amazon MSK) now offers
       three new APIs (CreateTopic, UpdateTopic, and DeleteTopic), making it easier
@@ -367,6 +381,7 @@ entries:
       regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8i-r8i-flex-instances-AKL-DXB-region/
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and
       R8i-flex instances are available in the Asia Pacific (New Zealand) and Middle
@@ -398,6 +413,7 @@ entries:
     title: Amazon Bedrock AgentCore Browser now supports proxy configuration
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/bedrock-agentcore-browser-proxy
     published: "2026-02-11"
+    fetched: "2026-02-11"
     summary:
       '<p>Amazon Bedrock AgentCore Browser now supports customer-provided proxy
       configuration, enabling customers to route browser sessions through their own

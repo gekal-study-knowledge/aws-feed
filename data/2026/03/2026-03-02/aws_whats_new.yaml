@@ -4,6 +4,7 @@ entries:
     title: AWS Config now supports 30 new resource types
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-config-new-resource-types/
     published: "2026-03-02"
+    fetched: "2026-03-02"
     summary:
       "<p>AWS Config now supports 30 additional AWS resource types across key\
       \ services including Amazon Bedrock AgentCore and Amazon Cognito. This expansion\
@@ -42,6 +43,7 @@ entries:
     title: AWS Batch now supports configurable scale down delay
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-batch-configurable-scale-down-delay/
     published: "2026-03-02"
+    fetched: "2026-03-02"
     summary:
       <p>AWS Batch now allows you to configure a scale down delay for managed
       compute environments, helping reduce job processing delays for intermittent
@@ -61,6 +63,7 @@ entries:
     title: OpenSearch OR2 and OM2 instances in AWS GovCloud (US-East, US-West) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-or2-om2-us-gov-region/
     published: "2026-03-02"
+    fetched: "2026-03-02"
     summary:
       '<p>Amazon OpenSearch Service, expands availability of OR2 and OM2, OpenSearch
       Optimized Instance family to 12 additional regions. The OR2 instance delivers

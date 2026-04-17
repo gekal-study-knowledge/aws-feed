@@ -6,6 +6,7 @@ entries:
       Server
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-custom-gdr-updates-microsoft-sql-server
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       <p><a href="https://aws.amazon.com/rds/custom/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) Custom for SQL Server</a> now supports
@@ -26,6 +27,7 @@ entries:
     title: Amazon Redshift Serverless adds queue-based query resource management
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-redshift-serverless-queue-based-query-resource-management
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       <p>Amazon Redshift Serverless introduces queue-based query resource management.
       You can create dedicated query queues with customized monitoring rules for different
@@ -50,6 +52,7 @@ entries:
     title: Amazon Connect now provides agent scheduling metrics in data lake
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-scheduling-metrics/
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       <p>Amazon Connect now provides agent scheduling metrics in data lake,
       making it easier for you to generate reports and insights from this data. For
@@ -71,6 +74,7 @@ entries:
       Server
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-cu-gdr-updates-microsoft-sql-server
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for SQL Server </a>now supports the
@@ -95,6 +99,7 @@ entries:
     title: AWS Clean Rooms now supports parameters in PySpark analysis templates
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-clean-rooms-parameters-pyspark-analysis-templates/
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       "<p>AWS Clean Rooms announces support for parameters in PySpark analysis\
       \ templates, offering increased flexibility for organizations and their partners\
@@ -123,6 +128,7 @@ entries:
       racks
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-s3-second-generation-aws-outposts-racks
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       '<p>Amazon S3 on Outposts is now available on second-generation AWS Outposts
       racks for your data residency, low latency, and local data processing use cases
@@ -144,6 +150,7 @@ entries:
     title: AWS Databases are now available on v0 by Vercel
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-databases-available-vercel-v0/
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       '<p>Amazon Aurora PostgreSQL, Amazon Aurora DSQL, and Amazon DynamoDB
       serverless databases are now available on v0 by Vercel, an AI-powered tool that
@@ -180,6 +187,7 @@ entries:
     title: Announcing Amazon EC2 Memory optimized X8i instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-amazon-ec2-x8i-generally-available
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       '<p>Amazon Web Services (AWS) is announcing the general availability
       of Amazon EC2 X8i instances, next-generation memory optimized instances powered
@@ -204,6 +212,7 @@ entries:
     title: AWS Lambda announces cross-account access for DynamoDB Streams
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-lambda-cross-account-access-dynamodb-streams
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       <p>AWS Lambda now supports cross-account access for AWS DynamoDB Streams
       event-source mappings (ESMs),<br /> enabling you to trigger Lambda functions
@@ -233,6 +242,7 @@ entries:
       hours
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ebs-up-to-four-volume-modifications/
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       "<p>Amazon Elastic Block Store (EBS) now supports up to four Elastic\
       \ Volumes modifications per volume within a rolling 24-hour window. Elastic\
@@ -258,6 +268,7 @@ entries:
       racks
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-s3-second-generation-aws-outposts-racks
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       '<p>Amazon S3 on Outposts is now available on second-generation AWS Outposts
       racks for your data residency, low latency, and local data processing use cases
@@ -281,6 +292,7 @@ entries:
       model usage
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/granular-amazon-bedrock/
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       <p>AWS Data Exports now enables customers to distinguish between Amazon
       Bedrock operation types in their cost reports for enhanced cost analysis and
@@ -309,6 +321,7 @@ entries:
       model usage
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-granular-usage-visibility
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       <p>AWS Data Exports now enables customers to distinguish between Amazon
       Bedrock operation types in their cost reports for enhanced cost analysis and
@@ -337,6 +350,7 @@ entries:
       Nuke CopyCat
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-deadline-cloud-machine-learning-training
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       <p>Today, AWS Deadline Cloud announces integration with Foundry Nuke
       CopyCat, allowing you to run machine learning training jobs for visual effects

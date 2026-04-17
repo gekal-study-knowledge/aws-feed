@@ -4,6 +4,7 @@ entries:
     title: AWS announces pricing for VPC Encryption Controls
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/vpc-encryption-controls-pricing/
     published: "2026-03-01"
+    fetched: "2026-03-01"
     summary:
       '<p>AWS is launching pricing for VPC Encryption Controls, a security
       and compliance feature that enables you to audit and enforce encryption-in-transit

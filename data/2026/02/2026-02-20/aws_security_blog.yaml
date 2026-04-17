@@ -4,6 +4,7 @@ entries:
     title: AI-augmented threat actor accesses FortiGate devices at scale
     link: https://aws.amazon.com/blogs/security/ai-augmented-threat-actor-accesses-fortigate-devices-at-scale/
     published: "2026-02-20"
+    fetched: "2026-02-20"
     summary:
       "Commercial AI services are enabling even unsophisticated threat actors
       to conduct cyberattacks at scale—a trend Amazon Threat Intelligence has been

@@ -6,6 +6,7 @@ entries:
       in Amazon Bedrock, and more (February 16, 2026)"
     link: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ec2-m8azn-instances-new-open-weights-models-in-amazon-bedrock-and-more-february-16-2026/
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       I joined AWS in 2021, and since then I’ve watched the Amazon Elastic
       Compute Cloud (Amazon EC2) instance family grow at a pace that still surprises
@@ -17,6 +18,7 @@ entries:
     title: Announcing Amazon SageMaker Inference for custom Amazon Nova models
     link: https://aws.amazon.com/blogs/aws/announcing-amazon-sagemaker-inference-for-custom-amazon-nova-models/
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       AWS launches Amazon SageMaker AI Inference for custom Amazon Nova models.
       You can now configure the instance types, auto-scaling policies, and concurrency
@@ -28,6 +30,7 @@ entries:
       available
     link: https://aws.amazon.com/blogs/aws/amazon-ec2-hpc8a-instances-powered-by-5th-gen-amd-epyc-processors-are-now-available/
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       Amazon EC2 Hpc8a instances, powered by 5th Gen AMD EPYC processors, deliver
       up to 40% higher performance, increased memory bandwidth, and 300 Gbps Elastic

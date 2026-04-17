@@ -4,6 +4,7 @@ entries:
     title: Fall 2025 PCI DSS compliance package available now
     link: https://aws.amazon.com/blogs/security/fall-2025-pci-dss-compliance-package-available-now/
     published: "2026-01-13"
+    fetched: "2026-01-13"
     summary:
       "Amazon Web Services (AWS) is pleased to announce that two additional
       AWS services and one additional AWS Region have been added to the scope of our
@@ -15,6 +16,7 @@ entries:
     title: Streamline security response at scale with AWS Security Hub automation
     link: https://aws.amazon.com/blogs/security/streamline-security-response-at-scale-with-aws-security-hub-automation/
     published: "2026-01-13"
+    fetched: "2026-01-13"
     summary:
       A new version of AWS Security Hub, is now generally available, introducing
       new ways for organizations to manage and respond to security findings. The enhanced

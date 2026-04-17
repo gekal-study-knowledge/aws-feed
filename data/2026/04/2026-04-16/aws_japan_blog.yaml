@@ -4,11 +4,13 @@
     "title": "寄稿：SBI ネオバンキングシステムにおける Amazon EKS Auto Mode の導入事例 ― 移行で実現した運用負荷の軽減"
     "link": "https://aws.amazon.com/jp/blogs/news/sbi-amazon-eks-auto-mode-casestudy/"
     "published": "2026-04-16 04:45:16"
+    "fetched": "2026-04-16 04:45:16"
     "summary": "本稿は、SBI ネオバンキングシステム株式会社による AWS EKS Auto Modeの活用について、主導さ […]"
   "a8716672ae4eae941a04989faf5f6388":
     "id": "a8716672ae4eae941a04989faf5f6388"
     "title": "AWS Interconnect が一般提供され、ラストマイル接続を簡素化する新しいオプションが追加されました"
     "link": "https://aws.amazon.com/jp/blogs/news/aws-interconnect-is-now-generally-available-with-a-new-option-to-simplify-last-mile-connectivity/"
     "published": "2026-04-16 08:14:32"
+    "fetched": "2026-04-16 08:14:32"
     "summary": "2026 年4 月 14 日、AWS Interconnect – マルチクラウドの一般提供についてお知らせし […]"
 "last_updated": "2026-04-16 18:15:29 JST"

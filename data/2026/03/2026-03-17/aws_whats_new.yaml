@@ -6,6 +6,7 @@ entries:
       without workload reconfiguration
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-training-plan-extension/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       <p><a href="https://docs.aws.amazon.com/sagemaker/latest/dg/reserve-capacity-with-training-plans.html">SageMaker
       Training Plans</a> allows you to reserve GPU capacity within specified time
@@ -31,6 +32,7 @@ entries:
       (Taipei) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-express-2-new-aws-regions/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       "<p>You can now create provisioned&nbsp;<a href=\"https://aws.amazon.com/msk/\"\
       >Amazon Managed Streaming for Apache Kafka (Amazon MSK)</a>&nbsp;clusters with\
@@ -50,6 +52,7 @@ entries:
     title: Amazon Bedrock is now available in Asia Pacific (New Zealand)
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-asia-pacific-new-zealand/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       <p>Starting today, customers can use Amazon Bedrock in the Asia Pacific
       (New Zealand) Region to easily build and scale generative AI applications using
@@ -74,6 +77,7 @@ entries:
     title: Amazon Bedrock AgentCore Runtime now supports shell command execution
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/bedrock-agentcore-runtime-shell-command/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       "<p>Amazon Bedrock AgentCore Runtime now supports InvokeAgentRuntimeCommand,\
       \ a new API that lets you execute shell commands directly inside a running AgentCore\
@@ -102,6 +106,7 @@ entries:
       https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sageMaker-unified-studio-aggregated-view
       -data-lineage/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       <p><a href="https://aws.amazon.com/sagemaker/unified-studio/">Amazon
       SageMaker Unified Studio</a> now provides an aggregated view of data lineage,
@@ -129,6 +134,7 @@ entries:
     title: AWS Blu Insights is now AWS Transform for mainframe refactor
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-transform-mainframe-refactor/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       <p>AWS Blu Insights capabilities are now available as part of AWS Transform,
       enabling customers to launch mainframe refactoring projects from the AWS Transform
@@ -152,6 +158,7 @@ entries:
     title: Amazon Corretto 26 is now generally available
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-corretto-26-generally-available/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       "<p>Amazon Corretto 26, a Feature Release (FR) version, is now available\
       \ for download. <a href=\"https://aws.amazon.com/corretto/\">Amazon Corretto</a>\
@@ -189,6 +196,7 @@ entries:
     title: Amazon RDS enhancements for SQL Server Developer Edition
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-enhancements-for-sql-server-developer-edition/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for SQL Server</a> now supports Additional
@@ -214,6 +222,7 @@ entries:
     title: Simplified permissions for Amazon S3 Tables and Iceberg materialized views
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/gdc-simplified-permissions-s3tables-iceberg-views/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       <p>AWS Glue Data Catalog now supports AWS IAM-based authorization for
       Amazon S3 Tables and Apache Iceberg materialized views. With IAM-based authorization,
@@ -232,6 +241,7 @@ entries:
     title: Amazon Connect voice AI agents now supports 13 new languages
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-voice-ai-agents-13-languages/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       "<p>Amazon Connect now supports 13 new languages for voice AI agents,\
       \ bringing the total to 40 language locales.&nbsp;&nbsp;New languages include\
@@ -252,6 +262,7 @@ entries:
     title: AWS Elemental MediaConnect adds support for NDI® inputs
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/mediaconnect-ndi-inputs/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       <p>Starting today, <a href="https://aws.amazon.com/mediaconnect/">AWS
       Elemental MediaConnect </a>supports <a href="https://ndi.video/">NDI® (Network
@@ -277,6 +288,7 @@ entries:
     title: Amazon SageMaker Unified Studio supports aggregated view of data lineage
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-aggregated-lineage/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       <p><a href="https://aws.amazon.com/sagemaker/unified-studio/">Amazon
       SageMaker Unified Studio</a> now provides an aggregated view of data lineage,
@@ -306,6 +318,7 @@ entries:
       new regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-adds-generative-text-to-speech-voices/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       "<p>Amazon Connect now offers generative text-to-speech voices in three&nbsp;additional&nbsp;AWS\
       \ Regions: Europe (London), Asia Pacific (Seoul), and Asia Pacific (Sydney).\
@@ -331,6 +344,7 @@ entries:
     title: AWS Security Agent now supports downloading penetration testing reports
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-agent-generates-customizable/
     published: "2026-03-17"
+    fetched: "2026-03-17"
     summary:
       "<p>AWS Security Agent now provides the ability to download penetration\
       \ testing reports.&nbsp;This enhancement to the AWS Security Agent allows users\

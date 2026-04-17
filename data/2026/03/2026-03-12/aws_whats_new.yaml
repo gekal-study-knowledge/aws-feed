@@ -4,6 +4,7 @@ entries:
     title: Amazon WorkSpaces now supports Microsoft Windows Server 2025
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-workspaces-windows-server-2025/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       "<p>AWS announces availability of new bundles powered by&nbsp;Microsoft\
       \ Windows&nbsp;Server 2025, offered for Amazon WorkSpaces Personal and Amazon\
@@ -31,6 +32,7 @@ entries:
       logs
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/elastic-beanstalk-deployments-tab/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       "<p>AWS Elastic Beanstalk now provides a Deployments tab in the environment\
       \ dashboard, giving customers a consolidated view of their deployment history\
@@ -60,6 +62,7 @@ entries:
       Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8i-m8i-flex-additional-regions/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       <p>Starting today, Amazon EC2 M8i and M8i-flex instances are now available
       in Europe (Ireland)<b> </b>and Europe (London)<b> </b>Regions. These instances
@@ -90,6 +93,7 @@ entries:
     title: AWS Backup adds logically air-gapped vault support for Amazon EKS
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-logically-air-gapped-vault-amazon-eks/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       "<p>AWS Backup logically air-gapped vault now supports Amazon EKS. Logically\
       \ air-gapped vaults are a type of AWS Backup vault that allows secure sharing\
@@ -116,6 +120,7 @@ entries:
     title: AWS Private CA Connector for SCEP now supports AWS PrivateLink
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-private-ca-connector-scep-privatelink/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       <p>AWS Private CA Connector for SCEP now supports AWS PrivateLink, allowing
       your clients to request certificates from within your Amazon Virtual Private
@@ -142,6 +147,7 @@ entries:
       new configurations
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-glue-zetl-dynamodb-configurations/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       "<p>AWS Glue zero-ETL now supports configurable change data capture (CDC)\
       \ refresh intervals and on-demand data ingestion for integrations with Amazon\
@@ -174,6 +180,7 @@ entries:
       memory
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-memory-streaming-ltm/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       "<p>Amazon Bedrock AgentCore Memory now supports streaming notifications\
       \ for long-term memory, eliminating the need to poll for changes. Long-term\
@@ -197,6 +204,7 @@ entries:
     title: Amazon S3 introduces account regional namespaces for general purpose buckets
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-s3-account-regional-namespaces/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       <p>You can now create Amazon S3 general purpose buckets in your own reserved
       namespace, eliminating the need to find globally unique bucket names and making
@@ -222,6 +230,7 @@ entries:
     title: AWS CDK Mixins is now generally available
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-cdk-mixins/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       "<p>AWS announces the general availability of CDK Mixins, a new feature\
       \ of the AWS Cloud Development Kit (CDK) that lets you add composable, reusable\
@@ -249,6 +258,7 @@ entries:
     title: OpenSearch UI supports Cross Account Data Access to OpenSearch domains
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/opensearch-ui-cross-account-data-access-domains/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       <p>Amazon OpenSearch Service now supports cross-account data access,
       enabling users to access OpenSearch domains hosted in different AWS accounts
@@ -273,6 +283,7 @@ entries:
     title: New LZA MCP Server for AI-assisted configuration management
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/new-lza-mcp-server-ai-assisted/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       "<p>The <a href=\"https://aws.amazon.com/solutions/implementations/landing-zone-accelerator-on-aws/\"\
       >Landing Zone Accelerator on AWS</a> (LZA) Model Context Protocol (MCP) Server\

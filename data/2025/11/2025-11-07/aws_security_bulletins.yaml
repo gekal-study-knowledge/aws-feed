@@ -4,6 +4,7 @@ entries:
     title: CVE-2025-12829 - Integer Overflow issue in Amazon Ion-C
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-027/
     published: "2025-11-07"
+    fetched: "2025-11-07"
     summary:
       "<p><b>Bulletin ID:</b> AWS-2025-027<br /> <b>Scope:</b> Amazon<br />\
       \ <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b>\

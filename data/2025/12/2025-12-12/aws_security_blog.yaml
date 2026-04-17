@@ -4,6 +4,7 @@ entries:
     title: Implementing HTTP Strict Transport Security (HSTS) across AWS services
     link: https://aws.amazon.com/blogs/security/implementing-http-strict-transport-security-hsts-across-aws-services/
     published: "2025-12-12"
+    fetched: "2025-12-12"
     summary:
       Modern web applications built on Amazon Web Services (AWS) often span
       multiple services to deliver scalable, performant solutions. However, customers
@@ -18,6 +19,7 @@ entries:
       services
     link: https://aws.amazon.com/blogs/security/meet-digital-sovereignty-needs-with-aws-dedicated-local-zones-expanded-services/
     published: "2025-12-12"
+    fetched: "2025-12-12"
     summary:
       At Amazon Web Services (AWS), we continue to invest in and deliver digital
       sovereignty solutions to help customers meet their most sensitive workload requirements.

@@ -6,6 +6,7 @@ entries:
       ) instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-expands-support-graviton4-based-instances
     published: "2026-02-18"
+    fetched: "2026-02-18"
     summary:
       '<p>Amazon OpenSearch Service expands support for the latest generation
       Graviton4-based Amazon EC2 instance families. These new instance types are compute
@@ -32,6 +33,7 @@ entries:
     title: Amazon OpenSearch Service now supports storage optimized  i7i  instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-opensearch-service-supports-i7i-instances
     published: "2026-02-18"
+    fetched: "2026-02-18"
     summary:
       <p>Amazon OpenSearch Service now supports latest generation x86 based
       high performance Storage Optimized i7i instances. Powered by 5th generation
@@ -58,6 +60,7 @@ entries:
     title: Amazon Connect Cases now supports AWS Service Quotas
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-cases-aws-service-quotas
     published: "2026-02-18"
+    fetched: "2026-02-18"
     summary:
       '<p>Amazon Connect Cases now supports AWS Service Quotas, giving administrators
       a centralized way to view applied limits, monitor utilization, and scale case
@@ -76,6 +79,7 @@ entries:
     title: Amazon Aurora DSQL now integrates with Kiro powers and AI agent skills
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-integrates-with-kiro-powers-and-agent-skills
     published: "2026-02-18"
+    fetched: "2026-02-18"
     summary:
       "<p>Today, AWS announces Amazon Aurora DSQL integration with Kiro powers\
       \ and AI agent skills, enabling developers to build Aurora DSQL-backed applications\
@@ -110,6 +114,7 @@ entries:
     title: Amazon Managed Grafana now supports AWS KMS customer managed keys
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-managed-grafana-customer-managed-keys
     published: "2026-02-18"
+    fetched: "2026-02-18"
     summary:
       "<p>Amazon Managed Grafana now supports customer-managed keys (CMK) through\
       \ AWS Key Management Service (KMS), enabling you to encrypt data stored in&nbsp;in\
@@ -133,6 +138,7 @@ entries:
     title: AWS Clean Rooms announces support for remote Apache Iceberg REST catalogs
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-clean-rooms-remote-iceberg-catalogs
     published: "2026-02-18"
+    fetched: "2026-02-18"
     summary:
       <p>AWS Clean Rooms now supports catalog federation for<a href="https://docs.aws.amazon.com/clean-rooms/latest/userguide/create-config-table-athena.html">
       remote Iceberg catalogs</a>. This capability simplifies clean room setup by
@@ -156,6 +162,7 @@ entries:
       with new guidelines
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-certificate-manager-updates-default/
     published: "2026-02-18"
+    fetched: "2026-02-18"
     summary:
       <p>Starting today, public certificates issued from AWS Certificate Manager
       (ACM) have a maximum validity period of 198 days, compared to previous validity
@@ -180,6 +187,7 @@ entries:
     title: Mistral AI Devstral 2 now available on Amazon Bedrock
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/mistral-ai-devstral-bedrock/
     published: "2026-02-18"
+    fetched: "2026-02-18"
     summary:
       "<p>Customers can now use Mistral AI Devstral 2 123B on Amazon Bedrock,\
       \ a platform for building generative AI applications and agents at production\

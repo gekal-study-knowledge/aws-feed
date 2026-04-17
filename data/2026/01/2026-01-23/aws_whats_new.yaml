@@ -6,6 +6,7 @@ entries:
       Guides
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-conditional-logic-real-time-updates-step-by-step-guides/
     published: "2026-01-23"
+    fetched: "2026-01-23"
     summary:
       '<p>Amazon Connect Step-by-Step Guides now enables managers to build
       more dynamic and responsive guided experiences. Managers can create conditional
@@ -29,6 +30,7 @@ entries:
     title: Amazon EVS now supports multiple VMware NSX Edge Gateways
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-evs-multiple-vmware-nsx-edge-gateways
     published: "2026-01-23"
+    fetched: "2026-01-23"
     summary:
       <p>Today, we're announcing that Amazon Elastic VMware Service (Amazon
       EVS) now supports the ability to deploy multiple VMware NSX Tier-0 Gateways
@@ -54,6 +56,7 @@ entries:
     title: Announcing general availability of Amazon EC2 M4 Max Mac instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-m4-max-mac-instances-ga
     published: "2026-01-23"
+    fetched: "2026-01-23"
     summary:
       "<p>Amazon Web Services announces general availability of Amazon EC2\
       \ M4 Max Mac instances, powered by the latest Mac Studio hardware. Amazon EC2\
@@ -76,6 +79,7 @@ entries:
     title: EC2 Auto Scaling Introduces New Mechanisms for Group Deletion Protection
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-auto-scaling-new-mechanisms-group-deletion-protection
     published: "2026-01-23"
+    fetched: "2026-01-23"
     summary:
       <p>EC2 Auto Scaling is introducing a new policy condition key <a href="https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2autoscaling.html#amazonec2autoscaling-policy-keys"
       target="_blank">autoscaling:ForceDelete</a>. This condition key is used with
@@ -103,6 +107,7 @@ entries:
     title: Amazon Route 53 Domains adds support for .ai, and other top-level domains
     link: https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-route-53-domains-adds-support-for-.ai-and-other-top-level-domains/
     published: "2026-01-23"
+    fetched: "2026-01-23"
     summary:
       "<p>Amazon Route 53 Domains now supports registration and management\
       \ of ten new top-level domains (TLDs): .ai, .nz, .shop, .bot, .moi, .spot, .free,\
@@ -129,6 +134,7 @@ entries:
     title: Amazon RDS for Oracle now supports replicas in Oracle multi-tenant configuration
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-for-oracle-replica-multi-tenant-configuration-support
     published: "2026-01-23"
+    fetched: "2026-01-23"
     summary:
       "<p>Amazon RDS for Oracle now supports database replicas for instances\
       \ set up in Oracle multi-tenant configuration. Oracle multi-tenant configuration\

@@ -6,6 +6,7 @@ entries:
       agents
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-integrated-agent-coaching-workflows/
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       <p>Amazon Connect now delivers integrated agent coaching workflows that
       enable contact center managers to provide timely, targeted feedback directly
@@ -30,6 +31,7 @@ entries:
       AWS Govcloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-database-insights-on-demand-analysis-in-govcloud/
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       <p>Amazon CloudWatch Database Insights expands the availability of its
       on-demand analysis experience to AWS GovCloud (US-East) and AWS GovCloud (US-West).
@@ -58,6 +60,7 @@ entries:
     title: Amazon EC2 C8id instances are now available in Europe (Spain)
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8id-instances-europe-spain/
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       <p>Amazon Elastic Compute Cloud (EC2) C8id instances powered by custom
       Intel Xeon 6 processors feature up to 384 vCPUs, 768GiB of memory, and 22.8TB
@@ -83,6 +86,7 @@ entries:
       Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-c8gd-m8gd-instances-available/
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       <p>Amazon Elastic Compute Cloud (Amazon EC2) C8gd and M8gd instances
       with up to 11.4 TB of local NVMe-based SSD block-level storage are now available
@@ -115,6 +119,7 @@ entries:
       Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r7gd-instances-available/
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R7gd instances
       with up to 3.8 TB of local NVMe-based SSD block-level storage are available
@@ -132,6 +137,7 @@ entries:
     title: Amazon EC2 High Memory U7i instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-high-memory-u7i-instances/
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       "<p>Amazon EC2 High Memory U7i instances with 8TB of memory (u7i-8tb.112xlarge)\
       \ are now available in AWS Asia Pacific (Hyderabad), and U7i instances with\
@@ -155,6 +161,7 @@ entries:
       sending emails
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-agents-select-from-email/
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       "<p>Amazon Connect now enables you to choose the \"From\" email address\
       \ when replying to inbound emails or sending new outbound messages, helping\
@@ -176,6 +183,7 @@ entries:
     title: Amazon Connect now provides case data in analytics data lake
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-cases-data-lake
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       '<p>Amazon Connect now provides case data in the analytics data lake,
       making it easier for you to generate reports and insights. With case data available
@@ -195,6 +203,7 @@ entries:
     title: AWS Backup expands support for Amazon RDS Multi-AZ clusters to 17 Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-expands-amazon-rds-multi-az-clusters-17-regions/
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       "<p>AWS Backup for Amazon RDS Multi-AZ clusters is now available in 17\
       \ additional AWS Regions: Asia Pacific (Mumbai, Osaka, Seoul, Hong Kong, Jakarta,\
@@ -217,6 +226,7 @@ entries:
     title: Amazon Neptune Database is now available in Asia Pacific (Hyderabad) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-neptune-hyderabad/
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       "<p><a href=\"https://aws.amazon.com/neptune/\" target=\"_blank\">Amazon\
       \ Neptune</a> Database is now available in the <a href=\"https://aws.amazon.com/local/india/\"\
@@ -244,6 +254,7 @@ entries:
     title: Amazon Neptune Database adds native spatial data support
     link: https://aws.amazon.comhttps://aws.amazon.com/about-aws/whats-new/2026/03/amazon-neptune-database-spatial-data/
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       "<p><a href=\"https://aws.amazon.com/neptune/\" target=\"_blank\">Amazon\
       \ Neptune</a> Database now includes comprehensive spatial data capabilities,\
@@ -271,6 +282,7 @@ entries:
     title: AWS Firewall Manager launches in AWS Asia Pacific (New Zealand) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-firewall-manager-launches-asia-pacific-new-zealand/
     published: "2026-03-11"
+    fetched: "2026-03-11"
     summary:
       <p>AWS Firewall Manager announces that it is now available in AWS Asia
       Pacific (New Zealand) Region. AWS Firewall Manager helps cloud security administrators

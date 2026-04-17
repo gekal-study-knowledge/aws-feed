@@ -4,6 +4,7 @@ entries:
     title: AWS Marketplace Seller Reporting now provides collections visibility
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-marketplace-seller-reporting-collections/
     published: "2026-01-06"
+    fetched: "2026-01-06"
     summary:
       <p>Today, AWS announces collection visibility in AWS Marketplace Seller
       Reporting, which adds up-to-date payment collection status to the Billed Revenue
@@ -28,6 +29,7 @@ entries:
     title: Amazon ECS now supports tmpfs mounts on AWS Fargate and ECS Managed Instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-tmpfs-mounts-aws-fargate-managed-instances
     published: "2026-01-06"
+    fetched: "2026-01-06"
     summary:
       <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
       Container Service</a> (Amazon ECS) now supports tmpfs mounts for Linux tasks
@@ -55,6 +57,7 @@ entries:
     title: Amazon MQ now supports HTTP based authentication for RabbitMQ brokers
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-http-based-rabbitmq-brokers/
     published: "2026-01-06"
+    fetched: "2026-01-06"
     summary:
       <p>Amazon MQ now supports the ability for RabbitMQ brokers to perform
       authentication (determining who can log in) and authorization (determining what
@@ -74,6 +77,7 @@ entries:
     title: AWS Config now supports 21 new resource types
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-config-new-resource-types
     published: "2026-01-06"
+    fetched: "2026-01-06"
     summary:
       "<p>AWS Config now supports 21 additional AWS resource types across key\
       \ services including Amazon EC2, Amazon SageMaker, and Amazon S3 Tables. This\

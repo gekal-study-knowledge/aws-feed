@@ -4,5 +4,6 @@
     "title": "P-EAGLE: Faster LLM inference with Parallel Speculative Decoding in vLLM"
     "link": "https://aws.amazon.com/blogs/machine-learning/p-eagle-faster-llm-inference-with-parallel-speculative-decoding-in-vllm/"
     "published": "2026-03-13 19:27:04"
+    "fetched": "2026-03-13 19:27:04"
     "summary": "In this post, we explain how P-EAGLE works, how we integrated it into vLLM starting from v0.16.0 (PR#32887), and how to serve it with our pre-trained checkpoints."
 "last_updated": "2026-03-21 16:38:28 JST"

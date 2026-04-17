@@ -4,6 +4,7 @@ entries:
     title: Policy in Amazon Bedrock AgentCore is now generally available
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/policy-amazon-bedrock-agentcore-generally-available/
     published: "2026-03-03"
+    fetched: "2026-03-03"
     summary:
       "<p>Policy in Amazon Bedrock&nbsp;AgentCore&nbsp;is now generally available,\
       \ providing organizations with centralized, fine-grained controls for agent-tool\
@@ -32,6 +33,7 @@ entries:
       from Kiro IDE
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-kiro-ide/
     published: "2026-03-03"
+    fetched: "2026-03-03"
     summary:
       "<p>Today, AWS announces the ability to remotely connect from Kiro IDE\
       \ to Amazon SageMaker Unified Studio. This new capability allows data scientists,\
@@ -63,6 +65,7 @@ entries:
     title: Amazon SageMaker Unified Studio adds metadata sync with third-party catalogs
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-3p-catalogs/
     published: "2026-03-03"
+    fetched: "2026-03-03"
     summary:
       "<p><a href=\"https://aws.amazon.com/sagemaker/unified-studio/\">Amazon\
       \ SageMaker Unified Studio</a> now supports metadata and context sync across\
@@ -94,6 +97,7 @@ entries:
       jobs
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-unified-studio-aws-glue-5-1/
     published: "2026-03-03"
+    fetched: "2026-03-03"
     summary:
       "<p><a href=\"https://aws.amazon.com/sagemaker/unified-studio/\">Amazon\
       \ SageMaker Unified Studio </a>now supports <a href=\"https://aws.amazon.com/about-aws/whats-new/2025/11/aws-glue-5-1/\"\

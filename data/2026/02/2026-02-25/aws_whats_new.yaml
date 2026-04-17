@@ -4,6 +4,7 @@ entries:
     title: Announcing new metal sizes for Amazon EC2 M8gn and M8gb instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8gn-m8gb-new-metal-sizes/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       "<p>Today, AWS announces the general availability of metal-24xl and metal-48xl\
       \ sizes for Amazon Elastic Compute Cloud (Amazon EC2) M8gn and M8gb instances.\
@@ -37,6 +38,7 @@ entries:
     title: Amazon Aurora DSQL launches Playground for interactive database exploration
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-launches-playground/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       <p>Today, AWS announces Amazon Aurora DSQL Playground, a browser-based
       interactive environment that enables developers to explore and experiment with
@@ -60,6 +62,7 @@ entries:
       AWS accounts
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-security-agent-adds-penetration-tests-shared/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       <p>AWS Security Agent now enables customers to run penetration tests
       against Virtual Private Cloud (VPC) resources shared from other AWS accounts
@@ -87,6 +90,7 @@ entries:
       AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-outposts-racks-cloudwatch-metrics-govcloud-regions/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       <p>AWS Outposts racks now support VifConnectionStatus and VifBgpSessionState
       Amazon CloudWatch metrics in AWS GovCloud (US) Regions. These metrics provide
@@ -114,6 +118,7 @@ entries:
     title: Aurora DSQL launches new support for Tortoise, Flyway, and Prisma
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aurora-dsql-launches-tortoise-flyway-prisma/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       '<p>Today we are announcing the release of Aurora DSQL integrations for
       popular ORM and database migration tools: an adapter for Tortoise (Python ORM),
@@ -142,6 +147,7 @@ entries:
       DBeaver
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aurora-dsql-visual-studio-code-sqltools-dbeaver/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       <p>Today we are announcing the release of the Aurora DSQL Driver for
       SQLTools and the Aurora DSQL Plugin for DBeaver Community Edition. These integrations
@@ -164,6 +170,7 @@ entries:
     title: Amazon EC2 R8a instances now available in the Europe (Ireland) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r8a-instances-europe-ireland-regions/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       <p>Starting today, Amazon EC2 R8a instances are now available in Europe
       (Ireland) region. These instances, feature 5th Gen AMD EPYC processors (formerly
@@ -191,6 +198,7 @@ entries:
       Town) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8i-m8i-flex-instances-africa-cape-town-regions/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       <p>Starting today, Amazon EC2 M8i and M8i-flex instances are now available
       in Africa (Cape Town) region. These instances are powered by custom Intel Xeon
@@ -223,6 +231,7 @@ entries:
       Code plugin to improve AI performance
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-location-service-introduces-kiro-power-claude-skill-llm-context/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       "<p>Today, Amazon Location launched curated AI Agent context as a <a\
       \ href=\"https://kiro.dev/powers/\">Kiro </a><a href=\"https://kiro.dev/powers/\"\
@@ -255,6 +264,7 @@ entries:
     title: Amazon WorkSpaces Applications extends support for 4K resolution
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-applications-4K-resolution/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       "<p>Amazon WorkSpaces Applications now supports up to 4K (4096 x 2160)\
       \ resolution on non-accelerated instance types and across all client connection\
@@ -287,6 +297,7 @@ entries:
     title: AWS Backup extends support for Amazon Neptune to five additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-extends-amazon-neptune-five-additional-regions/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       "<p>AWS Backup now supports Amazon Neptune in five additional AWS Regions:\
       \ Europe (Zurich), Asia Pacific (Melbourne), Canada West (Calgary), Asia Pacific\
@@ -309,6 +320,7 @@ entries:
     title: AWS launches a playground for interactive Aurora DSQL database exploration
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-launches-playground/
     published: "2026-02-25"
+    fetched: "2026-02-25"
     summary:
       <p>Today, AWS announces a browser-based playground that enables developers
       to interact with an Amazon Aurora DSQL database without requiring an AWS account.

@@ -4,5 +4,6 @@
     "title": "メインフレームアプリケーションのモダナイゼーションに関する包括的な視点と配置戦略"
     "link": "https://aws.amazon.com/jp/blogs/news/migration-and-modernization-taking-a-comprehensive-perspective-to-mainframe-application-modernization-with-a-disposition-strategy/"
     "published": "2026-03-22 23:12:10"
+    "fetched": "2026-03-22 23:12:10"
     "summary": "配置戦略は、メインフレームモダナイゼーションにおいて複数の移行パターンを組み合わせる包括的アプローチです。ビジネス目標とワークロード特性に基づき適切なパターンを選択し、アプリケーションを管理可能な部分に分解して段階的に移行します。個別プロジェクトではなく全体ロードマップとして捉えることで、移行加速、リスク軽減、目標達成を支援します。"
 "last_updated": "2026-03-23 08:24:05 JST"

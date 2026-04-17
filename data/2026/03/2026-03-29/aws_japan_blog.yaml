@@ -4,5 +4,6 @@
     "title": "Amazon Elastic VMware Service における VMwareワークロードのモダンネットワークの構築"
     "link": "https://aws.amazon.com/jp/blogs/news/networking-and-content-delivery-building-a-modern-network-for-your-vmware-workloads-using-amazon-elastic-vmware-service/"
     "published": "2026-03-29 21:34:24"
+    "fetched": "2026-03-29 21:34:24"
     "summary": "組織がクラウド移行を加速させようとする中で、多くのお客様は既存の VMware ワークロードを Amazon Web Services (AWS) にリフトアンドシフトする方法を求めており、アプリケーションのリファクタリングやスタッフの再トレーニングのオーバーヘッドを避けたいと考えています。Amazon Elastic VMware service (Amazon EVS) は、VMware Cloud Foundation (VCF) を Amazon Virtual Private Cloud (VPC) 内で直接実行でき、VMware ワークロードを AWS で移行・運用するための最も迅速な方法を提供します。 VMware ワークロードを AWS に移行する際にお客様が課題として挙げるのが、クラウドでのネットワーク接続とアーキテクチャ設計です。Amazon EVS のネットワークモデルは、一般的なオンプレミスの VMware デプロイメントとはいくつかの違いがあります。本稿では、Amazon EVS のネットワークモデルを解説し、実証済みのアーキテクチャパターンをご紹介し、Amazon EVS の計画と導入を成功させるための重要な考慮事項をご説明します。"
 "last_updated": "2026-03-30 07:26:48 JST"

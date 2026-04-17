@@ -4,6 +4,7 @@ entries:
     title: Twenty years of Amazon S3 and building what’s next
     link: https://aws.amazon.com/blogs/aws/twenty-years-of-amazon-s3-and-building-whats-next/
     published: "2026-03-13"
+    fetched: "2026-03-13"
     summary:
       Some reflections on 20 years of innovations in Amazon S3 including S3
       Tables, S3 Vectors and S3 Metadata.

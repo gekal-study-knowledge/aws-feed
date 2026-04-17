@@ -6,6 +6,7 @@ entries:
       Logs
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-expands-resource-control-policies
     published: "2026-01-22"
+    fetched: "2026-01-22"
     summary:
       <p>AWS Resource Control Policies (RCPs) now provide support for <a href="https://aws.amazon.com/pm/cognito/?trk=de90528c-2450-48d7-9981-bc556d44c9ab&amp;sc_channel=ps&amp;trk=de90528c-2450-48d7-9981-bc556d44c9ab&amp;sc_channel=ps&amp;ef_id=EAIaIQobChMI1oPdpd-JkgMVEh-tBh0iWzpHEAAYASAAEgLl7_D_BwE:G:s&amp;s_kwcid=AL!4422!3!652240143559!e!!g!!cognito!19878797452!155825919588&amp;gad_campaignid=19878797452&amp;gbraid=0AAAAADjHtp-6asfTXR8BCPoEoERBRak--&amp;gclid=EAIaIQobChMI1oPdpd-JkgMVEh-tBh0iWzpHEAAYASAAEgLl7_D_BwE"
       target="_blank">Amazon Cognito</a> and <a href="https://aws.amazon.com/cloudwatch/?refid=de90528c-2450-48d7-9981-bc556d44c9ab"
@@ -28,6 +29,7 @@ entries:
     title: Amazon Neptune Analytics is now available in 7 additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-neptune-analytics-generally-available-additional-regions
     published: "2026-01-22"
+    fetched: "2026-01-22"
     summary:
       <p><a href="https://docs.aws.amazon.com/neptune-analytics/latest/userguide/what-is-neptune-analytics.html"
       target="_blank">Amazon Neptune Analytics</a> is now available in US West (N.
@@ -57,6 +59,7 @@ entries:
     title: Amazon Bedrock AgentCore Browser now supports custom browser extensions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-agentcore-browser-custom-extensions
     published: "2026-01-22"
+    fetched: "2026-01-22"
     summary:
       "<p>Amazon Bedrock AgentCore Browser now supports custom Chrome browser\
       \ extensions, enabling automation for complex workflows that standard browser\
@@ -83,6 +86,7 @@ entries:
     title: Amazon EC2 C8i instances are now available in AWS Europe (London) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8i-instances-europe-london-region
     published: "2026-01-22"
+    fetched: "2026-01-22"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances
       are available in the Europe (London) region. These instances are powered by
@@ -110,6 +114,7 @@ entries:
       brokers
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-jms-spec-rabbitmq/
     published: "2026-01-22"
+    fetched: "2026-01-22"
     summary:
       <p>Amazon MQ now supports the ability for RabbitMQ 4 brokers to connect
       to JMS applications through the RabbitMQ JMS Topic Exchange plugin and <a href="https://www.rabbitmq.com/client-libraries/jms-client"
@@ -134,6 +139,7 @@ entries:
       (Sydney) and Europe (Frankfurt) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8i-c8i-flex-instances-asia-pacific-sydney-europe-london-regions
     published: "2026-01-22"
+    fetched: "2026-01-22"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
       C8i-flex instances are available in the Asia Pacific (Sydney), and Europe (Frankfurt)
@@ -165,6 +171,7 @@ entries:
     title: AWS Config launches 13 new managed rules
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-config-launches-new-rules/
     published: "2026-01-22"
+    fetched: "2026-01-22"
     summary:
       "<p>AWS Config announces launch of an additional 13 managed Config rules\
       \ for various use cases such as security, durability, and operations. You can\
@@ -194,6 +201,7 @@ entries:
     title: Microsoft Office, Visio and Project 2024 Apps now on Amazon WorkSpaces
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/microsoft-office-visio-project-2024-amazon-workspaces/
     published: "2026-01-22"
+    fetched: "2026-01-22"
     summary:
       "<p>Today,&nbsp;Amazon WorkSpaces Personal&nbsp;and Core announce the\
       \ availability of new Microsoft productivity applications for WorkSpaces instances,\
@@ -221,6 +229,7 @@ entries:
       EC2 instances"
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/graviton4-ebs-optimized-larger-sizes
     published: "2026-01-22"
+    fetched: "2026-01-22"
     summary:
       "<p>Today, AWS announces the general availability of the Amazon Elastic\
       \ Block Storage (Amazon EBS) optimized Amazon Elastic Compute Cloud (Amazon\
@@ -253,6 +262,7 @@ entries:
     title: Announcing availability of AWS Outposts racks in Rwanda
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/availability-aws-outposts-racks-rwanda
     published: "2026-01-22"
+    fetched: "2026-01-22"
     summary:
       <p>AWS Outposts racks can now be shipped and installed at your data center
       and on-premises locations in Rwanda.<br /> <br /> AWS Outposts racks extend
@@ -272,6 +282,7 @@ entries:
     title: AWS Security Agent now supports GitHub Enterprise Cloud
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-security-agent-ghe-support
     published: "2026-01-22"
+    fetched: "2026-01-22"
     summary:
       "<p>AWS Security Agent now supports GitHub Enterprise Cloud, enabling\
       \ customers to connect their GitHub Enterprise Organization and leverage AI-powered\

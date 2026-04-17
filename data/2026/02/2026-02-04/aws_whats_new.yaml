@@ -4,6 +4,7 @@ entries:
     title: AWS Batch now supports unmanaged compute environments for Amazon EKS
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-on-eks-unmanaged-compute-environments
     published: "2026-02-04"
+    fetched: "2026-02-04"
     summary:
       <p>AWS Batch now extends its job scheduling capabilities to unmanaged
       compute environments on Amazon EKS. With unmanaged EKS compute environments,
@@ -24,6 +25,7 @@ entries:
     title: Structured outputs now available in Amazon Bedrock
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/structured-outputs-available-amazon-bedrock/
     published: "2026-02-04"
+    fetched: "2026-02-04"
     summary:
       '<p>Amazon Bedrock now supports structured outputs, a capability that
       provides consistent, machine-readable responses from foundation models that
@@ -50,6 +52,7 @@ entries:
     title: Amazon EC2 G7e instances now available in US West (Oregon) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g7e-instances-oregon-region/
     published: "2026-02-04"
+    fetched: "2026-02-04"
     summary:
       "<p>Starting today, Amazon EC2 G7e instances accelerated by NVIDIA RTX\
       \ PRO 6000 Blackwell Server Edition GPUs are now available in US West (Oregon)\
@@ -79,6 +82,7 @@ entries:
       JumpStart
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/cartesia-sonic-3-on-sagemaker-jumpstart
     published: "2026-02-04"
+    fetched: "2026-02-04"
     summary:
       "<p>Cartesia’s Sonic 3 model is now available in Amazon SageMaker JumpStart,\
       \ expanding the portfolio of foundation models available to AWS customers. Sonic\
@@ -102,6 +106,7 @@ entries:
     title: Amazon ECS adds Network Load Balancer support for Linear and Canary deployments
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecs-nlb-linear-canary-deployments
     published: "2026-02-04"
+    fetched: "2026-02-04"
     summary:
       "<p><a href=\"https://aws.amazon.com/ecs/\" target=\"_blank\">Amazon\
       \ Elastic Container Service</a> (Amazon ECS) announces native support for linear\
@@ -134,6 +139,7 @@ entries:
       IDC based domains
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/apache-spark-lineage-amazon-sageMaker-unified-studio
     published: "2026-02-04"
+    fetched: "2026-02-04"
     summary:
       <p>Amazon SageMaker announces general availability of Data Lineage for
       Apache Spark jobs executed on Amazon EMR and AWS Glue in SageMaker Unified Studio
@@ -152,6 +158,7 @@ entries:
     title: Introducing Amazon EC2 C8id, M8id, and R8id instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8id-m8id-r8id-instances/
     published: "2026-02-04"
+    fetched: "2026-02-04"
     summary:
       <p>AWS is announcing the general availability of new Amazon EC2 C8id,
       M8id, and R8id instances powered by custom Intel Xeon 6 processors. These instances
@@ -181,6 +188,7 @@ entries:
     title: Amazon EC2 and VPC now display related resources for security groups
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-console-related-resources-generally-available
     published: "2026-02-04"
+    fetched: "2026-02-04"
     summary:
       <p>Amazon Web Services (AWS) is announcing the general availability of
       the "Related resources" tab for security groups in the Amazon EC2 and VPC consoles.
@@ -211,6 +219,7 @@ entries:
       (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-simplifies-iam-permissions-eks-addons
     published: "2026-02-04"
+    fetched: "2026-02-04"
     summary:
       <p>Amazon Elastic Kubernetes Service (EKS) now offers a direct integration
       between EKS add-ons and EKS Pod Identity in AWS GovCloud (US) Regions, streamlining
@@ -232,6 +241,7 @@ entries:
     title: Amazon Redshift now supports autonomics for multi-cluster environments
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-autonomics-for-multi-cluster
     published: "2026-02-04"
+    fetched: "2026-02-04"
     summary:
       <p>Amazon Redshift now supports autonomics—automatic optimization features—for
       multi-cluster environments. Database administrators managing distributed Amazon

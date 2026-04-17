@@ -6,6 +6,7 @@ entries:
       strategy – Part 2"
     link: https://aws.amazon.com/blogs/security/implementing-data-governance-on-aws-automation-tagging-and-lifecycle-strategy-part-2/
     published: "2026-01-16"
+    fetched: "2026-01-16"
     summary:
       In Part 1, we explored the foundational strategy, including data classification
       frameworks and tagging approaches. In this post, we examine the technical implementation
@@ -20,6 +21,7 @@ entries:
       strategy – Part 1"
     link: https://aws.amazon.com/blogs/security/implementing-data-governance-on-aws-automation-tagging-and-lifecycle-strategy-part-1/
     published: "2026-01-16"
+    fetched: "2026-01-16"
     summary:
       "Generative AI and machine learning workloads create massive amounts
       of data. Organizations need data governance to manage this growth and stay compliant.

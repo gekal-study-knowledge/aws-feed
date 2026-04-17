@@ -4,6 +4,7 @@ entries:
     title: Amazon Neptune Analytics is now available in 7 additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-neptune-analytics-in-seven-additional-regions
     published: "2026-02-09"
+    fetched: "2026-02-09"
     summary:
       <p><a href="https://docs.aws.amazon.com/neptune-analytics/latest/userguide/what-is-neptune-analytics.html"
       target="_blank">Amazon Neptune Analytics</a> is now available in Middle East
@@ -33,6 +34,7 @@ entries:
     title: Amazon Redshift now supports allocating extra compute for automatic optimizations
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-redshift-allocate-extra-compute-for-automatic-optimizations
     published: "2026-02-09"
+    fetched: "2026-02-09"
     summary:
       <p>Amazon Redshift now supports allocating extra compute for automatic
       optimization features, known as autonomics. Database administrators managing
@@ -58,6 +60,7 @@ entries:
       workflow development
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-healthomics-introduces-kiro-plugin-for-bioinformatics-workflow-development/
     published: "2026-02-09"
+    fetched: "2026-02-09"
     summary:
       <p>AWS HealthOmics announces a <a href="https://kiro.dev/powers/">Kiro
       Power</a> and Kiro IDE extension to create, run, debug, and optimize HealthOmics
@@ -83,6 +86,7 @@ entries:
     title: Amazon EC2 C8gn instances are now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8gn-instances-additional-regions
     published: "2026-02-09"
+    fetched: "2026-02-09"
     summary:
       '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8gn instances,
       powered by the latest-generation AWS Graviton4 processors, are available in

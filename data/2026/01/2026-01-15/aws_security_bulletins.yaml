@@ -4,6 +4,7 @@ entries:
     title: Unanchored ACCOUNT_ID webhook filters for CodeBuild
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-002-aws/
     published: "2026-01-15"
+    fetched: "2026-01-15"
     summary:
       "<p><b>Bulletin ID:</b> 2026-002-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Informational<br /> <b>Publication Date:</b> 2026/01/15 07:03 AM\

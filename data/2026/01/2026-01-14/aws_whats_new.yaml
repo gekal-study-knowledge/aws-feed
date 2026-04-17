@@ -4,6 +4,7 @@ entries:
     title: AWS IoT Device Management launches Wi-Fi Simple Setup for managed integrations
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-iot-device-management-wifi-simple-setup/
     published: "2026-01-14"
+    fetched: "2026-01-14"
     summary:
       <p>AWS IoT Device Management now offers Wi-Fi Simple Setup (WSS) for
       managed integrations, enabling developers to implement simplified Wi-Fi provisioning
@@ -31,6 +32,7 @@ entries:
     title: Amazon VPC IPAM policies now support RDS and Application Load Balancers
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-vpc-ipam-policies-rds-alb/
     published: "2026-01-14"
+    fetched: "2026-01-14"
     summary:
       <p>Amazon Virtual Private Cloud (VPC) IP Address Manager (IPAM) now supports
       policies for Amazon Relational Database Service (RDS) instances and Application
@@ -65,6 +67,7 @@ entries:
       of operation
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-connect-recurring-hour-operation-overrides
     published: "2026-01-14"
+    fetched: "2026-01-14"
     summary:
       <p>Amazon Connect now makes it easier to manage contact center operating
       hours for recurring events like holidays, maintenance windows, and promotional
@@ -89,6 +92,7 @@ entries:
     title: Enhanced Transactions view now available in AWS Billing Console
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/enhanced-transactions-view-aws-billing-console
     published: "2026-01-14"
+    fetched: "2026-01-14"
     summary:
       <p>AWS announces significant improvements to the Transactions view in
       the AWS Billing and Cost Management Console’s Payments page, delivering faster
@@ -117,6 +121,7 @@ entries:
     title: Amazon VPC Route Server now available in new regions
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-vpc-route-server-available-new-regions
     published: "2026-01-14"
+    fetched: "2026-01-14"
     summary:
       '<p>Amazon VPC Route Server is now available in 16 new regions in addition
       to the 14 existing ones.<br /> <br /> VPC Route Server simplifies dynamic routing
@@ -142,6 +147,7 @@ entries:
       regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-bedrock-api-keys-streamline-development-govcloud/
     published: "2026-01-14"
+    fetched: "2026-01-14"
     summary:
       <p>API keys for Amazon Bedrock are now available in AWS GovCloud (US)
       regions, expanding a feature that simplifies authentication and accelerates
@@ -168,6 +174,7 @@ entries:
       (Frankfurt) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transform-custom-privatelink-europe-frankfurt-region/
     published: "2026-01-14"
+    fetched: "2026-01-14"
     summary:
       <p>AWS Transform custom now supports AWS PrivateLink and is available
       in a new AWS Region, Europe (Frankfurt), in addition to the US East (N. Virginia)
@@ -191,6 +198,7 @@ entries:
     title: Amazon VPC Route Server now available in new regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-vpc-route-server-available-new-regions
     published: "2026-01-14"
+    fetched: "2026-01-14"
     summary:
       '<p>Amazon VPC Route Server is now available in 16 new regions in addition
       to the 14 existing ones.<br /> <br /> VPC Route Server simplifies dynamic routing

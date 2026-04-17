@@ -4,6 +4,7 @@ entries:
     title: CVE-2025-8069 - AWS Client VPN Windows Client Local Privilege Escalation
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-014/
     published: "2025-07-23"
+    fetched: "2025-07-23"
     summary:
       "<p><strong>Scope: </strong>Amazon/AWS<br /> <strong>Content Type:</strong>\
       \ Important (requires attention)<br /> <strong>Publication Date:</strong> 2025/07/23\

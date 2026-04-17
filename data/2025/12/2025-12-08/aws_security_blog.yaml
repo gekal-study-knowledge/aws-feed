@@ -6,6 +6,7 @@ entries:
       to builders and AI coding assistants"
     link: https://aws.amazon.com/blogs/security/iam-policy-autopilot-an-open-source-tool-that-brings-iam-policy-expertise-to-builders-and-ai-coding-assistants/
     published: "2025-12-08"
+    fetched: "2025-12-08"
     summary:
       Today, we’re excited to announce IAM Policy Autopilot, an open-source
       static analysis tool that helps your AI coding assistants quickly create baseline
@@ -17,6 +18,7 @@ entries:
     title: AWS launches AI-enhanced security innovations at re:Invent 2025
     link: https://aws.amazon.com/blogs/security/aws-launches-ai-enhanced-security-innovations-at-reinvent-2025/
     published: "2025-12-08"
+    fetched: "2025-12-08"
     summary:
       At re:Invent 2025, AWS unveiled its latest AI- and automation-enabled
       innovations to strengthen cloud security for customers to grow their business.

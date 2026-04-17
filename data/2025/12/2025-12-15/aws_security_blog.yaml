@@ -6,6 +6,7 @@ entries:
       campaigns
     link: https://aws.amazon.com/blogs/security/what-aws-security-learned-from-responding-to-recent-npm-supply-chain-threat-campaigns/
     published: "2025-12-15"
+    fetched: "2025-12-15"
     summary:
       AWS incident response operates around the clock to protect our customers,
       the AWS Cloud, and the AWS global infrastructure. Through that work, we learn
@@ -19,6 +20,7 @@ entries:
       Western critical infrastructure
     link: https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-russian-cyber-threat-group-targeting-western-critical-infrastructure/
     published: "2025-12-15"
+    fetched: "2025-12-15"
     summary:
       "As we conclude 2025, Amazon Threat Intelligence is sharing insights
       about a years-long Russian state-sponsored campaign that represents a significant

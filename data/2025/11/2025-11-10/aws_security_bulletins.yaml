@@ -6,6 +6,7 @@ entries:
       Wrapper, AWS NodeJS Wrapper, AWS Python Wrapper, AWS PGSQL ODBC driver
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-028/
     published: "2025-11-10"
+    fetched: "2025-11-10"
     summary:
       "<p><b>Bulletin ID:</b> AWS-2025-028<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/11/10\

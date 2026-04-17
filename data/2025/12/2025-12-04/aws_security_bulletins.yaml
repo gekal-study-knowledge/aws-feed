@@ -4,6 +4,7 @@ entries:
     title: "CVE-2025-66478: RCE in React Server Components"
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-030/
     published: "2025-12-04"
+    fetched: "2025-12-04"
     summary:
       "<p><b>Bulletin ID:</b> AWS-2025-030<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/12/03\

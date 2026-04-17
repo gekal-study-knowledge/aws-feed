@@ -6,6 +6,7 @@ entries:
       access and application use
     link: https://aws.amazon.com/blogs/aws/aws-iam-identity-center-now-supports-multi-region-replication-for-aws-account-access-and-application-use/
     published: "2026-02-03"
+    fetched: "2026-02-03"
     summary:
       AWS IAM Identity Center now supports multi-Region replication of workforce
       identities and permission sets, enabling improved resiliency for AWS account

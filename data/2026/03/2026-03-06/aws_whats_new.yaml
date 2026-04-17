@@ -4,6 +4,7 @@ entries:
     title: Amazon EC2 R8g instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8g-instances-additional-regions/
     published: "2026-03-06"
+    fetched: "2026-03-06"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances
       are available in AWS Middle East (UAE), AWS Mexico (Central), and AWS Europe
@@ -34,6 +35,7 @@ entries:
     title: Amazon Redshift introduces reusable templates for COPY operations
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-reusable-templates-copy/
     published: "2026-03-06"
+    fetched: "2026-03-06"
     summary:
       '<p style="text-align: left;"><a href="https://aws.amazon.com/redshift/">Amazon
       Redshift</a> now supports templates for the COPY command, allowing you to store
@@ -59,6 +61,7 @@ entries:
       processing
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-redshift-nine-new-array-functions/
     published: "2026-03-06"
+    fetched: "2026-03-06"
     summary:
       <p><a href="https://aws.amazon.com/redshift/">Amazon Redshift</a> now
       supports nine new array functions for working with semi-structured data stored

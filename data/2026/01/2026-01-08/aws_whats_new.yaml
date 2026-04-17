@@ -6,6 +6,7 @@ entries:
       for RabbitMQ brokers
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mq-certificate-based-authentication-mutual-tls-rabbitmq/
     published: "2026-01-08"
+    fetched: "2026-01-08"
     summary:
       <p>Amazon MQ now supports the ability for RabbitMQ brokers to perform
       authentication (determining who can log in) using X.509 client certificates
@@ -28,6 +29,7 @@ entries:
       Asia Pacific (Jakarta) Region
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-documentdb-mongodb-compatibility-asia-pacific-jakarta-region
     published: "2026-01-08"
+    fetched: "2026-01-08"
     summary:
       <p>Amazon DocumentDB (with MongoDB compatibility) is now available in
       the Asia Pacific (Jakarta) region adding to the <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/">list
@@ -54,6 +56,7 @@ entries:
       regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-r8i-r8i-flex-instances-additional-aws-regions
     published: "2026-01-08"
+    fetched: "2026-01-08"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8i and
       R8i-flex instances are available in the Asia Pacific (Mumbai, Hyderabad) and
@@ -85,6 +88,7 @@ entries:
     title: Amazon Quick adds third-party AI agents and expands built-in actions library
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/3p-agent-in-quick/
     published: "2026-01-08"
+    fetched: "2026-01-08"
     summary:
       <p>Amazon Quick is expanding its third-party integrations by adding AI
       agents and growing its built-in actions library. Quick is Amazon's new AI-powered
@@ -116,6 +120,7 @@ entries:
     title: Amazon EC2 M8i instances are now available in additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-m8i-instances-additional-regions/
     published: "2026-01-08"
+    fetched: "2026-01-08"
     summary:
       <p>Starting today, Amazon EC2 M8i instances are now available in Europe
       (Frankfurt) and Asia Pacific (Malaysia) Regions. These instances are powered
@@ -140,6 +145,7 @@ entries:
     title: AWS Lambda adds support for .NET 10
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-lambda-dot-net-10/
     published: "2026-01-08"
+    fetched: "2026-01-08"
     summary:
       <p>AWS Lambda now supports creating serverless applications using .NET
       10. Developers can use .NET 10 as both a managed runtime and a container base

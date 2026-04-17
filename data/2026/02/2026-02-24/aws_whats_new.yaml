@@ -4,6 +4,7 @@ entries:
     title: MediaConvert Introduces new video probe API and UI
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-mediaconvert-introduces-video-probe/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       <p>Introducing Probe API, a powerful and free metadata analysis tool
       for AWS Elemental MediaConvert. Optimized for efficiency, Probe API reads header
@@ -27,6 +28,7 @@ entries:
     title: AWS AppConfig integrates with New Relic for automated rollbacks
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-appconfig-new-relic-for-automated-rollback/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       "<p>AWS AppConfig today launched a new integration that enables automated,\
       \ intelligent rollbacks during feature flag and dynamic configuration deployments\
@@ -51,6 +53,7 @@ entries:
     title: Amazon EKS Node Monitoring Agent is now open source
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-eks-node-monitoring-agent-open-source/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       <p>Amazon Elastic Kubernetes Service (Amazon EKS) Node Monitoring Agent
       is now open source. You can access the Amazon EKS Node Monitoring Agent source
@@ -75,6 +78,7 @@ entries:
     title: Announcing AWS Elemental Inference
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-elemental-inference-generally-avail/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       "<p>AWS Elemental Inference, a&nbsp;fully managed Artificial Intelligence\
       \ (AI) service&nbsp;that&nbsp;enables broadcasters and streamers to&nbsp;automatically&nbsp;generate&nbsp;vertical\
@@ -109,6 +113,7 @@ entries:
     title: Amazon EC2 M8a instances now available in AWS Europe (Frankfurt) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m8a-instances-europe-frankfurt/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       <p>Starting today, the general-purpose Amazon EC2 M8a instances are available
       in AWS Europe (Frankfurt) region. M8a instances are powered by 5th Gen AMD EPYC
@@ -135,6 +140,7 @@ entries:
     title: Amazon RDS Snapshot Export to S3 now available in AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/rds-exports-s3-available-gov-cloud/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       <p><a href="https://aws.amazon.com/rds/">Amazon RDS</a> Snapshot Export
       to S3 is now available in AWS GovCloud (US) regions, enabling you to export
@@ -157,6 +163,7 @@ entries:
     title: AWS Deadline Cloud now supports running tasks together in chunks
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-deadline-cloud-running-tasks-together-in/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       <p>Today, AWS Deadline Cloud announces support for grouping tasks into
       chunks to efficiently execute multiple tasks together. AWS Deadline Cloud is
@@ -180,6 +187,7 @@ entries:
       Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-r7a-instances-asia-pacific-hyderabad-regions/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       <p>Starting today, the general-purpose Amazon EC2 R7a instances are now
       available in AWS Asia Pacific (Hyderabad) Region. R7a instances, powered by
@@ -198,6 +206,7 @@ entries:
       (Malaysia) and South America (Sao Paulo) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-c8i-flex-instances-asia-pacific-malaysia-south-america-sao--paulo-regions/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
       C8i-flex instances are available in the Asia Pacific (Malaysia) and South America
@@ -231,6 +240,7 @@ entries:
       during automation
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-compute-optimizer-applies-tags-ebs-snapshots/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       "<p>AWS Compute Optimizer makes it easier to identify snapshots that\
       \ are created when snapshotting and deleting unattached Amazon Elastic Block\
@@ -253,6 +263,7 @@ entries:
     title: AWS Observability now available as a Kiro power
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-observability-kiro-power/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       '<p>Today, AWS announces AWS Observability as a Kiro power, enabling
       developers and operators to investigate infrastructure and application health
@@ -291,6 +302,7 @@ entries:
     title: Amazon EC2 I7ie instances now available in AWS Africa (Cape Town) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec-i-ie-instances-available-aws-africa/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       <p>AWS is announcing Amazon EC2 I7ie instances are now available in AWS
       Africa (Cape Town) region. Designed for large storage I/O intensive workloads,
@@ -316,6 +328,7 @@ entries:
       Server
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-custom-supports-latest-gdr-updates-for-microsoft-sql-server/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       <p><a href="https://aws.amazon.com/rds/custom/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) Custom for SQL Server</a> now supports
@@ -334,6 +347,7 @@ entries:
     title: Amazon Bedrock now supports server-side tool execution with AgentCore Gateway
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-server-side-tool-execution-agentcore-gateway/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       "<p>Amazon Bedrock now enables server-side tool execution through Amazon\
       \ Bedrock AgentCore Gateway integration with the Responses API. Customers can\
@@ -367,6 +381,7 @@ entries:
       agent traffic
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-waf-ai-activity-dashboard/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       <p>Today, AWS WAF announced a new AI activity dashboard that provides
       centralized visibility into AI bot and agent traffic reaching your applications.
@@ -405,6 +420,7 @@ entries:
       Town) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c7i-c7i-flex-instances-africa-cape-town-regions/
     published: "2026-02-24"
+    fetched: "2026-02-24"
     summary:
       '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i-flex
       and C7i instances are available in the Africa (Cape Town) region. These instances

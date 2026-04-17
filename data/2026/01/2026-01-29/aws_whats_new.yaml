@@ -4,6 +4,7 @@ entries:
     title: AWS announces Deployment Agent SOPs in AWS MCP Server (preview)
     link: https://aws.amazon.com/about-aws/whats-new/2025/01/aws-announces-deployment-agent-sops-in-aws-mcp-server-preview
     published: "2026-01-29"
+    fetched: "2026-01-29"
     summary:
       <p>AWS announces the launch of deployment Standard Operating Procedures
       (SOPs) available in the <a href="https://docs.aws.amazon.com/aws-mcp/latest/userguide/what-is-mcp-server.html">AWS
@@ -36,6 +37,7 @@ entries:
     title: Announcing increased 1 MB payload size support in Amazon EventBridge
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-eventbridge-increases-event-payload-size-256-kb-1-mb
     published: "2026-01-29"
+    fetched: "2026-01-29"
     summary:
       <p>Amazon EventBridge increases event payload size from 256 KB to 1 MB,
       enabling developers to ingest richer, complex payloads for their event-driven
@@ -58,6 +60,7 @@ entries:
     title: Amazon Cognito introduces inbound federation Lambda triggers
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cognito-inbound-federation-lambda-trigger/
     published: "2026-01-29"
+    fetched: "2026-01-29"
     summary:
       "<p>Amazon Cognito introduces inbound federation Lambda triggers that\
       \ enable you to transform and customize federated user attributes during the\
@@ -87,6 +90,7 @@ entries:
       for your tables
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-keyspaces-apache-cassandra-pre-warming-warmthroughput-tables
     published: "2026-01-29"
+    fetched: "2026-01-29"
     summary:
       <p><a href="https://aws.amazon.com/keyspaces/" target="_blank">Amazon
       Keyspaces (for Apache Cassandra)</a> now supports table pre-warming, allowing
@@ -118,6 +122,7 @@ entries:
       API
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-server-side-custom-tools-responses-api
     published: "2026-01-29"
+    fetched: "2026-01-29"
     summary:
       "<p>Amazon Bedrock now supports server-side tools in the Responses API\
       \ using OpenAI API-compatible service endpoints. Bedrock already supports client-side\
@@ -142,6 +147,7 @@ entries:
       instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-gamelift-servers-automatic-scaling
     published: "2026-01-29"
+    fetched: "2026-01-29"
     summary:
       <p>Amazon GameLift Servers now enables automatic scaling to and from
       zero instances, addressing a critical cost optimization challenge for game developers.
@@ -167,6 +173,7 @@ entries:
     title: Change the server-side encryption type of Amazon S3 objects
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/change-the-server-side-encryption-type-of-s3-objects
     published: "2026-01-29"
+    fetched: "2026-01-29"
     summary:
       <p>You can now change the server-side encryption type of encrypted objects
       in Amazon S3 without any data movement. You can use the UpdateObjectEncryption

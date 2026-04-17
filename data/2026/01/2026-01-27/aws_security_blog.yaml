@@ -6,6 +6,7 @@ entries:
       Lake
     link: https://aws.amazon.com/blogs/security/file-integrity-monitoring-with-aws-systems-manager-and-amazon-security-lake/
     published: "2026-01-27"
+    fetched: "2026-01-27"
     summary:
       Customers need solutions to track inventory data such as files and software
       across Amazon Elastic Compute Cloud (Amazon EC2) instances, detect unauthorized

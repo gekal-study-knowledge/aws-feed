@@ -4,5 +4,6 @@
     "title": "How Convera built fine-grained API authorization with Amazon Verified Permissions"
     "link": "https://aws.amazon.com/blogs/architecture/how-convera-built-fine-grained-api-authorization-with-amazon-verified-permissions/"
     "published": "2026-02-05 21:21:54"
+    "fetched": "2026-02-05 21:21:54"
     "summary": "In this post, we share how Convera used Amazon Verified Permissions to build a fine-grained authorization model for their API platform."
 "last_updated": "2026-03-21 16:29:24 JST"

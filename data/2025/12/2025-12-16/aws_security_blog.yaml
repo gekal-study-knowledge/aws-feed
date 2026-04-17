@@ -6,6 +6,7 @@ entries:
       EC2 and Amazon ECS
     link: https://aws.amazon.com/blogs/security/cryptomining-campaign-targeting-amazon-ec2-and-amazon-ecs/
     published: "2025-12-16"
+    fetched: "2025-12-16"
     summary:
       Amazon GuardDuty and our automated security monitoring systems identified
       an ongoing cryptocurrency (crypto) mining campaign beginning on November 2,

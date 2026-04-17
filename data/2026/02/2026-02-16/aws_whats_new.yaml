@@ -4,6 +4,7 @@ entries:
     title: Amazon EC2 supports nested virtualization on virtual Amazon EC2 instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-nested-virtualization-on-virtual
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       "<p>Starting today, customers can create nested environments within virtualized\
       \ Amazon EC2 instances. Previously, customers could only create and manage virtual\
@@ -17,6 +18,7 @@ entries:
     title: Announcing Amazon DocumentDB long-term support (LTS) on 5.0
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/announcing-amazon-documentdb-5-0-long-term-support
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       '<p>Starting today, Amazon DocumentDB (with MongoDB compatibility) offers
       Long-Term Support (LTS) on DocumentDB 5.0, enabling customers to reduce database
@@ -36,6 +38,7 @@ entries:
     title: AWS Backup announces PrivateLink support for SAP HANA on AWS
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-announces-privatelink-sap-hana-aws/
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       "<p>AWS Backup now supports AWS PrivateLink for SAP HANA systems running\
       \ on Amazon EC2. This enables customers to route all backup traffic through\
@@ -59,6 +62,7 @@ entries:
     title: AWS HealthImaging launches additional metrics for monitoring data stores
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-healthimaging-additional-metrics/
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       '<p>AWS HealthImaging has launched additional metrics through <a href="https://docs.aws.amazon.com/cloudwatch/">Amazon
       CloudWatch</a> that enable monitoring storage at the account and data store
@@ -80,6 +84,7 @@ entries:
     title: Announcing new high performance computing Amazon EC2 Hpc8a instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/announcing-amazon-ec2-hpc8a-instances/
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       <p>AWS announces Amazon EC2 Hpc8a instances, the next generation of high
       performance computing optimized instance, powered by 5th Gen AMD EPYC processors
@@ -108,6 +113,7 @@ entries:
     title: Amazon EC2 M7i instances are now available in the Israel (Tel Aviv) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-m7i-israel-tel-aviv-regions
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M7i instances
       powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire
@@ -130,6 +136,7 @@ entries:
     title: AWS Glue 5.1 is now available in 18 additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-glue-5-1-eighteen-additional-regions
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       "<p>AWS Glue 5.1 is now available in eighteen additional AWS Regions:\
       \ Africa (Cape Town), Asia Pacific (Hyderabad, Jakarta, Melbourne, Osaka, Seoul,\
@@ -161,6 +168,7 @@ entries:
     title: Amazon Aurora now supports Server-Side Encryption at Rest
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-server-side-encryption-at-rest
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       <p>Amazon Aurora further strengthens your security posture by automatically
       applying server-side encryption by default to all new databases clusters, created
@@ -185,6 +193,7 @@ entries:
     title: Amazon Aurora now supports Server-Side Encryption by default
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-server-side-encryption-at-rest
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       <p>Amazon Aurora further strengthens your security posture by automatically
       applying server-side encryption by default to all new databases clusters, created
@@ -210,6 +219,7 @@ entries:
     title: Kiro is now available in AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/kiro-launch-aws-govcloud-us/
     published: "2026-02-16"
+    fetched: "2026-02-16"
     summary:
       <p>Kiro brings agentic AI development capabilities to workloads with
       elevated compliance needs in AWS GovCloud (US-East) and AWS GovCloud (US-West)

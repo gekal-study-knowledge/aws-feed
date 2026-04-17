@@ -4,6 +4,7 @@ entries:
     title: Amazon WorkSpaces Core announces monthly pricing for managed instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-workspaces-core-managed-instances-flexible-billing/
     published: "2026-01-26"
+    fetched: "2026-01-26"
     summary:
       <p>AWS is announcing flexible billing for Amazon WorkSpaces Core managed
       instances, adding monthly flat-rate pricing alongside existing hourly billing.
@@ -37,6 +38,7 @@ entries:
     title: AWS Transfer Family now supports Amazon FSx for NetApp ONTAP
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-amazon-fsx-netapp-ontap
     published: "2026-01-26"
+    fetched: "2026-01-26"
     summary:
       <p>AWS Transfer Family customers can now access file system data stored
       in Amazon FSx for NetApp ONTAP over SFTP, FTPS, and FTP.&nbsp;<br /> <br />
@@ -60,6 +62,7 @@ entries:
       LAMP, and Ruby on Rails blueprints
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/amazon-lightsail-nodejs-lamp-and-ruby-on-rails/
     published: "2026-01-26"
+    fetched: "2026-01-26"
     summary:
       <p>Amazon Lightsail now offers new Node.js, LAMP, and Ruby on Rails blueprints.
       These new blueprint have Instance Metadata Service Version 2 (IMDSv2) enforced
@@ -80,6 +83,7 @@ entries:
     title: Amazon Bedrock now supports 1-hour duration for prompt caching
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-one-hour-duration-prompt-caching/
     published: "2026-01-26"
+    fetched: "2026-01-26"
     summary:
       <p>Amazon Bedrock now supports a 1-hour time-to-live (TTL) option for
       prompt caching for select Anthropic Claude models. With this update, you can
@@ -104,6 +108,7 @@ entries:
     title: Amazon Managed Grafana now available in the AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-managed-grafana-aws-govcloud-us-regions
     published: "2026-01-26"
+    fetched: "2026-01-26"
     summary:
       <p>Amazon Managed Grafana is now available in both AWS GovCloud (US-West)
       and AWS GovCloud (US-East) Regions, enabling government customers and regulated
@@ -125,6 +130,7 @@ entries:
       LAMP, and Ruby on Rails blueprints
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lightsail-nodejs-lamp-and-ruby-on-rails/
     published: "2026-01-26"
+    fetched: "2026-01-26"
     summary:
       <p>Amazon Lightsail now offers new Node.js, LAMP, and Ruby on Rails blueprints.
       These new blueprint have Instance Metadata Service Version 2 (IMDSv2) enforced

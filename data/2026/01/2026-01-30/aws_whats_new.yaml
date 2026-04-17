@@ -4,6 +4,7 @@ entries:
     title: New Partner Revenue Measurement gives visibility into AWS service consumption
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/new-partner-revenue-measurement
     published: "2026-01-30"
+    fetched: "2026-01-30"
     summary:
       "<p>Today, AWS announces the launch of Partner Revenue Measurement, a\
       \ new capability that gives AWS Partners visibility into how their solutions\
@@ -22,6 +23,7 @@ entries:
     title: Amazon GameLift Streams expands streaming capability to six new regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/glstreams-new-regions
     published: "2026-01-30"
+    fetched: "2026-01-30"
     summary:
       '<p>Starting today, Amazon GameLift Streams provides streaming capabilities
       in six new locations - eu-west-2 (London), eu-north-1 (Stockholm), sa-east-1
@@ -43,6 +45,7 @@ entries:
       (Frankfurt) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-r8a-instances-are-available-europe
     published: "2026-01-30"
+    fetched: "2026-01-30"
     summary:
       <p>Starting today, Amazon EC2 R8a instances are now available in Europe
       (Spain) and Europe (Frankfurt) Regions. These instances, feature 5th Gen AMD
@@ -71,6 +74,7 @@ entries:
       storage volumes
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/rds-for-oracle-cross-region-replicas-additional-storage-volumes
     published: "2026-01-30"
+    fetched: "2026-01-30"
     summary:
       <p><a href="https://aws.amazon.com/rds/oracle/">Amazon RDS for Oracle</a>
       now supports cross-Region replicas with additional storage volumes. With additional
@@ -103,6 +107,7 @@ entries:
     title: Amazon SageMaker Unified Studio now supports AWS PrivateLink
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-sagemaker-unified-studio-aws-privatelink/
     published: "2026-01-30"
+    fetched: "2026-01-30"
     summary:
       '<p>Today, Amazon SageMaker announced a new capability allowing you to
       establish connectivity between your Amazon Virtual Private Cloud (VPC) and Amazon
@@ -128,6 +133,7 @@ entries:
     title: Amazon ECS now publishes container health status as a CloudWatch metric
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ecs-container-health-status-metric/
     published: "2026-01-30"
+    fetched: "2026-01-30"
     summary:
       <p><a href="https://aws.amazon.com/ecs/" target="_blank">Amazon Elastic
       Container Service</a> (Amazon ECS) now publishes container health status as
@@ -157,6 +163,7 @@ entries:
     title: Amazon RDS now supports IPv6 for VPC endpoints of RDS Service APIs
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-ipv6-vpc-endpoints-service-apis
     published: "2026-01-30"
+    fetched: "2026-01-30"
     summary:
       <p>Amazon RDS now supports Internet Protocol version 6 (IPv6) for VPC
       endpoints of RDS Service APIs, in addition to the existing IPv6 support for
@@ -179,6 +186,7 @@ entries:
     title: AWS Lambda launches enhanced observability for Kafka event source mappings
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-Lambda-observability-for-kafka-esm/
     published: "2026-01-30"
+    fetched: "2026-01-30"
     summary:
       '<p style="text-align: left;">AWS Lambda launches enhanced observability
       for Kafka event source mappings (ESM) that provides Amazon CloudWatch Logs and
@@ -214,6 +222,7 @@ entries:
     title: Amazon Connect launches improved wait time estimates
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-launches-improved-wait-time/
     published: "2026-01-30"
+    fetched: "2026-01-30"
     summary:
       <p>Amazon Connect now delivers improved estimated wait time metrics for
       queues and enqueued contacts, empowering organizations. This allows contact
@@ -233,6 +242,7 @@ entries:
       powers
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/cloudwatch-application-signals-kiro-powers
     published: "2026-01-30"
+    fetched: "2026-01-30"
     summary:
       "<p>Today, AWS announces <b><b>Amazon CloudWatch Application Signals\
       \ integration with Kiro powers</b></b>, enabling developers and operators to\

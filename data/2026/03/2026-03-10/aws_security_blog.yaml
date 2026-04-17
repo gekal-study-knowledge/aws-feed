@@ -6,6 +6,7 @@ entries:
       environments
     link: https://aws.amazon.com/blogs/security/aws-security-hub-is-expanding-to-unify-security-operations-across-multicloud-environments/
     published: "2026-03-10"
+    fetched: "2026-03-10"
     summary:
       "After talking with many customers, one thing is clear: the security
       challenge has not gotten easier. Enterprises today operate across a complex
@@ -17,6 +18,7 @@ entries:
     title: "Security is a team sport: AWS at RSAC 2026 Conference"
     link: https://aws.amazon.com/blogs/security/security-is-a-team-sport-aws-at-rsac-2026-conference/
     published: "2026-03-10"
+    fetched: "2026-03-10"
     summary:
       The RSAC 2026 Conference brings together thousands of professionals,
       practitioners, vendors, and associations to discuss issues covering the entire
@@ -31,6 +33,7 @@ entries:
       2 and C5 reports plus seven ISO certifications"
     link: https://aws.amazon.com/blogs/security/aws-european-sovereign-cloud-achieves-first-compliance-milestone-soc-2-and-c5-reports-plus-seven-iso-certifications/
     published: "2026-03-10"
+    fetched: "2026-03-10"
     summary:
       In January 2026, we announced the general availability of the AWS European
       Sovereign Cloud, a new, independent cloud for Europe entirely located within

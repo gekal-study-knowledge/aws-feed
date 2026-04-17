@@ -4,6 +4,7 @@ entries:
     title: Amazon WorkSpaces Secure Browser now supports custom domain
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-secure-browser-custom-domains/
     published: "2026-02-06"
+    fetched: "2026-02-06"
     summary:
       <p>Amazon WorkSpaces Secure Browser now supports custom domains for your
       WorkSpaces Secure Browser portals, enabling you to configure portal access through
@@ -31,6 +32,7 @@ entries:
     title: Amazon Connect Cases now supports CSV uploads to map related field options
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-cases-csv-related-field-options
     published: "2026-02-06"
+    fetched: "2026-02-06"
     summary:
       '<p>Amazon Connect Cases now supports using a CSV file to define which
       field options appear based on other field values, making it easier to configure
@@ -50,6 +52,7 @@ entries:
     title: AWS Network Firewall announces new price reductions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-network-firewall-new-price-reduction/
     published: "2026-02-06"
+    fetched: "2026-02-06"
     summary:
       "<p><a href=\"https://aws.amazon.com/network-firewall/\">AWS Network\
       \ Firewall</a> has introduced two pricing improvements for customers. The service\
@@ -86,6 +89,7 @@ entries:
     title: Amazon ECS Managed Instances now available in AWS European Sovereign Cloud
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/ecs-mi-european-sovereign-cloud
     published: "2026-02-06"
+    fetched: "2026-02-06"
     summary:
       <p>Amazon Elastic Container Service (Amazon ECS) Managed Instances is
       now available in the AWS European Sovereign Cloud. ECS Managed Instances is
@@ -115,6 +119,7 @@ entries:
     title: Amazon Bedrock AgentCore Browser now supports browser profiles
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-agentcore-browser-profiles
     published: "2026-02-06"
+    fetched: "2026-02-06"
     summary:
       "<p>Amazon Bedrock AgentCore Browser now supports browser profiles, enabling\
       \ you to reuse authentication state across multiple browser sessions without\
@@ -141,6 +146,7 @@ entries:
     title: AWS Config now supports 30 new resource types
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-config-new-resource-types
     published: "2026-02-06"
+    fetched: "2026-02-06"
     summary:
       "<p>AWS Config now supports 30 additional AWS resource types across key\
       \ services including Amazon EKS, Amazon Q, and AWS IoT. This expansion provides\
@@ -174,6 +180,7 @@ entries:
     title: Amazon ECR now supports additional metrics for monitoring repositories
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ecr-additional-repository-metrics/
     published: "2026-02-06"
+    fetched: "2026-02-06"
     summary:
       <p><a href="https://aws.amazon.com/ecr/"><u>Amazon Elastic Container
       Registry</u></a>&nbsp;(ECR) now enables customers to monitor additional repository

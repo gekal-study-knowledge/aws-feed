@@ -6,6 +6,7 @@ entries:
       Jailer
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-003-aws/
     published: "2026-01-23"
+    fetched: "2026-01-23"
     summary:
       "<p><b>Bulletin ID:</b> 2026-003-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/01/23\

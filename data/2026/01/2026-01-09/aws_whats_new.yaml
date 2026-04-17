@@ -4,6 +4,7 @@ entries:
     title: Announcing larger managed database bundles for Amazon Lightsail
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/larger-managed-database-bundles-lightsail/
     published: "2026-01-09"
+    fetched: "2026-01-09"
     summary:
       <p>Amazon Lightsail now offers two larger database bundles with up to
       8 vCPUs, 32GB memory, and 960GB SSD storage. The new database bundles are available
@@ -24,6 +25,7 @@ entries:
     title: Amazon EMR Serverless adds support for job run level cost allocation
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-emr-serverless-adds-job-run-level
     published: "2026-01-09"
+    fetched: "2026-01-09"
     summary:
       <p><a href="https://aws.amazon.com/emr/serverless/">Amazon EMR Serverless
       </a>now supports job run-level cost allocation that provides better visibility
@@ -55,6 +57,7 @@ entries:
       AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-rds-sql-server-cross-region-read-replica-in-additional-aws-regions/
     published: "2026-01-09"
+    fetched: "2026-01-09"
     summary:
       '<p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for SQL Server</a> now supports setting

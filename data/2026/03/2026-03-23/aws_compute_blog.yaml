@@ -4,5 +4,6 @@
     "title": "Best practices for Lambda durable functions using a fraud detection example"
     "link": "https://aws.amazon.com/blogs/compute/best-practices-for-lambda-durable-functions-using-a-fraud-detection-example/"
     "published": "2026-03-23 22:04:39"
+    "fetched": "2026-03-23 22:04:39"
     "summary": "This post walks through a fraud detection system built with durable functions. It also highlights the best practices that you can apply to your own production workflows, from approval processes to data pipelines to AI agent orchestration."
 "last_updated": "2026-03-24 07:28:44 JST"

@@ -4,6 +4,7 @@ entries:
     title: AWS Batch now provides Job Queue and Share Utilization Visibility
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-batch-provides-job-queue-share-utilization
     published: "2026-02-13"
+    fetched: "2026-02-13"
     summary:
       <p>AWS Batch now provides Queue and Share Utilization Visibility, giving
       you insights into how your workloads are distributed across compute resources.
@@ -32,6 +33,7 @@ entries:
       alerts to business users
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-in-app-notifications
     published: "2026-02-13"
+    fetched: "2026-02-13"
     summary:
       <p>Amazon Connect now supports in-app notifications in the workspace
       header, visible from any page, so your team can stay informed without interrupting
@@ -60,6 +62,7 @@ entries:
       next actions for Tasks
     link: https://aws.amazon.comamazon-connect-tasks-ai-assistance
     published: "2026-02-13"
+    fetched: "2026-02-13"
     summary:
       <p>Amazon Connect now provides AI-powered Task overviews with suggested
       next actions so agents can understand work items faster and resolve them more
@@ -81,6 +84,7 @@ entries:
     title: Amazon RDS now supports backup configuration when restoring snapshots
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/rds-aurora-backup-configuration-restoring-snapshots/
     published: "2026-02-13"
+    fetched: "2026-02-13"
     summary:
       <p>Amazon Relational Database Service (RDS) and Amazon Aurora now offer
       greater flexibility for restore operations to view and modify backup retention
@@ -109,6 +113,7 @@ entries:
     title: Amazon Aurora DSQL adds support for identity columns and sequence objects
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-aurora-dsql-adds-identity-columns-sequence/
     published: "2026-02-13"
+    fetched: "2026-02-13"
     summary:
       <p><a href="https://aws.amazon.com/rds/aurora/dsql/">Amazon Aurora DSQL</a>
       now supports&nbsp;identity columns and&nbsp;sequence objects enabling developers
@@ -125,6 +130,7 @@ entries:
       next actions for Tasks
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/connect-tasks-ai-assistance
     published: "2026-02-13"
+    fetched: "2026-02-13"
     summary:
       <p>Amazon Connect now provides AI-powered Task overviews with suggested
       next actions so agents can understand work items faster and resolve them more
@@ -146,6 +152,7 @@ entries:
     title: Amazon EC2 High Memory U7i instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-highmem-instances-available/
     published: "2026-02-13"
+    fetched: "2026-02-13"
     summary:
       "<p>Amazon EC2 High Memory instances are now available in new regions\
       \ - U7i-6tb.112xlarge instances in AWS South America (Sao Paulo) and Europe\

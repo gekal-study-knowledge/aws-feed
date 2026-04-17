@@ -4,5 +4,6 @@
     "title": "Four security principles for agentic AI systems"
     "link": "https://aws.amazon.com/blogs/security/four-security-principles-for-agentic-ai-systems/"
     "published": "2026-04-02 20:45:09"
+    "fetched": "2026-04-02 20:45:09"
     "summary": "Agentic AI represents a qualitative shift in how software operates. Traditional software executes deterministic instructions. Generative AI responds to human prompts with output that humans review and use at their discretion. Agentic AI differs from both. Agents connect to software tools and APIs and uses large language models (LLMs) as reasoning engines to plan and […]"
 "last_updated": "2026-04-03 06:33:54 JST"

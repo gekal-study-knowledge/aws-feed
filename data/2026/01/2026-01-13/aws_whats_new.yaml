@@ -4,6 +4,7 @@ entries:
     title: Amazon MSK Connect is now available in three additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-msk-connect-additional-aws-regions
     published: "2026-01-13"
+    fetched: "2026-01-13"
     summary:
       '<p>Amazon MSK Connect is now available in three additional AWS Regions:
       Asia Pacific (New Zealand), AWS GovCloud (US-East), and AWS GovCloud (US-West).<br
@@ -30,6 +31,7 @@ entries:
       regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-neptune-database-r7g-r8g-additional-regions
     published: "2026-01-13"
+    fetched: "2026-01-13"
     summary:
       <p><a href="https://aws.amazon.com/neptune/">Amazon Neptune Database</a>
       now supports Graviton3-based R7g and Graviton4-based R8g instances for Amazon
@@ -56,6 +58,7 @@ entries:
       Seoul) regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-x8aedz-instances-asia-pacific-mumbai-seoul-regions
     published: "2026-01-13"
+    fetched: "2026-01-13"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8aedz instances
       are available in Asia Pacific (Mumbai) and Asia Pacific (Seoul) regions. These
@@ -80,6 +83,7 @@ entries:
     title: Amazon Connect Cases now supports AWS CloudFormation
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-aws-cloudformation/
     published: "2026-01-13"
+    fetched: "2026-01-13"
     summary:
       '<p>Amazon Connect Cases now supports AWS CloudFormation, enabling you
       to model, provision, and manage case resources as infrastructure as code. With
@@ -97,6 +101,7 @@ entries:
     title: Amazon Lex launches improved speech recognition models for English
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-lex-improved-speech-recognition-models-english
     published: "2026-01-13"
+    fetched: "2026-01-13"
     summary:
       <p>Amazon Lex now offers a neural automatic speech recognition (ASR)
       model for English that delivers improved recognition accuracy for your voice
@@ -118,6 +123,7 @@ entries:
       and 11.22-rds.20251114
     link: https://aws.amazon.com/about-aws/whats-new/2026/1/amazon-rds-for-postgresql-announces-extended-support-minor-12-22-rds-20251114-and-11-22-rds-20251114
     published: "2026-01-13"
+    fetched: "2026-01-13"
     summary:
       <p>Amazon Relational Database Service (RDS) for PostgreSQL announces
       Amazon RDS Extended Support minor version &nbsp;12.22-rds.20251114 and 11.22-rds.20251114.

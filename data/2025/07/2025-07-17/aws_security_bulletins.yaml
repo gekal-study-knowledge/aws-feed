@@ -4,6 +4,7 @@ entries:
     title: CVE-2025-6031 - Insecure device pairing in end-of-life Amazon Cloud Cam
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-013/
     published: "2025-07-17"
+    fetched: "2025-07-17"
     summary:
       "<p><strong>Scope: Amazon<br /> Content Type: Informational<br /> Publication\
       \ Date: 2025/06/12 10:30 AM PDT</strong></p>\n<p> </p>\n<p><strong>Description</strong></p>\

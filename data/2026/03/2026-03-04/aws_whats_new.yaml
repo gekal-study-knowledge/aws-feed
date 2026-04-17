@@ -4,6 +4,7 @@ entries:
     title: Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-lightsail-openclaw/
     published: "2026-03-04"
+    fetched: "2026-03-04"
     summary:
       <p>Amazon Lightsail now lets you deploy OpenClaw, a private self-hosted
       AI assistant, on your own cloud infrastructure in a simple and secure manner.<br
@@ -30,6 +31,7 @@ entries:
       as a sink
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-ingestion-supports-amazon-managed-service-prometheus-sink
     published: "2026-03-04"
+    fetched: "2026-03-04"
     summary:
       "<p>Amazon OpenSearch Ingestion now supports Amazon Managed Service for\
       \ Prometheus&nbsp; as a sink, making it possible to build fully managed, end-to-end\
@@ -63,6 +65,7 @@ entries:
     title: Amazon GameLift Servers launches DDoS Protection
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-gamelift-servers-ddos-protection/
     published: "2026-03-04"
+    fetched: "2026-03-04"
     summary:
       "<p>We’re excited to announce&nbsp;Amazon GameLift Servers DDoS Protection,\
       \ a new feature&nbsp;that helps game developers protect&nbsp;session-based multiplayer\
@@ -93,6 +96,7 @@ entries:
       OpenTelemetry data
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-opensearch-ingestion-unified-ingestion-endpoint-opentelemetry
     published: "2026-03-04"
+    fetched: "2026-03-04"
     summary:
       <p>Amazon OpenSearch Ingestion now supports a unified ingestion endpoint
       that can accept all three OpenTelemetry observability signals — logs, metrics,
@@ -120,6 +124,7 @@ entries:
     title: AWS simplifies IAM role creation and setup in service workflows
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-simplifies-iam-role-creation-and-setup/
     published: "2026-03-04"
+    fetched: "2026-03-04"
     summary:
       <p><a href="https://aws.amazon.com/iam/">AWS Identity and Access Management
       (IAM)</a> now makes it easier to create and configure IAM roles directly within
@@ -147,6 +152,7 @@ entries:
       Restricted Instance Groups
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-hyperpod-observability-rig/
     published: "2026-03-04"
+    fetched: "2026-03-04"
     summary:
       "<p>Amazon SageMaker HyperPod now offers comprehensive observability\
       \ for Restricted Instance Groups (RIG), enabling teams training foundation models\
@@ -174,6 +180,7 @@ entries:
     title: Amazon EC2 M8g instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8g-instances-africa-cape-town-asia-pacific-malaysia-europe-milan-zurich-canada-west-calgary-regions
     published: "2026-03-04"
+    fetched: "2026-03-04"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances
       are available in Africa (Cape Town), Asia Pacific (Malaysia), Europe (Milan,
@@ -206,6 +213,7 @@ entries:
       CreateSchedule API
     link: https://aws.amazon.com/about-aws/whats-new/2026/2/eventbridge-default-quota-increase/
     published: "2026-03-04"
+    fetched: "2026-03-04"
     summary:
       <p>Amazon EventBridge Scheduler now has a higher default service quota
       for the CreateSchedule API action. The default CreateSchedule request rate quota

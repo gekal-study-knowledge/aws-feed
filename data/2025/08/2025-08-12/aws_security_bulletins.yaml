@@ -4,6 +4,7 @@ entries:
     title: "[Redirected] Memory Dump Issue in AWS CodeBuild"
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-016/
     published: "2025-08-12"
+    fetched: "2025-08-12"
     summary:
       "<p><b>Bulletin ID:</b> AWS-2025-016<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b>&nbsp;2025/07/25\

@@ -4,6 +4,7 @@ entries:
     title: AWS IoT Device Management Commands now supports dynamic payloads
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-iot-device-management-commands-dynamic-payload/
     published: "2025-12-16"
+    fetched: "2025-12-16"
     summary:
       "<p>AWS IoT Device Management commands now supports dynamic payload functionality,\
       \ enabling developers to create reusable command templates with placeholders\

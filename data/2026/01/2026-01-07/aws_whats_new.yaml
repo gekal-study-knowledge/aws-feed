@@ -4,6 +4,7 @@ entries:
     title: AWS simplifies Client VPN onboarding with Quickstart setup
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-client-vpn-onboarding-quickstart-setup
     published: "2026-01-07"
+    fetched: "2026-01-07"
     summary:
       "<p>Today, AWS announces a simplified onboarding experience for AWS Client\
       \ VPN, introducing a new Quickstart setup method that streamlines the process\
@@ -35,6 +36,7 @@ entries:
       Apache Airflow
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/apache-airflow-2-11-support-amazon-managed-workflows/
     published: "2026-01-07"
+    fetched: "2026-01-07"
     summary:
       <p>You can now create Apache Airflow version 2.11 environments on Amazon
       Managed Workflows for Apache Airflow (MWAA). Apache Airflow 2.11 introduces
@@ -60,6 +62,7 @@ entries:
     title: Amazon EC2 I7ie instances now available in additional AWS regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-i7ie-instances-additional-aws-regions/
     published: "2026-01-07"
+    fetched: "2026-01-07"
     summary:
       <p>AWS is announcing starting today, Amazon EC2 I7ie instances are now
       available in AWS Asia Pacific (Mumbai), Canada West (Calgary) and Europe (Paris)
@@ -86,6 +89,7 @@ entries:
       regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-c8i-c8i-flex-instances-additional-aws-regions
     published: "2026-01-07"
+    fetched: "2026-01-07"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
       C8i-flex instances are available in the Asia Pacific (Mumbai), Asia Pacific
@@ -118,6 +122,7 @@ entries:
     title: AWS IAM Identity Center now supports IPv6
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/iam-identity-center-ipv6-dualstack-support/
     published: "2026-01-07"
+    fetched: "2026-01-07"
     summary:
       <p>AWS IAM Identity Center now supports Internet Protocol version 6 (IPv6)
       through new dual-stack endpoints. Customers can now connect to AWS IAM Identity

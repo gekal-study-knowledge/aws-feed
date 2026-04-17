@@ -4,6 +4,7 @@ entries:
     title: Announcing replication support and Intelligent-Tiering for Amazon S3 Tables
     link: https://aws.amazon.com/blogs/aws/announcing-replication-support-and-intelligent-tiering-for-amazon-s3-tables/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       New features enable automatic cost optimization through intelligent storage
       tiering and simplified table replication across AWS Regions and accounts.
@@ -14,6 +15,7 @@ entries:
       prefixes, and export to S3 Tables
     link: https://aws.amazon.com/blogs/aws/amazon-s3-storage-lens-adds-performance-metrics-support-for-billions-of-prefixes-and-export-to-s3-tables/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       New capabilities help optimize application performance, analyze unlimited
       prefixes, and simplify metrics analysis through S3 Tables integration.
@@ -24,6 +26,7 @@ entries:
       deploying trusted AI agents
     link: https://aws.amazon.com/blogs/aws/amazon-bedrock-agentcore-adds-quality-evaluations-and-policy-controls-for-deploying-trusted-ai-agents/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       Deploy AI agents with confidence using new quality evaluations and policy
       controls—enabling precise boundaries on agent actions, continuous quality monitoring,
@@ -35,6 +38,7 @@ entries:
       functions
     link: https://aws.amazon.com/blogs/aws/build-multi-step-applications-and-ai-workflows-with-aws-lambda-durable-functions/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       New Lambda capability lets you build applications that coordinate multiple
       steps reliably over extended periods—from seconds to up to one year—without
@@ -46,6 +50,7 @@ entries:
       for SQL Server and Oracle
     link: https://aws.amazon.com/blogs/aws/amazon-rds-for-oracle-and-rds-for-sql-server-add-new-capabilities-to-enhance-performance-and-optimize-costs/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       Manage development, testing, and production database workloads more efficiently
       with new features including Developer Edition support for SQL Server, M7i/R7i
@@ -55,6 +60,7 @@ entries:
     title: Introducing Database Savings Plans for AWS Databases
     link: https://aws.amazon.com/blogs/aws/introducing-database-savings-plans-for-aws-databases/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       New pricing model helps maintain cost efficiency while providing flexibility
       with database services and deployment options.
@@ -65,6 +71,7 @@ entries:
       operations, security, and compliance
     link: https://aws.amazon.com/blogs/aws/amazon-cloudwatch-introduces-unified-data-management-and-analytics-for-operations-security-and-compliance/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       Reduce data management complexity and costs with automatic normalization
       across sources, native analytics integration, and built-in support for industry-standard
@@ -74,6 +81,7 @@ entries:
     title: New and enhanced AWS Support plans add AI capabilities to expert guidance
     link: https://aws.amazon.com/blogs/aws/new-and-enhanced-aws-support-plans-add-ai-capabilities-to-expert-guidance/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       Prevent cloud infrastructure issues before they impact your business
       with AWS Support plans that combine AI-powered insights with expert guidance,
@@ -86,6 +94,7 @@ entries:
       with GPU acceleration and auto-optimization
     link: https://aws.amazon.com/blogs/aws/amazon-opensearch-service-improves-vector-database-performance-and-cost-with-gpu-acceleration-and-auto-optimization/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       Build and optimize large-scale vector databases up to 10 times faster
       and at a quarter of the cost with new GPU acceleration and auto-optimization
@@ -96,6 +105,7 @@ entries:
     title: Amazon S3 Vectors now generally available with increased scale and performance
     link: https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-generally-available-with-increased-scale-and-performance/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       Scale vector storage and querying to new heights with S3 Vectors' general
       availability—now supporting up to 1 billion vectors per index, 100ms query latencies,
@@ -108,6 +118,7 @@ entries:
       new Mistral Large 3 and Ministral 3 models
     link: https://aws.amazon.com/blogs/aws/amazon-bedrock-adds-fully-managed-open-weight-models/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       Access fully managed foundation models from leading providers like Google,
       Kimi AI, MiniMax AI, Mistral AI, NVIDIA, OpenAI, and Qwen, including the new
@@ -119,6 +130,7 @@ entries:
       for memory-intensive workloads
     link: https://aws.amazon.com/blogs/aws/introducing-amazon-ec2-x8aedz-instances-powered-by-5th-gen-amd-epyc-processors-for-memory-intensive-workloads/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       New memory-optimized instances deliver up to 5 GHz processor speeds and
       3 TiB of memory—ideal for electronic design automation workloads and memory-intensive
@@ -130,6 +142,7 @@ entries:
       reliability (preview)
     link: https://aws.amazon.com/blogs/aws/aws-devops-agent-helps-you-accelerate-incident-response-and-improve-system-reliability-preview/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       New service acts as an always-on DevOps engineer, helping you respond
       to incidents, identify root causes, and prevent future issues through systematic
@@ -139,6 +152,7 @@ entries:
     title: Accelerate AI development using Amazon SageMaker AI with serverless MLflow
     link: https://aws.amazon.com/blogs/aws/accelerate-ai-development-using-amazon-sagemaker-ai-with-serverless-mlflow/
     published: "2025-12-02"
+    fetched: "2025-12-02"
     summary:
       Simplify AI experimentation with zero-infrastructure MLflow that launches
       in minutes, scales automatically, and seamlessly integrates with SageMaker's

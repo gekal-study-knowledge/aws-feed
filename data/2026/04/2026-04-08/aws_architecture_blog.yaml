@@ -4,5 +4,6 @@
     "title": "Build a multi-tenant configuration system with tagged storage patterns"
     "link": "https://aws.amazon.com/blogs/architecture/build-a-multi-tenant-configuration-system-with-tagged-storage-patterns/"
     "published": "2026-04-08 20:00:04"
+    "fetched": "2026-04-08 20:00:04"
     "summary": "In this post, we demonstrate how you can build a scalable, multi-tenant configuration service using the tagged storage pattern, an architectural approach that uses key prefixes (like tenant_config_ or param_config_) to automatically route configuration requests to the most appropriate AWS storage service. This pattern maintains strict tenant isolation and supports real-time, zero-downtime configuration updates through event-driven architecture, alleviating the cache staleness problem."
 "last_updated": "2026-04-09 05:43:01 JST"

@@ -4,6 +4,7 @@ entries:
     title: AWS Builder ID now supports Sign in with Apple
     link: https://aws.amazon.comabout-aws/whats-new/2026/02/aws-builder-id-sign-in-apple
     published: "2026-02-05"
+    fetched: "2026-02-05"
     summary:
       "<div class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode\
       \ usehover\" id=\"WACViewPanel_ClipboardElement\" style=\"overflow: hidden;\
@@ -32,6 +33,7 @@ entries:
       (US-West)
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-u7i-6tb-instances-available/
     published: "2026-02-05"
+    fetched: "2026-02-05"
     summary:
       <p>Amazon EC2 High Memory U7i instances with 6TB of memory (u7i-6tb.112xlarge)
       are now available in AWS GovCloud (US-West). U7i instances are part of AWS 7th
@@ -49,6 +51,7 @@ entries:
     title: Claude Opus 4.6 now available in Amazon Bedrock
     link: https://aws.amazon.com/about-aws/whats-new/2026/2/claude-opus-4.6-available-amazon-bedrock/
     published: "2026-02-05"
+    fetched: "2026-02-05"
     summary:
       <p>Starting today, Amazon Bedrock supports Claude Opus 4.6. According
       to Anthropic, Opus 4.6 is their most intelligent model and the world's best
@@ -78,6 +81,7 @@ entries:
     title: Amazon EC2 G6e instances now available in Dubai region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g6e-instances-dubai-region/
     published: "2026-02-05"
+    fetched: "2026-02-05"
     summary:
       "<p>Starting today, the Amazon EC2 G6e instances powered by NVIDIA L40S\
       \ Tensor Core GPUs is now available in Middle East (UAE) Region. G6e instances\
@@ -103,6 +107,7 @@ entries:
     title: AWS Builder ID now supports Sign in with Apple
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-builder-id-sign-in-apple
     published: "2026-02-05"
+    fetched: "2026-02-05"
     summary:
       "<div class=\"WACEditing EditMode EditingSurfaceBody FireFox WACViewPanel_DisableLegacyKeyCodeAndCharCode\
       \ usehover\" id=\"WACViewPanel_ClipboardElement\" style=\"overflow: hidden;\
@@ -129,6 +134,7 @@ entries:
     title: Amazon WorkSpaces launches Graphics G6, Gr6, and G6f bundles
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-workspaces-personal-core-graphics-g6-gr6-g6f-bundles/
     published: "2026-02-05"
+    fetched: "2026-02-05"
     summary:
       "<p>Today, Amazon WorkSpaces announces the availability of 12 new Graphics\
       \ G6, Gr6, and G6f WorkSpaces bundles built on the Amazon <a href=\"https://aws.amazon.com/ec2/instance-types/g6/?refid=2216ee97-52d4-4886-aa83-21d21672d6ee\"\
@@ -158,6 +164,7 @@ entries:
     title: Amazon EC2 I7ie instances now available in AWS Canada (Central)
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-i7ie-instances-available-aws-canada/
     published: "2026-02-05"
+    fetched: "2026-02-05"
     summary:
       <p>AWS is announcing Amazon EC2 I7ie instances are now available in AWS
       Canada (Central) regions. Designed for large storage I/O intensive workloads,
@@ -181,6 +188,7 @@ entries:
     title: Amazon EC2 capacity blocks for ML can be shared across multiple accounts
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-capacity-blocks-multiple-accounts
     published: "2026-02-05"
+    fetched: "2026-02-05"
     summary:
       "<p>Amazon Web Services (AWS) is announcing the general availability\
       \ of cross-account sharing for Amazon EC2 Capacity Blocks for ML. This capability\
@@ -203,6 +211,7 @@ entries:
     title: AWS Glue launches native REST API connector for universal data integration
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-glue-rest-api-connector
     published: "2026-02-05"
+    fetched: "2026-02-05"
     summary:
       <p>AWS Glue now offers a native REST-based connector that enables customers
       to easily read data from any source with a REST-based API. Customers can now
@@ -229,6 +238,7 @@ entries:
     title: Amazon EC2 G6e instances now available in the UAE region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-g6e-instances-uae-region/
     published: "2026-02-05"
+    fetched: "2026-02-05"
     summary:
       "<p>Starting today, the Amazon EC2 G6e instances powered by NVIDIA L40S\
       \ Tensor Core GPUs is now available in Middle East (UAE) Region. G6e instances\

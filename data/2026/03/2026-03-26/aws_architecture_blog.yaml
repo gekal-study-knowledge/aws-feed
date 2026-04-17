@@ -4,5 +4,6 @@
     "title": "Architecting for agentic AI development on AWS"
     "link": "https://aws.amazon.com/blogs/architecture/architecting-for-agentic-ai-development-on-aws/"
     "published": "2026-03-26 17:29:57"
+    "fetched": "2026-03-26 17:29:57"
     "summary": "In this post, we demonstrate how to architect AWS systems that enable AI agents to iterate rapidly through design patterns for both system architecture and code base structure. We first examine the architectural problems that limit agentic development today. We then walk through system architecture patterns that support rapid experimentation, followed by codebase patterns that help AI agents understand, modify, and validate your applications with confidence."
 "last_updated": "2026-03-27 03:00:22 JST"

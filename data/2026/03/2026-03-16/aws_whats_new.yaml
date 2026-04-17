@@ -6,6 +6,7 @@ entries:
       Configurations
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-for-influxdb-3-multi-node-cluster/
     published: "2026-03-16"
+    fetched: "2026-03-16"
     summary:
       <p>Amazon Timestream for InfluxDB now supports expanded multi-node cluster
       configurations for InfluxDB 3 Enterprise edition, enabling you to scale clusters
@@ -38,6 +39,7 @@ entries:
       email addresses
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-forward-email-contacts/
     published: "2026-03-16"
+    fetched: "2026-03-16"
     summary:
       <p>Amazon Connect now enables agents to forward email contacts to external
       email addresses and distribution lists directly from the Agent workspace and
@@ -56,6 +58,7 @@ entries:
     title: Announcing AWS Partner Central agents to accelerate co-sell
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-partner-central-agents-accelerate-co-sell/
     published: "2026-03-16"
+    fetched: "2026-03-16"
     summary:
       "<p>Today, AWS announces the general availability of AWS Partner Central\
       \ agents, new AI-powered capabilities designed to accelerate partner co-selling\
@@ -85,6 +88,7 @@ entries:
     title: Amazon SimpleDB now supports exporting domain data to Amazon S3
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-simpledb-domain-export-to-amazon-s3/
     published: "2026-03-16"
+    fetched: "2026-03-16"
     summary:
       "<p>Amazon SimpleDB now supports exporting domain data directly to Amazon\
       \ S3 buckets in standard JSON format. Exports run in the background with no\
@@ -107,6 +111,7 @@ entries:
     title: Amazon Neptune now supports reading S3 data using openCyper
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/neptune-read-s3-opencypher/
     published: "2026-03-16"
+    fetched: "2026-03-16"
     summary:
       "<p><a href=\"https://aws.amazon.com/neptune/\" target=\"_blank\">Amazon\
       \ Neptune</a>&nbsp;now supports reading data from Amazon S3 within openCypher\
@@ -130,6 +135,7 @@ entries:
       utilization
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-hyperpod-idle-resource-sharing/
     published: "2026-03-16"
+    fetched: "2026-03-16"
     summary:
       '<p>Amazon SageMaker HyperPod task governance now supports dynamic resource
       sharing, allowing teams to borrow unallocated compute capacity in HyperPod clusters
@@ -166,6 +172,7 @@ entries:
       enablement
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-org-enablement-ec2-metrics/
     published: "2026-03-16"
+    fetched: "2026-03-16"
     summary:
       "<p>Amazon CloudWatch now allows customers to automatically enable Amazon\
       \ Elastic Compute Cloud (EC2) detailed monitoring across their AWS Organization.\
@@ -189,6 +196,7 @@ entries:
     title: Amazon CloudWatch Logs now supports log ingestion using HTTP-based protocol
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-http-log-collector/
     published: "2026-03-16"
+    fetched: "2026-03-16"
     summary:
       "<p>Amazon CloudWatch Logs now supports HTTP Log Collector (HLC), ND-JSON,\
       \ Structured JSON and OTEL for&nbsp;sending logs using HTTP-based protocol with\

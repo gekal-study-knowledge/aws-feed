@@ -6,6 +6,7 @@ entries:
       testing"
     link: https://aws.amazon.com/blogs/security/inside-aws-security-agent-a-multi-agent-architecture-for-automated-penetration-testing/
     published: "2026-02-26"
+    fetched: "2026-02-26"
     summary:
       "AI agents have traditionally faced three core limitations: they can’t
       retain learned information or operate autonomously beyond short periods, and
@@ -20,6 +21,7 @@ entries:
       with no findings
     link: https://aws.amazon.com/blogs/security/aws-successfully-completed-its-first-surveillance-audit-for-iso-420012023-with-no-findings/
     published: "2026-02-26"
+    fetched: "2026-02-26"
     summary:
       "In November 2024, Amazon Web Services (AWS) was the first major cloud
       service provider to announce the ISO/IEC 42001 accredited certification for

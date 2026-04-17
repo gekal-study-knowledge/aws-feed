@@ -4,6 +4,7 @@ entries:
     title: CVE-2025-9039 - Issue with Amazon ECS agent introspection server
     link: https://aws.amazon.com/security/security-bulletins/rss/aws-2025-018/
     published: "2025-08-14"
+    fetched: "2025-08-14"
     summary:
       "<p><b>Bulletin ID:</b> AWS-2025-018<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2025/08/14\

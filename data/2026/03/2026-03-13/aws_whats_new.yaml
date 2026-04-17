@@ -4,6 +4,7 @@ entries:
     title: AWS Network Firewall Launch in the AWS European Sovereign Cloud
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/network-firewall-european-sovereign-cloud-region/
     published: "2026-03-13"
+    fetched: "2026-03-13"
     summary:
       <p>Starting today, AWS Network Firewall is available in the AWS European
       Sovereign Cloud. With this launch, European customers, particularly those in
@@ -27,6 +28,7 @@ entries:
     title: AWS Lambda Managed Instances now supports Rust
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-lambda-managed-instances-rust/
     published: "2026-03-13"
+    fetched: "2026-03-13"
     summary:
       <p>AWS Lambda Managed Instances now supports Rust, enabling developers
       to run high-performance Rust-based functions on Lambda-managed Amazon EC2 instances
@@ -52,6 +54,7 @@ entries:
     title: Accelerate serverless application development with new SAM Kiro power
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-sam-kiro-power/
     published: "2026-03-13"
+    fetched: "2026-03-13"
     summary:
       "<p>AWS announces the AWS Serverless Application Model (SAM)&nbsp;Kiro\
       \ power, bringing serverless application development&nbsp;expertise&nbsp;to\
@@ -83,6 +86,7 @@ entries:
       Africa (Cape Town) region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-msk-standardm7g-cpt-region/
     published: "2026-03-13"
+    fetched: "2026-03-13"
     summary:
       "<p>You can now create provisioned&nbsp;<a href=\"https://aws.amazon.com/msk/\"\
       >Amazon Managed Streaming for Apache Kafka (Amazon MSK)</a>&nbsp;clusters with\
@@ -98,6 +102,7 @@ entries:
     title: Amazon CloudWatch Application Signals adds new SLO capabilities
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-application-signals-adds-slo-capabilities/
     published: "2026-03-13"
+    fetched: "2026-03-13"
     summary:
       '<p>Amazon CloudWatch Application Signals now offers three new console
       based capabilities for Service Level Objectives (SLOs): SLO Recommendations,
@@ -131,6 +136,7 @@ entries:
     title: Amazon EC2 R8a instances are now available in Asia Pacific (Tokyo) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-r8a-instances-tokyo/
     published: "2026-03-13"
+    fetched: "2026-03-13"
     summary:
       <p>Starting today, Amazon EC2 R8a instances are now available in Asia
       Pacific (Tokyo) Region. These instances, feature 5th Gen AMD EPYC processors
@@ -157,6 +163,7 @@ entries:
     title: Amazon EC2 M8azn instances are now available in US East (Ohio) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-m8azn-instances-ohio/
     published: "2026-03-13"
+    fetched: "2026-03-13"
     summary:
       <p>Starting today, Amazon EC2 M8azn instances are now available in US
       East (Ohio) Region. These general purpose high-frequency high-network instances
@@ -185,6 +192,7 @@ entries:
       AWS GovCloud (US-West)
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ec2-hpc8a-additional-regions/
     published: "2026-03-13"
+    fetched: "2026-03-13"
     summary:
       <p>Starting today, Amazon EC2 Hpc8a instances are available in Asia Pacific
       (Tokyo) and AWS GovCloud (US-West) regions. These instances are powered by 5th
@@ -209,6 +217,7 @@ entries:
     title: Amazon Bedrock AgentCore Runtime now supports the AG-UI protocol
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-bedrock-agentcore-runtime-ag-ui-protocol/
     published: "2026-03-13"
+    fetched: "2026-03-13"
     summary:
       "<p>Amazon Bedrock AgentCore Runtime now supports the Agent-User Interaction\
       \ (AG-UI) protocol, enabling developers to deploy AG-UI servers that deliver\
@@ -237,6 +246,7 @@ entries:
     title: AWS Security Agent now available with Service Quotas
     link: https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-agent-available-with-service/
     published: "2026-03-13"
+    fetched: "2026-03-13"
     summary:
       "<p>Amazon Security Agent now supports AWS Service Quotas, giving users\
       \ a centralized way to view applied limits, monitor utilization, and scale case\

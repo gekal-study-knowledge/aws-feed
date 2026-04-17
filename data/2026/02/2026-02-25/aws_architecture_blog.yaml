@@ -4,5 +4,6 @@
     "title": "6,000 AWS accounts, three people, one platform: Lessons learned"
     "link": "https://aws.amazon.com/blogs/architecture/6000-aws-accounts-three-people-one-platform-lessons-learned/"
     "published": "2026-02-25 19:47:07"
+    "fetched": "2026-02-25 19:47:07"
     "summary": "This post describes why ProGlove chose a account-per-tenant approach for our serverless SaaS architecture and how it changes the operational model. It covers the challenges you need to anticipate around automation, observability and cost. We will also discuss how the approach can affect other operational models in different environments like an enterprise context."
 "last_updated": "2026-03-21 16:29:24 JST"

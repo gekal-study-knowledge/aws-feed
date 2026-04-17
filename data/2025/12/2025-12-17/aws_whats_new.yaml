@@ -4,6 +4,7 @@ entries:
     title: AWS Databases are now available on the Vercel Marketplace
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-databases-are-available-on-the-vercel/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       '<p>Today, AWS Databases including Amazon Aurora PostgreSQL, Amazon Aurora
       DSQL, and Amazon DynamoDB are generally available on the Vercel Marketplace,
@@ -34,6 +35,7 @@ entries:
     title: "Now generally available: Amazon EC2 M8gn and M8gb instances"
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/generally-available-amazon-ec2-m8gn-m8gb-instances
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       "<p>Today, AWS announces the general availability of the new Amazon Elastic\
       \ Compute Cloud (Amazon EC2) M8gn and M8gb instances. These instances are powered\
@@ -68,6 +70,7 @@ entries:
       metrics
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-workspaces-applications-health-performance-metrics
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       "<p>Today, Amazon WorkSpaces Applications announced a new set of Amazon\
       \ CloudWatch metrics for monitoring the health and performance of fleets, sessions,\
@@ -95,6 +98,7 @@ entries:
       environment
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-aurora-postgresql-18-1-rds-database-preview
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       <p>Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL
       version 18.1 in the <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/create-db-instance-in-preview-environment.html"
@@ -125,6 +129,7 @@ entries:
     title: Amazon EC2 C8g, M8g, R8g instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-c8g-m8g-r8g-instances-additional-regions
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g and
       M8g instances are available in AWS GovCloud (US-West) and R8g and M8g instances
@@ -158,6 +163,7 @@ entries:
       Endpoint
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ecr-public-privatelink-us-east-n-virginia-sdk-endpoint
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       "<p>Amazon Elastic Container Registry (ECR) Public now supports PrivateLink\
       \ for the US East (N. Virginia) SDK endpoint, providing enhanced network security\
@@ -180,6 +186,7 @@ entries:
       an Auto Scaling group
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-auto-scaling-synchronous-api-launch-instances-auto-scaling-group
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       <p>Today, EC2 Auto Scaling is launching a new API, LaunchInstances, which
       gives customers more control and flexibility over how EC2 Auto Scaling provisions
@@ -209,6 +216,7 @@ entries:
     title: Amazon EC2 C8g instances now available in Europe (Zurich)
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-c8g-instances-europe-zurich
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       <p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8g instances
       are available in AWS Europe (Zurich) region. These instances are powered by
@@ -237,6 +245,7 @@ entries:
     title: Amazon OpenSearch Service announces new OI2 instances
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-opensearch-service-oi2-instances/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       "<p>Amazon OpenSearch Service introduces OI2 instances, expanding the\
       \ OpenSearch Optimized Instance family. The new OI2 instances delivers up to\
@@ -262,6 +271,7 @@ entries:
     title: AWS announces enhanced custom line item controls for AWS Billing Conductor
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/enhanced-custom-line-item-controls-aws-billing-conductor
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       <p>Starting today, AWS Billing Conductor customers gain greater flexibility
       when using custom line items. Customers can now create service-specific custom
@@ -289,6 +299,7 @@ entries:
     title: Amazon EC2 M8g instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-m8g-additional-regions/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M8g instances
       are available in Asia Pacific (Thailand, Jakarta, Melbourne), and AWS Middle
@@ -321,6 +332,7 @@ entries:
     title: Amazon EC2 R8g instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-r8g-instances-additional-regions/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) R8g instances
       are available in AWS Europe (Paris), and Asia Pacific (Hyderabad) regions. These
@@ -354,6 +366,7 @@ entries:
     title: Amazon OpenSearch Service now offers a new multi-tier storage
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/writeable-warm-tier-opensearch-optimized-instances/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       "<p>Amazon OpenSearch Service now offers a new multi-tier storage option\
       \ powered by OpenSearch Optimized Instances. This new architecture combines\
@@ -384,6 +397,7 @@ entries:
     title: AWS Security Incident Response is now available in ten additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/security-incident-response-ten-regions/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       '<p><a contenteditable="false" href="https://aws.amazon.com/security-incident-response/"
       style="cursor: pointer;">AWS Security Incident Response</a> is now available
@@ -413,6 +427,7 @@ entries:
       Europe(Paris)
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-available-in-hyderabad-paris/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       '<p><a href="https://aws.amazon.com/payment-cryptography/">AWS Payment
       Cryptography</a> has expanded its global presence with availability in two new
@@ -442,6 +457,7 @@ entries:
       tiered key pricing
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-lower-pricing/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       <p>Today, <a href="https://aws.amazon.com/payment-cryptography/" target="_blank">AWS
       Payment Cryptography</a> announced a significant price reduction of up to 63%
@@ -473,6 +489,7 @@ entries:
     title: AWS Marketplace now supports mandatory purchase orders and custom messaging
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-marketplace-mandatory-purchase-orders-custom-messaging
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       '<p>AWS Marketplace now supports mandatory purchase order requirements
       and custom messaging at the time of purchase, allowing organizations to strengthen
@@ -503,6 +520,7 @@ entries:
       Region
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-iam-identity-center-asia-pacific-taipei-region/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       <p>You can now deploy AWS IAM Identity Center in 37 AWS Regions, including
       Asia Pacific (Taipei).<br /> <br /> IAM Identity Center is the recommended service
@@ -523,6 +541,7 @@ entries:
       (Singapore) Region
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/ec2-c8i-c8i-flex-instances-singapore-region/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       '<p>Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i and
       C8i-flex instances are available in the Asia Pacific (Singapore) region. These
@@ -555,6 +574,7 @@ entries:
     title: AWS Payment Cryptography is now available in Sydney with AS2805 support
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/aws-payment-cryptography-in-sydney/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       '<p>Today, <a href="https://aws.amazon.com/payment-cryptography/" target="_blank">AWS
       Payment Cryptography</a> has expanded to Australia (Sydney) Region, and now
@@ -585,6 +605,7 @@ entries:
       mode supporting IPV6
     link: https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-redshift-serverless-announces-dual-stack-mode-ipv6/
     published: "2025-12-17"
+    fetched: "2025-12-17"
     summary:
       "<p>Amazon Redshift Serverless announces the general availability of\
       \ dual-stack mode that supports Internet Protocol version 6 (IPv6). This enhancement\

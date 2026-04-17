@@ -4,6 +4,7 @@ entries:
     title: Amazon S3 Storage Lens is now available in AWS GovCloud (US) Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/s3-storage-lens-aws-govcloud-us-regions/
     published: "2026-01-16"
+    fetched: "2026-01-16"
     summary:
       <p>Amazon S3 Storage Lens provides organization-wide visibility into
       your storage usage and activity. S3 Storage Lens is now available in AWS GovCloud
@@ -32,6 +33,7 @@ entries:
     title: Amazon MWAA now available in additional Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-mwaa-additional-region
     published: "2026-01-16"
+    fetched: "2026-01-16"
     summary:
       <p>Amazon Managed Workflows for Apache Airflow (MWAA) is now available
       in AWS Region&nbsp;Asia Pacific (Thailand).<br /> <br /> Amazon MWAA is a managed
@@ -51,6 +53,7 @@ entries:
     title: AWS Outposts racks support multiple LGW routing domains
     link: https://aws.amazon.comabout-aws/whats-new/2026/01/aws-outposts-multiple-lgw-routing-domain
     published: "2026-01-16"
+    fetched: "2026-01-16"
     summary:
       <p>AWS Outposts racks now support multiple local gateway (LGW) routing
       domains, enabling you to create up to 10 isolated routing domains per Outpost,
@@ -76,6 +79,7 @@ entries:
       Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/second-generation-aws-outposts-racks-additional-aws-regions
     published: "2026-01-16"
+    fetched: "2026-01-16"
     summary:
       <p>Second-generation AWS Outposts racks are now supported in the South
       America (Sao Paulo) and Europe (Stockholm) Regions. Outposts racks extend AWS
@@ -101,6 +105,7 @@ entries:
     title: AWS Outposts racks support multiple LGW routing domains
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-outposts-multiple-lgw-routing-domain
     published: "2026-01-16"
+    fetched: "2026-01-16"
     summary:
       <p>AWS Outposts racks now support multiple local gateway (LGW) routing
       domains, enabling you to create up to 10 isolated routing domains per Outpost,
@@ -126,6 +131,7 @@ entries:
       4.5
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-bedrock-reserved-tier-claude-opus-haiku/
     published: "2026-01-16"
+    fetched: "2026-01-16"
     summary:
       <p>Today, Amazon Bedrock announces the expansion of the Reserved service
       tier designed for workloads requiring predictable performance and guaranteed
@@ -155,6 +161,7 @@ entries:
     title: Amazon EC2 High Memory U7i instances now available in additional regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec-high-memory-ui-instances-additional-regions/
     published: "2026-01-16"
+    fetched: "2026-01-16"
     summary:
       "<p>Amazon EC2 High Memory U7i instances are available in new regions.\
       \ U7i-6tb.112xlarge instances are now available in AWS Asia Pacific (Thailand,\

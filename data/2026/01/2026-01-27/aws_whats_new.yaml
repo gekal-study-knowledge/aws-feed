@@ -4,6 +4,7 @@ entries:
     title: AWS Marketplace expands AMI self-service listing experience to FPGA products
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-marketplace-expands-ami-self-service-listing-experience-to-fpga-products
     published: "2026-01-27"
+    fetched: "2026-01-27"
     summary:
       <p>AWS Marketplace now offers a self-service listing experience for sellers
       listing Amazon Machine Image (AMI) products with FPGA (Field Programmable Gate
@@ -27,6 +28,7 @@ entries:
     title: Amazon WorkSpaces announces advanced printer redirection
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-workspaces-advanced-printer-redirection/
     published: "2026-01-27"
+    fetched: "2026-01-27"
     summary:
       "<p>AWS announces advanced printer redirection for Amazon WorkSpaces\
       \ Personal, enabling Windows users to access the full feature set of their printers\
@@ -60,6 +62,7 @@ entries:
       with Web category-based filtering
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-network-firewall-web-category-based-filtering
     published: "2026-01-27"
+    fetched: "2026-01-27"
     summary:
       <p>AWS Network Firewall now provides visibility into generative AI (GenAI)
       application traffic and supports traffic filtering based on web categories.
@@ -86,6 +89,7 @@ entries:
     title: AWS Deadline Cloud now supports editing job name and description
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-deadline-cloud-editing-job-name-description/
     published: "2026-01-27"
+    fetched: "2026-01-27"
     summary:
       <p>AWS Deadline Cloud now supports editing job names and descriptions
       after submission. This new feature makes it easier to organize and identify
@@ -104,6 +108,7 @@ entries:
     title: Amazon Connect now supports granular access controls for cases
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-connect-cases-granular-access-controls/
     published: "2026-01-27"
+    fetched: "2026-01-27"
     summary:
       '<p>Amazon Connect now enables you to apply tag-based access control
       to cases, giving administrators more control over who can view and manage case
@@ -126,6 +131,7 @@ entries:
       database instances in additional AWS Regions
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-product-generally-available-rds-r6id-r6gd-expansion
     published: "2026-01-27"
+    fetched: "2026-01-27"
     summary:
       <p>AWS memory optimized R6id database instances are now generally available
       for Amazon RDS for PostgreSQL, MySQL, and MariaDB in the Tel Aviv region. R6gd

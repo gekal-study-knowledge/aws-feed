@@ -6,6 +6,7 @@ entries:
       model in AWS GovCloud (US)
     link: https://aws.amazon.comabout-aws/whats-new/2026/02/amazon-bedrock-increases-default-sonnet-4.5-quotas-aws-govcloud-us
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       <p>Amazon Bedrock has increased the default quotas for Anthropic’s Claude
       Sonnet 4.5 in AWS GovCloud (US-West) and AWS GovCloud (US-East) to 5,000,000
@@ -21,6 +22,7 @@ entries:
       languages
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/ai-troubleshooting-in-aws-support-center/
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       "<p>AI troubleshooting in the AWS Support Center Console is now available
       in seven languages in addition to English: Japanese, Korean, Mandarin (Simplified),
@@ -48,6 +50,7 @@ entries:
       and 14.21
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/rds-minor-version-18-2-17-8-16-12-15-16-14-21
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       "<p><a href=\"https://aws.amazon.com/rds/postgresql/\" target=\"_blank\"\
       >Amazon Relational Database Service (RDS)</a> for PostgreSQL now supports the\
@@ -76,6 +79,7 @@ entries:
     title: Announcing new Amazon EC2 general purpose M8azn instances
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-m8azn-instances-generally-available
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       '<p>AWS is announcing the general availability of new Amazon EC2 M8azn
       instances, general purpose high-frequency high-network instances powered by
@@ -107,6 +111,7 @@ entries:
       API
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/s3-tables-partition-and-sort-order-createtable-api/
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       <p>Amazon S3 Tables announce partition and sort order definition support
       for the CreateTable API. This enhancement simplifies setting these properties
@@ -128,6 +133,7 @@ entries:
       vaults
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-backup-adds-cross-region-database-snapshot-logically-air-gapped-vaults/
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       "<p>AWS Backup now supports single-action database snapshot copies to\
       \ logically air-gapped vaults across AWS Regions. This capability is available\
@@ -154,6 +160,7 @@ entries:
       AWS Outposts racks
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-c8i-m8i-and-r8i-instances-on-aws-outposts/
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       <p>AWS is announcing local support for the latest generation of x86-powered
       Amazon EC2 instances on second-generation AWS Outposts racks, including C8i
@@ -183,6 +190,7 @@ entries:
       (Sydney)
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-support-latest-open-weight-models-asia-pacific-sydney/
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       "<p>Amazon Bedrock is a fully managed service that provides secure, enterprise-grade\
       \ access to high-performing foundation models from leading AI companies, enabling\
@@ -210,6 +218,7 @@ entries:
       Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-s3-access-grants-are-available-in-taipei
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       "<p>You can now create Amazon S3 Access Grants in the AWS Asia Pacific\
       \ (Taipei) Region.</p> \n<p>Amazon S3 Access Grants map identities in directories\
@@ -226,6 +235,7 @@ entries:
     title: Amazon Bedrock expands support for AWS PrivateLink
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-expands-aws-privatelink-support-openai-api-endpoints/
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       "<p>Amazon Bedrock is a fully managed service that provides secure, enterprise-grade\
       \ access to high-performing foundation models from leading AI companies. It\
@@ -255,6 +265,7 @@ entries:
     title: AWS expands Resource Control Policies support to Amazon DynamoDB
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-expands-resource-control-policies-amazon
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       "<p>AWS Resource Control Policies (RCPs)&nbsp;now&nbsp;support&nbsp;<a\
       \ href=\"https://aws.amazon.com/dynamodb/?trk=292f3097-d805-46ec-9150-f185787f6c21&amp;trk=292f3097-d805-46ec-9150-f185787f6c21&amp;sc_channel=ps&amp;sc_channel=ps&amp;ef_id=EAIaIQobChMIhpqQ-oHDkgMVmTStBh0g5wH3EAAYASAAEgI5QfD_BwE:G:s&amp;s_kwcid=AL!4422!3!651751059996!e!!g!!amazon%20dynamodb!19852662209!145019198137&amp;gclid=EAIaIQobChMIhpqQ-oHDkgMVmTStBh0g5wH3EAAYASAAEgI5QfD_BwE\"\
@@ -279,6 +290,7 @@ entries:
       model in AWS GovCloud (US)
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-bedrock-s4.5-quota-aws-govcloud-us
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       <p>Amazon Bedrock has increased the default quotas for Anthropic’s Claude
       Sonnet 4.5 in AWS GovCloud (US-West) and AWS GovCloud (US-East) to 5,000,000
@@ -294,6 +306,7 @@ entries:
       Server
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-supports-latest-cumulative-update-cu23-for-microsoft-sql-server
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       <p><a href="https://aws.amazon.com/rds/sqlserver/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for SQL Server </a>now supports the
@@ -309,6 +322,7 @@ entries:
     title: Amazon Connect  launches granular access controls for analytics dashboards
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-launches-granular-access
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       "<p>Amazon Connect dashboards now provides granular access controls for\
       \ analytics dashboards. This enables you to apply resource tags that control\
@@ -329,6 +343,7 @@ entries:
     title: Amazon EC2 X8i instances are now available in Europe (Stockholm)
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-ec2-x8i-instances-ARN-region/
     published: "2026-02-12"
+    fetched: "2026-02-12"
     summary:
       '<p>Amazon Web Services (AWS) is announcing the general availability
       of Amazon EC2 X8i instances, next-generation memory optimized instances powered

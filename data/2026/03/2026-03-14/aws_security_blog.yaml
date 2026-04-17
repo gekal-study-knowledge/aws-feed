@@ -6,6 +6,7 @@ entries:
       with IAM Identity Center
     link: https://aws.amazon.com/blogs/security/deploy-aws-applications-and-access-aws-accounts-across-multiple-regions-with-iam-identity-center/
     published: "2026-03-14"
+    fetched: "2026-03-14"
     summary:
       If your organization relies on AWS IAM Identity Center for workforce
       access, you can now extend that access across multiple AWS Regions with multi-Region

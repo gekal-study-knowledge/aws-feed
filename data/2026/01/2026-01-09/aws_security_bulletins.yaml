@@ -4,6 +4,7 @@ entries:
     title: CVE-2026-0830 - Command Injection in Kiro GitLab Merge Request Helper
     link: https://aws.amazon.com/security/security-bulletins/rss/2026-001-aws/
     published: "2026-01-09"
+    fetched: "2026-01-09"
     summary:
       "<p><b>Bulletin ID:</b> 2026-001-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content\
       \ Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/01/09\

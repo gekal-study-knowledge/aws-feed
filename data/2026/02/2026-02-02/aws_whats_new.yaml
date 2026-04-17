@@ -4,6 +4,7 @@ entries:
     title: AWS HealthImaging adds JPEG XL support
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-healthimaging-adds-jpeg-xl
     published: "2026-02-02"
+    fetched: "2026-02-02"
     summary:
       "<p>AWS HealthImaging now supports storing and retrieving lossy compressed\
       \ medical images in the JPEG XL transfer syntax (1.2.840.10008.1.2.4.112). It\
@@ -19,6 +20,7 @@ entries:
     title: AWS announces Flexible Cost Allocation in AWS GovCloud (US)
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-flexible-cost-allocation-govcloud/
     published: "2026-02-02"
+    fetched: "2026-02-02"
     summary:
       <p><a href="https://aws.amazon.com/network-firewall/">AWS Network Firewall
       </a>now supports flexible cost allocation through <a href="https://aws.amazon.com/transit-gateway/">AWS
@@ -45,6 +47,7 @@ entries:
     title: Amazon Connect now provides APIs to test and simulate voice interactions
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-connect-provides-apis-test-simulate-voice-interactions/
     published: "2026-02-02"
+    fetched: "2026-02-02"
     summary:
       "<p>Amazon Connect now offers APIs to configure and run tests that simulate\
       \ contact center experiences, making it easy to validate workflows, self-service\
@@ -74,6 +77,7 @@ entries:
       on SageMaker JumpStart
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/new-models-on-sagemaker-jumpstart
     published: "2026-02-02"
+    fetched: "2026-02-02"
     summary:
       <p>Today, AWS announced the availability of DeepSeek OCR, MiniMax M2.1,
       and Qwen3-VL-8B-Instruct in Amazon SageMaker JumpStart, expanding the portfolio
@@ -103,6 +107,7 @@ entries:
     title: Announcing memory-optimized instance bundles for Amazon Lightsail
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-lightsail-memory-optimized-instances/
     published: "2026-02-02"
+    fetched: "2026-02-02"
     summary:
       <p>Amazon Lightsail now offers memory-optimized instance bundles with
       up to 512 GB memory. The new instance bundles are available in 7 sizes, with
@@ -126,6 +131,7 @@ entries:
       from Google, GitHub, CircleCI and OCI
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-sts-supports-validation-identity-provider-claims
     published: "2026-02-02"
+    fetched: "2026-02-02"
     summary:
       <p>AWS Security Token Service (STS) now supports validation of select
       identity provider specific claims from Google, GitHub, CircleCI and Oracle Cloud
@@ -143,6 +149,7 @@ entries:
     title: Amazon CloudFront announces mutual TLS support for origins
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-mutual-tls-for-origins/
     published: "2026-02-02"
+    fetched: "2026-02-02"
     summary:
       <p>Amazon CloudFront announces support for mutual TLS authentication
       (mTLS) for origins, a security protocol that enables customers to verify that
@@ -178,6 +185,7 @@ entries:
       voting
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/aws-multi-party-approval-requires-one-time-password-verification-for-voting
     published: "2026-02-02"
+    fetched: "2026-02-02"
     summary:
       <p>AWS Multi-Party Approval now requires approvers to verify their voting
       actions with a one-time password (OTP) sent to their registered AWS Identity
@@ -201,6 +209,7 @@ entries:
       NIMs on SageMaker JumpStart
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/accelerate-biosciences-and-robotics-with-NVIDIA-NIMs-on-sagemaker-jumpstart
     published: "2026-02-02"
+    fetched: "2026-02-02"
     summary:
       "<p>Amazon SageMaker JumpStart now enables one-click deployment of four\
       \ NVIDIA NIMs models purpose-built for biosciences and physical AI: ProteinMPNN,\
@@ -245,6 +254,7 @@ entries:
     title: Amazon RDS for MySQL now supports new minor versions 8.0.45 and 8.4.8
     link: https://aws.amazon.com/about-aws/whats-new/2026/02/amazon-rds-mysql-minor-versions/
     published: "2026-02-02"
+    fetched: "2026-02-02"
     summary:
       <p><a href="https://aws.amazon.com/rds/mysql/" target="_blank">Amazon
       Relational Database Service (Amazon RDS) for MySQL</a> now supports MySQL minor

@@ -4,6 +4,7 @@ entries:
     title: Introducing account regional namespaces for Amazon S3 general purpose buckets
     link: https://aws.amazon.com/blogs/aws/introducing-account-regional-namespaces-for-amazon-s3-general-purpose-buckets/
     published: "2026-03-12"
+    fetched: "2026-03-12"
     summary:
       AWS launches a new feature of Amazon S3 that lets you create general
       purpose buckets in your own account regional namespace simplifying bucket creation

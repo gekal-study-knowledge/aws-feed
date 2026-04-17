@@ -4,6 +4,7 @@ entries:
     title: How to get started with security response automation on AWS
     link: https://aws.amazon.com/blogs/security/how-get-started-security-response-automation-aws/
     published: "2026-01-29"
+    fetched: "2026-01-29"
     summary:
       At AWS, we encourage you to use automation. Not just to deploy your workloads
       and configure services, but to also help you quickly detect and respond to security

@@ -4,6 +4,7 @@ entries:
     title: Amazon EC2 G5 instances are now available in Asia Pacific (Hong Kong) Region
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-ec2-g5-now-available-asia-pacific-hong-kong
     published: "2026-01-05"
+    fetched: "2026-01-05"
     summary:
       "<p>Starting today, the Amazon Elastic Compute Cloud (Amazon EC2) G5\
       \ instances powered by NVIDIA A10G Tensor Core GPUs are now available in the\
@@ -29,6 +30,7 @@ entries:
       Region.
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-resource-explorer-aws-asia-pacific-new-zealand/
     published: "2026-01-05"
+    fetched: "2026-01-05"
     summary:
       <p>Today, AWS Resource Explorer has expanded the availability of resource
       search and discovery to the Asia Pacific (New Zealand) Region.<br /> <br />
@@ -50,6 +52,7 @@ entries:
       region
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-transfer-family-asia-pacific-new-zealand-region
     published: "2026-01-05"
+    fetched: "2026-01-05"
     summary:
       <p>Customers in AWS Asia Pacific (New Zealand) Region can now use AWS
       Transfer Family for file transfers over Secure File Transfer Protocol (SFTP),
@@ -69,6 +72,7 @@ entries:
     title: EC2 Capacity Manager now includes Spot interruption metrics
     link: https://aws.amazon.com/about-aws/whats-new/2026/01/ec2-capacity-manager-spot-interruption-metrics/
     published: "2026-01-05"
+    fetched: "2026-01-05"
     summary:
       '<p>Today, AWS announces new Spot interruption metrics for Amazon EC2
       Capacity Manager that allow you to better understand Spot capacity across your
