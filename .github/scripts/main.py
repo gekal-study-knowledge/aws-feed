@@ -124,6 +124,7 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[
     entries_by_date = {}
     updated_dates = set()
 
+    fetched_at = get_jst_now().strftime('%Y-%m-%d %H:%M:%S')
     for entry in feed.entries:
         entry_id = generate_entry_id(entry)
 
@@ -135,6 +136,7 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[
                 'title': entry.get('title', ''),
                 'link': entry.get('link', ''),
                 'published': entry_datetime.strftime('%Y-%m-%d %H:%M:%S'),
+                'fetched': fetched_at,
                 'summary': entry.get('summary', '') or entry.get('description', '')
             }
 
