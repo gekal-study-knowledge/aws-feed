@@ -257,7 +257,12 @@ def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, A
                     else:
                         published = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 
-                f.write(f"- **Published**: {published}\n\n")
+                f.write(f"- **Published**: {published}\n")
+
+                fetched = entry.get('fetched', '')
+                if fetched:
+                    f.write(f"- **Fetched**: {fetched}\n")
+                f.write("\n")
                 if entry.get('summary'):
                     f.write(f"{entry['summary']}\n\n")
 
