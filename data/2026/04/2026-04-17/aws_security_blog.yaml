@@ -1,0 +1,9 @@
+"entries":
+  "99c1283622cdbc4b9962eadb32f9ced5":
+    "id": "99c1283622cdbc4b9962eadb32f9ced5"
+    "title": "Transform security logs into OCSF format using a configuration-driven ETL solution"
+    "link": "https://aws.amazon.com/blogs/security/transform-security-logs-into-ocsf-format-using-a-configuration-driven-etl-solution/"
+    "published": "2026-04-17 16:30:57"
+    "fetched": "2026-04-18 01:56:10"
+    "summary": "Security logs capture essential security-related activities, such as user sign-ins, file access, network traffic, and application usage. These logs are important for monitoring, detecting, and responding to potential security events. The Open Cybersecurity Schema Framework (OCSF) addresses this challenge by providing a standardized format to represent security events, ensuring consistent and efficient data handling across […]"
+"last_updated": "2026-04-18 01:56:10 JST"
