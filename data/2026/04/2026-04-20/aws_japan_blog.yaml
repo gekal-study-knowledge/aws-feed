@@ -1,0 +1,30 @@
+"entries":
+  "cba9ab810d00761bc4616284efc85734":
+    "id": "cba9ab810d00761bc4616284efc85734"
+    "title": "Amazon Bedrock での Anthropic の Claude Opus 4.7 モデルのご紹介"
+    "link": "https://aws.amazon.com/jp/blogs/news/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock/"
+    "published": "2026-04-20 01:24:14"
+    "fetched": "2026-04-20 11:24:38"
+    "summary": "2026 年 4 月 16 日、Amazon Bedrock で Claude Opus 4.7 を発表いたし […]"
+  "d228f02d0b6def6b4869fa53c81d177e":
+    "id": "d228f02d0b6def6b4869fa53c81d177e"
+    "title": "Opus 4.7 が Kiro で利用可能になりました"
+    "link": "https://aws.amazon.com/jp/blogs/news/opus-4-7/"
+    "published": "2026-04-20 00:38:05"
+    "fetched": "2026-04-20 11:24:38"
+    "summary": "Anthropic の最新モデル Claude Opus 4.7 が Kiro IDE および CLI に順次展開されました。Opus 4.6 の直接アップグレード版として、複雑で長時間にわたるタスクでのコーディング性能が向上し、複数ファイル・ツールにまたがるマルチステップ実装や自己検証機能を備えています。Kiro のスペック駆動開発との親和性も高く、大規模コードベースでの高忠実度な実装を実現します。"
+  "f049a4b18e40a31aea13943620e4397f":
+    "id": "f049a4b18e40a31aea13943620e4397f"
+    "title": "富士通株式会社様との AI-DLC Unicorn Gym で見えた開発の未来"
+    "link": "https://aws.amazon.com/jp/blogs/news/fujitsu-aidlc/"
+    "published": "2026-04-20 00:16:56"
+    "fetched": "2026-04-20 11:24:38"
+    "summary": "はじめに AWS では、AI 駆動開発ライフサイクル (AI-DLC) という新しい方法論を提唱しています。A […]"
+  "77ad923717fef648bc2b496bba6a5788":
+    "id": "77ad923717fef648bc2b496bba6a5788"
+    "title": "Kiro CLI をプログラムから実行する：ヘッドレスモードの紹介"
+    "link": "https://aws.amazon.com/jp/blogs/news/kiro-introducing-headless-mode/"
+    "published": "2026-04-20 00:14:05"
+    "fetched": "2026-04-20 11:24:38"
+    "summary": "Kiro CLI を使ったことがある方なら、kiro-cli login を実行するとブラウザが開いて認証が走る、というお決まりの流れはご存じかと思います。手元で作業しているときはこれで十分ですが、ブラウザが開けない環境ではそうもいきません。CI/CD パイプラインや cron ジョブ、コンテナビルドといった自動化された処理では、そもそもブラウザを開けません。 こうした場面で役立つのがヘッドレスモードで、API キーを生成して環境変数に設定するだけで、Kiro CLI をブラウザなしで動かせるようになります。この記事では、ヘッドレスモードの仕組みを説明し、具体的な活用例として GitHub Actions で push のたびに自動実行されるコードレビューの構築方法を紹介します。"
+"last_updated": "2026-04-20 11:24:38 JST"
