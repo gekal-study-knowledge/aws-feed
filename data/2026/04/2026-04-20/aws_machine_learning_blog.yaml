@@ -13,4 +13,11 @@
     "published": "2026-04-20 17:06:26"
     "fetched": "2026-04-21 02:54:11"
     "summary": "You can use ToolSimulator, an&nbsp;LLM-powered tool simulation framework within Strands Evals, to thoroughly and safely test AI agents that rely on external tools, at scale. Instead of risking live API calls that expose personally identifiable information (PII), trigger unintended actions, or settling for static mocks that break with multi-turn workflows, you can use ToolSimulator's large language model (LLM)-powered simulations to validate your agents. Available today as part of the Strands Evals Software Development Kit (SDK), ToolSimulator helps you catch integration bugs early, test edge cases comprehensively, and ship production-ready agents with confidence."
-"last_updated": "2026-04-21 02:54:11 JST"
+  "9c1b9490d0b1757aa538572a5d70406d":
+    "id": "9c1b9490d0b1757aa538572a5d70406d"
+    "title": "Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances"
+    "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-generative-ai-inference-on-amazon-sagemaker-ai-with-g7e-instances/"
+    "published": "2026-04-20 19:38:10"
+    "fetched": "2026-04-21 05:03:45"
+    "summary": "Today, we are thrilled to announce the availability of G7e instances powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs on Amazon SageMaker AI. You can provision nodes with 1, 2, 4, and 8 RTX PRO 6000 GPU instances, with each GPU providing 96 GB of GDDR7 memory. This launch provides the capability to use a single-node GPU, G7e.2xlarge instance to host powerful open source foundation models (FMs) like GPT-OSS-120B, Nemotron-3-Super-120B-A12B (NVFP4 variant), and Qwen3.5-35B-A3B, offering organizations a cost-effective and high-performing option."
+"last_updated": "2026-04-21 05:03:45 JST"

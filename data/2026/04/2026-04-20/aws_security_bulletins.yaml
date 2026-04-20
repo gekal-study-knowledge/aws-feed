@@ -1,0 +1,9 @@
+"entries":
+  "8de36e8869b35fb9a86797e82ddc7745":
+    "id": "8de36e8869b35fb9a86797e82ddc7745"
+    "title": "CVE-2026-6550 - Key commitment policy bypass via shared key cache in AWS Encryption SDK for Python"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-017-aws/"
+    "published": "2026-04-20 19:45:34"
+    "fetched": "2026-04-21 05:03:44"
+    "summary": "<p><b>Bulletin ID:</b> 2026-017-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/04/20 12:45 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS Encryption SDK (ESDK) for Python is a client-side encryption library. We identified CVE-2026-6550, which describes an issue with a key commitment policy bypass via shared key cache.</p> \n<p>Cryptographic algorithm downgrade in the caching layer of Amazon AWS Encryption SDK for Python before version 3.3.1 and before version 4.0.5 might allow an authenticated local threat actor to bypass key commitment policy enforcement via a shared key cache, resulting in ciphertext that can be decrypted to multiple different plaintexts.</p> \n<p><b>Impacted versions:</b><br /> - From 2.0 to 2.5.1<br /> - From 3.0 to 3.3.0<br /> - From 4.0 to 4.0.4</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-04-21 05:03:44 JST"
