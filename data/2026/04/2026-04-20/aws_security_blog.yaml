@@ -1,0 +1,9 @@
+"entries":
+  "0ce11cd5f8cc2c5ba60869577c800cd9":
+    "id": "0ce11cd5f8cc2c5ba60869577c800cd9"
+    "title": "How to clone an AWS CloudHSM cluster across Regions"
+    "link": "https://aws.amazon.com/blogs/security/how-to-clone-an-aws-cloudhsm-cluster-across-regions-2/"
+    "published": "2026-04-20 15:15:47"
+    "fetched": "2026-04-21 01:05:23"
+    "summary": "Important: As of January 1, 2025, Client SDK 3 tools (CMU and KMU) are no longer supported. This guide has been updated to use Client SDK 5 commands exclusively. Ensure you’re using the latest Client SDK 5 version (5.17 or later) for the most recent features and security improvements. You can use AWS CloudHSM to […]"
+"last_updated": "2026-04-21 01:05:23 JST"
