@@ -27,4 +27,11 @@
     "published": "2026-04-21 05:46:05"
     "fetched": "2026-04-21 16:43:58"
     "summary": "Amazon EVS で Microsoft Windows Server ライセンスが利用可能になりました。BYOL または vCPU 時間単位の AWS 提供ライセンスの 2 つのオプションから選択でき、EVS 環境内で Windows Server VM を柔軟に運用できます。本記事では、vCenter コネクタの作成からライセンスエンタイトルメントの設定、KMS サーバーによるアクティベーションまでの手順を説明します。"
-"last_updated": "2026-04-21 16:43:58 JST"
+  "3f4173ee09c2ddf9718b6b96472b5dbc":
+    "id": "3f4173ee09c2ddf9718b6b96472b5dbc"
+    "title": "AI-driven Business Process Re-Engineering: The Day We Stopped Asking “What’s Your Problem?”"
+    "link": "https://aws.amazon.com/jp/blogs/news/ai-driven-business-process-re-engineering/"
+    "published": "2026-04-21 09:44:38"
+    "fetched": "2026-04-21 20:03:11"
+    "summary": "Find the “bottleneck” in operations, replac […]"
+"last_updated": "2026-04-21 20:03:11 JST"
