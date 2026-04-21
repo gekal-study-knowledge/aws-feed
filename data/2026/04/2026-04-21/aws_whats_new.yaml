@@ -1,0 +1,9 @@
+"entries":
+  "90f13cf903ae0d315b809f659799f6a2":
+    "id": "90f13cf903ae0d315b809f659799f6a2"
+    "title": "Amazon Connect Outbound Campaigns now supports contact priority ordering"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-connect-priority-dialing/"
+    "published": "2026-04-21 02:03:00"
+    "fetched": "2026-04-21 14:23:52"
+    "summary": "<p>Amazon Connect&nbsp;Outbound&nbsp;Campaigns now&nbsp;allows&nbsp;you to dial contacts in configurable priority order based on up to 10 profile attributes for voice campaigns and voice activities in journeys.&nbsp;This helps you focus agent time on the most valuable customers or time-sensitive opportunities, improving campaign effectiveness and conversion rates.</p> \n<p>With contact priority ordering, you can sort segments on attributes such as customer lifetime value, account tier, or appointment date. For example, a financial services team can prioritize outreach to high-value accounts nearing contract renewal, or a healthcare provider can ensure patients with the earliest upcoming appointments are contacted first. Initial dial attempts always take precedence over reattempts, ensuring your priority order is&nbsp;maintained&nbsp;throughout campaign execution.&nbsp;</p> \n<p>This capability is available in all AWS Regions where Amazon Connect&nbsp;Outbound&nbsp;Campaigns&nbsp;is&nbsp;offered at no&nbsp;additional&nbsp;cost. To get started, configure sort attributes when building segments in Amazon Connect Customer Profiles. To learn more, see the Amazon Connect&nbsp;<a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/outbound-campaign-best-practices.html\">Outbound&nbsp;Campaigns&nbsp;best practice</a>&nbsp;and&nbsp;<a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/customer-segments-building-segments.html\">how to build customer segments</a>.&nbsp;</p>"
+"last_updated": "2026-04-21 14:23:52 JST"
