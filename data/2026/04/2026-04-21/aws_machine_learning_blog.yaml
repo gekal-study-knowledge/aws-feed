@@ -6,4 +6,11 @@
     "published": "2026-04-21 16:43:03"
     "fetched": "2026-04-22 01:56:41"
     "summary": "In this post, we show how to combine DVC (Data Version Control), Amazon SageMaker AI, and Amazon SageMaker AI MLflow Apps to build end-to-end ML model lineage. We walk through two deployable patterns — dataset-level lineage and record-level lineage — that you can run in your own AWS account using the companion notebooks."
-"last_updated": "2026-04-22 01:56:41 JST"
+  "797053b15fa8167ef425a59ceb14e6a6":
+    "id": "797053b15fa8167ef425a59ceb14e6a6"
+    "title": "From developer desks to the whole organization: Running Claude Cowork in Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/"
+    "published": "2026-04-21 19:13:49"
+    "fetched": "2026-04-22 04:21:40"
+    "summary": "Today, we're excited to announce Claude Cowork in Amazon Bedrock. You can now run Cowork and Claude Code Desktop through Amazon Bedrock, directly or using an LLM gateway. In this post, we walk through how Claude Cowork integrates with Amazon Bedrock and show an example of how knowledge workers use it in practice."
+"last_updated": "2026-04-22 04:21:40 JST"
