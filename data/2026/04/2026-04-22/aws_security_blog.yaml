@@ -6,4 +6,11 @@
     "published": "2026-04-22 00:12:21"
     "fetched": "2026-04-22 11:10:20"
     "summary": "Amazon Web Services (AWS) is pleased to announce that the Winter 2025 System and Organization Controls (SOC) 1 report is now available. The report covers 184 services over the 12-month period from January 1, 2025 – December 31, 2025, giving customers a full year of assurance. This report demonstrates our continuous commitment to adhering to […]"
-"last_updated": "2026-04-22 11:10:20 JST"
+  "c8a9310225368f00a4e59450abe315c8":
+    "id": "c8a9310225368f00a4e59450abe315c8"
+    "title": "A technical walkthrough of multicloud full-stack security using AWS Security Hub Extended"
+    "link": "https://aws.amazon.com/blogs/security/a-technical-walkthrough-of-multicloud-full-stack-security-using-aws-security-hub-extended/"
+    "published": "2026-04-22 16:31:11"
+    "fetched": "2026-04-23 01:55:25"
+    "summary": "Building on our recent announcement of AWS Security Hub Extended —our full-stack enterprise security offering — we want to show you how we’re simplifying security procurement and operations for your multicloud environments. Whether you’re a security architect evaluating solutions or a CISO looking to streamline vendor management, this post walks through the streamlined experience that […]"
+"last_updated": "2026-04-23 01:55:25 JST"

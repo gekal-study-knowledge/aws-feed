@@ -1,0 +1,9 @@
+"entries":
+  "7ef454f309772ac1bfd845430f71a937":
+    "id": "7ef454f309772ac1bfd845430f71a937"
+    "title": "Company-wise memory in Amazon Bedrock with Amazon Neptune and Mem0"
+    "link": "https://aws.amazon.com/blogs/machine-learning/company-wise-memory-in-amazon-bedrock-with-amazon-neptune-and-mem0/"
+    "published": "2026-04-22 15:56:24"
+    "fetched": "2026-04-23 01:55:25"
+    "summary": "Company-wise memory in Amazon Bedrock, powered by Amazon Neptune and Mem0, provides AI agents with persistent, company-specific context—enabling them to learn, adapt, and respond intelligently across multiple interactions. TrendMicro, one of the largest antivirus software companies in the world, developed the Trend’s Companion chatbot, so their customers can explore information through natural, conversational interactions"
+"last_updated": "2026-04-23 01:55:25 JST"
