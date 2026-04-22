@@ -1,0 +1,9 @@
+"entries":
+  "b027182c616289365e2a2df9ea186b50":
+    "id": "b027182c616289365e2a2df9ea186b50"
+    "title": "開発現場から全社展開へ：Amazon Bedrock で Claude Cowork を動かす"
+    "link": "https://aws.amazon.com/jp/blogs/news/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/"
+    "published": "2026-04-22 06:27:21"
+    "fetched": "2026-04-22 16:27:47"
+    "summary": "Amazon Bedrock での Claude Cowork の提供が開始されました。Claude Cowork は、開発者だけでなく組織内のすべてのナレッジワーカーに AI 活用を広げるデスクトップアプリケーションです。既存の AWS 環境内でエンタープライズセキュリティとデータレジデンシーを維持しながら、ドキュメント分析、リサーチ、レポート生成などの業務を Claude に委任できます。"
+"last_updated": "2026-04-22 16:27:47 JST"
