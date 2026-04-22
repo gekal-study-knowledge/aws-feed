@@ -20,4 +20,11 @@
     "published": "2026-04-22 19:13:56"
     "fetched": "2026-04-23 04:22:04"
     "summary": "Today, we're introducing new capabilities that further streamline the agent building experience, removing the infrastructure barriers that slow teams down at every stage of agent development from the first prototype through production deployment."
-"last_updated": "2026-04-23 04:22:04 JST"
+  "2ff0103aa7fc41f2be49f52300ea96a4":
+    "id": "2ff0103aa7fc41f2be49f52300ea96a4"
+    "title": "Cost-effective multilingual audio transcription at scale with Parakeet-TDT and AWS Batch"
+    "link": "https://aws.amazon.com/blogs/machine-learning/cost-effective-multilingual-audio-transcription-at-scale-with-parakeet-tdt-and-aws-batch/"
+    "published": "2026-04-22 21:05:01"
+    "fetched": "2026-04-23 06:48:09"
+    "summary": "In this post, we walk through building a scalable, event-driven transcription pipeline that automatically processes audio files uploaded to Amazon Simple Storage Service (Amazon S3), and show you how to use Amazon EC2 Spot Instances and buffered streaming inference to further reduce costs."
+"last_updated": "2026-04-23 06:48:09 JST"
