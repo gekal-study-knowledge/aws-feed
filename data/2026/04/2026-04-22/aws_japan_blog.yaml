@@ -6,4 +6,11 @@
     "published": "2026-04-22 06:27:21"
     "fetched": "2026-04-22 16:27:47"
     "summary": "Amazon Bedrock での Claude Cowork の提供が開始されました。Claude Cowork は、開発者だけでなく組織内のすべてのナレッジワーカーに AI 活用を広げるデスクトップアプリケーションです。既存の AWS 環境内でエンタープライズセキュリティとデータレジデンシーを維持しながら、ドキュメント分析、リサーチ、レポート生成などの業務を Claude に委任できます。"
-"last_updated": "2026-04-22 16:27:47 JST"
+  "1b270dd47f9de8349177649dc3757b22":
+    "id": "1b270dd47f9de8349177649dc3757b22"
+    "title": "EngineLab AI: AWSで実現するスタジオとクリエイター向け本番制作AI環境"
+    "link": "https://aws.amazon.com/jp/blogs/news/jp-mne-enginelab-ai-production-ready-ai-for-studios-and-creators-on-aws/"
+    "published": "2026-04-22 09:41:36"
+    "fetched": "2026-04-22 20:01:44"
+    "summary": "AI ツールは制作ワークフローの効率化を約束する一方で、スタジオは難しいジレンマを抱えています。AIツールを利用するためにはセキュリティ、知的財産 (IP) 保護、制作の安定性に関する現実的な懸念を伴うためです。本記事では、そんな制作現場でのトレードオフを解消するソリューションをご紹介します。[…]"
+"last_updated": "2026-04-22 20:01:44 JST"
