@@ -261,11 +261,11 @@ def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, A
 
                 fetched = entry.get('fetched', '')
                 if not fetched or len(fetched) < 19:  # YYYY-MM-DD HH:MM:SS の長さは19
-                    if len(published) == 10:  # YYYY-MM-DD のみの場合
+                    if len(fetched) == 10:  # YYYY-MM-DD のみの場合
                         fetched = f"{fetched} 00:00:00"
                     else:
                         fetched = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-                    f.write(f"- **Fetched**: {fetched}\n")
+                f.write(f"- **Fetched**: {fetched}\n")
                 f.write("\n")
                 if entry.get('summary'):
                     f.write(f"{entry['summary']}\n\n")
