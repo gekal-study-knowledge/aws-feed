@@ -3,7 +3,7 @@
     "id": "a21eb7e6097ddec5f28cc5e8dab18631"
     "title": "CVE-2026-6437 - Mount Option Injection in Amazon EFS CSI Driver"
     "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-016-aws/"
-    "published": "2026-04-17 18:59:58"
+    "published": "2026-04-18 03:59:58"
     "fetched": "2026-04-18 04:57:11"
     "summary": "<p><b>Bulletin ID:</b> 2026-016-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/04/17 11:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>The Amazon EFS CSI Driver is a Container Storage Interface driver that allows Kubernetes clusters to use Amazon Elastic File System.</p> \n<p>We identified CVE-2026-6437, where an actor with PersistentVolume creation privileges can inject arbitrary mount options via two unsanitized fields: the Access Point ID in volumeHandle and the mounttargetip volumeAttribute. In both cases, appending comma-separated values causes the mount utility to parse them as separate mount options.</p> \n<p>No AWS service is affected.</p> \n<p><b>Impacted versions:</b> EFS CSI Driver &lt;&amp;equal; v3.0.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
 "last_updated": "2026-04-18 04:57:11 JST"

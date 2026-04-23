@@ -3,7 +3,7 @@
     "id": "706f5179e6ce149976c08d782154c519"
     "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)"
     "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-7-in-amazon-bedrock-aws-interconnect-ga-and-more-april-20-2026/"
-    "published": "2026-04-20 15:53:21"
+    "published": "2026-04-21 00:53:21"
     "fetched": "2026-04-21 01:05:22"
     "summary": "Claude Opus 4.7 arrives in Amazon Bedrock with improved agentic coding and a 1M token context window. AWS Interconnect reaches general availability with multicloud private connectivity and a new last-mile option. Plus, post-quantum TLS for Secrets Manager, new C8in/C8ib EC2 instances, and more."
 "last_updated": "2026-04-21 01:05:22 JST"

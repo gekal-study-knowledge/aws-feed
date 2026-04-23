@@ -3,7 +3,7 @@
     "id": "2fe50ae5bce42ed2dce2942ee482d860"
     "title": "Real-time analytics: Oldcastle integrates Infor with Amazon Aurora and Amazon Quick Sight"
     "link": "https://aws.amazon.com/blogs/architecture/real-time-analytics-oldcastle-integrates-infor-with-amazon-aurora-and-amazon-quick-sight/"
-    "published": "2026-04-21 16:37:12"
+    "published": "2026-04-22 01:37:12"
     "fetched": "2026-04-22 01:56:41"
     "summary": "This post explores how Oldcastle used AWS services to transform their analytics and AI capabilities by integrating Infor ERP with Amazon Aurora and Amazon Quick Sight. We discuss how they overcame the limitations of traditional cloud ERP reporting to deploy real-time dashboards and build a scalable analytics system. This practical, enterprise-grade approach offers a blueprint that organizations can adapt when extending ERP capabilities with cloud-native analytics and AI."
 "last_updated": "2026-04-22 01:56:41 JST"

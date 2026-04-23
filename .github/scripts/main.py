@@ -93,8 +93,9 @@ def parse_entry_datetime(entry: Any) -> datetime:
         time_struct = entry.updated_parsed
     
     if time_struct:
-        # time.struct_time から datetime を生成 (最初の6要素を使用)
-        return datetime(*time_struct[:6])
+        # feedparser は UTC で返すため JST (+9h) に変換する
+        utc_dt = datetime(*time_struct[:6])
+        return utc_dt + timedelta(hours=9)
     else:
         # フォールバック：今日の日付で00:00:00を返す
         return datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
