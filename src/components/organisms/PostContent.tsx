@@ -5,11 +5,63 @@ import { Box } from '@mui/material';
 
 interface PostContentProps {
   contentHtml: string;
+  newSince?: string;
 }
 
-export default function PostContent({ contentHtml }: PostContentProps) {
+// "2026-04-24 07:36:02 JST" → "2026-04-24 07:36:02"
+const normalizeTimestamp = (ts: string): string => ts.replace(/\s+JST$/i, '').trim().slice(0, 19);
+
+export default function PostContent({ contentHtml, newSince }: PostContentProps) {
+  const containerRef = React.useRef<HTMLDivElement>(null);
+
+  React.useEffect(() => {
+    if (!newSince || !containerRef.current) return;
+
+    const threshold = normalizeTimestamp(newSince);
+    const container = containerRef.current;
+
+    container.querySelectorAll('h3').forEach((h3) => {
+      // 既存バッジを除去（依存変更時の重複防止）
+      h3.querySelector('.new-entry-badge')?.remove();
+
+      // h3 の直後にある ul を探す（h2/h3 が来たら打ち切り）
+      let sibling = h3.nextElementSibling;
+      while (sibling && sibling.tagName !== 'UL' && sibling.tagName !== 'H2' && sibling.tagName !== 'H3') {
+        sibling = sibling.nextElementSibling;
+      }
+      if (!sibling || sibling.tagName !== 'UL') return;
+
+      // Fetched: の値を取得
+      const fetchedLi = Array.from(sibling.querySelectorAll('li')).find((li) =>
+        li.textContent?.includes('Fetched'),
+      );
+      const fetchedMatch = fetchedLi?.textContent?.match(/(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})/);
+      const fetchedTime = fetchedMatch?.[1];
+
+      if (fetchedTime && fetchedTime > threshold) {
+        const badge = document.createElement('span');
+        badge.className = 'new-entry-badge';
+        badge.textContent = 'NEW';
+        Object.assign(badge.style, {
+          display: 'inline-block',
+          background: '#ff9900',
+          color: '#232f3e',
+          fontSize: '0.6em',
+          fontWeight: '700',
+          padding: '2px 8px',
+          borderRadius: '4px',
+          marginLeft: '10px',
+          verticalAlign: 'middle',
+          letterSpacing: '0.05em',
+        });
+        h3.appendChild(badge);
+      }
+    });
+  }, [newSince, contentHtml]);
+
   return (
     <Box
+      ref={containerRef}
       className="markdown-body"
       sx={{
         mt: 4,

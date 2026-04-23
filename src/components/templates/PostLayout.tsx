@@ -44,6 +44,7 @@ export default function PostLayout({
 }: PostLayoutProps) {
   const [isBottom, setIsBottom] = React.useState(false);
   const [showSticky, setShowSticky] = React.useState(false);
+  const [newSince, setNewSince] = React.useState<string | undefined>(undefined);
 
   const { markAsVisited } = useVisitedPost({
     year,
@@ -54,7 +55,7 @@ export default function PostLayout({
   });
 
   React.useEffect(() => {
-    markAsVisited();
+    markAsVisited(lastUpdated);
 
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -105,6 +106,8 @@ export default function PostLayout({
           day={day}
           slug={slug}
           newsCounter={newsCounter}
+          lastUpdated={lastUpdated}
+          onUpdateDetected={setNewSince}
         />
 
         <PostHeader title={title} date={date} lastUpdated={lastUpdated} />
@@ -138,7 +141,7 @@ export default function PostLayout({
         </Box>
 
         <Box sx={{ my: 4 }}>
-          <PostContent contentHtml={contentHtml} />
+          <PostContent contentHtml={contentHtml} newSince={newSince} />
           <NavigationLinks previous={previous} next={next} />
         </Box>
       </Container>
