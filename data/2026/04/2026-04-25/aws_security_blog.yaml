@@ -1,0 +1,9 @@
+"entries":
+  "ec932b7ddccc810bb2c0a94cb0e4930e":
+    "id": "ec932b7ddccc810bb2c0a94cb0e4930e"
+    "title": "Protecting your secrets from tomorrow’s quantum risks"
+    "link": "https://aws.amazon.com/blogs/security/protecting-your-secrets-from-tomorrows-quantum-risks/"
+    "published": "2026-04-25 03:53:29"
+    "fetched": "2026-04-25 04:49:35"
+    "summary": "As outlined in the AWS post-quantum cryptography (PQC) migration plan, addressing the risk of harvest now, decrypt later (HNDL) attack is an important part of your post-quantum plan. Upgrading the client-side of your workloads to support quantum-resistant confidentiality is an important aspect of your side of the PQC shared responsibility model. Timelines to plan and […]"
+"last_updated": "2026-04-25 04:49:35 JST"
