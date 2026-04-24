@@ -56,7 +56,7 @@ export default function PostLayout({
   });
 
   React.useEffect(() => {
-    markAsVisited(lastUpdated);
+    markAsVisited();
 
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -107,9 +107,8 @@ export default function PostLayout({
           day={day}
           slug={slug}
           newsCounter={newsCounter}
-          lastUpdated={lastUpdated}
-          onUpdateDetected={(prevLastUpdated, count) => {
-            setNewSince(prevLastUpdated);
+          onUpdateDetected={(prevVisitedAt, count) => {
+            setNewSince(prevVisitedAt);
             setNewCount(count);
           }}
         />

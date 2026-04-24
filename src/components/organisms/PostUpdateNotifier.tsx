@@ -4,7 +4,7 @@ import * as React from 'react';
 import { Alert, IconButton, Box, Collapse } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
-import { getVisitedPosts, saveVisitedPosts, VisitRecord } from '@/lib/store/useVisitedPost';
+import { getVisitedPosts, saveVisitedPosts, getJSTNow, VisitRecord } from '@/lib/store/useVisitedPost';
 
 interface PostUpdateNotifierProps {
   year: string;
@@ -12,8 +12,7 @@ interface PostUpdateNotifierProps {
   day: string;
   slug: string;
   newsCounter?: number;
-  lastUpdated?: string;
-  onUpdateDetected?: (previousLastUpdated: string | undefined, newCount: number) => void;
+  onUpdateDetected?: (previousVisitedAt: string | undefined, newCount: number) => void;
 }
 
 const cleanupOldPostData = (
@@ -46,7 +45,6 @@ export default function PostUpdateNotifier({
   day,
   slug,
   newsCounter = -1,
-  lastUpdated,
   onUpdateDetected,
 }: PostUpdateNotifierProps) {
   const [open, setOpen] = React.useState(false);
@@ -64,13 +62,13 @@ export default function PostUpdateNotifier({
         `新しい更新があります（前回確認時: ${record.counter}件 -> 現在: ${newsCounter}件）`,
       );
       setOpen(true);
-      onUpdateDetected?.(record.lastUpdated, newCount);
+      onUpdateDetected?.(record.visitedAt, newCount);
     }
 
-    visitedPosts[currentPostId] = { counter: newsCounter, lastUpdated };
+    visitedPosts[currentPostId] = { counter: newsCounter, visitedAt: getJSTNow() };
     visitedPosts = cleanupOldPostData(visitedPosts);
     saveVisitedPosts(visitedPosts);
-  }, [currentPostId, newsCounter, lastUpdated, onUpdateDetected]);
+  }, [currentPostId, newsCounter, onUpdateDetected]);
 
   return (
     <Box sx={{ width: '100%', mb: 2 }}>

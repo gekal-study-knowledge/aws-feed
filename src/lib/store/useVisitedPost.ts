@@ -4,8 +4,15 @@ export const VISITED_KEY = 'visited_posts';
 
 export interface VisitRecord {
   counter: number;
-  lastUpdated?: string;
+  visitedAt?: string;  // JST訪問時刻 "YYYY-MM-DD HH:MM:SS"
+  lastUpdated?: string; // 旧フォーマット互換
 }
+
+// JST現在時刻を "YYYY-MM-DD HH:MM:SS" 形式で返す
+export const getJSTNow = (): string => {
+  const jst = new Date(Date.now() + 9 * 60 * 60 * 1000);
+  return jst.toISOString().replace('T', ' ').slice(0, 19);
+};
 
 export const getVisitedPosts = (): Record<string, VisitRecord> => {
   if (typeof window === 'undefined') return {};
@@ -63,20 +70,17 @@ export const useVisitedPost = ({ year, month, day, slug, newsCounter }: UseVisit
     }
   }, [currentPostId, newsCounter]);
 
-  const markAsVisited = useCallback(
-    (lastUpdated?: string) => {
-      const visitedPosts = getVisitedPosts();
-      const record = visitedPosts[currentPostId];
+  const markAsVisited = useCallback(() => {
+    const visitedPosts = getVisitedPosts();
+    const record = visitedPosts[currentPostId];
 
-      if (!record || record.counter !== newsCounter || record.lastUpdated !== lastUpdated) {
-        visitedPosts[currentPostId] = { counter: newsCounter, lastUpdated };
-        saveVisitedPosts(visitedPosts);
-        setIsVisited(true);
-        setIsUpdated(false);
-      }
-    },
-    [currentPostId, newsCounter],
-  );
+    if (!record || record.counter !== newsCounter) {
+      visitedPosts[currentPostId] = { counter: newsCounter, visitedAt: getJSTNow() };
+      saveVisitedPosts(visitedPosts);
+      setIsVisited(true);
+      setIsUpdated(false);
+    }
+  }, [currentPostId, newsCounter]);
 
   return { isVisited, isUpdated, markAsVisited };
 };
