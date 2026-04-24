@@ -1,0 +1,9 @@
+"entries":
+  "c0cd1e979cf77330eafc7e361ba55dfe":
+    "id": "c0cd1e979cf77330eafc7e361ba55dfe"
+    "title": "Issue with AWS Ops Wheel (CVE-2026-6911 and CVE-2026-6912"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-018-aws/"
+    "published": "2026-04-25 01:42:04"
+    "fetched": "2026-04-25 02:46:49"
+    "summary": "<p><b>Bulletin ID:</b> 2026-018-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/04/24 09:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS Ops Wheel is an open-source tool that helps teams make random selections using a virtual spinning wheel, deployed into customer AWS accounts via CloudFormation.</p> \n<p>CVE-2026-6911 relates to an issue where JWT token signature verification was not enforced in the v2 API.<br /> CVE-2026-6912 relates to an issue in the v2 Cognito User Pool configuration where attribute write permissions were insufficiently restricted.</p> \n<p><b>Impacted versions:</b> AWS Ops Wheel v2 deployments PR-163 and earlier</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-04-25 02:46:49 JST"
