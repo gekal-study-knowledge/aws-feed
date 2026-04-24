@@ -6,58 +6,88 @@ import { Box } from '@mui/material';
 interface PostContentProps {
   contentHtml: string;
   newSince?: string;
+  newCount?: number;
 }
 
 // "2026-04-24 07:36:02 JST" → "2026-04-24 07:36:02"
 const normalizeTimestamp = (ts: string): string => ts.replace(/\s+JST$/i, '').trim().slice(0, 19);
 
-export default function PostContent({ contentHtml, newSince }: PostContentProps) {
+const createBadge = (): HTMLSpanElement => {
+  const badge = document.createElement('span');
+  badge.className = 'new-entry-badge';
+  badge.textContent = 'NEW';
+  Object.assign(badge.style, {
+    display: 'inline-block',
+    background: '#ff9900',
+    color: '#232f3e',
+    fontSize: '0.6em',
+    fontWeight: '700',
+    padding: '2px 8px',
+    borderRadius: '4px',
+    marginLeft: '10px',
+    verticalAlign: 'middle',
+    letterSpacing: '0.05em',
+  });
+  return badge;
+};
+
+// h3 から対応する ul 内の Fetched 時刻を取得する
+const getFetchedTime = (h3: Element): string | undefined => {
+  let sibling = h3.nextElementSibling;
+  while (sibling && sibling.tagName !== 'UL' && sibling.tagName !== 'H2' && sibling.tagName !== 'H3') {
+    sibling = sibling.nextElementSibling;
+  }
+  if (!sibling || sibling.tagName !== 'UL') return undefined;
+
+  const fetchedLi = Array.from(sibling.querySelectorAll('li')).find((li) =>
+    li.textContent?.includes('Fetched'),
+  );
+  const m = fetchedLi?.textContent?.match(/(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})/);
+  return m?.[1];
+};
+
+export default function PostContent({ contentHtml, newSince, newCount = 0 }: PostContentProps) {
   const containerRef = React.useRef<HTMLDivElement>(null);
 
   React.useEffect(() => {
-    if (!newSince || !containerRef.current) return;
+    const hasUpdate = newSince !== undefined || newCount > 0;
+    if (!hasUpdate || !containerRef.current) return;
 
-    const threshold = normalizeTimestamp(newSince);
     const container = containerRef.current;
+    const h3s = Array.from(container.querySelectorAll('h3'));
 
-    container.querySelectorAll('h3').forEach((h3) => {
-      // 既存バッジを除去（依存変更時の重複防止）
-      h3.querySelector('.new-entry-badge')?.remove();
+    // 既存バッジを全除去
+    h3s.forEach((h3) => h3.querySelector('.new-entry-badge')?.remove());
 
-      // h3 の直後にある ul を探す（h2/h3 が来たら打ち切り）
-      let sibling = h3.nextElementSibling;
-      while (sibling && sibling.tagName !== 'UL' && sibling.tagName !== 'H2' && sibling.tagName !== 'H3') {
-        sibling = sibling.nextElementSibling;
-      }
-      if (!sibling || sibling.tagName !== 'UL') return;
+    if (newSince) {
+      // タイムスタンプ比較：fetched が閾値より後のエントリーをマーク
+      const threshold = normalizeTimestamp(newSince);
+      h3s.forEach((h3) => {
+        const fetchedTime = getFetchedTime(h3);
+        if (fetchedTime && fetchedTime > threshold) {
+          h3.appendChild(createBadge());
+        }
+      });
+    } else if (newCount > 0) {
+      // フォールバック：fetched 降順で上位 newCount 件をマーク
+      // （旧フォーマットの localStorage など lastUpdated が不明な場合）
+      const entries = h3s
+        .map((h3) => ({ h3, fetchedTime: getFetchedTime(h3) ?? '' }))
+        .filter((e) => e.fetchedTime !== '');
 
-      // Fetched: の値を取得
-      const fetchedLi = Array.from(sibling.querySelectorAll('li')).find((li) =>
-        li.textContent?.includes('Fetched'),
-      );
-      const fetchedMatch = fetchedLi?.textContent?.match(/(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})/);
-      const fetchedTime = fetchedMatch?.[1];
+      entries.sort((a, b) => (a.fetchedTime > b.fetchedTime ? -1 : 1));
 
-      if (fetchedTime && fetchedTime > threshold) {
-        const badge = document.createElement('span');
-        badge.className = 'new-entry-badge';
-        badge.textContent = 'NEW';
-        Object.assign(badge.style, {
-          display: 'inline-block',
-          background: '#ff9900',
-          color: '#232f3e',
-          fontSize: '0.6em',
-          fontWeight: '700',
-          padding: '2px 8px',
-          borderRadius: '4px',
-          marginLeft: '10px',
-          verticalAlign: 'middle',
-          letterSpacing: '0.05em',
+      // 同秒取得の場合は同グループとして扱う
+      if (entries.length > 0) {
+        const cutoffTime = entries[Math.min(newCount, entries.length) - 1].fetchedTime;
+        entries.forEach(({ h3, fetchedTime }) => {
+          if (fetchedTime >= cutoffTime) {
+            h3.appendChild(createBadge());
+          }
         });
-        h3.appendChild(badge);
       }
-    });
-  }, [newSince, contentHtml]);
+    }
+  }, [newSince, newCount, contentHtml]);
 
   return (
     <Box

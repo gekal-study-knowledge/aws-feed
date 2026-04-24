@@ -45,6 +45,7 @@ export default function PostLayout({
   const [isBottom, setIsBottom] = React.useState(false);
   const [showSticky, setShowSticky] = React.useState(false);
   const [newSince, setNewSince] = React.useState<string | undefined>(undefined);
+  const [newCount, setNewCount] = React.useState(0);
 
   const { markAsVisited } = useVisitedPost({
     year,
@@ -107,7 +108,10 @@ export default function PostLayout({
           slug={slug}
           newsCounter={newsCounter}
           lastUpdated={lastUpdated}
-          onUpdateDetected={setNewSince}
+          onUpdateDetected={(prevLastUpdated, count) => {
+            setNewSince(prevLastUpdated);
+            setNewCount(count);
+          }}
         />
 
         <PostHeader title={title} date={date} lastUpdated={lastUpdated} />
@@ -141,7 +145,7 @@ export default function PostLayout({
         </Box>
 
         <Box sx={{ my: 4 }}>
-          <PostContent contentHtml={contentHtml} newSince={newSince} />
+          <PostContent contentHtml={contentHtml} newSince={newSince} newCount={newCount} />
           <NavigationLinks previous={previous} next={next} />
         </Box>
       </Container>

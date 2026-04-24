@@ -13,7 +13,7 @@ interface PostUpdateNotifierProps {
   slug: string;
   newsCounter?: number;
   lastUpdated?: string;
-  onUpdateDetected?: (previousLastUpdated: string | undefined) => void;
+  onUpdateDetected?: (previousLastUpdated: string | undefined, newCount: number) => void;
 }
 
 const cleanupOldPostData = (
@@ -59,11 +59,12 @@ export default function PostUpdateNotifier({
     const record = visitedPosts[currentPostId];
 
     if (record !== undefined && record.counter !== newsCounter) {
+      const newCount = Math.max(0, newsCounter - record.counter);
       setMessage(
         `新しい更新があります（前回確認時: ${record.counter}件 -> 現在: ${newsCounter}件）`,
       );
       setOpen(true);
-      onUpdateDetected?.(record.lastUpdated);
+      onUpdateDetected?.(record.lastUpdated, newCount);
     }
 
     visitedPosts[currentPostId] = { counter: newsCounter, lastUpdated };
