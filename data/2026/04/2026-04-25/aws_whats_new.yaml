@@ -1,0 +1,9 @@
+"entries":
+  "8c126fe07fea46fe93a7e7d152c2d35d":
+    "id": "8c126fe07fea46fe93a7e7d152c2d35d"
+    "title": "Amazon EC2 High Memory U7i instances now available in additional regions"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-ec2-high-memory-u7i/"
+    "published": "2026-04-25 02:00:00"
+    "fetched": "2026-04-25 05:42:23"
+    "summary": "<p>Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Stockholm, Zurich) regions, U7in-16TB instances (u7in-16tb.224xlarge) are now available in the AWS US East (Ohio) region, and U7in-24TB instances (u7in-24tb.224xlarge) are now available in the AWS Europe (Stockholm) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7i-8TB instances offer 8 TiB of DDR5 memory, U7in-16TB instances offer 16 TiB of DDR5 memory, and U7in-24TB instances offer 24 TiB of DDR5 memory, enabling customers to scale transaction processing throughput in a fast-growing data environment.</p> \n<p>U7i-8TB instances deliver 448 vCPUs and support up to 100 Gbps of Amazon EBS bandwidth, 100 Gbps of network bandwidth, and ENA Express. Both U7in-16TB and U7in-24TB instances deliver 896 vCPUs and support up to 100 Gbps of Amazon EBS bandwidth for faster data loading and backups, 200 Gbps of network bandwidth, and ENA Express. U7i instances are ideal for customers running mission-critical in-memory databases like SAP HANA, Oracle, and SQL Server.</p> \n<p>To learn more about U7i instances, visit the&nbsp;<a href=\"https://aws.amazon.com/ec2/instance-types/u7i/\">High Memory instances page</a>.</p>"
+"last_updated": "2026-04-25 05:42:23 JST"

@@ -6,4 +6,11 @@
     "published": "2026-04-25 01:42:04"
     "fetched": "2026-04-25 02:46:49"
     "summary": "<p><b>Bulletin ID:</b> 2026-018-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/04/24 09:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS Ops Wheel is an open-source tool that helps teams make random selections using a virtual spinning wheel, deployed into customer AWS accounts via CloudFormation.</p> \n<p>CVE-2026-6911 relates to an issue where JWT token signature verification was not enforced in the v2 API.<br /> CVE-2026-6912 relates to an issue in the v2 Cognito User Pool configuration where attribute write permissions were insufficiently restricted.</p> \n<p><b>Impacted versions:</b> AWS Ops Wheel v2 deployments PR-163 and earlier</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
-"last_updated": "2026-04-25 02:46:49 JST"
+  "a0d5bcec4844378feebc0f477b3890b3":
+    "id": "a0d5bcec4844378feebc0f477b3890b3"
+    "title": "Issues in tough library and tuftool CLI utility"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-019-aws/"
+    "published": "2026-04-25 05:30:17"
+    "fetched": "2026-04-25 05:42:24"
+    "summary": "<p><b>Bulletin ID:</b> 2026-019-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/04/24 13:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Multiple security issues have been identified in the tough library and tuftool CLI utility. tough is a Rust library used for generating, signing, and managing TUF (The Update Framework) repositories, and tuftool is the command-line interface for repository management Operations.</p> \n<p>The following issues have been identified:<br /> - CVE-2026-6966<br /> - CVE-2026-6967<br /> - CVE-2026-6968</p> \n<p><b>Impacted versions:</b><br /> - tough: versions 0.1.0 through 0.21.x (inclusive)<br /> - tuftool: versions 0.1.0 through 0.14.x (inclusive)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-04-25 05:42:24 JST"
