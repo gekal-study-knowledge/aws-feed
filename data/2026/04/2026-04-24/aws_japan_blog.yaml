@@ -6,4 +6,11 @@
     "published": "2026-04-24 10:23:05"
     "fetched": "2026-04-24 11:23:15"
     "summary": "私は 4 月 13 日週、University of Namur (uNamur) の 2025 年度の卒業式 […]"
-"last_updated": "2026-04-24 11:23:15 JST"
+  "fce77f38c10a6b294c0e5b316ec28f73":
+    "id": "fce77f38c10a6b294c0e5b316ec28f73"
+    "title": "AI for Science – AI がもたらす研究新時代"
+    "link": "https://aws.amazon.com/jp/blogs/news/ai-for-science-new-era/"
+    "published": "2026-04-24 13:56:29"
+    "fetched": "2026-04-24 14:31:30"
+    "summary": "文部科学省は 2026 年 4 月、AI for Science 萌芽的挑戦研究創出事業 ( SPReAD ) の公募を開始しました。1 課題 500 万円以下、計 1,000 件程度の採択が予定され、AWS の 計算資源やAPI 利用料も対象経費に含まれます。本記事では、創薬・ゲノミクス・材料科学など 6 領域の AI 活用ユースケースと先駆者たちの事例を紹介し、AWS の サービス / 技術基盤との対応関係を解説します。SPReAD への応募を検討されている研究者の方にも参考になる内容です。"
+"last_updated": "2026-04-24 14:31:30 JST"
