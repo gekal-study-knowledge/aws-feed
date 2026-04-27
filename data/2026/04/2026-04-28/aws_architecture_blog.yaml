@@ -1,0 +1,9 @@
+"entries":
+  "2ca9fd4c3d0706b1569189c94738eb6e":
+    "id": "2ca9fd4c3d0706b1569189c94738eb6e"
+    "title": "Deloitte optimizes EKS environment provisioning and achieves 89% faster testing environments using Amazon EKS and vCluster"
+    "link": "https://aws.amazon.com/blogs/architecture/deloitte-optimizes-eks-environment-provisioning-and-achieves-89-faster-testing-environments-using-amazon-eks-and-vcluster/"
+    "published": "2026-04-28 02:47:34"
+    "fetched": "2026-04-28 04:14:05"
+    "summary": "In this post, we explore how Deloitte used Amazon EKS and vCluster to transform their testing infrastructure."
+"last_updated": "2026-04-28 04:14:05 JST"

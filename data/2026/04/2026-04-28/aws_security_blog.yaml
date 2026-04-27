@@ -6,4 +6,11 @@
     "published": "2026-04-28 01:01:46"
     "fetched": "2026-04-28 02:18:38"
     "summary": "Understanding what AWS Identity and Access Management (IAM) policies can control helps you build better security controls and avoid spending time on approaches that won’t work. You’ve likely encountered questions like: Can I use AWS Organizations service control policies (SCPs) to prevent the creation of security groups that allow traffic from 0.0.0.0/0? Can I block […]"
-"last_updated": "2026-04-28 02:18:38 JST"
+  "f8e653c83fc6700d06ce670676c346f9":
+    "id": "f8e653c83fc6700d06ce670676c346f9"
+    "title": "Optimize security operations through an AWS Security Hub POC"
+    "link": "https://aws.amazon.com/blogs/security/how-to-develop-an-aws-security-hub-poc/"
+    "published": "2026-04-28 03:55:44"
+    "fetched": "2026-04-28 04:14:04"
+    "summary": "April 27, 2026: This post was first published in September 2025 when the enhanced AWS Security Hub was in public preview. It has since been updated to reflect the general availability of Security Hub. This revision also provides a more detailed, step-by-step framework for planning your POC. AWS Security Hub prioritizes your critical security issues […]"
+"last_updated": "2026-04-28 04:14:04 JST"
