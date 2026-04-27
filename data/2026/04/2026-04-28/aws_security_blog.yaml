@@ -1,0 +1,9 @@
+"entries":
+  "3a885d533d7af03399057f8a42d85cd4":
+    "id": "3a885d533d7af03399057f8a42d85cd4"
+    "title": "Can I do that with policy? Understanding the AWS Service Authorization Reference"
+    "link": "https://aws.amazon.com/blogs/security/can-i-do-that-with-policy-understanding-the-aws-service-authorization-reference/"
+    "published": "2026-04-28 01:01:46"
+    "fetched": "2026-04-28 02:18:38"
+    "summary": "Understanding what AWS Identity and Access Management (IAM) policies can control helps you build better security controls and avoid spending time on approaches that won’t work. You’ve likely encountered questions like: Can I use AWS Organizations service control policies (SCPs) to prevent the creation of security groups that allow traffic from 0.0.0.0/0? Can I block […]"
+"last_updated": "2026-04-28 02:18:38 JST"
