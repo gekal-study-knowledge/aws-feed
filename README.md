@@ -186,7 +186,7 @@ feeds:
 
 収集した全エントリーを JSON 形式で取得できます。
 
-- **Endpoint**: `/api/entries/all/index.json` (静的書き出し時) または `/api/entries/all` (開発サーバー)
+- **Endpoint**: `/api/entries/all/index.json`
 - **Method**: `GET`
 - **Response**: `Entry[]`
 
@@ -194,7 +194,7 @@ feeds:
 
 特定の日付のエントリーのみを JSON 形式で取得できます。
 
-- **Endpoint**: `/api/entries/[year]/[month]/[day]/index.json` (静的書き出し時) または `/api/entries/[year]/[month]/[day]` (開発サーバー)
+- **Endpoint**: `/api/entries/[year]/[month]/[day]/index.json`
 - **Method**: `GET`
 - **Response**: `Entry[]`
 
