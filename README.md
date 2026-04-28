@@ -182,6 +182,33 @@ feeds:
 
 ## 出力形式
 
+### REST API
+
+収集した全エントリーを JSON 形式で取得できます。
+
+- **Endpoint**: `/api/entries/index.json` (静的書き出し時) または `/api/entries` (開発サーバー)
+- **Method**: `GET`
+- **Response**: `Entry[]`
+
+**Entry オブジェクトの構造**:
+
+| フィールド | 型 | 説明 |
+| :--- | :--- | :--- |
+| `id` | `string` | エントリーの一意識別子 (MD5 ハッシュ) |
+| `title` | `string` | 記事のタイトル |
+| `link` | `string` | 記事へのリンク |
+| `published` | `string` | 公開日時 (`YYYY-MM-DD HH:MM:SS`) |
+| `fetched` | `string` | 取得日時 (`YYYY-MM-DD HH:MM:SS`) |
+| `summary` | `string` | 記事の概要 (HTML 形式) |
+| `sourceId` | `string` | 情報源の識別子 (例: `aws_whats_new`) |
+| `sourceName` | `string` | 情報源の人間が読みやすい名前 (例: `AWS What's New`) |
+
+**利用例**:
+
+```bash
+curl https://gekal-study-knowledge.github.io/aws-feed/api/entries/index.json
+```
+
 ### データファイル (YAML)
 
 各情報源のエントリーは日毎に `data/YYYY/MM/YYYY-MM-DD/` ディレクトリに保存されます:

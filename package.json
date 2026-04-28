@@ -23,6 +23,7 @@
     "@types/react-dom": "^19.2.3",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.1",
     "lucide-react": "^1.0.0",
     "next": "^16.1.7",
     "nextjs-toploader": "^3.9.17",
@@ -34,6 +35,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.7.0",
+    "@types/js-yaml": "^4.0.9",
     "eslint": "^9.7.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
