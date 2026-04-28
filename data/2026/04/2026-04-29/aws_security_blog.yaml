@@ -1,0 +1,9 @@
+"entries":
+  "71390ec874b999884f420d865e077da0":
+    "id": "71390ec874b999884f420d865e077da0"
+    "title": "Access control with IAM Identity Center session tags"
+    "link": "https://aws.amazon.com/blogs/security/access-control-with-iam-identity-center-session-tags/"
+    "published": "2026-04-29 01:33:06"
+    "fetched": "2026-04-29 03:14:45"
+    "summary": "As organizations expand their Amazon Web Services (AWS) footprint, managing secure, scalable, and cost-efficient access across multiple accounts becomes increasingly important. AWS IAM Identity Center offers a centralized, unified solution for managing workforce access to AWS accounts. It simplifies authentication, enhances security, and provides a seamless user sign-in experience to AWS services across diverse environments. […]"
+"last_updated": "2026-04-29 03:14:45 JST"
