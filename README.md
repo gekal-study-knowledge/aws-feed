@@ -186,9 +186,24 @@ feeds:
 
 収集した全エントリーを JSON 形式で取得できます。
 
-- **Endpoint**: `/api/entries/index.json` (静的書き出し時) または `/api/entries` (開発サーバー)
+- **Endpoint**: `/api/entries/all/index.json` (静的書き出し時) または `/api/entries/all` (開発サーバー)
 - **Method**: `GET`
 - **Response**: `Entry[]`
+
+### 日別 REST API
+
+特定の日付のエントリーのみを JSON 形式で取得できます。
+
+- **Endpoint**: `/api/entries/[year]/[month]/[day]/index.json` (静的書き出し時) または `/api/entries/[year]/[month]/[day]` (開発サーバー)
+- **Method**: `GET`
+- **Response**: `Entry[]`
+
+**利用例**:
+
+```bash
+# 2026年4月24日のエントリーを取得
+curl https://gekal-study-knowledge.github.io/aws-feed/api/entries/2026/04/24/index.json
+```
 
 **Entry オブジェクトの構造**:
 
@@ -206,7 +221,7 @@ feeds:
 **利用例**:
 
 ```bash
-curl https://gekal-study-knowledge.github.io/aws-feed/api/entries/index.json
+curl https://gekal-study-knowledge.github.io/aws-feed/api/entries/all/index.json
 ```
 
 ### データファイル (YAML)
