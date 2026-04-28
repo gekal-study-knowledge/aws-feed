@@ -6,4 +6,11 @@
     "published": "2026-04-29 01:33:06"
     "fetched": "2026-04-29 03:14:45"
     "summary": "As organizations expand their Amazon Web Services (AWS) footprint, managing secure, scalable, and cost-efficient access across multiple accounts becomes increasingly important. AWS IAM Identity Center offers a centralized, unified solution for managing workforce access to AWS accounts. It simplifies authentication, enhances security, and provides a seamless user sign-in experience to AWS services across diverse environments. […]"
-"last_updated": "2026-04-29 03:14:45 JST"
+  "88f1401114f6d891203057b98efb5477":
+    "id": "88f1401114f6d891203057b98efb5477"
+    "title": "What the March 2026 Threat Technique Catalog update means for your AWS environment"
+    "link": "https://aws.amazon.com/blogs/security/what-the-march-2026-threat-technique-catalog-update-means-for-your-aws-environment/"
+    "published": "2026-04-29 04:01:37"
+    "fetched": "2026-04-29 05:12:33"
+    "summary": "The AWS Customer Incident Response Team (AWS CIRT) regularly encounters patterns that repeat across their engagements when helping customers respond to security incidents. We’re passionate about making sure that information is widely accessible so that everyone can improve their security posture and their organization’s resilience to disruption. The primary method we use to share this […]"
+"last_updated": "2026-04-29 05:12:33 JST"
