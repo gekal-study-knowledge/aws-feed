@@ -1,0 +1,9 @@
+"entries":
+  "c1787b35c6981aa67ecb5a6a00d1fbdd":
+    "id": "c1787b35c6981aa67ecb5a6a00d1fbdd"
+    "title": "Organizing Agents’ memory at scale: Namespace design patterns in AgentCore Memory"
+    "link": "https://aws.amazon.com/blogs/machine-learning/organizing-agents-memory-at-scale-namespace-design-patterns-in-agentcore-memory/"
+    "published": "2026-04-30 04:31:54"
+    "fetched": "2026-04-30 05:59:51"
+    "summary": "In this post, you will learn how to design namespace hierarchies, choose the right retrieval patterns, and implement AWS Identity and Access Management (IAM)-based access control for AgentCore Memory."
+"last_updated": "2026-04-30 05:59:51 JST"

@@ -1,0 +1,23 @@
+"entries":
+  "d8b6c7f6ef90e945cd34389d0857d730":
+    "id": "d8b6c7f6ef90e945cd34389d0857d730"
+    "title": "Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-021-aws/"
+    "published": "2026-04-30 04:25:28"
+    "fetched": "2026-04-30 05:59:50"
+    "summary": "<p><b>Bulletin ID:</b> 2026-021-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/04/29 12:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>FreeRTOS-Plus-TCP is a scalable, open source, and thread-safe TCP/IP stack for FreeRTOS.<br /> - CVE-2026-7422: Insufficient packet validation in the IPv4 and IPv6 receive paths allows an adjacent network device to send a packet that bypasses checksum and minimum-size validation by spoofing the Ethernet source MAC address to match one of the target device's own registered endpoints.<br /> - CVE-2026-7423: Integer underflow in the ICMP and ICMPv6 echo reply handlers allows an adjacent network device to cause a denial of service (device crash) when outgoing ping support is enabled, because header sizes are subtracted from a packet length field without validating the field is large enough, resulting in a heap out-of-bounds read.</p> \n<p><b>Impacted versions:</b> &gt;=V4.0.0 AND &lt;=V4.2.5, &gt;=V4.3.0 AND &lt;=V4.4.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "8c03562b85b9de5bef7dcd0ebb202f3e":
+    "id": "8c03562b85b9de5bef7dcd0ebb202f3e"
+    "title": "CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/"
+    "published": "2026-04-30 04:30:04"
+    "fetched": "2026-04-30 05:59:50"
+    "summary": "<p><b>Bulletin ID:</b> 2026-022-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/04/29 12:20 PM PDT</p> \n<p><b>Description:</b></p> \n<p>FreeRTOS-Plus-TCP is an open-source, scalable TCP/IP stack for FreeRTOS. We identified CVE-2026-7424, where an integer underflow issue in the DHCPv6 sub-option parser could allow an adjacent network user to corrupt the device's IPv6 address assignment, DNS configuration, and lease times, and to cause a denial of service (IP task freeze requiring hardware reset).</p> \n<p><b>Impacted versions:</b> FreeRTOS-Plus-TCP &gt;=V4.0.0 AND &lt;=V4.2.5, &gt;=V4.3.0 AND &lt;= V4.4.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "285538ebb6e8371f0a448dd7e9223f54":
+    "id": "285538ebb6e8371f0a448dd7e9223f54"
+    "title": "Issue with FreeRTOS-Plus-TCP - IPv6 Router Advertisement Memory Safety Issues"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-023-aws/"
+    "published": "2026-04-30 04:34:40"
+    "fetched": "2026-04-30 05:59:50"
+    "summary": "<p><b>Bulletin ID:</b> 2026-023-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/04/29 12:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>FreeRTOS-Plus-TCP is an open source TCP/IP stack implementation designed for FreeRTOS, providing a standard Berkeley sockets interface and support for essential networking protocols including IPv6, ARP, DHCP, DNS, and Router Advertisement (RA). We identified CVE-2026-7425 and CVE-2026-7426, one of them being out-of-bounds read and another one being out-of-bounds write issues respectively in the IPv6 Router Advertisement option parser where insufficient validation of length fields allows memory operations without proper bounds checking.</p> \n<p>Either issue can be exploited by any device on the local network that can send crafted Router Advertisement packets. No authentication or user interaction is required.</p> \n<p><b>Impacted versions:</b> &gt;=V4.0.0 AND &lt;=V4.2.5, &gt;=V4.3.0 AND &lt;=V4.4.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-04-30 05:59:50 JST"
