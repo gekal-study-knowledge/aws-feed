@@ -6,4 +6,11 @@
     "published": "2026-05-01 00:58:24"
     "fetched": "2026-05-01 02:17:01"
     "summary": "Stay current with the latest serverless innovations that can improve your applications. In this 32nd quarterly recap, discover the most impactful AWS serverless launches, features, and resources from Q1 2026 that you might have missed. In case you missed our last ICYMI, check out what happened in Q4 2025. 2026 Q1 calendar Serverless with Mama […]"
-"last_updated": "2026-05-01 02:17:01 JST"
+  "7817aba759f007cd6ae2284d90355903":
+    "id": "7817aba759f007cd6ae2284d90355903"
+    "title": "Enhancing network observability with new AWS Outposts racks LAG metrics"
+    "link": "https://aws.amazon.com/blogs/compute/enhancing-network-observability-with-new-aws-outposts-racks-lag-metrics/"
+    "published": "2026-05-01 04:14:52"
+    "fetched": "2026-05-01 05:56:21"
+    "summary": "When you deploy AWS Outposts racks, you can run AWS infrastructure and services in on-premises locations. Maintaining seamless connectivity, both to the AWS Region and your on-premises network, is fundamental to delivering consistent, uninterrupted service to your applications. Implementing an observability strategy that uses available network metrics is key to understanding the health of this […]"
+"last_updated": "2026-05-01 05:56:21 JST"

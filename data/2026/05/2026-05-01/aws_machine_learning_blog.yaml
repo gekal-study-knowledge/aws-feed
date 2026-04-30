@@ -27,4 +27,11 @@
     "published": "2026-05-01 01:32:43"
     "fetched": "2026-05-01 02:17:01"
     "summary": "In this post, you will configure Amazon Bedrock AgentCore Gateway to access private endpoints using Resource Gateway, a managed construct that provisions Elastic Network Interfaces (ENIs) directly inside your Amazon VPC, one per subnet. You will explore two implementation modes (managed and self-managed) and walk through three practical scenarios: connecting to a private Amazon API Gateway endpoint, integrating with a MCP server on Amazon Elastic Kubernetes Service (Amazon EKS), and accessing a private REST API."
-"last_updated": "2026-05-01 02:17:01 JST"
+  "651a306cd100e8af35b53ceadad0020a":
+    "id": "651a306cd100e8af35b53ceadad0020a"
+    "title": "Reinforcement fine-tuning with LLM-as-a-judge"
+    "link": "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-with-llm-as-a-judge/"
+    "published": "2026-05-01 05:07:25"
+    "fetched": "2026-05-01 05:56:20"
+    "summary": "In this post, we take a deeper look at how RLAIF or RL with LLM-as-a-judge works with Amazon Nova models effectively."
+"last_updated": "2026-05-01 05:56:20 JST"
