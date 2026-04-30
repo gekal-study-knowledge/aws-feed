@@ -1,0 +1,30 @@
+"entries":
+  "e615d9d87cfee3d06682328b6a610a2a":
+    "id": "e615d9d87cfee3d06682328b6a610a2a"
+    "title": "AWS Generative AI Model Agility Solution: A comprehensive guide to migrating LLMs for generative AI production"
+    "link": "https://aws.amazon.com/blogs/machine-learning/aws-generative-ai-model-agility-solution-a-comprehensive-guide-to-migrating-llms-for-generative-ai-production/"
+    "published": "2026-05-01 02:04:41"
+    "fetched": "2026-05-01 02:17:01"
+    "summary": "In this post, we introduce a systematic framework for LLM migration or upgrade in generative AI production, encompassing essential tools, methodologies, and best practices. The framework facilitates transitions between different LLMs by providing robust protocols for prompt conversion and optimization."
+  "36ef27da3c697f7a06b34e0cb87b7178":
+    "id": "36ef27da3c697f7a06b34e0cb87b7178"
+    "title": "Sun Finance automates ID extraction and fraud detection with generative AI on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/sun-finance-automates-id-extraction-and-fraud-detection-with-generative-ai-on-aws/"
+    "published": "2026-05-01 02:00:45"
+    "fetched": "2026-05-01 02:17:01"
+    "summary": "In this post, we show how Sun Finance used Amazon Bedrock, Amazon Textract, and Amazon Rekognition to build an AI-powered identity verification (IDV) pipeline. The solution improved extraction accuracy from 79.7% to 90.8%, cut per-document costs by 91%, and reduced processing time from up to 20 hours to under 5 seconds. You'll learn how combining specialized OCR with large language model (LLM) structuring outperformed using either tool alone. You'll also learn how to architect a serverless fraud detection system using vector similarity search."
+  "24a21ac1cf3f617cf3e97d4a3d8c2e12":
+    "id": "24a21ac1cf3f617cf3e97d4a3d8c2e12"
+    "title": "Unleashing Agentic AI Analytics on Amazon SageMaker with Amazon Athena and Amazon Quick"
+    "link": "https://aws.amazon.com/blogs/machine-learning/unleashing-agentic-ai-analytics-on-amazon-sagemaker-with-amazon-athena-and-amazon-quick/"
+    "published": "2026-05-01 01:52:40"
+    "fetched": "2026-05-01 02:17:01"
+    "summary": "This post demonstrates how agentic AI assistant from Amazon Quick transform data analytics into a self-service capability by using Amazon Simple Storage Service (Amazon S3) as a storage, Amazon SageMaker and AWS Glue for lakehouse, Amazon Athena for serverless SQL querying across multiple storage formats (S3 Table, Iceberg, and Parquet)."
+  "97a956b0044bbe0d9fdeeaea438d9749":
+    "id": "97a956b0044bbe0d9fdeeaea438d9749"
+    "title": "Configuring Amazon Bedrock AgentCore Gateway for secure access to private resources"
+    "link": "https://aws.amazon.com/blogs/machine-learning/configuring-amazon-bedrock-agentcore-gateway-for-secure-access-to-private-resources/"
+    "published": "2026-05-01 01:32:43"
+    "fetched": "2026-05-01 02:17:01"
+    "summary": "In this post, you will configure Amazon Bedrock AgentCore Gateway to access private endpoints using Resource Gateway, a managed construct that provisions Elastic Network Interfaces (ENIs) directly inside your Amazon VPC, one per subnet. You will explore two implementation modes (managed and self-managed) and walk through three practical scenarios: connecting to a private Amazon API Gateway endpoint, integrating with a MCP server on Amazon Elastic Kubernetes Service (Amazon EKS), and accessing a private REST API."
+"last_updated": "2026-05-01 02:17:01 JST"
