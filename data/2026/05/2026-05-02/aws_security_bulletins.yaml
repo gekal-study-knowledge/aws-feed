@@ -1,0 +1,9 @@
+"entries":
+  "a2fdb4fa905d7f2b9fe5d43306f820e1":
+    "id": "a2fdb4fa905d7f2b9fe5d43306f820e1"
+    "title": "CVE-2026-7461 - OS Command Injection in Amazon ECS Agent via FSx Windows File Server Volume Credentials"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-024-aws/"
+    "published": "2026-05-02 05:27:49"
+    "fetched": "2026-05-02 05:47:44"
+    "summary": "<p><b>Bulletin ID:</b> 2026-024-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/04/30 13:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that enables customers to deploy, manage, and scale containerized applications. The Amazon ECS agent supports mounting FSx for Windows File Server volumes in task definitions on Windows EC2 instances. We identified CVE-2026-7461, a command injection issue in FSx volume mounting that enables code execution with SYSTEM privileges via a specially crafted credentials in ECS task definitions.</p> \n<p><b>Impacted versions:</b> Version 1.47.0 through 1.102.2 of the ECS Agent for Windows</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-05-02 05:47:44 JST"
