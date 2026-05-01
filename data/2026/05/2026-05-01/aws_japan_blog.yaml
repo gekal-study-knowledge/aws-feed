@@ -13,4 +13,11 @@
     "published": "2026-05-01 13:03:08"
     "fetched": "2026-05-01 15:13:24"
     "summary": "私たちが Amazon Q Developer を立ち上げたときの目標は、AI による支援を開発者の作業の流れに直接組み込むことでした。お客様は VS Code、JetBrains、Eclipse、Visual Studio にわたって Q Developer を導入し、コード生成やデバッグ、チャットベースのガイダンスに活用してきました。Q Developer は、AI が日々の開発サイクルに欠かせない存在であることを証明しました。 この 1 年で私たちが学んだのは、もっともインパクトのある AI 開発者体験はコード生成や補完にとどまらないということです。開発者には、プロジェクト全体 —— アーキテクチャ、要件、テスト、そしてコードの背後にある意図 —— を理解する AI が必要です。そのためには、専用に設計された環境が必要になります。それこそが、私たちが Kiro を構築した理由です。"
-"last_updated": "2026-05-01 15:13:24 JST"
+  "b57151d6c75272a69aa6a5ab941d8434":
+    "id": "b57151d6c75272a69aa6a5ab941d8434"
+    "title": "Amazon Quick を社内のナレッジに接続しよう – Microsoft SharePoint Online 編"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-quick-lets-connect-company-knowledge-microsoft-sharepoint-online-ver/"
+    "published": "2026-05-01 21:11:12"
+    "fetched": "2026-05-01 22:18:26"
+    "summary": "多くの企業が社内ナレッジをさまざまなストレージツール上に保管しています。蓄積された膨大な情報を効率よく活用するのは簡単ではありません。Amazon Quick なら、組織に散らばり保存された社内ナレッジを AI エージェントに接続し、自然言語で質問するだけで必要な情報を引き出せます。 本ブログでは、Amazon Quick の AI エージェントを社内ナレッジへ接続する例として、Microsoft SharePoint Online（以下、SharePoint と記載）での連携方法を取り上げます。ナレッジベース連携とアクション連携の、2 つのアプローチについて、セットアップ手順をステップバイステップで解説します。"
+"last_updated": "2026-05-01 22:18:26 JST"
