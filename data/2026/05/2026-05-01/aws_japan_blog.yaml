@@ -1,0 +1,16 @@
+"entries":
+  "56944d5779e804357a88222114b08b9e":
+    "id": "56944d5779e804357a88222114b08b9e"
+    "title": "2026 年「What’s Next with AWS」からの注目の発表"
+    "link": "https://aws.amazon.com/jp/blogs/news/top-announcements-of-the-whats-next-with-aws-2026/"
+    "published": "2026-05-01 13:37:16"
+    "fetched": "2026-05-01 15:13:24"
+    "summary": "2026 年 4 月 28 日の「What’s Next with AWS」では、マット ガーマン […]"
+  "bd8eab17bb457614d78d14c04b0fecaa":
+    "id": "bd8eab17bb457614d78d14c04b0fecaa"
+    "title": "Amazon Q Developer のサポート終了に関するお知らせ"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-q-developer-end-of-support-announcement/"
+    "published": "2026-05-01 13:03:08"
+    "fetched": "2026-05-01 15:13:24"
+    "summary": "私たちが Amazon Q Developer を立ち上げたときの目標は、AI による支援を開発者の作業の流れに直接組み込むことでした。お客様は VS Code、JetBrains、Eclipse、Visual Studio にわたって Q Developer を導入し、コード生成やデバッグ、チャットベースのガイダンスに活用してきました。Q Developer は、AI が日々の開発サイクルに欠かせない存在であることを証明しました。 この 1 年で私たちが学んだのは、もっともインパクトのある AI 開発者体験はコード生成や補完にとどまらないということです。開発者には、プロジェクト全体 —— アーキテクチャ、要件、テスト、そしてコードの背後にある意図 —— を理解する AI が必要です。そのためには、専用に設計された環境が必要になります。それこそが、私たちが Kiro を構築した理由です。"
+"last_updated": "2026-05-01 15:13:24 JST"
