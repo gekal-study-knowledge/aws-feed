@@ -6,4 +6,11 @@
     "published": "2026-05-02 05:01:40"
     "fetched": "2026-05-02 05:47:44"
     "summary": "AWS Security Assurance Services is announcing the release of our latest compliance guide, ISO 31000:2018 Risk Management on AWS, which provides practical guidance for organizations establishing and operating a risk management program in AWS environments using ISO 31000:2018 principles. The guide explains how organizations can integrate AWS services into their risk management processes to support […]"
-"last_updated": "2026-05-02 05:47:44 JST"
+  "74f2af09a69010bcb30da0e0e16a36dc":
+    "id": "74f2af09a69010bcb30da0e0e16a36dc"
+    "title": "Security posture improvement in the AI era"
+    "link": "https://aws.amazon.com/blogs/security/security-posture-improvement-in-the-ai-era/"
+    "published": "2026-05-02 05:58:39"
+    "fetched": "2026-05-02 06:50:32"
+    "summary": "It’s only been a few weeks since Anthropic announced the Claude Mythos Preview model and launched Project Glasswing with AWS and other leading organizations. This has generated a lot of discussion about the future of cybersecurity and what the ever-increasing capabilities of foundation models mean to organizations. As AWS CISO Amy Herzog pointed out in […]"
+"last_updated": "2026-05-02 06:50:32 JST"
