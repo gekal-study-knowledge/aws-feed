@@ -1,0 +1,9 @@
+"entries":
+  "cd73c972f74a74808d961fb187948369":
+    "id": "cd73c972f74a74808d961fb187948369"
+    "title": "Securing open proxies in your AWS environment"
+    "link": "https://aws.amazon.com/blogs/security/securing-open-proxies-in-your-aws-environment/"
+    "published": "2026-05-05 03:16:39"
+    "fetched": "2026-05-05 04:23:50"
+    "summary": "This article shows you how to identify and secure open proxies in your AWS environment to prevent abuse, protect your IP address reputation, and control costs. An open proxy is a server that forwards traffic on behalf of internet users without requiring authentication. While proxies can support legitimate use cases such as load balancing or […]"
+"last_updated": "2026-05-05 04:23:50 JST"
