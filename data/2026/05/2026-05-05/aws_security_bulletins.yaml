@@ -1,0 +1,9 @@
+"entries":
+  "a18d54ffc31f6fd0cd26f4bf1d6d9947":
+    "id": "a18d54ffc31f6fd0cd26f4bf1d6d9947"
+    "title": "CVE-2026-7791 - Local Privilege Escalation via TOCTOU Race Condition in Amazon WorkSpaces Skylight Agent"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-025-aws/"
+    "published": "2026-05-05 07:24:42"
+    "fetched": "2026-05-05 07:54:51"
+    "summary": "<p><b>Bulletin ID:</b> 2026-025-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/05/04 15:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon Skylight Workspace Config Service ( slwsconfigservice) is a critical background service within Amazon WorkSpaces that manages system configuration, monitors health, and updates components. We identified CVE-2026-7791 which allows a local non-admin authenticated user to escalate privileges to SYSTEM by exploiting a race condition in the Skylight Workspace Config Service's log file archival process.</p> \n<p><b>Impacted versions:</b> &lt; 2.6.2034.0 of the Windows Amazon Skylight Workspace Config Service (slwsconfigservice)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-05-05 07:54:51 JST"
