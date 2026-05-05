@@ -6,4 +6,11 @@
     "published": "2026-05-06 00:00:07"
     "fetched": "2026-05-06 01:21:55"
     "summary": "A Monday morning security alert flags unauthorized access attempts, security group misconfigurations, and AWS Identity and Access Management (IAM) policy violations. Your team needs answers fast. Security teams are using Kiro and Amazon Q Developer to handle repetitive tasks—scanning resources, drafting policies, and researching Common Vulnerabilities and Exposures (CVEs)—so engineers can focus on risk decisions […]"
-"last_updated": "2026-05-06 01:21:55 JST"
+  "d2a941dd32acf1f337109406999397e8":
+    "id": "d2a941dd32acf1f337109406999397e8"
+    "title": "Introducing AI traffic analysis dashboards for AWS WAF"
+    "link": "https://aws.amazon.com/blogs/security/introducing-ai-traffic-analysis-dashboards-for-aws-waf/"
+    "published": "2026-05-06 03:56:54"
+    "fetched": "2026-05-06 05:04:31"
+    "summary": "As AI agents, bots, and programmatic access become an increasingly significant portion of web traffic, organizations need better tools to understand, analyze, and manage this activity. Today, we’re excited to announce AI Traffic Analysis dashboards for AWS WAF protection packs—also known as web access control lists (web ACLs)—providing comprehensive visibility into AI bot and agent […]"
+"last_updated": "2026-05-06 05:04:31 JST"

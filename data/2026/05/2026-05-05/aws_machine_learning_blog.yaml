@@ -55,4 +55,11 @@
     "published": "2026-05-05 02:13:42"
     "fetched": "2026-05-05 08:51:46"
     "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]"
-"last_updated": "2026-05-05 08:51:46 JST"
+  "27d7833d79d542d5ee5d8f7a8c3fe203":
+    "id": "27d7833d79d542d5ee5d8f7a8c3fe203"
+    "title": "Introducing agent quality optimization in AgentCore, now in preview"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-agent-quality-optimization-in-agentcore-now-in-preview/"
+    "published": "2026-05-05 02:13:42"
+    "fetched": "2026-05-06 05:04:32"
+    "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]"
+"last_updated": "2026-05-06 05:04:32 JST"
