@@ -1,0 +1,9 @@
+"entries":
+  "8b656f4da7d57db92363117764d71d75":
+    "id": "8b656f4da7d57db92363117764d71d75"
+    "title": "Modernize your workflows: Amazon WorkSpaces now gives AI agents their own desktop (preview)"
+    "link": "https://aws.amazon.com/blogs/aws/modernize-your-workflows-amazon-workspaces-now-gives-ai-agents-their-own-desktop-preview/"
+    "published": "2026-05-06 02:23:40"
+    "fetched": "2026-05-06 03:07:31"
+    "summary": "Amazon WorkSpaces now lets AI agents securely operate legacy desktop applications—without APIs or modernization—using IAM authentication, MCP support, and computer vision within existing security frameworks."
+"last_updated": "2026-05-06 03:07:31 JST"
