@@ -1,0 +1,9 @@
+"entries":
+  "e2718c14fc196b470eecf6734d4b2c5c":
+    "id": "e2718c14fc196b470eecf6734d4b2c5c"
+    "title": "Five ways to use Kiro and Amazon Q to strengthen your security posture"
+    "link": "https://aws.amazon.com/blogs/security/five-ways-to-use-kiro-and-amazon-q-to-strengthen-your-security-posture/"
+    "published": "2026-05-06 00:00:07"
+    "fetched": "2026-05-06 01:21:55"
+    "summary": "A Monday morning security alert flags unauthorized access attempts, security group misconfigurations, and AWS Identity and Access Management (IAM) policy violations. Your team needs answers fast. Security teams are using Kiro and Amazon Q Developer to handle repetitive tasks—scanning resources, drafting policies, and researching Common Vulnerabilities and Exposures (CVEs)—so engineers can focus on risk decisions […]"
+"last_updated": "2026-05-06 01:21:55 JST"
