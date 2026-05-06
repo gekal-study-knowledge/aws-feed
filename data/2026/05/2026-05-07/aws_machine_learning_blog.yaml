@@ -1,0 +1,9 @@
+"entries":
+  "affa0f5a16ad61c60eb3cdc1bb99d564":
+    "id": "affa0f5a16ad61c60eb3cdc1bb99d564"
+    "title": "Cost effective deployment of vision-language models for pet behavior detection on AWS Inferentia2"
+    "link": "https://aws.amazon.com/blogs/machine-learning/cost-effective-deployment-of-vision-language-models-for-pet-behavior-detection-on-aws-inferentia2/"
+    "published": "2026-05-07 00:37:08"
+    "fetched": "2026-05-07 01:05:41"
+    "summary": "Tomofun, the Taiwan-headquartered pet-tech startup behind the Furbo Pet Camera, is redefining how pet owners interact with their pets remotely. To reduce costs and maintain accuracy, Tomofun turned to EC2 Inf2 instances powered by&nbsp;AWS Inferentia2, the Amazon purpose-built AI chips. In this post, we walk through the following sections in detail."
+"last_updated": "2026-05-07 01:05:41 JST"

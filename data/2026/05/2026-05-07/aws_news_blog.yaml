@@ -1,0 +1,9 @@
+"entries":
+  "473f5a9425f8d3e825b35b16250a10b0":
+    "id": "473f5a9425f8d3e825b35b16250a10b0"
+    "title": "The AWS MCP Server is now generally available"
+    "link": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/"
+    "published": "2026-05-07 00:36:44"
+    "fetched": "2026-05-07 01:05:39"
+    "summary": "AWS announces the general availability of the AWS MCP Server, a managed remote Model Context Protocol (MCP) server that gives AI agents and coding assistants secure, authenticated access to all AWS services. The AWS MCP Server is part of the Agent Toolkit for AWS, a suite of tooling that includes the MCP Server, skills, and plugins that help coding agents build more effectively and efficiently on AWS."
+"last_updated": "2026-05-07 01:05:39 JST"
