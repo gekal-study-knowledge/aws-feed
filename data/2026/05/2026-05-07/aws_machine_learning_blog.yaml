@@ -6,4 +6,11 @@
     "published": "2026-05-07 00:37:08"
     "fetched": "2026-05-07 01:05:41"
     "summary": "Tomofun, the Taiwan-headquartered pet-tech startup behind the Furbo Pet Camera, is redefining how pet owners interact with their pets remotely. To reduce costs and maintain accuracy, Tomofun turned to EC2 Inf2 instances powered by&nbsp;AWS Inferentia2, the Amazon purpose-built AI chips. In this post, we walk through the following sections in detail."
-"last_updated": "2026-05-07 01:05:41 JST"
+  "73df2af7778924a8a3f84b268f1a79c5":
+    "id": "73df2af7778924a8a3f84b268f1a79c5"
+    "title": "Agents that transact: Introducing Amazon Bedrock AgentCore Payments, built with Coinbase and Stripe"
+    "link": "https://aws.amazon.com/blogs/machine-learning/agents-that-transact-introducing-amazon-bedrock-agentcore-payments-built-with-coinbase-and-stripe/"
+    "published": "2026-05-07 21:55:17"
+    "fetched": "2026-05-07 22:58:48"
+    "summary": "Today, we're announcing a preview of Amazon Bedrock AgentCore Payments, a new set of features in Amazon Bedrock AgentCore that enables AI agents to instantly access and pay for what they use. AgentCore Payments was developed in partnership with Coinbase and Stripe."
+"last_updated": "2026-05-07 22:58:48 JST"
