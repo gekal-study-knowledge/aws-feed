@@ -1,0 +1,9 @@
+"entries":
+  "b7d2b03288c4f0fea1fffafd75bb45d0":
+    "id": "b7d2b03288c4f0fea1fffafd75bb45d0"
+    "title": "AWS India customers can now use UPI Scan and Pay for sign-up and payments"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-india-upi-scanandpay/"
+    "published": "2026-05-08 00:00:00"
+    "fetched": "2026-05-08 01:08:02"
+    "summary": "<p>India customers can now use <a href=\"https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/edit-aispl-payment-method.html#using-aispl-autopay-UPI\">UPI (Unified Payments Interface)</a> Scan and Pay to sign up for AWS or make payments to their invoices.<br /> <br /> UPI is a popular and convenient payment method in India, which facilitates instant bank-to-bank transfers between two parties through mobile phones with internet. The new Scan and Pay experience simplifies payments by allowing customers to scan a QR code displayed on the AWS Console using their UPI mobile app (such as Google Pay, PhonePe, Paytm, or Amazon Pay), eliminating the need to manually enter a UPI ID.<br /> <br /> This enhancement makes the UPI payment experience more secure, convenient, and error-free for customers signing up for AWS or making one-time payments. Scan and Pay reduces friction and aligns with how customers commonly use UPI for everyday transactions. Customers can also set up UPI AutoPay using Scan and Pay for automatic monthly payments up to INR 15,000.<br /> <br /> To use this feature, customers log in to the AWS Console and select UPI as their payment method during signup or when making a payment. A QR code is displayed on screen, which customers scan using their UPI mobile app to verify and authorize the transaction.<br /> <br /> To learn more, see <a href=\"https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/edit-aispl-payment-method.html\"><u>Managing Payment Methods in India</u></a><u>.</u></p>"
+"last_updated": "2026-05-08 01:08:02 JST"
