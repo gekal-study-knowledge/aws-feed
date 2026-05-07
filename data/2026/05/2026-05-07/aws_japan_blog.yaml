@@ -1,0 +1,9 @@
+"entries":
+  "aec14d2911a8008dab2a8678ff9d07cf":
+    "id": "aec14d2911a8008dab2a8678ff9d07cf"
+    "title": "AWS X-Ray SDK / Daemon の OpenTelemetry への移行"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-x-ray-sdks-daemon-migration-to-opentelemetry/"
+    "published": "2026-05-07 09:07:11"
+    "fetched": "2026-05-07 11:34:41"
+    "summary": "AWS X-Ray SDKとDaemonは2026年2月にメンテナンスモードへ移行します。今後のトレース計装にはOpenTelemetryが推奨されます。本記事では移行の背景、スケジュール、移行先の選択肢、新機能について解説します。"
+"last_updated": "2026-05-07 11:34:41 JST"

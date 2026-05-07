@@ -1,0 +1,9 @@
+"entries":
+  "c6f469786173ff0f2c49aaeeb1afb3bf":
+    "id": "c6f469786173ff0f2c49aaeeb1afb3bf"
+    "title": "CVE-2026-31431"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-026-aws/"
+    "published": "2026-05-07 10:45:36"
+    "fetched": "2026-05-07 11:34:41"
+    "summary": "<p><b>Bulletin ID:</b> 2026-026-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/05/06 17:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon is aware of an issue in the Linux kernel (CVE-2026-31431) that could potentially allow an authenticated local user to escalate privileges.</p> \n<p>With the exception of the services listed below, AWS customers are not affected. See below for specific guidance on affected services. As a best practice, AWS recommends that you apply all security patches and software version updates as soon as they become available.</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-05-07 11:34:41 JST"
