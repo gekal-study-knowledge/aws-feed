@@ -6,4 +6,11 @@
     "published": "2026-05-07 09:07:11"
     "fetched": "2026-05-07 11:34:41"
     "summary": "AWS X-Ray SDKとDaemonは2026年2月にメンテナンスモードへ移行します。今後のトレース計装にはOpenTelemetryが推奨されます。本記事では移行の背景、スケジュール、移行先の選択肢、新機能について解説します。"
-"last_updated": "2026-05-07 11:34:41 JST"
+  "6f21c052e2c591fe9d656c300a4352b7":
+    "id": "6f21c052e2c591fe9d656c300a4352b7"
+    "title": "週刊生成AI with AWS – 2026/4/27 週"
+    "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260427/"
+    "published": "2026-05-07 13:57:45"
+    "fetched": "2026-05-07 14:58:38"
+    "summary": "週刊生成AI with AWS, What's Next with AWS の大型発表が中心の2026年4月27日週号 - 奈良市と日立システムズ様の個人番号利用事務系での GenU 活用事例を紹介。また、AWS Retail &amp; CPG EXPO 2026 や製造業の生成 AI ラウンドテーブルの開催報告、Amazon Q Developer サポート終了のお知らせなどのブログ記事も。サービスアップデートでは Amazon Bedrock の OpenAI モデル/Codex/マネージドエージェント（限定プレビュー）や AgentCore の最適化機能、Amazon Quick のデスクトップアプリをはじめとする 14 件のアップデートを紹介。"
+"last_updated": "2026-05-07 14:58:38 JST"
