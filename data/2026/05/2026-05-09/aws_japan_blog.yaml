@@ -1,0 +1,9 @@
+"entries":
+  "9505fdd44590849ccf698fd16d7e4d04":
+    "id": "9505fdd44590849ccf698fd16d7e4d04"
+    "title": "週刊AWS – 2026/4/27週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260427/"
+    "published": "2026-05-09 04:32:47"
+    "fetched": "2026-05-09 05:56:11"
+    "summary": "Amazon EC2 M8in/M8ibインスタンスの一般提供開始、Amazon QuickSightがチャット内ドキュメント・ビジュアル作成に対応、Amazon QuickSightで自然言語によるカスタムアプリ構築機能プレビュー開始、Amazon BedrockでOpenAIモデル・Codex・Managed AgentsをLimited Preview提供開始、Amazon Bedrock AgentCore RuntimeがNode.jsに対応、Amazon CloudFrontがキャッシュタグによる無効化をサポート、AWS LambdaがRuby 4.0をサポート開始等"
+"last_updated": "2026-05-09 05:56:11 JST"
