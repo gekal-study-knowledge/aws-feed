@@ -13,4 +13,11 @@
     "published": "2026-05-08 00:53:30"
     "fetched": "2026-05-08 01:08:04"
     "summary": "In this post, you will learn how to implement reinforcement learning with verifiable rewards (RLVR) to introduce verification and transparency into reward signals to improve training performance. This approach works best when outputs can be objectively verified for correctness, such as in mathematical reasoning, code generation, or symbolic manipulation tasks. You will also learn how to layer techniques like Group Relative Policy Optimization (GRPO) and few-shot examples to further improve results. You’ll use the GSM8K dataset (Grade School Math 8K: a collection of grade school math problems) to improve math problem solving accuracy, but the techniques used here can be adapted to a wide variety of other use cases."
-"last_updated": "2026-05-08 01:08:04 JST"
+  "73933b5a60b6a13a9c4b6a70d4cfd3ab":
+    "id": "73933b5a60b6a13a9c4b6a70d4cfd3ab"
+    "title": "Halliburton enhances seismic workflow creation with Amazon Bedrock and Generative AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/halliburton-enhances-seismic-workflow-creation-with-amazon-bedrock-and-generative-ai/"
+    "published": "2026-05-08 22:20:30"
+    "fetched": "2026-05-08 22:24:56"
+    "summary": "In this post, we'll explore how we built a proof-of-concept that converts natural language queries into executable seismic workflows while providing a question-answering capability for Halliburton's Seismic Engine tools and documentation. We'll cover the technical details of the solution, share evaluation results showing workflow acceleration of up to 95%, and discuss key learnings that can help other organizations enhance their complex technical workflows with generative AI."
+"last_updated": "2026-05-08 22:24:56 JST"
