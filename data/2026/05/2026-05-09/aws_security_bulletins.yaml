@@ -1,0 +1,9 @@
+"entries":
+  "bbc9e133f1f84a487be67eaccc1f64e4":
+    "id": "bbc9e133f1f84a487be67eaccc1f64e4"
+    "title": "CVE-2026-8178 - Remote Code Execution via Unsafe Class Loading in Amazon Redshift JDBC Driver"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-028-aws/"
+    "published": "2026-05-09 03:42:35"
+    "fetched": "2026-05-09 04:12:19"
+    "summary": "<p><b>Bulletin ID:</b> 2026-028-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/05/08 11:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon Redshift JDBC Driver is a Type 4 JDBC driver that provides database connectivity through the standard JDBC application program interfaces (APIs). We identified an issue in Amazon Redshift JDBC Driver versions prior to 2.2.2. Under certain conditions, the driver could load and execute arbitrary classes when processing JDBC connection URL parameters. An actor who can influence the connection URL could potentially execute code in the application context.</p> \n<p><b>Impacted versions:</b> Amazon Redshift JDBC Driver &lt; 2.2.2</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-05-09 04:12:19 JST"
