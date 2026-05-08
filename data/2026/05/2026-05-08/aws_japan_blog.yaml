@@ -27,4 +27,11 @@
     "published": "2026-05-08 14:55:09"
     "fetched": "2026-05-08 16:25:03"
     "summary": "Kiro エージェントは、SAP Clean Core 戦略へのアプローチを変革します。Clean Core ジャーニーは通常、カスタムコードのアセスメント、違反の修正、そして今後の Clean Core 方式での運用という3つのフェーズで展開されますが、Kiro エージェントはそのすべてを加速できます。GitHub でリリースされたこれらのオープンソースエージェントは、ABAP コード違反の分類を自動化し、詳細な修正ガイダンスを提供します。数千の ABAP オブジェクトを手動でレビューする代わりに、数週間かかっていた包括的なアセスメントを数時間で完了できるようになります。"
-"last_updated": "2026-05-08 16:25:03 JST"
+  "733d513016279ce1a15adf9fc3c75b7b":
+    "id": "733d513016279ce1a15adf9fc3c75b7b"
+    "title": "KDDI が実践する AWS DevOps Agent 活用：AWSサポートと連携したインシデント対応の効率化"
+    "link": "https://aws.amazon.com/jp/blogs/news/kddi-aws-devops-agent-incident-response/"
+    "published": "2026-05-08 16:54:22"
+    "fetched": "2026-05-08 18:15:27"
+    "summary": "本ブログは、KDDI 株式会社 パーソナル事業統括本部 システム開発本部 ライフデザインプラットフォーム部 ア […]"
+"last_updated": "2026-05-08 18:15:27 JST"
