@@ -1,0 +1,9 @@
+"entries":
+  "220ec1b33e71775e7ee7646428f1d2fb":
+    "id": "220ec1b33e71775e7ee7646428f1d2fb"
+    "title": "Dirty Frag and other issues in Amazon Linux kernels"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-027-aws/"
+    "published": "2026-05-08 11:58:20"
+    "fetched": "2026-05-08 12:26:34"
+    "summary": "<p><b>Bulletin ID:</b> 2026-027-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 2026/05/07 19:45 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon is aware of a class of issues in the Linux kernel related to the original issue (CVE-2026-31431). The issues commonly referred to as \"DirtyFrag\" are present in a number of loadable modules, including xfrm_user/esp4/esp6 and ipcomp4/ipcomp6. On systems that allow unprivileged users to create sockets directly or through CAP_NET_ADMIN, or allow the creation of unprivileged user namespaces (user+net), an actor may gain access to kernel memory and thus escalate their privileges.</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-05-08 12:26:34 JST"
