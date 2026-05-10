@@ -1,0 +1,16 @@
+"entries":
+  "51aba81edaf9481a54b9b0b5e6b32ffe":
+    "id": "51aba81edaf9481a54b9b0b5e6b32ffe"
+    "title": "Valkey が 2 周年を迎えました"
+    "link": "https://aws.amazon.com/jp/blogs/news/valkey-turns-two/"
+    "published": "2026-05-10 12:46:28"
+    "fetched": "2026-05-10 15:07:46"
+    "summary": "本ブログでは、オープンソースの高性能キーバリューデータストアである Valkey の誕生 2 周年を振り返り、その急速な成長とコミュニティ主導のイノベーションについてご紹介します。Amazon ElastiCache for Valkey における Intuit、Tinder、Peloton などの大規模導入事例や、Valkey 9 で実現したスループット最大 40% 向上、Redis OSS 比で最大 60% の価格性能改善、フルテキスト検索やベクトル検索、ハッシュフィールド有効期限などの新機能を学ぶことができます。モダンなキャッシングとリアルタイムデータ基盤の最新動向を知りたい方におすすめの内容です。"
+  "0bb8ed94fa3c53922c79c25c33e85a74":
+    "id": "0bb8ed94fa3c53922c79c25c33e85a74"
+    "title": "Amazon ElastiCache 向け Valkey 9.0 のお知らせ"
+    "link": "https://aws.amazon.com/jp/blogs/news/announcing-valkey-9-0-for-amazon-elasticache/"
+    "published": "2026-05-10 12:03:56"
+    "fetched": "2026-05-10 15:07:46"
+    "summary": "本ブログでは、Amazon ElastiCache で利用可能になった Valkey 9.0 の新機能についてご紹介します。フルテキスト検索やベクトル検索、ハイブリッドクエリを組み合わせた高度な検索機能、パイプライン処理で最大40％のスループット向上、ハッシュフィールド単位の TTL 設定、クラスターモードでのマルチデータベース対応など、リアルタイム分析や生成 AI ワークロードを支える多彩な機能強化を学べます。Amazon Bedrock や Amazon SageMaker AI と連携した RAG アーキテクチャの構築にも役立つ内容となっています。"
+"last_updated": "2026-05-10 15:07:46 JST"
