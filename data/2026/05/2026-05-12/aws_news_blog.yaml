@@ -1,0 +1,9 @@
+"entries":
+  "459e2a91950cb639a82e68921f0d4374":
+    "id": "459e2a91950cb639a82e68921f0d4374"
+    "title": "AWS Weekly Roundup: Amazon Bedrock AgentCore payments, Agent Toolkit for AWS, and more (May 11, 2026)"
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-agentcore-payments-agent-toolkit-for-aws-and-more-may-11-2026/"
+    "published": "2026-05-12 01:08:26"
+    "fetched": "2026-05-12 01:30:01"
+    "summary": "My most exciting news of last week: Amazon Bedrock AgentCore previewed the first managed payment capabilities enabling AI agents to autonomously access and pay for APIs, MCP servers, web content, and other agents. Built in partnership with Coinbase and Stripe, it removes the undifferentiated heavy lifting of building customized systems for billing, credential management, and […]"
+"last_updated": "2026-05-12 01:30:01 JST"
