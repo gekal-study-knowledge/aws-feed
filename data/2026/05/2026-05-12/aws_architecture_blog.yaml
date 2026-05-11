@@ -1,0 +1,9 @@
+"entries":
+  "a5a9b30651d6b116755f4699296e29ac":
+    "id": "a5a9b30651d6b116755f4699296e29ac"
+    "title": "Choosing between single or multiple organizations in AWS Organizations"
+    "link": "https://aws.amazon.com/blogs/architecture/choosing-between-single-or-multiple-organizations-in-aws-organizations/"
+    "published": "2026-05-12 03:56:38"
+    "fetched": "2026-05-12 05:45:14"
+    "summary": "Organizations face critical architectural decisions that can impact their operations for years to come such as: Is it better to maintain a single organization or implement multiple organizations? In this post, I explain the key advantages and disadvantages of both approaches and the scenarios where each model fits best."
+"last_updated": "2026-05-12 05:45:14 JST"
