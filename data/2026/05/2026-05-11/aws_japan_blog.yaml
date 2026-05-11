@@ -41,4 +41,11 @@
     "published": "2026-05-11 09:56:02"
     "fetched": "2026-05-11 11:48:11"
     "summary": "企業による AI エージェント導入の際に大きな課題となっているのは、多くの業務ワークフローを支えるデスクトップ […]"
-"last_updated": "2026-05-11 11:48:11 JST"
+  "07d83c74a6ee814b62943592d24e8cca":
+    "id": "07d83c74a6ee814b62943592d24e8cca"
+    "title": "寄稿：株式会社 JPX 総研による「Amazon Quick Sight を活用した JPX 保有データ（J-LAKE）活用推進の取り組み」のご紹介"
+    "link": "https://aws.amazon.com/jp/blogs/news/jpx-quicksight-dashboard-competition/"
+    "published": "2026-05-11 12:02:57"
+    "fetched": "2026-05-11 15:36:25"
+    "summary": "JPX総研が構築したデータレイク「J-LAKE」と Amazon QuickSight を活用し、社内データ活用文化を醸成した取り組みを紹介。経営層向けダッシュボード構築から全社ハンズオン、社内ダッシュボードコンペ開催まで、データの民主化を実現した実践事例を解説します。"
+"last_updated": "2026-05-11 15:36:25 JST"
