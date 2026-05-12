@@ -6,4 +6,11 @@
     "published": "2026-05-12 03:56:38"
     "fetched": "2026-05-12 05:45:14"
     "summary": "Organizations face critical architectural decisions that can impact their operations for years to come such as: Is it better to maintain a single organization or implement multiple organizations? In this post, I explain the key advantages and disadvantages of both approaches and the scenarios where each model fits best."
-"last_updated": "2026-05-12 05:45:14 JST"
+  "85f96f582b5c98c1881fa95189ffdfed":
+    "id": "85f96f582b5c98c1881fa95189ffdfed"
+    "title": "Building hybrid multi-tenant architecture for stateful services on AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/building-hybrid-multi-tenant-architecture-for-stateful-services-on-aws/"
+    "published": "2026-05-12 22:26:49"
+    "fetched": "2026-05-12 23:13:27"
+    "summary": "In this post, we show you how to build a hybrid multi-tenant architecture that provides strong tenant isolation without requiring per-tenant AWS accounts. You learn how to configure Route 53 weighted routing to distribute traffic across multiple accounts, deploy Application Load Balancer listener rules for tenant-specific routing, create dedicated ECS clusters per tenant, and establish AWS PrivateLink connectivity to shared dependencies."
+"last_updated": "2026-05-12 23:13:27 JST"
