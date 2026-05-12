@@ -1,0 +1,9 @@
+"entries":
+  "027c7945d3e8591f608ea848c278776b":
+    "id": "027c7945d3e8591f608ea848c278776b"
+    "title": "Amazon Redshift introduces AWS Graviton-based RG instances with an integrated data lake query engine"
+    "link": "https://aws.amazon.com/blogs/aws/amazon-redshift-introduces-aws-graviton-based-rg-instances-with-an-integrated-data-lake-query-engine/"
+    "published": "2026-05-13 01:05:12"
+    "fetched": "2026-05-13 02:07:26"
+    "summary": "Amazon Redshift RG instances, powered by AWS Graviton, run data warehouse and data lake workloads up to 2.4x as fast as RA3 instances at 30% lower price per vCPU. Its integrated data lake query engine supports open table formats such as Apache Iceberg."
+"last_updated": "2026-05-13 02:07:26 JST"

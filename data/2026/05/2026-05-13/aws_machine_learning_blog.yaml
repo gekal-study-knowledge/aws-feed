@@ -1,0 +1,23 @@
+"entries":
+  "3cfdcaeccb57774d2e29b6f1b57c1071":
+    "id": "3cfdcaeccb57774d2e29b6f1b57c1071"
+    "title": "How Amazon Finance streamlines regulatory inquiries by using generative AI on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-streamlines-regulatory-inquiries-by-using-generative-ai-on-aws/"
+    "published": "2026-05-13 01:41:33"
+    "fetched": "2026-05-13 02:07:27"
+    "summary": "In this post, we demonstrate how Amazon FinTech teams are using Amazon Bedrock and other AWS services to build a scalable AI application to transform how regulatory inquiries are handled. Each team using this solution creates and maintains its own dedicated knowledge base, populated with that team's specific documents and reference materials."
+  "a17441882af6fbab06d5c2e55648c39c":
+    "id": "a17441882af6fbab06d5c2e55648c39c"
+    "title": "Automate schema generation for intelligent document processing"
+    "link": "https://aws.amazon.com/blogs/machine-learning/automate-schema-generation-for-intelligent-document-processing/"
+    "published": "2026-05-13 00:54:08"
+    "fetched": "2026-05-13 02:07:27"
+    "summary": "In this post, we'll show you how our multi-document discovery feature solves this problem. It serves as an automated pre-processing step, analyzing unknown documents, clustering them by type, and generating schemas ready for the IDP Accelerator. You'll learn how the new capability uses visual embeddings for automatic clustering and agents for schema generation. We'll also walk you through running the solution on your own document collections."
+  "45bfc1428450114a2f9b6d89e912578c":
+    "id": "45bfc1428450114a2f9b6d89e912578c"
+    "title": "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/navigating-eu-ai-act-requirements-for-llm-fine-tuning-on-amazon-sagemaker-ai/"
+    "published": "2026-05-13 00:48:52"
+    "fetched": "2026-05-13 02:07:27"
+    "summary": "In this post, we show you how to set up FLOPs tracking during LLM fine-tuning using the open source Fine-Tuning FLOPs Meter toolkit on Amazon SageMaker AI. You learn how to determine your compliance status with a single configuration flag and generate audit-ready documentation."
+"last_updated": "2026-05-13 02:07:27 JST"
