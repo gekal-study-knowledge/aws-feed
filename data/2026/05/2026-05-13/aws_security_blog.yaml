@@ -6,4 +6,11 @@
     "published": "2026-05-13 00:18:28"
     "fetched": "2026-05-13 02:07:26"
     "summary": "Cloud and AI are transforming industries and societies at unprecedented speed, from accelerating research and enhancing customer experiences to optimizing business processes and enriching public services. At Amazon Web Services (AWS), we believe that for the cloud and AI to reach their full potential, customers need control over their data and choices for how and […]"
-"last_updated": "2026-05-13 02:07:26 JST"
+  "6960052482b98eeabe518ed3d89fbbb0":
+    "id": "6960052482b98eeabe518ed3d89fbbb0"
+    "title": "AWS Security Agent full repository code scanning feature now available in preview"
+    "link": "https://aws.amazon.com/blogs/security/aws-security-agent-full-repository-code-scanning-feature-now-available-in-preview/"
+    "published": "2026-05-13 06:34:16"
+    "fetched": "2026-05-13 07:56:56"
+    "summary": "Today, we’re excited to announce the preview release of full repository code review, a new capability in AWS Security Agent that performs deep, context-aware security analysis of your entire code base. AI-driven cybersecurity capabilities are advancing rapidly. AWS Security Agent can now find vulnerabilities and build working exploits across your entire code base at a […]"
+"last_updated": "2026-05-13 07:56:56 JST"
