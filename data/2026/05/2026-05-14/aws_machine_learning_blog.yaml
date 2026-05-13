@@ -1,0 +1,30 @@
+"entries":
+  "5b7f3a928c288ad65e74a328d0173582":
+    "id": "5b7f3a928c288ad65e74a328d0173582"
+    "title": "Build financial document processing with Pulse AI and Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-financial-document-processing-with-pulse-ai-and-amazon-bedrock/"
+    "published": "2026-05-14 03:00:06"
+    "fetched": "2026-05-14 03:53:59"
+    "summary": "This post demonstrates how to build a documentation extraction and model fine-tuning pipeline that addresses challenges when processing the complex financial documents. By combining Pulse AI's advanced document understanding capabilities with the powerful AI services of Amazon Bedrock, organizations can achieve enterprise-grade accuracy and extract contextually relevant financial insights at scale."
+  "9b2311253e708087fc0b4dfd21c063c1":
+    "id": "9b2311253e708087fc0b4dfd21c063c1"
+    "title": "Build real-time voice streaming applications with Amazon Nova Sonic and WebRTC"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-streaming-applications-with-amazon-nova-sonic-and-webrtc/"
+    "published": "2026-05-14 02:46:19"
+    "fetched": "2026-05-14 03:53:59"
+    "summary": "Building end-to-end live streaming applications with real-time voice interaction presents several challenges. This post introduces a solution based on Amazon Nova 2 Sonic (Nova Sonic) and Amazon Kinesis Video Streams WebRTC (WebRTC) that addresses these challenges. In this post, we’ll walk through the solution architecture, implementation patterns, and two real-world scenario examples."
+  "10fa7cb76bbd3d690530bcef56fd6de4":
+    "id": "10fa7cb76bbd3d690530bcef56fd6de4"
+    "title": "Securing AI agents: How AWS and Cisco AI Defense scale MCP and A2A deployments"
+    "link": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-how-aws-and-cisco-ai-defense-scale-mcp-and-a2a-deployments/"
+    "published": "2026-05-14 02:33:16"
+    "fetched": "2026-05-14 03:53:59"
+    "summary": "The Cisco and AWS partnership addresses three challenges enterprises face when scaling AI agents: visibility gaps, security bottlenecks, and compliance risks. In this post, we explore how you can overcome AI security challenges through automated scanning and unified governance."
+  "b00246dc2b2a2dd012ff8117e1d0a142":
+    "id": "b00246dc2b2a2dd012ff8117e1d0a142"
+    "title": "Fine-tune LLM with Databricks Unity Catalog and Amazon SageMaker AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/fine-tune-llm-with-databricks-unity-catalog-and-amazon-sagemaker-ai/"
+    "published": "2026-05-14 02:22:42"
+    "fetched": "2026-05-14 03:53:59"
+    "summary": "In this post, we demonstrate how to build a secure, complete LLM fine-tuning workflow that integrates Unity Catalog with Amazon SageMaker AI using Amazon EMR Serverless for preprocessing. The solution shows how to securely access governed data, maintain lineage across services, fine-tune the Ministral-3-3B-Instruct model, and register trained artifacts back into Unity Catalog. With this approach, you can continue using your existing services while preserving central governance, tracking data lineage without compromising security or compliance requirements."
+"last_updated": "2026-05-14 03:53:59 JST"

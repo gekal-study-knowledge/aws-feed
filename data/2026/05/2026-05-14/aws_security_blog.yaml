@@ -1,0 +1,9 @@
+"entries":
+  "ad64cbcca88b672c69592e6df9e3153b":
+    "id": "ad64cbcca88b672c69592e6df9e3153b"
+    "title": "PCI PIN and P2PE compliance packages for AWS Payment Cryptography are now available"
+    "link": "https://aws.amazon.com/blogs/security/pci-pin-and-p2pe-compliance-packages-for-aws-payment-cryptography-are-now-available/"
+    "published": "2026-05-14 01:16:38"
+    "fetched": "2026-05-14 03:53:58"
+    "summary": "Amazon Web Services (AWS) is pleased to announce the successful completion of Payment Card Industry Personal Identification Number (PCI PIN) and PCI Point-to-Point Encryption (PCI P2PE) assessments for the AWS Payment Cryptography service. This assessment expands the AWS Payment Cryptography compliance portfolio, with AWS now validated as a component provider for Key Management (KMCP) and […]"
+"last_updated": "2026-05-14 03:53:58 JST"
