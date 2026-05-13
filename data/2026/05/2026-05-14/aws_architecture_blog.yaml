@@ -1,0 +1,9 @@
+"entries":
+  "45372e86c26e0d8c186d006185401a65":
+    "id": "45372e86c26e0d8c186d006185401a65"
+    "title": "Streaming CloudWatch metrics to VPC-based OpenTelemetry collectors using Lambda"
+    "link": "https://aws.amazon.com/blogs/architecture/streaming-cloudwatch-metrics-to-vpc-based-opentelemetry-collectors-using-lambda/"
+    "published": "2026-05-14 00:45:50"
+    "fetched": "2026-05-14 01:15:22"
+    "summary": "In this post, we demonstrate an approach we used to address this challenge for a customer by implementing an AWS Lambda transformation function that streams Amazon CloudWatch metrics directly to internal OpenTelemetry collectors running within a VPC."
+"last_updated": "2026-05-14 01:15:22 JST"
