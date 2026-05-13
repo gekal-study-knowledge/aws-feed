@@ -13,4 +13,11 @@
     "published": "2026-05-14 04:07:42"
     "fetched": "2026-05-14 05:28:47"
     "summary": "The financial services industry (FSI) is using AI to transform how financial institutions serve their customers. AI solutions can help proactively manage portfolios, automatically refinance mortgages when rates decrease, and negotiate insurance premiums for customers. However, this adoption brings new governance, risk, and compliance (GRC) considerations that organizations need to address. To help FSI customers […]"
-"last_updated": "2026-05-14 05:28:47 JST"
+  "b03159812571afa04b9f649cb2945aa9":
+    "id": "b03159812571afa04b9f649cb2945aa9"
+    "title": "Detecting and preventing crypto mining in your AWS environment"
+    "link": "https://aws.amazon.com/blogs/security/detecting-and-preventing-crypto-mining-in-your-aws-environment/"
+    "published": "2026-05-14 06:47:27"
+    "fetched": "2026-05-14 07:06:55"
+    "summary": "This article guides you on how to use Amazon GuardDuty to identify and mitigate cryptocurrency mining threats in your Amazon Web Services (AWS) environment. You’ll learn about the specialized detection capabilities of GuardDuty and best practices to build a multi-layered defense strategy that protects your infrastructure costs and security posture. Understanding the crypto mining challenge […]"
+"last_updated": "2026-05-14 07:06:55 JST"
