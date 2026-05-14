@@ -1,0 +1,9 @@
+"entries":
+  "f9380765e4a598b1118c217006e95f33":
+    "id": "f9380765e4a598b1118c217006e95f33"
+    "title": "Amazon Bedrock introduces new advanced prompt optimization and migration tool"
+    "link": "https://aws.amazon.com/blogs/aws/amazon-bedrock-introduces-new-advanced-prompt-optimization-and-migration-tool/"
+    "published": "2026-05-15 07:03:39"
+    "fetched": "2026-05-15 07:06:49"
+    "summary": "Amazon Bedrock Advanced Prompt Optimization enables customers to optimize their prompts for their current model or migrate prompts to new models faster than before with built-in evaluation feedback loops. Optimize your prompts and compare results for up to 5 models simultaneously."
+"last_updated": "2026-05-15 07:06:49 JST"

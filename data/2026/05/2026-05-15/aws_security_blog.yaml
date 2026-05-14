@@ -6,4 +6,11 @@
     "published": "2026-05-15 01:18:20"
     "fetched": "2026-05-15 01:57:37"
     "summary": "Migrating your TLS endpoints to Post-quantum cryptography (PQC) starts with understanding your current TLS endpoint inventory and posture. This post introduces the PQC Readiness Scanner — an automated tool that inventories your Application Load Balancer (ALB), Network Load Balancer (NLB), and Amazon API Gateway endpoints and continuously monitors their TLS configurations for PQC readiness. The […]"
-"last_updated": "2026-05-15 01:57:37 JST"
+  "80b8d9df9b98a3ccf3aa8f6cbfb8908d":
+    "id": "80b8d9df9b98a3ccf3aa8f6cbfb8908d"
+    "title": "Regional routing for AWS access portals: Implementing custom vanity domains for IAM Identity Center"
+    "link": "https://aws.amazon.com/blogs/security/regional-routing-for-aws-access-portals-implementing-custom-vanity-domains-for-iam-identity-center/"
+    "published": "2026-05-15 05:42:20"
+    "fetched": "2026-05-15 07:06:50"
+    "summary": "AWS IAM Identity Center provides a web-based access portal that gives your workforce a single place to view their AWS accounts and applications. With the recent launch of IAM Identity Center multi-Region replication, customers can replicate their IAM Identity Center instance across multiple AWS Regions to improve resilience and reduce latency for a globally distributed […]"
+"last_updated": "2026-05-15 07:06:50 JST"
