@@ -1,0 +1,9 @@
+"entries":
+  "2556a38ef03ba78f8161241ed753133b":
+    "id": "2556a38ef03ba78f8161241ed753133b"
+    "title": "Automating post-quantum cryptography readiness using AWS Config"
+    "link": "https://aws.amazon.com/blogs/security/automating-post-quantum-cryptography-readiness-using-aws-config/"
+    "published": "2026-05-15 01:18:20"
+    "fetched": "2026-05-15 01:57:37"
+    "summary": "Migrating your TLS endpoints to Post-quantum cryptography (PQC) starts with understanding your current TLS endpoint inventory and posture. This post introduces the PQC Readiness Scanner — an automated tool that inventories your Application Load Balancer (ALB), Network Load Balancer (NLB), and Amazon API Gateway endpoints and continuously monitors their TLS configurations for PQC readiness. The […]"
+"last_updated": "2026-05-15 01:57:37 JST"
