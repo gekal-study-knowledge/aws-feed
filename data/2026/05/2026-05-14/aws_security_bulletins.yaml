@@ -1,0 +1,16 @@
+"entries":
+  "879d9aceb7a34a683e264012f0fdfb60":
+    "id": "879d9aceb7a34a683e264012f0fdfb60"
+    "title": "Ongoing updates on Copy.fail and variants"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/"
+    "published": "2026-05-14 11:15:52"
+    "fetched": "2026-05-14 11:47:47"
+    "summary": "<p><b>Bulletin ID:</b> 2026-030-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 05/13/2026 10:00 PM PDT</p> \n<p><b>This is an ongoing issue. This bulletin will be updated as more information becomes available.</b></p> \n<p><b>Description:</b></p> \n<p>AWS is aware of the copy.fail or DirtyFrag class of issues - a set of privilege escalation issues affecting the Linux Kernel. We will update this bulletin as more information becomes available. </p>\n<p>Please see below for current patching timelines for affected services related to the Copy.fail kernel issue and all its variants. AWS recommends that customers apply all updates addressing these issues as soon as they are available.</p> \n<p>See more details at Security Bulletin (ID: 2026-030-AWS).</p>"
+  "8a335ed8793247013945a81692fc0e32":
+    "id": "8a335ed8793247013945a81692fc0e32"
+    "title": "Fragnesia Local Privilege Escalation report via ESP-in-TCP in the Linux Kernel"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-029-aws/"
+    "published": "2026-05-14 11:17:18"
+    "fetched": "2026-05-14 11:47:47"
+    "summary": "<p><b>Bulletin ID:</b> 2026-029-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 05/13/2026 18:45 PM PDT</p> \n<p><b>This is an ongoing issue. Information is subject to change. Please refer to our Security Bulletin (ID: 2026-030-AWS) for the most updated patching information.</b></p> \n<p><b>Description:</b></p> \n<p>Amazon is aware of CVE-2026-46300, a report of an additional privilege escalation issue in the Linux kernel related to the DirtyFrag, copy.fail class of issues (CVE-2026-43284). The proof of concept uses a vector via the loadable module espintcp. Amazon Linux does not provide this module, and is not affected.</p> \n<p>As defense in depth we will include a correctness patch to the core networking code to harden against possible similar issues in network protocol implementations that rely on this behavior.</p>"
+"last_updated": "2026-05-14 11:47:47 JST"
