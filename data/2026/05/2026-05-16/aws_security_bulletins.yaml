@@ -1,0 +1,9 @@
+"entries":
+  "83a6afb3ed7ec86de3c87b1999cc96dd":
+    "id": "83a6afb3ed7ec86de3c87b1999cc96dd"
+    "title": "CVE-2026-8686 - Heap out-of-bounds read in coreMQTT MQTT5 property parsing"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-032-aws/"
+    "published": "2026-05-16 04:03:46"
+    "fetched": "2026-05-16 05:13:45"
+    "summary": "<p><b>Bulletin ID:</b> 2026-032-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 05/15/2026 11:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>coreMQTT is a lightweight MQTT client library for embedded devices. We identified CVE-2026-8686, an issue where missing bounds validation in the MQTT v5.0 SUBACK and UNSUBACK property parser in coreMQTT before 5.0.1 allows an MQTT broker to cause a denial of service (crash via heap out-of-bounds read) by sending a crafted packet.</p> \n<p><b>Impacted versions:</b> v5.0.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-05-16 05:13:45 JST"
