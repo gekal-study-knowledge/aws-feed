@@ -1,0 +1,9 @@
+"entries":
+  "8e58af980ff78399e84a778f4bb13bb2":
+    "id": "8e58af980ff78399e84a778f4bb13bb2"
+    "title": "Restrict access to sensitive documents in your Amazon Quick knowledge bases for Amazon S3"
+    "link": "https://aws.amazon.com/blogs/machine-learning/restrict-access-to-sensitive-documents-in-your-amazon-quick-knowledge-bases-for-amazon-s3/"
+    "published": "2026-05-16 00:41:00"
+    "fetched": "2026-05-16 01:05:03"
+    "summary": "In this post, we walk through how to configure document-level ACLs for your S3 knowledge base in Amazon Quick. You will learn how to set up and verify an ACL configuration that enforces document-level permissions across chat and automated workflows."
+"last_updated": "2026-05-16 01:05:03 JST"
