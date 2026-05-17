@@ -1,0 +1,9 @@
+"entries":
+  "2f3b1304a4a90aaa912af9c0846aa94b":
+    "id": "2f3b1304a4a90aaa912af9c0846aa94b"
+    "title": "Amazon MWAA における Airflow ワーカープール最適化ガイド"
+    "link": "https://aws.amazon.com/jp/blogs/news/a-guide-to-airflow-worker-pool-optimization-in-amazon-mwaa/"
+    "published": "2026-05-18 08:42:27"
+    "fetched": "2026-05-18 08:55:08"
+    "summary": "本記事では、Amazon MWAA におけるワーカースケーリングの判断パターンを、タスクプールの仕組みとワーカー割り当ての関係に焦点を当てて解説します。具体的なシナリオと実践的な判断フレームワークを示し、ワーカーの追加がパフォーマンス課題の適切な解決策かどうか、また適切な場合にどうスケーリングを実装するかの指針を提供します。"
+"last_updated": "2026-05-18 08:55:08 JST"
