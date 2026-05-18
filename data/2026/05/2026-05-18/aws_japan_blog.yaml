@@ -48,4 +48,11 @@
     "published": "2026-05-18 12:10:48"
     "fetched": "2026-05-18 15:55:32"
     "summary": "今週は、AI チップ用語の入門解説や AWS 国内事例ブログから一次産業の見守りAI、建設・BIM特化基盤モデル、AI-DLCで3人月→2日の開発事例、Hannover Messe 2026のフィジカルAIブースまで幅広く紹介しています。サービスアップデートでは、Claude Platform on AWSの一般提供開始、Amazon BedrockのAdvanced Prompt Optimization、SageMaker AIのQwen3.6サーバーレスファインチューニング対応など、生成AI関連の注目アップデートが盛りだくさんです。"
-"last_updated": "2026-05-18 15:55:32 JST"
+  "660f8afa6e0b9724f02d96b79b587476":
+    "id": "660f8afa6e0b9724f02d96b79b587476"
+    "title": "Amazon Bedrock が、新しい高度なプロンプト最適化および移行ツールを導入"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-bedrock-introduces-new-advanced-prompt-optimization-and-migration-tool/"
+    "published": "2026-05-18 16:05:39"
+    "fetched": "2026-05-18 20:04:48"
+    "summary": "2026 年 5 月 14 日、Amazon Bedrock Advanced Prompt Optimiza […]"
+"last_updated": "2026-05-18 20:04:48 JST"
