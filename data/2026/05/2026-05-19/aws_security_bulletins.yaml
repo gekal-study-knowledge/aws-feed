@@ -1,0 +1,9 @@
+"entries":
+  "87268ebe89cb3ea323c0f4d9df742a6d":
+    "id": "87268ebe89cb3ea323c0f4d9df742a6d"
+    "title": "CVE-2026-8838 - Remote Code Execution in amazon-redshift-python-driver"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-033-aws/"
+    "published": "2026-05-19 05:27:07"
+    "fetched": "2026-05-19 06:07:52"
+    "summary": "<p><b>Bulletin ID:</b> 2026-033-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 05/18/2026 13:45 PM PDT</p> \n<p><b>Description:</b></p> \n<p>amazon-redshift-python-driver is the official Python connector for Amazon Redshift. We identified a code injection issue in versions 2.1.13 and earlier that could allow a rogue server or man-in-the-middle to execute arbitrary code on the client.</p> \n<p><b>Impacted versions:</b> &lt;=2.1.13</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-05-19 06:07:52 JST"
