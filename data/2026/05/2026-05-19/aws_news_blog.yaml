@@ -1,0 +1,9 @@
+"entries":
+  "29b7a7afccf18a91389b42d70373e1e1":
+    "id": "29b7a7afccf18a91389b42d70373e1e1"
+    "title": "AWS Weekly Roundup: AWS Transform at 1 year, Claude Platform on AWS, EC2 M3 Ultra Mac instances, and more (May 18, 2026)"
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-transform-at-1-year-claude-platform-on-aws-ec2-m3-ultra-mac-instances-and-more-may-18-2026/"
+    "published": "2026-05-19 04:13:20"
+    "fetched": "2026-05-19 04:46:46"
+    "summary": "Just a year ago, we launched AWS Transform for .NET, Mainframe and VMware workloads, the first agentic AI service purpose-built for modernizing enterprise applications at scale. At re:Invent 2025, we introduced AWS Transform custom, which enables organizations to modernize and transform code at scale using AWS-managed and custom transformations. You can upgrade language versions, migrate […]"
+"last_updated": "2026-05-19 04:46:46 JST"
