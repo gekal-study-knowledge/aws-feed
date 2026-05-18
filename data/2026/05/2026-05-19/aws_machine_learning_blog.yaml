@@ -1,0 +1,9 @@
+"entries":
+  "fa9581d82dfa31095bd4d381ae75c3e6":
+    "id": "fa9581d82dfa31095bd4d381ae75c3e6"
+    "title": "Build custom code-based evaluators in Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-custom-code-based-evaluators-in-amazon-bedrock-agentcore/"
+    "published": "2026-05-19 00:07:15"
+    "fetched": "2026-05-19 00:22:13"
+    "summary": "In this post, you will implement four Lambda-based custom code evaluators for a financial market-intelligence agent, register each with AgentCore, and run them in on-demand and online modes. You will also see how to combine custom code-based evaluators with built-in evaluators and how to call other AWS services for grounded fact-checking, PII detection, and real-time alerting."
+"last_updated": "2026-05-19 00:22:13 JST"
