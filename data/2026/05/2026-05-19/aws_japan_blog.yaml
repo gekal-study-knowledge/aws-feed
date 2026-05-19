@@ -1,0 +1,16 @@
+"entries":
+  "6825b5b6a28ad942b8616b05108113e7":
+    "id": "6825b5b6a28ad942b8616b05108113e7"
+    "title": "AWS Security Agent のフルリポジトリコードスキャン機能のプレビュー提供開始"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-security-agent-full-repository-code-scanning-feature-now-available-in-preview/"
+    "published": "2026-05-19 12:43:42"
+    "fetched": "2026-05-19 13:57:09"
+    "summary": "AWS Security Agent の新機能であるフルリポジトリコードレビューのプレビューリリースを発表。コードベース全体に対してコンテキスト認識型のセキュリティ分析を実行し、人間のセキュリティ研究者のように信頼境界やデータフローを推論します。従来の SAST が見逃す不整合や設計レベルの脆弱性を、透明性のある証拠と具体的な修復方法とともに検出します。本記事では仕組みと開発ワークフローへの組み込み方を紹介します。"
+  "9dfcb2dcf180f541d3103139ca14a30a":
+    "id": "9dfcb2dcf180f541d3103139ca14a30a"
+    "title": "Amazon Aurora DSQL での Change Data Capture 入門"
+    "link": "https://aws.amazon.com/jp/blogs/news/getting-started-with-change-data-capture-in-amazon-aurora-dsql/"
+    "published": "2026-05-19 10:02:08"
+    "fetched": "2026-05-19 13:57:09"
+    "summary": "Amazon Aurora DSQL は、パブリックプレビューで Change Data Capture (CDC) を発表しました。これにより、データベースの変更をほぼリアルタイムで Amazon Kinesis Data Streams にストリーミングできます。本記事では、Aurora DSQL CDC の仕組み、ストリーミングパイプラインの構成方法、変更イベントの消費方法を、CDC ストリームと Kinesis ストリームの作成から実際のイベント解析までの手順とともに説明します。"
+"last_updated": "2026-05-19 13:57:09 JST"
