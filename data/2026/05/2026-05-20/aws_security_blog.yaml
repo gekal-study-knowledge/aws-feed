@@ -1,0 +1,9 @@
+"entries":
+  "c2628e292e8e9e6cab8bf22db6c85776":
+    "id": "c2628e292e8e9e6cab8bf22db6c85776"
+    "title": "Governing infrastructure as code using pattern-based policy as code"
+    "link": "https://aws.amazon.com/blogs/security/governing-infrastructure-as-code-using-pattern-based-policy-as-code/"
+    "published": "2026-05-20 01:15:31"
+    "fetched": "2026-05-20 03:57:28"
+    "summary": "Organizations often struggle to enforce security and compliance requirements consistently across their cloud infrastructure. In one environment, a workload might be deployed in an AWS Region that was never approved for that class of data. In another, a security group might allow broader access than intended. Required tags might be missing. Encryption might be assumed […]"
+"last_updated": "2026-05-20 03:57:28 JST"
