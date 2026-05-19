@@ -6,4 +6,11 @@
     "published": "2026-05-20 01:15:31"
     "fetched": "2026-05-20 03:57:28"
     "summary": "Organizations often struggle to enforce security and compliance requirements consistently across their cloud infrastructure. In one environment, a workload might be deployed in an AWS Region that was never approved for that class of data. In another, a security group might allow broader access than intended. Required tags might be missing. Encryption might be assumed […]"
-"last_updated": "2026-05-20 03:57:28 JST"
+  "491bd08ad817b02ca4782d109e9901f8":
+    "id": "491bd08ad817b02ca4782d109e9901f8"
+    "title": "CIRT insights: How to help prevent unauthorized account removals from AWS Organizations"
+    "link": "https://aws.amazon.com/blogs/security/cirt-insights-how-to-help-prevent-unauthorized-account-removals-from-aws-organizations/"
+    "published": "2026-05-20 06:34:25"
+    "fetched": "2026-05-20 07:12:35"
+    "summary": "The AWS Customer Incident Response Team works with customers to help them recover from active security incidents. As part of this work, the team often uncovers new or trending tactics used by various threat actors that take advantage of specific customer configurations and designs. Understanding these tactics can help inform your architecture decisions, improve your […]"
+"last_updated": "2026-05-20 07:12:35 JST"
