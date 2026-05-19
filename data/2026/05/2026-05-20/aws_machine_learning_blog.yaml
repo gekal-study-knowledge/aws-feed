@@ -1,0 +1,30 @@
+"entries":
+  "cf6e5e7f4500130069c31873bbe45c3c":
+    "id": "cf6e5e7f4500130069c31873bbe45c3c"
+    "title": "Scalable voice agent design with Amazon Nova Sonic: multi-agent, tools, and session segmentation"
+    "link": "https://aws.amazon.com/blogs/machine-learning/scalable-voice-agent-design-with-amazon-nova-sonic-multi-agent-tools-and-session-segmentation/"
+    "published": "2026-05-20 00:26:37"
+    "fetched": "2026-05-20 01:15:39"
+    "summary": "In this post, you’ll learn how to use Amazon Nova Sonic, Amazon Bedrock AgentCore, and Strands BidiAgent to build scalable, maintainable voice agents that handle these challenges efficiently, resulting in more responsive and intelligent customer interactions. We’ll explore three popular architectural patterns for voice agents, highlighting their trade-offs and best practices for minimizing latency."
+  "8d389dcdea79db595fd1eef01d13e057":
+    "id": "8d389dcdea79db595fd1eef01d13e057"
+    "title": "Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory"
+    "link": "https://aws.amazon.com/blogs/machine-learning/extending-conversational-memory-in-kiro-cli-using-amazon-bedrock-agentcore-memory/"
+    "published": "2026-05-20 00:23:22"
+    "fetched": "2026-05-20 01:15:39"
+    "summary": "In this post, we demonstrate how you can extend the conversational memory of Kiro CLI by implementing a custom Model Context Protocol (MCP) server that integrates with Amazon Bedrock AgentCore Memory. You can use Kiro CLI to interact with AI agents of Kiro directly from your terminal. Amazon Bedrock AgentCore Memory is a fully managed service that allows AI agents to retain information from past interactions, creating more intelligent and context-aware conversations. By implementing a custom MCP server, you can provide Kiro CLI with tools to store and retrieve conversation context, monitor memory usage, and manage the underlying Bedrock Agent Core Memory infrastructure."
+  "2471ed12b25cb9a158bb86d515e1485f":
+    "id": "2471ed12b25cb9a158bb86d515e1485f"
+    "title": "Accelerate ML feature pipelines with new capabilities in Amazon SageMaker Feature Store"
+    "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-ml-feature-pipelines-with-new-capabilities-in-amazon-sagemaker-feature-store/"
+    "published": "2026-05-20 00:20:33"
+    "fetched": "2026-05-20 01:15:39"
+    "summary": "Today, we’re announcing three new capabilities available in SageMaker Python SDK v3.8.0. In this post, we walk through each capability with code examples you can use to get started. For complete end-to-end walkthroughs, see the accompanying notebooks for Lake Formation governance and Iceberg table properties in the SageMaker Python SDK repository."
+  "71b15fa22f25b06776ba010d7ffd6209":
+    "id": "71b15fa22f25b06776ba010d7ffd6209"
+    "title": "Implementing programmatic tool calling on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/"
+    "published": "2026-05-20 00:17:00"
+    "fetched": "2026-05-20 01:15:39"
+    "summary": "In this post, we show three ways to implement Programmatic tool calling (PTC) on Amazon Bedrock: a self-hosted Docker sandbox on ECS for maximum control, a managed solution using Amazon Bedrock AgentCore Code Interpreter, and an Anthropic SDK-compatible path through a proxy for teams that prefer that developer experience."
+"last_updated": "2026-05-20 01:15:39 JST"
