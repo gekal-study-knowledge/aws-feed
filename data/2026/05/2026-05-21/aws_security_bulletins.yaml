@@ -1,0 +1,9 @@
+"entries":
+  "1c6cae8edb0857b37388c4830356179b":
+    "id": "1c6cae8edb0857b37388c4830356179b"
+    "title": "CVE-2026-9133 - Arbitrary file read in rabbitmq-aws plugin"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-034-aws/"
+    "published": "2026-05-21 04:43:20"
+    "fetched": "2026-05-21 06:48:38"
+    "summary": "<p><b>Bulletin ID:</b> 2026-034-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 05/20/2026 12:45 PM PDT</p> \n<p><b>Description:</b></p> \n<p>rabbitmq-aws is a RabbitMQ plugin that resolves AWS ARNs in broker configuration at startup, fetching secrets (e.g., TLS certificates, private keys, passwords) from AWS services (Secrets Manager, S3, ACM Private CA) and passing them in-memory to RabbitMQ. We identified CVE-2026-9133, an active debug code issue in the plugin's ARN resolver. A debug ARN scheme (arn:aws-debug:file) accepted by the PUT /api/aws/arn/validate validation endpoint might allow remote authenticated users to perform arbitrary file reads on any file accessible to the RabbitMQ process. The debug code was inadvertently shipped in production builds with no mechanism to disable it.</p> \n<p><b>Impacted versions:</b> &gt;=0.1.0, &lt;=0.2.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-05-21 06:48:38 JST"

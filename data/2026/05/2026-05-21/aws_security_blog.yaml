@@ -6,4 +6,11 @@
     "published": "2026-05-21 02:32:58"
     "fetched": "2026-05-21 04:21:32"
     "summary": "Our largest security services customers started the same way every customer does – with a click. They enabled Amazon GuardDuty, Amazon Inspector, AWS WAF, and AWS Security Hub, experienced the benefits in real time, and evaluated with transparent pay-as-you-go pricing. No RFP. No six-month evaluation. No multi-year commitment up front. Our field teams played a […]"
-"last_updated": "2026-05-21 04:21:32 JST"
+  "3ddf0187092fff9d51784d6963e5499f":
+    "id": "3ddf0187092fff9d51784d6963e5499f"
+    "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows"
+    "link": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/"
+    "published": "2026-05-21 05:56:03"
+    "fetched": "2026-05-21 06:48:38"
+    "summary": "Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection […]"
+"last_updated": "2026-05-21 06:48:38 JST"
