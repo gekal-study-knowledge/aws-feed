@@ -1,0 +1,9 @@
+"entries":
+  "e5530ec19211e987626a456fb74328dd":
+    "id": "e5530ec19211e987626a456fb74328dd"
+    "title": "Cyber resilience on AWS: A reference approach for recovery from ransomware and destructive events"
+    "link": "https://aws.amazon.com/blogs/architecture/cyber-resilience-on-aws-a-reference-approach-for-recovery-from-ransomware-and-destructive-events/"
+    "published": "2026-05-21 02:32:57"
+    "fetched": "2026-05-21 04:21:32"
+    "summary": "Cyber resilience is the ability to recover workloads to a known-good state after an adversary has affected the environment. Prevention works to keep threat actors out and detection works to find them quickly. Cyber resilience focuses on recovery: restoring a trustworthy environment when backups, credentials, or parts of the infrastructure can no longer be assumed […]"
+"last_updated": "2026-05-21 04:21:32 JST"

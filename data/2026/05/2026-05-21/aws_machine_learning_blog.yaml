@@ -1,0 +1,16 @@
+"entries":
+  "ab139c221d423af90b287727beb00e79":
+    "id": "ab139c221d423af90b287727beb00e79"
+    "title": "Multimodal evaluators: MLLM-as-a-judge for image-to-text tasks in Strands Evals"
+    "link": "https://aws.amazon.com/blogs/machine-learning/multimodal-evaluators-mllm-as-a-judge-for-image-to-text-tasks-in-strands-evals/"
+    "published": "2026-05-21 03:01:29"
+    "fetched": "2026-05-21 04:21:33"
+    "summary": "If you’re building visual shopping, image or document understanding, or chart analysis, you need a way to verify whether your model’s response is actually grounded in the source image. A text-only evaluator cannot tell you whether a caption faithfully describes an image, whether an extracted invoice total matches the document, or whether a screen summary […]"
+  "da57f26c6896c3262f2c32748d66667d":
+    "id": "da57f26c6896c3262f2c32748d66667d"
+    "title": "Build real-time voice applications with Amazon SageMaker AI and vLLM"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-amazon-sagemaker-ai-and-vllm/"
+    "published": "2026-05-21 02:10:17"
+    "fetched": "2026-05-21 04:21:33"
+    "summary": "Voice agents, live captioning, contact center analytics, and accessibility tools all depend on real-time speech-to-text, where your application streams audio in and receives transcription back simultaneously over a single persistent connection. Traditional request-response inference falls short here because transcription cannot begin until the entire audio recording has been received, adding latency that breaks the real-time […]"
+"last_updated": "2026-05-21 04:21:33 JST"
