@@ -1,0 +1,16 @@
+"entries":
+  "6968f35778acf5ebdbb0bab3417ba343":
+    "id": "6968f35778acf5ebdbb0bab3417ba343"
+    "title": "Sim-to-Real と Real-to-Sim: 高性能な Physical AI を支える原動力"
+    "link": "https://aws.amazon.com/jp/blogs/news/sim-to-real-and-real-to-sim-the-engine-behind-capable-physical-ai/"
+    "published": "2026-05-21 15:16:10"
+    "fetched": "2026-05-21 15:52:38"
+    "summary": "はじめに、物理 AI システム（現実世界で知覚・推論・行動するロボット）は急速に進化しています。この進歩の中心にあるのが Sim-to-Real パイプラインです。しかし、実験室の外でも安定して動作するモデルを構築することは、この分野で最も難しい課題の一つであり続けています。シミュレーションで機能するものと […]"
+  "3ae2bdc538c089da3e387c449bc930bd":
+    "id": "3ae2bdc538c089da3e387c449bc930bd"
+    "title": "形式的検証済み AES-XTS: s2n-bignum に加わった初の AES アルゴリズム"
+    "link": "https://aws.amazon.com/jp/blogs/news/formally-verified-aes-xts-the-first-aes-algorithm-to-join-s2n-bignum/"
+    "published": "2026-05-21 13:28:49"
+    "fetched": "2026-05-21 15:52:38"
+    "summary": "AWS は AES-XTS 復号の最適化された Arm64 アセンブリ実装の形式的検証に成功し、s2n-bignum ライブラリに初の AES アルゴリズムとして追加しました。本記事では、コア演算のアセンブリコードを単純化することで SLOTHY による自動最適化を可能にし、HOL Light 対話型定理証明器を用いて IEEE 1619 仕様への適合を数学的に証明したプロセスを紹介します。暗号文スティーリングや定数時間設計、メモリ安全性の検証についても解説します。"
+"last_updated": "2026-05-21 15:52:38 JST"
