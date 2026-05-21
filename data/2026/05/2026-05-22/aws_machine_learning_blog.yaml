@@ -41,4 +41,11 @@
     "published": "2026-05-22 00:55:29"
     "fetched": "2026-05-22 02:28:57"
     "summary": "This solution combines the power of Amazon Bedrock AgentCore, Strands Agents, and Amazon Quick transforms to deliver a secure, scalable, and intelligent system for building and operating AI agents while transforming data into actionable business insights."
-"last_updated": "2026-05-22 02:28:57 JST"
+  "25e456d096b87ed27fe0ac44982bfb5a":
+    "id": "25e456d096b87ed27fe0ac44982bfb5a"
+    "title": "Intelligent radiology workflow optimization with AI agents"
+    "link": "https://aws.amazon.com/blogs/machine-learning/intelligent-radiology-workflow-optimization-with-ai-agents-2/"
+    "published": "2026-05-22 04:11:09"
+    "fetched": "2026-05-22 04:49:03"
+    "summary": "Many healthcare organizations report that traditional worklist systems rely on rigid rules that ignore critical context, radiologist specialization, current workload, fatigue levels, and case complexity. This creates a persistent challenge: radiologists cherry-pick easier, higher-value cases while avoiding complex studies, leading to diagnostic delays and increased costs. Research across 62 hospitals analyzing 2.2 million studies found […]"
+"last_updated": "2026-05-22 04:49:03 JST"
