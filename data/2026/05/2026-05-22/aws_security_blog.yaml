@@ -6,4 +6,11 @@
     "published": "2026-05-22 01:00:59"
     "fetched": "2026-05-22 02:28:56"
     "summary": "Managing identities and access across complex environments has become more critical than ever. AWS Directory Service for Managed Microsoft Active Directory, also known as AWS Managed Microsoft AD, has added new capabilities to manage users and groups. Now, you can perform create, read, update, and delete (CRUD) operations on users and groups directly through AWS […]"
-"last_updated": "2026-05-22 02:28:56 JST"
+  "6cfb9d0a56c37b5ccdd92eb30e345ec8":
+    "id": "6cfb9d0a56c37b5ccdd92eb30e345ec8"
+    "title": "AWS KY3P report now available for third-party supplier due diligence"
+    "link": "https://aws.amazon.com/blogs/security/aws-ky3p-report-now-available-for-third-party-supplier-due-diligence/"
+    "published": "2026-05-22 04:58:03"
+    "fetched": "2026-05-22 06:24:14"
+    "summary": "We’re excited to announce that Amazon Web Services (AWS) has completed the S&amp;P Global Know Your Third Party (KY3P) assessment of its security posture. This assessment demonstrates our continued commitment to meet the heightened expectations of cloud service providers. Customers can now use the AWS KY3P assessment to reduce their supplier due diligence burden. KY3P, […]"
+"last_updated": "2026-05-22 06:24:14 JST"
