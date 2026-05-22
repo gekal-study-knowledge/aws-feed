@@ -1,0 +1,9 @@
+"entries":
+  "b5eb66ff277bf852c4c1c84393880d17":
+    "id": "b5eb66ff277bf852c4c1c84393880d17"
+    "title": "Amazon WorkSpaces Personal now supports WorkSpace Migration for Linux WorkSpaces"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/05/workspaces-linux-migration"
+    "published": "2026-05-23 01:24:00"
+    "fetched": "2026-05-23 02:05:39"
+    "summary": "<p>Amazon WorkSpaces now supports the WorkSpace Migration feature for all Linux operating systems that Amazon WorkSpaces offers. This allows customers to seamlessly migrate WorkSpaces from one Linux operating system to another, automating the process to migrate to newer operating system versions or to move from one Linux operating system to another.<br /> <br /> When customers migrate their WorkSpaces from one operating system to another, the user data on a Linux WorkSpace’s home directory is now automatically moved to the new WorkSpace. Customers can seamlessly migrate WorkSpaces without having to manually copy data between WorkSpaces. This streamlines the process to upgrade Linux WorkSpaces to take advantage of the latest Linux operating systems without disrupting end users with manual migration steps.<br /> <br /> The WorkSpace Migration feature is now supported for all Linux operating systems in AWS commercial and AWS GovCloud (US) Regions where Amazon WorkSpaces Personal is supported. For more information, see the <a href=\"https://docs.aws.amazon.com/workspaces/latest/adminguide/migrate-linux-workspaces.html\">Migrate a Linux WorkSpace section</a> in the <a href=\"https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces.html\">Amazon WorkSpaces Administration Guide</a>.</p>"
+"last_updated": "2026-05-23 02:05:39 JST"

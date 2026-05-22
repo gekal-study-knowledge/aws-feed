@@ -1,0 +1,9 @@
+"entries":
+  "cc713824137cade615a2f6c101419f0e":
+    "id": "cc713824137cade615a2f6c101419f0e"
+    "title": "CVE-2026-9255 - Tool Execution Without Authorization via Piped Stdin in Kiro CLI"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-035-aws/"
+    "published": "2026-05-23 01:42:15"
+    "fetched": "2026-05-23 02:05:41"
+    "summary": "<p><b>Bulletin ID:</b> 2026-035-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 05/22/2026 09:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Kiro CLI is a command-line AI coding assistant that enables developers to interact with AI models to execute code, manage files, and run shell commands. We identified CVE-2026-9255, an issue where missing input source validation in the tool authorization prompt could allow a local actor to execute arbitrary tools, including shell commands, without user approval by crafting content that is piped to kiro-cli via stdin.</p> \n<p><b>Impacted versions:</b> kiro-cli prior to 1.28.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-05-23 02:05:41 JST"
