@@ -1,0 +1,9 @@
+"entries":
+  "b24962b1f28d93740311fdc8c6a40b5b":
+    "id": "b24962b1f28d93740311fdc8c6a40b5b"
+    "title": "Streamline your infrastructure: Automating AMI creation with Kiro CLI and EC2 Image Builder"
+    "link": "https://aws.amazon.com/blogs/compute/streamline-your-infrastructure-automating-ami-creation-with-kiro-cli-and-ec2-image-builder/"
+    "published": "2026-05-23 06:01:36"
+    "fetched": "2026-05-23 06:06:47"
+    "summary": "Managing infrastructure at scale requires robust automation tools that reduce manual effort while maintaining consistency and security. The combination of&nbsp;Kiro CLI&nbsp;and&nbsp;AWS EC2 Image Builder&nbsp;offers a powerful solution for automating the creation, testing, and deployment of Amazon Machine Images (AMIs). The challenge of manual image management Traditional approaches of creating and maintaining AMIs often involve manual […]"
+"last_updated": "2026-05-23 06:06:47 JST"
