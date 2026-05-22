@@ -6,4 +6,11 @@
     "published": "2026-05-23 01:42:15"
     "fetched": "2026-05-23 02:05:41"
     "summary": "<p><b>Bulletin ID:</b> 2026-035-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 05/22/2026 09:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Kiro CLI is a command-line AI coding assistant that enables developers to interact with AI models to execute code, manage files, and run shell commands. We identified CVE-2026-9255, an issue where missing input source validation in the tool authorization prompt could allow a local actor to execute arbitrary tools, including shell commands, without user approval by crafting content that is piped to kiro-cli via stdin.</p> \n<p><b>Impacted versions:</b> kiro-cli prior to 1.28.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
-"last_updated": "2026-05-23 02:05:41 JST"
+  "1d6d82f57f64cb1317d47bab97567e00":
+    "id": "1d6d82f57f64cb1317d47bab97567e00"
+    "title": "CVE-2026-9291 - Insecure Deserialization in Amazon Braket SDK Job Results Processing"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-036-aws/"
+    "published": "2026-05-23 03:38:37"
+    "fetched": "2026-05-23 04:39:40"
+    "summary": "<p><b>Bulletin ID:</b> 2026-036-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 05/22/2026 11:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon Braket SDK is an open-source Python library for interacting with the Amazon Braket quantum computing service, including managing hybrid quantum jobs and retrieving job results. We identified CVE-2026-9291, an insecure deserialization issue (CWE-502) in the job results processing component. The SDK's deserialize_values() function trusts the dataFormat field from an untrusted JSON file to control whether pickle.loads() is called on the data payload. A remote authenticated user with S3 write access to the job output bucket can modify the dataFormat field in results.json from PLAINTEXT to pickled_v4 and replace data values with executable payloads, achieving arbitrary code execution on any machine that processes job results.</p> \n<p><b>Impacted versions:</b> &gt;= 1.10.0 AND &lt; 1.117.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-05-23 04:39:40 JST"
