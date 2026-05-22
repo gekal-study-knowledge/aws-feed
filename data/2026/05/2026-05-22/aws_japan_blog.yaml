@@ -1,0 +1,16 @@
+"entries":
+  "5440ba0bb71cf5c5ab07a26e26bbded7":
+    "id": "5440ba0bb71cf5c5ab07a26e26bbded7"
+    "title": "AWS における AI エージェント対応のデータ基盤 (2) — SageMaker Catalog で行・列レベルのアクセス権を透過的に適用する"
+    "link": "https://aws.amazon.com/jp/blogs/news/ai-agent-ready-data-platform-authorization-deep-dive/"
+    "published": "2026-05-22 08:56:11"
+    "fetched": "2026-05-22 09:11:10"
+    "summary": "本記事は、シリーズ「AWS における AI エージェント対応のデータ基盤」の第 2 回です。第 1 回では、A […]"
+  "2b2b90fefbf2440a8a4b06e76fb7dd4c":
+    "id": "2b2b90fefbf2440a8a4b06e76fb7dd4c"
+    "title": "AWS における AI エージェント対応のデータ基盤 (1) — ツールを配る時代から、データを返す時代へ"
+    "link": "https://aws.amazon.com/jp/blogs/news/ai-agent-ready-data-platform-overview-and-demo/"
+    "published": "2026-05-22 08:55:17"
+    "fetched": "2026-05-22 09:11:10"
+    "summary": "AI エージェントに本番データを分析させるには、単にモデルと API をつなぐだけでは足りません。認可、ビジネ […]"
+"last_updated": "2026-05-22 09:11:10 JST"
