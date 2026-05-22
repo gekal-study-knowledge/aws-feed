@@ -13,4 +13,11 @@
     "published": "2026-05-22 08:55:17"
     "fetched": "2026-05-22 09:11:10"
     "summary": "AI エージェントに本番データを分析させるには、単にモデルと API をつなぐだけでは足りません。認可、ビジネ […]"
-"last_updated": "2026-05-22 09:11:10 JST"
+  "33cb08065017c090a2157ce669af6de2":
+    "id": "33cb08065017c090a2157ce669af6de2"
+    "title": "3 か月で開発スピード 3 倍を達成：キヤノン IT ソリューションズ様が実践した AI Coding Agent 導入・普及の仕組みづくり"
+    "link": "https://aws.amazon.com/jp/blogs/news/genai-case-study-canon-its-ai-coding-agent-introduction/"
+    "published": "2026-05-22 12:40:09"
+    "fetched": "2026-05-22 13:57:50"
+    "summary": "本記事では、キヤノン IT ソリューションズ株式会社様が 、Amazon Q Developer を開発現場に導入し、3 か月間効果検証を実施した取り組みをご紹介します。コード生成やレビュー支援による効率化、現場での活用事例、そして検証から得られた知見について詳しく解説します。"
+"last_updated": "2026-05-22 13:57:50 JST"
