@@ -1,0 +1,16 @@
+"entries":
+  "ce0abd48a0090c5e1cd8b9e72d0ff72d":
+    "id": "ce0abd48a0090c5e1cd8b9e72d0ff72d"
+    "title": "AWS JDBC Driver の Blue/Green デプロイメントプラグインでデータベースメンテナンスのダウンタイムをほぼゼロに"
+    "link": "https://aws.amazon.com/jp/blogs/news/achieve-near-zero-downtime-database-maintenance-by-using-blue-green-deployments-with-aws-jdbc-driver/"
+    "published": "2026-05-25 11:03:48"
+    "fetched": "2026-05-25 12:57:25"
+    "summary": "本記事では、AWS JDBC Driver の Blue/Green デプロイメントプラグインを紹介します。このプラグインは、Amazon RDS および Amazon Aurora の Blue/Green デプロイメント切り替え時に、接続ルーティングとトラフィック管理を自動化し、データベースメンテナンスのダウンタイムをほぼゼロにします。プラグインの設定方法とテスト結果を示し、従来の 30 秒超のダウンタイムを約 12 秒の一時停止に短縮できることを実証します。"
+  "ac272d84a51a22f06cb5dc72c38c459e":
+    "id": "ac272d84a51a22f06cb5dc72c38c459e"
+    "title": "Amazon Connect Customer とは？エージェンティック AI ソリューションの最新アップデート –  2026 年 4月"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-connect-update-jp-202604/"
+    "published": "2026-05-25 10:35:29"
+    "fetched": "2026-05-25 12:57:25"
+    "summary": "こんにちは、Amazon Connect ソリューションアーキテクトの梅田です。2026年 3 月号 はお読み […]"
+"last_updated": "2026-05-25 12:57:25 JST"
