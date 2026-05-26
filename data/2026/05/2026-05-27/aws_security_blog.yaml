@@ -1,0 +1,16 @@
+"entries":
+  "d1098af9f20d7ef04caf0367f197c028":
+    "id": "d1098af9f20d7ef04caf0367f197c028"
+    "title": "Welcoming the AWS Customer Incident Response Team"
+    "link": "https://aws.amazon.com/blogs/security/welcoming-the-aws-customer-incident-response-team/"
+    "published": "2026-05-27 04:04:17"
+    "fetched": "2026-05-27 04:16:26"
+    "summary": "May 26, 2026: This post was originally published in July 2022. It has been updated to reflect current engagement options, new threat intelligence resources such as the Threat Technique Catalog for AWS (TTC), additional open-source tools, and the distinction between AWS CIRT support and the AWS Security Incident Response managed service. Welcome back, or welcome […]"
+  "93775433c0f0d753dded0ae8408e7654":
+    "id": "93775433c0f0d753dded0ae8408e7654"
+    "title": "Well-architected best practices for software supply chain security"
+    "link": "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/"
+    "published": "2026-05-27 02:03:30"
+    "fetched": "2026-05-27 04:16:26"
+    "summary": "There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security Foundation, and others, the affected packages were quickly flagged, which reduced the impact of these incidents. Supply chain attacks […]"
+"last_updated": "2026-05-27 04:16:26 JST"
