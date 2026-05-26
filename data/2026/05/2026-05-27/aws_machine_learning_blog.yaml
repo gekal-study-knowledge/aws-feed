@@ -1,0 +1,23 @@
+"entries":
+  "65e27915e3fd7b54c5c29105b9fa7374":
+    "id": "65e27915e3fd7b54c5c29105b9fa7374"
+    "title": "From idea to AI app: Creating intelligent research assistants with Strands"
+    "link": "https://aws.amazon.com/blogs/machine-learning/from-idea-to-ai-app-creating-intelligent-research-assistants-with-strands/"
+    "published": "2026-05-27 01:28:08"
+    "fetched": "2026-05-27 01:38:58"
+    "summary": "Building an AI app shouldn’t require a PhD in machine learning (ML) or months of wrestling with complex architectures. Yet that’s exactly what happens when you try to orchestrate multiple API calls, manage conversation state, and create agents that can reason on their own. I’ve seen straightforward AI ideas balloon into sprawling projects that demand […]"
+  "a99981d0ffb090a6a63e90350d34b115":
+    "id": "a99981d0ffb090a6a63e90350d34b115"
+    "title": "Build an enterprise observability solution for Amazon Quick"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-an-enterprise-observability-solution-for-amazon-quick/"
+    "published": "2026-05-27 01:09:06"
+    "fetched": "2026-05-27 01:38:58"
+    "summary": "When hundreds to thousands of users are onboarded to an enterprise AI platform, business leaders and platform owners need visibility into who is using the platform, whether users are satisfied with the answers they receive, and which capabilities are driving the most engagement. Without a centralized observability solution, this data is scattered across multiple AWS […]"
+  "65da7ab7d3822428510bf74e3273fa1d":
+    "id": "65da7ab7d3822428510bf74e3273fa1d"
+    "title": "Transforming professional work: How Amazon Quick turns document creation from hours into minutes"
+    "link": "https://aws.amazon.com/blogs/machine-learning/transforming-professional-work-how-amazon-quick-turns-document-creation-from-hours-into-minutes/"
+    "published": "2026-05-27 00:59:16"
+    "fetched": "2026-05-27 01:38:58"
+    "summary": "In this post, we explore how the Amazon Quick document and visualization creation capabilities work, what you can build with them, and how professionals across roles are using them to reclaim hours of their workweek. From technical execution to strategic judgment Most professional roles carry an unspoken assumption that a significant portion of your time […]"
+"last_updated": "2026-05-27 01:38:58 JST"
