@@ -1,0 +1,30 @@
+"entries":
+  "099c79a8724ff67db278e5b4ab5bea0d":
+    "id": "099c79a8724ff67db278e5b4ab5bea0d"
+    "title": "寄稿：生成 AI で“探せなかった開示情報”を見つけ出す 〜 JPX の AI 開示情報検索サービス J-LENS〜"
+    "link": "https://aws.amazon.com/jp/blogs/news/jpx-timely-disclosure-semantic-search/"
+    "published": "2026-05-26 16:37:47"
+    "fetched": "2026-05-26 17:38:44"
+    "summary": "本稿は、日本取引所（以下「JPX」）グループの戦略的なデータ・デジタル事業を担う株式会社 JPX 総研による「 […]"
+  "51da3010077d7e7fa8e44a785f6d2a37":
+    "id": "51da3010077d7e7fa8e44a785f6d2a37"
+    "title": "テイツーが挑むリユース業界の店舗 DX – AWS で実現した POP 自動生成サービス「POP×THREE」"
+    "link": "https://aws.amazon.com/jp/blogs/news/taytwo-tays-popxthree/"
+    "published": "2026-05-26 16:34:38"
+    "fetched": "2026-05-26 17:38:44"
+    "summary": "本ブログは、株式会社テイツー様とアマゾン ウェブ サービス ジャパン合同会社が共同で執筆いたしました。 AWS […]"
+  "fb64ceec966b2e5f90b05aeaa7476074":
+    "id": "fb64ceec966b2e5f90b05aeaa7476074"
+    "title": "AWS Summit Japan 2026 ~AWS IoT サービスを活用した展示の一部をご紹介~"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-japan-2026-aws-iot-servies-booths/"
+    "published": "2026-05-26 16:10:46"
+    "fetched": "2026-05-26 17:38:44"
+    "summary": "この記事では、AWS Summit Japan 2026で AWS IoT サービスを利活用した展示の一部をご紹介します。各ブースで表示している資料もこちらに掲載予定です。AWS IoTで実現するロボット遠隔テレオペレーション体験 (A026),AIエージェントで実現するスマートマシン -建設機械の自律運用-(A162),Physical AIへの第一歩 AWS IoTで実現するPhysical AI基盤 (A161),builders' Fair： クラウドVLAが操るミニロボたち,インダストリブース：AWS認定デバイスウォール(A017) のブースについて紹介しています。"
+  "b3495a69546802599173e9e316adf7f8":
+    "id": "b3495a69546802599173e9e316adf7f8"
+    "title": "Amazon Aurora DSQL の接続: ドライバー、接続文字列、ベストプラクティス"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-aurora-dsql-connections-drivers-strings-and-best-practices/"
+    "published": "2026-05-26 15:25:28"
+    "fetched": "2026-05-26 17:38:44"
+    "summary": "本記事では、Amazon Aurora DSQL への接続方法を解説します。ドライバーの設定、IAM ベースの認証トークン生成、接続プーリング、ライフサイクル管理のベストプラクティスに加え、一般的な接続問題のトラブルシューティングガイドを紹介します。"
+"last_updated": "2026-05-26 17:38:44 JST"
