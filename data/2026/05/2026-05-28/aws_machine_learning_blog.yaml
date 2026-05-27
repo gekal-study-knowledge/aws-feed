@@ -27,4 +27,11 @@
     "published": "2026-05-28 03:51:45"
     "fetched": "2026-05-28 06:00:02"
     "summary": "In this post, we share how we built NarrateAI using Amazon Bedrock AgentCore to deliver business intelligence at scale for the AWS SMGS (Sales, Marketing and Global Services) organization. You will learn about: the two-layer architecture that separates batch processing from real-time interaction, the specialized AI agents that power intelligent routing and validation, key engineering patterns for production deployment, and how to build similar solutions with AWS services."
-"last_updated": "2026-05-28 06:00:02 JST"
+  "45609b514a92add81e99c18083e25370":
+    "id": "45609b514a92add81e99c18083e25370"
+    "title": "Process financial documents using Amazon Bedrock Data Automation"
+    "link": "https://aws.amazon.com/blogs/machine-learning/process-financial-documents-using-amazon-bedrock-data-automation/"
+    "published": "2026-05-28 06:28:53"
+    "fetched": "2026-05-28 07:46:23"
+    "summary": "In this post, we explore how Amazon Bedrock Data Automation can accurately extract information from four common types of financial documents: bank statements, W-2 forms, 1099-B tax forms, and vendor contracts. We highlight the complexity in the documents, detail the custom extraction created in Amazon Bedrock Data Automation, and describe the outcomes of the extraction process."
+"last_updated": "2026-05-28 07:46:23 JST"
