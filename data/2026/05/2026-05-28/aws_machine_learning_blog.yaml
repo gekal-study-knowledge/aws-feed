@@ -1,0 +1,9 @@
+"entries":
+  "eb3320e33fb40625c9b79c0255e478c5":
+    "id": "eb3320e33fb40625c9b79c0255e478c5"
+    "title": "Powering agentic AI sales strategy with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/powering-agentic-ai-sales-strategy-with-amazon-bedrock-agentcore/"
+    "published": "2026-05-28 03:00:07"
+    "fetched": "2026-05-28 03:23:27"
+    "summary": "As agent adoption scaled, we saw a common pattern emerge across enterprises, including our own sales organization: specialized agents deliver value, but without orchestration, users carry the cognitive load of choosing between them. At AWS Sales, this meant more than 20 domain-specific agents deployed across the global organization, with representatives context-switching between systems instead of […]"
+"last_updated": "2026-05-28 03:23:27 JST"
