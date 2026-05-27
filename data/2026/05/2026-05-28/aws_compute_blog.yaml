@@ -1,0 +1,9 @@
+"entries":
+  "d10c112b5fb50b281f3c85abfe470a4f":
+    "id": "d10c112b5fb50b281f3c85abfe470a4f"
+    "title": "Migrating your Java applications to AWS Graviton using AWS Transform custom"
+    "link": "https://aws.amazon.com/blogs/compute/migrating-your-java-applications-to-aws-graviton-using-aws-transform-custom/"
+    "published": "2026-05-28 00:04:10"
+    "fetched": "2026-05-28 00:31:03"
+    "summary": "For Java applications, modern JVMs like Amazon Corretto and OpenJDK are highly optimized for Arm64 and modern applications that are pure Java often require zero changes to run on Graviton. In many cases, applications aren’t fully modernized or purely Java and have a range of dependencies. When you’re responsible for migrating workloads, it’s helpful to […]"
+"last_updated": "2026-05-28 00:31:03 JST"
