@@ -48,4 +48,11 @@
     "published": "2026-05-25 18:24:09"
     "fetched": "2026-05-25 21:25:58"
     "summary": "こんにちは。Amazon&nbsp;Web Services Japan&nbsp;のソリューションアーキテクト、田中&nbsp;里絵&nbsp;です […]"
-"last_updated": "2026-05-25 21:25:58 JST"
+  "9bd48f1e1d5268bdc9804f92ab4736d6":
+    "id": "9bd48f1e1d5268bdc9804f92ab4736d6"
+    "title": "AWS Direct Connect 仮想インターフェイスの BGP の正常性とプレフィックス数に関する CloudWatch メトリクスの紹介"
+    "link": "https://aws.amazon.com/jp/blogs/news/introducing-cloudwatch-metrics-for-aws-direct-connect-virtual-interface-bgp-health-and-prefix-count/"
+    "published": "2026-05-25 20:27:16"
+    "fetched": "2026-05-27 16:58:57"
+    "summary": "本記事は&nbsp; 2026 年 3 月 30 日に公開された ”Introducing CloudWatch Met […]"
+"last_updated": "2026-05-27 16:58:57 JST"
