@@ -6,4 +6,11 @@
     "published": "2026-05-29 03:57:13"
     "fetched": "2026-05-29 04:34:08"
     "summary": "Network administrators face a persistent challenge: maintaining domain blocklists and allowlists that keep pace with the internet. New websites and services emerge daily, and keeping these lists current requires constant manual updates that leave gaps in coverage. This challenge intensifies when managing access to rapidly evolving categories like AI services, where new tools launch on […]"
-"last_updated": "2026-05-29 04:34:08 JST"
+  "27e8776021b5f8ee3388990ce0d279f1":
+    "id": "27e8776021b5f8ee3388990ce0d279f1"
+    "title": "Why and how to migrate to a Transit Gateway-attached AWS Network Firewall"
+    "link": "https://aws.amazon.com/blogs/security/why-and-how-to-migrate-to-a-transit-gateway-attached-aws-network-firewall/"
+    "published": "2026-05-29 07:44:17"
+    "fetched": "2026-05-29 08:12:23"
+    "summary": "AWS Network Firewall now supports native attachment to AWS Transit Gateway. Customers commonly use Transit Gateway to route traffic from Amazon Virtual Private Cloud (Amazon VPC) networks to a centralized inspection VPC (a VPC dedicated to hosting firewall endpoints for traffic inspection) where their network firewall endpoints are deployed. This centralized deployment model reduces the […]"
+"last_updated": "2026-05-29 08:12:23 JST"
