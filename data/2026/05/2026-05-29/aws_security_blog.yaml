@@ -1,0 +1,9 @@
+"entries":
+  "19c4ce0f7b45a6090384a9396ea6dfa9":
+    "id": "19c4ce0f7b45a6090384a9396ea6dfa9"
+    "title": "Simplifying policy management with URL and Domain Category filtering on AWS Network Firewall"
+    "link": "https://aws.amazon.com/blogs/security/simplifying-policy-management-with-url-and-domain-category-filtering-on-aws-network-firewall/"
+    "published": "2026-05-29 03:57:13"
+    "fetched": "2026-05-29 04:34:08"
+    "summary": "Network administrators face a persistent challenge: maintaining domain blocklists and allowlists that keep pace with the internet. New websites and services emerge daily, and keeping these lists current requires constant manual updates that leave gaps in coverage. This challenge intensifies when managing access to rapidly evolving categories like AI services, where new tools launch on […]"
+"last_updated": "2026-05-29 04:34:08 JST"

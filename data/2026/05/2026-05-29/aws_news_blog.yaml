@@ -1,0 +1,16 @@
+"entries":
+  "8857b76dd270ec85859d44eed0075c55":
+    "id": "8857b76dd270ec85859d44eed0075c55"
+    "title": "Introducing the next generation of AWS Resilience Hub for generative AI-based SRE resilience journey"
+    "link": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey/"
+    "published": "2026-05-29 04:29:55"
+    "fetched": "2026-05-29 04:34:08"
+    "summary": "AWS launches the next generation of AWS Resilience Hub with a significantly expanded experience that brings together a new application model, dependency discovery assessment, generative AI-powered failure mode analysis, modular resilience policies, and organization-wide reporting."
+  "55432fb79c322ef75d0511c05664cf82":
+    "id": "55432fb79c322ef75d0511c05664cf82"
+    "title": "Introducing the next generation of Amazon OpenSearch Serverless for building your agentic AI applications"
+    "link": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/"
+    "published": "2026-05-29 03:26:16"
+    "fetched": "2026-05-29 04:34:08"
+    "summary": "AWS rebuilt Amazon OpenSearch Serverless from the ground up for agentic AI and dynamic workloads. Get instant autoscaling and up to 60% cost savings."
+"last_updated": "2026-05-29 04:34:08 JST"
