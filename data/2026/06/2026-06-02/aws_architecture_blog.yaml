@@ -6,4 +6,11 @@
     "published": "2026-06-02 01:16:45"
     "fetched": "2026-06-02 02:31:26"
     "summary": "In this post, we show how to build a comprehensive scalable user search layer on top of Amazon Cognito using AWS Lambda, Amazon DynamoDB, and Amazon OpenSearch Service."
-"last_updated": "2026-06-02 02:31:26 JST"
+  "346b84140abfa0b12d99d1f495e3cc04":
+    "id": "346b84140abfa0b12d99d1f495e3cc04"
+    "title": "Scaling oncology patient support: How New York Cancer and Blood Specialists transformed customer experience with AWS and Pronetx, now part of Caylent"
+    "link": "https://aws.amazon.com/blogs/architecture/scaling-oncology-patient-support-how-new-york-cancer-and-blood-specialists-transformed-customer-experience-with-aws-and-pronetx-now-part-of-caylent/"
+    "published": "2026-06-02 06:45:52"
+    "fetched": "2026-06-02 08:24:53"
+    "summary": "This post details how NYCBS partnered with Amazon Web Services (AWS) and AWS partner Pronetx (now part of Caylent) to migrate to Amazon Connect Customer, the AWS cloud contact center service. The migration delivered a 54 percent improvement in patient enrollment and transformed the way NYCBS connects with the patients who need them most."
+"last_updated": "2026-06-02 08:24:53 JST"
