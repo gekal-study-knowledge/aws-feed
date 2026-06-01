@@ -1,0 +1,9 @@
+"entries":
+  "a77bf5e736303cf0990376dc0a7f09af":
+    "id": "a77bf5e736303cf0990376dc0a7f09af"
+    "title": "Multi-Region event-driven failover architecture with Amazon EventBridge and Route 53"
+    "link": "https://aws.amazon.com/blogs/compute/multi-region-event-driven-failover-architecture-with-amazon-eventbridge-and-route-53/"
+    "published": "2026-06-02 04:10:44"
+    "fetched": "2026-06-02 06:28:38"
+    "summary": "Multi-Region Event-Driven Failover Architecture with Amazon EventBridge and Route 53 Event-driven architectures enable applications to respond to events in real-time, providing scalability and loose coupling between components. However, ensuring high availability across multiple AWS regions requires careful design of failover mechanisms. This post demonstrates how to build a resilient multi-region event-driven architecture using Amazon EventBridge, […]"
+"last_updated": "2026-06-02 06:28:38 JST"
