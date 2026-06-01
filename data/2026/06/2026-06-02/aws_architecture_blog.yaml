@@ -1,0 +1,9 @@
+"entries":
+  "cb633f204817e0455bf646ed0fa17e94":
+    "id": "cb633f204817e0455bf646ed0fa17e94"
+    "title": "Building a scalable user search layer on top of Amazon Cognito"
+    "link": "https://aws.amazon.com/blogs/architecture/building-a-scalable-user-search-layer-on-top-of-amazon-cognito/"
+    "published": "2026-06-02 01:16:45"
+    "fetched": "2026-06-02 02:31:26"
+    "summary": "In this post, we show how to build a comprehensive scalable user search layer on top of Amazon Cognito using AWS Lambda, Amazon DynamoDB, and Amazon OpenSearch Service."
+"last_updated": "2026-06-02 02:31:26 JST"

@@ -1,0 +1,30 @@
+"entries":
+  "e550aba7757a009f5890521bc093da8b":
+    "id": "e550aba7757a009f5890521bc093da8b"
+    "title": "Enable safe agentic payments with built-in guardrails using Amazon Bedrock AgentCore payments"
+    "link": "https://aws.amazon.com/blogs/machine-learning/enable-safe-agentic-payments-with-built-in-guardrails-using-amazon-bedrock-agentcore-payments/"
+    "published": "2026-06-02 02:30:12"
+    "fetched": "2026-06-02 02:31:26"
+    "summary": "In this post, we address several key risks that surface when designing an agentic payment system, and how to address them with the capabilities of AgentCore payments."
+  "541ed1c3493435147f25d6f32f201623":
+    "id": "541ed1c3493435147f25d6f32f201623"
+    "title": "AgentOps: Operationalize agentic AI at scale with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/agentops-operationalize-agentic-ai-at-scale-with-amazon-bedrock-agentcore/"
+    "published": "2026-06-02 01:12:18"
+    "fetched": "2026-06-02 02:31:26"
+    "summary": "When you build agentic AI solutions, you face unique operational challenges. Agents make unpredictable decisions, costs spiral unexpectedly, and debugging non-deterministic failures seems impossible. Agentic AI applications don't just execute predetermined workflows. They reason, adapt, and make autonomous decisions, and DevOps practices need to be adapted. That's where AgentOps comes in, the operational discipline for deploying, managing, and continuously improving AI agents in production."
+  "f52825706b89edf7a8e24a9a601026e0":
+    "id": "f52825706b89edf7a8e24a9a601026e0"
+    "title": "Accelerate LLM model loading and increase context windows with GPUDirect on Amazon FSx for Lustre and TurboQuant"
+    "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-llm-model-loading-and-increase-context-windows-with-gpudirect-on-amazon-fsx-for-lustre-and-turboquant/"
+    "published": "2026-06-02 01:07:19"
+    "fetched": "2026-06-02 02:31:26"
+    "summary": "If you’re iterating on deploying large language models (LLMs) on AWS GPU instances, you’ve probably noticed the larger the model to be loaded into GPU High Bandwidth Memory (HBM), the longer the painful wait until the GPUs are ready for inference. As models grow to hundreds of billions of parameters and GPU environments grow ever […]"
+  "2005dc02e931711d253de3e36ad3293b":
+    "id": "2005dc02e931711d253de3e36ad3293b"
+    "title": "Amazon Quick integration with time-series databases for market intelligence using MCP"
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-integration-with-time-series-databases-for-market-intelligence-using-mcp/"
+    "published": "2026-06-02 01:01:24"
+    "fetched": "2026-06-02 02:31:26"
+    "summary": "In this post, we walk through a practical implementation using KDB-X MCP server integration with Amazon Quick, demonstrating how traders and analysts can ask questions using conversational language and receive actionable insights from datasets. You can apply this same integration pattern across various domains, from financial market analysis to IoT sensor monitoring to DevOps performance dashboards, where you need to simplify access to time series insights."
+"last_updated": "2026-06-02 02:31:26 JST"
