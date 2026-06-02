@@ -6,4 +6,11 @@
     "published": "2026-06-03 01:00:11"
     "fetched": "2026-06-03 02:18:47"
     "summary": "Software as a service (SaaS) providers building AI-powered applications on Amazon Bedrock AgentCore often need to serve multiple tenants with distinct security requirements from a shared infrastructure. Some tenants require cross-account access from their own Amazon Web Services (AWS) accounts, while others mandate that traffic stay within a private virtual private cloud (VPC) for regulatory […]"
-"last_updated": "2026-06-03 02:18:47 JST"
+  "57b1c8fb23d9fbee1a382748a4fb7d6a":
+    "id": "57b1c8fb23d9fbee1a382748a4fb7d6a"
+    "title": "Identify unused AWS KMS keys and prevent accidental key deletions"
+    "link": "https://aws.amazon.com/blogs/security/identify-unused-aws-kms-keys-and-prevent-accidental-key-deletions/"
+    "published": "2026-06-03 04:01:54"
+    "fetched": "2026-06-03 05:43:26"
+    "summary": "As you scale your use of Amazon Web Services (AWS), managing KMS keys becomes increasingly important. Whether you manage a handful of keys or thousands across multiple AWS accounts and AWS Regions, there’s often a need to audit key usage to help you meet compliance requirements, evaluate your risk posture, and optimize key management costs. […]"
+"last_updated": "2026-06-03 05:43:26 JST"

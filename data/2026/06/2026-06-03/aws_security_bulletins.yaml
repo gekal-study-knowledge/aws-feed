@@ -6,4 +6,11 @@
     "published": "2026-06-03 00:39:24"
     "fetched": "2026-06-03 02:18:47"
     "summary": "<p><b>Bulletin ID:</b> 2026-037-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 06/02/2026 08:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Kiro is an agentic IDE users install on their desktop. We identified CVE-2026-10591. Insufficient access control restrictions in the file write tool in Kiro IDE prior to version 0.11 might allow remote unauthenticated actors to execute arbitrary commands via crafted instructions that cause writes to execution-sensitive paths (such as .vscode/tasks.json), enabling auto-execution on folder open.</p> \n<p><b>Impacted versions:</b> &lt;0.11</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
-"last_updated": "2026-06-03 02:18:47 JST"
+  "b51f374faf99086cfa5c82ee4e59516b":
+    "id": "b51f374faf99086cfa5c82ee4e59516b"
+    "title": "CVE-2026-10584 - HTTPS Fallback to HTTP in Graph Explorer"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-038-aws/"
+    "published": "2026-06-03 04:17:39"
+    "fetched": "2026-06-03 05:43:27"
+    "summary": "<p><b>Bulletin ID:</b> 2026-038-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 06/02/2026 12:15 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Graph Explorer is an open source application that provides visualization and exploration of data in graph databases such as Amazon Neptune. We identified CVE-2026-10584 where, under certain circumstances, the server silently falls back to HTTP when HTTPS is enabled but certificates are unavailable, resulting in cleartext transmission of sensitive information.</p> \n<p><b>Impacted versions:</b> &gt;= 1.1.0 AND &lt; 3.0.1</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-06-03 05:43:27 JST"
