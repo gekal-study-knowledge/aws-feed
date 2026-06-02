@@ -1,0 +1,9 @@
+"entries":
+  "ee1a009531bf2d65d7191d9afe7515d8":
+    "id": "ee1a009531bf2d65d7191d9afe7515d8"
+    "title": "エージェンティック AI でグローバル規模の脆弱性検出を加速"
+    "link": "https://aws.amazon.com/jp/blogs/news/how-amazon-uses-agentic-ai-for-vulnerability-detection-at-global-scale/"
+    "published": "2026-06-02 12:12:22"
+    "fetched": "2026-06-02 12:36:24"
+    "summary": "Amazon が開発した RuleForge は、エージェンティック AI を活用して脆弱性検出ルールを自動生成するシステムです。ルール生成エージェントとジャッジモデルを分離するアーキテクチャにより、誤検知を 67% 削減しつつ、従来の手動プロセスと比較して 336% 速くルールを生成・検証できるようになりました。CVE 開示から防御までのギャップを埋め、AWS のお客様のワークロード保護を強化する仕組みを解説します。"
+"last_updated": "2026-06-02 12:36:24 JST"
