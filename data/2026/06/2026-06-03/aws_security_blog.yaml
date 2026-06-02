@@ -1,0 +1,9 @@
+"entries":
+  "92dfb525a31c6aeb3e8e6ce95dc43842":
+    "id": "92dfb525a31c6aeb3e8e6ce95dc43842"
+    "title": "Secure multi-tenant AI agents with Amazon Bedrock AgentCore resource-based policies"
+    "link": "https://aws.amazon.com/blogs/security/secure-multi-tenant-ai-agents-with-amazon-bedrock-agentcore-resource-based-policies/"
+    "published": "2026-06-03 01:00:11"
+    "fetched": "2026-06-03 02:18:47"
+    "summary": "Software as a service (SaaS) providers building AI-powered applications on Amazon Bedrock AgentCore often need to serve multiple tenants with distinct security requirements from a shared infrastructure. Some tenants require cross-account access from their own Amazon Web Services (AWS) accounts, while others mandate that traffic stay within a private virtual private cloud (VPC) for regulatory […]"
+"last_updated": "2026-06-03 02:18:47 JST"

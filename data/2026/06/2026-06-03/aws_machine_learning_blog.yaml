@@ -1,0 +1,9 @@
+"entries":
+  "7e79f6b79a0c92cb73e360ea33197142":
+    "id": "7e79f6b79a0c92cb73e360ea33197142"
+    "title": "How Baz improved its AI Agent Code Review accuracy using Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-baz-improved-its-ai-agent-code-review-accuracy-using-amazon-bedrock-agentcore/"
+    "published": "2026-06-03 00:45:11"
+    "fetched": "2026-06-03 02:18:47"
+    "summary": "This post walks through how Baz built their Spec Review agent using Amazon Bedrock and Amazon Bedrock AgentCore. We'll cover the architecture decisions, implementation details, and the business outcomes they achieved by leveraging these AWS services to automate their code review process"
+"last_updated": "2026-06-03 02:18:47 JST"

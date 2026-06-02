@@ -1,0 +1,9 @@
+"entries":
+  "77b9f07db9de9e949e616ee0c905b5f4":
+    "id": "77b9f07db9de9e949e616ee0c905b5f4"
+    "title": "CVE-2026-10591 - Kiro IDE Insufficient File Write Restrictions to Execution-Sensitive Paths"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-037-aws/"
+    "published": "2026-06-03 00:39:24"
+    "fetched": "2026-06-03 02:18:47"
+    "summary": "<p><b>Bulletin ID:</b> 2026-037-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 06/02/2026 08:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Kiro is an agentic IDE users install on their desktop. We identified CVE-2026-10591. Insufficient access control restrictions in the file write tool in Kiro IDE prior to version 0.11 might allow remote unauthenticated actors to execute arbitrary commands via crafted instructions that cause writes to execution-sensitive paths (such as .vscode/tasks.json), enabling auto-execution on folder open.</p> \n<p><b>Impacted versions:</b> &lt;0.11</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-06-03 02:18:47 JST"
