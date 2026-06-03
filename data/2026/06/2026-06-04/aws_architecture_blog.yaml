@@ -1,0 +1,9 @@
+"entries":
+  "874d6860c5fef4d81f4ae8324ec7c43a":
+    "id": "874d6860c5fef4d81f4ae8324ec7c43a"
+    "title": "Building highly available Oracle databases with Amazon FSx for NetApp ONTAP"
+    "link": "https://aws.amazon.com/blogs/architecture/building-highly-available-oracle-databases-with-amazon-fsx-for-netapp-ontap/"
+    "published": "2026-06-04 00:51:22"
+    "fetched": "2026-06-04 01:40:51"
+    "summary": "This post shows how to build a highly available Oracle database architecture using FSxN shared storage, Auto Scaling groups with dynamic AMI updates, and serverless orchestration to help reduce recovery times with current configurations."
+"last_updated": "2026-06-04 01:40:51 JST"

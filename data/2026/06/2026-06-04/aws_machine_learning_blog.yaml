@@ -1,0 +1,16 @@
+"entries":
+  "8afbb8588e2a219c0492587934a5d63c":
+    "id": "8afbb8588e2a219c0492587934a5d63c"
+    "title": "Reducing container cold start times using SOCI index on DLAMI and DLC"
+    "link": "https://aws.amazon.com/blogs/machine-learning/reducing-container-cold-start-times-using-soci-index-on-dlami-and-dlc/"
+    "published": "2026-06-04 01:26:35"
+    "fetched": "2026-06-04 01:40:51"
+    "summary": "In this post, we look at how to use SOCI on publicly available Deep Learning AMIs and Containers, when to use the various SOCI modes provided by the tool, and how to quickly and efficiently use this tool in your workloads today."
+  "20333d0475e7eb818767b0debb9c46b2":
+    "id": "20333d0475e7eb818767b0debb9c46b2"
+    "title": "Improve your agent’s tool-calling accuracy with SFT and DPO on Amazon SageMaker AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/improve-your-agents-tool-calling-accuracy-with-sft-and-dpo-on-amazon-sagemaker-ai/"
+    "published": "2026-06-04 00:56:50"
+    "fetched": "2026-06-04 01:40:51"
+    "summary": "In this post, you learn how to use Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO) together to improve the tool-calling accuracy of a small language model (SLM). The example uses Amazon SageMaker AI training jobs, so you can focus on training code instead of managing your own training infrastructure. You also learn how to evaluate tool-calling accuracy and compare a base model to several fine-tuned variants, so you can make data-driven decisions about model quality."
+"last_updated": "2026-06-04 01:40:51 JST"
