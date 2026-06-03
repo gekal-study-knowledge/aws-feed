@@ -6,4 +6,11 @@
     "published": "2026-06-04 00:51:22"
     "fetched": "2026-06-04 01:40:51"
     "summary": "This post shows how to build a highly available Oracle database architecture using FSxN shared storage, Auto Scaling groups with dynamic AMI updates, and serverless orchestration to help reduce recovery times with current configurations."
-"last_updated": "2026-06-04 01:40:51 JST"
+  "6e3ab20dec5f0c80c7adc0b38ae2cdb8":
+    "id": "6e3ab20dec5f0c80c7adc0b38ae2cdb8"
+    "title": "Align your architecture backlog with Tech Roadmap Prioritization (TRP)"
+    "link": "https://aws.amazon.com/blogs/architecture/align-your-architecture-backlog-with-tech-roadmap-prioritization-trp/"
+    "published": "2026-06-04 03:08:51"
+    "fetched": "2026-06-04 05:16:27"
+    "summary": "In this post, we show you how to run a one-hour prioritization session with your stakeholders, plot competing initiatives on a shared matrix by cost and impact and turn the result into an actionable architecture backlog - using a framework called Tech Roadmap Prioritization (TRP)."
+"last_updated": "2026-06-04 05:16:27 JST"
