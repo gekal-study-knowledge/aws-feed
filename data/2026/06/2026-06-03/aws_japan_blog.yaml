@@ -1,0 +1,16 @@
+"entries":
+  "a104d5c0107543f7181b5785cb959500":
+    "id": "a104d5c0107543f7181b5785cb959500"
+    "title": "AWS Transform Custom を使用した VB6 アプリケーションのモダナイズ"
+    "link": "https://aws.amazon.com/jp/blogs/news/modernize-vb6-applications-at-scale-with-aws-transform-custom/"
+    "published": "2026-06-03 15:02:25"
+    "fetched": "2026-06-03 15:49:42"
+    "summary": "この記事では、AWS Transform custom のエージェンティック AI 機能を活用して、組織固有のビジネスルールを維持しながら VB6 アプリケーションを大規模にモダナイズする方法を紹介します。"
+  "81efe989bedafe5c0404911f170aaf39":
+    "id": "81efe989bedafe5c0404911f170aaf39"
+    "title": "AI の脅威からオープンソースを守るため 1,250 万ドルを AWS など複数社が拠出"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-and-others-invest-12-5m-to-defend-the-open-source-ecosystem-from-ai-threats/"
+    "published": "2026-06-03 13:02:30"
+    "fetched": "2026-06-03 15:49:42"
+    "summary": "AWS、Anthropic、Google、Microsoft、OpenAI は Linux Foundation と共同で 1,250 万ドルを拠出し、AI による脆弱性レポートの急増からオープンソースエコシステムを守る取り組みを発表しました。基盤モデルが重大な脆弱性発見でセキュリティ研究者を上回り始めるなか、AWS は Alpha Omega を通じてメンテナーがバグを迅速に検証・修正できるツールと自動化を提供します。"
+"last_updated": "2026-06-03 15:49:42 JST"
