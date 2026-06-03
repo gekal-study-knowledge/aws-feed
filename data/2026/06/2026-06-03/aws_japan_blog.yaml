@@ -13,4 +13,11 @@
     "published": "2026-06-03 13:02:30"
     "fetched": "2026-06-03 15:49:42"
     "summary": "AWS、Anthropic、Google、Microsoft、OpenAI は Linux Foundation と共同で 1,250 万ドルを拠出し、AI による脆弱性レポートの急増からオープンソースエコシステムを守る取り組みを発表しました。基盤モデルが重大な脆弱性発見でセキュリティ研究者を上回り始めるなか、AWS は Alpha Omega を通じてメンテナーがバグを迅速に検証・修正できるツールと自動化を提供します。"
-"last_updated": "2026-06-03 15:49:42 JST"
+  "815d085f287c62c3f92fe6001bf13b0b":
+    "id": "815d085f287c62c3f92fe6001bf13b0b"
+    "title": "【開催報告】データから業務アクション、展開まで繋げる ​ Amazon Quick ワークショップ​ in 大阪"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-business-innovation-series-west-japan-02-20260529/"
+    "published": "2026-06-03 16:48:09"
+    "fetched": "2026-06-03 20:53:48"
+    "summary": "2026 年 5 月 29 日、AWS ジャパン 大阪オフィスにて「AWS Business Innovation Series – West Japan」の第 2 回を開催しました。AI ワークアシスタント「Amazon Quick」をテーマに、座学・ハンズオン・ハッカソンの 3 ステップでデータ接続からエージェント構築までを体験いただき、参加者全員が半日で自社業務に活用できるチャットエージェントを作り上げました。当日の様子と参加者の声をお届けします。"
+"last_updated": "2026-06-03 20:53:48 JST"
