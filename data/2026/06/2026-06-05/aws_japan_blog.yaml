@@ -1,0 +1,9 @@
+"entries":
+  "1e7c5fd02f52a2f2750f090902f6175c":
+    "id": "1e7c5fd02f52a2f2750f090902f6175c"
+    "title": "Amazon ElastiCache for Valkey の耐久性機能のお知らせ"
+    "link": "https://aws.amazon.com/jp/blogs/news/announcing-durability-for-amazon-elasticache/"
+    "published": "2026-06-05 02:07:44"
+    "fetched": "2026-06-05 02:42:59"
+    "summary": "本ブログでは、Amazon ElastiCache for Valkey の新機能である耐久性（Durability）についてご紹介します。この機能により、ElastiCache をキャッシュだけでなく永続的なデータストアとしても利用できるようになります。同期書き込みではデータ損失ゼロを実現し、非同期書き込みではマイクロ秒の書き込みレイテンシーを維持しながら最大10秒のデータ損失リスクに抑えます。Multi-AZ トランザクションログを使用したアーキテクチャ、パフォーマンス測定結果、AWS CLI を使った具体的な設定方法まで詳しく解説します。"
+"last_updated": "2026-06-05 02:42:59 JST"

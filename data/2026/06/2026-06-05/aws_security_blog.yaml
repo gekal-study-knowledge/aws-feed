@@ -1,0 +1,9 @@
+"entries":
+  "6419018b0b9e7a7ad8315b81f2deea35":
+    "id": "6419018b0b9e7a7ad8315b81f2deea35"
+    "title": "Customize federated sign-in with new Amazon Cognito Lambda trigger"
+    "link": "https://aws.amazon.com/blogs/security/customize-federated-sign-in-with-new-amazon-cognito-lambda-trigger/"
+    "published": "2026-06-05 00:49:15"
+    "fetched": "2026-06-05 02:43:00"
+    "summary": "You can use Amazon Cognito user pools to add sign-up and sign-in functionality to your web and mobile applications. You can authenticate users directly with Amazon Cognito managed accounts using passwords, passwordless flows, or custom authentication flows, or let users federate in through external identity providers (IdP) using SAML, OpenID Connect, or social providers such […]"
+"last_updated": "2026-06-05 02:43:00 JST"
