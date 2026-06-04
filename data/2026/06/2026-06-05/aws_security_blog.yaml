@@ -13,4 +13,11 @@
     "published": "2026-06-05 04:21:34"
     "fetched": "2026-06-05 05:00:44"
     "summary": "Reconstructing distributed denial of service (DDoS) attack traffic used to mean combining data from multiple sources after the fact. AWS Shield Advanced attack flow logs change that—they capture traffic metadata during attacks so you can pinpoint sources, verify mitigations, and feed your existing analysis pipelines. Shield publishes logs to Amazon Simple Storage Service (Amazon S3), […]"
-"last_updated": "2026-06-05 05:00:44 JST"
+  "91a162c8955008df2043e57551350205":
+    "id": "91a162c8955008df2043e57551350205"
+    "title": "Amazon Cognito unlocks advanced capabilities with next-generation infrastructure"
+    "link": "https://aws.amazon.com/blogs/security/amazon-cognito-unlocks-advanced-capabilities-with-next-generation-infrastructure/"
+    "published": "2026-06-05 06:45:42"
+    "fetched": "2026-06-05 07:17:48"
+    "summary": "Amazon Cognito recently introduced high-throughput performance for demanding workloads, customer-managed keys for full control over data encryption at rest, and multi- Region replication for business continuity improvement. These capabilities were made possible through a next-generation storage infrastructure designed for extensibility and scale. To deliver this, we migrated hundreds of millions of user profiles, and you […]"
+"last_updated": "2026-06-05 07:17:48 JST"
