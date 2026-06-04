@@ -1,0 +1,16 @@
+"entries":
+  "74e572729eab43e33f4711c71534f8e5":
+    "id": "74e572729eab43e33f4711c71534f8e5"
+    "title": "AWS KMS と AWS Encryption SDK が対称暗号化の境界を克服する仕組み"
+    "link": "https://aws.amazon.com/jp/blogs/news/how-aws-kms-and-aws-encryption-sdk-overcome-symmetric-encryption-bounds/"
+    "published": "2026-06-04 12:34:50"
+    "fetched": "2026-06-04 12:38:55"
+    "summary": "大量のデータを暗号化する大規模アプリケーションでは、AES-GCM の暗号化限界の追跡や鍵のローテーションが課題になります。本記事では、AWS KMS と AWS Encryption SDK が派生鍵方式を用いて、暗号化のたびに一意の鍵を生成し、AES-GCM の呼び出し限界やデータ境界を自動的に処理する仕組みを解説します。鍵導出関数 (KDF) やノンスの活用により、手動管理を不要にする方法を詳しく説明します。"
+  "c2923c1e7a3c897640a5845133259e97":
+    "id": "c2923c1e7a3c897640a5845133259e97"
+    "title": "2026年1月〜5月の AWS オブザーバビリティ関連リリースまとめ"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-observability-icymi-jan-may-2026/"
+    "published": "2026-06-04 10:52:18"
+    "fetched": "2026-06-04 12:38:55"
+    "summary": "AWS オブザーバビリティ関連リリースまとめの第1回へようこそ！2026年の最初の5か月間は、AWS オブザーバビリティにとって大きな変革をもたらした期間となり、 Amazon CloudWatch 、 AWS X-Ray 、 Amazon Managed Grafana 、 Amazon Managed Service for Prometheus&nbsp;にまたがって40を超えるリリースが行われました。この期間を特徴づける2つの大きなテーマは、統一された計装標準である OpenTelemetry 対応を強化したことと、オブザーバビリティを誰もが利用できるようにする AI 駆動のオペレーション です。EKS上でコンテナを実行している方も、複数リージョンにまたがるデータベースを管理している方も、AI 支援のワークフローを構築している方も、ここには役立つ情報があります。"
+"last_updated": "2026-06-04 12:38:55 JST"
