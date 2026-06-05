@@ -27,4 +27,11 @@
     "published": "2026-06-05 13:12:08"
     "fetched": "2026-06-05 14:12:40"
     "summary": "AWS Secrets Manager が ML-KEM を使用したハイブリッドポスト量子鍵交換をデフォルトで有効化しました。これにより harvest now, decrypt later (HNDL) 攻撃から将来の量子コンピュータの脅威に備えてシークレットを保護します。Secrets Manager Agent、Lambda 拡張機能、CSI Driver、各種 AWS SDK のアップグレード要件と、CloudTrail を使った接続検証手順を詳しく説明します。"
-"last_updated": "2026-06-05 14:12:40 JST"
+  "4537a9b71803eb652dd9ddeb11c615f2":
+    "id": "4537a9b71803eb652dd9ddeb11c615f2"
+    "title": "AI 時代におけるセキュリティ体制の強化"
+    "link": "https://aws.amazon.com/jp/blogs/news/security-posture-improvement-in-the-ai-era/"
+    "published": "2026-06-05 22:22:51"
+    "fetched": "2026-06-06 00:50:09"
+    "summary": "Anthropic が Claude Mythos Preview モデルを発表し、AWS およびその他の主要組織と共に Project Glasswing を立ち上げてから、まだ数週間しか経っていません。これにより、サイバーセキュリティの将来と、基盤モデルの能力が急速に向上することが組織にとって何を意味するのかについて、多くの議論が生まれています。"
+"last_updated": "2026-06-06 00:50:09 JST"
