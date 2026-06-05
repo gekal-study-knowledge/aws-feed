@@ -1,0 +1,16 @@
+"entries":
+  "2dbb2f9dd367ef186bbe168fa113231d":
+    "id": "2dbb2f9dd367ef186bbe168fa113231d"
+    "title": "CVE-2026-11400 and CVE-2026-11401"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-039-aws/"
+    "published": "2026-06-06 04:19:25"
+    "fetched": "2026-06-06 04:49:15"
+    "summary": "<p><b>Bulletin ID:</b> 2026-039-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 06/025/2026 12:15 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon Aurora PostgreSQL a fully managed relational database engine that's compatible with PostgreSQL.</p> \n<p>We identified CVE-2026-11400(JDBC) and CVE-2026-11401(Go), an issue in AWS Wrappers for Amazon Aurora PostgreSQL will allow for privilege escalation to rds_superuser role. A low privilege authenticated user can create a crafted function that could be executed with permissions of other Amazon Relational Database Service (RDS) users.</p> \n<p><b>Impacted versions:</b><br /> - AWS Advanced JDBC Wrapper &gt;=3.0.0 and &lt; 4.0.1<br /> - AWS Advanced Go Wrapper release 2026-04-06</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "44b5397f6b96ed572b5ad22612fcbeee":
+    "id": "44b5397f6b96ed572b5ad22612fcbeee"
+    "title": "[Redirected] Security Update for Amazon Q Developer Extension for Visual Studio Code (Version #1.84)"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-015/"
+    "published": "2026-06-06 04:19:25"
+    "fetched": "2026-06-06 04:49:15"
+    "summary": "<p><b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b>&nbsp;2025/07/23 6:00 PM PDT<br /> <b>Updated Date:</b> 2025/07/25 6:00 PM PDT</p> \n<p><strong>Description:</strong></p> \n<p>Amazon Q Developer for Visual Studio Code (VS Code) Extension is a development tool that integrates Amazon Q's AI-powered coding assistance directly into the VS Code integrated development environment (IDE).</p> \n<p>AWS is aware of and has addressed an issue in the Amazon Q Developer for VS Code Extension, which is assigned to CVE-2025-8217.</p> \n<p>AWS Security has inspected the code and determined the malicious code was distributed with the extension but was unsuccessful in executing due to a syntax error. This prevented the malicious code from making changes to any services or customer environments.</p> \n<p>We will update this bulletin if we have additional information to share.</p> \n<p><strong>Affected version:</strong> Amazon Q Developer for Visual Studio Code Extension (version 1.84.0)</p>"
+"last_updated": "2026-06-06 04:49:15 JST"
