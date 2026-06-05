@@ -1,0 +1,9 @@
+"entries":
+  "f791390db29c84e7cdd563d51bb87e60":
+    "id": "f791390db29c84e7cdd563d51bb87e60"
+    "title": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions"
+    "link": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/"
+    "published": "2026-06-06 02:07:06"
+    "fetched": "2026-06-06 02:50:36"
+    "summary": "Modern web applications require robust security controls to protect user data and application resources. Authentication and authorization are two fundamental pillars of application security that answer critical questions: Who are you? and What are you allowed to do? Implementing these controls correctly can be challenging for developers, especially when building data-intensive applications with frameworks like […]"
+"last_updated": "2026-06-06 02:50:36 JST"
