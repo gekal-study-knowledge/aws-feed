@@ -6,4 +6,11 @@
     "published": "2026-06-09 01:18:04"
     "fetched": "2026-06-09 02:19:54"
     "summary": "Enabling security tooling is the starting point. Making it operational—where findings drive decisions, response times are measurable, and your security posture improves week over week—is where most organizations struggle. This blog post provides a phased maturity roadmap for organizations that have already enabled AWS Security Hub and Amazon GuardDuty. These two services form the foundation […]"
-"last_updated": "2026-06-09 02:19:54 JST"
+  "15efa084fcfd3e5e9bcf2d4cf18b4e78":
+    "id": "15efa084fcfd3e5e9bcf2d4cf18b4e78"
+    "title": "ICYMI: May 2026 @AWS Security"
+    "link": "https://aws.amazon.com/blogs/security/icymi-may-2026-aws-security/"
+    "published": "2026-06-09 06:00:11"
+    "fetched": "2026-06-09 07:23:10"
+    "summary": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS Security Blog posts covered AI security, network protection, identity management, compliance frameworks, and supply chain security. Read […]"
+"last_updated": "2026-06-09 07:23:10 JST"
