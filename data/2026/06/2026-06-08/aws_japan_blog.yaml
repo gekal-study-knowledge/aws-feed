@@ -1,0 +1,16 @@
+"entries":
+  "9922f19e939f3abf8c3975234504f57d":
+    "id": "9922f19e939f3abf8c3975234504f57d"
+    "title": "週刊生成AI with AWS – 2026/6/1 週"
+    "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260601/"
+    "published": "2026-06-08 11:22:21"
+    "fetched": "2026-06-08 12:37:25"
+    "summary": "6月1日週の生成AI関連アップデートをまとめてお届けします。注目は、OpenAI の GPT-5.5・GPT-5.4・Codex が Amazon Bedrock で一般提供を開始したことです。各社のモデルを共通のセキュリティ・ガバナンスのもとで選べる環境が、さらに広がりました。あわせて、新しいコンソールや CloudWatch メトリクスといった Bedrock 周りの強化、SageMaker や Step Functions、HealthOmics の新機能も取り上げています。"
+  "18cde9e1f6abb8127df01f1c38d075aa":
+    "id": "18cde9e1f6abb8127df01f1c38d075aa"
+    "title": "キャパシティ対応推論：SageMaker AI エンドポイントにおけるインスタンスの自動フォールバック"
+    "link": "https://aws.amazon.com/jp/blogs/news/capacity-aware-inference-automatic-instance-fallback-for-sagemaker-ai-endpoints/"
+    "published": "2026-06-08 10:11:57"
+    "fetched": "2026-06-08 12:37:25"
+    "summary": "本ブログは “Capacity-aware inference: Automatic instan […]"
+"last_updated": "2026-06-08 12:37:25 JST"
