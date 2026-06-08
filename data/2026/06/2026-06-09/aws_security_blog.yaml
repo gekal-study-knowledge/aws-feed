@@ -1,0 +1,9 @@
+"entries":
+  "1b1c1ef585e09ad68610effe9abd8a3b":
+    "id": "1b1c1ef585e09ad68610effe9abd8a3b"
+    "title": "Operationalizing AWS security: A maturity roadmap"
+    "link": "https://aws.amazon.com/blogs/security/operationalizing-aws-security-a-maturity-roadmap/"
+    "published": "2026-06-09 01:18:04"
+    "fetched": "2026-06-09 02:19:54"
+    "summary": "Enabling security tooling is the starting point. Making it operational—where findings drive decisions, response times are measurable, and your security posture improves week over week—is where most organizations struggle. This blog post provides a phased maturity roadmap for organizations that have already enabled AWS Security Hub and Amazon GuardDuty. These two services form the foundation […]"
+"last_updated": "2026-06-09 02:19:54 JST"
