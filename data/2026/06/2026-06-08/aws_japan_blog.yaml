@@ -27,4 +27,11 @@
     "published": "2026-06-08 16:19:57"
     "fetched": "2026-06-08 17:50:43"
     "summary": "2026 年 6 月 5 日、Amazon Bedrock における新しいコンソールエクスペリエンスをお知らせ […]"
-"last_updated": "2026-06-08 17:50:43 JST"
+  "37635fc732e5eb2af1241515f29739c5":
+    "id": "37635fc732e5eb2af1241515f29739c5"
+    "title": "Amazon Bedrock AgentCore でマルチテナントエージェントを構築する"
+    "link": "https://aws.amazon.com/jp/blogs/news/building-multi-tenant-agents-with-amazon-bedrock-agentcore/"
+    "published": "2026-06-08 20:42:21"
+    "fetched": "2026-06-08 22:03:31"
+    "summary": "マルチテナントのエージェント型アプリケーションを構築する SaaS プロバイダーは、テナント分離、ID 管理、コスト配分、ノイジーネイバーの緩和といった課題に取り組む必要があります。本シリーズ第 1 回となる本記事では、Amazon Bedrock AgentCore でマルチテナントエージェントを設計する際の検討事項と、サイロ、プール、ブリッジの各デプロイモデルの実装を解説します。"
+"last_updated": "2026-06-08 22:03:31 JST"
