@@ -1,0 +1,16 @@
+"entries":
+  "256feeae7569ca9d68b4d2e1d533d105":
+    "id": "256feeae7569ca9d68b4d2e1d533d105"
+    "title": "Hands-free first notice of loss: Using Strands Agents and Amazon Bedrock AgentCore Browser Tool for intelligent claims intake"
+    "link": "https://aws.amazon.com/blogs/machine-learning/hands-free-first-notice-of-loss-using-strands-agents-and-amazon-bedrock-agentcore-browser-tool-for-intelligent-claims-intake/"
+    "published": "2026-06-10 01:43:28"
+    "fetched": "2026-06-10 02:59:07"
+    "summary": "In this post, we demonstrate how a hands-free FNOL intake system combines agents built with the Strands Agents SDK for domain reasoning with Amazon Bedrock AgentCore Browser Tool for live portal interaction. This approach preserves human expertise while removing repetitive screen work."
+  "170faa5452cc74f31354f27ea44cc0d3":
+    "id": "170faa5452cc74f31354f27ea44cc0d3"
+    "title": "Build an agentic incident triage assistant with Amazon Quick and New Relic"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-an-agentic-incident-triage-assistant-with-amazon-quick-and-new-relic/"
+    "published": "2026-06-10 01:10:37"
+    "fetched": "2026-06-10 02:59:07"
+    "summary": "This post shows engineering teams how to apply that principle to one of the most time-sensitive workflows in engineering: incident triage. You will build a custom incident triage assistant agent using Amazon Quick that orchestrates a response with the New Relic Model Context Protocol (MCP) Server and Asana through native integrations. From a single prompt, the Amazon Quick agent investigates the incident, assembles a root cause analysis (RCA) brief with evidence links, and creates a tracked Asana task ready for handoff."
+"last_updated": "2026-06-10 02:59:07 JST"

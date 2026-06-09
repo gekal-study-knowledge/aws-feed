@@ -1,0 +1,9 @@
+"entries":
+  "2ea3daff3913603de8d1e5e5a4e5000e":
+    "id": "2ea3daff3913603de8d1e5e5a4e5000e"
+    "title": "Automate medical record digitization with Amazon Bedrock Data Automation and AWS HealthLake"
+    "link": "https://aws.amazon.com/blogs/architecture/automate-medical-record-digitization-with-amazon-bedrock-data-automation-and-aws-healthlake/"
+    "published": "2026-06-10 01:51:55"
+    "fetched": "2026-06-10 02:59:07"
+    "summary": "In this post, you learn how to build an automated, serverless pipeline that converts scanned PDF medical records into FHIR R4-compliant data using Amazon Bedrock Data Automation and AWS HealthLake. We walk through the architecture, explain how each AWS service connects to the next, show you what the pipeline looks like when it runs, and get you deployed in under 20 minutes."
+"last_updated": "2026-06-10 02:59:07 JST"
