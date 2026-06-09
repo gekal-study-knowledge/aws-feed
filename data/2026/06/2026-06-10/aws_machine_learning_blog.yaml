@@ -13,4 +13,11 @@
     "published": "2026-06-10 01:10:37"
     "fetched": "2026-06-10 02:59:07"
     "summary": "This post shows engineering teams how to apply that principle to one of the most time-sensitive workflows in engineering: incident triage. You will build a custom incident triage assistant agent using Amazon Quick that orchestrates a response with the New Relic Model Context Protocol (MCP) Server and Asana through native integrations. From a single prompt, the Amazon Quick agent investigates the incident, assembles a root cause analysis (RCA) brief with evidence links, and creates a tracked Asana task ready for handoff."
-"last_updated": "2026-06-10 02:59:07 JST"
+  "c4e6fff70c92ee4657feb626df5ad533":
+    "id": "c4e6fff70c92ee4657feb626df5ad533"
+    "title": "Scale Robot Reinforcement Learning with NVIDIA Isaac Lab on Amazon SageMaker AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/scale-robot-reinforcement-learning-with-nvidia-isaac-lab-on-amazon-sagemaker-ai/"
+    "published": "2026-06-10 05:07:24"
+    "fetched": "2026-06-10 05:13:51"
+    "summary": "In this post, we show how to train robot policies for the Unitree H1 humanoid with NVIDIA Isaac Lab on Amazon SageMaker AI across two compute options: Amazon SageMaker HyperPod and Amazon SageMaker Training Jobs."
+"last_updated": "2026-06-10 05:13:51 JST"
