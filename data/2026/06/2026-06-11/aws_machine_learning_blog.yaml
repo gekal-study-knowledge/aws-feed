@@ -1,0 +1,16 @@
+"entries":
+  "38e377a856f80973c39b41ab8ba91463":
+    "id": "38e377a856f80973c39b41ab8ba91463"
+    "title": "Stop hand-tuning kernels: How Neuron Agentic Development accelerates AWS Trainium optimizations"
+    "link": "https://aws.amazon.com/blogs/machine-learning/stop-hand-tuning-kernels-how-neuron-agentic-development-accelerates-aws-trainium-optimizations/"
+    "published": "2026-06-11 00:26:45"
+    "fetched": "2026-06-11 01:32:38"
+    "summary": "Today, we’re announcing the Neuron Agentic Development capabilities: a collection of AI agents and skills that make this possible for developers building on AWS Trainium and AWS Inferentia. In this post, we explain how the Neuron Agentic Development capabilities accelerate the kernel development workflow."
+  "3cc8adff09844fdeb0c433ae017ddf26":
+    "id": "3cc8adff09844fdeb0c433ae017ddf26"
+    "title": "Build an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-equipment-repair-assistant-using-amazon-bedrock-agentcore/"
+    "published": "2026-06-11 00:21:35"
+    "fetched": "2026-06-11 01:32:38"
+    "summary": "In this post, you build an AI-powered equipment repair assistant using Amazon Bedrock AgentCore that helps farmers and field technicians diagnose equipment problems, identify required parts, and access manufacturer-approved repair procedures through natural language. The solution uses AgentCore Runtime with the Strands Agents SDK, Amazon Nova 2 Lite as the foundation model, Amazon Bedrock Knowledge Base for retrieval-augmented generation (RAG), and AgentCore Memory for conversation persistence."
+"last_updated": "2026-06-11 01:32:38 JST"

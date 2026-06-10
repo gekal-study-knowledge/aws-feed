@@ -1,0 +1,9 @@
+"entries":
+  "7ad5057b8cf6590adf4c8d21b715e295":
+    "id": "7ad5057b8cf6590adf4c8d21b715e295"
+    "title": "Introducing the Snowflake and AWS Custom Lens for the AWS Well-Architected Framework"
+    "link": "https://aws.amazon.com/blogs/architecture/introducing-the-snowflake-and-aws-custom-lens-for-the-aws-well-architected-framework/"
+    "published": "2026-06-11 00:06:00"
+    "fetched": "2026-06-11 01:32:38"
+    "summary": "The Snowflake and AWS Custom Well-Architected Framework Lens brings together AWS Well-Architected best practices and Snowflake guidance into a single review experience, with integrated recommendations that reflect how the two services compose in production. In this post, we walk through each pillar, the three access points (AWS Management Console, Kiro, and Snowflake Cortex Code), and how to run your first review."
+"last_updated": "2026-06-11 01:32:38 JST"
