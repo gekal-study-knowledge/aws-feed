@@ -1,0 +1,16 @@
+"entries":
+  "1201ac07c95ba8b10126477a1dcd4a93":
+    "id": "1201ac07c95ba8b10126477a1dcd4a93"
+    "title": "CVE-2026-10740 - Excessive memory allocation in s2n-quic"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-041-aws/"
+    "published": "2026-06-11 02:51:59"
+    "fetched": "2026-06-11 04:31:50"
+    "summary": "<p><b>Bulletin ID:</b> 2026-041-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 06/10/2026 10:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS CDK (aws-cdk-lib) is an open-source framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation. We identified CVE-2026-11417, an OS command injection issue in the NodejsFunction local bundling pipeline in aws-cdk-lib before 2.245.0 (2.246.0 on Windows) that may allow an actor who controls the value of one or more bundling properties (externalModules, define, loader, inject, or esbuildArgs) to execute arbitrary commands on the host running the CDK toolchain via injected shell metacharacters. This issue requires the actor to control the value of one or more of the affected bundling properties in the CDK application.</p> \n<p><b>Impacted versions:</b> &lt; 2.245.0 (on Windows, &lt; 2.246.0)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "b91b60022f104ea5977cf63b1ed974e3":
+    "id": "b91b60022f104ea5977cf63b1ed974e3"
+    "title": "CVE-2026-10740 - Excessive memory allocation in s2n-quic"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-042-aws/"
+    "published": "2026-06-11 03:15:57"
+    "fetched": "2026-06-11 04:31:50"
+    "summary": "<p><b>Bulletin ID:</b> 2026-042-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 06/10/2026 11:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>s2n-quic is a Rust implementation of the QUIC protocol. We identified CVE-2026-10740, an issue of unbounded memory allocation in the CRYPTO frame reassembler in s2n-quic before 1.82.0. An unauthenticated user can attempt to exhaust server memory on an s2n-quic endpoint by sending crafted CRYPTO frames with high offsets. The buffer used for processing CRYPTO frames does not enforce a maximum size. In the worst case, a single 1200-byte packet can cause approximately 9.4 MB of allocation. By repeatedly sending such packets, the resulting memory pressure could cause denial of service. No valid handshake is required.</p> \n<p><b>Impacted versions:</b> &lt; v1.82.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-06-11 04:31:50 JST"
