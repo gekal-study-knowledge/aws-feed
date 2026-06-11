@@ -13,4 +13,11 @@
     "published": "2026-06-11 00:21:35"
     "fetched": "2026-06-11 01:32:38"
     "summary": "In this post, you build an AI-powered equipment repair assistant using Amazon Bedrock AgentCore that helps farmers and field technicians diagnose equipment problems, identify required parts, and access manufacturer-approved repair procedures through natural language. The solution uses AgentCore Runtime with the Strands Agents SDK, Amazon Nova 2 Lite as the foundation model, Amazon Bedrock Knowledge Base for retrieval-augmented generation (RAG), and AgentCore Memory for conversation persistence."
-"last_updated": "2026-06-11 01:32:38 JST"
+  "870dca46745b527894e8879216e07cfb":
+    "id": "870dca46745b527894e8879216e07cfb"
+    "title": "How frontier teams are reinventing AI-native development"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-frontier-teams-are-reinventing-ai-native-development/"
+    "published": "2026-06-11 09:54:42"
+    "fetched": "2026-06-11 12:35:15"
+    "summary": "Frontier teams are not just using AI to code faster. They’re redesigning how software gets built. The result is 4.5x productivity gains, in some cases more than 10x."
+"last_updated": "2026-06-11 12:35:15 JST"
