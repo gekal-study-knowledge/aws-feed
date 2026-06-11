@@ -6,4 +6,11 @@
     "published": "2026-06-12 00:46:22"
     "fetched": "2026-06-12 01:51:12"
     "summary": "One of the most impactful ways to improve the ROI on your Amazon Elastic Compute Cloud (Amazon EC2) investment is rightsizing — when you match your instance types and sizes to the actual resource demands of your workloads. However, doing this manually across hundreds or thousands of instances is time-consuming and error-prone. AWS Compute Optimizer […]"
-"last_updated": "2026-06-12 01:51:12 JST"
+  "c645c25ac86ae2da925ddaa9a9a5467a":
+    "id": "c645c25ac86ae2da925ddaa9a9a5467a"
+    "title": "Build RAG-powered AI solutions at the edge with AWS Local Zones and Outposts"
+    "link": "https://aws.amazon.com/blogs/compute/build-rag-powered-ai-solutions-at-the-edge-with-aws-local-zones-and-outposts/"
+    "published": "2026-06-12 01:59:02"
+    "fetched": "2026-06-12 04:32:58"
+    "summary": "Organizations in regulated industries or with strict information security requirements are increasingly looking to use generative AI. However, they often face a dilemma: how to utilize powerful models while keeping data strictly on-premises or within specific geographic boundaries. The solution lies in deploying self-managed Small Language Models (SLMs) on premises with AWS Outposts or in […]"
+"last_updated": "2026-06-12 04:32:58 JST"
