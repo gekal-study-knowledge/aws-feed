@@ -13,4 +13,11 @@
     "published": "2026-06-12 01:59:02"
     "fetched": "2026-06-12 04:32:58"
     "summary": "Organizations in regulated industries or with strict information security requirements are increasingly looking to use generative AI. However, they often face a dilemma: how to utilize powerful models while keeping data strictly on-premises or within specific geographic boundaries. The solution lies in deploying self-managed Small Language Models (SLMs) on premises with AWS Outposts or in […]"
-"last_updated": "2026-06-12 04:32:58 JST"
+  "b4fb2c1a47ec687abb1a4101134946e7":
+    "id": "b4fb2c1a47ec687abb1a4101134946e7"
+    "title": "AWS Nitro Isolation Engine: Formally verifying the hypervisor in the AWS Nitro System"
+    "link": "https://aws.amazon.com/blogs/compute/aws-nitro-isolation-engine-formally-verifying-the-hypervisor-in-the-aws-nitro-system/"
+    "published": "2026-06-12 06:42:48"
+    "fetched": "2026-06-12 06:59:36"
+    "summary": "Ali Saidi is a VP and Distinguished Engineer at AWS Millions of customers use the AWS Nitro System to protect their most sensitive workloads, and AWS is an industry leader in innovation to secure customer data. Helping our customers keep their data secure and confidential is our highest priority, and we continue to make investments […]"
+"last_updated": "2026-06-12 06:59:36 JST"
