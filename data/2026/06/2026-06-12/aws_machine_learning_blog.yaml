@@ -1,0 +1,23 @@
+"entries":
+  "e2aac41fb95d36ed5d0c812bff062ca5":
+    "id": "e2aac41fb95d36ed5d0c812bff062ca5"
+    "title": "Evaluate AI agents systematically with Agent-EvalKit"
+    "link": "https://aws.amazon.com/blogs/machine-learning/evaluate-ai-agents-systematically-with-agent-evalkit/"
+    "published": "2026-06-12 00:49:47"
+    "fetched": "2026-06-12 01:51:11"
+    "summary": "Agent-EvalKit is an open-source toolkit (Apache 2.0) that makes this evaluation infrastructure available by integrating with AI coding assistants, including Claude Code, Kiro CLI, and Kilo Code. This post walks through how Agent-EvalKit works across its six evaluation phases, using a travel research agent built with the Strands Agents SDK and Amazon Bedrock as a running example."
+  "bed40de0c1c18117ab8c4130c5681c29":
+    "id": "bed40de0c1c18117ab8c4130c5681c29"
+    "title": "Spot trends faster, sort smarter: Unlocking Sparklines and Custom Sort in Amazon Quick"
+    "link": "https://aws.amazon.com/blogs/machine-learning/spot-trends-faster-sort-smarter-unlocking-sparklines-and-custom-sort-in-amazon-quick/"
+    "published": "2026-06-12 00:36:31"
+    "fetched": "2026-06-12 01:51:11"
+    "summary": "Today, we’re excited to announce two new capabilities that make Quick Sight dashboards even more expressive and business-aligned: sparklines and custom sort for controls. In this post, we walk through both features, what they are, when to use them, and how to configure them, with real-world scenarios that bring them together in a practical, decision-ready dashboard."
+  "228f0d2cc67f63c6e8006e0a882cff9e":
+    "id": "228f0d2cc67f63c6e8006e0a882cff9e"
+    "title": "Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation"
+    "link": "https://aws.amazon.com/blogs/machine-learning/optimize-blueprint-extraction-accuracy-in-amazon-bedrock-data-automation/"
+    "published": "2026-06-12 00:11:56"
+    "fetched": "2026-06-12 01:51:11"
+    "summary": "Blueprint instruction optimization is a BDA feature that automatically refines your extraction instructions to address this challenge directly. You provide three to ten example documents with expected values, and BDA refines your blueprint instructions to improve accuracy in minutes, not weeks. No separate model fine-tuning is required. By the end of this post, you can optimize your blueprints to improve accuracy, run the optimization workflow through the Amazon Bedrock console or the API, and apply best practices for selecting examples and ground truth."
+"last_updated": "2026-06-12 01:51:11 JST"
