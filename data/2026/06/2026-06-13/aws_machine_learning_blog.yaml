@@ -1,0 +1,9 @@
+"entries":
+  "2e0b98a8ce228846e57b8823a0be1ad7":
+    "id": "2e0b98a8ce228846e57b8823a0be1ad7"
+    "title": "Building Supercharger: How Rocket Close optimized title operations with agentic AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-supercharger-how-rocket-close-optimized-title-operations-with-agentic-ai/"
+    "published": "2026-06-13 05:43:56"
+    "fetched": "2026-06-13 06:28:31"
+    "summary": "In this post, we explore how Rocket Close built a solution using Strands Agents, large language models (LLMs), Amazon Bedrock, Amazon Bedrock Knowledge Bases, and Model Context Protocol (MCP) tools. We cover solution features, the rationale for the technology stack, lessons learned, and the business impact at Rocket Close."
+"last_updated": "2026-06-13 06:28:31 JST"
