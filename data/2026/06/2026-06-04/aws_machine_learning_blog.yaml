@@ -27,4 +27,11 @@
     "published": "2026-06-04 02:55:37"
     "fetched": "2026-06-04 05:16:28"
     "summary": "In this post, we show you how to get started with NEXUS on Amazon SageMaker JumpStart, walk through the deployment process, and demonstrate how to run predictions against your enterprise datasets."
-"last_updated": "2026-06-04 05:16:28 JST"
+  "a96dfb07000234c05acbb5932de85ccf":
+    "id": "a96dfb07000234c05acbb5932de85ccf"
+    "title": "Automate model quota request and operational issue triage on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/automate-model-quota-request-and-operational-issue-triage-on-amazon-bedrock/"
+    "published": "2026-06-04 05:14:16"
+    "fetched": "2026-06-12 12:35:13"
+    "summary": "In this post, we introduce Amazon Bedrock Ops Alert, a three-layer automated monitoring solution that proactively detects operational issues, dynamically adjusts alarm thresholds, classifies alarms by category, automatically creates context-aware support cases, helps prevent duplicate cases when an unresolved case of the same alarm category is already active, and delivers contextualized notifications to AI SRE teams. We walk through the solution architecture and how you can deploy it in your own environment."
+"last_updated": "2026-06-12 12:35:13 JST"
