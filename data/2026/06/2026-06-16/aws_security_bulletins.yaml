@@ -1,0 +1,9 @@
+"entries":
+  "1caa1b73d4efcb891a9b29176e120c36":
+    "id": "1caa1b73d4efcb891a9b29176e120c36"
+    "title": "CVE-2026-11931 - Insecure Permissions on Authentication Token Cache File in Kiro IDE"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-045-aws/"
+    "published": "2026-06-16 03:41:08"
+    "fetched": "2026-06-16 05:25:37"
+    "summary": "<p><b>Bulletin ID:</b> 2026-045-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 06/15/2026 11:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Kiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents.</p> \n<p>We identified CVE-2026-11931, where incorrect default permissions in Kiro IDE on macOS and Linux before version 0.11.133 could expose the authentication token cache file to other local users or processes via world-readable permissions (0644) instead of owner-restricted permissions (0600).</p> \n<p><b>Impacted versions:</b> &lt; 0.11.133</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-06-16 05:25:37 JST"
