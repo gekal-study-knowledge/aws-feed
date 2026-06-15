@@ -41,4 +41,11 @@
     "published": "2026-06-15 15:27:59"
     "fetched": "2026-06-15 19:20:32"
     "summary": "この記事では、パブリック API および Amazon Q との統合を備えた AWS Billing and […]"
-"last_updated": "2026-06-15 19:20:32 JST"
+  "83611fb42d1616dc49e20b2a74a424f0":
+    "id": "83611fb42d1616dc49e20b2a74a424f0"
+    "title": "週刊生成AI with AWS – 2026/6/8 週"
+    "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260608/"
+    "published": "2026-06-15 19:57:33"
+    "fetched": "2026-06-16 01:13:48"
+    "summary": "週刊生成 AI with AWS, エージェント型サービスが続々登場した 2026 年 6 月 8 日号 - タキヒヨー株式会社様、株式会社エイチビーソフトスタジオ様の国内事例ブログを紹介。また、Claude Fable 5 の発表や AWS FinOps Agent、AWS DevOps Agent、Amazon Bedrock AgentCore、Kiro の最新アップデートなどのブログ記事も。サービスアップデートでは Gemma 4 や OpenAI GPT-5.5 の Amazon Bedrock 提供、AI を活用したコスト調査機能をはじめとする 9 件のアップデートを紹介。"
+"last_updated": "2026-06-16 01:13:48 JST"

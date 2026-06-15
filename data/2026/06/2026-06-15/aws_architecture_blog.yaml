@@ -1,0 +1,9 @@
+"entries":
+  "b7cce3b8155a57543153cbd147acf71c":
+    "id": "b7cce3b8155a57543153cbd147acf71c"
+    "title": "How Samsung achieved real-time pricing with AWS Lambda Response Streaming"
+    "link": "https://aws.amazon.com/blogs/architecture/how-samsung-achieved-real-time-pricing-with-aws-lambda-response-streaming/"
+    "published": "2026-06-15 23:13:36"
+    "fetched": "2026-06-16 01:13:49"
+    "summary": "In this post, we walk through the legacy architecture challenges, the stateless streaming solution, key implementation patterns, and performance results—a pattern you can apply if you’re building high-traffic APIs that aggregate data from multiple backend sources."
+"last_updated": "2026-06-16 01:13:49 JST"

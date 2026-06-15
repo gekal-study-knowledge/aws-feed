@@ -1,0 +1,9 @@
+"entries":
+  "d5ccdf212c953f6f470c9a114173b377":
+    "id": "d5ccdf212c953f6f470c9a114173b377"
+    "title": "Build context-rich research agents with Deep Agents and Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-context-rich-research-agents-with-deep-agents-and-bedrock-agentcore/"
+    "published": "2026-06-15 22:56:33"
+    "fetched": "2026-06-16 01:13:49"
+    "summary": "In this post, you'll build a competitive research agent that demonstrates this pattern end to end. This walkthrough targets developers building multi-step AI workflows who need isolated execution environments for their agents. In Part 2 of the notebook, you can deploy this same agent to Bedrock AgentCore Runtime using the AgentCore CLI, so it runs as a managed, session-isolated service."
+"last_updated": "2026-06-16 01:13:49 JST"
