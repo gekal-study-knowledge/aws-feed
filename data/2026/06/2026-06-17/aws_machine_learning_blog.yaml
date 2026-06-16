@@ -13,4 +13,11 @@
     "published": "2026-06-17 05:16:02"
     "fetched": "2026-06-17 06:40:09"
     "summary": "Today, we’re excited to announce container image caching for Amazon SageMaker AI inference, the next major advancement in our faster scaling optimization journey. This speeds up end-to-end latency by up to 2x for generative AI models during scale-out events."
-"last_updated": "2026-06-17 06:40:09 JST"
+  "29b217010c99d0bcc67142e7becc16a9":
+    "id": "29b217010c99d0bcc67142e7becc16a9"
+    "title": "Safeguard your agentic AI applications with the Amazon Bedrock Guardrails InvokeGuardrailChecks API"
+    "link": "https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/"
+    "published": "2026-06-17 07:46:46"
+    "fetched": "2026-06-17 08:21:24"
+    "summary": "Today, we’re announcing a new API with Amazon Bedrock Guardrails. With this API, you can apply individual safeguards, also referred to as safety checks, at any point in your agentic AI applications without creating guardrail resources. In this post, we walk through how the InvokeGuardrailChecks API works and how to use it to build safe, multi-turn agentic AI applications."
+"last_updated": "2026-06-17 08:21:24 JST"
