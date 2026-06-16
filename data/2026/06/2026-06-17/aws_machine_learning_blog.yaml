@@ -1,0 +1,9 @@
+"entries":
+  "2f6385f0c1ecdf14dc772aec9cd64a8a":
+    "id": "2f6385f0c1ecdf14dc772aec9cd64a8a"
+    "title": "Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/parallelize-speculative-decoding-with-p-eagle-on-amazon-sagemaker-ai/"
+    "published": "2026-06-17 02:47:09"
+    "fetched": "2026-06-17 03:02:27"
+    "summary": "This post walks you through how to use P-EAGLE directly within Amazon SageMaker AI. It will demonstrate how to select a compatible model from the SageMaker JumpStart catalog, configure the parallel drafting specifications, and deploy a highly optimized real-time SageMaker AI endpoint to accelerate your generative AI applications."
+"last_updated": "2026-06-17 03:02:27 JST"
