@@ -1,0 +1,9 @@
+"entries":
+  "3c0ec855557c289c92f61fa52ecf9fb4":
+    "id": "3c0ec855557c289c92f61fa52ecf9fb4"
+    "title": "CVE-2026-12530 - Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-044-aws/"
+    "published": "2026-06-18 06:16:00"
+    "fetched": "2026-06-18 06:57:28"
+    "summary": "<p><b>Bulletin ID:</b> 2026-044-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 06/17/2026 14:15 PM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS Bedrock AgentCore Python SDK (bedrock-agentcore) is an open-source SDK that enables developers to build, deploy, and manage agents on AWS Bedrock AgentCore. We identified CVE-2026-12530, an issue in the install_packages() method of the Code Interpreter client. The method applied an incomplete blocklist to sanitize package name arguments before constructing a 'pip install' shell command executed within the Code Interpreter sandbox. This allowed crafted package name arguments to bypass validation ‐ most critically, pip's '‐‐index‐url' flag, which could redirect package resolution to an third‐party‐controlled PyPI server, and the '-r' flag, which could read and expose arbitrary sandbox files.</p> \n<p><b>Impacted versions:</b> AWS Bedrock AgentCore Python SDK (bedrock-agentcore) versions &gt;= 1.1.3 and &lt; 1.6.1</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-06-18 06:57:28 JST"
