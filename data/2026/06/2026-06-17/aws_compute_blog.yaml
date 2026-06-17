@@ -1,0 +1,9 @@
+"entries":
+  "2718c2327611f98c072cc67351be9175":
+    "id": "2718c2327611f98c072cc67351be9175"
+    "title": "Simulating Amazon EC2 EBS burst credits before downsizing an instance"
+    "link": "https://aws.amazon.com/blogs/compute/simulating-amazon-ec2-ebs-burst-credits-before-downsizing-an-instance/"
+    "published": "2026-06-17 22:45:13"
+    "fetched": "2026-06-18 01:36:40"
+    "summary": "When downsizing an Amazon Elastic Compute Cloud (Amazon EC2) instance, teams often evaluate CPU and memory utilization but overlook the instance’s Amazon Elastic Block Store (Amazon EBS) performance limits for throughput and IOPS. Smaller Amazon EBS-optimized instance types have lower baselines and rely on burst credits to handle peaks. If your workload’s I/O pattern drains […]"
+"last_updated": "2026-06-18 01:36:40 JST"

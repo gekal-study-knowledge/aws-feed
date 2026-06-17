@@ -1,0 +1,16 @@
+"entries":
+  "836144b50a1c7deb4f3ebaafc8f3464f":
+    "id": "836144b50a1c7deb4f3ebaafc8f3464f"
+    "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications"
+    "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/"
+    "published": "2026-06-18 00:09:20"
+    "fetched": "2026-06-18 01:36:38"
+    "summary": "Amazon Bedrock's new Fully Managed Knowledge Bases simplifies building enterprise RAG pipelines by providing native data connectors Smart Parsing for automatic multi-format data preparation, and an Agentic Retriever for complex multi-step queries—all integrated with AgentCore Gateway so developers can focus on business outcomes rather than infrastructure management."
+  "b1e11c00f2acf6b04a115c8063b74558":
+    "id": "b1e11c00f2acf6b04a115c8063b74558"
+    "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge"
+    "link": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/"
+    "published": "2026-06-18 00:00:11"
+    "fetched": "2026-06-18 01:36:38"
+    "summary": "AWS introduces Web Search on Amazon Bedrock AgentCore, a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer's secured AWS environment. You can focus on building agents instead of manually adding web search to agents on Bedrock AgentCore and managing its infrastructure."
+"last_updated": "2026-06-18 01:36:38 JST"

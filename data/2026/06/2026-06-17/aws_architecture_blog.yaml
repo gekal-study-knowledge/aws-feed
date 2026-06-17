@@ -1,0 +1,9 @@
+"entries":
+  "7ba98746f895a3f064836c53d88db020":
+    "id": "7ba98746f895a3f064836c53d88db020"
+    "title": "Reducing SMS OTP fraud with Vonage network-powered solutions and Amazon Cognito"
+    "link": "https://aws.amazon.com/blogs/architecture/reducing-sms-otp-fraud-with-vonage-network-powered-solutions-and-amazon-cognito/"
+    "published": "2026-06-17 22:50:16"
+    "fetched": "2026-06-18 01:36:39"
+    "summary": "In this post, we show how Vonage network-powered solutions work with Amazon Cognito to enhance many mobile-first use cases with network-level identity verification. Vonage network-powered solutions are a composable stack of real-time mobile operator intelligence, silent authentication, and integrated fraud protection, which uses the CUSTOM_AUTH flow to complete identity verification in under 5 seconds, with zero user interaction."
+"last_updated": "2026-06-18 01:36:39 JST"
