@@ -1,0 +1,37 @@
+"entries":
+  "f6102c46c97f42ff60f0e91a8f50057e":
+    "id": "f6102c46c97f42ff60f0e91a8f50057e"
+    "title": "AWS Transform custom ナレッジアイテムを活用した一貫性のある大規模コードモダナイゼーション"
+    "link": "https://aws.amazon.com/jp/blogs/news/consistent-code-modernization-at-scale-with-aws-transform-custom-knowledge-items/"
+    "published": "2026-06-17 12:17:16"
+    "fetched": "2026-06-17 12:41:55"
+    "summary": "AWS Transform custom (ATX) は、コードモダナイゼーションを大規模に自動化します。各リポジトリで AI コーディングアシスタントを個別に実行する場合と異なるのは、ATX が学習するということです。各実行からパターン、修正、エッジケースを再利用可能なナレッジとして蓄積するため、変換は実行するたびに高速化し、信頼性も向上します。ナレッジアイテムは、各実行からパターン、修正、エッジケースを蓄積する再利用可能なアーティファクトであり、将来の実行で自動的に適用されます。本記事では、サンプルの Spring Boot プロジェクトを Java 8 から 26 にアップグレードし、ナレッジアイテムがどのように生成・管理されるかを確認し、同じ変換をリポジトリのポートフォリオ全体に適用する方法をご紹介します。"
+  "11c3bcb7b4226d47e6205e6c1d226d17":
+    "id": "11c3bcb7b4226d47e6205e6c1d226d17"
+    "title": "AWS Transform custom: モダナイゼーションのための包括的コードベース分析"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-transform-comprehensive-codebase-analysis-for-modernization/"
+    "published": "2026-06-17 12:01:55"
+    "fetched": "2026-06-17 12:41:55"
+    "summary": "アプリケーションのモダナイゼーションは、多くの場合、困難なタスクから始まります。それは、システムの仕組みを理解するための包括的なレガシーコードベース分析です。多くのレガシーアプリケーションは長年にわたる段階的な変更を経て進化しており、ドキュメントは限られ、依存関係は密結合し、ビジネスロジックは複数のサービスやモジュールに分散しています。AWS Transform の包括的コードベース分析マネージド変換は、アプリケーションの明確でエビデンスに基づいた理解を提供することで、これらの課題に対処します。これにより、数か月分の手作業を節約し、モダナイゼーションへの取り組みを加速できます。この記事では、変換の仕組み、前提条件、実行手順、実践的なシナリオを含めた結果の解釈方法、より広範なモダナイゼーションの取り組みとの関係、ベストプラクティス、トラブルシューティングガイダンスについて説明します。"
+  "e4e2cc3eb8efde6c589f161f6396705b":
+    "id": "e4e2cc3eb8efde6c589f161f6396705b"
+    "title": "AWS Transform custom: Learn-Scale-Improve フライホイールによるエンタープライズのコードモダナイゼーション"
+    "link": "https://aws.amazon.com/jp/blogs/news/ws-transform-custom-enterprise-code-modernization-with-the-learn-scale-improve-flywheel/"
+    "published": "2026-06-17 11:41:36"
+    "fetched": "2026-06-17 12:41:55"
+    "summary": "エンタープライズにおけるモダナイゼーションは、大きな転換点を迎えています。1 つのリポジトリを変換するだけなら容易です。AWS Transform custom でも、他の既存のツールでも、個別のリポジトリに対して十分に機能し、プロセスも確立されています。しかし、50 のリポジトリではどうでしょうか。100、200 ではどうでしょうか。エンタープライズ規模でモダナイゼーションを進めようとすると、コードを変換することは課題全体の一部にすぎません。人員の調整、ナレッジの蓄積、そしてポートフォリオ全体における品質の維持も重要になります。本記事では、AWS Transform custom の大規模な自動化の仕組みが、インテリジェントな学習とスケール実行によって、エンタープライズにおける組織内連携の課題をどう解決するかをご紹介します。"
+  "bdf8b0cea04d3e767d2deec7c42c419f":
+    "id": "bdf8b0cea04d3e767d2deec7c42c419f"
+    "title": "AWS におけるコスト効率の現状レポート"
+    "link": "https://aws.amazon.com/jp/blogs/news/the-aws-state-of-cost-efficiency-report/"
+    "published": "2026-06-17 09:54:11"
+    "fetched": "2026-06-17 12:41:55"
+    "summary": "re:Invent 2025 でコスト効率（Cost Efficiency）メトリクスを発表して以来、お客様か […]"
+  "664229bde5076b6b77ebecb2cb16a26f":
+    "id": "664229bde5076b6b77ebecb2cb16a26f"
+    "title": "Kiro Web の新機能: Spec、GitLab、その他のアップデート"
+    "link": "https://aws.amazon.com/jp/blogs/news/kiro-web-specs-gitlab/"
+    "published": "2026-06-17 08:45:12"
+    "fetched": "2026-06-17 12:41:55"
+    "summary": "先月、私たちは Kiro Web をプレビュー版として公開し、皆さんがすでに作業している場所へと Kiro を広げました。ブラウザから Kiro とともにアイデアを探求して変更を形にし、ローカル環境を最初にセットアップすることなくプルリクエストをオープンします。あるいは自律モード（Autonomous mode）でタスクを任せれば、Kiro が最初から最後まで処理します。いずれの場合も、1 つのセッションで複数の GitHub リポジトリにまたがる 1 つの変更を調整できます。公開以降、私たちはワークフローの改善を一通り提供してきました。今回のアップデートでは、開発者の皆さんから要望のあった 2 つの機能をお届けします。構造化されたスペックワークフローがブラウザで実行できるようになり、さらに Kiro Web が GitLab に対応しました。GitLab と GitHub の両方にまたがるセッションも含めてです。"
+"last_updated": "2026-06-17 12:41:55 JST"
