@@ -6,4 +6,11 @@
     "published": "2026-06-18 00:29:36"
     "fetched": "2026-06-18 01:36:39"
     "summary": "Today we're introducing new capabilities on Amazon Bedrock AgentCore, the platform to build, connect, and optimize agents. In this post, we cover how these capabilities close each gap: connecting agents to organizational, web, and paid knowledge; helping teams find and fix what's going wrong in production; and enforcing controls that scale as agents grow more capable. Together, they help you build more capable agents faster, govern them with controls that scale, and improve them continuously."
-"last_updated": "2026-06-18 01:36:39 JST"
+  "e2c4cc0d2fc6c54e08138eed9ecd9148":
+    "id": "e2c4cc0d2fc6c54e08138eed9ecd9148"
+    "title": "Context intelligence for your data and AI agents at scale"
+    "link": "https://aws.amazon.com/blogs/machine-learning/context-intelligence-for-your-data-and-ai-agents-at-scale/"
+    "published": "2026-06-18 02:17:37"
+    "fetched": "2026-06-18 04:23:06"
+    "summary": "Agents are only as intelligent as the context they can reason over. Today, that context is scattered across data lakes, data warehouses, lakehouses, databases, and streams, and in institutional knowledge that has never been written down. You want to trust the decisions made by your AI agents, but that can't happen until agents have context. Imagine what becomes possible when we give agents a safe way to access the context they need to deliver trusted decisions. This is why at the AWS Summit New York City, we’re announcing a series of innovations that deliver intelligence for your data and AI agents at scale."
+"last_updated": "2026-06-18 04:23:06 JST"
