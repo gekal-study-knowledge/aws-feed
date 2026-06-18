@@ -1,0 +1,16 @@
+"entries":
+  "1f3a7b941ce0b274b0119ff20dc4071a":
+    "id": "1f3a7b941ce0b274b0119ff20dc4071a"
+    "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs"
+    "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/"
+    "published": "2026-06-19 06:22:10"
+    "fetched": "2026-06-19 07:03:12"
+    "summary": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads."
+  "7170769b13246ed991900c5df30a048d":
+    "id": "7170769b13246ed991900c5df30a048d"
+    "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling"
+    "link": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling/"
+    "published": "2026-06-19 06:06:38"
+    "fetched": "2026-06-19 07:03:12"
+    "summary": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic patterns, scheduled scaling for planned events, and target tracking to scale dynamically on real-time metrics. You can choose proactive scaling by using predictive scaling (automatic) and scheduled scaling […]"
+"last_updated": "2026-06-19 07:03:12 JST"

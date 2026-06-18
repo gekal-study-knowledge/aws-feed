@@ -6,4 +6,11 @@
     "published": "2026-06-19 01:50:34"
     "fetched": "2026-06-19 04:24:30"
     "summary": "Amazon Web Services (AWS) is excited to release the Spring 2026 System and Organization Controls (SOC) 1 and 2 reports in machine-readable OSCAL format alongside the PDF version of the reports. The reports cover 188 services over the 12-month period from April 1, 2025 to March 31, 2026, giving customers a full year of assurance. […]"
-"last_updated": "2026-06-19 04:24:30 JST"
+  "caff707122dcf8cb8c538f926ff36866":
+    "id": "caff707122dcf8cb8c538f926ff36866"
+    "title": "Accelerate security investigations with Kiro CLI"
+    "link": "https://aws.amazon.com/blogs/security/accelerate-security-investigations-with-kiro-cli/"
+    "published": "2026-06-19 04:24:30"
+    "fetched": "2026-06-19 07:03:12"
+    "summary": "When a security event occurs in your Amazon Web Services (AWS) environment, rapid response is critical. However security teams often struggle with time-consuming, manual processes that slow down investigations. Analysts must recall complex AWS Command Line Interface (AWS CLI) syntax for multiple services, manually correlate findings across Amazon GuardDuty, AWS CloudTrail, and other security tools, […]"
+"last_updated": "2026-06-19 07:03:12 JST"
