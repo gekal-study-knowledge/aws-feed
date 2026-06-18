@@ -62,4 +62,11 @@
     "published": "2026-06-18 16:26:55"
     "fetched": "2026-06-18 21:21:23"
     "summary": "日立製作所・日立ハイテク・日立産業制御ソリューションズの3社・8チーム・52名が参加した「日立グループ合同 AI-DLC Unicorn Gym」の開催レポートです。AI駆動開発ライフサイクル（AI-DLC）を3日間で体験したワークショップの成果（開発工数70%以上削減を9割が体感、満足度4.67）に加え、日立グループへの本格展開を牽引するキーマンとの対談を通じて、品質保証との両立や「日立AI-DLC」構想、AI駆動開発ワーキンググループの立ち上げの計画までをお届けします。"
-"last_updated": "2026-06-18 21:21:23 JST"
+  "258f7ca7e9cbc2a9910593ec3c089a5e":
+    "id": "258f7ca7e9cbc2a9910593ec3c089a5e"
+    "title": "VR × モーションキャプチャ × AI でパデルフォームを可視化する ── AWS Builders’ Fair 展示のご紹介"
+    "link": "https://aws.amazon.com/jp/blogs/news/vr-motion-capture-ai-padel-form-visualization/"
+    "published": "2026-06-18 21:46:16"
+    "fetched": "2026-06-19 01:26:37"
+    "summary": "MetaQuestによるVR空間にて、HaritoraXでのモーショントラッキング技術とカメラによるMoveNetによる骨格推定を合わせて、パデルのフォーム分析。パデルトッププレイヤーとどのようにフォームが異なるのかを評価。AWS Summit 2026 Builders Fairのブースに出展。"
+"last_updated": "2026-06-19 01:26:37 JST"
