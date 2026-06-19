@@ -1,0 +1,9 @@
+"entries":
+  "f93d8f577d0631e37847f29dfa3a2603":
+    "id": "f93d8f577d0631e37847f29dfa3a2603"
+    "title": "Issue with containerd CRI Plugin - CVE-2026-50195, CVE-2026-53488, CVE-2026-53492, CVE-2026-53489, CVE-2026-47262"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-046-aws/"
+    "published": "2026-06-19 09:29:27"
+    "fetched": "2026-06-19 15:13:40"
+    "summary": "<p><b>Bulletin ID:</b> 2026-046-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 06/18/2026 17:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>containerd is an open-source container runtime used by Kubernetes via the Container Runtime Interface (CRI) plugin. It underpins AWS managed container services including Amazon Elastic Kubernetes Service (Amazon EKS), Amazon Elastic Container Service (Amazon ECS), AWS Fargate, Bottlerocket, and Amazon Linux. AWS identified five issues in the containerd CRI plugin affecting versions 1.7 through 2.3.<br /> - CVE-2026-50195 (GHSA-cvxm-645q-p574) - CRI checkpoint import, local image tag poisoning<br /> - CVE-2026-53488 (GHSA-xhf5-7wjv-pqxp) - image-config LABEL -&gt; host-root command exec<br /> - CVE-2026-53492 (GHSA-33vj-92qq-66hc) - CDI annotation smuggling during checkpoint restore <br /> - CVE-2026-53489 (GHSA-rgh6-rfwx-v388) - arbitrary host file read via symlink in checkpoint restore<br /> - CVE-2026-47262 (GHSA-jpcc-p29g-p8mq) - image-triggered runtime DoS</p> \n<p><b>Impacted versions:</b> containerd 1.7, 2.0, 2.1, 2.2, 2.3</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-06-19 15:13:40 JST"
