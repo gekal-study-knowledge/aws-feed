@@ -1,0 +1,9 @@
+"entries":
+  "5927d8ac63a2514e6d706e71f3d28bbe":
+    "id": "5927d8ac63a2514e6d706e71f3d28bbe"
+    "title": "Amazon RDS for Db2 12.1 の提供開始と Community Edition の追加"
+    "link": "https://aws.amazon.com/jp/blogs/news/announcing-amazon-rds-for-db2-12-1-with-additional-community-edition/"
+    "published": "2026-06-20 10:36:33"
+    "fetched": "2026-06-20 14:09:26"
+    "summary": "Amazon RDS for Db2 で IBM Db2 12.1 がサポートされました。AI Query Optimizer、名前空間の分離、セキュリティ強化などの新機能に加え、IBM ソフトウェアライセンス料なしで利用できる Community Edition (db2-ce) が新たに追加されました。"
+"last_updated": "2026-06-20 14:09:26 JST"
