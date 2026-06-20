@@ -1,0 +1,9 @@
+"entries":
+  "d49ab45ae9ee1449bb28ec9a16cbed59":
+    "id": "d49ab45ae9ee1449bb28ec9a16cbed59"
+    "title": "Upgrading Lambda function runtimes at scale with AWS Transform custom"
+    "link": "https://aws.amazon.com/blogs/compute/upgrading-lambda-function-runtimes-at-scale-with-aws-transform-custom/"
+    "published": "2026-06-20 21:35:50"
+    "fetched": "2026-06-20 22:53:37"
+    "summary": "When you create an AWS Lambda function, you choose the runtime that Lambda will use to run your code. This includes the base language version and supporting libraries. Lambda runtimes follow a published deprecation schedule. This means that you must periodically upgrade your function’s runtime. Running on a deprecated runtime means potential security exposure, loss […]"
+"last_updated": "2026-06-20 22:53:37 JST"
