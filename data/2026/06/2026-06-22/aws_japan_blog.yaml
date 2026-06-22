@@ -1,0 +1,37 @@
+"entries":
+  "43676d40b233f36dcb3029fb9650df60":
+    "id": "43676d40b233f36dcb3029fb9650df60"
+    "title": "BIM データの要件定義から IDS を自動生成する: 生成 AI と AgentCore で実現するパラレル IDS ビルダー"
+    "link": "https://aws.amazon.com/jp/blogs/news/parallel-ids-builder-with-amazon-bedrock-agentcore-and-aws-step-functions/"
+    "published": "2026-06-22 14:12:51"
+    "fetched": "2026-06-22 15:25:14"
+    "summary": "建設業界で進む BIM 活用では、「必要なデータが揃っているか」を定義・検証することの難しさが課題になっています。本ブログでは、この要件を機械が検証できる形で定義する国際標準の IDS を、自然言語で書かれた要件定義から生成 AI が自動生成するソリューションを解説します。Amazon Bedrock AgentCore と AWS Step Functions を組み合わせ、要件ごとに並列で IDS を生成する仕組みを、実装レベルで紹介します。"
+  "9364c6b70ff867c82f73ba067b7305e3":
+    "id": "9364c6b70ff867c82f73ba067b7305e3"
+    "title": "BIM データを生成 AI で活用する: IFC を RDF グラフに変換し Amazon Neptune で問い合わせるアーキテクチャ"
+    "link": "https://aws.amazon.com/jp/blogs/news/bim-graph-on-amazon-neptune-with-text-to-sparql/"
+    "published": "2026-06-22 14:10:08"
+    "fetched": "2026-06-22 15:25:14"
+    "summary": "建設業界で導入が進む BIM には、建物の豊富なデータが蓄積されています。本ブログでは、このデータを生成 AI から自然言語で問い合わせる方法として、BIM のオープンな標準フォーマットである IFC を RDF グラフに変換して Amazon Neptune に格納し、AI エージェントが text-to-SPARQL で回答する仕組みを、実装レベルで解説します。"
+  "009896528925a16e52a80b22776f542c":
+    "id": "009896528925a16e52a80b22776f542c"
+    "title": "Physical AI — AI エージェントが現実世界で「見て、考えて、動かす」自律オペレーションの実現"
+    "link": "https://aws.amazon.com/jp/blogs/news/physical-ai-autonomous-agent-demo/"
+    "published": "2026-06-22 14:08:43"
+    "fetched": "2026-06-22 15:25:14"
+    "summary": "本ブログでは、AWS Summit Japan 2026（2026年6月25日〜26日、幕張メッセ）の Phy […]"
+  "f3e94d092671c4f1becac8aad0e7979d":
+    "id": "f3e94d092671c4f1becac8aad0e7979d"
+    "title": "週刊AWS – 2026/6/15週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260615/"
+    "published": "2026-06-22 11:46:57"
+    "fetched": "2026-06-22 15:25:14"
+    "summary": "AWS WAF が AI トラフィック収益化機能を発表、AWS DevOps Agent がカスタム SRE エージェントと MCP/A2A プロトコルに対応、Amazon Bedrock AgentCore Memory が long-term memory に厳密に一貫したメタデータをサポート、Amazon Quick が Adobe、Figma、WhatsApp など 16 の新しいコネクタで統合を拡大、AWS Compute Optimizer が EBS ボリューム推奨で IOPS とスループットスパイクの可視性を強化　など"
+  "050f707a7eb68c2ce289f0a25f8a5e3e":
+    "id": "050f707a7eb68c2ce289f0a25f8a5e3e"
+    "title": "「フィジカル AI 開発支援プログラム by AWS ジャパン」Community Meetup #1 を開催しました"
+    "link": "https://aws.amazon.com/jp/blogs/news/physical-ai-community-meetup-1/"
+    "published": "2026-06-22 11:40:46"
+    "fetched": "2026-06-22 15:25:14"
+    "summary": "2026 年 6 月 1 日、アマゾン ウェブ サービス ジャパン合同会社（以下、AWS ジャパン）は、「フィジカル AI 開発支援プログラム by AWS ジャパン」の第 1 回コミュニティイベント「Community Meetup #1」を、 AWS ジャパン 麻布台オフィスにて開催しました。本プログラムは 2026 年 1 月 27 日に発表し、3 月 3 日にキックオフイベントを開催しました。今回の Community Meetup は、約 6 ヶ月間の開発支援期間のなかで、採択企業同士の交流を主な目的として開いた初めてのコミュニティイベントです。"
+"last_updated": "2026-06-22 15:25:14 JST"
