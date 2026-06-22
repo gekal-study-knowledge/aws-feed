@@ -13,4 +13,11 @@
     "published": "2026-06-23 01:28:46"
     "fetched": "2026-06-23 02:28:16"
     "summary": "In this post, we walk you through how to deploy ComfyUI workflows on Amazon SageMaker AI processing jobs to generate hundreds of high-quality images in a single batch. You learn how to set up the infrastructure using AWS Cloud Development Kit (AWS CDK), configure GPU-accelerated processing, and automate image generation at scale. You can then adapt this solution to your ComfyUI workflows specific to your needs. We will guide you through a practical, step-by-step process to automate ComfyUI workflows to generate hundreds of high-quality images in a single batch empowering you to scale your creative pipeline."
-"last_updated": "2026-06-23 02:28:16 JST"
+  "cda048b5cd006e2be3a8149d07e8e3a2":
+    "id": "cda048b5cd006e2be3a8149d07e8e3a2"
+    "title": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments/"
+    "published": "2026-06-23 02:53:40"
+    "fetched": "2026-06-23 05:40:49"
+    "summary": "In this post, you will learn how Ampersend built a pay-per-intelligence routing layer on top of Amazon Bedrock AgentCore Payments. AI agents autonomously route tasks to the most effective model, pay per request, and operate within spending budgets. You will also see how the two-hop payment pattern works end-to-end and how to get started with your own implementation."
+"last_updated": "2026-06-23 05:40:49 JST"
