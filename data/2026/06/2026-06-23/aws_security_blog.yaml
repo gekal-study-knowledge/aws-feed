@@ -1,0 +1,9 @@
+"entries":
+  "5a518d25415350dba507bf6d6e9796bf":
+    "id": "5a518d25415350dba507bf6d6e9796bf"
+    "title": "Prevent data exfiltration: AWS egress controls for cloud workloads"
+    "link": "https://aws.amazon.com/blogs/security/prevent-data-exfiltration-aws-egress-controls-for-cloud-workloads/"
+    "published": "2026-06-23 00:53:05"
+    "fetched": "2026-06-23 02:28:15"
+    "summary": "When securing an Amazon Web Services (AWS) environment, teams naturally prioritize inbound controls, firewalls, WAFs, and access policies, because that’s where the most visible threats originate. Outbound traffic, on the other hand, tends to get less attention. It’s often left open by default to avoid breaking application dependencies and because the risk feels less immediate. […]"
+"last_updated": "2026-06-23 02:28:15 JST"

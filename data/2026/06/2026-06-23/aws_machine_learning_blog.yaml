@@ -1,0 +1,16 @@
+"entries":
+  "36b987119322b0f0820878e329c73c90":
+    "id": "36b987119322b0f0820878e329c73c90"
+    "title": "Embed the world: Multimodal AI for searchable aerial imagery at scale"
+    "link": "https://aws.amazon.com/blogs/machine-learning/embed-the-world-multimodal-ai-for-searchable-aerial-imagery-at-scale/"
+    "published": "2026-06-23 01:32:15"
+    "fetched": "2026-06-23 02:28:16"
+    "summary": "In this post, we walk through the problem space, our architecture on Amazon Bedrock and Amazon OpenSearch Serverless, the evaluation methodology we built on OpenStreetMap ground truth, four experiments that compared embedding models, fusion strategies, captioning, and search methods, and the practical guidance you can apply when building a similar system. You’ll learn which design choices move the needle for geospatial semantic search, including why Amazon Nova Multimodal Embeddings delivered the highest F1 scores across both benchmark queries in our evaluation. The work described here evolved into Vexcel Intelligence, a searchable imagery product."
+  "eda6ee17959c999ba7a7111bcd597062":
+    "id": "eda6ee17959c999ba7a7111bcd597062"
+    "title": "Running ComfyUI workflows on Amazon SageMaker AI processing jobs"
+    "link": "https://aws.amazon.com/blogs/machine-learning/running-comfyui-workflows-on-amazon-sagemaker-ai-processing-jobs/"
+    "published": "2026-06-23 01:28:46"
+    "fetched": "2026-06-23 02:28:16"
+    "summary": "In this post, we walk you through how to deploy ComfyUI workflows on Amazon SageMaker AI processing jobs to generate hundreds of high-quality images in a single batch. You learn how to set up the infrastructure using AWS Cloud Development Kit (AWS CDK), configure GPU-accelerated processing, and automate image generation at scale. You can then adapt this solution to your ComfyUI workflows specific to your needs. We will guide you through a practical, step-by-step process to automate ComfyUI workflows to generate hundreds of high-quality images in a single batch empowering you to scale your creative pipeline."
+"last_updated": "2026-06-23 02:28:16 JST"
