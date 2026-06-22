@@ -1,0 +1,9 @@
+"entries":
+  "f422118cc79ba7aa344be43ddab24241":
+    "id": "f422118cc79ba7aa344be43ddab24241"
+    "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs"
+    "link": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/"
+    "published": "2026-06-23 07:40:07"
+    "fetched": "2026-06-23 07:44:13"
+    "summary": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control, state preservation up to 8 hours, no infrastructure to manage."
+"last_updated": "2026-06-23 07:44:13 JST"

@@ -1,0 +1,9 @@
+"entries":
+  "e08094e524ec127a9ed2de6f5161f262":
+    "id": "e08094e524ec127a9ed2de6f5161f262"
+    "title": "Introducing self-service lifecycle management capabilities for AWS Outposts"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-self-service-lifecycle-management"
+    "published": "2026-06-22 19:00:00"
+    "fetched": "2026-06-23 07:44:13"
+    "summary": "<p>AWS Outposts now provides self-service capabilities for configuration, quoting, ordering, subscription management, renewal, and decommissioning directly from the AWS Management Console, CLI, and API. Previously, customers relied on AWS teams for managing their Outposts lifecycle, from evaluation through end of term.<br /> <br /> A new configuration and quoting tool generates real-time cost estimates across payment options and term lengths, and proactively surfaces account and regional constraints before order submission. Quotes are generated in seconds and can be converted to orders directly in the console, for both new deployments and capacity additions. Subscription details, including term dates and billing, are now available in the console and programmatically, eliminating the need to contact AWS for contract information. When your term approaches its end date, self-service workflows let you renew with a new term and payment option, or decommission your Outpost through a guided workflow that handles resource cleanup.<br /> <br /> These features are available in all commercial AWS Regions that support AWS Outposts. To learn more, refer to the <a href=\"https://aws.amazon.com/blogs/compute/simplify-aws-outposts-lifecycle-management/\">Launch Blog</a>.</p>"
+"last_updated": "2026-06-23 07:44:13 JST"
