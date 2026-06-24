@@ -1,0 +1,9 @@
+"entries":
+  "af3ea1489fc65eaec9c14bc1adc827a3":
+    "id": "af3ea1489fc65eaec9c14bc1adc827a3"
+    "title": "Amazon EMR Serverless now supports live configuration updates without application restarts"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-emr-serverless/"
+    "published": "2026-06-25 04:21:00"
+    "fetched": "2026-06-25 05:45:03"
+    "summary": "<p>Amazon EMR Serverless now supports updates to key application configurations such as maximum capacity, and custom image settings — without stopping and restarting the application. New workloads submitted after the update automatically use the new settings, while existing workloads continue uninterrupted with their original configuration.</p> \n<p>Previously, modifying these settings required stopping your EMR Serverless application, making the change, and restarting it — forcing you to coordinate maintenance windows and temporarily block job submissions. Now you can adjust scaling boundaries or deploy updated custom images at any time without disrupting running jobs. This reduces operational overhead and lets you respond to changing workload demands or deploy image updates immediately.&nbsp;</p> \n<p>This feature is available on all Amazon EMR releases and in all AWS Regions where Amazon EMR Serverless is available. To learn more, visit the <a href=\"https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/updating-running-applications.html\">EMR Serverless User Guide.</a></p>"
+"last_updated": "2026-06-25 05:45:03 JST"

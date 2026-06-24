@@ -1,0 +1,9 @@
+"entries":
+  "ea8974276dbf820b8379b136eb82d2aa":
+    "id": "ea8974276dbf820b8379b136eb82d2aa"
+    "title": "Restrict AWS Management Console access to expected networks with sign-in resource-based policies and RCPs"
+    "link": "https://aws.amazon.com/blogs/security/restrict-aws-management-console-access-to-expected-networks-with-sign-in-resource-based-policies-and-rcps/"
+    "published": "2026-06-25 05:01:47"
+    "fetched": "2026-06-25 05:45:04"
+    "summary": "Amazon Web Services (AWS) recently announced support for resource-based policies and resource control policies (RCPs) for AWS Sign-In. By using resource-based policies and RCPs, you can restrict access to the AWS Management Console sign-in and aws login CLI sessions to requests from your expected networks, your on-premises data center networks, and your Amazon Virtual Private […]"
+"last_updated": "2026-06-25 05:45:04 JST"
