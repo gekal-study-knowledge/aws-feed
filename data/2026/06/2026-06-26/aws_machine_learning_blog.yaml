@@ -27,4 +27,11 @@
     "published": "2026-06-26 01:35:07"
     "fetched": "2026-06-26 02:09:14"
     "summary": "This post shows how to build a governed, serverless data mesh on AWS that provides the secure, scalable data foundation production agentic AI requires."
-"last_updated": "2026-06-26 02:09:14 JST"
+  "9249f8b7a1b139f8b4076ad162f9e8f9":
+    "id": "9249f8b7a1b139f8b4076ad162f9e8f9"
+    "title": "Retrofit, don’t rebuild: Agentic overlays for transforming legacy enterprise services"
+    "link": "https://aws.amazon.com/blogs/machine-learning/retrofit-dont-rebuild-agentic-overlays-for-transforming-legacy-enterprise-services/"
+    "published": "2026-06-26 02:55:10"
+    "fetched": "2026-06-26 04:54:09"
+    "summary": "In this technical collaboration between AWS and the authors, we present a pragmatic solution: agentic overlays. Agentic overlays are thin wrapper layers that transform traditional REST-based services into agents capable of participating in A2A interactions. They also expose REST APIs as tools compatible with the Model Context Protocol (MCP). Together, they let enterprises add A2A capabilities to existing REST services without rewriting business logic, without duplicating code, and without running parallel infrastructures. This reduces agent sprawl in the infrastructure by reusing existing services as agents. We provide reference architectures and sample code that show how to build agentic overlays."
+"last_updated": "2026-06-26 04:54:09 JST"
