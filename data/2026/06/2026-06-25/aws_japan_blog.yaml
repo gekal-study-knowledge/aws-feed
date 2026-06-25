@@ -6,4 +6,11 @@
     "published": "2026-06-25 01:04:41"
     "fetched": "2026-06-25 01:15:19"
     "summary": "6 体の AI エージェントが、仕入れ・値付け・サイト運営・接客・広告までを人間の指示なしに動かすお店。AWS Summit Japan 2026（幕張メッセ／ブース A080）で、AI 運営の EC サイトでのお買い物と、当選者向け AI デザインのオリジナルステッカーを体験できます。"
-"last_updated": "2026-06-25 01:15:19 JST"
+  "e88020b0fc421c82eb4738fea77607e0":
+    "id": "e88020b0fc421c82eb4738fea77607e0"
+    "title": "フルライフサイクル制御を備えた分離サンドボックスの実行：AWS Lambda が MicroVMs を導入"
+    "link": "https://aws.amazon.com/jp/blogs/news/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/"
+    "published": "2026-06-25 16:25:51"
+    "fetched": "2026-06-25 17:54:58"
+    "summary": "2026 年 6 月 22 日、私たちは AWS Lambda 内の新しいサーバーレスコンピュートプリミティブ […]"
+"last_updated": "2026-06-25 17:54:58 JST"
