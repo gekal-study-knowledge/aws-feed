@@ -1,0 +1,9 @@
+"entries":
+  "e9c2625dc9e5ba76570e56d2b6e716d2":
+    "id": "e9c2625dc9e5ba76570e56d2b6e716d2"
+    "title": "Building fault-tolerant multi-agent AI workflows with AWS Lambda durable functions"
+    "link": "https://aws.amazon.com/blogs/compute/building-fault-tolerant-multi-agent-ai-workflows-with-aws-lambda-durable-functions/"
+    "published": "2026-06-29 23:26:18"
+    "fetched": "2026-06-29 23:45:19"
+    "summary": "Agentic AI workflows coordinate multiple agents that reason, plan, and act across multi-step processes. Each step is expensive, non-deterministic, and unpredictable in latency. Human review gates can pause execution for days. Transient failures are expected, and restarting a half-finished workflow wastes time and money. Duplicate actions, like charging a payment twice or sending the same […]"
+"last_updated": "2026-06-29 23:45:19 JST"

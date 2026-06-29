@@ -34,4 +34,11 @@
     "published": "2026-06-29 16:27:10"
     "fetched": "2026-06-29 19:49:27"
     "summary": "API 仕様とテストの乖離は開発現場の慢性的な課題です。本記事では、エージェント駆動の開発システム Kiro を使い、Swagger/OpenAPI 仕様から axios ベースの HTTP テスト、Express のモックサーバー、モックと実 API を切り替える設定、HTML レポートまでを含む Node.js テストスイートを数秒で自動生成する方法を解説します。Petstore API を例にステアリングファイルの活用、生成されたテスト品質、削除ライフサイクル検証、認証付き内部 API への適応、ヘッドレスモードによる CI/CD 自動再生成まで紹介します。"
-"last_updated": "2026-06-29 19:49:27 JST"
+  "e45ab02e41bdeec033a5b6fbae1f45ed":
+    "id": "e45ab02e41bdeec033a5b6fbae1f45ed"
+    "title": "キヤノンIT ソリューションズ様と取り組むホテルのフードロス削減 – 時系列基盤モデル Chronos-2 で最適な提供量を予測する"
+    "link": "https://aws.amazon.com/jp/blogs/news/sustainability-case-study-canon-its-chronos-2-foodloss-management/"
+    "published": "2026-06-29 23:41:35"
+    "fetched": "2026-06-29 23:45:17"
+    "summary": "本ブログでは、サステナビリティを組み込む取り組みの一例として、キヤノンITソリューションズ様と共同で取り組んだ Chronos-2 による需要予測を起点としたフードロス削減 PoC について、アーキテクチャと技術的なポイントをご紹介します。"
+"last_updated": "2026-06-29 23:45:17 JST"
