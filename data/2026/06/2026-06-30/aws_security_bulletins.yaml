@@ -1,0 +1,9 @@
+"entries":
+  "74b7d52c92af6ed8c5997b1ec790c994":
+    "id": "74b7d52c92af6ed8c5997b1ec790c994"
+    "title": "CVE-2026-13762 and CVE-2026-13763 - Issue with HTTP/2 multi-frame request body inspection in AWS WAF"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-048-aws/"
+    "published": "2026-06-30 05:07:32"
+    "fetched": "2026-06-30 06:22:19"
+    "summary": "<p><b>Bulletin ID:</b> 2026-048-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 06/29/2026 11:15 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS WAF is a web application firewall that monitors the HTTP(S) requests that are forwarded to your protected web application resources. We identified CVE-2026-13762 and CVE-2026-13763, which are issues affecting HTTP/2 multi-frame request body inspection by AWS WAF.</p> \n<p>CVE-2026-13762 affects AWS WAF deployment with CloudFront. This issue was remediated server-side; no customer action is required.</p> \n<p>CVE-2026-13763 affects AWS WAF deployment with AWS Application Load Balancer (ALB). Under certain conditions, a crafted multi-frame HTTP/2 request could cause only a partial request body to be inspected. This issue has been addressed on ALB, and customers can ensure full protection by configuring how AWS WAF inspects HTTP/2 request bodies on their ALB.</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-06-30 06:22:19 JST"

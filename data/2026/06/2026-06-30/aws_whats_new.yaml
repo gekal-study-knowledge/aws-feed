@@ -1,0 +1,9 @@
+"entries":
+  "66cfff1f46a171614e9111b2a581248f":
+    "id": "66cfff1f46a171614e9111b2a581248f"
+    "title": "Amazon MWAA Serverless now supports shared VPC configurations"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-vpc/"
+    "published": "2026-06-30 02:19:00"
+    "fetched": "2026-06-30 06:22:18"
+    "summary": "<p>Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless now supports shared VPC subnets. Previously, customers using subnets shared via AWS Resource Access Manager (AWS RAM) received a validation error when creating MWAA Serverless workflows. With this update, MWAA Serverless correctly validates subnet ownership in shared VPC configurations, consistent with MWAA Provisioned environments.<br /> Sharing VPC subnets across accounts using AWS RAM is a common pattern in multi-account landing zone architectures. Organizations that centrally manage networking can now launch MWAA Serverless workflows in member accounts using shared subnets — no workarounds required. Customers using Amazon SageMaker Unified Studio Workflows also benefit from this update when their projects are configured with shared VPC networking.<br /> This update is available in all AWS Regions where <a href=\"https://aws.amazon.com/managed-workflows-for-apache-airflow/\">Amazon MWAA Serverless</a> is supported. To learn more, see the <a href=\"https://docs.aws.amazon.com/mwaa/latest/mwaa-serverless-userguide/networking.html#networking-support\">Networking</a> section of the Amazon MWAA Serverless User Guide.</p>"
+"last_updated": "2026-06-30 06:22:18 JST"
