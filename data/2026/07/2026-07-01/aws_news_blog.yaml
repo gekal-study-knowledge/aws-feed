@@ -1,0 +1,16 @@
+"entries":
+  "5964b4052668fb294651cce1cd61a7ee":
+    "id": "5964b4052668fb294651cce1cd61a7ee"
+    "title": "Amazon EC2 C9g and C9gd instances powered by AWS Graviton5 processors are now available"
+    "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available/"
+    "published": "2026-07-01 05:56:44"
+    "fetched": "2026-07-01 06:24:47"
+    "summary": "Amazon EC2 C9g and C9gd instances, powered by AWS Graviton5, are now generally available. They deliver up to 25% better compute performance than Graviton4-based instances, 5x larger cache, fastest memory of any processor instances in the cloud, and local NVMe storage options (C9gd)."
+  "e0b0bd2944b52aaceb3a5e19e80f4bfd":
+    "id": "e0b0bd2944b52aaceb3a5e19e80f4bfd"
+    "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager"
+    "link": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/"
+    "published": "2026-07-01 05:15:11"
+    "fetched": "2026-07-01 06:24:47"
+    "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance, IAM-based access controls, and domain scoping, reducing operational risk as certificate lifetimes continue to reduce."
+"last_updated": "2026-07-01 06:24:47 JST"
