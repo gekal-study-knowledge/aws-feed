@@ -13,4 +13,11 @@
     "published": "2026-07-01 05:15:11"
     "fetched": "2026-07-01 06:24:47"
     "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance, IAM-based access controls, and domain scoping, reducing operational risk as certificate lifetimes continue to reduce."
-"last_updated": "2026-07-01 06:24:47 JST"
+  "a782332b588c7b582395524bb6cbeb11":
+    "id": "a782332b588c7b582395524bb6cbeb11"
+    "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode"
+    "link": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/"
+    "published": "2026-07-01 06:30:33"
+    "fetched": "2026-07-01 08:07:27"
+    "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no additional cost."
+"last_updated": "2026-07-01 08:07:27 JST"
