@@ -41,4 +41,11 @@
     "published": "2026-06-30 17:36:31"
     "fetched": "2026-06-30 20:42:29"
     "summary": "本ブログでは、企業が規制コンプライアンスのためにコンソールアクセスを企業ネットワークに制限するユースケースを取り上げ、AWS Sign-In のリソースベースポリシーと RCP を使った実装方法を紹介します。リソース許可ステートメントの作成、コンソール認可の有効化、CloudTrail による検証、Console Private Access やデータ境界フレームワークとの統合まで詳しく説明します。"
-"last_updated": "2026-06-30 20:42:29 JST"
+  "f081c32919e44fe2afcbb604d4d63ac5":
+    "id": "f081c32919e44fe2afcbb604d4d63ac5"
+    "title": "AWS Deadline Cloud の Wait and Save サービスマネージドフリートを使ってみる"
+    "link": "https://aws.amazon.com/jp/blogs/news/jp-mne-getting-started-with-wait-and-save-service-managed-fleets-on-aws-deadline-cloud/"
+    "published": "2026-06-30 22:09:46"
+    "fetched": "2026-06-30 23:10:25"
+    "summary": "Deadline Cloud のサービス管理フリートで Wait and Save を設定し、CPU レンダリングコストを削減する方法を紹介します。"
+"last_updated": "2026-06-30 23:10:25 JST"
