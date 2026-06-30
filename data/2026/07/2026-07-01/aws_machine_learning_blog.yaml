@@ -41,4 +41,11 @@
     "published": "2026-07-01 01:26:48"
     "fetched": "2026-07-01 02:02:59"
     "summary": "In this post, you'll learn how fine-tuning Amazon Nova models using Amazon SageMaker AI addresses these specific issues by teaching the models to recognize your exact data patterns, distinguish between similar fields, and process information more efficiently—achieving up to 94.77% extraction accuracy while reducing costs 50%."
-"last_updated": "2026-07-01 02:02:59 JST"
+  "88d4bba037751a6d7b683faaf26673b3":
+    "id": "88d4bba037751a6d7b683faaf26673b3"
+    "title": "Introducing Claude Sonnet 5 on AWS: Anthropic’s most capable Sonnet model"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-on-aws-anthropics-most-capable-sonnet-model/"
+    "published": "2026-07-01 03:40:09"
+    "fetched": "2026-07-01 04:49:44"
+    "summary": "Today, we’re excited to announce the availability of Anthropic’s most advanced Sonnet model, Claude Sonnet 5, on Amazon Bedrock and Claude Platform on AWS. Claude Sonnet 5 is the first Sonnet model of Anthropic’s latest generation and represents a meaningful step forward. It delivers top-tier intelligence at Sonnet pricing for coding, agents, and everyday professional […]"
+"last_updated": "2026-07-01 04:49:44 JST"
