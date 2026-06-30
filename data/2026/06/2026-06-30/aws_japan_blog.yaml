@@ -34,4 +34,11 @@
     "published": "2026-06-30 14:18:39"
     "fetched": "2026-06-30 17:27:00"
     "summary": "AWS 認定の再認定に新たな方法が加わりました。Skill Builder 上のコースとハンズオンラボを完了することで、認定の有効期限を 1 年間延長できます。テストセンターの予約も不要で、自分のペースで取り組めます。現在は AWS Certified Solutions Architect – Associate、AWS Certified Developer – Associate、AWS Certified CloudOps Engineer – Associate、AWS Certified DevOps Engineer – Professional、AWS Certified Solutions Architect – Professional が対象で、今年後半に AWS Certified Data Engineer – Associate、 AWS Certified Security – Specialty、AWS Certified Machine Learning Engineer – Associate を含む追加の認定も対応予定です。"
-"last_updated": "2026-06-30 17:27:00 JST"
+  "32b3679c12435f64c8f9c964b59f5aa3":
+    "id": "32b3679c12435f64c8f9c964b59f5aa3"
+    "title": "AWS マネジメントコンソールへのアクセスを想定するネットワークに制限"
+    "link": "https://aws.amazon.com/jp/blogs/news/restrict-aws-management-console-access-to-expected-networks-with-sign-in-resource-based-policies-and-rcps/"
+    "published": "2026-06-30 17:36:31"
+    "fetched": "2026-06-30 20:42:29"
+    "summary": "本ブログでは、企業が規制コンプライアンスのためにコンソールアクセスを企業ネットワークに制限するユースケースを取り上げ、AWS Sign-In のリソースベースポリシーと RCP を使った実装方法を紹介します。リソース許可ステートメントの作成、コンソール認可の有効化、CloudTrail による検証、Console Private Access やデータ境界フレームワークとの統合まで詳しく説明します。"
+"last_updated": "2026-06-30 20:42:29 JST"
