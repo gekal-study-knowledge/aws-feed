@@ -6,4 +6,11 @@
     "published": "2026-07-02 00:56:26"
     "fetched": "2026-07-02 02:10:52"
     "summary": "If you manage secrets across multiple AWS accounts or need faster secret access for latency-sensitive applications, this post shows you how to meet those requirements using two new features of the AWS Workload Credentials Provider (provider). You will learn how to configure role chaining for cross-account secret retrieval and prefetching of secrets to reduce cold-start […]"
-"last_updated": "2026-07-02 02:10:52 JST"
+  "f6d9723f6c6ce76bb11b5508f24b77c3":
+    "id": "f6d9723f6c6ce76bb11b5508f24b77c3"
+    "title": "Secure Amazon container workloads using container attribute-based rules in AWS Network Firewall"
+    "link": "https://aws.amazon.com/blogs/security/secure-amazon-container-workloads-using-container-attribute-based-rules-in-aws-network-firewall/"
+    "published": "2026-07-02 04:40:22"
+    "fetched": "2026-07-02 04:48:29"
+    "summary": "Today, you can use AWS Network Firewall to protect traffic flowing to and from containerized applications on Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon Elastic Container Service (Amazon ECS) clusters. If you run AI and machine learning (ML) workloads on Amazon EKS—such as model inference, RAG pipelines, or JupyterHub—your containerized workloads require the same […]"
+"last_updated": "2026-07-02 04:48:29 JST"

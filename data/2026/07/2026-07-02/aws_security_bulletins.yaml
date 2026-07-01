@@ -1,0 +1,23 @@
+"entries":
+  "a9bb71ec32b0b45743d49a3a4ed60809":
+    "id": "a9bb71ec32b0b45743d49a3a4ed60809"
+    "title": "CVE-2026-13769 – Insecure file permissions in AWS CLI"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-049-aws/"
+    "published": "2026-07-02 03:45:24"
+    "fetched": "2026-07-02 04:48:29"
+    "summary": "<p><b>Bulletin ID:</b> 2026-049-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/01/2026 11:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS Command Line Interface (AWS CLI) is a unified tool for managing AWS services from the command line. We identified CVE-2026-13769 in AWS CLI on Unix-like systems where the umask has not been configured to restrict file permissions (the default on most systems) wrote credential and configuration files with world-readable permissions, which allows other local users on the same host to read credentials.</p> \n<p><b>Impacted versions:</b> &lt;=1.44.77 (v1) AND &lt;=2.34.28 (v2)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "cfac8aa1166726c3388fc321e94f4be7":
+    "id": "cfac8aa1166726c3388fc321e94f4be7"
+    "title": "CVE-2026-13760 - OS Command Injection in NodejsFunction Docker Bundling in aws-cdk-lib"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-050-aws/"
+    "published": "2026-07-02 04:09:41"
+    "fetched": "2026-07-02 04:48:29"
+    "summary": "<p><b>Bulletin ID:</b> 2026-050-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/01/2026 12:15 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS CDK (aws-cdk-lib) is an open-source framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation. We identified CVE-2026-13760, an OS command injection issue in the NodejsFunction Docker bundling pipeline in aws-cdk-lib before 2.260.0 that could allow an actor who controls dependency version strings in a project's package.json file to execute arbitrary commands on the host running the CDK toolchain via injected shell metacharacters in the OsCommand helper. This issue requires the actor to control the content of a package.json dependency version string that is processed during Docker-based bundling with nodeModules specified.</p> \n<p><b>Impacted versions:</b> &lt; 2.260.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "885df50924060e84d4c92e5ebe812202":
+    "id": "885df50924060e84d4c92e5ebe812202"
+    "title": "CVE-2026-14265- Deserialization of Untrusted Data in AWS Advanced JDBC Wrapper RemoteQueryCachePlugin"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-051-aws/"
+    "published": "2026-07-02 04:40:00"
+    "fetched": "2026-07-02 04:48:29"
+    "summary": "<p><b>Bulletin ID:</b> 2026-051-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/01/2026 12:45 PM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS Advanced JDBC Wrapper is an open-source JDBC driver wrapper that extends a JDBC driver to enable Amazon Aurora and AWS Cloud features such as failover handling and caching. We identified CVE-2026-14265, an issue in the RemoteQueryCachePlugin of the AWS Advanced JDBC Wrapper. When this plugin is enabled, query results read from the shared Redis/Valkey cache are deserialized without class filtering. An actor with write access to the shared cache infrastructure could insert a crafted serialized Java object that, when read by an application, results in execution of arbitrary code on the application server.</p> \n<p><b>Impacted versions:</b> &gt;=3.3.0 AND &lt;=4.0.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-07-02 04:48:29 JST"
