@@ -1,0 +1,9 @@
+"entries":
+  "6248bdff19af877f15c6f055f3f5e450":
+    "id": "6248bdff19af877f15c6f055f3f5e450"
+    "title": "How to use the AWS Workload Credentials Provider for cross-account secret retrieval and prefetching secrets"
+    "link": "https://aws.amazon.com/blogs/security/how-to-use-the-aws-workload-credentials-provider-for-cross-account-secret-retrieval-and-prefetching-secrets/"
+    "published": "2026-07-02 00:56:26"
+    "fetched": "2026-07-02 02:10:52"
+    "summary": "If you manage secrets across multiple AWS accounts or need faster secret access for latency-sensitive applications, this post shows you how to meet those requirements using two new features of the AWS Workload Credentials Provider (provider). You will learn how to configure role chaining for cross-account secret retrieval and prefetching of secrets to reduce cold-start […]"
+"last_updated": "2026-07-02 02:10:52 JST"
