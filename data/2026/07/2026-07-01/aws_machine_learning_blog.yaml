@@ -48,4 +48,11 @@
     "published": "2026-07-01 03:40:09"
     "fetched": "2026-07-01 04:49:44"
     "summary": "Today, we’re excited to announce the availability of Anthropic’s most advanced Sonnet model, Claude Sonnet 5, on Amazon Bedrock and Claude Platform on AWS. Claude Sonnet 5 is the first Sonnet model of Anthropic’s latest generation and represents a meaningful step forward. It delivers top-tier intelligence at Sonnet pricing for coding, agents, and everyday professional […]"
-"last_updated": "2026-07-01 04:49:44 JST"
+  "869a768fefadc959e1e2e2b42680d4aa":
+    "id": "869a768fefadc959e1e2e2b42680d4aa"
+    "title": "Safely Releasing Frontier Models to Customers"
+    "link": "https://aws.amazon.com/blogs/machine-learning/safely-releasing-frontier-models-to-customers/"
+    "published": "2026-07-01 12:13:19"
+    "fetched": "2026-07-01 12:27:50"
+    "summary": "It’s our goal for AWS to be the most secure place to run any workload, and in support of that we’ve been deeply investing in security across our services since&nbsp;AWS's&nbsp;inception more than two decades ago. Our AI services like Amazon Bedrock are built on this foundation and with the same focus."
+"last_updated": "2026-07-01 12:27:50 JST"
