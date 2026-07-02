@@ -1,0 +1,9 @@
+"entries":
+  "b7c405a2d17d11b850a4ad22dfdb7da6":
+    "id": "b7c405a2d17d11b850a4ad22dfdb7da6"
+    "title": "Kiro とともに医療情報システムのガイドライン遵守開発に挑む"
+    "link": "https://aws.amazon.com/jp/blogs/news/building-compliant-healthcare-systems-with-kiro/"
+    "published": "2026-07-02 12:04:03"
+    "fetched": "2026-07-02 15:38:13"
+    "summary": "医療情報システム開発で避けて通れない数多くの業界ガイドラインに対して、AI 駆動開発でどう立ち向かうか。本記事では、ガイドラインの知識を Agent Skills、開発標準を Agent Steering として Kiro に与え、必要なときに必要な分だけコンテキストを参照させながら、人間が意思決定権を持って協働する「Kiro をチームの一員に育て上げる」アプローチを紹介します。"
+"last_updated": "2026-07-02 15:38:13 JST"
