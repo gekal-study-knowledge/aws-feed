@@ -1,0 +1,16 @@
+"entries":
+  "ebba99fe519c151f6a756eb433b208bc":
+    "id": "ebba99fe519c151f6a756eb433b208bc"
+    "title": "Amazon EC2 Dedicated Hosts now support AMD SEV-SNP"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/ec2-amd-sev-snp-dedicated-hosts"
+    "published": "2026-07-03 02:00:00"
+    "fetched": "2026-07-03 04:18:37"
+    "summary": "<p>Amazon EC2 is announcing support for AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) on Dedicated Hosts, enabling customers to run their confidential computing workloads on physical servers fully dedicated to their use.<br /> <br /> Customers can allocate a Dedicated Host with SEV-SNP enabled and launch SEV-SNP instances on it. This gives customers the benefits of Dedicated Hosts for confidential computing workloads, including control over instance placement, and host affinity that allows customers to deploy instances to the same physical server over time. The physical host is provisioned with AMD security firmware during allocation, ensuring a customer’s confidential computing environment is up to date.<br /> <br /> Dedicated Host SEV-SNP is available in all AWS commercial Regions with AMD instances. To learn more, visit our <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/sev-snp.html\">documentation</a>.</p>"
+  "e5927778ba65d83bda10611c4d03cdfc":
+    "id": "e5927778ba65d83bda10611c4d03cdfc"
+    "title": "AWS Config now supports 8 new resource types"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-config-new-resource-types"
+    "published": "2026-07-03 00:00:00"
+    "fetched": "2026-07-03 04:18:37"
+    "summary": "<p>AWS Config now supports 8 additional AWS resource types across key services including Amazon API Gateway, Amazon EC2, and Amazon S3 Vectors. This expansion provides greater coverage over your AWS environment, enabling you to more effectively discover, assess, audit, and remediate an even broader range of resources.</p> \n<p>With this launch, if you have enabled recording for all resource types, then AWS Config will automatically track these new additions. The newly supported resource types are also available in Config rules and Config aggregators.</p> \n<p>You can now use AWS Config to monitor the following newly supported resource types in all <a href=\"https://docs.aws.amazon.com/config/latest/developerguide/what-is-resource-config-coverage.html\" target=\"_blank\">AWS Regions</a> where the resources are available:</p> \n<p>Resource Types:</p> \n<ul> \n <li>AWS::ApiGateway::DomainNameV2</li> \n <li>AWS::ApiGatewayV2::VpcLink</li> \n <li>AWS::EC2::VPCEncryptionControl</li> \n <li>AWS::NetworkFirewall::ContainerAssociation</li> \n <li>AWS::OpenSearchServerless::SecurityPolicy</li> \n <li>AWS::OSIS::Pipeline</li> \n <li>AWS::S3Vectors::VectorBucket</li> \n <li>AWS::S3Vectors::VectorBucketPolicy</li> \n</ul>"
+"last_updated": "2026-07-03 04:18:37 JST"

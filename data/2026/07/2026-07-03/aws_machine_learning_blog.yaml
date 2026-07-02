@@ -1,0 +1,16 @@
+"entries":
+  "fc5c6e777aff46fabbe532e3b024a4dc":
+    "id": "fc5c6e777aff46fabbe532e3b024a4dc"
+    "title": "How Amazon Bedrock catches AI-generated phishing"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-amazon-bedrock-catches-ai-generated-phishing/"
+    "published": "2026-07-03 02:55:41"
+    "fetched": "2026-07-03 04:18:39"
+    "summary": "Social engineering through phishing remains one of the most common tactics for launching cyberattacks. AI-generated phishing email messages now pose a new challenge for security teams managing email systems, significantly raising the risk because of their advanced sophistication. Modern social engineers use generative AI and open source intelligence (OSINT) to craft thousands of unique messages […]"
+  "5e9629dfd83e2cbf1dbc90de39d26e3c":
+    "id": "5e9629dfd83e2cbf1dbc90de39d26e3c"
+    "title": "Best practices for multi-turn reinforcement learning in Amazon SageMaker AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/"
+    "published": "2026-07-03 02:50:23"
+    "fetched": "2026-07-03 04:18:39"
+    "summary": "In this post, we share best practices for reliable multi-turn RL training. We cover how to build a training environment you can trust, set up an external evaluation, design a reward aligned with the end task, manage what changes once the agent runs for multiple turns, and monitor the metrics that tell you when to iterate."
+"last_updated": "2026-07-03 04:18:39 JST"
