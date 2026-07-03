@@ -1,0 +1,16 @@
+"entries":
+  "9f3285d6266860997b8b5ca83281a0de":
+    "id": "9f3285d6266860997b8b5ca83281a0de"
+    "title": "Kubernetes バージョンロールバックを使用して Amazon EKS クラスターを安心してアップグレード"
+    "link": "https://aws.amazon.com/jp/blogs/news/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/"
+    "published": "2026-07-03 09:41:16"
+    "fetched": "2026-07-03 11:36:10"
+    "summary": "Kubernetes コントロールプレーンのアップグレードは、長い間、一度行うと元に戻せないものでした。オープ […]"
+  "e1b47b8525b9b4ded60b4a9d2c20a74e":
+    "id": "e1b47b8525b9b4ded60b4a9d2c20a74e"
+    "title": "AWS CloudFormation Express モードを使用してインフラストラクチャのデプロイを最大 4 倍高速化"
+    "link": "https://aws.amazon.com/jp/blogs/news/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/"
+    "published": "2026-07-03 09:00:53"
+    "fetched": "2026-07-03 11:36:10"
+    "summary": "2026 年 6 月 30 日、AWS CloudFormation Express モードについてお知らせし […]"
+"last_updated": "2026-07-03 11:36:10 JST"
