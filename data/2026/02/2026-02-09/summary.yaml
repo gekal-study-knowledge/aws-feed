@@ -1,0 +1,14 @@
+"date": "2026-02-09"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 5
+"sources":
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はWeekly Roundupを中心に、コンピュート、データベース、AIにまたがる発表が並んだ。AI分野ではAnthropicのClaude Opus 4.6がAmazon Bedrockで利用可能になり、構造化出力への対応も加わった。コンピュートではIntel Xeon 6搭載のC8id/M8id/R8idインスタンスやGraviton4搭載のC8gnインスタンスがリージョン拡大した。データベースではAmazon Neptune Analyticsが7つの新リージョンで利用可能となり、Amazon Redshiftが自動最適化向けの追加コンピュート割り当てをサポートした。またAWS HealthOmicsはバイオインフォマティクスワークフロー開発向けのKiro Power/Kiro IDE拡張を導入した。
+"topics":
+  - "生成AI: Claude Opus 4.6がBedrockで提供開始、構造化出力にも対応"
+  - "コンピュート: Xeon 6搭載C8id/M8id/R8idおよびGraviton4搭載C8gnがリージョン拡大"
+  - "データベース/分析: Neptune Analyticsが7新リージョンへ、Redshiftが自動最適化向け追加コンピュートを提供"
+  - "開発者向け: HealthOmicsがKiro Power/IDE拡張を導入"

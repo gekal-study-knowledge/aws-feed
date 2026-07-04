@@ -1,0 +1,17 @@
+"date": "2026-04-17"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 17
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI・機械学習インフラの強化が中心でした。SageMaker JumpStart が Meta・Microsoft・Mistral など 30 以上のモデルを対象に最適化デプロイに対応し、SageMaker HyperPod は複数インスタンスタイプ/サブネットを扱える柔軟なインスタンスグループとオンデマンドのディープヘルスチェックを追加。AWS Neuron SDK 2.29.0 では NKI と Neuron Explorer が正式版となり、CPU シミュレータも導入されました。機械学習ブログでは Nova Forge SDK でのファインチューニング、Nova モデル蒸留による動画セマンティック検索、Amazon Bedrock の詳細なコスト配分などが紹介されました。その他、Deadline Cloud の AI トラブルシューティング支援、Amazon Managed Grafana 12.4、EC2 High Memory U7i のシンガポール提供、ECR プルスルーキャッシュの referrer 同期も発表。セキュリティ面では OCSF 形式への ETL 変換手法と、Amazon EFS CSI Driver の脆弱性 CVE-2026-6437 の注意喚起が公開されました。
+"topics":
+  - "生成 AI/ML インフラ: SageMaker JumpStart 最適化デプロイ、HyperPod 柔軟インスタンスグループとディープヘルスチェック"
+  - "AWS Neuron SDK 2.29.0: NKI と Neuron Explorer が正式版化、CPU シミュレータ追加"
+  - "Amazon Bedrock/Nova: 詳細コスト配分、Nova モデル蒸留による動画セマンティック検索"
+  - "運用・コンテナ: Deadline Cloud の AI 支援、Managed Grafana 12.4、ECR referrer 同期"
+  - "セキュリティ: OCSF ETL 変換、EFS CSI Driver の脆弱性 CVE-2026-6437"

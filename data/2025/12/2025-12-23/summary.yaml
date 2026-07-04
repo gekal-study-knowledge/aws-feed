@@ -1,0 +1,14 @@
+"date": "2025-12-23"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 11
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日は新機能発表が中心で、生成 AI モデルの追加、データベースのリージョン/バージョン拡張、WorkSpaces Secure Browser の機能強化が目立ちました。AI では NVIDIA Nemotron 3 Nano (256k トークンコンテキスト、Project Mantle 上で提供) が Amazon Bedrock に、効率的な MoE モデル MiniMax-M2 が SageMaker JumpStart に追加されました。データベースでは Oracle Database@AWS がオハイオ・フランクフルト・東京の 3 リージョンに拡張、RDS for MySQL がプレビュー環境で Innovation Release 9.5 に対応、MSK がニュージーランドに拡張、Redshift が データシェア上のマテリアライズドビューに 4 つの新機能を追加。WorkSpaces Secure Browser は WebAuthn リダイレクトとブランディングカスタマイズに対応しました。その他、Secrets Manager のソート機能強化、AWS Transform のハイブリッドデータセンター向けネットワーク変換、AWS End User Messaging SMS の生成 AI 登録レビュアー (プレビュー) が公開されています。
+"topics":
+  - "生成 AI: NVIDIA Nemotron 3 Nano が Bedrock (Project Mantle 上)、MiniMax-M2 が SageMaker JumpStart に追加"
+  - "データベース: Oracle Database@AWS が 3 リージョン拡張、RDS for MySQL 9.5 プレビュー、MSK がニュージーランド対応、Redshift の MV 新機能"
+  - "エンドユーザー: WorkSpaces Secure Browser が WebAuthn リダイレクトとブランディングカスタマイズに対応"
+  - "移行/運用: AWS Transform のハイブリッドデータセンター向けネットワーク変換、Secrets Manager のソート機能強化"
+  - "メッセージング: AWS End User Messaging SMS の生成 AI 登録レビュアー (プレビュー)"

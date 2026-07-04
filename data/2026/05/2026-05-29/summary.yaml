@@ -1,0 +1,26 @@
+"date": "2026-05-29"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 32
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は次世代 Amazon OpenSearch Serverless の一般提供開始と Claude Opus 4.8 の AWS 提供が大きな話題でした。
+  次世代 OpenSearch Serverless はエージェント向けにゼロから再構築され、オートスケーリングが最大 20 倍高速化、
+  スケールトゥーゼロとピーク比最大 60% のコスト削減を実現します。Anthropic の Claude Opus 4.8 が Amazon Bedrock
+  および Claude Platform on AWS で利用可能となりました。次世代 AWS Resilience Hub も GA となり、生成 AI による
+  障害モード分析や依存関係探索を提供。What's New では AWS Organizations の CloudTrail イベント、Oracle Database@AWS
+  の 20 リージョン展開、S3 Tables のリージョン拡大、AWS IoT Core の MQTT 接続管理 API などが登場。日本語ブログでは
+  Kiro アンバサダープログラムや AWS 初学者向け学習 7 ステップ、機械学習ブログでは AgentCore のデータセット管理や
+  LangSmith での評価が紹介されました。
+"topics":
+  - "次世代 Amazon OpenSearch Serverless: エージェント向け GA、20 倍高速スケール・最大 60% コスト削減"
+  - "Claude Opus 4.8: Amazon Bedrock と Claude Platform on AWS で提供開始"
+  - "次世代 AWS Resilience Hub: 生成 AI による障害モード分析と依存関係探索を GA"
+  - "Oracle Database@AWS: 8 リージョン追加で計 20 リージョンに拡大"
+  - "AWS Organizations: アカウント参加/離脱の CloudTrail イベント発行"
+  - "セキュリティ: Network Firewall の URL/ドメインカテゴリフィルタと Transit Gateway ネイティブ接続"

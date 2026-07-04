@@ -1,0 +1,14 @@
+"date": "2026-06-08"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 7
+"sources":
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は日本語ブログによる週次まとめと生成AI関連の話題が目立ちました。「週刊生成AI with AWS」では、OpenAI の GPT-5.5・GPT-5.4・Codex が Amazon Bedrock で一般提供を開始したことが注目点として取り上げられ、新コンソールや CloudWatch メトリクスなど Bedrock 周りの強化も紹介されました。「週刊AWS」では Bedrock AgentCore Identity の Secrets Manager 対応、Cognito のマルチリージョンレプリケーション、Step Functions の AgentCore 連携など幅広いアップデートを網羅。技術記事では SageMaker AI エンドポイントのキャパシティ対応推論による自動インスタンスフォールバックや、Bedrock AgentCore でのマルチテナントエージェント構築が解説されました。新機能としては OpenSearch Serverless の自然言語検索 Agentic Search、AWS Transform での RDS for SQL Server 移行コスト評価が発表されました。
+"topics":
+  - "生成AI週次まとめ: Bedrock での OpenAI GPT-5 系および Codex 一般提供"
+  - "SageMaker AI: キャパシティ対応推論による自動インスタンスフォールバック"
+  - "Bedrock AgentCore: マルチテナントエージェントの設計手法"
+  - "新機能: OpenSearch Serverless の Agentic Search、AWS Transform の RDS SQL Server コスト評価"

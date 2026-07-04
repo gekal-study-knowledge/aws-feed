@@ -1,0 +1,15 @@
+"date": "2025-12-02"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 14
+"sources":
+  - "aws_news_blog"
+"overview": |
+  re:Invent 2025 の発表ラッシュを反映し、この日は AI・ストレージ・データベースを中心に多数の新機能が公開されました。ストレージでは Amazon S3 Tables にレプリケーションと Intelligent-Tiering が追加され、S3 Vectors が最大 10 億ベクトル対応で一般提供、S3 Storage Lens にパフォーマンスメトリクスと数十億プレフィックス対応が加わりました。AI 領域では Bedrock AgentCore に品質評価とポリシー制御、Bedrock に Mistral Large 3 など 18 のオープンウェイトモデル、SageMaker AI にサーバーレス MLflow が登場。データベースでは Database Savings Plans の新料金モデル、RDS for SQL Server / Oracle の機能拡張が発表されました。コンピュートでは AWS Lambda durable functions、メモリ最適化の EC2 X8aedz インスタンス、運用面では AWS DevOps Agent (プレビュー)、CloudWatch の統合データ管理・分析、AI 対応の新 Support プランが公開されています。
+"topics":
+  - "ストレージ: S3 Tables にレプリケーション/Intelligent-Tiering、S3 Vectors が最大 10 億ベクトルで GA、S3 Storage Lens 強化"
+  - "生成 AI: Bedrock AgentCore に品質評価・ポリシー制御、Bedrock に Mistral Large 3 含む 18 のオープンウェイトモデル追加"
+  - "AI 開発基盤: SageMaker AI のサーバーレス MLflow、OpenSearch Service のベクトル DB を GPU アクセラレーションで高速化"
+  - "コンピュート: AWS Lambda durable functions で最長 1 年の多段ワークフロー、EC2 X8aedz メモリ最適化インスタンス"
+  - "データベース/コスト: Database Savings Plans、RDS for SQL Server/Oracle 機能拡張、AI 対応 Support プラン"
+  - "運用: AWS DevOps Agent プレビュー、CloudWatch の統合データ管理・分析 (OCSF/Iceberg 対応)"

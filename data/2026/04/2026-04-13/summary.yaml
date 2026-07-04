@@ -1,0 +1,17 @@
+"date": "2026-04-13"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 21
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はネットワーク接続の大型発表と、AI 駆動開発・週次まとめが中心でした。最大の目玉は AWS Interconnect の一般提供で、他クラウドと VPC を直結する Interconnect - multicloud (Google Cloud が最初のパートナー、Azure は 2026 年後半予定) と、支社やデータセンターを簡単に AWS へ接続する Interconnect - last mile (米国で Lumen と連携) が登場しました。コンピュートでは EC2 M8i/M8i-flex と R8i/R8i-flex が GovCloud (US-West) に追加、SageMaker JumpStart に NVIDIA Nemotron-3-Super-120B と Qwen3.5-9B/27B が追加されました。データベースでは Aurora DSQL の PHP コネクタと Redshift の Top-K クエリ最適化が紹介されました。運用面では CloudWatch Logs Insights のパラメータ付き保存クエリ、AWS IoT のテルアビブ/ミラノ展開、Elastic Disaster Recovery の IPv6 対応、FSx のオプトインリージョン間バックアップコピー、OpenSearch Serverless の Derived Source、Amazon Quick の Google Drive ドキュメントレベル ACL などが発表されました。国内では週刊 AWS/週刊生成 AI、ブラザー工業の AI-DLC 体験記、荏原製作所の社内クラウドイベントレポートなどが公開されました。
+"topics":
+  - "ネットワーク: AWS Interconnect GA (multicloud で Google Cloud 対応、last mile で Lumen 連携による簡易接続)"
+  - "コンピュート/ML: EC2 M8i・R8i が GovCloud 追加、SageMaker JumpStart に Nemotron-3-Super-120B・Qwen3.5 追加"
+  - "データベース: Aurora DSQL の PHP コネクタ、Redshift の Top-K クエリ最適化"
+  - "運用/可観測性: CloudWatch Logs Insights のパラメータ付き保存クエリ、AWS IoT のテルアビブ/ミラノ展開、DRS の IPv6 対応"
+  - "国内・AI駆動開発: 週刊 AWS/週刊生成 AI、ブラザー工業の AI-DLC 体験記、荏原製作所の社内クラウドイベント"

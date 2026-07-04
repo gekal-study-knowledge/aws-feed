@@ -1,0 +1,14 @@
+"date": "2026-03-11"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 12
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日は EC2 インスタンスのリージョン拡充と Amazon Connect の機能追加が数多く発表されました。コンピュート系では Graviton3/4 搭載の C8gd・M8gd・R7gd がサンパウロやアイルランド、Intel Xeon 6 の C8id がスペイン、SAP HANA など向けの High Memory U7i (8TB/12TB) がハイデラバード・スペインに展開されました。Amazon Connect では評価スコアカードから直接コーチングプランを作成できる統合ワークフロー、送信元メールアドレスの選択、ケースデータの分析データレイク連携が追加され、Athena や QuickSight でのレポート作成が容易になりました。データベースでは Amazon Neptune がハイデラバードに提供開始となり、ISO 13249-3 準拠の 11 種類の空間関数によるネイティブ空間データ対応も追加されました。運用面では CloudWatch Database Insights のオンデマンド分析が GovCloud に拡大、AWS Backup の RDS Multi-AZ クラスターが 17 リージョンへ、AWS Firewall Manager がニュージーランドで利用可能になりました。
+"topics":
+  - "コンピュート拡充: EC2 C8gd / M8gd / R7gd (Graviton)、C8id (Intel Xeon 6)、High Memory U7i の追加リージョン展開"
+  - "コンタクトセンター: Amazon Connect の統合コーチングワークフロー、送信元メール選択、ケースデータの分析データレイク連携"
+  - "データベース: Amazon Neptune がハイデラバードで提供開始、ISO 13249-3 準拠のネイティブ空間データ対応を追加"
+  - "運用・保護: CloudWatch Database Insights オンデマンド分析の GovCloud 対応、AWS Backup RDS Multi-AZ を 17 リージョンへ拡大"
+  - "セキュリティ: AWS Firewall Manager がアジアパシフィック (ニュージーランド) リージョンで利用可能に"

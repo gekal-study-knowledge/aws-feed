@@ -1,0 +1,16 @@
+"date": "2026-03-02"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 6
+"sources":
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は AI エージェントのガバナンスとセキュリティ、そして運用管理の拡充が中心でした。AWS Weekly Roundup では OpenAI とのパートナーシップ、AWS Elemental Inference、Strands Labs などが取り上げられました。セキュリティブログでは、AI エージェントが既存の IAM 権限を用いてマネージド AWS MCP サーバーと連携する際の IAM の仕組みが解説されました。基盤サービスでは、AWS Config が Amazon Bedrock AgentCore や Amazon Cognito を含む 30 の新しいリソースタイプに対応し、環境の可視性が向上しました。AWS Batch は 20 分から 1 週間まで設定可能なスケールダウン遅延に対応し、断続的ワークロードのジョブ処理遅延を削減します。Amazon OpenSearch Service の OR2・OM2 インスタンスが AWS GovCloud (US-East, US-West) に拡大しました。セキュリティ情報として、暗号ライブラリ AWS-LC に関する 3 件の脆弱性 (CVE-2026-3336/3337/3338) が公表されました。
+"topics":
+  - "AI エージェント連携: マネージド AWS MCP サーバーの IAM 権限モデル、OpenAI パートナーシップや Strands Labs の週次まとめ"
+  - "運用管理拡充: AWS Config が Bedrock AgentCore・Cognito など 30 の新リソースタイプに対応、AWS Batch の設定可能なスケールダウン遅延"
+  - "インフラ拡大: Amazon OpenSearch OR2・OM2 インスタンスが AWS GovCloud (US-East, US-West) で利用可能に"
+  - "セキュリティ情報: 暗号ライブラリ AWS-LC の 3 件の脆弱性 (CVE-2026-3336/3337/3338) を公表"

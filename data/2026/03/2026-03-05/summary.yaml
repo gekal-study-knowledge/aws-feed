@@ -1,0 +1,16 @@
+"date": "2026-03-05"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 13
+"sources":
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はヘルスケア向けエージェント AI と開発生産性、コスト最適化が中心でした。Amazon Connect Health が一般提供となり、患者確認やアンビエントドキュメンテーションなど 5 つの AI エージェントで医療現場の事務負担を軽減します。AWS HealthLake は CCDA から FHIR への自動変換を行うデータ変換エージェント (プレビュー) を発表しました。開発面では Lambda durable functions の Kiro power、AWS Elastic Beanstalk の Amazon Bedrock を用いた AI 環境分析、SageMaker Unified Studio のライトモード対応が加わりました。コスト最適化では Database Savings Plans が Amazon OpenSearch Service と Amazon Neptune Analytics に対応しました。セキュリティ・運用面では Multi-party approval の承認チームベースライニング、AWS Shield network security director の Security Hub 連携が発表されました。基盤系では OpenSearch Service の容量最適化ブルー/グリーンデプロイ、EC2 I8ge のアイルランド展開、Redshift Serverless のリストア時 datashare 権限保持が加わり、コンプライアンスでは ISO/CSA STAR と Dubai DESC の認証取得が報告されました。
+"topics":
+  - "ヘルスケア AI: Amazon Connect Health が 5 つの AI エージェントで GA、AWS HealthLake の CCDA-to-FHIR データ変換エージェント (プレビュー)"
+  - "開発生産性: Lambda durable functions の Kiro power、Elastic Beanstalk の Bedrock ベース AI 環境分析、SageMaker Unified Studio ライトモード"
+  - "コスト最適化: Database Savings Plans が OpenSearch Service・Neptune Analytics に対応"
+  - "セキュリティ・運用: Multi-party approval のチームベースライニング、Shield network security director の Security Hub 連携"
+  - "インフラ拡充: OpenSearch の容量最適化ブルー/グリーンデプロイ、EC2 I8ge のアイルランド展開、Redshift Serverless の datashare 権限保持"
+  - "コンプライアンス: 2025 年 ISO/CSA STAR 認証の更新、Dubai DESC 認証監査の完了"

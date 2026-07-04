@@ -1,0 +1,19 @@
+"date": "2026-06-04"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 26
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  エージェント型 AI とレジリエンス、SageMaker 関連の更新が中心の日でした。AWS Step Functions は AgentCore を活用したエージェント推論ステップを追加し、SageMaker AI は AI エージェントのモデルカスタマイズ向けマルチターン強化学習を提供開始しました。SFT/DPO によるツール呼び出し精度向上や、Bedrock 上での自律運用構築、モデルクォータ申請と運用課題トリアージの自動化も紹介されました。Amazon Cognito のマルチリージョンレプリケーションによるアプリの回復力向上が News Blog で取り上げられ、ARC Region switch は Amazon Aurora のスケーリングと Amazon Neptune グローバルデータベースのフェイルオーバーに対応しました。Amazon Bedrock は OpenAI/Anthropic 互換 API 向けに再設計されたコンソールを公開し、GPT-5.4 は GovCloud (US-West) で一般提供となりました。その他 SageMaker Unified Studio の 12 言語対応やノートブックスケジューリング、ECS Managed Instances の Trainium/Inferentia 対応、Amazon MQ の欧州ソブリンクラウド（ドイツ）提供などが発表されました。日本語ブログは KMS/暗号化やオブザーバビリティのまとめ、ランサムウェア対策セミナー報告を扱いました。
+"topics":
+  - "エージェントAI: Step Functions の AgentCore 推論ステップ、SageMaker のマルチターン強化学習、SFT/DPO"
+  - "レジリエンス: Cognito マルチリージョンレプリケーション、ARC Region switch の Aurora/Neptune 対応"
+  - "生成AIモデル/コンソール: Bedrock の互換 API 向け新コンソール、GPT-5.4 の GovCloud 一般提供"
+  - "SageMaker/コンピュート: Unified Studio の 12 言語対応、ECS Managed Instances の Trainium/Inferentia"
+  - "地域展開: Amazon MQ が欧州ソブリンクラウド（ドイツ）で提供開始"
+  - "日本語ブログ: KMS/暗号化、オブザーバビリティまとめ、ランサムウェア対策セミナー報告"

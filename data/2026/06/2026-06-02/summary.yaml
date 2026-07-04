@@ -1,0 +1,21 @@
+"date": "2026-06-02"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 40
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  記事数の多い日で、エージェント型 AI と Amazon Bedrock AgentCore が最大のテーマでした。AgentCore Payments によるガードレール付き決済、AgentCore を大規模運用する AgentOps、AgentCore Gateway の MCP サポート拡張、Policy/Lambda インターセプターによるエージェント保護、Identity での AWS Secrets Manager シークレット参照などが公開されました。同日 What's New でも AgentCore Identity の独自シークレット持ち込みが発表されています。OpenAI モデルと Codex の Bedrock 一般提供に関する導入ブログも登場しました。基盤サービスでは Amazon EC2 M8i/M8i-flex（ニュージーランド）や M8azn（アイルランド）の提供拡大、SageMaker HyperPod の EFA 専用ネットワークインターフェイス対応、Amazon Location Service の公共交通・複合経路案内、AWS Direct Connect の VIF レートリミッターなど幅広い更新がありました。日本語ブログは AWS Summit Japan/Tokyo 2026 の Database セッション紹介や AI-DLC の取り組みを扱い、セキュリティでは Spring 2026 の SOC 1/2/3 レポート（188 サービス対象）が公開されました。
+"topics":
+  - "エージェントAI/AgentCore: Payments・AgentOps・Gateway の MCP 拡張・インターセプター・Identity 連携"
+  - "生成AIモデル: OpenAI モデルと Codex の Amazon Bedrock 一般提供の導入解説"
+  - "コンピュート/インフラ: EC2 M8i・M8azn の地域拡大、SageMaker HyperPod の EFA 専用 NIC 対応"
+  - "ネットワーク/サービス: Amazon Location の公共交通ルーティング、Direct Connect VIF レートリミッター"
+  - "コンプライアンス: Spring 2026 SOC 1/2/3 レポート（188 サービス対象）公開"
+  - "日本語コミュニティ: AWS Summit Japan/Tokyo 2026 の Database セッションと AI-DLC の取り組み"

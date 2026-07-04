@@ -1,0 +1,12 @@
+"date": "2025-12-16"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 2
+"sources":
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティブログと新機能発表が各 1 件でした。セキュリティブログでは、Amazon GuardDuty Extended Threat Detection が Amazon EC2 と Amazon ECS を標的とする進行中の暗号通貨マイニングキャンペーンを検出したことが報告されました。この攻撃は 2025 年 11 月 2 日に始まり、侵害された IAM 認証情報を利用しており、GuardDuty が複数のシグナルを相関させて脅威を特定した事例です。新機能発表では、AWS IoT Device Management Commands が動的ペイロードに対応し、プレースホルダーを含む再利用可能なコマンドテンプレートの作成やパラメータ検証ルールが可能になりました。サーモスタットの温度設定など、異なる値で類似コマンドを送る IoT シナリオに有用です。
+"topics":
+  - "脅威検出: GuardDuty Extended Threat Detection が EC2/ECS 標的の暗号マイニングキャンペーンを検出 (侵害 IAM 認証情報を悪用)"
+  - "IoT: AWS IoT Device Management Commands が動的ペイロード対応、再利用可能なコマンドテンプレートとパラメータ検証を提供"

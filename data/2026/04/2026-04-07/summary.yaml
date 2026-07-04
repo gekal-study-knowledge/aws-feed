@@ -1,0 +1,19 @@
+"date": "2026-04-07"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 23
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日の最大の目玉は Amazon S3 Files で、S3 バケットを約 1ms の低レイテンシで高性能ファイルシステムとしてアクセス可能にし、データ複製なしでファイルベースアプリケーションや AI エージェントから直接利用できる機能が 34 リージョンで一般提供開始されました。セキュリティ/AI 分野では Anthropic の最先端モデル Claude Mythos Preview がゲート付きリサーチプレビューとして Bedrock で提供開始 (サイバーセキュリティ・コーディング・複雑な推論に特化)、AWS Security Agent のオンデマンドペネトレーションテストが GA となりました。AWS Cost Explorer には Amazon Q による自然言語クエリが追加され、Bedrock Projects でのコスト管理も可能になりました。データベース関連では RDS for Oracle の M8i/R8i インスタンス対応、Aurora PostgreSQL の新マイナーバージョン、AWA 株式会社の DocumentDB 移行によるコスト約 50% 削減事例が紹介されました。その他 Lambda レスポンスストリーミングの全リージョン展開、Transfer Family の IPv6 対応、Braket への Rigetti 108 量子ビット QPU 追加、Nova 2 Sonic によるリアルタイム会話型ポッドキャストなども発表されました。
+"topics":
+  - "ストレージ: Amazon S3 Files による S3 バケットのファイルシステムアクセス (約 1ms、34 リージョン GA)"
+  - "AI/セキュリティ: Claude Mythos Preview の Bedrock 提供 (サイバーセキュリティ特化)、AWS Security Agent オンデマンドペネトレーションテスト GA、AI 防御のスケール化"
+  - "コスト管理: Cost Explorer の Amazon Q 自然言語クエリ、Bedrock Projects によるコスト按分・分析"
+  - "データベース: RDS for Oracle の M8i/R8i 対応、Aurora PostgreSQL 新マイナーバージョン、AWA 株式会社の DocumentDB 移行コスト約 50% 削減事例"
+  - "生成 AI 活用: Nova 2 Sonic のリアルタイム会話型ポッドキャスト、Bedrock による Text-to-SQL、Bedrock/OpenSearch のハイブリッド RAG"
+  - "基盤/その他: Lambda レスポンスストリーミングの全リージョン展開、Transfer Family の IPv6 対応、Braket への Rigetti 108 量子ビット QPU 追加"

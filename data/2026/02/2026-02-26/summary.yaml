@@ -1,0 +1,16 @@
+"date": "2026-02-26"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 18
+"sources":
+  - "aws_architecture_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  セキュリティと生成AI、運用可観測性を中心に幅広い発表があった。AWS Security Hub Extendedが一般提供され、AWS検知サービスとキュレーションされたパートナーソリューションを単一ベンダー体験・従量課金で統合できるようになった。関連してAWS Security Agentのマルチエージェント型自動ペネトレーションテストの内部構造や、ISO 42001:2023のサーベイランス監査を指摘事項なしで完了したことも共有された。生成AIではAmazon BedrockがOpenAI互換のProjects APIをMantleエンジンで提供開始した。開発/運用ではLambda Durable Execution SDK for Java (開発者プレビュー)、SageMaker HyperPodのAPI駆動Slurm設定、CloudWatch Observability EKSアドオンでのApplication Signalsデフォルト有効化、RDS for PostgreSQL向けロック競合診断が登場。ほかにCognitoのクライアントシークレットローテーション、ECS Managed InstancesのEC2キャパシティ予約統合、M8i/I8gの拡張なども発表された。
+"topics":
+  - "セキュリティ: Security Hub Extended GA、Security Agentのマルチエージェント構成、ISO 42001監査完了"
+  - "生成AI/ML: BedrockのOpenAI互換Projects API、SageMaker HyperPodのAPI駆動Slurm設定"
+  - "可観測性/運用: EKSアドオンでのApplication Signalsデフォルト化、RDS PostgreSQLロック競合診断、Lambda Durable Execution SDK for Java"
+  - "コンピュート/ID: M8i追加リージョン・I8g.metal-48xl、ECS Managed InstancesのEC2予約統合、Cognitoシークレット管理強化"

@@ -1,0 +1,17 @@
+"date": "2026-01-20"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 17
+"sources":
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はGPUコンピューティングとデータベース、分析サービスの更新が目立った。NVIDIA RTX PRO 6000 Blackwell Server Edition GPUを搭載したAmazon EC2 G7eインスタンスが一般提供を開始し、G6e比で最大2.3倍の推論性能を実現する。データベースではAmazon RDS Blue/Green Deploymentsが切り替えダウンタイムを5秒以下に短縮し、RDS for OracleがベアメタルインスタンスでStandard Edition 2をサポート、Aurora/RDSがr8g・r7g・r7iインスタンスを追加リージョンに拡大した。分析ではAmazon Quick SightがテーブルとピボットテーブルのダッシュボードカスタマイズやSPICEデータセットの拡張(最大2TB)を発表。Amazon ECRはクロスリポジトリのレイヤー共有に対応した。セキュリティ面では185サービスを対象とするFall 2025 SOC 1/2/3レポートが公開された。
+"topics":
+  - "Amazon EC2 G7e: NVIDIA Blackwell GPU搭載インスタンスの一般提供開始"
+  - "データベース: RDS Blue/Greenの高速切替、Oracleベアメタル、Aurora/RDSのインスタンス拡大"
+  - "分析: Quick SuiteのダッシュボードカスタマイズとSPICE拡張"
+  - "コンテナ/ストレージ: Amazon ECRのクロスリポジトリレイヤー共有"
+  - "コンプライアンス: Fall 2025 SOC 1/2/3レポート(185サービス)公開"
+  - "AWS Weekly Roundup: Kiro CLIや欧州ソブリンクラウドなどの週次まとめ"

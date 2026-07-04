@@ -1,0 +1,28 @@
+"date": "2026-05-15"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 35
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は多数の発表が集中しました。Amazon BedrockがAdvanced Prompt Optimization（プロンプト最適化・移行
+  ツール）を導入し、最大5モデルを同時比較しながらプロンプトを最適化・移行できるようになりました。SageMaker
+  JumpStartには画像生成・埋め込み（FLUX.2、Qwen3-Embedding）、音声認識・合成（Qwen3-TTS/ASR）、エージェント
+  コーディング（GLM-5.1、Phi-4-mini）など多数の新モデルが追加され、SageMaker AIはQwen3.6のサーバーレス
+  カスタマイズにも対応。AWS TransformはKiro・Claude・Cursor・Codexからの利用、Visual Studio向けAIアシスタント、
+  エージェントビルダーツールキットなどエージェント連携を大幅強化しました。インフラではEC2 M3 Ultra Mac
+  インスタンスの一般提供、Aurora DSQLのCDCプレビュー、CloudFormationのクロスアカウント参照（Fn::GetStackOutput）、
+  RDS for PostgreSQLの新マイナーバージョンなどが登場。セキュリティ速報ではSageMaker Python SDKの2件の脆弱性
+  （CVE-2026-8596/8597）が公表されました。日本語ではアスクルのValkey移行やContainer Platform Meetupも紹介。
+"topics":
+  - "Amazon Bedrock: Advanced Prompt Optimizationと移行ツールを導入"
+  - "SageMaker JumpStart/AI: 画像・音声・埋め込み・コーディング系新モデルを多数追加"
+  - "AWS Transform: Kiro/Claude/Cursor/Codec連携やVisual Studio向けAIアシスタント"
+  - "EC2 M3 Ultra Mac: 一般提供開始、Aurora DSQL CDCプレビュー"
+  - "CloudFormation: クロスアカウント参照 Fn::GetStackOutput、CloudFront mTLS拡張"
+  - "セキュリティ速報: SageMaker Python SDKの脆弱性(CVE-2026-8596/8597)"

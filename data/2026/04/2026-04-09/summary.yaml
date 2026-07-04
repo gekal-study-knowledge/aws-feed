@@ -1,0 +1,16 @@
+"date": "2026-04-09"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 19
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は AI セキュリティとエージェント管理が大きなテーマでした。AWS は Anthropic と共同で取り組む Project Glasswing や Claude Mythos Preview、自律型ペネトレーションテストを行う AWS Security Agent の一般提供、Bedrock の自動推論によるハルシネーション防止など、AI を活用した大規模セキュリティ防御を紹介しました。エージェント基盤では、組織横断でエージェントやツール、MCP サーバーを発見・共有できる AWS Agent Registry がプレビュー公開され、AgentCore Runtime のステートフル MCP クライアント機能、React アプリへのライブ AI ブラウザエージェント埋め込み、Bedrock モデルライフサイクル管理も解説されました。基盤・運用面では OpenSearch が Managed Prometheus とエージェントトレーシングに対応、RDS Blue/Green Deployments が RDS Proxy をサポート、Bedrock が IAM プリンシパル単位のコスト配分に対応、EC2 Capacity Manager のタグベースディメンション、AWS Marketplace の Discovery API、Private CA のカスタム管理権限などが発表されました。ECS マネージドインスタンスのマネージドデーモン対応や Bedrock Guardrails のクロスアカウント保護も追加されました。
+"topics":
+  - "AI セキュリティ: Project Glasswing / Claude Mythos Preview、AWS Security Agent GA、Bedrock 自動推論によるハルシネーション防止"
+  - "エージェント管理: AWS Agent Registry プレビュー、AgentCore Runtime のステートフル MCP、React 埋め込み型 AI ブラウザエージェント"
+  - "可観測性: OpenSearch の Managed Prometheus 統合とエージェントトレーシング、統合オブザーバビリティ"
+  - "データベース/コスト: RDS Blue/Green が RDS Proxy 対応、Bedrock の IAM 単位コスト配分、EC2 Capacity Manager タグ対応"
+  - "ガバナンス: AWS Marketplace Discovery API、Private CA カスタム管理権限、Bedrock Guardrails クロスアカウント保護"

@@ -1,0 +1,14 @@
+"date": "2026-02-12"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 15
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はAI、コンピュート、データベース、ストレージ、セキュリティにまたがる発表が集中した。Amazon BedrockはGovCloud (US)でClaude Sonnet 4.5のデフォルトクォータを25倍に引き上げ、シドニーで最新オープンウェイトモデルをサポート、bedrock-mantleエンドポイントへのAWS PrivateLink対応も追加した。AWS Support ConsoleのAIトラブルシューティングは日本語を含む7言語に拡大した。コンピュートでは5GHzの高周波を実現するEC2 M8aznインスタンスやメモリ最適化のX8iインスタンスが登場し、C8i/M8i/R8iが第二世代Outpostsラックでも利用可能になった。ストレージではS3 TablesがCreateTable APIでパーティション/ソート順定義に対応し、S3 Access Grantsが台北で提供開始した。セキュリティではResource Control PoliciesがDynamoDBに拡張、AWS Backupはクロスリージョンでの論理的エアギャップvaultへのスナップショットコピーを追加した。
+"topics":
+  - "生成AI: Claude Sonnet 4.5クォータ25倍拡大、Bedrockのモデル拡充とPrivateLink対応"
+  - "サポート: AIトラブルシューティングが日本語含む7言語に対応"
+  - "コンピュート: 高周波M8azn、メモリ最適化X8i、OutpostsラックへのC8i/M8i/R8i対応"
+  - "データベース: RDS for PostgreSQL/SQL Serverの新バージョン、DynamoDBへのRCP拡張"
+  - "ストレージ/保護: S3 TablesのCreateTable拡張、Backupのエアギャップvaultクロスリージョンコピー"

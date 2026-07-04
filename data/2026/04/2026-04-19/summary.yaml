@@ -1,0 +1,10 @@
+"date": "2026-04-19"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  この日は AWS Japan ブログから「週刊生成AI with AWS – 2026/4/13週」が公開されました。HANNOVER MESSE 2026 の開催で産業 AI への注目が高まる中、ブラザー工業やパナソニック エレクトリックワークスによる AI-DLC 実践事例、スギ薬局の Amazon Bedrock を活用した現場変革事例、Spec-Driven Presentation Maker の紹介など計 9 件のブログがまとめられています。サービスアップデートとしては、Amazon Bedrock での Claude Opus 4.7 提供開始や、Kiro CLI 2.0 のヘッドレスモードおよび Windows サポートが注目点として取り上げられました。
+"topics":
+  - "週刊生成AI: 産業 AI 事例と AI-DLC 実践、Claude Opus 4.7 と Kiro CLI 2.0 のアップデート紹介"

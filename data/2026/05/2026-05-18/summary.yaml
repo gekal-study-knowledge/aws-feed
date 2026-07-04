@@ -1,0 +1,14 @@
+"date": "2026-05-18"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 9
+"sources":
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は AWS Japan ブログを中心に生成 AI 活用と技術解説の記事が並びました。週刊 AWS と週刊生成 AI では、Claude Platform on AWS の一般提供開始、Amazon Bedrock の高度なプロンプト最適化、SageMaker AI の Qwen3.6 サーバーレスファインチューニング対応などが取り上げられています。富士電機 IT ソリューションズによる Amazon Q Developer と Kiro を活用した働き方変革の事例、AI と技術的負債への向き合い方に関する論考も紹介されました。技術記事では Amazon MWAA の Airflow ワーカープール最適化、Amazon Aurora DSQL によるグローバル規模の金融トランザクションを解説。What's New では Secrets Manager Agent の事前フェッチと IAM ロール引き受け対応が発表されました。
+"topics":
+  - "生成 AI: Claude Platform on AWS 一般提供、Bedrock プロンプト最適化"
+  - "事例: 富士電機 IT ソリューションズの Amazon Q Developer / Kiro 活用"
+  - "データ基盤: MWAA ワーカー最適化、Aurora DSQL 金融トランザクション"
+  - "セキュリティ: Secrets Manager Agent の事前フェッチと IAM ロール引き受け"

@@ -1,0 +1,14 @@
+"date": "2026-06-13"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 7
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI とエージェント関連のアップデートが目立ちました。Amazon Bedrock AgentCore では Web Search が一般提供となり、AI エージェントがデータレジデンシーを保ったまま最新のウェブ知識を参照できるようになりました。Amazon SageMaker AI は NVIDIA Nemotron 3 Nano モデルのサーバーレスファインチューニング (SFT/RFT) に対応しました。インフラ面では、ストレージ最適化された Amazon EC2 I7i インスタンスが欧州 (パリ) で提供開始となり、Amazon Lightsail がアジアパシフィック (香港)、南米 (サンパウロ)、欧州 (スペイン) の 3 リージョンに拡大しました。事例では Rocket Close が Strands Agents や Bedrock を用いたエージェント型 AI でタイトル業務を最適化した取り組みが紹介されました。セキュリティ速報では AWS Common Runtime aws-c-http の CVE-2026-12043 (ヒープ二重解放) が公開されました。
+"topics":
+  - "生成 AI エージェント: Bedrock AgentCore の Web Search 一般提供、SageMaker AI での Nemotron サーバーレスファインチューニング"
+  - "リージョン拡大: EC2 I7i のパリ提供、Lightsail の 3 リージョン追加"
+  - "セキュリティ速報: CVE-2026-12043 (aws-c-http のヒープ二重解放)"

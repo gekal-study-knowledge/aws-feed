@@ -1,0 +1,15 @@
+"date": "2026-02-25"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 14
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はAmazon Aurora DSQL関連の発表が集中した。AWSアカウント不要でブラウザからSQLを試せるAurora DSQL Playgroundを公開し、さらにTortoise/Flyway/PrismaといったORM・マイグレーションツールや、VS Code SQLTools・DBeaverとの統合を追加し、IAM認証を自動処理する開発者体験を強化した。コンピュートではEC2 M8gn/M8gbの新metalサイズ、R8a (Ireland)、M8i/M8i-flex (Cape Town) が利用可能になった。運用/セキュリティではAWS Security Agentがアカウント間で共有VPCへのペネトレーションテストに対応し、OutpostsラックのCloudWatchメトリクスがGovCloudで拡充、Neptune向けAWS Backupが5リージョンに拡大した。AIコーディング支援としてAmazon LocationがLLMコンテキストをKiro powerおよびClaude Codeプラグインとして提供開始した。ブログではLambda上のマルチスレッドRustによる最適化やアカウント単位のSaaSアーキテクチャの知見も共有された。
+"topics":
+  - "Aurora DSQL: Playground公開、ORM/マイグレーションツールおよびVS Code/DBeaver統合"
+  - "EC2コンピュート: M8gn/M8gbの新metalサイズ、R8a・M8i/M8i-flexのリージョン展開"
+  - "セキュリティ/運用: Security Agentの共有VPCペネトレーションテスト、Outposts CloudWatchメトリクス、Neptune向けBackup拡大"
+  - "AI開発支援: Amazon LocationのLLMコンテキスト提供 (Kiro power/Claude Codeプラグイン)"

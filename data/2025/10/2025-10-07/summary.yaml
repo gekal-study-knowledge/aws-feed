@@ -1,0 +1,11 @@
+"date": "2025-10-07"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 2
+"sources":
+  - "aws_security_bulletins"
+"overview": |
+  この日はAWSからセキュリティ速報が2件公開された。1件目はAWS Client VPNのmacOSクライアントにおけるローカル権限昇格の脆弱性(CVE-2025-11462、AWS-2025-020)で、ログローテーション時にログ出力先ディレクトリの検証が不十分だったため、非管理者ユーザがCrontab等の特権的な場所へのシンボリックリンクを介してroot権限でのコード実行を引き起こせる問題。バージョン1.3.2〜5.2.0が影響を受け、WindowsとLinuxは対象外。2件目はAmazon Q DeveloperおよびKiroのIDEプラグインにおけるプロンプトインジェクション問題(AWS-2025-019)で、外部研究者のブログ指摘を受けたもの。リモートコード実行やDNS経由のシークレット漏洩などが該当し、Language Server v1.22.0/v1.24.0やKiro 0.1.42でHuman-in-the-Loop確認を必須化する対応が済んでいる。
+"topics":
+  - "AWS Client VPN macOSクライアント: ログローテーションの検証不備による権限昇格 (CVE-2025-11462)"
+  - "Amazon Q Developer / Kiro: IDEプラグインのプロンプトインジェクション問題とHITL確認による緩和"

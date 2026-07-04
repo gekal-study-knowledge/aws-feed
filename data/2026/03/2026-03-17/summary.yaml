@@ -1,0 +1,17 @@
+"date": "2026-03-17"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 17
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はリージョン拡張と生成AI関連の発表が中心でした。Amazon BedrockがアジアパシフィックのニュージーランドリージョンでAnthropicやAmazon Novaなどのモデルとともに利用可能になり、Bedrock AgentCore Runtimeはシェルコマンド実行APIをサポートしました。SageMaker Training Plansは既存のキャパシティコミットメントの延長に対応し、Unified Studioはデータリネージの集約ビューを追加。Amazon MSK Expressブローカーがケープタウンと台北に拡張され、Amazon Corretto 26が一般提供を開始しました。Amazon Connectは音声AIエージェントで13の新言語と新しい生成TTS音声を追加。AWS Blu InsightsはAWS Transform for mainframe refactorへと統合され、コード変換が無償化されました。セキュリティ面ではKiro IDEの任意コード実行脆弱性(CVE-2026-4295)が公表されました。
+"topics":
+  - "Bedrock: ニュージーランドリージョン提供開始、AgentCore Runtimeのシェルコマンド実行対応"
+  - "SageMaker: Training Plansの延長機能、Unified Studioのデータリネージ集約ビュー"
+  - "リージョン/インフラ拡張: MSK Expressブローカー拡張、Corretto 26一般提供、Connectの多言語対応"
+  - "モダナイゼーション: AWS Blu InsightsのAWS Transform統合とコード変換無償化"
+  - "セキュリティ速報: Kiro IDEの任意コード実行脆弱性(CVE-2026-4295)"

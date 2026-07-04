@@ -1,0 +1,12 @@
+"date": "2026-03-06"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 4
+"sources":
+  - "aws_compute_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は Amazon Redshift の機能強化とコンピュートのリージョン拡大が中心でした。Amazon Redshift は COPY コマンド向けの再利用可能なテンプレートを導入し、よく使うフォーマットパラメータを保存・再利用することで、データ取り込み操作の一貫性を保ちつつ手動指定の手間とエラーを削減します。また、SUPER データ型に格納された半構造化データを扱うための 9 つの新しい配列関数 (ARRAY_CONTAINS、ARRAY_DISTINCT、ARRAY_SORT、ARRAY_UNION など) を追加し、従来は複雑な PartiQL SQL が必要だった検索・比較・並べ替え・変換を単一の SQL 文で実行できるようになりました。コンピュートでは AWS Graviton4 を搭載した EC2 R8g インスタンスが AWS Middle East (UAE)、Mexico (Central)、Europe (Zurich) の各リージョンで利用可能になりました。コンピュートブログでは AWS Outposts サーバー上での EC2 インスタンスの高可用性実現に関する 3 部構成シリーズの第 3 部が公開されました。
+"topics":
+  - "Amazon Redshift 機能強化: COPY コマンド向け再利用可能テンプレート、SUPER データ型向け 9 つの新配列関数"
+  - "コンピュート拡大: AWS Graviton4 搭載 EC2 R8g が Middle East (UAE)・Mexico (Central)・Europe (Zurich) で利用可能に、Outposts サーバーでの EC2 高可用性ガイド"

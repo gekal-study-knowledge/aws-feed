@@ -1,0 +1,14 @@
+"date": "2025-12-22"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 11
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日は新機能発表が中心で、メディア/ゲーム、オブザーバビリティ、機械学習インフラが主要テーマでした。Amazon GameLift Streams は NVIDIA L4 GPU ベースの Gen6 ストリームクラス (Gen4 比で最大 2 倍性能) とウォームバッファ付き自動スケーリング、さらにセッション単位のリアルタイムパフォーマンス統計と改善された API エラーメッセージを追加しました。ECS Service Connect は Envoy アクセスログに対応し (通常リージョンと GovCloud の両方)、リクエスト単位の詳細な可観測性を提供。機械学習では AWS Neuron SDK 2.27.0 が Trainium3 UltraServer をサポート。その他、AWS Deadline Cloud Monitor からの直接ジョブ送信、Oracle Database@AWS の Marketplace エンタイトルメント共有、Kinesis Video Streams の WebRTC IPv6 対応、Storage Gateway の Nutanix AHV ハイパーバイザー対応、AWS Wickr の管理 API、Research and Engineering Studio (RES) 2025.12 が公開されました。
+"topics":
+  - "ゲーム: GameLift Streams が NVIDIA L4 ベース Gen6 ストリームクラス・強化された自動スケーリング・リアルタイム性能統計を追加"
+  - "オブザーバビリティ: ECS Service Connect が Envoy アクセスログに対応 (通常リージョン・GovCloud)"
+  - "ML インフラ: AWS Neuron SDK 2.27.0 が Trainium3 UltraServer をサポート"
+  - "ハイブリッド/運用: Storage Gateway が Nutanix AHV 対応、Deadline Cloud Monitor から直接ジョブ送信、RES 2025.12"
+  - "その他: Oracle Database@AWS の Marketplace エンタイトルメント共有、KVS WebRTC IPv6、AWS Wickr 管理 API"

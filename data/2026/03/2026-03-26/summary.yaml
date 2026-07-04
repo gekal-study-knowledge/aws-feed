@@ -1,0 +1,20 @@
+"date": "2026-03-26"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 30
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はコンピュートのリージョン拡張と生成 AI、エージェント開発の話題が多数を占めました。EC2 では M8a（アイルランド・GovCloud）、R8gd、I8ge、High Memory U7i（ミラノ）など複数世代のインスタンスがリージョン拡張。AWS マネジメントコンソールではサービス・リージョンの表示制御など視覚的カスタマイズが一般提供開始され、Amazon Quick が東京リージョンで利用可能になりました。エージェント/生成 AI では、Amazon Bedrock がアジアパシフィック（ニュージーランド）で提供開始、AWS Step Functions が AgentCore を含む 28 サービス統合を追加、SageMaker Studio が Kiro/Cursor IDE のリモート接続に対応、Amazon Polly の双方向ストリーミング API や Writer の Palmyra Vision 7B の Bedrock 提供が発表されました。金融サービス向けエージェント AI のセキュリティ設計や、エージェント開発のアーキテクチャパターン、CloudFront のオリジンへの mTLS 認証も取り上げられています。
+"topics":
+  - "EC2 リージョン拡張: M8a、R8gd、I8ge、High Memory U7i など複数世代インスタンス"
+  - "エージェント/生成 AI: Bedrock がニュージーランドで提供開始、Step Functions が AgentCore 含む 28 統合追加、Palmyra Vision 7B の Bedrock 提供"
+  - "開発ツール: SageMaker Studio の Kiro/Cursor IDE リモート接続、Amazon Polly 双方向ストリーミング API"
+  - "コンソール/運用: マネジメントコンソールの表示カスタマイズ GA、Amazon Quick の東京リージョン提供"
+  - "セキュリティ: 金融サービス向けエージェント AI のセキュリティ設計、CloudFront オリジンへの mTLS 認証"
+  - "AI ガバナンス/責任ある AI: Bedrock Guardrails による年齢・コンテキスト対応 AI"

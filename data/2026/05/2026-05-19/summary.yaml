@@ -1,0 +1,19 @@
+"date": "2026-05-19"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 17
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI とデータ分析、開発者向け機能が幅広く更新されました。AWS Weekly Roundup では AWS Transform の 1 周年、Claude Platform on AWS、EC2 M3 Ultra Mac インスタンスなどが振り返られています。機械学習では Amazon Bedrock AgentCore のカスタムコード評価機能、Amazon Nova 2 によるコンテンツモデレーション、Amazon Quick と Confluence 連携が紹介されました。日本語ブログでは AWS Security Agent のフルリポジトリコードスキャンのプレビュー、Aurora DSQL の CDC 入門を解説。What's New では SAM CLI の CloudFormation Language Extensions 対応、SageMaker Studio の GPU 予約、Amazon EVS の 32 ホスト対応、Redshift の Iceberg ALTER TABLE 対応などが発表されました。セキュリティ速報では redshift-python-driver の RCE 脆弱性 CVE-2026-8838 が告知されました。
+"topics":
+  - "生成 AI: Bedrock AgentCore カスタム評価、Nova 2 コンテンツモデレーション"
+  - "GPU/ML: SageMaker Studio の GPU 予約、ML 向け Capacity Blocks 共有"
+  - "開発: SAM CLI の CloudFormation Language Extensions 対応"
+  - "データ: Redshift の Iceberg ALTER TABLE、Aurora DSQL CDC"
+  - "セキュリティ: Security Agent コードスキャン、CVE-2026-8838 (RCE)"

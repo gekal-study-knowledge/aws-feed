@@ -1,0 +1,15 @@
+"date": "2026-01-09"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 5
+"sources":
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はデータベースと分析サービスのアップデートを中心に、セキュリティ関連の話題も報じられました。Amazon Lightsail は最大 8 vCPU、32GB メモリ、960GB SSD ストレージを備えたより大きなマネージドデータベースバンドルを 2 種類追加し、標準プランと高可用性プランの両方で MySQL / PostgreSQL を利用できるようになりました。Amazon EMR Serverless はジョブ実行単位でのコスト配分に対応し、Cost Explorer や Cost and Usage Reports でジョブ実行 ID 単位の課金追跡が可能になりました。Amazon RDS for SQL Server はクロスリージョンリードレプリカを 16 の追加リージョンでサポートします。セキュリティ面では、AWS が Sovereign Cloud Infrastructure Services (EU) の ISG レポートで 3 年連続 Leader に選出されたことが発表されたほか、Kiro IDE のコマンドインジェクション脆弱性 (CVE-2026-0830) に関するセキュリティ速報が公開されました。
+"topics":
+  - "データベース: Amazon Lightsail が最大 8 vCPU / 32GB / 960GB SSD のより大きなマネージドDBバンドルを追加"
+  - "分析: Amazon EMR Serverless がジョブ実行単位のコスト配分に対応"
+  - "リージョン拡大: Amazon RDS for SQL Server がクロスリージョンリードレプリカを 16 リージョンで追加サポート"
+  - "セキュリティ: Kiro IDE のコマンドインジェクション脆弱性 (CVE-2026-0830) の速報、AWS が EU Sovereign Cloud で ISG Leader に選出"

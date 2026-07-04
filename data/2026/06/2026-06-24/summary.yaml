@@ -1,0 +1,18 @@
+"date": "2026-06-24"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 23
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI とエージェント関連の発表が目立ちました。Amazon Bedrock Guardrails の Automated Reasoning checks に新たなポリシー改善ワークフローが追加され、Bedrock AgentCore Memory はクロスアカウントアクセスに対応。機械学習ブログでは AgentCore を用いたタンパク質研究コパイロットやマルチテナント構成が紹介されました。セキュリティ面では Amazon GuardDuty の AI 駆動調査がプレビュー提供され、Amazon Cognito が顧客管理キーによる保存時暗号化をサポート。Language Servers for AWS と Amazon Q Developer プラグインの脆弱性（CVE-2026-12957/12958）も公表されました。運用系では CloudWatch のシスログ取り込み、EKS 向け OTel Container Insights、ダッシュボードのタグ付けが登場。ElastiCache は Valkey 9.1 に、Neptune はグローバルデータベースの CloudFormation 対応、EC2 High Memory U7in-24TB がソウルリージョンで利用可能になりました。日本語ブログでは AWS Summit Japan 2026 のブース紹介や NY Summit の週間まとめが掲載されました。
+"topics":
+  - "生成 AI/エージェント: Bedrock Guardrails のポリシー改善ワークフロー、AgentCore Memory のクロスアカウント対応、AgentCore 活用の研究・マルチテナント事例"
+  - "セキュリティ: GuardDuty の AI 駆動調査プレビュー、Cognito の顧客管理キー暗号化、Language Servers for AWS/Amazon Q の脆弱性公表"
+  - "オブザーバビリティ: CloudWatch のシスログ取り込み、EKS 向け OTel Container Insights、ダッシュボードのタグ付け"
+  - "データベース/コンピュート: ElastiCache Valkey 9.1、Neptune グローバル DB の CloudFormation 対応、EC2 U7in-24TB のソウル提供"
+  - "AWS Summit Japan 2026: ソフトウェア定義型ファクトリーや製品設計開発、Physical AI などのブース紹介"

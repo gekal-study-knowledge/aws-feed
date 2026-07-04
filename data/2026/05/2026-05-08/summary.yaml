@@ -1,0 +1,18 @@
+"date": "2026-05-08"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 29
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は SAP 向け AI 支援と EC2 の新インスタンス群が目立ちました。日本語ブログでは AWS SDK for SAP ABAP Knowledge MCP Server や AWS For SAP Management MCP Server の一般提供、Kiro エージェントによる SAP Clean Core ジャーニーの加速、KDDI の AWS DevOps Agent 活用によるインシデント対応効率化などが紹介されました。コンピュートでは第 6 世代 Intel Xeon 搭載の EC2 M8idn/M8idb・R8idn/R8idb、Graviton4 の M8gn/M8gb（アイルランド）、NVIDIA RTX PRO 6000 Blackwell 搭載 G7e（ロンドン）、Xeon 6 の X8i（アイルランド・ムンバイ）、G6 の欧州ソブリンクラウド展開など多数のインスタンス発表がありました。機械学習では EC2 Capacity Blocks と SageMaker トレーニングプランによる短期 GPU 確保、GRPO による検証可能報酬型強化学習、Halliburton の Bedrock 活用事例が公開されました。その他 SageMaker Unified Studio の ID/ユーザー管理、SageMaker HyperPod の AMI ベースノード構成、IAM Policy Autopilot の Java/Terraform 対応、AWS WAF の動的ラベル補間、インドの UPI Scan and Pay 対応などが発表されました。セキュリティでは Jakarta リージョンの SNI 認証取得、4 月のセキュリティ ICYMI、Linux カーネルの DirtyFrag 系問題 (CVE-2026-31431 関連) の速報が出されました。
+"topics":
+  - "SAP × AI: SAP ABAP Knowledge / SAP Management MCP Server の一般提供、Kiro による SAP Clean Core 加速、KDDI の DevOps Agent 活用"
+  - "EC2 新インスタンス: Intel Xeon 6 の M8idn/M8idb・R8idn/R8idb・X8i、Graviton4 の M8gn/M8gb、Blackwell の G7e、G6 欧州ソブリンクラウド展開"
+  - "機械学習: EC2 Capacity Blocks と SageMaker トレーニングプランによる短期 GPU 確保、GRPO 強化学習、Halliburton の Bedrock 事例"
+  - "開発/管理: SageMaker Unified Studio の ID・ユーザー管理、HyperPod の AMI ベースノード構成、IAM Policy Autopilot の Java/Terraform 対応"
+  - "セキュリティ/ネットワーク: AWS WAF 動的ラベル補間、JDBC Wrapper のクライアント側暗号化、Jakarta リージョン SNI 認証、Linux カーネル DirtyFrag 速報"

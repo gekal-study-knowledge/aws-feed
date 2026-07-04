@@ -1,0 +1,13 @@
+"date": "2025-12-11"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 3
+"sources":
+  - "aws_architecture_blog"
+  - "aws_security_blog"
+"overview": |
+  この日はアーキテクチャ 1 件、セキュリティ 2 件が公開され、デジタル主権 (ソブリンティ) が主要テーマとなりました。セキュリティブログでは、規制の厳しい業界や公共部門向けにヨーロッパ独立クラウドとして提供予定の AWS European Sovereign Cloud について「Sovereign Reference Framework」を解説する記事と、EU におけるデジタルインフラのセキュリティ確保に対する AWS の広範な責任への取り組みを扱う記事 (初出 2023 年 8 月) が公開されました。アーキテクチャブログでは、Kubernetes 向けの生成 AI 搭載トラブルシューティングアシスタントを構築する方法が紹介され、クラスタ問題の診断・解決を自己解決型で高速化し、MTTR (平均復旧時間) 短縮と専門家の負荷軽減を目指す内容です。
+"topics":
+  - "デジタル主権: AWS European Sovereign Cloud の Sovereign Reference Framework 解説"
+  - "EU セキュリティ責任: EU のデジタルインフラ保護に対する AWS の広範な責任への取り組み"
+  - "生成 AI 運用: Kubernetes 向け対話型オブザーバビリティ・トラブルシューティングアシスタントの構築"

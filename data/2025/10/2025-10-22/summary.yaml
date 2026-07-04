@@ -1,0 +1,10 @@
+"date": "2025-10-22"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_architecture_blog"
+"overview": |
+  この日はAWS Architecture Blogから1件の事例記事が公開された。BASF Digital Farming(xarvio – BASF Digital Farming)が、Amazon EKS上にSTAC(SpatioTemporal Asset Catalog)ベースのソリューションを構築した取り組みを紹介している。同社は世界中の農家に最先端のデジタル農学的意思決定ツールを提供することをミッションとしており、その中核をなす作物最適化プラットフォーム「xarvio FIELD MANAGER」を通じて実用的なインサイトを届けている。記事はBASF Digital Farming GmbHのFrederic Haase氏とJulian Blau氏との共著。
+"topics":
+  - "BASF Digital Farming: Amazon EKS上でのSTACベースソリューション構築事例 (xarvio FIELD MANAGER)"

@@ -1,0 +1,17 @@
+"date": "2026-04-16"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 15
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日の目玉は Anthropic の Claude Opus 4.7 が Amazon Bedrock で提供開始されたことです。エージェント型コーディングや専門業務、長時間タスクで性能が向上し、Bedrock の次世代推論エンジン上で運用者データアクセスゼロや動的トラフィックルーティングを提供します。機械学習では Amazon Nova Micro と Bedrock オンデマンド推論による低コストなカスタム text-to-SQL、小売向け生成 AI (バーチャル試着など)、Bedrock の自動推論チェックによる形式検証ベースのコンプライアンスが解説されました。基盤・運用面では EC2 C8in/C8ib インスタンスの GA (Intel Xeon 6、最大 384 vCPU)、X8aedz のストックホルム展開、FSx for Lustre Persistent-2 の 4 リージョン追加、WorkSpaces の 2 リージョン追加、Elastic Disaster Recovery と CloudWatch RUM の欧州ソブリンクラウド対応、CloudWatch のクロスリージョンテレメトリ監査、Amazon Quick のマルチアカウントサインインなどが発表されました。国内では SBI ネオバンキングシステムの EKS Auto Mode 導入事例と AWS Interconnect GA の紹介が公開されました。
+"topics":
+  - "生成 AI: Claude Opus 4.7 が Amazon Bedrock で提供開始 (エージェント型コーディング・長時間タスクを強化)"
+  - "ML 活用: Nova Micro による低コスト text-to-SQL、小売向け生成 AI、Bedrock 自動推論チェックによるコンプライアンス"
+  - "コンピュート: EC2 C8in/C8ib の GA (最大384vCPU・600Gbps)、X8aedz のストックホルム展開、FSx for Lustre Persistent-2 の拡充"
+  - "運用/ソブリン: DRS・CloudWatch RUM の欧州ソブリンクラウド対応、CloudWatch クロスリージョンテレメトリ監査、Quick マルチアカウントサインイン"
+  - "国内事例: SBI ネオバンキングシステムの EKS Auto Mode 導入、AWS Interconnect GA"

@@ -1,0 +1,17 @@
+"date": "2026-05-01"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 25
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI エージェント関連の発表が中心でした。Amazon Bedrock AgentCore では、認証済みユーザーの代理でリソースにアクセスできる On-Behalf-Of (OBO) トークン交換の一般提供、および本番エージェントの性能改善ループを完成させる最適化機能（推奨・バッチ評価・A/B テスト）のプレビューが発表されました。AWS Neuron では Trainium 向け NKI カーネル開発を支援する Neuron Agentic Development が登場し、Claude Code や Kiro との連携が示されました。機械学習分野では LLM 移行フレームワーク、LLM-as-a-judge を用いた強化ファインチューニング、Amazon Quick によるエージェント型分析などのブログが公開されました。基盤サービスでは Amazon EKS の EFA 向け Kubernetes DRA サポートや CloudShell からのワンクリッククラスターアクセス、SageMaker AI のキャパシティ対応推論、RDS for SQL Server のクロスアカウントスナップショット共有・リードレプリカ、AWS Payment Cryptography の紙ベース鍵交換・多者承認などが追加されました。日本語ブログでは What's Next with AWS 2026 の注目発表や Amazon Q Developer のサポート終了と Kiro への移行が案内されました。
+"topics":
+  - "Bedrock AgentCore 強化: OBO トークン交換の一般提供、性能最適化機能（推奨・バッチ評価・A/B テスト）プレビュー"
+  - "AI コーディング支援: AWS Neuron Agentic Development による Trainium NKI カーネル開発、Amazon Q Developer サポート終了と Kiro への移行"
+  - "機械学習: LLM 移行フレームワーク、LLM-as-a-judge 強化ファインチューニング、Amazon Quick のエージェント型分析、SageMaker AI キャパシティ対応推論"
+  - "コンテナ/コンピュート: EKS の EFA 向け Kubernetes DRA、CloudShell ワンクリッククラスターアクセス、ECS Managed Instances の NVIDIA GPU メトリクス"
+  - "データベース/決済: RDS for SQL Server のクロスアカウントスナップショット共有とリードレプリカ、Payment Cryptography の紙ベース鍵交換・多者承認対応"

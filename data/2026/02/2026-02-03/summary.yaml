@@ -1,0 +1,14 @@
+"date": "2026-02-03"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 12
+"sources":
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はマルチリージョン・マルチアカウント対応によるレジリエンス強化が中心テーマでした。AWS IAM Identity Center がワークフォース ID とアクセス許可セットのマルチリージョンレプリケーションに対応し、17 の商用リージョンで一次リージョン障害時のアクセス継続を実現します。Amazon DynamoDB global tables は複数 AWS アカウント間のレプリケーションをサポートし、アカウントレベルの分離と障害耐性を強化しました。リージョン拡張では Lake Formation がアジアパシフィック (ニュージーランド)、Oracle Database@AWS がカナダ中部とシドニーに拡大しました。その他、Amazon Connect の評価異議申し立てワークフロー、マネジメントコンソールでのアカウント名表示、RDS の接続体験改善、Aurora DSQL の NUMERIC 型インデックス対応、AWS Batch の ListJobs 配列ジョブステータスサマリー、AWS Marketplace の EMEA ローカル請求などが発表されました。
+"topics":
+  - "レジリエンス強化: IAM Identity Center のマルチリージョンレプリケーション、DynamoDB global tables のマルチアカウント対応"
+  - "リージョン拡張: Lake Formation (ニュージーランド)、Oracle Database@AWS (カナダ中部・シドニー)"
+  - "運用体験の改善: RDS の接続コンソール強化、コンソールでのアカウント名表示、Aurora DSQL の NUMERIC インデックス"
+  - "サービス機能追加: Amazon Connect の評価異議申し立てワークフロー、AWS Batch の配列ジョブステータスサマリー、Marketplace の EMEA ローカル請求"

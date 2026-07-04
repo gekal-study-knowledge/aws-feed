@@ -1,0 +1,11 @@
+"date": "2025-12-03"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 3
+"sources":
+  - "aws_news_blog"
+"overview": |
+  この日は AI モデルのカスタマイズと学習効率化に関する発表が中心でした。Amazon Bedrock に強化学習ファインチューニング (reinforcement fine-tuning) が追加され、ベースモデル比で平均 66% の精度向上を実現し、開発者がより賢く正確な AI モデルを構築できるようになりました。Amazon SageMaker AI では新たなサーバーレスカスタマイズによりモデルのファインチューニングを加速。さらに SageMaker HyperPod にチェックポイントレスかつ弾力的な学習機能が導入され、障害からの即時復旧やリソース可用性に応じた自動スケーリングが可能になりました。いずれも AI モデル開発の生産性とコスト効率を高める内容です。
+"topics":
+  - "モデル精度向上: Bedrock の強化学習ファインチューニングでベースモデル比平均 66% の精度改善"
+  - "学習高速化: SageMaker AI のサーバーレスカスタマイズと HyperPod のチェックポイントレス・弾力的学習"

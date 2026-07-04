@@ -1,0 +1,20 @@
+"date": "2026-06-11"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 26
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はコンピュートの世代交代と基盤モデルの拡充が大きな話題でした。AWS は新しい AWS Graviton5 プロセッサ搭載の EC2 M9g および M9gd インスタンスを一般提供開始し、Graviton4 比で最大 25% の性能向上と、形式検証による分離を実現する Nitro Isolation Engine を導入しました。基盤モデルでは OpenAI GPT-5.4/GPT-5.5 が US East (N. Virginia) の Bedrock に拡大し、Google DeepMind の Gemma 4 ファミリーも Bedrock で利用可能になりました。オブザーバビリティでは Amazon Managed Service for Prometheus が Native Histograms と順不同サンプル取り込みに対応し、OpenSearch Service は MCP Apps によるエージェント型オブザーバビリティを開始。セキュリティ・運用面では ACM 証明書と Secrets Manager を自動配布する AWS Workload Credentials Provider、VPC Flow Logs のメタデータ拡充が発表されました。日本語ブログでは DynamoDB グローバルテーブルのベストプラクティスシリーズや Kiro の新機能、AWS Summit Japan 2026 のブース紹介が並びました。セキュリティ情報では AWS CDK の OS コマンドインジェクションや s2n-quic のメモリ枯渇脆弱性が公開されました。
+"topics":
+  - "コンピュート: Graviton5 搭載 EC2 M9g/M9gd の一般提供と Nitro Isolation Engine"
+  - "基盤モデル: Bedrock での OpenAI GPT-5.4/5.5 拡大と Gemma 4 の提供"
+  - "オブザーバビリティ: Prometheus の Native Histograms、OpenSearch の MCP Apps"
+  - "セキュリティ/運用: AWS Workload Credentials Provider、VPC Flow Logs メタデータ拡充"
+  - "日本語ブログ: DynamoDB グローバルテーブルのベストプラクティス、Kiro 新機能"
+  - "脆弱性情報: AWS CDK のコマンドインジェクションと s2n-quic のメモリ枯渇 (CVE-2026-10740)"

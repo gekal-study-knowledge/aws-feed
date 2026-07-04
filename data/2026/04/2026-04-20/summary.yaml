@@ -1,0 +1,20 @@
+"date": "2026-04-20"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 33
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日の最大の話題は、2026 年 4 月 16 日に発表された Anthropic の Claude Opus 4.7 が Amazon Bedrock で利用可能になったことです。100 万トークンのコンテキストウィンドウとエージェント型コーディング性能の向上を備え、Kiro IDE/CLI にも展開されました。日本語ブログでは AI-DLC (AI 駆動開発ライフサイクル) の富士通事例や Kiro CLI のヘッドレスモード紹介、週刊 AWS/週刊生成 AI が公開されました。機械学習ブログでは Bedrock AgentCore と Nova 2 Sonic によるオムニチャネル注文、AI エージェントのツールテスト用 ToolSimulator、NVIDIA RTX PRO 6000 Blackwell 搭載の G7e インスタンスによる推論高速化が紹介されました。What's New では S3 Express One Zone の S3 Inventory 対応、DocumentDB の 5.0→8.0 インプレースアップグレード、EKS の IAM 条件キー拡張、複数の MSK Replicator 機能強化、Amazon Connect のエージェント型音声機能拡張などが発表。セキュリティでは AWS Encryption SDK for Python の脆弱性 CVE-2026-6550 が公開されました。
+"topics":
+  - "Claude Opus 4.7: Amazon Bedrock で提供開始、100 万トークンコンテキストと Kiro 対応"
+  - "AI エージェント/ML: Bedrock AgentCore と Nova 2 Sonic、ToolSimulator、G7e インスタンス"
+  - "AI 駆動開発 (AI-DLC): 富士通事例と Kiro CLI ヘッドレスモード"
+  - "データ/ストレージ: S3 Express One Zone の Inventory、DocumentDB 8.0 インプレース、MSK Replicator 強化"
+  - "コンタクトセンター/運用: Amazon Connect の音声・モジュール機能拡張、EKS IAM 条件キー"
+  - "セキュリティ: AWS Encryption SDK for Python の脆弱性 CVE-2026-6550"

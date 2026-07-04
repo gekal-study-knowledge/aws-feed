@@ -1,0 +1,15 @@
+"date": "2026-02-16"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 14
+"sources":
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はコンピュート系の新インスタンス発表が目立ちました。第5世代AMD EPYCプロセッサ搭載のHPC向けEC2 Hpc8aインスタンスがUS East（オハイオ）とEurope（ストックホルム）で提供開始され、Hpc7a比で最大40%高い性能を実現します。またM7iインスタンスがIsrael（Tel Aviv）に拡張されたほか、EC2は仮想インスタンス上でのネストされた仮想化にも対応しました。データベースではAmazon Auroraが新規クラスタへのサーバー側暗号化のデフォルト適用を開始し、DocumentDB 5.0の長期サポート（LTS）も発表されました。生成AIではNovaカスタムモデル向けのSageMaker推論やBedrockの新モデル、GovCloud（US）でのKiro提供が話題となりました。
+"topics":
+  - "EC2新インスタンス: Hpc8a（第5世代AMD EPYC）提供開始、M7iのTel Aviv拡張、ネスト仮想化対応"
+  - "データベース: Auroraのサーバー側暗号化デフォルト適用、DocumentDB 5.0のLTS開始"
+  - "生成AI: カスタムNovaモデル向けSageMaker推論、GovCloud（US）でのKiro提供"
+  - "セキュリティ・データ保護: AWS BackupのSAP HANA向けPrivateLink対応、サーバーレス向けAI防御アーキテクチャ"

@@ -1,0 +1,13 @@
+"date": "2026-03-20"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はインフラとエージェント関連の機能拡張が中心でした。AWS NeuronがAmazon EKS向けのDynamic Resource Allocation(DRA)ドライバをサポートし、Trainiumインスタンスでトポロジー対応のスケジューリングを可能にしました。Amazon EKSはProvisioned Control Plane向けに99.99%のSLAと最大規模の8XLスケーリングティアを導入。Amazon Bedrock AgentCore Runtimeはリアルタイム双方向ストリーミングのためのWebRTCサポートを追加しました。Amazon PollyはGenerative TTSエンジンに10の新音声、2つの新リージョン、双方向ストリーミングAPIを追加。AWS DataSyncは全ロケーションタイプでSecrets Managerに対応し、AWS Firewall Managerはニュージーランドリージョンで提供開始。AWS DMS Schema Conversion with GenAIも複数の追加リージョンで利用可能になりました。
+"topics":
+  - "コンテナ/インフラ: Neuron DRAのEKS対応、EKSの99.99% SLAと8XLティア"
+  - "エージェント/AI: Bedrock AgentCore RuntimeのWebRTC対応、PollyのGenerative TTS拡張"
+  - "データ移行/管理: DataSyncのSecrets Manager全対応、DMS Schema Conversion with GenAIのリージョン拡張"
+  - "セキュリティ: Firewall Managerのニュージーランドリージョン提供開始"

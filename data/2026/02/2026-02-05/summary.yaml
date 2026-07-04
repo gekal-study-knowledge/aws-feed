@@ -1,0 +1,14 @@
+"date": "2026-02-05"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 11
+"sources":
+  - "aws_architecture_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は EC2 インスタンスのリージョン拡張と GPU・ストレージ最適化ワークロード向けの発表が中心でした。Anthropic の最新モデル Claude Opus 4.6 が Amazon Bedrock で利用可能になり、エージェントタスクや複雑なコーディングで業界最高水準の性能を提供し、200K および 1M (プレビュー) のコンテキストトークンに対応します。EC2 では U7i-6TB が GovCloud (US-West)、G6e がドバイ (UAE)、I7ie がカナダ中部で利用可能になり、Capacity Blocks for ML の複数アカウント間共有も一般提供されました。Amazon WorkSpaces は EC2 G6 ファミリベースの Graphics G6・Gr6・G6f バンドル (12 種) を追加、AWS Glue はあらゆる REST API ソースに対応するネイティブコネクタを提供しました。AWS Builder ID は Sign in with Apple に対応し、Google に続く社会的ログインの選択肢を拡大しました。
+"topics":
+  - "生成 AI: Claude Opus 4.6 が Amazon Bedrock で利用可能に (200K/1M コンテキスト対応)"
+  - "EC2 リージョン拡張: U7i-6TB (GovCloud US-West)、G6e (ドバイ)、I7ie (カナダ中部)、ML Capacity Blocks の複数アカウント共有"
+  - "GPU・グラフィックスワークロード: WorkSpaces の Graphics G6/Gr6/G6f バンドル追加"
+  - "データ統合・認証: AWS Glue の REST API コネクタ、AWS Builder ID の Sign in with Apple 対応"

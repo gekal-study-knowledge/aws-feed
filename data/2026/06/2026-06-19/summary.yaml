@@ -1,0 +1,19 @@
+"date": "2026-06-19"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 29
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  コンピューティングと生成 AI の機能強化が幅広く発表された一日でした。NVIDIA RTX PRO 4500 Blackwell GPU を搭載した Amazon EC2 G7 インスタンスが US East (Ohio)・US West (Oregon) で一般提供を開始し、G6 比で最大 4.6 倍の AI 推論性能を実現します。Amazon ECS は 20 秒粒度の高解像度メトリクスにより自動スケーリングを最大 4.2 倍高速化。Amazon Bedrock AgentCore harness と Web Search が一般提供となり、数分で本番グレードのエージェントを構築できるようになりました。SageMaker AI では推論エンドポイントの新しいオブザーバビリティ機能や JumpStart への all-MiniLM-L12-v2・Ministral-3-14B 追加、EKS の顧客経由コントロールプレーン egress、MSK Express の Intelligent Rebalancing 拡大、ベトナム・ハノイの Local Zone 一般提供なども発表。セキュリティ面では Spring 2026 SOC レポートの OSCAL 提供と containerd CRI プラグインの複数 CVE が告知されました。
+"topics":
+  - "コンピューティング: EC2 G7 (Blackwell GPU) GA、ECS 高速オートスケーリング、EKS egress ルーティング"
+  - "生成 AI: Bedrock AgentCore harness / Web Search GA、SageMaker 推論オブザーバビリティと JumpStart 新モデル"
+  - "メッセージング/HPC: MSK Express Intelligent Rebalancing、PCS の P6e UltraServer 対応"
+  - "グローバルインフラ: ハノイ Local Zone GA、SNS ソウルリージョン SMS、CloudWatch Synthetics マルチロケーション"
+  - "セキュリティ: SOC 1/2 レポート OSCAL 提供、containerd CRI プラグイン CVE、Kiro CLI 調査支援"

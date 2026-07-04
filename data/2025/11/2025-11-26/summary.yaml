@@ -1,0 +1,15 @@
+"date": "2025-11-26"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 4
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_security_blog"
+"overview": |
+  この日はArchitecture Blog、Compute Blog、Security Blogから計4件が公開されました。Architecture系では、AWS Network FirewallとAWS Transit Gatewayを用いてAmazon Elastic VMware Service (Amazon EVS)環境をクラスター・VPC・オンプレミス・インターネット間で集中検査するアーキテクチャで保護する方法が紹介されました。Compute系では、AWS Step FunctionsとAmazon Bedrockのバッチ推論を組み合わせ、大規模なドキュメント処理を自動化して静的な文書群を生成AI向けの検索可能なナレッジベースへ変換するパイプラインが解説されています。Security系では、AWS Private Certificate Authorityの分割CRL(partitioned CRLs)対応と、Amazon EKS向けのSecrets Store CSI Driverプロバイダー(Secrets Managerアドオン)が取り上げられました。
+"topics":
+  - "AWS Network FirewallによるAmazon EVS環境の集中検査型保護"
+  - "AWS Step FunctionsとBedrockバッチ推論による大規模ドキュメント処理"
+  - "AWS Private Certificate Authorityが分割CRLをサポート"
+  - "Amazon EKS向けSecrets Store CSI Driverプロバイダー(Secrets Managerアドオン)"

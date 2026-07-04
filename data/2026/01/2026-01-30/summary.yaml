@@ -1,0 +1,18 @@
+"date": "2026-01-30"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 13
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はコンピューティング、可観測性、パートナー、レジリエンス設計など多岐にわたる発表が行われた。5th Gen AMD EPYCプロセッサ搭載のAmazon EC2 R8aインスタンスがEurope (Spain・Frankfurt) リージョンで提供開始された。可観測性では、Amazon ECSがコンテナヘルスステータスをCloudWatchメトリクスとして公開、AWS LambdaがKafkaイベントソースマッピングの拡張可観測性を追加、Amazon CloudWatch Application SignalsがKiro powersと統合された。パートナー向けにはAWSサービス消費の可視化を行うPartner Revenue Measurementが発表された。またAmazon GameLift Streamsが6つの新リージョンに拡大、Amazon RDS for Oracleがクロスリージョンレプリカでの追加ストレージボリュームに対応、Amazon RDSがサービスAPIのVPCエンドポイントでIPv6をサポート、Amazon SageMaker Unified StudioがAWS PrivateLinkに対応した。さらにAWS European Sovereign Cloudを用いたソブリンフェイルオーバー設計や、AWS Managed Microsoft ADのスケーリング、サーバーレスQ4 2025総集編も公開された。
+"topics":
+  - "コンピューティング: EC2 R8aインスタンスのEurope提供"
+  - "可観測性: ECSのコンテナヘルスメトリクス、LambdaのKafka ESM拡張可観測性"
+  - "生成AI: CloudWatch Application SignalsのKiro powers統合"
+  - "パートナー: AWSサービス消費を可視化するPartner Revenue Measurement"
+  - "データベース: RDS for Oracleのクロスリージョンレプリカ追加ストレージ対応"
+  - "アーキテクチャ: European Sovereign Cloudによるソブリンフェイルオーバー設計"

@@ -1,0 +1,15 @@
+"date": "2026-03-04"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 10
+"sources":
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はプライベート AI アシスタント、オブザーバビリティ、IAM の使い勝手向上が中心でした。Amazon Lightsail で自律型プライベート AI エージェントを実行できる OpenClaw が登場し、Amazon Bedrock を既定のモデルプロバイダーとしてサンドボックスや自動スナップショットなどのセキュリティ機能を備えて事前構成されます。Amazon OpenSearch Ingestion は Amazon Managed Service for Prometheus をシンクとして利用可能になり、さらにログ・メトリクス・トレースの 3 種の OpenTelemetry シグナルを単一パイプラインで受け取れる統合エンドポイントに対応しました。IAM ではサービスワークフロー内でのロール作成・設定が簡素化され、アクセス拒否エラーメッセージに拒否ポリシーの ARN が追加されました。基盤系では Amazon GameLift Servers の DDoS Protection、SageMaker HyperPod の Restricted Instance Groups 向けオブザーバビリティ、EC2 M8g インスタンスの追加リージョン展開、EventBridge Scheduler の CreateSchedule API 既定クォータ引き上げが発表されました。
+"topics":
+  - "プライベート AI アシスタント: Amazon Lightsail の OpenClaw で自律型 AI エージェントを Bedrock 連携・サンドボックス付きで実行"
+  - "オブザーバビリティ: OpenSearch Ingestion が Prometheus シンクと OpenTelemetry 統合エンドポイントに対応、HyperPod RIG の包括的可視化"
+  - "IAM 改善: サービスワークフロー内でのロール作成簡素化、アクセス拒否メッセージへの拒否ポリシー ARN 追加"
+  - "コンピュート・運用: GameLift Servers DDoS Protection、EC2 M8g の追加リージョン展開、EventBridge Scheduler の CreateSchedule クォータ引き上げ"

@@ -1,0 +1,10 @@
+"date": "2025-11-06"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_security_bulletins"
+"overview": |
+  この日はAWSセキュリティ速報が1件公開されました。Research and Engineering Studio on AWS (RES)における所有権検証の不備(CVE-2025-12815)で、バージョン2025.09より前のRESでは、仮想デスクトップのプレビューページにおいて認証済みのリモートユーザーが本来アクセス権を持たない他ユーザーのアクティブなデスクトップセッションのメタデータ(定期的に取得されるデスクトッププレビューのスクリーンショットを含む)を閲覧できる可能性があると報告されています。重要度は「Important」で、影響を受けるのは2025.09未満のバージョンです。
+"topics":
+  - "Research and Engineering Studio on AWS (RES) の仮想デスクトッププレビューでの情報露出 (CVE-2025-12815)"

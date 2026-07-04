@@ -1,0 +1,16 @@
+"date": "2026-01-12"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 7
+"sources":
+  - "aws_architecture_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は AI/ML、コンタクトセンター、分析、セキュリティにわたる幅広いアップデートが報じられました。Amazon SageMaker HyperPod はクラスター作成前にサービスクォータを自動検証する機能をコンソールに追加し、インスタンス種別やEBSボリューム、VPC関連クォータをチェックして作成失敗を防ぎます。Amazon Lex は Default / High / Maximum の 3 段階から選べる音声区間検出 (VAD) の感度設定を導入しました。Amazon Connect はエージェントの画面録画ステータスを EventBridge 経由で CloudWatch にてほぼリアルタイムに追跡できるようになりました。Amazon Redshift Serverless は Asia Pacific (New Zealand) リージョンで一般提供を開始し、Amazon Inspector は Java Gradle のスキャンに対応し MySQL や PHP など対象エコシステムを拡大しました。ブログでは Salesforce が 1,000 以上の EKS クラスターで Cluster Autoscaler から Karpenter へ移行した事例や、AWS Lambda for .NET 10 などを扱う週刊まとめが公開されました。
+"topics":
+  - "AI/ML: SageMaker HyperPod がクラスター作成前のサービスクォータ自動検証をコンソールに追加"
+  - "コンタクトセンター: Amazon Lex の VAD 感度3段階設定、Amazon Connect のエージェント画面録画ステータス追跡"
+  - "分析: Amazon Redshift Serverless が Asia Pacific (New Zealand) で一般提供開始"
+  - "セキュリティ: Amazon Inspector が Java Gradle 対応、MySQL / PHP / Jenkins など対象を拡大"
+  - "事例/まとめ: Salesforce の 1,000+ EKS クラスターの Karpenter 移行、Weekly Roundup (.NET 10 対応など)"

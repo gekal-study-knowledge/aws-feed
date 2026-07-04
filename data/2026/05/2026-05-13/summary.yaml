@@ -1,0 +1,27 @@
+"date": "2026-05-13"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 20
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日の最大の話題はAmazon Redshiftの新世代RGインスタンスの一般提供です。AWS Graviton搭載で、統合された
+  データレイククエリエンジンを備え、RA3比で最大2.4倍高速かつvCPUあたり30%低コストを実現。Apache Iceberg
+  やParquetをクラスターノード上で直接処理でき、Redshift Spectrumの別スキャンフリートが不要になります。
+  セキュリティではAWS Security Agentがコードベース全体を対象とした「フルリポジトリコードレビュー」を
+  プレビュー公開し、AIによるAI主権に関する記事も掲載。サービス面ではEventBridge Schedulerが619の新API
+  アクション（Lambda Managed Instances含む）を追加、Lambda Managed Instancesがスケジュールスケーリングに
+  対応、KarpenterがARCゾーンシフトをサポート、CloudFront Premiumフラットレートが設定可能な使用量に対応、
+  RDS for OracleがM8i/R8iに対応しました。日本語ではAmazon QコストによるFinOps変革やLocal Executive
+  Roadshow開催レポートも紹介されています。
+"topics":
+  - "Amazon Redshift RGインスタンス: Graviton搭載でデータレイクエンジン統合、一般提供"
+  - "AWS Security Agent: フルリポジトリコードレビューをプレビュー"
+  - "EventBridge Scheduler / Lambda Managed Instances: SDK拡張とスケジュールスケーリング"
+  - "Karpenter: ARCゾーンシフト/ゾーンオートシフト対応"
+  - "CloudFront Premium: 設定可能な使用量プラン、RDS for OracleがM8i/R8i対応"
+  - "日本語: Amazon QによるFinOps変革、Local Executive Roadshowレポート"

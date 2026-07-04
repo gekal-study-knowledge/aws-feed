@@ -1,0 +1,20 @@
+"date": "2026-03-18"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 27
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は生成AIとセキュリティの発表が豊富でした。Amazon BedrockにNVIDIA Nemotron 3 Super、Minimax M2.5、GLM 5などのエージェント向けフロンティアモデルが追加され、Nova Forge SDKによるNovaモデルのカスタマイズも発表されました。Amazon QuickがTokyo、Frankfurt、Londonの各リージョンでデータ主権要件に対応して提供開始。OpenSearch Service 3.5はエージェンティックAI機能を強化しました。セキュリティ面ではAmazon脅威インテリジェンスがCisco Secure Firewallの脆弱性CVE-2026-20131を悪用するInterlockランサムウェアキャンペーンを特定し、Security Hubがマルチクラウド対応へ拡張。Amazon InspectorはエージェントレスのWindows脆弱性スキャンを追加し、AWS Configは75の新マネージドルールを提供しました。Redshiftは新規クエリ性能を最大7倍高速化しました。
+"topics":
+  - "Bedrock新モデル: Nemotron 3 Super、Minimax M2.5、GLM 5、Nova Forge SDK"
+  - "Amazon Quick: Tokyo/Frankfurt/Londonリージョンでデータ主権対応の提供開始"
+  - "セキュリティ脅威対応: Interlockランサムウェア(CVE-2026-20131)特定、Security Hubのマルチクラウド拡張"
+  - "セキュリティ機能: Inspectorのエージェントレス/Windows KBスキャン、Config 75新ルール"
+  - "分析/検索: Redshift新規クエリ最大7倍高速化、OpenSearch 3.5のエージェンティック強化"
+  - "EC2/インフラ: C8a東京、U7i-6TBマレーシア、M6in/M6idnロンドン、ECRのChainguardキャッシュ"

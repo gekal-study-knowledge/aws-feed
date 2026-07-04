@@ -1,0 +1,21 @@
+"date": "2026-06-17"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 41
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  AI エージェントとセキュリティ、開発者向けサービスの発表が数多く集中した日でした。Amazon Bedrock AgentCore では、マネージドなエージェントハーネスの一般提供、本番トレースを活用した最適化機能、ポリシーでの Bedrock Guardrails 対応が発表され、Guardrails には agentic ワークフロー向けの InvokeGuardrailChecks API が追加されました。Amazon Bedrock Managed Knowledge Base (RAG) も一般提供となりました。セキュリティでは AWS Continuum が登場し、脅威モデリングや検証済みの脆弱性修復を「マシンスピード」で行う機能群が発表され、AWS Security Agent も STRIDE 脅威モデリングや Kiro/Claude Code 連携を追加しました。開発者向けには TypeScript フレームワークの AWS Blocks (プレビュー) や AWS Transform のモデル間移行アセスメント、AWS Sign-in のリソースベースポリシー対応、S3 Vectors のクエリ結果上限 1 万件対応、AWS Glue Data Catalog の意味検索 (プレビュー) などが登場しました。Oracle Database@AWS は Autonomous AI Database Serverless に対応しました。日本語ブログでは AWS Transform custom の連載や Shield Advanced のフローログ解説が紹介されました。
+"topics":
+  - "AI エージェント基盤: AgentCore ハーネス一般提供、最適化機能、ポリシーでの Guardrails 対応、Managed Knowledge Base の一般提供"
+  - "ガードレール: Bedrock Guardrails の InvokeGuardrailChecks API、Sydney での Automated Reasoning checks"
+  - "セキュリティ: AWS Continuum の発表、AWS Security Agent の STRIDE 脅威モデリングと IDE 連携"
+  - "開発者向け: AWS Blocks (プレビュー)、AWS Transform のモデル間移行、AWS Glue Data Catalog の意味検索 (プレビュー)"
+  - "データ/ストレージ: S3 annotations、S3 Vectors のクエリ結果 1 万件対応、Oracle Database@AWS の ADB-S 対応"
+  - "アクセス制御/コンピューティング: AWS Sign-in のリソースベースポリシー、Redshift RG インスタンス拡大、Outposts の bmn-cx3a インスタンス"

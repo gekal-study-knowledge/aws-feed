@@ -1,0 +1,19 @@
+"date": "2026-03-30"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 22
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  生成 AI・エージェントの実践事例と、可観測性・データ分析関連のサービスアップデートが目立つ一日でした。ニュースでは最大 10 万人に無償 AI 教育を提供する 2026 AWS AI & ML Scholars プログラムの立ち上げが紹介されました。機械学習では、Ring の Bedrock Knowledge Bases による顧客サポート、Volkswagen Group の生成 AI マーケティング、Bedrock AgentCore と Nova Sonic 2.0 による映画アシスタントなどの事例が登場。コンピュートでは Lambda Managed Instances での高性能アプリ構築や、Intel AMX を用いた CPU ベース AI 推論の高速化が解説されました。運用・分析分野では OpenSearch Service の Cluster Insights のコンソール/EventBridge 対応、Direct Connect の BGP モニタリング用 CloudWatch メトリクス、SageMaker Data Agent の Query Editor 対応、CloudWatch のマルチアカウント/リージョンログ集約、Athena Capacity Reservations のリージョン拡張、Security Hub の GovCloud 提供が発表されています。
+"topics":
+  - "生成 AI 事例: Ring の Bedrock Knowledge Bases、Volkswagen の生成 AI マーケティング、AgentCore と Nova Sonic 2.0 による映画アシスタント"
+  - "AI 教育: 最大 10 万人に無償提供する 2026 AWS AI & ML Scholars プログラム"
+  - "コンピュート: Lambda Managed Instances での高性能アプリ構築、Intel AMX による CPU ベース AI 推論の高速化"
+  - "可観測性/運用: OpenSearch Cluster Insights のコンソール・EventBridge 対応、Direct Connect の BGP モニタリング、CloudWatch のマルチアカウント/リージョンログ集約"
+  - "データ分析/セキュリティ: SageMaker Data Agent の Query Editor 対応、Athena Capacity Reservations のリージョン拡張、Security Hub の GovCloud 提供"

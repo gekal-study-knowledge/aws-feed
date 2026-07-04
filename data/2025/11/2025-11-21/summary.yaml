@@ -1,0 +1,16 @@
+"date": "2025-11-21"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 7
+"sources":
+  - "aws_compute_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+"overview": |
+  この日はCompute Blog、Security Blog、セキュリティ速報から計7件が公開されました。Compute系ではAmazon API GatewayのTLSセキュリティポリシー強化(PCI DSSやOpen Banking、FIPS対応)、Apache Kafkaを扱うサーバーレスストリーミングワークロードのLambdaスループット最適化、REST APIとApplication Load Balancerのプライベート統合、そしてAmazon Bedrockを用いたLLMレスポンスのサーバーレスストリーミング手法が紹介されました。Security Blogでは、AWS CIRTが観測するインシデントで最多の侵入口である長期認証情報の露出を最小化する実践手順と、AWS Security Incident ResponseへのAI活用型調査機能の追加が取り上げられました。セキュリティ速報ではAWS Wickrデスクトップクライアントの通話音声終了不具合(CVE-2025-13524)が公開されました。
+"topics":
+  - "Amazon API GatewayのTLSセキュリティポリシー強化とALBプライベート統合"
+  - "LambdaでのKafkaストリーミング高スループット化とBedrock LLMのサーバーレスストリーミング"
+  - "長期認証情報の露出最小化に向けたAWSセキュリティサービス活用"
+  - "AWS Security Incident ResponseにAI活用型調査機能を追加"
+  - "AWS Wickrデスクトップクライアントの通話音声終了不具合 (CVE-2025-13524)"

@@ -1,0 +1,15 @@
+"date": "2026-05-31"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日の更新は 1 件のみで、Amazon Inspector の EC2 向けエージェントベーススキャン改善が発表されました。新しい
+  Inspector VM Scanner は検出範囲を拡大し、WordPress、Apache HTTP Server、Python パッケージ、Ruby gems など
+  より広範なソフトウェアの脆弱性を検出できるようになりました。同時に EC2 インスタンス上の CPU 使用率を削減し、本番
+  ワークロードへの影響を最小化します。エージェントレススキャンと同等の検出カバレッジを実現し、追加の IAM インスタンス
+  プロファイルロールは不要で、既存の SSM Agent 構成のまま利用できます。Amazon Inspector が利用可能な全リージョンで
+  追加費用なしで提供されます。
+"topics":
+  - "Amazon Inspector: EC2 向けエージェントベーススキャンを改善、検出範囲拡大と CPU 使用率削減"

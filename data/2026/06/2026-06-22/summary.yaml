@@ -1,0 +1,15 @@
+"date": "2026-06-22"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_japan_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  週明けの振り返り記事と、建設業界向けの生成 AI 活用・フィジカル AI の話題が中心の一日でした。AWS Japan Blog では、自然言語の要件定義から国際標準 IDS を生成 AI で自動生成するパラレル IDS ビルダー（Amazon Bedrock AgentCore と AWS Step Functions を組み合わせた実装）や、BIM の IFC を RDF グラフに変換し Amazon Neptune へ格納して text-to-SPARQL で問い合わせるアーキテクチャなど、BIM データ活用のソリューションが解説されました。AI エージェントが現実世界で見て・考えて・動かす Physical AI の自律オペレーション、フィジカル AI 開発支援プログラムの Community Meetup 開催報告に加え、週刊 AWS と週刊生成 AI の総まとめも公開。News Blog では NY Summit の振り返り、ハノイ Local Zone、Bedrock の Grok 4.3、価格引き下げなどを扱う Weekly Roundup、What's New では AWS Outposts のセルフサービスライフサイクル管理機能が紹介されました。
+"topics":
+  - "建設×生成 AI: パラレル IDS ビルダー、IFC を Neptune グラフ化する text-to-SPARQL 活用"
+  - "Physical AI: 自律オペレーションのデモとフィジカル AI 開発支援プログラム Community Meetup"
+  - "週次まとめ: 週刊 AWS / 週刊生成 AI / AWS Weekly Roundup (NY Summit 振り返りなど)"
+  - "インフラ運用: AWS Outposts のセルフサービスライフサイクル管理機能"

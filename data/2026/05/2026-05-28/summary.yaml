@@ -1,0 +1,26 @@
+"date": "2026-05-28"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 25
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はエージェンティック AI の企業導入事例と、機械学習向けコンピュート/データ基盤の強化が目立ちました。機械学習
+  ブログでは Amazon Bedrock AgentCore を用いた営業戦略支援、Works Human Intelligence との協業でコストを最大
+  97% 削減した業務支援エージェント、Verizon Connect が 10 万ユーザーへ展開した事例、Bedrock Data Automation に
+  よる金融文書処理などが紹介されました。日本語ブログでは時系列基盤モデル Chronos-2（多変量・共変量のゼロショット予測）が
+  登場。What's New では SageMaker HyperPod の MinCount 対応、多数の SageMaker ノートブック向け GPU インスタンス
+  (P5/P5en/P6-B200/P4de) のリージョン拡大、Amazon EMR の Apache Spark 4.0.2 対応、Bedrock の Service Quotas
+  拡張、Aurora MySQL の Kiro Powers 連携、AWS IoT Core のダイレクトメッセージング、Elemental Inference の
+  Smart Subtitles などが公開されました。
+"topics":
+  - "Amazon Bedrock AgentCore 事例: WHI でコスト最大 97% 削減、Verizon Connect の 10 万ユーザー展開"
+  - "Chronos-2: 多変量・共変量をゼロショットで扱う時系列予測基盤モデル"
+  - "SageMaker: HyperPod の MinCount 対応と GPU ノートブックインスタンスのリージョン拡大"
+  - "Amazon EMR: Apache Spark 4.0.2 を一般提供、ANSI SQL・VARIANT・Iceberg v3 対応"
+  - "Aurora MySQL: Kiro Powers 連携で AI エージェント支援の開発を高速化"
+  - "AWS IoT Core: ポイントツーポイントのダイレクトメッセージング対応"

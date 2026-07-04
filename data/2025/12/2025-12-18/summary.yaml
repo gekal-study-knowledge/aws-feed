@@ -1,0 +1,14 @@
+"date": "2025-12-18"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 17
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日は新機能発表が多く、IPv6 対応、コンテナ/コンピュート、ガバナンス強化が目立ちました。IPv6 では Amazon WorkSpaces と Amazon MSK Connect (新規コネクタ) がデュアルスタックに対応。コンピュートでは EC2 が API 全体で Availability Zone ID をサポートし、Intel Xeon 6 の R8i/R8i-flex や AMD EPYC の C8a が新リージョンに追加されました。コンテナでは ECS Managed Instances が EC2 Spot に対応 (最大 90% 割引)、ECS が Fargate タスク引退の週次イベントウィンドウ設定に対応、MSK Express Brokers が Kafka 3.9 で KRaft をサポート。サーバーレスでは Lambda durable functions が 14 リージョンに拡張。データベースでは Aurora が複数の PostgreSQL マイナーバージョン、Neptune がチューリッヒに対応。ガバナンスでは Control Tower に 176 の Security Hub コントロールが追加され、Clean Rooms は既存コラボレーションの変更リクエスト、Direct Connect は FIS によるレジリエンステスト、SES は電子メール検証を追加しました。
+"topics":
+  - "IPv6 対応: Amazon WorkSpaces と MSK Connect (新規コネクタ) がデュアルスタックに対応"
+  - "コンピュート: EC2 が AZ ID を API 全体でサポート、R8i/R8i-flex・C8a を新リージョンへ拡張"
+  - "コンテナ: ECS Managed Instances が EC2 Spot 対応、Fargate タスク引退の週次ウィンドウ、MSK Express が Kafka 3.9 で KRaft 対応"
+  - "サーバーレス/DB: Lambda durable functions を 14 リージョン追加、Aurora が複数 PostgreSQL バージョン、Neptune がチューリッヒ対応"
+  - "ガバナンス/セキュリティ: Control Tower に 176 Security Hub コントロール、Clean Rooms 変更リクエスト、Direct Connect FIS テスト、SES 電子メール検証"

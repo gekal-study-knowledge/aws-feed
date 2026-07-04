@@ -1,0 +1,15 @@
+"date": "2026-02-02"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 12
+"sources":
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI モデルの拡充とセキュリティ強化が目立ちました。SageMaker JumpStart には DeepSeek OCR、MiniMax M2.1、Qwen3-VL-8B-Instruct が追加され、さらに創薬・ロボティクス向けの NVIDIA NIMs (ProteinMPNN、Nemotron-3.5B-Instruct、MSA Search NIM、Cosmos Reason) がワンクリックでデプロイ可能になりました。セキュリティ面では SageMaker Python SDK の HMAC 鍵漏洩と TLS 設定に関する脆弱性 (CVE-2026-1777/1778) の速報が公開されたほか、CloudFront が origin 向け mTLS に対応、AWS STS が Google・GitHub・CircleCI・OCI の IdP 固有クレーム検証をサポート、Multi-party approval が投票時の OTP 検証を必須化しました。Amazon Connect は音声インタラクションのテスト・シミュレーション API を提供、Lightsail はメモリ最適化バンドルを追加、RDS for MySQL は新マイナーバージョン 8.0.45/8.4.8 に対応しました。
+"topics":
+  - "生成 AI モデル拡充: SageMaker JumpStart に DeepSeek OCR・MiniMax M2.1・Qwen3-VL、および創薬・ロボティクス向け NVIDIA NIMs を追加"
+  - "セキュリティ速報: SageMaker Python SDK の脆弱性 CVE-2026-1777/1778 を公開"
+  - "認証・アクセス制御: CloudFront origin mTLS、STS の IdP クレーム検証、Multi-party approval の OTP 検証必須化"
+  - "サービス拡充: Amazon Connect の音声テスト API、Lightsail メモリ最適化バンドル、RDS for MySQL 新バージョン対応"

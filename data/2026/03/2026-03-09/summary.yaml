@@ -1,0 +1,15 @@
+"date": "2026-03-09"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 9
+"sources":
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は基盤サービスの一般提供とセキュリティ強化が目立ちました。Amazon Route 53 Global Resolver が 30 リージョンで一般提供となり、DNS フィルタリングと集中クエリログを備えたエニーキャスト DNS 解決を提供します。セキュリティ面では IAM Roles Anywhere が NIST 標準化の耐量子署名アルゴリズム ML-DSA (FIPS 204) に対応し、X.509 証明書ベース認証の将来的な安全性を強化しました。リージョン拡充では Amazon Cognito が台北・ニュージーランドに、NVIDIA RTX PRO 6000 Blackwell 搭載の EC2 G7e がソウル・スペインに追加されました。運用系では CloudWatch Logs のクエリ同時実行数が 30 から 100 へ引き上げられ、SageMaker Unified Studio の Visual ETL に約 1 秒で結果を返すデータプレビュー v2.0 が導入されました。Amazon Quick Suite にはチャット個人設定の User Preferences も追加されています。
+"topics":
+  - "DNS / ネットワーク: Amazon Route 53 Global Resolver が 30 リージョンで一般提供、DGA など高度な脅威のフィルタリングに対応"
+  - "耐量子セキュリティ: IAM Roles Anywhere が ML-DSA (FIPS 204) 耐量子デジタル署名をサポート"
+  - "リージョン拡充: Amazon Cognito が台北・ニュージーランド、EC2 G7e (Blackwell GPU) がソウル・スペインに追加"
+  - "運用・データ: CloudWatch Logs のクエリ同時実行数を 100 へ拡大、SageMaker Unified Studio Visual ETL のデータプレビュー v2.0"
+  - "生産性: Amazon Quick Suite にチャット個人設定を保存する User Preferences を追加"

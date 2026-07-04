@@ -1,0 +1,10 @@
+"date": "2025-10-09"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_security_bulletins"
+"overview": |
+  この日はAWSからAmazon.IonDotnetライブラリのサービス拒否(DoS)脆弱性に関するセキュリティ速報(CVE-2025-11573、AWS-2025-022)が1件公開された。Amazon.IonDotnetはAmazon Ionデータの読み書きに使われる.NET向けライブラリで、v1.3.2より前のバージョンには無限ループの問題があり、特別に細工されたテキスト入力によって攻撃者がサービス拒否を引き起こせる。なお、このライブラリは2025年8月20日をもって非推奨(deprecated)となり、今後の更新は行われない。影響を受けるのはv1.3.2未満のバージョン。
+"topics":
+  - "Amazon.IonDotnet: 細工されたテキスト入力による無限ループでDoSの恐れ (CVE-2025-11573)"

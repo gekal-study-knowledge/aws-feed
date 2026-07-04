@@ -1,0 +1,13 @@
+"date": "2026-02-27"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 12
+"sources":
+  - "aws_whats_new"
+"overview": |
+  運用可観測性、データベース、災害復旧、ネットワークセキュリティなど多岐にわたる機能強化が発表された。Amazon OpenSearch ServiceはCluster OverloadとSuboptimal Sharding Strategyの2つのInsightを追加し、クラスタ安定性の監視を強化した。CloudWatchはログ集約ルールで宛先ロググループ構造をカスタマイズ可能にした。データベースではRDS for PostgreSQLが最新マイナーバージョン (18.3、17.9ほか) をサポートした。災害復旧のARC Region switchはポストリカバリワークフロー、RDSオーケストレーション、Terraform AWSプロバイダー対応の3機能を追加。セキュリティ/ネットワークではNetwork FirewallのEventBridge経由状態変更通知、RAMの組織移動時の共有維持、IAM Identity CenterのIPv6デュアルスタック対応 (Taipei/GovCloud) が登場。ほかにOracle Database@AWSのDublinリージョン展開、EC2 Image Builderのライフサイクルポリシー強化、Bedrockバッチ推論のConverse API対応、英国向けBacs Direct Debit決済、LightsailのWordPressブループリントも追加された。
+"topics":
+  - "可観測性/運用: OpenSearchのCluster Insights追加、CloudWatchログ集約の宛先カスタマイズ、EC2 Image Builderライフサイクル強化"
+  - "データベース: RDS for PostgreSQL新マイナーバージョン、Bedrockバッチ推論のConverse API対応"
+  - "災害復旧/ネットワーク: ARC Region switchの新機能、Network FirewallのEventBridge通知、RAMの組織移動時共有維持"
+  - "リージョン/ID/決済: Oracle Database@AWSのDublin展開、IAM Identity CenterのIPv6対応、英国Bacs Direct Debit決済"

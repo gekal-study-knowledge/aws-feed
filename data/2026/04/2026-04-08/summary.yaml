@@ -1,0 +1,19 @@
+"date": "2026-04-08"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 19
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI と開発者向けツール、そしてインフラ拡充が中心でした。開発者支援では Kiro スタートアップクレジットプログラムの復活と、月 1,000 クレジットを無償提供する Kiro Students プランが発表されました。機械学習分野では Amazon Bedrock を用いた Amazon Nova モデルのファインチューニングと強化学習ファインチューニング (RFT) のベストプラクティス、Nova Multimodal Embeddings による音声セマンティック検索、医療・ライフサイエンス向けエージェントワークフローの Human-in-the-loop 実装が解説されました。基盤面では Oracle Database@AWS が計 12 リージョンに拡大 (ダブリン、ロンドン、ムンバイ、ハイデラバード、ソウル追加)、OpenSearch Service が Graviton4 ベース i8ge インスタンスに対応、SageMaker HyperPod のギャングスケジューリング、EKS マネージドノードグループの EC2 ウォームプール対応が加わりました。AgentCore Browser の OS レベル操作、WorkSpaces Advisor による AI トラブルシューティング、国内では大豊建設の生成 AI 活用事例も紹介されました。
+"topics":
+  - "開発者向けツール: Kiro スタートアップクレジット復活、Kiro Students プラン (月1,000クレジット無償) 開始"
+  - "生成 AI/ML: Bedrock での Nova ファインチューニング・RFT、Nova Embeddings による音声検索、医療分野の Human-in-the-loop エージェント"
+  - "インフラ拡充: Oracle Database@AWS が12リージョンに拡大、OpenSearch の Graviton4 i8ge 対応、EC2 系の新機能"
+  - "コンテナ/AI基盤: SageMaker HyperPod ギャングスケジューリング、EKS ウォームプール、AgentCore Browser の OS レベル操作"
+  - "国内事例・運用: 大豊建設の生成 AI 活用、WorkSpaces Advisor による AI トラブルシューティング"
+  - "セキュリティ: S3 バケットへのフォレンジックアーティファクト安全収集フレームワーク"

@@ -1,0 +1,18 @@
+"date": "2026-04-21"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 29
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はサーバーレスとデータベースの進化が目立ちました。Amazon Aurora Serverless はプラットフォームバージョン 4 で最大 30% の性能向上とゼロスケールを維持したスマートなスケーリングを実現し、エージェント型 AI ワークロードに好適とされました。AWS Lambda は S3 バケットをファイルシステムとしてマウントできる S3 Files に対応し、Durable Execution SDK for Java も一般提供開始。分析分野では CloudWatch Logs Insights の JOIN/サブクエリ対応、CloudWatch パイプラインの生成 AI 設定、Athena Spark の PrivateLink 対応、Glue の Snowflake OAuth 2.0 対応が発表されました。ML では SageMaker JumpStart に 5 つの新 Qwen モデル、SageMaker AI の推論レコメンデーション、SageMaker の IAM Identity Center マルチリージョン複製が登場。EKS Hybrid Nodes ゲートウェイや MSK Serverless の 13 リージョン拡張、Amazon Quick Automate の API・共有ファイルストレージ・移行機能も追加されました。日本語ブログでは Kiro 仕様駆動開発イベントや AI 駆動業務変革、Bedrock の IAM ベースコスト配分が紹介されました。
+"topics":
+  - "サーバーレス: Aurora Serverless v4 で最大 30% 性能向上、Lambda S3 Files と Java Durable Execution SDK GA"
+  - "分析: CloudWatch Logs Insights の JOIN/サブクエリ、Athena Spark PrivateLink、Glue Snowflake OAuth"
+  - "生成 AI/ML: SageMaker JumpStart の新 Qwen モデル、推論レコメンデーション、IdC マルチリージョン複製"
+  - "コンテナ/ストリーミング: EKS Hybrid Nodes ゲートウェイ、MSK Serverless 13 リージョン拡張"
+  - "自動化: Amazon Quick Automate の API 実行・共有ファイルストレージ・アカウント間移行"
+  - "AI 開発文化: Kiro 仕様駆動開発と AI 駆動業務変革、Bedrock IAM ベースコスト配分"

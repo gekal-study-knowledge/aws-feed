@@ -1,0 +1,15 @@
+"date": "2026-02-11"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 16
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はコンタクトセンター、データベース、コンピュート、分析、AIエージェントにわたり幅広い発表があった。Amazon Connectは通話後作業のタイムアウト設定、タスク/チャット/メールの自動受付、騒がしい環境向けの音声強化と複数の機能を追加した。データベースではAmazon Aurora DSQLがメルボルンやシドニー、カナダなど新リージョンに拡大し、Amazon DocumentDBもメルボルンとチューリッヒで利用可能になった。コンピュートではXeon 6搭載のC8i/C8i-flexおよびR8i/R8i-flexインスタンスがリージョン拡大した。分析ではAWS Lake Formationがクロスアカウント共有を強化、Amazon MSKがExpress Brokerのログとトピック管理API/コンソールを追加した。さらにAWS Payment CryptographyがCartes Bancairesの承認を取得し、Bedrock AgentCore Browserはプロキシ設定に対応した。
+"topics":
+  - "コンタクトセンター: ConnectがACWタイムアウト、自動受付、音声強化を追加"
+  - "データベース: Aurora DSQLとDocumentDBがリージョン拡大、RDS for MariaDBが新マイナーバージョン対応"
+  - "コンピュート: Xeon 6搭載C8i/C8i-flex・R8i/R8i-flexがリージョン拡大"
+  - "分析/ストリーミング: Lake Formationのクロスアカウント共有強化、MSK Express Brokerログとトピック管理API"
+  - "セキュリティ/決済: Payment CryptographyがCartes Bancaires承認を取得"
+  - "AIエージェント: Bedrock AgentCore Browserがプロキシ設定に対応"

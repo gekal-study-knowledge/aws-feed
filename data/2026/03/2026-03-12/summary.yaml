@@ -1,0 +1,18 @@
+"date": "2026-03-12"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 15
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日の目玉は Amazon S3 の「アカウントリージョナル名前空間」で、グローバルに一意なバケット名を探す必要がなくなり、37 リージョンでアカウント予約済みの名前空間にバケットを作成できるようになりました。生成 AI 分野では Bedrock AgentCore の Policy 機能を Cedar ポリシーでエージェントのツール・データアクセスを identity-aware に制御する解説、AgentCore Memory の長期メモリのストリーミング通知 (Kinesis 連携)、Bedrock の TTFT / クォータ消費 CloudWatch メトリクスの活用記事が公開されました。開発生産性では AWS CDK Mixins が一般提供となり .with() 構文で再利用可能な抽象化を追加でき、AI アシスタント向けの LZA MCP サーバーもオープンソース化されました。セキュリティ・保護面では AMI ライフサイクル管理の AMI Lineage 解説、AWS Backup の EKS 向け論理的エアギャップvault対応、Private CA Connector for SCEP の PrivateLink サポートが追加され、そのほか WorkSpaces の Windows Server 2025 対応、EC2 M8i の欧州拡充、Glue zero-ETL の DynamoDB CDC 設定強化なども発表されました。
+"topics":
+  - "ストレージ: Amazon S3 がアカウントリージョナル名前空間を導入、グローバル一意名不要で 37 リージョンにバケット作成可能"
+  - "生成 AI エージェント: Bedrock AgentCore Policy による Cedar ベースのアクセス制御、AgentCore Memory のストリーミング通知、LZA MCP サーバーのオープンソース化"
+  - "可観測性: Bedrock の TimeToFirstToken / EstimatedTPMQuotaUsage メトリクスでの推論性能・クォータ管理解説"
+  - "開発生産性: AWS CDK Mixins が一般提供、.with() 構文で再利用可能な抽象化を追加"
+  - "セキュリティ・保護: AMI Lineage による AMI ライフサイクル管理、AWS Backup の EKS 論理的エアギャップvault、Private CA Connector for SCEP の PrivateLink 対応"
+  - "コンピュート・データ: WorkSpaces の Windows Server 2025 対応、EC2 M8i の欧州拡充、Glue zero-ETL DynamoDB の CDC 設定強化"

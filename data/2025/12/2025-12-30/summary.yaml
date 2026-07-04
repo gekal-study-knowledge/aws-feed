@@ -1,0 +1,11 @@
+"date": "2025-12-30"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 2
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日は新機能発表が 2 件でした。AWS WAF がアジアパシフィック (ニュージーランド) リージョンで利用可能になりました。AWS WAF は一般的な Web の脆弱性やボットから Web アプリケーションリソースを保護する Web アプリケーションファイアウォールで、指定した条件に基づいてコンテンツへのアクセスを制御できます。もう 1 件は、Amazon CloudWatch における CloudTrail Lake データの簡易インポートの提供開始です。CloudWatch は運用・セキュリティ・コンプライアンスデータを AWS 環境や third-party ソースにわたり統合するデータ管理・分析サービスで、CloudTrail Lake のイベントデータストア (EDS) と日付範囲を指定するだけで履歴データをインポートし、一元管理できます。コンソール、CLI、SDK からの操作に対応します。
+"topics":
+  - "セキュリティ: AWS WAF がアジアパシフィック (ニュージーランド) リージョンで利用可能に"
+  - "監視/分析: Amazon CloudWatch で CloudTrail Lake データの簡易インポートを提供開始"

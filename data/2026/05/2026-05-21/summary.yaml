@@ -1,0 +1,19 @@
+"date": "2026-05-21"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 20
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティと生成 AI、データベースのアップデートが充実しました。AWS Security Hub Extended が 9 カテゴリ 21 のキュレーション済みパートナーソリューションへ拡大し、Security Hub は未使用アクセスによる ID リスクの検出にも対応しました。オープンソースでは DynamoDB 互換アダプター ExtendDB の v0.1 が発表。機械学習では SageMaker AI の OpenAI 互換 API 対応、画像テキストタスク向けの MLLM 評価、vLLM を用いたリアルタイム音声アプリが紹介されました。データベースでは DocumentDB Serverless の 8.0 対応、RDS Custom の SQL Server GDR 更新、Bedrock のリクエスト単位使用量属性付けが発表。日本語ブログでは Physical AI の Sim-to-Real、形式検証済み AES-XTS を解説。セキュリティ速報では rabbitmq-aws プラグインの CVE-2026-9133 が告知されました。
+"topics":
+  - "セキュリティ: Security Hub Extended 拡大、未使用アクセス検出、CVE-2026-9133"
+  - "生成 AI: SageMaker AI の OpenAI 互換 API、MLLM 評価"
+  - "OSS: DynamoDB 互換アダプター ExtendDB v0.1"
+  - "データベース: DocumentDB 8.0 Serverless、RDS Custom SQL Server GDR"
+  - "暗号/AI: 形式検証済み AES-XTS、Physical AI の Sim-to-Real"

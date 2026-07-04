@@ -1,0 +1,14 @@
+"date": "2025-12-19"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 12
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日は新機能発表が中心で、レジリエンス、AI/ML、コンテナ、コスト管理が主要テーマでした。Amazon Application Recovery Controller (ARC) の Region switch は GovCloud 対応、プラン実行レポートの自動生成、DocumentDB グローバルクラスタ実行ブロックの 3 機能を追加。AI/ML では SageMaker Studio が SOCI インデックスでカスタムイメージのコンテナ起動を 30〜50% 高速化、Bedrock Data Automation がドキュメントブループリントの指示最適化に対応しました。コンテナでは ECR がプッシュ時の自動リポジトリ作成に対応。コスト管理では AWS Organizations のアカウントタグを Cost Explorer などで直接使えるコスト配分タグ対応が発表されました。その他、AWS Private CA OCSP の中国/GovCloud 対応、RDS スナップショットエクスポートのオブザーバビリティ強化、Timestream for InfluxDB の再起動 API、AWS IoT のイベントベースロギング、Redshift ODBC の macOS 対応、Glue zero-ETL の 7 リージョン拡張が公開されています。
+"topics":
+  - "レジリエンス: ARC Region switch が GovCloud 対応・プラン実行レポート・DocumentDB グローバルクラスタ実行ブロックを追加"
+  - "AI/ML: SageMaker Studio の SOCI インデックスで起動 30〜50% 高速化、Bedrock Data Automation の指示最適化"
+  - "コンテナ: ECR がプッシュ時の自動リポジトリ作成に対応"
+  - "コスト管理: AWS Organizations アカウントタグをコスト配分タグとして利用可能に"
+  - "その他: Private CA OCSP の中国/GovCloud 対応、RDS スナップショットエクスポート観測性、Glue zero-ETL の 7 リージョン拡張"

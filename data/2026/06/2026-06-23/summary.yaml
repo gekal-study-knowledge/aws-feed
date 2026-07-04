@@ -1,0 +1,21 @@
+"date": "2026-06-23"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 34
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  サーバーレスの新プリミティブと AI エージェント運用、AWS Summit Japan 2026 に向けた記事が数多く公開された一日でした。News Blog では、ユーザーや AI 生成コードを VM レベルで分離実行できる新しいサーバーレスプリミティブ AWS Lambda MicroVMs を発表。Firecracker 上で近瞬時起動と最大 8 時間の状態保持を両立し、US East、US West、東京、アイルランドで提供されます。What's New では AWS Batch の順序指定アロケーション戦略、IAM Identity Center のアカウント/アプリ別クォータ、Network Firewall のデフォルトドロップ変更、MSK の AI Agent Skills、AWS Transform の全商用リージョン対応、OpenSearch の AI 支援マイグレーション、AWS Marketplace 経由の Claude Tag ベータ、Amazon Connect の Agentic CX designer プレビューなどが並びました。Architecture Blog は Bedrock と Verified Permissions によるマルチテナント RAG や AI 駆動のレジリエンスフレームワークを、ML Blog は多モーダル航空画像検索や AgentCore Payments を解説。Japan Blog は Summit Japan 2026（幕張メッセ）関連の展示紹介や各種機能の日本語解説を多数掲載しました。
+"topics":
+  - "サーバーレス: AWS Lambda MicroVMs による VM レベル分離実行の新プリミティブ"
+  - "AI エージェント運用: MSK AI Agent Skills、OpenSearch AI 支援マイグレーション、AWS Transform 継続的モダナイズ"
+  - "セキュリティ/ガバナンス: egress 制御、Network Firewall デフォルト変更、IAM Identity Center クォータ分離"
+  - "生成 AI アーキテクチャ: マルチテナント RAG、AI レジリエンスフレームワーク、AgentCore Payments"
+  - "コンタクトセンター/協業: Amazon Connect Agentic CX designer プレビュー、Claude Tag ベータ (AWS Marketplace)"
+  - "AWS Summit Japan 2026: 建設・不動産や Immersive Experience などブース展示の日本語紹介"

@@ -1,0 +1,21 @@
+"date": "2026-05-11"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 9
+"sources":
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はAI・生成AIエージェント関連の発表が目立ちました。最大の話題はClaude Platform on AWSの一般提供で、
+  AWSは既存のAWSアカウントからAnthropicのネイティブClaude Platform体験（API、コンソール、ベータ機能）へ
+  直接アクセスできる初のクラウドプロバイダーとなりました。日本語ブログでは週刊AWSと週刊生成AIが、Agent
+  Toolkit for AWSとAWS MCP Serverの一般提供、Bedrock AgentCore RuntimeのS3/EFSサポート、WorkSpacesが
+  AIエージェント専用デスクトップをプレビュー提供する話題などを紹介。導入事例としてヤマトプロテックの2日間
+  での書類電子保管システム構築、ラーメン山岡家のFivetran CDCによるIceberg on AWSデータパイプライン、JPX
+  総研のQuickSight活用も取り上げられました。サービス面ではAWS Transformが移行時のコンテナ化に対応しています。
+"topics":
+  - "Claude Platform on AWS: ネイティブ体験を一般提供開始"
+  - "AWS MCP Server / Agent Toolkit for AWS: 一般提供"
+  - "AWS Transform: 移行時のコンテナ化（replatform）に対応"
+  - "WorkSpaces: AIエージェント専用デスクトップをプレビュー"
+  - "導入事例: ヤマトプロテック、山岡家のIcebergパイプライン、JPX総研"

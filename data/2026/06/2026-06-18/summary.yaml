@@ -1,0 +1,19 @@
+"date": "2026-06-18"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 27
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  2026 年 6 月 17 日にニューヨークで開催された AWS Summit を軸に、生成 AI 関連の発表が集中した一日でした。Amazon Bedrock AgentCore では知識拡充と継続学習の新機能、Web Search、フルマネージドナレッジベースが登場し、エンタープライズ RAG やエージェント構築の強化が図られました。Amazon Quick への自律エージェント追加、コードの脆弱性にマシンスピードで対応する AWS Continuum、スマホから使える Kiro for iOS、AWS DevOps Agent のリリース管理機能（プレビュー）なども発表されました。基盤サービスでは Graviton5 ベースの RDS M9g インスタンス、RDS for MySQL 5.7 の Extended Support を 2029 年 6 月まで延長、Glue Interactive Sessions の Spark Connect 対応、SageMaker Async Inference のインラインペイロード対応が公開。Bedrock AgentCore Python SDK の脆弱性 (CVE-2026-12530) も告知されました。
+"topics":
+  - "AWS Summit New York 2026: Bedrock AgentCore・マネージドナレッジベース・Web Search など生成 AI 発表"
+  - "AI エージェント基盤: Amazon Quick 自律エージェント、Kiro for iOS、DevOps Agent リリース管理"
+  - "セキュリティ: AWS Continuum とコード脆弱性対応、AgentCore Python SDK の CVE-2026-12530"
+  - "データベース/分析: RDS M9g (Graviton5)、MySQL 5.7 Extended Support 延長、Glue Spark Connect"
+  - "日本語ワークショップ/事例: OpenSearch 検索・Observability、日立グループ AI-DLC"

@@ -1,0 +1,12 @@
+"date": "2025-12-10"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 2
+"sources":
+  - "aws_architecture_blog"
+  - "aws_security_blog"
+"overview": |
+  この日はアーキテクチャとセキュリティの各 1 件が公開されました。アーキテクチャブログでは、BASF Agricultural Solutions が Amazon Managed Blockchain を用いて食料・綿花のバリューチェーンをトークン化し、トレーサビリティ、気候変動対策、循環型経済を推進する取り組みが紹介されました。革新的な製品・デジタルツールと農家の実践的知見を組み合わせ、農業分野に前向きな変化をもたらす事例です。セキュリティブログでは、増加傾向にある短時間・高スループットのレイヤー 7 (L7) DDoS 攻撃に対し、AWS WAF Anti-DDoS AWS Managed Rules (Anti-DDoS AMR) を用いて応答をカスタマイズする方法が解説されました。デフォルト設定は多くのワークロードに有効ですが、より細かな制御を求めるケースへの対応方法が示されています。
+"topics":
+  - "ブロックチェーン活用: BASF が Amazon Managed Blockchain で綿花・食料のバリューチェーンをトークン化しトレーサビリティを実現"
+  - "DDoS 対策: AWS WAF Anti-DDoS AMR による L7 DDoS 攻撃への応答カスタマイズ手法"

@@ -1,0 +1,15 @@
+"date": "2026-02-24"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 18
+"sources":
+  - "aws_compute_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  メディア、コンピュート、AI/エージェント分野で多数の発表があった。目玉はAWS Elemental Inferenceの一般提供で、ライブ/オンデマンド映像をTikTokやInstagram Reels向け縦型フォーマットに自動変換する。EC2ではM8a (Frankfurt)、R7a (Hyderabad)、C8i/C8i-flex (Malaysia、Sao Paulo)、I7ie/C7i (Cape Town) と各リージョンへのインスタンス展開が相次いだ。AI/エージェント関連ではAmazon BedrockがAgentCore Gatewayによるサーバーサイドツール実行に対応し、AWS ObservabilityがKiro powerとして提供、AWS WAFはAIボット/エージェントトラフィックを可視化するダッシュボードを発表した。運用面ではEKS Node Monitoring Agentのオープンソース化、AppConfigとNew Relic連携による自動ロールバック、MediaConvertの無料Probe APIなども登場した。
+"topics":
+  - "メディアAI: AWS Elemental InferenceのGA、MediaConvert Probe API"
+  - "EC2リージョン拡張: M8a/R7a/C8i/I7ie/C7iの各リージョン展開"
+  - "生成AI/エージェント: BedrockのAgentCore Gatewayサーバーサイドツール実行、AWS ObservabilityのKiro power"
+  - "セキュリティ/運用: WAFのAIトラフィックダッシュボード、EKS Node Monitoring Agentのオープンソース化、AppConfig×New Relic自動ロールバック"

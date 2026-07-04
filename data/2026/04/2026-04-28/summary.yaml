@@ -1,0 +1,21 @@
+"date": "2026-04-28"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 30
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は「What's Next with AWS」に向けた Amazon Quick の大型アップデートが最大の話題でした。Quick は macOS/Windows 向けネイティブデスクトップアプリ (プレビュー)、チャット内でのドキュメント・ビジュアル作成、自然言語によるカスタムアプリ構築 (プレビュー)、Google Workspace・Zoom・Airtable など 13 の新コネクタ、無料 Free/Plus プランを一挙に発表しました。また Amazon Connect Decisions というサプライチェーン向けエージェント型 AI ソリューションも GA。EC2 では第 6 世代 Intel Xeon 搭載の M8in/M8ib、R8in/R8ib、C8ine/M8ine インスタンスが GA となり、旧世代比最大 43% の性能向上を実現しました。データ分析では Amazon Redshift Serverless が Melbourne/Calgary で提供開始し AI 駆動スケーリングを新規ワークグループのデフォルトに。AWS KMS のキー最終使用日時追跡、CloudWatch RUM の App Monitors 改善、FSx for OpenZFS の 17 リージョン拡大なども発表され、セキュリティ速報では QnABot on AWS の任意コード実行脆弱性 (CVE-2026-7191) が公開されました。
+"topics":
+  - "Amazon Quick 大型更新: デスクトップアプリ、文書/ビジュアル作成、カスタムアプリ、13新コネクタ、Free/Plusプラン"
+  - "EC2新インスタンス: M8in/M8ib、R8in/R8ib、C8ine/M8ine の GA (最大43%性能向上)"
+  - "AIエージェント/ML: Amazon Connect Decisions の GA、Strands Agents、Bedrock Knowledge Bases自動同期"
+  - "データ分析: Redshift Serverless のリージョン拡大とAI駆動スケーリングのデフォルト化"
+  - "運用/セキュリティ: KMSキー使用追跡、CloudWatch RUM改善、QnABot脆弱性 (CVE-2026-7191)"
+  - "リージョン拡張: FSx for OpenZFS Single-AZ (HA) の17リージョン追加"

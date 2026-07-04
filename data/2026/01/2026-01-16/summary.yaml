@@ -1,0 +1,15 @@
+"date": "2026-01-16"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 10
+"sources":
+  - "aws_compute_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はAWS Outposts関連の発表が中心となった。Outpostsラックが複数のローカルゲートウェイ(LGW)ルーティングドメインをサポートし、1つのOutpostあたり最大10個の分離されたルーティングドメインを作成してネットワークセグメンテーションを簡素化できるようになった。また第2世代Outpostsラックが南米(サンパウロ)と欧州(ストックホルム)リージョンで利用可能になった。ストレージ面ではAmazon S3 Storage LensがAWS GovCloud(US)リージョンで提供開始。Amazon MWAAがアジアパシフィック(タイ)リージョンに、EC2 High Memory U7iインスタンスが追加リージョンに拡大した。生成AI領域ではAmazon BedrockのReserved TierがClaude Opus 4.5とHaiku 4.5向けに提供された。セキュリティブログではAWS上のデータガバナンス実装に関する2部構成の記事が公開された。
+"topics":
+  - "AWS Outposts: 複数LGWルーティングドメイン対応と第2世代ラックのリージョン拡大"
+  - "Amazon Bedrock: Reserved TierがClaude Opus 4.5/Haiku 4.5に対応"
+  - "ストレージ/コンピュート: S3 Storage LensのGovCloud対応、EC2 U7iインスタンス拡大"
+  - "データガバナンス: 自動化・タグ付け・ライフサイクル戦略の実装解説"

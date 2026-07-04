@@ -1,0 +1,18 @@
+"date": "2026-04-30"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 21
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI の基盤モデル拡充と日本での公共・製造業での活用事例が目立ちました。Amazon SageMaker JumpStart には Google DeepMind の Gemma 4 (E4B/26B-A4B/31B) が追加され、マルチモーダル・140 以上の言語対応を実現。多言語埋め込みモデルや Table Transformer、Bielik-11B なども提供開始しました。Amazon Bedrock は AWS GovCloud (US) で OpenAI GPT OSS と NVIDIA Nemotron モデルをサポートし、新しい分散推論エンジン Mantle を採用しました。日本語ブログでは、奈良市と日立システムズがマイナンバー系ネットワーク上で生成 AI (GenU) を活用し特定保健指導の業務効率化を検証した事例や、NVIDIA Robotics 勉強会の開催報告が紹介されました。基盤面では CloudFront のキャッシュタグ単位無効化、Lambda の Ruby 4.0 対応、OpenSearch のインデックス単位暗号化、CloudWatch エージェントの EC2 コンソール視覚設定、Quick への Microsoft 365 拡張機能などがありました。セキュリティ速報では FreeRTOS-Plus-TCP に関する複数の脆弱性 (CVE-2026-7422~7426) が公開されました。
+"topics":
+  - "生成AIモデル: SageMaker JumpStart に Gemma 4、GovCloud で OpenAI GPT OSS・NVIDIA Nemotron (Mantle採用)"
+  - "日本での活用: 奈良市×日立システムズのマイナンバー系での GenU 活用、NVIDIA Robotics 勉強会"
+  - "運用/開発: CloudFront キャッシュタグ無効化、Lambda Ruby 4.0、CloudWatch エージェント視覚設定"
+  - "データ/セキュリティ: OpenSearch インデックス単位暗号化、Bedrock の信頼性・安全性設計"
+  - "脆弱性速報: FreeRTOS-Plus-TCP の複数脆弱性 (CVE-2026-7422〜7426)"

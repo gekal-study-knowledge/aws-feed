@@ -1,0 +1,18 @@
+"date": "2026-04-22"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 24
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は AI エージェント開発とコンピューティングの強化が中心でした。Amazon Bedrock AgentCore に新機能が追加され、マネージドハーネス (プレビュー)、AgentCore CLI、コーディングアシスタント向けの AgentCore skills により、アイデアから動作するエージェントのプロトタイプまでを素早く構築できるようになりました。また Amazon Bedrock で Claude Cowork が提供開始され、開発者だけでなく全社のナレッジワーカーが AI を活用できる環境が整いました。ML では SageMaker AI の最適化された生成 AI 推論レコメンデーション、Qwen3.5 のサーバーレスモデルカスタマイズ、Neptune と Mem0 を用いた企業向けメモリが紹介されました。コンピューティングでは Intel Xeon 6 搭載の EC2 C8i/C8i-flex のリージョン拡張、ECS Managed Instances の GPU ヘルス監視・自動修復、Lambda Durable Functions の 16 リージョン拡張が発表。その他 OpenSearch のソフトウェア更新ロールバック、IVS のサーバーサイド広告挿入、Corretto の四半期更新も登場しました。セキュリティでは 184 サービスを対象とした Winter 2025 SOC 1 レポートと、Secrets Manager の MongoDB Atlas/Confluent Cloud 対応、Security Hub Extended の解説が公開されました。
+"topics":
+  - "AI エージェント: Bedrock AgentCore のマネージドハーネス/CLI/skills、Claude Cowork の Bedrock 提供開始"
+  - "生成 AI/ML: SageMaker AI 推論レコメンデーション、Qwen3.5 サーバーレスカスタマイズ、Neptune+Mem0 メモリ"
+  - "コンピューティング: EC2 C8i/C8i-flex リージョン拡張、ECS GPU ヘルス自動修復、Lambda Durable Functions 拡張"
+  - "運用・メディア: OpenSearch 更新ロールバック、IVS サーバーサイド広告挿入、Corretto 四半期更新"
+  - "セキュリティ: Winter 2025 SOC 1 レポート (184 サービス)、Secrets Manager 外部シークレット拡張"

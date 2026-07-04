@@ -1,0 +1,14 @@
+"date": "2026-02-10"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はデータベース、AI、分析、運用にわたる機能強化が発表された。Amazon Aurora Global Databaseはグローバル構成全体でのマネージドマイナーバージョンアップグレードに対応し、運用負荷を軽減した。AIではAmazon BedrockがDeepSeek V3.2やKimi K2.5、GLM 4.7など6つのオープンウェイトモデルを新たにサポートし、新しい分散推論エンジンProject Mantleを基盤とした。Amazon SageMaker HyperPodはコンソールからのノード操作を可能にした。分析ではAmazon Athenaが1分単位の予約と最小4DPUをサポート、Amazon OpenSearch Serverlessはコレクショングループを導入した。運用面ではAmazon CloudWatchがアラームミュートルールを追加し、EKS Auto Modeのログ配信も強化された。
+"topics":
+  - "生成AI: BedrockがDeepSeek/GLM/Kimiなど6つのオープンウェイトモデルとProject Mantleを提供"
+  - "データベース: Aurora Global Databaseがマネージドマイナーバージョンアップグレードに対応"
+  - "分析: Athenaが1分予約・最小4DPU、OpenSearch Serverlessがコレクショングループを導入"
+  - "運用/監視: CloudWatchアラームミュートルール、EKS Auto Modeの拡張ログ配信"
+  - "コンピュート: EC2 C8id/M8id/R8idインスタンスがリージョン拡大"

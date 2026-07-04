@@ -1,0 +1,19 @@
+"date": "2026-04-06"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 24
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はエージェント型 AI の開発ツールとストレージ/セキュリティ基盤の更新が目立ちました。Kiro には低コストの MiniMax M2.5 と 200K コンテキストの GLM-5 の 2 モデルが追加され、CLI の UX も刷新されました。日本語ブログでは AWS DevOps Agent による自律的インシデント対応や週刊ラウンドアップが解説され、機械学習分野では AgentCore Gateway への MCP サーバー接続 (認可コードフロー)、Amazon Quick による従業員オンボーディングエージェント構築、SageMaker AI のサーバーレスモデルカスタマイズによるツール呼び出し高速化、Windward の海事異常分析が紹介されました。セキュリティ面では Amazon S3 が新規/既存バケットで SSE-C 暗号化をデフォルト無効化するベストプラクティスを 37 リージョンで展開開始。その他 Verified Permissions のポリシーストアエイリアス、Smithy-Java クライアントフレームワークの GA、FSx for OpenZFS のメルボルンリージョン対応、IoT Greengrass の軽量コンポーネント SDK、SageMaker Unified Studio のノートブック入出力機能が発表されました。CloudWatch の OpenTelemetry/PromQL 対応の日本語解説も公開されています。
+"topics":
+  - "AI 開発ツール: Kiro への MiniMax M2.5・GLM-5 追加と CLI UX 刷新、AWS DevOps Agent による自律的インシデント対応"
+  - "エージェント構築: AgentCore Gateway への MCP サーバー接続 (認可コードフロー)、Amazon Quick でのオンボーディングエージェント、SageMaker AI のツール呼び出し高速化"
+  - "ストレージ/セキュリティ: S3 の SSE-C デフォルト無効化を 37 リージョンで展開、FSx for OpenZFS メルボルン対応、Verified Permissions のポリシーストアエイリアス"
+  - "開発者向け: Smithy-Java クライアントフレームワーク GA、IoT Greengrass 軽量コンポーネント SDK、SageMaker Unified Studio のノートブック入出力"
+  - "オブザーバビリティ: CloudWatch の OpenTelemetry メトリクス・PromQL 対応 (日本語解説)、SageMaker HyperPod の推論オペレーター簡易セットアップ"
+  - "国内事例/イベント: ヘルスケア業界向けセキュリティ GameDay 開催、Deadline Cloud での 3ds Max 利用方法"

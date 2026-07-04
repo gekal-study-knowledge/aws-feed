@@ -1,0 +1,20 @@
+"date": "2026-03-31"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 44
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はエージェント技術の一般提供とサステナビリティ、コード近代化に関する発表が集中しました。AWS はセキュリティテストとクラウド運用向けのフロンティアエージェントを発表し、AWS Security Agent のオンデマンドペネトレーションテストと AWS DevOps Agent がそれぞれ一般提供を開始。Amazon Bedrock AgentCore Evaluations も GA となりました。サステナビリティ分野では、Scope 1〜3 レポートやプログラムによるアクセス、設定可能な CSV レポートを一元化した AWS Sustainability コンソールが発表されました。AWS Transform では自動コードベース分析の GA と大規模なコード近代化向けの新しいマネージド変換が登場。データベースでは Amazon RDS for Oracle on AWS Outposts、Aurora DSQL の .NET/Rust コネクタが発表され、Amazon S3 Vectors は 17 リージョンに拡張されました。その他、OpenSearch Service のログ分析向けエージェント AI、CloudWatch Logs のルックアップクエリ、End User Messaging の RCS 対応、IAM Identity Center の欧州ソブリンクラウド（ドイツ）提供、ISO/IEC 27001:2022 準拠ガイドなど幅広い発表がありました。
+"topics":
+  - "エージェント GA: AWS Security Agent のオンデマンドペネトレーションテスト、AWS DevOps Agent、Bedrock AgentCore Evaluations、フロンティアエージェント発表"
+  - "サステナビリティ: Scope 1〜3 レポートとプログラムアクセスを一元化した AWS Sustainability コンソール"
+  - "コード近代化: AWS Transform custom の自動コードベース分析 GA と新しいマネージド変換"
+  - "データベース: RDS for Oracle on Outposts、Aurora DSQL の .NET/Rust コネクタ、S3 Vectors の 17 リージョン拡張"
+  - "運用/分析: OpenSearch Service のログ分析向けエージェント AI、CloudWatch Logs ルックアップクエリ、Direct Connect の CloudFormation 対応"
+  - "リージョン/コンプライアンス: IAM Identity Center の欧州ソブリンクラウド（ドイツ）提供、ISO/IEC 27001:2022 準拠ガイド"

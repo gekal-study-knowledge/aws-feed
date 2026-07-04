@@ -1,0 +1,10 @@
+"date": "2025-08-13"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_security_bulletins"
+"overview": |
+  この日はセキュリティ速報が1件公開された。Amazon EMR の Secret Agent コンポーネントに関する CVE-2025-8904 で、Lake Formation、Apache Ranger、ランタイムロール、Identity Center のいずれかの機能を使用する EMR クラスターにおいて、Kerberos 認証情報を含む keytab ファイルが /tmp/ ディレクトリに保存される問題。当該ディレクトリと別アカウントにアクセスできるユーザーがキーを復号し、権限昇格できる可能性があった。AWS は /tmp/ をステージングディレクトリから除外する修正を実施し、Amazon EMR 7.5 以降で提供している。影響を受けるのはバージョン6.10から7.4。
+"topics":
+  - "Amazon EMR Secret AgentのCVE-2025-8904: keytabファイルが/tmp/に保存され権限昇格の恐れ。EMR 6.10〜7.4が影響を受け、7.5以降で修正済み"

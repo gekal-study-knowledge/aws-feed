@@ -1,0 +1,17 @@
+"date": "2026-05-22"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 24
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は Amazon Bedrock AgentCore を軸とした AI エージェント関連記事が数多く公開されました。機械学習ブログでは AWS API MCP Server と Amazon Quick の連携、マルチテナントエージェント構築、コンテキストウィンドウの制約突破、BI 向け AI エージェント、採用アシスタント、放射線ワークフロー最適化などの事例が並び、Amazon Nova Act の HIPAA 対応も発表されました。日本語ブログでは AI エージェント対応データ基盤シリーズ、キヤノン IT ソリューションズの AI Coding Agent 導入で開発速度 3 倍の事例、ポスト量子暗号の自動推論検証を紹介。What's New では SageMaker AI の OpenAI 互換 API、Aurora MySQL 8.4 の GA、CloudWatch Logs Insights の新コマンド追加、Clean Rooms の可変支払い設定、Secrets Manager の Datadog / Snowflake 対応、EMR の Spark 4.0.2 対応などが発表されました。
+"topics":
+  - "AI エージェント: Bedrock AgentCore を用いた多数の構築事例"
+  - "生成 AI 事例: キヤノン ITS の開発速度 3 倍、Nova Act の HIPAA 対応"
+  - "データベース: Aurora MySQL 8.4 GA、EMR の Spark 4.0.2 対応"
+  - "分析/運用: CloudWatch Logs Insights 新コマンド、Clean Rooms 支払い設定"
+  - "セキュリティ: Secrets Manager の Datadog/Snowflake 外部シークレット対応"

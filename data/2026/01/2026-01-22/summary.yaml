@@ -1,0 +1,13 @@
+"date": "2026-01-22"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 11
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はEC2の新インスタンスとガバナンス、セキュリティ機能の更新が中心となった。カスタムIntel Xeon 6プロセッサ搭載のEC2 C8iおよびC8i-flexインスタンスが欧州(ロンドン)、アジアパシフィック(シドニー)、欧州(フランクフルト)リージョンで提供開始し、C7i比で最大20%高い性能を実現する。またGraviton4搭載のEBS最適化C8gb・M8gb・R8gbインスタンスに48xlargeとmetal-48xlサイズが追加された。ガバナンス面ではAWS Resource Control Policies(RCP)がAmazon CognitoとCloudWatch Logsをサポートし、AWS Configは13の新しいマネージドルールを追加した。セキュリティではAWS Security AgentがGitHub Enterprise Cloudに対応し、プライベートリポジトリでの自動コードレビューや修正が可能になった。このほかAmazon Neptune Analyticsの7リージョン拡大、Bedrock AgentCore Browserのカスタム拡張機能対応、Amazon MQのRabbitMQ向けJMS対応、WorkSpacesへのMicrosoft Office 2024アプリ追加などが発表された。
+"topics":
+  - "EC2インスタンス: C8i/C8i-flexのリージョン拡大とGraviton4 EBS最適化48xlarge追加"
+  - "ガバナンス: RCPのCognito/CloudWatch Logs対応、AWS Config 13新ルール"
+  - "セキュリティ: AWS Security AgentのGitHub Enterprise Cloud対応"
+  - "AI/データベース: Neptune Analytics拡大とBedrock AgentCore Browserの拡張機能対応"

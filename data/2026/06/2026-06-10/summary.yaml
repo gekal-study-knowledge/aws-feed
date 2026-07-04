@@ -1,0 +1,18 @@
+"date": "2026-06-10"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 18
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は FinOps 向けの AI エージェントと生成AI活用が中心でした。AWS は FinOps 実務者向けの新しいフロンティアエージェント「AWS FinOps Agent」をプレビュー公開し、コスト質問への回答、最適化機会の提示、コスト異常の自動調査、定期ワークフロー実行を可能にします。前日発表の Claude Fable 5 は日本語ブログと News Blog でも取り上げられ、Bedrock と Claude Platform on AWS での提供が紹介されました。コンピュートでは EC2 P6-B200 (NVIDIA Blackwell GPU) が GovCloud (US-East) に、EC2 M8/R8 系の metal-48xl/96xl サイズが一般提供開始。ストレージでは FSx for OpenZFS の Intelligent-Tiering が 8 リージョン追加、SageMaker Unified Studio Notebooks が EMR Serverless に対応しました。ML ブログでは Strands Agents と AgentCore Browser Tool による保険請求の初期受付自動化、Amazon Quick と New Relic を用いたインシデントトリアージ、NVIDIA Isaac Lab を使ったロボット強化学習が解説されました。
+"topics":
+  - "FinOps: AWS FinOps Agent のパブリックプレビュー提供開始"
+  - "生成AI: Claude Fable 5 の Bedrock/Claude Platform on AWS 提供"
+  - "コンピュート: EC2 P6-B200 の GovCloud 提供、M8/R8 系 metal サイズの一般提供"
+  - "分析・ストレージ: SageMaker Unified Studio の EMR Serverless 対応、FSx OpenZFS の Intelligent-Tiering 拡大"
+  - "エージェント活用: 保険請求受付やインシデントトリアージの自動化事例"

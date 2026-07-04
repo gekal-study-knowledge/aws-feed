@@ -1,0 +1,17 @@
+"date": "2026-06-03"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 18
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティとエージェント型 AI、データベース系の更新が目立ちました。セキュリティ速報では Kiro IDE の実行影響のあるパスへの不十分なファイル書き込み制限（CVE-2026-10591）と Graph Explorer の HTTPS から HTTP へのフォールバック（CVE-2026-10584）の 2 件が公開されました。セキュリティブログでは Amazon Bedrock AgentCore のリソースベースポリシーによるマルチテナント AI エージェント保護、未使用の AWS KMS キー特定と誤削除防止が扱われました。機械学習では Baz による AgentCore を用いたコードレビュー精度向上、Amazon Nova Forge のハイパーパラメータ最適化、Amazon Nova 2 Lite による物体検出が紹介されました。What's New では Amazon ElastiCache for Valkey の耐久性対応、SageMaker Studio の数秒セットアップ、Amazon EKS/EKS Distro の Kubernetes 1.36 対応、RDS for Db2 の v12.1 対応などが発表されました。日本語ブログでは AWS Transform Custom による VB6 モダナイズや、オープンソースを AI 脅威から守る 1,250 万ドルの拠出が取り上げられました。
+"topics":
+  - "セキュリティ速報: Kiro IDE (CVE-2026-10591) と Graph Explorer (CVE-2026-10584) の脆弱性公開"
+  - "エージェントAIセキュリティ: AgentCore リソースベースポリシーによるマルチテナント保護、KMS キー管理"
+  - "機械学習: AgentCore でのコードレビュー精度向上、Amazon Nova Forge/Nova 2 Lite の活用"
+  - "データベース/基盤: ElastiCache for Valkey の耐久性、EKS の Kubernetes 1.36、RDS for Db2 v12.1"

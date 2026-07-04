@@ -1,0 +1,12 @@
+"date": "2026-04-27"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 3
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  この日は日本語ブログのみの更新で、いずれも週次まとめやイベント報告が中心でした。2026 年 4 月 20 日に開催された完全招待制イベント「AWS Retail & CPG EXPO 2026」の開催報告では、AI エージェントが変える流通小売・消費財業界の現場体験が紹介されました。週刊 AWS では、Amazon CloudWatch Logs Insights の JOIN・サブクエリ対応、Amazon Aurora Serverless のパフォーマンス向上とゼロスケール、Amazon Bedrock AgentCore の新機能、Amazon Redshift の Apache Iceberg テーブルへの UPDATE/DELETE/MERGE 対応、Amazon Connect の AI エージェント向け 8 新メトリクスなどがまとめられました。週刊生成 AI では Claude Opus 4.7 の Bedrock/Kiro 対応、富士通との AI-DLC 実践事例、Kiro CLI のヘッドレスモード、AgentCore Gateway の VPC egress 対応などが取り上げられ、生成 AI 活用の動向が概観されました。
+"topics":
+  - "イベント報告: AWS Retail & CPG EXPO 2026 における流通小売・消費財向けAIエージェント"
+  - "週刊AWS: CloudWatch Logs Insights の JOIN、Aurora Serverless、Redshift の Iceberg 対応"
+  - "週刊生成AI: Claude Opus 4.7、AI-DLC事例、Kiro CLI、AgentCore Gateway の VPC egress"

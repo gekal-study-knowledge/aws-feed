@@ -1,0 +1,13 @@
+"date": "2026-02-17"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 9
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日は生成AIとコンピュートの話題が中心でした。Amazon BedrockでClaude Sonnet 4.6が利用可能となり、コーディングやエージェント、コンピュータ操作で高い性能を低コストで提供します。さらにBedrockの強化学習ファインチューニング（RFT）がOpenAI GPT-OSSやQwenなどのオープンウェイトモデルとOpenAI互換APIに対応しました。EC2では第5世代AMD EPYC搭載のC8aがEurope（フランクフルト、アイルランド）に、Intel Xeon 6搭載のR8i/R8i-flexがEurope（アイルランド）に登場しました。このほかAurora MySQL 3.12の一般提供、Amazon MSKのデュアルスタック（IPv4/IPv6）対応、EventBridge Schedulerのリソース数メトリクス、Amazon Connectの機能拡張が発表されました。
+"topics":
+  - "生成AI: BedrockでClaude Sonnet 4.6提供、強化学習ファインチューニングのオープンウェイトモデル対応"
+  - "EC2新インスタンス: C8aのEurope拡張、R8i/R8i-flexのアイルランド提供"
+  - "データベース・メッセージング: Aurora MySQL 3.12一般提供、MSKのデュアルスタック対応"
+  - "運用・コンタクトセンター: EventBridge Schedulerのリソースメトリクス、Amazon Connectの機能強化"

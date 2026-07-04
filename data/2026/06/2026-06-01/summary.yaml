@@ -1,0 +1,15 @@
+"date": "2026-06-01"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 10
+"sources":
+  - "aws_japan_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI 基盤モデルの拡充が中心でした。OpenAI の GPT-5.5、GPT-5.4、および Codex が Amazon Bedrock で一般提供となり、既存の AWS コミットメントを利用しつつ本番ワークロードでの活用が可能になりました。また Amazon Bedrock は OpenAI/Anthropic 互換 API を扱う bedrock-mantle エンドポイント向けに CloudWatch メトリクスのサポートを追加し、推論トラフィックの監視が容易になりました。日本語ブログでは Claude Opus 4.8 を扱う AWS Weekly Roundup、週刊 AWS/週刊生成 AI のまとめに加え、AWS Transform と MGN による VMware 移行の自動化、生成 AI を活用した次世代 AWS Resilience Hub、Amazon Connect の中国発信コンプライアンス、最新 AWS Heroes の紹介が掲載されました。さらに Amazon SES がテナントレベルの抑制リストに対応しました。
+"topics":
+  - "生成AIモデル: OpenAI GPT-5.5/5.4 と Codex が Amazon Bedrock で一般提供、Claude Opus 4.8 も話題に"
+  - "Bedrock 運用監視: bedrock-mantle エンドポイント向け CloudWatch メトリクス対応"
+  - "移行・レジリエンス: AWS Transform+MGN による VMware 移行自動化、次世代 AWS Resilience Hub"
+  - "メッセージング: Amazon SES がテナントレベルの抑制リストをサポート"

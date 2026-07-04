@@ -1,0 +1,16 @@
+"date": "2026-03-13"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 12
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  Amazon S3 の 20 周年を振り返る記事とともに、S3 Tables・S3 Vectors・S3 Metadata といった次世代機能への展望が語られた一日でした。生成 AI 基盤では Bedrock AgentCore Runtime が AG-UI プロトコルに対応し、MCP・A2A に続いてエージェントをユーザー向けアプリに組み込む標準化された双方向通信を実現しました。機械学習ブログでは vLLM への並列投機的デコード P-EAGLE 統合による LLM 推論高速化が解説されています。サーバーレス系では Lambda Managed Instances が Rust をサポートし、Kiro 上でサーバーレス開発を支援する SAM Kiro power も登場しました。コンピュートでは 5th Gen AMD EPYC 搭載の EC2 R8a (東京)、5GHz 動作の M8azn (オハイオ)、HPC 向け Hpc8a (東京・GovCloud) が展開されました。ほかに AWS Network Firewall の European Sovereign Cloud 提供、CloudWatch Application Signals の SLO 機能強化、AWS Security Agent の Service Quotas 対応も発表されています。
+"topics":
+  - "ストレージ: Amazon S3 の 20 周年振り返りと S3 Tables / S3 Vectors / S3 Metadata の展望"
+  - "生成 AI エージェント: Bedrock AgentCore Runtime の AG-UI プロトコル対応、vLLM への P-EAGLE 並列投機的デコード統合による推論高速化"
+  - "サーバーレス: Lambda Managed Instances の Rust サポート、Kiro 向け SAM power の登場"
+  - "コンピュート: 5th Gen AMD EPYC 搭載 EC2 R8a (東京)・M8azn (オハイオ)・Hpc8a (東京・GovCloud) の展開"
+  - "セキュリティ・運用: AWS Network Firewall の European Sovereign Cloud 提供、CloudWatch Application Signals の SLO 機能強化、AWS Security Agent の Service Quotas 対応"

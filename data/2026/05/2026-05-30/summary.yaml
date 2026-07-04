@@ -1,0 +1,22 @@
+"date": "2026-05-30"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティ、メッセージング、データベース/分析、ネットワークにわたる What's New が中心でした。AWS Shield
+  Advanced が DDoS 攻撃フローログを導入し、攻撃中のパケットレベルの可視性を S3・CloudWatch Logs・Data Firehose へ
+  提供します。AWS End User Messaging の RCS for Business が新たに 20 か国へ拡大し、計 22 か国に対応。AWS
+  Interconnect - multicloud には無料の 500 Mbps ティアが追加され、他クラウドとのプライベート接続を手軽に評価可能に
+  なりました。Amazon Redshift Serverless は 7 リージョンで最小 4 RPU 構成に対応、Amazon SES は受信トレイ到達率
+  指標とブロックリスト監視を追加、AWS HealthLake は CMS-0057-F 準拠の FHIR API に対応。機械学習ブログでは
+  SageMaker AI の LLM 推論に対する包括的なオブザーバビリティ手法が解説されました。
+"topics":
+  - "AWS Shield Advanced: DDoS 攻撃フローログでパケットレベルの可視性を提供"
+  - "AWS End User Messaging: RCS for Business が 20 か国追加で計 22 か国に対応"
+  - "AWS Interconnect - multicloud: 無料 500 Mbps ティアを追加"
+  - "Amazon Redshift Serverless: 7 リージョンで最小 4 RPU 構成に対応"
+  - "Amazon SES: 受信トレイ到達率指標とブロックリスト監視を追加"
+  - "AWS HealthLake: CMS-0057-F 準拠の FHIR API に対応"

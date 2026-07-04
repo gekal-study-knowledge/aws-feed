@@ -1,0 +1,17 @@
+"date": "2026-05-06"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 24
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は AI エージェントによる業務自動化と開発者向けツールが中心でした。Amazon WorkSpaces が AI エージェント専用のデスクトップを提供するプレビューを開始し、API を持たないレガシーアプリケーションを MCP 経由でエージェントに操作させることを可能にしました。また、AI コーディングエージェントが AWS 上で効率的に構築できるよう支援する Agent Toolkit for AWS が発表され、40 以上のスキルとプラグイン、そして一般提供となった AWS MCP Server が含まれます。Bedrock AgentCore Browser には OS レベル操作が加わりました。基盤サービスでは Amazon ElastiCache が Valkey 9.0（全文・ハイブリッド検索を内蔵）に対応し、13 の新 CloudWatch メトリクスを追加、RabbitMQ 4 のインプレースメジャーバージョンアップグレードもサポートされました。AWS SAM は BuildKit と API Gateway WebSocket API に対応、EKS では EC2 Instance Store CSI ドライバーが一般提供されました。セキュリティでは Kiro と Amazon Q によるセキュリティ態勢強化や、AWS WAF 向けの AI トラフィック分析ダッシュボードが紹介されました。
+"topics":
+  - "AI エージェント業務自動化: WorkSpaces がエージェント専用デスクトップを提供（プレビュー）、AgentCore Browser の OS レベル操作、AgentCore Identity on ECS"
+  - "開発者ツール: Agent Toolkit for AWS 発表（40+ スキル/プラグイン）、AWS MCP Server の一般提供"
+  - "キャッシュ/メッセージング: ElastiCache の Valkey 9.0 対応・新 CloudWatch メトリクス、Amazon MQ の RabbitMQ 4 インプレースアップグレード"
+  - "サーバーレス/コンテナ: SAM の BuildKit・WebSocket API 対応、EKS の EC2 Instance Store CSI ドライバー一般提供"
+  - "セキュリティ: Kiro と Amazon Q によるセキュリティ態勢強化、AWS WAF の AI トラフィック分析ダッシュボード"

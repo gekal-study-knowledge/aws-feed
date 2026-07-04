@@ -1,0 +1,17 @@
+"date": "2026-03-25"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 22
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  What's New を中心に多数のサービスアップデートが発表された一日でした。特に Amazon Aurora PostgreSQL は数秒でのデータベース作成・接続と AWS 無料利用枠での提供を開始し、注目を集めました。生成 AI/エージェント分野では、Bedrock AgentCore Runtime の永続セッションストレージ（プレビュー）や Chrome ポリシー対応、SageMaker AI の 12 モデル追加向けサーバーレス強化学習ファインチューニング、Bedrock での OpenAI 互換 API による強化学習ファインチューニングが発表されました。開発ツールでは SageMaker Unified Studio の Cursor IDE 連携、AWS Serverless 向け Agent Plugin、Kiro による Amazon Connect AI エージェント開発が紹介されています。HPC 分野では ParallelCluster 3.15（P6-B300、Slurm 25.11 対応）や SageMaker HyperPod の継続プロビジョニング、EC2 I7ie のリージョン拡張なども発表されました。
+"topics":
+  - "Amazon Aurora PostgreSQL: 数秒でのデータベース作成・接続、AWS 無料利用枠での提供開始"
+  - "生成 AI/エージェント: Bedrock AgentCore 永続セッションストレージと Chrome ポリシー対応、SageMaker AI サーバーレス強化学習ファインチューニング"
+  - "開発ツール: SageMaker Unified Studio の Cursor IDE 連携、Agent Plugin for AWS Serverless、Kiro による Connect エージェント開発"
+  - "HPC/コンピュート: ParallelCluster 3.15 (P6-B300/Slurm 25.11)、SageMaker HyperPod 継続プロビジョニング、EC2 I7ie リージョン拡張"
+  - "マルチモーダル/データ: Bedrock マルチモーダルモデルによる動画インサイト、Pipecat と AgentCore による音声エージェント"

@@ -1,0 +1,15 @@
+"date": "2026-01-23"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 11
+"sources":
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティとコンプライアンス、コンピュートの更新が目立った。セキュリティ速報ではFirecracker jailerに関するCVE-2026-1386が公表され、特定条件下でホストファイルシステムの任意ファイルを上書きできる問題だが、AWSサービスはアクセス制限により影響を受けないと説明された。コンプライアンス面ではAWSが183サービスを対象とする2025年C5 Type 2認証を取得し、GSMA SAS-SM認証を4つの新リージョンに拡大、AWS Payment CryptographyのPCI PINコンプライアンスパッケージも更新された。セキュリティブログではシークレット管理の集中型・分散型アプローチも解説された。コンピュートではApple M4 Max搭載のEC2 M4 Max Macインスタンスが一般提供を開始し、M1 Ultra比で最大25%高いビルド性能を実現する。このほかEC2 Auto Scalingのグループ削除保護機能、Amazon EVSの複数NSX Edge Gateway対応、Amazon Route 53 Domainsの.aiなど10の新TLDサポート、RDS for Oracleのマルチテナント構成レプリカ対応などが発表された。
+"topics":
+  - "セキュリティ速報: Firecracker jailerのCVE-2026-1386(AWSサービスは影響なし)"
+  - "コンプライアンス: C5 Type 2認証、GSMA SAS-SM拡大、PCI PINパッケージ更新"
+  - "コンピュート: EC2 M4 Max Macインスタンスの一般提供とAuto Scaling削除保護"
+  - "サービス更新: Route 53の新TLD対応、EVSの複数NSX Gateway、RDS for Oracleレプリカ"

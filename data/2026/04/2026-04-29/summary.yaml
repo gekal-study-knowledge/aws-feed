@@ -1,0 +1,17 @@
+"date": "2026-04-29"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 19
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  「What's Next with AWS」2026 の発表が中心となった一日でした。最大の話題は AWS と OpenAI のパートナーシップ拡大で、最新 OpenAI モデル、コーディングエージェント Codex、OpenAI 搭載 Managed Agents の 3 つが Amazon Bedrock にリミテッドプレビューで登場し、IAM や PrivateLink など既存のエンタープライズ統制下で利用可能になりました。Amazon Connect は採用向けの Amazon Connect Talent (プレビュー) を発表し、AI エージェントによる音声面接や候補者評価を実現。ML 分野では Amazon Nova 2 Sonic による音声アシスタント移行、NVIDIA Nemotron 3 Nano Omni の SageMaker JumpStart での day zero 提供、AgentCore Runtime の Node.js 対応が発表されました。基盤面では AWS Glue 5.1 の全リージョン展開 (Iceberg v3 対応)、EC2 C8gn の追加リージョン、EMR 7.13、OpenSearch の JWKS URL 対応など多数の更新がありました。セキュリティでは IAM Identity Center のセッションタグや 2026 年 3 月の脅威手口カタログ更新解説が公開されました。
+"topics":
+  - "AWS × OpenAI: OpenAIモデル・Codex・Managed Agents が Amazon Bedrock にリミテッドプレビュー"
+  - "AIエージェント: Amazon Connect Talent (採用) プレビュー、AgentCore Runtime の Node.js対応"
+  - "生成AIモデル: Amazon Nova 2 Sonic 音声移行、NVIDIA Nemotron 3 Nano Omni の JumpStart提供"
+  - "データ基盤: AWS Glue 5.1 全リージョン展開 (Iceberg v3)、EMR 7.13、OpenSearch JWKS URL対応"
+  - "セキュリティ: IAM Identity Center セッションタグ、脅威手口カタログ更新解説"

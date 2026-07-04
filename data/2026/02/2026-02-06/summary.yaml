@@ -1,0 +1,14 @@
+"date": "2026-02-06"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_compute_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はコンテナ・エージェント基盤の拡充とコスト削減、監視強化が中心でした。AWS Network Firewall は NAT Gateway のセカンダリエンドポイント向け割引適用と Advanced Inspection (TLS 検査) の追加データ処理料金撤廃という 2 つの価格改善を発表し、自動的に適用されます。Amazon ECS Managed Instances が AWS ヨーロッパソブリンクラウドで利用可能になりました。Amazon Bedrock AgentCore Browser はブラウザプロファイルに対応し、14 リージョンで認証状態の再利用によりセッションセットアップ時間を大幅短縮します。監視面では AWS Config が Amazon EKS・Amazon Q・AWS IoT など 30 の新しいリソースタイプに対応し、Amazon ECR がリポジトリ数とリポジトリ毎イメージ数のメトリクスを追加しました。その他 WorkSpaces Secure Browser のカスタムドメイン対応、Amazon Connect Cases の CSV による関連フィールドオプション設定も発表されました。
+"topics":
+  - "コスト削減: AWS Network Firewall の NAT Gateway 割引拡大と Advanced Inspection 追加料金撤廃"
+  - "コンテナ・エージェント基盤: ECS Managed Instances のヨーロッパソブリンクラウド対応、Bedrock AgentCore Browser のブラウザプロファイル"
+  - "監視・ガバナンス: AWS Config が 30 の新リソースタイプに対応、Amazon ECR の新リポジトリメトリクス"
+  - "サーバーレス: AWS Lambda durable functions によるフォールトトレラントなアプリケーション構築"

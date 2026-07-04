@@ -1,0 +1,20 @@
+"date": "2026-05-07"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 25
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日の目玉は Amazon Bedrock AgentCore Payments のプレビュー発表でした。Coinbase・Stripe との連携により、AI エージェントが API・MCP サーバー・Web コンテンツなどに自律的にアクセスして支払いを行えるようになり、x402 プロトコル交渉やウォレット認証、支出ガバナンスを担います。AgentCore ではさらに長期メモリのメタデータ対応や、S3 Files・EFS を利用する独自ファイルシステムのマウントも追加されました。コンピュートでは NVIDIA Blackwell Ultra 搭載の EC2 P6-B300（バージニア北部）や P6-B200（GovCloud US-West）が提供開始。ElastiCache は Valkey 9.0 を基盤にリアルタイムのハイブリッド検索・全文/完全一致/数値範囲検索・集計クエリを追加しました。その他 Amazon Neptune の CloudShell ワンクリック接続、Marketplace の Agreements API、Site-to-Site VPN の帯域変更、OpenSearch の VPC egress、Redshift の COPY 向け concurrency scaling などが発表されました。日本語ブログでは AWS X-Ray SDK/Daemon の OpenTelemetry 移行や週刊生成 AI が掲載され、セキュリティでは ISO/IEC 42001:2023 コンプライアンスガイドと Linux カーネルの権限昇格 (CVE-2026-31431) 速報が出されました。
+"topics":
+  - "AgentCore Payments: Coinbase・Stripe 連携による AI エージェントの自律決済（x402 プロトコル）プレビュー"
+  - "AgentCore 拡張: 長期メモリのメタデータ対応、S3 Files / EFS による独自ファイルシステムのマウント"
+  - "コンピュート: NVIDIA Blackwell Ultra 搭載 EC2 P6-B300（バージニア北部）、P6-B200（GovCloud US-West）"
+  - "ElastiCache 検索: Valkey 9.0 でのハイブリッド検索・全文/完全一致/数値範囲検索・リアルタイム集計クエリ"
+  - "接続/データ: Neptune の CloudShell 1-click 接続、Marketplace Agreements API、Site-to-Site VPN 帯域変更、OpenSearch VPC egress、Redshift COPY の concurrency scaling"
+  - "セキュリティ/日本語: ISO/IEC 42001:2023 コンプライアンスガイド、Linux カーネル CVE-2026-31431、X-Ray の OpenTelemetry 移行"

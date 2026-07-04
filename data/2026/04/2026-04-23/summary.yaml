@@ -1,0 +1,16 @@
+"date": "2026-04-23"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 17
+"sources":
+  - "aws_architecture_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はデータ分析基盤と Amazon Quick、SageMaker Unified Studio の機能強化が目立ちました。Amazon Redshift が Apache Iceberg テーブルに対する行レベルの UPDATE/DELETE/MERGE 操作をサポートし、外部エンジンなしで相互運用可能なデータレイクを操作できるようになりました。Amazon Athena は DynamoDB や PostgreSQL、Snowflake など 12 のデータソースに対応するマネージドコネクタでフェデレーテッドクエリを簡素化。SageMaker Unified Studio はノートブックカーネルの VPC 対応や IdC ドメインでのサーバーレスノートブック/データエージェント対応が加わりました。Amazon Quick では SharePoint/Google Drive ナレッジベースの複数オーナー、ACL 検証、ドキュメントレベルアクセス制御が拡充。ストレージ面では S3 が MD5・XXHash 系・SHA-512 など 5 つのチェックサムアルゴリズムを追加。その他 Graviton4 搭載 EC2 X8g のアイルランド提供、第 2 世代 Outposts ラックのソウル/シドニー/パリ対応、Elastic Beanstalk の Windows 向け AI 分析、AWS PCS の Slurm 25.11 対応も発表されました。ブログでは金融向け KYC の agentic AI モダナイズや、創薬・患者ケアに向けたマルチモーダル生物学基盤モデルが紹介されました。
+"topics":
+  - "データ分析: Redshift の Iceberg UPDATE/DELETE/MERGE、Athena マネージドコネクタ、S3 チェックサム 5 種追加"
+  - "SageMaker Unified Studio: ノートブックカーネル VPC 対応、IdC ドメインのサーバーレスノートブック/データエージェント"
+  - "Amazon Quick: SharePoint/Google Drive の複数オーナー、ACL 検証、ドキュメントレベルアクセス制御"
+  - "インフラ: Graviton4 EC2 X8g、第 2 世代 Outposts ラック拡張、AWS PCS の Slurm 25.11"
+  - "生成 AI 活用: 金融向け KYC の agentic AI、創薬向けマルチモーダル生物学基盤モデル"

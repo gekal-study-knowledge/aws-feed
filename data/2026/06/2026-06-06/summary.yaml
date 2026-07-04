@@ -1,0 +1,16 @@
+"date": "2026-06-06"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 9
+"sources":
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は生成AIとコンテナ、セキュリティに関する発表が中心でした。Amazon Bedrock は Anthropic および OpenAI 互換 API に最適化された新しいコンソールエクスペリエンスを公開し、モデルの比較やプロジェクト単位の評価ワークフローを提供します。また Bedrock AgentCore Runtime には、稼働中のエージェントセッションへ端末接続できる対話型シェル機能が追加されました。インフラ面では Amazon ECS with AWS Fargate が 32vCPU 構成に対応し、EC2 C8in インスタンスがアジアパシフィックと欧州の追加リージョンで利用可能になりました。分析系では S3 Tables や OpenSearch UI が GovCloud (US) に拡大。セキュリティでは Cognito と Verified Permissions による B2C アプリのアクセス制御解説に加え、Aurora PostgreSQL ラッパーの権限昇格 (CVE-2026-11400/11401) など複数の脆弱性情報が公開されました。
+"topics":
+  - "Amazon Bedrock: 新コンソールエクスペリエンスと AgentCore Runtime の対話型シェル"
+  - "コンピュート: ECS Fargate 32vCPU 対応、EC2 C8in の追加リージョン展開"
+  - "分析・GovCloud: S3 Tables 権限簡素化と OpenSearch UI の GovCloud 提供"
+  - "セキュリティ: Cognito/Verified Permissions 活用と Aurora PostgreSQL 等の脆弱性情報"

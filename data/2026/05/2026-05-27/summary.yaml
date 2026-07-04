@@ -1,0 +1,24 @@
+"date": "2026-05-27"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 19
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はエージェンティック AI とセキュリティ、コンピュート/データベース基盤が幅広く取り上げられました。機械学習
+  ブログでは Amazon Bedrock AgentCore を軸に、Strands Agents による研究アシスタント構築、LangGraph マルチ
+  エージェント、NVIDIA NIM 連携、AgentCore payments のプレビュー、能動監視 AgentWatch など多数の記事が公開。
+  セキュリティでは AWS Customer Incident Response Team (CIRT) の紹介と、npm を狙ったサプライチェーン攻撃への
+  Well-Architected ベストプラクティスが解説されました。What's New では Amazon RDS Multi-AZ の ENA Express 対応、
+  GovCloud での EC2 M8i/R8i 提供、AWS Neuron 2.30.0（Trainium3 対応）、AWS Backup の OTP 検証などが登場。
+  日本語ブログでは JDBC クエリキャッシュ自動化や Physical AI 向けデータ収集基盤の記事が並びました。
+"topics":
+  - "Amazon Bedrock AgentCore: Strands・LangGraph・NVIDIA NIM 連携、payments プレビュー、AgentWatch"
+  - "AWS Neuron 2.30.0: NKI 0.4.0 と Trainium3 対応、22 個の新カーネル"
+  - "Amazon RDS Multi-AZ: ENA Express 対応でクロス AZ レプリケーション高速化"
+  - "セキュリティ: AWS CIRT 紹介とソフトウェアサプライチェーン対策のベストプラクティス"
+  - "コンピュート拡充: GovCloud での EC2 M8i/R8i/X8i 提供"
+  - "AWS Backup: 論理エアギャップボールトの多者承認に OTP 検証を追加"

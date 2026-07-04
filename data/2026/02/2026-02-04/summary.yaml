@@ -1,0 +1,16 @@
+"date": "2026-02-04"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 12
+"sources":
+  - "aws_architecture_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は新世代 EC2 インスタンスと AI・コンテナ関連の機能拡充が目立ちました。カスタム Intel Xeon 6 プロセッサ搭載の EC2 C8id・M8id・R8id インスタンスが一般提供となり、最大 22.8TB のローカル NVMe SSD ストレージと従来比最大 43% 高い性能を提供します。NVIDIA RTX PRO 6000 Blackwell 搭載の G7e インスタンスもオレゴンリージョンで利用可能になりました。AI 分野では Amazon Bedrock が JSON スキーマ準拠の構造化出力に対応し、SageMaker JumpStart に Cartesia Sonic 3 音声合成モデルが追加されました。コンテナ関連では ECS が Network Load Balancer でのリニア・カナリアデプロイに対応、AWS Batch が Amazon EKS の非マネージドコンピュート環境をサポート、EKS が GovCloud で Pod Identity 連携を簡素化しました。さらに SageMaker Unified Studio の Apache Spark データリネージ、Redshift のマルチクラスタ autonomics、EC2/VPC のセキュリティグループ関連リソース表示も発表されました。
+"topics":
+  - "新世代 EC2: Intel Xeon 6 搭載の C8id/M8id/R8id 一般提供、Blackwell 搭載 G7e のオレゴン展開"
+  - "生成 AI: Amazon Bedrock の構造化出力対応、SageMaker JumpStart への Cartesia Sonic 3 追加"
+  - "コンテナ・オーケストレーション: ECS の NLB リニア/カナリアデプロイ、Batch の EKS 非マネージド環境、EKS Pod Identity 連携"
+  - "データ・分析: SageMaker Unified Studio の Spark データリネージ、Redshift マルチクラスタ autonomics"
+  - "アーキテクチャ事例: Amazon Key Suite の EventBridge を用いたイベント駆動アーキテクチャ"

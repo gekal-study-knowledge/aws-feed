@@ -1,0 +1,13 @@
+"date": "2026-01-21"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 11
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はコンピュート、データベース、セキュリティ、ハイブリッドインフラなど幅広い分野の更新が発表された。AWS Graviton4搭載のEC2 C8gnインスタンスが追加リージョンで提供され、Graviton3ベースのC7gn比で最大30%の性能向上を実現する。第2世代AWS Outpostsラックがアルゼンチンやインド、韓国、台湾など20の国と地域で新たに出荷・設置可能になった。データベースではRDS for SQL ServerがマルチマルチAZおよびリードレプリカ構成での差分・トランザクションログリストアをサポートした。セキュリティ関連ではアクセス拒否エラーメッセージにIAMおよびOrganizationsポリシーのARNが追加され、トラブルシューティングが容易になった。このほかAmazon EMR ServerlessのKMSカスタマー管理キーによるローカルディスク暗号化、Amazon Bedrock Reserved TierのGovCloud(US-West)でのClaude Sonnet 4.5対応、SageMaker HyperPodのライフサイクルスクリプトのデバッグ強化などが含まれる。
+"topics":
+  - "コンピュート/ハイブリッド: EC2 C8gnインスタンス拡大と第2世代Outposts 20カ国展開"
+  - "データベース: RDS for SQL Serverの差分・トランザクションログリストア強化"
+  - "セキュリティ: アクセス拒否エラーへのポリシーARN追加、EMR ServerlessのKMS暗号化"
+  - "AI/ML: SageMaker HyperPodのデバッグ強化とBedrock Reserved TierのGovCloud対応"

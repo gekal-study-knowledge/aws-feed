@@ -1,0 +1,17 @@
+"date": "2025-12-17"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 23
+"sources":
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は新機能発表が多く、特に Graviton4 系 EC2 インスタンスのリージョン拡張とデータベース関連の話題が目立ちました。Graviton4 搭載の M8gn/M8gb が GA (最大 600 Gbps ネットワーク帯域)、C8g/M8g/R8g が GovCloud やチューリッヒ、パリ、ハイデラバードなど多数の新リージョンで利用可能になり、Intel Xeon 6 の C8i/C8i-flex もシンガポールに追加されました。データベースでは AWS Databases (Aurora PostgreSQL/DSQL、DynamoDB) が Vercel Marketplace で提供開始、Aurora が RDS プレビュー環境で PostgreSQL 18.1 対応、Redshift Serverless が IPv6 デュアルスタックに対応。OpenSearch Service は新 OI2 インスタンスと書き込み可能な warm 層を含むマルチティアストレージを追加。決済系では Payment Cryptography が複数リージョンに拡張し API 料金を最大 63% 削減。セキュリティ面では Security Hub CSPM 自動化ルールの移行、Security Incident Response の 10 リージョン追加が発表され、速報 AWS-2025-032 で複数言語の S3 暗号化クライアントの鍵コミットメント問題 (Invisible Salamanders 攻撃) が告知されました。
+"topics":
+  - "コンピュート: Graviton4 系 M8gn/M8gb が GA、C8g/M8g/R8g/C8i を GovCloud や多数リージョンへ拡張"
+  - "データベース: AWS Databases が Vercel Marketplace で提供、Aurora が PostgreSQL 18.1 プレビュー、Redshift Serverless が IPv6 対応"
+  - "検索/分析: OpenSearch Service に OI2 インスタンスと書き込み可能 warm 層のマルチティアストレージ追加"
+  - "決済: Payment Cryptography が Hyderabad/Paris/Sydney (AS2805) に拡張、API 料金を最大 63% 削減"
+  - "セキュリティ: Security Hub CSPM 自動化ルール移行、Security Incident Response が 10 リージョン追加"
+  - "セキュリティ速報: 複数言語 S3 暗号化クライアントの鍵コミットメント問題 (AWS-2025-032, Invisible Salamanders 攻撃)"

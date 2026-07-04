@@ -1,0 +1,18 @@
+"date": "2026-06-25"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 17
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は音声 AI エージェントとサーバーレスの話題が中心でした。機械学習ブログでは Amazon Nova 2 Sonic を用いたヘルスケア予約エージェントや Loka の低遅延音声エージェント構築事例、Snowflake と Amazon Quick を組み合わせた AI 駆動 BI、Huntington Bank が 4 億超の文書から機微データを削除した事例が紹介されました。日本語ブログでは AWS Summit Japan 2026 の「Living Mart」体験や、2026 年 6 月 22 日に発表された AWS Lambda の MicroVMs（分離サンドボックス実行）が取り上げられました。What's New では Amazon EMR Serverless の無停止設定更新、EC2 の AMI ウォーターマーク、AWS IoT Device SDK for Swift の一般提供、Route 53 Global Resolver の DNS ビュー共有、AWS Backup の S3 バックアップコピー高速化などが登場。セキュリティ面では AWS Sign-In のリソースベースポリシー/RCP による管理コンソールアクセス制限が解説されました。また RDS/RDS Custom の SQL Server 向け GDR 更新や GovCloud (US) の米国市民サポート標準化も発表されました。
+"topics":
+  - "音声 AI エージェント: Amazon Nova 2 Sonic を使ったヘルスケア予約エージェントと Loka の低遅延音声エージェント"
+  - "サーバーレス/コンピュート: AWS Lambda の MicroVMs 導入、EMR Serverless の無停止設定更新、EC2 Capacity Manager データエクスポート"
+  - "セキュリティ/ガバナンス: AWS Sign-In の RCP による管理コンソールアクセス制限、EC2 AMI ウォーターマーク、RDS/RDS Custom の SQL Server GDR 更新"
+  - "データ/BI: Snowflake と Amazon Quick による AI 駆動 BI、Huntington Bank の大規模文書からの機微データ削除"
+  - "ネットワーク/運用: Route 53 Global Resolver の DNS ビュー共有、AWS Backup の S3 コピー高速化、AWS IoT Device SDK for Swift の GA"

@@ -1,0 +1,10 @@
+"date": "2025-11-10"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_security_bulletins"
+"overview": |
+  この日はAWSセキュリティ速報が1件公開されました。Amazon Aurora PostgreSQL向けの各種AWSラッパー(JDBC、Go、Node.js、Pythonの各WrapperおよびPGSQL ODBCドライバー)における権限昇格の脆弱性(CVE-2025-12967)です。低権限の認証済みユーザーが細工した関数を作成し、他のRDSユーザーの権限で実行させることで、rds_superuserロールへの権限昇格につながる可能性があると報告されています。影響を受けるのはJDBC Wrapper 2.6.5未満、Go Wrapper(2025-10-17より前)、Node.js Wrapper 2.0.1未満、Python Wrapper 1.4.0未満、ODBCドライバー 1.0.1未満です。
+"topics":
+  - "Aurora PostgreSQL向けAWSラッパー群の権限昇格脆弱性 (CVE-2025-12967)"

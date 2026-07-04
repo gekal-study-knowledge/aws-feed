@@ -1,0 +1,10 @@
+"date": "2026-03-01"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティ・コンプライアンス関連の発表が 1 件のみでした。AWS は VPC Encryption Controls の料金体系を発表しました。VPC Encryption Controls は、リージョン内および VPC 間のすべてのトラフィックフローについて転送中の暗号化を監査・強制できるセキュリティ機能で、監査のみを行う Monitor モードと、未暗号化トラフィックを許可するリソースの起動を防ぐ Enforce モードの 2 つのモードで利用できます。2026 年 3 月 1 日より、本機能は無料プレビューから有料機能へ移行し、Encryption Controls を有効化したネットワークインターフェースを持つ非空 VPC ごとに固定の時間単位料金が課金されます。空の VPC には課金されません。Transit Gateway で暗号化サポートを有効にした場合、接続されたすべての VPC に標準料金が適用されます。
+"topics":
+  - "VPC Encryption Controls の有料化: Monitor / Enforce モードによる転送中暗号化の監査・強制、非空 VPC 単位の時間課金へ移行"

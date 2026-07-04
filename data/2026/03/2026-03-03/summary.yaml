@@ -1,0 +1,16 @@
+"date": "2026-03-03"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_architecture_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は Amazon SageMaker Unified Studio 関連の機能拡充と AI エージェントのガバナンス、コンプライアンス認証が中心でした。Amazon Bedrock AgentCore の Policy が一般提供となり、Cedar ベースのポリシーでエージェントとツールの相互作用を集中管理できるようになりました。SageMaker Unified Studio は Kiro IDE からのリモート接続、Atlan・Collibra・Alation とのメタデータ同期、AWS Glue 5.1 サポートを追加しました。コンプライアンス分野では、フィンランドの PiTuKri とスイスの FINMA について、いずれも 183 サービスを対象とした 2025 年 ISAE 3000 Type II 認証報告書が公開されました。アーキテクチャブログでは AWS Well-Architected Framework を用いたクラウドの隠れたコスト発見が解説されました。セキュリティ情報として MariaDB サーバー監査プラグインのコメント処理バイパス (CVE-2026-3494) が公表されました。
+"topics":
+  - "AI エージェントガバナンス: Amazon Bedrock AgentCore の Policy が GA、Cedar ベースでエージェント・ツール連携を集中管理"
+  - "SageMaker Unified Studio 拡充: Kiro IDE リモート接続、Atlan・Collibra・Alation とのメタデータ同期、AWS Glue 5.1 対応"
+  - "コンプライアンス認証: PiTuKri・FINMA の 2025 年 ISAE 3000 Type II 認証報告書 (183 サービス対象) を公開"
+  - "セキュリティ情報: MariaDB 監査プラグインのコメント処理バイパス (CVE-2026-3494) を公表、Well-Architected による隠れコスト分析"

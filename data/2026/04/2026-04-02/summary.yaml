@@ -1,0 +1,17 @@
+"date": "2026-04-02"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 21
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はエージェント型 AI (Agentic AI) の本番運用に関するコンテンツが中心でした。日本語ブログでは「Agentic AI の運用化」ステークホルダー/ペルソナ別ガイド 2 部作、AWS DevOps Agent の一般提供開始、Amazon OpenSearch Service へのエージェント AI 機能追加によるオブザーバビリティ効率化が取り上げられ、セキュリティブログではエージェント型 AI システムの 4 つのセキュリティ原則が解説されました。機械学習分野では SageMaker HyperPod による地震基盤モデルの分散学習で学習時間を 6 か月から 5 日に短縮した TGS の事例、Rocket Close の住宅ローン書類処理を Bedrock と Textract で 15 倍高速化した事例、Network Firewall による AgentCore のドメイン制限、Strands Evals での多ターン評価が紹介されました。CloudWatch は OpenTelemetry メトリクスと Query Studio (PromQL) をパブリックプレビューで提供開始し、EKS 向け OTel Container Insights も追加。その他 ElastiCache Serverless の IPv6/デュアルスタック対応、Lightsail のコンピュート最適化バンドル、Amazon Location Service の地図スタイリング強化なども発表されました。
+"topics":
+  - "エージェント型 AI 運用: Agentic AI 運用化ガイド、AWS DevOps Agent GA、OpenSearch Service のエージェント AI、エージェント型 AI の 4 セキュリティ原則"
+  - "機械学習基盤: SageMaker HyperPod による地震基盤モデルの分散学習高速化、Rocket Close の書類処理 15 倍高速化、Strands Evals での多ターン評価"
+  - "オブザーバビリティ: CloudWatch の OpenTelemetry メトリクス・Query Studio (PromQL) プレビュー、EKS 向け OTel Container Insights"
+  - "ネットワーク/コンピュート: ElastiCache Serverless の IPv6/デュアルスタック対応、Lightsail コンピュート最適化バンドル、Direct Connect オークラン 100G 拡張"
+  - "その他機能拡張: Amazon Location Service の地図スタイリング強化、WorkSpaces Applications のドレインモード、SES Mail Manager 強化"

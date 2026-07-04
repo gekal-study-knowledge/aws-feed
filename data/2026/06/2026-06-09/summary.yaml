@@ -1,0 +1,21 @@
+"date": "2026-06-09"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 31
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は多数の発表があり、生成AIとコスト管理が特に活発でした。最大の話題は Claude Fable 5 が AWS で一般提供開始となり、Amazon Bedrock と Claude Platform on AWS 経由で Mythos クラスの機能が利用可能になったことです。コスト管理領域では Amazon Q を活用した Cost Anomaly Detection の AI コスト調査、Cost Explorer の Analyze with Amazon Q、Savings Plans Purchase Analyzer のターゲットカバレッジ分析などが相次いで発表されました。データベース関連では Aurora DSQL の JSONB 対応、DocumentDB のマイナーバージョン 5.0.1、RDS for PostgreSQL 19 Beta 1、Redshift の手動スナップショット課金改善が登場。CloudWatch は OpenTelemetry メトリクスと PromQL クエリに対応し、Logs Insights に 23 の新コマンドが追加されました。AWS Application Migration Service は AWS Transform MGN に改称。ML ブログでは EU 向けクロスリージョン推論や SageMaker と FHE による暗号化推論、AgentCore でのコーディングエージェントホスティングが解説されました。
+"topics":
+  - "生成AI: Claude Fable 5 の AWS 一般提供開始"
+  - "コスト管理: Amazon Q によるコスト調査・説明、Savings Plans カバレッジ分析"
+  - "データベース: Aurora DSQL の JSONB 対応、DocumentDB 5.0.1、PostgreSQL 19 Beta 1"
+  - "オブザーバビリティ: CloudWatch の OpenTelemetry/PromQL 対応と Logs Insights 拡張"
+  - "移行: AWS Application Migration Service の AWS Transform MGN への改称"
+  - "セキュリティ: AgentCore CLI のコードインジェクション脆弱性 (CVE-2026-11393)"

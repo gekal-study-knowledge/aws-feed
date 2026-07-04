@@ -1,0 +1,15 @@
+"date": "2026-03-10"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 11
+"sources":
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  セキュリティと Amazon Connect の AI 機能強化が中心の一日でした。セキュリティブログでは AWS Security Hub がオンプレミスやマルチクラウドを横断してセキュリティ運用を統合する拡張を発表し、RSAC 2026 への参加や AWS European Sovereign Cloud が SOC 2・C5 レポートと 7 つの ISO 認証という初のコンプライアンスマイルストーンを達成したことも報告されました。Amazon Connect では自然言語で 150 以上の指標を照会できる AI 搭載マネージャーアシスタント (プレビュー) やメールの会話分析、予測インサイトの強化 (製品カタログ 4,000 万件対応) が登場しました。生成 AI 基盤では Bedrock AgentCore Runtime がステートフルな MCP サーバー機能に対応し、Bedrock 本体には TimeToFirstToken と TPM クォータ消費量の CloudWatch メトリクスが追加されました。ほかに AWS Builder ID の GitHub / Amazon サインイン、OpenSearch の 3 TiB 超ボリューム拡張、EC2 C8i のケープタウン・ハイデラバード展開も発表されています。
+"topics":
+  - "セキュリティ運用: AWS Security Hub のマルチクラウド統合拡張、RSAC 2026 参加、European Sovereign Cloud が SOC 2・C5・ISO 認証を取得"
+  - "コンタクトセンター AI: Amazon Connect の AI マネージャーアシスタント (プレビュー)、メール会話分析、予測インサイト強化"
+  - "生成 AI 基盤: Bedrock AgentCore Runtime のステートフル MCP 対応、Bedrock に TTFT / クォータ消費の CloudWatch メトリクス追加"
+  - "認証・運用: AWS Builder ID の GitHub / Amazon サインイン、OpenSearch の 3 TiB 超インプレースボリューム拡張"
+  - "コンピュート: EC2 C8i / C8i-flex がアフリカ (ケープタウン)・アジアパシフィック (ハイデラバード) に追加"

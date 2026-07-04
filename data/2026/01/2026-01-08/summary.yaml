@@ -1,0 +1,17 @@
+"date": "2026-01-08"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_compute_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は8件の更新があった。大きなトピックはAWS Lambdaの.NET 10対応で、Compute BlogとWhat's Newの両方で発表され、マネージドランタイムおよびコンテナベースイメージとして利用でき、Lambda Managed Instancesにも対応する。Security Blogでは、AWS Network Firewallのアクティブ脅威防御を活用したリアルタイムのマルウェア防御が紹介された。Amazon MQはRabbitMQブローカーでX.509クライアント証明書とmTLSによる認証に対応し、Amazon DocumentDBはアジアパシフィック(ジャカルタ)リージョンで利用可能になった。さらにIntel Xeon 6搭載のEC2 R8i/R8i-flexおよびM8iインスタンスが複数リージョンに拡大し、Amazon QuickはBox・Canva・PagerDutyなどのサードパーティAIエージェントと組み込みアクションライブラリを拡充した。
+"topics":
+  - "AWS Lambda: .NET 10ランタイムに対応(Managed Instancesも含む)"
+  - "AWS Network Firewall: アクティブ脅威防御によるリアルタイムマルウェア対策"
+  - "Amazon MQ: RabbitMQでmTLS証明書ベース認証に対応"
+  - "Amazon DocumentDB: アジアパシフィック(ジャカルタ)リージョンで提供開始"
+  - "Amazon EC2: R8i/R8i-flexおよびM8iインスタンスのリージョン拡張"
+  - "Amazon Quick: サードパーティAIエージェントと組み込みアクションを拡充"

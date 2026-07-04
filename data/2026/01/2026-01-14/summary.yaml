@@ -1,0 +1,13 @@
+"date": "2026-01-14"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はネットワーキング、IoT、請求管理、生成 AI、コード変換の各分野でアップデートが報じられました。Amazon VPC IP Address Manager (IPAM) は RDS インスタンスと Application Load Balancer に対するポリシーをサポートし、IP 割り当て戦略を一元的に構成・強制できるようになりました。Amazon VPC Route Server は 16 の新リージョンに拡大し全 30 リージョンで利用可能になりました。AWS IoT Device Management は QR コードスキャンで Wi-Fi 接続を簡素化する Wi-Fi Simple Setup (WSS) を提供します。AWS Billing コンソールでは強化された Transactions ビューが登場し、読み込み速度と支払い照合が改善されました。生成 AI 領域では Amazon Bedrock の API キーが AWS GovCloud (US) リージョンに拡大し、AWS Transform custom は AWS PrivateLink 対応と Europe (Frankfurt) リージョンへの拡大を果たしました。
+"topics":
+  - "ネットワーキング: VPC IPAM が RDS/ALB のポリシーに対応、VPC Route Server が 16 新リージョン追加で全 30 リージョンに"
+  - "IoT: AWS IoT Device Management が QR コードによる Wi-Fi Simple Setup (WSS) を提供"
+  - "請求管理: AWS Billing コンソールの Transactions ビューを強化 (高速化・支払い照合の簡素化)"
+  - "生成AI: Amazon Bedrock の API キーが GovCloud (US) に拡大、AWS Transform custom が PrivateLink 対応と Frankfurt 展開"

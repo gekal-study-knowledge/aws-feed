@@ -1,0 +1,16 @@
+"date": "2026-05-23"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 12
+"sources":
+  - "aws_compute_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は SageMaker Unified Studio の機能拡張とセキュリティ速報が中心でした。SageMaker Unified Studio は IAM ベースドメインでのビジネスメタデータとデータガバナンス、Identity Center / IAM 両ドメインでのドメイン管理、Feature Store のインタラクティブ管理画面に対応しました。AWS Transform には新しいエージェント型の移行アセスメント機能 (what-if シナリオや TCO 分析) が追加され、AWS Security Agent は侵入テスト結果の検証スクリプト生成に対応。Compute ブログでは Kiro CLI と EC2 Image Builder による AMI 作成の自動化を解説しました。その他 WorkSpaces Personal の Linux 移行対応、Keyspaces のマレーシア・タイ拡張、GameLift Streams の G6e ストリームクラス、Glue Data Catalog クライアントの Hive 3 対応が発表。セキュリティ速報では Kiro CLI (CVE-2026-9255) と Braket SDK (CVE-2026-9291) の脆弱性が告知されました。
+"topics":
+  - "データガバナンス: SageMaker Unified Studio のメタデータ・ドメイン管理拡張"
+  - "移行: AWS Transform のエージェント型アセスメント (what-if / TCO)"
+  - "セキュリティ: Security Agent 検証スクリプト、CVE-2026-9255 / CVE-2026-9291"
+  - "運用/リージョン: WorkSpaces Linux 移行、Keyspaces マレーシア・タイ拡張"
+  - "自動化: Kiro CLI と EC2 Image Builder による AMI 作成自動化"

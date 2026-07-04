@@ -1,0 +1,15 @@
+"date": "2026-04-15"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 7
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI 活用と BI、推論最適化が中心の比較的落ち着いた内容でした。BI 分野では Amazon Quick Sight にシートツールチップ機能が追加され、ダッシュボード作成者がチャートや KPI、テキストを組み合わせたカスタムツールチップをフリーフォームレイアウトで設計でき、ホバー時に動的に表示できるようになりました。機械学習では AWS Trainium2 と vLLM を用いた投機的デコーディングによるデコード負荷の高い LLM 推論の高速化と、ブラジルの Rede Mater Dei de Saúde が AgentCore で医療のレベニューサイクルにおける AI エージェントを監視する事例が紹介されました。基盤面では AWS Payment Cryptography が南米 (サンパウロ) リージョンに展開されました。国内ではスギ薬局の Amazon Bedrock を活用した年末調整 QA ボットと調剤医薬品在庫確認エージェントの生成 AI 事例、Amazon Quick 東京リージョンローンチ記念イベントの開催報告が公開されました。
+"topics":
+  - "BI/生成 AI: Amazon Quick Sight のシートツールチップ (チャート・KPI・テキストのカスタムツールチップ)"
+  - "推論最適化: AWS Trainium2 と vLLM による投機的デコーディングで LLM 推論を高速化"
+  - "国内・医療事例: スギ薬局の Bedrock 生成 AI 活用、Rede Mater Dei de Saúde の AgentCore エージェント監視"
+  - "インフラ: AWS Payment Cryptography の南米 (サンパウロ) 展開、Amazon Quick 東京リージョンイベント報告"

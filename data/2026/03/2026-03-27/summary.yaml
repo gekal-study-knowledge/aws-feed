@@ -1,0 +1,14 @@
+"date": "2026-03-27"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 9
+"sources":
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  サーバーレスとコンピュート、ヘルスケアのアクセス制御が中心の一日でした。AWS Lambda Managed Instances は最大 32 GB メモリ・16 vCPU をサポートし、メモリと vCPU の比率（2:1、4:1、8:1）を選択できるようになり、大規模データ処理などのコンピュート集約型ワークロードに対応します。データベースでは Amazon Aurora PostgreSQL の数秒でのサーバーレスデータベース作成が発表され、日本語ブログでも解説されました。AWS HealthImaging は DICOM スタディ・シリーズレベルのきめ細かなアクセス制御を導入。その他、Amazon GameLift Servers の次世代 EC2 インスタンス対応、Amazon Timestream for InfluxDB の高度なメトリクス、CloudWatch Logs の Infrequent Access クラスでのデータ保護と OpenSearch PPL/SQL 対応、Amazon Connect のクイックレスポンスへのタグベースアクセス制御などが発表されました。Claude Code on Amazon Bedrock のデプロイパターンも紹介されています。
+"topics":
+  - "サーバーレス/コンピュート: Lambda Managed Instances が最大 32 GB メモリ・16 vCPU 対応、Aurora PostgreSQL の数秒でのサーバーレス作成"
+  - "ヘルスケア: AWS HealthImaging の DICOM スタディ・シリーズレベルのきめ細かなアクセス制御"
+  - "運用/可観測性: CloudWatch Logs IA のデータ保護と OpenSearch PPL/SQL 対応、Timestream for InfluxDB の高度なメトリクス"
+  - "その他: GameLift Servers の次世代 EC2 対応、Amazon Connect クイックレスポンスの TBAC、Claude Code on Bedrock デプロイパターン"

@@ -1,0 +1,13 @@
+"date": "2026-02-18"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はAmazon OpenSearch Serviceの機能拡張が目立ちました。Graviton4ベースのインスタンス（c8g、m8g、r8g、r8gd）への対応が複数リージョンに拡大され、Graviton3比で最大30%の性能向上を実現するほか、ストレージ最適化のi7iインスタンスにも対応しました。生成AI・開発者向けでは、Amazon Aurora DSQLがKiro powersとAIエージェントスキルに統合され、MCPサーバーを通じたエージェント支援開発が可能になりました。またMistral AI Devstral 2 123BがAmazon Bedrockで利用可能となりました。セキュリティ・ガバナンスでは、Amazon Managed GrafanaのKMSカスタマー管理キー対応、ACMの公開証明書の有効期間短縮（CA/Browser Forumの新方針に準拠し198日へ）、AWS Clean RoomsのリモートIcebergカタログ対応が発表されました。
+"topics":
+  - "OpenSearch Service: Graviton4インスタンス対応拡大、ストレージ最適化i7i対応"
+  - "生成AI・開発: Aurora DSQLのKiro powers/AIエージェントスキル統合、BedrockでMistral Devstral 2提供"
+  - "セキュリティ: Managed GrafanaのKMS CMK対応、ACM証明書の有効期間198日への短縮"
+  - "データ分析: Clean RoomsのリモートApache Icebergカタログ対応"

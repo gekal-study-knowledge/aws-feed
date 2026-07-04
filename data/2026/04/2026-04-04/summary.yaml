@@ -1,0 +1,10 @@
+"date": "2026-04-04"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_security_blog"
+"overview": |
+  この日はセキュリティブログから 1 件の発表がありました。Landing Zone Accelerator on AWS (LZA) の最新サンプルセキュリティベースラインである「Universal Configuration」と「LZA Compliance Workbook」が提供開始されました。世界各国の政府機関を含む高度に規制された顧客との長年の実地経験、および AWS パートナーや業界専門家との協議に基づいて開発されたもので、規制の厳しい環境におけるセキュリティベースラインの構築とコンプライアンス対応を支援します。
+"topics":
+  - "セキュリティ基盤: Landing Zone Accelerator の Universal Configuration と LZA Compliance Workbook の提供開始による規制対応支援"

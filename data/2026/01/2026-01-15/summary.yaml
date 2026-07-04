@@ -1,0 +1,17 @@
+"date": "2026-01-15"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 17
+"sources":
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は更新数が多く、新世代コンピュート、データベース、分析、セキュリティが目立ちました。最大の話題はカスタム Intel Xeon 6 プロセッサ搭載のメモリ最適化インスタンス Amazon EC2 X8i の一般提供で、SAP 認定を受け X2i 比で最大 43% 高い性能、1.5 倍のメモリ容量 (最大 6TB)、3.4 倍のメモリ帯域を実現します。また AWS European Sovereign Cloud が全顧客に一般提供されました。データベースでは Amazon RDS および RDS Custom が Microsoft SQL Server の最新 CU/GDR 更新 (CVE-2025-59499 対応) をサポートし、AWS のサーバーレスデータベース群が v0 by Vercel で利用可能になりました。分析・その他では Redshift Serverless のキュー単位のクエリリソース管理、AWS Clean Rooms の PySpark テンプレートパラメータ対応、S3 on Outposts の第 2 世代ラック対応、EBS の 24 時間で最大 4 回のボリューム変更、Lambda の DynamoDB Streams クロスアカウントアクセスが登場。セキュリティ面では CodeBuild の webhook フィルタ設定不備に関する速報も公開されました。
+"topics":
+  - "新世代コンピュート: Amazon EC2 X8i (カスタム Intel Xeon 6、SAP 認定) が GA — X2i 比で最大 43% 高性能、最大 6TB メモリ"
+  - "ソブリンクラウド: AWS European Sovereign Cloud が全顧客に一般提供開始"
+  - "データベース: RDS / RDS Custom が SQL Server 最新 CU/GDR (CVE-2025-59499 対応)、AWS DB が v0 by Vercel で利用可能に"
+  - "分析: Redshift Serverless のキュー単位クエリリソース管理、AWS Clean Rooms の PySpark テンプレートパラメータ対応"
+  - "ストレージ/コンピュート: S3 on Outposts の第2世代ラック対応、EBS が24時間で最大4回のボリューム変更、Lambda の DynamoDB Streams クロスアカウントアクセス"
+  - "セキュリティ: CodeBuild webhook フィルタの設定不備に関するセキュリティ速報 (2026-002-AWS)"

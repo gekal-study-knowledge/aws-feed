@@ -1,0 +1,10 @@
+"date": "2025-10-10"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_security_bulletins"
+"overview": |
+  この日はAWSからFreeRTOS-Plus-TCPスタックに関するセキュリティ速報(AWS-2025-023)が1件公開され、3件のCVEが報告された。FreeRTOS-Plus-TCPはFreeRTOS向けに設計されたオープンソースのTCP/IPスタックで、IPv6やARP、DHCP、DNS、ICMPv6などのプロトコルをサポートする。CVE-2025-11616は想定より小さいサイズの特定メッセージ種別のICMPv6パケット受信時のバッファオーバーリード、CVE-2025-11617はペイロード長が不正なIPv6パケット受信時のバッファオーバーリード、CVE-2025-11618はIPバージョンフィールドが不正なUDP/IPv6パケット受信時の無効なポインタ参照。これらはIPv6を使用するアプリケーションのみに影響し、IPv6サポートが有効なv4.0.0〜v4.3.3が対象。
+"topics":
+  - "FreeRTOS-Plus-TCP: IPv6/ICMPv6パケット処理におけるバッファオーバーリードと無効ポインタ参照 (CVE-2025-11616〜11618)"

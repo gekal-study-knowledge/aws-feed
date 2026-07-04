@@ -1,0 +1,10 @@
+"date": "2026-03-29"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  更新は 1 件のみで、VMware ワークロードのネットワーク設計に関する日本語ブログでした。Amazon Elastic VMware Service (Amazon EVS) は、VMware Cloud Foundation (VCF) を Amazon VPC 内で直接実行でき、アプリケーションのリファクタリングやスタッフの再トレーニングを避けつつ、既存の VMware ワークロードを AWS へリフトアンドシフトする最も迅速な方法を提供します。本記事では、一般的なオンプレミスの VMware デプロイメントとは異なる Amazon EVS のネットワークモデルを解説し、実証済みのアーキテクチャパターンと、計画・導入を成功させるための重要な考慮事項を紹介しています。
+"topics":
+  - "Amazon Elastic VMware Service (Amazon EVS) における VMware ワークロード向けモダンネットワークの構築とアーキテクチャパターン"

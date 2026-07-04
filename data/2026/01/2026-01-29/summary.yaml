@@ -1,0 +1,18 @@
+"date": "2026-01-29"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 10
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は生成AI、サーバーレス、セキュリティ、データベースなど幅広い発表が行われた。コンピューティングブログでは、非同期Lambda呼び出し・Amazon SQS・Amazon EventBridgeのペイロード最大サイズが256KBから1MBに拡大された。これに関連してEventBridgeも1MBペイロードに対応した。アーキテクチャブログでは、ArteraがAWSを用いてAIによる前立腺がん検査をスケールさせた事例が紹介された。生成AI関連では、AWS MCP ServerでのDeployment Agent SOPsのプレビュー提供、Amazon BedrockのResponses APIでのサーバーサイドカスタムツール対応が発表された。またAmazon CognitoのインバウンドフェデレーションLambdaトリガー、Amazon Keyspacesのテーブル事前ウォーミング、Amazon GameLift Serversのゼロインスタンスへの自動スケーリング、Amazon S3オブジェクトのサーバーサイド暗号化タイプ変更、セキュリティ対応自動化の入門記事も公開された。
+"topics":
+  - "サーバーレス: Lambda・SQS・EventBridgeのペイロード1MB拡大"
+  - "生成AI: AWS MCP ServerのDeployment Agent SOPsとBedrockのサーバーサイドツール"
+  - "セキュリティ: セキュリティ対応自動化とS3オブジェクトの暗号化タイプ変更"
+  - "データベース: Amazon Keyspacesのテーブル事前ウォーミング"
+  - "コスト最適化: GameLift Serversのゼロインスタンス自動スケーリング"
+  - "事例: ArteraによるAIを用いた前立腺がん診断のスケール"

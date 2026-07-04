@@ -1,0 +1,13 @@
+"date": "2026-01-06"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 4
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はWhat's Newから4件のアップデートが発表された。AWS Marketplace Seller Reportingは、請求済み収益ダッシュボードと請求イベントデータフィードに最新の支払い回収状況を追加し、請求・回収・支払いの各金額を区別できるコレクション可視化機能を提供した。Amazon ECSは、AWS FargateおよびECS Managed InstancesでLinuxタスク向けのtmpfsマウントに対応し、メモリベースのファイルシステムをコンテナで利用できるようになった。Amazon MQは、RabbitMQ 4.2以降のブローカーでHTTPサーバーへのリクエストによる認証・認可に対応した。さらにAWS Configは、Amazon EC2やAmazon SageMaker、Amazon S3 Tablesなどの主要サービスにわたる21種類の新しいリソースタイプをサポートし、環境のカバレッジを拡大した。
+"topics":
+  - "AWS Marketplace Seller Reporting: 支払い回収状況の可視化を追加"
+  - "Amazon ECS: FargateとManaged Instancesでtmpfsマウントに対応"
+  - "Amazon MQ: RabbitMQブローカーでHTTPベース認証に対応"
+  - "AWS Config: 21種類の新しいリソースタイプをサポート"

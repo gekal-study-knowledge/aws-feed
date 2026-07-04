@@ -1,0 +1,13 @@
+"date": "2025-11-19"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 4
+"sources":
+  - "aws_architecture_blog"
+"overview": |
+  この日はAWS Architecture Blogから4件の記事が公開され、AIワークロードのアーキテクチャ設計が中心テーマとなりました。re:Invent 2025では、AWS Well-Architected Lensとして新設の「Responsible AI Lens(責任あるAI)」に加え、「Machine Learning Lens」と「Generative AI Lens」の2つの大幅更新が発表されました。生成AIレンズの更新には新たなベストプラクティスや高度なシナリオガイダンス、責任あるAI・データアーキテクチャ・エージェント型ワークフローに関する改善が含まれます。また、Amazon API Gatewayを用いてAmazon Bedrock実装をガバナンスするリファレンスアーキテクチャ(認可制御、利用クォータ、リアルタイムのレスポンスストリーミング)も紹介され、企業規模でのAIガバナンス実現を支援しています。
+"topics":
+  - "re:Invent 2025で3つのWell-Architected Lens(Responsible AI/ML/Generative AI)を発表"
+  - "Well-Architected Generative AI Lensの更新: 新ベストプラクティスとエージェント型ワークフロー指針"
+  - "Well-Architected Machine Learning Lensの更新"
+  - "Amazon API GatewayによるAmazon Bedrock向けAIゲートウェイ構築"

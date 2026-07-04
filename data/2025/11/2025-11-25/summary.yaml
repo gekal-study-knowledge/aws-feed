@@ -1,0 +1,15 @@
+"date": "2025-11-25"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 6
+"sources":
+  - "aws_compute_blog"
+  - "aws_security_blog"
+"overview": |
+  この日はCompute BlogとSecurity Blogから計6件が公開されました。Compute系ではNode.js 24ランタイムのAWS Lambda対応(2028年4月までのサポート見込み)、5th Gen AMD EPYC(Turin)搭載のメモリ最適化EC2 R8aインスタンスの性能ベンチマーク、未使用のEC2予約キャパシティを活用する「中断可能キャパシティ予約(interruptible capacity reservations)」、AWS Gravitonの価格性能最適化、そして12月1〜5日開催のre:Invent 2025におけるハイブリッドクラウド・エッジコンピューティング関連セッションの参加者向けガイドが紹介されました。Security Blogでは、AWS Secrets Managerがサードパーティ資格情報を管理する「Managed External Secrets」を発表し、あわせて顧客ワークロードに対するネットワークスキャンのガイドラインが公開されました。
+"topics":
+  - "AWS LambdaでNode.js 24ランタイムが利用可能に"
+  - "AMD EPYC Turin搭載のEC2 R8aメモリ最適化インスタンスの性能"
+  - "EC2の中断可能キャパシティ予約による未使用キャパシティ最適化"
+  - "AWS Secrets ManagerのManaged External Secrets(サードパーティ資格情報管理)発表"
+  - "ネットワークスキャンのガイドライン公開とre:Invent 2025ハイブリッド/エッジ関連ガイド"

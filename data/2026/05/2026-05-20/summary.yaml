@@ -1,0 +1,18 @@
+"date": "2026-05-20"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 17
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は AI エージェント基盤、セキュリティガバナンス、リージョン拡張が中心でした。機械学習では Amazon Nova Sonic を用いたスケーラブルな音声エージェント設計、Kiro CLI の会話メモリ拡張、SageMaker Feature Store の新機能、Bedrock でのプログラマティックツール呼び出しが解説されました。アーキテクチャブログでは Amazon EKS を用いた機械学習事例や、EC2 G7e での生成 AI 動画推論最適化を紹介。セキュリティブログではパターンベースのポリシー・アズ・コードによる IaC ガバナンス、AWS Organizations からの不正アカウント離脱防止 (CIRT) を扱いました。What's New では Amazon Inspector の台北リージョン提供、MWAA の Airflow 3.2 対応、ECS のデプロイ一時停止・再開制御、SageMaker HyperPod の推論データキャプチャ、イスタンブールの新 Local Zone GA などが発表されました。
+"topics":
+  - "AI エージェント: Nova Sonic 音声エージェント、Bedrock AgentCore 活用"
+  - "セキュリティ: IaC ポリシー・アズ・コード、Organizations 不正離脱防止"
+  - "コンテナ: ECS のデプロイ一時停止・再開制御"
+  - "運用/リージョン: Inspector 台北対応、イスタンブール Local Zone GA"
+  - "ML 運用: SageMaker HyperPod の推論データキャプチャ、MWAA 3.2"

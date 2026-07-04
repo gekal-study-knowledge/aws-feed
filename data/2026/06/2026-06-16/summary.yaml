@@ -1,0 +1,19 @@
+"date": "2026-06-16"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 37
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  AWS Summit 週にあわせ、生成 AI・エージェントとパートナー関連の発表が多数集中した日でした。Amazon Bedrock では Google DeepMind の Gemma 4 ファミリーと xAI の Grok 4.3 が新たに利用可能になり、AgentCore Memory は厳密整合メタデータに対応しました。AWS DevOps Agent はカスタム SRE エージェントや MCP/A2A プロトコルに対応し、AWS Transform は FSx for NetApp ONTAP への移行や自律的な技術的負債の継続的モダナイゼーション (プレビュー) を追加しました。AWS Partner Central では共同販売の加速、オンボーディング支援、リード補完など複数のエージェント機能が発表され、AWS Marketplace も Storefront の一般提供や AI 支援の商品掲載、専門サービス手数料の 0.5% への引き下げを行いました。運用面では CloudWatch Log Analytics、Management Console Private Access のインターネット非接続対応、ECS Express Mode の GovCloud 提供、S3 Vectors のクエリ料金最大 80% 削減などが登場しました。日本語ブログでは Kiro Pro Max や Kiro グッズストアが紹介されました。セキュリティ速報では Kiro IDE の CVE-2026-11931 が公開されました。
+"topics":
+  - "基盤モデル: Bedrock での Gemma 4 と Grok 4.3 の提供、AgentCore Memory の厳密整合メタデータ対応"
+  - "AI エージェント/開発: AWS DevOps Agent の MCP/A2A 対応、AWS Transform の継続的モダナイゼーション (プレビュー)"
+  - "パートナー: Partner Central の共同販売・オンボーディング支援、Marketplace Storefront 一般提供と手数料引き下げ"
+  - "運用/監視: CloudWatch Log Analytics、Management Console Private Access のインターネット非接続対応"
+  - "ストレージ/コンテナ: S3 Vectors のクエリ料金 80% 削減、S3 annotations、ECS Express Mode の GovCloud 提供"
+  - "セキュリティ速報: Kiro IDE の CVE-2026-11931 (認証トークンキャッシュの権限問題)"

@@ -1,0 +1,11 @@
+"date": "2026-05-04"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 2
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日は少数の発表にとどまり、いずれも Amazon RDS と AWS Payment Cryptography に関するものでした。AWS Payment Cryptography はリソースベースポリシー (RBP) を用いた鍵のクロスアカウント共有をサポートし、社内外の複数アカウントにまたがる暗号鍵の管理をより柔軟にしました。単一の鍵素材を保持したまま、インポート/エクスポートに頼らずにリソース単位のアクセス制御でクロスアカウントアクセスを実現できます。また Amazon RDS for SQL Server が、AWS 専用のカスタム Intel Xeon 6 プロセッサを搭載した M8i および R8i インスタンスに対応し、同等の第 7 世代 Intel ベースインスタンスと比べて最大 15% の価格性能向上と 2.5 倍のメモリ帯域幅を提供します。
+"topics":
+  - "Payment Cryptography: リソースベースポリシーによる鍵のクロスアカウント共有"
+  - "データベース: RDS for SQL Server が Intel Xeon 6 搭載 M8i / R8i インスタンスに対応"

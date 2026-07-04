@@ -1,0 +1,12 @@
+"date": "2026-06-20"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 2
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+"overview": |
+  記事数は少ないものの、運用効率化とデータベース更新に関する発表が見られた一日でした。AWS Compute Blog では、AWS Transform custom を用いて AWS Lambda 関数のランタイムを大規模にアップグレードする手法が紹介されました。Lambda ランタイムには公開された廃止スケジュールがあり、廃止済みランタイムでの稼働はセキュリティ露出などのリスクを伴うため、定期的なアップグレードが必要になります。AWS Japan Blog では、Amazon RDS for Db2 が IBM Db2 12.1 をサポートしたことが発表されました。AI Query Optimizer、名前空間の分離、セキュリティ強化などの新機能に加え、IBM ソフトウェアライセンス料なしで利用できる Community Edition (db2-ce) が新たに追加されています。
+"topics":
+  - "サーバーレス運用: AWS Transform custom による Lambda ランタイムの大規模アップグレード"
+  - "データベース: Amazon RDS for Db2 12.1 提供開始と Community Edition の追加"

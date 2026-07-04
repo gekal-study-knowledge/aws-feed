@@ -1,0 +1,14 @@
+"date": "2026-01-05"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 5
+"sources":
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  年始のこの日は5件の更新があった。AWS News Blogでは新年のWeekly Roundupが公開され、10,000 AIdeasコンペティションやAmazon EC2、Amazon ECS Managed Instancesなどの話題が紹介された。What's Newでは主にリージョン拡張が目立ち、NVIDIA A10G Tensor Core GPU搭載のAmazon EC2 G5インスタンスがアジアパシフィック(香港)リージョンで利用可能になったほか、AWS Resource ExplorerとAWS Transfer Familyがアジアパシフィック(ニュージーランド)リージョンに拡大した。さらにEC2 Capacity Managerに新たなSpot中断メトリクス(Spot合計数、合計中断数、中断率)が追加され、組織全体のSpotキャパシティ状況を把握してデータに基づいたSpotインスタンス戦略を立てられるようになった。
+"topics":
+  - "AWS Weekly Roundup: 10,000 AIdeasコンペティションやEC2などの新年トピック"
+  - "Amazon EC2 G5: アジアパシフィック(香港)リージョンで提供開始"
+  - "リージョン拡張: Resource ExplorerとTransfer Familyがニュージーランドに対応"
+  - "EC2 Capacity Manager: Spot中断メトリクスを追加"

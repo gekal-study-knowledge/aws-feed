@@ -1,0 +1,10 @@
+"date": "2026-02-28"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はメディアサービスに関する1件の発表があった。AWS Elemental MediaLiveが入力・出力の双方でSecure Reliable Transport (SRT) のListenerモードをサポートした。Listenerモードでは、MediaLiveが接続を開始するのではなく待ち受け、上流ソースがライブ映像を直接プッシュし、下流システムがオンデマンドでエンコード済みストリームをプルする。これにより、複雑なファイアウォール設定や送信元・宛先での静的なパブリックIPアドレスが不要となり、ネットワーク構成が簡素化される。既存のSRT Callerモードを補完し、SRTハンドシェイクをどちら側から開始するかを完全に制御できる。設定可能な遅延設定と必須のAES暗号化にも対応し、MediaLive Anywhereを含むオンプレミス/リモート拠点からの貢献ワークフローを柔軟にする。本機能はMediaLiveが提供される全AWSリージョンで利用可能。
+"topics":
+  - "メディア配信: MediaLiveのSRT Listenerモード対応 (入力/出力、ファイアウォール設定の簡素化)"

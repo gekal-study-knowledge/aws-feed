@@ -1,0 +1,21 @@
+"date": "2026-04-14"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 22
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティ情報の集中公開と、開発者ツール・エージェント実装が主軸でした。セキュリティ速報では、AWS Research and Engineering Studio (RES) のコマンドインジェクション/権限昇格、Amazon Athena ODBC ドライバー、Kiro IDE の XSS (CVE-2026-5429)、Firecracker の境界外書き込み (CVE-2026-5747)、AWS Common Runtime のイベントストリームデコーダーのバッファオーバーフロー (CVE-2026-5190) など計 5 件の脆弱性が公表されました。開発者ツールでは Kiro CLI 2.0 (デザイン刷新、ヘッドレス CI/CD、Windows 対応) と Planview による SOC 2 コンプライアンス自動化事例が紹介されました。機械学習分野では Spring AI SDK for AgentCore の GA、生成 AI Path-to-Value フレームワーク、SageMaker JumpStart のユースケース別デプロイ、HyperPod 推論のベストプラクティスが解説されました。基盤面では EC2 C8gn/M8gn/R8gn の EBS 性能倍増、P6-B300 (Blackwell Ultra) の GovCloud 展開、AWS Transform の Kiro/VS Code 対応、Secrets Manager のハイブリッドポスト量子 TLS (ML-KEM)、AWS Data Exports のクロスアカウント配信が発表されました。セキュリティブログでは MCP を用いた AI エージェントの安全なアクセスパターンも解説されました。
+"topics":
+  - "セキュリティ脆弱性: RES・Athena ODBC・Kiro IDE (CVE-2026-5429)・Firecracker (CVE-2026-5747)・AWS Common Runtime (CVE-2026-5190) の5件公表"
+  - "開発者ツール: Kiro CLI 2.0 (Windows 対応・ヘッドレス CI/CD)、AWS Transform の Kiro/VS Code 対応、Planview の SOC 2 自動化"
+  - "AI/ML: Spring AI SDK for AgentCore の GA、生成 AI Path-to-Value フレームワーク、SageMaker JumpStart/HyperPod 推論"
+  - "コンピュート: EC2 C8gn/M8gn/R8gn の EBS 性能倍増、P6-B300 (Blackwell Ultra) の GovCloud 展開"
+  - "セキュリティ機能: Secrets Manager のポスト量子 TLS (ML-KEM)、MCP による AI エージェントの安全アクセスパターン"
+  - "コスト/ネットワーク: AWS Data Exports のクロスアカウント配信、AWS Interconnect GA (News/国内ブログ)"

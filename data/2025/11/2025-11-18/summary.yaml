@@ -1,0 +1,10 @@
+"date": "2025-11-18"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_architecture_blog"
+"overview": |
+  この日はAWS Architecture Blogから1件の記事が公開されました。Amazon MQとAWS App Runnerを用いた優先度ベースのメッセージ処理システムの構築方法を解説する内容です。優先度キューイングにAmazon MQ、データ永続化にAmazon DynamoDB、サーバーレスコンピューティングにAWS App Runnerを組み合わせ、高優先度メッセージがバイパスできるアプリケーションレベルの遅延の実装、WebSocket接続によるリアルタイムUIの作成、信頼性を最大化する二層のリトライ機構の構成方法を紹介しています。
+"topics":
+  - "Amazon MQとAWS App Runnerによる優先度ベースのメッセージ処理システム構築"

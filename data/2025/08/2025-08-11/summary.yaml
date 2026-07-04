@@ -1,0 +1,10 @@
+"date": "2025-08-11"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_security_bulletins"
+"overview": |
+  この日はセキュリティ速報が1件公開された。Visual Studio Code 向け Amazon Q Developer 拡張機能 (バージョン1.84.0) に関するもので、CVE-2025-8217 として管理されている。AWS は拡張機能に悪意あるコードが混入していたことを把握し対処したが、構文エラーにより当該コードは実行されず、サービスや顧客環境に変更を加えることはなかったと報告している。追加情報があれば速報を更新するとしている。
+"topics":
+  - "Amazon Q Developer VS Code拡張のセキュリティ更新: 拡張機能v1.84でCVE-2025-8217に対応。混入した悪意あるコードは構文エラーで実行されず影響なし"

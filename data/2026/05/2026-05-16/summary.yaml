@@ -1,0 +1,17 @@
+"date": "2026-05-16"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 11
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はマルチクラウド接続とセキュリティ、運用管理系のアップデートが目立ちました。目玉は AWS Interconnect - multicloud の Oracle Cloud Infrastructure 接続がプレビュー提供開始となり、OCI が同オープン仕様を採用した点です。セキュリティ面では AWS AI Security Framework の紹介、coreMQTT の脆弱性 CVE-2026-8686 の告知がありました。管理系では AWS Organizations の SCP クォータ拡大、Amazon Managed Grafana の v12.4 インプレースアップグレード対応、CloudWatch Logs のクエリ結果上限が 10 万件へ拡大。さらに Amazon EMR Serverless が 6 リージョン追加、Amazon Connect Cases の機能強化、AWS Partner Central エージェントの機会作成支援も発表されました。
+"topics":
+  - "マルチクラウド: AWS Interconnect が OCI 接続をプレビュー提供開始"
+  - "セキュリティ: AWS AI Security Framework 公開、coreMQTT の CVE-2026-8686"
+  - "ガバナンス: AWS Organizations の SCP クォータ拡大"
+  - "運用: Managed Grafana v12.4 対応、CloudWatch Logs クエリ結果上限拡大"
+  - "分析/リージョン: EMR Serverless が 6 リージョンへ拡大"

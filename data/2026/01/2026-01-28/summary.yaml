@@ -1,0 +1,12 @@
+"date": "2026-01-28"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 4
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はコンピューティング、データストリーミング、コンテナ、データベースに関するリージョン拡大とレジリエンス機能の発表が行われた。AWS Graviton3プロセッサ搭載のAmazon EC2 R7gdインスタンスがEurope (Paris) リージョンで提供開始され、メモリ集約型ワークロードや高速な低レイテンシーローカルストレージが必要な用途に適している。Amazon MSK ReplicatorがAsia Pacific (New Zealand) リージョンに対応し、これで36のAWSリージョンで利用可能となった。Amazon EKSおよびAmazon EKS DistroがKubernetesバージョン1.35をサポートし、In-Place Pod Resource Updatesなどの新機能が利用できる。またAmazon DynamoDBのマルチリージョン強整合性 (MRSC) グローバルテーブルがAWS Fault Injection Serviceによるアプリケーションレジリエンステストに対応した。
+"topics":
+  - "コンピューティング: EC2 R7gdインスタンスのParisリージョン提供"
+  - "コンテナ: EKSとEKS DistroのKubernetes 1.35サポート"
+  - "データベース: DynamoDB MRSCグローバルテーブルのFISレジリエンステスト対応"

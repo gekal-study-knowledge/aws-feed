@@ -1,0 +1,13 @@
+"date": "2026-02-20"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 3
+"sources":
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティ脅威の話題が注目を集めました。Amazon Threat Intelligenceは、ロシア語話者の金銭目的の脅威アクターが複数の商用生成AIサービスを悪用し、55か国以上で600台を超えるFortiGateデバイスを大規模に侵害した事例を報告しました。商用AIサービスが高度でない攻撃者でも大規模なサイバー攻撃を可能にしている傾向を示すものです。このほか、Amazon RDS for OracleがOracle 2026年1月のリリースアップデート（RU）とSpatial Patch Bundleに対応し、セキュリティ更新の適用が推奨されました。またAmazon MSK ServerlessがAfrica（ケープタウン）、Asia Pacific（台北）、Canada West（カルガリー）の3リージョンに拡大しました。
+"topics":
+  - "セキュリティ脅威: AI悪用の脅威アクターが55か国超で600台以上のFortiGateデバイスを侵害"
+  - "データベース: RDS for OracleのOracle 2026年1月RU/Spatial Patch Bundle対応"
+  - "メッセージング: MSK Serverlessの3リージョン（ケープタウン、台北、カルガリー）拡大"

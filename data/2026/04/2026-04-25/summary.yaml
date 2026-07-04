@@ -1,0 +1,16 @@
+"date": "2026-04-25"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 13
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は AI エージェント関連の機能拡充とセキュリティ対応が目立ちました。Amazon Quick が Visier の Vee エージェントと MCP 経由で統合され、人事や財務担当者が自然言語で労働力データにアクセスできるようになりました。Amazon Connect は AI エージェントの性能を測る 8 つの新メトリクス (目標達成率、忠実度スコア、ツール選択精度など) を提供開始し、監督者のステータス変更を CloudTrail に記録する監査機能も追加しました。Amazon Bedrock AgentCore Gateway と Identity は VPC egress をサポートし、プライベートリソースへの安全な接続を実現。その他 EC2 High Memory U7i インスタンスのリージョン拡大、Lambda の Kafka ESM プロビジョンドモード拡大、WorkSpaces の最新 Linux 対応などがありました。セキュリティ面では耐量子暗号 (PQC) 移行のブログに加え、AWS Ops Wheel (CVE-2026-6911/6912) や tough/tuftool (CVE-2026-6966~6968) の脆弱性速報が公開されました。
+"topics":
+  - "AIエージェント: Amazon Quick と Visier Vee 統合、AgentCore の VPC egress 対応"
+  - "Amazon Connect: AIエージェント性能測定の8新メトリクスとCloudTrail監査ログ"
+  - "インフラ拡張: EC2 U7i高メモリ、Lambda Kafka ESM、WorkSpacesのLinux新OS対応"
+  - "セキュリティ: 耐量子暗号移行、AWS Ops Wheel および tough/tuftool の脆弱性速報"

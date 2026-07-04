@@ -1,0 +1,10 @@
+"date": "2025-07-23"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 1
+"sources":
+  - "aws_security_bulletins"
+"overview": |
+  この日はセキュリティ速報が 1 件公開されました。重要度「Important (requires attention)」として、CVE-2025-8069 (AWS Client VPN の Windows クライアントにおけるローカル権限昇格) が報告されました。Windows デバイスへの AWS Client VPN クライアントのインストール処理が OpenSSL 設定ファイルの取得元として C:\usr\local\windows-x86_64-openssl-localbuild\ssl を参照するため、非管理者ユーザーが当該設定ファイルに任意のコードを配置し、管理者ユーザーがインストールを実行した際に root 相当の権限でコードが実行されうるというものです。Linux および macOS のデバイスには影響しません。影響を受けるバージョンは 4.1.0、5.0.0、5.0.1、5.0.2、5.1.0、5.2.0、5.2.1 です。
+"topics":
+  - "CVE-2025-8069: AWS Client VPN Windows クライアントのインストール時に非管理者が OpenSSL 設定ファイル経由でコードを仕込み root 権限で実行させうるローカル権限昇格 (Linux/Mac は非該当)"

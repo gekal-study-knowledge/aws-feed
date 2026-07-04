@@ -1,0 +1,11 @@
+"date": "2025-11-05"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 2
+"sources":
+  - "aws_security_bulletins"
+"overview": |
+  この日はAWSセキュリティ速報が2件公開されました。1件目はAmazon WorkSpaces Linux版クライアント(2023.0〜2024.8)における認証トークンの不適切な取り扱い(CVE-2025-12779)で、同一クライアント上の他ローカルユーザーがDCVベースのWorkSpaces向けトークンを取得し、別ユーザーのWorkSpaceにアクセスできる可能性が指摘されました。2件目はオープンソースのコンテナ管理基盤runcに影響する3件の脆弱性(CVE-2025-31133、CVE-2025-52565、CVE-2025-52881)への注意喚起で、AWSはコンテナをセキュリティ境界とみなしておらず顧客間のリスクはないとしつつ、Amazon LinuxやECS、EKS、Bottlerocketなど一部サービスが影響対象として挙げられています。いずれも重要度「Important」の扱いです。
+"topics":
+  - "Amazon WorkSpaces Linuxクライアントの認証トークン露出 (CVE-2025-12779)"
+  - "runcコンテナランタイムの脆弱性3件 (CVE-2025-31133/52565/52881) とAWSサービスへの影響"

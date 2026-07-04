@@ -1,0 +1,13 @@
+"date": "2026-02-19"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 7
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はリージョン拡張と接続性の強化が中心でした。EC2では、Intel Xeon 6搭載のM8i-flexがAsia Pacific（マレーシア、ソウル、シンガポール、東京）などに拡大し、NVIDIA RTX PRO 6000 Blackwell GPU搭載のG7eがAsia Pacific（東京）に登場したほか、M7iがAfrica（ケープタウン）で提供開始されました。データベースではAurora DSQLがGo、Python、Node.js向けの新コネクタを公開し、IAM認証を簡素化しました。メッセージングではAmazon MQがActiveMQ 5.19に対応し、Amazon SNSがAsia Pacific（ニュージーランド、台北）でSMS送信に対応しました。さらにAWS IAM Identity CenterがAsia Pacific（ニュージーランド）で利用可能となり、対応リージョンが38に拡大しました。
+"topics":
+  - "EC2新インスタンス・リージョン拡張: M8i-flexの拡大、G7e（Blackwell GPU）の東京提供、M7iのケープタウン提供"
+  - "データベース: Aurora DSQLのGo/Python/Node.jsコネクタ公開でIAM認証を簡素化"
+  - "メッセージング: Amazon MQのActiveMQ 5.19対応、SNSのSMS送信リージョン拡張"
+  - "アイデンティティ: IAM Identity CenterのニュージーランドRegion提供（38リージョンへ）"

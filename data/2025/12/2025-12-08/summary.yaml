@@ -1,0 +1,15 @@
+"date": "2025-12-08"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 4
+"sources":
+  - "aws_architecture_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+"overview": |
+  re:Invent 2025 直後のこの日は、イベントの振り返りとセキュリティの話題が中心でした。AWS News Blog では週刊まとめ (Weekly Roundup) として re:Invent 基調講演の要約やオンデマンド動画など、発表内容の活用方法が紹介されました。セキュリティ分野では re:Invent 2025 で発表された AI・自動化を活用したセキュリティ革新がまとめられ、生成 AI 採用に伴いセキュリティ支出が 2025 年の 2,130 億ドルから 2028 年には 3,770 億ドル (77% 増) へ拡大する見通しが示されました。また、AI コーディングアシスタント向けに IAM ポリシーのベースラインを生成するオープンソースの静的解析ツール「IAM Policy Autopilot」(CLI および MCP サーバー) が発表されました。アーキテクチャブログでは AWS のソリューションアーキテクトとして活躍する女性 3 名の視点を紹介する記事が公開されました。
+"topics":
+  - "re:Invent 振り返り: Weekly Roundup で基調講演要約とオンデマンド動画を紹介"
+  - "AI セキュリティ: re:Invent 2025 の AI・自動化セキュリティ革新、セキュリティ支出は 2028 年に 3,770 億ドルへ拡大予測"
+  - "IAM ツール: オープンソースの IAM Policy Autopilot (CLI/MCP サーバー) が AI コーディングアシスタント向けにポリシー生成"
+  - "アーキテクチャ/文化: AWS の女性ソリューションアーキテクト 3 名の視点を紹介"

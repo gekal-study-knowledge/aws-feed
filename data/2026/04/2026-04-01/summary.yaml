@@ -1,0 +1,17 @@
+"date": "2026-04-01"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 14
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はデータベースとネットワーク、セキュリティ基盤の強化が目立ちました。Oracle Database@AWS がサブミリ秒の高性能ネットワーキングを東京など複数リージョンで開始し、Amazon RDS for Oracle は追加ストレージボリューム構成でのクロスアカウントスナップショット共有に対応しました。セキュリティ面では CloudFront が署名付き URL/Cookie で SHA-256 をサポートし、AWS Managed Microsoft AD がオプトインリージョンでのマルチリージョンレプリケーションに対応、GovCloud では VPC 暗号化コントロールと Bedrock の構造化出力が利用可能になりました。コンテナ分野では Amazon ECS Managed Instances 向けの Managed Daemons が発表され、監視・ロギングエージェントの一元管理が可能になりました。生成 AI 関連では Amazon Nova Act による競合価格インテリジェンスの自動化、コンピュータビジョンと生成 AI を用いた安全監視の事例、大成株式会社の契約書管理 AI エージェント構築事例が紹介されました。
+"topics":
+  - "データベース/ネットワーク: Oracle Database@AWS のサブミリ秒高性能ネットワーキング、RDS for Oracle のクロスアカウントスナップショット共有"
+  - "セキュリティ強化: CloudFront の SHA-256 署名対応、Managed Microsoft AD マルチリージョンレプリケーション、GovCloud での VPC 暗号化コントロール・Bedrock 構造化出力"
+  - "コンテナ運用: Amazon ECS Managed Instances 向け Managed Daemons による監視/ロギングエージェントの一元管理"
+  - "生成 AI 活用事例: Amazon Nova Act による競合価格インテリジェンス、コンピュータビジョンと生成 AI での安全監視、大成株式会社の契約書管理 AI エージェント"

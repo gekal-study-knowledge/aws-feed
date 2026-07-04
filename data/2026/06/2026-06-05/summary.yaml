@@ -1,0 +1,16 @@
+"date": "2026-06-05"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 16
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は Amazon Cognito を中心とするアイデンティティとセキュリティの強化が目立ちました。Amazon Cognito がマルチリージョンレプリケーションに対応し、新しい Lambda トリガーによるフェデレーションサインインのカスタマイズや、次世代インフラによる高度な機能の解放が発表されました。セキュリティブログでは AWS Shield Advanced のフローログによる DDoS 攻撃の可視化も取り上げられました。日本語ブログでは Cognito マルチリージョンレプリケーション、ElastiCache for Valkey の耐久性、Amazon Bedrock 上での OpenAI GPT-5.5/GPT-5.4/Codex の利用開始に加え、ポスト量子暗号によるシークレット保護や AI 時代のセキュリティ体制強化が解説されました。エージェント/開発ツール分野では AWS MCP Server のクロスアカウント・クロスロールアクセス対応、AWS CLI の Agent Toolkit for AWS 対応が発表されました。機械学習では NVIDIA Nemotron 3 Ultra が Amazon SageMaker JumpStart で利用可能になり、SageMaker Data Agent は会話へのビジネスコンテキスト統合に対応しました。
+"topics":
+  - "アイデンティティ: Amazon Cognito のマルチリージョンレプリケーション、Lambda トリガー、次世代インフラ"
+  - "セキュリティ: AWS Shield Advanced のフローログによる DDoS 可視化、ポスト量子暗号、AI 時代の体制強化"
+  - "エージェント/開発ツール: AWS MCP Server のクロスアカウント対応、AWS CLI の Agent Toolkit 対応"
+  - "機械学習: NVIDIA Nemotron 3 Ultra の SageMaker JumpStart 提供、SageMaker Data Agent の拡張"

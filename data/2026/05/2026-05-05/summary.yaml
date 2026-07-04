@@ -1,0 +1,19 @@
+"date": "2026-05-05"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 32
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は Amazon Quick の生成 AI 分析機能が大きく前進しました。自然言語プロンプトからマルチシートのダッシュボードを生成する Generate Analysis、構造化データに対する対話型分析 Dataset Q&A、そして Apache Iceberg 対応の S3 テーブルバケットをデータソースとする直接クエリが一般提供され、Microsoft Outlook 向け拡張機能もプレビュー公開されました。SageMaker AI では自然言語でモデルカスタマイズを進めるエージェント体験が登場し、Kiro・Claude Code・CoPilot 等のコーディングエージェントと連携します。Bedrock AgentCore の最適化機能（エージェント品質ループ）がプレビューで詳説され、GovCloud (US-West) にも展開されました。基盤面では Aurora DSQL の JSON 型対応、EventBridge のデータプレーン CloudTrail ログ、IAM のクォータ引き上げ、EC2 I8ge・FSx のニュージーランドリージョン展開、SageMaker JumpStart への Qwen 新モデル 4 種追加などがありました。セキュリティではオープンプロキシの保護に関する記事と、WorkSpaces Skylight エージェントの権限昇格 (CVE-2026-7791) の速報が出されました。
+"topics":
+  - "Amazon Quick 生成 AI: Generate Analysis による自然言語ダッシュボード生成、Dataset Q&A 対話型分析、S3 テーブル（Iceberg）データソース、Outlook 拡張プレビュー"
+  - "SageMaker AI: 自然言語によるモデルカスタマイズのエージェント体験、キャパシティ対応推論、JumpStart への Qwen 新モデル 4 種追加"
+  - "Bedrock AgentCore: エージェント品質最適化ループ（推奨・バッチ評価・A/B テスト）プレビューと GovCloud (US-West) 展開"
+  - "データ/基盤: Aurora DSQL の JSON 型対応、EventBridge のデータプレーン CloudTrail ログ、IAM クォータ引き上げ、EC2 I8ge・FSx のニュージーランド展開"
+  - "オブザーバビリティ: CloudWatch Logs Insights のタグ検索、OpenSearch Cluster Insights 拡張、Console Mobile App の AI ログ要約"
+  - "セキュリティ: オープンプロキシ保護、WorkSpaces Skylight エージェントの権限昇格 (CVE-2026-7791)"

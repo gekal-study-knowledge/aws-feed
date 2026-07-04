@@ -1,0 +1,19 @@
+"date": "2026-06-15"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 19
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  ニューヨークで AWS Summit が開催される週で、監視・可観測性と生成 AI の話題が中心でした。Amazon CloudWatch では、メトリクスをアカウント/リージョンをまたいで集約できる Metrics Centralization と、統合クエリ・可視化を提供する Query Studio がともに一般提供となりました。AWS FinOps Agent がプレビュー提供され、Amazon Bedrock では Gemma 4 が利用可能になりました。AWS WAF は Bot Control の新機能として、x402 プロトコルを用いて AI ボットへコンテンツアクセス料金を課金できる AI トラフィック収益化を発表しました。コンピューティングでは EC2 C7i がイスラエル (テルアビブ)、C8i が欧州 (ストックホルム) で提供開始、RDS for MariaDB/MySQL の各バージョン対応も進みました。Amazon GameLift Servers はネットワーク帯域を無料化しました。日本語ブログでは週刊 AWS や生成 AI 実用化の事例、Amazon Connect の最新アップデートなどが紹介されました。
+"topics":
+  - "監視/可観測性: CloudWatch Metrics Centralization と Query Studio の一般提供"
+  - "生成 AI: AWS FinOps Agent プレビュー、Bedrock での Gemma 4 提供"
+  - "エッジ/セキュリティ: AWS WAF の AI トラフィック収益化 (x402 プロトコル)"
+  - "コンピューティング: EC2 C7i のテルアビブ提供、C8i のストックホルム提供"
+  - "データベース: RDS for MariaDB 12.3 プレビュー、MySQL/MariaDB マイナーバージョン対応"
+  - "ゲーム/コスト: Amazon GameLift Servers のネットワーク帯域無料化"

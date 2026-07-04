@@ -1,0 +1,18 @@
+"date": "2026-05-25"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  この日は AWS Japan ブログのみの更新で、データベースとイベント情報が中心でした。AWS JDBC Driver の Blue/Green
+  デプロイメントプラグインにより、Amazon RDS/Aurora のメンテナンス切り替え時のダウンタイムを約 12 秒まで短縮する手法が
+  紹介されました。また AWS Direct Connect 仮想インターフェイスの BGP 正常性とプレフィックス数に関する CloudWatch
+  メトリクスも解説されています。6 月開催の AWS Summit Japan 2026 の製造業向け展示紹介や、週刊 AWS・週刊生成 AI の
+  最新号、Amazon Connect のエージェンティック AI 更新、Local Executive Roadshow 名古屋編のレポートなど、
+  イベントと定例まとめ記事が並びました。
+"topics":
+  - "AWS JDBC Driver Blue/Green デプロイ: RDS/Aurora のメンテナンスダウンタイムをほぼゼロに"
+  - "Direct Connect CloudWatch メトリクス: BGP 正常性とプレフィックス数の可視化"
+  - "AWS Summit Japan 2026: 製造業向け展示の見どころ紹介"
+  - "定例まとめ: 週刊 AWS・週刊生成 AI、Amazon Connect アップデート"

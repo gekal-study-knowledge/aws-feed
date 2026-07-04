@@ -1,0 +1,28 @@
+"date": "2026-05-14"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 19
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティと生成AIエージェントの話題が中心でした。セキュリティ速報ではLinuxカーネルの権限昇格
+  問題であるCopy.fail/DirtyFragクラス（CVE-2026-43284）と、その関連のFragnesia（CVE-2026-46300、
+  espintcp経由。Amazon Linuxは非対象）に関する2件の速報が公表され、パッチ適用が推奨されました。
+  セキュリティブログではAWS Payment CryptographyのPCI PIN/P2PE準拠、責任あるAI導入のためのGRCガイド更新、
+  GuardDutyによる暗号通貨マイニング検知が解説。機械学習ブログではNova 2 Sonicとの音声ストリーミング、
+  CiscoとのMCP/A2Aエージェント保護、Databricks Unity CatalogとSageMakerでのLLMファインチューニングなどが
+  公開されました。サービス面ではFSx for OpenZFSが共有VPCでのMulti-AZ作成に対応、SageMaker Data AgentがIAM
+  Identity Centerドメインに対応、CloudFrontがmTLS向けOCSP失効確認に対応。日本語ではハノーバーメッセ2026の
+  ブースレポートやSAPPHIRE 2026でのSAP協業拡大も紹介されています。
+"topics":
+  - "セキュリティ速報: Linuxカーネル権限昇格 Copy.fail/DirtyFrag、Fragnesia(CVE-2026-46300)"
+  - "AWSセキュリティ: Payment CryptographyのPCI準拠、GuardDutyによるマイニング検知"
+  - "生成AI: Nova 2 Sonic音声ストリーミング、CiscoとのMCP/A2Aエージェント保護"
+  - "サービス拡張: FSx for OpenZFS共有VPC Multi-AZ、SageMaker Data AgentのIdC対応"
+  - "CloudFront: viewer mTLS向けOCSP失効確認に対応"
+  - "日本語: ハノーバーメッセ2026、SAPPHIRE 2026でのSAP協業"

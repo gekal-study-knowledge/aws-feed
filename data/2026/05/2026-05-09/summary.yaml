@@ -1,0 +1,22 @@
+"date": "2026-05-09"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_japan_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は週刊AWS（4/27週）で、EC2 M8in/M8ibの一般提供、QuickSightの自然言語アプリ構築、Bedrock
+  でのOpenAIモデルやManaged Agentsのプレビュー、Lambdaの Ruby 4.0対応など前週の主要発表がまとめて
+  紹介されました。日本語ブログではKiroコミュニティハブとKiro Labsの立ち上げも案内。サービス面では
+  Route 53 Global Resolverがanycast DNS解決の対象リージョンを追加・削除可能に、AWS Service Catalog
+  がニュージーランドとカルガリーに拡大、Client VPNがUbuntu 26.04対応、Amazon ConnectがACW向けの
+  デフォルトガイドを追加、Amazon QuickがAthenaのクロスアカウントアクセスに対応しました。セキュリティ
+  ではRedshift JDBCドライバの遠隔コード実行の脆弱性（CVE-2026-8178）が公表されています。
+"topics":
+  - "週刊AWS: 前週の主要アップデートを総括"
+  - "Kiro: コミュニティハブとKiro Labsを紹介"
+  - "リージョン拡大: Service Catalog、Route 53 Global Resolverの柔軟化"
+  - "Amazon Connect/Quick: ACWデフォルトガイドとAthenaクロスアカウント対応"
+  - "セキュリティ速報: Redshift JDBCドライバのRCE脆弱性(CVE-2026-8178)"

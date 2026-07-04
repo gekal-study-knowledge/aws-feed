@@ -1,0 +1,13 @@
+"date": "2025-12-12"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 3
+"sources":
+  - "aws_compute_blog"
+  - "aws_security_blog"
+"overview": |
+  この日はコンピュート 1 件、セキュリティ 2 件が公開されました。コンピュートブログでは、AWS Nitro Enclaves を用いてヘルスケア分野でゼロトラストの生成 AI アプリケーションを構築する方法が紹介されました。臨床メモの要約や診断支援など医療での LLM 活用が進む一方で生じるプライバシー・セキュリティ・知的財産の課題に対処する内容です。セキュリティブログでは、複数の AWS サービスにまたがる HTTP Strict Transport Security (HSTS) を一貫して実装する方法と、公共部門や規制産業の機密ワークロード向けにデジタル主権ニーズを満たす AWS Dedicated Local Zones のサービス拡張が取り上げられました。ヘルスケアと主権・通信セキュリティが横断的なテーマです。
+"topics":
+  - "ヘルスケア AI: AWS Nitro Enclaves によるゼロトラスト生成 AI アプリケーション構築"
+  - "通信セキュリティ: 複数の AWS サービスをまたぐ HSTS の一貫実装手法"
+  - "デジタル主権: AWS Dedicated Local Zones の対応サービス拡張で機密ワークロードに対応"

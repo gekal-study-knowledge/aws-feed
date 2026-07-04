@@ -1,0 +1,18 @@
+"date": "2026-03-19"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 25
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はコンピューティング、生成AI、日本語ブログの記事が中心でした。AWS LambdaがアベイラビリティゾーンメタデータをサポートしAZ対応ルーティングを可能にし、EC2 FleetはInterruptible Capacity Reservationsに対応。EC2 C8gnがGraviton4搭載で複数リージョンに拡張されました。生成AI関連ではNemotron 3 SuperのBedrock活用、Nova ReelとV-RAGによる動画生成、AWS MCP Server(プレビュー)の監視・セマンティック検索強化、NIXLとEFAによるLLM推論高速化が登場。SageMaker AIエンドポイントは詳細メトリクスを追加しました。日本語ブログではSageMakerレイクハウスのアーキテクチャ選択ガイド、EMR Serverlessのベストプラクティス、Kubernetes Gateway API対応GA、AWS OrganizationsのセキュリティコントロールやInterlockランサムウェア分析が公開されました。セキュリティ速報ではAWS-LCのCRL検証ロジック誤り(CVE-2026-4428)が公表されました。
+"topics":
+  - "コンピューティング: LambdaのAZメタデータ、EC2 Fleetの中断可能予約、C8gnのGraviton4拡張"
+  - "生成AI/推論: Nemotron 3 Super、Nova Reel/V-RAG動画生成、AWS MCP Server強化、NIXL+EFAによる推論高速化"
+  - "SageMaker/データ: エンドポイント詳細メトリクス、レイクハウス設計ガイド、EMR Serverlessベストプラクティス"
+  - "日本語ブログ: Kubernetes Gateway API GA、AWS Organizationsセキュリティ、Interlockランサムウェア分析"
+  - "セキュリティ速報: AWS-LCのCRL検証ロジック誤り(CVE-2026-4428)"

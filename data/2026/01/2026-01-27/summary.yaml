@@ -1,0 +1,14 @@
+"date": "2026-01-27"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 7
+"sources":
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティ、ネットワーク、各種サービス機能の発表が行われた。セキュリティブログでは、AWS Systems ManagerとAmazon Security Lakeを用いたサーバーレスなファイル整合性監視ソリューションが紹介された。AWS Network Firewallは、生成AI (GenAI) トラフィックの可視化とWebカテゴリベースのフィルタリングに対応し、GenAIサービスやSNSなどへのアクセス制御を強化した。またAWS MarketplaceがFPGA製品のAMIセルフサービス出品に対応、Amazon WorkSpacesが高度なプリンターリダイレクトを追加、AWS Deadline Cloudがジョブ名・説明の編集をサポート、Amazon Connectがケースへのタグベースアクセス制御を導入した。さらにAmazon RDSがPostgreSQL・MySQL・MariaDB向けにr6id・r6gdインスタンスを追加リージョンで提供開始した。
+"topics":
+  - "セキュリティ: Systems ManagerとSecurity Lakeによるファイル整合性監視"
+  - "ネットワーク: Network FirewallのGenAIトラフィック可視化とWebカテゴリフィルタリング"
+  - "サービス機能: WorkSpacesの高度なプリンターリダイレクト、Connectのタグベースアクセス制御"
+  - "データベース: RDSのr6id・r6gdインスタンスのリージョン拡大"

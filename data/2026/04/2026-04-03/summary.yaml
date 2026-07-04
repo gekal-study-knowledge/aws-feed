@@ -1,0 +1,17 @@
+"date": "2026-04-03"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 16
+"sources":
+  - "aws_japan_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI のガバナンスとエンタープライズ運用に焦点が当たりました。Amazon Bedrock Guardrails が組織全体でセーフガードを一元適用できるクロスアカウント保護を一般提供開始し、Kiro には承認済み MCP サーバーのホワイトリスト管理とモデルガバナンスの 2 つのエンタープライズガバナンス機能が追加されました。Amazon EMR の Apache Spark トラブルシューティング/アップグレードエージェントが Kiro powers として提供開始され、SageMaker Data Agent はインタラクティブなチャート作成・Snowflake クエリ・マテリアライズドビュー管理に対応しました。CloudWatch は PromQL クエリを備えた Query Studio をプレビュー提供。その他 Bedrock Data Automation のカスタム語彙対応、Secrets Manager のクロスアカウント KMS キー指定、Glue Schema Registry の 3 リージョン追加、Amazon Quick のスパークライン、Partner Revenue Measurement の User Agent/Marketplace メタリング対応が発表されました。日本語ブログでは AWS Sustainability コンソールの提供開始や週刊ラウンドアップも紹介されています。
+"topics":
+  - "AI ガバナンス: Bedrock Guardrails のクロスアカウントセーフガード GA、Kiro の MCP サーバーレジストリとモデルガバナンス"
+  - "AI 開発支援: EMR の Spark トラブルシューティング/アップグレードエージェント (Kiro powers)、SageMaker Data Agent のチャート/Snowflake/マテリアライズドビュー対応"
+  - "オブザーバビリティ/分析: CloudWatch Query Studio (PromQL) プレビュー、Bedrock Data Automation のカスタム語彙対応、Amazon Quick のスパークライン"
+  - "セキュリティ/運用: Secrets Manager のクロスアカウント KMS キー指定、KMS/Encryption SDK による対称暗号化限界の自動処理、AWS Sustainability コンソール提供開始"
+  - "パートナー/リージョン: Partner Revenue Measurement の User Agent/Marketplace メタリング対応、Glue Schema Registry の 3 リージョン追加"

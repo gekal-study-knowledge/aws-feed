@@ -1,0 +1,19 @@
+"date": "2026-03-23"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 13
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  AWS 創立 20 周年と 2026 年最初の AWS ヒーロー選出という節目の話題に加え、生成 AI・エージェント関連の発表が中心となった一日でした。Amazon Bedrock AgentCore Runtime のシェルコマンド実行サポートや、NVIDIA Nemotron 3 Super の Bedrock 追加など、週刊 AWS/週刊生成 AI で多数のアップデートが紹介されました。技術記事では、Reco によるセキュリティアラート変革や規制業界での LLM ハルシネーション対策（Amazon Nova）、Lambda 耐久性関数のベストプラクティス、Amazon EKS を用いた運用最適化、Amazon MSK Express ブローカーによる Kafka 運用の簡素化などが取り上げられました。IAM ポリシータイプの解説や AWS HealthImaging の欧州（ロンドン）リージョン提供開始も発表されています。
+"topics":
+  - "AWS 20 周年と 2026 年 AWS ヒーロー選出などコミュニティ・節目の話題"
+  - "生成 AI/エージェント: Bedrock AgentCore の機能拡充、Amazon Nova による決定論的出力、Bedrock を用いたセキュリティアラート変革"
+  - "コンピュート/データ基盤: Lambda 耐久性関数、Amazon EKS 運用最適化、Amazon MSK Express ブローカー"
+  - "セキュリティ・リージョン拡張: IAM ポリシータイプ解説、AWS HealthImaging が欧州（ロンドン）で提供開始"

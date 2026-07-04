@@ -1,0 +1,15 @@
+"date": "2026-04-10"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 14
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はストレージとコンピュートの新機能・リージョン拡充が目立ちました。注目は Amazon S3 Files の提供開始で、S3 バケットを NFS v4.1 以降でファイルシステムとしてマウントでき、アクティブデータに約 1 ミリ秒のレイテンシーで複数コンピューティングから同時アクセスできます。コンピュートでは、最大 32GB メモリ (標準の 3 倍) を扱える AWS Lambda Managed Instances、カスタム Intel Xeon 6 搭載でメモリ最適化された EC2 X8i インスタンス (パリ追加) が紹介されました。ストレージ・バックアップでは第 2 世代 FSx for NetApp ONTAP が 4 リージョン追加、AWS Backup の FSx サポートとクロスリージョン/クロスアカウントコピーの拡大、S3 Lifecycle がレプリケーション失敗オブジェクトのアクションを一時停止する変更が加わりました。運用面では CloudWatch pipelines の条件付き処理・ドロップイベントプロセッサとコンプライアンス/ガバナンス機能、Billing ダッシュボードのスケジュールメール配信、Deadline Cloud のマルチリージョンモニター、RTB Fabric のヘルスチェック、Amazon Quick の S3 ナレッジベース向けドキュメントレベル ACL などが発表されました。国内では月刊 AWS 製造 4 月号も公開されました。
+"topics":
+  - "ストレージ: Amazon S3 Files 提供開始 (S3 をファイルシステムとしてマウント)、第2世代 FSx for ONTAP と AWS Backup の拡充"
+  - "コンピュート: Lambda Managed Instances (最大32GBメモリ)、メモリ最適化 EC2 X8i (パリ) の GA"
+  - "運用/可観測性: CloudWatch pipelines の条件付き処理・ドロップイベント・ガバナンス機能、Billing ダッシュボードのメール配信"
+  - "データ保護/ガバナンス: S3 Lifecycle のレプリケーション失敗時アクション停止、Amazon Quick の S3 ドキュメントレベル ACL"

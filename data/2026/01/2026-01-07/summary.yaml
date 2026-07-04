@@ -1,0 +1,13 @@
+"date": "2026-01-07"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 5
+"sources":
+  - "aws_whats_new"
+"overview": |
+  この日はWhat's Newから5件のアップデートが発表された。AWS Client VPNは、IPv4 CIDR・サーバー証明書ARN・サブネットの3つの入力だけでエンドポイントを構築できるQuickstartセットアップを追加し、オンボーディングを簡素化した。Amazon Managed Workflows for Apache Airflow(MWAA)はApache Airflow 2.11をサポートし、Python 3.12にも対応した。EC2関連では、ストレージI/O集約型向けのI7ieインスタンスがムンバイ・カルガリー・パリの各リージョンに、Intel Xeon 6搭載のC8iおよびC8i-flexインスタンスがムンバイ・ソウル・東京の各リージョンに拡大した。さらにAWS IAM Identity Centerは新しいデュアルスタックエンドポイントを通じてIPv6をサポートし、IPv6コンプライアンス要件への対応を支援する。
+"topics":
+  - "AWS Client VPN: Quickstartセットアップでオンボーディングを簡素化"
+  - "Amazon MWAA: Apache Airflow 2.11とPython 3.12をサポート"
+  - "Amazon EC2: I7ieおよびC8i/C8i-flexインスタンスのリージョン拡張"
+  - "AWS IAM Identity Center: デュアルスタックによるIPv6対応"

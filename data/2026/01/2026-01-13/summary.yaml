@@ -1,0 +1,17 @@
+"date": "2026-01-13"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 9
+"sources":
+  - "aws_compute_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はリージョン拡大や新世代インスタンス、セキュリティの大型アップデートが目立ちました。Amazon MSK Connect は Asia Pacific (New Zealand) と AWS GovCloud (US-East/US-West) の 3 リージョンに拡大し、全 38 リージョンで利用可能になりました。Amazon Neptune は Graviton3 の R7g と Graviton4 の R8g インスタンスを 5 つの追加リージョンで、Amazon EC2 X8aedz インスタンスは 5th Gen AMD EPYC 搭載で最高 5GHz を実現し Mumbai / Seoul で提供されました。Amazon Connect Cases は CloudFormation に対応し、Amazon Lex は英語向けのニューラル音声認識モデルを追加しました。Amazon RDS for PostgreSQL は Extended Support のマイナーバージョンを発表。セキュリティ面では新バージョンの AWS Security Hub が一般提供され、Security Hub オートメーションによる大規模なセキュリティ対応の効率化や、2025 年秋の PCI DSS コンプライアンスパッケージの提供が案内されました。ブログでは AWS Outposts 上の Amazon EKS のストレージ性能最適化も解説されています。
+"topics":
+  - "リージョン拡大: Amazon MSK Connect が 3 リージョン追加で全 38 リージョンに"
+  - "新世代インスタンス: Neptune が R7g/R8g を追加、EC2 X8aedz (5th Gen AMD EPYC、最高5GHz) が Mumbai/Seoul で提供"
+  - "コンタクトセンター: Amazon Connect Cases が CloudFormation 対応、Amazon Lex が英語ニューラル ASR モデル追加"
+  - "データベース: Amazon RDS for PostgreSQL の Extended Support マイナーバージョン発表"
+  - "セキュリティ: 新 AWS Security Hub の GA と Security Hub オートメーション、2025年秋 PCI DSS コンプライアンスパッケージ"
+  - "ハイブリッド: AWS Outposts 上の Amazon EKS におけるストレージ性能最適化"

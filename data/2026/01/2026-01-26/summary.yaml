@@ -1,0 +1,15 @@
+"date": "2026-01-26"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 10
+"sources":
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はコンピューティング、セキュリティ、生成AIに関する発表が中心となった。AWS Weekly Roundupでは、NVIDIA Blackwell GPUを搭載したAmazon EC2 G7eインスタンスなど、GPU集約型ワークロード向けの新情報が紹介された。セキュリティ分野では、AWS CloudHSM向けのPCI PINコンプライアンスパッケージの更新と、IAM Identity CenterのIPv6対応が発表された。サービス機能では、Amazon WorkSpaces Coreマネージドインスタンスの月額料金導入、AWS Transfer FamilyのAmazon FSx for NetApp ONTAPサポート、Amazon LightsailのNode.js・LAMP・Ruby on Railsブループリント拡充、Amazon Bedrockのプロンプトキャッシュ1時間TTL対応、Amazon Managed GrafanaのAWS GovCloud (US)リージョン提供開始が発表された。
+"topics":
+  - "コンピューティング: EC2 G7e (NVIDIA Blackwell GPU) やWorkSpaces Core月額料金"
+  - "セキュリティ: CloudHSMのPCI PIN更新とIAM Identity CenterのIPv6対応"
+  - "生成AI: Amazon Bedrockのプロンプトキャッシュ1時間TTL対応"
+  - "サービス拡充: Transfer FamilyのFSx for ONTAP対応、Managed GrafanaのGovCloud提供"

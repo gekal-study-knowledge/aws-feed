@@ -1,0 +1,20 @@
+"date": "2026-05-26"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 7
+"sources":
+  - "aws_japan_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は国内事例と生成 AI 活用、ネットワーク/バックアップのセキュリティ強化が話題となりました。JPX 総研による
+  AI 開示情報検索サービス「J-LENS」や、テイツーの POP 自動生成サービス「POP×THREE」など、生成 AI を用いた国内
+  事例の寄稿が公開されました。技術面では Amazon Aurora DSQL への接続方法（ドライバー、IAM 認証、接続プーリング）の
+  ベストプラクティスが解説されています。What's New では Amazon VPC IPAM がプール割り当てへのタグ付けに対応し、
+  IAM/SCP による集中ガバナンスが可能に。Amazon GuardDuty Malware Protection for AWS Backup が S3 継続的
+  バックアップのマルウェアスキャンをサポートしました。週刊 Roundup では Istanbul の Local Zones や Kiro Web も紹介。
+"topics":
+  - "生成 AI 国内事例: JPX の J-LENS 開示情報検索、テイツーの POP×THREE"
+  - "Amazon Aurora DSQL: 接続ドライバー・IAM 認証・接続プーリングのベストプラクティス"
+  - "Amazon VPC IPAM: プール割り当てへのタグ付け対応でガバナンス強化"
+  - "GuardDuty Malware Protection for AWS Backup: S3 継続的バックアップのスキャン対応"

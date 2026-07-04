@@ -1,0 +1,18 @@
+"date": "2026-06-12"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 25
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はコンピューティングと生成 AI 関連の話題が中心でした。Amazon EC2 では Graviton5 搭載の M9g/M9gd インスタンスが一般提供となり、U7i-8TB が欧州 (パリ) で利用可能に、EC2 Capacity Blocks for ML が AWS GovCloud (US) に拡大しました。生成 AI では Amazon Bedrock を中心とした知的文書処理パイプラインや、Agent-EvalKit による AI エージェント評価、Amazon Quick と Snowflake Cortex AI の MCP 連携などが紹介されました。運用面では Amazon Aurora の PostgreSQL 18 対応、CloudWatch Application Signals の強化、Elastic Beanstalk と CloudWatch Logs の統合、AWS Lake Formation の S3 直接アクセスなどが発表されました。日本語ブログでは AWS Summit Japan 2026 のブース紹介や GENIAC 第4期支援、Nitro System の形式検証などが取り上げられました。
+"topics":
+  - "EC2 新インスタンス: Graviton5 搭載 M9g/M9gd の一般提供、U7i-8TB のパリ提供、Capacity Blocks の GovCloud 拡大"
+  - "生成 AI/文書処理: Bedrock を用いた IDP パイプライン、Agent-EvalKit、Quick と Snowflake Cortex AI 連携"
+  - "データベース: Amazon Aurora PostgreSQL 18 対応"
+  - "運用/監視: CloudWatch Application Signals 強化、Elastic Beanstalk の CloudWatch Logs 統合、MWAA Serverless の EventBridge 対応"
+  - "セキュリティ/基盤: AWS Nitro Isolation Engine のハイパーバイザ形式検証"
+  - "日本の取り組み: AWS Summit Japan 2026 ブース、GENIAC 第4期支援開始"

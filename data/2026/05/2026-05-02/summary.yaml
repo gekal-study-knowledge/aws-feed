@@ -1,0 +1,18 @@
+"date": "2026-05-02"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 14
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は分析・BI 移行とセキュリティが目立ちました。AWS Transform に Power BI・Tableau ダッシュボードを Amazon Quick (Quick Sight) へ変換する BI 移行エージェントが追加され、移行期間を数か月から数日へ短縮できるとされました。ネットワークとオブザーバビリティ分野では、Amazon CloudFront が VPC オリジンでの WebSocket をサポートし、Amazon CloudWatch RUM にセッションリプレイ機能が加わりました。データ関連では Amazon Redshift の concurrency scaling が auto-copy と zero-ETL に対応し、OpenSearch UI がクロスリージョンのデータアクセスを実現しました。ID/IoT では IAM Roles Anywhere の CreateSession API に VPC エンドポイントポリシーが適用され、Bedrock AgentCore がサンパウロリージョンに展開、FreeRTOS 202604 LTS が MQTT v5.0 対応で公開されました。セキュリティでは ISO 31000:2018 リスク管理コンプライアンスガイドの公開や AI 時代のセキュリティ態勢向上に関する記事、および ECS エージェントの FSx ボリューム認証情報を悪用する OS コマンドインジェクション (CVE-2026-7461) の速報が出されました。
+"topics":
+  - "BI 移行: AWS Transform の Power BI / Tableau から Amazon Quick への移行エージェント（AWS Marketplace 経由）"
+  - "ネットワーク/監視: CloudFront の VPC オリジン WebSocket 対応、CloudWatch RUM セッションリプレイ"
+  - "データ分析: Redshift concurrency scaling の auto-copy / zero-ETL 対応、OpenSearch UI クロスリージョンアクセス"
+  - "ID/IoT: IAM Roles Anywhere の CreateSession VPC エンドポイントポリシー、Bedrock AgentCore サンパウロ展開、FreeRTOS 202604 LTS"
+  - "セキュリティ: ISO 31000:2018 コンプライアンスガイド、AI 時代のセキュリティ態勢、ECS エージェントの CVE-2026-7461 (OS コマンドインジェクション)"

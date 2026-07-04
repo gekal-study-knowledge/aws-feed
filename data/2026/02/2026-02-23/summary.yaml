@@ -1,0 +1,13 @@
+"date": "2026-02-23"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 9
+"sources":
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  週初めはコスト最適化と生成AI関連の発表が目立った。Amazon Redshift Serverlessは3年間のServerless Reservationsを導入し、最大45%のコスト削減を可能にした。Trusted AdvisorはCompute Optimizer連携で未使用NAT Gatewayの検出精度を向上し、Amazon Q Developerは生成AIによるリソース/コスト可視化アーティファクトをGA化した。AI開発では、AWS IAM Policy AutopilotがKiro powerとして提供開始、Amazon BedrockのAutomated Reasoningポリシーが元文書への参照に対応した。基盤面ではS3 TablesがGovCloud (US)で、Elemental Media ServicesがMalaysiaリージョンで利用可能になり、S3サーバーアクセスログにソースリージョン情報が追加された。週次まとめではBedrockでのClaude Sonnet 4.6提供なども紹介された。
+"topics":
+  - "コスト最適化: Redshift Serverless 3年予約、Trusted AdvisorのNAT Gateway検出強化"
+  - "生成AI/開発ツール: Amazon Q Developerアーティファクト、IAM Policy AutopilotのKiro power化、Automated Reasoning参照機能"
+  - "リージョン拡張/基盤: S3 TablesのGovCloud対応、Elemental Media ServicesのMalaysia展開、S3ログのソースリージョン情報"

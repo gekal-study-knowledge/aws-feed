@@ -1,0 +1,27 @@
+"date": "2026-05-12"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 26
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は生成AIとインフラの幅広い発表がありました。Weekly Roundupでは、Bedrock AgentCoreがCoinbase・
+  Stripeと連携し、AIエージェントがAPIやMCPサーバー等へ自律的に支払いを行える初のマネージド決済機能を
+  プレビューしたことが最大の話題として紹介されました。機械学習ブログではClaude Platform on AWSの一般提供、
+  Amazon Quickの新機能、Nova Multimodal Embeddingsを使った製造業向けマルチモーダル検索、MiroのBedrock
+  活用によるバグ振り分け改善などが公開。サービス面ではAurora DSQLが5リージョン追加、ENA ExpressがAZ間通信で
+  最大25Gbps対応、Route 53 Domainsが.appや.devなど34の新TLDに対応、SageMaker Studioノートブックが
+  多数のGPUインスタンス（G6e、P4de、P6-B200等）でリージョン拡大しました。日本語では日立グループの
+  AI-DLC実践事例（3人月を2日間で）やアクト・ノードの見守りエージェント事例も紹介されています。
+"topics":
+  - "Bedrock AgentCore: エージェント向けマネージド決済をプレビュー(Coinbase/Stripe連携)"
+  - "Claude Platform on AWS / Amazon Quick: 生成AIとデータ分析の強化"
+  - "Aurora DSQL: 5リージョン追加、ENA ExpressがAZ間25Gbps対応"
+  - "Route 53 Domains: .app/.dev/.health等34の新TLDに対応"
+  - "SageMaker Studio: 各種GPUインスタンスのリージョン拡大"
+  - "導入事例: 日立グループのAI-DLC、アクト・ノードの見守りAI"

@@ -1,0 +1,14 @@
+"date": "2026-04-24"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は生成AIとエンタープライズ活用に関する話題が中心でした。日本語ブログでは、Amazon Bedrock 上での Claude Opus 4.7 や AWS Interconnect の GA を含む週刊まとめ、文部科学省の AI for Science 事業 (SPReAD) に対応する AWS の計算資源活用、AUMOVIO が Bedrock 搭載のエージェント型コーディングアシスタントで SDV 開発を強化した事例が紹介されました。新機能面では、Amazon SageMaker HyperPod が Slurm クラスターのネットワークトポロジー自動管理に対応、AWS Compute Optimizer が最新世代の EC2 (162 種) と RDS (32 種) インスタンスをサポート、AWS Client VPN が Transit Gateway とのネイティブ統合を実現しました。また SageMaker Unified Studio 向け CI/CD CLI や、SAP ERP と AI エージェントを繋ぐ AWS for SAP MCP Server の GA も発表され、AI エージェントとデータ基盤の連携強化が目立ちました。
+"topics":
+  - "生成AI活用事例: Claude Opus 4.7、AI for Science、AUMOVIO のコーディングアシスタント"
+  - "AI/MLインフラ: SageMaker HyperPod のSlurmトポロジー自動管理、Unified Studio CI/CD CLI"
+  - "ネットワーク/最適化: Client VPN の Transit Gateway 統合、Compute Optimizer の新インスタンス対応"
+  - "エンタープライズ連携: AWS for SAP MCP Server の GA によるAIエージェントとSAP連携"
