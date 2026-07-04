@@ -11,9 +11,11 @@ import Link from 'next/link';
 import StickyHeader from '@/components/organisms/StickyHeader';
 import PostHeader from '@/components/molecules/PostHeader';
 import PostContent from '@/components/organisms/PostContent';
+import DailySummary from '@/components/organisms/DailySummary';
 import NavigationLinks from '@/components/organisms/NavigationLinks';
 import PostUpdateNotifier from '@/components/organisms/PostUpdateNotifier';
 import { useVisitedPost } from '@/lib/store/useVisitedPost';
+import type { DailySummary as DailySummaryData } from '@/lib/data';
 
 interface PostLayoutProps {
   title: string;
@@ -27,6 +29,7 @@ interface PostLayoutProps {
   month: string;
   day: string;
   slug: string;
+  summary?: DailySummaryData | null;
 }
 
 export default function PostLayout({
@@ -41,6 +44,7 @@ export default function PostLayout({
   month,
   day,
   slug,
+  summary,
 }: PostLayoutProps) {
   const [isBottom, setIsBottom] = React.useState(false);
   const [showSticky, setShowSticky] = React.useState(false);
@@ -144,6 +148,15 @@ export default function PostLayout({
         </Box>
 
         <Box sx={{ my: 4 }}>
+          {summary && (
+            <DailySummary
+              overview={summary.overview}
+              topics={summary.topics}
+              articleCount={summary.articleCount}
+              generatedBy={summary.generatedBy}
+              generatedAt={summary.generatedAt}
+            />
+          )}
           <PostContent contentHtml={contentHtml} newSince={newSince} newCount={newCount} />
           <NavigationLinks previous={previous} next={next} />
         </Box>

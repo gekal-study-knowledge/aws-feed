@@ -1,0 +1,17 @@
+"date": "2026-07-03"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 10
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はコンフィデンシャルコンピューティングと SageMaker 運用、セキュリティ AI が中心でした。EC2 Dedicated Hosts が AMD SEV-SNP に対応し、専有物理サーバー上での機密コンピューティングワークロード実行が可能になりました。SageMaker では Unified Studio の Terraform プロビジョニング対応、HyperPod の AMI バージョニングと自動パッチ適用 (NVIDIA ドライバや CUDA を変えずに後方互換のセキュリティパッチのみ適用) が追加されました。AWS Config は API Gateway・EC2・S3 Vectors など 8 つの新リソースタイプに対応。機械学習ブログでは Amazon Bedrock による AI 生成フィッシングの検知、SageMaker AI でのマルチターン強化学習のベストプラクティスが解説されました。日本語では前日発表の EKS バージョンロールバックと CloudFormation Express モードの解説、公共分野の AI 活用セミナー報告が公開されました。
+"topics":
+  - "コンフィデンシャルコンピューティング: EC2 Dedicated Hosts が AMD SEV-SNP に対応、専有物理サーバー上での機密ワークロード実行"
+  - "SageMaker 運用: Unified Studio の Terraform 対応、HyperPod の AMI バージョニング・自動パッチ (ワークロード無停止)"
+  - "ガバナンス: AWS Config が API Gateway / EC2 / S3 Vectors など 8 つの新リソースタイプに対応"
+  - "セキュリティ AI: Amazon Bedrock による AI 生成フィッシングの検知手法"
+  - "機械学習手法: SageMaker AI でのマルチターン強化学習のベストプラクティス (報酬設計・評価・監視)"
+  - "国内: EKS バージョンロールバック / CloudFormation Express モードの日本語解説、公共分野の AI 活用セミナー報告"

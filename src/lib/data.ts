@@ -153,6 +153,66 @@ export function getEntriesByDate(year: string, month: string, day: string): Entr
   return entries.sort((a, b) => (a.published < b.published ? 1 : -1));
 }
 
+export interface DailySummary {
+  date: string;
+  overview: string;
+  topics: string[];
+  articleCount?: number;
+  generatedBy?: string;
+  generatedAt?: string;
+}
+
+interface DailySummaryYaml {
+  date?: string;
+  overview?: string;
+  topics?: string[];
+  article_count?: number;
+  generated_by?: string;
+  generated_at?: string;
+  // summary.yaml は entries を持たないため、フィードデータと区別できる
+  entries?: unknown;
+}
+
+/**
+ * 指定日の要約 (data/YYYY/MM/YYYY-MM-DD/summary.yaml) を読み込む。
+ * 概要が存在しない場合は null を返す。
+ */
+export function getDailySummary(year: string, month: string, day: string): DailySummary | null {
+  const summaryPath = path.join(
+    dataDirectory,
+    year,
+    month,
+    `${year}-${month}-${day}`,
+    'summary.yaml',
+  );
+
+  if (!fs.existsSync(summaryPath)) {
+    return null;
+  }
+
+  try {
+    const fileContents = fs.readFileSync(summaryPath, 'utf8');
+    const data = yaml.load(fileContents) as DailySummaryYaml;
+
+    const overview = data?.overview?.trim();
+    if (!overview) {
+      return null;
+    }
+
+    return {
+      date: data.date || `${year}-${month}-${day}`,
+      overview,
+      topics: Array.isArray(data.topics) ? data.topics : [],
+      articleCount: typeof data.article_count === 'number' ? data.article_count : undefined,
+      generatedBy: data.generated_by,
+      generatedAt: data.generated_at,
+    };
+  } catch (e) {
+    console.error(`Error parsing ${summaryPath}:`, e);
+    return null;
+  }
+}
+
 export function getAllDates(): { year: string; month: string; day: string }[] {
   const dates: { year: string; month: string; day: string }[] = [];
   if (!fs.existsSync(dataDirectory)) return dates;

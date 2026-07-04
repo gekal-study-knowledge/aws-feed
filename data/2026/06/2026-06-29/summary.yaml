@@ -1,0 +1,16 @@
+"date": "2026-06-29"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 8
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は日本語ブログを中心に、生成 AI の実践活用と週次ニュースまとめが充実しました。「週刊生成 AI with AWS」「週刊 AWS」で 6/22 週のアップデート (Bedrock AgentCore の Web Search 一般提供、Lambda MicroVMs、GuardDuty AI-powered investigations プレビュー、EC2 AMI Watermarks など) が総括されました。技術記事では、AWS Lambda durable functions を使ったフォールトトレラントなマルチエージェント AI ワークフローの構築、Kiro による OpenAPI/Swagger 仕様からのテストスイート自動生成が解説されています。国内事例としては、フジテレビジョンによる冬季国際スポーツ大会での Live Cloud Production、キヤノン IT ソリューションズと時系列基盤モデル Chronos-2 を用いたホテルのフードロス削減 PoC が紹介されました。
+"topics":
+  - "マルチエージェント AI: Lambda durable functions によるフォールトトレラントなワークフロー構築 (人間レビューゲート・冪等性対応)"
+  - "週次まとめ: 週刊生成 AI with AWS / 週刊 AWS で 6/22 週の AgentCore Web Search GA、Lambda MicroVMs、GuardDuty AI 調査などを総括"
+  - "開発ツール: Kiro で OpenAPI/Swagger 仕様から数秒でテストスイート (axios テスト・モックサーバー・HTML レポート) を自動生成"
+  - "国内事例: フジテレビジョンの Live Cloud Production、キヤノン ITS × Chronos-2 によるフードロス削減需要予測"
+  - "ストレージ: Amazon S3 サーバーアクセスログが CloudWatch Logs と S3 Tables (Iceberg) への配信に対応"

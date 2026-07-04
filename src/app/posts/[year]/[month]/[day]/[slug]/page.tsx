@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { getPostData, getAllPostSlugs } from '@/lib/posts';
+import { getDailySummary } from '@/lib/data';
 import PostLayout from '@/components/templates/PostLayout';
 import type { Metadata } from 'next';
 
@@ -35,6 +36,7 @@ export const dynamicParams = false;
 export default async function Post({ params }: PostProps) {
   const { year, month, day, slug } = await params;
   const postData = await getPostData(year, month, day, slug);
+  const dailySummary = getDailySummary(year, month, day);
 
   return (
     <PostLayout
@@ -49,6 +51,7 @@ export default async function Post({ params }: PostProps) {
       month={month}
       day={day}
       slug={slug}
+      summary={dailySummary}
     />
   );
 }

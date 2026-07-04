@@ -1,0 +1,22 @@
+"date": "2026-06-30"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 24
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はアーキテクチャ、セキュリティ、AI エージェント運用と幅広いトピックが揃いました。アーキテクチャブログでは、100 万個超の Lambda 関数へのスケール事例 (scale-to-zero やクォータ管理の教訓)、SageMaker AI での機械学習環境のデータ持ち出し防止、Nakama ゲームサーバーの Cognito 二要素トークン認証が解説されました。AI 領域では Bedrock AgentCore Observability による本番エージェントのデバッグ、Nova 2 Lite と Claude Sonnet 4.6 を組み合わせた低コスト文書処理、行レベルセキュリティを備えたマルチテナント LLM 分析が取り上げられました。注目は GovCloud での Claude Opus 4.8 提供開始、および多数の AWS サービスのメンテナンス移行・サンセット (Bedrock Agents Classic 化、Kendra、Q Business など) を告知した Service Availability Updates です。セキュリティでは AWS WAF の HTTP/2 マルチフレーム検査に関する CVE (2026-13762/13763) が公表されました。日本語では ElastiCache 向け Valkey 9.1、Kiro の Agent Focus・GitLab 対応、AWS 認定の再認定新方式が紹介されました。
+"topics":
+  - "大規模サーバーレス: 100 万 Lambda 関数へのスケール教訓、SageMaker AI でのデータ持ち出し防止アーキテクチャ"
+  - "AI エージェント運用: Bedrock AgentCore Observability による本番エージェントのデバッグ、AgentCore Gateway への AWS WAF 保護 GA"
+  - "コスト最適化 AI: Nova 2 Lite + Claude Sonnet 4.6 の二段パイプライン、マルチテナント LLM の行レベルセキュリティ"
+  - "モデル/サービス動向: GovCloud で Claude Opus 4.8 提供開始、Kiro に GPT-5.4・Nemotron 3 Super 120B 追加"
+  - "サービスライフサイクル: Bedrock Agents の Classic 化、Kendra・Q Business・Simple AD 等がメンテナンス/サンセットへ"
+  - "セキュリティ: AWS WAF の HTTP/2 マルチフレーム検査に関する CVE-2026-13762/13763 公表 (CloudFront はサーバー側修正済)"
+  - "国内: ElastiCache 向け Valkey 9.1、コンソールアクセスのネットワーク制限 (Sign-In リソースベースポリシー/RCP)、AWS 認定再認定の新方式"

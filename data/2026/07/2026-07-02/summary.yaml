@@ -1,0 +1,21 @@
+"date": "2026-07-02"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 35
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はコンテナと運用、そしてセキュリティが主要テーマでした。Amazon EKS の Kubernetes バージョンロールバック (アップグレード後 7 日以内に前バージョンへ復帰可能) が正式リリースされ、ECS ではデプロイサーキットブレーカーの設定カスタマイズ、Service Connect のゾーンアウェアルーティング、リアルタイムデプロイ可観測性、Express モードのカスタムタスク定義対応と多数の機能強化がありました。AI 領域では GovCloud での NVIDIA Nemotron / OpenAI GPT OSS モデル、サーバーレス A2A ゲートウェイ、AgentCore Memory のメタデータフィルタリング、HippoRAG、Inscribe の文書詐欺検知エージェント事例が紹介されました。セキュリティでは GuardDuty の機密ファイル改変検知、AWS Security Agent の 3 リージョン拡張、AWS Artifact の Assurance Assistant (AI によるコンプライアンス回答) が登場。一方、CVE が 3 件公表されました (AWS CLI の安全でないファイル権限、aws-cdk-lib の OS コマンドインジェクション、JDBC Wrapper の安全でないデシリアライズ)。国内では Kiro による医療情報システムのガイドライン遵守開発、Metagenomi の 35 億ベクトル検索基盤、ラクスの伝票作成 AI エージェント事例が取り上げられました。
+"topics":
+  - "コンテナ運用: EKS の Kubernetes バージョンロールバック GA、ECS のサーキットブレーカー設定・ゾーンアウェアルーティング・リアルタイムデプロイ可観測性"
+  - "セキュリティ脆弱性: CVE 3 件公表 (AWS CLI ファイル権限、aws-cdk-lib OS コマンドインジェクション、JDBC Wrapper デシリアライズ RCE)"
+  - "AI エージェント: サーバーレス A2A ゲートウェイ、AgentCore Memory のメタデータフィルタリング、AgentCore の 4 リージョン拡張・クォータ引き上げ"
+  - "AI セキュリティ運用: GuardDuty の機密ファイル改変検知、AWS Security Agent の 3 リージョン拡張、AWS Artifact の Assurance Assistant"
+  - "モデル/科学計算: GovCloud での Nemotron・GPT OSS モデル、Bedrock Model Profiler、SageMaker AI での BoltzGen タンパク質設計"
+  - "国内事例: Kiro による医療情報システム開発、Metagenomi の 10 億超ベクトル検索基盤 (LanceDB + S3)、ラクスの伝票作成 AI エージェント"
+  - "実験/運用: AppConfig の A/B テスト機能 GA、CloudWatch の log クエリからのアラーム作成、RDS Cross-Region 自動バックアップ拡張"

@@ -1,0 +1,19 @@
+"date": "2026-07-01"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 40
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は更新数が多く、特に新モデルと新世代コンピュートの発表が目立ちました。最大の話題は Anthropic の Claude Sonnet 5 の AWS 提供開始 (Amazon Bedrock および Claude Platform on AWS)、そして AWS Graviton5 プロセッサ搭載の EC2 C9g / C9gd インスタンスの一般提供です。C9g は Graviton4 比で最大 25% の性能向上と 5 倍の大容量キャッシュを備え、Nitro Isolation Engine による形式検証で数学的に証明された分離を初めて実現しました。運用効率化では CloudFormation / CDK の Express モード (デプロイ最大 4 倍高速化) と全スタック操作での事前検証、ACM の ACME プロトコル対応による TLS 証明書自動化、EKS の Kubernetes バージョンロールバックが登場しました。AI 領域では AgentCore への AG-UI プロトコル対応、Bedrock のマネージドエンタイトルメント、WorkSpaces for AI agents の GA、SageMaker の Gemma 4 サーバーレスカスタマイズが発表されました。セキュリティでは Security Hub CSPM の AI セキュリティベストプラクティス標準 (31 の自動コントロール) が追加されています。
+"topics":
+  - "新モデル: Claude Sonnet 5 が Amazon Bedrock と Claude Platform on AWS で提供開始 (最新世代 Sonnet、Sonnet 価格でトップティア性能)"
+  - "新世代コンピュート: Graviton5 搭載 EC2 C9g / C9gd が GA — 最大 25% 性能向上、Nitro Isolation Engine で形式検証済み分離"
+  - "デプロイ高速化: CloudFormation / CDK Express モード (最大 4 倍) と全スタック操作での事前検証、ECS Auto Scaling の予約優先配置"
+  - "AI エージェント基盤: AgentCore への AG-UI プロトコル対応、Bedrock マネージドエンタイトルメント、WorkSpaces for AI agents GA"
+  - "証明書/認証: ACM の ACME プロトコル対応で TLS 証明書発行・更新を自動化、IAM Identity Center のプログラム的アカウントアクセス"
+  - "AI セキュリティ: Security Hub CSPM に AI Security Best Practices 標準 (Bedrock/AgentCore/SageMaker 向け 31 コントロール) 追加"
+  - "その他: OpenSearch Service のログ分析特化エンジン (最大 4 倍の価格性能比)、Lambda MicroVMs、AWS Interconnect - last mile プレビュー"

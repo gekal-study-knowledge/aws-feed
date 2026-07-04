@@ -1,0 +1,18 @@
+"date": "2026-06-26"
+"generated_at": "2026-07-04 JST"
+"generated_by": "AI (Claude Opus 4.8)"
+"article_count": 19
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI エージェントの本番実装を軸としたコンテンツが中心でした。AWS Lambda durable functions と Amazon Bedrock を組み合わせた音声分析ワークフロー、SageMaker AI 上での NVIDIA Blackwell (P6-B200) を用いた学習最適化、既存 REST サービスを A2A/MCP 対応エージェント化する「agentic overlays」など、実践的なアーキテクチャ解説が並びました。Stripe の金融コンプライアンス向け本番エージェントや保険ブローカー向け Cara の事例も紹介されています。基盤系では EC2 C7a (シンガポール)・M8a (ムンバイ)・C8in の追加リージョン展開、Redshift RG のリザーブドインスタンス前払いオプション、GovCloud での Kiro / Bedrock 各モデルの FedRAMP High・DoD IL-4/5 認証取得が発表されました。日本語ブログでは Amazon Quick on Desktop の東京リージョン対応、東京電力エナジーパートナーの Amazon Connect × 生成 AI によるコンタクトセンター変革事例が取り上げられました。
+"topics":
+  - "AI エージェント本番実装: Lambda durable functions + Bedrock による音声分析、Stripe の金融コンプライアンスエージェント、agentic overlays による既存 REST サービスのエージェント化"
+  - "機械学習基盤: SageMaker AI での NVIDIA Blackwell 学習最適化、SeedVR2 による超解像、モダンデータメッシュ戦略"
+  - "コンピュート拡充: EC2 C7a / M8a / C8in の追加リージョン展開、Redshift RG リザーブドインスタンス前払いオプション"
+  - "政府向けコンプライアンス: GovCloud で Kiro・OpenAI GPT・NVIDIA Nemotron が FedRAMP High / DoD IL-4/5 認証取得"
+  - "国内事例: Amazon Quick on Desktop 東京リージョン対応、東京電力エナジーパートナーのコンタクトセンター CX 変革"
+  - "セキュリティ: AWS Network Firewall が VisionHeight のマネージド脅威インテリジェンスルールに対応"
