@@ -20,4 +20,11 @@
     "published": "2026-07-06 12:29:01"
     "fetched": "2026-07-06 16:08:58"
     "summary": "Amazon EKS バージョンロールバックを発表します。これは、クラスター管理者が Amazon Elastic Kubernetes Service (Amazon EKS) クラスターにおける Kubernetes バージョンのアップグレードを安全にロールバックできる新機能です。この機能により、追加のセーフティネットを備えた状態で EKS フリート全体に新しいバージョンのアップグレードを自信を持って展開できるようになりました。"
-"last_updated": "2026-07-06 16:08:58 JST"
+  "5bfb7be26ee85a8245ba23aa679d7648":
+    "id": "5bfb7be26ee85a8245ba23aa679d7648"
+    "title": "週刊生成AI with AWS – 2026年6月29日週"
+    "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260629/"
+    "published": "2026-07-06 18:28:56"
+    "fetched": "2026-07-06 21:00:27"
+    "summary": "週刊生成AI with AWS, お客様事例が充実した 2026 年 6 月 29 日号 - プリモグローバルホールディングス様、株式会社ラクス様、ITbook 株式会社様、株式会社オーレックホールディングス様の国内事例ブログを紹介。また、Kiro の Agent Focus や GitLab 連携、OpenAPI からのテストスイート生成などのブログ記事も。サービスアップデートでは Claude Sonnet 5 の AWS 提供開始や Amazon Bedrock AgentCore のリージョン拡大をはじめとするアップデートを紹介。"
+"last_updated": "2026-07-06 21:00:27 JST"
