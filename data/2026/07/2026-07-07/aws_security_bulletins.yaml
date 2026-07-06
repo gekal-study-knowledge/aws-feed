@@ -1,0 +1,9 @@
+"entries":
+  "c8f2db581e9a3086f0e1d2196c1ad7c8":
+    "id": "c8f2db581e9a3086f0e1d2196c1ad7c8"
+    "title": "CVE-2026-14471 - Authenticated SQL injection in the metrics-service retention policy subsystem of mcp-gateway-registry"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-052-aws/"
+    "published": "2026-07-07 05:50:20"
+    "fetched": "2026-07-07 07:10:32"
+    "summary": "<p><b>Bulletin ID:</b> 2026-052-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/06/2026 13:45 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon mcp-gateway-registry is an open-source gateway and registry for Model Context Protocol (MCP) servers, providing centralized discovery, authentication/authorization, and proxying of MCP tools for AI agents. We identified CVE-2026-14471, an issue in the metrics-service retention policy management component where a caller-supplied table_name value is interpolated into SQL statements in identifier position without proper neutralization. An authenticated remote user is able to supply a crafted table_name value to execute arbitrary SQL queries against the metrics database. This allows the user to read stored data (including API key material) and to delete or alter stored data.</p> \n<p><b>Impacted versions:</b> &gt;=1.0.3 AND &lt;=1.0.12</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-07-07 07:10:32 JST"
