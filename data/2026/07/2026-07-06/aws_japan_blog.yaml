@@ -27,4 +27,11 @@
     "published": "2026-07-06 18:28:56"
     "fetched": "2026-07-06 21:00:27"
     "summary": "週刊生成AI with AWS, お客様事例が充実した 2026 年 6 月 29 日号 - プリモグローバルホールディングス様、株式会社ラクス様、ITbook 株式会社様、株式会社オーレックホールディングス様の国内事例ブログを紹介。また、Kiro の Agent Focus や GitLab 連携、OpenAPI からのテストスイート生成などのブログ記事も。サービスアップデートでは Claude Sonnet 5 の AWS 提供開始や Amazon Bedrock AgentCore のリージョン拡大をはじめとするアップデートを紹介。"
-"last_updated": "2026-07-06 21:00:27 JST"
+  "3c76c812ff361c0a60533f142ae2883b":
+    "id": "3c76c812ff361c0a60533f142ae2883b"
+    "title": "週刊AWS – 2026/6/29週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260629/"
+    "published": "2026-07-06 22:16:10"
+    "fetched": "2026-07-07 01:16:50"
+    "summary": "Amazon S3 サーバーアクセスログが Amazon CloudWatch Logs と Amazon S3 Tables への配信に対応、AWS WAF が Amazon Bedrock AgentCore Gateway のサポートを追加、AWS のサービスおよび機能の提供状況変更のお知らせ、Amazon SageMaker AI が Gemma 4 モデルのサーバーレスモデルカスタマイズをサポート、Claude Sonnet 5 が AWS で利用可能に、Amazon WorkSpaces for AI agents の一般提供を発表、Amazon OpenSearch Service にログ分析向けに最適化された新エンジンが登場、AWS AppConfig が A/B テスト向けのマネージド実験ツールを提供開始、Amazon RDS のクロスリージョン自動バックアップが 4 つの追加 AWS リージョンで利用可能に、AWS Config が 8 つの新しいリソースタイプに対応、Amazon EC2 X8i インスタンスが追加リージョンで利用可能に、Amazon SageMaker Unified Studio が Terraform によるプロビジョニングをサポート"
+"last_updated": "2026-07-07 01:16:50 JST"
