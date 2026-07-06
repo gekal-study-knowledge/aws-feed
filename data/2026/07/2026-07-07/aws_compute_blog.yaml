@@ -1,0 +1,9 @@
+"entries":
+  "591c27bc0e36fb63a88e8bb785ecab1e":
+    "id": "591c27bc0e36fb63a88e8bb785ecab1e"
+    "title": "Uncover new performance insights using Amazon detailed performance statistics on Windows"
+    "link": "https://aws.amazon.com/blogs/compute/uncover-new-performance-insights-using-amazon-detailed-performance-statistics-on-windows/"
+    "published": "2026-07-07 02:00:08"
+    "fetched": "2026-07-07 03:52:33"
+    "summary": "The primary storage solutions for EC2 Windows instances, Amazon EC2 Instance Store and Amazon Elastic Block Store (Amazon EBS) , now provide detailed performance statistics for real-time monitoring. Real-time monitoring enables you to gain visibility into key performance metrics, such as latency, throughput, and IOPS, allowing you to detect and address potential bottlenecks or issues […]"
+"last_updated": "2026-07-07 03:52:33 JST"

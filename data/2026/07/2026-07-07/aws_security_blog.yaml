@@ -1,0 +1,9 @@
+"entries":
+  "4faa99bad277feec093a79eb65392ebf":
+    "id": "4faa99bad277feec093a79eb65392ebf"
+    "title": "Enforce least-privilege authorization in multi-agent AI chains using Cedar"
+    "link": "https://aws.amazon.com/blogs/security/enforce-least-privilege-authorization-in-multi-agent-ai-chains-using-cedar/"
+    "published": "2026-07-07 01:52:23"
+    "fetched": "2026-07-07 03:52:31"
+    "summary": "If you’re building multi-agent AI systems, you need to prevent authorization scope from silently expanding as agents delegate tasks through multi-hop chains. Without proper controls, an agent can potentially act beyond what the originating user authorized, even when role-based access control (RBAC) policies are in place. The OWASP Top 10 for Agentic Applications classifies this […]"
+"last_updated": "2026-07-07 03:52:31 JST"
