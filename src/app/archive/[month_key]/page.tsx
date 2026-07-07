@@ -10,6 +10,7 @@ import Link from 'next/link';
 import { getPostsByMonth } from '@/lib/posts';
 import PostList from '@/components/organisms/PostList';
 import ThemeSwitcher from '@/components/atoms/ThemeSwitcher';
+import AuthButton from '@/components/atoms/AuthButton';
 import type { Metadata } from 'next';
 
 interface MonthPageProps {
@@ -94,7 +95,10 @@ export default async function MonthPage({ params }: MonthPageProps) {
               Back to Top
             </Button>
           </Link>
-          <ThemeSwitcher />
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+            <AuthButton />
+            <ThemeSwitcher />
+          </Box>
         </Box>
 
         <Typography

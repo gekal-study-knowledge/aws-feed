@@ -7,6 +7,9 @@ next-env.d.ts
 out/
 node_modules/
 
+# Env (ローカル上書き用。Firebase設定は公開値のためコードにフォールバックあり)
+.env*.local
+
 # Python
 __pycache__/
 *.py[cod]

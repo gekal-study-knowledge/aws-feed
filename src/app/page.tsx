@@ -10,6 +10,7 @@ import Link from 'next/link';
 import { getSortedPostsData, getPostsByMonth } from '@/lib/posts';
 import PostList from '@/components/organisms/PostList';
 import ThemeSwitcher from '@/components/atoms/ThemeSwitcher';
+import AuthButton from '@/components/atoms/AuthButton';
 import UpdateNotifier from '@/components/organisms/UpdateNotifier';
 import type { Metadata } from 'next';
 import { subMonths, startOfMonth, format, isAfter, parseISO } from 'date-fns';
@@ -36,7 +37,8 @@ export default function Home() {
   return (
     <Container maxWidth="lg">
       <Box sx={{ my: 4 }}>
-        <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
+        <Box sx={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: 1 }}>
+          <AuthButton />
           <ThemeSwitcher />
         </Box>
         <Typography

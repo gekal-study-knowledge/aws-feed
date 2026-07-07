@@ -9,6 +9,7 @@ AWS 公式の RSS フィードを自動的に購読し、日単位でまとめ�
 - **日単位レポート**: 新しい情報が公開された日ごとに Markdown ファイルを生成
 - **GitHub Actions 連携**: 1 時間ごとに自動実行し、変更を自動コミット
 - **Next.js + GitHub Pages 公開**: モダンな UI でレポートを閲覧可能（ダークモード対応）
+- **既読管理**: 日別ページ単位で既読/更新状態を表示。Google ログイン時は Cloud Firestore に保存され、複数デバイス間で同期（未ログイン時は localStorage で動作）
 
 ## ディレクトリ構成
 
@@ -269,6 +270,34 @@ last_updated: '2026-03-21 10:45:50 JST'
 
 記事は情報源ごとにグループ化され、各情報源内で公開日順に並びます。
 
+## 既読管理 (Firebase)
+
+日別ページの既読/更新状態を管理します。Google アカウントでログインすると Cloud Firestore に保存され、複数のデバイス・ブラウザ間で既読状態が同期されます。未ログイン時は従来どおりブラウザの localStorage に保存されます（初回ログイン時にローカルの既読を Firestore へマージ）。
+
+### 構成
+
+- **Firebase Authentication (Google)**: 右上のログインアイコンからサインイン
+- **Cloud Firestore**: `users/{uid}/reads/{postId}` に既読レコードを保存
+- **Firebase プロジェクト**: `aws-feed`
+
+### Firebase 設定値
+
+`src/lib/firebase/config.ts` に公開設定値がフォールバックとして埋め込まれています（Web SDK の設定値はクライアントに配信される公開情報であり、秘匿は不要。セキュリティは Firestore ルールと認可ドメインで担保）。ローカルで上書きする場合は `.env.local`（git 管理外）に `NEXT_PUBLIC_FIREBASE_*` を設定します。
+
+### Firestore セキュリティルール
+
+`firestore.rules` で「認証済みユーザー本人のみ自分の既読データを読み書き可能」に制限しています。デプロイ:
+
+```bash
+firebase deploy --only firestore:rules --project aws-feed
+```
+
+### Firebase コンソール側の初期設定（実施済み）
+
+- Authentication で **Google** ログインプロバイダを有効化
+- 認可ドメインに公開先 `gekal-study-knowledge.github.io` を追加（`localhost` は既定で許可）
+- Cloud Firestore データベース（`asia-northeast1`）を作成
+
 ## 技術スタック
 
 ### バックエンド（フィード取得）
@@ -285,6 +314,7 @@ last_updated: '2026-03-21 10:45:50 JST'
 - **Material UI v7**
 - **date-fns**: 日付処理
 - **remark**: Markdown → HTML 変換
+- **Firebase (Auth + Firestore)**: Google ログインと既読状態のクラウド同期
 
 ### インフラ
 
