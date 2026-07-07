@@ -1,0 +1,37 @@
+"entries":
+  "aa186d6da4b05cee6244c585a30a4f58":
+    "id": "aa186d6da4b05cee6244c585a30a4f58"
+    "title": "Amazon Redshift RG: Graviton 搭載でより高速、より低コスト"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-redshift-rg-faster-and-lower-cost-graviton-powered/"
+    "published": "2026-07-07 08:56:10"
+    "fetched": "2026-07-07 09:04:11"
+    "summary": "Amazon Redshift は、Graviton プロセッサを搭載した新インスタンス RG の一般提供を開始しました。RG は RA3 と比較して最大 2.2 倍高速なパフォーマンスを 30% 低いコストで実現し、統合ベクトル化データレイクエンジンにより Iceberg クエリで最大 2.4 倍高速化します。本記事では RG の技術的特長とベンチマーク結果を紹介します。"
+  "5ad866c04405cb8fc1ab7c837600c98a":
+    "id": "5ad866c04405cb8fc1ab7c837600c98a"
+    "title": "AI を活用した Amazon Redshift のパフォーマンスレコメンデーション"
+    "link": "https://aws.amazon.com/jp/blogs/news/ai-powered-performance-recommendations-for-amazon-redshift/"
+    "published": "2026-07-07 08:54:04"
+    "fetched": "2026-07-07 09:04:11"
+    "summary": "Amazon Redshift のパフォーマンスチューニングを自動化する AI ソリューションの構築方法を解説します。AWS Lambda でテレメトリを収集し、シグナルベースのプロンプト設計で Amazon Bedrock から具体的な推奨事項を生成してメール通知します。"
+  "f31e10a10adb0c42af71ac0ececec053":
+    "id": "f31e10a10adb0c42af71ac0ececec053"
+    "title": "Amazon Redshift のマルチウェアハウス機能強化でアナリティクスをスケール"
+    "link": "https://aws.amazon.com/jp/blogs/news/scale-analytics-with-amazon-redshift-multi-warehouse-enhancements/"
+    "published": "2026-07-07 08:52:04"
+    "fetched": "2026-07-07 09:04:11"
+    "summary": "Amazon Redshift のリモートテーブル DDL の改善、マテリアライズドビューの機能強化、zero-ETL および auto-copy 向けのコンカレンシースケーリング拡張により、大規模なアナリティクスワークロードを効率的にオンボードできるようになりました。金融サービスやゲーム業界の実例を交えて、マルチウェアハウスアーキテクチャの活用方法を紹介します。"
+  "af7cf53b0a5011f8de96281428bcd901":
+    "id": "af7cf53b0a5011f8de96281428bcd901"
+    "title": "Amazon Redshift が BI ダッシュボードとリアルタイム分析のパフォーマンスを向上"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-redshift-delivers-faster-performance-for-bi-dashboards-and-real-time-analytics/"
+    "published": "2026-07-07 08:50:31"
+    "fetched": "2026-07-07 09:04:11"
+    "summary": "Amazon Redshift の新しいクエリ起動最適化により、BI ダッシュボードやリアルタイム分析アプリケーションのレスポンスタイムが向上しました。コンパイルの負荷を軽減する「コンポジション」技術により、初回クエリの P50 コンパイル時間が 4.3 秒から 170 ミリ秒に短縮され、追加費用なしですべてのユーザーにデフォルトで有効化されています。"
+  "b83e3bf8dfca6d8af4539fc8b1df984b":
+    "id": "b83e3bf8dfca6d8af4539fc8b1df984b"
+    "title": "Amazon Redshift Serverless と Tableau の統合を最適化する"
+    "link": "https://aws.amazon.com/jp/blogs/news/optimize-your-tableau-integration-with-amazon-redshift-serverless/"
+    "published": "2026-07-07 08:48:42"
+    "fetched": "2026-07-07 09:04:11"
+    "summary": "本記事では、Tableau と Amazon Redshift Serverless の統合を最適化するための戦略を紹介します。データモデルアーキテクチャ、セキュリティ構成、パフォーマンス最適化、コスト管理、クエリ最適化の 5 つの領域について、RPU を最大限に活用しながらサブ秒レベルのインサイトを提供するためのベストプラクティスを解説します。"
+"last_updated": "2026-07-07 09:04:11 JST"
