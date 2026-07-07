@@ -1,0 +1,9 @@
+"entries":
+  "d1ecba3157835ac9b9ea258df5181ac5":
+    "id": "d1ecba3157835ac9b9ea258df5181ac5"
+    "title": "Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies"
+    "link": "https://aws.amazon.com/blogs/security/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/"
+    "published": "2026-07-08 03:18:52"
+    "fetched": "2026-07-08 04:49:34"
+    "summary": "With the introduction of models that require data sharing with third-party providers—such as Claude Fable 5—organizations need a way to centrally enforce data retention policies. Amazon Bedrock gives you control over whether your prompts and model outputs are retained after an inference request completes. You might need a way to enforce your retention settings across […]"
+"last_updated": "2026-07-08 04:49:34 JST"
