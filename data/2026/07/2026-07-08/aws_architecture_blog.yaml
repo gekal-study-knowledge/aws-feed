@@ -1,0 +1,9 @@
+"entries":
+  "49384d99589cf3e704b4cd3e07747cbe":
+    "id": "49384d99589cf3e704b4cd3e07747cbe"
+    "title": "S&P Global’s innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots"
+    "link": "https://aws.amazon.com/blogs/architecture/sp-globals-innovative-disaster-recovery-strategy-using-amazon-fsx-for-netapp-ontap-snapshots/"
+    "published": "2026-07-08 01:32:21"
+    "fetched": "2026-07-08 02:10:02"
+    "summary": "In this post, we explain how S&amp;P Global Market Intelligence implemented an innovative disaster recovery solution for their Capital IQ platform using Amazon FSx for NetApp ONTAP. This solution enables immediate failover to read-only mode in a secondary region within 15 minutes, followed by full read-write recovery when needed. This approach achieves reduction in failover time while maintaining data consistency for global financial operations."
+"last_updated": "2026-07-08 02:10:02 JST"
