@@ -1,0 +1,9 @@
+"entries":
+  "1384786a86c01f43c8063382f116ab0d":
+    "id": "1384786a86c01f43c8063382f116ab0d"
+    "title": "Amazon Redshift のモダナイゼーション: RA3 から RG への移行ベストプラクティス"
+    "link": "https://aws.amazon.com/jp/blogs/news/modernize-amazon-redshift-ra3-to-rg-migration-best-practices/"
+    "published": "2026-07-08 08:27:04"
+    "fetched": "2026-07-08 08:58:23"
+    "summary": "Amazon Redshift RA3 クラスターを Graviton ベースの RG インスタンスに移行する方法を解説します。Elastic Resize、Classic Resize、Snapshot/Restore の 3 つの移行戦略を比較し、スムーズな移行のための考慮事項とベストプラクティスを紹介します。"
+"last_updated": "2026-07-08 08:58:23 JST"
