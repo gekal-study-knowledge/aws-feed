@@ -7,6 +7,8 @@ import InitColorSchemeScript from '@mui/material/InitColorSchemeScript';
 import NextTopLoader from 'nextjs-toploader';
 import Footer from '@/components/organisms/Footer';
 import Box from '@mui/material/Box';
+import { AuthProvider } from '@/lib/firebase/AuthProvider';
+import { ReadStatusProvider } from '@/lib/firebase/ReadStatusProvider';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -32,18 +34,22 @@ export default function RootLayout(props: { children: React.ReactNode }) {
               height={4}
               showAtBottom={false}
             />
-            <Box
-              sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                minHeight: '100vh',
-              }}
-            >
-              <Box component="main" sx={{ flexGrow: 1 }}>
-                {props.children}
-              </Box>
-              <Footer />
-            </Box>
+            <AuthProvider>
+              <ReadStatusProvider>
+                <Box
+                  sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    minHeight: '100vh',
+                  }}
+                >
+                  <Box component="main" sx={{ flexGrow: 1 }}>
+                    {props.children}
+                  </Box>
+                  <Footer />
+                </Box>
+              </ReadStatusProvider>
+            </AuthProvider>
           </ThemeProvider>
         </AppRouterCacheProvider>
       </body>

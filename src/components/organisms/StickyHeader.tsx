@@ -1,10 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import { AppBar, Toolbar, IconButton, Typography, Slide } from '@mui/material';
+import { AppBar, Toolbar, IconButton, Typography, Slide, Box } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import Link from 'next/link';
 import ThemeSwitcher from '@/components/atoms/ThemeSwitcher';
+import AuthButton from '@/components/atoms/AuthButton';
 
 interface StickyHeaderProps {
   show: boolean;
@@ -31,7 +32,10 @@ export default function StickyHeader({ show, date }: StickyHeaderProps) {
           <Typography variant="h6" color="primary" sx={{ flexGrow: 1, textAlign: 'center' }}>
             {date}
           </Typography>
-          <ThemeSwitcher />
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
+            <AuthButton />
+            <ThemeSwitcher />
+          </Box>
         </Toolbar>
       </AppBar>
     </Slide>

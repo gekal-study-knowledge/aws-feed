@@ -14,6 +14,7 @@ import PostContent from '@/components/organisms/PostContent';
 import DailySummary from '@/components/organisms/DailySummary';
 import NavigationLinks from '@/components/organisms/NavigationLinks';
 import PostUpdateNotifier from '@/components/organisms/PostUpdateNotifier';
+import AuthButton from '@/components/atoms/AuthButton';
 import { useVisitedPost } from '@/lib/store/useVisitedPost';
 import type { DailySummary as DailySummaryData } from '@/lib/data';
 
@@ -85,7 +86,15 @@ export default function PostLayout({
       <StickyHeader show={showSticky && !isBottom} date={date} />
 
       <Container maxWidth="md">
-        <Box sx={{ mt: 4, mb: 2 }}>
+        <Box
+          sx={{
+            mt: 4,
+            mb: 2,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+          }}
+        >
           {/* Home Button */}
           <Link href="/" passHref>
             <Button
@@ -103,6 +112,7 @@ export default function PostLayout({
               Back to Archive
             </Button>
           </Link>
+          <AuthButton />
         </Box>
 
         <PostUpdateNotifier
