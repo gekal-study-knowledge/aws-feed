@@ -1,0 +1,9 @@
+"entries":
+  "2b20f4f14a2b5e34ce2dfae7bac343c8":
+    "id": "2b20f4f14a2b5e34ce2dfae7bac343c8"
+    "title": "CVE-2026-14904 - Improper Link Resolution in Auth.GetUserPrivateKey in AWS Research and Engineering Studio"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-053-aws/"
+    "published": "2026-07-08 06:39:56"
+    "fetched": "2026-07-08 07:57:18"
+    "summary": "<p><b>Bulletin ID:</b> 2026-053-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/07/2026 09:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS Research and Engineering Studio (RES) is an open-source solution that enables researchers and engineers to create and manage secure virtual desktops and computing resources on AWS.</p> \n<p>We identified an improper link resolution before file access issue (CWE-59) in the Auth.GetUserPrivateKey API. An authenticated remote user could read arbitrary files on the cluster-manager EC2 instance by replacing their SSH private key file (~/.ssh/id_rsa) with a symbolic link targeting any file on the host. Because the cluster-manager process runs as root, any file readable by root is exposed, including other users' SSH private keys and application configuration secrets.</p> \n<p><b>Impacted versions:</b> &lt;=2026.03</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-07-08 07:57:18 JST"
