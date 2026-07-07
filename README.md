@@ -295,7 +295,7 @@ firebase deploy --only firestore:rules --project aws-feed
 ### Firebase コンソール側の初期設定（実施済み）
 
 - Authentication で **Google** ログインプロバイダを有効化
-- 認可ドメインに公開先 `gekal-study-knowledge.github.io` を追加（`localhost` は既定で許可）
+- 認可ドメインに公開先 `aws.news.gekal.cn`（独自ドメイン）と `gekal-study-knowledge.github.io` を追加（`localhost` は既定で許可）
 - Cloud Firestore データベース（`asia-northeast1`）を作成
 
 ## 技術スタック
