@@ -1,0 +1,9 @@
+"entries":
+  "3e63d2fd3f568f756275b34cf661ff99":
+    "id": "3e63d2fd3f568f756275b34cf661ff99"
+    "title": "The CISO’s guide to post-quantum mandates and migrations"
+    "link": "https://aws.amazon.com/blogs/security/the-cisos-guide-to-post-quantum-mandates-and-migrations/"
+    "published": "2026-07-09 00:00:05"
+    "fetched": "2026-07-09 00:59:57"
+    "summary": "Over a dozen major economies have now published post-quantum cryptography (PQC) adoption guidance. As a CISO, you’re probably well into your migration plan and know the most difficult part has little to do with changing algorithms. The real leadership challenge is driving coordinated change across a large, complex organization where asymmetric cryptography is embedded in […]"
+"last_updated": "2026-07-09 00:59:57 JST"

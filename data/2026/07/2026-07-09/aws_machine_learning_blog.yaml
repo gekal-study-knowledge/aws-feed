@@ -1,0 +1,16 @@
+"entries":
+  "d2688b3842c6e6fc47d3d33538888f67":
+    "id": "d2688b3842c6e6fc47d3d33538888f67"
+    "title": "Securing Amazon Bedrock AgentCore Runtime with AWS WAF"
+    "link": "https://aws.amazon.com/blogs/machine-learning/securing-amazon-bedrock-agentcore-runtime-with-aws-waf/"
+    "published": "2026-07-09 00:57:33"
+    "fetched": "2026-07-09 00:59:58"
+    "summary": "This post shows you two architecture patterns that address this problem. Both use an internet-facing ALB with AWS WAF and route traffic through a VPC Interface Endpoint to AgentCore Runtime. Pattern 1 places an AWS Lambda proxy between the ALB and the VPC Endpoint, giving you full control over request transformation. Pattern 2 targets the VPC Endpoint ENI IP addresses directly from the ALB, removing the Lambda hop entirely. You also learn how to close the direct-access backdoor with a resource policy so that traffic flows through AWS WAF only. Both patterns have been tested end-to-end with SigV4 and OAuth (Amazon Cognito JWT) authentication."
+  "c3fb480582ce28850f7f0d769e41d9a0":
+    "id": "c3fb480582ce28850f7f0d769e41d9a0"
+    "title": "Manage AI applications on Mac with Jamf’s AI Governance and Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/manage-ai-applications-on-mac-with-jamf-ai-governance-and-amazon-bedrock/"
+    "published": "2026-07-09 00:53:08"
+    "fetched": "2026-07-09 00:59:58"
+    "summary": "In this post, we show how you can use Jamf’s AI Governance with Amazon Bedrock to configure, deploy, and validate managed settings for AI applications across a Mac fleet."
+"last_updated": "2026-07-09 00:59:58 JST"
