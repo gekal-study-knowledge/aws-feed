@@ -1,0 +1,9 @@
+"entries":
+  "7efce011b196a668c3fa6a91aedf01cd":
+    "id": "7efce011b196a668c3fa6a91aedf01cd"
+    "title": "Accelerate multiplayer game hosting with AWS m8azn instances"
+    "link": "https://aws.amazon.com/blogs/compute/accelerate-multiplayer-game-hosting-with-aws-m8azn-instances/"
+    "published": "2026-07-09 02:39:32"
+    "fetched": "2026-07-09 02:46:49"
+    "summary": "Online multiplayer gaming continues to grow, with players demanding lower latency, higher concurrency, and more immersive experiences than ever before. For game studios hosting dedicated multiplayer servers on AWS, infrastructure decisions directly impact player experience and retention, server tick rates, and ultimately, revenue. Games are becoming more computationally demanding while offering richer gameplay experiences. Studios […]"
+"last_updated": "2026-07-09 02:46:49 JST"
