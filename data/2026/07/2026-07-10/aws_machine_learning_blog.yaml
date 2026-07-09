@@ -1,0 +1,16 @@
+"entries":
+  "37c66cb7773f64e1afa879b5d2bcfc9c":
+    "id": "37c66cb7773f64e1afa879b5d2bcfc9c"
+    "title": "MCP tool design: Practical approaches and tradeoffs"
+    "link": "https://aws.amazon.com/blogs/machine-learning/mcp-tool-design-practical-approaches-and-tradeoffs/"
+    "published": "2026-07-10 01:40:16"
+    "fetched": "2026-07-10 03:47:39"
+    "summary": "In this post, we show where MCP tool design goes wrong and how to fix it with practical context engineering approaches."
+  "711582d24492495c3b420a67fe70506e":
+    "id": "711582d24492495c3b420a67fe70506e"
+    "title": "Enhancing enterprise inference on Amazon SageMaker HyperPod with data capture, Hugging Face, NVMe, and Route 53 integration"
+    "link": "https://aws.amazon.com/blogs/machine-learning/enhancing-enterprise-inference-on-amazon-sagemaker-hyperpod-with-data-capture-hugging-face-nvme-and-route-53-integration/"
+    "published": "2026-07-10 01:38:11"
+    "fetched": "2026-07-10 03:47:39"
+    "summary": "In this post, we walk through five capabilities now available in SageMaker HyperPod inference: multi-tier data capture for auditing and model improvement, direct deployment from Hugging Face Hub, local NVMe model loading for faster cold starts, automated Route 53 DNS for custom domains, and pod-level IAM through custom service accounts."
+"last_updated": "2026-07-10 03:47:39 JST"
