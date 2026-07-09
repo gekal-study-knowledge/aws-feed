@@ -20,4 +20,11 @@
     "published": "2026-07-09 11:52:21"
     "fetched": "2026-07-09 15:39:36"
     "summary": "本記事では、Amazon Bedrock のデータ保持モード (none、default、inherit、provider_data_share) の仕組みと、設定したモードが保持の上限として機能する動作を解説します。Amazon Bedrock Projects による保持要件が異なるワークロードの分離、サービスコントロールポリシー (SCP) を使用して組織全体でモデルプロバイダーとのデータ共有を防止しゼロデータ保持を強制する方法、クロスリージョン推論プロファイルとの相互作用、AWS CLI や API による設定の検証手順を紹介します。"
-"last_updated": "2026-07-09 15:39:36 JST"
+  "20c2a3b0c067bf089ec348c287e78c64":
+    "id": "20c2a3b0c067bf089ec348c287e78c64"
+    "title": "井村屋グループ様：Amazon SageMaker Canvas を活用したチルド製品の AI 需要予測で、業務工数 90% 削減と熟練者同等の予測精度を実現"
+    "link": "https://aws.amazon.com/jp/blogs/news/ai-case-study-imurayagroup/"
+    "published": "2026-07-09 18:50:44"
+    "fetched": "2026-07-09 19:31:22"
+    "summary": "本ブログは井村屋グループ株式会社様、株式会社 Hashup 様、Amazon Web Services Jap […]"
+"last_updated": "2026-07-09 19:31:22 JST"
