@@ -1,0 +1,9 @@
+"entries":
+  "e5ea63efef866991965330e986d1bcd9":
+    "id": "e5ea63efef866991965330e986d1bcd9"
+    "title": "Amazon EVS への VCF 9.1 エンドツーエンド自動化デプロイ"
+    "link": "https://aws.amazon.com/jp/blogs/news/deploying-vcf-9-1-on-amazon-evs-with-end-to-end-automation/"
+    "published": "2026-07-09 09:42:48"
+    "fetched": "2026-07-09 11:36:12"
+    "summary": "Amazon EVS のセルフデプロイモードで VCF 9.1 を自動デプロイする 3 フェーズの自動化ツールキットを解説します。Terraform で AWS 基盤を構築し、Python (boto3) で EVS 環境とベアメタルホストをプロビジョニングし、VCF Python SDK で VCF bringup から NSX Edge Cluster 設定までを完全自動化します。"
+"last_updated": "2026-07-09 11:36:12 JST"
