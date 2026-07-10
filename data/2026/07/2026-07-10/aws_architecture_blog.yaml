@@ -1,0 +1,9 @@
+"entries":
+  "67d9265bf377e2ef23372ec50ac133e1":
+    "id": "67d9265bf377e2ef23372ec50ac133e1"
+    "title": "Specification-driven composition for flexible data workflows"
+    "link": "https://aws.amazon.com/blogs/architecture/specification-driven-composition-for-flexible-data-workflows/"
+    "published": "2026-07-10 07:27:31"
+    "fetched": "2026-07-10 09:00:51"
+    "summary": "Specification-driven composition addresses a common scalability bottleneck in data pipelines. Data pipelines often start as simple scripts, but as they grow, you duplicate transformation logic and small changes cascade across multiple workflows. Copying and modifying data transformation logic across scripts leads to workflows that become difficult to manage at scale. Tracking what each pipeline does […]"
+"last_updated": "2026-07-10 09:00:51 JST"

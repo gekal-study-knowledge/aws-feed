@@ -1,0 +1,9 @@
+"entries":
+  "a9a6d9cf254bf0f1ce8ec50133ba8537":
+    "id": "a9a6d9cf254bf0f1ce8ec50133ba8537"
+    "title": "Introducing OAuth Support for AWS MCP Server"
+    "link": "https://aws.amazon.com/blogs/security/introducing-oauth-support-for-aws-mcp-server/"
+    "published": "2026-07-10 08:43:47"
+    "fetched": "2026-07-10 09:00:50"
+    "summary": "AWS MCP Server using the same credentials and sign-in methods that you already use for connecting to the AWS Management Console or AWS Command Line Interface (AWS CLI) through a familiar browser-based experience powered by industry-standard OAuth. This new sign-in path supports AWS Identity and Access Management (IAM) federation, AWS IAM Identity Center, and root […]"
+"last_updated": "2026-07-10 09:00:50 JST"
