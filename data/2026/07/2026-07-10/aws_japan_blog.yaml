@@ -20,4 +20,11 @@
     "published": "2026-07-10 10:21:11"
     "fetched": "2026-07-10 13:47:14"
     "summary": "Kiro の超過利用に関する 2 つの新機能をご紹介します。チーム向けには、AWS Service Quotas コンソールからアカウント単位で超過利用の上限を設定できるようになりました。個人開発者向けには、有料プラン利用者が前払いで購入できるアドオンクレジットパック (最小 5 ドルから) を追加しました。後から届く想定外の請求書に驚かされることなく、支出をコントロールしながら Kiro を使い続けられます。"
-"last_updated": "2026-07-10 13:47:14 JST"
+  "f57f5e2343a61ea8b253f3f2dd043043":
+    "id": "f57f5e2343a61ea8b253f3f2dd043043"
+    "title": "【公共向け】Claude Mythos 時代の脅威対策ワークショップ開催報告 & 耐障害性ライフサイクル実践ワークショップのご案内"
+    "link": "https://aws.amazon.com/jp/blogs/news/claude-mythos-workshop-report-resilience-workshop-upcoming/"
+    "published": "2026-07-10 23:51:52"
+    "fetched": "2026-07-11 01:52:39"
+    "summary": "AWS Japan パブリックセクターでは月次でセキュリティワークショップイベントを開催しています。Claude Mythos / Project Glasswing の登場によりセキュリティを取り巻く状況が変化する中、第 3・4 回は「Claude Mythos 時代の脅威への対応」をテーマに実施しました。本記事では、第 3 回の Amazon Inspector による脆弱性管理と、第 4 回の AWS Security Agent によるプロアクティブなセキュリティ評価を扱った開催レポートをお届けします。"
+"last_updated": "2026-07-11 01:52:39 JST"

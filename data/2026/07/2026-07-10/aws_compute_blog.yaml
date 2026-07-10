@@ -6,4 +6,11 @@
     "published": "2026-07-10 23:12:30"
     "fetched": "2026-07-10 23:13:50"
     "summary": "Development teams building serverless applications with AI coding agents face the question of how to let those agents generate and execute code without losing control over governance. Agent-generated code needs a secure environment to execute, isolated from production systems and the developer’s local environment. Addressing this requires three things working together: a secure execution sandbox, […]"
-"last_updated": "2026-07-10 23:13:50 JST"
+  "57d123ba114362978f67c09076b24187":
+    "id": "57d123ba114362978f67c09076b24187"
+    "title": "Secure code execution for AI agents with AWS Lambda MicroVMs"
+    "link": "https://aws.amazon.com/blogs/compute/secure-code-execution-for-ai-agents-with-aws-lambda-microvms/"
+    "published": "2026-07-10 23:12:30"
+    "fetched": "2026-07-11 01:52:41"
+    "summary": "Development teams building serverless applications with AI coding agents face the question of how to let those agents generate and execute code without losing control over governance. Agent-generated code needs a secure environment to execute, isolated from production systems and the developer’s local environment. Addressing this requires three things working together: a secure execution sandbox, […]"
+"last_updated": "2026-07-11 01:52:41 JST"
