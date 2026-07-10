@@ -1,0 +1,23 @@
+"entries":
+  "16453c3d642a4a5390904612cebfeee5":
+    "id": "16453c3d642a4a5390904612cebfeee5"
+    "title": "【開催報告 & 資料公開】IT 基盤の環境変化に対応する AWS マイグレーション"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-jpps-seminar-2026-june/"
+    "published": "2026-07-10 12:57:28"
+    "fetched": "2026-07-10 13:47:14"
+    "summary": "こんにちは。アマゾン ウェブ サービス ジャパン合同会社 パートナーソリューションアーキテクトの深井 宣之です […]"
+  "3b4f657e071d6278f07ec6bccb93ab5f":
+    "id": "3b4f657e071d6278f07ec6bccb93ab5f"
+    "title": "AWS Cloud WAN Routing Policy：実運用におけるグローバルネットワークのシナリオ集 (Part 2)"
+    "link": "https://aws.amazon.com/jp/blogs/news/networking-and-content-delivery-aws-cloud-wan-routing-policy-real-world-global-network-scenarios-part-2/"
+    "published": "2026-07-10 10:43:38"
+    "fetched": "2026-07-10 13:47:14"
+    "summary": "本記事では、AWS Cloud WAN のルーティングポリシーを使い、ハイブリッド環境やマルチサイト環境で一般的に見られる3つの実運用シナリオを取り上げます。Transit Gateway 環境からの移行中のルート伝播制御、複数の Direct Connect ロケーション間のパス選択の改善、そして同一 ASN を持つネットワーク間の接続の許可という課題を、集中型のポリシー適用ポイントとしての AWS Cloud WAN でどのように解決できるかを解説します。"
+  "5a9be66da6c88110d0949aae69c0c816":
+    "id": "5a9be66da6c88110d0949aae69c0c816"
+    "title": "Kiro の超過利用の上限設定と前払い機能のご紹介"
+    "link": "https://aws.amazon.com/jp/blogs/news/cap-prepay-overage/"
+    "published": "2026-07-10 10:21:11"
+    "fetched": "2026-07-10 13:47:14"
+    "summary": "Kiro の超過利用に関する 2 つの新機能をご紹介します。チーム向けには、AWS Service Quotas コンソールからアカウント単位で超過利用の上限を設定できるようになりました。個人開発者向けには、有料プラン利用者が前払いで購入できるアドオンクレジットパック (最小 5 ドルから) を追加しました。後から届く想定外の請求書に驚かされることなく、支出をコントロールしながら Kiro を使い続けられます。"
+"last_updated": "2026-07-10 13:47:14 JST"
