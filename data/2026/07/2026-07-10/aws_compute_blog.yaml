@@ -1,0 +1,9 @@
+"entries":
+  "3786db2e057dc8a30d154f366ff4d7f3":
+    "id": "3786db2e057dc8a30d154f366ff4d7f3"
+    "title": "Secure code execution for AI agents with AWS Lambda MicroVMs"
+    "link": "https://aws.amazon.com/blogs/compute/__trashed-4/"
+    "published": "2026-07-10 23:12:30"
+    "fetched": "2026-07-10 23:13:50"
+    "summary": "Development teams building serverless applications with AI coding agents face the question of how to let those agents generate and execute code without losing control over governance. Agent-generated code needs a secure environment to execute, isolated from production systems and the developer’s local environment. Addressing this requires three things working together: a secure execution sandbox, […]"
+"last_updated": "2026-07-10 23:13:50 JST"
