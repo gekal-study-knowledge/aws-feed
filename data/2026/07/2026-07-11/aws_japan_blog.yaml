@@ -6,4 +6,11 @@
     "published": "2026-07-11 12:49:44"
     "fetched": "2026-07-11 14:36:09"
     "summary": "2026 年 7 月 1 日より、Claude Sonnet 5 が Kiro の IDE、CLI、Web でご利用いただけるようになりました。Sonnet 5 は Anthropic がこれまでに提供した中で最もエージェント性能に優れた Sonnet モデルであり、Sonnet 4.6 から大幅にアップグレードされ、推論力・ツール利用・コーディング能力が強化されています。しかも価格は Sonnet クラスのままです。"
-"last_updated": "2026-07-11 14:36:09 JST"
+  "bc7b4266a2e17a4bb25d75cca9ab3c92":
+    "id": "bc7b4266a2e17a4bb25d75cca9ab3c92"
+    "title": "Kiro で Claude Sonnet 5 が利用可能になりました"
+    "link": "https://aws.amazon.com/jp/blogs/news/sonnet-5/"
+    "published": "2026-07-11 12:49:44"
+    "fetched": "2026-07-11 16:48:36"
+    "summary": "2026 年 7 月 1 日より、Claude Sonnet 5 が Kiro の IDE、CLI、Web でご利用いただけるようになりました。Sonnet 5 は Anthropic がこれまでに提供した中で最もエージェント性能に優れた Sonnet モデルであり、Sonnet 4.6 から大幅にアップグレードされ、推論力・ツール利用・コーディング能力が強化されています。しかも価格は Sonnet クラスのままです。"
+"last_updated": "2026-07-11 16:48:36 JST"
