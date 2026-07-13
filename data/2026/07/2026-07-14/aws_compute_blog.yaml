@@ -1,0 +1,9 @@
+"entries":
+  "f99d3e21deb5491eebdbd0bdc977589d":
+    "id": "f99d3e21deb5491eebdbd0bdc977589d"
+    "title": "Eliminating Java cold starts with AWS Lambda Managed Instances"
+    "link": "https://aws.amazon.com/blogs/compute/eliminating-java-cold-starts-with-aws-lambda-managed-instances/"
+    "published": "2026-07-14 05:23:19"
+    "fetched": "2026-07-14 06:52:29"
+    "summary": "A single cold start can push your Java Lambda function’s response time from milliseconds to seconds, enough to violate your p99 SLA, timeout a downstream service, and page your on-call. The Java Virtual Machine (JVM) performs best in long-running processes. Its Just-In-Time (JIT) compiler progressively optimizes code over thousands of invocations. Standard serverless execution environments […]"
+"last_updated": "2026-07-14 06:52:29 JST"
