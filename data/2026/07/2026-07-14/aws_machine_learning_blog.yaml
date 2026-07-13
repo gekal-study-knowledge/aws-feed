@@ -1,0 +1,30 @@
+"entries":
+  "a167c7ff630a8e2b2ca7be8d076a1637":
+    "id": "a167c7ff630a8e2b2ca7be8d076a1637"
+    "title": "When your brain works differently, AI isn’t a luxury—it’s accessibility"
+    "link": "https://aws.amazon.com/blogs/machine-learning/when-your-brain-works-differently-ai-isnt-a-luxury-its-accessibility/"
+    "published": "2026-07-14 02:50:16"
+    "fetched": "2026-07-14 03:40:50"
+    "summary": "In this post, I share how AI serves as an accessibility tool for neurodivergent professionals. The system is built on Amazon Quick on your desktop, an AI-powered desktop and web assistant that compensates for executive function gaps every day."
+  "0fe1dd25b1e4a1fa870b975c15d97558":
+    "id": "0fe1dd25b1e4a1fa870b975c15d97558"
+    "title": "Building an agentic AI solution at Bluesight with Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-solution-at-bluesight-with-amazon-bedrock/"
+    "published": "2026-07-14 02:34:38"
+    "fetched": "2026-07-14 03:40:50"
+    "summary": "In this post, we describe how Bluesight used two AWS engagements and Amazon Bedrock AgentCore to evolve from a single-product AI prototype to Prism, a unified agentic AI solution spanning six healthcare compliance products. Prism Assistant for ControlCheck launched in May 2026 and is already in use by 20 health systems. A more complex multi-product agentic solution is on track for later in 2026."
+  "a82773dbc2f8c69b81084924fbdd6f3a":
+    "id": "a82773dbc2f8c69b81084924fbdd6f3a"
+    "title": "Implement on-behalf-of token exchange for multi-tenant agents with Amazon Bedrock AgentCore Gateway"
+    "link": "https://aws.amazon.com/blogs/machine-learning/implement-on-behalf-of-token-exchange-for-multi-tenant-agents-with-amazon-bedrock-agentcore-gateway/"
+    "published": "2026-07-14 02:27:40"
+    "fetched": "2026-07-14 03:40:50"
+    "summary": "Building multi-tenant agents with Amazon Bedrock AgentCore and Apply fine-grained access control with Bedrock AgentCore Gateway interceptors establish the conceptual foundation for on-behalf-of (OBO) token exchange in agentic systems. This post is the implementation guide. It walks through a complete multi-tenant OBO setup against Okta, shows the JSON Web Token (JWT) claim transformations on each hop, and demonstrates how audience binding produces defense in depth that scales across tenants."
+  "dda79aed15ef6a034b696ecb4eaedced":
+    "id": "dda79aed15ef6a034b696ecb4eaedced"
+    "title": "Launching UI for generative AI inference recommendations in Amazon SageMaker AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai/"
+    "published": "2026-07-14 01:42:15"
+    "fetched": "2026-07-14 03:40:50"
+    "summary": "In this post, we introduce the UI for optimized generative AI inference recommendations in Amazon SageMaker AI Studio, a low-code no-code (LCNC) experience. The API already gives you programmatic access to recommendations, but it assumes you know which parameters to set and how to interpret raw benchmark output. The UI removes that assumption. It guides you through preset use-case profiles, visual comparisons of results, and one-click deployment, so teams without deep infrastructure expertise can get a validated configuration on their own."
+"last_updated": "2026-07-14 03:40:50 JST"
