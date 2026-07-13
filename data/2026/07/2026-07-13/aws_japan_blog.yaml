@@ -1,0 +1,16 @@
+"entries":
+  "e1b46fbd17e103b7cdad5369b80c26e8":
+    "id": "e1b46fbd17e103b7cdad5369b80c26e8"
+    "title": "VPC Resource Gateways の実装パターンとユースケース"
+    "link": "https://aws.amazon.com/jp/blogs/news/vpc-resource-gateways-implementation-patterns-and-use-cases/"
+    "published": "2026-07-13 10:25:42"
+    "fetched": "2026-07-13 11:26:09"
+    "summary": "本記事は、2025 年 6 月 11 日に Networking &amp; Content Delivery […]"
+  "0827264ea0d51fbba056882cea9a506c":
+    "id": "0827264ea0d51fbba056882cea9a506c"
+    "title": "週刊AWS – 2026/7/6週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260706/"
+    "published": "2026-07-13 09:40:53"
+    "fetched": "2026-07-13 11:26:09"
+    "summary": "Amazon SageMaker HyperPod が Disaggregated Prefill and Decode (DPD) に対応、Amazon RDS for Oracle が Oracle Database 26ai のサポートを開始、AWS Security Hub が Network Scanning を提供開始、Amazon Aurora DSQL が変更データキャプチャ (CDC) の一般提供を開始、AWS Config が 191 個のマネージドルールを追加、Amazon EC2 R8in / R8ib / R8idn / R8idb インスタンスが東京リージョンなどで利用可能に等"
+"last_updated": "2026-07-13 11:26:09 JST"
