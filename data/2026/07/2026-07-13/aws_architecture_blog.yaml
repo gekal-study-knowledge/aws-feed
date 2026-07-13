@@ -1,0 +1,16 @@
+"entries":
+  "58b3ae7e9a91d51d2089872f587d530f":
+    "id": "58b3ae7e9a91d51d2089872f587d530f"
+    "title": "Unlocking the future of video data: March Networks cloud storage on AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/unlocking-the-future-of-video-data-march-networks-cloud-storage-on-aws/"
+    "published": "2026-07-13 19:06:18"
+    "fetched": "2026-07-13 19:21:11"
+    "summary": "Enterprise video surveillance is operating at an unprecedented scale as organizations across retail, banking, quick-service restaurants (QSR), convenience stores, and transportation networks generate petabytes of video data across thousands of distributed locations. As retention requirements grow and organizations seek to extract more operational insights from video, traditional on-premise storage models are becoming increasingly difficult and […]"
+  "c553cc4aa7a8c537afe6d739175fe862":
+    "id": "c553cc4aa7a8c537afe6d739175fe862"
+    "title": "How MAPFRE USA modernized fraud claims with Amazon EMR Serverless"
+    "link": "https://aws.amazon.com/blogs/architecture/how-mapfre-usa-modernized-fraud-claims-with-amazon-emr-serverless/"
+    "published": "2026-07-13 18:26:59"
+    "fetched": "2026-07-13 19:21:11"
+    "summary": "Insurance fraud remains a significant challenge for the insurance industry. Fraudulent claims can increase loss costs, reduce trust, and consume investigation capacity that could otherwise be focused on serving customers. Traditional fraud detection approaches typically rely on rules-based controls, manual investigation triggers, historical claim patterns, and structured-data-only analysis. These approaches are useful for known fraud […]"
+"last_updated": "2026-07-13 19:21:11 JST"
