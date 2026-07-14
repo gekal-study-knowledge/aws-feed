@@ -6,4 +6,11 @@
     "published": "2026-07-15 00:18:42"
     "fetched": "2026-07-15 00:20:58"
     "summary": "As AI agents and automated tools increasingly access web applications, distinguishing legitimate bot traffic from malicious attempts has become a critical security challenge. Traditional approaches such as IP-based filtering and reverse DNS lookups fail in multi-tenant systems (such as Amazon Bedrock AgentCore) where thousands of distinct workloads share the same IP space. Attackers can easily […]"
-"last_updated": "2026-07-15 00:20:58 JST"
+  "84bb941dd0a52dc36cebf07655a0d483":
+    "id": "84bb941dd0a52dc36cebf07655a0d483"
+    "title": "Security Hub adds AI workload protection and multicloud support for Microsoft Azure"
+    "link": "https://aws.amazon.com/blogs/security/security-hub-adds-ai-workload-protection-and-multicloud-support-for-microsoft-azure/"
+    "published": "2026-07-15 04:16:57"
+    "fetched": "2026-07-15 05:56:18"
+    "summary": "Security Hub is our foundation for full-stack enterprise security across clouds. It centralizes your security operations and turns raw signals into prioritized insights, so your team spends its time managing real risk instead of stitching tools together. Today that foundation grows in two directions our customers asked for most. We are adding purpose-built protection for […]"
+"last_updated": "2026-07-15 05:56:18 JST"

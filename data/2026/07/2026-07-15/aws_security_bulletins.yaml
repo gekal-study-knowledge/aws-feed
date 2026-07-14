@@ -1,0 +1,16 @@
+"entries":
+  "bc1bbee1ac43bffd1162074c4d4975f3":
+    "id": "bc1bbee1ac43bffd1162074c4d4975f3"
+    "title": "CVE-2026-15643 - AWS HealthLake MCP Server SSRF via Unvalidated Pagination URL"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-054-aws/"
+    "published": "2026-07-15 05:09:02"
+    "fetched": "2026-07-15 05:56:18"
+    "summary": "<p><b>Bulletin ID:</b> 2026-054-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/14/2026 13:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS HealthLake MCP Server (awslabs.healthlake-mcp-server) is a Model Context Protocol server that enables AI assistants to interact with AWS HealthLake FHIR datastores. We identified CVE-2026-15643, a server-side request forgery in the pagination handling component in AWS awslabs.healthlake-mcp-server before 0.0.14 on all platforms might allow a remote authenticated user to exfiltrate AWS temporary security credentials to an arbitrary endpoint via a crafted next_token parameter. The server does not validate that pagination URLs point back to the expected HealthLake endpoint, allowing an actor to redirect subsequent requests to an actor-controlled server.</p> \n<p><b>Impacted versions:</b> &lt; 0.0.14</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "08eec9b6b8173501710726e31bec52da":
+    "id": "08eec9b6b8173501710726e31bec52da"
+    "title": "CVE-2026-15738 - Issue with AWS Load Balancer Controller Cross-Namespace Traffic Interception via HTTPRoute/GRPCRoute Priority Ordering"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-055-aws/"
+    "published": "2026-07-15 05:24:29"
+    "fetched": "2026-07-15 05:56:18"
+    "summary": "<p><b>Bulletin ID:</b> 2026-055-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/14/2026 13:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS Load Balancer Controller is an open-source Kubernetes controller that manages AWS Elastic Load Balancing resources for Kubernetes clusters. We identified CVE-2026-15738, an incorrect rule precedence ordering issue in the Gateway API listener rule generation logic. When both an HTTPRoute and a GRPCRoute are attached to the same Application Load Balancer (ALB) HTTPS listener with the same hostname, the controller assigns ALB listener rule priorities based on route kind rather than route specificity. This causes all HTTPRoute-derived rules to receive lower ALB priority numbers, evaluated first by the ALB, than GRPCRoute-derived rules, regardless of which route is more specific. A namespace-scoped user with permission to create HTTPRoute objects in a namespace admitted by a shared Gateway can create a catch-all HTTPRoute that intercepts traffic intended for a more-specific GRPCRoute in another namespace.</p> \n<p><b>Impacted versions:</b> AWS Load Balancer Controller v3.4.1 and any version that includes support for attaching both HTTPRoute and GRPCRoute to the same listener (introduced in PR #4794)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-07-15 05:56:18 JST"
