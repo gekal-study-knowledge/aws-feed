@@ -27,4 +27,11 @@
     "published": "2026-07-15 01:25:03"
     "fetched": "2026-07-15 02:10:43"
     "summary": "In this post, you will learn how ScienceSoft, an Amazon Web Services (AWS) Services Partner, integrated Amazon Nova 2 Sonic with Amazon Bedrock Guardrails to build a Health Insurance Portability and Accountability Act (HIPAA)-compliant AI voice scheduler. You will see how the solution addresses healthcare scheduling challenges while maintaining privacy, compliance, and responsible AI standards, and how you can apply the same architecture to your own workflows."
-"last_updated": "2026-07-15 02:10:43 JST"
+  "3ffbe27ff5460063fe061fd9d5bf0881":
+    "id": "3ffbe27ff5460063fe061fd9d5bf0881"
+    "title": "Multi-agent social intelligence with Strands Agents and Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/multi-agent-social-intelligence-with-strands-agents-and-amazon-bedrock/"
+    "published": "2026-07-15 03:44:26"
+    "fetched": "2026-07-15 04:13:10"
+    "summary": "This post shows how Thrad.ai deployed a multi-agent system with Strands Agents and Amazon Bedrock AgentCore that automates the pipeline from prospect discovery through personalized email generation. The post compares two orchestration patterns (Swarm and Graph) with head-to-head benchmarks on latency, cost, and email quality. You’ll also learn how the system scores prospects using weighted criteria, intent classification, and temporal decay, plus governance controls for production deployment."
+"last_updated": "2026-07-15 04:13:10 JST"
