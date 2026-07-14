@@ -1,0 +1,9 @@
+"entries":
+  "810c228742340aa6d036a9f90c15c2f0":
+    "id": "810c228742340aa6d036a9f90c15c2f0"
+    "title": "Authenticate legitimate AI agent traffic with AWS WAF Bot Control"
+    "link": "https://aws.amazon.com/blogs/security/authenticate-legitimate-ai-agent-traffic-with-aws-waf-bot-control/"
+    "published": "2026-07-15 00:18:42"
+    "fetched": "2026-07-15 00:20:58"
+    "summary": "As AI agents and automated tools increasingly access web applications, distinguishing legitimate bot traffic from malicious attempts has become a critical security challenge. Traditional approaches such as IP-based filtering and reverse DNS lookups fail in multi-tenant systems (such as Amazon Bedrock AgentCore) where thousands of distinct workloads share the same IP space. Attackers can easily […]"
+"last_updated": "2026-07-15 00:20:58 JST"
