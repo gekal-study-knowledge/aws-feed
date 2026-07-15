@@ -1,0 +1,23 @@
+"entries":
+  "18ebb067be76d703ec4990a0c585605b":
+    "id": "18ebb067be76d703ec4990a0c585605b"
+    "title": "Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance"
+    "link": "https://aws.amazon.com/blogs/machine-learning/built-technologies-builds-an-ai-powered-document-intelligence-solution-on-aws-to-power-agents-across-real-estate-finance/"
+    "published": "2026-07-16 03:14:31"
+    "fetched": "2026-07-16 05:04:51"
+    "summary": "Built partnered with the AWS Generative AI Innovation Center (GenAIIC), AWS Partner AND Digital, and AWS account teams to create a scalable, AI-powered document processing engine that can classify, split, extract, evaluate, and reason over complex real estate finance documents. It reduces workflows that previously took days to minutes, supports hundreds of document types, and gives technical teams and industry experts a shared environment for building and improving document processors."
+  "fd968704fda5dd32fbc409637f359a31":
+    "id": "fd968704fda5dd32fbc409637f359a31"
+    "title": "Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers"
+    "link": "https://aws.amazon.com/blogs/machine-learning/agentic-vision-building-visual-intelligence-with-amazon-bedrock-and-mcp-servers/"
+    "published": "2026-07-16 03:11:57"
+    "fetched": "2026-07-16 05:04:51"
+    "summary": "In this post, we walk you through the Computer Vision MCP Server, which illustrates this approach, representing how AI systems can process visual information and make intelligent decisions through a single, standardized interface. This convergence transforms what was once a complex integration challenge into a streamlined process, making AI capabilities accessible to a broader range of applications and developers."
+  "034612e1744d6ec6a6e476863c6d3aef":
+    "id": "034612e1744d6ec6a6e476863c6d3aef"
+    "title": "Monitor Amazon SageMaker Pipelines cross-account with custom Amazon CloudWatch dashboards"
+    "link": "https://aws.amazon.com/blogs/machine-learning/monitor-amazon-sagemaker-pipelines-cross-account-with-custom-amazon-cloudwatch-dashboards/"
+    "published": "2026-07-16 03:08:50"
+    "fetched": "2026-07-16 05:04:51"
+    "summary": "In this post, we present a solution designed to centralize the monitoring of SageMaker Pipelines across AWS accounts and Regions using Amazon CloudWatch custom dashboards. The accompanying GitHub repository provides a customizable AWS Cloud Development Kit (AWS CDK) example of the required infrastructure."
+"last_updated": "2026-07-16 05:04:51 JST"

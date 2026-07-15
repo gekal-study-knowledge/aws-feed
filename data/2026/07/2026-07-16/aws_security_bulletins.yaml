@@ -1,0 +1,9 @@
+"entries":
+  "ddc9d2604714fb6445c6577f6812948f":
+    "id": "ddc9d2604714fb6445c6577f6812948f"
+    "title": "CVE-2026-15746 - Credential disclosure in Strands Agents Tools elasticsearch_memory tool"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-056-aws/"
+    "published": "2026-07-16 03:49:07"
+    "fetched": "2026-07-16 05:04:50"
+    "summary": "<p><b>Bulletin ID:</b> 2026-056-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/15/2026 11:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Strands Agents is an open-source Python SDK for building and running AI agents. The strands-agents-tools package provides pre-built tools for use with the SDK, including the elasticsearch_memory tool for agent memory storage. We identified CVE-2026-15746, a server-side request forgery (SSRF) issue in the elasticsearch_memory tool. The tool exposed its connection parameters (es_url, cloud_id, api_key) as fields the large language model (LLM) could control through the tool schema. When a caller omitted the api_key parameter, the tool fell back to the operator's ELASTICSEARCH_API_KEY environment variable and sent it to whichever host the LLM specified. A crafted prompt could cause the tool to connect to a threat-actor-controlled server and disclose the operator's Elasticsearch API key in the Authorization header.</p> \n<p><b>Impacted versions:</b> &lt; 0.7.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-07-16 05:04:50 JST"
