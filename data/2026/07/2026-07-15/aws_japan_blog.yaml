@@ -1,0 +1,16 @@
+"entries":
+  "caee444eb43233f2937972599aaf9fd0":
+    "id": "caee444eb43233f2937972599aaf9fd0"
+    "title": "【開催報告】AWS Summit Japan 2026 — AI エージェントで危機対応：小売×消費財の混乱を AI と人が即座に解決"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-japan-2026-supply-chain-ai-agents-demo/"
+    "published": "2026-07-15 13:37:10"
+    "fetched": "2026-07-15 14:26:24"
+    "summary": "サプライチェーンの「想定外」に AI エージェントと人間が即応するデモを AWS Summit Japan 2026 で展示しました。BCP 訓練の実態、Human-in-the-Loop の仕組み、来場者との対話から見えた課題と期待、そして今日から試せるワークショップまでを一本にまとめた開催報告です。"
+  "5fa5d8be9000d88a8a334e85463da374":
+    "id": "5fa5d8be9000d88a8a334e85463da374"
+    "title": "AI と一緒に進める AWS Well-Architected Framework レビュー のすすめ"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-well-architected-review-with-ai-awssummit2026/"
+    "published": "2026-07-15 12:24:15"
+    "fetched": "2026-07-15 14:26:24"
+    "summary": "「セキュリティは大丈夫だろうか」「障害が起きたときに復旧できるだろうか」「このアーキテクチャはベストプラクティスに沿っているだろうか」AWS 上にシステムを構築・運用する中で、このような不安を感じたことはないでしょうか。こうした潜在的リスクを体系的に炙り出し、改善していくためのフレームワークとして有用なのが AWS Well-Architected Framework です。 しかし、Well-Architected レビューの実施には「フレームワークの内容を理解するのが難しい」「いつでも気軽に相談できるアドバイザーが欲しい」「時間がなくてレビューを実施できない」という悩みの声を耳にします。そこで本記事では、AI を活用して Well-Architected レビューを加速する 3 つのアプローチを紹介します。(AWS Summit Japan 2026 の Well-Architected ブース展示内容)"
+"last_updated": "2026-07-15 14:26:24 JST"
