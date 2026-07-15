@@ -13,4 +13,11 @@
     "published": "2026-07-15 04:16:57"
     "fetched": "2026-07-15 05:56:18"
     "summary": "Security Hub is our foundation for full-stack enterprise security across clouds. It centralizes your security operations and turns raw signals into prioritized insights, so your team spends its time managing real risk instead of stitching tools together. Today that foundation grows in two directions our customers asked for most. We are adding purpose-built protection for […]"
-"last_updated": "2026-07-15 05:56:18 JST"
+  "aff80c4182d3647dc94e14d4b2bb4b7f":
+    "id": "aff80c4182d3647dc94e14d4b2bb4b7f"
+    "title": "ICYMI: June 2026 @AWS Security"
+    "link": "https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/"
+    "published": "2026-07-15 09:37:58"
+    "fetched": "2026-07-15 11:03:14"
+    "summary": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS Security Blog posts covered identity and access management, threat intelligence, network security, AI-powered security tooling, and multi-account […]"
+"last_updated": "2026-07-15 11:03:14 JST"
