@@ -1,0 +1,16 @@
+"entries":
+  "3edf3e7594a7d9275c38d8ca46953f00":
+    "id": "3edf3e7594a7d9275c38d8ca46953f00"
+    "title": "Amazon OpenSearch Service の書き込み可能なウォームストレージでコストと運用負荷を削減"
+    "link": "https://aws.amazon.com/jp/blogs/news/cut-costs-and-simplify-operations-with-writable-warm-storage-in-amazon-opensearch-service/"
+    "published": "2026-07-16 09:42:09"
+    "fetched": "2026-07-16 11:34:06"
+    "summary": "Amazon OpenSearch Service に、書き込み可能なウォームストレージ (writable warm) が加わりました。UltraWarm では履歴データの更新にホットとの往復が必要でしたが、writable warm ならウォームに直接書き込めます。インフラコストは最大 48% 削減でき、更新も数時間ではなく数秒で完了します。"
+  "2931d5bebf5a56d0cbb42244cfef783e":
+    "id": "2931d5bebf5a56d0cbb42244cfef783e"
+    "title": "【開催報告】AWS Summit Japan 2026 ― AI で加速する製品イノベーション 〜マルチエージェントで実現する製品開発"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-2026-product-innovation/"
+    "published": "2026-07-16 09:23:43"
+    "fetched": "2026-07-16 11:34:06"
+    "summary": "はじめに AWS Summit Japan 2026 の流通小売・消費財・飲食ブースにて、私たちは「AI で加 […]"
+"last_updated": "2026-07-16 11:34:06 JST"
