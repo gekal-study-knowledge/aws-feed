@@ -1,0 +1,16 @@
+"entries":
+  "c535627ad6851011b4cfe10d32539cdc":
+    "id": "c535627ad6851011b4cfe10d32539cdc"
+    "title": "CVE-2026-15895: OS command injection in jsii-diff in AWS jsii"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-057-aws/"
+    "published": "2026-07-17 02:35:31"
+    "fetched": "2026-07-17 03:02:54"
+    "summary": "<p><b>Bulletin ID:</b> 2026-057-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/15/2026 12:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>jsii-diff is a command line tool to compare the API differences between two jsii assemblies, and report errors if there are backwards-incompatible changes to the API. We identified CVE-2026-15895, an issue where specially formatted command line arguments can be used to execute shell commands via this tool.</p> \n<p><b>Impacted versions:</b> &lt; 1.131.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "122e2291bbbf8154fa17484fd29d3af1":
+    "id": "122e2291bbbf8154fa17484fd29d3af1"
+    "title": "CVE-2026-15737 - Sensitive content disclosure via OpenTelemetry spans in AgentCore Python SDK"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-058-aws/"
+    "published": "2026-07-17 02:09:05"
+    "fetched": "2026-07-17 03:02:54"
+    "summary": "<p><b>Bulletin ID:</b> 2026-058-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/16/2026 10:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Bedrock AgentCore Python SDK (bedrock-agentcore) is an open-source Python library that provides client tools for building AI agents on the Amazon Bedrock AgentCore platform. We identified CVE-2026-15737 in the OpenTelemetry instrumentation of the SDK. Affected versions wrote raw user prompts and complete agent responses into OpenTelemetry span attributes on every invocation without filtering or masking. These spans flow into the customer's aws/spans CloudWatch log group, where a local authenticated user with CloudWatch Logs read access could access the potentially sensitive content.</p> \n<p><b>Impacted versions:</b> 1.4.8, 1.5.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-07-17 03:02:54 JST"
