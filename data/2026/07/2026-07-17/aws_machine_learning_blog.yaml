@@ -13,4 +13,11 @@
     "published": "2026-07-17 04:29:26"
     "fetched": "2026-07-17 05:00:00"
     "summary": "This post covers what makes Grok 4.3 a great fit for agentic and enterprise workloads, how you access it through Amazon Bedrock, and how to use the capabilities most teams reach for first: a basic chat request, configurable reasoning effort, tool calling, structured output, image input, and stateful multi-turn conversations."
-"last_updated": "2026-07-17 05:00:00 JST"
+  "eb672416a454b9880bc8c2b938bd2c35":
+    "id": "eb672416a454b9880bc8c2b938bd2c35"
+    "title": "Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/"
+    "published": "2026-07-17 06:29:14"
+    "fetched": "2026-07-17 07:53:59"
+    "summary": "In this post, we walk through the three pillars that make this possible: simplified setup, smarter retrieval, and production readiness. We also show you code examples for setting up a knowledge base and retrieving from it."
+"last_updated": "2026-07-17 07:53:59 JST"
