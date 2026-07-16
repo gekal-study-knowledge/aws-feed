@@ -6,4 +6,11 @@
     "published": "2026-07-17 00:50:52"
     "fetched": "2026-07-17 01:18:19"
     "summary": "In this post, we show you how to build a voice ordering system that answers a phone number and takes the order from greeting to confirmation. The system uses Amazon Bedrock AgentCore to host and run the agent and Amazon Nova 2 Sonic for real-time speech, connected to a restaurant backend through the Model Context Protocol (MCP). The walkthrough covers deploying the full stack with AWS Cloud Development Kit (AWS CDK) and bridging a phone call into the agent through a Session Initiation Protocol (SIP) gateway on Amazon Elastic Container Service (Amazon ECS) and AWS Fargate. It also warms the agent session while the phone is still ringing, so the caller never hears dead air."
-"last_updated": "2026-07-17 01:18:19 JST"
+  "e8798a2c51ce57a76ffa9518fae30750":
+    "id": "e8798a2c51ce57a76ffa9518fae30750"
+    "title": "Introducing Grok on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/"
+    "published": "2026-07-17 04:29:26"
+    "fetched": "2026-07-17 05:00:00"
+    "summary": "This post covers what makes Grok 4.3 a great fit for agentic and enterprise workloads, how you access it through Amazon Bedrock, and how to use the capabilities most teams reach for first: a basic chat request, configurable reasoning effort, tool calling, structured output, image input, and stateful multi-turn conversations."
+"last_updated": "2026-07-17 05:00:00 JST"
