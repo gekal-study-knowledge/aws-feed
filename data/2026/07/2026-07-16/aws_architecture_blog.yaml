@@ -6,4 +6,11 @@
     "published": "2026-07-16 00:27:47"
     "fetched": "2026-07-16 01:17:32"
     "summary": "When 121 million mobile devices establish persistent gRPC connections to your origin infrastructure within seconds of a live broadcast, the routing policy behind your DNS records matters far more than it does at normal traffic levels. The wrong policy can concentrate all your connections onto a single origin endpoint, turning a scaling success into an […]"
-"last_updated": "2026-07-16 01:17:32 JST"
+  "6cd855b647b20b506e671693e0c9425b":
+    "id": "6cd855b647b20b506e671693e0c9425b"
+    "title": "Prioritize your AWS Health alerts using AWS User Notifications"
+    "link": "https://aws.amazon.com/blogs/architecture/prioritize-your-aws-health-alerts-using-aws-user-notifications/"
+    "published": "2026-07-16 23:56:22"
+    "fetched": "2026-07-16 23:57:34"
+    "summary": "If you run critical workloads on AWS, such as a contact center on Amazon Connect Customer, database workloads on Amazon Relational Database Service (Amazon RDS), or hybrid connectivity through AWS Direct Connect, service health events demand your attention. But not all events are equal. An operational issue, a scheduled maintenance window, and a deprecation notice […]"
+"last_updated": "2026-07-16 23:57:34 JST"
