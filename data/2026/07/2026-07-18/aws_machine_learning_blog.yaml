@@ -13,4 +13,11 @@
     "published": "2026-07-18 01:32:06"
     "fetched": "2026-07-18 03:02:08"
     "summary": "In this post, we cover a high-level view of the Smartsheet remote MCP architecture, with a focus on the AWS infrastructure behind it. This includes security, governance, scaling and deployment, and the AI-specific optimizations Smartsheet built on AWS."
-"last_updated": "2026-07-18 03:02:08 JST"
+  "06c49237ef61ffbc9c933b5592b49067":
+    "id": "06c49237ef61ffbc9c933b5592b49067"
+    "title": "Transform your sales organization with Amazon Quick: your new agentic AI teammate"
+    "link": "https://aws.amazon.com/blogs/machine-learning/transform-your-sales-organization-with-amazon-quick-your-new-agentic-ai-teammate/"
+    "published": "2026-07-18 03:42:36"
+    "fetched": "2026-07-18 05:02:27"
+    "summary": "In this post, we walk through a few ways that Quick delivers on this promise. We cover the entire sales cycle, from identifying your highest-priority prospect, contacting them, working the deal to close, and keeping the CRM up to date as the account matures, while protecting your scarcest resource: your time."
+"last_updated": "2026-07-18 05:02:27 JST"
