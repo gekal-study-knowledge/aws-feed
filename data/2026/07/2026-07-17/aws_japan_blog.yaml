@@ -1,0 +1,23 @@
+"entries":
+  "3ff16fd2b4f2b863ff74733355fea805":
+    "id": "3ff16fd2b4f2b863ff74733355fea805"
+    "title": "Amazon RDS for Oracle でのデータマスキング"
+    "link": "https://aws.amazon.com/jp/blogs/news/data-masking-in-amazon-rds-for-oracle/"
+    "published": "2026-07-17 11:00:55"
+    "fetched": "2026-07-17 11:20:44"
+    "summary": "Oracle Data Masking and Subsetting Pack を Amazon RDS for Oracle で使用する方法を説明します。Oracle Enterprise Manager (OEM) でのデータマスキングのセットアップから、マスキングスクリプトの生成と実行、EventBridge と Step Functions による自動化まで、非本番環境を本番相当のデータで安全にリフレッシュする手順を紹介します。"
+  "e2b1ffe6347f83c7b86a95887dca9766":
+    "id": "e2b1ffe6347f83c7b86a95887dca9766"
+    "title": "音声 AI エージェントで実現するセントラルキッチンのハンズフリーオペレーション"
+    "link": "https://aws.amazon.com/jp/blogs/news/voice-ai-driven-hands-free-kitchen/"
+    "published": "2026-07-17 09:57:21"
+    "fetched": "2026-07-17 11:20:44"
+    "summary": "本ブログは、株式会社アドバンスト・メディア様と&nbsp;Amazon Web Services Japan が共同で執 […]"
+  "c1c9823716cc7710cac6b74f0a01d3ab":
+    "id": "c1c9823716cc7710cac6b74f0a01d3ab"
+    "title": "Amazon SQS が誕生 20 周年に: 大規模かつ信頼性の高いメッセージングを支えてきた 20 年間"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/"
+    "published": "2026-07-17 09:25:23"
+    "fetched": "2026-07-17 11:20:44"
+    "summary": "2006 年 7 月 13 日、Amazon EC2 および Amazon S3 と共にお客様向けに提供される […]"
+"last_updated": "2026-07-17 11:20:44 JST"
