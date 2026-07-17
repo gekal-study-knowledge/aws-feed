@@ -1,0 +1,16 @@
+"entries":
+  "2543980763710c4d0783137fe457b925":
+    "id": "2543980763710c4d0783137fe457b925"
+    "title": "Introducing Mobile Layout for Amazon Quick dashboards"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-mobile-layout-for-amazon-quick-dashboards/"
+    "published": "2026-07-18 02:13:15"
+    "fetched": "2026-07-18 03:02:08"
+    "summary": "Teams that rely on dashboards for daily decisions often must pinch and zoom to interact with controls originally designed for larger displays. Checking revenue during a morning standup, reviewing pipeline metrics between meetings, or monitoring operations while traveling all require extra effort when the dashboard was built for a desktop screen. Mobile Layout for Amazon […]"
+  "1bb8318139f99983fccc6f407cb2c9bc":
+    "id": "1bb8318139f99983fccc6f407cb2c9bc"
+    "title": "How Smartsheet built a remote MCP server on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-smartsheet-built-a-remote-mcp-server-on-aws/"
+    "published": "2026-07-18 01:32:06"
+    "fetched": "2026-07-18 03:02:08"
+    "summary": "In this post, we cover a high-level view of the Smartsheet remote MCP architecture, with a focus on the AWS infrastructure behind it. This includes security, governance, scaling and deployment, and the AI-specific optimizations Smartsheet built on AWS."
+"last_updated": "2026-07-18 03:02:08 JST"
