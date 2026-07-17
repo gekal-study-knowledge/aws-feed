@@ -1,0 +1,23 @@
+"entries":
+  "162a200b38e9f9d2788d15ee43d489e2":
+    "id": "162a200b38e9f9d2788d15ee43d489e2"
+    "title": "Eclipse Dataspace Components on AWS: Cost optimization strategies"
+    "link": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-cost-optimization-strategies/"
+    "published": "2026-07-18 01:03:47"
+    "fetched": "2026-07-18 01:11:20"
+    "summary": "When you deploy Eclipse Dataspace Components (EDC) connectors on AWS, one of the first challenges you face is predicting and controlling the cost of the required infrastructure. Without clear benchmarks, it is difficult to make informed decisions about workload sizing, environment configuration, and long-term investment. Part 1 of this 3-part blog series covered the fundamentals […]"
+  "4aa8aae2ebcc79f6a59628380523ceaa":
+    "id": "4aa8aae2ebcc79f6a59628380523ceaa"
+    "title": "Eclipse Dataspace Components on AWS: Architecture patterns in production"
+    "link": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-architecture-patterns-in-production/"
+    "published": "2026-07-18 01:03:44"
+    "fetched": "2026-07-18 01:11:20"
+    "summary": "Running Eclipse Dataspace Components (EDC) connectors in production on AWS requires deliberate architecture decisions around isolation, managed services, and security layering. In Part 1 of this series, we covered the fundamentals of data space architectures and EDC per the International Data Space Association’s (IDSA) standards. If you are new to EDC, we recommend starting there. […]"
+  "b685b281bf033edf65b9b2c1dfd78f44":
+    "id": "b685b281bf033edf65b9b2c1dfd78f44"
+    "title": "Eclipse Dataspace Components on AWS: Data sharing fundamentals"
+    "link": "https://aws.amazon.com/blogs/architecture/eclipse-dataspace-components-on-aws-data-sharing-fundamentals/"
+    "published": "2026-07-18 01:03:40"
+    "fetched": "2026-07-18 01:11:20"
+    "summary": "This three-part blog series guides you through implementing Eclipse Dataspace Components (EDC) on AWS, from foundational concept to production deployment. Part 1 establishes the theoretical foundation with IDSA standards, the Dataspace Protocol (DSP), and core EDC architecture. Part 2 provides production-ready AWS deployment patterns using services like Amazon Elastic Container Service (Amazon ECS), Amazon Aurora, […]"
+"last_updated": "2026-07-18 01:11:20 JST"
