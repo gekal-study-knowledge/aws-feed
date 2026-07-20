@@ -6,4 +6,11 @@
     "published": "2026-07-21 01:40:16"
     "fetched": "2026-07-21 02:56:58"
     "summary": "Amazon Web Services (AWS) successfully completed an onboarding audit with no findings for ISO 9001:2015, 27001:2022, 27017:2015, 27018:2019, 27701:2019, 20000-1:2018, and 22301:2019, and Cloud Security Alliance (CSA) STAR Cloud Controls Matrix (CCM) v4.0. EY Certify Point auditors conducted the audit and reissued the certificates on May 31, 2026. The objective of the audit was to […]"
-"last_updated": "2026-07-21 02:56:58 JST"
+  "dfb9c4e20e30a3370e40e34712a1a005":
+    "id": "dfb9c4e20e30a3370e40e34712a1a005"
+    "title": "Introducing the Amazon GuardDuty investigation agent: on-demand AI-powered threat assessment"
+    "link": "https://aws.amazon.com/blogs/security/introducing-the-amazon-guardduty-investigation-agent-on-demand-ai-powered-threat-assessment/"
+    "published": "2026-07-21 06:59:00"
+    "fetched": "2026-07-21 07:55:55"
+    "summary": "The new Amazon GuardDuty investigation agent (now in public preview) investigates security findings across your Amazon Web Services (AWS) environment, reducing investigation time from hours to minutes. GuardDuty is our managed threat detection service that continuously monitors your AWS accounts and workloads for suspicious, potentially malicious activity, and unauthorized behavior, delivering detailed security findings for […]"
+"last_updated": "2026-07-21 07:55:55 JST"
