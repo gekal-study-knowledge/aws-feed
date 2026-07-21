@@ -1,0 +1,9 @@
+"entries":
+  "bd84c14e6ce6a87395a5a36a0c1e0818":
+    "id": "bd84c14e6ce6a87395a5a36a0c1e0818"
+    "title": "Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova"
+    "link": "https://aws.amazon.com/blogs/machine-learning/exploring-self-distilled-reasoning-for-supervised-fine-tuning-with-amazon-nova/"
+    "published": "2026-07-22 01:23:12"
+    "fetched": "2026-07-22 02:13:25"
+    "summary": "In this post, we explore an idea for generating thinking tokens for datasets that lack reasoning traces in SFT customization. We first examine the reasoning suppression problem, then introduce Self-Distilled Reasoning (SDR), validate it across three benchmarks, and provide practical recommendations."
+"last_updated": "2026-07-22 02:13:25 JST"

@@ -1,0 +1,9 @@
+"entries":
+  "d12ed19c8a2c72bb323ecb6c982534c0":
+    "id": "d12ed19c8a2c72bb323ecb6c982534c0"
+    "title": "Do more with AWS WAF labels using dynamic label interpolation"
+    "link": "https://aws.amazon.com/blogs/security/do-more-with-aws-waf-labels-using-dynamic-label-interpolation/"
+    "published": "2026-07-22 02:03:16"
+    "fetched": "2026-07-22 02:13:24"
+    "summary": "AWS WAF classifies web traffic by attaching metadata to each request it evaluates. Managed rule groups such as AWS WAF Bot Control and AWS WAF Fraud Control account takeover prevention (ATP) attach labels that describe what they found. A label can record that a request came from a known bot category or that it matched […]"
+"last_updated": "2026-07-22 02:13:24 JST"
