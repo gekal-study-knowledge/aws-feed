@@ -20,4 +20,11 @@
     "published": "2026-07-21 12:47:42"
     "fetched": "2026-07-21 14:46:14"
     "summary": "2026 年 6 月 25 日、26 日に AWS Summit Japan が開催され、多数のセッションとブ […]"
-"last_updated": "2026-07-21 14:46:14 JST"
+  "2198e4a58589e35b8ae10b16ddfdafbf":
+    "id": "2198e4a58589e35b8ae10b16ddfdafbf"
+    "title": "週刊AWS – 2026/7/13週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260713/"
+    "published": "2026-07-21 18:03:14"
+    "fetched": "2026-07-21 20:03:53"
+    "summary": "Amazon SageMaker HyperPod が Slurm クラスターでカスタム AMI をサポート、Voxtral-Mini-4B-Realtime をリアルタイム音声文字起こし向けに Amazon SageMaker JumpStart で提供開始、OpenAI GPT-5.6 Sol, Terra, Luna が Amazon Bedrock で一般提供開始、AWS Security Hub が組織全体の AI アセットを可視化する AI インベントリの提供を開始、AWS Lambda が self-managed code storage に対応など"
+"last_updated": "2026-07-21 20:03:53 JST"
