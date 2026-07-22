@@ -27,4 +27,11 @@
     "published": "2026-07-22 20:39:13"
     "fetched": "2026-07-22 22:42:27"
     "summary": "「This Month in AWS Observability」最新号へようこそ。今回は、この6月に Amazon CloudWatch&nbsp;と AI 駆動型オペレーション全般で発表された新機能をご紹介します。CloudWatch でネイティブな OpenTelemetry メトリクスと PromQL クエリが一般提供（GA）となり、より深い統計・構造化分析のための 23 個の新しい Logs Insights コマンドがローンチされ、CloudWatch RUM に Session Replay が登場し、&nbsp;AWS DevOps Agent&nbsp;では MCP および Agent-to-Agent プロトコルをサポートするカスタム SRE エージェントがリリースされました。EKS クラスター全体で GPU コストを配賦する場合も、実際のセッション再生でフロントエンドの問題をデバッグする場合も、チームのランブックを自律型 SRE エージェントに組み込む場合も、役立つ情報が見つかるはずです。"
-"last_updated": "2026-07-22 22:42:27 JST"
+  "fcf0d6f988e5b593ca04f3135746e2a0":
+    "id": "fcf0d6f988e5b593ca04f3135746e2a0"
+    "title": "【開催報告】AWS Summit Japan 2026 — 物流異常を Amazon Quick が自動解決：配送在庫の異常検知〜問合せまで一気通貫"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-2026-japan-amazon-quick-automates-logistics-anomaly-resolution-from-detection-to-action/"
+    "published": "2026-07-22 23:23:20"
+    "fetched": "2026-07-23 00:36:39"
+    "summary": "物流の現場では、基幹・受発注・在庫・配送など複数のシステムにデータが分散しています。今回の展示では、Amazon Quick がこれらの課題をどのように解決するかを、実際の業務シナリオに沿ってデモでお見せしました。皆さまの物流現場でも、こんな課題はありませんか？"
+"last_updated": "2026-07-23 00:36:39 JST"
