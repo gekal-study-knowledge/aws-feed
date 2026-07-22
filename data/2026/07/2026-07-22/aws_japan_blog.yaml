@@ -20,4 +20,11 @@
     "published": "2026-07-22 15:39:17"
     "fetched": "2026-07-22 17:21:27"
     "summary": "はじめに 2026年6月25日、26日に幕張メッセで開催された AWS Summit Japan 2026にお […]"
-"last_updated": "2026-07-22 17:21:27 JST"
+  "157e75c56e083ee9a0ab1b8201b81fd8":
+    "id": "157e75c56e083ee9a0ab1b8201b81fd8"
+    "title": "今月の AWS オブザーバビリティ – 2026年6月"
+    "link": "https://aws.amazon.com/jp/blogs/news/this-month-in-aws-observability-june-2026/"
+    "published": "2026-07-22 20:39:13"
+    "fetched": "2026-07-22 22:42:27"
+    "summary": "「This Month in AWS Observability」最新号へようこそ。今回は、この6月に Amazon CloudWatch&nbsp;と AI 駆動型オペレーション全般で発表された新機能をご紹介します。CloudWatch でネイティブな OpenTelemetry メトリクスと PromQL クエリが一般提供（GA）となり、より深い統計・構造化分析のための 23 個の新しい Logs Insights コマンドがローンチされ、CloudWatch RUM に Session Replay が登場し、&nbsp;AWS DevOps Agent&nbsp;では MCP および Agent-to-Agent プロトコルをサポートするカスタム SRE エージェントがリリースされました。EKS クラスター全体で GPU コストを配賦する場合も、実際のセッション再生でフロントエンドの問題をデバッグする場合も、チームのランブックを自律型 SRE エージェントに組み込む場合も、役立つ情報が見つかるはずです。"
+"last_updated": "2026-07-22 22:42:27 JST"

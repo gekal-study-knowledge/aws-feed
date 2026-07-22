@@ -1,0 +1,16 @@
+"entries":
+  "0ea2cff7cb488779030f7c9f5f1797aa":
+    "id": "0ea2cff7cb488779030f7c9f5f1797aa"
+    "title": "Architecting offline-first generative AI applications for edge deployments using AWS services"
+    "link": "https://aws.amazon.com/blogs/architecture/architecting-offline-first-generative-ai-applications-for-edge-deployments-using-aws-services/"
+    "published": "2026-07-22 22:32:57"
+    "fetched": "2026-07-22 22:42:28"
+    "summary": "According to Siemens’ 2024 report The True Cost of Downtime, Fortune 500 companies lose an estimated $1.4 trillion annually because of unplanned downtime. This downtime is often worsened by a lack of skills to detect and resolve issues quickly. Generative AI offers a promising path to address this, but deploying these capabilities in industrial environments […]"
+  "fd773565cc3353227fa10cb4f6e4ef5f":
+    "id": "fd773565cc3353227fa10cb4f6e4ef5f"
+    "title": "Automate custom PII detection at scale with Amazon Macie and Step Functions"
+    "link": "https://aws.amazon.com/blogs/architecture/automate-custom-pii-detection-at-scale-with-amazon-macie-and-step-functions/"
+    "published": "2026-07-22 22:30:26"
+    "fetched": "2026-07-22 22:42:28"
+    "summary": "Organizations in regulated industries like financial services, insurance, healthcare, and government ingest large volumes of data containing personally identifiable information (PII). Your applications, claims processing systems, partner data feeds, and internal workflows produce files that may include names, addresses, Social Security numbers, and domain-specific identifiers such as policy numbers, member IDs, and medical record numbers. […]"
+"last_updated": "2026-07-22 22:42:28 JST"
