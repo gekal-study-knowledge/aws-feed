@@ -1,0 +1,9 @@
+"entries":
+  "a3da3ea018b04e331bb4ef6e3b2cdd85":
+    "id": "a3da3ea018b04e331bb4ef6e3b2cdd85"
+    "title": "Building a serverless AI assistant at Pelago: concept to care in two weeks"
+    "link": "https://aws.amazon.com/blogs/architecture/building-a-serverless-ai-assistant-at-pelago-concept-to-care-in-two-weeks/"
+    "published": "2026-07-23 02:12:27"
+    "fetched": "2026-07-23 04:09:12"
+    "summary": "Healthcare organizations face a critical scaling challenge – how to maintain deeply personalized patient interactions as member bases grow, without overwhelming care teams or compromising quality. At Pelago, a digital health company specializing in substance use disorder support, the engineering team found a way to build an AI-powered solution to address this challenge using AWS […]"
+"last_updated": "2026-07-23 04:09:12 JST"
