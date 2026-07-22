@@ -1,0 +1,9 @@
+"entries":
+  "8d715b5d249862a059ed02a50d51d761":
+    "id": "8d715b5d249862a059ed02a50d51d761"
+    "title": "AI Teammates: how monday.com runs production AI agents on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/"
+    "published": "2026-07-23 00:54:28"
+    "fetched": "2026-07-23 02:12:41"
+    "summary": "AI Teammates are agentic AI on Amazon Bedrock, and few engineering organizations run them in production at the scale that monday.com does. Nine in ten Builders use AI coding tools every month, up from roughly half a year ago. Per-engineer PR throughput is up by more than half. Every figure in this post comes from monday’s own internal production data. In this post, we share the architecture behind those numbers, the retrofits that made it work in a decade-old code base, and the confidence-scored merge play closing the gap to full autonomy."
+"last_updated": "2026-07-23 02:12:41 JST"
