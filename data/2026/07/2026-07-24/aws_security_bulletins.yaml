@@ -13,4 +13,11 @@
     "published": "2026-07-24 03:39:11"
     "fetched": "2026-07-24 04:09:03"
     "summary": "<p><b>Bulletin ID:</b> 2026-064-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/23/2026 11:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Smithy-RS is a Rust code generation and runtime framework that generates HTTP clients and servers from Smithy interface definitions, powering the AWS SDK for Rust and custom service implementations. We identified CVE-2026-16756 where the allocation of resources without limits in the default aws-smithy-http-server serve() path allows unauthenticated \"Slowloris\" denial of service.</p> \n<p><b>Impacted versions:</b> aws-smithy-http-server &lt;= 0.66.4</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
-"last_updated": "2026-07-24 04:09:03 JST"
+  "2cc492631be2646f7037016857fb5867":
+    "id": "2cc492631be2646f7037016857fb5867"
+    "title": "CVE-2026-16796 - Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-065-aws/"
+    "published": "2026-07-24 05:14:18"
+    "fetched": "2026-07-24 05:59:09"
+    "summary": "<p><b>Bulletin ID:</b> 2026-065-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/23/2026 13:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS Bedrock AgentCore Python SDK (bedrock-agentcore) provides tools for building AI agents, including a Code Interpreter client that installs Python packages into a managed sandbox. We identified CVE-2026-16796, an improper neutralization of argument delimiters in the install_packages() method that might allow a remote authenticated user to execute arbitrary commands within the Code Interpreter sandbox via crafted package name arguments.</p> \n<p><b>Impacted versions:</b> bedrock-agentcore version &lt;1.18.1</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-07-24 05:59:09 JST"
