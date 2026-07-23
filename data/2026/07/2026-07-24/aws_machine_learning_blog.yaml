@@ -34,4 +34,11 @@
     "published": "2026-07-24 01:30:20"
     "fetched": "2026-07-24 02:16:32"
     "summary": "This post focuses on why classic retrieval falls short on multi-part questions, how the AgenticRetrieveStream API works (including request construction and trace parsing), and when to choose it over the standard Retrieve API."
-"last_updated": "2026-07-24 02:16:32 JST"
+  "df4bb2796e088c64f37610e993a1b0e7":
+    "id": "df4bb2796e088c64f37610e993a1b0e7"
+    "title": "Best practices for applying Amazon Bedrock Guardrails to code generation workflows"
+    "link": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows/"
+    "published": "2026-07-24 08:03:44"
+    "fetched": "2026-07-24 08:56:28"
+    "summary": "In this post, we explain how Amazon Bedrock Guardrails can be configured for code generation workflows with coding assistants to overcome these constraints. With these best practices, you can build an efficient blueprint helping you with effective capacity planning with robust safety coverage."
+"last_updated": "2026-07-24 08:56:28 JST"
