@@ -27,4 +27,11 @@
     "published": "2026-07-21 01:56:48"
     "fetched": "2026-07-21 02:56:59"
     "summary": "In this post, we describe how Tradeshift deployed Amazon Quick with agentic AI capabilities to replace our legacy BI tool, resulting in query response times up to 30 times faster, a 40 percent reduction in total cost of ownership, and turned embedded analytics into a product that generates revenue."
-"last_updated": "2026-07-21 02:56:59 JST"
+  "b52537e75e59e1d0fcbb9bd4c9d565cf":
+    "id": "b52537e75e59e1d0fcbb9bd4c9d565cf"
+    "title": "Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Relay"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-specialized-agent-workflows-for-your-business-with-amazon-quick-and-nvidia-nemo-agent-toolkit/"
+    "published": "2026-07-21 02:01:32"
+    "fetched": "2026-07-23 13:11:53"
+    "summary": "In this post, we show how Amazon Quick can serve as the business-user front door for specialized agent workflows. We use the NVIDIA NeMo Relay to build a supply-chain risk example that helps a planner move from an Amazon Quick dashboard and knowledge context to a guided mitigation recommendation."
+"last_updated": "2026-07-23 13:11:53 JST"
