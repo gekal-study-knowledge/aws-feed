@@ -1,0 +1,16 @@
+"entries":
+  "f3be0e364294af0340fae7a9c2bab24c":
+    "id": "f3be0e364294af0340fae7a9c2bab24c"
+    "title": "Kiro で GPT-5.6 が利用可能になりました"
+    "link": "https://aws.amazon.com/jp/blogs/news/gpt-5-6/"
+    "published": "2026-07-25 08:01:12"
+    "fetched": "2026-07-25 08:59:28"
+    "summary": "Kiro で初めて OpenAI のモデルが利用可能になりました。あわせてこのローンチは Kiro の 1 周年でもあります。2025 年 7 月 14 日のパブリックプレビュー以降、Kiro は仕様駆動の IDE から IDE / CLI / Web にまたがるエージェンティック開発プラットフォームへ成長してきました。本日（2026 年 7 月 14 日）より GPT-5.6 の Sol / Terra / Luna が Kiro の IDE / CLI / Web が利用可能になりました。性能とコストのカーブ上でそれぞれ異なるポイントにチューニングされた 3 段構成です。"
+  "2260b0460feb88d695cc750f044fd12a":
+    "id": "2260b0460feb88d695cc750f044fd12a"
+    "title": "Claude Opus 5 が Kiro で利用可能になりました"
+    "link": "https://aws.amazon.com/jp/blogs/news/opus-5/"
+    "published": "2026-07-25 07:41:56"
+    "fetched": "2026-07-25 08:59:28"
+    "summary": "Kiro の IDE / CLI / Web すべてで Claude Opus 5 が本日から利用可能になりました。Opus 4.8 からの意味のある進化として、時間のかかる作業に強くなり、並列エージェントの協調が改善され、長いセッションにおけるコストとレイテンシをより細かく扱える新しいコントロールが備わっています。"
+"last_updated": "2026-07-25 08:59:28 JST"
