@@ -13,4 +13,11 @@
     "published": "2026-07-24 12:58:11"
     "fetched": "2026-07-24 14:46:37"
     "summary": "2026 年 6 月 25 日(木)、26 日(金)の 2 日間にわたって幕張メッセで開催された AWS Summit Japan 2026 では、AWS Expo の Industry Zone に「AWS for Telecom」として通信業界に関する展示ブースを出展しました。"
-"last_updated": "2026-07-24 14:46:37 JST"
+  "fc680f171416935e3c63b688752bf19a":
+    "id": "fc680f171416935e3c63b688752bf19a"
+    "title": "ISA/IEC 62443を踏まえたAWSでのOTとクラウドの接続設計"
+    "link": "https://aws.amazon.com/jp/blogs/news/isaiec62443/"
+    "published": "2026-07-24 16:21:25"
+    "fetched": "2026-07-24 17:20:33"
+    "summary": "本記事では、製造業のお客様が OT をクラウドに接続する際に特に重要となるISA/IEC 62443 の様々な概念を、AWS サービスを使ってどのように実現するのかをご紹介します。お客様は、AWS サービスを活用した製造現場向けのクラウドアーキテクチャを構成することで、ISA/IEC 62443 に沿ったクラウド側のセキュリティ対策を実装できます。"
+"last_updated": "2026-07-24 17:20:33 JST"
