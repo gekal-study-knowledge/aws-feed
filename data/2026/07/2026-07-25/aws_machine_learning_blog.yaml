@@ -13,4 +13,11 @@
     "published": "2026-07-25 00:40:08"
     "fetched": "2026-07-25 01:32:25"
     "summary": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock. Learn how to select a model, run inference through the Responses API on the bedrock-mantle endpoint, reduce cost with prompt caching, connect the OpenAI Codex coding agent, and plan for quotas and scaling."
-"last_updated": "2026-07-25 01:32:25 JST"
+  "d6ba3ccf261ecf57e048d68a84864ded":
+    "id": "d6ba3ccf261ecf57e048d68a84864ded"
+    "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/"
+    "published": "2026-07-25 02:59:03"
+    "fetched": "2026-07-25 03:15:33"
+    "summary": "This post covers Opus 5’s improvements and practical guidance for AI engineers integrating the model into agentic systems and production inference workloads on Amazon Bedrock. See the documentation for Claude Platform on AWS."
+"last_updated": "2026-07-25 03:15:33 JST"
