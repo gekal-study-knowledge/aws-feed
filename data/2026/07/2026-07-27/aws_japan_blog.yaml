@@ -1,0 +1,16 @@
+"entries":
+  "a42929982df734734a1e5ac36e2feb3c":
+    "id": "a42929982df734734a1e5ac36e2feb3c"
+    "title": "AWS Summit Japan 2026：完全自律型 AI Agent が変える SaaS の世界"
+    "link": "https://aws.amazon.com/jp/blogs/news/multitenant-ai-agent-saas-architecture-aws-summit-japan-2026/"
+    "published": "2026-07-27 11:59:49"
+    "fetched": "2026-07-27 12:35:15"
+    "summary": "AWS Summit Japan 2026 のブース展示にて、Amazon Bedrock AgentCore を活用したマルチテナント AI CRM のデモを展示しました。AI Agent の台頭により SaaS に求められる要素が変わりつつある中、SaaS に AI Agent を組み込むことで顧客体験をどう変えられるか、その設計上の 4 つのポイントを動くデモを通じて具体的に示しています。"
+  "7061e1a03683474cc017d32003f976a6":
+    "id": "7061e1a03683474cc017d32003f976a6"
+    "title": "寄稿：弁護士ドットコムにおける AWS DevOps Agent の活用事例 – インシデント対応の自動化と属人化の解消"
+    "link": "https://aws.amazon.com/jp/blogs/news/bengo4com-devops-agent-case-study/"
+    "published": "2026-07-27 10:55:01"
+    "fetched": "2026-07-27 12:35:15"
+    "summary": "弁護士ドットコム株式会社は、『「プロフェッショナル・テック」で、次の常識をつくる。』というミッションのもと、国内最大級の法律相談ポータルサイト「弁護士ドットコム」や契約マネジメントプラットフォーム「クラウドサイン」などを運営しています。また、最近ではリーガル特化型 AI エージェント「Legal Brain エージェント」を開発し、AI を活用したリーガルサービスの進化にも取り組んでいます。PRE 部は、これらのサービスを支えるインフラの信頼性と運用効率の向上を担っています。本記事では、AWS DevOps Agent を用いたインシデント対応の自動化と運用組織のあり方の見直しを進めている事例を紹介します。"
+"last_updated": "2026-07-27 12:35:15 JST"
