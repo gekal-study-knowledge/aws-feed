@@ -27,4 +27,11 @@
     "published": "2026-07-27 12:53:57"
     "fetched": "2026-07-27 16:25:09"
     "summary": "AWS Security Hub の 2 つの大きな拡張を発表します。マルチクラウドセキュリティ管理の対象を Microsoft Azure に拡大し、Azure の検出結果を AWS と統合して優先順位付けできるようになりました。さらに GuardDuty AI Protection による Amazon Bedrock や SageMaker の脅威検出、GuardDuty AI-powered investigations による調査の自動化、Security Hub AI inventory による AI 資産の可視化など、AI ワークロード保護の新機能も紹介します。"
-"last_updated": "2026-07-27 16:25:09 JST"
+  "03e5bf58781fe64665b459b7fdb1c812":
+    "id": "03e5bf58781fe64665b459b7fdb1c812"
+    "title": "週刊生成AI with AWS – 2026年7月20日週"
+    "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260720/"
+    "published": "2026-07-27 17:24:33"
+    "fetched": "2026-07-27 20:15:28"
+    "summary": "週刊生成AI with AWS, 事例と Summit 開催報告が揃った 2026 年 7 月 20 日号 - 弁護士ドットコム株式会社様の AWS DevOps Agent 活用事例と、株式会社NTTドコモ様・KDDI株式会社様・ソフトバンク株式会社様の展示レポートを紹介。また、9 社合同 AI-DLC Unicorn Gym や Claude・Kiro 実践ワークショップなどのブログ記事も。サービスアップデートでは Claude Opus 5 の AWS 提供開始や Amazon CloudWatch のコーディングエージェントインサイトをはじめとする 12 件を紹介。"
+"last_updated": "2026-07-27 20:15:28 JST"
