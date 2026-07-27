@@ -1,0 +1,23 @@
+"entries":
+  "69372327cb64ea16f3e547507999d6d4":
+    "id": "69372327cb64ea16f3e547507999d6d4"
+    "title": "Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/beyond-rag-task-aware-knowledge-compression-for-enterprise-ai-on-aws/"
+    "published": "2026-07-28 01:11:32"
+    "fetched": "2026-07-28 01:54:45"
+    "summary": "Traditional RAG hits a ceiling on analytical tasks that span hundreds of documents. This post shows how to use task-aware knowledge compression (TAKC) on AWS to pre-compress entire knowledge bases into task-specific representations, cache them at multiple fidelity tiers, and route each query to the right tier, with an open-source implementation you can deploy."
+  "9a3f2108b0eb4084a037e489a4885c6d":
+    "id": "9a3f2108b0eb4084a037e489a4885c6d"
+    "title": "Deepgram enhances Amazon SageMaker AI support with AWS IAM Temporary Delegation"
+    "link": "https://aws.amazon.com/blogs/machine-learning/deepgram-enhances-amazon-sagemaker-ai-support-with-aws-iam-temporary-delegation/"
+    "published": "2026-07-28 01:07:44"
+    "fetched": "2026-07-28 01:54:45"
+    "summary": "In this post, we cover why Deepgram built on IAM temporary delegation, how the integration works end-to-end, and what it unlocks for customers running Deepgram speech models on SageMaker AI. With this integration, Deepgram has reduced the time for initial investigation on a SageMaker AI support ticket from days to minutes."
+  "6b3c02b293f6e3d121ccaa3a41c3d189":
+    "id": "6b3c02b293f6e3d121ccaa3a41c3d189"
+    "title": "How Guardoc transforms medical document processing with Amazon Nova models"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-guardoc-transforms-medical-document-processing-with-amazon-nova-models/"
+    "published": "2026-07-28 01:05:00"
+    "fetched": "2026-07-28 01:54:45"
+    "summary": "In this post, we explore how Guardoc Health uses the Amazon Nova family of models, available through Amazon Bedrock, to transform clinical documentation in long-term care."
+"last_updated": "2026-07-28 01:54:45 JST"
