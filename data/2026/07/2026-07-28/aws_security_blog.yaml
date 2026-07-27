@@ -6,4 +6,11 @@
     "published": "2026-07-28 01:15:44"
     "fetched": "2026-07-28 01:54:44"
     "summary": "AWS Security Assurance Services is announcing the release of the Cloud Security Alliance (CSA) Compliance Guide on Amazon Web Service (AWS), a new resource that maps the 17 control domains and 207 control objectives of the Cloud Controls Matrix v4.1 (CCM) to AWS services and recommended implementation practices. The guide is intended to help organizations […]"
-"last_updated": "2026-07-28 01:54:44 JST"
+  "3de73d7b2f901a13335d5835cb1d855e":
+    "id": "3de73d7b2f901a13335d5835cb1d855e"
+    "title": "AWS Shield Advanced is embracing the AWS WAF Anti-DDoS managed rule group: What changes and how to prepare"
+    "link": "https://aws.amazon.com/blogs/security/aws-shield-advanced-is-embracing-the-aws-waf-anti-ddos-managed-rule-group-what-changes-and-how-to-prepare/"
+    "published": "2026-07-28 04:01:23"
+    "fetched": "2026-07-28 05:19:21"
+    "summary": "Application-layer distributed denial of service (DDoS) attacks are difficult to detect because they closely resemble legitimate traffic. HTTP request floods are now among the most common vectors targeting web applications, using valid-looking requests that blend in with normal user activity. In June 2025, AWS launched the AWS WAF Anti-DDoS managed rule group, built specifically for […]"
+"last_updated": "2026-07-28 05:19:21 JST"
