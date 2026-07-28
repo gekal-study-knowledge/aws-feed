@@ -1,0 +1,30 @@
+"entries":
+  "5cde7a1f0d167295451db096f9970d53":
+    "id": "5cde7a1f0d167295451db096f9970d53"
+    "title": "EngineLab AI: スタジオとクリエイターのための AWS 上のプロダクション環境対応 AI"
+    "link": "https://aws.amazon.com/jp/blogs/news/jp-mne-enginelab-ai-production-ready-ai-for-studios-and-creators-on-aws-2/"
+    "published": "2026-07-28 15:07:43"
+    "fetched": "2026-07-28 15:22:51"
+    "summary": "スタジオは難しいジレンマに直面しています。AI ツールは制作ワークフローの効率化を約束する一方で、導入にあたってはセキュリティ、知的財産 (IP) の保護、制作の安定性に関する現実的な懸念と向き合わなければなりません。本記事では、このトレードオフを解消するソリューションを紹介します。AI コンテンツ生成向けのオープンソースなノードベースインターフェースである ComfyUI などの AI ツールを活用することで、[…]"
+  "0437e1e6b179a89c3936dfcb1a5c9915":
+    "id": "0437e1e6b179a89c3936dfcb1a5c9915"
+    "title": "Outpost VFX が ビジュアルエフェクト向けに AI モデルのトレーニングを AWS で加速した方法"
+    "link": "https://aws.amazon.com/jp/blogs/news/jp-mne-how-outpost-vfx-uses-aws-to-accelerate-ai-model-training-for-visual-effects-2/"
+    "published": "2026-07-28 14:59:01"
+    "fetched": "2026-07-28 15:22:51"
+    "summary": "本記事では、Outpost VFX が AWS インフラを活用してトレーニング速度を 8 倍に向上させ、顔置換ワークフローを刷新した方法、単一 GPU の限界を克服するために実装した技術アーキテクチャ、そして AWS マルチ GPU トレーニングで得られた具体的な成果について紹介します。"
+  "f65a6f42a61bf3ca53a9abfcce9073cd":
+    "id": "f65a6f42a61bf3ca53a9abfcce9073cd"
+    "title": "全従業員の行動変容を目指すAstemo が自己破壊を経て見つけたAI駆動開発の実効性"
+    "link": "https://aws.amazon.com/jp/blogs/news/astemo-ai-dlc/"
+    "published": "2026-07-28 14:15:00"
+    "fetched": "2026-07-28 15:22:51"
+    "summary": "2026年6月10日〜12日、AWS Japan オフィスにて「AI-DLC UnicornGym」を開催しま […]"
+  "150ebe6b2f64f48fba47d6462ab68660":
+    "id": "150ebe6b2f64f48fba47d6462ab68660"
+    "title": "【開催報告】AWS Summit Japan 2026 物流業界向けブース展示「スマートグラス×生成AIエージェントで倉庫業務を革新」"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-2026-japan-logistics-booth-and-sessions/"
+    "published": "2026-07-28 13:29:19"
+    "fetched": "2026-07-28 15:22:51"
+    "summary": "こんにちは、ソリューションアーキテクトの田邊です。2026 年 6 月 25 日から 26 日にかけて幕張メッ […]"
+"last_updated": "2026-07-28 15:22:51 JST"
