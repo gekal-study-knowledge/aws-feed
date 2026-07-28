@@ -1,0 +1,16 @@
+"entries":
+  "bb9027e0aca0c24922e56d1dc511a1f5":
+    "id": "bb9027e0aca0c24922e56d1dc511a1f5"
+    "title": "AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-console-home-cost-and-usage-eu-sovereign-cloud"
+    "published": "2026-07-29 01:00:00"
+    "fetched": "2026-07-29 03:10:32"
+    "summary": "<p>AWS Console Home now supports the Cost and Usage widget in the AWS European Sovereign Cloud (Germany) Region, allowing customers to surface insights from Cost Explorer and Cost Optimization Hub on their Console Home dashboard.</p> \n<p>With the Cost and Usage widget, customers can track month-to-date and forecasted costs, identify savings opportunities, and see how their spend breaks down by service over time.</p> \n<p>To get started, sign in to the <a href=\"https://console.amazonaws-eusc.eu/\">AWS Management Console</a>, select Add widgets, and drag the Cost and Usage widget onto your Console Home dashboard. To learn more, see <a href=\"https://docs.aws.eu/awsconsolehelpdocs/latest/gsg/work-with-widgets.html\">Working with widgets in AWS Console Home documentation</a>.</p>"
+  "c12e4222e95530da4ea6f393ba999b58":
+    "id": "c12e4222e95530da4ea6f393ba999b58"
+    "title": "Second-generation AWS Outposts racks now supported in the AWS Asia Pacific (Mumbai) Region"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/aws-outposts-asia-pacific-mumbai/"
+    "published": "2026-07-29 01:00:00"
+    "fetched": "2026-07-29 03:10:32"
+    "summary": "<p>Second-generation AWS Outposts racks are now supported in the Asia Pacific (Mumbai) Region. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid experience.<br /> <br /> Organizations from startups to enterprises and the public sector in and outside of India can now order their Outposts racks connected to this new supported region, optimizing for their latency and data residency needs. Outposts allows customers to run workloads that need low latency access to on-premises systems locally while connecting back to their home Region for application management. Customers can also use Outposts and AWS services to manage and process data that needs to remain on-premises to meet data residency requirements. This regional expansion provides additional flexibility in the AWS Regions that customers’ Outposts can connect to.<br /> <br /> To learn more about second-generation Outposts racks, read <a href=\"https://aws.amazon.com/blogs/aws/announcing-second-generation-aws-outposts-racks-with-breakthrough-performance-and-scalability-on-premises/\"><u>this blog post</u></a> and <a href=\"https://docs.aws.amazon.com/outposts/latest/network-userguide/what-is-outposts.html\"><u>user guide</u></a>. For the most updated list of countries and territories and the AWS Regions where second-generation Outposts racks are supported, check out the <a href=\"https://aws.amazon.com/outposts/rack/faqs/\"><u>Outposts rack FAQs page</u></a>.</p>"
+"last_updated": "2026-07-29 03:10:32 JST"

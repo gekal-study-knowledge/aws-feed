@@ -1,0 +1,9 @@
+"entries":
+  "6de52d0e6dd32acb90805c8855b9d602":
+    "id": "6de52d0e6dd32acb90805c8855b9d602"
+    "title": "Market surveillance agent with LangGraph and Strands on AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/market-surveillance-agent-with-langgraph-and-strands-on-agentcore/"
+    "published": "2026-07-29 02:24:54"
+    "fetched": "2026-07-29 03:10:34"
+    "summary": "Learn how to architect and deploy a production-ready multi-agent AI system using LangGraph for workflow orchestration and Strands for agent reasoning on Amazon Bedrock AgentCore. This post walks through a market surveillance example with state-driven orchestration, checkpoint-based recovery, and AgentCore memory and observability."
+"last_updated": "2026-07-29 03:10:34 JST"
