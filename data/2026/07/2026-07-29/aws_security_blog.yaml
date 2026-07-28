@@ -6,4 +6,11 @@
     "published": "2026-07-29 02:16:34"
     "fetched": "2026-07-29 03:10:33"
     "summary": "Amazon Web Services (AWS) is excited to announce that the latest version of Information Security Registered Assessors Program (IRAP) report (Phase 1a – full assessment) is now available through AWS Artifact. An independent Australian Signals Directorate (ASD) certified IRAP assessor completed the IRAP assessment of AWS in June 2026. The new IRAP report includes four […]"
-"last_updated": "2026-07-29 03:10:33 JST"
+  "30d7cbf845c6332847cb738ad3eadea1":
+    "id": "30d7cbf845c6332847cb738ad3eadea1"
+    "title": "AWS KMS or AWS CloudHSM: Choose the right key management solution"
+    "link": "https://aws.amazon.com/blogs/security/aws-kms-or-aws-cloudhsm-choose-the-right-key-management-solution/"
+    "published": "2026-07-29 03:55:43"
+    "fetched": "2026-07-29 05:13:19"
+    "summary": "Choosing the right cryptographic key management service on Amazon Web Services (AWS) starts with understanding the difference between AWS Key Management Service (AWS KMS) and AWS CloudHSM. Both provide key storage backed by a hardware security module (HSM) but serve very different needs. AWS KMS is a fully managed service that integrates with all AWS […]"
+"last_updated": "2026-07-29 05:13:19 JST"

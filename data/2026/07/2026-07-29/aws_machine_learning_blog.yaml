@@ -6,4 +6,11 @@
     "published": "2026-07-29 02:24:54"
     "fetched": "2026-07-29 03:10:34"
     "summary": "Learn how to architect and deploy a production-ready multi-agent AI system using LangGraph for workflow orchestration and Strands for agent reasoning on Amazon Bedrock AgentCore. This post walks through a market surveillance example with state-driven orchestration, checkpoint-based recovery, and AgentCore memory and observability."
-"last_updated": "2026-07-29 03:10:34 JST"
+  "0b1a60323e62cdd87d12f447490ea570":
+    "id": "0b1a60323e62cdd87d12f447490ea570"
+    "title": "How AgentCore Gateway supports the MCP 2026-07-28 spec"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/"
+    "published": "2026-07-29 04:07:09"
+    "fetched": "2026-07-29 05:13:20"
+    "summary": "The Model Context Protocol (MCP) published its 2026-07-28 specification, the largest revision since launch: MCP is now stateless, with a governed extensions system and hardened authorization. Learn what changed and how to enable the new version on Amazon Bedrock AgentCore Gateway with a single UpdateGateway call."
+"last_updated": "2026-07-29 05:13:20 JST"
