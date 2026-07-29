@@ -1,0 +1,9 @@
+"entries":
+  "9b4a0f601bd35c528de04fc6b688240f":
+    "id": "9b4a0f601bd35c528de04fc6b688240f"
+    "title": "Amazon identifies North Korean hacker group behind open-source supply chain attacks"
+    "link": "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/"
+    "published": "2026-07-30 06:00:12"
+    "fetched": "2026-07-30 06:56:34"
+    "summary": "Amazon is sharing new findings about how a threat actor linked to the Democratic People’s Republic of Korea (DPRK) is targeting open source software libraries, the shared building blocks that companies around the world use to develop applications. Amazon Threat Intelligence has linked several recent compromises of popular Node Package Manager (NPM) libraries to the […]"
+"last_updated": "2026-07-30 06:56:34 JST"
