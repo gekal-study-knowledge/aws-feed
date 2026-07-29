@@ -13,4 +13,11 @@
     "published": "2026-07-29 03:55:43"
     "fetched": "2026-07-29 05:13:19"
     "summary": "Choosing the right cryptographic key management service on Amazon Web Services (AWS) starts with understanding the difference between AWS Key Management Service (AWS KMS) and AWS CloudHSM. Both provide key storage backed by a hardware security module (HSM) but serve very different needs. AWS KMS is a fully managed service that integrates with all AWS […]"
-"last_updated": "2026-07-29 05:13:19 JST"
+  "79a3102f9ca8048d0d20fe120cfb18c0":
+    "id": "79a3102f9ca8048d0d20fe120cfb18c0"
+    "title": "Secure your npm and pip package updates in Amazon Linux"
+    "link": "https://aws.amazon.com/blogs/security/secure-your-npm-and-pip-package-updates-in-amazon-linux/"
+    "published": "2026-07-29 23:53:39"
+    "fetched": "2026-07-30 01:17:49"
+    "summary": "If you use and install packages from npm or PyPI, the first hours after a package is published are the riskiest because scanners can’t analyze packages before publication. Recent supply chain events affecting NodeJS and Python packages have been detected and removed within hours. However, while those packages were available to the general public, it’s […]"
+"last_updated": "2026-07-30 01:17:49 JST"

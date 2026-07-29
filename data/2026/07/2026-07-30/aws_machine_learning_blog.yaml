@@ -1,0 +1,16 @@
+"entries":
+  "c340a8c352fc0f0c1e3f762841ac5bc6":
+    "id": "c340a8c352fc0f0c1e3f762841ac5bc6"
+    "title": "Generate Autonomous Business Insights with AI Agent and MCP Servers"
+    "link": "https://aws.amazon.com/blogs/machine-learning/generate-autonomous-business-insights-with-ai-agent-and-mcp-servers/"
+    "published": "2026-07-30 00:34:18"
+    "fetched": "2026-07-30 01:17:50"
+    "summary": "Learn how Amazon Bedrock AgentCore delivers autonomous, cross-system business intelligence through configuration rather than custom code. Using pre-built MCP server connectors, fine-grained access control, and persistent memory, enterprises can query multiple data sources with natural language while enforcing role-based boundaries automatically."
+  "b3ffd8b9214529aef32fc005d335db72":
+    "id": "b3ffd8b9214529aef32fc005d335db72"
+    "title": "Automating customer retention workflows in Amazon Quick"
+    "link": "https://aws.amazon.com/blogs/machine-learning/automating-customer-retention-workflows-in-amazon-quick/"
+    "published": "2026-07-30 00:24:21"
+    "fetched": "2026-07-30 01:17:50"
+    "summary": "Learn how to build a no-code customer retention pipeline in Amazon Quick that detects at-risk customers from call transcripts and CSAT data, scores them by retention priority with a custom MCP Action, and generates personalized retention letters, reducing response time from days to minutes."
+"last_updated": "2026-07-30 01:17:50 JST"
