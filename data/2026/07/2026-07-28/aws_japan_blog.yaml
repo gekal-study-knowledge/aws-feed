@@ -27,4 +27,11 @@
     "published": "2026-07-28 13:29:19"
     "fetched": "2026-07-28 15:22:51"
     "summary": "こんにちは、ソリューションアーキテクトの田邊です。2026 年 6 月 25 日から 26 日にかけて幕張メッ […]"
-"last_updated": "2026-07-28 15:22:51 JST"
+  "b69b6014c57e5cfb4981b937134c7f7e":
+    "id": "b69b6014c57e5cfb4981b937134c7f7e"
+    "title": "Outpost VFX が ビジュアルエフェクト向けに AI モデルのトレーニングを AWS で加速した方法"
+    "link": "https://aws.amazon.com/jp/blogs/news/jp-mne-how-outpost-vfx-uses-aws-to-accelerate-ai-model-training-for-visual-effects/"
+    "published": "2026-07-28 14:59:01"
+    "fetched": "2026-07-29 17:33:09"
+    "summary": "本記事では、Outpost VFX が AWS インフラを活用してトレーニング速度を 8 倍に向上させ、顔置換ワークフローを刷新した方法、単一 GPU の限界を克服するために実装した技術アーキテクチャ、そして AWS マルチ GPU トレーニングで得られた具体的な成果について紹介します。"
+"last_updated": "2026-07-29 17:33:09 JST"
