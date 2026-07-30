@@ -1,0 +1,9 @@
+"entries":
+  "2e5808c105e8da818f935911968051bf":
+    "id": "2e5808c105e8da818f935911968051bf"
+    "title": "週刊AWS – 2026/7/27週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260727/"
+    "published": "2026-07-31 01:13:57"
+    "fetched": "2026-07-31 02:21:51"
+    "summary": "NFS キャッシュソリューション KNFSD File Cache の Preview 提供開始、Amazon CloudWatch が AI コーディングエージェントの利用状況を可視化する Coding Agent Insights を発表、AWS CloudTrail でネットワークアクティビティイベントを ID 別に選択的にログ記録可能に、Amazon RDS for SQL Server が Microsoft SQL Server 2025 に対応、Amazon ECS がデプロイ中の操作を可視化する Action Logs を提供開始、Amazon SES が 3 段階の料金プランを導入、Amazon EKS の EKS Auto Mode と Karpenter で EFA と Placement Group をサポート、Network Load Balancer が送信元 IP アドレスタイプに基づくリスナールールに対応、Amazon CloudWatch Logs が Application Load Balancer ログに対応、AI エージェント向けオープンソースベンチマーク aws-bench をリサーチプレビューで公開、AWS で Claude Opus 5 が利用可能に等"
+"last_updated": "2026-07-31 02:21:51 JST"
