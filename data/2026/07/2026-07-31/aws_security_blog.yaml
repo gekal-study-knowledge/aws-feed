@@ -6,4 +6,11 @@
     "published": "2026-07-31 02:22:54"
     "fetched": "2026-07-31 04:19:07"
     "summary": "Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]"
-"last_updated": "2026-07-31 04:19:07 JST"
+  "c7aa999b281f7e86abe9bb0820746e9e":
+    "id": "c7aa999b281f7e86abe9bb0820746e9e"
+    "title": "Balancing speed and safety: A control framework for AI coding agents"
+    "link": "https://aws.amazon.com/blogs/security/balancing-speed-and-safety-a-control-framework-for-ai-coding-agents/"
+    "published": "2026-07-31 06:49:15"
+    "fetched": "2026-07-31 08:01:24"
+    "summary": "AI coding agents are part of the developer toolchain. Tools like Kiro and Claude Code generate features, tests, and code refactors from natural-language prompts. A single agent can open dozens of pull requests (PRs) across your repositories in an afternoon. That productivity comes with a trade-off: agents optimize for task completion at machine speed with […]"
+"last_updated": "2026-07-31 08:01:24 JST"
