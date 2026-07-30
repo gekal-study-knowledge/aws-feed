@@ -27,4 +27,11 @@
     "published": "2026-07-31 00:58:32"
     "fetched": "2026-07-31 02:21:52"
     "summary": "Amazon Bedrock Advanced Prompt Optimization optimizes your prompts for up to 5 models at once and compares original versus optimized performance across quality, latency, and cost. Migrate to a new model or improve your current one in minutes instead of weeks."
-"last_updated": "2026-07-31 02:21:52 JST"
+  "9b3fb365bdfd692f08c4ebc8fc099655":
+    "id": "9b3fb365bdfd692f08c4ebc8fc099655"
+    "title": "Deploying Kimi K3 on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/deploying-kimi-k3-on-aws/"
+    "published": "2026-07-31 02:22:32"
+    "fetched": "2026-07-31 04:19:08"
+    "summary": "This post walks through deploying Kimi K3 on AWS using two approaches: Amazon SageMaker HyperPod, and&nbsp; Amazon Elastic Kubernetes Service (Amazon EKS) cluster."
+"last_updated": "2026-07-31 04:19:08 JST"

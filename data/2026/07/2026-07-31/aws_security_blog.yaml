@@ -1,0 +1,9 @@
+"entries":
+  "9d3975ac9bf15a33a4f9b0a6d5afc1e1":
+    "id": "9d3975ac9bf15a33a4f9b0a6d5afc1e1"
+    "title": "Extend Amazon Inspector SBOM Generator with Plugins"
+    "link": "https://aws.amazon.com/blogs/security/extend-amazon-inspector-sbom-generator-with-plugins/"
+    "published": "2026-07-31 02:22:54"
+    "fetched": "2026-07-31 04:19:07"
+    "summary": "Amazon Inspector is an automated vulnerability management service that continually scans Amazon Web Services (AWS) workloads for software vulnerabilities. The vulnerability management capabilities of Amazon Inspector are powered by an asset inventory engine known as the Amazon Inspector SBOM Generator (inspector-sbomgen), a standalone command-line tool that produces a software bill of materials (SBOM) from container […]"
+"last_updated": "2026-07-31 04:19:07 JST"
