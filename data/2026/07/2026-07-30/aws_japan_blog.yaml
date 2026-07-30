@@ -1,0 +1,30 @@
+"entries":
+  "85124e2916dc82b67a4d51da9ec31cce":
+    "id": "85124e2916dc82b67a4d51da9ec31cce"
+    "title": "AWS Nitro Isolation Engine: AWS Nitro System におけるハイパーバイザーの形式的検証"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-nitro-isolation-engine-formally-verifying-the-hypervisor-in-the-aws-nitro-system/"
+    "published": "2026-07-30 09:52:58"
+    "fetched": "2026-07-30 12:53:22"
+    "summary": "AWS Nitro System のハイパーバイザー内で分離を実施する専用コンポーネント「AWS Nitro Isolation Engine」の一般提供を Graviton5 ベースのインスタンスで開始しました。形式的検証により、機密性と完全性、機能的正確性、ランタイムエラーの不在、メモリ安全性という 4 つの特性を数学的に証明し、形式的に検証された初のクラウドハイパーバイザーを実現します。Rust による実装や今後の展望も紹介します。"
+  "e10e4bfe301b29f234762fb6355235cc":
+    "id": "e10e4bfe301b29f234762fb6355235cc"
+    "title": "形式的検証済みの Nitro Isolation Engine が Amazon EC2 の仮想マシン分離を数学的に保証"
+    "link": "https://aws.amazon.com/jp/blogs/news/ec2s-formally-verified-isolation-engine-provides-mathematical-assurance-of-virtual-machine-isolation/"
+    "published": "2026-07-30 09:46:18"
+    "fetched": "2026-07-30 12:53:22"
+    "summary": "Amazon EC2 の新しい M9g/M9gd インスタンスとともに一般提供が始まった Nitro Isolation Engine は、商用クラウド環境にデプロイされた初の形式的検証済みハイパーバイザーの重要なコンポーネントで、その唯一の役割は仮想マシン (VM) を相互に分離することです。本記事では、Isabelle/HOL 定理証明支援系を用い、機械的に検証された 330,000 行の数学的記述によって VM 間の分離を証明した手法を解説します。μRust と分離論理による機能検証、非干渉性に基づく機密性と完全性の証明を紹介します。"
+  "4cfe7d65f383c1fe19619568fbaeaf24":
+    "id": "4cfe7d65f383c1fe19619568fbaeaf24"
+    "title": "Isabelle/HOL: Nitro Isolation Engine を支える定理証明支援系"
+    "link": "https://aws.amazon.com/jp/blogs/news/isabelle-hol-the-proof-assistant-behind-the-nitro-isolation-engine/"
+    "published": "2026-07-30 09:38:50"
+    "fetched": "2026-07-30 12:53:22"
+    "summary": "Amazon Web Services (AWS) は、定理証明支援系 Isabelle/HOL を用いて Nitro Isolation Engine (NIE) の正当性とセキュリティ保証を検証し、世界初の形式的に検証されたクラウドハイパーバイザーを実現しました。本記事では、ブール論理から一階述語論理、高階論理、依存型理論に至る数理論理の言語階層を解説し、Isabelle/HOL が備える数学的な記述の表現力、自動化、スケーラビリティのバランスや、sledgehammer やロケールなどの主要機能、seL4 や CRDT などの応用事例を紹介します。"
+  "43276c470d45bdb5d08e482401255efc":
+    "id": "43276c470d45bdb5d08e482401255efc"
+    "title": "寄稿：三菱UFJフィナンシャル・グループの DX を牽引する Japan Digital Design、Aurora DSQL の採用で DB コストを約 87% 削減し、運用負荷ほぼゼロを実現"
+    "link": "https://aws.amazon.com/jp/blogs/news/db-customercase-japan-digital-design-dsql/"
+    "published": "2026-07-30 09:30:20"
+    "fetched": "2026-07-30 12:53:22"
+    "summary": "本稿は、Japan Digital Design 株式会社 佐藤様による「三菱UFJフィナンシャル・グループの […]"
+"last_updated": "2026-07-30 12:53:22 JST"
