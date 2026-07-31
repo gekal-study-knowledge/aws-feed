@@ -1,0 +1,16 @@
+"entries":
+  "8cb59cc1170a6615b23066e864f6050b":
+    "id": "8cb59cc1170a6615b23066e864f6050b"
+    "title": "Incomplete fix for CVE-2025-4318 code injection in Amazon &commat;aws-amplify/codegen-ui-react"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-066-aws/"
+    "published": "2026-08-01 02:20:33"
+    "fetched": "2026-08-01 03:16:23"
+    "summary": "<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "fa6f243c2c9c9d24e1f9525a4f8a7ab7":
+    "id": "fa6f243c2c9c9d24e1f9525a4f8a7ab7"
+    "title": "CVE-2026-18140 - Uncontrolled recursion in the aws-smithy-json unknown-key skip path allows unauthenticated remote denial of service in smithy-rs generated servers"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-067-aws/"
+    "published": "2026-08-01 01:27:39"
+    "fetched": "2026-08-01 03:16:23"
+    "summary": "<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-08-01 03:16:23 JST"
