@@ -1,0 +1,9 @@
+"entries":
+  "26da04629b8e69513101cc370c3e162a":
+    "id": "26da04629b8e69513101cc370c3e162a"
+    "title": "Optimizing production agents with Amazon Bedrock AgentCore Observability"
+    "link": "https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/"
+    "published": "2026-08-01 00:33:11"
+    "fetched": "2026-08-01 01:00:41"
+    "summary": "As your AI agents move from prototype to production, the challenge shifts from getting them to work to keeping them fast and efficient. Learn how to use Amazon Bedrock AgentCore Observability and Amazon CloudWatch to find performance bottlenecks and diagnose memory issues in long-running agent sessions."
+"last_updated": "2026-08-01 01:00:41 JST"
