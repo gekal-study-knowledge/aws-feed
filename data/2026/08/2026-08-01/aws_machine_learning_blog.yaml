@@ -6,4 +6,11 @@
     "published": "2026-08-01 00:33:11"
     "fetched": "2026-08-01 01:00:41"
     "summary": "As your AI agents move from prototype to production, the challenge shifts from getting them to work to keeping them fast and efficient. Learn how to use Amazon Bedrock AgentCore Observability and Amazon CloudWatch to find performance bottlenecks and diagnose memory issues in long-running agent sessions."
-"last_updated": "2026-08-01 01:00:41 JST"
+  "3d79c5bc180f69bc09ca7de1242234a3":
+    "id": "3d79c5bc180f69bc09ca7de1242234a3"
+    "title": "Announcing the Agentic Catalog Experience in Amazon Quick"
+    "link": "https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/"
+    "published": "2026-08-01 04:53:04"
+    "fetched": "2026-08-01 05:16:30"
+    "summary": "Amazon Quick introduces the Agentic Catalog Experience, an AI-powered workflow for data curators to discover upstream catalog assets in natural language and auto-create Datasets and Topics with inherited semantics. Now in preview for AWS Glue Data Catalog and Databricks Unity Catalog."
+"last_updated": "2026-08-01 05:16:30 JST"

@@ -1,0 +1,9 @@
+"entries":
+  "cc6497f92f084a9d1de7bacc7e6e173d":
+    "id": "cc6497f92f084a9d1de7bacc7e6e173d"
+    "title": "HIPAA Security Rule on AWS – Technical Safeguards Implementation and Readiness Guidance"
+    "link": "https://aws.amazon.com/blogs/security/hipaa-security-rule-on-aws-technical-safeguards-implementation-and-readiness-guidance/"
+    "published": "2026-08-01 04:44:25"
+    "fetched": "2026-08-01 05:16:29"
+    "summary": "Today, we’re releasing the HIPAA Security Rule on AWS: Technical Safeguards Implementation and Readiness Guidance. This helps covered entities and business associates configure, implement, and evidence compliance with the HIPAA Security Rule Technical Safeguard requirements (45 CFR §164.312) when building healthcare workloads on AWS. The HIPAA Security Rule’s Technical Safeguards (§164.312) define five standards and […]"
+"last_updated": "2026-08-01 05:16:29 JST"
