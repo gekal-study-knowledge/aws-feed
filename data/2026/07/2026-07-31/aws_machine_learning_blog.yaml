@@ -34,4 +34,11 @@
     "published": "2026-07-31 02:22:32"
     "fetched": "2026-07-31 04:19:08"
     "summary": "This post walks through deploying Kimi K3 on AWS using two approaches: Amazon SageMaker HyperPod, and&nbsp; Amazon Elastic Kubernetes Service (Amazon EKS) cluster."
-"last_updated": "2026-07-31 04:19:08 JST"
+  "f0d5c1f1592b41539eb00cf107da52bb":
+    "id": "f0d5c1f1592b41539eb00cf107da52bb"
+    "title": "Deploying Kimi K3 on Amazon SageMaker HyperPod and Amazon EKS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/deploying-kimi-k3-on-amazon-sagemaker-hyperpod-and-amazon-eks/"
+    "published": "2026-07-31 02:22:32"
+    "fetched": "2026-08-01 07:00:22"
+    "summary": "This post walks through deploying Kimi K3 on AWS using two approaches: Amazon SageMaker HyperPod, and&nbsp; Amazon Elastic Kubernetes Service (Amazon EKS) cluster."
+"last_updated": "2026-08-01 07:00:22 JST"
