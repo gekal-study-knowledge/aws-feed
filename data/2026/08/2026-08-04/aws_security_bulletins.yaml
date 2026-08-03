@@ -1,0 +1,16 @@
+"entries":
+  "bb239a6f2a87e0ba297979e8299159c5":
+    "id": "bb239a6f2a87e0ba297979e8299159c5"
+    "title": "CVE-2026-18655 - Broker Credential and OAuth Token Disclosure in AWS Labs Amazon MQ MCP Server via Prompt Injection"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-070-aws/"
+    "published": "2026-08-04 04:09:43"
+    "fetched": "2026-08-04 05:23:51"
+    "summary": "<p><b>Bulletin ID:</b> 2026-070-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/03/2026 12:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS Amazon MQ MCP Server (awslabs.amazon-mq-mcp-server) is a Model Context Protocol server that enables AI assistants to interact with Amazon MQ message brokers.</p> \n<p>We identified CVE-2026-18655, an improper restriction of intended endpoints in the RabbitMQ broker connection tools of the Amazon MQ MCP Server (awslabs.amazon-mq-mcp-server) before 2.0.24 that may allow a remote unauthenticated actor to obtain Amazon MQ for RabbitMQ broker credentials or OAuth access tokens sent to a crafted endpoint controlled through a broker hostname introduced in the MCP client context.</p> \n<p><b>Impacted versions:</b> &lt;= 2.0.23</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "a7decbf8916bd367436316d20a9accb6":
+    "id": "a7decbf8916bd367436316d20a9accb6"
+    "title": "CVE-2026-18654 - Disabled SSH host key verification in AWS CLI EMR helper commands"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-071-aws/"
+    "published": "2026-08-04 04:43:55"
+    "fetched": "2026-08-04 05:23:51"
+    "summary": "<p><b>Bulletin ID:</b> 2026-071-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/03/2026 12:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS Command Line Interface (AWS CLI) is a unified tool to manage AWS services from the command line. We identified CVE-2026-18654, an issue where the EMR SSH helper commands (aws emr ssh, aws emr socks, aws emr put, aws emr get) disabled SSH host key verification, which might allow man-in-the-middle actors to intercept SSH sessions and file transfers via network positioning between the client and the EMR cluster endpoint.</p> \n<p><b>Impacted versions:</b> <br /> - AWS CLI v1 &lt;= 1.45.27<br /> - AWS CLI v2 &lt;= 2.35.2</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-08-04 05:23:51 JST"
