@@ -1,0 +1,9 @@
+"entries":
+  "cf9eaf46e303b51437176283a404c925":
+    "id": "cf9eaf46e303b51437176283a404c925"
+    "title": "Amazon ECR now supports image layers up to 200 GB"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-image-layers/"
+    "published": "2026-08-04 00:00:00"
+    "fetched": "2026-08-04 01:19:46"
+    "summary": "<p>Amazon Elastic Container Registry (Amazon ECR) has increased the maximum image layer size limit to 200 GB, for images pushed via Docker push.</p> \n<p>Previously, packaging assets required splitting data across multiple layers or offloading to external storage systems. With this update, customers can store up to 200 GB in a single image layer, eliminating extra complexity for use cases like embedding large language models, bundling genomics datasets, or packaging large binary dependencies directly into your container images. Images pushed using the AWS SDK or CLI; (UploadLayerPartAPI) remain limited to 50 GB.</p> \n<p>This feature is available in all AWS Regions and partitions where Amazon ECR is available except the Middle East (Bahrain) and Middle East (UAE) Regions. To learn more, visit the <a href=\"https://aws.amazon.com/ecr/\">Amazon ECR product page</a> and refer to the <a href=\"https://docs.aws.amazon.com/AmazonECR/latest/userguide/\">Amazon ECR User Guide</a>. For pricing information, see the <a href=\"https://aws.amazon.com/ecr/pricing/\">Amazon ECR pricing page</a>.</p>"
+"last_updated": "2026-08-04 01:19:46 JST"
