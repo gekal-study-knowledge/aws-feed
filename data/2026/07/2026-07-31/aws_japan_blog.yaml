@@ -13,4 +13,11 @@
     "published": "2026-07-31 14:11:54"
     "fetched": "2026-07-31 15:08:07"
     "summary": "メインフレーム基幹系システムの AWS 移行を真剣にご検討中のお客様向けの対面イベントを 2026/09/17(木) に麻布台ヒルズで開催します。参加費は無料です。詳細・お申し込みはブログをご覧ください。"
-"last_updated": "2026-07-31 15:08:07 JST"
+  "971b27a448bf8b79cd1acbefa5a93425":
+    "id": "971b27a448bf8b79cd1acbefa5a93425"
+    "title": "週刊AWS – 2026/7/20週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260720/"
+    "published": "2026-07-31 01:13:57"
+    "fetched": "2026-08-03 15:17:50"
+    "summary": "NFS キャッシュソリューション KNFSD File Cache の Preview 提供開始、Amazon CloudWatch が AI コーディングエージェントの利用状況を可視化する Coding Agent Insights を発表、AWS CloudTrail でネットワークアクティビティイベントを ID 別に選択的にログ記録可能に、Amazon RDS for SQL Server が Microsoft SQL Server 2025 に対応、Amazon ECS がデプロイ中の操作を可視化する Action Logs を提供開始、Amazon SES が 3 段階の料金プランを導入、Amazon EKS の EKS Auto Mode と Karpenter で EFA と Placement Group をサポート、Network Load Balancer が送信元 IP アドレスタイプに基づくリスナールールに対応、Amazon CloudWatch Logs が Application Load Balancer ログに対応、AI エージェント向けオープンソースベンチマーク aws-bench をリサーチプレビューで公開、AWS で Claude Opus 5 が利用可能に等"
+"last_updated": "2026-08-03 15:17:50 JST"
