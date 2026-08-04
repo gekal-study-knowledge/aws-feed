@@ -1,0 +1,9 @@
+"entries":
+  "811cd71a7fb2dfa0273970e9b65fda82":
+    "id": "811cd71a7fb2dfa0273970e9b65fda82"
+    "title": "CVE-2026-18830 - Issue with Amazon Bedrock AgentCore harness – Insufficient Input Validation"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-073-aws/"
+    "published": "2026-08-05 02:45:00"
+    "fetched": "2026-08-05 04:25:50"
+    "summary": "<p><b>Bulletin ID:</b> 2026-073-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/04/2026 10:00 AM PDT</p> \n<p><b>Description:</b></p> \n<p>We have identified CVE-2026-18830 in the Amazon Bedrock AgentCore harness InvokeHarness API. This issue could allow an authenticated user to execute configured tools while bypassing model invocation and associated security controls. When the most recent message in an InvokeHarness request contained a tool-use content block, the agent event loop could dispatch the named tool directly, without model mediation.</p> \n<p>Please note that potential impact was limited to the tools configured on a given harness. A harness with no configured tools could not execute any tool, and a harness with a restricted tool set was limited to that set.</p> \n<p><b>Impacted versions:</b></p> \n<p>Amazon Bedrock AgentCore harness InvokeHarness API prior to July 31, 2026.</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-08-05 04:25:50 JST"
