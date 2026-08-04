@@ -1,0 +1,9 @@
+"entries":
+  "39ffd3ddd20cecf5d9991399eac17d8b":
+    "id": "39ffd3ddd20cecf5d9991399eac17d8b"
+    "title": "Spring 2026 PCI DSS and PCI 3DS compliance packages for AWS now available"
+    "link": "https://aws.amazon.com/blogs/security/spring-2026-pci-dss-and-pci-3ds-compliance-packages-for-aws-now-available/"
+    "published": "2026-08-05 02:22:28"
+    "fetched": "2026-08-05 02:42:37"
+    "summary": "Amazon Web Services (AWS) is pleased to announce the successful completion of our Payment Card Industry (PCI) Data Security Standard (DSS) and Three Domain Secure (3DS) certifications. As part of this renewal, we have expanded the scope to include three additional AWS services and one additional AWS Region: Newly added AWS services: Amazon Bedrock AgentCore […]"
+"last_updated": "2026-08-05 02:42:37 JST"

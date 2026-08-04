@@ -1,0 +1,9 @@
+"entries":
+  "4b261cc601b1e70548317a59d2815b46":
+    "id": "4b261cc601b1e70548317a59d2815b46"
+    "title": "Automated web insight extraction with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/automated-web-insight-extraction-with-amazon-bedrock-agentcore/"
+    "published": "2026-08-05 01:02:21"
+    "fetched": "2026-08-05 02:42:38"
+    "summary": "Extracting insights from dozens of websites by hand quickly becomes overwhelming. This post shows how to build an automated web insight extraction solution with Amazon Bedrock AgentCore Browser, Amazon Bedrock, Amazon OpenSearch Serverless, and AWS Lambda that monitors RSS feeds, renders pages reliably, and makes AI-extracted insights searchable."
+"last_updated": "2026-08-05 02:42:38 JST"
