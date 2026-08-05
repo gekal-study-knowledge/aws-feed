@@ -1,0 +1,23 @@
+"entries":
+  "6809fcfd7b5447f471289dc44bf65dd5":
+    "id": "6809fcfd7b5447f471289dc44bf65dd5"
+    "title": "How Mobileye transformed support operations using Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore/"
+    "published": "2026-08-06 03:09:03"
+    "fetched": "2026-08-06 03:17:35"
+    "summary": "In this post, we'll explore how Mobileye deployed an AI support agentic solution on Amazon Bedrock AgentCore - from the support bottleneck that sparked the idea, through the proof of concept that validated it, to the hybrid architecture that bridges on-premises systems with AWS cloud services. This approach is relevant for enterprises struggling to scale AI Agents while maintaining enterprise grade governance and security standards."
+  "91e25ad75182fbaa7924a510fc15342d":
+    "id": "91e25ad75182fbaa7924a510fc15342d"
+    "title": "How we built an MCP bridge to give our AgentCore-hosted AI agent access to local MCP tools"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-we-built-an-mcp-bridge-to-give-our-agentcore-hosted-ai-agent-access-to-local-mcp-tools/"
+    "published": "2026-08-06 03:02:23"
+    "fetched": "2026-08-06 03:17:35"
+    "summary": "AI agents on Amazon Bedrock AgentCore run in the cloud, but users' tools and files live on their laptops. Learn how to build a secure MCP bridge that lets a cloud-hosted agent call local MCP servers by tunneling signed messages over the existing WebSocket connection through a browser extension and Chrome native messaging, with no open ports or VPN required."
+  "9540f0863df39ed959765c38d8a1e7c7":
+    "id": "9540f0863df39ed959765c38d8a1e7c7"
+    "title": "Run production AI agents in n8n with Amazon Bedrock AgentCore harness"
+    "link": "https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/"
+    "published": "2026-08-06 03:00:57"
+    "fetched": "2026-08-06 03:17:35"
+    "summary": "Amazon Bedrock AgentCore harness is now generally available. Learn how to add it as an agent step in n8n workflows using a new open-source community node, and build agents with persistent memory, real tools, code execution, and VPC isolation — all from the n8n editor with no infrastructure or agent code."
+"last_updated": "2026-08-06 03:17:35 JST"
