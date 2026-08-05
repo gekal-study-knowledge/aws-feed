@@ -1,0 +1,9 @@
+"entries":
+  "390a0eef7bb64ea34a832428d01a8288":
+    "id": "390a0eef7bb64ea34a832428d01a8288"
+    "title": "AWS 認定の上位・下位関係を理解して効率的に認定を更新しましょう"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-certification-hierarchy-recertification-guide/"
+    "published": "2026-08-05 09:06:12"
+    "fetched": "2026-08-05 09:09:24"
+    "summary": "AWS 認定には Professional → Associate → Foundational の上位・下位関係があり、上位の認定を取得または更新すると、取得済みの下位認定も自動的に更新されます。複数の認定を保持している方は、この関係を活用して効率的に再認定を進めることができます。本記事では具体的な上位・下位の紐づきを図で整理し、効率的な再認定の方法と注意点を解説します。"
+"last_updated": "2026-08-05 09:09:24 JST"
