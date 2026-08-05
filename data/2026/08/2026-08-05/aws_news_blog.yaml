@@ -1,0 +1,9 @@
+"entries":
+  "fc217c526af801ab9ed28030a62bf75a":
+    "id": "fc217c526af801ab9ed28030a62bf75a"
+    "title": "Amazon DynamoDB now supports real-time vector search at any scale"
+    "link": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/"
+    "published": "2026-08-05 23:45:10"
+    "fetched": "2026-08-06 01:28:43"
+    "summary": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management."
+"last_updated": "2026-08-06 01:28:43 JST"
