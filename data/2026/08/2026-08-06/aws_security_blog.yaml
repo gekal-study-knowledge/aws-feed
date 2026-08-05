@@ -6,4 +6,11 @@
     "published": "2026-08-06 02:17:47"
     "fetched": "2026-08-06 03:17:33"
     "summary": "Imagine preparing for your biggest sales event of the year, and you want to ensure your customer identity management service can handle the elevated traffic for carrying out application activities. For security teams, business leaders, and technologists managing identity infrastructure at scale, this scenario has been all too familiar. Whether you’re a CISO evaluating security […]"
-"last_updated": "2026-08-06 03:17:33 JST"
+  "59fdd10394af447c1de8bcee4570d41b":
+    "id": "59fdd10394af447c1de8bcee4570d41b"
+    "title": "AWS partners with Anthropic and OpenAI to bring AWS Continuum into developer workflows"
+    "link": "https://aws.amazon.com/blogs/security/aws-partners-with-anthropic-and-openai-to-bring-aws-continuum-into-developer-workflows/"
+    "published": "2026-08-06 06:00:11"
+    "fetched": "2026-08-06 07:08:27"
+    "summary": "Customers have access to models that are continuously getting better with each new generation bringing larger context windows, stronger reasoning, and lower token costs. Getting the strongest AI-powered security will come from tools that combine the most relevant models with deep knowledge of a customer’s specific environment. AWS Continuum for code vulnerabilities (Preview) is built […]"
+"last_updated": "2026-08-06 07:08:27 JST"

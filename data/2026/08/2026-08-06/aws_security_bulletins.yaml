@@ -1,0 +1,9 @@
+"entries":
+  "74614d56e0d5ac905273cfe772420153":
+    "id": "74614d56e0d5ac905273cfe772420153"
+    "title": "CVE-2026-18953 - Improper limitation of a pathname in AWS Transform MCP Server"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-075-aws/"
+    "published": "2026-08-06 05:46:20"
+    "fetched": "2026-08-06 07:08:27"
+    "summary": "<p><b>Bulletin ID:</b> 2026-075-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/05/2026 12:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS Transform MCP Server (awslabs.aws-transform-mcp-server) is an open-source Model Context Protocol (MCP) server that runs locally on a developer's machine and lets AI-powered assistants interact with AWS Transform to run code-transformation jobs and retrieve their artifacts. We identified CVE-2026-18953. Improper limitation of a pathname to a restricted directory in the get_resource tool in awslabs.aws-transform-mcp-server before 0.1.5 might allow a context-dependent actor to write arbitrary files outside the intended working directory via the savePath parameter, which could lead to local code execution.</p> \n<p><b>Impacted versions:</b> &gt;=0.1.0 AND &lt;=0.1.4</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-08-06 07:08:27 JST"
