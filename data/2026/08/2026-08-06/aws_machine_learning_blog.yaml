@@ -20,4 +20,11 @@
     "published": "2026-08-06 03:00:57"
     "fetched": "2026-08-06 03:17:35"
     "summary": "Amazon Bedrock AgentCore harness is now generally available. Learn how to add it as an agent step in n8n workflows using a new open-source community node, and build agents with persistent memory, real tools, code execution, and VPC isolation — all from the n8n editor with no infrastructure or agent code."
-"last_updated": "2026-08-06 03:17:35 JST"
+  "4937af1167ff93554bf49c24eedab7b4":
+    "id": "4937af1167ff93554bf49c24eedab7b4"
+    "title": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/"
+    "published": "2026-08-06 03:50:02"
+    "fetched": "2026-08-06 05:22:53"
+    "summary": "Learn how LendingTree built a production multi-agent mortgage assistant on Amazon Bedrock. Three coordinated agents use LangGraph, the Model Context Protocol, and Amazon Nova models with built-in guardrails to deliver 24/7 personalized mortgage guidance while meeting strict financial-services compliance."
+"last_updated": "2026-08-06 05:22:53 JST"
