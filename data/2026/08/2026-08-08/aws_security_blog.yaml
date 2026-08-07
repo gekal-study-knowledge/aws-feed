@@ -6,4 +6,11 @@
     "published": "2026-08-08 01:46:40"
     "fetched": "2026-08-08 01:50:07"
     "summary": "Misconfigured Amazon Simple Storage Service (Amazon S3) buckets can expose your data to unauthorized access. Without proactive review, S3 bucket policies or Access Control Lists (ACLs) configured with broad access may go unnoticed in your environment. In this post, you learn how to identify and fix over-permissioned S3 buckets across your AWS environment, along with […]"
-"last_updated": "2026-08-08 01:50:07 JST"
+  "f0cf4e95bb891d201753257042df278f":
+    "id": "f0cf4e95bb891d201753257042df278f"
+    "title": "A decade of enterprise identity in the cloud with AWS Managed Microsoft AD"
+    "link": "https://aws.amazon.com/blogs/security/a-decade-of-enterprise-identity-in-the-cloud-with-aws-managed-microsoft-ad/"
+    "published": "2026-08-08 04:37:57"
+    "fetched": "2026-08-08 04:49:29"
+    "summary": "Ten years ago, we launched AWS Directory Service for Microsoft Active Directory, a fully managed Microsoft Active Directory in the AWS Cloud. In that original announcement, Jeff Barr described a straightforward promise: “You will spend less time administering and more time working on your applications and your business.” A decade later, AWS Managed Microsoft AD […]"
+"last_updated": "2026-08-08 04:49:29 JST"
