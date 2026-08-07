@@ -1,0 +1,23 @@
+"entries":
+  "01bb77b57fd4d8405f7288783426ff9e":
+    "id": "01bb77b57fd4d8405f7288783426ff9e"
+    "title": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/"
+    "published": "2026-08-08 01:26:58"
+    "fetched": "2026-08-08 01:50:08"
+    "summary": "In this post, you learn how Cohere Health built a multi-tenant agentic architecture on AgentCore using AgentCore Runtime’s secure MicroVM isolation, unified tool access through AgentCore Gateway, AgentCore Memory, and the Agent Skills open standard to rapidly scale policy digitization capabilities, while preserving transparency, version control, and human oversight."
+  "c2e4456a6b117b1417a2bffd558f549f":
+    "id": "c2e4456a6b117b1417a2bffd558f549f"
+    "title": "How TReNDS automates root-cause analysis with Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/"
+    "published": "2026-08-08 01:22:50"
+    "fetched": "2026-08-08 01:50:08"
+    "summary": "TReNDS, a research center at Georgia State University, built an agentic AI pipeline on Amazon Bedrock and the open-source Strands Agents SDK that automatically investigates production errors in real time, reducing root-cause analysis from 15 to 30 minutes of manual work to under 60 seconds."
+  "82e0a2c708a39d118674fb011cba8aac":
+    "id": "82e0a2c708a39d118674fb011cba8aac"
+    "title": "Determining playoff clinching scenarios in the NHL using constraint programming"
+    "link": "https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming/"
+    "published": "2026-08-08 01:21:00"
+    "fetched": "2026-08-08 01:50:08"
+    "summary": "The AWS Generative AI Innovation Center built an automated system that uses constraint programming and custom tree search to determine, with mathematical certainty, when and how an NHL team clinches a playoff spot. The approach was validated against four full NHL seasons of officially published results."
+"last_updated": "2026-08-08 01:50:08 JST"

@@ -1,0 +1,9 @@
+"entries":
+  "0f63c2a0a24e4e761e1cc285b1df55b7":
+    "id": "0f63c2a0a24e4e761e1cc285b1df55b7"
+    "title": "Securing your Amazon S3 buckets: Identifying and remediating over-permissioned access"
+    "link": "https://aws.amazon.com/blogs/security/securing-your-amazon-s3-buckets-identifying-and-remediating-over-permissioned-access/"
+    "published": "2026-08-08 01:46:40"
+    "fetched": "2026-08-08 01:50:07"
+    "summary": "Misconfigured Amazon Simple Storage Service (Amazon S3) buckets can expose your data to unauthorized access. Without proactive review, S3 bucket policies or Access Control Lists (ACLs) configured with broad access may go unnoticed in your environment. In this post, you learn how to identify and fix over-permissioned S3 buckets across your AWS environment, along with […]"
+"last_updated": "2026-08-08 01:50:07 JST"
