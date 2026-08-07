@@ -13,4 +13,11 @@
     "published": "2026-08-07 12:53:57"
     "fetched": "2026-08-07 14:36:50"
     "summary": "統合されたアーキテクチャの「幅広さ」こそが、AI エージェントの能力を左右する ── その理由。 はじめに エ […]"
-"last_updated": "2026-08-07 14:36:50 JST"
+  "24f4b3f637be99d6db23f04a67e36a1e":
+    "id": "24f4b3f637be99d6db23f04a67e36a1e"
+    "title": "Amazon DynamoDB が、あらゆる規模でリアルタイムのベクトル検索をサポートするようになりました"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/"
+    "published": "2026-08-07 17:22:59"
+    "fetched": "2026-08-07 17:54:09"
+    "summary": "2026 年 8 月 5 日、 Amazon DynamoDB でのベクトル検索の一般提供についてお知らせしま […]"
+"last_updated": "2026-08-07 17:54:09 JST"
