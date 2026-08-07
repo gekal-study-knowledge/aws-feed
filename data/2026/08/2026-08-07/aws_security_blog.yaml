@@ -1,0 +1,23 @@
+"entries":
+  "8d2c7be4d8f57521ab0b1775942165fa":
+    "id": "8d2c7be4d8f57521ab0b1775942165fa"
+    "title": "Automate certificates with ACME support in AWS Certificate Manager"
+    "link": "https://aws.amazon.com/blogs/security/automate-certificates-with-acme-support-in-aws-certificate-manager/"
+    "published": "2026-08-07 07:03:36"
+    "fetched": "2026-08-07 09:38:46"
+    "summary": "Customers tell us that managing TLS certificates at scale is one of their biggest operational concerns. The Certification Authority Browser Forum (CA/Browser Forum) has mandated a phased reduction in maximum certificate validity for public certificates. By March 2027, the maximum validity drops to 100 days. By March 2029, it lasts for 47 days. For an […]"
+  "88f1e6868c0dd4abe98620ce3b275157":
+    "id": "88f1e6868c0dd4abe98620ce3b275157"
+    "title": "Route Amazon Bedrock Guardrails interventions to Amazon Security Lake"
+    "link": "https://aws.amazon.com/blogs/security/route-amazon-bedrock-guardrails-interventions-to-amazon-security-lake/"
+    "published": "2026-08-07 04:00:15"
+    "fetched": "2026-08-07 09:38:46"
+    "summary": "Security teams investigating AI-related incidents need guardrail intervention data alongside their existing security telemetry. Routing Amazon Bedrock Guardrails violations to Amazon Security Lake makes this possible. With this integration, you can query guardrail events alongside identity, network, and application security data in a single layer. When a guardrail blocks a prompt injection attempt or redacts […]"
+  "6ca6161caa6e58e174576855c0fec43c":
+    "id": "6ca6161caa6e58e174576855c0fec43c"
+    "title": "Caching KMS data keys in multi-thread environments: Per-tenant encryption for event-driven systems at scale"
+    "link": "https://aws.amazon.com/blogs/security/caching-kms-data-keys-in-multi-thread-environments-per-tenant-encryption-for-event-driven-systems-at-scale/"
+    "published": "2026-08-07 01:16:06"
+    "fetched": "2026-08-07 09:38:46"
+    "summary": "This post assumes familiarity with envelope encryption and the AWS Encryption SDK. When your encryption system generates millions of duplicate API calls per hour, costs spiral and performance degrades. That’s exactly the challenge NICE Actimize faced while operating their global-scale, event-driven financial crime detection platform on Amazon Web Services (AWS). NICE Actimize, a leading provider […]"
+"last_updated": "2026-08-07 09:38:46 JST"

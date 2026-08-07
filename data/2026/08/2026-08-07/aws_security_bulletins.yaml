@@ -1,0 +1,9 @@
+"entries":
+  "d1845b0488bcfefc95b8d30511714ad7":
+    "id": "d1845b0488bcfefc95b8d30511714ad7"
+    "title": "CVE-2026-19111 - Insecure direct object reference in Strands Agents Tools memory tools"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-077-aws/"
+    "published": "2026-08-07 03:08:44"
+    "fetched": "2026-08-07 09:38:46"
+    "summary": "<p><b>Bulletin ID:</b> 2026-077-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/06/2026 11:00 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Strands Agents is an open-source SDK for building AI agents. The strands-agents-tools package provides pre-built tools for use with the SDK, including the mongodb_memory, elasticsearch_memory, and mem0_memory tools for storing and retrieving agent memories.</p> \n<p>We identified CVE-2026-19111, an insecure direct object reference (IDOR) issue in the mongodb_memory, elasticsearch_memory, and mem0_memory tools. Each tool uses a namespace field as the sole tenant-isolation key, and that namespace was exposed as a parameter the large language model (LLM) could control through the tool schema. A crafted prompt could cause a tool to emit a call with a forged namespace, allowing a remote authenticated user to read, modify, or delete memories belonging to other tenants, or to inject false memories into another tenant's namespace. The standalone mongodb_memory and elasticsearch_memory functions additionally exposed connection parameters, which could allow the memory layer to be redirected to an actor-specified cluster.</p> \n<p><b>Impacted versions:</b> &lt; 0.8.3</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-08-07 09:38:46 JST"
