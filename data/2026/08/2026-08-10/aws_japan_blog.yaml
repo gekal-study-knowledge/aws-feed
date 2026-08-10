@@ -27,4 +27,11 @@
     "published": "2026-08-10 16:58:43"
     "fetched": "2026-08-10 18:14:38"
     "summary": "本記事では、AWS DevOps Agent の修正計画の出力を、AWS CodeBuild 上でヘッドレスモードで動作する Kiro CLI と統合して、修正のループをエンドツーエンドで完結させる方法を紹介します。AWS DevOps Agent が修正分析を完了すると、イベント駆動型のパイプラインが調査結果を自動的に Kiro CLI へルーティングします。Kiro CLI はコードベースに修正を適用し、人によるレビュー用の pull request を作成し、承認後にデプロイをトリガーします。結果として、L1/L2 インシデントは検知からデプロイ済みの修正まで、最小限の人手介入で完了します。唯一人が介在するのは pull request の承認だけです。"
-"last_updated": "2026-08-10 18:14:38 JST"
+  "f0c118b090d308d66661bd6d4088013d":
+    "id": "f0c118b090d308d66661bd6d4088013d"
+    "title": "AWS が Agent Plugins をサポート: ポータブルなエージェント拡張のためのオープン標準"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-supports-agent-plugins-an-open-standard-for-portable-agent-extensions/"
+    "published": "2026-08-10 21:31:46"
+    "fetched": "2026-08-10 21:58:00"
+    "summary": "AWS は Cursor、Microsoft、OpenAI、Vercel とともに Agent Plugins Technical Steering Committee の設立メンバーとして参画します。Agent Plugins 1.0.0 は AI エージェント拡張のためのオープンかつベンダーニュートラルなパッケージ仕様で、Agent Skills と MCP サーバーを 1 度パッケージ化すれば、Kiro、VS Code、Cursor など仕様に対応した任意のクライアントに配布できます。AWS Agent Toolkit と Kiro Powers がローンチと同時にサポートを開始します。"
+"last_updated": "2026-08-10 21:58:00 JST"
