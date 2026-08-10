@@ -1,0 +1,9 @@
+"entries":
+  "69807238cf73b08a2489de12a815b52d":
+    "id": "69807238cf73b08a2489de12a815b52d"
+    "title": "AWS が Anthropic および OpenAI と協業し、AWS Continuum を開発者ワークフローに統合します"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-partners-with-anthropic-and-openai-to-bring-aws-continuum-into-developer-workflows/"
+    "published": "2026-08-11 04:47:06"
+    "fetched": "2026-08-11 04:52:22"
+    "summary": "AWS は Anthropic および OpenAI との協業を発表しました。AWS Continuum for code vulnerabilities (プレビュー) が Claude Code、Codex、Kiroの開発者ワークフローに直接統合され、開発者は既存のワークフローの中で脆弱性の発見、コンテキストに基づく優先順位付け、検証、修復を行えるようになります。"
+"last_updated": "2026-08-11 04:52:22 JST"
