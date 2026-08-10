@@ -1,0 +1,23 @@
+"entries":
+  "f22c14fab4f024032c4c453850597a68":
+    "id": "f22c14fab4f024032c4c453850597a68"
+    "title": "週刊AWS – 2026/8/3週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260803/"
+    "published": "2026-08-10 16:19:45"
+    "fetched": "2026-08-10 16:23:41"
+    "summary": "Amazon DynamoDB がリアルタイムベクトル検索をサポート、OpenAI GPT-5.6 Sol/Terra/Luna が Amazon Bedrock で 100 万トークンコンテキストウィンドウに対応、Amazon Bedrock が OpenAI GPT モデル向け Web Search を提供開始、Amazon Aurora serverless がバースト性ワークロード向けにスケーリングを高速化、AWS Lambda が VPC 外の関数向けに最大 3,000 Mbps のネットワーク帯域幅を発表、Amazon Bedrock AgentCore の runtime instances が一般提供開始など"
+  "7cf59ea37b6950afbe1360220d455162":
+    "id": "7cf59ea37b6950afbe1360220d455162"
+    "title": "Kiro powers は Agent Plugins のサポートを開始します"
+    "link": "https://aws.amazon.com/jp/blogs/news/powers-supports-plugins/"
+    "published": "2026-08-10 15:59:55"
+    "fetched": "2026-08-10 16:23:41"
+    "summary": "2026 年 8 月 7 日、Kiro powers は、エージェント拡張をパッケージ化するためのオープンかつベンダーニュートラルな仕様である Agent Plugins 1.0.0 のサポートを順次展開します。AWS は、Cursor、Microsoft、OpenAI、Vercel と並ぶ Agent Plugins Technical Steering Committee の設立メンバーです。実際のところ、これは、この標準に準拠して公開されたプラグインが、Kiro で power としてインストールできることを意味します。"
+  "27103ef50fbcc4f705306c58a9596091":
+    "id": "27103ef50fbcc4f705306c58a9596091"
+    "title": "週刊生成AI with AWS – 2026/8/3 週"
+    "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260803/"
+    "published": "2026-08-10 14:40:41"
+    "fetched": "2026-08-10 16:23:41"
+    "summary": "今週の週刊生成 AI with AWS の注目の記事はAmazon Bedrock AgentCore のランタイムインスタンスの一般提供開始です。東京リージョンを含む各リージョンで、最大 14 日間続くエージェントセッションを自分の Amazon EC2 インスタンス上で実行できるようになりました。Amazon Bedrock では OpenAI GPT モデル向けの Web Search が一般提供され、GPT-5.6 Sol、Terra、Luna が 100 万トークンのコンテキストウィンドウに対応しています。Kiro 関連では、IDE・CLI・Web で別々に開発されていたエージェントハーネスの統合、エージェントワークスペース Kiro Crew のオープンソース公開、powers の Agent Plugins 1.0.0 対応が続きました。国内の話題では、金融庁・日本銀行のフロンティア AI に関する要請への対応整理や、大阪開催の Claude・Kiro 実践ワークショップの開催報告も掲載しています。"
+"last_updated": "2026-08-10 16:23:41 JST"
