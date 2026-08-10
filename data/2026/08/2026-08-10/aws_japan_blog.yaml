@@ -20,4 +20,11 @@
     "published": "2026-08-10 14:40:41"
     "fetched": "2026-08-10 16:23:41"
     "summary": "今週の週刊生成 AI with AWS の注目の記事はAmazon Bedrock AgentCore のランタイムインスタンスの一般提供開始です。東京リージョンを含む各リージョンで、最大 14 日間続くエージェントセッションを自分の Amazon EC2 インスタンス上で実行できるようになりました。Amazon Bedrock では OpenAI GPT モデル向けの Web Search が一般提供され、GPT-5.6 Sol、Terra、Luna が 100 万トークンのコンテキストウィンドウに対応しています。Kiro 関連では、IDE・CLI・Web で別々に開発されていたエージェントハーネスの統合、エージェントワークスペース Kiro Crew のオープンソース公開、powers の Agent Plugins 1.0.0 対応が続きました。国内の話題では、金融庁・日本銀行のフロンティア AI に関する要請への対応整理や、大阪開催の Claude・Kiro 実践ワークショップの開催報告も掲載しています。"
-"last_updated": "2026-08-10 16:23:41 JST"
+  "f5d5e5a8b1db47d1dce4a8bf65902493":
+    "id": "f5d5e5a8b1db47d1dce4a8bf65902493"
+    "title": "AWS DevOps Agent と Kiro CLI によるインシデント修正の自動化"
+    "link": "https://aws.amazon.com/jp/blogs/news/automated-incident-remediation-with-aws-devops-agent-and-kiro-cli/"
+    "published": "2026-08-10 16:58:43"
+    "fetched": "2026-08-10 18:14:38"
+    "summary": "本記事では、AWS DevOps Agent の修正計画の出力を、AWS CodeBuild 上でヘッドレスモードで動作する Kiro CLI と統合して、修正のループをエンドツーエンドで完結させる方法を紹介します。AWS DevOps Agent が修正分析を完了すると、イベント駆動型のパイプラインが調査結果を自動的に Kiro CLI へルーティングします。Kiro CLI はコードベースに修正を適用し、人によるレビュー用の pull request を作成し、承認後にデプロイをトリガーします。結果として、L1/L2 インシデントは検知からデプロイ済みの修正まで、最小限の人手介入で完了します。唯一人が介在するのは pull request の承認だけです。"
+"last_updated": "2026-08-10 18:14:38 JST"
