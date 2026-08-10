@@ -1,0 +1,16 @@
+"entries":
+  "658cc6820dab561b030964e339d9bdd5":
+    "id": "658cc6820dab561b030964e339d9bdd5"
+    "title": "Run interactive IDEs on Amazon EKS with SageMaker AI to power up your AI workflows"
+    "link": "https://aws.amazon.com/blogs/machine-learning/run-interactive-ides-on-amazon-eks-with-sagemaker-ai-to-power-up-your-ai-workflows/"
+    "published": "2026-08-11 01:34:37"
+    "fetched": "2026-08-11 01:52:26"
+    "summary": "The Amazon SageMaker AI Spaces add-on for Amazon EKS runs managed JupyterLab and Code Editor environments on the cluster your ML team already operates. This post shows how to install and configure the add-on, connect from the browser and from VS Code over SSH-over-SSM, and move your team to OpenID Connect sign-in with Amazon Cognito."
+  "699a9a27c61eb73aa54c2fcce68f3e34":
+    "id": "699a9a27c61eb73aa54c2fcce68f3e34"
+    "title": "How nOps shipped FinOps agents 75% faster with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-nops-shipped-finops-agents-75-faster-with-amazon-bedrock-agentcore/"
+    "published": "2026-08-11 01:30:46"
+    "fetched": "2026-08-11 01:52:26"
+    "summary": "nOps rebuilt its Clara FinOps AI agent on Amazon Bedrock AgentCore, replacing a self-managed Amazon EKS stack running LangChain and LangGraph. The move cut time-to-production by 75% (from 10-12 months to 4 months), improved response quality, and reduced operational overhead while keeping analytics governed through Databricks Lakehouse Metric Views."
+"last_updated": "2026-08-11 01:52:26 JST"
