@@ -27,4 +27,11 @@
     "published": "2026-08-12 00:59:22"
     "fetched": "2026-08-12 01:56:27"
     "summary": "Claude apps gateway is a self-hosted governance layer between Claude Code and Claude Desktop and Amazon Bedrock or Claude Platform on AWS. This post presents a production reference deployment covering end-to-end architecture, enterprise deployment patterns, cost, and implementation resources."
-"last_updated": "2026-08-12 01:56:27 JST"
+  "5729b3e1c54f673ed90a12c236ef2ca0":
+    "id": "5729b3e1c54f673ed90a12c236ef2ca0"
+    "title": "Accelerate cyber defense with OpenAI and AWS: Daybreak Red & Daybreak Blue now available to eligible customers on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/"
+    "published": "2026-08-12 06:38:06"
+    "fetched": "2026-08-12 06:41:15"
+    "summary": "Daybreak Red and Daybreak Blue from OpenAI, specialized cyber defense models from OpenAI, are now available on Amazon Bedrock to eligible customers. Both models run with zero-operator access enforced at the chip, keeping your code and vulnerability data secure."
+"last_updated": "2026-08-12 06:41:15 JST"

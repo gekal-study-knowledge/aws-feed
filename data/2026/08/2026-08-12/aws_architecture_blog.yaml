@@ -1,0 +1,9 @@
+"entries":
+  "f1948bf926ffffcbb00badb484b97d96":
+    "id": "f1948bf926ffffcbb00badb484b97d96"
+    "title": "Scaling patterns for self-organizing multi-agent clusters with Kiro"
+    "link": "https://aws.amazon.com/blogs/architecture/scaling-patterns-for-self-organizing-multi-agent-clusters-with-kiro/"
+    "published": "2026-08-12 06:17:02"
+    "fetched": "2026-08-12 06:41:14"
+    "summary": "Learn how to coordinate AI agents through shared state in Amazon S3 instead of a central orchestrator. Deploy and observe self-organizing agent clusters on Amazon EC2 with the open-source kiro-flock reference implementation."
+"last_updated": "2026-08-12 06:41:14 JST"
