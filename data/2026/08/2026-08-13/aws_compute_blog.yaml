@@ -1,0 +1,9 @@
+"entries":
+  "c32768a3431a2d32eb831d2b05f2e5b6":
+    "id": "c32768a3431a2d32eb831d2b05f2e5b6"
+    "title": "Burst to Region: Overflow AWS Outposts workloads to Amazon EC2"
+    "link": "https://aws.amazon.com/blogs/compute/burst-to-region-overflow-aws-outposts-workloads-to-amazon-ec2/"
+    "published": "2026-08-13 02:06:54"
+    "fetched": "2026-08-13 02:54:45"
+    "summary": "AWS Outposts brings AWS infrastructure into your data center with low latency and data locality. But an Outposts rack has fixed compute. Learn how to build a Burst to Region pattern that overflows workloads to Amazon EC2 in the parent Region when local capacity is exhausted."
+"last_updated": "2026-08-13 02:54:45 JST"

@@ -1,0 +1,9 @@
+"entries":
+  "6bee1f4e049d6634137df81aa9e983af":
+    "id": "6bee1f4e049d6634137df81aa9e983af"
+    "title": "Part 2: Amazon Bedrock cost attribution with Amazon Athena and CUDOS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/part-2-amazon-bedrock-cost-attribution-with-amazon-athena-and-cudos/"
+    "published": "2026-08-13 02:45:20"
+    "fetched": "2026-08-13 02:54:45"
+    "summary": "Learn how to visualize and analyze Amazon Bedrock cost attribution using Amazon Athena and CUDOS dashboards. This post shows how to set up CUR 2.0 with IAM principal data, query Bedrock spend by principal, project, and team, and build dashboards to track AI costs across your organization."
+"last_updated": "2026-08-13 02:54:45 JST"
