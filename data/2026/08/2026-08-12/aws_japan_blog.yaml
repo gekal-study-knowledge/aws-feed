@@ -13,4 +13,11 @@
     "published": "2026-08-12 09:51:42"
     "fetched": "2026-08-12 10:37:19"
     "summary": "本記事は 2026年7月6日に公開された「Turn Your Amazon CloudWatch Alarms […]"
-"last_updated": "2026-08-12 10:37:19 JST"
+  "0a03c9419029d63b8dc335ccb616dfbf":
+    "id": "0a03c9419029d63b8dc335ccb616dfbf"
+    "title": "Amazon OpenSearch Service が GPU アクセラレーションで 10 億規模のベクトルインデックスを構築する仕組み"
+    "link": "https://aws.amazon.com/jp/blogs/news/how-gpu-acceleration-builds-billion-scale-vector-indexes-on-amazon-opensearch-service/"
+    "published": "2026-08-12 11:27:38"
+    "fetched": "2026-08-12 13:02:54"
+    "summary": "GPU アクセラレーションによるベクトルインデックス作成が Amazon OpenSearch Service と OpenSearch Serverless で利用できるようになり、10 億規模のベクトルインデックスを数日ではなく数時間で構築できます。本記事では、GPU ワーカーへ処理をオフロードする分離型アーキテクチャや、NVIDIA cuVS で構築した CAGRA グラフを CPU で検索可能な HNSW に品質を落とさず変換する仕組みを解説します。あわせて、10 億件の 1024 次元ベクトルによるベンチマーク結果と、運用のベストプラクティスも紹介します。"
+"last_updated": "2026-08-12 13:02:54 JST"
