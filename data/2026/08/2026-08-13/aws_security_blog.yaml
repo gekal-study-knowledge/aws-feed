@@ -1,0 +1,9 @@
+"entries":
+  "affd7358568d2fc061c5343e94a4c353":
+    "id": "affd7358568d2fc061c5343e94a4c353"
+    "title": "How AWS IAM role manager rethinks the starting point for IAM roles"
+    "link": "https://aws.amazon.com/blogs/security/how-aws-iam-role-manager-rethinks-the-starting-point-for-iam-roles/"
+    "published": "2026-08-13 07:16:55"
+    "fetched": "2026-08-13 07:35:41"
+    "summary": "When you build a new application or capability on Amazon Web Services (AWS), you want to focus on what you’re building. Getting a service running almost always begins with AWS Identity and Access Management (IAM). Many AWS services that act on your behalf need an IAM role, an identity the service assumes to access your […]"
+"last_updated": "2026-08-13 07:35:41 JST"
