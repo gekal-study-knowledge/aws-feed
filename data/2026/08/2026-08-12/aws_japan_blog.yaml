@@ -1,0 +1,16 @@
+"entries":
+  "32f2620d3f0d125a2e93ea9913f62859":
+    "id": "32f2620d3f0d125a2e93ea9913f62859"
+    "title": "1 年間の経験。45 億行のコード。160 万時間の節約。そして私たちが学んだこと。"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-transform-one-year-milestone/"
+    "published": "2026-08-12 10:08:43"
+    "fetched": "2026-08-12 10:37:19"
+    "summary": "AWS Transform はローンチから 1 年間で 45 億行のコードを処理し、160 万時間の工数削減を実現した AI 駆動のモダナイゼーションサービスです。.NET、メインフレーム、VMware ワークロードの変換に加え、re:Invent 2025 で発表されたカスタム変換機能により、企業規模でのコード変換を可能にしています。本ブログでは、モダナイゼーションをプロジェクト型から継続的プロセスへ転換し、技術的負債の解消とエージェンティック AI ワークロードへの準備を加速する知見を共有します。"
+  "187790ede5b1a9d6d49f907fce988fc2":
+    "id": "187790ede5b1a9d6d49f907fce988fc2"
+    "title": "Amazon CloudWatch アラームをアクション可能なシグナルに変える"
+    "link": "https://aws.amazon.com/jp/blogs/news/turn-your-amazon-cloudwatch-alarms-into-actionable-signals/"
+    "published": "2026-08-12 09:51:42"
+    "fetched": "2026-08-12 10:37:19"
+    "summary": "本記事は 2026年7月6日に公開された「Turn Your Amazon CloudWatch Alarms […]"
+"last_updated": "2026-08-12 10:37:19 JST"
