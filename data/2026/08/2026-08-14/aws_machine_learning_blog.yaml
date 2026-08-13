@@ -1,0 +1,16 @@
+"entries":
+  "1249c641299a6b23303ff6f13d14a93b":
+    "id": "1249c641299a6b23303ff6f13d14a93b"
+    "title": "Accelerating M&A due diligence with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-ma-due-diligence-with-amazon-bedrock-agentcore/"
+    "published": "2026-08-14 00:52:44"
+    "fetched": "2026-08-14 00:55:27"
+    "summary": "Learn how to build a multi-agent M&amp;A due diligence system on Amazon Bedrock AgentCore. This post walks through a reference architecture that combines agent orchestration, knowledge retrieval, and governance controls, then deploys a complete sample you can run in your own AWS account."
+  "9920197fcd1a13231d7e99bc1c8c25fc":
+    "id": "9920197fcd1a13231d7e99bc1c8c25fc"
+    "title": "Amazon Quick for Microsoft 365: Agentic AI where you work"
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-for-microsoft-365-agentic-ai-where-you-work/"
+    "published": "2026-08-14 00:48:15"
+    "fetched": "2026-08-14 00:55:27"
+    "summary": "Amazon Quick is now available directly inside Microsoft Word, Excel, PowerPoint, and Outlook. These extensions bring connected data access and agentic document editing into the Microsoft 365 apps your teams already use, so you can analyze data, draft content, and reach enterprise knowledge without switching applications."
+"last_updated": "2026-08-14 00:55:27 JST"
