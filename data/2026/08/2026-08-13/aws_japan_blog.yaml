@@ -1,0 +1,16 @@
+"entries":
+  "1c65c31c6321f0059a2c840ae99f0281":
+    "id": "1c65c31c6321f0059a2c840ae99f0281"
+    "title": "AWS ウィークリーまとめ:AWS ヒーローズサミット、Amazon Bedrock、Dogwood、Kiro Crew のウェブサーチなど (2026年8月10 日)"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-aws-heroes-summit-web-search-on-amazon-bedrock-dogwood-kiro-crew-and-more-august-10-2026/"
+    "published": "2026-08-13 10:26:32"
+    "fetched": "2026-08-13 10:39:46"
+    "summary": "2026 年 8 月 3 日週、私たちは世界中から集まった AWS ヒーローたちを集め、つながり、協力し、AW […]"
+  "ba0e615490bb4d84ab21bd76a1ca6b16":
+    "id": "ba0e615490bb4d84ab21bd76a1ca6b16"
+    "title": "Oracle AI Database@AWS で Oracle Exadata on Exascale が利用可能に"
+    "link": "https://aws.amazon.com/jp/blogs/news/introducing-oracle-exadata-on-exascale-for-oracle-ai-databaseaws/"
+    "published": "2026-08-13 10:06:23"
+    "fetched": "2026-08-13 10:39:46"
+    "summary": "Oracle AI Database@AWS 向けに Oracle Exadata Database Service on Exascale Infrastructure (ExaDB-XS) が一般提供開始となりました。専用インフラストラクチャを事前に用意することなく、8 ECPU、ストレージ 300 GB から Exadata クラスのパフォーマンスと可用性を従量課金で利用できます。本記事では ExaDB-XS の新機能と、AWS マネジメントコンソールでの構築手順を紹介します。"
+"last_updated": "2026-08-13 10:39:46 JST"

@@ -1,0 +1,16 @@
+"entries":
+  "d4e2166c79ee094f0ff57cf6946ea203":
+    "id": "d4e2166c79ee094f0ff57cf6946ea203"
+    "title": "Reducing Text2SQL latency with parameterized query templates"
+    "link": "https://aws.amazon.com/blogs/architecture/reducing-text2sql-latency-with-parameterized-query-templates/"
+    "published": "2026-08-13 09:40:32"
+    "fetched": "2026-08-13 10:39:46"
+    "summary": "Learn how parameterized query templates reduced Text2SQL latency by 80% and cut token consumption by over 50%. This post covers the architecture behind an intelligent caching layer that uses semantic similarity to match user questions to SQL templates, bypassing expensive LLM calls."
+  "ea2a79bbda6f822353a12cacb7d8fe7c":
+    "id": "ea2a79bbda6f822353a12cacb7d8fe7c"
+    "title": "Adobe Firefly: Simplified observability with Amazon Managed Prometheus"
+    "link": "https://aws.amazon.com/blogs/architecture/adobe-firefly-simplified-observability-with-amazon-managed-prometheus/"
+    "published": "2026-08-13 09:14:19"
+    "fetched": "2026-08-13 10:39:46"
+    "summary": "Learn how Adobe Firefly achieved 28x faster GPU metric queries by migrating from self-managed Prometheus to Amazon Managed Service for Prometheus, with improvements in query performance, infrastructure reliability, and operational efficiency."
+"last_updated": "2026-08-13 10:39:46 JST"

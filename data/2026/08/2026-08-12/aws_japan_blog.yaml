@@ -27,4 +27,11 @@
     "published": "2026-08-12 16:18:20"
     "fetched": "2026-08-12 17:13:10"
     "summary": "AI エージェントは流暢に答えますが、それが確実に正しく動くとどう証明すればよいのでしょうか。本記事では、英国の中古車マーケットプレイス Motorway と AWS が構築した、エンドツーエンドのエージェント評価パイプラインを紹介します。Strands Agents SDK と Amazon Bedrock AgentCore を組み合わせ、ツールの使い方・推論・出力品質を 3 層で評価し、誤った結果を 8 件に 1 件から 50 件に 1 件へ削減した手法を、デプロイのゲートや本番監視まで含めて解説します。"
-"last_updated": "2026-08-12 17:13:10 JST"
+  "42ad7434384de6956fab5e2425d58dc9":
+    "id": "42ad7434384de6956fab5e2425d58dc9"
+    "title": "AWS Advanced JDBC Wrapper のコネクションプーリングを設定アシスタントで構成する"
+    "link": "https://aws.amazon.com/jp/blogs/news/configure-aws-advanced-jdbc-wrapper-connection-pooling-with-the-assistant/"
+    "published": "2026-08-12 11:31:48"
+    "fetched": "2026-08-13 10:39:46"
+    "summary": "本記事では、Amazon Aurora および Amazon RDS 上で AWS Advanced JDBC Wrapper のコネクションプーリングを設定する方法を紹介します。外部プーリングと内部プーリングの違い、ワークロードに応じた選択基準、生成 AI ベースの JDBC-WRAPPER-CONFIGURATION-ASSISTANT による設定構築の方法を解説します。"
+"last_updated": "2026-08-13 10:39:46 JST"
