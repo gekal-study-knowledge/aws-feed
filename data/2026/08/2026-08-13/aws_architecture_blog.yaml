@@ -13,4 +13,11 @@
     "published": "2026-08-13 09:14:19"
     "fetched": "2026-08-13 10:39:46"
     "summary": "Learn how Adobe Firefly achieved 28x faster GPU metric queries by migrating from self-managed Prometheus to Amazon Managed Service for Prometheus, with improvements in query performance, infrastructure reliability, and operational efficiency."
-"last_updated": "2026-08-13 10:39:46 JST"
+  "a911a3652df87eb9022180169e7da0a6":
+    "id": "a911a3652df87eb9022180169e7da0a6"
+    "title": "Recovery strategies to meet data residency requirements"
+    "link": "https://aws.amazon.com/blogs/architecture/recovery-strategies-to-meet-data-residency-requirements/"
+    "published": "2026-08-13 23:05:39"
+    "fetched": "2026-08-13 23:24:24"
+    "summary": "Learn three strategies for achieving disaster recovery while meeting data residency requirements. Ranging from encryption-based controls on multi-Region replication to fully in-country architectures, these patterns help you balance recovery objectives with regulatory constraints."
+"last_updated": "2026-08-13 23:24:24 JST"
