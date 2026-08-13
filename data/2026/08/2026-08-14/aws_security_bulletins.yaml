@@ -1,0 +1,16 @@
+"entries":
+  "bba716be40823be11c087882d83050a0":
+    "id": "bba716be40823be11c087882d83050a0"
+    "title": "CVE-2026-18428 - OpenSearch SQL Plugin - Async Query Validation Bypass"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-081-aws/"
+    "published": "2026-08-14 02:46:21"
+    "fetched": "2026-08-14 02:54:19"
+    "summary": "<p><b>Bulletin ID:</b> 2026-081-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/13/2026 10:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>OpenSearch SQL plugin is a plugin that enables SQL and PPL query capabilities on OpenSearch clusters, including direct query integration with external data sources via Apache Spark. An issue exists where the Flint extension query handler validates SQL queries without sufficient restrictions, allowing a user with async query access to bypass the SQL grammar deny list via the direct query endpoint.</p> \n<p><b>Affected Products &amp; Versions:</b></p> \n<p><b>OpenSearch SQL Plugin (open-source, self-managed):</b><br /> - <b>Affected:</b> v2.13 to v3.6<br /> - <b>Fixed:</b> versions 3.7 and 2.19.6</p> \n<p><b>Amazon OpenSearch Service (AWS Managed):</b><br /> - <b>Affected:</b> v2.13 to v3.5<br /> - <b>Fixed:</b> v2.13 to v3.5 (via service software update)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "449e44c466653e135cb502434d60c1a2":
+    "id": "449e44c466653e135cb502434d60c1a2"
+    "title": "CVE-2026-18952 - Missing Input Validation in OpenSearch Security Analytics Plugin"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-079-aws/"
+    "published": "2026-08-14 02:43:27"
+    "fetched": "2026-08-14 02:54:19"
+    "summary": "<p><b>Bulletin ID:</b> 2026-079-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/12/2026 11:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>OpenSearch is a community-driven, open-source search and analytics suite. We identified CVE-2026-18952, a missing input validation issue in the threat intelligence feed parser of the OpenSearch Security Analytics plugin. This issue may allow an authenticated user with the security_analytics_full_access role to perform server-side request forgery (SSRF) and read local files via a crafted URL parameter to the threat intel source configuration endpoint.</p> \n<p><b>Impacted Versions:</b></p> \n<p><b>OpenSearch Security Analytics Plugin (open-source, self-managed):</b><br /> - <b>Affected:</b> &gt;= 2.15.0<br /> - <b>Fixed:</b> &gt;= 3.5.0</p> \n<p><b>Amazon OpenSearch Service (AWS Managed):</b><br /> - <b>Affected:</b> Domains running engine versions &gt;= 2.15.0<br /> - <b>Fixed:</b> Addressed via service software update for engine version 3.5. The affected functionality is not enabled in the default service configuration.</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-08-14 02:54:19 JST"
