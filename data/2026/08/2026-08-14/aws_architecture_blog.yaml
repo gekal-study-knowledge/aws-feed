@@ -1,0 +1,9 @@
+"entries":
+  "163212c72b62b19d173386145abc75fe":
+    "id": "163212c72b62b19d173386145abc75fe"
+    "title": "Track generative AI costs with Amazon Bedrock inference profiles"
+    "link": "https://aws.amazon.com/blogs/architecture/track-generative-ai-costs-with-amazon-bedrock-inference-profiles/"
+    "published": "2026-08-14 00:59:39"
+    "fetched": "2026-08-14 01:52:54"
+    "summary": "Learn how to track generative AI costs by department using Amazon Bedrock application inference profiles and AWS cost allocation tags. Create tagged profiles for each team and view per-department cost breakdowns in AWS Cost Explorer."
+"last_updated": "2026-08-14 01:52:54 JST"
