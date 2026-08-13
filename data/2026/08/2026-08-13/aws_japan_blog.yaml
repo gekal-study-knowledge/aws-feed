@@ -13,4 +13,11 @@
     "published": "2026-08-13 10:06:23"
     "fetched": "2026-08-13 10:39:46"
     "summary": "Oracle AI Database@AWS 向けに Oracle Exadata Database Service on Exascale Infrastructure (ExaDB-XS) が一般提供開始となりました。専用インフラストラクチャを事前に用意することなく、8 ECPU、ストレージ 300 GB から Exadata クラスのパフォーマンスと可用性を従量課金で利用できます。本記事では ExaDB-XS の新機能と、AWS マネジメントコンソールでの構築手順を紹介します。"
-"last_updated": "2026-08-13 10:39:46 JST"
+  "8f3d08e78273baa5682006270e9d0194":
+    "id": "8f3d08e78273baa5682006270e9d0194"
+    "title": "【開催報告】ISV SaaS 事業者向け 8 社合同 AI-DLC Unicorn Gym"
+    "link": "https://aws.amazon.com/jp/blogs/news/joint-ai-dlc-unicorn-gym-isv-202607/"
+    "published": "2026-08-13 11:58:30"
+    "fetched": "2026-08-13 13:07:09"
+    "summary": "2026 年 7 月 16 日（木）、 17 日（金）の 2 日間、東京・麻布台ヒルズにて、ISV SaaS 事業者向けの 8 社合同 AI-DLC Unicorn Gym を開催しました。株式会社サイバーセキュリティクラウド、freee 株式会社、株式会社いえらぶ GROUP、モビルス株式会社、エムオーテックス株式会社、株式会社ヌーラボ、テクマトリックス株式会社、株式会社ヴァル研究所（順不同・敬称略）の 8 社から計 54 名にご参加いただき、各チームが自社プロダクトの開発テーマを持ち込んで、Kiro や Claude Code などの Coding Agent を活用しながら 2 日間 AI 駆動の開発プロセスを実践しました。 本記事では、ご参加いただいた各社が 2 日間 AI-DLC をどう体験したのか、参加者の声を交えてレポートします。"
+"last_updated": "2026-08-13 13:07:09 JST"
