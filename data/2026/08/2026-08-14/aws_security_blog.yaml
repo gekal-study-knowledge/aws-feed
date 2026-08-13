@@ -1,0 +1,9 @@
+"entries":
+  "fc5edcdbc83a7c744414ebaa1a275f4b":
+    "id": "fc5edcdbc83a7c744414ebaa1a275f4b"
+    "title": "AWS Certificate Manager will discontinue email validation to prove domain validation for certificates"
+    "link": "https://aws.amazon.com/blogs/security/aws-certificate-manager-will-discontinue-email-validation-to-prove-domain-validation-for-certificates/"
+    "published": "2026-08-14 06:23:00"
+    "fetched": "2026-08-14 06:40:08"
+    "summary": "Today, we’re announcing that AWS Certificate Manager (ACM) will discontinue support for email-validated public certificates by September 30, 2027. If you use email validation for your ACM public certificates, you need to migrate to DNS validation before that date. This change aligns with the Certification Authority/Browser (CA/B) Forum’s industry-wide deprecation of email-based domain validation and […]"
+"last_updated": "2026-08-14 06:40:08 JST"
