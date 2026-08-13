@@ -1,0 +1,9 @@
+"entries":
+  "a2e81fe3b6d0ef95c0ebfe6e847520a2":
+    "id": "a2e81fe3b6d0ef95c0ebfe6e847520a2"
+    "title": "Designing for failure: Building resilient systems on AWS"
+    "link": "https://aws.amazon.com/blogs/compute/designing-for-failure-building-resilient-systems-on-aws/"
+    "published": "2026-08-14 05:03:28"
+    "fetched": "2026-08-14 05:37:23"
+    "summary": "Learn how to prevent correlated hardware failures in distributed systems on Amazon EC2. This post walks through real incident response patterns, including Partition Placement Groups, composite alarms, automated recovery with Auto Scaling, and observability best practices."
+"last_updated": "2026-08-14 05:37:23 JST"
