@@ -6,4 +6,11 @@
     "published": "2026-08-14 10:33:03"
     "fetched": "2026-08-14 10:38:08"
     "summary": "リアルタイム性の高いマルチプレイヤーゲームでは専用ゲームサーバー方式が広く使われており、マッチメイキングやサーバーの割り当て・回収といったライフサイクル管理のオーケストレーション基盤の設計が重要なテーマとなります。AWS で専用ゲームサーバーをホストする主な選択肢は、マネージドの Amazon GameLift Servers を使うか、EC2 / ECS / EKS 上でセルフホストするかの2つです。より柔軟な制御が必要な場合は、EKS 上にデプロイできる OSS の Agones が選択肢になりますが、Kubernetes 基盤の運用負荷は避けられませんでした。2024 年 12 月に GA した Amazon EKS Auto Mode は Kubernetes の構築・運用負担を軽減する機能で、Agones の基盤 EKS クラスタと組み合わせることで柔軟さと簡素さを両立できます。ただし EKS Auto Mode にはいくつかの制約もあります。本記事では、EKS Auto Mode の制約が Agones の特性を阻害しないための設計方針を紹介します。"
-"last_updated": "2026-08-14 10:38:08 JST"
+  "066efa32b6f61fdbdc3e4f2eb0b9cf1c":
+    "id": "066efa32b6f61fdbdc3e4f2eb0b9cf1c"
+    "title": "「聞くだけで、必要な情報が集まる」航空オペレーション基盤を Kiro で実現する"
+    "link": "https://aws.amazon.com/jp/blogs/news/building-aviation-ai-operations-platform-with-bedrock-and-kiro/"
+    "published": "2026-08-14 16:13:05"
+    "fetched": "2026-08-14 17:11:44"
+    "summary": "航空業界では、散在するデータの横断的な活用が長年の課題でした。本ブログでは、 Amazon S3 を中心とした […]"
+"last_updated": "2026-08-14 17:11:44 JST"
