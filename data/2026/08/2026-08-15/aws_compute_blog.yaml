@@ -1,0 +1,9 @@
+"entries":
+  "4e043df6e2674d35277883f79cc136ed":
+    "id": "4e043df6e2674d35277883f79cc136ed"
+    "title": "Implementing dynamic feature flags with AWS AppConfig on AWS Lambda"
+    "link": "https://aws.amazon.com/blogs/compute/implementing-dynamic-feature-flags-with-aws-appconfig-on-aws-lambda/"
+    "published": "2026-08-15 01:25:51"
+    "fetched": "2026-08-15 01:48:54"
+    "summary": "Feature toggles allow you to change application behavior in real time without deploying new code. Learn how to implement dynamic feature flags with AWS AppConfig on AWS Lambda for safe deployments, gradual rollouts, and instant rollback."
+"last_updated": "2026-08-15 01:48:54 JST"

@@ -1,0 +1,16 @@
+"entries":
+  "55e6b5734556a3345763539b5d232f91":
+    "id": "55e6b5734556a3345763539b5d232f91"
+    "title": "Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge"
+    "link": "https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/"
+    "published": "2026-08-15 01:02:10"
+    "fetched": "2026-08-15 01:48:53"
+    "summary": "In multi-turn reinforcement learning, your custom reward function decides what the model actually learns. This post shows how to design a composite multi-turn reward for Amazon Nova Forge, execute model-generated code safely inside it, and instrument each component to catch the pitfalls that quietly collapse a reward."
+  "a47c5e788abefa2f79c72aaa4bded52c":
+    "id": "a47c5e788abefa2f79c72aaa4bded52c"
+    "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/"
+    "published": "2026-08-15 00:58:44"
+    "fetched": "2026-08-15 01:48:53"
+    "summary": "Learn how to combine OpenAI-compatible endpoints on Amazon SageMaker AI with Amazon Bedrock AgentCore runtime to build a multi-agent workflow where each specialized agent uses the model best suited to its job. This post also shows how to get token-level observability from SageMaker endpoints that Strands Agents does not instrument by default."
+"last_updated": "2026-08-15 01:48:53 JST"
