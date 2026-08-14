@@ -1,0 +1,9 @@
+"entries":
+  "a92979405c282b444704d96b80f8acf3":
+    "id": "a92979405c282b444704d96b80f8acf3"
+    "title": "Amazon RDS for Oracle now supports Oracle Application Express (APEX) version 26.1"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-oracle-apex-26-1/"
+    "published": "2026-08-15 00:00:00"
+    "fetched": "2026-08-15 06:20:37"
+    "summary": "<p><a href=\"https://aws.amazon.com/rds/oracle/\">Amazon Relational Database Service (Amazon RDS) for Oracle</a> now supports Oracle Application Express (APEX) version 26.1. Amazon RDS for Oracle is a managed database service that makes it simple to set up, operate, and scale Oracle Database deployments in the cloud. Oracle APEX is a low-code development platform that enables developers to build scalable, secure enterprise applications with modern user interfaces. To learn more about the latest features of Oracle APEX 26.1, see <a href=\"https://docs.oracle.com/en/database/oracle/apex/26.1/index.html\">Oracle’s APEX Release 26.1 documentation</a>.</p> \n<p>For more details on supported Oracle APEX versions and how to add or modify Oracle APEX options for your RDS for Oracle database, visit the <a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Appendix.Oracle.Options.APEX.html\">Amazon RDS for Oracle APEX Documentation.</a></p> \n<p>Oracle APEX version 26.1 is available in all AWS regions where Amazon RDS for Oracle is available. See <a href=\"https://aws.amazon.com/rds/oracle/pricing/\">Amazon RDS for Oracle Pricing</a> for regional availability.</p>"
+"last_updated": "2026-08-15 06:20:37 JST"
