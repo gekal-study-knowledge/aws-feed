@@ -1,0 +1,9 @@
+"entries":
+  "abeec8c329f5ba529466440a58b2893b":
+    "id": "abeec8c329f5ba529466440a58b2893b"
+    "title": "Amazon EKS Auto Mode 上で Agones を安定稼働させる設計のポイント"
+    "link": "https://aws.amazon.com/jp/blogs/news/agones-on-eks-automode-practice/"
+    "published": "2026-08-14 10:33:03"
+    "fetched": "2026-08-14 10:38:08"
+    "summary": "リアルタイム性の高いマルチプレイヤーゲームでは専用ゲームサーバー方式が広く使われており、マッチメイキングやサーバーの割り当て・回収といったライフサイクル管理のオーケストレーション基盤の設計が重要なテーマとなります。AWS で専用ゲームサーバーをホストする主な選択肢は、マネージドの Amazon GameLift Servers を使うか、EC2 / ECS / EKS 上でセルフホストするかの2つです。より柔軟な制御が必要な場合は、EKS 上にデプロイできる OSS の Agones が選択肢になりますが、Kubernetes 基盤の運用負荷は避けられませんでした。2024 年 12 月に GA した Amazon EKS Auto Mode は Kubernetes の構築・運用負担を軽減する機能で、Agones の基盤 EKS クラスタと組み合わせることで柔軟さと簡素さを両立できます。ただし EKS Auto Mode にはいくつかの制約もあります。本記事では、EKS Auto Mode の制約が Agones の特性を阻害しないための設計方針を紹介します。"
+"last_updated": "2026-08-14 10:38:08 JST"
