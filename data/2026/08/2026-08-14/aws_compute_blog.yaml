@@ -13,4 +13,11 @@
     "published": "2026-08-14 20:11:55"
     "fetched": "2026-08-14 20:40:51"
     "summary": "Learn how to collect CPU and memory metrics for AWS Lambda MicroVMs using the Amazon CloudWatch agent. This post walks through configuring Telegraf and OpenTelemetry pipelines inside a MicroVM image, and explains how in-guest metrics differ from your bill."
-"last_updated": "2026-08-14 20:40:51 JST"
+  "1efbb8e6f58e0b7b673630c0d7d78e03":
+    "id": "1efbb8e6f58e0b7b673630c0d7d78e03"
+    "title": "Observability best practices for Lambda durable functions"
+    "link": "https://aws.amazon.com/blogs/compute/observability-best-practices-for-lambda-durable-functions-2/"
+    "published": "2026-08-14 21:49:49"
+    "fetched": "2026-08-14 21:56:26"
+    "summary": "Learn observability best practices for AWS Lambda durable functions, including CloudWatch metrics, custom alarms, structured logging, and X-Ray tracing for debugging callback timeouts end-to-end."
+"last_updated": "2026-08-14 21:56:26 JST"
