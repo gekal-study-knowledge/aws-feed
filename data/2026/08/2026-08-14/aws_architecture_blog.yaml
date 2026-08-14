@@ -6,4 +6,11 @@
     "published": "2026-08-14 00:59:39"
     "fetched": "2026-08-14 01:52:54"
     "summary": "Learn how to track generative AI costs by department using Amazon Bedrock application inference profiles and AWS cost allocation tags. Create tagged profiles for each team and view per-department cost breakdowns in AWS Cost Explorer."
-"last_updated": "2026-08-14 01:52:54 JST"
+  "02a617b51dc116e5f2eb39e976e9782b":
+    "id": "02a617b51dc116e5f2eb39e976e9782b"
+    "title": "Serverless vehicle tracking at scale: Bosch L.OS on AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/serverless-vehicle-tracking-at-scale-bosch-l-os-on-aws/"
+    "published": "2026-08-14 19:02:13"
+    "fetched": "2026-08-14 19:55:24"
+    "summary": "Learn how Bosch Mobility Platform Solutions built L.OS, a serverless vehicle tracking platform on AWS that unifies India's fragmented spot logistics market into a single real-time visibility layer using Amazon ECS, AWS Lambda, and Amazon MSK."
+"last_updated": "2026-08-14 19:55:24 JST"
