@@ -6,4 +6,11 @@
     "published": "2026-08-14 05:03:28"
     "fetched": "2026-08-14 05:37:23"
     "summary": "Learn how to prevent correlated hardware failures in distributed systems on Amazon EC2. This post walks through real incident response patterns, including Partition Placement Groups, composite alarms, automated recovery with Auto Scaling, and observability best practices."
-"last_updated": "2026-08-14 05:37:23 JST"
+  "c1f825783329af5e35a965b6f90676c6":
+    "id": "c1f825783329af5e35a965b6f90676c6"
+    "title": "Collecting CPU and memory metrics for AWS Lambda MicroVMs"
+    "link": "https://aws.amazon.com/blogs/compute/collecting-cpu-and-memory-metrics-for-aws-lambda-microvms/"
+    "published": "2026-08-14 20:11:55"
+    "fetched": "2026-08-14 20:40:51"
+    "summary": "Learn how to collect CPU and memory metrics for AWS Lambda MicroVMs using the Amazon CloudWatch agent. This post walks through configuring Telegraf and OpenTelemetry pipelines inside a MicroVM image, and explains how in-guest metrics differ from your bill."
+"last_updated": "2026-08-14 20:40:51 JST"
