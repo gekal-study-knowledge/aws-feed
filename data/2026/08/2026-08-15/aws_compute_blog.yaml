@@ -6,4 +6,11 @@
     "published": "2026-08-15 01:25:51"
     "fetched": "2026-08-15 01:48:54"
     "summary": "Feature toggles allow you to change application behavior in real time without deploying new code. Learn how to implement dynamic feature flags with AWS AppConfig on AWS Lambda for safe deployments, gradual rollouts, and instant rollback."
-"last_updated": "2026-08-15 01:48:54 JST"
+  "488d997113b78ea9893be940c75a1100":
+    "id": "488d997113b78ea9893be940c75a1100"
+    "title": "Introducing public preview runtimes on AWS Lambda, starting with Node.js 26 and Python 3.15"
+    "link": "https://aws.amazon.com/blogs/compute/introducing-public-preview-runtimes-on-aws-lambda-starting-with-node-js-26-and-python-3-15/"
+    "published": "2026-08-15 23:09:35"
+    "fetched": "2026-08-15 23:17:38"
+    "summary": "AWS Lambda introduces public preview runtimes, a new way to try upcoming language versions before GA. Start using Node.js 26 and Python 3.15 today, provide feedback, and help shape runtime quality before general availability."
+"last_updated": "2026-08-15 23:17:38 JST"
