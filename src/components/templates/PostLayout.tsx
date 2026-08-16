@@ -63,20 +63,28 @@ export default function PostLayout({
   React.useEffect(() => {
     markAsVisited();
 
+    // スクロールイベントは高頻度で発火するため rAF で間引く
+    // （間引かないと毎フレーム再レンダーが走り、他コンポーネントの副作用に悪影響しうる）
+    let ticking = false;
     const handleScroll = () => {
-      const scrollY = window.scrollY;
-      const windowHeight = window.innerHeight;
-      const documentHeight = document.documentElement.scrollHeight;
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(() => {
+        const scrollY = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
 
-      // ヘッダー表示の判定 (少しスクロールしたら表示)
-      setShowSticky(scrollY > 200);
+        // ヘッダー表示の判定 (少しスクロールしたら表示)
+        setShowSticky(scrollY > 200);
 
-      // 最下部判定 (遊びを持たせる)
-      const atBottom = scrollY + windowHeight >= documentHeight - 50;
-      setIsBottom(atBottom);
+        // 最下部判定 (遊びを持たせる)
+        const atBottom = scrollY + windowHeight >= documentHeight - 50;
+        setIsBottom(atBottom);
+        ticking = false;
+      });
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     handleScroll(); // 初期状態のチェック
     return () => window.removeEventListener('scroll', handleScroll);
   }, [year, month, day, slug]);
