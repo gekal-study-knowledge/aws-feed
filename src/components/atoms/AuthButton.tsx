@@ -43,8 +43,8 @@ export default function AuthButton() {
           }}
           size="large"
           sx={{
-            color: 'text.secondary',
-            '&:hover': { color: 'primary.main' },
+            color: 'primary.main',
+            '&:hover': { color: 'primary.dark' },
           }}
           aria-label="Googleでログイン"
         >
