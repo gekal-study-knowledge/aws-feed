@@ -10,7 +10,11 @@ interface PostContentProps {
 }
 
 // "2026-04-24 07:36:02 JST" → "2026-04-24 07:36:02"
-const normalizeTimestamp = (ts: string): string => ts.replace(/\s+JST$/i, '').trim().slice(0, 19);
+const normalizeTimestamp = (ts: string): string =>
+  ts
+    .replace(/\s+JST$/i, '')
+    .trim()
+    .slice(0, 19);
 
 const createBadge = (): HTMLSpanElement => {
   const badge = document.createElement('span');
@@ -31,10 +35,36 @@ const createBadge = (): HTMLSpanElement => {
   return badge;
 };
 
+// 前回訪問時点で既に取得済みだったエントリー用の「確認済み」マーカー
+const createConfirmedBadge = (): HTMLSpanElement => {
+  const badge = document.createElement('span');
+  badge.className = 'confirmed-entry-badge';
+  badge.textContent = '確認済み';
+  Object.assign(badge.style, {
+    display: 'inline-block',
+    background: 'transparent',
+    color: '#2e7d32',
+    border: '1px solid #2e7d32',
+    fontSize: '0.6em',
+    fontWeight: '700',
+    padding: '1px 8px',
+    borderRadius: '4px',
+    marginLeft: '10px',
+    verticalAlign: 'middle',
+    letterSpacing: '0.05em',
+  });
+  return badge;
+};
+
 // h3 から対応する ul 内の Fetched 時刻を取得する
 const getFetchedTime = (h3: Element): string | undefined => {
   let sibling = h3.nextElementSibling;
-  while (sibling && sibling.tagName !== 'UL' && sibling.tagName !== 'H2' && sibling.tagName !== 'H3') {
+  while (
+    sibling &&
+    sibling.tagName !== 'UL' &&
+    sibling.tagName !== 'H2' &&
+    sibling.tagName !== 'H3'
+  ) {
     sibling = sibling.nextElementSibling;
   }
   if (!sibling || sibling.tagName !== 'UL') return undefined;
@@ -57,15 +87,22 @@ export default function PostContent({ contentHtml, newSince, newCount = 0 }: Pos
     const h3s = Array.from(container.querySelectorAll('h3'));
 
     // 既存バッジを全除去
-    h3s.forEach((h3) => h3.querySelector('.new-entry-badge')?.remove());
+    h3s.forEach((h3) => {
+      h3.querySelector('.new-entry-badge')?.remove();
+      h3.querySelector('.confirmed-entry-badge')?.remove();
+    });
 
     if (newSince) {
-      // タイムスタンプ比較：fetched が閾値より後のエントリーをマーク
+      // タイムスタンプ比較：fetched が閾値（前回アクセス時刻）より後のエントリーを NEW、
+      // 以前のエントリーは前回アクセス時に取得済みだったので「確認済み」としてマーク
       const threshold = normalizeTimestamp(newSince);
       h3s.forEach((h3) => {
         const fetchedTime = getFetchedTime(h3);
-        if (fetchedTime && fetchedTime > threshold) {
+        if (!fetchedTime) return;
+        if (fetchedTime > threshold) {
           h3.appendChild(createBadge());
+        } else {
+          h3.appendChild(createConfirmedBadge());
         }
       });
     } else if (newCount > 0) {
@@ -83,6 +120,8 @@ export default function PostContent({ contentHtml, newSince, newCount = 0 }: Pos
         entries.forEach(({ h3, fetchedTime }) => {
           if (fetchedTime >= cutoffTime) {
             h3.appendChild(createBadge());
+          } else {
+            h3.appendChild(createConfirmedBadge());
           }
         });
       }

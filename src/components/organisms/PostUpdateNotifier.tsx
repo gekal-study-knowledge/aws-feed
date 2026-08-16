@@ -4,7 +4,12 @@ import * as React from 'react';
 import { Alert, IconButton, Box, Collapse } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
-import { getVisitedPosts, saveVisitedPosts, getJSTNow, VisitRecord } from '@/lib/store/useVisitedPost';
+import {
+  getVisitedPosts,
+  saveVisitedPosts,
+  getJSTNow,
+  VisitRecord,
+} from '@/lib/store/useVisitedPost';
 
 interface PostUpdateNotifierProps {
   year: string;
@@ -56,12 +61,15 @@ export default function PostUpdateNotifier({
     let visitedPosts = getVisitedPosts();
     const record = visitedPosts[currentPostId];
 
-    if (record !== undefined && record.counter !== newsCounter) {
+    if (record !== undefined) {
       const newCount = Math.max(0, newsCounter - record.counter);
-      setMessage(
-        `新しい更新があります（前回確認時: ${record.counter}件 -> 現在: ${newsCounter}件）`,
-      );
-      setOpen(true);
+      if (record.counter !== newsCounter) {
+        setMessage(
+          `新しい更新があります（前回確認時: ${record.counter}件 -> 現在: ${newsCounter}件）`,
+        );
+        setOpen(true);
+      }
+      // カウントの増減に関わらず、前回訪問時刻は既読マーカー判定のため常に通知する
       onUpdateDetected?.(record.visitedAt, newCount);
     }
 
