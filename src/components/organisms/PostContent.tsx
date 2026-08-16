@@ -16,8 +16,8 @@ const normalizeTimestamp = (ts: string): string =>
     .trim()
     .slice(0, 19);
 
-const createBadge = (): HTMLSpanElement => {
-  const badge = document.createElement('span');
+const createBadge = (doc: Document): HTMLSpanElement => {
+  const badge = doc.createElement('span');
   badge.className = 'new-entry-badge';
   badge.textContent = 'NEW';
   Object.assign(badge.style, {
@@ -36,8 +36,8 @@ const createBadge = (): HTMLSpanElement => {
 };
 
 // 前回訪問時点で既に取得済みだったエントリー用の「確認済み」マーカー
-const createConfirmedBadge = (): HTMLSpanElement => {
-  const badge = document.createElement('span');
+const createConfirmedBadge = (doc: Document): HTMLSpanElement => {
+  const badge = doc.createElement('span');
   badge.className = 'confirmed-entry-badge';
   badge.textContent = '確認済み';
   Object.assign(badge.style, {
@@ -76,61 +76,57 @@ const getFetchedTime = (h3: Element): string | undefined => {
   return m?.[1];
 };
 
-export default function PostContent({ contentHtml, newSince, newCount = 0 }: PostContentProps) {
-  const containerRef = React.useRef<HTMLDivElement>(null);
+// contentHtml に NEW / 確認済みバッジを埋め込んだ HTML 文字列を作って返す。
+// DOM を直接 appendChild するのではなく文字列（＝ React が管理する props）を
+// 作り直すことで、再レンダーのたびに同じ結果が確定的に再構築される。
+// （旧実装は useEffect 内で containerRef に直接 appendChild していたため、
+// スクロール等による再レンダーで dangerouslySetInnerHTML が再適用されると
+// バッジだけが跡形もなく消えるという不具合があった）
+const annotateContentHtml = (contentHtml: string, newSince?: string, newCount = 0): string => {
+  const hasUpdate = newSince !== undefined || newCount > 0;
+  if (!hasUpdate || typeof window === 'undefined') return contentHtml;
 
-  React.useEffect(() => {
-    const hasUpdate = newSince !== undefined || newCount > 0;
-    if (!hasUpdate || !containerRef.current) return;
+  const doc = new DOMParser().parseFromString(contentHtml, 'text/html');
+  const h3s = Array.from(doc.querySelectorAll('h3'));
 
-    const container = containerRef.current;
-    const h3s = Array.from(container.querySelectorAll('h3'));
-
-    // 既存バッジを全除去
+  if (newSince) {
+    // タイムスタンプ比較：fetched が閾値（前回アクセス時刻）より後のエントリーを NEW、
+    // 以前のエントリーは前回アクセス時に取得済みだったので「確認済み」としてマーク
+    const threshold = normalizeTimestamp(newSince);
     h3s.forEach((h3) => {
-      h3.querySelector('.new-entry-badge')?.remove();
-      h3.querySelector('.confirmed-entry-badge')?.remove();
+      const fetchedTime = getFetchedTime(h3);
+      if (!fetchedTime) return;
+      h3.appendChild(fetchedTime > threshold ? createBadge(doc) : createConfirmedBadge(doc));
     });
+  } else if (newCount > 0) {
+    // フォールバック：fetched 降順で上位 newCount 件をマーク
+    // （旧フォーマットの localStorage など lastUpdated が不明な場合）
+    const entries = h3s
+      .map((h3) => ({ h3, fetchedTime: getFetchedTime(h3) ?? '' }))
+      .filter((e) => e.fetchedTime !== '');
 
-    if (newSince) {
-      // タイムスタンプ比較：fetched が閾値（前回アクセス時刻）より後のエントリーを NEW、
-      // 以前のエントリーは前回アクセス時に取得済みだったので「確認済み」としてマーク
-      const threshold = normalizeTimestamp(newSince);
-      h3s.forEach((h3) => {
-        const fetchedTime = getFetchedTime(h3);
-        if (!fetchedTime) return;
-        if (fetchedTime > threshold) {
-          h3.appendChild(createBadge());
-        } else {
-          h3.appendChild(createConfirmedBadge());
-        }
+    entries.sort((a, b) => (a.fetchedTime > b.fetchedTime ? -1 : 1));
+
+    // 同秒取得の場合は同グループとして扱う
+    if (entries.length > 0) {
+      const cutoffTime = entries[Math.min(newCount, entries.length) - 1].fetchedTime;
+      entries.forEach(({ h3, fetchedTime }) => {
+        h3.appendChild(fetchedTime >= cutoffTime ? createBadge(doc) : createConfirmedBadge(doc));
       });
-    } else if (newCount > 0) {
-      // フォールバック：fetched 降順で上位 newCount 件をマーク
-      // （旧フォーマットの localStorage など lastUpdated が不明な場合）
-      const entries = h3s
-        .map((h3) => ({ h3, fetchedTime: getFetchedTime(h3) ?? '' }))
-        .filter((e) => e.fetchedTime !== '');
-
-      entries.sort((a, b) => (a.fetchedTime > b.fetchedTime ? -1 : 1));
-
-      // 同秒取得の場合は同グループとして扱う
-      if (entries.length > 0) {
-        const cutoffTime = entries[Math.min(newCount, entries.length) - 1].fetchedTime;
-        entries.forEach(({ h3, fetchedTime }) => {
-          if (fetchedTime >= cutoffTime) {
-            h3.appendChild(createBadge());
-          } else {
-            h3.appendChild(createConfirmedBadge());
-          }
-        });
-      }
     }
-  }, [newSince, newCount, contentHtml]);
+  }
+
+  return doc.body.innerHTML;
+};
+
+export default function PostContent({ contentHtml, newSince, newCount = 0 }: PostContentProps) {
+  const annotatedHtml = React.useMemo(
+    () => annotateContentHtml(contentHtml, newSince, newCount),
+    [contentHtml, newSince, newCount],
+  );
 
   return (
     <Box
-      ref={containerRef}
       className="markdown-body"
       sx={{
         mt: 4,
@@ -219,7 +215,7 @@ export default function PostContent({ contentHtml, newSince, newCount = 0 }: Pos
           '&:hover': { textDecoration: 'underline', color: 'primary.dark' },
         },
       }}
-      dangerouslySetInnerHTML={{ __html: contentHtml }}
+      dangerouslySetInnerHTML={{ __html: annotatedHtml }}
     />
   );
 }
