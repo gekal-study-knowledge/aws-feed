@@ -57,7 +57,19 @@ export default function PostUpdateNotifier({
 
   const currentPostId = `${year}/${month}/${day}/${slug}`;
 
+  // onUpdateDetected は親の再レンダーごとに新しいインスタンスになりうるインライン関数のため、
+  // 依存配列に含めず ref 経由で最新版を参照する（含めると再レンダーのたびに effect が
+  // 再実行され、自分が直前に書き込んだ localStorage を読み直して閾値が壊れてしまう）。
+  const onUpdateDetectedRef = React.useRef(onUpdateDetected);
+  onUpdateDetectedRef.current = onUpdateDetected;
+
+  // 同一 postId に対する処理は1回のみ行う（React Strict Mode の二重実行対策も兼ねる）。
+  const processedPostIdRef = React.useRef<string | null>(null);
+
   React.useEffect(() => {
+    if (processedPostIdRef.current === currentPostId) return;
+    processedPostIdRef.current = currentPostId;
+
     let visitedPosts = getVisitedPosts();
     const record = visitedPosts[currentPostId];
 
@@ -70,13 +82,13 @@ export default function PostUpdateNotifier({
         setOpen(true);
       }
       // カウントの増減に関わらず、前回訪問時刻は既読マーカー判定のため常に通知する
-      onUpdateDetected?.(record.visitedAt, newCount);
+      onUpdateDetectedRef.current?.(record.visitedAt, newCount);
     }
 
     visitedPosts[currentPostId] = { counter: newsCounter, visitedAt: getJSTNow() };
     visitedPosts = cleanupOldPostData(visitedPosts);
     saveVisitedPosts(visitedPosts);
-  }, [currentPostId, newsCounter, onUpdateDetected]);
+  }, [currentPostId, newsCounter]);
 
   return (
     <Box sx={{ width: '100%', mb: 2 }}>
