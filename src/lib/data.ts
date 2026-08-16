@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import yaml from 'js-yaml';
+import { load as loadYaml } from 'js-yaml';
 import { keysToCamelCase } from '../utils/stringUtils';
 
 const dataDirectory = path.join(process.cwd(), 'data');
@@ -62,11 +62,11 @@ function getAllFiles(dirPath: string, arrayOfFiles: string[] = []) {
 
 export function getAllEntries(): Entry[] {
   const configPath = path.join(process.cwd(), '.github/scripts/config.yaml');
-  let sourceMap: { [key: string]: string } = {};
+  const sourceMap: { [key: string]: string } = {};
 
   try {
     const configContents = fs.readFileSync(configPath, 'utf8');
-    const config = yaml.load(configContents) as Config;
+    const config = loadYaml(configContents) as Config;
     if (config && config.feeds) {
       config.feeds.forEach((feed) => {
         sourceMap[feed.source_id] = feed.name;
@@ -82,14 +82,14 @@ export function getAllEntries(): Entry[] {
   allFiles.forEach((fullPath) => {
     try {
       const fileContents = fs.readFileSync(fullPath, 'utf8');
-      const data = yaml.load(fileContents) as YamlData;
+      const data = loadYaml(fileContents) as YamlData;
       const sourceId = path.basename(fullPath, '.yaml');
       const sourceName = sourceMap[sourceId] || sourceId;
 
       if (data && data.entries) {
         Object.values(data.entries).forEach((entry) => {
           allEntries.push({
-            ...(keysToCamelCase(entry as any) as any),
+            ...(keysToCamelCase(entry) as unknown as Omit<Entry, 'sourceId' | 'sourceName'>),
             sourceId: sourceId,
             sourceName: sourceName,
           });
@@ -106,11 +106,11 @@ export function getAllEntries(): Entry[] {
 
 export function getEntriesByDate(year: string, month: string, day: string): Entry[] {
   const configPath = path.join(process.cwd(), '.github/scripts/config.yaml');
-  let sourceMap: { [key: string]: string } = {};
+  const sourceMap: { [key: string]: string } = {};
 
   try {
     const configContents = fs.readFileSync(configPath, 'utf8');
-    const config = yaml.load(configContents) as Config;
+    const config = loadYaml(configContents) as Config;
     if (config && config.feeds) {
       config.feeds.forEach((feed) => {
         sourceMap[feed.source_id] = feed.name;
@@ -132,14 +132,14 @@ export function getEntriesByDate(year: string, month: string, day: string): Entr
     const fullPath = path.join(targetDir, file);
     try {
       const fileContents = fs.readFileSync(fullPath, 'utf8');
-      const data = yaml.load(fileContents) as YamlData;
+      const data = loadYaml(fileContents) as YamlData;
       const sourceId = path.basename(file, '.yaml');
       const sourceName = sourceMap[sourceId] || sourceId;
 
       if (data && data.entries) {
         Object.values(data.entries).forEach((entry) => {
           entries.push({
-            ...(keysToCamelCase(entry as any) as any),
+            ...(keysToCamelCase(entry) as unknown as Omit<Entry, 'sourceId' | 'sourceName'>),
             sourceId: sourceId,
             sourceName: sourceName,
           });
@@ -192,7 +192,7 @@ export function getDailySummary(year: string, month: string, day: string): Daily
 
   try {
     const fileContents = fs.readFileSync(summaryPath, 'utf8');
-    const data = yaml.load(fileContents) as DailySummaryYaml;
+    const data = loadYaml(fileContents) as DailySummaryYaml;
 
     const overview = data?.overview?.trim();
     if (!overview) {
@@ -217,15 +217,21 @@ export function getAllDates(): { year: string; month: string; day: string }[] {
   const dates: { year: string; month: string; day: string }[] = [];
   if (!fs.existsSync(dataDirectory)) return dates;
 
-  const years = fs.readdirSync(dataDirectory).filter((f) => fs.statSync(path.join(dataDirectory, f)).isDirectory());
+  const years = fs
+    .readdirSync(dataDirectory)
+    .filter((f) => fs.statSync(path.join(dataDirectory, f)).isDirectory());
 
   years.forEach((year) => {
     const yearDir = path.join(dataDirectory, year);
-    const months = fs.readdirSync(yearDir).filter((f) => fs.statSync(path.join(yearDir, f)).isDirectory());
+    const months = fs
+      .readdirSync(yearDir)
+      .filter((f) => fs.statSync(path.join(yearDir, f)).isDirectory());
 
     months.forEach((month) => {
       const monthDir = path.join(yearDir, month);
-      const days = fs.readdirSync(monthDir).filter((f) => fs.statSync(path.join(monthDir, f)).isDirectory());
+      const days = fs
+        .readdirSync(monthDir)
+        .filter((f) => fs.statSync(path.join(monthDir, f)).isDirectory());
 
       days.forEach((dayDir) => {
         // dayDir is in format YYYY-MM-DD

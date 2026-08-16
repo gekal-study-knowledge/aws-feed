@@ -15,11 +15,11 @@ export async function GET(request: Request, { params }: Props) {
   try {
     const { year, month, day } = await params;
     const entries = getEntriesByDate(year, month, day);
-    
+
     if (entries.length === 0) {
       return NextResponse.json({ error: 'Not Found' }, { status: 404 });
     }
-    
+
     return NextResponse.json(entries);
   } catch (error) {
     console.error('API Error:', error);
