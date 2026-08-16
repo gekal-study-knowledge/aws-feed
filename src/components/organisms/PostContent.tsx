@@ -35,23 +35,22 @@ const createBadge = (doc: Document): HTMLSpanElement => {
   return badge;
 };
 
-// 前回訪問時点で既に取得済みだったエントリー用の「確認済み」マーカー
+// 前回訪問時点で既に取得済みだったエントリー用の「確認済み」マーカー。
+// ページ単位の既読アイコン（VisitedIcon の CheckCircleIcon）と見た目を揃え、
+// 緑のチェックマークアイコンで表示する。
 const createConfirmedBadge = (doc: Document): HTMLSpanElement => {
   const badge = doc.createElement('span');
   badge.className = 'confirmed-entry-badge';
-  badge.textContent = '確認済み';
+  badge.setAttribute('title', '確認済み');
+  badge.setAttribute('aria-label', '確認済み');
+  badge.innerHTML =
+    '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>';
   Object.assign(badge.style, {
-    display: 'inline-block',
-    background: 'transparent',
+    display: 'inline-flex',
+    alignItems: 'center',
     color: '#2e7d32',
-    border: '1px solid #2e7d32',
-    fontSize: '0.6em',
-    fontWeight: '700',
-    padding: '1px 8px',
-    borderRadius: '4px',
     marginLeft: '10px',
     verticalAlign: 'middle',
-    letterSpacing: '0.05em',
   });
   return badge;
 };
