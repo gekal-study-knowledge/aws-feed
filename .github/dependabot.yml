@@ -1,0 +1,87 @@
+version: 2
+
+updates:
+  # ---------------------------------------------------------------
+  # npm (ルートの package.json / package-lock.json)
+  # ---------------------------------------------------------------
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: daily
+      time: '03:00'
+      timezone: Asia/Tokyo
+    open-pull-requests-limit: 10
+    labels:
+      - dependencies
+      - npm
+    commit-message:
+      prefix: chore
+      prefix-development: chore
+      include: scope
+    groups:
+      # Next.js / React はまとめて上げないと型が噛み合わないため 1 PR に集約
+      nextjs-ecosystem:
+        patterns:
+          - 'next'
+          - '@next/*'
+          - 'react'
+          - 'react-dom'
+          - '@types/react'
+          - '@types/react-dom'
+      # MUI と Emotion は依存関係が連動するので同じグループ
+      mui:
+        patterns:
+          - '@mui/*'
+          - '@emotion/*'
+      # 上記以外の本番依存
+      production-dependencies:
+        dependency-type: production
+        update-types:
+          - minor
+          - patch
+      # 開発依存（lint / format / 型まわり）
+      development-dependencies:
+        dependency-type: development
+
+  # ---------------------------------------------------------------
+  # pip (フィード取得スクリプトの依存)
+  # ---------------------------------------------------------------
+  - package-ecosystem: pip
+    directory: '/.github/scripts'
+    schedule:
+      interval: daily
+      time: '03:00'
+      timezone: Asia/Tokyo
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - python
+    commit-message:
+      prefix: chore
+      include: scope
+    groups:
+      python-dependencies:
+        patterns:
+          - '*'
+
+  # ---------------------------------------------------------------
+  # GitHub Actions (.github/workflows/*.yml で使う action)
+  # ---------------------------------------------------------------
+  - package-ecosystem: github-actions
+    directory: '/'
+    schedule:
+      interval: weekly
+      day: monday
+      time: '03:00'
+      timezone: Asia/Tokyo
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - github-actions
+    commit-message:
+      prefix: chore
+      include: scope
+    groups:
+      github-actions:
+        patterns:
+          - '*'
