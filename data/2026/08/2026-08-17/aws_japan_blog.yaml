@@ -1,0 +1,16 @@
+"entries":
+  "b85df38077939cd70c71608c21ce301d":
+    "id": "b85df38077939cd70c71608c21ce301d"
+    "title": "【開催報告】Amazon Quick ではじめるデータドリブン実践ワークショップ in 大阪"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-business-innovation-series-west-japan-03-20260729/"
+    "published": "2026-08-17 11:41:40"
+    "fetched": "2026-08-17 11:55:20"
+    "summary": "こんにちは。アマゾン ウェブ サービス ジャパン合同会社 ソリューションアーキテクトの辻林です。2026 年 7 月 29 日に、大阪オフィスにて「AWS Business Innovation Series - West Japan」の第 3 回を開催いたしました。本シリーズは、西日本のお客様のデジタル変革を加速することを目的に、生成 AI を活用した実践的なプログラムを約 3 ヶ月に 1 回のペースでお届けしているものです。ご参加いただいた皆様に、改めて御礼申し上げます。 本ブログでは、イベントの背景や当日の様子、参加者の皆様からいただいた声をお届けいたします。"
+  "9dfd1ac603cc9515cd97dc3e90bfa021":
+    "id": "9dfd1ac603cc9515cd97dc3e90bfa021"
+    "title": "どの Kiro アプリを選べばいい？"
+    "link": "https://aws.amazon.com/jp/blogs/news/which-kiro-app-should-i-pick/"
+    "published": "2026-08-17 10:30:58"
+    "fetched": "2026-08-17 11:55:20"
+    "summary": "Kiro は IDE、CLI、Web、Mobile、Kiro Crew という複数のアプリとして提供されるソフトウェアエンジニアリングエージェントです。これらは ACP（Agent Client Protocol）を介して単一のエージェントハーネスに接続する「玄関口」であり、どれかを選ぶのではなく作業や場面に応じて使い分けるのが正解です。本記事では、各アプリの特徴と成熟度、そして「今この瞬間に選ぶべきアプリ」を判断するためのフレームワークを解説します。"
+"last_updated": "2026-08-17 11:55:20 JST"
