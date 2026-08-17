@@ -6,4 +6,11 @@
     "published": "2026-08-18 01:19:56"
     "fetched": "2026-08-18 01:21:41"
     "summary": "Give an autonomous agent a wallet and spending guardrails so it can pay for paywalled APIs, MCP servers, and web content. This post connects OpenClaw to Amazon Bedrock AgentCore payments and the x402 protocol, using the aws-agents-pay plugin to make bounded, human-approved testnet payments."
-"last_updated": "2026-08-18 01:21:41 JST"
+  "c26bc3dcf40b13080bdd317ff151709d":
+    "id": "c26bc3dcf40b13080bdd317ff151709d"
+    "title": "NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart"
+    "link": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/"
+    "published": "2026-08-18 03:06:33"
+    "fetched": "2026-08-18 03:32:15"
+    "summary": "NVIDIA Nemotron 3.5 Lightning, an open model built for high-volume agentic workloads, is now available in Amazon SageMaker JumpStart. This post shows how to deploy the 30B Mixture-of-Experts model (3B active), which delivers up to 4x higher throughput and up to 30% faster task completion for always-on agents."
+"last_updated": "2026-08-18 03:32:15 JST"
