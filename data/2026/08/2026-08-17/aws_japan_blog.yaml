@@ -34,4 +34,11 @@
     "published": "2026-08-17 15:45:33"
     "fetched": "2026-08-17 16:48:13"
     "summary": "みなさん、こんにちは。ソリューションアーキテクトの松永です。8 月に入り各地で猛暑が続いていますね。工場の現場 […]"
-"last_updated": "2026-08-17 16:48:13 JST"
+  "9e787ce043b534deee8a76a9f604ac5b":
+    "id": "9e787ce043b534deee8a76a9f604ac5b"
+    "title": "週刊AWS – 2026/8/10週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260810/"
+    "published": "2026-08-17 17:36:51"
+    "fetched": "2026-08-17 17:37:17"
+    "summary": "AWS Identity and Access Management が account access manager によるワークフォースユーザーへの IAM ロール割り当てを提供開始、Amazon Quick が Microsoft Purview によるデータ損失防止に対応、AWS IAM がロールマネージャーを提供、IAM ロールを自動でセットアップ可能に、Amazon S3 がアクセス拒否エラーメッセージにポリシーの詳細情報を追加、AWS Billing and Cost Management が Managed Dashboards を発表　など"
+"last_updated": "2026-08-17 17:37:17 JST"
