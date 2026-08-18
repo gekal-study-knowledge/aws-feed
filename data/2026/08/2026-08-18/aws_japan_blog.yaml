@@ -6,4 +6,11 @@
     "published": "2026-08-18 10:11:48"
     "fetched": "2026-08-18 11:17:18"
     "summary": "AWS Certificate Manager (ACM) は、CA/B フォーラムによる業界全体での E メールベースのドメイン検証の廃止に合わせ、2027 年 9 月 30 日までに E メール検証済みパブリック証明書のサポートを終了します。本記事では、変更のタイムライン、コンソールや AWS CLI を使用した対象証明書の特定方法、証明書の ARN を変えずに DNS 検証へそのまま移行できる手順を紹介します。"
-"last_updated": "2026-08-18 11:17:18 JST"
+  "78c988c635d07d6f709130b6cbaee8f2":
+    "id": "78c988c635d07d6f709130b6cbaee8f2"
+    "title": "AWS Bedrock LLM Day Japan【開催報告】"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-bedrock-llm-day-japan%E3%80%90%E9%96%8B%E5%82%AC%E5%A0%B1%E5%91%8A%E3%80%91/"
+    "published": "2026-08-18 12:07:40"
+    "fetched": "2026-08-18 12:40:06"
+    "summary": "Amazon Bedrock は、Anthropic や OpenAI をはじめとする主要モデルからオープンウ […]"
+"last_updated": "2026-08-18 12:40:06 JST"

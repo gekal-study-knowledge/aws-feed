@@ -55,4 +55,11 @@
     "published": "2026-08-17 17:38:57"
     "fetched": "2026-08-17 18:36:00"
     "summary": "みなさん、こんにちは。AWS ソリューションアーキテクトの三厨です。 Kiro が公開から 1 周年を迎えまし […]"
-"last_updated": "2026-08-17 18:36:00 JST"
+  "2388cc06c01c094665a237758009bb40":
+    "id": "2388cc06c01c094665a237758009bb40"
+    "title": "Amazon Aurora MySQL から Amazon S3 Tables に Apache Iceberg 形式でデータを抽出する"
+    "link": "https://aws.amazon.com/jp/blogs/news/extract-data-from-amazon-aurora-mysql-to-amazon-s3-tables-in-apache-iceberg-format/"
+    "published": "2026-08-17 13:20:22"
+    "fetched": "2026-08-18 12:40:06"
+    "summary": "Amazon Aurora MySQL Serverless v2 のデータを AWS Glue 5.0 で Amazon S3 Tables に Apache Iceberg 形式で抽出する方法を紹介します。CloudFormation テンプレートによるインフラの自動プロビジョニングからデータ移行、Amazon Athena でのクエリまでの手順を解説します。"
+"last_updated": "2026-08-18 12:40:06 JST"
