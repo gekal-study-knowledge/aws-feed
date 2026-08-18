@@ -1,0 +1,9 @@
+"entries":
+  "564b11956142fd6affae665d0ffed10a":
+    "id": "564b11956142fd6affae665d0ffed10a"
+    "title": "Oracle Database@AWS 移行に向けてアプリケーションの SQL*Net レイテンシーを把握する"
+    "link": "https://aws.amazon.com/jp/blogs/news/characterizing-sqlnet-latency-in-your-application-for-oracle-databaseaws-migrations/"
+    "published": "2026-08-19 06:54:07"
+    "fetched": "2026-08-19 07:18:09"
+    "summary": "Oracle Database@AWS への移行では、ワークロードが SQL*Net レイテンシーの増加に敏感かどうかの見極めが重要です。本記事では AWR、Active Session History、SQL Trace を使い、3 つのフェーズで感度を段階的に絞り込む CRET 手法を紹介します。移行前にレイテンシー増加の影響を定量化でき、接続とデプロイの考慮事項も解説します。"
+"last_updated": "2026-08-19 07:18:09 JST"
