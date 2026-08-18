@@ -1,0 +1,9 @@
+"entries":
+  "52b6ca92af478c5b64f8082686c57f15":
+    "id": "52b6ca92af478c5b64f8082686c57f15"
+    "title": "AWS Certificate Manager が E メールによるドメイン検証を終了、DNS 検証への移行をご案内します"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-certificate-manager-will-discontinue-email-validation-to-prove-domain-validation-for-certificates/"
+    "published": "2026-08-18 10:11:48"
+    "fetched": "2026-08-18 11:17:18"
+    "summary": "AWS Certificate Manager (ACM) は、CA/B フォーラムによる業界全体での E メールベースのドメイン検証の廃止に合わせ、2027 年 9 月 30 日までに E メール検証済みパブリック証明書のサポートを終了します。本記事では、変更のタイムライン、コンソールや AWS CLI を使用した対象証明書の特定方法、証明書の ARN を変えずに DNS 検証へそのまま移行できる手順を紹介します。"
+"last_updated": "2026-08-18 11:17:18 JST"
