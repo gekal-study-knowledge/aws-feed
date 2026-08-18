@@ -34,4 +34,11 @@
     "published": "2026-08-19 01:27:07"
     "fetched": "2026-08-19 02:22:07"
     "summary": "Learn how Axonius, a cybersecurity SaaS provider, used Amazon Bedrock AgentCore to deploy fully isolated, multi-tenant AI agents across hundreds of customer environments, without building custom compute isolation, authentication, or observability infrastructure from scratch."
-"last_updated": "2026-08-19 02:22:07 JST"
+  "722caa0ee2e58533258b631a12de60a9":
+    "id": "722caa0ee2e58533258b631a12de60a9"
+    "title": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale"
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/"
+    "published": "2026-08-19 03:56:14"
+    "fetched": "2026-08-19 04:23:42"
+    "summary": "Amazon Bedrock AgentCore payments is now generally available, enabling AI agents to autonomously transact at scale with built-in spending guardrails, protocol-agnostic payment orchestration, and production-ready observability."
+"last_updated": "2026-08-19 04:23:42 JST"
