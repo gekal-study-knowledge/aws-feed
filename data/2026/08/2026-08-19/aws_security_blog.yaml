@@ -6,4 +6,11 @@
     "published": "2026-08-19 02:04:28"
     "fetched": "2026-08-19 02:22:05"
     "summary": "Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners delivered theater talks and ten were featured on SecurityLive streaming. We hosted […]"
-"last_updated": "2026-08-19 02:22:05 JST"
+  "a25430fd42bc10b0d0c72ca06319b20c":
+    "id": "a25430fd42bc10b0d0c72ca06319b20c"
+    "title": "Implement custom authentication for tools integration using request Lambda interceptor in AgentCore Gateway"
+    "link": "https://aws.amazon.com/blogs/security/implement-custom-authentication-for-tools-integration-using-request-lambda-interceptor-in-agentcore-gateway/"
+    "published": "2026-08-19 05:46:26"
+    "fetched": "2026-08-19 06:19:11"
+    "summary": "When deploying AI agents with Amazon Bedrock AgentCore, organizations benefit from built-in modern support for OAuth 2.0, AWS Identity and Access Management (IAM), and API key authentication through Amazon Bedrock AgentCore Gateway. However, some enterprise environments still use legacy authentication mechanisms such as HTTP Basic Authentication (Basic Auth) (RFC 7617). The extensible architecture of AgentCore […]"
+"last_updated": "2026-08-19 06:19:11 JST"
