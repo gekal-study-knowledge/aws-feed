@@ -1,0 +1,9 @@
+"entries":
+  "338fc930175cd4d44476b52a01f754a4":
+    "id": "338fc930175cd4d44476b52a01f754a4"
+    "title": "Consistency is the new latency: AI at the data layer"
+    "link": "https://aws.amazon.com/blogs/architecture/consistency-is-the-new-latency-ai-at-the-data-layer/"
+    "published": "2026-08-18 20:13:20"
+    "fetched": "2026-08-18 20:20:42"
+    "summary": "As AI agents move from chatbots to taking action, their reliability depends on the consistency of the data layer beneath them. This post examines how replication lag poisons an agent's context and shows how to match Amazon Aurora, Amazon DynamoDB, and Amazon Keyspaces replication models to each task's consistency requirements."
+"last_updated": "2026-08-18 20:20:42 JST"
