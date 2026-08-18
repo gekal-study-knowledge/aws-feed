@@ -1,0 +1,37 @@
+"entries":
+  "61ae96cd4bf605e5cfc59c992e17a691":
+    "id": "61ae96cd4bf605e5cfc59c992e17a691"
+    "title": "Customize Amazon Quick embedded chat into your application"
+    "link": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-quick-embedded-chat-into-your-application/"
+    "published": "2026-08-19 02:13:13"
+    "fetched": "2026-08-19 02:22:07"
+    "summary": "Amazon Quick embedded chat brings a conversational AI interface into your web application. This post walks through customizing the embedded chat with container and SDK styling, branding removal, and a custom agent persona so it matches your brand's look, feel, and voice."
+  "437c5ddce5843109456219ac5a6d147c":
+    "id": "437c5ddce5843109456219ac5a6d147c"
+    "title": "Implement vector-prompt document classification using Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/"
+    "published": "2026-08-19 02:10:37"
+    "fetched": "2026-08-19 02:22:07"
+    "summary": "Learn how to build a multi-agent document classification solution on Amazon Bedrock using the Strands Agents SDK. Three specialized agents combine textual analysis with Claude Haiku 4.5 and visual similarity search with Amazon Titan Multimodal Embeddings to accurately classify insurance documents such as policies and affidavits."
+  "05dc1249cc4bb744bc6f39f7347a7953":
+    "id": "05dc1249cc4bb744bc6f39f7347a7953"
+    "title": "How Jumio built a real-time feature store on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-jumio-built-a-real-time-feature-store-on-aws/"
+    "published": "2026-08-19 02:05:48"
+    "fetched": "2026-08-19 02:22:07"
+    "summary": "Learn how Jumio built a centralized, real-time feature store on AWS with Amazon SageMaker Feature Store, Amazon Managed Service for Apache Flink, and Amazon Kinesis Data Streams. The architecture delivers sub-100ms feature serving for fraud detection and saves approximately $120,000 annually."
+  "6fcfdc1cce2db3ef6b2aa207f16dd552":
+    "id": "6fcfdc1cce2db3ef6b2aa207f16dd552"
+    "title": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/"
+    "published": "2026-08-19 02:02:52"
+    "fetched": "2026-08-19 02:22:07"
+    "summary": "In this post, we describe how AIDA works at a high level and how it helps address these challenges — grounding users in the right contracts, under the right legal context, and within the right access boundaries. Specifically, we explore how AIDA uses implicit and explicit filtering, along with metadata-enriched chunking in Amazon Bedrock Knowledge Bases, to dramatically improve contract search accuracy."
+  "1021e29e3fa45b713ecf592781e2536e":
+    "id": "1021e29e3fa45b713ecf592781e2536e"
+    "title": "How Axonius built secure multi-tenant AI agents on Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/"
+    "published": "2026-08-19 01:27:07"
+    "fetched": "2026-08-19 02:22:07"
+    "summary": "Learn how Axonius, a cybersecurity SaaS provider, used Amazon Bedrock AgentCore to deploy fully isolated, multi-tenant AI agents across hundreds of customer environments, without building custom compute isolation, authentication, or observability infrastructure from scratch."
+"last_updated": "2026-08-19 02:22:07 JST"
