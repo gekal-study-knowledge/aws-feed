@@ -13,4 +13,11 @@
     "published": "2026-08-18 12:07:40"
     "fetched": "2026-08-18 12:40:06"
     "summary": "Amazon Bedrock は、Anthropic や OpenAI をはじめとする主要モデルからオープンウ […]"
-"last_updated": "2026-08-18 12:40:06 JST"
+  "036bc44b330d1e6d82bfa2d7714c1dc8":
+    "id": "036bc44b330d1e6d82bfa2d7714c1dc8"
+    "title": "【開催報告】AWS Summit Japan 2026 レポート：SUMCO が挑む、Amazon Redshift × 生成 AI による半導体ウェーハ製造 DX"
+    "link": "https://aws.amazon.com/jp/blogs/news/sumco-redshift-generative-ai-semiconductor-wafer-dx/"
+    "published": "2026-08-18 16:23:15"
+    "fetched": "2026-08-18 16:34:05"
+    "summary": "本記事は 2026 年 6 月 25 日から 26 日に幕張メッセで開催された AWS Summit Japan 2026 の開催報告です。AWS for Industries Zone に出展した株式会社 SUMCO のブース展示 「Amazon Redshift × 生成 AI で挑む 半導体ウェーハメーカーの DX」 の内容を、SUMCO と AWS が共同で振り返ります。"
+"last_updated": "2026-08-18 16:34:05 JST"
