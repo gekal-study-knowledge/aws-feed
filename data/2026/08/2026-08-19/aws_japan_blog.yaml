@@ -48,4 +48,11 @@
     "published": "2026-08-19 14:31:52"
     "fetched": "2026-08-19 15:36:08"
     "summary": "AWS Security Hub Extended に 10 番目のカテゴリとしてサプライチェーンセキュリティが加わりました。厳選されたパートナーである Chainguard と Socket により、オープンソースの依存関係の来歴検証と悪意あるパッケージのブロックを実現します。検出結果は OCSF 形式で Security Hub に集約され、従量制料金とプライベートオファーで柔軟に導入できます。23 パートナー、10 カテゴリへの拡大と今後の展望を紹介します。"
-"last_updated": "2026-08-19 15:36:08 JST"
+  "a1306fc5c954cdf0da7bb58b1373ea69":
+    "id": "a1306fc5c954cdf0da7bb58b1373ea69"
+    "title": "Agentic AI でつなぐモノ・サービスの改善サイクル 〜 蓄積する運用フェーズのデータを Amazon Quick で次の開発に活用する方法を学ぼう"
+    "link": "https://aws.amazon.com/jp/blogs/news/smart-products-ai-sdlc-operation/"
+    "published": "2026-08-19 21:03:50"
+    "fetched": "2026-08-19 21:37:35"
+    "summary": "モノやサービスが生まれる現場では、開発から運用に至るさまざまなフェーズで、日々多くのデータが生まれています。か […]"
+"last_updated": "2026-08-19 21:37:35 JST"

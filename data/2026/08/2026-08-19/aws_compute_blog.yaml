@@ -1,0 +1,9 @@
+"entries":
+  "8c1eda8ba0823c5041209be4814c5b80":
+    "id": "8c1eda8ba0823c5041209be4814c5b80"
+    "title": "Set up your AI coding agent to build with AWS Step Functions"
+    "link": "https://aws.amazon.com/blogs/compute/set-up-your-ai-coding-agent-to-build-with-aws-step-functions/"
+    "published": "2026-08-19 20:41:31"
+    "fetched": "2026-08-19 21:37:37"
+    "summary": "AWS Step Functions has added a Copy agent prompt button to the console that configures your AI coding agent with Step Functions skills and an MCP server in one step. Paste the prompt into Claude Code, Kiro CLI, Cursor, or any MCP-compatible agent and start building workflows with natural language."
+"last_updated": "2026-08-19 21:37:37 JST"
