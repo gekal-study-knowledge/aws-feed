@@ -6,4 +6,11 @@
     "published": "2026-08-19 22:11:51"
     "fetched": "2026-08-19 22:39:56"
     "summary": "AI agents built on Amazon Bedrock AgentCore help clinical trial teams make fast, accurate enrollment decisions while keeping clinicians in control. This post shows how to architect an eligibility and safety screening agent using AWS HealthLake, AgentCore, and AgentCore Evaluations."
-"last_updated": "2026-08-19 22:39:56 JST"
+  "3200bdfcf546c419269518e86a43784f":
+    "id": "3200bdfcf546c419269518e86a43784f"
+    "title": "How Clario technology detects PHI/PII in DICOM images using Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/architecture/how-clario-automates-phi-pii-detection-in-dicom-images-using-amazon-bedrock/"
+    "published": "2026-08-19 23:29:31"
+    "fetched": "2026-08-20 00:26:13"
+    "summary": "Clario, part of Thermo Fisher Scientific, uses Amazon Bedrock and Amazon Textract to automatically detect protected health information (PHI) and personally identifiable information (PII) across thousands of DICOM image slices in clinical trials, covering both metadata tags and text burned into the image pixels."
+"last_updated": "2026-08-20 00:26:13 JST"
