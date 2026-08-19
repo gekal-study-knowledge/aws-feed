@@ -1,0 +1,9 @@
+"entries":
+  "3ae2d5c1d761d3bf7c5263ddf58616a8":
+    "id": "3ae2d5c1d761d3bf7c5263ddf58616a8"
+    "title": "Propagate user authorization context in AI agents with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/security/propagate-user-authorization-context-in-ai-agents-with-amazon-bedrock-agentcore/"
+    "published": "2026-08-20 02:24:15"
+    "fetched": "2026-08-20 03:28:06"
+    "summary": "Many teams now deploy AI agents that pull from Amazon DynamoDB tables, document repositories, software as a service (SaaS) platforms, and internal knowledge bases to answer questions and automate workflows. A key risk in these deployments is that the agent has no awareness of who’s asking, so it might return data the user shouldn’t see. […]"
+"last_updated": "2026-08-20 03:28:06 JST"
