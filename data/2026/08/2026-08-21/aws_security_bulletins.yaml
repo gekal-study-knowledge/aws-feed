@@ -1,0 +1,9 @@
+"entries":
+  "253cdeac732ac99a6336db5216f93f94":
+    "id": "253cdeac732ac99a6336db5216f93f94"
+    "title": "CVE-2026-75910 - Issue with Athena Federated Query Clickhouse Connector"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-084-aws/"
+    "published": "2026-08-21 05:12:14"
+    "fetched": "2026-08-21 05:22:37"
+    "summary": "<p><b>Bulletin ID:</b> 2026-084-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/20/2026 13:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon Athena is a serverless, interactive query service that lets you analyze data directly in Amazon S3 using standard SQL. Athena Query Federation is a feature that allows you to connect to data sources outside of Amazon S3 like DynamoDB, Azure Synapse, and custom connectors using standard SQL syntax. These connectors are open source and deployed to the Athena service on a regular basis. We identified CVE-2026-75910. Incorrect privilege assignment in the ClickHouse connector deployment template before the v2026.17.1 release could allow an authenticated remote user to read arbitrary AWS Secrets Manager secrets in the deploying account by pointing the connector's connection string at an unrelated secret and at a database endpoint under the user's control, causing the connector to transmit the secret to that endpoint.</p> \n<p><b>Impacted versions:</b> &lt; V2026.17.1</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-08-21 05:22:37 JST"

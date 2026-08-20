@@ -1,0 +1,9 @@
+"entries":
+  "df6f92f642e57a1979a3cf014e78c97d":
+    "id": "df6f92f642e57a1979a3cf014e78c97d"
+    "title": "Amazon Linux default SSM parameter will now track the latest kernel"
+    "link": "https://aws.amazon.com/blogs/compute/amazon-linux-default-ssm-parameter-will-now-track-the-latest-kernel/"
+    "published": "2026-08-21 04:49:05"
+    "fetched": "2026-08-21 05:22:38"
+    "summary": "The Amazon Linux kernel-default SSM parameter now updates to point to the latest kernel version as new releases become available. This post explains what this means for your workloads and how to manage the transition."
+"last_updated": "2026-08-21 05:22:38 JST"
