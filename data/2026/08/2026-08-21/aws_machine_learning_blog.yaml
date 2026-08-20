@@ -1,0 +1,9 @@
+"entries":
+  "b628a70f8e2bd208ad12fa6ff01847a2":
+    "id": "b628a70f8e2bd208ad12fa6ff01847a2"
+    "title": "Build intelligent security for healthcare APIs with Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-intelligent-security-for-healthcare-apis-with-amazon-bedrock/"
+    "published": "2026-08-21 00:20:03"
+    "fetched": "2026-08-21 00:28:40"
+    "summary": "Learn how to add context-aware security monitoring to FHIR APIs using Amazon Bedrock. This post shows how to detect anomalous access patterns, classify data sensitivity automatically, and generate compliance reports in natural language, all without adding latency to clinical workflows."
+"last_updated": "2026-08-21 00:28:40 JST"
