@@ -1,0 +1,9 @@
+"entries":
+  "38e480309a0173f6684cf4369492d763":
+    "id": "38e480309a0173f6684cf4369492d763"
+    "title": "AWS Network Firewall now supports rule hit count"
+    "link": "https://aws.amazon.com/blogs/security/aws-network-firewall-now-supports-rule-hit-count/"
+    "published": "2026-08-21 03:40:20"
+    "fetched": "2026-08-21 04:27:09"
+    "summary": "As firewall rule sets grow in complexity, security teams face a common challenge: manual log analysis is used to determine which rules are actively matching traffic and which are consuming capacity without being triggered. This lack of visibility creates operational and compliance gaps. Organizations with governance policies that require removal of dormant rules after a […]"
+"last_updated": "2026-08-21 04:27:09 JST"
