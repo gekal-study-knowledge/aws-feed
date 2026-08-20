@@ -1,0 +1,9 @@
+"entries":
+  "aebbc2652d510cf5cdf691ac63da1951":
+    "id": "aebbc2652d510cf5cdf691ac63da1951"
+    "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 1"
+    "link": "https://aws.amazon.com/blogs/architecture/how-agentflo-built-ai-sales-agents-with-amazon-bedrock-agentcore-part-1/"
+    "published": "2026-08-20 09:32:52"
+    "fetched": "2026-08-20 09:59:40"
+    "summary": "Learn how AgentFlo built always-on AI sales agents on Amazon Bedrock AgentCore and the Strands Agents SDK. Part 1 covers three pillars of production-grade agents—velocity, standardization, and scalability—including recipe-based deployment, tool routing through AgentCore Gateway, and elastic, stateful commerce conversations."
+"last_updated": "2026-08-20 09:59:40 JST"
