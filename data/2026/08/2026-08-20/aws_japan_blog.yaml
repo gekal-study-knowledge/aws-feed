@@ -55,4 +55,11 @@
     "published": "2026-08-20 16:56:31"
     "fetched": "2026-08-20 17:32:33"
     "summary": "2026 年8 月 10 日週、OpenSearch と Valkey のチームはソウルを訪問し、Open S […]"
-"last_updated": "2026-08-20 17:32:33 JST"
+  "e4756f3f172f330fa93b794ca9845302":
+    "id": "e4756f3f172f330fa93b794ca9845302"
+    "title": "Kite、AWS HealthOmics を活用し細胞治療研究向けのスケーラブルなバイオインフォマティクスを推進"
+    "link": "https://aws.amazon.com/jp/blogs/news/kite-advances-scalable-bioinformatics-for-cell-therapy-research-in-collaboration-with-aws-healthomics/"
+    "published": "2026-08-20 17:45:03"
+    "fetched": "2026-08-20 18:29:04"
+    "summary": "Gilead 傘下の Kite は、プロジェクトごとに分断されていたバイオインフォマティクスのワークフローを、AWS HealthOmics を軸にした標準化されたクラウド基盤へ移行しました。本記事では、オンプレミスのシーケンサーから電子実験ノート (ELN) を入口にしたワークフロー実行までを自動化したイベント駆動アーキテクチャと、その設計上の判断を紹介します。18 か月以上の本番稼働で 20 個のワークフローを運用し、100 名を超える研究者が ELN からバイオインフォマティクスワークフローを利用できるようになりました。"
+"last_updated": "2026-08-20 18:29:04 JST"
