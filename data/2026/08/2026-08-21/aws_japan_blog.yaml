@@ -1,0 +1,9 @@
+"entries":
+  "38057fee97bbda780ab916d386d9665e":
+    "id": "38057fee97bbda780ab916d386d9665e"
+    "title": "Oracle Database 26ai での自然言語クエリ: Amazon Bedrock を使った Amazon RDS for Oracle での Select AI 入門"
+    "link": "https://aws.amazon.com/jp/blogs/news/natural-language-queries-on-oracle-database-26ai-getting-started-with-select-ai-on-amazon-rds-for-oracle-with-amazon-bedrock/"
+    "published": "2026-08-21 08:46:54"
+    "fetched": "2026-08-21 10:03:06"
+    "summary": "Amazon RDS for Oracle で Oracle Database 26ai が利用可能になりました。本記事では、Amazon Bedrock の基盤モデルを使って自然言語でリレーショナルデータを照会できる Select AI を取り上げます。VPC インターフェイスエンドポイントと IAM 認証情報の設定から、DBMS_CLOUD_AI プロファイルの作成、合成データの生成、自然言語クエリの実行までを一通り説明します。"
+"last_updated": "2026-08-21 10:03:06 JST"
