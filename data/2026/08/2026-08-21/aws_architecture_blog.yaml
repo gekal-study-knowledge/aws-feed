@@ -1,0 +1,9 @@
+"entries":
+  "25c90048f3c1b556b7e89a8b6de75fe6":
+    "id": "25c90048f3c1b556b7e89a8b6de75fe6"
+    "title": "How AgentFlo built AI sales agents with Amazon Bedrock AgentCore – Part 2"
+    "link": "https://aws.amazon.com/blogs/architecture/how-agentflo-built-ai-sales-agents-with-amazon-bedrock-agentcore-part-2/"
+    "published": "2026-08-21 19:01:18"
+    "fetched": "2026-08-21 19:24:50"
+    "summary": "Part 2: how AgentFlo built trusted, reliable AI sales agents on Amazon Bedrock AgentCore and AWS serverless architecture. Learn the three-layer guardrails, grounded data foundation, and end-to-end observability behind a +12% net revenue uplift, plus what's next for real-time voice and server-side tool execution."
+"last_updated": "2026-08-21 19:24:50 JST"
