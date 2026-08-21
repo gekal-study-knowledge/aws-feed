@@ -48,4 +48,11 @@
     "published": "2026-08-21 15:06:32"
     "fetched": "2026-08-21 15:38:06"
     "summary": "AWS では、AI を活用した新しいソフトウェア開発手法「AI-DLC（AI-Driven Developme […]"
-"last_updated": "2026-08-21 15:38:06 JST"
+  "92cb74f4b79dadf483aaf12a2e3da48b":
+    "id": "92cb74f4b79dadf483aaf12a2e3da48b"
+    "title": "Amazon Aurora DSQL の可観測性の概念と Amazon CloudWatch での活用"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-aurora-dsql-observability-concepts-and-usage-with-amazon-cloudwatch/"
+    "published": "2026-08-21 16:57:18"
+    "fetched": "2026-08-21 17:34:43"
+    "summary": "Amazon Aurora DSQL は Amazon CloudWatch Database Insights による可観測性の強化に対応しました。時間ベースの可観測性モデルとその仕組み (DASH)、そして CloudWatch Database Insights、PromQL、DSQL システム診断 AI スキルを使ってパフォーマンス問題を特定・解決する方法を解説します。"
+"last_updated": "2026-08-21 17:34:43 JST"
