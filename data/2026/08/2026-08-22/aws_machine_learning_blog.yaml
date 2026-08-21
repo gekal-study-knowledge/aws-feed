@@ -1,0 +1,30 @@
+"entries":
+  "b93801d11911e21b633432fa9bd1ec11":
+    "id": "b93801d11911e21b633432fa9bd1ec11"
+    "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours"
+    "link": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/"
+    "published": "2026-08-22 02:06:17"
+    "fetched": "2026-08-22 02:23:47"
+    "summary": "The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the full Bronze-to-Silver-to-Gold data pipeline lifecycle, compressing new-source onboarding from weeks to hours while keeping data governance and compliance controls inline."
+  "06c92423edfd9a92c000f6eaec3e5271":
+    "id": "06c92423edfd9a92c000f6eaec3e5271"
+    "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway"
+    "link": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/"
+    "published": "2026-08-22 02:02:35"
+    "fetched": "2026-08-22 02:23:47"
+    "summary": "Give your AI agents governed, auditable access to enterprise tools without consolidating infrastructure. This post walks through a four-scope maturity model (Connect, Control, Catalog, and Harden) for building a governed tool gateway with Amazon Bedrock AgentCore, advancing only when real governance pain demands it."
+  "bcaf4942547d517ac08bf0c22fb59054":
+    "id": "bcaf4942547d517ac08bf0c22fb59054"
+    "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression"
+    "link": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/"
+    "published": "2026-08-22 01:59:15"
+    "fetched": "2026-08-22 02:23:47"
+    "summary": "Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale. This post describes a query-aware context compression pattern on Amazon Bedrock: after retrieval, a smaller model filters retrieved chunks against the query before the primary model answers, reducing input tokens and cost while preserving answer quality."
+  "9bd55aed099fe51158eb3fb98c68cd8f":
+    "id": "9bd55aed099fe51158eb3fb98c68cd8f"
+    "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/"
+    "published": "2026-08-22 01:57:01"
+    "fetched": "2026-08-22 02:23:47"
+    "summary": "Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageMaker, and AWS Glue that diagnoses in-flight entertainment and connectivity (IFEC) issues across a global fleet, reducing diagnosis time from hours to minutes while maintaining accuracy."
+"last_updated": "2026-08-22 02:23:47 JST"
