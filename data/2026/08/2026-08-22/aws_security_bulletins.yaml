@@ -1,0 +1,9 @@
+"entries":
+  "1bec6dd60ff56cb80094fbba128778ea":
+    "id": "1bec6dd60ff56cb80094fbba128778ea"
+    "title": "Issue with FreeRTOS-Kernel - CVE-2026-77234, CVE-2026-77235, CVE-2026-77236, CVE-2026-77237"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-086-aws/"
+    "published": "2026-08-22 02:59:03"
+    "fetched": "2026-08-22 03:30:20"
+    "summary": "<p><b>Bulletin ID:</b> 2026-086-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/21/2026 10:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>FreeRTOS-Kernel is a real-time operating system kernel for microcontrollers and small microprocessors. AWS identified four issues with FreeRTOS-Kernel, affecting multiple versions.<br /> - CVE-2026-77234: This issue affects configurations that use the FreeRTOS MPU together with software timers; applications that do not use the FreeRTOS MPU are not affected.<br /> - CVE-2026-77235: This issue affects ARM TrustZone (ARMv8-M) configurations; applications that do not use ARM TrustZone secure contexts are not affected.<br /> - CVE-2026-77236: This issue affects ARM TrustZone (ARMv8-M) configurations; applications that do not use ARM TrustZone secure contexts are not affected.<br /> - CVE-2026-77237: This issue affects builds with queue sets enabled; applications built without queue sets are not affected.</p> \n<p><b>Impacted versions:</b><br /> - CVE-2026-77234: &gt;=7.0.0 AND &lt;=11.3.0 (MPU-enabled ports)<br /> - CVE-2026-77235: &gt;=10.2.0 AND &lt;=11.3.0 (ARMv8-M ports with TrustZone + MPU)<br /> - CVE-2026-77236: &gt;=10.2.0 AND &lt;=11.3.0 (ARMv8-M ports with TrustZone)<br /> - CVE-2026-77237: &gt;=7.4.0 AND &lt;=11.3.0 (MPU-enabled ports with configUSE_QUEUE_SETS=1)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-08-22 03:30:20 JST"

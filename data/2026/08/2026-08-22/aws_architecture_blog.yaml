@@ -1,0 +1,9 @@
+"entries":
+  "f8bb9e94e757efc905e51ca3a6b9f4e7":
+    "id": "f8bb9e94e757efc905e51ca3a6b9f4e7"
+    "title": "Build a unified AI agent architecture with DynamoDB and Bedrock"
+    "link": "https://aws.amazon.com/blogs/architecture/build-a-unified-ai-agent-architecture-with-dynamodb-and-bedrock/"
+    "published": "2026-08-22 03:19:23"
+    "fetched": "2026-08-22 03:30:20"
+    "summary": "With native vector search in Amazon DynamoDB, you can store vector embeddings alongside your operational data in a single table. This post shows how to build a unified AI agent architecture where an Amazon Bedrock agent uses one DynamoDB table for both structured lookups and semantic search, with a DynamoDB Streams pipeline that keeps embeddings in sync."
+"last_updated": "2026-08-22 03:30:20 JST"
