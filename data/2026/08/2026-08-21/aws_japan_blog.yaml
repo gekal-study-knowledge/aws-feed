@@ -20,4 +20,11 @@
     "published": "2026-08-21 12:05:09"
     "fetched": "2026-08-21 12:52:21"
     "summary": "AWS Transform の Offline Source 機能を使用して SQL Server データベースを Aurora PostgreSQL へモダナイズする方法を紹介します。DDL ファイルをアップロードするだけで、ネットワーク接続や中間環境のプロビジョニングなしにモダナイゼーションを開始できます。LLM ベースのスキーマ変換、3 層の自動検証、Aurora PostgreSQL へのデプロイ、.NET アプリケーションコードの変換まで、エンドツーエンドのワークフローをステップごとに解説します。"
-"last_updated": "2026-08-21 12:52:21 JST"
+  "8689afb2416ef42d8c5d6945a9a75ac2":
+    "id": "8689afb2416ef42d8c5d6945a9a75ac2"
+    "title": "Amazon S3 Tables による Amazon Redshift システムテーブルの長期保持"
+    "link": "https://aws.amazon.com/jp/blogs/news/long-term-system-tables-retention-in-amazon-redshift-with-amazon-s3-tables/"
+    "published": "2026-08-21 14:02:07"
+    "fetched": "2026-08-21 14:28:08"
+    "summary": "Amazon Redshift システムテーブルと Amazon S3 Tables の統合により、システムテーブルのログデータを Apache Iceberg 形式で自動的に保存し、7 日間の上限を超えて保持期間を設定できます。独自の ETL パイプラインやクラスターリソースを使わずに、長期的なコンプライアンス対応、監査、ウェアハウス横断の可観測性を実現します。本記事では、機能の仕組み、セットアップ手順、代表的なユースケースを解説します。"
+"last_updated": "2026-08-21 14:28:08 JST"
