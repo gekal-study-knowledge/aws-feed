@@ -1,0 +1,23 @@
+"entries":
+  "f8f6d4f68e3c605d07c3d83203e2cba8":
+    "id": "f8f6d4f68e3c605d07c3d83203e2cba8"
+    "title": "Agentic Resource Discovery (ARD): An open specification for agent discovery"
+    "link": "https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/"
+    "published": "2026-08-25 01:22:03"
+    "fetched": "2026-08-25 01:31:50"
+    "summary": "AWS Agent Registry gives your organization a centralized, searchable catalog for agents, tools, and skills. It works with the open Agentic Resource Discovery (ARD) standard to enable cross-environment discovery and governance at scale."
+  "41716d419dd81ca472b39c3e28983bed":
+    "id": "41716d419dd81ca472b39c3e28983bed"
+    "title": "Building a restaurant telephony AI host with Amazon Connect"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/"
+    "published": "2026-08-25 01:13:09"
+    "fetched": "2026-08-25 01:31:50"
+    "summary": "Learn how to build a voice ordering system for restaurants that answers a phone call and takes an order end to end, with no app, no website, and no sign-in. It uses Amazon Connect for telephony, Amazon Connect Agentic Voice for real-time speech, an Amazon Connect AI agent for reasoning, and Amazon Bedrock AgentCore Gateway to reach backend tools through MCP."
+  "6176d3053eb743e999d741637b3c6763":
+    "id": "6176d3053eb743e999d741637b3c6763"
+    "title": "AI-powered metadata correction and harmonization"
+    "link": "https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/"
+    "published": "2026-08-25 00:53:03"
+    "fetched": "2026-08-25 01:31:50"
+    "summary": "Metadata harmonization (standardizing labels, identifiers, and formats so datasets can work together) is still largely manual. This post shows how AI-powered metadata correction works in practice, covering two approaches, human-in-the-loop validation and autonomous agent-driven workflows, plus governance considerations for production deployment."
+"last_updated": "2026-08-25 01:31:50 JST"
