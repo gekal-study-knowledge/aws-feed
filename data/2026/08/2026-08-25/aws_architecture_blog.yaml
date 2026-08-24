@@ -1,0 +1,9 @@
+"entries":
+  "b8e37803496ff779f289511cbcf0604b":
+    "id": "b8e37803496ff779f289511cbcf0604b"
+    "title": "How a global payment processor preserved AWS RAM shares and Lake Formation permissions during an AWS Organizations migration"
+    "link": "https://aws.amazon.com/blogs/architecture/how-a-global-payment-processor-preserved-aws-ram-shares-and-lake-formation-permissions-during-an-aws-organizations-migration/"
+    "published": "2026-08-25 00:23:21"
+    "fetched": "2026-08-25 00:34:28"
+    "summary": "When AWS accounts move between organizations, organization-bound AWS RAM resource shares break and control-plane access is lost. Learn how a global payment processor used temporary bridge shares to preserve AWS Lake Formation permissions across a 382-account AWS Organizations migration, then restored the original shares as the durable source of truth."
+"last_updated": "2026-08-25 00:34:28 JST"
