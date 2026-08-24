@@ -1,0 +1,16 @@
+"entries":
+  "971d9259df85ca45de73a43779779c1c":
+    "id": "971d9259df85ca45de73a43779779c1c"
+    "title": "東京・大阪リージョンから Amazon Bedrock の OpenAI GPT-5.6 を使う：グローバルクロスリージョン推論の仕組みと考慮点"
+    "link": "https://aws.amazon.com/jp/blogs/news/gpt-5-6-global-cross-region-inference-from-japan/"
+    "published": "2026-08-24 11:42:12"
+    "fetched": "2026-08-24 11:58:21"
+    "summary": "Amazon Bedrock の OpenAI GPT-5.6 がクロスリージョン推論に対応し、東京リージョンと大阪リージョンがグローバル推論プロファイルのソースリージョンに含まれました。アプリケーションの接続先を変更することなく既存環境から呼び出せる一方で、推論処理は日本国外のリージョンで行われます。本記事では、その仕組みと、データの所在およびレイテンシの考慮点を整理します。"
+  "a7ce66a3373d94255716e5f9459d8040":
+    "id": "a7ce66a3373d94255716e5f9459d8040"
+    "title": "「行政の進化と革新のための生成AIの調達・利活用に係るガイドライン（第2.0版）」対応 – 調達チェックシート要件へのAWSサンプル回答"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-genai-gov-guidelines-checklist-2/"
+    "published": "2026-08-24 11:12:04"
+    "fetched": "2026-08-24 11:58:21"
+    "summary": "デジタル庁は2026年6月12日、『行政の進化と革新のための生成AIの調達・利活用に係るガイドライン（第2.0 […]"
+"last_updated": "2026-08-24 11:58:21 JST"
