@@ -20,4 +20,11 @@
     "published": "2026-08-25 00:53:03"
     "fetched": "2026-08-25 01:31:50"
     "summary": "Metadata harmonization (standardizing labels, identifiers, and formats so datasets can work together) is still largely manual. This post shows how AI-powered metadata correction works in practice, covering two approaches, human-in-the-loop validation and autonomous agent-driven workflows, plus governance considerations for production deployment."
-"last_updated": "2026-08-25 01:31:50 JST"
+  "d6639b937d14d9cca1cd812042c3c67d":
+    "id": "d6639b937d14d9cca1cd812042c3c67d"
+    "title": "Democratizing institutional knowledge: Building an AI-powered knowledge management system with AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/democratizing-institutional-knowledge-building-an-ai-powered-knowledge-management-system-with-aws/"
+    "published": "2026-08-25 03:59:15"
+    "fetched": "2026-08-25 04:25:05"
+    "summary": "Learn how to build a customizable, smart-caching knowledge management system on AWS that captures and delivers institutional (tribal) knowledge through a voice-first AI avatar. The accelerator uses Amazon Bedrock Knowledge Bases for retrieval-augmented generation and deploys in hours with AWS CloudFormation."
+"last_updated": "2026-08-25 04:25:05 JST"
