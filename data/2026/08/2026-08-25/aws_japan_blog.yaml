@@ -41,4 +41,11 @@
     "published": "2026-08-25 10:52:22"
     "fetched": "2026-08-25 11:53:41"
     "summary": "本ブログは、仰星監査法人様のご協力のもと、株式会社 Sapeet と Amazon Web Services […]"
-"last_updated": "2026-08-25 11:53:41 JST"
+  "086025ae93ed3f3591452e37bf2bbb0a":
+    "id": "086025ae93ed3f3591452e37bf2bbb0a"
+    "title": "ラップトップを閉じても、エージェントは動き続ける。cloud sessions で開発する"
+    "link": "https://aws.amazon.com/jp/blogs/news/cloud-sessions/"
+    "published": "2026-08-25 12:41:20"
+    "fetched": "2026-08-25 12:43:50"
+    "summary": "Kiro の cloud sessions（preview）は、AI エージェントをクラウドのサンドボックスで動かす新機能です。ラップトップを閉じても作業は継続し、CLI、IDE、Web のどのクライアントからでも同じセッションに戻れます。本記事では、EC アプリへの決済 API 追加を題材に、有効化の手順、クラウドプロファイルによるスキル管理、そして Kiro CLI からの起動と再開までを実際の流れに沿って紹介します。"
+"last_updated": "2026-08-25 12:43:50 JST"
