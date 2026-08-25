@@ -48,4 +48,11 @@
     "published": "2026-08-25 12:41:20"
     "fetched": "2026-08-25 12:43:50"
     "summary": "Kiro の cloud sessions（preview）は、AI エージェントをクラウドのサンドボックスで動かす新機能です。ラップトップを閉じても作業は継続し、CLI、IDE、Web のどのクライアントからでも同じセッションに戻れます。本記事では、EC アプリへの決済 API 追加を題材に、有効化の手順、クラウドプロファイルによるスキル管理、そして Kiro CLI からの起動と再開までを実際の流れに沿って紹介します。"
-"last_updated": "2026-08-25 12:43:50 JST"
+  "a5678f67ad3155531a114d6cf6ed24d2":
+    "id": "a5678f67ad3155531a114d6cf6ed24d2"
+    "title": "金融リファレンスアーキテクチャ日本版 v2 リリース"
+    "link": "https://aws.amazon.com/jp/blogs/news/fsi-reference-architecture-jp-v2-release/"
+    "published": "2026-08-25 14:15:10"
+    "fetched": "2026-08-25 14:27:10"
+    "summary": "「金融リファレンスアーキテクチャ日本版」は、2022 年 10 月に v1.0 を公開して以来、多くの金融機関 […]"
+"last_updated": "2026-08-25 14:27:10 JST"
