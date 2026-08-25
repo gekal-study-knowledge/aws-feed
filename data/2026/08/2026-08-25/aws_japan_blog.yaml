@@ -1,0 +1,23 @@
+"entries":
+  "80bd71a99aae90de8bc8c18f62fe183f":
+    "id": "80bd71a99aae90de8bc8c18f62fe183f"
+    "title": "AWS Glue 6.0 が 30% 低価格で利用可能になり、Apache Iceberg v3 が完全にサポートされます"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/"
+    "published": "2026-08-25 09:54:44"
+    "fetched": "2026-08-25 10:01:34"
+    "summary": "2026 年 8 月 21 日、AWS Glue 6.0 の一般提供について発表しました。これにより、価格が以 […]"
+  "c913fb7a35af39152a38dff249cb1273":
+    "id": "c913fb7a35af39152a38dff249cb1273"
+    "title": "新たなスキル証明の方法 ~ マイクロクレデンシャルと AWS 認定の関係性について ~"
+    "link": "https://aws.amazon.com/jp/blogs/news/microcredential-certification-relationship/"
+    "published": "2026-08-25 09:22:37"
+    "fetched": "2026-08-25 10:01:34"
+    "summary": "AWS Skill Builder で取得できる新しいスキル証明「マイクロクレデンシャル」をご存知ですか ? AWS 認定が幅広い知識とスキルの幅を証明するのに対し、マイクロクレデンシャルはハンズオンラボを通じて特定の技術を「実際に使える」ことを証明します。それぞれの違いや関係性、効果的な組み合わせ方をわかりやすく解説します。"
+  "584e010e50015e1f47d07475152511df":
+    "id": "584e010e50015e1f47d07475152511df"
+    "title": "週刊AWS – 2026/8/17週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260817/"
+    "published": "2026-08-25 09:19:40"
+    "fetched": "2026-08-25 10:01:34"
+    "summary": "AWS CloudShell にビジュアルファイルエディタを追加、AWS Console-to-Code が 26 サービスを追加し計 32 サービスに対応、Amazon ECR のレプリケーションルール上限を 25 個に引き上げ、Amazon WorkSpaces がネスト仮想化をサポート、IAM Policy Autopilot が Terraform plan ファイルに対応、Amazon Bedrock で xAI Grok 4.6 が利用可能に、AWS Cost Anomaly Detection が Amazon Bedrock のサードパーティモデルに対応、AWS Direct Connect がインバウンドプレフィックス制御と VIF あたり最大 1,000 経路への拡張を発表、AWS Glue 6.0 が 30% の値下げと Iceberg v3 サポートで GA、Amazon Bedrock で OpenAI GPT-5.6 Sol を値下げ等"
+"last_updated": "2026-08-25 10:01:34 JST"
