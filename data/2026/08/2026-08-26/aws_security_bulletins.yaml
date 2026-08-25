@@ -1,0 +1,9 @@
+"entries":
+  "a71417a68bb1359d1bbb58201af70916":
+    "id": "a71417a68bb1359d1bbb58201af70916"
+    "title": "CVE-2026-78379 - Consent bypass in Strands Agents Tools python_repl tool"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-089-aws/"
+    "published": "2026-08-26 04:09:48"
+    "fetched": "2026-08-26 04:27:16"
+    "summary": "<p><b>Bulletin ID:</b> 2026-089-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/25/2026 12:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Strands Agents is an open-source Python SDK for building and running AI agents. The strands-agents-tools package provides pre-built tools for use with the SDK, including the python_repl tool, which executes Python code on the agent's host, and the batch tool, which invokes several other tools in a single call. Before executing code, python_repl prompts the operator for approval. We identified CVE-2026-78379, a consent bypass in the python_repl tool. Improper neutralization of input used for LLM prompting in the python_repl tool in Amazon Strands Agents Tools before 0.8.5 might allow remote actors to execute arbitrary Python code on the agent's host by bypassing the human consent gate, via a crafted prompt that forwards non_interactive_mode as a keyword argument through the batch tool.</p> \n<p><b>Impacted versions:</b> &lt; 0.8.5</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-08-26 04:27:16 JST"
