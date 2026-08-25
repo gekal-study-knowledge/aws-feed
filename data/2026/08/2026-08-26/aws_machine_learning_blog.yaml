@@ -1,0 +1,9 @@
+"entries":
+  "fadf0dbbbf100cd7e27ad343ba92b95f":
+    "id": "fadf0dbbbf100cd7e27ad343ba92b95f"
+    "title": "Governed reports with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP"
+    "link": "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/"
+    "published": "2026-08-26 01:35:01"
+    "fetched": "2026-08-26 02:27:21"
+    "summary": "Build a governed weekly reporting workflow with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP. An Amazon S3 access point exposes an approved folder to a Quick knowledge base, and a custom skill drafts cited weekly reports and Slack summaries with human review before anything is shared."
+"last_updated": "2026-08-26 02:27:21 JST"
