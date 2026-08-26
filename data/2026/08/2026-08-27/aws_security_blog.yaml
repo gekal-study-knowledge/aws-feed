@@ -1,0 +1,9 @@
+"entries":
+  "674d68fc5b14b287e0f8eacaa0df6768":
+    "id": "674d68fc5b14b287e0f8eacaa0df6768"
+    "title": "Detecting multi-stage attacks on AWS: A guide to cross-service signal correlation"
+    "link": "https://aws.amazon.com/blogs/security/detecting-multi-stage-attacks-on-aws-a-guide-to-cross-service-signal-correlation/"
+    "published": "2026-08-27 02:39:19"
+    "fetched": "2026-08-27 03:55:37"
+    "summary": "A single alert from one security service tells you something happened. Read that signal alongside activity from other services and your own business context, and you will know whether what happened is part of a multi-stage attack. Consider a short sequence. An identity calls GetCallerIdentity from a source address it hasn’t previously used. Within minutes, […]"
+"last_updated": "2026-08-27 03:55:37 JST"

@@ -1,0 +1,16 @@
+"entries":
+  "cf2f79efbcacdfad1cbdca0efa19a3e1":
+    "id": "cf2f79efbcacdfad1cbdca0efa19a3e1"
+    "title": "Gallup scales real-time coaching for thousands with Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/architecture/gallup-delivers-real-time-workplace-coaching-to-thousands-of-leaders-with-amazon-bedrock/"
+    "published": "2026-08-27 02:36:23"
+    "fetched": "2026-08-27 03:55:37"
+    "summary": "Gallup transformed 90 years of workplace science into Gallup AI, a generative AI assistant powered by Amazon Bedrock that delivers real-time, personalized coaching to leaders directly within the Gallup Access application."
+  "745f27bd96b76ca9be9ebc05b63edca3":
+    "id": "745f27bd96b76ca9be9ebc05b63edca3"
+    "title": "Closing the AI agent trust gap with graduated autonomy"
+    "link": "https://aws.amazon.com/blogs/architecture/closing-the-ai-agent-trust-gap-with-graduated-autonomy/"
+    "published": "2026-08-27 02:33:03"
+    "fetched": "2026-08-27 03:55:37"
+    "summary": "Most teams give AI agents either full access or read-only, leaving value unused or risk unmanaged. This post describes graduated autonomy, an architectural pattern in which agents earn expanded permissions through sustained reliability and lose them when performance degrades, built on Amazon Bedrock AgentCore, Amazon DynamoDB, and AWS CodePipeline."
+"last_updated": "2026-08-27 03:55:37 JST"
