@@ -1,0 +1,9 @@
+"entries":
+  "d5b37b56289f37e9405547f2360b4533":
+    "id": "d5b37b56289f37e9405547f2360b4533"
+    "title": "MonotaRO が基幹データベースを Amazon Aurora Global Database に移行し、マルチリージョン DR とフルマネージド運用を実現"
+    "link": "https://aws.amazon.com/jp/blogs/news/monotaro-core-database-migration-to-amazon-aurora-global-database/"
+    "published": "2026-08-26 14:06:42"
+    "fetched": "2026-08-26 14:29:40"
+    "summary": "株式会社MonotaRO （モノタロウ）は、工具、部品、消耗品をはじめとする間接資材のインターネット通販を展開し、連結売上高 3,338 億円（2025 年 12 月期）、登録ユーザー数 1,100 万以上、取扱商品点数 2,800 万点以上を誇る事業者向け EC プラットフォームです。同社はこのたび、事業の根幹を支える基幹データベースをオンプレミスの MySQL から Amazon Aurora MySQL（以下、Aurora MySQL）へ移行し、Amazon Aurora Global Database（以下、Aurora Global Database）によるマルチリージョン DR 構成とフルマネージド運用を実現しました。本ブログでは、移行の背景と課題、選定理由、移行アプローチ、そして得られた成果についてご紹介します。"
+"last_updated": "2026-08-26 14:29:40 JST"
