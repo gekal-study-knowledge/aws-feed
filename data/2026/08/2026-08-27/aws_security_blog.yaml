@@ -6,4 +6,11 @@
     "published": "2026-08-27 02:39:19"
     "fetched": "2026-08-27 03:55:37"
     "summary": "A single alert from one security service tells you something happened. Read that signal alongside activity from other services and your own business context, and you will know whether what happened is part of a multi-stage attack. Consider a short sequence. An identity calls GetCallerIdentity from a source address it hasn’t previously used. Within minutes, […]"
-"last_updated": "2026-08-27 03:55:37 JST"
+  "b471691f1bbb493c3955bf77afea1d98":
+    "id": "b471691f1bbb493c3955bf77afea1d98"
+    "title": "ICYMI: July 2026 @AWS Security"
+    "link": "https://aws.amazon.com/blogs/security/icymi-july-2026-aws-security/"
+    "published": "2026-08-27 04:32:55"
+    "fetched": "2026-08-27 06:37:15"
+    "summary": "If you found time for a bit of vacation this summer, you might be in catch-up mode. Here’s a list to help: all the expert blog posts, new service capabilities, code samples, and workshops, in case you missed it, from July 2026. AWS Security Blog post This month’s AWS Security Blog posts covered AI agent […]"
+"last_updated": "2026-08-27 06:37:15 JST"

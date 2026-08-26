@@ -41,4 +41,11 @@
     "published": "2026-08-27 01:24:02"
     "fetched": "2026-08-27 03:55:38"
     "summary": "Data preparation determines the ceiling of any supervised fine-tuning project. This first post in a two-part series covers the foundations of SFT data prep: quality checks, conversational (JSONL) formatting, reasoning and tool-calling schemas, and a representative train/evaluation split."
-"last_updated": "2026-08-27 03:55:38 JST"
+  "db9618528dce302c81cc532b1331b02e":
+    "id": "db9618528dce302c81cc532b1331b02e"
+    "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations"
+    "link": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/"
+    "published": "2026-08-27 04:13:35"
+    "fetched": "2026-08-27 06:37:16"
+    "summary": "Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whether you use LangGraph, LlamaIndex, the OpenAI Agents SDK, Google ADK, the Claude Agent SDK, or Strands Agents. This post explains how the framework-agnostic contract works."
+"last_updated": "2026-08-27 06:37:16 JST"
