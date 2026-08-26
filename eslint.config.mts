@@ -34,11 +34,13 @@ export default [
   {
     settings: {
       react: {
-        version: 'detect',
+        // 'detect' は eslint-plugin-react が ESLint 10 で消えた API を呼ぶため使えない
+        version: '19.2',
       },
     },
   },
   {
-    ignores: ['.next/**', 'out/**', 'node_modules/**', 'public/**'],
+    // next-env.d.ts は Next.js が生成する（.gitignore 対象）ので整形の対象外にする
+    ignores: ['.next/**', 'out/**', 'node_modules/**', 'public/**', 'next-env.d.ts'],
   },
 ];
