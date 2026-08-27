@@ -172,6 +172,30 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[
     return new_entries, updated_dates
 
 
+def render_summary(summary: str, collapse_threshold: int = 0) -> str:
+    """エントリーの summary を Markdown に埋め込む形に整形する。
+
+    summary は HTML であることが多い（特に Google Cloud のフィードは全文配信で、
+    見出し・表・aside を含む数万文字の HTML が入る）。そのまま素の Markdown に
+    書き出すと、本文中の <h2>/<h3> がページ自身の情報源見出し・エントリー見出しと
+    同じ要素になってしまい、階層が崩れる。
+    そこで必ず .entry-summary でラップし、CSS 側でフィード本文として
+    スタイルを分離できるようにする。
+
+    collapse_threshold を超える長さの summary は <details> で折りたたむ。
+    1 日のページが数万ピクセルになるのを防ぎ、スマートフォンでも
+    見出しを拾いながら読めるようにするため。
+    """
+    if collapse_threshold and len(summary) > collapse_threshold:
+        return (
+            '<details class="entry-summary">\n'
+            '<summary>詳細を表示</summary>\n'
+            f'{summary}\n'
+            '</details>\n\n'
+        )
+    return f'<div class="entry-summary">\n{summary}\n</div>\n\n'
+
+
 def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, Any], output_dir: str):
     """YAMLデータから日単位のMarkdownファイルを生成する"""
     date_path = get_date_path(entry_date)
@@ -232,6 +256,7 @@ def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, A
 
     # Markdownコンテンツを生成
     total_entries = sum(len(entries) for entries in entries_by_source.values())
+    collapse_threshold = config.get('summary_collapse_threshold', 0)
 
     with open(output_file, 'w', encoding='utf-8') as f:
         # YAML Front Matter
@@ -269,7 +294,7 @@ def generate_daily_markdown(entry_date: date, data_dir: str, config: Dict[str, A
                 f.write(f"- **Fetched**: {fetched}\n")
                 f.write("\n")
                 if entry.get('summary'):
-                    f.write(f"{entry['summary']}\n\n")
+                    f.write(render_summary(entry['summary'], collapse_threshold))
 
     print(f"Generated: {output_file}")
 

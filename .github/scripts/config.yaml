@@ -31,5 +31,8 @@ feeds:
     url: 'https://aws.amazon.com/blogs/compute/feed/'
     source_id: 'aws_compute_blog'
 
+# この文字数を超える summary は <details> で折りたたむ（0 で無効）
+summary_collapse_threshold: 2000
+
 data_dir: 'data'
 output_dir: '_posts'
