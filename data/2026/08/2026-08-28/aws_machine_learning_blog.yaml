@@ -1,0 +1,30 @@
+"entries":
+  "56c4d26f0befed58cdaf390050dfa8b6":
+    "id": "56c4d26f0befed58cdaf390050dfa8b6"
+    "title": "Build agentic creative workflows with Amazon Quick and fal"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/"
+    "published": "2026-08-28 08:04:22"
+    "fetched": "2026-08-28 08:31:54"
+    "summary": "Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build a reusable agent harness with Amazon Quick and fal, connected through the Model Context Protocol (MCP), using two hands-on workflows: an eight-panel storyboard and a music-video concept prototype."
+  "21676e094221bfdb6069819077f1b5d4":
+    "id": "21676e094221bfdb6069819077f1b5d4"
+    "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/"
+    "published": "2026-08-28 03:36:08"
+    "fetched": "2026-08-28 08:31:54"
+    "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have local data processing requirements, you can now use these models at scale while Amazon Bedrock keeps inference requests and data within India."
+  "f9c7a349ec8e8bdd45c163c826003072":
+    "id": "f9c7a349ec8e8bdd45c163c826003072"
+    "title": "Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics"
+    "link": "https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics/"
+    "published": "2026-08-28 01:11:27"
+    "fetched": "2026-08-28 08:31:54"
+    "summary": "Self-hosted speech AI carries an observability trade-off: the numbers that drive capacity planning and cost management stay locked inside the vendor container. Deepgram closes that gap on Amazon SageMaker AI with two capabilities that land billing, usage, and per-GPU metrics directly in your own Amazon CloudWatch account."
+  "84d3f4dd9a4bcd4213915293a73771ea":
+    "id": "84d3f4dd9a4bcd4213915293a73771ea"
+    "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2"
+    "link": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/"
+    "published": "2026-08-28 01:05:10"
+    "fetched": "2026-08-28 08:31:54"
+    "summary": "Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference Server on Amazon EC2 GPU instances cuts GPU infrastructure by 75% while holding sub-second latency at 92.1 requests per second per GPU."
+"last_updated": "2026-08-28 08:31:54 JST"

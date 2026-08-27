@@ -1,0 +1,9 @@
+"entries":
+  "a79505938fb68642bef521eb00bb5539":
+    "id": "a79505938fb68642bef521eb00bb5539"
+    "title": "Extend Amazon Bedrock Guardrails to Tool Interactions Using the Strands Agents SDK"
+    "link": "https://aws.amazon.com/blogs/security/extend-amazon-bedrock-guardrails-to-tool-interactions-using-the-strands-agents-sdk/"
+    "published": "2026-08-28 01:20:05"
+    "fetched": "2026-08-28 08:31:53"
+    "summary": "If you’re running AI agents in production, Amazon Bedrock Guardrails protects the model boundary. But your agents also invoke tools, fetch external data, and communicate with other systems. That data flows outside the model boundary, where model-level guardrails can’t reach. You can extend guardrail coverage to those interactions using three validation checkpoints built with the […]"
+"last_updated": "2026-08-28 08:31:53 JST"
