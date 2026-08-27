@@ -86,7 +86,9 @@ const annotateContentHtml = (contentHtml: string, newSince?: string, newCount = 
   if (!hasUpdate || typeof window === 'undefined') return contentHtml;
 
   const doc = new DOMParser().parseFromString(contentHtml, 'text/html');
-  const h3s = Array.from(doc.querySelectorAll('h3'));
+  // フィード本文（.entry-summary）に含まれる h3 は記事側の見出しなので除外する。
+  // 含めるとリリースノート本文の小見出しにまでバッジが付いてしまう。
+  const h3s = Array.from(doc.querySelectorAll('h3')).filter((h3) => !h3.closest('.entry-summary'));
 
   if (newSince) {
     // タイムスタンプ比較：fetched が閾値（前回アクセス時刻）より後のエントリーを NEW、
@@ -130,18 +132,17 @@ export default function PostContent({ contentHtml, newSince, newCount = 0 }: Pos
       sx={{
         mt: 4,
         mb: 8,
-        '& img': {
-          maxWidth: '100%',
-          height: 'auto',
-          borderRadius: '12px',
-          boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-          mb: 3,
-        },
-        '& h2': {
+        // 長い URL やコード片がビューポートを押し広げないようにする
+        overflowWrap: 'anywhere',
+
+        // --- ページ自身の構造（情報源見出し / エントリー見出し / メタ情報） ---
+        // 直接の子だけを対象にする。フィード本文にも h2・h3 が含まれるため、
+        // 子孫セレクタにすると本文の見出しが情報源見出しと同格に描画されてしまう。
+        '& > h2': {
           mt: 6,
           mb: 3,
           color: 'primary.main',
-          fontSize: { xs: '1.5rem', md: '1.875rem' },
+          fontSize: { xs: '1.35rem', md: '1.875rem' },
           fontWeight: 700,
           borderBottom: (theme) => `2px solid ${theme.palette.divider}`,
           pb: 1,
@@ -154,58 +155,140 @@ export default function PostContent({ contentHtml, newSince, newCount = 0 }: Pos
             bgcolor: 'secondary.main',
             mr: 2,
             borderRadius: '4px',
+            flexShrink: 0,
           },
         },
-        '& h3': {
+        '& > h3': {
           mt: 4,
-          mb: 2,
-          fontWeight: 600,
-        },
-        '& p': {
-          mb: 2,
-          lineHeight: 1.8,
-        },
-        '& ul, & ol': {
-          mt: 2,
-          mb: 2,
-          pl: 4,
-        },
-        '& li': {
           mb: 1,
-          lineHeight: 1.8,
-        },
-        '& b, & strong': {
           fontWeight: 700,
+          fontSize: { xs: '1.1rem', md: '1.3rem' },
+          lineHeight: 1.5,
         },
-        '& br': {
+        // Link / Published / Fetched のメタ情報リスト
+        '& > ul': {
+          listStyle: 'none',
+          m: 0,
+          mb: 2,
+          p: 0,
+          fontSize: { xs: '0.8rem', md: '0.85rem' },
+          color: 'text.secondary',
+          '& li': { mb: 0.5, lineHeight: 1.6 },
+        },
+        '& > p': { mb: 2, lineHeight: 1.8 },
+
+        // --- フィード本文 ---
+        // 提供元の HTML をそのまま描画する領域。ページ側の見出し階層と混ざらないよう
+        // 枠で囲い、内部の見出しは一段小さく・装飾なしに正規化する。
+        '& .entry-summary': {
           display: 'block',
-          content: '""',
-          mt: 1,
+          mb: 4,
+          px: { xs: 1.5, md: 2.5 },
+          py: { xs: 1.5, md: 2 },
+          border: '1px solid',
+          borderColor: 'divider',
+          borderRadius: '10px',
+          bgcolor: 'background.paper',
+          fontSize: { xs: '0.9rem', md: '0.95rem' },
+          // 折りたたみ時のつまみ
+          '& > summary': {
+            cursor: 'pointer',
+            fontWeight: 600,
+            fontSize: { xs: '0.85rem', md: '0.9rem' },
+            color: 'secondary.main',
+            listStylePosition: 'outside',
+            userSelect: 'none',
+            py: 0.5,
+          },
+          '&[open] > summary': {
+            mb: 1.5,
+            pb: 1,
+            borderBottom: '1px solid',
+            borderColor: 'divider',
+          },
+          // 本文中の見出しはすべて同じスケールに正規化する
+          '& h1, & h2, & h3, & h4, & h5, & h6': {
+            mt: 2.5,
+            mb: 1,
+            fontWeight: 700,
+            color: 'text.primary',
+            border: 'none',
+            display: 'block',
+            lineHeight: 1.5,
+            '&::before': { content: 'none' },
+          },
+          '& h1, & h2': { fontSize: { xs: '1rem', md: '1.05rem' } },
+          '& h3, & h4, & h5, & h6': { fontSize: { xs: '0.92rem', md: '0.97rem' } },
+          '& p': { my: 1.5, lineHeight: 1.8 },
+          '& ul, & ol': { my: 1.5, pl: 3 },
+          '& li': { mb: 0.5, lineHeight: 1.7 },
+          '& img': { maxWidth: '100%', height: 'auto', borderRadius: '8px', my: 2 },
+          // 表は横に伸びやすいので、要素内でスクロールさせページを押し広げない
+          '& table': {
+            display: 'block',
+            width: '100%',
+            maxWidth: '100%',
+            overflowX: 'auto',
+            WebkitOverflowScrolling: 'touch',
+            borderCollapse: 'collapse',
+            whiteSpace: 'normal',
+            fontSize: { xs: '0.8rem', md: '0.85rem' },
+            my: 2,
+          },
+          '& th, & td': {
+            border: '1px solid',
+            borderColor: 'divider',
+            p: 1,
+            textAlign: 'left',
+            verticalAlign: 'top',
+            minWidth: '8em',
+            // セル内のリストが横幅を稼がないように詰める
+            '& ul, & ol': { my: 0.5, pl: 2.5 },
+          },
+          '& th': { bgcolor: 'action.hover', fontWeight: 700 },
+          '& pre': {
+            overflowX: 'auto',
+            p: 1.5,
+            borderRadius: '6px',
+            bgcolor: (theme) => (theme.palette.mode === 'light' ? 'grey.100' : 'grey.900'),
+            fontSize: '0.85em',
+          },
+          // Google のリリースノートが使う注記ブロック
+          '& aside': {
+            display: 'block',
+            my: 2,
+            px: 2,
+            py: 1.5,
+            borderLeft: '4px solid',
+            borderColor: 'secondary.main',
+            borderRadius: '0 6px 6px 0',
+            bgcolor: 'action.hover',
+            fontSize: '0.95em',
+          },
         },
+
+        // --- 共通のインライン要素 ---
+        '& b, & strong': { fontWeight: 700 },
         '& blockquote': {
           m: 0,
+          my: 2,
           pl: 3,
           py: 1,
           borderLeft: '4px solid',
           borderColor: 'secondary.main',
-          bgcolor: (theme) =>
-            theme.palette.mode === 'light' ? 'rgba(255, 153, 0, 0.05)' : 'rgba(255, 153, 0, 0.1)',
+          bgcolor: 'action.hover',
           fontStyle: 'italic',
         },
         '& code': {
-          px: 1,
-          py: 0.5,
+          px: 0.75,
+          py: 0.25,
           borderRadius: '4px',
           bgcolor: (theme) => (theme.palette.mode === 'light' ? 'grey.200' : 'grey.800'),
-          fontSize: '0.9em',
+          fontSize: '0.88em',
           fontFamily: 'Monaco, Menlo, Consolas, "Courier New", monospace',
         },
-        '& hr': {
-          my: 6,
-          border: '0',
-          borderTop: '1px solid',
-          borderColor: 'divider',
-        },
+        '& pre code': { bgcolor: 'transparent', p: 0 },
+        '& hr': { my: 4, border: '0', borderTop: '1px solid', borderColor: 'divider' },
         '& a': {
           color: 'primary.main',
           fontWeight: 500,

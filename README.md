@@ -170,6 +170,26 @@ data_dir: 'data'
 output_dir: '_posts'
 ```
 
+### summary の HTML 表示
+
+フィードの summary には見出しや表を含む HTML が入ることがあります。この HTML はそのまま描画しますが、
+素で書き出すと本文中の `<h2>` がページ自身の情報源見出しと同じ要素になり、階層が崩れます。
+そのため `main.py` は summary を必ず `.entry-summary` でラップし、CSS 側でフィード本文として
+分離できるようにしています。
+
+`config.yaml` の `summary_collapse_threshold`（既定 2000 文字）を超える summary は
+`<details>` で折りたたみ、スマートフォンでも見出しを拾いながら読めるようにします。`0` を設定すると折りたたみを無効化できます。
+
+表示側（`src/components/organisms/PostContent.tsx`）での対応:
+
+| 対象       | 内容                                                                                          |
+| :--------- | :-------------------------------------------------------------------------------------------- |
+| 見出し     | ページ自身の見出しは `& > h2` / `& > h3` と直接の子に限定。本文中の h1〜h6 は一段小さく正規化 |
+| 表         | 要素内で横スクロールさせ、ページ全体を押し広げない。セル内のリストも詰める                    |
+| `aside`    | 注記ブロックとして左罫線付きで表示                                                            |
+| 長い URL   | `overflow-wrap: anywhere` で折り返す                                                          |
+| NEW バッジ | `.entry-summary` 内の h3 を除外し、エントリー見出しにのみ付与                                 |
+
 ### フィードの追加方法
 
 新しいフィードを追加するには、`feeds` セクションに以下の形式で追加します:
@@ -208,15 +228,15 @@ curl https://gekal-study-knowledge.github.io/aws-feed/api/entries/2026/04/24/ind
 
 **Entry オブジェクトの構造**:
 
-| フィールド | 型 | 説明 |
-| :--- | :--- | :--- |
-| `id` | `string` | エントリーの一意識別子 (MD5 ハッシュ) |
-| `title` | `string` | 記事のタイトル |
-| `link` | `string` | 記事へのリンク |
-| `published` | `string` | 公開日時 (`YYYY-MM-DD HH:MM:SS`) |
-| `fetched` | `string` | 取得日時 (`YYYY-MM-DD HH:MM:SS`) |
-| `summary` | `string` | 記事の概要 (HTML 形式) |
-| `sourceId` | `string` | 情報源の識別子 (例: `aws_whats_new`) |
+| フィールド   | 型       | 説明                                                |
+| :----------- | :------- | :-------------------------------------------------- |
+| `id`         | `string` | エントリーの一意識別子 (MD5 ハッシュ)               |
+| `title`      | `string` | 記事のタイトル                                      |
+| `link`       | `string` | 記事へのリンク                                      |
+| `published`  | `string` | 公開日時 (`YYYY-MM-DD HH:MM:SS`)                    |
+| `fetched`    | `string` | 取得日時 (`YYYY-MM-DD HH:MM:SS`)                    |
+| `summary`    | `string` | 記事の概要 (HTML 形式)                              |
+| `sourceId`   | `string` | 情報源の識別子 (例: `aws_whats_new`)                |
 | `sourceName` | `string` | 情報源の人間が読みやすい名前 (例: `AWS What's New`) |
 
 **利用例**:

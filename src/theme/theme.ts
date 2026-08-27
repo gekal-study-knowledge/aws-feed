@@ -49,21 +49,10 @@ const baseTheme = createTheme({
   components: {
     MuiCssBaseline: {
       styleOverrides: {
+        // CssBaseline のグローバル指定ではネストの起点が無いため '&' は使えない。
+        // 表まわりの指定は PostContent 側（.entry-summary 配下）で行う。
         '.markdown-body': {
-          wordBreak: 'break-all',
           overflowWrap: 'break-word',
-        },
-        '& table': {
-          display: 'block',
-          width: '100% !important',
-          maxWidth: '100%',
-          overflowX: 'auto',
-          WebkitOverflowScrolling: 'touch',
-          borderCollapse: 'collapse',
-          whiteSpace: 'nowrap',
-        },
-        '& th, & td': {
-          padding: '8px 16px',
         },
       },
     },
