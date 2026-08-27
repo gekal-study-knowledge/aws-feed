@@ -1,0 +1,30 @@
+"entries":
+  "ac4cf128314561db1691a9d29a5816f5":
+    "id": "ac4cf128314561db1691a9d29a5816f5"
+    "title": "Adtech Meetup ～変わる広告、変わらない価値～ 開催レポート"
+    "link": "https://aws.amazon.com/jp/blogs/news/adtech-meetup-1/"
+    "published": "2026-08-27 15:06:22"
+    "fetched": "2026-08-27 22:41:25"
+    "summary": "アマゾン ウェブ サービス ジャパン合同会社（以下、AWS ジャパン）は 2026 年 7 月 17 日（金） […]"
+  "92bab3eaf2ce83e309006352decb0a15":
+    "id": "92bab3eaf2ce83e309006352decb0a15"
+    "title": "AWS Weekly Roundup: AWS Builder Center での学生リワード、ラスベガスのローカルゾーンなど (2026 年 8 月 24 日)"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026/"
+    "published": "2026-08-27 14:40:15"
+    "fetched": "2026-08-27 22:41:25"
+    "summary": "AWS にいる間、私はいつも学生と一緒に働く機会を探していました。私は地域の大学で 50 回以上の講演を行って […]"
+  "6716dad21c31c138ec932fa6945df980":
+    "id": "6716dad21c31c138ec932fa6945df980"
+    "title": "AWS と DuckLabs: 分析の未来を共に築く"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-and-ducklabs-building-the-future-of-analytics-together/"
+    "published": "2026-08-27 13:20:30"
+    "fetched": "2026-08-27 22:41:25"
+    "summary": "Amazon はオープンソース分析データベース DuckDB を開発するアムステルダム拠点の DuckLabs を買収する最終契約を締結しました。DuckDB は 1 テラバイト以下の日常的なクエリを圧倒的な速度で処理するアーキテクチャを持ち、データエンジニアリング、データサイエンス、分析、AI エージェントの分野で広く採用されています。オープンソースプロジェクトは引き続き独立した Foundation の下で MIT ライセンスで維持され、AWS は S3 や Redshift、Athena などのサービスと DuckDB の強みを組み合わせていきます。"
+  "99806a4744fd0e25cb77b24d51728349":
+    "id": "99806a4744fd0e25cb77b24d51728349"
+    "title": "今月の AWS オブザーバビリティ: 2026 年 7 月"
+    "link": "https://aws.amazon.com/jp/blogs/news/this-month-in-aws-observability-july-2026/"
+    "published": "2026-08-27 12:10:40"
+    "fetched": "2026-08-27 22:41:25"
+    "summary": "7 月は AWS オブザーバビリティにとってアップデートの多い月となりました。すでに収集しているテレメトリをより実用的なものにし、その収集にかかる運用作業を AWS 側で引き受ける機能をリリースしました。ログ分析は、ログクエリから直接実行できるアラームと、取り込み時に行われるエンリッチメントによって、アクションに繋げやすくなりました。アプリケーションレベルのオブザーバビリティは、エラーとデプロイイベントを自動的に捕捉するようになりました。AI コーディングエージェントの可視化が、新しいオブザーバビリティのカテゴリとして登場しました。Prometheus メトリクスのスクレイピングのために自前で運用していたエージェントは、マネージドコレクションによって不要になりました。そしてこれらすべてを支える基盤として、OpenTelemetry と Prometheus が引き続き中核的な役割を果たしています。 この記事では、Amazon CloudWatch、Amazon Managed Service for Prometheus、Amazon Managed Grafana、AWS DevOps Agent の最新情報をご紹介します。"
+"last_updated": "2026-08-27 22:41:25 JST"
