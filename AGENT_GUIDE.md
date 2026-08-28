@@ -145,6 +145,20 @@ AI 概要 (`summary.yaml`) の再生成が必要な日を洗い出すスクリ�
 日があれば終了コード 1 を返す。概要を生成・更新したら、このスクリプトで
 「対応が必要な日はありません」になることを確認する。
 
+### `.github/scripts/summary_digest.py`
+
+AI 概要を書くためのダイジェストを作るスクリプト。フィードの `summary` は HTML で
+数万文字になることがあるため、HTML を落として情報源ごとに指定文字数へ切り詰める。
+`--missing` / `--stale` で対象日を `check_summaries.py` と同じ判定から拾える。
+`--limit` はフィードの性格に合わせて変える (目安はスキルに記載)。
+
+### `.github/scripts/write_summary.py`
+
+生成した概要を `summary.yaml` へ書き出すスクリプト。入力 JSON には `date` /
+`overview` / `topics` だけを書き、`article_count` と `sources` は実データから
+数え直す。`generated_at` は実行時刻を秒まで記録する。既存ファイルは既定でスキップし、
+作り直すときだけ `--force` を付ける。
+
 ### `.github/scripts/config.yaml`
 
 フィード設定ファイル。以下の形式でフィードを追加・編集可能：
