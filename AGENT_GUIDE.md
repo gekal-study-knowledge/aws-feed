@@ -137,6 +137,14 @@ npm run lint:fix
 
 RSS フィードを取得し、新規エントリーを検出して YAML データと Markdown レポートを生成するメインスクリプト。
 
+### `.github/scripts/check_summaries.py`
+
+AI 概要 (`summary.yaml`) の再生成が必要な日を洗い出すスクリプト。各日の
+`generated_at` と各エントリーの `fetched` を突き合わせ、概要を作った後に取得された
+エントリーがある日を報告する。`--since` / `--json` / `--quiet` に対応し、対応が必要な
+日があれば終了コード 1 を返す。概要を生成・更新したら、このスクリプトで
+「対応が必要な日はありません」になることを確認する。
+
 ### `.github/scripts/config.yaml`
 
 フィード設定ファイル。以下の形式でフィードを追加・編集可能：
