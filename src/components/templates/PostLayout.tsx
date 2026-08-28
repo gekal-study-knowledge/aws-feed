@@ -173,6 +173,9 @@ export default function PostLayout({
               articleCount={summary.articleCount}
               generatedBy={summary.generatedBy}
               generatedAt={summary.generatedAt}
+              entryCount={summary.entryCount}
+              addedAfterCount={summary.addedAfterCount}
+              isStale={summary.isStale}
             />
           )}
           <PostContent contentHtml={contentHtml} newSince={newSince} newCount={newCount} />

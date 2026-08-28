@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { Box, Typography, Paper, Chip, Stack } from '@mui/material';
+import { Box, Typography, Paper, Chip, Stack, Alert, AlertTitle } from '@mui/material';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import ArticleIcon from '@mui/icons-material/Article';
 
@@ -11,6 +11,12 @@ interface DailySummaryProps {
   articleCount?: number;
   generatedBy?: string;
   generatedAt?: string;
+  /** その日に実際にあるエントリー数 */
+  entryCount?: number;
+  /** 概要を生成した後に取得されたエントリー数 */
+  addedAfterCount?: number;
+  /** 概要とフィードの一覧がずれているか */
+  isStale?: boolean;
 }
 
 export default function DailySummary({
@@ -19,6 +25,9 @@ export default function DailySummary({
   articleCount,
   generatedBy,
   generatedAt,
+  entryCount,
+  addedAfterCount = 0,
+  isStale = false,
 }: DailySummaryProps) {
   return (
     <Paper
@@ -53,13 +62,26 @@ export default function DailySummary({
         {typeof articleCount === 'number' && (
           <Chip
             icon={<ArticleIcon />}
-            label={`${articleCount} 記事`}
+            label={
+              isStale && typeof entryCount === 'number'
+                ? `概要 ${articleCount} 記事 / 一覧 ${entryCount} 記事`
+                : `${articleCount} 記事`
+            }
             size="small"
-            color="primary"
+            color={isStale ? 'warning' : 'primary'}
             variant="outlined"
           />
         )}
       </Box>
+
+      {isStale && (
+        <Alert severity="warning" variant="outlined" sx={{ mb: 3 }}>
+          <AlertTitle sx={{ fontWeight: 700 }}>この概要は最新ではありません</AlertTitle>
+          {addedAfterCount > 0
+            ? `概要を生成した後に ${addedAfterCount} 件の記事が追加されています。下の一覧には概要に反映されていない記事が含まれます。`
+            : '概要の記事数と下の一覧の件数が一致していません。下の一覧には概要に反映されていない記事が含まれる可能性があります。'}
+        </Alert>
+      )}
 
       <Typography
         variant="body1"
