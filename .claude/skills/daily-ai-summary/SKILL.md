@@ -9,12 +9,24 @@ description: このリポジトリの日別ページに載る「AI による概�
 `src/lib/data.ts` の `getDailySummary()` が読み、`DailySummary` が描画する。
 **このファイルは自動生成されない。モデル (あなた) が本文を書く。**
 
+## 実行環境
+
+コマンドはすべて **`python3`** で書いてある。macOS には `python` が無く
+(Homebrew の Python は `python3` のみを入れる)、`python` で実行すると
+`command not found` になる。
+
+依存は `.github/scripts/requirements.txt` の PyYAML。入っていなければ入れる。
+
+```bash
+python3 -m pip install -r .github/scripts/requirements.txt
+```
+
 ## 1. 対象日を洗い出す
 
 最初に必ず実行する。手当たり次第に作らない。
 
 ```bash
-python .github/scripts/check_summaries.py
+python3 .github/scripts/check_summaries.py
 ```
 
 3 つの状態を報告する。終了コードは、対応が必要な日があれば 1、なければ 0。
@@ -35,9 +47,9 @@ python .github/scripts/check_summaries.py
 `summary_digest.py` が HTML を落として情報源ごとに切り詰めた形にする。
 
 ```bash
-python .github/scripts/summary_digest.py 2026-08-27,2026-08-28 --limit 200
-python .github/scripts/summary_digest.py --missing --limit 200   # 未生成の日をまとめて
-python .github/scripts/summary_digest.py --stale                 # 要対応の日をまとめて
+python3 .github/scripts/summary_digest.py 2026-08-27,2026-08-28 --limit 200
+python3 .github/scripts/summary_digest.py --missing --limit 200   # 未生成の日をまとめて
+python3 .github/scripts/summary_digest.py --stale                 # 要対応の日をまとめて
 ```
 
 `--limit` はフィードの性格で変える。**ここを誤ると読み込み量が跳ね上がる。**
@@ -96,8 +108,8 @@ python .github/scripts/summary_digest.py --stale                 # 要対応の�
 ## 4. 書き出す
 
 ```bash
-python .github/scripts/write_summary.py /tmp/summaries.json           # 新規
-python .github/scripts/write_summary.py /tmp/summaries.json --force   # 作り直し
+python3 .github/scripts/write_summary.py /tmp/summaries.json           # 新規
+python3 .github/scripts/write_summary.py /tmp/summaries.json --force   # 作り直し
 ```
 
 `--force` を付けない限り既存ファイルは上書きしない。**新規の日に誤って `--force` を
@@ -109,7 +121,7 @@ python .github/scripts/write_summary.py /tmp/summaries.json --force   # 作り�
 ## 5. 確認する
 
 ```bash
-python .github/scripts/check_summaries.py   # 「対応が必要な日はありません」になること
+python3 .github/scripts/check_summaries.py   # 「対応が必要な日はありません」になること
 npm run build                                # ビルドが通ること
 ```
 

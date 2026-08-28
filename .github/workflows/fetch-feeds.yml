@@ -28,11 +28,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r .github/scripts/requirements.txt
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r .github/scripts/requirements.txt
 
       - name: Fetch AWS feeds
-        run: python .github/scripts/main.py
+        run: python3 .github/scripts/main.py
 
       - name: Report summaries needing regeneration
         if: always()
@@ -41,7 +41,7 @@ jobs:
             echo '## AI 概要の状況'
             echo ''
             echo '```'
-            python .github/scripts/check_summaries.py || true
+            python3 .github/scripts/check_summaries.py || true
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 

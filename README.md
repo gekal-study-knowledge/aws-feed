@@ -68,7 +68,7 @@ npm install
 #### フィード取得（Python）
 
 ```bash
-python .github/scripts/main.py
+python3 .github/scripts/main.py
 ```
 
 初回実行時は全エントリーが新規として扱われ、日単位の Markdown が生成されます。
@@ -76,7 +76,7 @@ python .github/scripts/main.py
 #### 全レポートの再生成
 
 ```bash
-python .github/scripts/main.py --rebuild
+python3 .github/scripts/main.py --rebuild
 ```
 
 #### 開発サーバーの起動（Next.js）
@@ -301,16 +301,16 @@ last_updated: '2026-03-21 10:45:50 JST'
 
 ```bash
 # 対応が必要な日を一覧表示
-python .github/scripts/check_summaries.py
+python3 .github/scripts/check_summaries.py
 
 # 特定日以降だけを対象にする
-python .github/scripts/check_summaries.py --since 2026-08-01
+python3 .github/scripts/check_summaries.py --since 2026-08-01
 
 # JSON で出力する (自動処理向け)
-python .github/scripts/check_summaries.py --json
+python3 .github/scripts/check_summaries.py --json
 
 # 終了コードだけ見る (CI 向け。対応が必要なら 1)
-python .github/scripts/check_summaries.py --quiet
+python3 .github/scripts/check_summaries.py --quiet
 ```
 
 検出する状態は 3 つです。
@@ -354,20 +354,20 @@ Claude Code でこのリポジトリを開けば読み込まれます。
 
 ```bash
 # 1. 対象日を洗い出す
-python .github/scripts/check_summaries.py
+python3 .github/scripts/check_summaries.py
 
 # 2. 概要を書くためのダイジェストを作る
-python .github/scripts/summary_digest.py --missing --limit 200
-python .github/scripts/summary_digest.py 2026-08-27,2026-08-28
+python3 .github/scripts/summary_digest.py --missing --limit 200
+python3 .github/scripts/summary_digest.py 2026-08-27,2026-08-28
 
 # 3. (Claude が overview と topics を書いて JSON にする)
 
 # 4. summary.yaml へ書き出す
-python .github/scripts/write_summary.py summaries.json          # 新規
-python .github/scripts/write_summary.py summaries.json --force  # 作り直し
+python3 .github/scripts/write_summary.py summaries.json          # 新規
+python3 .github/scripts/write_summary.py summaries.json --force  # 作り直し
 
 # 5. 確認する
-python .github/scripts/check_summaries.py
+python3 .github/scripts/check_summaries.py
 ```
 
 `article_count` と `sources` は `write_summary.py` が実データから数え直すため、
@@ -431,10 +431,10 @@ firebase deploy --only firestore:rules --project aws-feed
 
 ```bash
 # 新規フィードを取得
-python .github/scripts/main.py
+python3 .github/scripts/main.py
 
 # 全レポートを再生成
-python .github/scripts/main.py --rebuild
+python3 .github/scripts/main.py --rebuild
 ```
 
 ### Node.js（開発・ビルド）
