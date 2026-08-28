@@ -34,4 +34,11 @@
     "published": "2026-08-28 13:08:54"
     "fetched": "2026-08-28 17:50:05"
     "summary": "こんにちは。Amazon Web Services Japan のソリューションアーキテクト、田中 里絵 です […]"
-"last_updated": "2026-08-28 17:50:05 JST"
+  "b95b7917ecbc9280627a5610eddf7250":
+    "id": "b95b7917ecbc9280627a5610eddf7250"
+    "title": "AI コーディングエージェントは本当に良くなっているのか？"
+    "link": "https://aws.amazon.com/jp/blogs/news/diagnostics-over-time/"
+    "published": "2026-08-28 20:59:49"
+    "fetched": "2026-08-29 05:39:36"
+    "summary": "Kiro IDE のコーディングエージェントがコードを書いたり変更したりすると、diagnostics ツールが静的解析器を実行して出力をチェックします。これは、開発者がエディタ上で下線として目にするのと同じチェックです。実際にこのツールは、モジュールの import 漏れ（Cannot find module 'aws-cdk-lib' or its corresponding type declarations）、解決できない Java の import（The import org.junit cannot be resolved）、型の不一致（Argument of type 'string | undefined' is not assignable to parameter of type 'string'）、implicitly typed any、undefined symbol といったものを検出します。これらは、本来であればビルド時になって初めて表面化するような種類の問題です。"
+"last_updated": "2026-08-29 05:39:36 JST"

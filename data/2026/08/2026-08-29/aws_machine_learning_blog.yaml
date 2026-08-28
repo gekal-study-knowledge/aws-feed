@@ -1,0 +1,23 @@
+"entries":
+  "7a4f81c27e0b113f054bb8507603ace4":
+    "id": "7a4f81c27e0b113f054bb8507603ace4"
+    "title": "Batch write and discover records in Amazon SageMaker Feature Store"
+    "link": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/"
+    "published": "2026-08-29 04:31:05"
+    "fetched": "2026-08-29 05:39:38"
+    "summary": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates record identifiers within a feature group. In this post, we walk through each API with code examples you can use to get started."
+  "9c739753e25ee068fc4b70de80cf7f7d":
+    "id": "9c739753e25ee068fc4b70de80cf7f7d"
+    "title": "How Decathlon runs demand forecasting at scale with Chronos-2"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/"
+    "published": "2026-08-29 01:22:30"
+    "fetched": "2026-08-29 05:39:38"
+    "summary": "Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents. Learn how they deployed Chronos-2 on AWS to improve forecast accuracy by 11-15 points while cutting operational complexity and running weekly inference for about $0.03 on CPU-only instances."
+  "362c59d035cae604aa6439b26ef5d8f8":
+    "id": "362c59d035cae604aa6439b26ef5d8f8"
+    "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components"
+    "link": "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/"
+    "published": "2026-08-29 01:20:40"
+    "fetched": "2026-08-29 05:39:38"
+    "summary": "Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting."
+"last_updated": "2026-08-29 05:39:38 JST"

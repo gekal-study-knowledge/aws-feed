@@ -1,0 +1,9 @@
+"entries":
+  "d190ea7a76adf5bd045d0d74c05920e8":
+    "id": "d190ea7a76adf5bd045d0d74c05920e8"
+    "title": "Extend your data perimeter to the AWS Management Console with Private Access"
+    "link": "https://aws.amazon.com/blogs/security/extend-your-data-perimeter-to-the-aws-management-console-with-private-access/"
+    "published": "2026-08-29 03:53:57"
+    "fetched": "2026-08-29 05:39:37"
+    "summary": "Organizations in regulated industries such as financial services, government, defense, and healthcare restrict their sensitive workloads to isolated network environments with no access to the public internet. Until now, customers could restrict AWS Management Console access to authorized AWS accounts and corporate networks, but the console itself required internet connectivity. This was creating tension between […]"
+"last_updated": "2026-08-29 05:39:37 JST"
