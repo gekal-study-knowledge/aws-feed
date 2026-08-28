@@ -1,0 +1,18 @@
+"date": "2026-08-28"
+"generated_at": "2026-08-28 09:32:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 15
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はインド国内での推論とコスト最適化が話題でした。Amazon Bedrock が OpenAI GPT-5.6 の Terra と Luna をインド地理のクロスリージョン推論でサポートし、ローカルのデータ保護要件があるケースに対応します。機械学習ブログでは NVIDIA CUDA Multi-Process Service を使い、1 リクエストが GPU の一部しか使わない音声認識の推論コストを 75% 削減する手法が公開されました。セキュリティでは Bedrock Guardrails をモデル境界だけでなくツール呼び出しにも広げる方法が Strands Agents SDK を使って解説されています。サービス更新では Elastic Disaster Recovery に複数サーバーのアプリケーションを順序立てて起動する Recovery Plans が追加され、AgentCore が北カリフォルニアとハイデラバードの 2 リージョンへ拡大しました。Redshift は Agent Toolkit for AWS と統合され、Kinesis Data Streams から取り込めるレコードサイズが 1MiB から 10MiB へ 10 倍になっています。
+"topics":
+  - "データレジデンシー: Bedrock が GPT-5.6 Terra / Luna をインド地理のクロスリージョン推論でサポート"
+  - "コスト最適化: NVIDIA CUDA MPS により音声認識 (ASR) の推論コストを 75% 削減"
+  - "ガードレール: Bedrock Guardrails を Strands Agents SDK でツール呼び出しにも拡張"
+  - "災害対策: Elastic Disaster Recovery の Recovery Plans で複数サーバーアプリの順序立てた起動を自動化"
+  - "リージョン拡大: AgentCore が米国西部 (北カリフォルニア) とアジアパシフィック (ハイデラバード) へ拡大"
+  - "データウェアハウス: Redshift が Agent Toolkit for AWS と統合、Kinesis からの取り込みレコードが最大 10MiB に"
+  - "可観測性: Deepgram が SageMaker AI の Enhanced Metrics で自己ホスト音声 AI の監視を強化"

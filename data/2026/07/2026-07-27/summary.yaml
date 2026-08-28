@@ -1,0 +1,16 @@
+"date": "2026-07-27"
+"generated_at": "2026-08-28 09:27:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 7
+"sources":
+  - "aws_japan_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は週明けで件数が少なく、国内の事例と前週発表の日本語解説が中心でした。弁護士ドットコムによる AWS DevOps Agent の活用事例が寄稿として公開され、インシデント対応の自動化と属人化の解消に取り組んだ内容が紹介されています。前週に発表された Security Hub のマルチクラウド対応 (Microsoft Azure) と AI ワークロード保護、GuardDuty 調査エージェントのパブリックプレビューについても日本語記事が公開されました。GuardDuty 調査エージェントはリスクレベル、信頼度スコア、MITRE ATT&CK 手法のマッピング、推奨アクションを含む構造化された評価を返し、調査時間を数時間から数分へ短縮します。AWS Summit Japan 2026 では Bedrock AgentCore を活用したマルチテナント AI CRM のデモが展示されました。サービス更新は RDS for SQL Server が Multi-AZ インスタンスで TDE 有効データベースの復元に対応した 1 件です。
+"topics":
+  - "国内事例: 弁護士ドットコムが AWS DevOps Agent でインシデント対応を自動化し属人化を解消"
+  - "セキュリティ: Security Hub のマルチクラウド (Microsoft Azure) 対応と AI ワークロード保護の日本語解説"
+  - "セキュリティ: GuardDuty 調査エージェントが MITRE ATT&CK マッピング付きの構造化評価で調査時間を数分に短縮"
+  - "SaaS: Bedrock AgentCore を活用したマルチテナント AI CRM のデモ (AWS Summit Japan 2026)"
+  - "データベース: RDS for SQL Server が Multi-AZ インスタンスでの TDE 有効データベース復元に対応"

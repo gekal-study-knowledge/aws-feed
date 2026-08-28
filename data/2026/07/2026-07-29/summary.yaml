@@ -1,0 +1,19 @@
+"date": "2026-07-29"
+"generated_at": "2026-08-28 09:27:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 15
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は MCP 仕様の大型改訂への対応が注目点でした。Model Context Protocol が 2026-07-28 仕様を公開し、ローンチ以来最大の改訂として MCP がステートレス化され統制された拡張の仕組みが導入されたことを受け、AgentCore Gateway がどう対応するかが解説されています。あわせて LangGraph によるワークフロー編成と Strands によるエージェント推論を組み合わせ、AgentCore 上に本番品質のマルチエージェント市場監視システムを構築する手順も公開されました。セキュリティでは KMS と CloudHSM の使い分けの指針、npm と PyPI からのパッケージ更新を Amazon Linux 上で安全に行う方法 (公開直後の数時間が最も危険であるという観点) が示されています。オーストラリア向けには 2026 Phase 1a の IRAP レポートが AWS Artifact で提供開始となりました。サービス更新は EKS Provisioned Control Plane の HPA 同期並列度向上によるポッドオートスケーリング高速化、IAM Identity Center ディレクトリのマルチリージョン対応などです。
+"topics":
+  - "MCP: 2026-07-28 仕様でステートレス化と統制された拡張が導入、AgentCore Gateway の対応を解説"
+  - "マルチエージェント: LangGraph + Strands を AgentCore 上に載せた本番品質の市場監視システム"
+  - "鍵管理: AWS KMS と CloudHSM の選び分けの考え方"
+  - "サプライチェーン: npm / PyPI パッケージ更新を Amazon Linux で安全に行う方法 (公開直後が最も危険)"
+  - "コンプライアンス: 2026 Phase 1a の IRAP レポートを AWS Artifact で提供 (オーストラリア向け)"
+  - "Kubernetes: EKS Provisioned Control Plane が HPA 同期並列度の向上でポッドオートスケーリングを高速化"
+  - "ID 基盤: IAM Identity Center ディレクトリがマルチリージョンレプリケーションに対応"

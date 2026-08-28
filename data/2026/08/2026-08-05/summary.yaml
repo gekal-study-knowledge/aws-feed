@@ -1,0 +1,21 @@
+"date": "2026-08-05"
+"generated_at": "2026-08-28 09:28:28 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 21
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は検索とベクトルの基盤強化が目立ちました。Amazon DynamoDB がネイティブのベクトル検索に対応し、数兆ベクトル規模でも 99% 以上の再現率を 1 桁ミリ秒のレイテンシで提供します。Amazon Bedrock には Web Search がサーバーサイドの組み込みツールとして一般提供され、モデル応答を Web 上の情報にグラウンディングできるようになりました (OpenAI GPT モデルでも利用可能)。Kiro では 3 つに分かれていた IDE / CLI / Web のエージェントを標準化された Agent Client Protocol ベースの単一ハーネスへ統合した経緯が解説され、あわせて仕事を代行する Kiro Crew が紹介されています。セキュリティでは Security Hub Extended に 10 番目のカテゴリとしてサプライチェーンセキュリティが追加され、Chainguard と Socket がキュレーションパートナーとなりました。Network Firewall は明示的なフォワードプロキシとして利用できる機能がプレビューで再導入されています。
+"topics":
+  - "ベクトル検索: DynamoDB がネイティブのベクトル検索に対応、数兆ベクトル規模で 1 桁ミリ秒・再現率 99% 以上"
+  - "グラウンディング: Amazon Bedrock の Web Search が一般提供、サーバーサイド組み込みツールとして応答を Web 情報に接地"
+  - "開発ツール: Kiro が IDE / CLI / Web の 3 エージェントを Agent Client Protocol ベースの単一ハーネスに統合"
+  - "エージェント: 仕事を代行する Kiro Crew を発表"
+  - "サプライチェーン: Security Hub Extended が 10 番目のカテゴリとしてサプライチェーンセキュリティを追加 (Chainguard / Socket)"
+  - "ネットワーク: Network Firewall を明示的なフォワードプロキシとして使う機能をプレビュー再導入"
+  - "脆弱性: AgentCore harness の入力検証不足、Kiro IDE / CLI の Windows における信頼できないディレクトリからの実行ファイル解決"

@@ -1,0 +1,20 @@
+"date": "2026-08-25"
+"generated_at": "2026-08-28 09:32:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 33
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は Kiro の cloud sessions プレビューが目を引きました。AI エージェントをクラウドのサンドボックスで動かすため、ラップトップを閉じても作業が継続し、CLI・IDE・Web のどのクライアントからも同じセッションに戻れます。あわせて LLM ジャッジとライブシグナルで Kiro エージェントの品質を継続的に評価するワークフロー、本番インシデントのトリアージを AI エージェントに任せられるようになるまでの実録 (アラート発報から 13 分 35 秒で根拠のある診断がチケットに載る) が公開されました。SageMaker HyperPod は EKS 上でのマネージド Ray サポートを獲得し、Ray クラスターの作成・監視とノートブック接続が可能になっています。Lambda は IAM のリソースベースポリシーを完全にサポートし、Node.js 26 と Python 3.15 のマネージドランタイムがパブリックプレビューとなりました。EKS はクラスターあたり複数の外部 OIDC ID プロバイダーに対応しています。
+"topics":
+  - "開発体験: Kiro の cloud sessions (プレビュー) でエージェントをクラウドサンドボックスで継続実行、どのクライアントからも復帰可能"
+  - "品質管理: LLM ジャッジとライブシグナルによる Kiro エージェントの継続的プロンプト評価"
+  - "運用自動化: 本番インシデントのトリアージを AI エージェントに委ねるまでの実録 (13 分 35 秒で根拠付き診断)"
+  - "分散処理: SageMaker HyperPod が EKS 上でマネージド Ray をサポート (可観測性・耐障害学習・推論高速化)"
+  - "サーバーレス: Lambda が IAM リソースベースポリシーを完全サポート、Node.js 26 / Python 3.15 のマネージドランタイムがプレビュー"
+  - "Kubernetes: EKS がクラスターあたり複数の外部 OIDC ID プロバイダーに対応"
+  - "エージェント発見: Agentic Resource Discovery (ARD) 仕様と AWS Agent Registry によるエージェント・ツールのカタログ化"

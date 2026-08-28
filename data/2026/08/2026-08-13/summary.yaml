@@ -1,0 +1,23 @@
+"date": "2026-08-13"
+"generated_at": "2026-08-28 09:29:54 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 25
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は IAM ロール作成の出発点を見直す role manager の一般提供が目を引きました。新しいアプリケーションを構築する際に必要な IAM ロールを自動的にセットアップし、権限設計に費やす時間を削減します。Amazon Quick にはガバナンス機能がまとまって追加され、Microsoft Purview 連携によるデータ損失防止、新しい AI 機能を利用者に届く前に既定で制限する deny by default、ユーザー単位のインデックスストレージとエージェント時間の上限、共有の承認ポリシーが揃いました。ライフサイエンス領域では Kiro を 24 分野・100 以上のデータベースを横断する統合研究インターフェースへ拡張する Kiro power パッケージ、HealthOmics 上での PacBio 全ゲノムシーケンシングのベンチマークが公開されています。アーキテクチャブログでは Adobe Firefly が Amazon Managed Service for Prometheus への移行で GPU メトリクスのクエリを 28 倍高速化した事例、パラメータ化クエリテンプレートによる Text2SQL のレイテンシ 80% 削減が解説されました。
+"topics":
+  - "IAM: role manager が一般提供、必要な IAM ロールを自動的にセットアップ"
+  - "データガバナンス: Amazon Quick が Microsoft Purview 連携の DLP、deny by default、ユーザー単位の上限、共有承認ポリシーを追加"
+  - "ライフサイエンス: Kiro を 24 分野・100 以上のデータベース横断の研究インターフェースへ拡張する Kiro power パッケージ"
+  - "ゲノミクス: HealthOmics 上での PacBio 全ゲノムシーケンシング解析パイプラインのベンチマーク"
+  - "監視: Adobe Firefly が Amazon Managed Service for Prometheus 移行で GPU メトリクスのクエリを 28 倍高速化"
+  - "性能: パラメータ化クエリテンプレートで Text2SQL のレイテンシを 80%、トークン消費を 50% 以上削減"
+  - "トラブルシュート: S3 のアクセス拒否エラーに該当する IAM / Organizations ポリシーの ARN を含めるように改善"
+  - "脆弱性: OpenSearch Alerting プラグインの認可欠落、AWS SDK for C++ の Base64 デコーダのメモリ安全性問題"

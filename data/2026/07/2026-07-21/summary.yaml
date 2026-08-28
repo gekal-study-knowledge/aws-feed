@@ -1,0 +1,22 @@
+"date": "2026-07-21"
+"generated_at": "2026-08-28 09:25:46 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 27
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティ運用の自動化が目玉でした。Amazon GuardDuty investigation agent がパブリックプレビューで登場し、AWS 環境全体のセキュリティ検出結果を AI が調査して調査時間を短縮します。あわせて 2026 年の ISO および CSA STAR 認証が 2 サービスを追加して取得されました。分析・BI では Tradeshift がレガシー BI を Amazon Quick のエージェント機能で置き換えクエリ応答を最大 30 倍高速化した事例、NVIDIA NeMo Agent Toolkit と組み合わせたサプライチェーンリスクのエージェントワークフロー構築が紹介されています。Couchbase が Capella iQ にマルチモデル AI アーキテクチャを採用した事例も公開されました。サービス更新は Managed Service for Apache Flink の Flink 2.3 対応、CloudTrail のネットワークアクティビティイベントを ID 単位で選択的に記録する機能、RDS for SQL Server の SQL Server 2025 対応、Managed Service for Prometheus の 15 億アクティブメトリクス対応などです。
+"topics":
+  - "セキュリティ自動化: GuardDuty investigation agent がパブリックプレビュー、AI が検出結果を調査し調査時間を短縮"
+  - "認証: 2026 年の ISO および CSA STAR 認証を 2 サービス追加で取得"
+  - "BI 刷新: Tradeshift がレガシー BI を Amazon Quick に置き換え、クエリ応答を最大 30 倍高速化"
+  - "エージェント連携: Amazon Quick と NVIDIA NeMo Agent Toolkit でサプライチェーンリスクのワークフローを構築"
+  - "監査: CloudTrail が VPC エンドポイントのネットワークアクティビティイベントを ID 単位で選択的に記録可能に"
+  - "ストリーム処理: Managed Service for Apache Flink が Apache Flink 2.3 に対応 (適応的パーティション選択を含む)"
+  - "監視規模: Managed Service for Prometheus がワークスペースあたり 15 億アクティブメトリクス、20 万ルールをサポート"
+  - "データベース: RDS for SQL Server が Microsoft SQL Server 2025 に対応"

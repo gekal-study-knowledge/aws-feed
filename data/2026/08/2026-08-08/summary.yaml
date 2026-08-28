@@ -1,0 +1,18 @@
+"date": "2026-08-08"
+"generated_at": "2026-08-28 09:29:54 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 11
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は週末で件数が少なく、エージェントアーキテクチャの事例とセキュリティ運用の記事が中心でした。Cohere Health が AgentCore Runtime のセキュアな MicroVM 分離を使ってマルチテナントのエージェンティックアーキテクチャを構築し、臨床ポリシーをデジタル化した事例が公開されています。ジョージア州立大学の研究センター TReNDS は Strands Agents SDK と Bedrock で根本原因分析を自動化しました。AWS Generative AI Innovation Center は制約プログラミングとカスタム木探索により NHL のプレーオフ進出条件を数学的に判定するシステムを構築しています。セキュリティブログでは S3 バケットの過剰な権限を特定して是正する手法と、AWS Managed Microsoft AD の 10 年を振り返る記事が公開されました。サービス更新では AgentCore のメモリ・ポリシー・ハーネスが GovCloud (US-West) に到達し、VPC IPAM が BYOIP プレフィックスの BGP 経路保護監視と委任 RPKI に対応しています。
+"topics":
+  - "マルチテナント: Cohere Health が AgentCore Runtime の MicroVM 分離で臨床ポリシーをデジタル化"
+  - "運用自動化: TReNDS が Strands Agents SDK と Bedrock で根本原因分析を自動化"
+  - "最適化: 制約プログラミングとカスタム木探索で NHL のプレーオフ進出条件を数学的に判定"
+  - "S3 セキュリティ: 過剰な権限を持つバケットポリシーの特定と是正の手法"
+  - "GovCloud: AgentCore のメモリ・ポリシー・ハーネスが GovCloud (US-West) で利用可能に"
+  - "ネットワーク: VPC IPAM が BYOIP プレフィックスの BGP 経路保護監視と委任 RPKI に対応"
+  - "節目: AWS Managed Microsoft AD の 10 年を振り返る"

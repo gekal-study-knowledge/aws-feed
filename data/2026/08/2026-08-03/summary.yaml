@@ -1,0 +1,12 @@
+"date": "2026-08-03"
+"generated_at": "2026-08-28 09:28:28 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  この日は日本語ブログのみの更新で、SBOM とソフトウェア構成分析が主題でした。Amazon Inspector SBOM Generator を使って Java アプリケーションの JAR ファイル内に潜むネストされた依存関係を特定する方法が解説され、Log4J の脆弱性 (CVE-2021-44228) のように見落とされやすいリスクへの対処法が示されています。あわせて inspector-sbomgen に Lua でカスタムパッケージコレクターを記述できるプラグインシステムが導入され、標準では対応していないエコシステムや組織独自のロックファイル形式もコンパイル不要でインベントリ化できるようになりました。週刊生成 AI with AWS では Astemo の AI-DLC UnicornGym と Outpost VFX の AI モデルトレーニング 8 倍高速化を含む 10 件の記事が紹介されています。
+"topics":
+  - "SBOM: Inspector SBOM Generator による Java JAR 内のネストされた依存関係の特定手法 (Log4J 型リスクへの対処)"
+  - "拡張性: inspector-sbomgen に Lua でカスタムパッケージコレクターを書けるプラグインシステムを追加"
+  - "国内まとめ: 週刊生成 AI with AWS で Astemo の AI-DLC UnicornGym、Outpost VFX の 8 倍高速化など 10 件を紹介"

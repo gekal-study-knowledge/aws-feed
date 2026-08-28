@@ -1,0 +1,10 @@
+"date": "2026-08-16"
+"generated_at": "2026-08-28 09:31:16 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  この日は日曜日で更新は 1 件のみでした。ＪＣＲファーマによる寄稿記事として、Amazon Bedrock 上で Claude Code を導入した約 2 か月間の取り組みが公開されています。創薬研究と関連業務を AI エージェントで加速させた事例で、同社の複数の担当者による実践報告という形式になっています。製薬業界における生成 AI の実務適用として、研究フェーズだけでなく日常業務まで含めて扱っている点が特徴です。
+"topics":
+  - "国内事例: ＪＣＲファーマが Amazon Bedrock 上の Claude Code で創薬研究・業務を加速 (約 2 か月間の取り組みを寄稿)"

@@ -1,0 +1,18 @@
+"date": "2026-08-01"
+"generated_at": "2026-08-28 09:28:28 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 10
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は月初で件数が少なく、エージェント運用とコンプライアンスが中心でした。Amazon Bedrock AgentCore Observability を使い、プロトタイプから本番に移行した AI エージェントを高速かつ効率的に保つための最適化手法が解説されています。Amazon Quick には Agentic Catalog Experience が導入され、データキュレーターが自然言語で上流のカタログ資産を発見できるようになりました。セキュリティブログでは HIPAA セキュリティ規則の技術的セーフガードについて、対象事業者とビジネスアソシエイト向けの実装・準備ガイダンスが公開されています。セキュリティ速報は 4 件と多く、smithy-rs 生成サーバーの未知キースキップ経路における制御されない再帰、OpenSearch Dashboards TSVB プラグインのプロトタイプ汚染による RCE、Strands Agents Tools の http_request における認可不備、@aws-amplify/codegen-ui-react の修正不完全が報告されました。
+"topics":
+  - "エージェント運用: AgentCore Observability による本番エージェントの速度・効率の最適化"
+  - "データカタログ: Amazon Quick の Agentic Catalog Experience で自然言語による上流資産の発見"
+  - "コンプライアンス: HIPAA セキュリティ規則の技術的セーフガード実装・準備ガイダンスを公開"
+  - "脆弱性: OpenSearch Dashboards TSVB プラグインのプロトタイプ汚染によるリモートコード実行 (CVE-2026-18420)"
+  - "脆弱性: Strands Agents Tools の http_request における認可不備、smithy-rs の制御されない再帰による DoS"
+  - "データベース: Aurora DSQL のマルチリージョンクラスターが 4 リージョン追加、RDS for Oracle に R8i / M8i のリザーブドインスタンス"

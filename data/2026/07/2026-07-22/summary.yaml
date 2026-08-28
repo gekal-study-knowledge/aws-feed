@@ -1,0 +1,21 @@
+"date": "2026-07-22"
+"generated_at": "2026-08-28 09:27:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 23
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はコンテナと運用可視性の更新が中心でした。Amazon ECS に Action Logs が追加され、デプロイとオーケストレーションの詳細なタイムスタンプ付き記録を取得できるようになりました。あわせて ECS の高度なデプロイ戦略 (ブルー/グリーン、リニア、カナリア) が AWS European Sovereign Cloud でも利用可能になっています。Amazon EKS は Auto Mode と Karpenter でプレイスメントグループと EFA のネットワークデバイス設定に対応し、HPC や分散学習のノード構成が扱いやすくなりました。アーキテクチャブログでは Amazon Macie と Step Functions によるカスタム PII 検出の自動化、エッジ向けのオフラインファースト生成 AI、CloudFormation カスタムリソースのマルチリージョン耐障害性が解説されています。Secrets Manager はシークレット値の変更を EventBridge に通知できるようになりました。
+"topics":
+  - "コンテナ可視性: ECS Action Logs でデプロイとオーケストレーションの詳細な記録を取得"
+  - "デプロイ戦略: ECS のブルー/グリーン・リニア・カナリアが European Sovereign Cloud でも利用可能に"
+  - "Kubernetes: EKS Auto Mode と Karpenter が EC2 プレイスメントグループと EFA のネットワークデバイス設定に対応"
+  - "データ保護: Macie と Step Functions による大規模なカスタム PII 検出の自動化"
+  - "エッジ: オフラインファーストの生成 AI アプリケーションを AWS サービスで構成する設計"
+  - "イベント駆動: Secrets Manager がシークレット値の変更を EventBridge に発行"
+  - "脆弱性: smithy-rs デシリアライザの制御されない再帰による DoS、s2n-tls の 2 件の問題"

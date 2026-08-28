@@ -1,0 +1,10 @@
+"date": "2026-08-02"
+"generated_at": "2026-08-28 09:28:28 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  この日は日曜日で更新は 1 件のみでした。OpenAI が GPT-5.6 Terra および Luna の価格を引き下げたことを受け、Kiro でもクレジット倍率を引き下げて値下げ分を利用者に還元したことが案内されています。新しい倍率は既に適用済みです。前日までに Amazon Bedrock 側でもオンデマンド推論価格が最大 80% 下がっており、モデル提供元の値下げが AWS の各プロダクトへ順次反映された形になります。
+"topics":
+  - "価格改定: GPT-5.6 Terra / Luna の値下げを受けて Kiro のクレジット倍率を引き下げ、新倍率は適用済み"

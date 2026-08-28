@@ -1,0 +1,22 @@
+"date": "2026-08-19"
+"generated_at": "2026-08-28 09:31:16 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 35
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は AgentCore payments の一般提供が最大のトピックです。AI エージェントが支出ガードレールを備えた状態で、大規模かつ自律的に安全に取引できるようになりました。Amazon Bedrock には SpaceXAI Grok 4.6 が追加され、OpenAI の GPT-5.6 (Terra / Luna) がインド Geo のクロスリージョン推論で利用可能になっています。Security Hub Extended のサプライチェーンセキュリティ追加については日本語解説が公開され、Chainguard と Socket によるオープンソース依存関係の来歴検証と悪意あるパッケージのブロック、OCSF 形式での検出結果連携が説明されました。国内ではセガの『ソニックランブル パーティ』を支える基盤として EKS Auto Mode × Agones、DynamoDB と ElastiCache Serverless for Valkey を採用した 2 本の事例が公開されています。医療分野では臨床試験の適格性判定と Clario による DICOM 画像からの PHI/PII 検出の事例が紹介されました。
+"topics":
+  - "エージェント決済: AgentCore payments が一般提供、支出ガードレール付きで自律的な取引を大規模に実行"
+  - "基盤モデル: Bedrock が SpaceXAI Grok 4.6 に対応、GPT-5.6 (Terra / Luna) がインド Geo のクロスリージョン推論で利用可能に"
+  - "サプライチェーン: Security Hub Extended のサプライチェーンセキュリティを日本語解説 (来歴検証と悪意あるパッケージのブロック)"
+  - "国内事例: セガ『ソニックランブル パーティ』の EKS Auto Mode × Agones、DynamoDB / ElastiCache Serverless for Valkey 活用"
+  - "医療: 臨床試験の適格性・安全性判定エージェント、Clario の DICOM 画像からの PHI/PII 自動検出"
+  - "IaC: IAM Policy Autopilot が Terraform プランファイルからのベースラインポリシー生成に対応"
+  - "脆弱性: OpenSearch Dashboards の資源消費問題、Amazon ion-java のメモリ増幅型 DoS"

@@ -1,0 +1,23 @@
+"date": "2026-08-14"
+"generated_at": "2026-08-28 09:31:16 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 23
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は証明書運用の大きな方針転換が告知されました。AWS Certificate Manager が CA/B フォーラムによる業界全体の動きに合わせ、2027 年 9 月 30 日までに E メール検証済みパブリック証明書のサポートを終了します。あわせて既存の証明書について E メール検証から DNS 検証へ切り替える機能も提供開始されました。Amazon Quick は Microsoft 365 拡張機能が一般提供となり、Word・Excel・PowerPoint・Outlook の中から直接エージェンティック AI とデータにアクセスできます。Claude Opus 5 が GovCloud (US) でも利用可能になり、OpenAI のサイバー防御モデル Daybreak Red / Daybreak Blue も対象顧客向けに Bedrock で提供開始となりました。コンピュートブログでは相関するハードウェア障害を防ぐ分散システム設計、Lambda MicroVMs の CPU・メモリメトリクス収集、durable functions のオブザーバビリティのベストプラクティスが解説されています。
+"topics":
+  - "証明書: ACM が 2027 年 9 月 30 日までに E メール検証を終了、DNS 検証への切り替え機能も提供"
+  - "生産性: Amazon Quick の Microsoft 365 拡張 (Word / Excel / PowerPoint / Outlook) が一般提供"
+  - "GovCloud: Claude Opus 5 が GovCloud (US) で利用可能に"
+  - "サイバー防御: OpenAI の Daybreak Red / Daybreak Blue が対象顧客向けに Bedrock で提供開始"
+  - "耐障害設計: 相関するハードウェア障害を防ぐ分散システム設計と実際のインシデント対応パターン"
+  - "オブザーバビリティ: Lambda MicroVMs のメトリクス収集と durable functions の監視ベストプラクティス"
+  - "マルチクラウド: AgentCore Observability でオンプレミス・GCP・Azure 上のエージェントも監視"
+  - "脆弱性: OpenSearch Security Analytics プラグインの入力検証欠落、SQL プラグインの非同期クエリ検証バイパス"

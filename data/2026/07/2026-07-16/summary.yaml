@@ -1,0 +1,21 @@
+"date": "2026-07-16"
+"generated_at": "2026-08-28 09:25:46 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 37
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は Oracle Database@AWS の日本語解説がまとめて公開されたのが最大の特徴です。ワークロード適性を見極める 5 つの質問から、CloudFormation / Terraform でのプロビジョニング、バックアップとリカバリ、高性能ネットワーキング、クロスアカウント共有、トラフィックの集中検査まで、導入から運用までを一通り網羅する構成になっています。Amazon OpenSearch Service には書き込み可能なウォームストレージが加わり、UltraWarm で必要だったホストとの往復なしにウォーム層へ直接書き込めるようになってインフラコストを最大 48% 削減できます。CloudWatch Logs はストレージのインテリジェント階層化と Logs Insights の 25 個の新コマンド・関数を追加しました。Aurora DSQL は FedRAMP Moderate の対象となり、AWS Backup は論理的にエアギャップされた保管庫と復元テストを複数リージョンへ拡大しています。
+"topics":
+  - "Oracle Database@AWS: 適性判断・IaC プロビジョニング・バックアップ・ネットワーキング・共有・検査までの日本語解説シリーズを公開"
+  - "検索基盤: OpenSearch Service の書き込み可能なウォームストレージでインフラコスト最大 48% 削減、更新は数秒に"
+  - "ログ運用: CloudWatch Logs がストレージのインテリジェント階層化に対応、Logs Insights に 25 の新コマンド・関数"
+  - "コンプライアンス: Aurora DSQL が FedRAMP Moderate の対象に"
+  - "バックアップ: 論理的にエアギャップされた保管庫と復元テストを 6〜7 リージョンへ拡大"
+  - "データベース: RDS が 24 時間あたり 4 回までのストレージ変更に対応、Cognito はパスワードハッシュ付きユーザーインポートをサポート"
+  - "脆弱性: Strands Agents Tools の elasticsearch_memory における認証情報漏洩 (CVE-2026-15746)"

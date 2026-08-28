@@ -1,0 +1,18 @@
+"date": "2026-07-18"
+"generated_at": "2026-08-28 09:25:46 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 12
+"sources":
+  - "aws_architecture_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は件数こそ少ないものの、データ主権を扱うアーキテクチャ記事が目立ちました。Eclipse Dataspace Components (EDC) を AWS 上で実装する 3 部構成のシリーズが公開され、データ共有の基礎概念から本番環境でのアーキテクチャパターン (分離・マネージドサービス・セキュリティ層)、コスト最適化戦略までを扱っています。機械学習ブログでは Smartsheet がリモート MCP サーバーを AWS 上に構築した事例が、セキュリティ・ガバナンス・インフラの観点で解説されました。Amazon Quick にはダッシュボードのモバイルレイアウトが追加され、スマートフォンでのピンチ操作を前提としない表示が可能になっています。サービス更新は SageMaker HyperPod の Slurm クラスターにおけるパーティション単位のトポロジー設定、OpenSearch UI へのワンクリック移行、SageMaker Unified Studio のカスタムビジュアル変換でした。
+"topics":
+  - "データ共有: Eclipse Dataspace Components を AWS 上で実装する 3 部作 (基礎・本番アーキテクチャ・コスト最適化)"
+  - "MCP 実装事例: Smartsheet のリモート MCP サーバーを支える AWS インフラ、セキュリティとガバナンス"
+  - "ダッシュボード: Amazon Quick にモバイルレイアウトが追加、小画面でも操作しやすい表示に"
+  - "機械学習基盤: SageMaker HyperPod が Slurm クラスターでパーティション単位のネットワークトポロジー設定に対応"
+  - "検索: OpenSearch Dashboards から OpenSearch UI へのワンクリック移行をサポート"
+  - "脆弱性: Athena Federated Query Synapse コネクタの問題、aws-healthomics-mcp-server のパストラバーサル"

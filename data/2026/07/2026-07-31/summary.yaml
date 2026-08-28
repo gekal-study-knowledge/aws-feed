@@ -1,0 +1,20 @@
+"date": "2026-07-31"
+"generated_at": "2026-08-28 09:28:28 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 25
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI の価格改定と運用効率化が話題の中心でした。OpenAI が GPT-5.6 Terra と Luna の価格を引き下げたことを受け、Amazon Bedrock のオンデマンド推論価格が最大 80% 低下しました。あわせて GPT-5.6 モデル向けの明示的なプロンプトキャッシングが導入され、キャッシュ対象を精密に制御できます。Bedrock Advanced Prompt Optimization では最大 5 モデルへ同時にプロンプトを最適化し、元のプロンプトとの性能比較が可能になりました。セキュリティでは AI コーディングエージェントの速度と安全性を両立させるコントロールフレームワークが提示され、Amazon Inspector SBOM Generator は Lua でカスタムパッケージコレクターを書けるプラグイン機構を獲得しています。ネットワークでは Transit Gateway のポリシーベースルーティングが GA となり、CloudWatch には Prometheus メトリクスのマネージドコレクターが追加されました。
+"topics":
+  - "価格改定: GPT-5.6 Terra / Luna の値下げにより Bedrock のオンデマンド推論価格が最大 80% 低下"
+  - "推論効率: GPT-5.6 向けの明示的プロンプトキャッシングを導入、キャッシュ対象を精密に制御"
+  - "プロンプト運用: Bedrock Advanced Prompt Optimization が最大 5 モデルへの同時最適化と性能比較に対応"
+  - "AI 開発統制: AI コーディングエージェントの速度と安全性を両立させるコントロールフレームワークを提示"
+  - "SBOM: Amazon Inspector SBOM Generator が Lua によるカスタムパッケージコレクターのプラグインに対応"
+  - "ネットワーク: Transit Gateway のポリシーベースルーティング (PBR) が一般提供、Direct Connect は BGP 経路の可視化に対応"
+  - "監視: CloudWatch が Prometheus メトリクスのフルマネージドコレクターを提供"
+  - "IAM: IAM Policy Simulator が IAM コンソールへ移行し機能を拡充"

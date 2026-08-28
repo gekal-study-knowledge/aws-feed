@@ -1,0 +1,21 @@
+"date": "2026-07-17"
+"generated_at": "2026-08-28 09:25:46 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 31
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は日本語ブログでデータベース運用の実践記事が集中しました。Amazon RDS for Oracle ではデータマスキング、REDO 圧縮によるレプリケーションラグ最適化とその診断・解消の 2 部構成、RDS for Db2 では Terraform によるデプロイ、カスタムドメイン名の維持、セルフマネージド AD の Kerberos 認証、DMS を使ったオンプレミス AIX Db2 へのフェイルバック、アーカイブログ同期によるハイブリッド構成と、移行後の運用を支える記事が揃っています。Lambda には自己管理の S3 バケットをコード置き場にできる機能が追加され、75GB のコードストレージ上限やデプロイ成果物の所在に関する制約が緩和されました。Amazon S3 は Standard-IA と One Zone-IA への移行に必要だった 30 日の最低保持期間を撤廃しています。Bedrock には Grok が追加され、AgentCore と Nova 2 Sonic による電話応対 AI の構築手順も公開されました。
+"topics":
+  - "データベース運用: RDS for Oracle のデータマスキング、REDO 圧縮によるレプリカ遅延の最適化と診断・解消"
+  - "データベース移行: RDS for Db2 の Terraform デプロイ、カスタムドメイン維持、Kerberos 認証、AIX へのフェイルバック"
+  - "サーバーレス: Lambda が自己管理 S3 バケットでのコード保管に対応し、75GB 上限の制約を緩和"
+  - "ストレージコスト: S3 が Standard-IA / One Zone-IA への移行における 30 日の最低保持期間を撤廃"
+  - "基盤モデル: Amazon Bedrock に Grok 4.3 が登場、エージェント・エンタープライズ用途での特徴を解説"
+  - "音声 AI: AgentCore と Nova 2 Sonic による電話注文システムの構築手順"
+  - "国内事例: エブリーが Aurora DSQL 採用でデータベースコストを 90% 以上削減"
+  - "脆弱性: AgentCore Python SDK の OpenTelemetry スパン経由の情報漏洩、jsii-diff の OS コマンドインジェクション"

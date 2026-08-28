@@ -1,0 +1,20 @@
+"date": "2026-07-09"
+"generated_at": "2026-08-28 09:24:12 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 22
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はエージェント運用の統制とセキュリティの将来対応が目立ちました。Claude apps gateway for AWS が発表され、Claude Code と Claude Desktop のアクセス・コスト・ポリシーを単一のセルフホスト型コントロールプレーンで統制できるようになりました。Bedrock AgentCore Runtime を AWS WAF で保護する 2 つのアーキテクチャパターンも示されています。セキュリティブログでは耐量子暗号への移行を CISO 視点で整理した記事と、生成 AI アプリのシステムプロンプト漏洩を前提とした緩和策が公開されました。サービス更新では Aurora DSQL の変更データキャプチャが一般提供となり Kinesis Data Streams への変更ストリーミングが可能に、Security Hub は公開到達可能なリソースを特定する Network Scanning を追加、AWS Config は 191 のマネージドルールを追加しています。国内では井村屋グループが SageMaker Canvas によるチルド製品の需要予測で業務工数 90% 削減を達成した事例が紹介されました。
+"topics":
+  - "エージェント統制: Claude apps gateway for AWS がアクセス・コスト・ポリシーの単一コントロールプレーンを提供"
+  - "エージェント保護: Bedrock AgentCore Runtime を ALB + AWS WAF と VPC インターフェースエンドポイントで保護する 2 パターン"
+  - "将来対応: 耐量子暗号 (PQC) 移行の CISO 向けガイドと、システムプロンプト漏洩を前提とした設計・緩和策"
+  - "データ連携: Aurora DSQL の変更データキャプチャ (CDC) が GA、Kinesis Data Streams への変更ストリーミングに対応"
+  - "セキュリティ運用: Security Hub の Network Scanning が公開インターネットから到達可能なリソースを特定"
+  - "ガバナンス: AWS Config が Bedrock・SageMaker・ECS・EKS など主要サービスで 191 のマネージドルールを追加"
+  - "国内事例: 井村屋グループが SageMaker Canvas によるチルド製品の AI 需要予測で業務工数 90% 削減"

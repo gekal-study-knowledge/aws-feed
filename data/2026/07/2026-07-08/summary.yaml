@@ -1,0 +1,22 @@
+"date": "2026-07-08"
+"generated_at": "2026-08-28 09:24:12 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 26
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は分析基盤とデータのセマンティック化が主役でした。Amazon Quick Sight のマルチデータセット関係が発表され、データセット間の論理的な関係を定義してクエリ実行時に結合できるようになり、データモデリングのパターンやレガシー Topics からの移行手順が一連の記事で解説されています。Redshift は RA3 から Graviton ベース RG への移行ベストプラクティスとして Elastic Resize / Classic Resize / Snapshot 復元の 3 戦略が比較されました。セキュリティでは Bedrock Projects とサービスコントロールポリシーによるゼロデータ保持の組織的な強制方法が示されています。サービス更新は RDS for Oracle の Oracle Database 26ai 対応、EMR Serverless の 32 vCPU / 244GB ワーカー、ECS Managed Instances の GPU 管理手数料 60% 削減、S3 Vectors と Redshift RG の GovCloud 提供開始が中心でした。
+"topics":
+  - "セマンティックレイヤー: Quick Sight マルチデータセット関係でデータセット横断のランタイム結合が可能に、移行手順も公開"
+  - "Redshift 移行: RA3 から Graviton ベース RG への 3 つの移行戦略 (Elastic / Classic Resize、スナップショット復元) を比較"
+  - "データ保護: Bedrock Projects と SCP でゼロデータ保持を組織全体に強制する方法"
+  - "データベース: RDS for Oracle が Oracle Database 26ai (LTS) に対応、Bedrock 統合付き"
+  - "処理能力: EMR Serverless が 32 vCPU / 最大 244GB メモリの大型ワーカーに対応"
+  - "コスト: ECS Managed Instances も GPU 管理手数料を最大 60% 削減"
+  - "GovCloud: S3 Vectors と Redshift RG インスタンスが GovCloud (US) で提供開始"
+  - "脆弱性: CVE-2026-14904 Research and Engineering Studio のリンク解決不備 (Important)"

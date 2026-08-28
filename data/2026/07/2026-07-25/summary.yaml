@@ -1,0 +1,19 @@
+"date": "2026-07-25"
+"generated_at": "2026-08-28 09:27:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 15
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は Claude Opus 5 の AWS 提供開始が最大のトピックです。ゼロデータ保持 (ZDR) に対応した最も高度な Opus モデルとして、コーディングや長時間タスクで段階的な進化をもたらすと紹介されました。Kiro でも同日から Opus 5 が IDE / CLI / Web で利用可能になり、時間のかかる作業への強さ、並列エージェントの協調改善、長いセッションでのコストとレイテンシを制御する新機能が加わっています。あわせて Kiro では初めて OpenAI のモデルとして GPT-5.6 が利用可能になり、これは Kiro の 1 周年でもありました。機械学習ブログでは Bedrock 上の GPT-5.6 Sol / Terra / Luna の使い分けと Responses API による推論方法、銀行向けの説明可能なネクストベストプロダクト推薦システムが解説されています。運用面では Network Firewall のトラブルシューティングを AWS DevOps Agent で加速する手法が公開されました。
+"topics":
+  - "基盤モデル: Claude Opus 5 が AWS で提供開始、ゼロデータ保持に対応した最も高度な Opus モデル"
+  - "開発ツール: Kiro で Claude Opus 5 が利用可能に、並列エージェントの協調とコスト・レイテンシ制御を強化"
+  - "開発ツール: Kiro が初めて OpenAI モデル (GPT-5.6) に対応、あわせて Kiro は 1 周年"
+  - "モデル活用: Bedrock 上の GPT-5.6 Sol / Terra / Luna の選び方と Responses API での推論"
+  - "運用自動化: AWS DevOps Agent による Network Firewall のルール変更起因の疎通障害トラブルシューティング"
+  - "コスト: Redshift Serverless の 3 年 Serverless Reservations に全額前払いオプション (オンデマンド比最大 50% 削減)"
+  - "ヘルスケア: HealthLake が患者・医療者・組織の重複レコードを特定してリンクする機能をプレビュー提供"
