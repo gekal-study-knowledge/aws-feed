@@ -1,7 +1,7 @@
 "date": "2026-08-27"
-"generated_at": "2026-08-28 09:32:43 JST"
+"generated_at": "2026-08-28 12:14:08 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 20
+"article_count": 21
 "sources":
   - "aws_architecture_blog"
   - "aws_japan_blog"
@@ -9,11 +9,12 @@
   - "aws_security_blog"
   - "aws_whats_new"
 "overview": |
-  この日は Amazon が DuckDB を開発するアムステルダム拠点の DuckLabs を買収する最終契約を締結したことが発表されました。DuckDB は 1 テラバイト以下の日常的なクエリを高速に処理するアーキテクチャを持ち、データエンジニアリングやデータサイエンス、AI エージェントの分析用途で広く使われています。アーキテクチャブログでは AI エージェントに全権限か読み取り専用かの二択を迫るのではなく、段階的に自律性を与える graduated autonomy というパターンが提示されました。Amazon Bedrock AgentCore Evaluations はエージェント評価を構築フレームワークから切り離し、OpenTelemetry のテレメトリさえ出していればどのフレームワークでも評価できるようにしています。セキュリティブログでは複数サービスのシグナルを相関させて多段階攻撃を検知するガイドが公開されました。事例では Gallup が 90 年分の職場科学を Bedrock ベースの Gallup AI に変換し、GoDaddy がレガシー BI から Amazon Quick へ 2 年かけて移行した内容が紹介されています。
+  この日は Amazon が DuckDB を開発するアムステルダム拠点の DuckLabs を買収する最終契約を締結したことが発表されました。DuckDB は 1 テラバイト以下の日常的なクエリを高速に処理するアーキテクチャを持ち、データエンジニアリングやデータサイエンス、AI エージェントの分析用途で広く使われています。アーキテクチャブログでは AI エージェントに全権限か読み取り専用かの二択を迫るのではなく、段階的に自律性を与える graduated autonomy というパターンが提示されました。Amazon Bedrock AgentCore Evaluations はエージェント評価を構築フレームワークから切り離し、OpenTelemetry のテレメトリさえ出していればどのフレームワークでも評価できるようにしています。データベースでは Aurora DSQL が新規・既存テーブルへの外部キー制約に対応しました。セキュリティブログでは複数サービスのシグナルを相関させて多段階攻撃を検知するガイドが公開され、事例では Gallup が 90 年分の職場科学を Bedrock ベースの Gallup AI に変換し、GoDaddy がレガシー BI から Amazon Quick へ 2 年かけて移行した内容が紹介されています。
 "topics":
   - "買収: Amazon が DuckDB を開発する DuckLabs の買収に関する最終契約を締結"
   - "エージェント設計: 全権限か読み取り専用かの二択を避ける graduated autonomy (段階的自律性) のアーキテクチャパターン"
   - "エージェント評価: AgentCore Evaluations がフレームワーク非依存に、OpenTelemetry を出していれば評価可能"
+  - "データベース: Aurora DSQL が新規・既存テーブルへの外部キー制約をサポート"
   - "脅威検知: 複数サービスのシグナルを相関させて多段階攻撃を検知するガイド"
   - "事例: Gallup が 90 年分の職場科学を Bedrock ベースのリアルタイムコーチング AI に変換"
   - "事例: GoDaddy がレガシー BI から Amazon Quick へ 2 年かけて分析基盤を移行"
