@@ -74,10 +74,10 @@ aws-feed/
 
 ```bash
 # 新規フィードを取得
-python .github/scripts/main.py
+python3 .github/scripts/main.py
 
 # 全レポートを再生成
-python .github/scripts/main.py --rebuild
+python3 .github/scripts/main.py --rebuild
 ```
 
 ### Node.js（開発・ビルド）
@@ -261,7 +261,7 @@ npm run build
 
 ### Python スクリプト変更時
 
-- [ ] ローカルで `python .github/scripts/main.py` を実行
+- [ ] ローカルで `python3 .github/scripts/main.py` を実行
 - [ ] YAML データが正しく生成されるか確認
 - [ ] Markdown レポートが正しく生成されるか確認
 
