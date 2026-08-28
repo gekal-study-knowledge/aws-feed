@@ -34,6 +34,17 @@ jobs:
       - name: Fetch AWS feeds
         run: python .github/scripts/main.py
 
+      - name: Report summaries needing regeneration
+        if: always()
+        run: |
+          {
+            echo '## AI 概要の状況'
+            echo ''
+            echo '```'
+            python .github/scripts/check_summaries.py || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
       - name: Commit and push changes
         id: commit_and_push
         run: |

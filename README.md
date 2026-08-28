@@ -290,6 +290,44 @@ last_updated: '2026-03-21 10:45:50 JST'
 
 記事は情報源ごとにグループ化され、各情報源内で公開日順に並びます。
 
+## AI 概要の再チェック
+
+各日の概要は `data/YYYY/MM/YYYY-MM-DD/summary.yaml` に保存され、`generated_at` に
+生成時刻が秒まで記録されます。フィードは後から同じ日付のエントリーを追加してくることが
+あるため、`generated_at` より後に取得された (`fetched` が新しい) エントリーがある日は
+概要が古くなります。
+
+`check_summaries.py` はその状態を洗い出します。
+
+```bash
+# 対応が必要な日を一覧表示
+python .github/scripts/check_summaries.py
+
+# 特定日以降だけを対象にする
+python .github/scripts/check_summaries.py --since 2026-08-01
+
+# JSON で出力する (自動処理向け)
+python .github/scripts/check_summaries.py --json
+
+# 終了コードだけ見る (CI 向け。対応が必要なら 1)
+python .github/scripts/check_summaries.py --quiet
+```
+
+検出する状態は 3 つです。
+
+| 状態                        | 意味                                                                                             |
+| :-------------------------- | :----------------------------------------------------------------------------------------------- |
+| 概要が未生成                | その日の `summary.yaml` が存在しない                                                             |
+| 概要の生成後に変更あり      | `generated_at` より後に取得されたエントリーがある、または `article_count` が実データとずれている |
+| generated_at を解釈できない | `generated_at` が想定の形式でない                                                                |
+
+初期に生成された概要は `generated_at` が `"YYYY-MM-DD JST"` と日付のみで時刻を持ちません。
+その場合はその日の 23:59:59 に生成されたものとみなして比較し、誤検知を防いでいます。
+
+このスクリプトは `fetch-feeds.yml` の取得ステップの直後にも実行され、結果が
+GitHub Actions のジョブサマリーに出力されます。毎時の取得で概要が古くなった日は
+そこで確認できます。
+
 ## 既読管理 (Firebase)
 
 日別ページの既読/更新状態を管理します。Google アカウントでログインすると Cloud Firestore に保存され、複数のデバイス・ブラウザ間で既読状態が同期されます。未ログイン時は従来どおりブラウザの localStorage に保存されます（初回ログイン時にローカルの既読を Firestore へマージ）。
