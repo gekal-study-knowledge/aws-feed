@@ -1,0 +1,19 @@
+"date": "2026-07-23"
+"generated_at": "2026-08-28 09:27:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 16
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は本番運用の AI エージェント事例と、実行基盤の細かな強化が並びました。monday.com が Amazon Bedrock 上で AI Teammates を大規模に本番運用している事例が公開され、エージェンティック AI を実運用する規模感が示されています。国内では AWS Summit Japan 2026 で展示したスマートグラスと音声 AI エージェントによる店舗業務のハンズフリー支援デモが、Nova 2 Sonic と Bedrock AgentCore Gateway を中核とした構成で紹介されました。サービス更新では SageMaker AI 推論が NVIDIA RTX PRO 4500 Blackwell 搭載の G7 インスタンスに対応し、Lambda durable functions がカスタマー管理キーによる暗号化をサポート、Network Load Balancer が送信元 IP アドレスタイプに基づくリスナールールでの振り分けに対応しています。AWS Organizations はリソースコントロールポリシーの上限を 1,000 から 2,000 へ倍増しました。
+"topics":
+  - "本番エージェント: monday.com が Amazon Bedrock 上で AI Teammates を大規模運用する仕組み"
+  - "音声 AI: スマートグラス × Nova 2 Sonic + AgentCore Gateway による店舗業務のハンズフリー支援デモ"
+  - "推論基盤: SageMaker AI 推論が NVIDIA RTX PRO 4500 Blackwell 搭載の G7 インスタンスに対応"
+  - "データ保護: Lambda durable functions が KMS カスタマー管理キーでの永続実行データ暗号化に対応"
+  - "ネットワーク: Network Load Balancer が送信元 IP アドレスタイプに基づくリスナールールをサポート"
+  - "ガバナンス: AWS Organizations のリソースコントロールポリシー上限が 2,000 へ倍増"
+  - "名寄せ: AWS Entity Resolution が高度なマッチングワークフローでのリアルタイム照合に対応"

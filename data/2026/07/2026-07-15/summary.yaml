@@ -1,0 +1,23 @@
+"date": "2026-07-15"
+"generated_at": "2026-08-28 09:25:46 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 35
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は AI ワークロードそのものを守るセキュリティ機能が揃いました。Amazon GuardDuty AI Protection が登場し、脅威検出の対象が Amazon Bedrock や SageMaker といった AWS の AI サービスへ拡大されました。AWS Security Hub は組織全体の AI 資産を継続的に把握する AI インベントリを追加し、あわせて Microsoft Azure を含むマルチクラウド対応と AI ワークロード保護も発表されています。AWS WAF Bot Control では正規の AI エージェントトラフィックを認証する手法が解説されました。開発体験では Lambda コンソールにコーディングエージェントのワンクリックセットアップが追加され、Managed Service for Apache Flink と OpenSearch Service は Agent Toolkit for AWS のスキルとして利用できるようになっています。運用面では CloudWatch Logs のルックアッププロセッサによるログ拡充、Elastic Disaster Recovery の復旧時間短縮、Lambda の自己管理コードストレージが追加されました。
+"topics":
+  - "AI セキュリティ: GuardDuty AI Protection が Bedrock・SageMaker を脅威検出の対象に追加"
+  - "AI ガバナンス: Security Hub が組織全体の AI 資産を可視化する AI インベントリを提供"
+  - "マルチクラウド: Security Hub が Microsoft Azure に対応し AI ワークロード保護を追加"
+  - "ボット対策: AWS WAF Bot Control で正規の AI エージェントトラフィックを認証する方法"
+  - "開発体験: Lambda コンソールにコーディングエージェントのワンクリックセットアップ、Flink と OpenSearch が Agent Toolkit のスキルに"
+  - "運用: CloudWatch Logs のルックアッププロセッサでログをテーブル参照により拡充"
+  - "災害対策: Elastic Disaster Recovery が AWS 間ワークロードの復旧時間を短縮、EBS 初期化レートにも対応"
+  - "脆弱性: HealthLake MCP Server の SSRF (CVE-2026-15643)、Load Balancer Controller のクロス名前空間傍受 (CVE-2026-15738)"

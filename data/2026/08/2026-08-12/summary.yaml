@@ -1,0 +1,20 @@
+"date": "2026-08-12"
+"generated_at": "2026-08-28 09:29:54 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 23
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はエージェントの運用パターンと GPU によるベクトル基盤の高速化が中心でした。アーキテクチャブログでは中央のオーケストレーターを置かず Amazon S3 の共有状態を介して AI エージェントを協調させる自己組織化クラスターのスケーリングパターンが紹介されています。Amazon OpenSearch Service は GPU アクセラレーションによるベクトルインデックス作成に対応し、10 億規模のインデックスを数日ではなく数時間で構築できるようになりました。AWS Transform はローンチから 1 年で 45 億行のコードを処理し 160 万時間の工数削減を実現したことが報告されています。機械学習ブログでは OpenAI のサイバー防御特化モデル Daybreak Red / Daybreak Blue が対象顧客向けに Bedrock で利用可能になったこと、Solv Labs が AgentCore payments 上に Nitro で証跡を残す検証可能なエージェント決済を構築した事例、OneAdvanced が英国ソブリン環境で 50 以上の AI エージェントを展開した事例が公開されました。コンプライアンスでは 185 サービスを対象とする Summer 2026 SOC 1 レポートが提供開始です。
+"topics":
+  - "エージェント設計: 中央オーケストレーターなしで S3 の共有状態を介して協調する自己組織化エージェントクラスター"
+  - "ベクトル基盤: OpenSearch Service が GPU アクセラレーションで 10 億規模のベクトルインデックスを数時間で構築"
+  - "モダナイゼーション: AWS Transform が 1 年で 45 億行のコードを処理し 160 万時間を削減"
+  - "サイバー防御: OpenAI の Daybreak Red / Daybreak Blue が対象顧客向けに Amazon Bedrock で利用可能に"
+  - "エージェント決済: Solv Labs が AgentCore payments 上に AWS Nitro で証跡を残す検証可能な決済ワークフローを構築"
+  - "ソブリン AI: OneAdvanced が英国ソブリン環境で Llama 4 Maverick 等を自己ホストし 50 以上のエージェントを展開"
+  - "コンプライアンス: 185 サービスを対象とする Summer 2026 SOC 1 レポート、C5:2020 の Landing Zone Accelerator 評価報告書を公開"

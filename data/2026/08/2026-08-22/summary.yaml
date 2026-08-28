@@ -1,0 +1,20 @@
+"date": "2026-08-22"
+"generated_at": "2026-08-28 09:32:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 15
+"sources":
+  - "aws_architecture_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は AWS Glue 6.0 の一般提供が最大のニュースです。Apache Spark 4.1・Python 3.12・Scala 2.13 による完全刷新されたランタイム上に構築され、従来より 30% 低価格になったうえ Apache Iceberg v3 を完全サポートします。あわせて OpenAI が GPT-5.6 Sol の API 価格を引き下げ、Terra と Luna に続く値下げとして Bedrock 側の価格も低下しました。アーキテクチャブログでは DynamoDB のネイティブベクトル検索を使い、ベクトル埋め込みと運用データを単一テーブルに保持する統合 AI エージェントアーキテクチャが紹介されています。機械学習ブログでは RAG のコストを下げるクエリ考慮型の圧縮手法、AgentCore Gateway による AI エージェントのツールアクセス統制 (4 段階の成熟度モデル)、Bronze-Silver-Gold のデータ工程を自動化する Agentic Data Operations Platform が公開されました。AWS Neuron 2.32 では NKI 0.6.0 と MXFP8 学習カーネルが導入されています。
+"topics":
+  - "データ統合: AWS Glue 6.0 が GA、Spark 4.1 / Python 3.12 ベースで 30% 低価格、Iceberg v3 を完全サポート"
+  - "価格改定: OpenAI が GPT-5.6 Sol の API 価格を引き下げ、Bedrock の価格も低下"
+  - "エージェント設計: DynamoDB のネイティブベクトル検索でベクトルと運用データを単一テーブルに統合"
+  - "コスト削減: クエリ考慮型のコンテキスト圧縮による RAG の入力トークン削減"
+  - "ツール統制: AgentCore Gateway による AI エージェントのツールアクセス統制と 4 段階の成熟度モデル"
+  - "機械学習基盤: AWS Neuron 2.32 が NKI 0.6.0、MXFP8 学習カーネル、可変長 collectives を導入"
+  - "脆弱性: FreeRTOS-Kernel の 4 件、Athena Federated Query Neptune コネクタ、OpenSearch Dashboards の格納型 XSS"

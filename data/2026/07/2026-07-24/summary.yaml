@@ -1,0 +1,20 @@
+"date": "2026-07-24"
+"generated_at": "2026-08-28 09:27:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 27
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はエージェントの評価と品質管理が主題でした。Motorway と AWS が Strands と AgentCore で構築したエンドツーエンドの評価パイプラインにより、誤った結果が 8 件に 1 件から 50 件に 1 件へ減少した事例が公開され、AgentCore optimization では健全性チェックを通過してしまう「サイレントな挙動の失敗」を検出する手法が示されています。AWS はさらに aws-bench をリサーチプレビューで公開し、AI エージェントが実際の AWS 作業をどれだけ正確かつ効率的にこなせるかを測るオープンソースベンチマークを提供しました。Bedrock Managed Knowledge Base にはエージェンティック検索が加わり、複数の要素を含む質問に対する従来型検索の限界を解消します。Claude Sonnet 5 が GovCloud (US) の Bedrock で、Opus 4.8 と Sonnet 5 が GovCloud の Kiro で利用可能になりました。
+"topics":
+  - "エージェント評価: Motorway の事例で誤結果が 1/8 から 1/50 に、Strands + AgentCore の評価パイプライン"
+  - "品質管理: AgentCore optimization が健全性チェックを通過するサイレントな挙動の失敗を検出"
+  - "ベンチマーク: AWS が aws-bench をリサーチプレビューで公開、AI エージェントの実タスク遂行を測定"
+  - "検索: Bedrock Managed Knowledge Base にエージェンティック検索 (AgenticRetrieveStream API) を追加"
+  - "GovCloud: Claude Sonnet 5 が Bedrock に、Opus 4.8 と Sonnet 5 が Kiro で利用可能に"
+  - "オブザーバビリティ: AgentCore がトレースとログを同一ロググループに統合、CloudWatch Logs が ALB ログに対応"
+  - "脆弱性: AWS API MCP Server のセキュリティポリシー回避、smithy-http-server の Slowloris DoS、AgentCore SDK の引数区切り不備"

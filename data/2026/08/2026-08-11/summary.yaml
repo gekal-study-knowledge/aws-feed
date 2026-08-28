@@ -1,0 +1,20 @@
+"date": "2026-08-11"
+"generated_at": "2026-08-28 09:29:54 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 21
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は開発者ワークフローへのセキュリティ統合が目立ちました。AWS が Anthropic および OpenAI と協業し、AWS Continuum for code vulnerabilities がプレビューとして Claude Code・Codex・Kiro の開発者ワークフローへ直接統合され、既存のワークフローの中で脆弱性を発見できるようになりました。SageMaker JumpStart には GLM-5.2 FP8、Nemotron-Nano-12B-v2、GLM-OCR、Mellum2、LightOnOCR-2-1B、FLUX.2-small-decoder、gemma-4-12B-it と多数のモデルが追加されています。ストリーミングでは Amazon MSK が Apache ZooKeeper から KRaft へのインプレース移行に対応しました。EC2 にはアプリケーションレベルの問題を検知するアプリケーションステータスチェックが追加され、IAM には workforce ユーザーへの IAM ロール割り当てを効率化する account access manager が登場しています。コンプライアンスでは 2026 年の CyberVadis 評価を最高スコアで完了し、ロンドンリージョンが PASF 認定を更新しました。
+"topics":
+  - "セキュリティ統合: AWS Continuum for code vulnerabilities が Claude Code・Codex・Kiro のワークフローに直接統合 (プレビュー)"
+  - "モデル拡充: SageMaker JumpStart に GLM-5.2 FP8、Nemotron-Nano-12B-v2、GLM-OCR、Mellum2、LightOnOCR、FLUX.2 など多数追加"
+  - "ストリーミング: Amazon MSK が ZooKeeper から KRaft へのインプレース移行をサポート"
+  - "EC2 運用: アプリケーションレベルの問題を検知するアプリケーションステータスチェックを追加"
+  - "IAM: account access manager により workforce ユーザーへの IAM ロール割り当てを効率化"
+  - "コンプライアンス: 2026 CyberVadis 評価を最高スコアで完了、ロンドンリージョンが PASF 認定を更新"
+  - "事例: nOps が Clara FinOps エージェントを AgentCore へ移行し 75% 速く出荷"

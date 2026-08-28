@@ -1,0 +1,15 @@
+"date": "2026-08-24"
+"generated_at": "2026-08-28 09:32:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 9
+"sources":
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は週明けで件数が少なく、日本のリージョンから見た生成 AI 利用の実務論点が中心でした。Amazon Bedrock の OpenAI GPT-5.6 がクロスリージョン推論に対応し東京・大阪リージョンがグローバル推論プロファイルのソースリージョンに含まれたことを受け、接続先を変えずに既存環境から呼び出せる一方で推論処理が日本国外で行われるという考慮点が整理されました。デジタル庁が 2026 年 6 月に公開した「行政の進化と革新のための生成 AI の調達・利活用に係るガイドライン (第 2.0 版)」の調達チェックシート要件に対する AWS のサンプル回答も公開されています。サービス更新では GPT-5.6 Terra と Luna が GovCloud (US) の Bedrock で一般提供となり、AWS ParallelCluster 3.16 にノード上で動作する診断ツールが追加されました。
+"topics":
+  - "データレジデンシー: 東京・大阪リージョンから GPT-5.6 を使う際のグローバルクロスリージョン推論の仕組みと考慮点"
+  - "公共調達: デジタル庁の生成 AI 調達ガイドライン第 2.0 版のチェックシート要件に対する AWS サンプル回答"
+  - "GovCloud: GPT-5.6 Terra と Luna が GovCloud (US) の Bedrock で一般提供"
+  - "HPC: AWS ParallelCluster 3.16 にノード上診断ツールとクラスター安定性の改善を追加"
+  - "コンタクトセンター: Amazon Connect Customer が音声・チャットからの情報抽出に対応"

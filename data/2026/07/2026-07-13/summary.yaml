@@ -1,0 +1,18 @@
+"date": "2026-07-13"
+"generated_at": "2026-08-28 09:24:12 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 8
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は週明けらしく事例とコンプライアンスの記事が中心でした。アーキテクチャブログでは MAPFRE USA が Amazon EMR Serverless で不正請求の検知を刷新した事例と、March Networks が企業向け映像監視データを AWS 上のクラウドストレージで扱う事例が公開されています。コンプライアンスでは医療プラットフォームを題材にした HITRUST i1 の実装ガイダンスが新たに提供されました。サービス更新は SageMaker HyperPod が Slurm クラスターでカスタム AMI に対応し、セキュリティ強化済みの環境を事前構成してデプロイできるようになった点です。国内向けには AWS Transform for migrations が 13 言語のローカライズに対応し、移行ワークフロー全体を母国語で利用できるようになりました。週刊 AWS では HyperPod の DPD 対応、RDS for Oracle 26ai、Security Hub Network Scanning、Aurora DSQL CDC といった前週の更新がまとめられています。
+"topics":
+  - "事例: MAPFRE USA が EMR Serverless で保険の不正請求検知を刷新"
+  - "事例: March Networks の企業向け映像監視データを扱う AWS クラウドストレージ"
+  - "コンプライアンス: 医療プラットフォームを題材にした HITRUST i1 実装ガイダンスを公開"
+  - "機械学習基盤: SageMaker HyperPod が Slurm クラスターでカスタム AMI に対応、セキュリティ強化済み環境を事前構成可能に"
+  - "移行: AWS Transform for migrations が 13 言語のローカライズに対応"
+  - "ネットワーク: VPC Resource Gateways の実装パターンとユースケース解説"

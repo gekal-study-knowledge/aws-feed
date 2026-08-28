@@ -1,0 +1,15 @@
+"date": "2026-08-17"
+"generated_at": "2026-08-28 09:31:16 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 11
+"sources":
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は日本語ブログが大半を占めました。Kiro が IDE・CLI・Web・Mobile・Kiro Crew という複数のアプリとして提供されるようになったことを受け、それらが ACP (Agent Client Protocol) を介して単一のエージェントハーネスに接続する「玄関口」であり、どれかを選ぶのではなく作業に応じて使い分けるものだという整理が示されました。AWS ジャパンは地域経済の AI トランスフォーメーションを包括支援する「LEAP by AWS ジャパン」地域創生支援プログラムを発表しています。前週発表された IAM role manager についても日本語解説が公開されました。技術記事では Aurora MySQL Serverless v2 のデータを AWS Glue 5.0 で S3 Tables に Apache Iceberg 形式で抽出する手順が紹介されています。サービス更新は AWS CloudShell への組み込みビジュアルファイルエディタの追加と、Amazon Location Service の POI カテゴリ・密度フィルタリング対応の 2 件でした。
+"topics":
+  - "開発ツール: Kiro の IDE / CLI / Web / Mobile / Crew は ACP で単一ハーネスに繋がる「玄関口」という整理"
+  - "地域支援: AWS ジャパンが地域創生支援プログラム「LEAP by AWS ジャパン」を発表"
+  - "IAM: role manager による IAM ロール作成の出発点の見直しを日本語で解説"
+  - "データ連携: Aurora MySQL Serverless v2 から Glue 5.0 経由で S3 Tables へ Iceberg 形式で抽出"
+  - "ツール: AWS CloudShell に組み込みのビジュアルファイルエディタを追加 (edit コマンドで起動)"

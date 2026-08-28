@@ -1,0 +1,19 @@
+"date": "2026-07-28"
+"generated_at": "2026-08-28 09:27:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 20
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はメディア・制作分野の AI 活用と、データ品質まわりの機能追加が目立ちました。Outpost VFX が AWS のマルチ GPU 構成でトレーニング速度を 8 倍に高め顔置換ワークフローを刷新した事例、スタジオとクリエイター向けにセキュリティと IP 保護の懸念を解消する EngineLab AI が紹介されています。AWS Glue Data Quality には度数分布プロファイルを生成する Distribution Analyzer と、カタログベース評価での異常検知および評価結果の Data Catalog への書き込みが追加されました。セキュリティでは AWS Shield Advanced が AWS WAF Anti-DDoS マネージドルールグループへ移行する際の変更点と準備方法が解説され、Security Hub MCP App のプレビューにより露出検出を AI 支援ワークフローに取り込めるようになっています。DataSync Enhanced mode は EFS / FSx for Lustre に加え HDFS や Azure Blob Storage にも対応しました。
+"topics":
+  - "メディア: Outpost VFX が AWS のマルチ GPU 構成で AI モデルのトレーニング速度を 8 倍に"
+  - "データ品質: Glue Data Quality に度数分布プロファイル生成、カタログ評価の異常検知と結果書き込みを追加"
+  - "DDoS 対策: Shield Advanced が AWS WAF Anti-DDoS マネージドルールグループへ移行、変更点と準備方法を解説"
+  - "セキュリティ × AI: Security Hub MCP App のプレビューで露出検出を AI 支援ワークフローに統合"
+  - "データ転送: DataSync Enhanced mode が EFS / FSx for Lustre、HDFS、Azure Blob Storage に対応"
+  - "Kubernetes: EKS がクラスター OIDC / JWKS エンドポイントの AWS PrivateLink に対応"
+  - "分析: S3 Tables が Apache Iceberg V3 の Variant データ型をサポート"

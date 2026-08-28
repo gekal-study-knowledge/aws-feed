@@ -1,0 +1,23 @@
+"date": "2026-08-21"
+"generated_at": "2026-08-28 09:32:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 38
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は Bedrock の広域展開と分析基盤の長期保持が中心でした。OpenAI GPT-5.6 モデル (Sol / Terra / Luna) がクロスリージョン推論により 25 以上の AWS リージョンで利用可能になりました。Amazon Redshift はシステムテーブルのデータを S3 Tables と統合して Apache Iceberg 形式で長期保持できるようになり、従来 7 日間だった上限を超えて独自 ETL なしに保存できます。Aurora DSQL は CloudWatch Database Insights に対応し、ステートメント単位・クラスターレベルの性能監視が可能になりました。国内では RDS for Oracle の Oracle Database 26ai で Bedrock の基盤モデルを使って自然言語照会する Select AI の入門記事、AWS Transform による SQL Server から Aurora PostgreSQL へのモダナイズと 3 層の検証モデル (構造的・意味的・動作検証) の解説、CISO 向けのポスト量子暗号移行プレイブックが公開されました。EKS は認証局のローテーションを自動ライフサイクル管理付きでサポートしています。
+"topics":
+  - "広域展開: GPT-5.6 モデルがクロスリージョン推論で 25 以上の AWS リージョンから利用可能に"
+  - "分析基盤: Redshift のシステムテーブルを S3 Tables 統合で Iceberg 形式に長期保持 (7 日間の上限を撤廃)"
+  - "可観測性: Aurora DSQL が CloudWatch Database Insights によるステートメント単位の性能監視に対応"
+  - "自然言語照会: RDS for Oracle の Database 26ai で Bedrock を使う Select AI の入門解説"
+  - "移行検証: AWS Transform の 3 層検証モデル (構造的・意味的・動作検証) とスタブ検出・ミューテーションテスト"
+  - "暗号移行: CISO 向けのポスト量子暗号 (PQC) 移行戦略プレイブック (規制動向と期限の整理を含む)"
+  - "Kubernetes: EKS が認証局 (CA) ローテーションを自動ライフサイクル管理付きでサポート"
+  - "インフラ: ラスベガスに新しい AWS Local Zone が一般提供"

@@ -1,0 +1,20 @@
+"date": "2026-08-04"
+"generated_at": "2026-08-28 09:28:28 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 27
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は長大なコンテキストと自動推論が話題でした。Amazon Bedrock 上の OpenAI GPT-5.6 Sol / Terra / Luna が 100 万トークンのコンテキストウィンドウに対応し、コードベース全体や長大な文書をそのまま処理できるようになりました。Bedrock の Automated Reasoning はポリシーの自動改良に対応し、失敗したテストを診断して形式論理による修正案を提示します。事例では Formula 1 が AgentCore 上のエージェンティック AI で MarTech データ基盤を刷新し、データ運用を数週間から数分へ短縮した Data Accelerator が紹介されました。SageMaker AI のサーバーレスモデルカスタマイズは 25 以上のオープンソースモデルでフルファインチューニングに対応しています。セキュリティ速報ではプロンプトインジェクションを起点とする問題が 2 件報告され、Amazon MQ MCP Server の認証情報・OAuth トークン漏洩と、Strands Agents Tools のシェルツール同意ゲート回避が挙げられました。
+"topics":
+  - "長大コンテキスト: Bedrock 上の GPT-5.6 Sol / Terra / Luna が 100 万トークンのコンテキストウィンドウに対応"
+  - "形式検証: Bedrock の Automated Reasoning がポリシーの自動改良に対応、失敗テストを診断し形式論理で修正案を提示"
+  - "事例: Formula 1 が AgentCore のエージェンティック AI でデータ運用を数週間から数分へ短縮"
+  - "モデルカスタマイズ: SageMaker AI のサーバーレスカスタマイズが 25 以上のモデルでフルファインチューニングに対応"
+  - "脆弱性: プロンプトインジェクション起因で Amazon MQ MCP Server の認証情報漏洩、Strands Agents Tools の同意ゲート回避"
+  - "コンテナ: Amazon ECR のイメージレイヤー上限が 200GB へ拡大"
+  - "WAF: Miggo Security のパートナーマネージドルールグループが新興脅威と AI/ML アプリ保護向けに登場"

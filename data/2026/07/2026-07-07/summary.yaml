@@ -1,0 +1,23 @@
+"date": "2026-07-07"
+"generated_at": "2026-08-28 09:24:12 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 29
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は Amazon Redshift の大型アップデートが集中しました。Graviton 搭載の新インスタンス RG が一般提供となり、RA3 比で最大 2.2 倍の性能を 30% 低いコストで実現、Iceberg クエリは最大 2.4 倍高速化します。あわせてクエリ起動最適化により初回クエリの P50 コンパイル時間が 4.3 秒から 170 ミリ秒へ短縮され、追加費用なしで既定有効になりました。マルチウェアハウス機能の強化や Tableau 統合、Bedrock を使った AI パフォーマンス推奨の構築方法も公開されています。SageMaker では HyperPod の Disaggregated Prefill and Decode 対応、Hugging Face からのワンクリック連携、Unified Studio の MWAA 環境インポートが追加されました。セキュリティ面では ACM が ACME プロトコルに対応し、Security Hub が露出検出に影響分析を追加、Cedar によるマルチエージェント連鎖の最小権限認可が解説されました。EKS Auto Mode は GPU 管理手数料を最大 60% 引き下げています。
+"topics":
+  - "Redshift 刷新: Graviton 搭載 RG が GA、RA3 比 2.2 倍の性能を 30% 低コストで、Iceberg クエリは 2.4 倍高速"
+  - "Redshift 性能: クエリ起動最適化で初回クエリの P50 コンパイル時間が 4.3 秒→170 ミリ秒、追加費用なしで既定有効"
+  - "SageMaker: HyperPod の Disaggregated Prefill and Decode 対応、Hugging Face ワンクリック連携、Unified Studio の MWAA インポート"
+  - "証明書: ACM が ACME プロトコルに対応し、45 日有効の公開 TLS 証明書をマネージド ACME エンドポイントから発行"
+  - "セキュリティ: Security Hub が露出検出に影響分析を追加、Cedar でマルチエージェント連鎖の最小権限認可を強制"
+  - "コスト: EKS Auto Mode が GPU・アクセラレーテッドインスタンスの管理手数料を最大 60% 削減"
+  - "脆弱性: CVE-2026-14471 mcp-gateway-registry の認証済み SQL インジェクション (Important)"
+  - "国内: 中央省庁との国会答弁対応プロトタイピング、AI-DLC Unicorn Gym による 3 日間の開発変革"

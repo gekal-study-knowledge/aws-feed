@@ -1,0 +1,22 @@
+"date": "2026-08-07"
+"generated_at": "2026-08-28 09:29:54 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 37
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は本番エージェントの実行基盤が主役でした。Amazon Bedrock AgentCore のランタイムインスタンスが一般提供となり、マネージドされた永続的な EC2 インフラ上でエージェントを動かせるようになりました。あわせて AI エージェント向けのオープンソースポリシー言語 Dogwood に支えられた時相ポリシーと、AgentCore Gateway でのユーザー単位・ターゲット単位のレート制限 (リクエスト・トークン・コスト) の設定方法が詳しく解説されています。規制対応の観点では、Claude Code の推論をロンドンリージョンのみで処理してデータレジデンシーを強制する 2 つの方法が示されました。セキュリティでは Bedrock Guardrails の介入データを Amazon Security Lake へ流し、既存のセキュリティテレメトリと並べて調査できるようにする構成が紹介されています。ElastiCache は Graviton4 ベースの M8g / R8g / C8gn ノードに対応し、最大 47% の性能向上を実現しました。
+"topics":
+  - "エージェント基盤: AgentCore のランタイムインスタンスが GA、永続的なマネージド EC2 上で本番エージェントを実行"
+  - "ポリシー言語: AI エージェント向けオープンソースポリシー言語 Dogwood による時相ポリシー"
+  - "流量制御: AgentCore Gateway でユーザー単位・ターゲット単位のリクエスト / トークン / コスト上限を設定"
+  - "データレジデンシー: Claude Code の推論を単一リージョン (ロンドン) に固定する 2 つの方法"
+  - "セキュリティ連携: Bedrock Guardrails の介入データを Amazon Security Lake へルーティング"
+  - "キャッシュ: ElastiCache が Graviton4 ベースの M8g / R8g / C8gn ノードに対応し最大 47% の性能向上"
+  - "WAF: Salt Security のマネージドルールグループが API と MCP の脅威検出向けに登場"
+  - "脆弱性: Strands Agents Tools のメモリツールにおける安全でない直接オブジェクト参照 (CVE-2026-19111)"

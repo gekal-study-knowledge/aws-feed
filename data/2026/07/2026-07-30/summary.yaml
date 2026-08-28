@@ -1,0 +1,19 @@
+"date": "2026-07-30"
+"generated_at": "2026-08-28 09:28:28 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 20
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は形式的検証されたハイパーバイザーの一般提供が最大のニュースでした。AWS Nitro Isolation Engine が Graviton5 ベースの EC2 M9g / M9gd インスタンスとともに GA となり、商用クラウドにデプロイされた初の形式的検証済みハイパーバイザーの中核コンポーネントとして、仮想マシン間の分離を数学的に保証します。定理証明支援系 Isabelle/HOL を用いて機密性・完全性・機能的正確性・ランタイムエラーの不在・メモリ安全性を検証した過程も解説されました。セキュリティではもう一つ、Amazon Threat Intelligence が axios・debug・chalk・typo-crypto といった人気 NPM パッケージの侵害を、同一の北朝鮮関連の脅威アクターによるものと初めて特定した調査結果が公開されています。ネットワークでは AWS Interconnect による Oracle Cloud Infrastructure とのマルチクラウド接続が一般提供となりました。
+"topics":
+  - "ハイパーバイザー検証: Nitro Isolation Engine が Graviton5 ベースの EC2 M9g / M9gd とともに GA、商用クラウド初の形式的検証済みハイパーバイザー"
+  - "形式手法: Isabelle/HOL による機密性・完全性・機能的正確性・メモリ安全性の検証プロセスを解説"
+  - "脅威インテリジェンス: axios・debug・chalk 等の NPM パッケージ侵害を同一の北朝鮮関連アクターによるものと特定"
+  - "マルチクラウド: AWS Interconnect による Oracle Cloud Infrastructure との接続が一般提供"
+  - "国内事例: Japan Digital Design が Aurora DSQL 採用で DB コストを約 87% 削減し運用負荷ほぼゼロを実現"
+  - "ストリーミング: MSK Express brokers が Kafka データの S3 配信と Apache Iceberg ストリーミングテーブルへの継続的マテリアライズに対応"
+  - "検索: OpenSearch Service が OpenSearch 3.7 に対応 (ベクトル検索性能と検索関連性を改善)"

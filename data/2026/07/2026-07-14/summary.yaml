@@ -1,0 +1,20 @@
+"date": "2026-07-14"
+"generated_at": "2026-08-28 09:25:46 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 23
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は基盤モデルの品揃え拡充が中心でした。OpenAI の GPT-5.6 Sol / Terra / Luna が Amazon Bedrock で一般提供となり、SageMaker JumpStart にも Gemma-4-E2B-it、リアルタイム音声文字起こし向けの Voxtral-Mini-4B-Realtime、検索向けの Qwen3 埋め込み・リランキングモデル、PII 検出とマスキングを行う OpenAI privacy-filter が追加されました。SageMaker AI Studio には生成 AI 推論推奨のローコード UI が加わり、これまで API のみだった最適化推奨を画面から扱えます。コンピュートでは Lambda Managed Instances による Java コールドスタートの解消が解説されました。Amazon SQS は 2006 年 7 月 13 日のローンチから 20 周年を迎え、AWS Builder Center も 1 周年です。国内では村田製作所の 3 万人が使う「Murata Coworker」を AI エージェント基盤へ進化させた事例が公開されました。
+"topics":
+  - "基盤モデル: OpenAI GPT-5.6 Sol / Terra / Luna が Amazon Bedrock で一般提供"
+  - "モデル追加: SageMaker JumpStart に Gemma-4-E2B-it、Voxtral-Mini-4B-Realtime、Qwen3 埋め込み・リランカー、OpenAI privacy-filter"
+  - "推論最適化: SageMaker AI Studio に生成 AI 推論推奨のローコード・ノーコード UI が登場"
+  - "サーバーレス: Lambda Managed Instances による Java コールドスタートの解消手法"
+  - "節目: Amazon SQS が 20 周年、AWS Builder Center が 1 周年、Kiro はバースデーウィーク開催"
+  - "国内事例: 村田製作所の 3 万人利用「Murata Coworker」を AI エージェント活用基盤へ進化"
+  - "国内事例: ハイテクインターが Rekognition と Graviton で富山市の人流観測プラットフォームを実現"

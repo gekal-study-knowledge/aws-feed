@@ -1,0 +1,20 @@
+"date": "2026-08-18"
+"generated_at": "2026-08-28 09:31:16 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 21
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はエージェントの決済と Bedrock の API 拡充が話題でした。Amazon Bedrock は OpenAI GPT-5.6 モデル (Sol / Terra / Luna) を bedrock-runtime エンドポイントでサポートし、Responses・Converse などの API とクロスリージョン推論に対応しました。機械学習ブログでは自律エージェントにウォレットと支出ガードレールを与え、有料 API や MCP サーバー、Web コンテンツの支払いを行わせる OpenClaw と AgentCore payments の連携が紹介されています。アーキテクチャブログの「Consistency is the new latency」では、AI エージェントがチャットボットから行動する存在へ移るにつれ、その信頼性が下層のデータ層の一貫性に依存するという観点が示されました。ACM の E メール検証終了については日本語の移行案内も公開されています。サービス更新は Network Firewall のステートフルルールのヒットカウント、EC2 Auto Scaling のバッチインスタンス終了 (1 回の API で最大 100 台)、WorkSpaces のネステッド仮想化対応などです。
+"topics":
+  - "Bedrock API: GPT-5.6 モデルが bedrock-runtime エンドポイントと Responses / Converse API、クロスリージョン推論に対応"
+  - "エージェント決済: OpenClaw と AgentCore payments の連携で、支出ガードレール付きウォレットを持つ自律エージェントを構築"
+  - "データ層: AI エージェントの信頼性はデータ層の一貫性に依存するという設計論 (Consistency is the new latency)"
+  - "証明書移行: ACM の E メール検証終了と DNS 検証への移行手順を日本語で案内"
+  - "ネットワーク: Network Firewall がステートフルルールのヒットカウントを提供"
+  - "運用: EC2 Auto Scaling が 1 回の API 呼び出しで最大 100 台のバッチ終了に対応、ECR のレプリケーションルールは 25 個へ拡大"

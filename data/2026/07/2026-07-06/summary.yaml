@@ -1,0 +1,16 @@
+"date": "2026-07-06"
+"generated_at": "2026-08-28 09:24:12 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 7
+"sources":
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は Kubernetes 運用の安全性と生成 AI のガバナンスが中心でした。Amazon EKS バージョンロールバックが発表され、クラスター管理者は Kubernetes バージョンのアップグレードを安全に巻き戻せるようになり、フリート全体への展開にセーフティネットが加わりました。生成 AI では Anthropic の Claude Fable 5 が Amazon Bedrock で強化されたガードレール付きで再提供され、Project Glasswing を通じた連携や重大度別の対応 SLA など、サイバー能力を持つフロンティアモデルを防御側に届けつつ悪用を防ぐ取り組みが解説されています。事例では JR 東海の超電導リニアの電気設備保守を支える IoT プラットフォームが紹介されました。サービス更新は AWS Secrets Manager の管理型外部シークレットが Paddle と GitLab に対応、AWS CodePipeline がアジアパシフィック (ニュージーランド) で利用可能になりました。
+"topics":
+  - "Kubernetes 運用: Amazon EKS バージョンロールバックでアップグレードを安全に巻き戻し可能に"
+  - "生成 AI ガバナンス: Claude Fable 5 が強化ガードレール付きで Bedrock に再登場、Project Glasswing による連携と対応 SLA"
+  - "事例: JR 東海の超電導リニア、電気設備保守を支える IoT プラットフォーム構築"
+  - "シークレット管理: Secrets Manager の管理型外部シークレットが Paddle API キーと GitLab アクセストークンに対応"
+  - "リージョン拡大: AWS CodePipeline がアジアパシフィック (ニュージーランド) で利用可能に"
+  - "国内: 週刊 AWS / 週刊生成 AI with AWS で国内事例と Kiro の新機能を紹介"

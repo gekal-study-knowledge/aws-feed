@@ -1,0 +1,16 @@
+"date": "2026-08-15"
+"generated_at": "2026-08-28 09:31:16 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 11
+"sources":
+  - "aws_compute_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は土曜日で件数が少なく、開発者向けの機能が中心でした。AWS Lambda にパブリックプレビューランタイムという仕組みが導入され、GA 前の言語バージョンを試せるようになりました。第一弾として Node.js 26 と Python 3.15 が利用できます。あわせて AWS AppConfig を使った Lambda での動的なフィーチャーフラグの実装方法が解説され、コードをデプロイせずに実行時の挙動を切り替える手法が示されました。機械学習では SageMaker AI の OpenAI 互換エンドポイントと Bedrock AgentCore ランタイムを組み合わせたマルチエージェントワークフローの構築、Amazon Nova Forge でのマルチターン強化学習における複合報酬関数の設計が紹介されています。Amazon Quick では前々日に発表されたガバナンス機能群 (deny by default、共有承認ポリシー、Microsoft Purview 連携の DLP、ユーザー単位の上限) が改めて案内されました。
+"topics":
+  - "ランタイム: Lambda にパブリックプレビューランタイムを導入、Node.js 26 と Python 3.15 を GA 前に試用可能"
+  - "フィーチャーフラグ: AWS AppConfig による Lambda の動的フィーチャーフラグ実装"
+  - "エージェント構築: SageMaker AI の OpenAI 互換エンドポイントと AgentCore ランタイムによるマルチエージェントワークフロー"
+  - "強化学習: Nova Forge でのマルチターン強化学習における複合報酬関数の設計指針"
+  - "データベース: RDS for Oracle が Oracle Application Express (APEX) 26.1 に対応"

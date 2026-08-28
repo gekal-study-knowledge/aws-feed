@@ -1,0 +1,21 @@
+"date": "2026-08-20"
+"generated_at": "2026-08-28 09:31:16 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 35
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は Web Search の機能拡張とインフラ増強が並びました。Amazon Bedrock AgentCore の Web Search がドメインフィルタリングと公開日フィルタリングに対応し、リクエストごとにどの Web ソースを参照するか制御できるようになったうえ、ヨーロッパとアジアパシフィックへ提供が拡大しました。あわせて外部 Web アクセスの提供も始まっています。インフラ面ではヨーロッパ (ロンドン) リージョンに 4 番目のアベイラビリティーゾーンが追加され、Lambda MicroVMs が 5 リージョンへ拡大しました。IAM はロールあたりのマネージドポリシー既定上限を 10 から 20 へ引き上げています。国内では Amazon Inspector を使った組織横断の SBOM エクスポートと、AWS Organizations での抑制ルールのベストプラクティスという運用寄りの記事、コニカミノルタとの Physical AI 事例、Kite の HealthOmics 活用によるバイオインフォマティクス標準化が公開されました。
+"topics":
+  - "Web Search: AgentCore の Web Search がドメイン・公開日フィルタリングに対応し、ヨーロッパとアジアパシフィックへ拡大"
+  - "インフラ: ヨーロッパ (ロンドン) リージョンに 4 番目のアベイラビリティーゾーンを追加"
+  - "サーバーレス: Lambda MicroVMs がムンバイ・シンガポール・シドニー等 5 リージョンへ拡大"
+  - "IAM: ロールあたりのマネージドポリシー既定上限を 10 から 20 へ引き上げ"
+  - "脆弱性管理: Amazon Inspector による組織横断の SBOM エクスポートと、Organizations での抑制ルールのベストプラクティス"
+  - "コスト: AWS Cost Anomaly Detection が Bedrock 上のサードパーティ基盤モデルの支出も監視対象に"
+  - "ID 伝播: SageMaker ノートブックが Athena / Redshift / EMR Serverless への信頼された ID 伝播 (TIP) に対応"
+  - "ライフサイエンス: Kite が HealthOmics を軸に細胞治療研究のバイオインフォマティクスを標準化"

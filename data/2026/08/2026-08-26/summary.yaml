@@ -1,0 +1,21 @@
+"date": "2026-08-26"
+"generated_at": "2026-08-28 09:32:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 15
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は Amazon EC2 の 20 周年でした。生成 AI 向けのカスタムシリコン開発など、クラウドコンピューティングの限界を押し広げてきた 20 年が振り返られています。国内では MonotaRO が基幹データベースを Amazon Aurora Global Database へ移行し、マルチリージョン DR とフルマネージド運用を実現した事例が公開されました。Amazon OpenSearch Service は MCP Apps に対応し、AI エージェントのテキスト応答と並べてインタラクティブな可視化を返せるようになっています。サービス更新では Lambda MicroVMs が AWS PrivateLink に対応し VPC からの private 接続が可能になったほか、AWS Batch が ECS Managed Instances を新しいコンピュートオプションとしてサポート、AWS IoT Core が時系列データを InfluxDB へ直接ルーティングできるようになりました。オーストラリア向けには Landing Zone Accelerator による ISM 準拠環境と IRAP 評価の迅速化に関する独立評価報告書が公開されています。
+"topics":
+  - "節目: Amazon EC2 が 20 周年、生成 AI 向けカスタムシリコンを含む 20 年の歩みを振り返る"
+  - "国内事例: MonotaRO が基幹 DB を Aurora Global Database へ移行しマルチリージョン DR とフルマネージド運用を実現"
+  - "可視化: OpenSearch Service の MCP Apps で AI エージェントの応答にインタラクティブな可視化を同梱"
+  - "ネットワーク: Lambda MicroVMs が AWS PrivateLink に対応し VPC からのプライベート接続が可能に"
+  - "バッチ処理: AWS Batch が ECS Managed Instances をコンピュートオプションとしてサポート"
+  - "IoT: AWS IoT Core が時系列データを InfluxDB へ直接ルーティングするルールアクションに対応"
+  - "脆弱性: Strands Agents Tools の python_repl ツールにおける同意バイパス (CVE-2026-78379)"

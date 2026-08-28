@@ -1,0 +1,20 @@
+"date": "2026-07-11"
+"generated_at": "2026-08-28 09:24:12 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 19
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は AWS Lambda MicroVMs の正式発表が中心でした。VM レベルの分離とほぼ瞬時の起動、状態保持を備えた新しいサーバーレスコンピュート基盤で、前日の AI エージェント向けセキュアコード実行の記事と合わせて全体像が示されています。機械学習では SageMaker HyperPod 上での vLLM による Disaggregated Prefill and Decode の実装、Unsloth で量子化済みモデルをデプロイする 4 パターン、NVIDIA Nemotron 3 のサーバーレスモデルカスタマイズが解説されました。Kiro では 7 月 1 日から Claude Sonnet 5 が IDE・CLI・Web で利用可能になり、Sonnet 4.6 から推論・ツール利用・コーディング能力が強化されています。規制面では AWS が英国財務省から英国金融セクターの重要サードパーティ (CTP) に指定されました。サービス更新は EC2 G7 (NVIDIA RTX PRO 4500 Blackwell) の米国東部提供開始、EKS Auto Mode の ARC ゾーンシフト対応などです。
+"topics":
+  - "サーバーレス基盤: Lambda MicroVMs を正式発表、VM レベル分離・ほぼ瞬時の起動・状態保持を実現"
+  - "推論最適化: HyperPod 上で vLLM による Disaggregated Prefill and Decode を実装する手順"
+  - "モデル運用: Unsloth で量子化したモデルのデプロイ 4 パターン、Nemotron 3 のサーバーレスカスタマイズ"
+  - "開発ツール: Kiro で Claude Sonnet 5 が IDE・CLI・Web から利用可能に (Sonnet 4.6 比で推論・ツール利用・コーディングを強化)"
+  - "規制: AWS が英国財務省より英国金融セクターの重要サードパーティ (CTP) に指定"
+  - "GPU: EC2 G7 インスタンス (NVIDIA RTX PRO 4500 Blackwell) が米国東部 (バージニア北部) で提供開始"
+  - "可用性: EKS Auto Mode が Application Recovery Controller のゾーンシフトとオートシフトに対応"

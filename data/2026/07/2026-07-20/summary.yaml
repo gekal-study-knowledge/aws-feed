@@ -1,0 +1,14 @@
+"date": "2026-07-20"
+"generated_at": "2026-08-28 09:25:46 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 4
+"sources":
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は連休明けで件数が少なく、4 件の更新にとどまりました。Amazon CloudWatch にコーディングエージェントインサイトが追加され、AI コーディングツールが組織全体でどの程度価値を生んでいるかをエンジニアリングリーダーが把握できるようになりました。ストレージ関連では KNFSD File Cache がプレビューで公開され、Apache-2.0 ライセンスのオープンソースとしてスケーラブルで高速な NFS キャッシュを構築できます。インフラ面ではギリシャのアテネに新しい Local Zone が一般提供となり、EMEA では 2 番目の Local Zone となりました。国内では 22 社 51 名が参加し、2 時間で業務アプリを自作して発表した Claude・Kiro 実践ワークショップの記録が公開されています。
+"topics":
+  - "開発生産性: CloudWatch のコーディングエージェントインサイトで AI コーディングツールの効果を可視化"
+  - "ストレージ: KNFSD File Cache がプレビュー提供、Apache-2.0 のオープンソース NFS キャッシュ"
+  - "インフラ: ギリシャ・アテネに新しい Local Zone が一般提供開始 (EMEA で 2 番目)"
+  - "国内: 22 社 51 名が 2 時間で業務アプリを自作した Claude・Kiro 実践ワークショップの記録"

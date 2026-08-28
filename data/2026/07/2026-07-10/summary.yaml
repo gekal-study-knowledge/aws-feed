@@ -1,0 +1,21 @@
+"date": "2026-07-10"
+"generated_at": "2026-08-28 09:24:12 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 27
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は AI エージェントにコードを安全に実行させる話題が軸でした。AWS Lambda MicroVMs を使い、エージェントが生成したコードをガバナンスを失わずに実行するパターンが解説され、AWS MCP Server は OAuth に対応してマネジメントコンソールや CLI と同じサインイン方法でエージェントを接続できるようになりました。DMS Schema Conversion も AWS MCP Server 経由で Kiro や Claude Code などのコーディングエージェントから自動化できます。Kiro には超過利用の上限設定 (Service Quotas から account 単位) と前払いのアドオンクレジットパックが追加され、想定外の請求を防げるようになりました。ネットワークでは Cloud WAN ルーティングポリシーの実運用シナリオ集 Part 2 が公開され、Transit Gateway からの移行中のルート伝播制御や複数 Direct Connect ロケーション間のパス選択を扱っています。サービス更新は MSK Replicator の外部 Kafka 対応、EC2 の既存 EBS ボリュームを使った Replace Root Volume、Client VPN の 4 リージョン拡大などでした。
+"topics":
+  - "エージェント実行環境: Lambda MicroVMs で AI エージェント生成コードをガバナンスを保ったまま実行"
+  - "エージェント接続: AWS MCP Server が OAuth に対応、既存の AWS サインインでエージェントを接続可能に"
+  - "移行自動化: DMS Schema Conversion が AWS MCP Server 経由で Kiro / Claude Code / Cursor から操作可能に"
+  - "コスト管理: Kiro が超過利用の上限設定 (アカウント単位) と前払いアドオンクレジットパック (5 ドルから) に対応"
+  - "ネットワーク: Cloud WAN ルーティングポリシーの実運用シナリオ集 Part 2 (TGW 移行、Direct Connect パス選択、同一 ASN 接続)"
+  - "データ連携: MSK Replicator がオンプレミスや他クラウドの外部 Kafka クラスターから MSK Standard への複製に対応"
+  - "EC2 運用: 既存の EBS ボリュームを対象にした Replace Root Volume が利用可能に"

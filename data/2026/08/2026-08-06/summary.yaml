@@ -1,0 +1,20 @@
+"date": "2026-08-06"
+"generated_at": "2026-08-28 09:29:54 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 27
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は前日発表された DynamoDB のベクトル検索が正式に一般提供としてアナウンスされ、リアルタイムでのベクトルのインデックス作成と検索が可能になりました。Amazon Bedrock AgentCore には 2 つの新しい制御が加わり、エージェントのセッション履歴に基づいて認可を判断するステートフルな時相ポリシーと、AI トラフィックのレート制限が導入されています。Aurora serverless はスケールアップ時の初期容量が向上し、1 秒以内に最大 12 ACU へ到達することでエージェンティック AI のようなバースト的なワークロードに追従しやすくなりました。Amazon Cognito はセルフサービスのプロビジョンド上限管理により、レート上限の変更が 2 週間から 2 分に短縮されています。国内向けには金融庁・日本銀行がフロンティア AI による脅威変化を踏まえて金融機関に要請した 9 つの対応と、それに対応する AWS サービスの活用方法が解説されました。
+"topics":
+  - "ベクトル検索: DynamoDB のリアルタイムベクトル検索が一般提供、インデックス作成と検索をリアルタイムに"
+  - "エージェント統制: AgentCore に時相ポリシー (セッション履歴に基づくステートフル認可) と AI トラフィックのレート制限を追加"
+  - "スケーリング: Aurora serverless がスケールアップ時に 1 秒以内で最大 12 ACU へ到達、バーストワークロードに追従"
+  - "ID 基盤: Cognito のプロビジョンド上限セルフサービス化でレート上限変更が 2 週間から 2 分へ"
+  - "金融規制: 金融庁・日本銀行の要請する 9 つの対応と AWS サービスの対応付けを解説"
+  - "開発者連携: AWS が Anthropic および OpenAI と協業し AWS Continuum を開発者ワークフローへ"
+  - "脆弱性: AWS Transform MCP Server のパス名制限不備、DocumentDB MCP Server の集約パイプラインにおける認可不備"

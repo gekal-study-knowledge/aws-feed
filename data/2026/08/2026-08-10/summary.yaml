@@ -1,0 +1,16 @@
+"date": "2026-08-10"
+"generated_at": "2026-08-28 09:29:54 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 7
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日はエージェント拡張の標準化が話題でした。AWS が Cursor、Microsoft、OpenAI、Vercel とともに Agent Plugins Technical Steering Committee の設立メンバーとして参画し、AI エージェント拡張のためのオープンかつベンダーニュートラルな仕様である Agent Plugins 1.0.0 のサポートを Kiro powers で順次展開することが発表されました。運用面では AWS DevOps Agent の修正計画を CodeBuild 上のヘッドレス Kiro CLI と統合し、インシデント修正のループをエンドツーエンドで完結させる構成が紹介されています。コンピュートブログでは Lambda の provisioned mode を使った低レイテンシ・高スループットな SQS イベント処理が解説されました。サービス更新は Elastic Disaster Recovery が UEFI ブートの Linux ソースサーバー復旧時にブートモードを保持するようになった 1 件です。
+"topics":
+  - "標準化: AWS が Agent Plugins Technical Steering Committee に設立メンバーとして参画 (Cursor / Microsoft / OpenAI / Vercel と並ぶ)"
+  - "エージェント拡張: Kiro powers が Agent Plugins 1.0.0 のサポートを順次展開"
+  - "インシデント対応: AWS DevOps Agent の修正計画を CodeBuild 上のヘッドレス Kiro CLI と統合し修正ループを自動完結"
+  - "イベント処理: Lambda provisioned mode による低レイテンシ・高スループットな SQS イベント処理"
+  - "災害対策: Elastic Disaster Recovery が UEFI ブートの Linux サーバー復旧でブートモードを保持"
