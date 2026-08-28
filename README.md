@@ -328,6 +328,34 @@ python .github/scripts/check_summaries.py --quiet
 GitHub Actions のジョブサマリーに出力されます。毎時の取得で概要が古くなった日は
 そこで確認できます。
 
+### 概要の生成・更新
+
+概要の本文は自動生成されず、AI (Claude) が書きます。手順は
+`.claude/skills/daily-ai-summary/SKILL.md` にスキルとしてまとめてあり、
+Claude Code でこのリポジトリを開けば読み込まれます。
+
+```bash
+# 1. 対象日を洗い出す
+python .github/scripts/check_summaries.py
+
+# 2. 概要を書くためのダイジェストを作る
+python .github/scripts/summary_digest.py --missing --limit 200
+python .github/scripts/summary_digest.py 2026-08-27,2026-08-28
+
+# 3. (Claude が overview と topics を書いて JSON にする)
+
+# 4. summary.yaml へ書き出す
+python .github/scripts/write_summary.py summaries.json          # 新規
+python .github/scripts/write_summary.py summaries.json --force  # 作り直し
+
+# 5. 確認する
+python .github/scripts/check_summaries.py
+```
+
+`article_count` と `sources` は `write_summary.py` が実データから数え直すため、
+JSON には `date` / `overview` / `topics` だけを書きます。`generated_at` も
+実行時刻が秒まで自動で入ります。
+
 ## 既読管理 (Firebase)
 
 日別ページの既読/更新状態を管理します。Google アカウントでログインすると Cloud Firestore に保存され、複数のデバイス・ブラウザ間で既読状態が同期されます。未ログイン時は従来どおりブラウザの localStorage に保存されます（初回ログイン時にローカルの既読を Firestore へマージ）。
