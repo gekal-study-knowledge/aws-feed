@@ -160,6 +160,12 @@ export interface DailySummary {
   articleCount?: number;
   generatedBy?: string;
   generatedAt?: string;
+  /** その日に実際にあるエントリー数 (summary.yaml ではなく data/*.yaml から数えた値) */
+  entryCount: number;
+  /** 概要を生成した後に取得されたエントリー数 */
+  addedAfterCount: number;
+  /** 概要とフィードの一覧がずれているか */
+  isStale: boolean;
 }
 
 interface DailySummaryYaml {
@@ -174,8 +180,35 @@ interface DailySummaryYaml {
 }
 
 /**
+ * generated_at を "YYYY-MM-DD HH:MM:SS" に正規化する。
+ *
+ * 初期に生成された概要は "YYYY-MM-DD JST" と日付のみで時刻を持たない。
+ * その場合はその日の終わり (23:59:59) に生成されたものとみなし、同じ日に
+ * 取得されたエントリーを「生成後に追加された」と誤判定しないようにする。
+ * 形式が想定外なら null を返す (ずれの判定を行わない)。
+ *
+ * .github/scripts/check_summaries.py と同じ規則。
+ */
+function normalizeGeneratedAt(value?: string): string | null {
+  if (!value) {
+    return null;
+  }
+  const text = value.replace('JST', '').trim();
+  if (/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(text)) {
+    return text;
+  }
+  if (/^\d{4}-\d{2}-\d{2}$/.test(text)) {
+    return `${text} 23:59:59`;
+  }
+  return null;
+}
+
+/**
  * 指定日の要約 (data/YYYY/MM/YYYY-MM-DD/summary.yaml) を読み込む。
  * 概要が存在しない場合は null を返す。
+ *
+ * あわせて、概要とフィードの一覧がずれていないかを判定する。フィードは後から
+ * 同じ日付のエントリーを追加してくることがあり、その場合は概要が古いままになる。
  */
 export function getDailySummary(year: string, month: string, day: string): DailySummary | null {
   const summaryPath = path.join(
@@ -199,13 +232,26 @@ export function getDailySummary(year: string, month: string, day: string): Daily
       return null;
     }
 
+    const articleCount = typeof data.article_count === 'number' ? data.article_count : undefined;
+
+    // 実際のエントリーと突き合わせて、概要が古くなっていないかを見る
+    const entries = getEntriesByDate(year, month, day);
+    const generatedAt = normalizeGeneratedAt(data.generated_at);
+    const addedAfterCount = generatedAt
+      ? entries.filter((entry) => entry.fetched && entry.fetched.slice(0, 19) > generatedAt).length
+      : 0;
+    const countMismatch = articleCount !== undefined && articleCount !== entries.length;
+
     return {
       date: data.date || `${year}-${month}-${day}`,
       overview,
       topics: Array.isArray(data.topics) ? data.topics : [],
-      articleCount: typeof data.article_count === 'number' ? data.article_count : undefined,
+      articleCount,
       generatedBy: data.generated_by,
       generatedAt: data.generated_at,
+      entryCount: entries.length,
+      addedAfterCount,
+      isStale: addedAfterCount > 0 || countMismatch,
     };
   } catch (e) {
     console.error(`Error parsing ${summaryPath}:`, e);
