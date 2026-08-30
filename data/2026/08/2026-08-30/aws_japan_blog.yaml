@@ -1,0 +1,23 @@
+"entries":
+  "0c984950cc2ab9c8070c293aa34bb76b":
+    "id": "0c984950cc2ab9c8070c293aa34bb76b"
+    "title": "2 週間で 12 万人規模へ – NEC が Claude Desktop on Amazon Bedrock で実現したセキュアな全社 AI 環境"
+    "link": "https://aws.amazon.com/jp/blogs/news/nec-claude-desktop-bedrock-120k-users-2-weeks/"
+    "published": "2026-08-30 20:26:55"
+    "fetched": "2026-08-30 21:33:21"
+    "summary": "NEC は 2026 年 6 月 1 日、全社員（最大 12 万人）が利用できる Claude Cowork […]"
+  "e0531e60e8b6b044fe7c1cf1d560d1c8":
+    "id": "e0531e60e8b6b044fe7c1cf1d560d1c8"
+    "title": "DuckDB で Amazon S3 Tables に格納された表形式データセットへのアクセスを効率化する"
+    "link": "https://aws.amazon.com/jp/blogs/news/streamlining-access-to-tabular-datasets-stored-in-amazon-s3-tables-with-duckdb/"
+    "published": "2026-08-30 19:56:07"
+    "fetched": "2026-08-30 21:33:21"
+    "summary": "DuckDB は軽量なインメモリ SQL エンジンで、追加のサーバー運用なしに対話型のデータ分析を実現します。本記事では、Amazon SageMaker Lakehouse Iceberg REST エンドポイントと AWS Lake Formation のアクセス許可を利用して、AWS CloudShell 上の DuckDB から Amazon S3 Tables に格納された Iceberg テーブルにアクセスし、クエリを実行する手順を紹介します。"
+  "0bc433274e8de4345035f26ed41bcb8e":
+    "id": "0bc433274e8de4345035f26ed41bcb8e"
+    "title": "Amazon SageMaker Unified Studio のノートブックで、より速くインサイトに到達する"
+    "link": "https://aws.amazon.com/jp/blogs/news/get-to-insights-faster-using-notebooks-in-amazon-sagemaker-unified-studio/"
+    "published": "2026-08-30 19:50:01"
+    "fetched": "2026-08-30 21:33:21"
+    "summary": "Amazon SageMaker Unified Studio のノートブックは、インフラ設定を簡素化し、インサイト獲得までの時間を短縮します。本記事では、Python と SQL のポリグロットプログラミング、複数エンジンでのデータアクセス、Athena Spark による分散プロファイリング、SageMaker Data Agent の AI 支援を活用し、単一のノートブック環境で住宅価格予測モデルを構築する流れを解説します。"
+"last_updated": "2026-08-30 21:33:21 JST"
