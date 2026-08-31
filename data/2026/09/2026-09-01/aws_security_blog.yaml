@@ -1,0 +1,9 @@
+"entries":
+  "487ceaf9ef8dce4d5323f50774f690e3":
+    "id": "487ceaf9ef8dce4d5323f50774f690e3"
+    "title": "Automate IAM Identity Center governance with continuous discovery and reporting"
+    "link": "https://aws.amazon.com/blogs/security/automate-iam-identity-center-governance-with-continuous-discovery-and-reporting/"
+    "published": "2026-09-01 02:18:31"
+    "fetched": "2026-09-01 02:49:39"
+    "summary": "AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations. AWS continues to invest into IAM Identity Center with a growing number of AWS services that natively integrate with IAM Identity Center. As your AWS organization scales, maintaining visibility […]"
+"last_updated": "2026-09-01 02:49:39 JST"
