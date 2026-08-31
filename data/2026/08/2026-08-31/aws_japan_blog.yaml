@@ -1,0 +1,9 @@
+"entries":
+  "1723021957267b0cc7beb97d81325871":
+    "id": "1723021957267b0cc7beb97d81325871"
+    "title": "Amazon EVS と NSX Federation によるディザスタリカバリとマルチサイトネットワーク"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-evs-with-nsx-federation-for-disaster-recovery-and-multi-site-networking/"
+    "published": "2026-08-31 08:47:42"
+    "fetched": "2026-08-31 12:19:23"
+    "summary": "Amazon Elastic VMware Service (Amazon EVS) が NSX Federation をサポートしました。これにより、AWS 上で VMware ワークロードを実行する際のエンタープライズ規模のネットワーク、ディザスタリカバリ (DR)、マルチサイトネットワークのための強力な新しいオプションが利用可能になります。 NSX Federation は、複数の NSX 環境を単一の Global Manager コントロールプレーンの下で接続する VMware のネットワーク機能です。オーバーレイネットワーク、セキュリティポリシー、ゲートウェイサービスを複数のロケーションに拡張し、各サイトを個別に設定するのではなく、複数サイトのネットワークを統一されたファブリックとして管理できます。"
+"last_updated": "2026-08-31 12:19:23 JST"
