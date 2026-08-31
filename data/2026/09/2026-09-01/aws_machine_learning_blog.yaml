@@ -1,0 +1,30 @@
+"entries":
+  "d859d8294d2c22dc9038deff7189931c":
+    "id": "d859d8294d2c22dc9038deff7189931c"
+    "title": "AWS recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025"
+    "link": "https://aws.amazon.com/blogs/machine-learning/aws-recognized-as-a-leader-in-the-forrester-wave-ai-infrastructure-solutions-q4-2025/"
+    "published": "2026-09-01 04:50:12"
+    "fetched": "2026-09-01 07:21:58"
+    "summary": "We're excited to share that AWS has been recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025. In this evaluation of 13 providers, AWS received the highest score in the Strategy category."
+  "38f212b9aafbd1ebd2bc3fe827cb643b":
+    "id": "38f212b9aafbd1ebd2bc3fe827cb643b"
+    "title": "Manage agents, tools and skills at scale with AWS Agent Registry"
+    "link": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/"
+    "published": "2026-09-01 04:18:09"
+    "fetched": "2026-09-01 07:21:58"
+    "summary": "AWS Agent Registry is now generally available: a single, searchable, governed catalog for the agents, tools, skills, and custom resources across your organization. This post explains what Registry is and walks through its publishing, curation, and discovery workflows, plus enterprise considerations and what's next."
+  "47768392405b8425fdd69998c79a05f6":
+    "id": "47768392405b8425fdd69998c79a05f6"
+    "title": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/"
+    "published": "2026-09-01 04:08:45"
+    "fetched": "2026-09-01 07:21:58"
+    "summary": "This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agent reasons, routes across multiple knowledge bases, and returns cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed with a single AWS CloudFormation chain."
+  "a78039626fa1737597510289067a2026":
+    "id": "a78039626fa1737597510289067a2026"
+    "title": "Build multi-tenant agentic chat applications on enterprise data with Amazon Bedrock Managed Knowledge Base"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-multi-tenant-agentic-chat-applications-on-enterprise-data-with-amazon-bedrock-managed-knowledge-base/"
+    "published": "2026-09-01 03:56:12"
+    "fetched": "2026-09-01 07:21:58"
+    "summary": "Learn how to build a multi-tenant agentic document chat application on Amazon Bedrock Managed Knowledge Base, where users upload documents and immediately ask grounded questions. This post covers the ingestion and retrieval flows, the asynchronous indexing lifecycle, per-user data isolation, and best practices for operating the solution at scale."
+"last_updated": "2026-09-01 07:21:58 JST"

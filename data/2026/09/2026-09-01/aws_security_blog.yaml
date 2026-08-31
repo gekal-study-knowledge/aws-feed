@@ -6,4 +6,11 @@
     "published": "2026-09-01 02:18:31"
     "fetched": "2026-09-01 02:49:39"
     "summary": "AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations. AWS continues to invest into IAM Identity Center with a growing number of AWS services that natively integrate with IAM Identity Center. As your AWS organization scales, maintaining visibility […]"
-"last_updated": "2026-09-01 02:49:39 JST"
+  "3376a5afc37f7e54bb228f1287d7243b":
+    "id": "3376a5afc37f7e54bb228f1287d7243b"
+    "title": "We invited a direct competitor into Security Hub Extended. Here’s why."
+    "link": "https://aws.amazon.com/blogs/security/we-invited-a-direct-competitor-into-security-hub-extended-heres-why/"
+    "published": "2026-09-01 04:00:07"
+    "fetched": "2026-09-01 07:21:57"
+    "summary": "When customers keep pointing you to a solution that overlaps with parts of your own offering, you have a choice to make. This post is about the choice we made with Upwind, and why we’d make it again. AWS Security Hub Extended exists because customers told us what was working for them in enterprise security […]"
+"last_updated": "2026-09-01 07:21:57 JST"

@@ -1,0 +1,9 @@
+"entries":
+  "7309bdc0f9a315dc7e868a31b9e5cc1d":
+    "id": "7309bdc0f9a315dc7e868a31b9e5cc1d"
+    "title": "CVE-2026-83497 - OpenSearch SQL Plugin - Unrestricted Java Deserialization in Cursor Pagination"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-092-aws/"
+    "published": "2026-09-01 03:41:11"
+    "fetched": "2026-09-01 07:21:57"
+    "summary": "<p><b>Bulletin ID:</b> 2026-092-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/31/2026 11:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>OpenSearch is an open-source search and analytics engine. We identified CVE-2026-83497 where a remote authenticated user with basic read/search permissions can run arbitrary code on the server by providing a crafted cursor parameter to the plugins/sql endpoint.</p> \n<p><b>Affected Products &amp; Versions:</b></p> \n<p><u>OpenSearch SQL Plugin (open-source, self-managed):</u><br /> - Affected: v2.8 to v3.6<br /> - Fixed: versions 3.7 and 2.19.6</p> \n<p><u>Amazon OpenSearch Service (AWS Managed):</u><br /> - Affected: v2.9 to v3.5<br /> - Fixed: v2.9 to v3.5 (via service software update)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-09-01 07:21:57 JST"
