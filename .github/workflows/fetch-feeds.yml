@@ -34,6 +34,32 @@ jobs:
       - name: Fetch AWS feeds
         run: python3 .github/scripts/main.py
 
+      - name: Prepare changed articles for Codex
+        id: changed_articles
+        run: |
+          changed_days="$(git status --porcelain=v1 --untracked-files=all -- data/ \
+            | sed -nE 's#^.. data/[0-9]{4}/[0-9]{2}/([0-9]{4}-[0-9]{2}-[0-9]{2})/[^/]+\.yaml$#\1#p' \
+            | sort -u)"
+
+          if [ -z "$changed_days" ]; then
+            echo 'No new articles to summarize.'
+            echo 'has_changes=false' >> "$GITHUB_OUTPUT"
+          else
+            mkdir -p .github/codex/input
+            printf '%s\n' "$changed_days" > .github/codex/input/changed-days.txt
+            python3 .github/scripts/summary_digest.py "$(printf '%s' "$changed_days" | paste -sd, -)" \
+              --limit 300 > .github/codex/input/daily-digest.md
+            echo 'has_changes=true' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Summarize today's articles with Codex
+        if: steps.changed_articles.outputs.has_changes == 'true'
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          prompt-file: .github/codex/prompts/summarize-daily-feeds.md
+          sandbox: workspace-write
+
       - name: Report summaries needing regeneration
         if: always()
         run: |

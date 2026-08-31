@@ -32,7 +32,7 @@ from pathlib import Path
 
 import yaml
 
-GENERATED_BY = 'AI (Claude Opus 5)'
+GENERATED_BY = 'OpenAI Codex'
 JST = datetime.timezone(datetime.timedelta(hours=9))
 
 

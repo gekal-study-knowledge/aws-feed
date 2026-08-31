@@ -7,7 +7,7 @@ AWS 公式の RSS フィードを自動的に購読し、日単位でまとめ�
 - **自動フィード取得**: AWS What's New、AWS News Blog、AWS Security Blog など 8 つのフィードを取得
 - **変更検出**: 新規エントリーのみを検出して処理（MD5 ハッシュで重複判定）
 - **日単位レポート**: 新しい情報が公開された日ごとに Markdown ファイルを生成
-- **GitHub Actions 連携**: 1 時間ごとに自動実行し、変更を自動コミット
+- **GitHub Actions 連携**: 1 時間ごとに自動実行し、新着がある日は Codex で日次概要も更新して自動コミット
 - **Next.js + GitHub Pages 公開**: モダンな UI でレポートを閲覧可能（ダークモード対応）
 - **既読管理**: 日別ページ単位で既読/更新状態を表示。Google ログイン時は Cloud Firestore に保存され、複数デバイス間で同期（未ログイン時は localStorage で動作）
 
@@ -93,7 +93,8 @@ http://localhost:3000 でプレビューできます。
 
 1. GitHub リポジトリにコードをプッシュ
 2. リポジトリの Settings → Actions → General で、Workflow permissions を「Read and write permissions」に設定
-3. リポジトリの Settings → Pages で、Source を「Deploy from a branch」、Branch を「main」、Folder を「`/ (root)`」に設定
+3. リポジトリの Actions secret `OPENAI_API_KEY` に OpenAI API キーを登録
+4. リポジトリの Settings → Pages で、Source を「Deploy from a branch」、Branch を「main」、Folder を「`/ (root)`」に設定
 
 ### 実行スケジュール
 
@@ -107,6 +108,7 @@ http://localhost:3000 でプレビューできます。
    - 新規エントリーを検出（MD5 ハッシュで重複判定）
    - YAML データを更新 (`data/`)
    - 日単位の Markdown を生成 (`_posts/`)
+   - 新着がある日の変更分を含む全記事を Codex で日本語要約し、`summary.yaml` を更新
    - 変更があれば自動コミット&プッシュ
 
 2. **デプロイジョブ** (変更がある場合のみ):
@@ -348,9 +350,9 @@ GitHub Actions のジョブサマリーに出力されます。毎時の取得�
 
 ### 概要の生成・更新
 
-概要の本文は自動生成されず、AI (Claude) が書きます。手順は
-`.claude/skills/daily-ai-summary/SKILL.md` にスキルとしてまとめてあり、
-Claude Code でこのリポジトリを開けば読み込まれます。
+毎時の `fetch-feeds.yml` で新着を検出すると、Codex が変更分を含む対象日の全記事を
+まとめ直し、`summary.yaml` を自動更新します。過去分の補完や手動での再生成には、
+次の補助スクリプトも利用できます。
 
 ```bash
 # 1. 対象日を洗い出す
@@ -360,7 +362,7 @@ python3 .github/scripts/check_summaries.py
 python3 .github/scripts/summary_digest.py --missing --limit 200
 python3 .github/scripts/summary_digest.py 2026-08-27,2026-08-28
 
-# 3. (Claude が overview と topics を書いて JSON にする)
+# 3. (AI が overview と topics を書いて JSON にする)
 
 # 4. summary.yaml へ書き出す
 python3 .github/scripts/write_summary.py summaries.json          # 新規
