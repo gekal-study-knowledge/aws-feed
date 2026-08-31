@@ -52,13 +52,26 @@ jobs:
             echo 'has_changes=true' >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Summarize today's articles with Codex
+      - name: Summarize changed articles with Codex
+        id: codex_summary
         if: steps.changed_articles.outputs.has_changes == 'true'
+        continue-on-error: true
         uses: openai/codex-action@v1
         with:
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
           prompt-file: .github/codex/prompts/summarize-daily-feeds.md
           sandbox: workspace-write
+
+      - name: Report Codex summary failure
+        if: steps.codex_summary.outcome == 'failure'
+        run: |
+          {
+            echo '## Codex による日次概要の生成に失敗しました'
+            echo ''
+            echo '新着記事は保存しますが、日次概要は更新されません。'
+            echo 'OpenAI API のクレジット、利用上限、API キー、および Codex ステップのログを確認してください。'
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo '::warning::Codex summary failed. Continuing so new feed articles can still be committed.'
 
       - name: Report summaries needing regeneration
         if: always()
