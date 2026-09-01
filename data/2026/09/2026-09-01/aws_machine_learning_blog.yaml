@@ -27,4 +27,11 @@
     "published": "2026-09-01 03:56:12"
     "fetched": "2026-09-01 07:21:58"
     "summary": "Learn how to build a multi-tenant agentic document chat application on Amazon Bedrock Managed Knowledge Base, where users upload documents and immediately ask grounded questions. This post covers the ingestion and retrieval flows, the asynchronous indexing lifecycle, per-user data isolation, and best practices for operating the solution at scale."
-"last_updated": "2026-09-01 07:21:58 JST"
+  "3556bcf14b14b3d148d717c807c5b82e":
+    "id": "3556bcf14b14b3d148d717c807c5b82e"
+    "title": "Connect an AgentCore Runtime hosted MCP server to Amazon Quick"
+    "link": "https://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick/"
+    "published": "2026-09-01 07:47:53"
+    "fetched": "2026-09-01 10:35:04"
+    "summary": "In this post, you will learn how to deploy and host your MCP server in AgentCore Runtime and integrate it with Amazon Quick, along with the prerequisites. With this pattern, you promote reusability and avoid duplication of AI tools, so clients can reuse commonly used tools and agents exposed through an MCP server instead of authoring them from scratch again. Your customers get a way to use your product inside Amazon Quick (chat agents and workflows) without building custom connectors for every use case."
+"last_updated": "2026-09-01 10:35:04 JST"
