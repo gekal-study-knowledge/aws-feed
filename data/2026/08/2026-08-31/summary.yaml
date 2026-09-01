@@ -1,0 +1,19 @@
+"date": "2026-08-31"
+"generated_at": "2026-09-01 21:58:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 11
+"sources":
+  - "aws_japan_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は週次のまとめ記事と、VMware・データレイクハウスまわりの実践が中心でした。AWS Weekly Roundup では、DuckDB を開発するアムステルダムの DuckLabs を買収する最終合意に至ったこと、Agentic Resource Discovery (ARD) などが取り上げられています。VMware 関連では Amazon EVS が NSX Federation をサポートし、AWS 上で VMware ワークロードを動かす際にエンタープライズ規模のネットワーク、ディザスタリカバリ、マルチサイト構成を組めるようになったことが日本語で解説されました。データ基盤では、250 以上のブランドを扱う欧州の EC アグリゲーター Razor Group が Apache Iceberg と Amazon S3 Tables を軸にレイクハウスを構築し、段階的な移行によってインフラコストを 63% 削減した道のりが紹介されています。あわせて AWS Glue を使い、DynamoDB のフルまたはインクリメンタルなテーブルエクスポートを、書き込みレートまで制御しながら別の DynamoDB テーブルへ取り込む手法も公開されました。サービス更新は 3 件で、Elastic Beanstalk が Windows Server インスタンスを AWS Directory Service で管理する Active Directory ドメインへ自動参加できるようになり、Automated Security Response on AWS には任意の AI アシスタントからカスタム修復を生成できる AI Toolkit を含む 4 つの機能が追加され、AWS Workload Credentials Provider は Amazon Linux と Windows でソースからのビルドが不要なワンクリックインストールに対応しました。国内では週刊 AWS と週刊生成 AI に加え、7 月 3 日開催の AWS Resilience Day と、この日開催されたフィジカル AI 開発支援プログラムの最終成果発表会のレポートが公開されています。
+"topics":
+  - "買収: DuckDB を開発するアムステルダムの DuckLabs 買収で最終合意、Agentic Resource Discovery (ARD) も紹介"
+  - "VMware: Amazon EVS が NSX Federation をサポートし、DR とマルチサイトネットワークに対応"
+  - "データ基盤: Razor Group が Iceberg + S3 Tables のレイクハウス移行でインフラコストを 63% 削減"
+  - "データ移行: AWS Glue で DynamoDB のテーブルエクスポートを書き込みレート制御付きで別テーブルへ取り込み"
+  - "Windows: Elastic Beanstalk が Windows Server 環境の Active Directory ドメイン参加を自動化"
+  - "セキュリティ運用: Automated Security Response on AWS に AI Toolkit などカスタム修復向けの 4 機能を追加"
+  - "認証情報: AWS Workload Credentials Provider が Amazon Linux / Windows でワンクリックインストールに対応"
+  - "国内: 週刊 AWS・週刊生成 AI、AWS Resilience Day (2026 年 7 月 3 日) とフィジカル AI 開発支援プログラム最終成果発表会のレポート"

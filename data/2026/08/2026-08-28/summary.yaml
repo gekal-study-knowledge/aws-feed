@@ -1,21 +1,23 @@
 "date": "2026-08-28"
-"generated_at": "2026-08-28 19:24:09 JST"
+"generated_at": "2026-09-01 21:58:10 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 22
+"article_count": 24
 "sources":
   - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_security_blog"
   - "aws_whats_new"
 "overview": |
-  この日はインド国内での推論とコスト最適化、そしてモデルの品揃え拡充が話題でした。Amazon Bedrock が OpenAI GPT-5.6 の Terra と Luna をインド地理のクロスリージョン推論でサポートし、ローカルのデータ保護要件があるケースに対応します。SageMaker JumpStart には NVIDIA の Cosmos3-Edge / Cosmos3-Nano / Cosmos3-Super、Meta の Muse-Glimmer-30B、Alibaba の Qwen 3.8-27B が追加されました。機械学習ブログでは NVIDIA CUDA Multi-Process Service を使い、1 リクエストが GPU の一部しか使わない音声認識の推論コストを 75% 削減する手法が公開されています。セキュリティでは Bedrock Guardrails をモデル境界だけでなくツール呼び出しにも広げる方法が Strands Agents SDK を使って解説されました。サービス更新では Elastic Disaster Recovery に複数サーバーのアプリケーションを順序立てて起動する Recovery Plans が追加され、AgentCore が北カリフォルニアとハイデラバードの 2 リージョンへ拡大、FSx for NetApp ONTAP はリージョン間・アカウント間のバックアップコピーに対応しています。国内では Bedrock のきめ細かなコスト配分と Athena / CUDOS を使った可視化の日本語解説、8 月 25 日に 20 周年を迎えた Amazon EC2 の振り返りが公開されました。
+  この日はインド国内での推論とコスト最適化、そしてモデルの品揃え拡充が話題でした。Amazon Bedrock が OpenAI GPT-5.6 の Terra と Luna をインド地理のクロスリージョン推論でサポートし、ローカルのデータ保護要件があるケースに対応します。SageMaker JumpStart には NVIDIA の Cosmos3-Edge / Cosmos3-Nano / Cosmos3-Super、Meta の Muse-Glimmer-30B、Alibaba の Qwen 3.8-27B が追加され、AWS GovCloud (US) の Bedrock では長時間の推論やエージェント作業を狙った SpaceXAI の Grok 4.6 が使えるようになりました。機械学習ブログでは NVIDIA CUDA Multi-Process Service を使い、1 リクエストが GPU の一部しか使わない音声認識の推論コストを 75% 削減する手法が公開されています。セキュリティでは Bedrock Guardrails をモデル境界だけでなくツール呼び出しにも広げる方法が Strands Agents SDK を使って解説されました。サービス更新では Elastic Disaster Recovery に複数サーバーのアプリケーションを順序立てて起動する Recovery Plans が追加され、AgentCore が北カリフォルニアとハイデラバードの 2 リージョンへ拡大、FSx for NetApp ONTAP はリージョン間・アカウント間のバックアップコピーに対応しています。国内では Bedrock のきめ細かなコスト配分と Athena / CUDOS を使った可視化の日本語解説、8 月 25 日に 20 周年を迎えた Amazon EC2 の振り返りに加え、Kiro IDE の diagnostics ツールが返す静的解析の指摘を手がかりに、AI コーディングエージェントが本当に良くなっているのかを検証する記事も公開されました。
 "topics":
   - "データレジデンシー: Bedrock が GPT-5.6 Terra / Luna をインド地理のクロスリージョン推論でサポート"
   - "モデル拡充: SageMaker JumpStart に NVIDIA Cosmos3 ファミリー、Meta Muse-Glimmer-30B、Alibaba Qwen 3.8-27B を追加"
+  - "モデル拡充: AWS GovCloud (US) の Bedrock で SpaceXAI Grok 4.6 が利用可能に"
   - "コスト最適化: NVIDIA CUDA MPS により音声認識 (ASR) の推論コストを 75% 削減"
   - "コスト可視化: Bedrock のきめ細かなコスト配分と、Athena / CUDOS を使った分析の日本語解説"
   - "ガードレール: Bedrock Guardrails を Strands Agents SDK でツール呼び出しにも拡張"
   - "災害対策: Elastic Disaster Recovery の Recovery Plans で複数サーバーアプリの順序立てた起動を自動化"
   - "バックアップ: FSx for NetApp ONTAP がリージョン間・アカウント間のバックアップコピーに対応"
   - "リージョン拡大: AgentCore が米国西部 (北カリフォルニア) とアジアパシフィック (ハイデラバード) へ拡大"
+  - "開発ツール: Kiro IDE の diagnostics による静的解析の指摘から、AI コーディングエージェントの改善度を検証"
   - "国内: 20 周年を迎えた Amazon EC2 の振り返り、AWS Local Executive Roadshow 札幌編の開催レポート 2 本"

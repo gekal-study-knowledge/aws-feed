@@ -1,0 +1,24 @@
+"date": "2026-09-01"
+"generated_at": "2026-09-01 21:58:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 29
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は月初らしく発表が多く、マルチクラウド接続、Graviton5 世代のインスタンス、そしてエージェントの統制が三つの柱でした。AWS Interconnect が Microsoft Azure との専用マルチクラウド接続としてパブリックプレビューに入り、クラウドをまたぐネットワークを個別に組む必要がなくなります。コンピュートでは AWS Graviton5 を搭載したメモリ最適化インスタンス EC2 R9g / R9gd が一般提供となり、R8g 比で最大 25% 高いコンピュート性能をうたっています。エージェント統制では AWS Agent Registry が GA になり、組織内のエージェント・ツール・スキル・MCP サーバー・カスタムリソースを検索可能な単一カタログで管理できるようになりました。Amazon Quick からも Agent Registry のエージェントや MCP サーバーを直接使えます。データベースまわりの更新も厚く、Redshift が Apache Iceberg v3 テーブルの読み書きと、拡張 VPC ルーティング構成での IAM Identity Center 認証に対応し、Aurora serverless の 30% 性能向上が追加リージョンへ、Timestream for InfluxDB が 8 リージョンへ広がり、DocumentDB は 3.6 / 4.0 から 8.0 への直接メジャーバージョンアップグレードが可能になりました。運用面では Lambda の再帰ループ検出が全商用リージョンへ拡大し、Cognito はユーザープールドメインなしで GetClientToken による M2M 認可ができるようになり、OpenSearch Service の Cluster Insights は Red / Yellow の原因を特定する 17 の新しいインサイトを追加、Connect Global Resiliency は 2 つのアクティブリージョン間でのコンタクトのクロスリージョンルーティングに対応しました。セキュリティ速報として OpenSearch SQL プラグインのカーソルページネーションにおける無制限の Java デシリアライズ (CVE-2026-83497) が Important で公開されています。国内では AWS Summit Japan 2026 の Physical AI デモの裏側が 2 部構成で、AI-DLC を学べる Skill Builder コースの日本語版公開、Amazon EVS 一般提供 1 年の振り返りが公開されました。
+"topics":
+  - "マルチクラウド: AWS Interconnect が Microsoft Azure との専用接続としてパブリックプレビュー開始"
+  - "コンピュート: Graviton5 搭載の EC2 R9g / R9gd が GA、R8g 比で最大 25% 高い性能"
+  - "エージェント統制: AWS Agent Registry が GA、エージェント・ツール・MCP サーバーの統一カタログを提供 (Amazon Quick からも利用可)"
+  - "データウェアハウス: Redshift が Apache Iceberg v3 に対応し、拡張 VPC ルーティングでも IAM Identity Center 認証が可能に"
+  - "データベース: DocumentDB が 3.6 / 4.0 から 8.0 への直接メジャーバージョンアップグレードに対応、Aurora serverless の 30% 性能向上が追加リージョンへ"
+  - "脆弱性: OpenSearch SQL プラグインのカーソルページネーションに無制限 Java デシリアライズ (CVE-2026-83497)"
+  - "認証: Cognito が GetClientToken でユーザープールドメインなしの M2M 認可に対応"
+  - "運用: Lambda の再帰ループ検出が全商用リージョンへ拡大、OpenSearch Service の Cluster Insights に 17 の新インサイト"
+  - "コンタクトセンター: Connect Global Resiliency が 2 リージョン間のコンタクトのクロスリージョンルーティングに対応"
+  - "国内: AWS Summit Japan 2026 の Physical AI デモ解説 (全 2 回)、AI-DLC の Skill Builder 日本語コース公開、Amazon EVS の 1 年の振り返り"

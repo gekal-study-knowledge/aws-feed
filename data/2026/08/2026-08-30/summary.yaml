@@ -1,0 +1,13 @@
+"date": "2026-08-30"
+"generated_at": "2026-09-01 21:58:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  この日は日本語ブログの 3 本のみで、データ分析の実践と国内の生成 AI 導入事例が話題でした。Amazon SageMaker Unified Studio のノートブックについて、インフラ設定を簡素化してインサイト獲得までの時間を短縮する使い方が、住宅価格予測を題材に紹介されています。Python と SQL を混在させるポリグロットプログラミング、複数エンジンからのデータアクセス、Athena Spark による分散プロファイリング、SageMaker Data Agent の AI 支援を、単一のノートブック環境で組み合わせる構成です。もう 1 本は軽量なインメモリ SQL エンジンである DuckDB を使い、Amazon SageMaker Lakehouse の Iceberg REST エンドポイントと AWS Lake Formation のアクセス許可を通じて、AWS CloudShell 上から Amazon S3 Tables の Iceberg データへアクセスする方法です。サーバーを別途運用せずに対話的な分析ができる点が主眼になっています。事例としては、NEC が 2026 年 6 月 1 日に最大 12 万人の全社員が使えるセキュアな全社 AI 環境を、Claude Desktop on Amazon Bedrock で 2 週間という短期間で立ち上げた取り組みが公開されました。
+"topics":
+  - "データ分析: SageMaker Unified Studio のノートブックで Python と SQL を混在させ、Athena Spark と SageMaker Data Agent を組み合わせる"
+  - "レイクハウス: DuckDB から SageMaker Lakehouse の Iceberg REST エンドポイント経由で S3 Tables にアクセス"
+  - "アクセス制御: Lake Formation の許可を使い、CloudShell 上の軽量エンジンからでもガバナンスを効かせる"
+  - "国内事例: NEC が 2026 年 6 月 1 日、最大 12 万人規模の全社 AI 環境を Claude Desktop on Amazon Bedrock で 2 週間で構築"

@@ -1,0 +1,23 @@
+"date": "2026-08-29"
+"generated_at": "2026-09-01 21:58:10 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 17
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はストリーミングデータの取り込み経路の拡張と、セキュリティ境界まわりの話題が中心でした。Amazon Kinesis Data Streams に 2 つの配信先が加わり、ストリーミングテーブルによって Amazon S3 Tables 上の Apache Iceberg 形式へ完全サーバーレスで継続配信できるようになったほか、汎用の Amazon S3 バケットへも基盤を作らずに直接配信できるようになりました。セキュリティでは、パブリックインターネットに接続しない隔離ネットワークで機密ワークロードを運用する金融・政府・防衛・医療向けに、データ境界を Private Access で AWS マネジメントコンソールまで広げる方法が解説されています。一方でセキュリティ速報が 2 件出ており、diagram-as-code の CLI である awsdac の Zip Slip パス traversal (CVE-2026-81838)、amazon-ssm-agent の aws:downloadContent プラグインのパス traversal (CVE-2026-81849) がいずれも Important として公開されました。エージェント基盤では Bedrock AgentCore Memory がきめ細かなアクセス制御 (FGAC) に対応し、AgentCore Gateway 経由でユーザー単位・テナント単位のメモリ分離を独自実装なしに強制できるようになり、あわせて組織・テナント・チームなど任意の軸でメモリをスコープできる柔軟な名前空間変数も追加されました。このほか Aurora MySQL 3.13 (MySQL 8.0.45 互換) の一般提供、CloudWatch エージェントの systemd journal (journald) ログ収集対応、EMR on EKS のジョブ実行同時実行数制御、EC2 P6-B300 のハイデラバード・サンパウロ展開、C8gn のパリ展開、AWS Transform の FedRAMP Class C 対応 (米国東部オハイオ) が発表されています。国内では ALB のログが Vended Logs として CloudWatch Logs へ構造化 JSON で直接配信できるようになったことを踏まえた分析記事が公開されました。
+"topics":
+  - "ストリーミング: Kinesis Data Streams のストリーミングテーブルが S3 Tables への Iceberg 形式配信をサーバーレスで実現"
+  - "ストリーミング: Kinesis Data Streams が汎用 S3 バケットへの直接配信に対応"
+  - "脆弱性: awsdac (diagram-as-code) の Zip Slip パス traversal (CVE-2026-81838)"
+  - "脆弱性: amazon-ssm-agent の aws:downloadContent プラグインにパス traversal (CVE-2026-81849)"
+  - "セキュリティ境界: Private Access でデータ境界を AWS マネジメントコンソールまで拡張"
+  - "エージェント: AgentCore Memory がきめ細かなアクセス制御 (FGAC) と柔軟な名前空間変数に対応"
+  - "データベース: Aurora MySQL 3.13 (MySQL 8.0.45 互換) が一般提供"
+  - "可観測性: CloudWatch エージェントが systemd journal (journald) ログの収集に対応、ALB ログは Vended Logs として CloudWatch Logs へ"
+  - "コンプライアンス: AWS Transform が米国東部 (オハイオ) で FedRAMP Class C の対象に"
+  - "機械学習: SageMaker Inference Component の配置で Multi-AZ 冗長を実現した Salesforce の事例、Feature Store に BatchWriteRecord / ListRecords を追加"
