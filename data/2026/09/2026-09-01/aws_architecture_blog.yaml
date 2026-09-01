@@ -1,0 +1,16 @@
+"entries":
+  "c8a1e6f24f4e1ed6925382c5d29bfbd2":
+    "id": "c8a1e6f24f4e1ed6925382c5d29bfbd2"
+    "title": "Hybrid cloud orchestration: Modernizing on-premises infrastructure management with AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/hybrid-cloud-orchestration-modernizing-on-premises-infrastructure-management-with-aws/"
+    "published": "2026-09-01 23:01:10"
+    "fetched": "2026-09-02 02:33:02"
+    "summary": "Learn how to build a hybrid cloud orchestration solution that manages distributed on-premises infrastructure at scale using AWS serverless technologies and Amazon EKS Anywhere. Part 1 covers the core event-driven architecture patterns for automating server lifecycle and cluster management across hundreds of sites."
+  "40cdc806bedaf05c514660908bec2c23":
+    "id": "40cdc806bedaf05c514660908bec2c23"
+    "title": "MCP went stateless: Is your AWS MCP server deployment well-architected?"
+    "link": "https://aws.amazon.com/blogs/architecture/mcp-went-stateless-is-your-aws-mcp-server-deployment-well-architected/"
+    "published": "2026-09-01 22:09:19"
+    "fetched": "2026-09-02 02:33:02"
+    "summary": "On July 28, 2026, MCP made its protocol core stateless, removing the initialize handshake and session header. This post maps the MCP 2026-07-28 specification to the AWS Well-Architected Agentic AI Lens, pillar by pillar, and shows why the stateless design lets you delete the sticky sessions and session stores your MCP servers needed on AWS."
+"last_updated": "2026-09-02 02:33:02 JST"
