@@ -41,4 +41,11 @@
     "published": "2026-09-02 00:45:36"
     "fetched": "2026-09-02 02:33:02"
     "summary": "Boomi Scribe is an AI-powered agent on AWS that automatically generates documentation for enterprise integration workflows. Learn how Boomi uses Amazon Bedrock, Amazon SageMaker AI, Amazon S3, Amazon DynamoDB, and AWS Lambda to parse integration DAGs, generate detailed documentation, and compare component versions at scale."
-"last_updated": "2026-09-02 02:33:02 JST"
+  "da95bf01fddc4c4936c720ce4a20cd47":
+    "id": "da95bf01fddc4c4936c720ce4a20cd47"
+    "title": "Introducing Claude Fable 5.1 on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/"
+    "published": "2026-09-02 04:12:43"
+    "fetched": "2026-09-02 05:28:25"
+    "summary": "Claude Fable 5.1 is now available on Amazon Bedrock and Claude Platform on AWS. This post covers Claude Fable 5.1's improvements, the Enterprise Frontier Safeguards for keeping your data in a cloud environment you control, and how to start building with the model on Amazon Bedrock."
+"last_updated": "2026-09-02 05:28:25 JST"

@@ -1,0 +1,9 @@
+"entries":
+  "6040e3c86258e8206b89175bff3242bd":
+    "id": "6040e3c86258e8206b89175bff3242bd"
+    "title": "CVE-2026-83551 - Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-093-aws/"
+    "published": "2026-09-02 03:21:24"
+    "fetched": "2026-09-02 05:28:24"
+    "summary": "<p><b>Bulletin ID:</b> 2026-093-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/01/2026 11:00 AM PDT</p> \n<p><b>Description:</b></p> \n<p>SageMaker Python SDK's @step and @remote decorator pipeline component uses an HMAC key to protect the integrity of serialized function payloads stored in S3. We identified an issue where the HMAC secret key is stored in cleartext within pipeline definitions and accessible via the DescribePipeline API.</p> \n<p>This allows an actor with a role in that account that has permissions to invoke DescribePipeline to extract the key, create cloud-pickled payloads with valid HMACs, and overwrite S3 objects, achieving code execution in another user's pipeline execution context within the same AWS account.</p> \n<p><b>Impacted versions:</b><br /> - HMAC Configuration in SageMaker Python SDK v3 &lt; v3.11.0<br /> - HMAC Configuration in SageMaker Python SDK v2 &lt; v2.256.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-09-02 05:28:24 JST"
