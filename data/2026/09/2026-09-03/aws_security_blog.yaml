@@ -1,0 +1,16 @@
+"entries":
+  "cb25cac6d050b9424accca5dd4d8cfe1":
+    "id": "cb25cac6d050b9424accca5dd4d8cfe1"
+    "title": "Managing identity source transition for AWS IAM Identity Center"
+    "link": "https://aws.amazon.com/blogs/security/managing-identity-source-transition-for-aws-iam-identity-center/"
+    "published": "2026-09-03 05:36:31"
+    "fetched": "2026-09-03 06:32:42"
+    "summary": "September 2, 2026: This post was republished to include Active Directory migration strategies and automation for permission sets. AWS IAM Identity Center manages user access to Amazon Web Services (AWS) resources, including both AWS accounts and applications. You can use IAM Identity Center to create and manage user identities within the Identity Center identity store […]"
+  "aaaed34ff0249158aca7ffc8d12e4272":
+    "id": "aaaed34ff0249158aca7ffc8d12e4272"
+    "title": "Agentic security: Detection and response at machine speed"
+    "link": "https://aws.amazon.com/blogs/security/agentic-security-detection-and-response-at-machine-speed/"
+    "published": "2026-09-03 03:36:37"
+    "fetched": "2026-09-03 06:32:42"
+    "summary": "After talking with enterprise security leaders over the past year, one thing has become clear: the rise of autonomous AI agents is the most significant shift in security posture since the move to cloud. Organizations across every industry are adopting AI agents that authenticate on behalf of users, execute multistep workflows, and make decisions across […]"
+"last_updated": "2026-09-03 06:32:42 JST"

@@ -1,0 +1,9 @@
+"entries":
+  "f464f31c19e2a55689d4451c6925bd28":
+    "id": "f464f31c19e2a55689d4451c6925bd28"
+    "title": "CVE-2026-84851- Uncontrolled recursion in the Ion reader in Amazon Ion-C before 1.1.6"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-094-aws/"
+    "published": "2026-09-03 05:32:01"
+    "fetched": "2026-09-03 06:32:42"
+    "summary": "<p><b>Bulletin ID:</b> 2026-094-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/02/2026 13:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon Ion-C (ion-c) is the C implementation of the Amazon Ion data serialization format. It is distributed as an open-source library (amazon-ion/ion-c) that applications embed to read and write Ion text and binary data. We identified CVE-2026-84851, an uncontrolled recursion issue in versions before 1.1.6 that might allow a remote unauthenticated actor to craft Ion data that exhausts the native call stack and crashes the application using the library, resulting in a denial of service.</p> \n<p><b>Impacted versions:</b> &lt; 1.1.6</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-09-03 06:32:42 JST"
