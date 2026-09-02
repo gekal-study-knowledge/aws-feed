@@ -1,0 +1,22 @@
+"date": "2026-09-02"
+"generated_at": "2026-09-02 20:02:57 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 16
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は生成 AI の本番運用まわり、とりわけコストとセキュリティの統制に関する事例が目立ちました。Anthropic の Claude Fable 5.1 が Amazon Bedrock と Claude Platform on AWS で利用可能になり、クラウド環境内にデータを留めるための Enterprise Frontier Safeguards とあわせて紹介されています。コスト統制では、生成 AI の利用が広がるとコストガバナンスが最大の課題になるとして、Jamf が IAM のカスタマー管理ポリシーを使い Amazon Bedrock のユーザー単位のリアルタイム支出制限を実装した事例が公開されました。セキュリティでは、Amazon Quick の PoC が本番計画のセキュリティレビューで止まりがちな問題を取り上げ、ダッシュボード・Spaces・ナレッジベース・エージェント・Flows をセキュリティ前提で設計する方法が解説されています。エージェントの決済まわりでは、t54 が Amazon Bedrock AgentCore payments 上に x402-secure という信頼レイヤーを構築し、自律エージェントが支払う前にエンドポイントを採点する仕組み (セッション予算、認証情報の分離、決定論的な検証) を紹介しました。このほか Boomi Scribe による統合ワークフローのドキュメント自動生成、ZS が 200 以上の SageMaker ドメインで 1,000 人超のデイリーアクティブユーザーを支えるヘルスケア品質のガバナンス基盤、Atos が 3 日間の AI League イベントで 400 人のエンジニアをエージェント型 AI に習熟させた取り組みが公開されています。セキュリティ速報は 1 件で、SageMaker Python SDK の @step / @remote デコレーターのパイプライン処理で HMAC 署名鍵が平文保存される問題 (CVE-2026-83551) が Important として公開されました。サービス更新では、Amazon Quick が自然言語で説明するだけでプロジェクト管理や顧客ダッシュボードなどのカスタムアプリを作れる機能を一般提供し、MWAA が Apache Airflow 3.3.1 に対応、AWS Backup がアカウントあたり 1,000 を超える S3 バケットの保護に対応、CloudWatch Database Insights が自己管理の PostgreSQL を監視対象に追加、Kinesis Data Streams が API リクエストを実行せずに成否を検証する DryRun パラメータを追加、Deadline Cloud がジョブバンドルの共有に対応、Connect のダッシュボードがコンパクトモードに対応しました。国内では、DeNA のヘルスケア事業部門 DeSC ヘルスケアと 2026 年 5 月に取り組んだ、分析業務領域での AI-DLC 初事例が公開されています。
+"topics":
+  - "モデル: Claude Fable 5.1 が Amazon Bedrock と Claude Platform on AWS で利用可能に、Enterprise Frontier Safeguards も解説"
+  - "コスト統制: Jamf が IAM カスタマー管理ポリシーで Bedrock のユーザー単位リアルタイム支出制限を実装"
+  - "脆弱性: SageMaker Python SDK の @step / @remote デコレーターで HMAC 署名鍵が平文保存 (CVE-2026-83551)"
+  - "エージェント決済: t54 が AgentCore payments 上に、支払い前にエンドポイントを採点する信頼レイヤー x402-secure を構築"
+  - "アプリ開発: Amazon Quick が自然言語での記述だけでカスタムアプリを作れる機能を GA"
+  - "データ保護: AWS Backup がアカウントあたり 1,000 を超える S3 バケットの保護に対応"
+  - "監視: CloudWatch Database Insights が自己管理の PostgreSQL に対応"
+  - "ワークフロー: MWAA が Apache Airflow 3.3.1 をサポート、Kinesis Data Streams に DryRun による事前検証を追加"
+  - "人材育成: Atos が 3 日間の AI League で 400 人のエンジニアをエージェント型 AI に習熟"
+  - "国内事例: DeNA のヘルスケア事業部門と取り組んだ、分析業務領域での AI-DLC 初事例"
