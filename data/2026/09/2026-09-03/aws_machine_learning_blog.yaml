@@ -1,0 +1,23 @@
+"entries":
+  "e177ca65dfa2131df1dbca23c6d67e87":
+    "id": "e177ca65dfa2131df1dbca23c6d67e87"
+    "title": "How an AWS team detects dashboard content failures at scale using Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-an-aws-team-detects-dashboard-content-failures-at-scale-using-amazon-bedrock/"
+    "published": "2026-09-03 03:21:20"
+    "fetched": "2026-09-03 03:24:49"
+    "summary": "Business intelligence dashboards can fail silently, showing blank, stale, or wrong data even when every infrastructure monitor reports healthy. Learn how an AWS team built an automated, AI-powered content validation solution on Amazon Bedrock that scans hundreds of dashboards and alerts owners, cutting mean time to detection from days to under an hour."
+  "c43dfefb9513a5204577c0bb9dcbf5e9":
+    "id": "c43dfefb9513a5204577c0bb9dcbf5e9"
+    "title": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore/"
+    "published": "2026-09-03 03:18:47"
+    "fetched": "2026-09-03 03:24:49"
+    "summary": "Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generates architecture diagrams, and maintains searchable documentation through Amazon Bedrock Knowledge Bases and AWS CodePipeline."
+  "b96c954c816698be38e630cad6a6ea34":
+    "id": "b96c954c816698be38e630cad6a6ea34"
+    "title": "Trinity: Agentic AI-powered transition planning for students with disabilities"
+    "link": "https://aws.amazon.com/blogs/machine-learning/trinity-agentic-ai-powered-transition-planning-for-students-with-disabilities/"
+    "published": "2026-09-03 03:14:17"
+    "fetched": "2026-09-03 03:24:49"
+    "summary": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into a serverless multi-agent architecture on Amazon Bedrock that produces IDEA-aligned transition plans for school districts across the US."
+"last_updated": "2026-09-03 03:24:49 JST"
