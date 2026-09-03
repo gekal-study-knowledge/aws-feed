@@ -1,0 +1,16 @@
+"entries":
+  "74ed9da8b77a064db87d26bb277bc187":
+    "id": "74ed9da8b77a064db87d26bb277bc187"
+    "title": "Incident response guide for AWS CloudTrail investigations – Part 2"
+    "link": "https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-2/"
+    "published": "2026-09-04 06:15:53"
+    "fetched": "2026-09-04 07:12:39"
+    "summary": "In Part 1 of this guide, we examined two common incident scenarios: cross-account Amazon Simple Storage Service (Amazon S3) data deletion with ransomware implications, and cryptocurrency mining deployed through AWS CloudFormation using exposed AWS Management Console credentials. We also introduced key incident response terminology and investigative frameworks for analyzing AWS CloudTrail events. In this second […]"
+  "bb806888f366bdde46df776215adc4e8":
+    "id": "bb806888f366bdde46df776215adc4e8"
+    "title": "Incident response guide for AWS CloudTrail investigations – Part 1"
+    "link": "https://aws.amazon.com/blogs/security/incident-response-guide-for-aws-cloudtrail-investigations-part-1/"
+    "published": "2026-09-04 06:15:39"
+    "fetched": "2026-09-04 07:12:39"
+    "summary": "AWS CloudTrail logs contain the evidence you need when investigating suspicious activity in your AWS environment, but knowing which fields matter and how to interpret them can mean the difference between surface-level analysis and uncovering the full scope of an incident. This guide walks you through real-world scenarios, showing you how to analyze CloudTrail events […]"
+"last_updated": "2026-09-04 07:12:39 JST"
