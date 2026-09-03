@@ -1,0 +1,24 @@
+"date": "2026-09-03"
+"generated_at": "2026-09-04 08:02:48 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 21
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は OS とセキュリティ運用の基盤、そしてエージェントを実務へ落とし込む事例が中心でした。まず Amazon Linux 2027 (AL2027) がパブリックプレビューとして発表され、AWS 上のクラウドネイティブなワークロード向けに性能とスケールを狙った次世代 OS が姿を見せました。セキュリティブログでは、この 1 年の企業のセキュリティリーダーとの対話を踏まえ、自律型 AI エージェントの台頭がクラウド移行以来もっとも大きなセキュリティ体制の転換であるとして、機械の速度での検知と対応を論じる記事が公開されています。IAM Identity Center の ID ソース移行に関する記事も、Active Directory の移行戦略と許可セットの自動化を含めて 9 月 2 日に再公開されました。セキュリティ速報は 1 件で、Amazon Ion の C 実装である Amazon Ion-C の 1.1.6 より前のバージョンで、Ion リーダーに制御されない再帰がある問題 (CVE-2026-84851) が Important として公開されています。サービス更新は幅広く、AWS Config が Amazon Bedrock、EC2、SageMaker、AWS Organizations を含む 60 の新しいリソースタイプに対応してカバレッジを広げました。Amazon Connect Customer では、AI による自己解決体験をノーコードのキャンバスで設計・デプロイできる agentic CX designer が一般提供となり、マレー語での人間と AI エージェントの自動評価にも対応しています。規制対応の要素も多く、第 2 世代の Outposts ラックが GovCloud (US-East / US-West) で利用可能になり、Bedrock の Web Search 組み込みツールが GovCloud (US-West) へ、S3 が FIPS 140-3 の検証済みエンドポイントで PrivateLink に対応、SES が S/MIME による電子メール署名をサポートしました。移行では AWS Transform がブロックストレージの移行先として Amazon FSx for NetApp ONTAP を一般提供で追加しています。機械学習ブログでは、オーストラリアのチームがシドニー・メルボルンの両リージョンからグローバルなクロスリージョン推論で OpenAI GPT-5.6 の Sol / Terra / Luna を使えるようになったことが案内され、障害のある学生の移行計画を支援する対話型 AI ソリューション Trinity を Bedrock 上のサーバーレスなマルチエージェント構成へ拡張した事例、.NET のコードベースを解析してアーキテクチャ図を生成し継続的に維持するパイプラインをグローバルなインターディーラーブローカーが AgentCore 上に構築した事例、インフラ監視がすべて正常でも空白・陳腐化・誤りを示すことがある BI ダッシュボードの内容の破綻を Bedrock で検知する取り組みが公開されました。国内では Aurora DSQL の事例セミナー告知に加え、ウィークリー総まとめと Graviton5 の R9g / R9gd の日本語版が出ています。
+"topics":
+  - "OS: Amazon Linux 2027 (AL2027) がパブリックプレビューで登場"
+  - "セキュリティ論考: 自律型エージェントの台頭を踏まえた、機械の速度での検知と対応"
+  - "脆弱性: Amazon Ion-C 1.1.6 より前の Ion リーダーに制御されない再帰 (CVE-2026-84851)"
+  - "ガバナンス: AWS Config が Bedrock・EC2・SageMaker・Organizations を含む 60 の新リソースタイプに対応"
+  - "コンタクトセンター: Connect の agentic CX designer が GA、ノーコードで AI 自己解決体験を設計、評価はマレー語にも対応"
+  - "規制対応: 第 2 世代 Outposts ラックと Bedrock Web Search が GovCloud へ、S3 が FIPS エンドポイントで PrivateLink に対応"
+  - "メール: SES が S/MIME 署名に対応し、受信者が送信元の真正性を検証可能に"
+  - "推論: オーストラリア (シドニー・メルボルン) から OpenAI GPT-5.6 Sol / Terra / Luna をグローバルクロスリージョン推論で利用可能に"
+  - "移行: AWS Transform がブロックストレージの移行先として FSx for NetApp ONTAP を GA で追加"
+  - "エージェント事例: .NET コードからアーキテクチャ図を生成する文書化パイプライン、BI ダッシュボードの内容破綻を検知する仕組み"
+  - "国内: Aurora DSQL 事例セミナーの告知、ウィークリー総まとめと R9g / R9gd の日本語版"

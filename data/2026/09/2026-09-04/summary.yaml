@@ -1,0 +1,22 @@
+"date": "2026-09-04"
+"generated_at": "2026-09-04 08:02:48 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 19
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はデータベースのレプリケーション強化と、インシデント対応・脆弱性というセキュリティの実務が目立ちました。Aurora MySQL に 2 つのレプリケーション機能が加わり、1 つのクラスターが複数のソースからレプリケーションを受けられるマルチソースレプリケーションと、意図的に遅延させて反映する遅延レプリケーションが使えるようになりました。誤操作からの復旧やデータ統合の幅が広がります。あわせて Aurora MySQL 8.4.8 (MySQL 8.4.8 互換) が一般提供となり、セキュリティ強化とバグ修正に加えていくつかの改善が入っています。Redshift では Graviton ベースの rg.large インスタンスがシングルノードクラスターに対応しました (P204 以降のパッチバージョン)。セキュリティブログでは CloudTrail を使ったインシデント調査のガイドが前後編で公開され、クロスアカウントでの S3 データ削除とランサムウェアの懸念、暗号通貨マイニングの展開という 2 つのシナリオを題材に、どのフィールドが重要でどう解釈するかが整理されています。セキュリティ速報は 2 件で、再利用可能なプロジェクトテンプレートである Amazon CodeCatalyst blueprints SDK の OS コマンドインジェクション (CVE-2026-85012)、AWS FPGA 開発キットで安全でない権限のディレクトリに一時ファイルを作成する問題 (CVE-2026-85028) が、いずれも Important として公開されました。エージェント関連の記事も厚く、ノートブックで動くエージェントは本番のエージェントではないとして、LangGraph のカスタマーサポートエージェントを Runtime と Gateway へ載せる 2 段階で AgentCore へ移行する手順や、AI-DLC を採用したチームが概念を動くコードへ落とし込めない課題に対する AgentCore 上の 2 つのリファレンス実装が紹介されています。Amazon Quick まわりでは、Quick Automate による本番品質のエージェント型業務自動化のベストプラクティス (適切なプロセスの選定、目的を絞ったエージェントの設計、決定論的な処理との組み合わせ)、Outlook との連携によるメール管理・カレンダー調整の自動化、Cognito 認証を使った QuickSight ビジュアルの React アプリへの埋め込みが公開されました。利用量の多いユーザー向けには、Plus の 5 倍の利用量とストレージを持つ Quick Max プランが登場しています。このほか MWAA がマネジメントコンソールの環境詳細ページに組み込みのモニタリングを追加、SageMaker Unified Studio Workflows が PythonOperator と BashOperator に対応、WorkSpaces Applications が NVIDIA RTX PRO 4500 Blackwell を搭載した Graphics G7 インスタンスに対応、Gateway Load Balancer がターゲットの異常時などに TCP Reset を送って復旧を早められるようになり、CloudFront の定額プランが API から購読・管理できるようになりました。
+"topics":
+  - "データベース: Aurora MySQL がマルチソースレプリケーションと遅延レプリケーションに対応"
+  - "データベース: Aurora MySQL 8.4.8 (MySQL 8.4.8 互換) が GA、Redshift rg.large はシングルノードクラスターに対応"
+  - "インシデント対応: CloudTrail 調査ガイドを前後編で公開 (S3 のクロスアカウント削除とランサムウェア、暗号通貨マイニング)"
+  - "脆弱性: CodeCatalyst blueprints SDK に OS コマンドインジェクション (CVE-2026-85012)"
+  - "脆弱性: AWS FPGA 開発キットが安全でない権限のディレクトリに一時ファイルを作成 (CVE-2026-85028)"
+  - "エージェント移行: LangGraph のサポートエージェントを Runtime と Gateway の 2 段階で AgentCore へ移行する手順"
+  - "業務自動化: Quick Automate で本番品質のエージェント型自動化を組むためのベストプラクティス、Outlook 連携も公開"
+  - "プラン: Plus の 5 倍の利用量とストレージを備えた Amazon Quick Max を提供開始"
+  - "ワークフロー: MWAA に CloudWatch の組み込みモニタリング、Unified Studio Workflows に Python / Bash オペレーター"
+  - "ネットワーク: Gateway Load Balancer が TCP Reset の送信に対応し、障害時の復旧を高速化"
