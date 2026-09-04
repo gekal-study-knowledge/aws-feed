@@ -27,4 +27,11 @@
     "published": "2026-09-04 15:55:13"
     "fetched": "2026-09-04 19:29:45"
     "summary": "AWS Modular Data Center (MDC) は、ICD-705準拠のSCIF要件を満たし、最高機密(TS/SCI)レベルの情報も扱えるデータセンターを現地に迅速展開できるサービス。発注から設置までを6ステージで解説します。"
-"last_updated": "2026-09-04 19:29:45 JST"
+  "26c5e9d3f70fd1bae708ae3dbe8b7878":
+    "id": "26c5e9d3f70fd1bae708ae3dbe8b7878"
+    "title": "Amazon EVS 上の VMware ワークロードの災害復旧"
+    "link": "https://aws.amazon.com/jp/blogs/news/disaster-recovery-for-vmware-workloads-on-amazon-evs/"
+    "published": "2026-09-04 19:47:27"
+    "fetched": "2026-09-04 23:44:24"
+    "summary": "本ブログは Amazon EVS 上の VMware ワークロードを災害から保護し、迅速に復旧させるためのオプションや考慮事項について纏めています。自社のワークロードや復旧計画に応じて、最適な選択肢を検討するための入口としてご活用ください。"
+"last_updated": "2026-09-04 23:44:24 JST"
