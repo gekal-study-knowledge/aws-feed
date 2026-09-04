@@ -34,4 +34,11 @@
     "published": "2026-09-05 01:06:01"
     "fetched": "2026-09-05 03:01:56"
     "summary": "Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on-call engineers run production failovers from a plain-language request while keeping every action audited, policy-compliant, and safe."
-"last_updated": "2026-09-05 03:01:56 JST"
+  "91886291fa2105e4a6d821fb0af25e71":
+    "id": "91886291fa2105e4a6d821fb0af25e71"
+    "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/"
+    "published": "2026-09-05 06:45:52"
+    "fetched": "2026-09-05 08:40:09"
+    "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls on a single business number, built on Amazon Bedrock AgentCore with Amazon Nova 2. The channel and ordering layers stay separate, and one shared memory recognizes each customer across all three channels."
+"last_updated": "2026-09-05 08:40:09 JST"
