@@ -1,0 +1,23 @@
+"date": "2026-09-05"
+"generated_at": "2026-09-05 22:49:04 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 18
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティ速報が 5 件と多く、うち 2 件が AWS 自身の MCP サーバーの問題だった点が目を引きます。awslabs.dynamodb-mcp-server の CDK ジェネレーターにコードインジェクション (CVE-2026-85654)、awslabs の postgres-mcp-server では SQL 検証コンポーネントの禁止入力リストが不完全で、読み取り専用の範囲を超えてデータを変更できる問題 (CVE-2026-85787) が公開されました。ほかに Java エージェントを注入する log4j-cve-2021-44228-hotpatch の OS コマンドインジェクション (CVE-2026-85656)、Amazon EFS CSI ドライバーでアクセスポイントの所有権が検証されない問題 (CVE-2026-85781)、そして ion-java のメモリ増幅によるサービス拒否について、以前の CVE-2026-75936 の修正が不完全だったこと (CVE-2026-85786) が、いずれも Important として案内されています。コンプライアンスでは、2026 年 7 月 29 日に完了したシンガポール銀行協会の OSPAR 評価の報告書が公開され、対象は 167 サービスになりました。サービス更新では、Bedrock Managed Knowledge Base のデータソース連携が 3 点強化され、コネクタの同期スケジュールを自動化できるようになり、ServiceNow がネイティブのデータソースコネクタとして加わり、SharePoint・OneDrive・Confluence についてはこれまで 2LO の生成が必要だった設定を利用者自身が 3LO で行えるようになりました。開発者向けには AWS MCP Server にサーバーレス機能が追加され、Claude Code や Kiro のようなコーディングエージェントが Lambda 関数の問題を効率よく診断できるようになっています。このほか ECS のローリングデプロイに、何をもって成功とみなすかを定義できる Early Success Criteria が加わり、EC2 では AMI の所有者が対応するインスタンスタイプ (対応・非対応の両方を指定可能) を宣言して、条件に合わない起動を防げるようになりました。機械学習ブログでは、大規模な災害復旧の難しさに対し、Intuit がオンコールのエンジニアが平易な文章から本番のフェイルオーバーを実行できるエージェント型のアシスタント EWOK Agent を Bedrock 上に構築した事例が紹介されています。あわせて Textract の高精度な抽出と Bedrock を組み合わせて大きく複雑な文書に対応するナレッジベースの作り方、EKS のオーケストレーションと SageMaker HyperPod のマネージド機能を組み合わせるオープンソースのコントロールプレーン InstantStart、NVIDIA Cosmos 3 を HyperPod 上で使い合成データ生成・事後学習・閉ループ評価をつなぐ Physical AI のモデルファクトリー、長期稼働するエージェントに溜まる古い記憶が品質を落としコンプライアンス上のリスクを生む問題に対する AgentCore のメモリライフサイクルポリシーの設計、1 つの事業者番号でテキスト・音声メモ・リアルタイム通話を扱う WhatsApp の注文アシスタントが公開されました。
+"topics":
+  - "脆弱性: AWS の MCP サーバー 2 件に問題。dynamodb-mcp-server の CDK ジェネレーターにコードインジェクション (CVE-2026-85654)"
+  - "脆弱性: postgres-mcp-server の SQL 検証が不完全で、読み取り専用の範囲を超えたデータ変更が可能 (CVE-2026-85787)"
+  - "脆弱性: log4j hotpatch の OS コマンドインジェクション (CVE-2026-85656)、EFS CSI ドライバーのアクセスポイント所有権未検証 (CVE-2026-85781)"
+  - "脆弱性: ion-java のメモリ増幅による DoS について、CVE-2026-75936 の修正が不完全だったことが判明 (CVE-2026-85786)"
+  - "コンプライアンス: OSPAR 2026 報告書が公開され、対象は 167 サービス (評価完了は 2026-07-29)"
+  - "RAG: Bedrock Managed Knowledge Base が同期スケジュールの自動化、ServiceNow コネクタ、3LO による自己設定に対応"
+  - "開発ツール: AWS MCP Server のサーバーレス機能で、Claude Code や Kiro が Lambda 関数の問題を診断可能に"
+  - "デプロイ: ECS に Early Success Criteria が追加され、成功とみなす条件を定義可能に"
+  - "運用: EC2 の AMI に対応インスタンスタイプを宣言でき、条件に合わない起動を防止"
+  - "エージェント事例: Intuit が平易な文章から本番フェイルオーバーを実行できる災害復旧アシスタントを Bedrock 上に構築"
+  - "エージェント設計: 長期稼働で溜まる古い記憶に対する AgentCore のメモリライフサイクルポリシー"

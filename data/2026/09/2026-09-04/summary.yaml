@@ -1,22 +1,24 @@
 "date": "2026-09-04"
-"generated_at": "2026-09-04 08:02:48 JST"
+"generated_at": "2026-09-05 22:49:04 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 19
+"article_count": 32
 "sources":
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_security_blog"
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日はデータベースのレプリケーション強化と、インシデント対応・脆弱性というセキュリティの実務が目立ちました。Aurora MySQL に 2 つのレプリケーション機能が加わり、1 つのクラスターが複数のソースからレプリケーションを受けられるマルチソースレプリケーションと、意図的に遅延させて反映する遅延レプリケーションが使えるようになりました。誤操作からの復旧やデータ統合の幅が広がります。あわせて Aurora MySQL 8.4.8 (MySQL 8.4.8 互換) が一般提供となり、セキュリティ強化とバグ修正に加えていくつかの改善が入っています。Redshift では Graviton ベースの rg.large インスタンスがシングルノードクラスターに対応しました (P204 以降のパッチバージョン)。セキュリティブログでは CloudTrail を使ったインシデント調査のガイドが前後編で公開され、クロスアカウントでの S3 データ削除とランサムウェアの懸念、暗号通貨マイニングの展開という 2 つのシナリオを題材に、どのフィールドが重要でどう解釈するかが整理されています。セキュリティ速報は 2 件で、再利用可能なプロジェクトテンプレートである Amazon CodeCatalyst blueprints SDK の OS コマンドインジェクション (CVE-2026-85012)、AWS FPGA 開発キットで安全でない権限のディレクトリに一時ファイルを作成する問題 (CVE-2026-85028) が、いずれも Important として公開されました。エージェント関連の記事も厚く、ノートブックで動くエージェントは本番のエージェントではないとして、LangGraph のカスタマーサポートエージェントを Runtime と Gateway へ載せる 2 段階で AgentCore へ移行する手順や、AI-DLC を採用したチームが概念を動くコードへ落とし込めない課題に対する AgentCore 上の 2 つのリファレンス実装が紹介されています。Amazon Quick まわりでは、Quick Automate による本番品質のエージェント型業務自動化のベストプラクティス (適切なプロセスの選定、目的を絞ったエージェントの設計、決定論的な処理との組み合わせ)、Outlook との連携によるメール管理・カレンダー調整の自動化、Cognito 認証を使った QuickSight ビジュアルの React アプリへの埋め込みが公開されました。利用量の多いユーザー向けには、Plus の 5 倍の利用量とストレージを持つ Quick Max プランが登場しています。このほか MWAA がマネジメントコンソールの環境詳細ページに組み込みのモニタリングを追加、SageMaker Unified Studio Workflows が PythonOperator と BashOperator に対応、WorkSpaces Applications が NVIDIA RTX PRO 4500 Blackwell を搭載した Graphics G7 インスタンスに対応、Gateway Load Balancer がターゲットの異常時などに TCP Reset を送って復旧を早められるようになり、CloudFront の定額プランが API から購読・管理できるようになりました。
+  この日はデータベースのレプリケーション強化と、インシデント対応・脆弱性というセキュリティの実務、そして Graviton5 世代のリージョン拡大が目立ちました。Aurora MySQL に 2 つのレプリケーション機能が加わり、1 つのクラスターが複数のソースからレプリケーションを受けられるマルチソースレプリケーションと、意図的に遅延させて反映する遅延レプリケーションが使えるようになりました。誤操作からの復旧やデータ統合の幅が広がります。あわせて Aurora MySQL 8.4.8 (MySQL 8.4.8 互換) が一般提供となり、Redshift では Graviton ベースの rg.large インスタンスがシングルノードクラスターに対応しました (P204 以降のパッチバージョン)。インスタンスのリージョン展開はこの日だけで 5 件あり、Graviton5 の M9g / M9gd がアイルランドとシンガポール・シドニー・東京へ、C9g / C9gd が東京へ、C8g が台北・ニュージーランド・GovCloud (US-East) へ広がり、NVIDIA Blackwell Ultra を積む P6-B300 がジャカルタ、P6-B200 がハイデラバードで利用可能になりました。セキュリティブログでは CloudTrail を使ったインシデント調査のガイドが前後編で公開され、クロスアカウントでの S3 データ削除とランサムウェアの懸念、暗号通貨マイニングの展開という 2 つのシナリオを題材に、どのフィールドが重要でどう解釈するかが整理されています。セキュリティ速報は 2 件で、再利用可能なプロジェクトテンプレートである Amazon CodeCatalyst blueprints SDK の OS コマンドインジェクション (CVE-2026-85012)、AWS FPGA 開発キットで安全でない権限のディレクトリに一時ファイルを作成する問題 (CVE-2026-85028) が、いずれも Important として公開されました。エージェント関連の記事も厚く、ノートブックで動くエージェントは本番のエージェントではないとして、LangGraph のカスタマーサポートエージェントを Runtime と Gateway へ載せる 2 段階で AgentCore へ移行する手順や、AI-DLC を採用したチームが概念を動くコードへ落とし込めない課題に対する AgentCore 上の 2 つのリファレンス実装が紹介されています。Amazon Quick まわりでは、Quick Automate による本番品質のエージェント型業務自動化のベストプラクティス、Outlook との連携によるメール管理・カレンダー調整の自動化、Cognito 認証を使った QuickSight ビジュアルの React アプリへの埋め込みが公開され、利用量の多いユーザー向けに Plus の 5 倍の利用量とストレージを持つ Quick Max プランが登場しました。このほか MWAA がマネジメントコンソールに組み込みのモニタリングを追加、SageMaker Unified Studio Workflows が PythonOperator と BashOperator に対応、SageMaker AI の Batch Transform が G6e インスタンスに対応、ECS のマネージドデーモンを非クリティカルとして構成できるようになり、Transfer Family の SFTP コネクタが認証情報のローテーション中もファイル転送を継続できるようになりました。国内では、20 週間の実装で RTO を 30 分超からほぼ瞬時まで縮めた NatWest のアクティブ-アクティブなマルチリージョンコンタクトセンター、ICD-705 準拠の SCIF 要件を満たし TS/SCI レベルを扱える AWS Modular Data Center の発注から設置までの 6 ステージ、agentic CX designer で会話とビジネスルールを 1 つのキャンバスに載せる方法、Amazon EVS 上の VMware ワークロードの災害復旧、8 月 4 日に開催された製薬企業向け Claude Code on AWS ワークショップの報告が公開されています。
 "topics":
-  - "データベース: Aurora MySQL がマルチソースレプリケーションと遅延レプリケーションに対応"
-  - "データベース: Aurora MySQL 8.4.8 (MySQL 8.4.8 互換) が GA、Redshift rg.large はシングルノードクラスターに対応"
+  - "データベース: Aurora MySQL がマルチソースレプリケーションと遅延レプリケーションに対応、8.4.8 も GA"
+  - "インスタンス: Graviton5 の M9g / M9gd・C9g / C9gd、C8g、P6-B300 / P6-B200 が計 5 件のリージョン拡大 (東京を含む)"
   - "インシデント対応: CloudTrail 調査ガイドを前後編で公開 (S3 のクロスアカウント削除とランサムウェア、暗号通貨マイニング)"
   - "脆弱性: CodeCatalyst blueprints SDK に OS コマンドインジェクション (CVE-2026-85012)"
   - "脆弱性: AWS FPGA 開発キットが安全でない権限のディレクトリに一時ファイルを作成 (CVE-2026-85028)"
   - "エージェント移行: LangGraph のサポートエージェントを Runtime と Gateway の 2 段階で AgentCore へ移行する手順"
-  - "業務自動化: Quick Automate で本番品質のエージェント型自動化を組むためのベストプラクティス、Outlook 連携も公開"
-  - "プラン: Plus の 5 倍の利用量とストレージを備えた Amazon Quick Max を提供開始"
-  - "ワークフロー: MWAA に CloudWatch の組み込みモニタリング、Unified Studio Workflows に Python / Bash オペレーター"
+  - "業務自動化: Quick Automate のベストプラクティスと Outlook 連携、Plus の 5 倍を使える Quick Max プラン"
+  - "コンテナ: ECS のマネージドデーモンを非クリティカルとして構成し、基幹アプリへの影響を回避"
   - "ネットワーク: Gateway Load Balancer が TCP Reset の送信に対応し、障害時の復旧を高速化"
+  - "国内事例: NatWest が 20 週間でアクティブ-アクティブ化し RTO を 30 分超からほぼ瞬時へ短縮"
+  - "国内: TS/SCI を扱える AWS Modular Data Center の展開手順、製薬企業向け Claude Code on AWS ワークショップの報告"
