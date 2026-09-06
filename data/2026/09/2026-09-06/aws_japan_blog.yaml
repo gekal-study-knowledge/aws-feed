@@ -1,0 +1,9 @@
+"entries":
+  "32de5c49d5c0ae3795e456ee9f1c102b":
+    "id": "32de5c49d5c0ae3795e456ee9f1c102b"
+    "title": "クラウドでのエージェンティックエンジニアリング:Kiro Web とクラウドセッションが一般提供に"
+    "link": "https://aws.amazon.com/jp/blogs/news/agentic-engineering-in-the-cloud/"
+    "published": "2026-09-06 19:48:09"
+    "fetched": "2026-09-06 20:54:44"
+    "summary": "ここ数か月で、クラウド実行は Kiro での働き方の中でより大きな位置を占めるようになりました。本日（2026 年 9 月 3 日）、Kiro Web とクラウドセッションが一般提供 (GA)になりました。あわせて、すでに構築済みの Kiro のセットアップをローカルとクラウドの両方のセッションで使えるようにする cloud configuration も提供します。これらにより、あなたのエンジニアリング作業のより多くを、Kiro とともに自然にクラウドで実行できるようになります。"
+"last_updated": "2026-09-06 20:54:44 JST"
