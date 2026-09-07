@@ -1,0 +1,30 @@
+"entries":
+  "a62adf165c60c6044088f4272b2e49dc":
+    "id": "a62adf165c60c6044088f4272b2e49dc"
+    "title": "AWS Certified AI Business Strategist のご紹介 ~ AI をスケールさせる人々のために ~"
+    "link": "https://aws.amazon.com/jp/blogs/news/introducing-aws-certified-ai-business-strategist-built-for-the-people-who-scale-ai/"
+    "published": "2026-09-07 11:36:46"
+    "fetched": "2026-09-07 11:39:47"
+    "summary": "ビルダーと共に AI 導入を推進する方向けに設計された新しい AWS 認定、AWS Certified AI Business Strategist (AIB) が登場します。技術的な実装ではなく、AI 戦略の立案、ビジネスケースの構築、ガバナンスの整備など、ビジネス判断力を検証する試験です。ベータ試験は 2026 年 9 月 29 日から英語と日本語で受験でき、2027 年 2 月 15 日までに取得した方にはアーリーアダプターバッジも付与されます。"
+  "008c77289cb12cf044df2c621653ff07":
+    "id": "008c77289cb12cf044df2c621653ff07"
+    "title": "単一のアクションを越えてエージェントの振る舞いとコストを制御する: Amazon Bedrock AgentCore の新機能"
+    "link": "https://aws.amazon.com/jp/blogs/news/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore/"
+    "published": "2026-09-07 11:13:11"
+    "fetched": "2026-09-07 11:39:47"
+    "summary": "AI エージェントは自ら実行パスを決めるため、個々の呼び出しは正当でも全体として危険な振る舞いが生まれます。Amazon Bedrock AgentCore に、一連のアクションを評価する時系列ポリシー (オープンソースのポリシー言語 Dogwood が基盤) と、ゲートウェイでのレート制限が加わりました。エージェントのコードを変更せず、振る舞いとコストの上限をインフラ側で強制できます。"
+  "04a984b228ac9cd60567aba3e96f3a1b":
+    "id": "04a984b228ac9cd60567aba3e96f3a1b"
+    "title": "週刊生成AI with AWS – 2026年8月31日週"
+    "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260831/"
+    "published": "2026-09-07 10:14:00"
+    "fetched": "2026-09-07 11:39:47"
+    "summary": "週刊生成AI with AWS, フィジカル AI とエージェント活用が進んだ2026年8月31日号 - NEC様、DeNA様、株式会社アドバンスト・メディア様、第一三共株式会社様・ＪＣＲファーマ株式会社様らの国内事例・実践レポートを紹介。また、AWS Summit Japan 2026 Physical AI デモの裏側やAI-DLC日本語コースなどのブログ記事も。サービスアップデートではAWS Agent Registryの一般提供、Claude Fable 5.1、Amazon Bedrock Managed Knowledge Baseの強化をはじめとする18件の関連アップデートを紹介。"
+  "ccdd1b68a33b42cb45f0197a9d29b507":
+    "id": "ccdd1b68a33b42cb45f0197a9d29b507"
+    "title": "第 8 回 AWS ジャパン 生成 AI Frontier Meetup ～学びと繋がりの場～【開催報告】"
+    "link": "https://aws.amazon.com/jp/blogs/news/8th-gen-ai-frontier-meet-up/"
+    "published": "2026-09-07 09:54:22"
+    "fetched": "2026-09-07 11:39:47"
+    "summary": "アマゾン ウェブ サービス ジャパン（以下、AWS ジャパン）が実施する「生成 AI 実用化推進プログラム」は […]"
+"last_updated": "2026-09-07 11:39:47 JST"
