@@ -6,4 +6,11 @@
     "published": "2026-09-08 14:14:00"
     "fetched": "2026-09-08 17:32:20"
     "summary": "Kubernetes 上で動作する Agones は専用ゲームサーバーのホスティングによく使われますが、グローバル規模になると運用が複雑になります。本記事では、運用面とコスト面から Agones ベースのソリューションと Amazon GameLift Servers の違いを比較し、Agones から Amazon GameLift Servers へ移行する手順を解説します。"
-"last_updated": "2026-09-08 17:32:20 JST"
+  "bc8534d249a66b5fa8a0cb527c0507e7":
+    "id": "bc8534d249a66b5fa8a0cb527c0507e7"
+    "title": "AWS Weekly Roundup: AWS 版 Claude Fable 5.1、Amazon Linux 2027 プレビュー、AWS Certified AI Business Strategist など (2026 年 9 月 7 日)"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/"
+    "published": "2026-09-08 18:58:54"
+    "fetched": "2026-09-08 22:16:00"
+    "summary": "2026 年 8 月 31 日週、Claude Fable 5.1 が AWS で利用可能になりました。Ant […]"
+"last_updated": "2026-09-08 22:16:00 JST"
