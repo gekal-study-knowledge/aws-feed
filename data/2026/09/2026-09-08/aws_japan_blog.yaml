@@ -1,0 +1,9 @@
+"entries":
+  "f0a702062098a8e2593038084aad8006":
+    "id": "f0a702062098a8e2593038084aad8006"
+    "title": "Kubernetes と Agones から Amazon GameLift Servers への移行"
+    "link": "https://aws.amazon.com/jp/blogs/news/migrating-from-kubernetes-and-agones-to-amazon-gamelift-servers/"
+    "published": "2026-09-08 14:14:00"
+    "fetched": "2026-09-08 17:32:20"
+    "summary": "Kubernetes 上で動作する Agones は専用ゲームサーバーのホスティングによく使われますが、グローバル規模になると運用が複雑になります。本記事では、運用面とコスト面から Agones ベースのソリューションと Amazon GameLift Servers の違いを比較し、Agones から Amazon GameLift Servers へ移行する手順を解説します。"
+"last_updated": "2026-09-08 17:32:20 JST"
