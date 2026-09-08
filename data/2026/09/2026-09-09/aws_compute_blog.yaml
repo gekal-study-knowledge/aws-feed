@@ -1,0 +1,9 @@
+"entries":
+  "ee38891b31ee596ee28800132f5be092":
+    "id": "ee38891b31ee596ee28800132f5be092"
+    "title": "Bring your own client certificate for backend mTLS in Amazon API Gateway"
+    "link": "https://aws.amazon.com/blogs/compute/bring-your-own-client-certificate-for-backend-mtls-in-amazon-api-gateway/"
+    "published": "2026-09-09 06:46:39"
+    "fetched": "2026-09-09 08:09:03"
+    "summary": "Enterprises that use Amazon API Gateway often want to bring their own client certificate for backend mutual TLS (mTLS) authentication. With API Gateway, you can now use a third-party or AWS Private CA-issued client certificate for the outbound mTLS handshake. In this post, you build a REST API with an outbound mTLS connection to an Amazon ECS backend."
+"last_updated": "2026-09-09 08:09:03 JST"

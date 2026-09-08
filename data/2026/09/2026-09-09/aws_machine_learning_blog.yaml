@@ -55,4 +55,11 @@
     "published": "2026-09-09 03:29:15"
     "fetched": "2026-09-09 05:38:57"
     "summary": "Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call without reading or rewriting the entire record. It is available for both the Standard (Amazon DynamoDB) and In-Memory (Amazon ElastiCache) online store tiers."
-"last_updated": "2026-09-09 05:38:57 JST"
+  "c4600a1280f830d7be63b8db1faf9053":
+    "id": "c4600a1280f830d7be63b8db1faf9053"
+    "title": "Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/"
+    "published": "2026-09-09 07:06:58"
+    "fetched": "2026-09-09 08:09:02"
+    "summary": "GPT-6 Astra from OpenAI is now generally available on Amazon Bedrock. It brings deeper reasoning and sharper judgment to your most demanding tasks, running on the Amazon Bedrock inference engine built for high performance, security, and scale."
+"last_updated": "2026-09-09 08:09:02 JST"
