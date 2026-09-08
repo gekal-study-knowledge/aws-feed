@@ -1,0 +1,9 @@
+"entries":
+  "96bdad1ee327ae28e7a349966f6b4ca4":
+    "id": "96bdad1ee327ae28e7a349966f6b4ca4"
+    "title": "CVE-2026-84942 - Stored Cross-Site Scripting via Vega Expression Function Bypass in OpenSearch Dashboards"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-102-aws/"
+    "published": "2026-09-09 04:57:03"
+    "fetched": "2026-09-09 05:38:56"
+    "summary": "<p><b>Bulletin ID:</b> 2026-102-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/08/2026 12:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>A stored cross-site scripting (XSS) issue in the Vega expression function implementation in OpenSearch Dashboards allows a remote authenticated actor with dashboard write permissions to execute arbitrary JavaScript in the context of other users' browser sessions by saving a crafted Vega visualization.</p> \n<p><b>Affedted products &amp; versions:</b></p> \n<p><u>OpenSearch Dashboards (open-source, self-managed):</u><br /> - <b>Affected:</b> v2.0.0, v2.1.0, v2.2.0, v2.3.0, v2.4.0, v2.5.0, v.2.6.0, v2.7.0, v2.8.0, v2.9.0, v2.10.0, v2.11.0, v2.12.0, v2.13.0, v2.14.0, v2.15.0, v2.16.0, v2.17.0, v2.18.0, v2.19.0, v3.0.0, v3.1.0, v3.2.0, v3.3.0, v3.4.0, v3.5.0<br /> - <b>Fixed:</b> v2.19.5 and v3.6.0</p> \n<p><u>Amazon OpenSearch Service (AWS Managed):</u><br /> - <b>Affected:</b> v2.3.0, v2.5.0, v2.7.0, v2.9.0, v2.11.0, v2.13.0, v2.15.0, v2.17.0, v2.19.0, v3.1.0, v3.3.0, v3.5.0<br /> - <b>Fixed:</b> v2.3.0, v2.5.0, v2.7.0, v2.9.0, v2.11.0, v2.13.0, v2.15.0, v2.17.0, v2.19.0 and v3.1.0, v3.3.0, v3.5.0</p> \n<p><u>Amazon OpenSearch Serverless:</u><br /> - Not affected</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-09-09 05:38:56 JST"
