@@ -1,0 +1,16 @@
+"entries":
+  "106f3ba5ca872d0d4f8f606c25940415":
+    "id": "106f3ba5ca872d0d4f8f606c25940415"
+    "title": "Testing application resilience with Amazon SQS and AWS Fault Injection Service"
+    "link": "https://aws.amazon.com/blogs/architecture/testing-application-resilience-with-amazon-sqs-and-aws-fault-injection-service/"
+    "published": "2026-09-10 06:33:59"
+    "fetched": "2026-09-10 07:13:12"
+    "summary": "Learn how to use AWS Fault Injection Service and AWS Systems Manager Automation to run progressive chaos experiments against Amazon SQS queues. Validate that your retry logic, circuit breakers, and dead-letter queues actually work under failure before a real outage hits production."
+  "586690dd9be9790bb4c163a65d20259b":
+    "id": "586690dd9be9790bb4c163a65d20259b"
+    "title": "Validating multi-Region DR for Terraform Enterprise with AWS FIS"
+    "link": "https://aws.amazon.com/blogs/architecture/validating-multi-region-dr-for-terraform-enterprise-with-aws-fis/"
+    "published": "2026-09-10 06:05:02"
+    "fetched": "2026-09-10 07:13:12"
+    "summary": "Learn how AWS, HashiCorp, and Athenahealth designed and chaos-tested a multi-Region disaster recovery strategy for Terraform Enterprise on AWS. This post walks through three-phase AWS Fault Injection Service experiments across Amazon EC2, Aurora, and Amazon S3, the 12-14 minute recovery times achieved, and the state file dependency pitfall to avoid."
+"last_updated": "2026-09-10 07:13:12 JST"

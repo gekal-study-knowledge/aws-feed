@@ -6,4 +6,11 @@
     "published": "2026-09-10 01:32:59"
     "fetched": "2026-09-10 01:59:53"
     "summary": "<p><b>Bulletin ID:</b> 2026-103-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/09/2026 09:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>We identified an issue in awslabs.mysql-mcp-server (an open-source, self-hosted Model Context Protocol server distributed via github.com/awslabs/mcp and PyPI). In affected versions, under certain conditions the read-only enforcement could be circumvented via SQL inline comments, allowing a statement to run that the read-only check was expected to block. The read-only mode provided by the server is a best-effort safeguard and is not a substitute for correctly scoped database permissions; the effective boundary is the permissions of the configured MySQL user.</p> \n<p>This issue does not affect the confidentiality or integrity of any AWS service. awslabs.mysql-mcp-server is a client-side, self-managed package; customers control installation and the privileges of the database credentials they configure.</p> \n<p><b>Impacted versions:</b> awslabs.mysql-mcp-server &lt;= 1.0.21</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
-"last_updated": "2026-09-10 01:59:53 JST"
+  "d2992fc5af839b6a319f80249d35bd1f":
+    "id": "d2992fc5af839b6a319f80249d35bd1f"
+    "title": "CVE-2026-87911"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-104-aws/"
+    "published": "2026-09-10 06:30:11"
+    "fetched": "2026-09-10 07:13:12"
+    "summary": "<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-09-10 07:13:12 JST"
