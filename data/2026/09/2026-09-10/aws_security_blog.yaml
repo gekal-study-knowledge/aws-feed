@@ -1,0 +1,9 @@
+"entries":
+  "f957f1a1ef3ac22f42d10e9cceffd549":
+    "id": "f957f1a1ef3ac22f42d10e9cceffd549"
+    "title": "The state of AI for security: Measuring what matters most for building trust"
+    "link": "https://aws.amazon.com/blogs/security/the-state-of-ai-for-security-measuring-what-matters-most-for-building-trust/"
+    "published": "2026-09-10 04:09:14"
+    "fetched": "2026-09-10 04:40:36"
+    "summary": "Security teams are starting to actively use AI for security work, including vulnerability triage, penetration testing, threat modeling, incident response, and code review. The promise is speed, but a security tool that moves fast and raises too many false alarms doesn’t save time. Engineers spend time on false alarms, on-call is noisier, and teams distrust […]"
+"last_updated": "2026-09-10 04:40:36 JST"

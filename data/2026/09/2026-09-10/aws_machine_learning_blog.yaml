@@ -13,4 +13,11 @@
     "published": "2026-09-10 00:45:24"
     "fetched": "2026-09-10 01:59:54"
     "summary": "Amazon Quick custom permissions let you enforce least-privilege access by toggling features per user. This post walks through four patterns to automate custom permissions across the user lifecycle: a RegisterUser API parameter, account and role defaults, event-driven Amazon EventBridge and AWS Lambda automation, and a retroactive batch update script."
-"last_updated": "2026-09-10 01:59:54 JST"
+  "c06cd2ba4b0747c78dca7db68d28387b":
+    "id": "c06cd2ba4b0747c78dca7db68d28387b"
+    "title": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/"
+    "published": "2026-09-10 03:11:12"
+    "fetched": "2026-09-10 04:40:38"
+    "summary": "Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows how AgentCore payments, Identity, Memory, Code Interpreter, and Observability let a small team buy premium market data per query, isolate analysis in a sandbox, and keep every action auditable."
+"last_updated": "2026-09-10 04:40:38 JST"
