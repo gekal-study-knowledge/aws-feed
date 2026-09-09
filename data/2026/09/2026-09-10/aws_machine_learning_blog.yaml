@@ -1,0 +1,16 @@
+"entries":
+  "cdbf1db8d9ad1a56cb5ed866f75ed13b":
+    "id": "cdbf1db8d9ad1a56cb5ed866f75ed13b"
+    "title": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers"
+    "link": "https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/"
+    "published": "2026-09-10 00:51:29"
+    "fetched": "2026-09-10 01:59:54"
+    "summary": "TorchServe is no longer maintained, leaving teams to own the entire GPU inference stack. The AWS Ray Serve Deep Learning Container is a supported, pre-tested container with the framework, GPU drivers, and serving layer already assembled. This post walks through deploying a vision-language model on Amazon EKS using the Ray Serve DLC on a single GPU node."
+  "d848a6528696a8615ba6e095c4b381ee":
+    "id": "d848a6528696a8615ba6e095c4b381ee"
+    "title": "Automate user-level custom permissions for Amazon Quick"
+    "link": "https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/"
+    "published": "2026-09-10 00:45:24"
+    "fetched": "2026-09-10 01:59:54"
+    "summary": "Amazon Quick custom permissions let you enforce least-privilege access by toggling features per user. This post walks through four patterns to automate custom permissions across the user lifecycle: a RegisterUser API parameter, account and role defaults, event-driven Amazon EventBridge and AWS Lambda automation, and a retroactive batch update script."
+"last_updated": "2026-09-10 01:59:54 JST"
