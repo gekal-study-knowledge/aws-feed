@@ -1,0 +1,16 @@
+"entries":
+  "5b12c47462d9ae7421ac25856a112753":
+    "id": "5b12c47462d9ae7421ac25856a112753"
+    "title": "AI を活用したスキャフォールディングで、フルスタックの AWS アプリケーションを数分で構築する"
+    "link": "https://aws.amazon.com/jp/blogs/news/build-full-stack-aws-applications-in-minutes-with-ai-powered-scaffolding/"
+    "published": "2026-09-09 11:50:02"
+    "fetched": "2026-09-09 11:52:06"
+    "summary": "本記事は「Build full-stack AWS applications in minutes with […]"
+  "ad6946aa82f3092a89719e5e4db3566c":
+    "id": "ad6946aa82f3092a89719e5e4db3566c"
+    "title": "エージェンティックセキュリティ: マシンスピードでの検出と対応"
+    "link": "https://aws.amazon.com/jp/blogs/news/agentic-security-detection-and-response-at-machine-speed/"
+    "published": "2026-09-09 10:29:18"
+    "fetched": "2026-09-09 11:52:06"
+    "summary": "自律型 AI エージェントの台頭は、セキュリティポスチャにとってクラウドへの移行以来最大の変化です。本記事では、SANS Institute と共同執筆した 2026 Cloud Security Exchange eBook の章から、エージェントのアイデンティティとガバナンス、振る舞いの監視とオブザーバビリティによる検出の進化、段階的な自動対応、マルチエージェントエコシステムへの備えという 4 つの基礎領域を紹介します。Amazon GuardDuty、Amazon Inspector、AWS Security Hub を活用し、マシンスピードでの検出と対応を実現する実践的なフレームワークを解説します。"
+"last_updated": "2026-09-09 11:52:06 JST"
