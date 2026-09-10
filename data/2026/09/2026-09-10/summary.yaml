@@ -1,0 +1,27 @@
+"date": "2026-09-10"
+"generated_at": "2026-09-11 07:54:56 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 37
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 37 件と今週で最も多く、Amazon Quick の大型アップデート、Lambda の実行時間拡張、Shield Advanced の既定変更、AWS Elemental のメディア機能群が目立ちました。Amazon Quick はデスクトップアプリが macOS と Windows で一般提供となり、アクティビティフィードが iOS / Android のモバイルアプリでも使えるようになったほか、常時稼働エージェント・より見やすいフィード・組織横断のエンタープライズ制御が加わりました。AWS Lambda は Lambda Managed Instances 上の非同期およびイベントソースマッピング呼び出しについて関数タイムアウトを 90 分へ拡張し (従来の 15 分から 6 倍)、Graviton5 を搭載した C9g / C9gd / M9g / M9gd インスタンスにも対応しました。AWS Shield Advanced は、アプリケーションレイヤー (L7) DDoS 保護の既定として AWS WAF Anti-DDoS マネージドルールグループを採用し、2026 年 7 月 27 日から対象のウェブ ACL への Count モードでの追加が始まります。AWS Transform の .NET モダナイゼーションが CLI から 1 行のコマンドで実行できる形で一般提供となり、第 2 世代の単一ラック AWS Outposts (自己完結型の 42U ラック) も一般提供になりました。AWS Elemental では、MediaLive の A/B フォレンジック電子透かし、MediaTailor の Yield Optimization (Amazon Ads の需要で未使用の広告枠を自動収益化)、ライブ映像からリアルタイムに文脈メタデータを生成する Elemental Inference、MediaPackage の Dynamic Multiview、MediaTailor の低遅延 HLS 広告挿入が追加されました。認定資格では MLA・SAP・DVA の 3 試験が更新され、MLA-C02 のベータ登録が開始、SAP-C03 と DVA-C03 は 2026 年 10 月 27 日から登録開始です。AWS AI Security Framework の解説も出て、多層防御を「インフラストラクチャ」「アイデンティティとデータ」「AI アプリケーション」の 3 レイヤーに整理し、Foundational / Enhanced / Advanced のコントロールを対応づけています。このほか Amazon EVS が大阪・台北・スペイン・テルアビブへ拡大、Storage Gateway の S3 File Gateway が PrivateLink 経由の FIPS 140-3 検証済みエンドポイントに対応、CloudWatch Network Monitor が Transit Gateway のリージョン間ピアリング経路にネットワークヘルスインジケーターを提供、Bedrock Managed Knowledge Base が文書単位のアクセス制御をデバッグする API を追加しました。セキュリティ速報は 3 件で、awslabs.mysql-mcp-server の問題 (CVE-2026-85788)、CVE-2026-87911、そして aws-agents-for-devsecops と MCP Server 向けの AWS Security Agent プラグインで S3 バケットの所有権検証が欠けている問題 (CVE-2026-87912、CVE-2026-87913) が公開されました。アーキテクチャブログでは、AWS FIS を使った Terraform Enterprise のマルチリージョン DR 検証 (HashiCorp・Athenahealth と共同) や、SQS キューへの段階的なカオス実験が扱われています。機械学習ブログでは、メンテナンス終了となった TorchServe の代替となるサポート付きコンテナ Ray Serve DLC、AgentCore 上に構築した Heurist Finance の投資ワークベンチ、8 月の AI 向けアップデートの振り返り、2.4 兆パラメータの Qwen3.8-2.4T-A95B を HyperPod と vLLM でデプロイする手順 (NVFP4 量子化) が公開されました。国内では、Umios (旧マルハニチロ) が時系列基盤モデル Chronos-2 で販売計画 AI を実現し作業 4,200 時間を削減した事例が出ています。
+"topics":
+  - "AI アシスタント: Amazon Quick のデスクトップアプリが macOS / Windows で GA、モバイルにアクティビティフィード、常時稼働エージェントとエンタープライズ制御を追加"
+  - "コンピューティング: Lambda Managed Instances の関数タイムアウトが 90 分へ (15 分から 6 倍)、Graviton5 の C9g / M9g 系にも対応"
+  - "DDoS 対策: Shield Advanced が L7 DDoS 保護の既定に AWS WAF Anti-DDoS マネージドルールグループを採用 (2026-07-27 から Count モード追加開始)"
+  - "移行: AWS Transform の .NET モダナイゼーションが CLI 1 行で GA、第 2 世代の単一ラック AWS Outposts も GA"
+  - "メディア: AWS Elemental が A/B フォレンジック電子透かし、MediaTailor の Yield Optimization、ライブ映像からの文脈メタデータ生成などを追加"
+  - "認定資格: MLA / SAP / DVA を更新、MLA-C02 ベータ登録開始、SAP-C03・DVA-C03 は 2026-10-27 登録開始"
+  - "セキュリティ指針: AWS AI Security Framework が多層防御を 3 レイヤー × Foundational / Enhanced / Advanced で整理"
+  - "脆弱性: AWS Security Agent プラグインで S3 バケットの所有権検証が欠落 (CVE-2026-87912 / CVE-2026-87913)、mysql-mcp-server の問題 (CVE-2026-85788)"
+  - "リージョン / 接続: EVS が大阪・台北・スペイン・テルアビブへ、S3 File Gateway が PrivateLink 経由の FIPS エンドポイントに対応"
+  - "レジリエンス: AWS FIS による Terraform Enterprise のマルチリージョン DR 検証、SQS への段階的カオス実験"
+  - "事例: Umios (旧マルハニチロ) が時系列基盤モデル Chronos-2 で販売計画 AI を構築し作業 4,200 時間を削減"

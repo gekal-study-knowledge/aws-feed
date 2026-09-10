@@ -1,0 +1,20 @@
+"date": "2026-09-11"
+"generated_at": "2026-09-11 07:54:56 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 17
+"sources":
+  - "aws_architecture_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 17 件で、Lambda まわりの機能追加、Outposts と各種サービスのリージョン拡大、Bedrock Knowledge Bases のマルチモーダル検索が中心でした。AWS Lambda durable functions が Python でエージェントを構築するオープンソースフレームワーク Pydantic AI と統合し、エージェントの状態を保存できるようになりました。Lambda の再帰ループ検出は Europe Sovereign Cloud でも利用可能になっています。Amazon API Gateway は REST API の実行ログについて、最大 1 MB のログイベントと配信先の設定に対応し、従来は API Gateway 管理の単一の CloudWatch ロググループに限られていた配信先を選べるようになりました。Amazon MQ が RabbitMQ 4.3 に対応し、クォーラムキューのコンパクション、優先度レベルの拡大、ネイティブな遅延リトライ、コンシューマーのグレースフルタイムアウトといった機能強化が入りました。Amazon Redshift の RG インスタンス (Graviton) が欧州 (チューリッヒ) リージョンで利用可能になり、Amazon ECS が RunTask / StartTask API で CPU・メモリの IAM 条件キーに対応、Amazon OpenSearch Serverless が Vercel の v0 上で使えるようになりました。第 2 世代の単一ラック AWS Outposts の一般提供も引き続き案内されています。機械学習ブログでは、TwelveLabs Marengo Embed 3.0 が Amazon Bedrock Knowledge Bases の埋め込みモデルとして一般提供となり、動画・画像・音声に対する自然言語検索がフルマネージドで使えるようになりました。あわせて、複数ターンの会話でエージェントを評価する Agent Evaluation Metric (AEM)、Bedrock 上の任意の LLM をプロンプトだけで PII 検出器にするモデル非依存の手法、Amazon Quick Automate による RFI 質問票ワークフロー、AvioBook (Thales グループ) が運用データを平易な回答へ変える取り組みが公開されました。セキュリティ速報は 2 件で、Deep Java Library のテンソルバッファ検証における整数オーバーフロー (CVE-2026-85228) と、SSM Agent の Session Manager ポートフォワーディング機能におけるサーバーサイドリクエストフォージェリ (CVE-2026-89049) が Important として公開されました。
+"topics":
+  - "コンピューティング: Lambda durable functions が Pydantic AI と統合、再帰ループ検出が Europe Sovereign Cloud に対応"
+  - "API: API Gateway の REST API 実行ログが最大 1 MB のイベントと配信先の設定に対応"
+  - "メッセージング: Amazon MQ が RabbitMQ 4.3 に対応 (クォーラムキューのコンパクション、ネイティブ遅延リトライほか)"
+  - "リージョン / 基盤: Redshift RG インスタンスがチューリッヒへ、OpenSearch Serverless が Vercel の v0 で利用可、第 2 世代単一ラック Outposts が GA"
+  - "コンテナ: ECS が RunTask / StartTask API で CPU・メモリの IAM 条件キーに対応"
+  - "マルチモーダル検索: TwelveLabs Marengo Embed 3.0 が Bedrock Knowledge Bases で GA、動画・画像・音声の自然言語検索に対応"
+  - "エージェント評価: 複数ターン会話向けの Agent Evaluation Metric (AEM)、プロンプトのみで LLM を PII 検出器にする手法"
+  - "脆弱性: Deep Java Library のテンソルバッファ検証に整数オーバーフロー (CVE-2026-85228)、SSM Agent のポートフォワーディングに SSRF (CVE-2026-89049)"

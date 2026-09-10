@@ -1,0 +1,17 @@
+"date": "2026-09-08"
+"generated_at": "2026-09-11 07:54:56 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 9
+"sources":
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は AWS ジャパンのブログと What's New で、ストレージとアカウント保護、ゲームサーバー移行が話題でした。Amazon S3 Object Lock が可変リテンション (variable retention) に対応し、契約終了などの将来のイベントを起点にリテンション期間が始まるオブジェクトへ WORM 保護を適用できるようになりました。イベントホールドと組み合わせて使います。AWS Builder ID には、サードパーティログイン向けの復旧オプションと多要素認証が追加され、AWS Builder Center・トレーニングと認定・Amazon Quick・Kiro へアクセスする個人プロファイルの保護と復旧手段が増えました。Amazon RDS for SQL Server が Microsoft SQL Server の最新の累積更新 (CU) と一般配布リリース (GDR) に対応しました。開発者向けには、フルスタックアプリを AWS 上で足場作りするオープンソースツールキット Nx Plugin for AWS の v1.0 が公開され、AI アシスタントが数分でアプリを立ち上げられるようになっています。Amazon EMR は、サポート終了前の古いリリースからの移行に、追加費用なしで猶予期間を延長するようになりました。Amazon CloudFront の Dynamic Image Transformation (DIT) には 4 つの新機能が加わり、カスタムラベル検出を使った高度なスマートクロッピングや高度な合成が使えるようになりました。AWS ジャパンのブログでは、Kubernetes 上の Agones から Amazon GameLift Servers への移行を、運用面とコスト面の比較を交えて解説する記事が出ています。
+"topics":
+  - "ストレージ: S3 Object Lock が可変リテンションに対応、将来のイベントを起点にした WORM 保護をイベントホールドと併用"
+  - "アカウント保護: AWS Builder ID がサードパーティログイン向けの復旧オプションと多要素認証を追加"
+  - "データベース: RDS for SQL Server が Microsoft SQL Server の最新 CU / GDR に対応"
+  - "開発ツール: フルスタックアプリの足場作り用 Nx Plugin for AWS v1.0 をオープンソースで公開"
+  - "移行支援: Amazon EMR が古いリリースからの移行向けに追加費用なしの猶予期間を延長"
+  - "メディア: CloudFront の Dynamic Image Transformation に高度なスマートクロッピングなど 4 つの新機能"
+  - "ゲーム: Kubernetes / Agones から Amazon GameLift Servers への移行手順とコスト比較を解説"

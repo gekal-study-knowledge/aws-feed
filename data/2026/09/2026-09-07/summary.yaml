@@ -1,0 +1,17 @@
+"date": "2026-09-07"
+"generated_at": "2026-09-11 07:54:56 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 7
+"sources":
+  - "aws_japan_blog"
+  - "aws_news_blog"
+"overview": |
+  この日は AWS ジャパンのブログとニュースブログのみで、生成 AI と認定資格まわりの話題が中心でした。Anthropic の新しいフロンティアモデル Claude Fable 5.1 が AWS (Amazon Bedrock) で利用可能になり、コーディング・科学研究・企業業務にわたる野心的なタスク向けのモデルと位置づけられています。前週にパブリックプレビューが始まった Amazon Linux 2027 も引き続き取り上げられました。新しい認定資格 AWS Certified AI Business Strategist (AIB) が発表され、技術実装ではなく AI 戦略の立案・ビジネスケースの構築・ガバナンス整備といったビジネス判断力を検証します。ベータ試験は 2026 年 9 月 29 日から英語と日本語で受験でき、2027 年 2 月 15 日まで実施されます。Amazon Bedrock AgentCore には、一連のアクションをまとめて評価する時系列ポリシー (オープンソースのポリシー言語 Dogwood が基盤) とゲートウェイでのレート制限が加わり、エージェントのコードを変更せずに振る舞いとコストの上限をインフラ側で強制できるようになりました。Amazon Aurora DSQL では、楽観的並行性制御 (OCC) を前提とした主キー選定・スキーマ設計・トランザクション戦略・マルチリージョン最適化といった、スケールするアプリケーション設計の実践パターンが解説されています。週刊系のまとめでは、Automated Security Response on AWS がカスタム修復向けの AI Toolkit を追加したこと、SageMaker Unified Studio の CI/CD がノートブックのプロモーションと AI 支援によるマニフェスト生成に対応したことなどが紹介されました。国内向けには第 8 回 生成 AI Frontier Meetup の開催報告も出ています。
+"topics":
+  - "モデル: Anthropic の Claude Fable 5.1 が AWS (Amazon Bedrock) で利用可能に"
+  - "認定資格: AWS Certified AI Business Strategist (AIB) を発表、ベータは 2026-09-29〜2027-02-15、英語・日本語で受験可"
+  - "エージェント: Bedrock AgentCore に時系列ポリシー (基盤はポリシー言語 Dogwood) とゲートウェイのレート制限が追加"
+  - "データベース: Aurora DSQL で OCC を前提とした主キー・スキーマ・トランザクション設計の実践パターンを解説"
+  - "セキュリティ運用: Automated Security Response on AWS がカスタム修復向け AI Toolkit を追加"
+  - "開発: SageMaker Unified Studio の CI/CD がノートブックのプロモーションと AI 支援のマニフェスト生成に対応"
+  - "国内: 第 8 回 AWS ジャパン 生成 AI Frontier Meetup の開催報告"

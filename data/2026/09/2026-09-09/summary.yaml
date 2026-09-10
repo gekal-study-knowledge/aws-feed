@@ -1,0 +1,24 @@
+"date": "2026-09-09"
+"generated_at": "2026-09-11 07:54:56 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 32
+"sources":
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 32 件と多く、OpenAI モデルの提供、Kiro の学生向け拡大、エージェント基盤の強化、そして数多くのサービス更新が並びました。OpenAI の最新モデル GPT-6 Astra が Amazon Bedrock で一般提供となり、要求の厳しいタスク向けに深い推論と的確な判断を提供します。Kiro は学生向けプログラム Kiro Students を 16 か国の新たな 121 大学へ拡大し、対象の学生は Kiro を 1 年間無料で使え、毎月 1,000 クレジットとプレミアムモデル・Kiro Web が付きます。あわせて Kiro が AWS の ISO/IEC 27001:2022 認証のスコープに含まれ、調達・セキュリティ・ベンダーリスクの各チームが第三者検証済みのエビデンスを利用できるようになりました。Bedrock AgentCore Memory は、短期メモリのイベントとして永続化せずに長期メモリ抽出用のコンテンツを直接投入できる IngestData API を追加しました。Amazon API Gateway はバックエンド統合の相互 TLS (mTLS) に対応し、TLS ハンドシェイク時に ACM 証明書をバックエンドへ提示できるようになったほか、サードパーティや AWS Private CA の独自クライアント証明書を持ち込めるようになりました。セキュリティブログでは、SANS Institute と共同執筆した 2026 Cloud Security Exchange eBook の章として、エージェントのアイデンティティとガバナンス、振る舞いの監視、段階的な自動対応、マルチエージェントエコシステムへの備えを扱う「エージェンティックセキュリティ」が公開されています。SageMaker Feature Store は UpdateRecord API による特徴量単位の書き込みに対応し、レコード全体を読み書きせずに更新できて書き込みレイテンシが下がりました。マネージド MLflow と SageMaker AI Model Registry の同期は、学習メトリクス・評価結果・推論仕様・リネージまで同期し、クロスアカウントのモデルガバナンスへ広げる 2 部構成の解説が出ています。GPU インスタンスの比較検証では、30B の MoE モデル Qwen3-Coder-30B と NVIDIA Nemotron-3-Nano-30B を G5 / G6 / G6e / G7 でベンチマークしています。セキュリティ速報は 1 件で、OpenSearch Dashboards の Vega 式関数バイパスによる格納型 XSS (CVE-2026-84942) が Important として公開されました。サービス更新では、RDS for MariaDB がコミュニティの新しいマイナーバージョン (10.6.28、10.11.19、11.4.13、11.8.9、12.3.3) に対応し、EBS Volume Clones がアカウントをまたいだボリュームのコピーと再暗号化に対応、AWS Transform が GovCloud (US-West) で利用可能に、AWS Private CA の EKS アドオンと AD 向けコネクタが GovCloud (US) で利用可能になりました。ほかに HealthOmics の WDL ワークフローでアクセラレータ種別のフォールバック順序を定義できる機能、Timestream for InfluxDB 3 の独自 Python プラグイン、Entity Resolution の ML マッチングにおけるレコード単位の信頼度スコア、Bedrock Managed Knowledge Base の Confluence Data Center コネクタ、Systems Manager がアンマネージドな EC2 の原因を 6 カテゴリー追加で診断、Connect Customer Profiles のセグメント出入りイベントなどが加わりました。AWS ジャパンのブログでは、DiDi が Bedrock 上に自前のコンタクトセンター QA を構築して意図検証の精度を 38% から 86% へ引き上げた事例、HPE Zerto が顧客環境内のオンプレミスで動くエージェント型トラブルシュートシステムを Bedrock で構築した事例、Oracle Database@AWS のオンボーディング完全ガイド、データ秘匿性を考慮した産業特化型 AI 基盤 CODAS の取り組みが公開されました。
+"topics":
+  - "モデル: OpenAI GPT-6 Astra が Amazon Bedrock で一般提供"
+  - "開発ツール: Kiro Students が 16 か国の新たな 121 大学へ拡大 (1 年間無料 / 月 1,000 クレジット)、Kiro が AWS の ISO/IEC 27001:2022 スコープに"
+  - "エージェント: Bedrock AgentCore Memory が長期メモリへの直接投入 API (IngestData) を追加"
+  - "API: API Gateway がバックエンド統合の mTLS に対応、ACM 証明書提示と独自クライアント証明書の持ち込みが可能に"
+  - "セキュリティ論考: SANS Institute と共同のエージェンティックセキュリティ (アイデンティティ・監視・段階的自動対応)"
+  - "機械学習基盤: SageMaker Feature Store が UpdateRecord で特徴量単位の書き込みに対応、書き込みレイテンシを低減"
+  - "ガバナンス: マネージド MLflow と SageMaker AI Model Registry の同期をクロスアカウントのモデルガバナンスへ拡張 (全 2 部)"
+  - "脆弱性: OpenSearch Dashboards の Vega 式関数バイパスによる格納型 XSS (CVE-2026-84942)"
+  - "データベース: RDS for MariaDB が新マイナー (10.6.28 ほか) に対応、EBS Volume Clones がクロスアカウントのコピーと再暗号化に対応"
+  - "規制対応: AWS Transform が GovCloud (US-West) へ、AWS Private CA の EKS アドオンと AD コネクタが GovCloud (US) へ"
+  - "事例: DiDi が Bedrock で自前のコンタクトセンター QA を構築し意図検証の精度を 38%→86% に、HPE Zerto は顧客環境内で動くエージェント型トラブルシュートを構築"
