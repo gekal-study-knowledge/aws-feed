@@ -13,4 +13,11 @@
     "published": "2026-09-10 05:36:09"
     "fetched": "2026-09-10 07:13:13"
     "summary": "Organizations with geographically distributed workforces face a trade-off between security and low-latency access. This post explores how to use AWS Local Zones and Secure Access Service Edge (SASE) solutions to deploy virtual security appliances closer to end users, covering key design principles, capacity planning, and traffic routing."
-"last_updated": "2026-09-10 07:13:13 JST"
+  "d3c7fc1bf4668ac30943436db9d5ddbf":
+    "id": "d3c7fc1bf4668ac30943436db9d5ddbf"
+    "title": "Customize Amazon API Gateway destinations for execution logs"
+    "link": "https://aws.amazon.com/blogs/compute/customize-amazon-api-gateway-destinations-for-execution-logs/"
+    "published": "2026-09-10 07:35:42"
+    "fetched": "2026-09-10 09:47:33"
+    "summary": "Amazon API Gateway execution logs help you trace request processing step by step through your REST API stages. They capture authorization results, integration latency, mapping template output, and error details that are otherwise invisible at the API surface. When a production request fails in a way the access log cannot explain, the execution log is […]"
+"last_updated": "2026-09-10 09:47:33 JST"

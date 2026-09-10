@@ -27,4 +27,11 @@
     "published": "2026-09-10 05:01:03"
     "fetched": "2026-09-10 07:13:13"
     "summary": "A recap of August 2026 launches for AI builders across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands: million-token context for OpenAI models, cross-Region inference, agents that run for up to 14 days on dedicated compute, expanded AWS GovCloud availability, and Strands Robots for physical deployment."
-"last_updated": "2026-09-10 07:13:13 JST"
+  "60fe3b3e0d3e1bff5f6a388889d4004d":
+    "id": "60fe3b3e0d3e1bff5f6a388889d4004d"
+    "title": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM"
+    "link": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/"
+    "published": "2026-09-10 07:26:29"
+    "fetched": "2026-09-10 09:47:33"
+    "summary": "Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM. This walkthrough covers cluster provisioning, NVFP4 quantization, and an OpenAI-compatible endpoint with built-in reasoning, tool calling, and native MTP speculative decoding."
+"last_updated": "2026-09-10 09:47:33 JST"
