@@ -1,0 +1,9 @@
+"entries":
+  "fdff9419cfbdf68036c10cc1c2875d1e":
+    "id": "fdff9419cfbdf68036c10cc1c2875d1e"
+    "title": "CVE-2026-85228 - Integer overflow in tensor buffer validation in Deep Java Library"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-106-aws/"
+    "published": "2026-09-11 02:13:16"
+    "fetched": "2026-09-11 03:02:02"
+    "summary": "<p><b>Bulletin ID:</b> 2026-106-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/10/2026 10:00 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Deep Java Library (DJL) is an open-source, engine-agnostic Java framework for deep learning, developed and maintained by Amazon. AWS identified CVE-2026-85228, an integer overflow in the tensor buffer validation component of DJL on all platforms. A crafted tensor payload declaring a shape whose computed byte size exceeds the 32-bit signed integer range causes the size to wrap, allowing an undersized buffer to pass validation; a subsequent tensor operation then reads out of bounds. If leveraged, a remote, unauthenticated actor could obtain information from adjacent process memory or cause a denial of service. A fix for this issue has been released and we recommend users of DJL upgrade to version 0.37.0 or later.</p> \n<p><b>Impacted versions:</b> &gt;=0.13.0 AND &lt;=0.36.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-09-11 03:02:02 JST"

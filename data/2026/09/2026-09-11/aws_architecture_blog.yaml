@@ -1,0 +1,9 @@
+"entries":
+  "b018dbb28883d277bd1381fc57ebe41c":
+    "id": "b018dbb28883d277bd1381fc57ebe41c"
+    "title": "Building resilient real-time streaming workers with Amazon DynamoDB leases"
+    "link": "https://aws.amazon.com/blogs/architecture/building-resilient-real-time-streaming-workers-with-amazon-dynamodb-leases/"
+    "published": "2026-09-11 01:14:22"
+    "fetched": "2026-09-11 03:02:03"
+    "summary": "Real-time streaming workers that hold hundreds of persistent WebSocket connections lose data when a worker fails. Learn how to build a WebSocket fleet management system on Amazon ECS and AWS Fargate that uses Amazon DynamoDB conditional writes as a distributed lease to track ownership, fail over automatically, and deploy with low downtime."
+"last_updated": "2026-09-11 03:02:03 JST"

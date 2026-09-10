@@ -1,0 +1,30 @@
+"entries":
+  "878d626f595fa4c3125d0cff8c595cce":
+    "id": "878d626f595fa4c3125d0cff8c595cce"
+    "title": "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate/"
+    "published": "2026-09-11 01:08:57"
+    "fetched": "2026-09-11 03:02:03"
+    "summary": "Learn how to build an end-to-end RFI questionnaire workflow with Amazon Quick Automate. Read a multi-tab RFI workbook from Amazon S3, use natural-language prompts to extract and structure the questionnaire data, refine the workflow through conversation, and write clean CSV output back to Amazon S3 — cutting development from days to hours."
+  "c8771e046be34f396a7e3e20b52ed233":
+    "id": "c8771e046be34f396a7e3e20b52ed233"
+    "title": "Model-agnostic PII detection with LLMs"
+    "link": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/"
+    "published": "2026-09-11 01:02:16"
+    "fetched": "2026-09-11 03:02:03"
+    "summary": "A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to detect live in a prompt rather than in code, one detector adapts to new entity types without retraining, and it outperforms an off-the-shelf tool across five public corpora and nine LLM-based detectors."
+  "8028855e9c85a5b8a11e6a582dd2efc4":
+    "id": "8028855e9c85a5b8a11e6a582dd2efc4"
+    "title": "Agent Evaluation Metric for multi-turn conversations"
+    "link": "https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations/"
+    "published": "2026-09-11 00:55:41"
+    "fetched": "2026-09-11 03:02:03"
+    "summary": "Multi-turn agents fail in ways single-turn evaluation misses: one early mistake corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM), a decomposable, turn-level way to measure agent quality, applied to its first dimension, correctness, to pinpoint the turn that caused a failure and separate it from the turns that inherited it."
+  "d42fac99f0a186e9ab63bbbed20d855f":
+    "id": "d42fac99f0a186e9ab63bbbed20d855f"
+    "title": "How AvioBook builds turnaround insights from operational data with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/"
+    "published": "2026-09-11 00:53:05"
+    "fetched": "2026-09-11 03:02:03"
+    "summary": "AvioBook, a Thales Group Company, prototyped Connected Analytics on Amazon Bedrock AgentCore to turn AvioBook Connect's operational data into plain-language, evidence-based answers for airline managers and dispatchers, helping them find and act on the causes of flight turnaround delays."
+"last_updated": "2026-09-11 03:02:03 JST"

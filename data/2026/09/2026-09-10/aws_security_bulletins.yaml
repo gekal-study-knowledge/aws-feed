@@ -13,4 +13,11 @@
     "published": "2026-09-10 06:30:11"
     "fetched": "2026-09-10 07:13:12"
     "summary": "<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
-"last_updated": "2026-09-10 07:13:12 JST"
+  "d314d1f7d549aea1c8d031050033a70c":
+    "id": "d314d1f7d549aea1c8d031050033a70c"
+    "title": "CVE-2026-87912 and CVE-2026-87913: Missing S3 bucket ownership verification in the AWS Security Agent plugin for aws-agents-for-devsecops and MCP Server"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-105-aws/"
+    "published": "2026-09-10 06:30:11"
+    "fetched": "2026-09-11 03:02:02"
+    "summary": "<p><b>Bulletin ID:</b> 2026-105-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/10/2026 08:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS Security Agent is a managed AWS service that provides AI-powered code security reviews, threat modeling, and penetration testing.</p> \n<p>We identified CVE-2026-87912, where a missing S3 bucket ownership verification in the AWS Security Agent plugin in Amazon aws-agents-for-devsecops before version 1.1.0 might allow remote attackers to obtain the private source archive of a scanned workspace, including credentials and infrastructure state contained in that archive, via a pre-registered storage bucket whose name is derived from a publicly known account identifier.</p> \n<p>We identified CVE-2026-87913, where a missing S3 bucket ownership verification in the AWS Security Agent MCP server before 0.2.0 might allow remote attackers to obtain the private source archive of a scanned workspace, including credentials and infrastructure state contained in that archive, via a pre-registered storage bucket whose name is derived from a publicly known account identifier.</p> \n<p><b>Impacted versions:</b><br /> - &lt;=1.0.0<br /> - &gt;=0.1.0 AND &lt;=0.1.5</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-09-11 03:02:02 JST"
