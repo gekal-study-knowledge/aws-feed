@@ -20,4 +20,11 @@
     "published": "2026-09-10 09:47:18"
     "fetched": "2026-09-10 14:32:15"
     "summary": "AWS Shield Advanced は、アプリケーションレイヤー (L7) DDoS 保護のデフォルトとして AWS WAF Anti-DDoS マネージドルールグループを採用し、将来的には唯一の保護機能とします。2026 年 7 月 27 日から、対象のウェブ ACL への Count モードでのルールグループの追加が始まります。既存の L7 自動緩和と並行して動作するため、トラフィックへの影響はありません。この記事では、Anti-DDoS マネージドルールグループの機能、2027 年 1 月 1 日の Shield Advanced アプリケーションレイヤー自動緩和の終了までの 5 つのフェーズ、請求、モニタリングとメトリクスの変更点、IaC や AWS Firewall Manager ポリシーの更新など、移行に向けた準備方法を解説します。"
-"last_updated": "2026-09-10 14:32:15 JST"
+  "e1198ccda744940d22bbe44c43e4f6da":
+    "id": "e1198ccda744940d22bbe44c43e4f6da"
+    "title": "Umios(旧マルハニチロ) が時系列基盤モデル Chronos-2 で実現する販売計画 AI – 作業4,200時間削減への裏側"
+    "link": "https://aws.amazon.com/jp/blogs/news/umios-chronos2/"
+    "published": "2026-09-10 15:20:03"
+    "fetched": "2026-09-10 19:30:43"
+    "summary": "本ブログは Umios 株式会社様と Amazon Web Services Japan が共同で執筆いたしま […]"
+"last_updated": "2026-09-10 19:30:43 JST"
