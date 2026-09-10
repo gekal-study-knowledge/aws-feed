@@ -62,4 +62,11 @@
     "published": "2026-09-09 07:06:58"
     "fetched": "2026-09-09 08:09:02"
     "summary": "GPT-6 Astra from OpenAI is now generally available on Amazon Bedrock. It brings deeper reasoning and sharper judgment to your most demanding tasks, running on the Amazon Bedrock inference engine built for high performance, security, and scale."
-"last_updated": "2026-09-09 08:09:02 JST"
+  "4b3faad9060e017cfea471c71ad02670":
+    "id": "4b3faad9060e017cfea471c71ad02670"
+    "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod"
+    "link": "https://aws.amazon.com/blogs/machine-learning/pathway-s-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/"
+    "published": "2026-09-09 04:12:51"
+    "fetched": "2026-09-11 06:21:35"
+    "summary": "Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway develops and scales BDH on Amazon SageMaker HyperPod, and how BDH-CQ set a new cost-efficiency mark on the ARC-AGI-1 benchmark."
+"last_updated": "2026-09-11 06:21:35 JST"
