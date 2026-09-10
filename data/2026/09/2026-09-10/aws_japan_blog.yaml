@@ -27,4 +27,11 @@
     "published": "2026-09-10 15:20:03"
     "fetched": "2026-09-10 19:30:43"
     "summary": "本ブログは Umios 株式会社様と Amazon Web Services Japan が共同で執筆いたしま […]"
-"last_updated": "2026-09-10 19:30:43 JST"
+  "58e2cf242ad0294fa106c8eaf9c5ecb2":
+    "id": "58e2cf242ad0294fa106c8eaf9c5ecb2"
+    "title": "AWS AI セキュリティフレームワーク: レイヤーとフェーズに応じた適切なセキュリティコントロール"
+    "link": "https://aws.amazon.com/jp/blogs/news/the-aws-ai-security-framework-securing-ai-with-the-right-controls-at-the-right-layers-at-the-right-phases/"
+    "published": "2026-09-10 20:16:48"
+    "fetched": "2026-09-10 23:45:53"
+    "summary": "AWS AI Security Framework は、適切なコントロールを適切なユースケース・レイヤー・フェーズに対応づけ、AI をプロトタイプから本番、そしてスケールまで安全に進めるための体系的なモデルです。多層防御を「インフラストラクチャ」「アイデンティティとデータ」「AI アプリケーション」の 3 レイヤーに整理し、Foundational / Enhanced / Advanced の 3 フェーズで段階的にセキュリティを強化する方法を解説します。"
+"last_updated": "2026-09-10 23:45:53 JST"
