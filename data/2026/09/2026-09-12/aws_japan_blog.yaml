@@ -1,0 +1,16 @@
+"entries":
+  "d1e8f1dee268e8f213876a670981a19c":
+    "id": "d1e8f1dee268e8f213876a670981a19c"
+    "title": "Amazon MWAA Serverless で PythonOperator と BashOperator が利用可能に"
+    "link": "https://aws.amazon.com/jp/blogs/news/pythonoperator-and-bashoperator-now-available-on-amazon-managed-workflows-for-apache-airflow-amazon-mwaa-serverless/"
+    "published": "2026-09-12 23:43:12"
+    "fetched": "2026-09-13 01:42:17"
+    "summary": "Amazon MWAA Serverless で PythonOperator と BashOperator が使えるようになり、カスタムの Python 関数やシェルスクリプトをサーバーレスランタイム上で直接実行できます。AWS Lambda 関数や Amazon ECS タスクでコードをラップする必要はありません。本記事では、コードバンドルの仕組みと実行モデルを解説し、PythonOperator で CSV を JSON に変換し BashOperator で出力を検証するパイプラインを AWS CLI で構築します。"
+  "60eec97f9fd5a0d1026a3a82dcdc4187":
+    "id": "60eec97f9fd5a0d1026a3a82dcdc4187"
+    "title": "Amazon MWAA と Airflow 3.0 によるイベント駆動のパイプラインオーケストレーション"
+    "link": "https://aws.amazon.com/jp/blogs/news/event-driven-pipeline-orchestration-with-amazon-mwaa-and-airflow-3-0/"
+    "published": "2026-09-12 23:41:43"
+    "fetched": "2026-09-13 01:42:17"
+    "summary": "Apache Airflow 3.0 の Asset Watcher と Amazon SQS を組み合わせて、複数の Amazon MWAA 環境や AWS アカウントをまたぐイベント駆動のオーケストレーションを実現する方法を解説します。ポーリングベースのセンサーをイベント駆動のトリガーに置き換えることで、環境間オーケストレーションのレイテンシーを数分から数秒に短縮できます。クロスアカウント IAM、triggerer の健全性、Amazon VPC のネットワーク、DAG 設計のベストプラクティスも紹介します。"
+"last_updated": "2026-09-13 01:42:17 JST"
