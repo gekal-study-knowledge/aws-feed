@@ -1,0 +1,20 @@
+"date": "2026-09-12"
+"generated_at": "2026-09-12 23:00:58 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 14
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 14 件で、セキュリティ速報が 4 件と多く、うち 1 件は Kiro IDE に関するもので注意が必要です。Kiro IDE で、エージェントが書き込んだワークスペース設定を通じて機密なワークスペースデータが持ち出される可能性がある問題 (CVE-2026-89332) が Important として公開されました。ほかに、ソフトウェア定義・合成ツールの projen にパストラバーサルと OS コマンドインジェクション (CVE-2026-89065、CVE-2026-89066)、AWS Advanced JDBC Wrapper の RemoteQueryCachePlugin に XML 外部実体参照 (XXE) (CVE-2026-18061)、AWS SDK for Go v2 のイベントストリームヘッダーデコーダーにサービス拒否 (CVE-2026-89090) が公開されています。エージェント関連では、Amazon Bedrock AgentCore 上でインタラクティブな HTML ウィジェットを持つ MCP App を構築・デプロイする方法が解説され、ホストに依存しない標準である MCP Apps によって同じサーバーが複数の場所で同じ体験を提供できます。AWS DevOps Agent は双方向の Slack 連携に対応し、オンコールのエンジニアが調査のライフサイクル全体を Slack 内で完結できるようになりました。運用中のエージェントの監視については、継続的な品質スコアリングを行う AgentCore Evaluations と AWS DevOps Agent を組み合わせた二層構成のアプローチが紹介されています。モデル選定では、100 万トークンあたりの単価比較では見えない「正解あたりのコスト」を測るオープンソースのベンチマークハーネスを使い、Bedrock 上の OpenAI モデルを選ぶ観点が解説されました。サービス更新では、AWS HealthOmics が CPU・GPU 使用率やメモリなどをカバーする 14 種類の新しい実行時メトリクスを Amazon CloudWatch へリアルタイムに配信するようになり、Bedrock Managed Knowledge Base は TwelveLabs Marengo 3.0 によるマルチモーダル埋め込み (動画・音声・画像) に対応、AWS Lambda は S3 Files の高性能ストレージか通常の S3 バケットかを選べる直接読み取り設定に対応、SageMaker HyperPod のモデルキャッシングは推論のオートスケーリングを高速化しコールドスタートを縮めるものとして改めて案内されました。Amazon EC2 のメモリ最適化インスタンス X2idn がアジアパシフィック (香港) で利用可能になっています。
+"topics":
+  - "脆弱性: Kiro IDE でエージェントが書き込んだワークスペース設定経由の機密データ持ち出し (CVE-2026-89332)"
+  - "脆弱性: projen のパストラバーサル / OS コマンドインジェクション (CVE-2026-89065、CVE-2026-89066)、AWS Advanced JDBC Wrapper の XXE (CVE-2026-18061)"
+  - "脆弱性: AWS SDK for Go v2 のイベントストリームヘッダーデコーダーに DoS (CVE-2026-89090)"
+  - "エージェント: Bedrock AgentCore でインタラクティブな HTML ウィジェットを持つ MCP App を構築、ホスト非依存の MCP Apps 標準"
+  - "運用: AWS DevOps Agent が双方向 Slack 連携に対応、AgentCore Evaluations と組み合わせた二層の本番エージェント監視"
+  - "モデル選定: 100 万トークン単価ではなく「正解あたりのコスト」で Bedrock 上の OpenAI モデルを比較するベンチマークハーネス"
+  - "運用監視: AWS HealthOmics が CPU / GPU 使用率など 14 種類の実行時メトリクスを CloudWatch へリアルタイム配信"
+  - "RAG: Bedrock Managed Knowledge Base が TwelveLabs Marengo 3.0 によるマルチモーダル埋め込み (動画・音声・画像) に対応"
+  - "ストレージ / コンピューティング: Lambda が S3 Files の直接読み取り設定に対応、EC2 X2idn がアジアパシフィック (香港) で利用可能に"
