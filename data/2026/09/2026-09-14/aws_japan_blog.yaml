@@ -1,0 +1,16 @@
+"entries":
+  "45415f10d02eefd853ee35123c83bf78":
+    "id": "45415f10d02eefd853ee35123c83bf78"
+    "title": "週刊生成AI with AWS – 2026/9/7週"
+    "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260907/"
+    "published": "2026-09-14 11:13:35"
+    "fetched": "2026-09-14 14:43:15"
+    "summary": "週刊生成AI with AWS, ようやく秋の気配を感じる2026年9月7日週号 – Umios様 (旧マルハニチロ) の時系列基盤モデルChronos-2による販売計画AI事例、CODASの産業特化型AI基盤の取り組み含む14件のブログ記事を紹介。サービスアップデートでは、OpenAI GPT-6 AstraのAmazon Bedrock一般提供開始、Bedrock Managed Knowledge BaseのTwelveLabs Marengo 3.0対応、Amazon Quickデスクトップアプリの一般提供開始含む18件を紹介。"
+  "e427a6f0722d56f6c3d350a97fe58162":
+    "id": "e427a6f0722d56f6c3d350a97fe58162"
+    "title": "週刊AWS – 2026/9/7週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260907/"
+    "published": "2026-09-14 10:10:30"
+    "fetched": "2026-09-14 14:43:15"
+    "summary": "Amazon S3 Object Lock がイベントホールドによる可変リテンションに対応、Amazon EMR が旧リリースからの移行中のお客様向けに無償でサポート延長、Amazon API Gateway がバックエンド統合向け mutual TLS をサポート、OpenAI GPT-6 Astra が Amazon Bedrock で GA、Amazon Quick デスクトップアプリが macOS と Windows で GA、AWS Lambda Managed Instances が Graviton5 搭載インスタンスと 90 分タイムアウトに対応、Amazon EVS が大阪を含む 4 リージョンに拡大、AWS Elemental Inference がライブ動画からコンテキストメタデータをリアルタイム生成、Amazon API Gateway が 1 MB の実行ログと配信先の設定に対応、AWS DevOps Agent が Slack との双方向通信に対応、AWS Lambda が Amazon S3 Files のダイレクトリード設定に対応等"
+"last_updated": "2026-09-14 14:43:15 JST"
