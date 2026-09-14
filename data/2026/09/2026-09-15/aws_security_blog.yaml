@@ -1,0 +1,9 @@
+"entries":
+  "6d4594cc3a342d5f1ad6314a754de4f0":
+    "id": "6d4594cc3a342d5f1ad6314a754de4f0"
+    "title": "AWS Security Reference Architecture: A deep dive into PCI DSS compliance"
+    "link": "https://aws.amazon.com/blogs/security/aws-security-reference-architecture-a-deep-dive-into-pci-dss-compliance/"
+    "published": "2026-09-15 02:46:56"
+    "fetched": "2026-09-15 06:23:18"
+    "summary": "Amazon Web Services (AWS) is excited to announce the publication of the AWS Security Reference Architecture (AWS SRA) Payment Card Industry (PCI) Data Security Standard (DSS) Deep Dive. This new guide extends the core AWS SRA to provide prescriptive, architecture-level guidance for organizations that store, process, or transmit cardholder data on AWS. Organizations subject to […]"
+"last_updated": "2026-09-15 06:23:18 JST"

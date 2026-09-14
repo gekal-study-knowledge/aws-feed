@@ -1,0 +1,9 @@
+"entries":
+  "8010342ff031eccfafee94111ad90c54":
+    "id": "8010342ff031eccfafee94111ad90c54"
+    "title": "CVE-2026-86830 - Incorrect privilege assignment in Temporary Elevated Access Management (TEAM) for AWS IAM Identity Center"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-112-aws/"
+    "published": "2026-09-15 03:04:59"
+    "fetched": "2026-09-15 06:23:19"
+    "summary": "<p><b>Bulletin ID:</b> 2026-112-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/14/2026 10:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Temporary Elevated Access Management (TEAM) is an open source AWS sample solution for managing temporary elevated access via AWS IAM Identity Center. We identified CVE-2026-86830, where an authenticated user with application-level access could gain unintended temporary elevated access to AWS accounts managed by TEAM.</p> \n<p><b>Impacted versions:</b> &lt;1.5.1</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-09-15 06:23:19 JST"
