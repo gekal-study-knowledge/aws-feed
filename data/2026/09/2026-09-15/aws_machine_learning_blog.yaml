@@ -1,0 +1,23 @@
+"entries":
+  "15d4c62df93320e857271116c2afc54c":
+    "id": "15d4c62df93320e857271116c2afc54c"
+    "title": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/"
+    "published": "2026-09-15 00:58:57"
+    "fetched": "2026-09-15 02:34:20"
+    "summary": "Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Financial Data Exchange (FDX) standards, scores compliance, and compresses open finance onboarding from weeks to minutes while meeting SOC 2 and PCI DSS requirements."
+  "7394ff5cd27e9cce83f6db0e47d1e74c":
+    "id": "7394ff5cd27e9cce83f6db0e47d1e74c"
+    "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/"
+    "published": "2026-09-15 00:47:12"
+    "fetched": "2026-09-15 02:34:20"
+    "summary": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only when you must."
+  "cc725b9c57a66638c2b0daaf8dcef1b4":
+    "id": "cc725b9c57a66638c2b0daaf8dcef1b4"
+    "title": "Automate replenishment with MMF, Databricks Genie, and Amazon Quick"
+    "link": "https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick/"
+    "published": "2026-09-15 00:42:06"
+    "fetched": "2026-09-15 02:34:20"
+    "summary": "Foundation models made catalog-wide demand forecasting easy; the hard part is now acting on the forecast. This post builds a closed detect-decide-act loop on Databricks and Amazon Quick that reconciles demand surges against live supplier availability and places replenishment orders unattended, escalating to a human only when no supplier can cover a surge."
+"last_updated": "2026-09-15 02:34:20 JST"

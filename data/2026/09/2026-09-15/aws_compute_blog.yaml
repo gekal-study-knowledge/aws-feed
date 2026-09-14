@@ -1,0 +1,9 @@
+"entries":
+  "949a09e9688e2f74cda441033d2002ed":
+    "id": "949a09e9688e2f74cda441033d2002ed"
+    "title": "Validating multi-agent decisions with Step Functions and Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/compute/validating-multi-agent-decisions-with-step-functions-and-bedrock-agentcore/"
+    "published": "2026-09-15 01:47:23"
+    "fetched": "2026-09-15 02:34:20"
+    "summary": "Orchestrating specialized Amazon Bedrock AgentCore agents with AWS Step Functions gives you the reasoning power of generative AI with the guardrails of deterministic validation. Agents propose options, and deterministic code validates them before any action is taken, demonstrated here with an airline rebooking workflow."
+"last_updated": "2026-09-15 02:34:20 JST"
