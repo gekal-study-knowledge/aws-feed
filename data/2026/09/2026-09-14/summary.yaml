@@ -1,0 +1,11 @@
+"date": "2026-09-14"
+"generated_at": "2026-09-14 19:34:05 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 2
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  この日は AWS ジャパンブログの週刊まとめ 2 本のみでした。週刊 AWS (2026/9/7 週) では、S3 Object Lock のイベントホールドによる可変リテンション対応、EMR の旧リリース移行者向け無償サポート延長、API Gateway のバックエンド統合向け mTLS 対応、OpenAI GPT-6 Astra の Amazon Bedrock 一般提供、Amazon Quick デスクトップアプリの提供開始など、前週のサービス更新がまとめて振り返られています。週刊生成AI with AWS (2026/9/7 週) では、Umios (旧マルハニチロ) が時系列基盤モデル Chronos-2 で販売計画 AI を構築した事例や、産業特化型 AI 基盤 CODAS の取り組みを含む 14 件のブログ記事が紹介され、サービスアップデートとして GPT-6 Astra の Bedrock 一般提供や Bedrock Managed Knowledge Base の強化が取り上げられています。いずれも前週にすでに個別記事として取り上げられた内容の振り返りです。
+"topics":
+  - "週刊まとめ: 週刊 AWS (9/7 週) が S3 Object Lock の可変リテンション、EMR 移行支援、API Gateway mTLS、GPT-6 Astra GA などを振り返り"
+  - "週刊まとめ: 週刊生成AI with AWS (9/7 週) が Umios の Chronos-2 事例や CODAS の取り組みなど 14 件を紹介"
