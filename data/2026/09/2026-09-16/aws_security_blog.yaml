@@ -13,4 +13,11 @@
     "published": "2026-09-16 00:53:51"
     "fetched": "2026-09-16 04:29:27"
     "summary": "The principle of least privilege is straightforward to articulate but challenging to maintain at scale. When teams first deploy applications to AWS, they often grant broader permissions than strictly necessary; it’s faster to get things working, and the plan is always to tighten permissions later. But later rarely comes. Permissions accumulate, AWS Identity and Access […]"
-"last_updated": "2026-09-16 04:29:27 JST"
+  "65cfbbaafca784659410673bf5f5735f":
+    "id": "65cfbbaafca784659410673bf5f5735f"
+    "title": "AWS STS simplifies session token size limits and adds session token size monitoring"
+    "link": "https://aws.amazon.com/blogs/security/aws-sts-simplifies-session-token-size-limits-and-adds-session-token-size-monitoring/"
+    "published": "2026-09-16 07:21:59"
+    "fetched": "2026-09-16 07:41:00"
+    "summary": "AWS Security Token Service (AWS STS) has simplified session token size limits, giving you more room for your session policies and session tags. STS has replaced the packed policy size and the overall session token size limits with a single token size limit of 4,096 bytes. STS now reports session token size in API responses, […]"
+"last_updated": "2026-09-16 07:41:00 JST"
