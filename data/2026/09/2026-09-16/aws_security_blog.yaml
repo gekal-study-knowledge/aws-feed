@@ -1,0 +1,16 @@
+"entries":
+  "c925405a3cb0e706f81b51ec51d34e4f":
+    "id": "c925405a3cb0e706f81b51ec51d34e4f"
+    "title": "Architecting resilient authentication with Amazon Cognito multi-Region replication"
+    "link": "https://aws.amazon.com/blogs/security/architecting-resilient-authentication-with-amazon-cognito-multi-region-replication/"
+    "published": "2026-09-16 04:00:52"
+    "fetched": "2026-09-16 04:29:27"
+    "summary": "Your consumer identity and access management (CIAM) system is the foundation of your customer experience. It’s how users sign in, access services, and engage with your applications. As your business scales across geographies, ensuring authentication is always available becomes a core architectural requirement. However, building multi-Region authentication has traditionally required complex custom replication solutions that […]"
+  "1181c9dc1a09e90ff356082b866b36cd":
+    "id": "1181c9dc1a09e90ff356082b866b36cd"
+    "title": "Operationalizing least privilege: Automate IAM remediation through your CI/CD pipeline"
+    "link": "https://aws.amazon.com/blogs/security/operationalizing-least-privilege-automate-iam-remediation-through-your-ci-cd-pipeline/"
+    "published": "2026-09-16 00:53:51"
+    "fetched": "2026-09-16 04:29:27"
+    "summary": "The principle of least privilege is straightforward to articulate but challenging to maintain at scale. When teams first deploy applications to AWS, they often grant broader permissions than strictly necessary; it’s faster to get things working, and the plan is always to tighten permissions later. But later rarely comes. Permissions accumulate, AWS Identity and Access […]"
+"last_updated": "2026-09-16 04:29:27 JST"

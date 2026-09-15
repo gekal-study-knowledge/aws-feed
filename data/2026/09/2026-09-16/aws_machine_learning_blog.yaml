@@ -1,0 +1,23 @@
+"entries":
+  "4b6e34b00701d223984df2beef996938":
+    "id": "4b6e34b00701d223984df2beef996938"
+    "title": "Optimizing cost and latency with Amazon Bedrock prompt caching"
+    "link": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/"
+    "published": "2026-09-16 01:18:19"
+    "fetched": "2026-09-16 04:29:29"
+    "summary": "Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models. This post walks through six practical prompt caching scenarios using the Converse API: message content, system prompt, tool definition, mixed TTL, tenant isolation, and LangChain integration."
+  "f1afbcd8ade940e0c98a9079d2460a4a":
+    "id": "f1afbcd8ade940e0c98a9079d2460a4a"
+    "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/"
+    "published": "2026-09-16 01:11:36"
+    "fetched": "2026-09-16 04:29:29"
+    "summary": "Manually tagging thousands of catalog products is slow and inconsistent. This walkthrough shows how to customize Qwen3-8B with supervised fine-tuning (SFT) and reinforcement learning with verifiable rewards (RLVR) on Amazon SageMaker serverless model customization, then deploy it for asynchronous inference to build a cost-efficient product tagging system."
+  "a48b9bd3ecb36fdf410a99accaa373d5":
+    "id": "a48b9bd3ecb36fdf410a99accaa373d5"
+    "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs"
+    "link": "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/"
+    "published": "2026-09-16 01:01:47"
+    "fetched": "2026-09-16 04:29:29"
+    "summary": "Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance types, and SageMaker AI automatically launches on the first type with available capacity, eliminating manual retry loops and capacity-watching scripts."
+"last_updated": "2026-09-16 04:29:29 JST"
