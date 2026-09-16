@@ -1,0 +1,9 @@
+"entries":
+  "fa9f58d76a4ffc33ff914f4696a45d8a":
+    "id": "fa9f58d76a4ffc33ff914f4696a45d8a"
+    "title": "CVE-2026-86831: Improper validation of pod identifier uniqueness in aws-network-policy-agent in Amazon EKS"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-113-aws/"
+    "published": "2026-09-17 05:16:23"
+    "fetched": "2026-09-17 05:49:47"
+    "summary": "<p><b>Bulletin ID:</b> 2026-113-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/16/2026 12:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Network Policy Agent is an EKS Policy management feature. We identified CVE-2026-86831, a cross-namespace NetworkPolicy bypass in Amazon EKS Network Policy Agent (aws-network-policy-agent) before v1.4.0. Pod identifiers are constructed by concatenating the pod name and namespace with a hyphen delimiter, which is a legal character in both Kubernetes pod names and namespace names. This ambiguity can produce identical identifiers for pods across different namespaces, potentially allowing NetworkPolicy enforcement to be bypassed.</p> \n<p><b>Impacted versions:</b><br /> - 1.14.0&lt;1.22.3 Amazon VPC CNI Managed Add-on<br /> - &lt; v1.4.0 Network Policy Agent</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-09-17 05:49:47 JST"
