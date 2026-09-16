@@ -1,0 +1,16 @@
+"entries":
+  "71c88f2cf4c2a661c9f6b8d7ad26132d":
+    "id": "71c88f2cf4c2a661c9f6b8d7ad26132d"
+    "title": "AWS アカウント間での Amazon EBS Volume Clones の提供開始"
+    "link": "https://aws.amazon.com/jp/blogs/news/introducing-amazon-ebs-volume-clones-across-aws-accounts/"
+    "published": "2026-09-16 09:32:40"
+    "fetched": "2026-09-16 10:01:30"
+    "summary": "2025 年、Amazon Elastic Block Store (Amazon EBS) の新機能であるボ […]"
+  "243f0d15d3a799087f749b9fa9af1752":
+    "id": "243f0d15d3a799087f749b9fa9af1752"
+    "title": "自動推論による数学的確実性の 10 年: Automated Reasoning Group が歩んだ道"
+    "link": "https://aws.amazon.com/jp/blogs/news/a-decade-of-mathematical-certainty-reflections-on-the-automated-reasoning-group/"
+    "published": "2026-09-16 09:15:36"
+    "fetched": "2026-09-16 10:01:30"
+    "summary": "Automated Reasoning Group (ARG) の発足から 10 年の歩みを振り返ります。自動推論による形式的検証は研究プロトタイプから、Amazon Inspector、IAM Access Analyzer、Reachability Analyzer といったお客様向けサービスへと発展しました。Nitro Isolation Engine や暗号実装、認可エンジンの正しさを証明した内部の取り組み、Amazon Bedrock Guardrails の自動推論チェックによる生成 AI のハルシネーション防止、そして Amazon Bedrock AgentCore や Kiro でのエージェンティック AI への展開まで、システムを「おそらく正しい」だけでなく「正しいと証明できる」ものにする数学的確実性の価値を紹介します。"
+"last_updated": "2026-09-16 10:01:30 JST"
