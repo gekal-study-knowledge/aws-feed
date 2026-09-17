@@ -1,0 +1,23 @@
+"date": "2026-09-17"
+"generated_at": "2026-09-17 22:11:53 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 21
+"sources":
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 21 件で、Kiro の大幅強化、フォーマル検証ツール Verus、欧州ソブリンクラウドのランディングゾーン設計、そして新しい AWS 利用開始体験が中心でした。Kiro では、GPT-5.6 の Sol・Terra・Luna が IDE・CLI・Web のすべてで 100 万トークンのコンテキストウィンドウに対応し、コードベース全体や長文ドキュメント、長く続いたマルチターンのエージェント履歴をチャンク分割なしで 1 回のリクエストに収められるようになりました。あわせて、issue を読むところからプルリクエストを開くところまで保守タスクを一気通貫で任せられる Kiro Web の自律モードで技術的負債に取り組む記事も公開されています。AWS ジャパンブログでは、Rust 向けのオープンソース自動プログラム検証ツール Verus を紹介し、事前条件・事後条件による仕様記述や 1 秒未満の高速フィードバック、unsafe コードや並行コードの正しさの証明について解説するとともに、店舗業務支援 AI エージェント SMART を起点にファッション・アパレル業界 6 社が集まった第一回ナレッジ共有会の開催報告も出ています。セキュリティブログでは、既存の AWS リージョンと物理的・論理的に分離され EU 域内で運用される AWS European Sovereign Cloud に、セキュアなランディングゾーンを構築する方法が解説されました。ニュースブログでは、スマートで適切な既定値により開発者がすばやく着手できるようにした新しい AWS 利用開始体験が発表されています。機械学習ブログでは、Bedrock Data Automation を使ったサーバーレスの PII 検出・削除パイプライン、本番のトレースを設定変更の提案に変えて昇格前に検証する Bedrock AgentCore のエージェントシステムプロンプト最適化、NVIDIA Resiliency Extension (NVRx) を使い Amazon EKS 上の PyTorch FSDP 学習でチェックポイント I/O と学習を重ね GPU 障害から数秒で回復するフォールトトレラントな分散学習、医療・ライフサイエンス領域の意思決定フレームワークを正しく適用させる 38 個のオープンソースエージェントスキルが紹介されました。サービス更新では、Amazon Connect Customer のカスタムメトリクスを API 経由で作成・管理・検索できるようになり、タグベースのアクセス制御や PDF からの評価フォーム AI 取り込みにも対応、Amazon ECS が S3 Files サポートを EC2 起動タイプへ拡張、Amazon WorkSpaces が NVIDIA Blackwell (RTX PRO 4500) を搭載した Graphics G7 バンドルに対応、Amazon Corretto 27 が一般提供となりました。セキュリティ速報では、Amazon EKS の aws-network-policy-agent における Pod 識別子の一意性検証の不備 (CVE-2026-86831) が Important として公開されています。
+"topics":
+  - "開発ツール: Kiro の GPT-5.6 が 100 万トークンのコンテキストウィンドウに対応、Kiro Web の自律モードで保守タスクを一気通貫化"
+  - "解説: Rust 向けオープンソース検証ツール Verus、事前/事後条件の仕様記述と unsafe/並行コードの正しさの証明"
+  - "国内事例: 店舗業務支援エージェント SMART を起点にファッション・アパレル業界 6 社のナレッジ共有会"
+  - "セキュリティ: AWS European Sovereign Cloud にセキュアなランディングゾーンを構築する設計指針"
+  - "オンボーディング: スマートな既定値で開発者がすぐ着手できる新しい AWS 利用開始体験"
+  - "エージェント: Bedrock AgentCore のシステムプロンプト最適化、Bedrock Data Automation によるサーバーレス PII 削除パイプライン"
+  - "機械学習基盤: NVRx で EKS 上の PyTorch FSDP 学習を GPU 障害から数秒で回復、医療・ライフサイエンス向け 38 個のエージェントスキル"
+  - "サービス更新: Connect Customer のカスタムメトリクス API 化、ECS の S3 Files が EC2 起動タイプに対応、WorkSpaces が Blackwell GPU 対応、Corretto 27 GA"
+  - "脆弱性: Amazon EKS の aws-network-policy-agent で Pod 識別子の一意性検証に不備 (CVE-2026-86831)"

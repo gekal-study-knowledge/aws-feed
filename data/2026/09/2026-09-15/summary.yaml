@@ -1,7 +1,7 @@
 "date": "2026-09-15"
-"generated_at": "2026-09-15 22:04:00 JST"
+"generated_at": "2026-09-17 22:11:53 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 16
+"article_count": 18
 "sources":
   - "aws_compute_blog"
   - "aws_japan_blog"
@@ -11,13 +11,15 @@
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 16 件で、マルチエージェントの検証、エージェント型 AI の業務適用事例、そして新しい基盤モデルの追加が中心でした。AWS Step Functions と Bedrock AgentCore を組み合わせ、生成 AI の推論力と決定論的な検証によるガードレールを両立させてマルチエージェントの意思決定を検証する手法が紹介されました。エージェントが選択肢を提案し、Step Functions が決定論的なルールでそれを検証する構成です。AWS ジャパンブログでは、自動推論の分野に 30 年以上携わってきた著者が、あいまいな自然言語から構造化論理への変換、絶えず変化し時に矛盾するルールのもとでの真理の定義、SAT ソルバーでも越えられない計算量の壁とゲーデルの不完全性定理という 3 つの難題を論じ、第一興商とのカラオケ聴感採点 AI の共同開発、Accenture が Bedrock・AgentCore・Strands Agents SDK・Lambda・RDS・Step Functions を組み合わせて ERP のビジネスプロセス運用を変革する取り組みが紹介されています。機械学習ブログでは、Databricks Genie と Amazon Quick で検知・判断・実行のループを閉じる自動補充の仕組み、プロンプトエンジニアリングから RAG・ファインチューニング・継続事前学習・Amazon Nova Forge までを 8 段階で選ぶ生成 AI カスタマイズの意思決定フレームワーク、Ninth Wave が Bedrock AgentCore 上に構築した銀行 API を FDX 標準で検証するマルチエージェントのオンボーディングアシスタント Compass、AI エージェント向けのエンドユーザー OAuth 同意を扱う AgentCore Identity の Consent ポータル、Abnormal AI が AgentCore Code Interpreter を一時的な計算用スクラッチパッドとして使い数十億メッセージ規模のメール脅威検知を支えている事例が公開されました。ニュースブログでは 9 月 14 日付の週刊ラウンドアップが出ています。セキュリティブログでは、PCI DSS 深掘りガイドとして AWS Security Reference Architecture (SRA) の新しいドキュメントが公開されました。セキュリティ速報では、AWS IAM Identity Center 向けの Temporary Elevated Access Management (TEAM) における権限の誤った割り当て (CVE-2026-86830) が Important として公開されています。SageMaker JumpStart には、IBM の granite-speech-4.1-2b、Kakao の kanana-2-30b-a3b-instruct、OpenFold Consortium の OpenFold3、Google DeepMind の Gemma-4-31B-it-assistant と NVIDIA の Gemma-4-31B-IT-NVFP4、Mistral AI の Ministral-3-3B / 8B-Instruct-2512、NVIDIA の Qwen3.6-35B-A3B-NVFP4、Alibaba の Wan2.1-T2V-1.3B-Diffusers が新たに追加されました。
+  この日は 18 件で、マルチエージェントの検証、エージェント型 AI の業務適用事例、そして新しい基盤モデルの追加が中心でした。AWS Step Functions と Bedrock AgentCore を組み合わせ、生成 AI の推論力と決定論的な検証によるガードレールを両立させてマルチエージェントの意思決定を検証する手法が紹介されました。エージェントが選択肢を提案し、Step Functions が決定論的なルールでそれを検証する構成です。AWS ジャパンブログでは、自動推論の分野に 30 年以上携わってきた著者が、あいまいな自然言語から構造化論理への変換、絶えず変化し時に矛盾するルールのもとでの真理の定義、SAT ソルバーでも越えられない計算量の壁とゲーデルの不完全性定理という 3 つの難題を論じ、第一興商とのカラオケ聴感採点 AI の共同開発、Accenture が Bedrock・AgentCore・Strands Agents SDK・Lambda・RDS・Step Functions を組み合わせて ERP のビジネスプロセス運用を変革する取り組みが紹介されています。機械学習ブログでは、Databricks Genie と Amazon Quick で検知・判断・実行のループを閉じる自動補充の仕組み、プロンプトエンジニアリングから RAG・ファインチューニング・継続事前学習・Amazon Nova Forge までを 8 段階で選ぶ生成 AI カスタマイズの意思決定フレームワーク、Ninth Wave が Bedrock AgentCore 上に構築した銀行 API を FDX 標準で検証するマルチエージェントのオンボーディングアシスタント Compass、AI エージェント向けのエンドユーザー OAuth 同意を扱う AgentCore Identity の Consent ポータル、Abnormal AI が AgentCore Code Interpreter を一時的な計算用スクラッチパッドとして使い数十億メッセージ規模のメール脅威検知を支えている事例が公開されました。ニュースブログでは 9 月 14 日付の週刊ラウンドアップが出ています。セキュリティブログでは、PCI DSS 深掘りガイドとして AWS Security Reference Architecture (SRA) の新しいドキュメントが公開されました。可用性面では、AWS のルートユーザーサインインが米国東部 (バージニア北部)・米国東部 (オハイオ)・米国西部 (オレゴン) の 3 リージョンへ分散され、米国東部 (バージニア北部) への依存を減らすリージョンレジリエンス改善が行われました。AWS Glue の zero-ETL 連携は Salesforce のアーカイブ済みレコードも取り込めるようになり、分析・レポーティング向けに Salesforce データの完全なレプリカを持てるようになっています。セキュリティ速報では、AWS IAM Identity Center 向けの Temporary Elevated Access Management (TEAM) における権限の誤った割り当て (CVE-2026-86830) が Important として公開されています。SageMaker JumpStart には、IBM の granite-speech-4.1-2b、Kakao の kanana-2-30b-a3b-instruct、OpenFold Consortium の OpenFold3、Google DeepMind の Gemma-4-31B-it-assistant と NVIDIA の Gemma-4-31B-IT-NVFP4、Mistral AI の Ministral-3-3B / 8B-Instruct-2512、NVIDIA の Qwen3.6-35B-A3B-NVFP4、Alibaba の Wan2.1-T2V-1.3B-Diffusers が新たに追加されました。
 "topics":
   - "エージェント検証: Step Functions と Bedrock AgentCore で、エージェントの提案を決定論的ルールで検証するマルチエージェント構成"
   - "解説: 自動推論に立ちはだかる 3 つの難題 (自然言語の構造化、変化するルール、計算量の壁とゲーデルの不完全性定理)"
   - "事例: 第一興商とのカラオケ聴感採点 AI、Accenture が Bedrock/AgentCore/Strands で ERP のビジネスプロセス運用を変革"
   - "エージェント事例: Ninth Wave の Compass が FDX 標準で銀行 API を検証するオンボーディングアシスタントを AgentCore 上に構築"
   - "エージェント基盤: AgentCore Identity に Consent ポータル、Abnormal AI が Code Interpreter を一時計算基盤にメール脅威検知を実現"
+  - "可用性: ルートユーザーサインインをバージニア北部・オハイオ・オレゴンの 3 リージョンへ分散しリージョンレジリエンスを改善"
+  - "データ連携: AWS Glue zero-ETL が Salesforce のアーカイブ済みレコードも取り込み、完全なレプリカを構築可能に"
   - "セキュリティ指針: AWS Security Reference Architecture の PCI DSS 深掘りガイドを公開"
   - "脆弱性: IAM Identity Center 向け TEAM における権限の誤った割り当て (CVE-2026-86830)"
   - "モデル: SageMaker JumpStart に granite-speech-4.1-2b、kanana-2-30b-a3b-instruct、OpenFold3、Gemma-4-31B 系、Ministral-3 系、Qwen3.6-35B-A3B-NVFP4 などを追加"
