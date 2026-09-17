@@ -1,0 +1,9 @@
+"entries":
+  "937b08c381612721901a7eb38777e143":
+    "id": "937b08c381612721901a7eb38777e143"
+    "title": "CVE-2026-92943 - Improper validation of certificate with host mismatch in AWS IoT Device SDK for Python"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-114-aws/"
+    "published": "2026-09-18 04:18:01"
+    "fetched": "2026-09-18 06:53:24"
+    "summary": "<p><b>Bulletin ID:</b> 2026-115-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/17/2026 12:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS IoT Device SDK for Python (AWSIoTPythonSDK) is an open source SDK that lets IoT devices and gateways connect to AWS IoT Core over MQTT. We identified CVE-2026-92943 in the MQTT client TLS connection layer, where the client did not validate that the server certificate matched the AWS IoT Core endpoint hostname. On Python 3.7 and later, an adversary-in-the-middle positioned on the network could present a certificate issued for an unrelated hostname by any certificate authority in the device trust store, impersonate the AWS IoT Core endpoint, read device telemetry, and inject arbitrary MQTT messages that the device processes as authentic. Both SDK default connection paths were affected: X.509 mutual authentication on port 8883 and WebSocket with SigV4 on port 443. The port 443 ALPN path was not affected.</p> \n<p><b>Impacted versions:</b> &gt;=1.5.3 AND &lt;=1.6.0 (on Python 3.7 and later)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-09-18 06:53:24 JST"
