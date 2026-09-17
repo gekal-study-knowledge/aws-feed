@@ -1,0 +1,23 @@
+"entries":
+  "8bc967d0a8d370ba18aeddec027bbd05":
+    "id": "8bc967d0a8d370ba18aeddec027bbd05"
+    "title": "How Equinix cut operational overhead with a shared services architecture on Amazon EKS"
+    "link": "https://aws.amazon.com/blogs/architecture/how-equinix-cut-operational-overhead-with-a-shared-services-architecture-on-amazon-eks/"
+    "published": "2026-09-18 03:00:56"
+    "fetched": "2026-09-18 03:46:05"
+    "summary": "Equinix, the world's digital infrastructure company, built a shared services architecture on Amazon EKS to eliminate the operational sprawl of its self-managed Kubernetes environment. Learn how a multi-account North Star architecture centralized governance and shared services, delivering 4x faster deployments and 40% less operational overhead."
+  "87fb055d7c0b0dc74fbf7b002fcb1057":
+    "id": "87fb055d7c0b0dc74fbf7b002fcb1057"
+    "title": "Building cloud-native PACS on AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/building-cloud-native-pacs-on-aws/"
+    "published": "2026-09-18 00:21:06"
+    "fetched": "2026-09-18 03:46:05"
+    "summary": "A hybrid cloud architecture pattern for modernizing medical imaging on AWS. Learn how multi-hospital networks can centralize PACS archives, enable cross-facility interoperability, and use Amazon S3 storage tiers to manage cost and retention at scale."
+  "c518e1a429c0340517a2718bbd25c6c1":
+    "id": "c518e1a429c0340517a2718bbd25c6c1"
+    "title": "How DHI Group accelerates generative AI workloads from idea to production using hackathons"
+    "link": "https://aws.amazon.com/blogs/architecture/how-dhi-group-accelerates-generative-ai-workloads-from-idea-to-production-using-hackathons/"
+    "published": "2026-09-18 00:13:42"
+    "fetched": "2026-09-18 03:46:05"
+    "summary": "Learn how DHI Group partnered with AWS to move generative AI workloads from idea to production using a structured hackathon. This post covers the Hackathon Acceleration Package, the winning ClearanceJobs and AgileATS agentic architecture on Amazon Bedrock AgentCore, and the principles that make hackathons a repeatable path to production."
+"last_updated": "2026-09-18 03:46:05 JST"
