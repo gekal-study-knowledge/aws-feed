@@ -27,4 +27,11 @@
     "published": "2026-09-19 00:25:23"
     "fetched": "2026-09-19 02:26:29"
     "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path."
-"last_updated": "2026-09-19 02:26:29 JST"
+  "c6c93a8496e15ac24e453924be3b2c44":
+    "id": "c6c93a8496e15ac24e453924be3b2c44"
+    "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review"
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/"
+    "published": "2026-09-19 05:52:14"
+    "fetched": "2026-09-19 07:59:04"
+    "summary": "Amazon SageMaker AI shipped 13 inference launches in year-to-date across two deployment paths: fully managed endpoints and Amazon SageMaker HyperPod Inference. This post reviews each launch, from inference recommendations and capacity-aware instance pools to tiered KV caching and disaggregated prefill and decode."
+"last_updated": "2026-09-19 07:59:04 JST"

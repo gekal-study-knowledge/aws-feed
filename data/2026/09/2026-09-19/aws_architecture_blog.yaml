@@ -1,0 +1,9 @@
+"entries":
+  "2d845d0ec2f264a77a3e247734fdd45f":
+    "id": "2d845d0ec2f264a77a3e247734fdd45f"
+    "title": "ReadyOn’s Four Walls of tenant isolation on Amazon EKS"
+    "link": "https://aws.amazon.com/blogs/architecture/readyons-four-walls-of-tenant-isolation-on-amazon-eks/"
+    "published": "2026-09-19 06:33:13"
+    "fetched": "2026-09-19 07:59:03"
+    "summary": "ReadyOn runs a multi-tenant platform on Amazon EKS that handles highly sensitive enterprise data. This post describes their Four Walls model: four independent layers of tenant isolation combining Kubernetes namespaces, Karpenter node pools, Amazon VPC security groups, and per-tenant Amazon Aurora databases for zero-trust defense in depth."
+"last_updated": "2026-09-19 07:59:03 JST"
