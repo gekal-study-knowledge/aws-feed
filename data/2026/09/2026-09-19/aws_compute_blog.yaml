@@ -1,0 +1,9 @@
+"entries":
+  "9a05438c2f7f7c0de1805ac3959c31a7":
+    "id": "9a05438c2f7f7c0de1805ac3959c31a7"
+    "title": "Running self-hosted AI agent sandboxes with AWS Lambda MicroVMs"
+    "link": "https://aws.amazon.com/blogs/compute/running-self-hosted-ai-agent-sandboxes-with-aws-lambda-microvms/"
+    "published": "2026-09-19 00:10:33"
+    "fetched": "2026-09-19 02:26:30"
+    "summary": "Learn how to run AI agent tool calls in secure, isolated sandboxes using AWS Lambda MicroVMs. This post shows how to architect a self-hosted control plane that launches a fresh, VM-isolated MicroVM for each agent session, keeping credentials, networking, and governance entirely within your own AWS account."
+"last_updated": "2026-09-19 02:26:30 JST"

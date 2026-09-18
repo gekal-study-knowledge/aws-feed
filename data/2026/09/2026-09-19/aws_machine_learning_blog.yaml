@@ -1,0 +1,30 @@
+"entries":
+  "d3946099f63267f82e794856ccd81816":
+    "id": "d3946099f63267f82e794856ccd81816"
+    "title": "Introducing Kimi K3 on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/"
+    "published": "2026-09-19 01:52:01"
+    "fetched": "2026-09-19 02:26:29"
+    "summary": "Kimi K3 from Moonshot AI is now available on Amazon Bedrock, giving you a powerful new open-weight option for coding and knowledge work. It offers native vision, a 1-million-token context window, and explicit prompt caching to reduce latency and input costs."
+  "de30f4ba74977dc2e9640518989a324c":
+    "id": "de30f4ba74977dc2e9640518989a324c"
+    "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime"
+    "link": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/"
+    "published": "2026-09-19 00:38:53"
+    "fetched": "2026-09-19 02:26:29"
+    "summary": "Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestration and vector-enhanced knowledge retrieval while reducing infrastructure management. The framework-agnostic pattern applies across healthcare, financial services, and manufacturing."
+  "f6c4bd41f2d704945f64471a3de7ea84":
+    "id": "f6c4bd41f2d704945f64471a3de7ea84"
+    "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts"
+    "link": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/"
+    "published": "2026-09-19 00:31:34"
+    "fetched": "2026-09-19 02:26:29"
+    "summary": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost efficiency that production agents demand. It reclaims memory as sessions release it and delivers consistent cold starts regardless of image size or concurrency."
+  "b63a8de6c822ce9fa501446f272c9b9e":
+    "id": "b63a8de6c822ce9fa501446f272c9b9e"
+    "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents"
+    "link": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/"
+    "published": "2026-09-19 00:25:23"
+    "fetched": "2026-09-19 02:26:29"
+    "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path."
+"last_updated": "2026-09-19 02:26:29 JST"

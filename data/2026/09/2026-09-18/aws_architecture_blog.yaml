@@ -20,4 +20,11 @@
     "published": "2026-09-18 00:13:42"
     "fetched": "2026-09-18 03:46:05"
     "summary": "Learn how DHI Group partnered with AWS to move generative AI workloads from idea to production using a structured hackathon. This post covers the Hackathon Acceleration Package, the winning ClearanceJobs and AgileATS agentic architecture on Amazon Bedrock AgentCore, and the principles that make hackathons a repeatable path to production."
-"last_updated": "2026-09-18 03:46:05 JST"
+  "6f5c65a02517688ad24534d412091c2c":
+    "id": "6f5c65a02517688ad24534d412091c2c"
+    "title": "How CSIRO built scalable, cost-optimized genomic variant querying on AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/how-csiro-built-scalable-cost-optimized-genomic-variant-querying-on-aws/"
+    "published": "2026-09-18 23:35:42"
+    "fetched": "2026-09-19 02:26:29"
+    "summary": "Learn how researchers at CSIRO, Australia's national science agency, built Serverless Beacon (sBeacon), a scalable serverless solution for securely querying genomic variant data on AWS. sBeacon implements the GA4GH Beacon standard using Amazon S3, AWS Lambda, Amazon DynamoDB, and Amazon Athena to support production-scale clinical and research applications."
+"last_updated": "2026-09-19 02:26:29 JST"
