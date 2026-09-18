@@ -1,20 +1,21 @@
 "date": "2026-09-16"
-"generated_at": "2026-09-17 22:11:53 JST"
+"generated_at": "2026-09-19 06:14:44 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 20
+"article_count": 21
 "sources":
   - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_security_blog"
   - "aws_whats_new"
 "overview": |
-  この日は 20 件で、自動推論の 10 年の歩み、IAM / 認証まわりのセキュリティ強化、そしてコスト・接続性のサービス更新が中心でした。AWS ジャパンブログでは、Automated Reasoning Group (ARG) の発足から 10 年を振り返る記事が出て、形式的検証が研究プロトタイプから Amazon Inspector・IAM Access Analyzer・Reachability Analyzer といった顧客向けサービスへ発展し、Nitro Isolation Engine や暗号実装、認可エンジンの正しさの証明にも使われてきた経緯が紹介されています。セキュリティブログでは、CI/CD パイプラインを通じて IAM の是正を自動化し最小権限を運用に乗せる手法、Amazon Cognito のマルチリージョンレプリケーションでレジリエントな認証を構築するアーキテクチャ、AWS STS がセッショントークンのサイズ制限を単純化し (旧来の個別上限を単一の 4,096 バイト上限へ統一)、サイズの監視機能も追加したことが解説されました。機械学習ブログでは、SageMaker AI の学習・処理ジョブ向けにインスタンスタイプを優先順位付きで最大 5 つ指定できる instance preference lists、Qwen3-8B を教師ありファインチューニングと検証可能な報酬による強化学習でカスタマイズする商品タグ付けシステムの構築、Bedrock のプロンプトキャッシングで入力トークンのコストを最大 90% 削減する 6 つの実践シナリオが紹介されています。サービス更新では、Amazon Connect Customer のエージェントが希望シフトに入札できる機能、Amazon Q Console で CloudTrail イベントを自然言語で分析できる機能、Step Functions が AWS Lambda MicroVMs をはじめ新サービスの SDK 統合を数週間以内に自動追加するようになったこと、AWS Billing Conductor のカスタムレートと使用量ティア料金設定、AWS Direct Connect の 10G / 100G 専用接続向け定額料金、Billing and Cost Management の Detected Anomalies ウィジェットが加わりました。国内では自治体向けクラウドコスト最適化シリーズの連載開始と、情報危機管理コンテストの参加チームへのインタビューも公開されています。
+  この日は 21 件で、自動推論の 10 年の歩み、IAM / 認証まわりのセキュリティ強化、そしてコスト・接続性のサービス更新が中心でした。AWS ジャパンブログでは、Automated Reasoning Group (ARG) の発足から 10 年を振り返る記事が出て、形式的検証が研究プロトタイプから Amazon Inspector・IAM Access Analyzer・Reachability Analyzer といった顧客向けサービスへ発展し、Nitro Isolation Engine や暗号実装、認可エンジンの正しさの証明にも使われてきた経緯が紹介されています。セキュリティブログでは、CI/CD パイプラインを通じて IAM の是正を自動化し最小権限を運用に乗せる手法、Amazon Cognito のマルチリージョンレプリケーションでレジリエントな認証を構築するアーキテクチャ、AWS STS がセッショントークンのサイズ制限を単純化し (旧来の個別上限を単一の 4,096 バイト上限へ統一)、サイズの監視機能も追加したことが解説されました。機械学習ブログでは、SageMaker AI の学習・処理ジョブ向けにインスタンスタイプを優先順位付きで最大 5 つ指定できる instance preference lists、Qwen3-8B を教師ありファインチューニングと検証可能な報酬による強化学習でカスタマイズする商品タグ付けシステムの構築、Bedrock のプロンプトキャッシングで入力トークンのコストを最大 90% 削減する 6 つの実践シナリオが紹介されています。サービス更新では、Amazon Connect Customer のエージェントが希望シフトに入札できる機能、Amazon Q Console で CloudTrail イベントを自然言語で分析できる機能、Step Functions が AWS Lambda MicroVMs をはじめ新サービスの SDK 統合を数週間以内に自動追加するようになったこと、AWS Billing Conductor のカスタムレートと使用量ティア料金設定、AWS Direct Connect の 10G / 100G 専用接続向け定額料金、Billing and Cost Management の Detected Anomalies ウィジェットが加わりました。採用領域では、Amazon Connect Talent が一般提供となり、採用担当リーダー向けに大規模な候補者選考を加速する AI 採用ソリューションを提供します。国内では自治体向けクラウドコスト最適化シリーズの連載開始と、情報危機管理コンテストの参加チームへのインタビューも公開されています。
 "topics":
   - "解説: Automated Reasoning Group の 10 年、形式的検証が Inspector・IAM Access Analyzer・Reachability Analyzer へ発展"
   - "セキュリティ: CI/CD による IAM 是正の自動化、Cognito のマルチリージョンレプリケーションによるレジリエントな認証"
   - "セキュリティ: AWS STS がセッショントークンのサイズ上限を単一の 4,096 バイトへ簡素化し監視機能を追加"
   - "機械学習: SageMaker AI の学習/処理ジョブに instance preference lists、Bedrock プロンプトキャッシングで入力コストを最大 90% 削減"
   - "コンタクトセンター: Connect Customer のエージェントが希望シフトに入札可能に、Q Console で CloudTrail を自然言語分析"
+  - "採用: Amazon Connect Talent が GA、AI による大規模な候補者選考を支援"
   - "運用自動化: Step Functions が新サービスの SDK 統合を数週間以内に自動追加 (Lambda MicroVMs から開始)"
   - "コスト / 接続: Billing Conductor のカスタムレート、Direct Connect の 10G/100G 定額料金、Detected Anomalies ウィジェット"
   - "国内: 自治体向けクラウドコスト最適化シリーズ開始、情報危機管理コンテスト参加チームへのインタビュー"
