@@ -48,4 +48,11 @@
     "published": "2026-09-18 00:28:08"
     "fetched": "2026-09-18 03:46:06"
     "summary": "Learn how to build a synthetic data augmentation pipeline on Amazon SageMaker AI and Amazon Rekognition that generates photo-realistic, auto-labeled training images for industrial safety AI. This approach improved person detection by up to 160% without manual annotation or hazardous data collection near heavy machinery."
-"last_updated": "2026-09-18 03:46:06 JST"
+  "efd8e5546c32b7de2b485813a9582fdf":
+    "id": "efd8e5546c32b7de2b485813a9582fdf"
+    "title": "Introducing Amazon SageMaker HyperPod Inference Gateway"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/"
+    "published": "2026-09-18 22:08:34"
+    "fetched": "2026-09-18 22:20:28"
+    "summary": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS. It uses real-time GPU signals to send each inference request to the best-suited pod, cutting first-token latency by up to 82% with no changes to your model servers or client applications."
+"last_updated": "2026-09-18 22:20:28 JST"
