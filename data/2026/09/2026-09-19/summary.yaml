@@ -1,16 +1,22 @@
 "date": "2026-09-19"
-"generated_at": "2026-09-19 06:14:44 JST"
+"generated_at": "2026-09-20 08:10:07 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 9
+"article_count": 15
 "sources":
+  - "aws_architecture_blog"
   - "aws_compute_blog"
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_whats_new"
 "overview": |
-  この日は 9 件で、新しいオープンウェイトモデルの追加と AgentCore Runtime の刷新解説が中心でした。Moonshot AI の Kimi K3 が Amazon Bedrock で一般提供となり、ネイティブなビジョン対応と 100 万トークンのコンテキストウィンドウを備え、コーディングやナレッジワーク向けの強力なオープンウェイトの選択肢として同じセキュリティとガバナンスのもとで使えます。機械学習ブログでは、前日に発表された新しい AgentCore Runtime について、メモリを必要に応じて回収する弾力的な設計と安定した高速な起動を解説する記事と、自己管理の ECS と Fargate で動いていたマルチモデルの医療 AI エージェントを、3 モデルのオーケストレーションとベクトル強化された知識検索を保ったまま AgentCore Runtime へ移行する事例が公開されました。あわせて、6 つのオープンソースエージェントスキルを使い、コーディングエージェントに指示するだけで Hugging Face のモデルを SageMaker AI 上のリアルタイムエンドポイントとして本番デプロイする方法も紹介されています。コンピュートブログでは、AWS Lambda MicroVMs を使い、エージェントのツール呼び出しごとに新しい VM 分離の MicroVM を起動するセルフホスト型のコントロールプレーンで、安全に隔離されたエージェントサンドボックスを実行する設計が解説されています。サービス更新では、AWS RTB Fabric がレスポンダーゲートウェイの Availability Zone アフィニティを設定できるようになり、Amazon ECS Express Mode が AWS Graviton (ARM64) ワークロードに対応、ペネトレーションテスト用のフロンティアエージェント AWS Continuum が認証情報のテストとアクセスしやすいドメインの提案に対応しました。
+  この日は 15 件で、新しいオープンウェイトモデルの追加、AgentCore Runtime の刷新解説、そしてエージェントによる開発・運用の実践例が中心でした。Moonshot AI の Kimi K3 が Amazon Bedrock で一般提供となり、ネイティブなビジョン対応と 100 万トークンのコンテキストウィンドウを備え、コーディングやナレッジワーク向けの強力なオープンウェイトの選択肢として同じセキュリティとガバナンスのもとで使えます。機械学習ブログでは、前日に発表された新しい AgentCore Runtime について、メモリを必要に応じて回収する弾力的な設計と安定した高速な起動を解説する記事と、自己管理の ECS と Fargate で動いていたマルチモデルの医療 AI エージェントを、3 モデルのオーケストレーションとベクトル強化された知識検索を保ったまま AgentCore Runtime へ移行する事例が公開されました。あわせて、6 つのオープンソースエージェントスキルを使い、コーディングエージェントに指示するだけで Hugging Face のモデルを SageMaker AI 上のリアルタイムエンドポイントとして本番デプロイする方法と、フルマネージドエンドポイントと SageMaker HyperPod Inference の 2 つの提供形態にまたがる 2026 年の推論関連 13 件のローンチを振り返る記事も紹介されています。コンピュートブログでは、AWS Lambda MicroVMs を使い、エージェントのツール呼び出しごとに新しい VM 分離の MicroVM を起動するセルフホスト型のコントロールプレーンで、安全に隔離されたエージェントサンドボックスを実行する設計が解説されました。アーキテクチャブログでは、機微なエンタープライズデータを扱うマルチテナント基盤を Amazon EKS 上で運用する ReadyOn が、テナント分離を 4 層の独立した壁として設計する「Four Walls」モデルを紹介しています。AWS ジャパンブログでは、エージェントに現場を任せるときの境界線をピックアップトピックとした月刊 AWS 製造 2026 年 9 月号と、Kiro Crew を開発する 3 人が 7 日間で 1,000 件 (1 日あたり 120 件超) のプルリクエストを CI とレビューを通してマージしたソフトウェアファクトリーの事例が公開されました。サービス更新では、Amazon SNS のメッセージペイロード上限が従来の 256 KiB から 4 倍の 1 MiB に拡大し、AWS Resilience Hub は次世代として 3 つの新機能を追加、AWS RTB Fabric がレスポンダーゲートウェイの Availability Zone アフィニティを設定できるようになり、Amazon ECS Express Mode が AWS Graviton (ARM64) ワークロードに対応、ペネトレーションテスト用のフロンティアエージェント AWS Continuum が認証情報のテストとアクセスしやすいドメインの提案に対応しました。
 "topics":
   - "モデル: Moonshot AI の Kimi K3 が Amazon Bedrock で GA、ネイティブなビジョンと 100 万トークンのコンテキストを備えたオープンウェイト"
   - "エージェント基盤: 新しい AgentCore Runtime の弾力的なメモリ管理と高速起動を解説、ECS/Fargate からの移行事例"
   - "開発体験: 6 つのオープンソースエージェントスキルでコーディングエージェントが Hugging Face モデルを SageMaker AI へデプロイ"
+  - "推論の振り返り: SageMaker AI の 2026 年の推論ローンチ 13 件をマネージドエンドポイントと HyperPod Inference の 2 経路で整理"
   - "セキュリティ設計: Lambda MicroVMs でツール呼び出しごとに VM 分離のエージェントサンドボックスを起動するセルフホスト設計"
-  - "サービス更新: RTB Fabric の AZ アフィニティ設定、ECS Express Mode の Graviton 対応、AWS Continuum の認証情報テスト対応"
+  - "マルチテナント: ReadyOn が EKS 上で 4 層独立のテナント分離「Four Walls」モデルを公開"
+  - "国内: 月刊 AWS 製造 2026 年 9 月号、Kiro Crew の 3 人が 7 日間で 1,000 件の PR をマージしたソフトウェアファクトリー"
+  - "メッセージング: Amazon SNS のペイロード上限が 256 KiB から 1 MiB へ 4 倍に拡大"
+  - "サービス更新: AWS Resilience Hub が 3 つの新機能を追加、RTB Fabric の AZ アフィニティ設定、ECS Express Mode の Graviton 対応、AWS Continuum の認証情報テスト対応"
