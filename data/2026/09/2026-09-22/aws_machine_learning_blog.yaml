@@ -27,4 +27,11 @@
     "published": "2026-09-22 01:24:40"
     "fetched": "2026-09-22 02:47:15"
     "summary": "EXL built an AI-powered Medical intelligent document processing (IDP) solution on AWS, combining IDP with domain-specific large language models on Amazon SageMaker and Amazon Bedrock to extract, summarize, and query medical records at enterprise scale and cut claims review time from over 100 minutes per case."
-"last_updated": "2026-09-22 02:47:15 JST"
+  "5c931e44af87bdd3b735eb12d29f6c2b":
+    "id": "5c931e44af87bdd3b735eb12d29f6c2b"
+    "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/"
+    "published": "2026-09-22 03:30:34"
+    "fetched": "2026-09-22 06:38:53"
+    "summary": "xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token context window and four reasoning effort levels. It runs on both the bedrock-mantle and bedrock-runtime endpoints, with Converse API and cross-Region inference support."
+"last_updated": "2026-09-22 06:38:53 JST"
