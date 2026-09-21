@@ -1,0 +1,30 @@
+"entries":
+  "cf33301861fda215d7eb24c8bc049966":
+    "id": "cf33301861fda215d7eb24c8bc049966"
+    "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/"
+    "published": "2026-09-22 01:36:10"
+    "fetched": "2026-09-22 02:47:15"
+    "summary": "BMW Group operates CLEA, a FinOps platform monitoring more than 14,000 cloud accounts. This post shows how BMW added automated daily cost anomaly detection, moving from reactive dashboards to proactive alerts using Prophet forecasting, AWS Step Functions, and a serverless pipeline that processes every account for about $50 per month."
+  "adabe85f35b0d0257d4b545d4c1d76ee":
+    "id": "adabe85f35b0d0257d4b545d4c1d76ee"
+    "title": "Run Positron on Amazon SageMaker AI for data science workflows"
+    "link": "https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows/"
+    "published": "2026-09-22 01:34:21"
+    "fetched": "2026-09-22 02:47:15"
+    "summary": "Positron, Posit's IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena table, validates features in R, trains an XGBoost model in Python, deploys a real-time SageMaker AI endpoint, and reports results with Quarto, all in one governed SageMaker Studio Space."
+  "f27fecbe355bcea8bf03dfdd94184a16":
+    "id": "f27fecbe355bcea8bf03dfdd94184a16"
+    "title": "How Benchling secured multi-tenant AI agents with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore/"
+    "published": "2026-09-22 01:27:34"
+    "fetched": "2026-09-22 02:47:15"
+    "summary": "Learn how Benchling built a defense-in-depth security architecture to run untrusted, AI agent-generated scientific code across thousands of life sciences tenants using Amazon Bedrock AgentCore Code Interpreter in VPC mode, combined with Amazon Route 53 Resolver DNS Firewall and VPC endpoint policies to block data exfiltration, including through DNS."
+  "c94e426c5dc3ac7f5373d079ad36fda7":
+    "id": "c94e426c5dc3ac7f5373d079ad36fda7"
+    "title": "Reducing medical claims review time with AI on AWS: The EXL Medical IDP solution"
+    "link": "https://aws.amazon.com/blogs/machine-learning/reducing-medical-claims-review-time-with-ai-on-aws-the-exl-medical-idp-solution/"
+    "published": "2026-09-22 01:24:40"
+    "fetched": "2026-09-22 02:47:15"
+    "summary": "EXL built an AI-powered Medical intelligent document processing (IDP) solution on AWS, combining IDP with domain-specific large language models on Amazon SageMaker and Amazon Bedrock to extract, summarize, and query medical records at enterprise scale and cut claims review time from over 100 minutes per case."
+"last_updated": "2026-09-22 02:47:15 JST"
