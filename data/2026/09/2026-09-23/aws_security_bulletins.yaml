@@ -6,4 +6,11 @@
     "published": "2026-09-23 02:10:17"
     "fetched": "2026-09-23 04:31:41"
     "summary": "<p><b>Bulletin ID:</b> 2026-115-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 09/22/2026 10:00 AM PDT</p>\n<p><b>Description:</b></p>\n<p>Amazon Connect Salesforce Lambda (AmazonConnectSalesforceLambda) is a Serverless Application Repository application that provides Lambda functions for integrating Amazon Connect with Salesforce. We identified CVE-2026-94384, a missing authorization issue in the sfExecuteAWSService Lambda function, which is used only during initial setup. The function dispatches caller-supplied parameters to privileged AWS service APIs without validating the caller's authorization. As a result, an IAM principal with lambda:InvokeFunction permission on the function can perform AWS operations that their own IAM permissions would otherwise deny.</p>\n<p><b>Impacted versions:</b> &gt;= 5.15 AND &lt;= 5.24.16</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
-"last_updated": "2026-09-23 04:31:41 JST"
+  "d3ab47b2963b32933cf567e1e3fdafaa":
+    "id": "d3ab47b2963b32933cf567e1e3fdafaa"
+    "title": "CVE-2026-94450 - Potential denial of service when configured to send Retry packets in s2n-quic"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-116-aws/"
+    "published": "2026-09-23 05:08:17"
+    "fetched": "2026-09-23 07:41:26"
+    "summary": "<p><b>Bulletin ID:</b> 2026-116-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 09/22/2026 13:00 PM PDT</p>\n<p><b>Description:</b></p>\n<p>s2n-quic is a Rust implementation of the QUIC protocol. We identified CVE-2026-94450, an issue with improper validation of the Destination Connection ID length when a server is configured to send Retry packets. s2n-quic 1.88.0 and earlier allow an unauthenticated user to shut down a server endpoint via a single crafted UDP datagram. No AWS services are affected by this issue, and customers of AWS services do not need to take action. Only server endpoints specifically configured to issue Retry packets are affected.</p>\n<p><b>Impacted versions:</b> &lt;= v1.88.0</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-09-23 07:41:26 JST"

@@ -1,0 +1,16 @@
+"entries":
+  "9354238f8763d63a555367ca94d6b1b9":
+    "id": "9354238f8763d63a555367ca94d6b1b9"
+    "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications"
+    "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/"
+    "published": "2026-09-23 07:23:14"
+    "fetched": "2026-09-23 07:41:24"
+    "summary": "Amazon CloudWatch Omni is the next evolution of CloudWatch — unified observability that brings your applications and AI agents into one reimagined experience, with auto-discovered topology, natural language queries, and AI-guided investigation powered by AWS DevOps Agent."
+  "1d943d781ba750ace4245b5903724790":
+    "id": "1d943d781ba750ace4245b5903724790"
+    "title": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads"
+    "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/"
+    "published": "2026-09-23 07:21:13"
+    "fetched": "2026-09-23 07:41:24"
+    "summary": "Learn how Amazon CloudWatch Omni delivers AI-powered observability purpose-built for generative AI and agentic workloads. Trace, evaluate, and experiment with AI agents across any framework—directly from your IDE or a standalone web experience—using open standards and built-in evaluators for quality, correctness, and coherence."
+"last_updated": "2026-09-23 07:41:24 JST"
