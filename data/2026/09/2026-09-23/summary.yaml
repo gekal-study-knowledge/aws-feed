@@ -1,0 +1,23 @@
+"date": "2026-09-23"
+"generated_at": "2026-09-23 08:18:26 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 17
+"sources":
+  - "aws_compute_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 17 件で、新しいモデルの追加と、生成 AI 向けの可観測性、そして AgentCore の事例が中心でした。Anthropic の Claude Opus 5.5 が Amazon Bedrock と AWS 上の Claude Platform で利用可能になり、エージェント型のコーディング・ナレッジワーク・長時間タスク向けの最も高性能な Opus モデルとして、AWS GovCloud (米国) でも同時に提供が始まりました。OpenAI の GPT-6 Sol と GPT-6 Luna も Amazon Bedrock で一般提供となり、既存の Astra とあわせて GPT-6 ファミリーが広がって、ワークロードごとに知能と効率を選べるようになっています。ニュースブログでは Amazon CloudWatch Omni が発表されました。生成 AI とエージェント型ワークロード向けに作られた AI 駆動の可観測性で、任意の環境の AI エージェントをトレース・評価・実験でき、アプリケーションと AI エージェントを自動検出とともに 1 つの体験へまとめる CloudWatch の次の形と位置づけられています。機械学習ブログでは、約 4 週間で構築した Trane Technologies のエージェント型ソリューションが 20 分かかっていた複数画面のビル診断を 20 秒に短縮した事例 (60 倍)、Reactiv が AgentCore のマルチエージェント AI スケジューラーで Shopify 加盟店のモバイルアプリ更新を自律化し設定作業を 80% 速くした事例、Tata Elxsi がエッジで映像を絞り込み Kinesis 経由でメタデータを流すリアルタイム産業安全プラットフォーム IRIS、Bedrock Data Automation と Agentforce を組み合わせてボディカメラ映像やスキャン文書といった非構造化証拠を扱う公共部門向けの構成が紹介されました。あわせて、負荷を段階的に上げて計測する並行実行スイープで SageMaker AI の生成 AI エンドポイントを適正サイズにする方法と、スキルを備えたエージェントが正しいスキルを選び手順どおりに従ったかを Strands Evals と AgentCore で評価する方法も解説されています。コンピュートブログでは、Application Load Balancer を使って AWS Lambda MicroVMs に独自ドメインを割り当て、アプリケーションを変更せずにブラウザークライアントの CORS も満たす方法が公開されました。サービス更新では、AWS Billing Transfer が 2 階層の移管において請求グループを自動作成できるようになっています。セキュリティ速報では、Amazon Connect Salesforce Lambda の sfExecuteAWSService における認可の欠落 (CVE-2026-94384)、および Retry パケットを送信する設定時の s2n-quic におけるサービス拒否の可能性 (CVE-2026-94450) が、いずれも Important として公開されました。
+"topics":
+  - "モデル: Claude Opus 5.5 が Amazon Bedrock と AWS 上の Claude Platform で利用可能に、GovCloud (米国) でも提供開始"
+  - "モデル: OpenAI の GPT-6 Sol と GPT-6 Luna が Amazon Bedrock で GA、Astra とあわせて GPT-6 ファミリーが拡大"
+  - "可観測性: Amazon CloudWatch Omni を発表、生成 AI とエージェント型ワークロード向けの AI 駆動の可観測性"
+  - "エージェント事例: Trane がビル診断を 20 分から 20 秒へ (60 倍)、Reactiv が Shopify 加盟店のアプリ更新を 80% 高速化"
+  - "エージェント評価: Strands Evals と AgentCore で、スキルを備えたエージェントが正しいスキルを選べたかを評価"
+  - "推論の適正化: 並行実行スイープで SageMaker AI の生成 AI エンドポイントを適正サイズに"
+  - "公共部門 / 産業: Bedrock Data Automation と Agentforce で非構造化証拠を処理、Tata Elxsi の産業安全基盤 IRIS"
+  - "コンピュート: ALB で Lambda MicroVMs に独自ドメインを割り当て、CORS もアプリ変更なしで満たす"
+  - "請求: AWS Billing Transfer が 2 階層の移管で請求グループを自動作成"
+  - "脆弱性: Amazon Connect Salesforce Lambda の認可欠落 (CVE-2026-94384)、s2n-quic のサービス拒否 (CVE-2026-94450)"
