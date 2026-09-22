@@ -1,0 +1,9 @@
+"entries":
+  "563c8c85d2e81febe01e4aebeb4e58d1":
+    "id": "563c8c85d2e81febe01e4aebeb4e58d1"
+    "title": "Adding custom domains to AWS Lambda MicroVMs with Application Load Balancer"
+    "link": "https://aws.amazon.com/blogs/compute/adding-custom-domains-to-aws-lambda-microvms-with-application-load-balancer/"
+    "published": "2026-09-23 01:48:32"
+    "fetched": "2026-09-23 04:31:42"
+    "summary": "Many teams want to expose their AWS Lambda MicroVMs under a custom domain they own, and satisfy CORS for browser clients, without changing the application. This post shows how, using an Application Load Balancer that rewrites the Host header and forwards over AWS PrivateLink, deployed with the AWS CDK."
+"last_updated": "2026-09-23 04:31:42 JST"
