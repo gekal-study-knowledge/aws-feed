@@ -1,0 +1,16 @@
+"entries":
+  "dd727faa183c6775f157353e7da7ab98":
+    "id": "dd727faa183c6775f157353e7da7ab98"
+    "title": "How Tata Elxsi detects industrial safety risks in seconds on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/"
+    "published": "2026-09-23 00:19:54"
+    "fetched": "2026-09-23 00:23:24"
+    "summary": "Learn how Tata Elxsi built IRIS, a real-time industrial safety platform on AWS. IRIS filters camera video at the edge, streams metadata through Amazon Kinesis, runs computer vision on Amazon SageMaker AI, and correlates detections into high-confidence alerts, detecting unsafe conditions in seconds instead of minutes."
+  "2f7bd4310d68563648b8e5022a246dee":
+    "id": "2f7bd4310d68563648b8e5022a246dee"
+    "title": "Extending public sector intelligence with Agentforce and AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/"
+    "published": "2026-09-23 00:17:45"
+    "fetched": "2026-09-23 00:23:24"
+    "summary": "Public sector agencies process large volumes of unstructured evidence, such as body camera footage and scanned documents. This post shows how to combine Amazon Bedrock Data Automation with the Model Context Protocol (MCP) to turn that data into structured insights and surface them through natural language queries in Salesforce Agentforce."
+"last_updated": "2026-09-23 00:23:24 JST"
