@@ -1,0 +1,15 @@
+"date": "2026-09-24"
+"generated_at": "2026-09-24 08:18:13 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 5
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は 5 件で、オープンウェイトモデルを使うコーディングエージェントと、エージェント構成の実践例が中心でした。機械学習ブログでは、ターミナルで動くオープンソースの AI コーディングエージェント OpenCode を Amazon Bedrock 上のオープンウェイトモデルと組み合わせ、安全で柔軟な従量課金のコーディングアシスタントとして使う設定方法が紹介されました。また、Strands Agents SDK の単一エージェントが Amazon Bedrock と Amazon Rekognition などをオーケストレーションする、対話型の映像インテリジェンスをエージェント型アーキテクチャで構築する方法と、創業 100 年のオランダの小売企業 HEMA が Amazon Bedrock AgentCore 上に社内 AI アシスタント HAL を構築し、Model Context Protocol を使って開発者がポータルを渡り歩く状態から即座に答えが返る状態へ変えた事例が公開されています。サービス更新では、Amazon Connect Customer がルーティングのステップデータを分析データレイクに提供するようになり、ルーティング判断からインサイトを得やすくなりました。Amazon Bedrock Managed Knowledge Base は、フルマネージドの検索拡張生成 (RAG) サービスとして Salesforce と Zendesk をネイティブのデータソースコネクタとしてサポートします。
+"topics":
+  - "コーディングエージェント: OpenCode と Bedrock のオープンウェイトモデルで従量課金のコーディングアシスタントを構成"
+  - "映像解析: Strands Agents SDK の単一エージェントが Bedrock と Rekognition を束ねる対話型映像インテリジェンス"
+  - "事例: HEMA が AgentCore と MCP で社内 AI アシスタント HAL を構築、ポータル巡りを即答に置き換え"
+  - "コンタクトセンター: Amazon Connect Customer がルーティングのステップデータを分析データレイクに提供"
+  - "RAG: Bedrock Managed Knowledge Base が Salesforce と Zendesk をネイティブコネクタとしてサポート"
