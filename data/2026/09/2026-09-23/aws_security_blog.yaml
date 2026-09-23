@@ -1,0 +1,9 @@
+"entries":
+  "8970b62e1a686f2770f9d75392812bab":
+    "id": "8970b62e1a686f2770f9d75392812bab"
+    "title": "Supporting ASD’s multi-factor authentication campaign: Why MFA matters more than ever"
+    "link": "https://aws.amazon.com/blogs/security/supporting-asds-multi-factor-authentication-campaign-why-mfa-matters-more-than-ever/"
+    "published": "2026-09-23 23:45:44"
+    "fetched": "2026-09-24 03:12:21"
+    "summary": "The Australian Signals Directorate (ASD) has this month issued a clear call to action through its Multi-factor authentication: Switch it on campaign, urging businesses, organisations, and individuals to enable multi-factor authentication (MFA) across their online accounts. At AWS, we strongly support this message. As threat actors continue to target credentials through phishing, credential stuffing, and […]"
+"last_updated": "2026-09-24 03:12:21 JST"
