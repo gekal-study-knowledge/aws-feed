@@ -1,7 +1,7 @@
 "date": "2026-09-22"
-"generated_at": "2026-09-23 08:18:26 JST"
+"generated_at": "2026-09-23 14:53:12 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 14
+"article_count": 16
 "sources":
   - "aws_japan_blog"
   - "aws_machine_learning_blog"
@@ -9,17 +9,16 @@
   - "aws_security_blog"
   - "aws_whats_new"
 "overview": |
-  この日は 10 件で、新しいフロンティアモデルの追加と、エージェントやコスト管理の実践事例が中心でした。xAI の Grok 4.6 が Amazon Bedrock で利用可能になり、長時間動作するエージェント・コーディング・ナレッジワーク向けのフロンティアモデルとして、50 万トークンのコンテキストウィンドウと 4 段階の推論強度を備えます。機械学習ブログでは、Benchling が数千のライフサイエンステナントにまたがる信頼できない AI エージェント生成コードを実行するために、Amazon Bedrock AgentCore Code Interpreter 上で多層防御のセキュリティアーキテクチャを構築した事例、EXL が IDP とドメイン特化の大規模言語モデルを SageMaker と Bedrock で組み合わせ医療保険請求のレビュー時間を短縮した Medical IDP ソリューション、BMW Group が 14,000 を超えるクラウドアカウントを監視する FinOps プラットフォーム CLEA に日次の自動コスト異常検知を追加し事後対応から脱した事例が公開されました。あわせて、Posit のデータサイエンス向け IDE である Positron が Amazon SageMaker AI 上で動作するようになり、Athena のテーブルを探索して R で特徴量を検証し XGBoost を学習させるまでの流れが紹介されています。セキュリティブログでは、Bedrock Guardrails の介入イベントを CloudWatch で OCSF 形式に変換し、既存のセキュリティテレメトリーと並べてプロンプトインジェクションなど AI 関連のセキュリティイベントを調査する方法が解説されました。サービス更新では、Amazon ECS がネイティブの Linear・Canary・Blue/Green デプロイ戦略について、AWS マネジメントコンソールでリアルタイムのデプロイ可観測性を提供するようになり、Amazon Elastic VMware Service (EVS) が米国の全リージョンで FedRAMP Class C (旧 Moderate ベースライン) の対象になりました。ニュースブログでは、AWS Builder Center のモバイルアプリ、Amazon Connect Talent の一般提供、Amazon Corretto 27 などを扱う週刊まとめ (2026 年 9 月 21 日) が出ています。AWS ジャパンブログでは、Kiro の使い方を 1 週間で学ぶオンラインチャレンジ「Kiro University Challenge」が案内され、レッスンと最終課題で最大 5,250 クレジットが得られます。このほかのサービス更新では、AWS Security Hub の AI インベントリが Microsoft Azure 上のセルフホストインスタンスで動く AI アセットの検出・カタログ化に対応し、Amazon Route 53 Resolver が第 2 世代の AWS Outposts ラックで一般提供となって Outpost 上でローカルなマネージド再帰 DNS 解決を提供、AWS Glue Data Quality は Glue データカタログのテーブル向けにコンテキストに応じたデータ品質ルールを数秒で生成できるようになり、Amazon RDS Custom for SQL Server が Microsoft SQL Server の最新の累積更新 (CU) に対応しました。
+  この日は 16 件で、新しいフロンティアモデルの追加と、エージェントやコスト管理の実践事例、そしてデータ処理基盤の更新が中心でした。xAI の Grok 4.6 が Amazon Bedrock で利用可能になり、長時間動作するエージェント・コーディング・ナレッジワーク向けのフロンティアモデルとして、50 万トークンのコンテキストウィンドウと 4 段階の推論強度を備えます。機械学習ブログでは、Benchling が数千のライフサイエンステナントにまたがる信頼できない AI エージェント生成コードを実行するために、Amazon Bedrock AgentCore Code Interpreter 上で多層防御のセキュリティアーキテクチャを構築した事例、EXL が IDP とドメイン特化の大規模言語モデルを SageMaker と Bedrock で組み合わせ医療保険請求のレビュー時間を短縮した Medical IDP ソリューション、BMW Group が 14,000 を超えるクラウドアカウントを監視する FinOps プラットフォーム CLEA に日次の自動コスト異常検知を追加し事後対応から脱した事例が公開されました。あわせて、Posit のデータサイエンス向け IDE である Positron が Amazon SageMaker AI 上で動作するようになり、Athena のテーブルを探索して R で特徴量を検証し XGBoost を学習させるまでの流れが紹介されています。セキュリティブログでは、Bedrock Guardrails の介入イベントを CloudWatch で OCSF 形式に変換し、既存のセキュリティテレメトリーと並べてプロンプトインジェクションなど AI 関連のセキュリティイベントを調査する方法が解説されました。データ処理では、Amazon EMR が長期サポート (LTS) リリースを導入し、emr-spark-8.1.0 と Apache Spark 4.1 を皮切りに、指定バージョンの Apache Spark 向け AWS ランタイムが 36 か月のサポートを受けられるようになりました。あわせて Amazon EMR 7.14 が EC2・EKS・Serverless の各形態にまたがる新機能とアプリケーションのバージョン更新を伴って提供開始となり、AWS Glue Data Quality は Glue Data Catalog のテーブル向けにコンテキストに応じたルールを数秒で推奨するようになっています。サービス更新では、Amazon ECS がネイティブの Linear・Canary・Blue/Green デプロイ戦略についてマネジメントコンソールでリアルタイムのデプロイ可観測性を提供するようになり、Amazon Elastic VMware Service (EVS) が米国の全リージョンで FedRAMP Class C (旧 Moderate ベースライン) の対象に、Amazon RDS Custom for SQL Server が SQL Server 2022 CU26 を含む最新の累積更新 (CU) に対応、AWS Security Hub AI Inventory が Microsoft Azure 上のセルフホストインスタンスで動く AI 資産の検出とカタログ化に対応、Amazon Route 53 Resolver が第 2 世代の AWS Outposts ラックで一般提供となりローカルでマネージドな再帰 DNS 解決を提供します。ニュースブログでは、AWS Builder Center のモバイルアプリ、Amazon Connect Talent の一般提供、Amazon Corretto 27 などを扱う週刊まとめ (2026 年 9 月 21 日) が出ています。AWS ジャパンブログでは、Kiro の使い方を 1 週間で学ぶオンラインチャレンジ「Kiro University Challenge」が案内され、レッスンと最終課題で最大 5,250 クレジットが得られます。
 "topics":
   - "モデル: xAI の Grok 4.6 が Amazon Bedrock で利用可能に、50 万トークンのコンテキストと 4 段階の推論強度"
   - "エージェント基盤: Benchling が AgentCore Code Interpreter 上で、信頼できないエージェント生成コードを多層防御で隔離実行"
   - "業務適用: EXL が IDP とドメイン特化 LLM で医療保険請求のレビュー時間を短縮"
   - "コスト管理: BMW Group が 14,000 超のクラウドアカウントに日次の自動コスト異常検知を導入"
+  - "データ処理: Amazon EMR が LTS リリースを開始、emr-spark-8.1.0 / Apache Spark 4.1 で 36 か月サポート。EMR 7.14 も提供開始"
+  - "データ品質: AWS Glue Data Quality がテーブルに応じたルールを数秒で推奨"
   - "データサイエンス: Posit の IDE Positron が Amazon SageMaker AI 上で利用可能に"
-  - "セキュリティ: Bedrock Guardrails の介入イベントを CloudWatch で OCSF に変換し既存のテレメトリーと統合"
+  - "セキュリティ: Bedrock Guardrails の介入イベントを CloudWatch で OCSF に変換し既存のテレメトリーと統合。Security Hub AI Inventory が Azure セルフホストに対応"
   - "コンテナ: Amazon ECS が Linear・Canary・Blue/Green デプロイのリアルタイム可観測性をコンソールで提供"
-  - "コンプライアンス: Amazon EVS が米国全リージョンで FedRAMP Class C (旧 Moderate) の対象に"
+  - "サービス更新: Amazon EVS が米国全リージョンで FedRAMP Class C の対象に、RDS Custom for SQL Server が SQL Server 2022 CU26 に対応、Route 53 Resolver が第 2 世代 Outposts で GA"
   - "国内: Kiro University Challenge、1 週間のレッスンと最終課題で最大 5,250 クレジット"
-  - "セキュリティ: Security Hub の AI インベントリが Azure 上のセルフホストインスタンスの AI アセットにも対応"
-  - "ネットワーク: Route 53 Resolver が第 2 世代 Outposts ラックで GA、Outpost 上でローカルな再帰 DNS 解決"
-  - "データ品質: AWS Glue Data Quality がコンテキストに応じたルールを数秒で推奨、RDS Custom が SQL Server の最新 CU に対応"

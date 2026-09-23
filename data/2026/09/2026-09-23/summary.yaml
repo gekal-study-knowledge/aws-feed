@@ -1,7 +1,7 @@
 "date": "2026-09-23"
-"generated_at": "2026-09-23 08:18:26 JST"
+"generated_at": "2026-09-23 14:53:12 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 17
+"article_count": 18
 "sources":
   - "aws_compute_blog"
   - "aws_machine_learning_blog"
@@ -9,15 +9,15 @@
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 17 件で、新しいモデルの追加と、生成 AI 向けの可観測性、そして AgentCore の事例が中心でした。Anthropic の Claude Opus 5.5 が Amazon Bedrock と AWS 上の Claude Platform で利用可能になり、エージェント型のコーディング・ナレッジワーク・長時間タスク向けの最も高性能な Opus モデルとして、AWS GovCloud (米国) でも同時に提供が始まりました。OpenAI の GPT-6 Sol と GPT-6 Luna も Amazon Bedrock で一般提供となり、既存の Astra とあわせて GPT-6 ファミリーが広がって、ワークロードごとに知能と効率を選べるようになっています。ニュースブログでは Amazon CloudWatch Omni が発表されました。生成 AI とエージェント型ワークロード向けに作られた AI 駆動の可観測性で、任意の環境の AI エージェントをトレース・評価・実験でき、アプリケーションと AI エージェントを自動検出とともに 1 つの体験へまとめる CloudWatch の次の形と位置づけられています。機械学習ブログでは、約 4 週間で構築した Trane Technologies のエージェント型ソリューションが 20 分かかっていた複数画面のビル診断を 20 秒に短縮した事例 (60 倍)、Reactiv が AgentCore のマルチエージェント AI スケジューラーで Shopify 加盟店のモバイルアプリ更新を自律化し設定作業を 80% 速くした事例、Tata Elxsi がエッジで映像を絞り込み Kinesis 経由でメタデータを流すリアルタイム産業安全プラットフォーム IRIS、Bedrock Data Automation と Agentforce を組み合わせてボディカメラ映像やスキャン文書といった非構造化証拠を扱う公共部門向けの構成が紹介されました。あわせて、負荷を段階的に上げて計測する並行実行スイープで SageMaker AI の生成 AI エンドポイントを適正サイズにする方法と、スキルを備えたエージェントが正しいスキルを選び手順どおりに従ったかを Strands Evals と AgentCore で評価する方法も解説されています。コンピュートブログでは、Application Load Balancer を使って AWS Lambda MicroVMs に独自ドメインを割り当て、アプリケーションを変更せずにブラウザークライアントの CORS も満たす方法が公開されました。サービス更新では、AWS Billing Transfer が 2 階層の移管において請求グループを自動作成できるようになっています。セキュリティ速報では、Amazon Connect Salesforce Lambda の sfExecuteAWSService における認可の欠落 (CVE-2026-94384)、および Retry パケットを送信する設定時の s2n-quic におけるサービス拒否の可能性 (CVE-2026-94450) が、いずれも Important として公開されました。
+  この日は 18 件で、主要モデルの AWS 上での提供開始と、CloudWatch の刷新、そしてエージェント活用の事例が中心でした。Anthropic の Claude Opus 5.5 が Amazon Bedrock と AWS 上の Claude Platform で利用可能になりました。Claude 5.5 ファミリーの最初のモデルで、エージェント的なコーディング・ナレッジワーク・長時間動作するタスクに向けた最も高性能な Opus と位置づけられ、AWS GovCloud (US) でも提供されます。OpenAI の GPT-6 Sol と GPT-6 Luna も Amazon Bedrock で一般提供となり、既存の Astra とあわせて GPT-6 ファミリーが広がり、ワークロードごとに知能と効率のバランスを選べるようになりました。可観測性では、Amazon CloudWatch Omni が一般提供となりました。CloudWatch の次の進化形として、アプリケーションと AI エージェントを 1 つの体験に統合し、自動検出されたトポロジーと自然言語での操作、チームとアプリケーション単位で整理された AI 主導の可観測性を提供します。生成 AI・エージェントワークロード向けには、フレームワークを問わずエージェントのトレース・評価・実験を行えます。機械学習ブログでは、Trane Technologies が Amazon Bedrock AgentCore 上で約 4 週間で構築したエージェントにより、20 分かかっていた複数画面にまたがる建物診断のワークフローを 20 秒の自然言語操作に短縮した事例 (60 倍の高速化)、Reactiv が AgentCore でマルチエージェントの AI スケジューラーを構築し Shopify マーチャントのモバイルアプリ更新を自動化して設定時間を 80% 削減した事例、Tata Elxsi がエッジでカメラ映像を絞り込み Amazon Kinesis でメタデータを流して SageMaker でコンピュータービジョンを動かすリアルタイム産業安全プラットフォーム IRIS の事例が公開されました。あわせて、Amazon Bedrock Data Automation と Model Context Protocol を組み合わせ、ボディカメラ映像やスキャン文書といった非構造化データを扱う公共部門向けの Agentforce 連携、スキルを備えたエージェントを Strands Evals と AgentCore で評価し「正しいスキルを選び手順に従ったか」を測る方法、SageMaker AI で負荷を段階的に上げる並行実行スイープによって生成 AI エンドポイントを適正サイズに調整する手法も解説されています。コンピュートブログでは、Application Load Balancer を使って AWS Lambda MicroVMs に独自ドメインを割り当て、アプリケーションを変更せずにブラウザークライアント向けの CORS も満たす構成が紹介されました。セキュリティ速報は 2 件で、いずれも Important (要対応) です。CVE-2026-94384 は Amazon Connect Salesforce Lambda (AmazonConnectSalesforceLambda) の sfExecuteAWSService における認可の欠落 (Bulletin ID: 2026-115-AWS、2026 年 9 月 22 日 10:00 PDT 公開)、CVE-2026-94450 は QUIC プロトコルの Rust 実装である s2n-quic で Retry パケットを送信する設定にしている場合のサービス拒否の可能性 (Bulletin ID: 2026-116-AWS、2026 年 9 月 22 日 13:00 PDT 公開) です。課金では、AWS Billing Transfer が 2 階層の移管で請求グループを自動作成する AWS Billing Conductor の設定に対応し、手作業の請求グループ構成が不要になりました。
 "topics":
-  - "モデル: Claude Opus 5.5 が Amazon Bedrock と AWS 上の Claude Platform で利用可能に、GovCloud (米国) でも提供開始"
-  - "モデル: OpenAI の GPT-6 Sol と GPT-6 Luna が Amazon Bedrock で GA、Astra とあわせて GPT-6 ファミリーが拡大"
-  - "可観測性: Amazon CloudWatch Omni を発表、生成 AI とエージェント型ワークロード向けの AI 駆動の可観測性"
-  - "エージェント事例: Trane がビル診断を 20 分から 20 秒へ (60 倍)、Reactiv が Shopify 加盟店のアプリ更新を 80% 高速化"
-  - "エージェント評価: Strands Evals と AgentCore で、スキルを備えたエージェントが正しいスキルを選べたかを評価"
-  - "推論の適正化: 並行実行スイープで SageMaker AI の生成 AI エンドポイントを適正サイズに"
-  - "公共部門 / 産業: Bedrock Data Automation と Agentforce で非構造化証拠を処理、Tata Elxsi の産業安全基盤 IRIS"
-  - "コンピュート: ALB で Lambda MicroVMs に独自ドメインを割り当て、CORS もアプリ変更なしで満たす"
-  - "請求: AWS Billing Transfer が 2 階層の移管で請求グループを自動作成"
-  - "脆弱性: Amazon Connect Salesforce Lambda の認可欠落 (CVE-2026-94384)、s2n-quic のサービス拒否 (CVE-2026-94450)"
+  - "モデル: Claude Opus 5.5 が Amazon Bedrock と AWS 上の Claude Platform で利用可能に、GovCloud (US) でも提供"
+  - "モデル: OpenAI の GPT-6 Sol と GPT-6 Luna が Amazon Bedrock で GA、Astra とあわせ GPT-6 ファミリーが拡大"
+  - "可観測性: Amazon CloudWatch Omni が GA、自動検出トポロジーと自然言語操作でアプリと AI エージェントを統合"
+  - "エージェント事例: Trane が AgentCore で建物診断を 20 分から 20 秒へ (60 倍)、Reactiv が設定時間を 80% 削減"
+  - "エージェント評価: Strands Evals と AgentCore で、スキルを備えたエージェントが正しいスキルを選び従ったかを測定"
+  - "公共部門: Bedrock Data Automation と MCP でボディカメラ映像やスキャン文書を扱う Agentforce 連携"
+  - "推論最適化: SageMaker AI の並行実行スイープで生成 AI エンドポイントを適正サイズに調整"
+  - "コンピュート: Application Load Balancer で Lambda MicroVMs に独自ドメインと CORS 対応を追加"
+  - "セキュリティ速報: CVE-2026-94384 (Amazon Connect Salesforce Lambda の認可欠落)、CVE-2026-94450 (s2n-quic の Retry パケットによる DoS の可能性)、いずれも Important"
+  - "課金: AWS Billing Transfer が 2 階層移管での請求グループ自動作成に対応"
