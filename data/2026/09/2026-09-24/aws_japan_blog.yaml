@@ -34,4 +34,11 @@
     "published": "2026-09-24 17:41:18"
     "fetched": "2026-09-24 20:02:00"
     "summary": "本記事は 2026 年 4 月 29 日に公開された、Features and workflows with […]"
-"last_updated": "2026-09-24 20:02:00 JST"
+  "ed0dc936cfa367fef33cf92242fe36d4":
+    "id": "ed0dc936cfa367fef33cf92242fe36d4"
+    "title": "週刊AWS – 2026/9/14週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260914/"
+    "published": "2026-09-24 22:27:01"
+    "fetched": "2026-09-25 01:24:56"
+    "summary": "AWS Direct Connect が専用接続の定額料金を発表、AWS PrivateLink が Tunnel Endpoint を発表、AWS Elastic Beanstalk が Cluster Mode を導入、Moonshot AI の Kimi K3 が Amazon Bedrock で一般提供開始、Amazon Q Console から CloudTrail イベントを自然言語で分析、Amazon Connect Talent が一般提供開始、Amazon Connect Customer がカスタムメトリクスの API による作成・管理・検索に対応、Amazon ECS が Amazon S3 Files のサポートを Amazon EC2 起動タイプに拡張、Amazon Quick が個別シートの生成と画像からの分析構築に対応、AWS Transfer Family が Network Load Balancer (NLB) 配下の SFTP サーバーで送信元 IP 保持をサポート、新しい AgentCore Runtime が Amazon Bedrock AgentCore で利用可能に"
+"last_updated": "2026-09-25 01:24:56 JST"
