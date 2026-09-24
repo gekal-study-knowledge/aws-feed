@@ -1,0 +1,30 @@
+"entries":
+  "424042d7818070805f6b0f5938fa64f2":
+    "id": "424042d7818070805f6b0f5938fa64f2"
+    "title": "週刊生成AI with AWS – 2026/9/14 週"
+    "link": "https://aws.amazon.com/jp/blogs/news/weekly-genai-20260914/"
+    "published": "2026-09-24 13:49:26"
+    "fetched": "2026-09-24 14:49:15"
+    "summary": "今週の週刊生成 AI with AWSでは、AI の「正しさ」をどう測るかという話題が目立ちました。Byron Cook 氏による自動推論の翻訳記事 3 本もあわせて公開されています。国内事例では、第一興商のカラオケ聴感採点 AI、レスターの営業情報プラットフォーム、NTTドコモの AI-DLC 実践（全 2 回）をご紹介します。サービスアップデートでは、新しい AgentCore Runtime が東京リージョンを含む 5 リージョンで利用可能になり、Moonshot AI の Kimi K3 が Amazon Bedrock で一般提供されています。Kiro 関連では、GPT‑5.6 の 1M コンテキスト対応、Claude Fable 5.1 のエンタープライズ向け提供、Kiro Web の自律モードで 2 年以上残っていた issue を人間の作業 5 分未満で解決した事例、Kiro Crew で 1 週間に 1,000 件の PR をマージした話と今週も盛りだくさんです。"
+  "1e34ecae96f2b79c9570e65c5fcd8dff":
+    "id": "1e34ecae96f2b79c9570e65c5fcd8dff"
+    "title": "AWS ウィークリーラウンドアップ：AWS Builder Center モバイルアプリ、Amazon Connect Talent の一般提供開始、Amazon Corretto 27 など（2026 年 9 月 21 日）"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/"
+    "published": "2026-09-24 13:30:50"
+    "fetched": "2026-09-24 14:49:15"
+    "summary": "オランダに住んでいる私は、電車で過ごす時間がかなり多く、たいていその時間を使って、ビルダーコミュニティが発信し […]"
+  "d4e57e7ef66bc526999acab18c13b167":
+    "id": "d4e57e7ef66bc526999acab18c13b167"
+    "title": "Amazon CloudFront で SAP S/4HANA に mTLS 認証を実装する"
+    "link": "https://aws.amazon.com/jp/blogs/news/implement-mtls-authentication-with-amazon-cloudfront-for-sap-s-4hana/"
+    "published": "2026-09-24 11:08:01"
+    "fetched": "2026-09-24 14:49:15"
+    "summary": "グローバルに SAP S/4HANA を運用する企業では、単一リージョンへのアクセスによる TLS ハンドシェイクの遅延と、パスワード頼みの認証によるセキュリティリスクが課題となります。本記事では、Amazon CloudFront の mTLS verify モードでエッジでクライアント証明書を検証し、Application Load Balancer（ALB）のパススルーと SAP ICM の X.509 認証を組み合わせて、パスワードレスなシングルサインオン（SSO）を実現するアーキテクチャを解説します。CloudFront-Viewer-Cert-Pem ヘッダーの転送、S3 トラストストア、AWS Private CA、AWS Shield/AWS WAF による多層防御まで、実装からクリーンアップまでを順を追って説明します。社内テストでは初回ログイン時間を約40〜50%短縮しました。"
+  "b743c90f0869f1625fde9475cc4c7a13":
+    "id": "b743c90f0869f1625fde9475cc4c7a13"
+    "title": "AI-DLC（AI 駆動開発ライフサイクル）による SAP ABAP アプリケーション開発"
+    "link": "https://aws.amazon.com/jp/blogs/news/sap-abap-application-development-with-ai-dlc-ai-driven-development-lifecycle/"
+    "published": "2026-09-24 11:01:12"
+    "fetched": "2026-09-24 14:49:15"
+    "summary": "Kiro と ABAP Accelerator を用いて AI-Driven Development Lifecycle（AI-DLC）の手法を適用し、SAP S/4HANA 上にフライト予約アプリケーションを構築する手順を解説します。Inception・Construction・Operations の 3 フェーズを通じて、AI が計画・設計・ABAP コード生成を主導し、ABAP Accelerator が SAP ABAP Test Cockpit（ATC）検証やオブジェクトのアクティベーションを自動化します。ビジネス上の意図から、数週間ではなく数時間で動作するコードへと到達する開発体験を実現します。"
+"last_updated": "2026-09-24 14:49:15 JST"
