@@ -27,4 +27,11 @@
     "published": "2026-09-24 11:01:12"
     "fetched": "2026-09-24 14:49:15"
     "summary": "Kiro と ABAP Accelerator を用いて AI-Driven Development Lifecycle（AI-DLC）の手法を適用し、SAP S/4HANA 上にフライト予約アプリケーションを構築する手順を解説します。Inception・Construction・Operations の 3 フェーズを通じて、AI が計画・設計・ABAP コード生成を主導し、ABAP Accelerator が SAP ABAP Test Cockpit（ATC）検証やオブジェクトのアクティベーションを自動化します。ビジネス上の意図から、数週間ではなく数時間で動作するコードへと到達する開発体験を実現します。"
-"last_updated": "2026-09-24 14:49:15 JST"
+  "2e0d2f7a21e4dd5745800b2e07ee6211":
+    "id": "2e0d2f7a21e4dd5745800b2e07ee6211"
+    "title": "Amazon Timestream for InfluxDB 3 の機能とワークフロー"
+    "link": "https://aws.amazon.com/jp/blogs/news/features-and-workflows-with-amazon-timestream-for-influxdb-3/"
+    "published": "2026-09-24 17:41:18"
+    "fetched": "2026-09-24 20:02:00"
+    "summary": "本記事は 2026 年 4 月 29 日に公開された、Features and workflows with […]"
+"last_updated": "2026-09-24 20:02:00 JST"
