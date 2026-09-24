@@ -1,15 +1,17 @@
 "date": "2026-09-24"
-"generated_at": "2026-09-24 08:18:13 JST"
+"generated_at": "2026-09-24 13:23:05 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 5
+"article_count": 6
 "sources":
   - "aws_machine_learning_blog"
+  - "aws_security_blog"
   - "aws_whats_new"
 "overview": |
-  この日は 5 件で、オープンウェイトモデルを使うコーディングエージェントと、エージェント構成の実践例が中心でした。機械学習ブログでは、ターミナルで動くオープンソースの AI コーディングエージェント OpenCode を Amazon Bedrock 上のオープンウェイトモデルと組み合わせ、安全で柔軟な従量課金のコーディングアシスタントとして使う設定方法が紹介されました。また、Strands Agents SDK の単一エージェントが Amazon Bedrock と Amazon Rekognition などをオーケストレーションする、対話型の映像インテリジェンスをエージェント型アーキテクチャで構築する方法と、創業 100 年のオランダの小売企業 HEMA が Amazon Bedrock AgentCore 上に社内 AI アシスタント HAL を構築し、Model Context Protocol を使って開発者がポータルを渡り歩く状態から即座に答えが返る状態へ変えた事例が公開されています。サービス更新では、Amazon Connect Customer がルーティングのステップデータを分析データレイクに提供するようになり、ルーティング判断からインサイトを得やすくなりました。Amazon Bedrock Managed Knowledge Base は、フルマネージドの検索拡張生成 (RAG) サービスとして Salesforce と Zendesk をネイティブのデータソースコネクタとしてサポートします。
+  この日は 6 件で、エージェントを使った開発支援と業務適用の事例が中心でした。機械学習ブログでは、ターミナル上で動くオープンソースの AI コーディングエージェント OpenCode と、Amazon Bedrock のオープンウェイトモデルを組み合わせ、安全で柔軟な従量課金のコーディングアシスタントを構成する方法が紹介されました。複数モデルを使い分けるワークフローの設定手順が解説されています。あわせて、Strands Agents SDK の単一エージェントが Amazon Bedrock・Amazon Rekognition・Amazon Transcribe を統合的に呼び出す、対話型の動画インテリジェンスをエージェント型アーキテクチャで構築する方法が公開されました。事例としては、創業 100 年のオランダの小売企業 HEMA が、開発者が複数のポータルを渡り歩いていた状況を解消するために、Amazon Bedrock AgentCore 上で社内 AI アシスタント HAL を構築し、Model Context Protocol (MCP) を使って即座に答えを得られるようにした取り組みが紹介されています。セキュリティブログでは、月次ダイジェストの 2026 年 8 月号 (ICYMI: August 2026 @AWS Security) が公開され、最新のセキュリティ機能、コンプライアンスの更新、専門家によるブログ記事、新しいサービス機能、コードサンプル、ワークショップがまとめられています。サービス更新では、Amazon Connect Customer がルーティングステップのデータを分析データレイクで提供するようになり、ルーティングの判断から洞察を得やすくなりました。また、フルマネージドな RAG サービスである Amazon Bedrock Managed Knowledge Base が、Salesforce と Zendesk をネイティブのデータソースコネクタとしてサポートし、それぞれのナレッジを同期できるようになっています。
 "topics":
-  - "コーディングエージェント: OpenCode と Bedrock のオープンウェイトモデルで従量課金のコーディングアシスタントを構成"
-  - "映像解析: Strands Agents SDK の単一エージェントが Bedrock と Rekognition を束ねる対話型映像インテリジェンス"
-  - "事例: HEMA が AgentCore と MCP で社内 AI アシスタント HAL を構築、ポータル巡りを即答に置き換え"
-  - "コンタクトセンター: Amazon Connect Customer がルーティングのステップデータを分析データレイクに提供"
-  - "RAG: Bedrock Managed Knowledge Base が Salesforce と Zendesk をネイティブコネクタとしてサポート"
+  - "開発体験: オープンソースの AI コーディングエージェント OpenCode を Bedrock のオープンウェイトモデルと組み合わせる構成"
+  - "エージェント設計: Strands Agents SDK の単一エージェントが Bedrock・Rekognition・Transcribe を束ねる対話型の動画インテリジェンス"
+  - "事例: オランダの小売 HEMA が AgentCore と MCP で社内 AI アシスタント HAL を構築、ポータル巡回を解消"
+  - "RAG: Amazon Bedrock Managed Knowledge Base が Salesforce と Zendesk をネイティブコネクタとしてサポート"
+  - "コンタクトセンター: Amazon Connect Customer がルーティングステップのデータを分析データレイクで提供"
+  - "セキュリティ: 月次ダイジェスト ICYMI: August 2026 @AWS Security が公開"
