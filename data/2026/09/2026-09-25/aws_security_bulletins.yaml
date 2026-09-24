@@ -1,0 +1,9 @@
+"entries":
+  "d05cd8ec147d366e2543af12347d6d8a":
+    "id": "d05cd8ec147d366e2543af12347d6d8a"
+    "title": "CVE-2026-96883 - Type confusion in AWS pgcollection allows remote code execution"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-118-aws/"
+    "published": "2026-09-25 04:17:16"
+    "fetched": "2026-09-25 05:15:28"
+    "summary": "<p><b>Bulletin ID:</b> 2026-118-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 09/24/2026 12:00 PM PDT</p>\n<p><b>Description:</b></p>\n<p>pgcollection is an open source extension to PostgreSQL. We identified CVE-2026-96883, an issue in pgcollection's type coercion logic. When requesting a stored icollection value as a type incompatible with how it was actually stored causes the extension to misinterprets the datum's representation, allowing an authenticated database user to crash the PostgreSQL backend or execute arbitrary code.</p>\n<p><b>Impacted versions:</b> pgcollection v2.0.0 through v2.1.1</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>\n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-118-aws/\">View article</a></p>"
+"last_updated": "2026-09-25 05:15:28 JST"
