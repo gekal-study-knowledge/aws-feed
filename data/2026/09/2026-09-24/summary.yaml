@@ -1,13 +1,14 @@
 "date": "2026-09-24"
-"generated_at": "2026-09-24 13:23:05 JST"
+"generated_at": "2026-09-25 08:22:56 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 6
+"article_count": 14
 "sources":
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_security_blog"
   - "aws_whats_new"
 "overview": |
-  この日は 6 件で、エージェントを使った開発支援と業務適用の事例が中心でした。機械学習ブログでは、ターミナル上で動くオープンソースの AI コーディングエージェント OpenCode と、Amazon Bedrock のオープンウェイトモデルを組み合わせ、安全で柔軟な従量課金のコーディングアシスタントを構成する方法が紹介されました。複数モデルを使い分けるワークフローの設定手順が解説されています。あわせて、Strands Agents SDK の単一エージェントが Amazon Bedrock・Amazon Rekognition・Amazon Transcribe を統合的に呼び出す、対話型の動画インテリジェンスをエージェント型アーキテクチャで構築する方法が公開されました。事例としては、創業 100 年のオランダの小売企業 HEMA が、開発者が複数のポータルを渡り歩いていた状況を解消するために、Amazon Bedrock AgentCore 上で社内 AI アシスタント HAL を構築し、Model Context Protocol (MCP) を使って即座に答えを得られるようにした取り組みが紹介されています。セキュリティブログでは、月次ダイジェストの 2026 年 8 月号 (ICYMI: August 2026 @AWS Security) が公開され、最新のセキュリティ機能、コンプライアンスの更新、専門家によるブログ記事、新しいサービス機能、コードサンプル、ワークショップがまとめられています。サービス更新では、Amazon Connect Customer がルーティングステップのデータを分析データレイクで提供するようになり、ルーティングの判断から洞察を得やすくなりました。また、フルマネージドな RAG サービスである Amazon Bedrock Managed Knowledge Base が、Salesforce と Zendesk をネイティブのデータソースコネクタとしてサポートし、それぞれのナレッジを同期できるようになっています。
+  この日は 14 件で、エージェントを使った開発支援と業務適用の事例が中心でした。機械学習ブログでは、ターミナル上で動くオープンソースの AI コーディングエージェント OpenCode と、Amazon Bedrock のオープンウェイトモデルを組み合わせ、安全で柔軟な従量課金のコーディングアシスタントを構成する方法が紹介されました。複数モデルを使い分けるワークフローの設定手順が解説されています。あわせて、Strands Agents SDK の単一エージェントが Amazon Bedrock・Amazon Rekognition・Amazon Transcribe を統合的に呼び出す、対話型の動画インテリジェンスをエージェント型アーキテクチャで構築する方法が公開されました。事例としては、創業 100 年のオランダの小売企業 HEMA が、開発者が複数のポータルを渡り歩いていた状況を解消するために、Amazon Bedrock AgentCore 上で社内 AI アシスタント HAL を構築し、Model Context Protocol (MCP) を使って即座に答えを得られるようにした取り組みが紹介されています。セキュリティブログでは、月次ダイジェストの 2026 年 8 月号 (ICYMI: August 2026 @AWS Security) が公開され、最新のセキュリティ機能、コンプライアンスの更新、専門家によるブログ記事、新しいサービス機能、コードサンプル、ワークショップがまとめられています。サービス更新では、Amazon Connect Customer がルーティングステップのデータを分析データレイクで提供するようになり、ルーティングの判断から洞察を得やすくなりました。また、フルマネージドな RAG サービスである Amazon Bedrock Managed Knowledge Base が、Salesforce と Zendesk をネイティブのデータソースコネクタとしてサポートし、それぞれのナレッジを同期できるようになっています。サービス更新では、Amazon EMR on EKS が IPv6 の Amazon EKS クラスターに対応しました。Spark や Flink のワークロードを IPv6 クラスターで動かせるようになり、セカンダリ CIDR やプレフィックス委任といった IPv4 節約の回避策が不要になります。500 エグゼキューターの Spark ジョブのようなワークロードもアドレス上限を気にせず同時に実行でき、StartJobRun・Spark Connect インタラクティブエンドポイント・SageMaker Unified Studio から追加設定なしで投入でき、Flink・Livy・Spark の各 Operator もサポートされます。追加費用はかかりません。Amazon Kinesis Data Streams には Service-Managed Partition Keys が追加され、On-Demand Standard と On-Demand Advantage のストリームで、パーティションキーを指定しなくてもサービス側がレコードをシャードに自動分散するようになりました。ログ集約・メトリクス収集・IoT テレメトリーのように順序保証が不要な用途で、UUID などのランダムキーを自前で生成しても起きていたシャード間のスループットの偏りとスロットリングを避けられます。日本語ブログでは、Kiro と ABAP Accelerator を使い AI 駆動開発ライフサイクル (AI-DLC) の Inception・Construction・Operations の 3 フェーズで SAP S/4HANA 上にフライト予約アプリを構築する手順、Amazon CloudFront の mTLS verify モードでエッジでクライアント証明書を検証し Application Load Balancer と組み合わせて SAP S/4HANA の認証を強化する構成、Amazon Timestream for InfluxDB 3 の機能とワークフローの翻訳記事が公開されました。あわせて、AWS Builder Center モバイルアプリ、Amazon Connect Talent の一般提供開始、Amazon Corretto 27 などを取り上げたウィークリーラウンドアップ (2026 年 9 月 21 日)、週刊 AWS (2026/9/14 週。AWS Direct Connect の専用接続の定額料金、AWS PrivateLink の Tunnel Endpoint、AWS Elastic Beanstalk の Cluster Mode、Moonshot AI の Kimi K3 が Amazon Bedrock で一般提供開始など)、週刊生成 AI with AWS (2026/9/14 週。AI の「正しさ」をどう測るかを軸に、Byron Cook 氏による自動推論の翻訳記事 3 本と、第一興商のカラオケ聴感採点 AI、レスターの営業情報プラットフォーム、NTT ドコモの AI-DLC 実践といった国内事例) も届いています。
 "topics":
   - "開発体験: オープンソースの AI コーディングエージェント OpenCode を Bedrock のオープンウェイトモデルと組み合わせる構成"
   - "エージェント設計: Strands Agents SDK の単一エージェントが Bedrock・Rekognition・Transcribe を束ねる対話型の動画インテリジェンス"
@@ -15,3 +16,7 @@
   - "RAG: Amazon Bedrock Managed Knowledge Base が Salesforce と Zendesk をネイティブコネクタとしてサポート"
   - "コンタクトセンター: Amazon Connect Customer がルーティングステップのデータを分析データレイクで提供"
   - "セキュリティ: 月次ダイジェスト ICYMI: August 2026 @AWS Security が公開"
+  - "分析: Amazon EMR on EKS が IPv6 の EKS クラスターに対応、IPv4 節約の回避策なしで大規模 Spark / Flink を実行"
+  - "ストリーミング: Kinesis Data Streams の Service-Managed Partition Keys でキー指定なしの自動分散、ホットキーを解消"
+  - "SAP: AI-DLC の 3 フェーズで SAP S/4HANA 上にアプリを構築、CloudFront の mTLS で SAP の認証を強化"
+  - "日本語まとめ: 週刊 AWS と週刊生成 AI with AWS (2026/9/14 週)、ウィークリーラウンドアップ (9/21)"

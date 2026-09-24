@@ -1,0 +1,19 @@
+"date": "2026-09-25"
+"generated_at": "2026-09-25 08:22:56 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 8
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 8 件で、セキュリティ速報 1 件と、データベース周りの更新、そしてエージェント活用の事例が中心でした。セキュリティ速報は CVE-2026-96883 で、Important (要対応) です。PostgreSQL の OSS 拡張である pgcollection の型変換ロジックの問題で、保存されている icollection の値を実際の保存形式と互換性のない型として要求すると、拡張がデータの表現を誤って解釈し、認証済みのデータベースユーザーが PostgreSQL のバックエンドをクラッシュさせたり、任意のコードを実行できる可能性があります。影響を受けるのは pgcollection v2.0.0 から v2.1.1 です (Bulletin ID: 2026-118-AWS、2026 年 9 月 24 日 12:00 PDT 公開)。データベースの更新では、Amazon RDS for PostgreSQL が耐量子 TLS (PQ-TLS) の鍵交換に対応し、転送中のデータ暗号化に耐量子暗号の選択肢が加わりました。バージョン 18 以降で ssl_groups パラメーターを変更でき、RDS for PostgreSQL の許可リストから組織のセキュリティ基準に合う暗号グループを選べます。また、Amazon RDS Database Preview Environment で PostgreSQL 19 Beta 4 が利用可能になりました。Beta 3 以降のバグ修正と安定性の改善に加え、TOAST テーブルに対する pg_stat_autovacuum_scores ビューのレポート修正、freeze スコアのスケーリング修正による autovacuum の優先度調整、並列 autovacuum がワーカー間でコスト上限を再配分して大きなテーブルのメンテナンスを設定値の範囲に収める改善が入っています (プレビュー環境のインスタンスは最長 60 日で自動削除されます)。Amazon RDS for MySQL では、Extended Support のマイナーバージョン 5.7.44-rds.20260902 と 8.0.46-rds.20260908 が公開されました。Extended Support はメジャーバージョンの標準サポート終了後も最大 3 年間、重要な CVE とバグの修正を提供するもので、Blue/Green Deployments、インプレースアップグレード、スナップショットからの復元でアップグレードできます。サーバーレスでは、AWS Lambda の durable functions が AWS European Sovereign Cloud リージョンでも利用可能になりました。イベントハンドラーに step や wait といったプリミティブを加えて進捗をチェックポイントし、障害から自動復旧し、オンデマンド関数では課金なしで実行を一時停止できるもので、注文ワークフローやユーザーオンボーディング、AI を使った処理をコンプライアンス要件を満たしながら組み立てられます (Python 3.13 / 3.14、Node.js 22 / 24、Java 17 以降が対象)。機械学習ブログでは、Aderant が Amazon Bedrock 経由の Amazon Nova Lite でチケットの自動トリアージを構築し、クラウド運用チーム向けに文脈収集・分類・振り分け・ナレッジ拡充を自動化した事例、各チームのデータをそれぞれの AWS アカウントに置いたまま、中央のプラットフォームアカウントで Amazon Bedrock AgentCore Gateway と MCP を使ってエージェントが横断的に問い合わせるマルチアカウント構成 (各事業部門のアカウントは自分のデータを MCP サーバーとして公開し、安全なクロスアカウントアクセスと細かい認可を効かせる)、Whisper・wav2vec2 による強制アライメント・話者ダイアライゼーションをまとめた AWS WhisperX Deep Learning Container を Amazon SageMaker AI のリアルタイム / 非同期エンドポイントに展開し、単語単位で話者ラベル付きの文字起こしを行う方法 (GPU AMI のピン留め、スケーリング、コスト管理といった本番運用の勘所つき) が公開されました。
+"topics":
+  - "セキュリティ速報: CVE-2026-96883 (pgcollection の型混同によるリモートコード実行の可能性、v2.0.0〜v2.1.1)、Important"
+  - "データベース: RDS for PostgreSQL が耐量子 TLS (PQ-TLS) の鍵交換に対応、v18 以降で ssl_groups を指定可能"
+  - "データベース: RDS のプレビュー環境で PostgreSQL 19 Beta 4 が利用可能、autovacuum の優先度調整とコスト上限を改善"
+  - "データベース: RDS for MySQL の Extended Support マイナー 5.7.44-rds.20260902 / 8.0.46-rds.20260908 を公開"
+  - "サーバーレス: Lambda durable functions が AWS European Sovereign Cloud で利用可能に"
+  - "エージェント事例: Aderant が Amazon Nova Lite でチケットのトリアージを自動化"
+  - "エージェント設計: AgentCore Gateway と MCP によるマルチアカウント構成で、データを各アカウントに置いたまま横断的に問い合わせ"
+  - "音声: WhisperX Deep Learning Container を SageMaker AI に展開し、単語単位の話者ラベル付き文字起こしを実現"
