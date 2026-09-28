@@ -1,0 +1,16 @@
+"entries":
+  "93400da8bec9c526aaf0419da99fd6f1":
+    "id": "93400da8bec9c526aaf0419da99fd6f1"
+    "title": "Building event-driven applications at scale with Amazon EventBridge"
+    "link": "https://aws.amazon.com/blogs/compute/building-event-driven-applications-at-scale-with-amazon-eventbridge/"
+    "published": "2026-09-29 07:38:57"
+    "fetched": "2026-09-29 08:39:15"
+    "summary": "Amazon EventBridge relaunched the Custom event bus so a platform team can share one governed bus across the organization while application teams publish and subscribe from their own accounts. See how retention, ordering, open formats, transformation, and direct target delivery change what one bus can carry."
+  "e653a02b320c0331924f2cb7265ff07e":
+    "id": "e653a02b320c0331924f2cb7265ff07e"
+    "title": "Improving Lambda function latency with scalable network bandwidth"
+    "link": "https://aws.amazon.com/blogs/compute/improving-lambda-function-latency-with-scalable-network-bandwidth/"
+    "published": "2026-09-29 06:17:09"
+    "fetched": "2026-09-29 08:39:15"
+    "summary": "AWS Lambda now supports scalable network bandwidth for functions with 2,048 MB of memory or more running outside a VPC. Sustained throughput scales from 625 Mbps up to 3,000 Mbps at 10,240 MB, reducing execution times and per-invocation costs for latency-sensitive data processing workloads."
+"last_updated": "2026-09-29 08:39:15 JST"
