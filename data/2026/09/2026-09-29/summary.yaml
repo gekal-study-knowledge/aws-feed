@@ -1,0 +1,17 @@
+"date": "2026-09-29"
+"generated_at": "2026-09-29 08:20:16 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 6
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+"overview": |
+  この日は 6 件で、生成メディアの推論基盤と、AWS European Sovereign Cloud の独立運用の実証が中心でした。セキュリティブログでは、2026 年 10 月 24 日 (土) に AWS European Sovereign Cloud が欧州連合 (EU) の外にあるインフラに一切依存せずに運用できることを示す演習を実施すると告知されました。数時間にわたって AWS グローバルネットワークのバックボーン (AWS リージョン間を結ぶプライベートネットワーク) との接続を断った状態で運用します。機械学習ブログでは、AWS vLLM-Omni Deep Learning Container を使ったリアルタイム推論の記事が 2 本公開されました。Part 1 では音声合成モデル Qwen3-TTS を Amazon SageMaker AI にデプロイし、持続的な双方向接続の上で生成した音声をストリーミングして Gradio アプリケーションから再生します。Part 2 では 1 つの同じコンテナから 2 つの生成メディアモデルを動かし、FLUX.2-klein でリアルタイム推論による画像生成を行い、それを Wan2.1-VACE で非同期推論により動画へアニメーション化して、できあがった MP4 を Amazon S3 から取得する流れを扱っています。監視では、Amazon Nova Act と Amazon Bedrock AgentCore を使ったエージェント駆動の合成監視 (synthetic monitoring) が紹介されました。壊れやすい UI スクリプトから抜け出し、回復力のあるマネージドなユーザージャーニー検証を行うためのアーキテクチャとパターンが、動くサンプル実装とともに示されています。文書処理では、Amazon Textract の Custom Queries アダプターを本番運用に乗せる方法が解説されました。AWS CloudFormation と Terraform によるコードでのインフラ管理、アカウントをまたぐアダプターの昇格プロセス、複数の帳票バージョンを扱うための事前分類によるルーティングパターン、そして VPC エンドポイント・暗号化・最小権限の IAM といった本番向けのセキュリティ統制を扱っています。このほか、AWS Weekly Roundup (2026 年 9 月 28 日) が公開されました。先週を貫いたテーマは「選択肢」であり、フロンティアモデルが次々と登場する中で問いは「どれだけ賢いか」だけではなく「この工程に、このコストで、このレイテンシーで、どのモデルが合うか」に移っている、として、Amazon Bedrock に加わった GPT-6 Sol と Luna、Claude Opus 5.5、Strands のハーネスなどが取り上げられています。
+"topics":
+  - "ソブリンクラウド: AWS European Sovereign Cloud が 2026-10-24 に EU 外のインフラへ依存しない独立運用の実証演習を実施"
+  - "音声: vLLM-Omni コンテナで Qwen3-TTS を SageMaker AI にデプロイし、双方向接続で音声をストリーミング (Part 1)"
+  - "生成メディア: 同一コンテナで FLUX.2-klein の画像生成と Wan2.1-VACE の動画化を、リアルタイム推論と非同期推論で使い分け (Part 2)"
+  - "監視: Amazon Nova Act と AgentCore によるエージェント駆動の合成監視、壊れやすい UI スクリプトから脱却"
+  - "文書処理: Amazon Textract Custom Queries アダプターの本番運用、IaC・クロスアカウント昇格・事前分類ルーティング"
+  - "まとめ: AWS Weekly Roundup (9/28)、テーマは「どのモデルをどの工程に選ぶか」"

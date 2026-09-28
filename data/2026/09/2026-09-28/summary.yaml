@@ -1,11 +1,11 @@
 "date": "2026-09-28"
-"generated_at": "2026-09-28 21:55:00 JST"
+"generated_at": "2026-09-29 08:20:16 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 4
+"article_count": 5
 "sources":
   - "aws_japan_blog"
 "overview": |
-  この日は 4 件で、AWS Japan Blog のみの更新でした。エンタープライズ領域では、SAP Sapphire 2026 に合わせて AWS と SAP が 5 年間の Strategic Collaboration Agreement (SCA) を締結し、SAP Business AI Platform のプラットフォームサービスと SAP Business Data Cloud を、日本を含む 7 つの新しい AWS リージョンへ展開することが発表されました。規制産業や新興市場の顧客が、データレジデンシー、コンプライアンス、低レイテンシーの要件を満たしながら SAP と AWS の AI・機械学習機能を活用できるようにする狙いです。コンプライアンスでは、AWS がクラウドプロバイダーとして初めて、NATO 全加盟国で NATO RESTRICTED (NR) ワークロードの取り扱い承認を取得しました。NATO D32 への準拠とスペイン国立暗号センター (CCN) による評価を経たもので、同盟国による AWS 認定が迅速化され、セキュリティとコンプライアンスの義務を果たすための時間・労力・コストが下がります。加盟国内にある 15 の AWS リージョンで NR 対応システムを構築でき、基盤には AWS Trusted Secure Enclaves – Sensitive Edition (TSE-SE) が使われます。技術解説では、量子アルゴリズムの原型にあたる Simon のアルゴリズムを、考案者である Daniel Simon 本人のコメントとともに読み解く記事が公開されました。既知の最良の古典アルゴリズムに対して初めて指数関数的な高速化を示した成果で、Simon の問題の定義、古典と量子のクエリ複雑性の比較、量子回路の数学的な解析、ガウスの消去法による古典的な後処理までを追い、Amazon Braket での実装コードも示しています。週刊生成 AI with AWS の 2026 年 9 月 21 日週号は、AI エージェントの運用と観測が大きく前進した週として、株式会社 PLAY と株式会社クリエイティブ・ウェブの国内事例、Amazon CloudWatch Omni、AWS for SAP MCP Server、AI-DLC による SAP ABAP 開発といった記事を取り上げ、Claude Opus 5.5 と OpenAI GPT-6 Sol / Luna の提供開始、Amazon CloudWatch Omni の一般提供を含む 17 件のサービスアップデートを紹介しています。
+  この日は 5 件で、AWS Japan Blog のみの更新でした。エンタープライズ領域では、SAP Sapphire 2026 に合わせて AWS と SAP が 5 年間の Strategic Collaboration Agreement (SCA) を締結し、SAP Business AI Platform のプラットフォームサービスと SAP Business Data Cloud を、日本を含む 7 つの新しい AWS リージョンへ展開することが発表されました。規制産業や新興市場の顧客が、データレジデンシー、コンプライアンス、低レイテンシーの要件を満たしながら SAP と AWS の AI・機械学習機能を活用できるようにする狙いです。コンプライアンスでは、AWS がクラウドプロバイダーとして初めて、NATO 全加盟国で NATO RESTRICTED (NR) ワークロードの取り扱い承認を取得しました。NATO D32 への準拠とスペイン国立暗号センター (CCN) による評価を経たもので、同盟国による AWS 認定が迅速化され、セキュリティとコンプライアンスの義務を果たすための時間・労力・コストが下がります。加盟国内にある 15 の AWS リージョンで NR 対応システムを構築でき、基盤には AWS Trusted Secure Enclaves – Sensitive Edition (TSE-SE) が使われます。技術解説では、量子アルゴリズムの原型にあたる Simon のアルゴリズムを、考案者である Daniel Simon 本人のコメントとともに読み解く記事が公開されました。既知の最良の古典アルゴリズムに対して初めて指数関数的な高速化を示した成果で、Simon の問題の定義、古典と量子のクエリ複雑性の比較、量子回路の数学的な解析、ガウスの消去法による古典的な後処理までを追い、Amazon Braket での実装コードも示しています。週刊生成 AI with AWS の 2026 年 9 月 21 日週号は、AI エージェントの運用と観測が大きく前進した週として、株式会社 PLAY と株式会社クリエイティブ・ウェブの国内事例、Amazon CloudWatch Omni、AWS for SAP MCP Server、AI-DLC による SAP ABAP 開発といった記事を取り上げ、Claude Opus 5.5 と OpenAI GPT-6 Sol / Luna の提供開始、Amazon CloudWatch Omni の一般提供を含む 17 件のサービスアップデートを紹介しています。あわせて週刊 AWS の 2026 年 9 月 21 日週号も公開され、Claude Opus 5.5 が AWS で利用可能になったこと、エージェントとアプリケーションのための AI ファーストなオブザーバビリティである Amazon CloudWatch Omni、スケーラブルな LLM 推論のための Amazon SageMaker HyperPod Inference Gateway、AWS End User Messaging の WhatsApp 音声通話対応などが取り上げられています。
 "topics":
   - "エンタープライズ: AWS と SAP が 5 年間の SCA を締結、SAP Business AI Platform と SAP Business Data Cloud を日本を含む 7 つの新リージョンへ拡大"
   - "コンプライアンス: AWS がクラウドプロバイダーとして初めて NATO 全加盟国で NATO RESTRICTED ワークロードの取り扱い承認を取得"
@@ -14,3 +14,4 @@
   - "生成 AI: 週刊生成AI with AWS 9/21 週号は AI エージェントの運用と観測が主題、17 件のアップデートを掲載"
   - "生成 AI: Claude Opus 5.5 と OpenAI GPT-6 Sol / Luna が提供開始、Amazon CloudWatch Omni は一般提供に"
   - "国内事例: 株式会社 PLAY と株式会社クリエイティブ・ウェブの事例、AWS for SAP MCP Server や AI-DLC による SAP ABAP 開発も紹介"
+  - "日本語まとめ: 週刊AWS 9/21 週号、Claude Opus 5.5 や CloudWatch Omni、HyperPod Inference Gateway、WhatsApp 音声通話を紹介"
