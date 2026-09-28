@@ -27,4 +27,11 @@
     "published": "2026-09-28 14:59:45"
     "fetched": "2026-09-28 19:28:41"
     "summary": "週刊生成AI with AWS, AI エージェントの運用と観測が大きく前進した2026年9月21日号 - 株式会社 PLAY様、株式会社クリエイティブ・ウェブ様の国内事例ブログを紹介。また、Amazon CloudWatch Omni の紹介や AWS for SAP MCP Server、AI-DLC による SAP ABAP 開発などのブログ記事も。サービスアップデートでは Claude Opus 5.5 や OpenAI GPT-6 Sol / Luna の提供開始、Amazon CloudWatch Omni の一般提供をはじめとする 17 件のアップデートを紹介。"
-"last_updated": "2026-09-28 19:28:41 JST"
+  "bd5de4235627e5b4e47827f4cfe328ce":
+    "id": "bd5de4235627e5b4e47827f4cfe328ce"
+    "title": "週刊AWS – 2026/9/21週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260921/"
+    "published": "2026-09-28 23:15:05"
+    "fetched": "2026-09-29 03:23:15"
+    "summary": "Claude Opus 5.5 が AWS で利用可能に、Amazon CloudWatch Omni: エージェントとアプリケーションのための AI ファーストオブザーバビリティ、スケーラブルな LLM 推論のための Amazon SageMaker HyperPod Inference Gateway、AWS End User Messaging が WhatsApp での音声通話に対応 など"
+"last_updated": "2026-09-29 03:23:15 JST"

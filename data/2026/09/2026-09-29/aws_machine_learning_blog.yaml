@@ -1,0 +1,30 @@
+"entries":
+  "32388ca5ed3b3a0a782e9efb0bf78501":
+    "id": "32388ca5ed3b3a0a782e9efb0bf78501"
+    "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/"
+    "published": "2026-09-29 01:15:46"
+    "fetched": "2026-09-29 03:23:18"
+    "summary": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection. This Part 1 tutorial deploys Qwen3-TTS and streams speech through a Gradio application."
+  "093c31f8a0710fd5cad9db4a63a3411f":
+    "id": "093c31f8a0710fd5cad9db4a63a3411f"
+    "title": "Generate images and video with vLLM-Omni on SageMaker AI – Part 2"
+    "link": "https://aws.amazon.com/blogs/machine-learning/generate-images-and-video-with-vllm-omni-on-sagemaker-ai-part-2/"
+    "published": "2026-09-29 01:15:17"
+    "fetched": "2026-09-29 03:23:18"
+    "summary": "Deploy two generative media models from one AWS vLLM-Omni Deep Learning Container on Amazon SageMaker AI. Generate an image with FLUX.2-klein through real-time inference, then animate it into video with Wan2.1-VACE through asynchronous inference, and retrieve the MP4 from Amazon S3."
+  "fcebb74f667d0647e97c1abb7e731b75":
+    "id": "fcebb74f667d0647e97c1abb7e731b75"
+    "title": "Implementing synthetic monitoring using Amazon Nova Act"
+    "link": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/"
+    "published": "2026-09-29 00:56:32"
+    "fetched": "2026-09-29 03:23:18"
+    "summary": "Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture and patterns for resilient, managed user-journey validation that moves beyond brittle UI scripts, with a complete sample implementation."
+  "6802623b0b8ac6bcb716c332d19830e8":
+    "id": "6802623b0b8ac6bcb716c332d19830e8"
+    "title": "Automating Amazon Textract adapter lifecycle management across accounts"
+    "link": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/"
+    "published": "2026-09-29 00:49:04"
+    "fetched": "2026-09-29 03:23:18"
+    "summary": "Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terraform, a cross-account adapter promotion process, a pre-classification routing pattern for multiple form versions, and production security controls such as VPC endpoints, encryption, and least-privilege IAM."
+"last_updated": "2026-09-29 03:23:18 JST"
