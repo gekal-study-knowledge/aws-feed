@@ -13,4 +13,11 @@
     "published": "2026-09-30 00:55:07"
     "fetched": "2026-09-30 01:46:15"
     "summary": "Learn a serverless, two-account pattern for running regulated, air-gapped RHEL-family fleets on AWS. It separates connected package ingestion from the air-gapped workload, adds explicit human approval for package changes, and keeps EC2 Image Builder AMIs and Patch Manager on one frozen Amazon S3 repository snapshot."
-"last_updated": "2026-09-30 01:46:15 JST"
+  "8d1e97bf73608ad7383d59affac90bdc":
+    "id": "8d1e97bf73608ad7383d59affac90bdc"
+    "title": "Implementing customer managed keys for AWS Lambda durable functions with Terraform"
+    "link": "https://aws.amazon.com/blogs/compute/implementing-customer-managed-keys-for-aws-lambda-durable-functions-with-terraform/"
+    "published": "2026-09-30 02:14:00"
+    "fetched": "2026-09-30 06:14:52"
+    "summary": "Lambda durable functions checkpoint execution state to durable storage, and for regulated payment workloads that data is sensitive. This post shows how to configure a customer managed key in AWS KMS to encrypt durable execution data, define a least-privilege key policy, and verify encryption through AWS CloudTrail, all deployed with Terraform."
+"last_updated": "2026-09-30 06:14:52 JST"

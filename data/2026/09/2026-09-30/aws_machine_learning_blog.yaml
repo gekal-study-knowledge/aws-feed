@@ -27,4 +27,11 @@
     "published": "2026-09-30 00:55:17"
     "fetched": "2026-09-30 01:46:15"
     "summary": "Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and descriptions. Working with the AWS Generative AI Innovation Center, they built a multimodal video discovery solution on Amazon Bedrock and Amazon OpenSearch Service that cut discovery time to under 2 minutes."
-"last_updated": "2026-09-30 01:46:15 JST"
+  "6e9419017e8dae89ce3512497d8c720a":
+    "id": "6e9419017e8dae89ce3512497d8c720a"
+    "title": "Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/"
+    "published": "2026-09-30 04:34:14"
+    "fetched": "2026-09-30 06:14:52"
+    "summary": "GPT-6.1 Sol is now generally available on Amazon Bedrock, bringing stronger reasoning to coding, computer use, and professional workloads that run frequently."
+"last_updated": "2026-09-30 06:14:52 JST"
