@@ -1,0 +1,16 @@
+"entries":
+  "80d73839667883a03ce384ee02118df6":
+    "id": "80d73839667883a03ce384ee02118df6"
+    "title": "Simplify AMI discovery with Amazon EC2 and SSM Parameter Store"
+    "link": "https://aws.amazon.com/blogs/compute/simplify-ami-discovery-with-amazon-ec2-and-ssm-parameter-store/"
+    "published": "2026-09-30 01:14:17"
+    "fetched": "2026-09-30 01:46:15"
+    "summary": "Managing Amazon EC2 AMIs at scale means constantly mapping AMI IDs to their AWS Systems Manager parameter paths by hand. A recent enhancement to the DescribeImages API returns the associated SSM parameter directly. This post shows how to use it across the AWS CLI, AWS CloudFormation, Terraform, and Auto Scaling launch templates."
+  "4155a81b2ba274c9fffa0fde08048b08":
+    "id": "4155a81b2ba274c9fffa0fde08048b08"
+    "title": "Frozen package management for air-gapped RHEL-family AMIs"
+    "link": "https://aws.amazon.com/blogs/compute/frozen-package-management-for-air-gapped-rhel-family-amis/"
+    "published": "2026-09-30 00:55:07"
+    "fetched": "2026-09-30 01:46:15"
+    "summary": "Learn a serverless, two-account pattern for running regulated, air-gapped RHEL-family fleets on AWS. It separates connected package ingestion from the air-gapped workload, adds explicit human approval for package changes, and keeps EC2 Image Builder AMIs and Patch Manager on one frozen Amazon S3 repository snapshot."
+"last_updated": "2026-09-30 01:46:15 JST"

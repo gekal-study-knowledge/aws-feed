@@ -1,0 +1,9 @@
+"entries":
+  "05b0fb0ca0b167d6b77e51c6ca91151c":
+    "id": "05b0fb0ca0b167d6b77e51c6ca91151c"
+    "title": "CVE-2026-100308 - GluonTS arbitrary command execution during model deserialization"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-119-aws/"
+    "published": "2026-09-30 00:17:30"
+    "fetched": "2026-09-30 01:46:13"
+    "summary": "<p><b>Bulletin ID:</b> 2026-119-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 09/29/2026 08:00 AM PDT</p>\n<p><b>Description:</b></p>\n<p>GluonTS is an open source library for deep learning based time series models. We identified CVE-2026-100308 that allows arbitrary command execution upon deserialization of untrusted model artifacts.</p>\n<p>Deserialization of untrusted data in the model loading component in Amazon GluonTS before 0.17.0 might allow context-dependent attackers to execute arbitrary operating system commands with the privileges of the loading process via a crafted serialized model directory. The issue arises whenever a user calls Predictor.deserialize() or any RepresentablePredictor.deserialize() on a model directory they do not fully control.</p>\n<p><b>Impacted versions:</b> &lt;0.17.0</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>\n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-119-aws/\">View article</a></p>"
+"last_updated": "2026-09-30 01:46:13 JST"

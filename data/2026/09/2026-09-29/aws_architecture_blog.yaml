@@ -1,0 +1,9 @@
+"entries":
+  "0863e7983f9f52718ea95b71a252e24b":
+    "id": "0863e7983f9f52718ea95b71a252e24b"
+    "title": "Build adaptive AI interfaces with the AG-UI protocol, agent swarms, and Nova Act on AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/build-adaptive-ai-interfaces-with-the-ag-ui-protocol-agent-swarms-and-nova-act-on-aws/"
+    "published": "2026-09-29 22:44:23"
+    "fetched": "2026-09-30 01:46:14"
+    "summary": "Learn how to build AI interfaces that automatically adapt to your agents' variable outputs, using the AG-UI protocol for dynamic UI generation, the Strands Agents SDK swarm pattern for explainable multi-agent collaboration, and Amazon Nova Act to integrate legacy systems that lack APIs."
+"last_updated": "2026-09-30 01:46:14 JST"
