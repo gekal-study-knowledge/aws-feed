@@ -1,0 +1,9 @@
+"entries":
+  "fe2f7fd21ccc09cfc225e62fecc651e3":
+    "id": "fe2f7fd21ccc09cfc225e62fecc651e3"
+    "title": "REST API を Amazon Bedrock AgentCore Gateway で MCP サーバー化する ― オリックス「PATPOST」での取り組み"
+    "link": "https://aws.amazon.com/jp/blogs/news/agentcore-gateway-patpost/"
+    "published": "2026-10-01 07:55:36"
+    "fetched": "2026-10-01 08:24:27"
+    "summary": "オリックス株式会社の SaaS「PATPOST」の既存 REST API を、Amazon Bedrock AgentCore Gateway で MCP サーバー化した取り組みをご紹介します。既存資産に手を入れずに MCP サーバー化する方法を解説します。"
+"last_updated": "2026-10-01 08:24:27 JST"
