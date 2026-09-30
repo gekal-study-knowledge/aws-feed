@@ -1,22 +1,24 @@
 "date": "2026-09-30"
-"generated_at": "2026-09-30 08:21:40 JST"
+"generated_at": "2026-09-30 13:31:54 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 13
+"article_count": 17
 "sources":
   - "aws_compute_blog"
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 13 件で、セキュリティ速報 1 件と、新しいモデルの一般提供、そして Amazon Quick を軸にした解説が中心でした。セキュリティ速報は CVE-2026-100308 で、Important (要対応) です。時系列モデルの深層学習ライブラリである OSS の GluonTS において、信頼できないモデル成果物をデシリアライズすると任意のコマンドが実行される可能性があります。Amazon GluonTS 0.17.0 より前のバージョンのモデル読み込みコンポーネントに信頼できないデータのデシリアライズの問題があり、細工されたシリアライズ済みモデルディレクトリに対して Predictor.deserialize() または RepresentablePredictor.deserialize() を呼び出すと、読み込み処理の権限で任意の OS コマンドを実行されるおそれがあります (Bulletin ID: 2026-119-AWS、2026 年 9 月 29 日 08:00 PDT 公開)。モデルでは、OpenAI の GPT-6.1 Sol が Amazon Bedrock で一般提供となりました。GPT-6 Sol の後継で、エージェント的なコーディング、コンピュータ操作、専門的な業務で非常に強い性能を示します。OpenAI によれば、要求の厳しい評価において GPT-6 Astra に迫る一方でコストは約 5 分の 1 で、規模を持った有能なエージェントを構築・運用する余地が広がります。機能の実装、不具合の調査、解の反復、多段のワークフローの実行、複雑なコードベースの調査に使え、Amazon Bedrock 上で明示的なプロンプトキャッシュにも対応します。機械学習ブログでは、Amazon Quick のプロンプトエンジニアリングを扱う 2 部構成の記事が公開されました。Part 1 は具体性、文脈の設定、少数事例、CRISPE フレームワークといった基礎原則と再利用できる枠組みを扱い、Part 2 は Quick Research・Quick Flows・Quick Sight・チャットエージェント・アクション連携というコンポーネントごとに、効果の出るプロンプトのパターンと避けるべき落とし穴を整理しています。あわせて、Amazon Quick と Amazon Bedrock AgentCore による契約インテリジェンスの基盤が紹介されました。数百件の取引先契約から手作業でデータを抜き出す運用は規模に耐えず、RAG のチャットツールではポートフォリオ全体にまたがる問いに答えきれないという課題に対し、AI エージェントが契約の項目を抽出して検証し、Amazon Quick の分析で集計的な問いと個別契約の問いの双方に答えます。事例では、Condé Nast が 14 万本を超える動画ライブラリをタイトルと説明だけで検索しており、1 つの作業に平均 250 分かかっていた状況を、AWS Generative AI Innovation Center と協力して Amazon Bedrock と Amazon OpenSearch Service 上のマルチモーダルな動画探索に置き換え、2 分未満に短縮した取り組みが紹介されました。コンピュートブログでは 3 本が公開されました。1 つは、DescribeImages API が対応する SSM パラメーターを直接返すようになった改善を使って、AMI ID と AWS Systems Manager のパラメーターパスを手作業で対応づける必要をなくす方法で、AWS CLI・CloudFormation・Terraform・Auto Scaling の起動テンプレートでの使い方を扱っています。もう 1 つは、規制下のエアギャップな RHEL 系フリートを AWS で運用するためのサーバーレスな 2 アカウント構成で、接続されたパッケージの取り込みとエアギャップ側のワークロードを分離し、パッケージ変更に明示的な人間の承認を挟み、EC2 Image Builder の AMI と Patch Manager を凍結した Amazon S3 リポジトリのスナップショット 1 つに揃えます。3 つ目は、AWS Lambda の durable functions が実行状態を永続ストレージにチェックポイントすることを受けて、規制下の決済ワークロードのために AWS KMS の顧客管理キーで永続実行データを暗号化し、最小権限のキーポリシーを定義し、AWS CloudTrail で暗号化を確認するところまでを Terraform で構成する方法です。このほかサービス更新として、Amazon Connect Customer がコンタクトセンターの設定を動かす参照データをより多く保持できるようになりました。営業時間、エスカレーションのルール、AI エージェントのプロンプト、キューの割り当てといった設定に使うデータテーブルを 1 テーブルあたり 20,000 値まで扱え、テーブルのエクスポートや数百件のレコードの編集、インスタンス間のテーブル移動、Excel や DynamoDB といった外部システムからの読み込みができるため、業務部門が技術者に頼らず自分で設定を最新に保てます。データベースでは、Amazon RDS for PostgreSQL の Extended Support マイナーバージョン 13.23-rds.20260514・12.22-rds.20260514・11.22-rds.20260514 が公開され、Amazon Aurora PostgreSQL 互換エディションが PostgreSQL 18.6・17.11・16.15・15.19・14.24 をサポートしました (コミュニティのバグ修正と Aurora 独自の改善を含み、CVE への対応のため最新マイナーへの更新が推奨されています)。
+  この日は 17 件で、新モデルの追加と規制環境向けの運用パターン、そしてデータベースのバージョン更新が中心でした。モデルでは、OpenAI の GPT-6.1 Sol が Amazon Bedrock で一般提供となりました。GPT-6 Sol の後継として、頻繁に実行されるエージェント的なコーディング・コンピュータ操作・業務ワークロードで強い性能を発揮し、Astra に近い知能を日常業務に持ち込むものと位置づけられています。機械学習ブログでは、Condé Nast の編集チームがタイトルと説明だけで 14 万本を超える動画ライブラリを検索し 1 タスクあたり平均 250 分を費やしていた状況を、AWS Generative AI Innovation Center と協力して Amazon Bedrock によるマルチモーダルな動画探索で改善した事例、Amazon Quick と Amazon Bedrock AgentCore で数百件のベンダー契約からデータを抽出しポートフォリオ横断の問いにも答える契約インテリジェンス基盤の構築事例が公開されました。あわせて Amazon Quick のプロンプトエンジニアリングが 2 部構成で解説され、Part 1 は基礎となる原則と再利用可能なフレームワーク、Part 2 は Quick Research・Quick Flows・Quick Sight・チャットエージェントといったコンポーネントごとのパターンと落とし穴を扱います。コンピュートブログでは、規制対象のエアギャップ環境で RHEL 系のフリートを運用するために、接続環境でのパッケージ取り込みとエアギャップのワークロードを分離し人による明示的な承認を挟むサーバーレスな 2 アカウント構成、DescribeImages API の拡張で AMI ID に対応する SSM パラメータパスが返るようになり AMI の探索が簡単になったこと、そして規制対象の決済ワークロード向けに Lambda durable functions のチェックポイントデータを AWS KMS のカスタマー管理キーで暗号化する Terraform での設定方法が解説されました。セキュリティ速報は 1 件で、CVE-2026-100308 は深層学習による時系列予測のオープンソースライブラリ GluonTS におけるモデルのデシリアライズ時の任意コマンド実行です (Bulletin ID: 2026-119-AWS、2026 年 9 月 29 日 08:00 PDT 公開、Important / 要対応)。データベースでは、Amazon Aurora PostgreSQL 互換エディションが PostgreSQL 18.6・17.11・16.15・15.19・14.24 に対応し、コミュニティのバグ修正と Aurora 固有の機能強化が含まれます。Amazon RDS for PostgreSQL は Extended Support のマイナーバージョン 13.23-rds.20260514、12.22-rds.20260514、11.22-rds.20260514 を公開し、Amazon RDS はスナップショットの完全サイズをコンソールと DescribeDBSnapshots API で取得できるようになりました。あわせて、AWS Service Availability Updates として、新規顧客への提供を終了してメンテナンスに移行するサービスと機能の変更が告知されています。Amazon Connect Customer では管理者がコンタクトセンターの構成を駆動する参照データをより多く保持できるようになり、データテーブルで 1 つあたり最大 20,000 件の値を扱えます。Amazon WorkSpaces Applications は統合グラフィックスイメージを導入し、G4dn・G5・G6・G7 を含む対応する全グラフィックスインスタンスファミリーで 1 つのイメージタイプが使えるようになりました。AWS ジャパンブログでは、長期保守が前提の組み込みソフトウェア開発でも AI エージェントを活用できることを示す、日立産業制御ソリューションズ様向けのワークショップ開催報告が公開されました。2026 年 7 月に既存コードの読み解きから仕様化・実装・テストまでを Kiro で体験するハンズオンを 2 回開催し、102 名のエンジニアが参加しています。
 "topics":
-  - "セキュリティ速報: CVE-2026-100308 (GluonTS のモデル読み込みで任意コマンド実行、0.17.0 より前)、Important"
-  - "モデル: OpenAI の GPT-6.1 Sol が Amazon Bedrock で GA、GPT-6 Astra に迫る性能を約 5 分の 1 のコストで"
-  - "生成 AI: Amazon Quick のプロンプトエンジニアリング 2 部構成、基礎原則 (CRISPE) とコンポーネント別のパターン"
-  - "契約業務: Amazon Quick と AgentCore による契約インテリジェンス、項目の抽出・検証から横断的な集計の問いまで"
-  - "事例: Condé Nast が 14 万本超の動画探索を Bedrock と OpenSearch で 250 分から 2 分未満に短縮"
-  - "コンピュート: DescribeImages が SSM パラメーターを直接返すようになり、AMI の対応づけが不要に"
-  - "コンピュート: エアギャップな RHEL 系フリートを 2 アカウント構成で運用、パッケージ変更に人間の承認を挟む"
-  - "コンピュート: Lambda durable functions の永続実行データを KMS 顧客管理キーで暗号化 (Terraform 構成)"
-  - "コンタクトセンター: Connect Customer の参照データが 1 テーブル 20,000 値まで、業務部門が自分で設定を更新"
-  - "データベース: RDS for PostgreSQL の Extended Support マイナー 3 本、Aurora PostgreSQL が 18.6 ほか 5 バージョンに対応"
+  - "モデル: OpenAI の GPT-6.1 Sol が Amazon Bedrock で GA、エージェント的なコーディングとコンピュータ操作に強い GPT-6 Sol の後継"
+  - "事例: Condé Nast が Bedrock でマルチモーダルな動画探索、14 万本超のライブラリで 1 タスク平均 250 分の検索を改善"
+  - "事例: Amazon Quick と AgentCore による契約インテリジェンス基盤、ポートフォリオ横断の問いにも対応"
+  - "プロンプト設計: Amazon Quick のプロンプトエンジニアリングを基礎編とコンポーネント別編の 2 部で解説"
+  - "規制環境: エアギャップの RHEL 系フリート向けに、取り込みとワークロードを分ける 2 アカウント構成と人による承認"
+  - "運用: DescribeImages API が AMI に対応する SSM パラメータパスを返し AMI 探索を簡素化"
+  - "セキュリティ速報: CVE-2026-100308 GluonTS のモデルデシリアライズ時の任意コマンド実行 (Important)"
+  - "データベース: Aurora PostgreSQL が 18.6・17.11・16.15・15.19・14.24 に対応、RDS for PostgreSQL が Extended Support のマイナーバージョンを公開"
+  - "データベース: Amazon RDS がスナップショットの完全サイズをコンソールと DescribeDBSnapshots API で提供"
+  - "提供終了: AWS Service Availability Updates で新規顧客への提供を終了しメンテナンスへ移行するサービスを告知"
+  - "国内: 日立産業制御ソリューションズ様との組み込みソフトウェア開発 × AI エージェントのワークショップ開催報告、102 名参加"
