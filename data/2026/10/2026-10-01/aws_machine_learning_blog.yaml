@@ -1,0 +1,16 @@
+"entries":
+  "530ab36e4321b6091d04780f9e6bce0c":
+    "id": "530ab36e4321b6091d04780f9e6bce0c"
+    "title": "Query claims in natural language with Amazon Bedrock Knowledge Bases"
+    "link": "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/"
+    "published": "2026-10-01 00:37:15"
+    "fetched": "2026-10-01 04:46:37"
+    "summary": "This technical how-to builds a conversational claims assistant on Amazon Bedrock Knowledge Bases that answers natural-language questions with citations. It covers ingesting claim documents from Amazon S3, querying with the AgenticRetrieveStream API, multi-turn follow-ups, metadata filters, and contextual grounding guardrails."
+  "27f5f21a961d7c9258ade6571d528d05":
+    "id": "27f5f21a961d7c9258ade6571d528d05"
+    "title": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/"
+    "published": "2026-10-01 00:21:57"
+    "fetched": "2026-10-01 04:46:37"
+    "summary": "Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy a three-agent music production pipeline where the agents colocate on one GPU instance, share a filesystem, and hand work to each other to produce a finished track."
+"last_updated": "2026-10-01 04:46:37 JST"

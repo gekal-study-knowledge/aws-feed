@@ -6,4 +6,11 @@
     "published": "2026-09-25 04:17:16"
     "fetched": "2026-09-25 05:15:28"
     "summary": "<p><b>Bulletin ID:</b> 2026-118-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 09/24/2026 12:00 PM PDT</p>\n<p><b>Description:</b></p>\n<p>pgcollection is an open source extension to PostgreSQL. We identified CVE-2026-96883, an issue in pgcollection's type coercion logic. When requesting a stored icollection value as a type incompatible with how it was actually stored causes the extension to misinterprets the datum's representation, allowing an authenticated database user to crash the PostgreSQL backend or execute arbitrary code.</p>\n<p><b>Impacted versions:</b> pgcollection v2.0.0 through v2.1.1</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>\n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-118-aws/\">View article</a></p>"
-"last_updated": "2026-09-25 05:15:28 JST"
+  "f6070a739391a15d633c4e8b9dde9f51":
+    "id": "f6070a739391a15d633c4e8b9dde9f51"
+    "title": "CVE-2026-95985 - Kiro IDE Allows Agentic Writes to Global Configurations While Working in Untrusted Workspaces"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-117-aws/"
+    "published": "2026-09-25 02:21:34"
+    "fetched": "2026-10-01 04:46:36"
+    "summary": "<p><b>Bulletin ID:</b> 2026-117-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 09/24/2026 10:00 AM PDT</p>\n<p><b>Description:</b></p>\n<p>Kiro is an agentic IDE that users install on their desktop. We identified CVE-2026-95985. The file write tool in Kiro IDE before version 1.0.242 might allow remote unauthenticated actors to execute arbitrary commands and to inject crafted instructions into the agent's context. When a user runs the agent in a crafted repository as an untrusted workspace, sending any message can cause agent modifications to auto-loaded global configuration paths.</p>\n<p><b>Impacted versions:</b> &lt; 1.0.242</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>\n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-117-aws/\">View article</a></p>"
+"last_updated": "2026-10-01 04:46:36 JST"
