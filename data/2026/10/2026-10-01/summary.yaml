@@ -1,0 +1,19 @@
+"date": "2026-10-01"
+"generated_at": "2026-10-01 08:22:48 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 8
+"sources":
+  - "aws_architecture_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は 8 件で、データベースからデータレイクを直接照会できるようになった更新と、可用性や監査のための運用パターンが中心でした。データベースでは、Amazon Aurora PostgreSQL がデータレイクにある Apache Iceberg と Parquet のデータを直接照会できるようになりました。既存の PostgreSQL のアプリケーションやツールから、運用データとデータレイクのデータを ETL のパイプラインもデータの二重持ちもなしに一緒に扱えます。これまでは、データレイクから Aurora へデータを写すパイプラインが必要で、スキーマが変わるたびにコストと開発の手間が膨らんでいました。今回の対応では、Iceberg や Parquet のデータを参照する PostgreSQL の外部テーブルを作れます。Aurora に組み込まれた DuckDB を使っており、慣れた PostgreSQL の構文でトランザクションデータと履歴データを 1 つのクエリで結合でき、AWS Glue Data Catalog・Amazon S3・S3 Tables に対応し、述語のプッシュダウンやキャッシュによる最適化も入っています。監査では、AWS CloudTrail に Event Coverage という新しいコンソール体験が加わりました。アカウントおよび組織のレベルで、データプレーンの操作をどれだけ記録できているかを俯瞰でき、環境内のどの AWS サービスとリソースタイプでデータイベントのログが有効になっていて、どれが無効なのかが分かります。組織内のアカウントを手作業で見て回らずに、ログ取得の抜けを素早く見つけられます。データイベントは AWS サービスのデータプレーン操作の追跡に使うもので、たとえば Amazon S3 の GetObject や PutObject といったオブジェクト単位の操作を記録して、不正なデータアクセスや持ち出しの試みを検知できます。アーキテクチャブログでは、ARC Zonal Shift を使ってアベイラビリティーゾーンの退避ドリルを 48〜72 時間にわたって実施し、マルチ AZ 構成が実際の障害に耐えられることを確かめる方法が紹介されました。Amazon ECS・Amazon EKS・Amazon RDS for PostgreSQL・Amazon Aurora PostgreSQL を対象に、前提条件、CLI のコマンド、観測すべきメトリクス、復旧手順が順を追ってまとめられています。あわせて、MHK が Amazon Bedrock・Amazon ECS・イベント駆動のパターンを使って HIPAA 適格のエージェント型ワークフローの枠組み SmartProminence AI Orchestrator を構築した事例が紹介されました。医療審査の手作業を 90% 削減し、新しい AI 機能の投入を数か月から数週間に短縮しており、ヘルスケアの AI のために再利用できるマルチテナントのオーケストレーターとしてどう設計したかが解説されています。機械学習ブログでは、Amazon Bedrock Knowledge Bases 上に、出典つきで自然言語の質問に答える対話型の保険金請求アシスタントを作る手順が公開されました。Amazon S3 からの請求文書の取り込み、AgenticRetrieveStream API による問い合わせ、複数ターンの追問、メタデータによる絞り込み、文脈に基づく根拠づけのガードレールまでを扱っています。あわせて、Amazon Bedrock AgentCore Runtime Instances 上にマルチエージェントの音楽制作パイプラインを組む記事も公開されました。AgentCore Runtime Instances は GPU・永続ボリューム・数日にわたるセッションを備えた AWS 管理の EC2 インフラをマルチエージェントのワークフローに提供するもので、3 つのエージェントが 1 つの GPU インスタンスに同居してファイルシステムを共有し、互いに仕事を引き渡して 1 曲を完成させます。このほか、2026 年 9 月の AWS Heroes の新メンバー紹介が公開されています。
+"topics":
+  - "データベース: Aurora PostgreSQL が Iceberg / Parquet を直接照会、ETL なしで運用データと結合 (内部で DuckDB を使用)"
+  - "監査: CloudTrail の Event Coverage で、データイベントのログ取得の抜けを組織横断で可視化"
+  - "可用性: ARC Zonal Shift で 48〜72 時間の AZ 退避ドリルを実施、ECS・EKS・RDS・Aurora の手順つき"
+  - "事例: MHK が Bedrock で HIPAA 適格のエージェント型ワークフローを構築、医療審査の手作業を 90% 削減"
+  - "RAG: Bedrock Knowledge Bases で出典つきの保険金請求アシスタント、AgenticRetrieveStream API と根拠づけガードレール"
+  - "マルチエージェント: AgentCore Runtime Instances で 3 エージェントが 1 GPU に同居し音楽制作を分担"
+  - "コミュニティ: 2026 年 9 月の AWS Heroes 新メンバーを紹介"
