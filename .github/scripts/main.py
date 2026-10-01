@@ -21,9 +21,21 @@ def load_config(config_path: str = ".github/scripts/config.yaml") -> Dict[str, A
 
 
 def fetch_feed(url: str) -> feedparser.FeedParserDict:
-    """RSSフィードを取得してパースする"""
+    """RSSフィードを取得してパースする。
+
+    feedparser は取得・解析の失敗を例外にせず、bozo フラグと空の entries で返す。
+    そのため何も出力しないと、フィードが取得できなかった場合も
+    「新着が無かった場合」と同じログになり、障害に気づけない。
+    """
     print(f"Fetching feed from: {url}")
     feed = feedparser.parse(url)
+
+    status = getattr(feed, 'status', None)
+    if status is not None and status >= 400:
+        print(f"  WARNING: HTTP {status} が返りました")
+    if feed.bozo:
+        print(f"  WARNING: フィードの解析に失敗しました: {feed.get('bozo_exception', '')}")
+
     return feed
 
 
@@ -112,8 +124,13 @@ def get_jst_now() -> datetime:
     return datetime.now(timezone(timedelta(hours=9)))
 
 
-def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[str, Any]], set]:
-    """フィードを処理して新規エントリーを抽出する。更新があった日付も返す。"""
+def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[str, Any]], set, int]:
+    """フィードを処理して新規エントリーを抽出する。
+
+    更新があった日付と、フィードが返したエントリー総数もあわせて返す。
+    総数は「フィードが空で返った」と「全件が既知だった」を呼び出し側で
+    区別するために使う。
+    """
     source_id = feed_config['source_id']
     feed = fetch_feed(feed_config['url'])
 
@@ -169,7 +186,7 @@ def process_feed(feed_config: Dict[str, str], data_dir: str) -> tuple[List[Dict[
         # 保存
         save_daily_data(entry_date, source_id, daily_data, data_dir)
 
-    return new_entries, updated_dates
+    return new_entries, updated_dates, len(feed.entries)
 
 
 def render_summary(summary: str, collapse_threshold: int = 0) -> str:
@@ -329,10 +346,16 @@ def main():
     else:
         # 全ての新規エントリーと更新された日付を収集
         for feed_config in config['feeds']:
-            new_entries, updated_dates = process_feed(feed_config, data_dir)
+            new_entries, updated_dates, fetched_count = process_feed(feed_config, data_dir)
             all_new_entries.extend(new_entries)
             all_updated_dates.update(updated_dates)
-            print(f"Found {len(new_entries)} new entries from {feed_config['name']}")
+            if fetched_count == 0:
+                print(f"WARNING: {feed_config['name']} はエントリーを 1 件も返しませんでした")
+            else:
+                print(
+                    f"Found {len(new_entries)} new entries from {feed_config['name']} "
+                    f"({fetched_count} 件中)"
+                )
 
     # Markdownを生成（更新があった日付、または全日付）
     if all_updated_dates:
