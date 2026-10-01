@@ -1,0 +1,25 @@
+"date": "2026-10-02"
+"generated_at": "2026-10-02 08:21:14 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 17
+"sources":
+  - "aws_architecture_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 17 件で、セキュリティ速報 3 件と、新しい最適化サービスのプレビュー、そしてエージェントやデータ活用の記事が中心でした。セキュリティ速報はいずれも Important (要対応) です。CVE-2026-104002 は、サーバーレスのベストプラクティスを実装した開発者向けツールキットである Powertools for AWS Lambda (Python) のデータマスキングユーティリティにおける fail-open なエラー処理の問題で、アプリケーションがマスクするつもりだった機微なフィールドの値が読み取られてしまう可能性があります (Bulletin ID: 2026-123-AWS、2026 年 10 月 1 日 14:00 PDT 公開)。CVE-2026-97662 は、AWS が awslabs/mcp リポジトリで公開しているオープンソースの Model Context Protocol サーバー security-agent-mcp-server における引数インジェクションで、AI アシスタントがソースコードに対してローカルのセキュリティスキャン (差分スキャンを含む) を走らせる際、差分スキャンの操作に細工した参照の値を渡されると問題になります (Bulletin ID: 2026-121-AWS、同日 10:30 PDT 公開)。CVE-2026-104020 は Amazon Ion Python の Ion リーダーにおける制御されない再帰で、0.15.0 より前のバージョンで深くネストした細工済みの Ion の値を読むとエラーやクラッシュを起こし、サービス拒否につながる可能性があります (Bulletin ID: 2026-122-AWS、同日 13:30 PDT 公開)。サービスでは、AWS Well-Architected Agent がパブリックプレビューとなりました。AWS Trusted Advisor と AWS Well-Architected Tool の次世代版にあたる AI を使ったサービスで、コスト・セキュリティ・性能・信頼性の観点から AWS のインフラを分析して最適化し、ビジネスの目標に沿って優先度を付けた、文脈を踏まえた推奨事項とそのまま適用できる修正を提示します。主要なメトリクスとアプリケーションのトポロジーを Well-Architected のベストプラクティスと自動的に突き合わせ、Terraform・CDK・CloudFormation のテンプレートも解析します。データベースでは、Amazon Redshift がリージョンをまたいだデータレイクのクエリに対応し、別の AWS リージョンにある Amazon S3 のデータレイクテーブルを照会できるようになりました。拡張 VPC ルーティングを使えば、S3 と Redshift の間のデータレイクのクエリトラフィックは自分の VPC 内に留まります。いずれも RA プロビジョンドクラスターと Serverless のコンピュート上で直接動く統合データレイククエリエンジンによるものです。Amazon DynamoDB には Amazon S3 への絞り込みエクスポートが加わり、キー属性に対するキー条件式と任意の属性に対するフィルター式で、エクスポートする項目と属性を正確に指定して、用途に関係するデータだけのデータセットを作れるようになりました。Amazon DynamoDB Accelerator (DAX) は、アジアパシフィック (香港、ハイデラバード、ジャカルタ、マレーシア、メルボルン、ニュージーランド、大阪、ソウル、台北、タイ)、カナダ西部 (カルガリー)、ヨーロッパ (ミラノ、チューリッヒ)、イスラエル (テルアビブ)、メキシコ (中部)、AWS GovCloud (US-East / US-West) の 17 リージョンに広がりました。セキュリティでは、Amazon GuardDuty が AWS Organizations の宣言型ポリシーによる一元管理に対応し、組織内のすべてのアカウントとリージョンで GuardDuty の脅威検知を中央から有効にできるようになりました。設定は既存のアカウントに適用され、新しいアカウントが組織に加わっても自動で維持されます。機械学習ブログでは 7 本が公開されました。Amazon Payments が Amazon SageMaker AI 上で多目的のコンテキストバンディットを使って獲得ファネルをパーソナライズし、ある対象層で 1 桁台後半のコンバージョン改善を得たうえで、制約はモデルではなくコンテンツ側にあったと分かった事例。Amazon S3 へのアップロード、スケジュール、アラートといったイベントに反応する「アンビエントエージェント」を Amazon Bedrock AgentCore 上に、Amazon SQS・AWS Lambda・Amazon DynamoDB とただ 1 つの ask_human ツール、そして人間のレビュー用の Jobs ページで、フレームワークに依存しない形で作る方法。1 つのサブスクリプションから Claude Platform on AWS への安全なマルチ環境アクセスを構成する方法 (AWS のワークロードにはクロスアカウントの SigV4、開発者にはワークスペース単位の API キー、外部環境には OIDC フェデレーション、専用の AI Services アカウントでワークスペース単位の分離)。Amazon Quick Sight の階層フィルターでダッシュボードのドリルダウンを簡素化する解説。台湾の統一企業グループの小売プラットフォーム uniopen が、Amazon SageMaker AI の教師ありファインチューニングとプロンプト最適化で Amazon Nova 2 Lite を自社のコンテンツモデレーションのポリシーに合わせ、業務に即した評価とリリースのゲートで品質を保った事例。Amazon Quick の Live Data in Apps により、AI が作ったアプリがビルド時の静的なスナップショットではなくガバナンス下の Quick Sight データセットをリアルタイムに照会し、各クエリが閲覧者本人として実行されるため行レベル・列レベルのセキュリティが読者ごとに効くという解説。そして Amazon S3 Vectors を NVIDIA NeMo Agent Toolkit (NAT) の永続メモリ層として Amazon EKS 上で使い、マルチエージェントの投資調査を例にカスタムのメモリプロバイダーを実装する方法です。アーキテクチャブログでは、航空会社の EC を手がける Datalex が AWS との 3 日間の Experience-Based Acceleration (EBA) ワークショップで近代化の実現性を検証し、中核の予約コンポーネントを EJB / Java 8 から Spring Boot / Java 21 へ移行し、安全な CI/CD パイプラインを整え、可観測性を加え、エージェント型 AI を組み込んだ取り組みが紹介されました。
+"topics":
+  - "セキュリティ速報: CVE-2026-104002 (Powertools for AWS Lambda (Python) のデータマスキングが fail-open)、Important"
+  - "セキュリティ速報: CVE-2026-97662 (security-agent-mcp-server の差分スキャンに引数インジェクション)、Important"
+  - "セキュリティ速報: CVE-2026-104020 (Amazon Ion Python 0.15.0 より前、深いネストで DoS)、Important"
+  - "サービス: AWS Well-Architected Agent がプレビュー、Trusted Advisor と Well-Architected Tool の次世代版"
+  - "分析: Redshift がリージョンをまたぐデータレイクのクエリに対応、拡張 VPC ルーティングで経路も制御"
+  - "データベース: DynamoDB に S3 への絞り込みエクスポート、DAX が 17 リージョン追加"
+  - "セキュリティ: GuardDuty が AWS Organizations の宣言型ポリシーで一元的に有効化可能に"
+  - "エージェント: イベント駆動の「アンビエントエージェント」を AgentCore と SQS・Lambda・DynamoDB で構築"
+  - "パーソナライズ: Amazon Payments がコンテキストバンディットで獲得ファネルを最適化、制約はモデルでなくコンテンツ側"
+  - "モデル調整: uniopen が Nova 2 Lite を自社のモデレーションポリシーに合わせてファインチューニング"
+  - "BI: Amazon Quick の Live Data in Apps で、AI が作ったアプリが閲覧者の権限でリアルタイムに照会"
+  - "事例: Datalex が 3 日間の EBA で予約コンポーネントを EJB/Java 8 から Spring Boot/Java 21 へ"
