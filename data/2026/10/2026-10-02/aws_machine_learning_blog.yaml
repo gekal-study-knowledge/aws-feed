@@ -1,0 +1,37 @@
+"entries":
+  "91e0903873882a193c2a4e5dfd491114":
+    "id": "91e0903873882a193c2a4e5dfd491114"
+    "title": "Uplifting conversion across the acquisition funnel with personalization using contextual bandits on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws/"
+    "published": "2026-10-02 01:51:04"
+    "fetched": "2026-10-02 02:14:15"
+    "summary": "Generative AI makes it cheap to produce personalized content at scale, but which variation do you show each customer? Amazon Payments used a multi-objective contextual bandit on Amazon SageMaker AI to personalize an acquisition funnel, achieving a high single-digit conversion lift for one audience, and learning why content, not the model, was the constraint."
+  "861edfd8e5fdf9770c3358967e8b5961":
+    "id": "861edfd8e5fdf9770c3358967e8b5961"
+    "title": "Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/"
+    "published": "2026-10-02 01:40:24"
+    "fetched": "2026-10-02 02:14:15"
+    "summary": "Ambient agents respond to events such as an Amazon S3 upload, a schedule, or an alert instead of waiting for a chat prompt. This post walks through building framework-agnostic ambient agents on Amazon Bedrock AgentCore using Amazon SQS, AWS Lambda, and Amazon DynamoDB, with a single ask_human tool and a Jobs page for human-in-the-loop review."
+  "3ef12c997fec78408a0e9f664631cdee":
+    "id": "3ef12c997fec78408a0e9f664631cdee"
+    "title": "Implementing Multi-Environment Access for Claude Platform on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/"
+    "published": "2026-10-02 01:32:23"
+    "fetched": "2026-10-02 02:14:15"
+    "summary": "Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for developers, and OIDC federation for external environments, with workspace-level isolation in a dedicated AI Services account."
+  "0123c96b7c74c52fd8b9bbb3e55a5835":
+    "id": "0123c96b7c74c52fd8b9bbb3e55a5835"
+    "title": "Simplify dashboard drill-down with the Amazon Quick Sight hierarchy filter"
+    "link": "https://aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter/"
+    "published": "2026-10-02 01:28:14"
+    "fetched": "2026-10-02 02:14:15"
+    "summary": "Amazon Quick Sight is a fully managed, cloud-native business intelligence (BI) capability for building and publishing interactive dashboards. The new hierarchy filter gives dashboard authors rich, multi-level filtering in a single compact control, reducing clutter and guiding readers to the data they need in fewer steps."
+  "91682a962a0392bd580d9d9c17b68664":
+    "id": "91682a962a0392bd580d9d9c17b68664"
+    "title": "How uniopen customized Amazon Nova to their retail moderation policies for production deployment"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-uniopen-customized-amazon-nova-to-their-retail-moderation-policies-for-production-deployment/"
+    "published": "2026-10-02 00:33:01"
+    "fetched": "2026-10-02 02:14:15"
+    "summary": "See how uniopen, a retail platform from Taiwan's Uni-President Enterprises Group, adapted Amazon Nova 2 Lite to its content-moderation policies using supervised fine-tuning in Amazon SageMaker AI and prompt optimization. Business-relevant evaluation and release gates kept quality in check."
+"last_updated": "2026-10-02 02:14:15 JST"

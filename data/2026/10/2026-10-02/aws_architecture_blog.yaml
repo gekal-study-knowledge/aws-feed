@@ -1,0 +1,9 @@
+"entries":
+  "99360ebfce44f9457fc215c11e903fea":
+    "id": "99360ebfce44f9457fc215c11e903fea"
+    "title": "Accelerating airline retailing innovation: how Datalex modernized with AWS Experience-Based Acceleration and agentic AI"
+    "link": "https://aws.amazon.com/blogs/architecture/accelerating-airline-retailing-innovation-how-datalex-modernized-with-aws-experience-based-acceleration-and-agentic-ai/"
+    "published": "2026-10-02 00:37:06"
+    "fetched": "2026-10-02 02:14:14"
+    "summary": "Datalex, a leader in airline ecommerce, partnered with AWS on a three-day Experience-Based Acceleration (EBA) workshop to prove modernization feasibility. Learn how they migrated a core reservation component from EJB/Java 8 to Spring Boot/Java 21, built a secure CI/CD pipeline, added observability, and integrated agentic AI."
+"last_updated": "2026-10-02 02:14:14 JST"
