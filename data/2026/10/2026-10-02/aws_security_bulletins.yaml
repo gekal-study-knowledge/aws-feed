@@ -1,0 +1,23 @@
+"entries":
+  "750106c4397b49e948553c3772b69751":
+    "id": "750106c4397b49e948553c3772b69751"
+    "title": "CVE-2026-104002: Fail-open error handling in the data masking utility in Powertools for AWS Lambda (Python)"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-123-aws/"
+    "published": "2026-10-02 06:15:48"
+    "fetched": "2026-10-02 07:17:09"
+    "summary": "<p><b>Bulletin ID:</b> 2026-123-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 10/01/2026 14:00 PM PDT</p>\n<p><b>Description:</b></p>\n<p>Powertools for AWS Lambda (Python) is a developer toolkit that implements serverless best practices and increases developer velocity. We identified CVE-2026-104002, a fail-open error handling issue within the data masking utility of Powertools for AWS Lambda (Python). This issue might allow actors to read sensitive field values that the application intended to mask.</p>\n<p><b>Impacted versions:</b> &gt;=3.6.0 AND &lt;=3.34.0</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "d5e0d27028cd5099717d12f36ad8651e":
+    "id": "d5e0d27028cd5099717d12f36ad8651e"
+    "title": "CVE-2026-97662 - Argument injection in AWS security-agent-mcp-server diff scan"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-121-aws/"
+    "published": "2026-10-02 03:16:35"
+    "fetched": "2026-10-02 07:17:09"
+    "summary": "<p><b>Bulletin ID:</b> 2026-121-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 10/01/2026 10:30 AM PDT</p>\n<p><b>Description:</b></p>\n<p>security-agent-mcp-server is an open-source Model Context Protocol (MCP) server, published by AWS in the awslabs/mcp repository, that AI assistants use to run local security scans (including differential \"diff\" scans) over source code. We identified CVE-2026-97662, an argument injection issue in the diff scan operation: a crafted reference value supplied to the scan is interpreted as a command-line option rather than a revision, which lets a context-dependent actor create, overwrite, or truncate arbitrary files on the host outside the intended workspace directory, bypassing the server's workspace-confinement control.</p>\n<p><b>Impacted versions:</b> &gt;= 0.1.1 AND &lt; 0.2.0</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "aae1e34a2fc0554c0d32d7eee60d087f":
+    "id": "aae1e34a2fc0554c0d32d7eee60d087f"
+    "title": "CVE-2026-104020 - Uncontrolled recursion in the Ion reader in Amazon Ion Python"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-122-aws/"
+    "published": "2026-10-02 05:50:19"
+    "fetched": "2026-10-02 07:17:09"
+    "summary": "<p><b>Bulletin ID:</b> 2026-122-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 10/01/2026 13:30 PM PDT</p>\n<p><b>Description:</b></p>\n<p>Amazon Ion Python is an open-source Python implementation of the Amazon Ion data notation. We identified CVE-2026-104020, an issue in the Ion reader in Amazon Ion Python before version 0.15.0 where a crafted, deeply nested Ion value could cause the application to raise an error or crash, resulting in a denial of service.</p>\n<p><b>Impacted versions:</b> &lt; 0.15.0</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-10-02 07:17:09 JST"
