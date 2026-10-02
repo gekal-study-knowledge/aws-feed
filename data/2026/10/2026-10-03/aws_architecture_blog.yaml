@@ -1,0 +1,23 @@
+"entries":
+  "8305edececd1f733bea8849565fcfb79":
+    "id": "8305edececd1f733bea8849565fcfb79"
+    "title": "Deploy Oracle Database step by step on Amazon EVS with FSx for ONTAP"
+    "link": "https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap/"
+    "published": "2026-10-03 02:57:15"
+    "fetched": "2026-10-03 05:18:43"
+    "summary": "This post provides step-by-step procedures to deploy Oracle Database on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP as NFS datastore storage. You provision storage volumes, mount NFS datastores, install Oracle, and configure SnapMirror replication for cross-region disaster recovery."
+  "aeb980901f71c40c816519078e814e60":
+    "id": "aeb980901f71c40c816519078e814e60"
+    "title": "Architect highly available Oracle Database on Amazon EVS and FSx for ONTAP"
+    "link": "https://aws.amazon.com/blogs/architecture/architect-highly-available-oracle-database-on-amazon-evs-and-fsx-for-ontap/"
+    "published": "2026-10-03 02:57:01"
+    "fetched": "2026-10-03 05:18:43"
+    "summary": "Learn how to architect a highly available Oracle Database environment on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP. This post covers EC2 bare metal instance selection, vSAN and FSx storage tiering, NSX networking, and SnapMirror cross-region disaster recovery for enterprises preserving their VMware operational tooling."
+  "e3b8f3b62182ceca182b3a38a567477e":
+    "id": "e3b8f3b62182ceca182b3a38a567477e"
+    "title": "Deploy open source Regional availability tools in your VPC"
+    "link": "https://aws.amazon.com/blogs/architecture/deploy-open-source-regional-availability-tools-in-your-vpc/"
+    "published": "2026-10-03 02:50:56"
+    "fetched": "2026-10-03 05:18:43"
+    "summary": "Deploy AWS Regional availability data as infrastructure you own. Capability Insights for AWS runs a self-hosted dashboard in your VPC that auto-refreshes daily, and Workload Analysis narrows the catalog to the services your account actually runs, so your Regional expansion gap analysis focuses only on what you deploy."
+"last_updated": "2026-10-03 05:18:43 JST"

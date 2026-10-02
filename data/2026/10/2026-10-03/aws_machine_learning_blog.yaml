@@ -1,0 +1,23 @@
+"entries":
+  "ac43cc3c6da4559df0c6b4724d4cb5e3":
+    "id": "ac43cc3c6da4559df0c6b4724d4cb5e3"
+    "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern"
+    "link": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/"
+    "published": "2026-10-03 00:48:26"
+    "fetched": "2026-10-03 05:18:43"
+    "summary": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease compliance as the running example."
+  "570571575abd116e07fa9d57d2d19b4f":
+    "id": "570571575abd116e07fa9d57d2d19b4f"
+    "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/"
+    "published": "2026-10-03 00:46:05"
+    "fetched": "2026-10-03 05:18:43"
+    "summary": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon Bedrock AgentCore Gateway, with JWT-based inbound authentication through AWS IAM Identity Center and Amazon Cognito."
+  "132321f4b4580a84817c9d25ac5e00b7":
+    "id": "132321f4b4580a84817c9d25ac5e00b7"
+    "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/"
+    "published": "2026-10-03 00:44:20"
+    "fetched": "2026-10-03 05:18:43"
+    "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powered search agent with multi-turn reinforcement learning (MTRL) on Amazon SageMaker AI and share the gains we measured in retrieval quality and reliability."
+"last_updated": "2026-10-03 05:18:43 JST"
