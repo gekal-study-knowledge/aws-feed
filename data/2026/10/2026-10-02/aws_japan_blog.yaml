@@ -27,4 +27,11 @@
     "published": "2026-10-02 10:57:07"
     "fetched": "2026-10-02 17:00:49"
     "summary": "こんにちは。アマゾン ウェブ サービス ジャパン合同会社 ソリューションアーキテクトの辻林です。2026 年 9 月 15 日に、「AI ペルソナワークショップ — 自社だけの AI ペルソナを作って、試してみよう」を開催しました。マーケティングや事業企画に携わる皆様と、自社のデータから AI ペルソナを作り、実際のビジネス課題にぶつけてみる半日のワークショップです。ご参加くださった皆様に、改めて御礼申し上げます。 本ブログでは、ワークショップの狙いと当日の様子、参加者の皆様の声をお届けします。"
-"last_updated": "2026-10-02 17:00:49 JST"
+  "268f3be4955b14f038fc8b1e72c7f860":
+    "id": "268f3be4955b14f038fc8b1e72c7f860"
+    "title": "今月の AWS オブザーバビリティ: 2026 年 8 月と 9 月"
+    "link": "https://aws.amazon.com/jp/blogs/news/this-month-in-aws-observability-august-september-2026/"
+    "published": "2026-10-02 20:22:51"
+    "fetched": "2026-10-03 00:18:30"
+    "summary": "8 月と 9 月は、Amazon CloudWatch Omni が一般提供となりました。アラームにはウォームアップ期間とウォールクロック評価ウィンドウが追加されました。データベースのオブザーバビリティは自己管理型 PostgreSQL と Amazon Aurora DSQL にも対応しました。AWS CloudTrail は Amazon Q Console にふだんの言葉で質問できるようになりました。ログ収集は対応範囲を拡大し、またポートフォリオ全体のサービスがより充実したテレメトリを CloudWatch に発行し始めており、その多くは OpenTelemetry を使って構築されています。それでは、Amazon CloudWatch と AWS DevOps Agent の最新情報をご紹介します。"
+"last_updated": "2026-10-03 00:18:30 JST"
