@@ -1,22 +1,23 @@
 "date": "2026-10-03"
-"generated_at": "2026-10-03 08:20:07 JST"
+"generated_at": "2026-10-03 20:34:32 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 11
+"article_count": 15
 "sources":
   - "aws_architecture_blog"
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 11 件で、セキュリティ速報 2 件 (CVE は計 4 件) と、VMware 環境での Oracle Database 運用、そしてエージェントの強化が中心でした。セキュリティ速報はいずれも Important (要対応) です。CVE-2026-103505 は Amazon EFS CSI Driver の問題で、PersistentVolume を作成する権限を持つ者が mounttargetipmap という volumeAttribute を通じて追加のマウントオプションを注入できます。その JSON マップ内の値にカンマ区切りの値を足すと、マウントユーティリティがそれらを別々のマウントオプションとして解釈してしまいます (Bulletin ID: 2026-120-AWS、2026 年 10 月 1 日 08:30 PDT 公開)。もう 1 件は、AWS Labs のオープンソースの AI エージェントオーケストレーション基盤である Loom for AWS における 3 件の問題で、最新版 1.7.0 への更新と、フォークや派生コードへの修正の取り込みが推奨されています (Bulletin ID: 2026-124-AWS、2026 年 10 月 2 日 12:00 PDT 公開)。CVE-2026-103956 は 1.6.1 より前のバージョンの認証依存関係の問題で、ID プロバイダーを設定していない構成では、ネットワーク上のどのクライアントでもアプリケーション API への任意のリクエストによってエージェントのコントロールプレーンに対する完全な管理権限 (ツールサーバーの登録、保存された連携用の資格情報の読み取り、マネージドなエージェントロールに付いた IAM ロールポリシーの書き換え) を得られました (1.6.1 で修正、2026 年 8 月 4 日公開)。CVE-2026-103957 は 1.7.0 より前の OAuth2 ディスカバリー処理の問題で、mcp:write または a2a:write のスコープを持つ認証済みの利用者が、バックエンドに OAuth2 のクライアントシークレットや別の利用者のアクセストークンを第三者の制御するエンドポイントへ送らせるような well-known のディスカバリー URL を設定できました (1.6.1 では内部アドレスへの到達は防いだものの、トークンの漏洩は完全には解決しておらず、1.7.0 で修正)。CVE-2026-103958 はツールサーバー (MCP) とリモートエージェント (A2A) の接続処理における外向きリクエストの扱いの問題です。コンテナでは、Amazon EKS と Amazon EKS Distro が Kubernetes 1.37 に対応しました。EKS コンソール、eksctl、あるいは IaC のツールから 1.37 のクラスターを新規作成したり、既存のクラスターを 1.37 にアップグレードできます。1.37 では Metrics API が metrics.k8s.io/v1 として一般提供に昇格し、Pod とノードの CPU などのメトリクスを提供します。運用では、AWS Health にソフトウェアのライフサイクル管理のためのバージョンカタログが加わりました。AWS の各サービスにまたがるソフトウェアバージョンのライフサイクル情報を 1 か所に集めるもので、バージョンのアップグレードとサポート終了のリスクを後追いではなく先回りして管理できるようにします。AWS Health Dashboard から見られ、Business Support Plus・Enterprise Support・Unified Operations の利用者は AWS Health API でライフサイクルのデータを自分の運用フローに組み込めます。アーキテクチャブログでは、Amazon Elastic VMware Service (Amazon EVS) と Amazon FSx for NetApp ONTAP の組み合わせで Oracle Database を動かす記事が 2 本公開されました。1 本は FSx for NetApp ONTAP を NFS データストアとして使って Oracle Database を配置する手順書で、ストレージボリュームの用意、NFS データストアのマウント、Oracle のインストール、リージョンをまたぐ災害対策のための SnapMirror レプリケーションの設定までを扱います。もう 1 本は可用性の高い Oracle Database 環境の設計で、EC2 ベアメタルインスタンスの選び方、vSAN と FSx のストレージ階層化、NSX のネットワーク、SnapMirror によるクロスリージョンの災害対策を、VMware の運用ツールを維持したい企業向けに整理しています。あわせて、AWS のリージョン別の可用性データを自分の所有物として VPC 内に配置する方法が紹介されました。Capability Insights for AWS が VPC 内で自己ホストのダッシュボードを毎日自動更新で動かし、Workload Analysis がカタログを自分のアカウントが実際に使っているサービスに絞るため、リージョン展開のギャップ分析が自分がデプロイしているものだけに集中できます。機械学習ブログでは 3 本が公開されました。Amazon Quick のチャットエージェントを、決定論的なルールエンジンの上に置いた範囲を限定した MCP サーバーと組み合わせる Adjudicated Query パターンで、完全性が証明でき説明に耐えるコンプライアンスの回答を得る方法 (リースのコンプライアンスを題材に、リファレンスアーキテクチャとデプロイ可能な AWS CDK のサンプルを提示)。Amazon Bedrock の Claude Desktop はウェブ検索がないとモデルの知識のカットオフに縛られるため、Amazon Bedrock AgentCore Gateway を使って Web Search につなぎ、AWS IAM Identity Center と Amazon Cognito による JWT ベースの受信認証を通す方法。そして、小さな検索エージェントに自分たちのツールと環境を覚えさせることで、フロンティアモデル並みの信頼性を低いレイテンシーとコストで得るために、Amazon SageMaker AI 上でマルチターンの強化学習 (MTRL) によって LLM ベースの検索エージェントをファインチューニングし、検索品質と信頼性の改善を測った記事です。このほか、AWS Brazil 2P Distribution Program により、ブラジル国外の適格な独立系ソフトウェアベンダー (ISV) が AWS Brazil に SaaS 製品ライセンスの販売権を与え、AWS Brazil が販売元としてブラジルの顧客にブラジルレアル建てで現地の税を含めて請求する自動化された流通の仕組みが提供されるようになりました。
+  この日は 15 件で、セキュリティ速報の連続、Oracle Database を Amazon EVS 上で可用性高く動かす構成、そしてエージェントのスキル設計が中心でした。セキュリティ速報は 3 件で、いずれも Important (要対応) です。CVE-2026-103505 は Container Storage Interface ドライバである Amazon EFS CSI Driver におけるマウントオプションインジェクション (Bulletin ID: 2026-120-AWS、2026 年 10 月 1 日 08:30 PDT 公開)、CVE-2026-103956・CVE-2026-103957・CVE-2026-103958 は AWS Labs のオープンソース AI エージェントオーケストレーションプラットフォーム Loom for AWS における 3 件の問題 (Bulletin ID: 2026-124-AWS、2026 年 10 月 2 日 12:00 PDT 公開)、CVE-2026-104019 は Amazon SageMaker Distribution の Studio Space 起動スクリプトにおける OS コマンドインジェクション (Bulletin ID: 2026-125-AWS、同日 13:00 PDT 公開) です。アーキテクチャブログでは、Amazon Elastic VMware Service (Amazon EVS) と Amazon FSx for NetApp ONTAP を使って高可用性の Oracle Database 環境を構築する設計記事と、FSx for ONTAP を NFS データストアストレージとして使う手順を追った実装記事の 2 本が公開されました。EC2 ベアメタルインスタンスの選定からストレージボリュームのプロビジョニングまでを扱います。あわせて、AWS のリージョン別の提供状況データを自分たちが所有するインフラとしてデプロイする方法も紹介されました。Capability Insights for AWS は VPC 内で日次に自動更新されるセルフホストのダッシュボードを動かし、Workload Analysis がカタログを絞り込みます。機械学習ブログでは、小さな検索エージェントにツールと環境を教え込むことでフロンティアモデル並みの信頼性をより低いレイテンシーとコストで得るために、Amazon SageMaker AI 上でマルチターンの強化学習によって LLM ベースの検索エージェントをファインチューニングする方法が解説されました。あわせて、Amazon Bedrock 上の Claude Desktop がモデルの知識カットオフに縛られる問題に対し、Amazon Bedrock AgentCore Gateway 経由で Web 検索を安全につなぐ方法と、Amazon Quick のチャットエージェントを決定論的なルールエンジンの上に置いた境界の明確な MCP サーバーと組み合わせ、証明可能に網羅的で説明可能なコンプライアンス回答を得る「Adjudicated Query」パターンで数千件のリース契約を一括点検する方法が公開されました。サービス更新では、Amazon EKS と Amazon EKS Distro が Kubernetes 1.37 に対応し、Amazon Aurora DSQL がテーブルの一部の行だけを対象にする部分インデックスに対応して、該当する行のみを格納することでクエリ性能を上げつつインデックスのコストを下げられるようになりました。Amazon ECS は Amazon VPC Lattice を使う ECS サービスについて、Blue/Green・Linear・Canary のデプロイ戦略を組み込みで利用できるようになりました。AWS Health はソフトウェアバージョンのライフサイクル情報を AWS のサービス横断で集約する version catalog を導入し、AWS Brazil は AWS Brazil 2P Distribution Program によってブラジル国外の独立系ソフトウェアベンダー (ISV) の製品ライセンスをブラジルの顧客へ自動配布するワークフローを提供するようになりました。日本のブログでは、AWS DevOps Agent の Skills を作成するためのベストプラクティスが公開されました。深夜のインシデント対応の質が誰が呼び出されるかで変わってしまう問題に対し、チームの調査ノウハウを再利用可能なプレイブックとして蓄積し、誰が対応しても一貫した調査ができるようにする仕組みで、エージェント指示との使い分けや、起動を左右する description の書き方など、確実に起動して判断ロジックを持つ Skill を書くための指針が示されています。
 "topics":
-  - "セキュリティ速報: CVE-2026-103505 (Amazon EFS CSI Driver でマウントオプションの注入が可能)、Important"
-  - "セキュリティ速報: Loom for AWS に 3 件 (CVE-2026-103956 の認証バイパス、103957 のトークン漏洩、103958 の外向きリクエスト)、1.7.0 への更新を推奨"
-  - "コンテナ: Amazon EKS と EKS Distro が Kubernetes 1.37 に対応、Metrics API が metrics.k8s.io/v1 で GA"
-  - "運用: AWS Health にバージョンカタログが登場、サポート終了リスクを先回りして管理"
-  - "VMware: Amazon EVS と FSx for NetApp ONTAP で Oracle Database を構築する手順と HA 設計の 2 本"
-  - "可用性: Capability Insights for AWS を VPC 内に自己ホストし、使っているサービスだけでリージョン展開を分析"
-  - "コンプライアンス: Amazon Quick と範囲限定の MCP サーバーによる Adjudicated Query パターン"
-  - "エージェント: AgentCore Gateway で Claude Desktop に Web Search を追加 (IAM Identity Center と Cognito の JWT 認証)"
-  - "強化学習: SageMaker AI 上のマルチターン RL で検索エージェントをファインチューニング"
-  - "販売: AWS Brazil 2P Distribution Program で国外 ISV の SaaS ライセンスをブラジル国内へ自動流通"
+  - "セキュリティ速報: CVE-2026-103505 (Amazon EFS CSI Driver のマウントオプションインジェクション)、Loom for AWS の 3 件 (CVE-2026-103956/103957/103958)、CVE-2026-104019 (SageMaker Distribution の Studio Space 起動スクリプトの OS コマンドインジェクション)、いずれも Important"
+  - "Oracle: Amazon EVS と FSx for NetApp ONTAP による高可用性 Oracle Database の設計と導入手順を 2 本立てで解説"
+  - "エージェント設計: AWS DevOps Agent の Skills 作成のベストプラクティス、調査ノウハウを再利用可能なプレイブックに"
+  - "ファインチューニング: SageMaker AI 上のマルチターン強化学習で小型の検索エージェントをフロンティアモデル並みの信頼性に"
+  - "エージェント連携: AgentCore Gateway 経由で Claude Desktop に安全な Web 検索を追加"
+  - "コンプライアンス: Amazon Quick と決定論的ルールエンジン上の MCP サーバーを組み合わせる Adjudicated Query パターンで数千件のリースを一括点検"
+  - "コンテナ: EKS と EKS Distro が Kubernetes 1.37 に対応、ECS が VPC Lattice で Blue/Green・Linear・Canary デプロイに対応"
+  - "データベース: Amazon Aurora DSQL が部分インデックスに対応、該当行のみ格納してクエリ性能とコストを改善"
+  - "運用: AWS Health が version catalog を導入し、ソフトウェアバージョンのライフサイクル情報を横断的に提供"
+  - "可用性情報: Capability Insights for AWS で VPC 内に日次自動更新のセルフホストダッシュボードを構築"
