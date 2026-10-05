@@ -1,0 +1,9 @@
+"entries":
+  "727a093831d3ee923c5c134a894a59a7":
+    "id": "727a093831d3ee923c5c134a894a59a7"
+    "title": "AWS ベースの EDA 環境で Rebellions の次世代 AI NPU 開発を加速する"
+    "link": "https://aws.amazon.com/jp/blogs/news/rebellions-eda-aws/"
+    "published": "2026-10-05 07:57:17"
+    "fetched": "2026-10-05 10:32:34"
+    "summary": "Rebellions は EDA ツールの実行時間というボトルネックを解消して設計開発全般の生産性をさらに高めるため、実際の NPU 開発ワークロードに基づいて AWS 環境における EDA の性能と拡張性を検証しました。本記事では AWS ParallelCluster と Amazon FSx を活用した EDA 環境の構成とともに、Logic Simulation、DFT、Physical Design の各ワークロードで確認した性能改善の結果を紹介します。"
+"last_updated": "2026-10-05 10:32:34 JST"
