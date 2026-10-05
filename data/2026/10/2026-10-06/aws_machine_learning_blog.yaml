@@ -41,4 +41,11 @@
     "published": "2026-10-06 00:50:01"
     "fetched": "2026-10-06 02:47:59"
     "summary": "Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their decisions. Learn how to build a Strands-based multi-agent supply chain decisioning system and evaluate it with Amazon Bedrock AgentCore Evaluations using built-in, custom, and explainability evaluators."
-"last_updated": "2026-10-06 02:47:59 JST"
+  "00fa459137bf164f9e038b3746231fb3":
+    "id": "00fa459137bf164f9e038b3746231fb3"
+    "title": "Introducing GLM 5.3 on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/"
+    "published": "2026-10-06 08:25:17"
+    "fetched": "2026-10-06 08:40:11"
+    "summary": "GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the OpenAI-compatible APIs, cut cost and latency with prompt caching, and run an authorized security test with the open-source Strix agent."
+"last_updated": "2026-10-06 08:40:11 JST"
