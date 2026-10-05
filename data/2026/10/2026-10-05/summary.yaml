@@ -1,0 +1,15 @@
+"date": "2026-10-05"
+"generated_at": "2026-10-06 08:21:59 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 6
+"sources":
+  - "aws_japan_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は 6 件で、AWS Well-Architected Agent のプレビューと Kiro への Claude Sonnet 5.5 の追加、そして週刊まとめが中心でした。運用では、2026 年 10 月 1 日に AWS Well-Architected Agent のパブリックプレビューが始まりました。クラウド環境を最適化するために AI を活用するインテリジェンスという位置づけです。開発ツールでは、Claude Sonnet 5.5 が 2026 年 10 月 2 日より Kiro の IDE、CLI、Crew、Web のすべてで利用可能になりました。Anthropic のこれまでで最も高速な Sonnet モデルで、Claude Sonnet 5 から明確に進化しており、社内のベンチマークでは Sonnet 5 を上回る結果を示し、トークン消費と速度の両面でも効率が向上しています。Opus 5.5 に続く Claude 5.5 ファミリーの2 番目のモデルです。セキュリティでは、AWS Private CA が証明書発行の詳細なログを提供するようになりました。新しい IssueCertificateDetails という CloudTrail のサービスイベントで、発行ごとに証明書の内容そのもの、署名した CA の情報、リクエスト元の ID、署名のステータスを記録します。従来は IssueCertificate API の CloudTrail 管理イベントが証明書 ARN を返して API 呼び出しの成功を伝えるだけで、証明書の内容や署名した CA、署名前に失敗した発行は捉えられませんでした。新しいイベントは X.509 のフィールドと拡張をすべて含む被署名 (TBS) 証明書に加え、サブジェクト、発行者、シリアル番号、有効期間、テンプレート、署名アルゴリズムの便宜フィールドを持ちます。成功と失敗の双方で発行され、名前制約の違反のように署名前に失敗したケースも理由付きで記録が残ります。リクエスト元は、API を直接呼ぶ場合はアカウントと IAM プリンシパル、AWS Private CA のコネクタや統合された AWS サービス経由ならサービスプリンシパルとして記録され、クロスアカウント構成ではCA の所有アカウントにイベントが届きます。設定やオプトインは不要で、CloudTrail の標準料金を超える追加費用もなく、Amazon EventBridge でリアルタイムに処理したり Amazon Athena でまとめてクエリしたりできます。AWS Private CA が提供されている全リージョンで利用できます。事例としては、Rebellions が次世代 AI NPU の開発で EDA ツールの実行時間というボトルネックを解消するため、実際の NPU 開発ワークロードに基づいて AWS 環境の EDA の性能と拡張性を検証した記事が公開されました。AWS ParallelCluster と Amazon FSx を活用した構成とともに、Logic Simulation、DFT、Physical Design の各ワークロードで確認した性能改善の結果が紹介されています。週刊まとめは 2 本です。「週刊生成AI with AWS – 2026/9/28週」は、オリックスの Amazon Bedrock AgentCore Gateway による PATPOST の MCP サーバー化事例、日立産業制御ソリューションズとの Kiro ワークショップ、Kiro workflows の紹介を含むブログ記事 18 件と、Claude Sonnet 5.5・GPT-6.1 Sol・Grok 4.7 の AWS 提供開始、Amazon Bedrock Managed Agents, powered by OpenAI のプレビュー開始、AWS MCP Server の東京リージョン対応を含むサービスアップデート 25 件を取り上げています。「週刊AWS – 2026/9/28週」では、Amazon Route 53 Resolver DNS Firewall での Palo Alto Networks Advanced DNS Security の GA、AWS Backup の論理的エアギャップボールトの Amazon FSx for NetApp ONTAP 対応、OpenAI GPT-6.1 Sol の Amazon Bedrock での GA、Aurora PostgreSQL から Apache Iceberg / Parquet データを直接クエリできるようになったこと、Amazon Aurora serverless のスケーリングの高速化、Amazon RDS の AMD ベース M8a インスタンス対応、Amazon CloudWatch Logs で頻繁にクエリされるフィールドを自動インデックス化すること、AWS IAM Identity Center のマルチリージョン対応リージョンの拡大、AWS Health への version catalog の追加などが挙げられています。
+"topics":
+  - "運用: AWS Well-Architected Agent がパブリックプレビュー、AI でクラウド環境の最適化を支援"
+  - "開発ツール: Claude Sonnet 5.5 が Kiro の IDE・CLI・Crew・Web で利用可能に (Claude 5.5 ファミリーの 2 番目)"
+  - "セキュリティ: AWS Private CA に IssueCertificateDetails イベント、TBS 証明書と失敗した発行まで CloudTrail に記録 (追加費用なし)"
+  - "事例: Rebellions が AWS ParallelCluster と FSx の EDA 環境で NPU 開発を高速化、Logic Simulation・DFT・Physical Design で検証"
+  - "週刊まとめ: 週刊生成AI (ブログ 18 件・更新 25 件) と週刊AWS で 9/28 週の動きを整理"

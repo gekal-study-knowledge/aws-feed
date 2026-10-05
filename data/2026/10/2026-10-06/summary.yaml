@@ -1,0 +1,16 @@
+"date": "2026-10-06"
+"generated_at": "2026-10-06 08:21:59 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 7
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+"overview": |
+  この日は 7 件で、規制対象ワークロードでの Claude の利用と、エージェントの評価・運用を扱う記事が揃いました。規制対応では、Anthropic の Claude Opus 5.5 と Claude Sonnet 5.5 が AWS GovCloud (US) リージョンの Amazon Bedrock で利用可能になり、Anthropic のエージェント型コーディングツールである Claude Code と組み合わせて、規制対象や ITAR のワークロードでコンプライアンスに沿った AI 支援の開発を行う方法が紹介されました。推論の最適化では、Amazon SageMaker の最適化された生成 AI 推論が、Agent Toolkit for AWS を通じて aws-ai-ml スキルを提供するようになりました。Kiro、Claude Code、Codex のようなコーディングエージェントに推論の最適化とベンチマークの深い知識を与えるもので、やりたいことを説明すれば、ベンチマーク・推奨・比較を行う SageMaker Python SDK v3 の実行可能なコードをエージェントが生成します。エージェントの評価では、Amazon Bedrock AgentCore Evaluations を使ってマルチエージェントシステムの説明可能性と有用性を評価する方法が取り上げられました。マルチエージェントシステムには流暢な応答以上の保証が必要で、正しいツールを選び、制約を守り、自らの判断を説明できなければなりません。記事では Strands ベースのサプライチェーン意思決定システムを構築し、組み込みの評価器、カスタムの評価器、説明可能性の評価器で評価しています。検索では、LangChain と Amazon Bedrock Knowledge Bases による RAG アプリケーションの構築と、単発の検索では答えにくい複数の要素を含む問いをエージェント型の検索がどう扱うかが比較されました。同じクエリを両方の経路に流し、トレースイベントを読んで、それぞれの検索経路のコストを比べています。Amazon Quick については 2 本で、エージェント、アクションコネクタ、ナレッジベース、フロー、スペースといったリソースを開発アカウントから本番アカウントへ昇格させる作業が手作業で間違いやすいものだったことに対し、Amazon Bedrock AgentCore 上の冪等で監査可能な MCP サーバーでクロスアカウントの昇格を自動化する方法が示されました。もう 1 本は、Amazon Quick でユーザーを Admin や Author から Reader へ降格させるコンソールの直接の手段がないことについて、手作業で削除して作り直す方法と、資産の所有権を保ったまま安全にロールを下げる AWS CLI の手順の2 通りを解説しています。週刊まとめの「AWS Weekly Roundup (2026 年 10 月 5 日)」では、OpenAI の Agents API を AWS ネイティブになるようカスタマイズして AWS リソースと統合した Amazon Bedrock Managed Agents, powered by OpenAI のパブリックプレビュー、第 3 四半期のサービス提供リージョンの更新、Kiro workflows などが取り上げられました。OpenAI のモデルに最適化しつつ、AWS の ID、権限、ガバナンスの統制のもとで完全に AWS 内で動くエージェントを構築できます。
+"topics":
+  - "規制対応: Claude Opus 5.5 と Sonnet 5.5 が GovCloud (US) の Bedrock で利用可能、Claude Code と組み合わせた ITAR 対応開発"
+  - "推論最適化: Agent Toolkit for AWS の aws-ai-ml スキルで、コーディングエージェントが SageMaker Python SDK v3 のベンチマークコードを生成"
+  - "エージェント評価: Bedrock AgentCore Evaluations で Strands 製マルチエージェントの説明可能性と有用性を評価"
+  - "検索: LangChain と Bedrock Knowledge Bases で、エージェント型検索と単発検索をトレースとコストで比較"
+  - "BI: Amazon Quick のクロスアカウント昇格を AgentCore 上の冪等な MCP サーバーで自動化、ロール降格の手順も解説"
+  - "週刊まとめ: Bedrock Managed Agents, powered by OpenAI のプレビューと Q3 のリージョン更新、Kiro workflows"
