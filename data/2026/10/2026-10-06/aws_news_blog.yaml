@@ -1,0 +1,9 @@
+"entries":
+  "91663ae473ebcd1f9bcfea13a3cd067d":
+    "id": "91663ae473ebcd1f9bcfea13a3cd067d"
+    "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)"
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/"
+    "published": "2026-10-06 00:41:19"
+    "fetched": "2026-10-06 02:47:57"
+    "summary": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you […]"
+"last_updated": "2026-10-06 02:47:57 JST"
