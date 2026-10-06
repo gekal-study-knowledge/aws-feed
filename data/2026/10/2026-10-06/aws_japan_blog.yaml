@@ -27,4 +27,11 @@
     "published": "2026-10-06 08:46:06"
     "fetched": "2026-10-06 13:38:32"
     "summary": "本ブログは、AWS Mainframe Modernization Day Tokyo 2026 の内容をレポートしています。AWS のデータセンター、AWS Nitro System、セキュリティ、レジリエンシー、運用高度化、生成 AI デモという 6 つの技術セッションを通じて、メインフレームが 50 年にわたり支持されてきた信頼性・安全性・運用安定性を AWS が最新のクラウドアーキテクチャでどのように再現するかを体系的に紹介しました。"
-"last_updated": "2026-10-06 13:38:32 JST"
+  "a7a9267434316e1b8a3d1a6c27c7f695":
+    "id": "a7a9267434316e1b8a3d1a6c27c7f695"
+    "title": "イージャイズ株式会社（旧ルミーズ株式会社）様：決済端末リモートキーインジェクション基盤にAWS Payment Cryptographyを採用。鍵の「注入」と「復号」を一元化し、HSM運用の負荷を大幅削減"
+    "link": "https://aws.amazon.com/jp/blogs/news/aegise_apc/"
+    "published": "2026-10-06 15:56:55"
+    "fetched": "2026-10-06 20:44:05"
+    "summary": "by Koshiro Fujikawa | on 1 10月 2026 | in AWS Payment Cr […]"
+"last_updated": "2026-10-06 20:44:05 JST"
