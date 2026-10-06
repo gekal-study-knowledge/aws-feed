@@ -27,4 +27,11 @@
     "published": "2026-10-07 00:45:42"
     "fetched": "2026-10-07 02:50:43"
     "summary": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for policy answers. Travelers change seats, check delays, and ask policy questions by voice, while the agent reaches your backend through MCP tools and confirms every change before it writes."
-"last_updated": "2026-10-07 02:50:43 JST"
+  "c2cd19197213b40d13cd025bdb2fec90":
+    "id": "c2cd19197213b40d13cd025bdb2fec90"
+    "title": "Building a context-aware AI assistant on AgentCore and OpenClaw"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-a-context-aware-ai-assistant-on-agentcore-and-openclaw/"
+    "published": "2026-10-07 04:19:15"
+    "fetched": "2026-10-07 07:15:00"
+    "summary": "Off-the-shelf AI assistants forget you between conversations. This post shows how to build a personal assistant that accumulates context using OpenClaw on Amazon Bedrock AgentCore runtime, with AgentCore memory turning disposable chats into durable, structured knowledge you can retrieve with metadata filters."
+"last_updated": "2026-10-07 07:15:00 JST"

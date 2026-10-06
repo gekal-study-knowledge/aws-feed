@@ -1,0 +1,9 @@
+"entries":
+  "4557233d8a7b38aac5bc0964a598f2b6":
+    "id": "4557233d8a7b38aac5bc0964a598f2b6"
+    "title": "CVE-2026-105812 and CVE-2026-106032: Issue with Bedrock AgentCore Starter Toolkit - Import Agent Code Injection and SSRF"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-127-aws/"
+    "published": "2026-10-07 05:41:24"
+    "fetched": "2026-10-07 07:14:59"
+    "summary": "<p><b>Bulletin ID:</b> 2026-127-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 10/06/2026 13:30 PM PDT</p>\n<p><b>Description:</b></p>\n<p>bedrock-agentcore-starter-toolkit is an AWS-maintained open-source Python package, distributed via GitHub and PyPI, that provides a command-line interface for importing Amazon Bedrock Agents into local development environments. We identified CVE-2026-105812, a code injection issue that could allow arbitrary code execution when a specially crafted agent is imported and subsequently run or deployed, and CVE-2026-106032, an external reference handling issue that could cause unintended network requests or local file access during agent import.</p>\n<p><b>Affected versions:</b> &gt;= 0.1.4 and &lt;= 0.3.13</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-10-07 07:14:59 JST"

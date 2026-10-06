@@ -1,0 +1,9 @@
+"entries":
+  "1d9a82a7a7f3c5ddf4fba4fa6eefd5df":
+    "id": "1d9a82a7a7f3c5ddf4fba4fa6eefd5df"
+    "title": "AWS Batch now publishes job metrics to Amazon CloudWatch"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-job-cloudwatch-metrics/"
+    "published": "2026-10-07 02:30:00"
+    "fetched": "2026-10-07 07:14:57"
+    "summary": "<p>AWS Batch now publishes job metrics to Amazon CloudWatch, providing native observability for batch workloads. AWS Batch emits metrics throughout the job lifecycle, giving you visibility into job queue health, failure rates, and job durations.</p>\n<p>AWS Batch automatically publishes job state transition and duration metrics to the AWS/Batch namespace in Amazon CloudWatch, with JobQueueName dimension. State transition metrics track how many jobs entered a given state, such as submitted, running, succeeded, or failed. Duration metrics track how long jobs spent between states, such as time from submission to runnable or total execution time. You can view these metrics in the AWS Batch console, the Amazon CloudWatch console, or through the AWS CLI and AWS SDKs.</p>\n<p>AWS Batch CloudWatch metrics are now published in all <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\">AWS Regions</a> where AWS Batch is available. For more information, see CloudWatch Metrics page in the <a href=\"https://docs.aws.amazon.com/batch/latest/userguide/using_cloudwatch_metrics.html\">AWS Batch User Guide</a>.</p>"
+"last_updated": "2026-10-07 07:14:57 JST"

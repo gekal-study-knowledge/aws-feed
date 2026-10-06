@@ -6,4 +6,11 @@
     "published": "2026-10-07 01:07:06"
     "fetched": "2026-10-07 02:50:42"
     "summary": "You’re building a data agent that lets business users ask questions about lakehouse data in natural language. You’ve already built governance policies that control who can access which datasets. The challenge is making the agent respect those rules without rebuilding them in your application code. When a user asks a question, the agent maps it […]"
-"last_updated": "2026-10-07 02:50:42 JST"
+  "e59dcbedc12b2d00fb595ccc85fd150c":
+    "id": "e59dcbedc12b2d00fb595ccc85fd150c"
+    "title": "Improving SPIRE security and resiliency with AWS managed services"
+    "link": "https://aws.amazon.com/blogs/security/improving-spire-security-and-resiliency-with-aws-managed-services/"
+    "published": "2026-10-07 03:52:25"
+    "fetched": "2026-10-07 07:14:58"
+    "summary": "In cloud-centered environments, establishing trust between workloads is fundamental to securing machine-to-machine communication. Traditional approaches such as API keys, shared secrets, and static service account credentials weren’t designed for the scale and ephemeral nature of cloud workloads. This drives an organizational need to shift from long-term, static credentials to short-lived cryptographic workload identities. Organizations are […]"
+"last_updated": "2026-10-07 07:14:58 JST"
