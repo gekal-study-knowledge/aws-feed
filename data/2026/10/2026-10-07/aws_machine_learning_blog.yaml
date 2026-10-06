@@ -1,0 +1,30 @@
+"entries":
+  "9fea08a7adc8fa060a38ada2d063c637":
+    "id": "9fea08a7adc8fa060a38ada2d063c637"
+    "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025"
+    "link": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/"
+    "published": "2026-10-07 00:53:28"
+    "fetched": "2026-10-07 02:50:43"
+    "summary": "AWS invests in tools that help customers align with international standards for responsible AI governance. In this post, we explore the AI system impact assessment: what it is, how it improves enterprise-wide risk management, and how ISO/IEC 42005:2025 codifies best practices for conducting and documenting these assessments."
+  "55c386ee70e087d5bc3967b9aa9046c0":
+    "id": "55c386ee70e087d5bc3967b9aa9046c0"
+    "title": "Best practices for Amazon SageMaker HyperPod administration and governance"
+    "link": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/"
+    "published": "2026-10-07 00:50:23"
+    "fetched": "2026-10-07 02:50:43"
+    "summary": "Learn how to administer Amazon SageMaker HyperPod through Amazon SageMaker Unified Studio while preserving cluster governance. This post shows platform teams how to design infrastructure boundaries, govern access, allocate shared capacity, and operate HyperPod consistently across the organization, project, cluster, and workload control layers."
+  "3e6544ead7f32f56a1a7121b1130c888":
+    "id": "3e6544ead7f32f56a1a7121b1130c888"
+    "title": "Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio"
+    "link": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/"
+    "published": "2026-10-07 00:47:02"
+    "fetched": "2026-10-07 02:50:43"
+    "summary": "Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters directly from SageMaker Studio. Launch JupyterLab and Code Editor environments in a few clicks, without using command-line tools."
+  "bc5924ad74d90d9ab30c73d9152490fe":
+    "id": "bc5924ad74d90d9ab30c73d9152490fe"
+    "title": "Build a voice travel concierge with Amazon Bedrock AgentCore, Managed Knowledge Base and Nova Sonic"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/"
+    "published": "2026-10-07 00:45:42"
+    "fetched": "2026-10-07 02:50:43"
+    "summary": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for policy answers. Travelers change seats, check delays, and ask policy questions by voice, while the agent reaches your backend through MCP tools and confirms every change before it writes."
+"last_updated": "2026-10-07 02:50:43 JST"

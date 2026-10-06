@@ -1,0 +1,9 @@
+"entries":
+  "9caeffd6e6eb0701896a17f515d55fc0":
+    "id": "9caeffd6e6eb0701896a17f515d55fc0"
+    "title": "Get started with AWS Lambda SnapStart for container images"
+    "link": "https://aws.amazon.com/blogs/compute/get-started-with-aws-lambda-snapstart-for-container-images/"
+    "published": "2026-10-07 01:59:51"
+    "fetched": "2026-10-07 02:50:43"
+    "summary": "AWS Lambda SnapStart now supports container image functions, reducing startup times from several seconds to as low as sub-second. Learn how SnapStart for container images works, how to enable it on new or existing functions, and best practices for latency-sensitive workloads."
+"last_updated": "2026-10-07 02:50:43 JST"

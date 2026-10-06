@@ -1,0 +1,9 @@
+"entries":
+  "09d7d48d4ab573a713e5a1e680cfa560":
+    "id": "09d7d48d4ab573a713e5a1e680cfa560"
+    "title": "Identity-aware AI data agents with AWS Lake Formation and Trusted Identity Propagation"
+    "link": "https://aws.amazon.com/blogs/security/identity-aware-ai-data-agents-with-aws-lake-formation-and-trusted-identity-propagation/"
+    "published": "2026-10-07 01:07:06"
+    "fetched": "2026-10-07 02:50:42"
+    "summary": "You’re building a data agent that lets business users ask questions about lakehouse data in natural language. You’ve already built governance policies that control who can access which datasets. The challenge is making the agent respect those rules without rebuilding them in your application code. When a user asks a question, the agent maps it […]"
+"last_updated": "2026-10-07 02:50:42 JST"
