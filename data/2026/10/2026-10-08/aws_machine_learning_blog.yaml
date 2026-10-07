@@ -1,0 +1,37 @@
+"entries":
+  "c513135490fdab681d843a3e919684ef":
+    "id": "c513135490fdab681d843a3e919684ef"
+    "title": "Beyond hours saved: Building the business case for agentic automation"
+    "link": "https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation/"
+    "published": "2026-10-08 00:50:00"
+    "fetched": "2026-10-08 02:11:39"
+    "summary": "The RPA-era ROI model misses most of the value agentic automation creates. This post gives AI center of excellence leaders a framework to size the full value of agents across time savings, exception handling, decision quality, and maintenance economics, and to prioritize which workflows to automate first."
+  "06a18558fb9d3b1807871abb884862c0":
+    "id": "06a18558fb9d3b1807871abb884862c0"
+    "title": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/"
+    "published": "2026-10-08 00:48:46"
+    "fetched": "2026-10-08 02:11:39"
+    "summary": "Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterprise data. Learn how a layered, multi-agent architecture with cross-Region inference and Amazon Bedrock Guardrails delivers trusted AI at global scale."
+  "96c576a7e0e172c1af8a15704640590e":
+    "id": "96c576a7e0e172c1af8a15704640590e"
+    "title": "Automate remediation post AWS DevOps Agent investigation"
+    "link": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/"
+    "published": "2026-10-08 00:46:49"
+    "fetched": "2026-10-08 02:11:39"
+    "summary": "AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call engineer can approve with a single action."
+  "803125dec4b1387e53f2620727236039":
+    "id": "803125dec4b1387e53f2620727236039"
+    "title": "Building AI builders: Playbook for closing the AI knowledge-capability gap"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-ai-builders-playbook-for-closing-the-ai-knowledge-capability-gap/"
+    "published": "2026-10-08 00:44:27"
+    "fetched": "2026-10-08 02:11:39"
+    "summary": "The biggest barrier to AI adoption isn't awareness. It's the gap between talking about AI and building with it. Here's the playbook we used to turn non-technical, customer-facing professionals into confident AI builders in six weeks, and how your organization can replicate it."
+  "f7ffed491a645a7b3168dd106ed62381":
+    "id": "f7ffed491a645a7b3168dd106ed62381"
+    "title": "How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/"
+    "published": "2026-10-08 00:38:28"
+    "fetched": "2026-10-08 02:11:39"
+    "summary": "Cornerstone OnDemand built Orion AI, a multi-agent system on Amazon Bedrock and Strands Agents, to turn database operations from reactive firefighting into proactive automation. A three-person team cut database diagnosis from 45 minutes to 10, a 78% reduction, in six months. See the design decisions other teams can reuse."
+"last_updated": "2026-10-08 02:11:39 JST"
