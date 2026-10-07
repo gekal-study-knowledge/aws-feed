@@ -1,0 +1,16 @@
+"entries":
+  "b6a23fdaefb6bfbf48effb440439f617":
+    "id": "b6a23fdaefb6bfbf48effb440439f617"
+    "title": "CVE-2026-107352 - Missing authorization checks in Amazon Athena engine version 3 request handling"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-128-aws/"
+    "published": "2026-10-08 05:19:18"
+    "fetched": "2026-10-08 07:36:43"
+    "summary": "<p><b>Bulletin ID:</b> 2026-128-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 10/07/2026 13:00 PM PDT</p>\n<p><b>Description:</b></p>\n<p>Missing authorization checks in Amazon Athena engine version 3 request handling could have allowed an authenticated user to read limited query metadata (AWS account identifiers and SQL statement text) from other AWS accounts. AWS remediated the issue on September 1, 2026, and has confirmed no customer metadata was accessed. Query results, credentials, and Amazon S3 data were not affected. No customer action is required.</p>\n<p><b>Resolution:</b></p>\n<p>This issue was addressed service-side on September 1, 2026.</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "46f3e1d0921be50b199ff9fed051ed5e":
+    "id": "46f3e1d0921be50b199ff9fed051ed5e"
+    "title": "CVE-2026-105811 - Authorization bypass through a user-controlled key in the Amazon Q Business Lambda hook sample in QnABot on AWS"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-126-aws/"
+    "published": "2026-10-08 03:25:26"
+    "fetched": "2026-10-08 07:36:43"
+    "summary": "<p><b>Bulletin ID:</b> 2026-126-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 10/06/2026 13:00 PM PDT</p>\n<p><b>Description:</b></p>\n<p>QnABot on AWS is a sample solution of a multi-channel, multi-language conversational interface (chatbot) that responds to your customer's questions, answers, and feedback. We identified CVE-2026-105811 in the optional Amazon Q Business Lambda hook sample of QnABot on AWS. The Amazon Q Business Lambda hook sample (q-business-lambda-hook) is an optional integration sample included in the QnABot on AWS repository. It requires separate, manual deployment and additional setup; it is not deployed automatically with QnABot. Customers who have not deployed this sample are not affected and do not need to take action.</p>\n<p>Authorization bypass through a user-controlled key in the sample included with QnABot on AWS versions 7.0.0 through 7.4.5 might allow an authenticated remote user to read arbitrary Amazon S3 objects in the deploying AWS account.</p>\n<p>To remediate this issue, affected customers should update the QnABot on AWS stack to version 7.4.6 or later and then redeploy the Amazon Q Business Lambda hook sample stack. Updating the QnABot on AWS stack alone does not deliver the fix.</p>\n<p><b>Impacted versions:</b> &gt;=7.0.0, &lt;7.4.6</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-10-08 07:36:43 JST"
