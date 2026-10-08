@@ -6,4 +6,11 @@
     "published": "2026-10-09 01:20:04"
     "fetched": "2026-10-09 02:09:17"
     "summary": "A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocation for chargeback."
-"last_updated": "2026-10-09 02:09:17 JST"
+  "b9cac3cda98a444037bae40646476b68":
+    "id": "b9cac3cda98a444037bae40646476b68"
+    "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments"
+    "link": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/"
+    "published": "2026-10-09 03:33:29"
+    "fetched": "2026-10-09 07:48:39"
+    "summary": "Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Incarna's agents pay BlockRun for model inference one request at a time over x402, cutting the work of adding x402 payment support from months to days."
+"last_updated": "2026-10-09 07:48:39 JST"
