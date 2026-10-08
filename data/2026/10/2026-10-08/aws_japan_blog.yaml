@@ -1,0 +1,16 @@
+"entries":
+  "c9f36b537dbd3442285e05c1685198e5":
+    "id": "c9f36b537dbd3442285e05c1685198e5"
+    "title": "AWS ウィークリーまとめ：OpenAI を搭載した Amazon Bedrock マネージドエージェント、Q3 のサービス可用性アップデート、Kiro ワークフローなど（2026 年 10 月 5 日）"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/"
+    "published": "2026-10-08 10:56:49"
+    "fetched": "2026-10-08 11:26:24"
+    "summary": "2026 年 9 月 28 日週、OpenAI を搭載した Amazon Bedrock マネージドエージェン […]"
+  "9b26361564c80a335c6de6b2df0b1ab3":
+    "id": "9b26361564c80a335c6de6b2df0b1ab3"
+    "title": "AWS Continuum が自律型コードセキュリティの新たな基準を確立: CyberGym-E2E で成功率 89.0% を達成"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-continuum-sets-a-new-standard-in-autonomous-code-security/"
+    "published": "2026-10-08 10:36:38"
+    "fetched": "2026-10-08 11:26:24"
+    "summary": "AI モデルの進化により脆弱性への迅速な対応が求められるなか、AWS Continuum for code vulnerabilities は、マシンスピードで動作する自律型セキュリティによって脆弱性の発見、検証、修復を加速します。脆弱性ライフサイクル全体を評価する CyberGym-E2E ベンチマークで、Continuum は 920 件中 819 件のタスクをパスし、成功率 89.0% を達成しました。これは従来の公開最高値を 23.1 ポイント上回る結果です。本記事では、ベンチマークの評価方法、マルチエージェントのハーネス設計、今後の評価の方向性を紹介します。"
+"last_updated": "2026-10-08 11:26:24 JST"
