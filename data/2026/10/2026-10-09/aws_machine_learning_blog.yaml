@@ -1,0 +1,9 @@
+"entries":
+  "727cbbeaed8b92d8a6671c42c6152c41":
+    "id": "727cbbeaed8b92d8a6671c42c6152c41"
+    "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod"
+    "link": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/"
+    "published": "2026-10-09 01:20:04"
+    "fetched": "2026-10-09 02:09:17"
+    "summary": "A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocation for chargeback."
+"last_updated": "2026-10-09 02:09:17 JST"
