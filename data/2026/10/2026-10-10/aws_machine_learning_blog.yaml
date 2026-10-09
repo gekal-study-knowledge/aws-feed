@@ -1,0 +1,16 @@
+"entries":
+  "e0ff71c1085ab3a96a2ed62d1495cd32":
+    "id": "e0ff71c1085ab3a96a2ed62d1495cd32"
+    "title": "ICYMI: What landed for AI builders in September 2026"
+    "link": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/"
+    "published": "2026-10-10 00:38:39"
+    "fetched": "2026-10-10 01:51:35"
+    "summary": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evaluation, and automated knowledge base syncing with native enterprise connectors."
+  "b79cdf748952087d7fe23ca6e7326019":
+    "id": "b79cdf748952087d7fe23ca6e7326019"
+    "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/"
+    "published": "2026-10-10 00:35:02"
+    "fetched": "2026-10-10 01:51:35"
+    "summary": "Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns behind Agent Mode: controlling tool sprawl, exposing schema-based reads, and treating context as the real bottleneck, plus how it runs on Amazon Bedrock at scale."
+"last_updated": "2026-10-10 01:51:35 JST"

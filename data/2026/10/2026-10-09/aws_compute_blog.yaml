@@ -1,0 +1,9 @@
+"entries":
+  "5626ce10a9499d67e4755ac5e0b309d9":
+    "id": "5626ce10a9499d67e4755ac5e0b309d9"
+    "title": "Scaling RL rollouts with Firecracker on Amazon EC2 metal"
+    "link": "https://aws.amazon.com/blogs/compute/scaling-rl-rollouts-with-firecracker-on-amazon-ec2-metal/"
+    "published": "2026-10-09 23:38:27"
+    "fetched": "2026-10-10 01:51:35"
+    "summary": "Reinforcement learning at scale runs thousands of isolated rollout sandboxes in parallel, and packing more of them onto each host lowers your cost per training step. This post shows how to tune Firecracker microVM density on Amazon EC2 metal, and introduces labsweep, a harness for mapping your own latency and density curve."
+"last_updated": "2026-10-10 01:51:35 JST"

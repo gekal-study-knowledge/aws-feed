@@ -1,0 +1,9 @@
+"entries":
+  "80251d0920457f486dd7bee4dcc0fe03":
+    "id": "80251d0920457f486dd7bee4dcc0fe03"
+    "title": "CVE-2026-107783 - Insertion of sensitive information into log file in AWS Tools for PowerShell"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-132-aws/"
+    "published": "2026-10-10 00:56:44"
+    "fetched": "2026-10-10 01:51:34"
+    "summary": "<p><b>Bulletin ID:</b> 2026-132-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 10/09/2026 08:30 AM PDT</p>\n<p><b>Description:</b></p>\n<p>AWS Tools for PowerShell V5 lets developers and administrators manage their AWS services from the PowerShell scripting environment. We identified CVE-2026-107783, where insertion of sensitive information into log file in AWS Tools for PowerShell before 5.0.306 might allow local users to recover an IAM user's cleartext AWS Management Console password from command output and log artifacts.</p>\n<p><b>Impacted versions:</b> &lt;= v5.0.305</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-10-10 01:51:34 JST"
