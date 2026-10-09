@@ -1,0 +1,9 @@
+"entries":
+  "619a97e18408dcb292adb05969602898":
+    "id": "619a97e18408dcb292adb05969602898"
+    "title": "Reducing cross-AZ latency with the AWS Lambda metadata endpoint"
+    "link": "https://aws.amazon.com/blogs/compute/reducing-cross-az-latency-with-the-aws-lambda-metadata-endpoint/"
+    "published": "2026-10-10 04:41:24"
+    "fetched": "2026-10-10 06:26:49"
+    "summary": "AWS Lambda now exposes Availability Zone metadata through an endpoint in the execution environment, so your function can discover its AZ ID with an HTTP request. Use it to prefer same-AZ endpoints for services like ElastiCache, Amazon RDS, and MemoryDB, reduce cross-AZ latency and data transfer costs, and build AZ-aware resilience patterns."
+"last_updated": "2026-10-10 06:26:49 JST"
