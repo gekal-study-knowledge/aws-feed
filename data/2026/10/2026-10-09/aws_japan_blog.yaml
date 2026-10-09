@@ -1,0 +1,9 @@
+"entries":
+  "ba41f4d04ca42ca34c3a4cdba71530d8":
+    "id": "ba41f4d04ca42ca34c3a4cdba71530d8"
+    "title": "Agent Skills で Amazon Bedrock の自動推論ポリシーのライフサイクルを自動化"
+    "link": "https://aws.amazon.com/jp/blogs/news/agent-skills-for-automated-reasoning-policies-in-amazon-bedrock/"
+    "published": "2026-10-09 09:55:50"
+    "fetched": "2026-10-09 11:43:24"
+    "summary": "Amazon Bedrock の自動推論チェック (Automated Reasoning checks) では、AI の回答を形式論理で検証し、説明可能な判定を得られます。この記事では、Agent Skills を使って自動推論ポリシー (Automated Reasoning policy) のライフサイクルをコーディングエージェントからコードで実行する方法を説明します。builder や validator など 6 つのスキルの役割と構成を紹介し、育児休暇ポリシーを例に構築からデプロイ、検証までを順に解説します。あわせて、SATISFIABLE という判定の解釈など、スイートを実行して得られた教訓も紹介します。"
+"last_updated": "2026-10-09 11:43:24 JST"
