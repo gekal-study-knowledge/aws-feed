@@ -1,0 +1,9 @@
+"entries":
+  "d8ebfe54c38a3f0a092cdb383a49d0b6":
+    "id": "d8ebfe54c38a3f0a092cdb383a49d0b6"
+    "title": "Announcing AWS Lambda Web Functions"
+    "link": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/"
+    "published": "2026-10-13 07:34:47"
+    "fetched": "2026-10-13 08:26:39"
+    "summary": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution."
+"last_updated": "2026-10-13 08:26:39 JST"

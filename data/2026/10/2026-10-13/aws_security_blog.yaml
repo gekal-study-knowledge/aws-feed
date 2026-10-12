@@ -1,0 +1,23 @@
+"entries":
+  "bde7331280bd96e72e570530a6cf07a1":
+    "id": "bde7331280bd96e72e570530a6cf07a1"
+    "title": "GuardDuty Extended Threat Detection has added five new indicators to surface attack sequences"
+    "link": "https://aws.amazon.com/blogs/security/guardduty-extended-threat-detection-has-added-five-new-indicators-to-surface-attack-sequences/"
+    "published": "2026-10-13 06:58:44"
+    "fetched": "2026-10-13 08:26:40"
+    "summary": "Amazon GuardDuty Extended Threat Detection correlates weak GuardDuty signals into a single, critical-severity attack sequence finding when their composition crosses a threshold of credibility. On May 20, 2026, the service started attaching five new indicator types to those sequences: MALICIOUS_PACKAGE, MISCONFIGURATION, REACHABILITY, SENSITIVE_DATA, and VULNERABILITY. For more information, see Document history for Amazon GuardDuty and […]"
+  "490b7648faf3f8f06e72fa49ba105145":
+    "id": "490b7648faf3f8f06e72fa49ba105145"
+    "title": "Quantum-resistant signing on AWS, Part 2: Enforce your ML-DSA algorithm policy with SCPs and IAM"
+    "link": "https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-2-enforce-your-ml-dsa-algorithm-policy-with-scps-and-iam/"
+    "published": "2026-10-13 05:13:06"
+    "fetched": "2026-10-13 08:26:40"
+    "summary": "You want to set a cryptographic algorithm policy and stop non-compliant choices from being made in your Amazon Web Services (AWS) environment. This post shows you how. As you adopt post-quantum cryptography, one of the first decisions you face is which algorithms and parameter sets fit your business needs, balancing security against signature size, key […]"
+  "03fa73b76f5a5f370befd57e7032f4fe":
+    "id": "03fa73b76f5a5f370befd57e7032f4fe"
+    "title": "Quantum-resistant signing on AWS, Part 1: Build a software supply chain with ML-DSA"
+    "link": "https://aws.amazon.com/blogs/security/quantum-resistant-signing-on-aws-part-1-build-a-software-supply-chain-with-ml-dsa/"
+    "published": "2026-10-13 05:12:53"
+    "fetched": "2026-10-13 08:26:40"
+    "summary": "Software supply chain attacks have grown in both frequency and sophistication. Recent high-profile compromises of build systems and open source dependencies demonstrate that attackers increasingly target the trust mechanisms that verify software integrity. Those trust mechanisms rely on digital signature algorithms, and today many use traditional algorithms such as Rivest-Shamir-Adleman (RSA) and the Elliptic Curve […]"
+"last_updated": "2026-10-13 08:26:40 JST"

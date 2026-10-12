@@ -13,4 +13,11 @@
     "published": "2026-10-13 00:50:14"
     "fetched": "2026-10-13 01:26:38"
     "summary": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre-built container ships the full inference stack, so you configure the deployment instead of assembling it."
-"last_updated": "2026-10-13 01:26:38 JST"
+  "349b4a729648871ca6894cbad3100b2c":
+    "id": "349b4a729648871ca6894cbad3100b2c"
+    "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan"
+    "link": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/"
+    "published": "2026-10-13 02:52:22"
+    "fetched": "2026-10-13 08:26:42"
+    "summary": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your source Region."
+"last_updated": "2026-10-13 08:26:42 JST"

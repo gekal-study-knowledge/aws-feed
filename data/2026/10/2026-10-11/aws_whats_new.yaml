@@ -1,0 +1,9 @@
+"entries":
+  "d42d832855e0d543aa6151b23561298a":
+    "id": "d42d832855e0d543aa6151b23561298a"
+    "title": "AWS now lets customers sign up for AWS and pay invoices using ACH direct debit"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-sign-up-invoices-ach-direct-debit/"
+    "published": "2026-10-11 17:00:00"
+    "fetched": "2026-10-13 08:26:39"
+    "summary": "<p>Starting today, AWS customers in the United States can use a US bank account to sign up for AWS and pay for their AWS services through ACH direct debit. This feature provides a convenient and secure way to manage AWS payments directly from a USD bank account.</p>\n<p>Customers can securely connect a personal or business US bank account and use it to pay AWS invoices. Previously, new AWS customers needed a credit or debit card to complete signing up for an account.</p>\n<p>During sign-up, customers can choose Bank Account on the AWS sign-up page, select their bank, and authenticate using their bank's mobile app or online banking credentials. This securely verifies ownership and links their bank account to their AWS account. By default, the account will be used to pay future AWS invoices.</p>\n<p>Existing customers can add a bank account from the Payment preferences page in the AWS Billing and Cost Management console. They choose Add payment method, select Link your bank account, and follow the same bank-selection and authentication flow. Once verified, the bank account is available as a payment method to pay future AWS invoices..</p>\n<p>ACH direct debit is available at no additional cost to AWS customers for USD bank accounts. To learn more, see <a href=\"https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/manage-ach-debit.html\">Managing ACH direct debit</a>.</p>"
+"last_updated": "2026-10-13 08:26:39 JST"
