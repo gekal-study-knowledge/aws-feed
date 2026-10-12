@@ -1,0 +1,16 @@
+"entries":
+  "95c1eabceb538df2b2140b2ef5e5a5c7":
+    "id": "95c1eabceb538df2b2140b2ef5e5a5c7"
+    "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/"
+    "published": "2026-10-13 00:51:46"
+    "fetched": "2026-10-13 01:26:38"
+    "summary": "Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions with the AWS Deep Learning Container for llama.cpp, then extends the runtime with SemIf to return probabilities over declared options on CPU or GPU."
+  "152d34c63ecff979651341c5cae8a0f2":
+    "id": "152d34c63ecff979651341c5cae8a0f2"
+    "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers"
+    "link": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/"
+    "published": "2026-10-13 00:50:14"
+    "fetched": "2026-10-13 01:26:38"
+    "summary": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre-built container ships the full inference stack, so you configure the deployment instead of assembling it."
+"last_updated": "2026-10-13 01:26:38 JST"

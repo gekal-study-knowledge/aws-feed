@@ -1,0 +1,9 @@
+"entries":
+  "624b3c3ce350318bdaad676db7f553d5":
+    "id": "624b3c3ce350318bdaad676db7f553d5"
+    "title": "Agentic antimicrobial resistance surveillance with AWS HealthOmics and Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/architecture/agentic-antimicrobial-resistance-surveillance-with-aws-healthomics-and-amazon-bedrock-agentcore/"
+    "published": "2026-10-12 23:34:57"
+    "fetched": "2026-10-13 01:26:37"
+    "summary": "This post presents a reference architecture that turns public sequencing data into plain-language answers about antimicrobial resistance (AMR) genes. It pairs AWS HealthOmics for managed genomics processing with a grounded Amazon Bedrock AgentCore agent, so researchers can ask questions without writing bioinformatics code or SQL."
+"last_updated": "2026-10-13 01:26:37 JST"
