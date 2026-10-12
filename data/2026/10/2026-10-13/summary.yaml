@@ -1,11 +1,20 @@
 "date": "2026-10-13"
-"generated_at": "2026-10-13 08:23:24 JST"
+"generated_at": "2026-10-13 08:30:18 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 2
+"article_count": 10
 "sources":
   - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
 "overview": |
-  この日は 2 件で、いずれも AWS Machine Learning Blog による推論基盤の構築手順でした。1 つは llama.cpp 向けの AWS Deep Learning Container を使って Amazon SageMaker AI 上に意思決定モデルをデプロイする方法で、OpenAI 互換のチャット補完を提供したうえで、SemIf でランタイムを拡張し、CPU でも GPU でも宣言した選択肢に対する確率を返せるようにします。もう 1 つはマルチノード対応の Ray LLM Deep Learning Containers を用い、Amazon EKS 上で 1 つの大規模言語モデルを 2 つの GPU ノードにまたがって動かす構成で、prefill と decode をノードごとに分け、OpenAI 互換の単一エンドポイントの背後にまとめます。いずれも推論スタックを組み立てる代わりに、事前ビルド済みコンテナを設定するだけで済む点が共通しています。
+  この日は 10 件で、ポスト量子暗号と脅威検出のセキュリティ速報、Lambda の新しい実行形態、生成 AI 関連の提供拡大が中心でした。まずセキュリティでは、ポスト量子暗号への移行を扱う 2 部構成の記事が公開されました。前編はソフトウェアサプライチェーン攻撃の増加を背景に、署名アルゴリズムを RSA や楕円曲線から ML-DSA へ移すサプライチェーンの構築を扱い、後編は選んだ ML-DSA のアルゴリズムとパラメーターセットを組織のポリシーとして定め、SCP と IAM で非準拠の選択を防ぐ方法を示しています。Amazon GuardDuty Extended Threat Detection では、2026 年 5 月 20 日から攻撃シーケンスの検出結果に MALICIOUS_PACKAGE、MISCONFIGURATION、REACHABILITY、SENSITIVE_DATA、VULNERABILITY の 5 つの新しいインジケータータイプが付与されるようになりました。コンピュートでは AWS Lambda Web Functions が発表され、コードが直接 HTTP リクエストを処理する新しいサーバーレスの実行形態として、Express や Hono などのフレームワークをアダプターや独自設定なしでそのまま動かせます。AI 推論エンドポイントやサーバーサイドレンダリング、ストリーミング API、マイクロサービス、Webhook といった用途が想定され、課金はアクティブな CPU 時間と確保したメモリに対して行われ、データベース待ちなどのアイドル時間は対象外です。あわせて既存の Lambda 関数は Lambda Event Functions へ改称されますが、名称変更のみでコード変更や再デプロイは不要です。生成 AI 関連では、Amazon Bedrock AgentCore の短期メモリ (STM) の課金が、イベントごとの定額から取り込み・取得・保存のデータ量に応じた従量課金へ変更されました。取り込みが 1 GB あたり 1.00 USD、取得が 0.20 USD、保存が 1 GB 月あたり 0.10 USD で、取り込みと取得はイベントごとに最小 12 KB・最大 64 KB の課金サイズが適用されます。また、タイ、マレーシア、シンガポール、インドネシア、台湾のリージョンから、グローバルなクロスリージョン推論を通じて Amazon Bedrock 上の OpenAI GPT-6 Sol・Luna・Astra を利用する方法が紹介されました。インスタンスでは、NVIDIA RTX PRO 4500 Blackwell Server Edition GPU を搭載した Amazon EC2 G7 インスタンスが欧州 (フランクフルト) と欧州 (ストックホルム) で利用可能になりました。G6 比で AI 推論が最大 4.6 倍、グラフィックスが最大 2.1 倍の性能とされています。残りの 2 件は、いずれも AWS Machine Learning Blog による推論基盤の構築手順でした。1 つは llama.cpp 向けの AWS Deep Learning Container を使って Amazon SageMaker AI 上に意思決定モデルをデプロイする方法で、OpenAI 互換のチャット補完を提供したうえで、SemIf でランタイムを拡張し、CPU でも GPU でも宣言した選択肢に対する確率を返せるようにします。もう 1 つはマルチノード対応の Ray LLM Deep Learning Containers を用い、Amazon EKS 上で 1 つの大規模言語モデルを 2 つの GPU ノードにまたがって動かす構成で、prefill と decode をノードごとに分け、OpenAI 互換の単一エンドポイントの背後にまとめます。いずれも推論スタックを組み立てる代わりに、事前ビルド済みコンテナを設定するだけで済む点が共通しています。
 "topics":
+  - "セキュリティ速報: ポスト量子暗号の 2 部構成記事。前編は ML-DSA によるソフトウェアサプライチェーンの構築、後編は SCP と IAM で ML-DSA のアルゴリズムポリシーを強制する方法"
+  - "セキュリティ速報: Amazon GuardDuty Extended Threat Detection が 2026 年 5 月 20 日から攻撃シーケンスに MALICIOUS_PACKAGE、MISCONFIGURATION、REACHABILITY、SENSITIVE_DATA、VULNERABILITY の 5 インジケーターを追加"
+  - "コンピュート: AWS Lambda Web Functions を発表。Express や Hono をアダプターなしで動かし、アクティブな CPU 時間とメモリのみ課金。既存関数は Lambda Event Functions へ改称 (名称変更のみ)"
+  - "生成 AI: Amazon Bedrock AgentCore の短期メモリが従量課金へ移行。取り込み 1.00 USD/GB、取得 0.20 USD/GB、保存 0.10 USD/GB 月、課金サイズは最小 12 KB・最大 64 KB"
+  - "生成 AI: タイ、マレーシア、シンガポール、インドネシア、台湾からグローバルクロスリージョン推論で Amazon Bedrock 上の OpenAI GPT-6 Sol・Luna・Astra を利用する手順"
+  - "インスタンス: NVIDIA RTX PRO 4500 Blackwell 搭載の Amazon EC2 G7 インスタンスが欧州 (フランクフルト)・欧州 (ストックホルム) で利用可能に。G6 比で AI 推論が最大 4.6 倍"
   - "機械学習: llama.cpp 向け AWS Deep Learning Container で Amazon SageMaker AI に意思決定モデルをデプロイし、OpenAI 互換のチャット補完に加え SemIf で選択肢ごとの確率を返す手順"
   - "機械学習: マルチノード対応の Ray LLM Deep Learning Containers で Amazon EKS 上の 2 つの GPU ノードに 1 モデルを分散し、prefill と decode を分けて OpenAI 互換の単一エンドポイントに集約する構成"

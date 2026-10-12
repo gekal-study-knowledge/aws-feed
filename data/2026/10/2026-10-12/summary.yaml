@@ -1,10 +1,16 @@
 "date": "2026-10-12"
-"generated_at": "2026-10-13 08:23:24 JST"
+"generated_at": "2026-10-13 08:30:18 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 1
+"article_count": 6
 "sources":
   - "aws_architecture_blog"
+  - "aws_whats_new"
 "overview": |
-  この日は 1 件で、AWS Architecture Blog のリファレンスアーキテクチャ紹介のみでした。公開されているシーケンスデータを薬剤耐性 (AMR) 遺伝子に関する平易な回答へ変換する構成が示され、ゲノム解析のマネージドサービスである AWS HealthOmics と、根拠付け (グラウンディング) した Amazon Bedrock AgentCore のエージェントを組み合わせています。研究者はバイオインフォマティクスのコードや SQL を書かずに問い合わせできる点が主眼です。
+  この日は 6 件で、暗号化とシークレット管理、データ品質、監視、ファイル転送に関する機能追加が並びました。まず AWS Architecture Blog のリファレンスアーキテクチャ紹介です。公開されているシーケンスデータを薬剤耐性 (AMR) 遺伝子に関する平易な回答へ変換する構成が示され、ゲノム解析のマネージドサービスである AWS HealthOmics と、根拠付け (グラウンディング) した Amazon Bedrock AgentCore のエージェントを組み合わせています。研究者はバイオインフォマティクスのコードや SQL を書かずに問い合わせできる点が主眼です。セキュリティ関連では、Amazon OpenSearch Service がインデックス単位の暗号化に対応し、同一ドメイン上でインデックスごとに別の AWS KMS カスタマーマネージドキーで保存時暗号化できるようになりました。マルチテナントのアプリケーションでテナントごとに鍵を分ける用途が想定されており、新規ドメイン作成時に暗号化モードを Native にしてカスタマーマネージドキーを指定します。AWS Secrets Manager はマネージド外部シークレットの対象に Databricks と Twilio を追加し、データパイプラインやメッセージング用の資格情報 (Databricks のパーソナルアクセストークンなど) を、独自のローテーション用 Lambda 関数を書かずにコンソールや API から自動ローテーションできるようになりました。データ処理では、Amazon EMR が Apache Spark ジョブ内でのデータ品質チェックにネイティブ対応しました。AWS Glue を基盤とする Amazon EMR Data Quality は追加費用なしで、Glue と同じ宣言的ルール言語 (DQDL) と API を使い、Apache Iceberg、Apache Hudi、Delta Lake に対して EC2・EKS・Serverless のいずれの実行形態でも利用できます。監視面では Amazon ElastiCache for Valkey に ElastiCache Insights が追加され、ElastiCache が自動で発行する OpenTelemetry メトリクスをもとに、クラスターの健全性、メモリ、コンピュート、ネットワーク、コマンドスループット、レイテンシー、キースペース、エラーを CloudWatch の既製ダッシュボードで一覧できます。最後に AWS Transfer Family が公開 SFTP サーバーでカスタムポートに対応しました。従来はポート 22 かつサーバー先行の通信のみでしたが、22 または 2000〜65535 の範囲から最大 3 ポートを設定でき、ポートごとに通信モードを選べるため、クライアント側から通信を開始する実装でも接続が止まりにくくなります。
 "topics":
   - "アーキテクチャ: AWS HealthOmics と Amazon Bedrock AgentCore を組み合わせ、公開シーケンスデータから薬剤耐性 (AMR) 遺伝子について自然言語で問い合わせできるエージェント型監視のリファレンスアーキテクチャ"
+  - "セキュリティ: Amazon OpenSearch Service がインデックス単位の暗号化に対応。同一ドメイン内でインデックスごとに別の AWS KMS カスタマーマネージドキーを使える"
+  - "セキュリティ: AWS Secrets Manager のマネージド外部シークレットが Databricks と Twilio に対応し、独自のローテーション用 Lambda なしで資格情報を自動ローテーション"
+  - "データ処理: Amazon EMR が Apache Spark ジョブ内のデータ品質チェックにネイティブ対応。AWS Glue と同じ DQDL と API を追加費用なしで利用でき、Iceberg・Hudi・Delta Lake に対応"
+  - "監視: Amazon ElastiCache for Valkey に ElastiCache Insights を追加。OpenTelemetry メトリクスをもとにした既製の CloudWatch ダッシュボードで健全性やレイテンシーを一覧"
+  - "ファイル転送: AWS Transfer Family の公開 SFTP サーバーがカスタムポートに対応。22 または 2000〜65535 から最大 3 ポートを設定し、ポートごとに通信モードを選択可能"
