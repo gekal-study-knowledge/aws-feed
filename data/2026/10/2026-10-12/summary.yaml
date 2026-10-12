@@ -1,0 +1,10 @@
+"date": "2026-10-12"
+"generated_at": "2026-10-13 08:23:24 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "aws_architecture_blog"
+"overview": |
+  この日は 1 件で、AWS Architecture Blog のリファレンスアーキテクチャ紹介のみでした。公開されているシーケンスデータを薬剤耐性 (AMR) 遺伝子に関する平易な回答へ変換する構成が示され、ゲノム解析のマネージドサービスである AWS HealthOmics と、根拠付け (グラウンディング) した Amazon Bedrock AgentCore のエージェントを組み合わせています。研究者はバイオインフォマティクスのコードや SQL を書かずに問い合わせできる点が主眼です。
+"topics":
+  - "アーキテクチャ: AWS HealthOmics と Amazon Bedrock AgentCore を組み合わせ、公開シーケンスデータから薬剤耐性 (AMR) 遺伝子について自然言語で問い合わせできるエージェント型監視のリファレンスアーキテクチャ"

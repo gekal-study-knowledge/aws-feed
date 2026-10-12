@@ -1,0 +1,11 @@
+"date": "2026-10-13"
+"generated_at": "2026-10-13 08:23:24 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 2
+"sources":
+  - "aws_machine_learning_blog"
+"overview": |
+  この日は 2 件で、いずれも AWS Machine Learning Blog による推論基盤の構築手順でした。1 つは llama.cpp 向けの AWS Deep Learning Container を使って Amazon SageMaker AI 上に意思決定モデルをデプロイする方法で、OpenAI 互換のチャット補完を提供したうえで、SemIf でランタイムを拡張し、CPU でも GPU でも宣言した選択肢に対する確率を返せるようにします。もう 1 つはマルチノード対応の Ray LLM Deep Learning Containers を用い、Amazon EKS 上で 1 つの大規模言語モデルを 2 つの GPU ノードにまたがって動かす構成で、prefill と decode をノードごとに分け、OpenAI 互換の単一エンドポイントの背後にまとめます。いずれも推論スタックを組み立てる代わりに、事前ビルド済みコンテナを設定するだけで済む点が共通しています。
+"topics":
+  - "機械学習: llama.cpp 向け AWS Deep Learning Container で Amazon SageMaker AI に意思決定モデルをデプロイし、OpenAI 互換のチャット補完に加え SemIf で選択肢ごとの確率を返す手順"
+  - "機械学習: マルチノード対応の Ray LLM Deep Learning Containers で Amazon EKS 上の 2 つの GPU ノードに 1 モデルを分散し、prefill と decode を分けて OpenAI 互換の単一エンドポイントに集約する構成"
