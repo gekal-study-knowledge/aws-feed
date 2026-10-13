@@ -1,0 +1,18 @@
+"date": "2026-10-14"
+"generated_at": "2026-10-14 08:23:19 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 7
+"sources":
+  - "aws_compute_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+"overview": |
+  この日は 7 件で、前日に発表された AWS Lambda Web Functions の掘り下げと、Amazon Bedrock を使った生成 AI の実装事例が中心でした。AWS Compute Blog は Lambda Web Functions で標準的な Node.js の Web サーバーを動かす方法を扱い、1 コマンドまたは AWS CloudFormation でデプロイすると、アダプター層もサーバー管理もなしに公開 HTTPS エンドポイントが得られること、1 つの実行環境が多数の同時リクエストを処理すること、アクティブ CPU 課金によって待ち時間のコストが低く抑えられることを示しています。生成 AI の事例では、Orca Security が Amazon Bedrock 上に自然言語クエリエージェント Discovery AI を構築し、平易な英語の質問を同社の Sonar クエリへ変換した例が紹介されました。多段構成のアーキテクチャにより、当初のベースラインに対してクエリコストを 90% 削減、入力トークンを 93% 削減、レイテンシーを 75% 削減したとしています。ShipStation Global は Amazon Bedrock AgentCore 上に Slack 向けの社内 IT ヘルプデスクエージェント Deckhand を構築し、整備したナレッジベースから定型的な IT の質問に答え、エラーメッセージのスクリーンショットを読み取り、Jira のチケットを作成します。最初の 3 か月でチャンネルの問い合わせの 97.5% を解決し、肯定的な評価は 96% でした。モデル関連では、Grok 4.7 が Amazon Bedrock で利用可能になり、ツール呼び出し型エージェントを構築して 3 つの推論タスクを 4 段階の reasoning effort で評価し、完了あたりの正答率とトークンコストを測ってリクエスト単位でトレードオフを調整・監視する方法が示されました。性能面では、Amazon SageMaker AI 上の融合 Mixture-of-Experts (MoE) モデルに対するカーネル最適化が共有され、WGMMA の利用率を上げる Swap-AB、FP8 量子化向けの Triton バックエンドルーティング、Triton の JIT 再コンパイルの排除によって、H200 GPU でスループットが最大 10%、Time to First Token が最大 9% 改善したとしています。運用面では、AWS Marketplace のプライベート価格オファー (MPPO) を数十から数百のアカウントで個別に承諾する手間を解消する方法として、AWS License Manager でのエンタイトルメント有効化を、1 回限りの修正用の軽量スクリプトと、継続的なイベント駆動処理のための CDK 自動化の 2 通りで示した記事が公開されました。最後に AWS Weekly Roundup では、Prime Day 2026 の数値 (Amazon ElastiCache のピークが 1 日 2.3 京リクエスト) や Claude Haiku 5.5、Amazon Nova 2.5 Sonic などが取り上げられています。
+"topics":
+  - "コンピュート: AWS Lambda Web Functions で標準的な Node.js Web サーバーを動かす解説。1 コマンドまたは CloudFormation でアダプター層なしの公開 HTTPS エンドポイントが得られ、アクティブ CPU 課金で待ち時間のコストを抑える"
+  - "事例: Orca Security が Amazon Bedrock 上の自然言語クエリエージェント Discovery AI で、クエリコスト 90% 削減・入力トークン 93% 削減・レイテンシー 75% 削減"
+  - "事例: ShipStation Global が Amazon Bedrock AgentCore で Slack 向け IT ヘルプデスクエージェントを構築し、3 か月で問い合わせの 97.5% を解決 (肯定的評価 96%)"
+  - "生成 AI: Grok 4.7 が Amazon Bedrock で利用可能に。4 段階の reasoning effort で正答率とトークンコストを測り、リクエスト単位でトレードオフを調整する手法"
+  - "性能: SageMaker AI 上の融合 MoE モデル向けカーネル最適化 (Swap-AB、Triton バックエンドルーティング、JIT 再コンパイル排除) で H200 のスループット最大 10%・TTFT 最大 9% 改善"
+  - "運用: AWS License Manager で Amazon Bedrock のプライベート価格オファー (MPPO) のエンタイトルメントを有効化する方法を、軽量スクリプトと CDK 自動化の 2 通りで紹介"
+  - "まとめ: AWS Weekly Roundup で Prime Day 2026 の数値 (ElastiCache のピークが 1 日 2.3 京リクエスト)、Claude Haiku 5.5、Amazon Nova 2.5 Sonic などを紹介"
