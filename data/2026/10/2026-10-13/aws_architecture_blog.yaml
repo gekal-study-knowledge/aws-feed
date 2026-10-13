@@ -1,0 +1,16 @@
+"entries":
+  "93959cd1117e480eee5723b1e4099a59":
+    "id": "93959cd1117e480eee5723b1e4099a59"
+    "title": "Stopping business email compromise with AI-driven email security: How VIPRE protects modern enterprises on AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/stopping-business-email-compromise-with-ai-driven-email-security-how-vipre-protects-modern-enterprises-on-aws/"
+    "published": "2026-10-13 23:32:42"
+    "fetched": "2026-10-14 05:02:51"
+    "summary": "Learn how VIPRE Security built an AI-powered email security solution on AWS to stop business email compromise. VIPRE Integrated Email Security uses machine learning and a serverless architecture on Amazon ECS, Amazon SQS, and Amazon S3 to detect and block sophisticated email impersonation in real time, without MX record changes."
+  "09f2e88a79eaaef0ade50822f2edd681":
+    "id": "09f2e88a79eaaef0ade50822f2edd681"
+    "title": "Bulk Executor for Amazon DynamoDB, Part 2: Lessons we learned the hard way"
+    "link": "https://aws.amazon.com/blogs/architecture/bulk-executor-for-amazon-dynamodb-part-2-lessons-we-learned-the-hard-way/"
+    "published": "2026-10-13 23:23:33"
+    "fetched": "2026-10-14 05:02:51"
+    "summary": "In Part 2 of our Bulk Executor for Amazon DynamoDB series, we share how we built the tool: the design tradeoffs, surprises, and workarounds we hit while working with DynamoDB and AWS Glue. Consider it a travel guide for anyone building their own bulk tooling on AWS Glue."
+"last_updated": "2026-10-14 05:02:51 JST"

@@ -1,0 +1,37 @@
+"entries":
+  "ac736e6fe903e3d263507d8cddcb2628":
+    "id": "ac736e6fe903e3d263507d8cddcb2628"
+    "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements"
+    "link": "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/"
+    "published": "2026-10-14 02:17:25"
+    "fetched": "2026-10-14 05:02:52"
+    "summary": "Managing AI model access across dozens or hundreds of AWS accounts creates friction when each account must accept AWS Marketplace Private Pricing Offers individually. This post shows two ways to activate MPPO entitlements in AWS License Manager: a lightweight script for a one-time fix, and CDK automation for ongoing event-driven processing."
+  "d9452dcacff7e28ace4061bfff0cd22f":
+    "id": "d9452dcacff7e28ace4061bfff0cd22f"
+    "title": "Natural language security queries at Orca Security using Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/"
+    "published": "2026-10-14 01:03:31"
+    "fetched": "2026-10-14 05:02:52"
+    "summary": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. The post shares the multi-stage architecture and the results: 90% lower query cost, 93% fewer input tokens, and 75% lower latency than the initial baseline."
+  "dc2044c69f6737337fe25580d02392f9":
+    "id": "dc2044c69f6737337fe25580d02392f9"
+    "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/"
+    "published": "2026-10-14 00:54:49"
+    "fetched": "2026-10-14 05:02:52"
+    "summary": "ShipStation Global's engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT questions from a curated knowledge base, reads error-message screenshots, and files Jira tickets. In its first three months it resolved 97.5% of channel queries with a 96% positive feedback rating."
+  "ee95e9cab86aafcf3c0cbd8895029b04":
+    "id": "ee95e9cab86aafcf3c0cbd8895029b04"
+    "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/"
+    "published": "2026-10-14 00:52:20"
+    "fetched": "2026-10-14 05:02:52"
+    "summary": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning effort levels, measuring correctness and token cost per completed task. We show how to tune the trade-off per request and monitor it in production."
+  "fe07282718e9896133562862f3a6c095":
+    "id": "fe07282718e9896133562862f3a6c095"
+    "title": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/"
+    "published": "2026-10-14 00:17:09"
+    "fetched": "2026-10-14 05:02:52"
+    "summary": "AWS engineers share kernel optimizations for fused Mixture-of-Experts (MoE) models on Amazon SageMaker AI: Swap-AB for WGMMA utilization, Triton backend routing for FP8 quantization, and eliminating Triton JIT recompilation. Together they deliver up to 10% higher throughput and up to 9% faster Time to First Token on H200 GPUs."
+"last_updated": "2026-10-14 05:02:52 JST"
