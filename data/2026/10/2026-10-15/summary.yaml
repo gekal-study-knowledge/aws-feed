@@ -1,0 +1,23 @@
+"date": "2026-10-15"
+"generated_at": "2026-10-15 08:21:35 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 9
+"sources":
+  - "aws_compute_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 9 件で、セキュリティ速報 2 件と、ペネトレーションテストの自動化、そして生成 AI の開発体験に関する更新が中心でした。セキュリティ速報の 1 件目は CVE-2026-110310 で、.NET 向けの Amazon S3 暗号化クライアントに関する問題です (Bulletin ID 2026-135-AWS、Important、2026 年 10 月 14 日 12:30 PDT 公開)。S3 バケット内の暗号化オブジェクトを読めるリモートユーザーが、オブジェクトのメタデータに記録されたパディング方式をレガシーな PKCS#1 v1.5 に書き換えることでダウングレードを強制でき、この方式が Bleichenbacher 攻撃の影響を受けるため、パディングオラクルを使って RSA でラップされたエンベロープキーを復元しオブジェクトを復号できます。影響を受けるのはバージョン 2.1.0 以降、3.0.0 から 3.2.1、および 4 系の一部です。2 件目は CVE-2026-110248 で、Amazon SageMaker Python SDK の git_utils.py において、Git の clone が失敗した際にサブプロセスのエラー出力に含まれるリポジトリの認証情報が、マスクされないまま CloudWatch Logs に書き出される問題です (Bulletin ID 2026-134-AWS、Important、同日 11:30 PDT 公開)。そのログにアクセスできる認証済みのリモートユーザーが平文の認証情報を取得できます。セキュリティの話題としてはもう 1 件、AWS Continuum を使ってデプロイごとにペネトレーションテストを行うという記事が公開されました。CI/CD に組み込める従来のツール (SAST、SCA、DAST) はパターンやシグネチャから疑わしい箇所を指摘するのに対し、実際に悪用可能かどうかを確認するのはペネトレーションテストであり、それが従来は定期的かつパイプライン外の作業だった点を踏まえた内容です。サービス更新では、AWS License Manager が AWS Marketplace 経由で購入した Ubuntu Pro へのライセンスタイプ変換に対応し、EC2 の Ubuntu LTS インスタンスをフリートの作り直しや別インスタンス・AMI への移行なしにその場でアップグレードできるようになりました。Ubuntu Pro のサブスクリプションではセキュリティパッチが最長 10 年 (Legacy アドオンで 15 年まで延長可能) 提供され、OS 本体だけでなく NGINX、PostgreSQL、MongoDB、Redis など数千のパッケージが対象になります。Amazon SageMaker Studio は、新規の顧客が Google、GitHub、Apple の資格情報でサインアップして、設定済みの Studio 環境にそのまま入れるようになりました。従来は AWS アカウントの作成、クレジットカードの登録、コンソールでの SageMaker AI の探索、環境構築、IAM 権限の設定という多段の手順が必要でした。AWS HealthOmics には Nextflow ワークフローのタスク向けにリソースのフォールバック順序を指定するディレクティブが追加され、優先するアクセラレーターの種類を順番に並べ、最後に CPU インスタンスへ退避させることもできます。アクセラレーターの制約による再実行の調査や再投入の手間を減らす狙いです。残りは、サーバーレス視点での AWS re:Invent 2026 のセッションガイド (Lambda の新しい実行モデル、サーバーレスの新しい利用者としての AI エージェント、成熟したイベント駆動パターンなどを扱う)、Amazon Bedrock AgentCore で分類・抽出・検証と学習を行い、テンプレートの手動設定なしに新しい書式へも対応する自己改善型の文書処理 (IDP) の構築手順、そして Amazon S3 が Vercel Marketplace と v0 by Vercel で利用可能になったという告知でした。
+"topics":
+  - "セキュリティ速報: CVE-2026-110310 (Bulletin 2026-135-AWS、Important) — .NET 向け Amazon S3 暗号化クライアントで、メタデータのパディング方式を PKCS#1 v1.5 にダウングレードされ、パディングオラクルで RSA ラップのエンベロープキーを復元・復号される。影響は 2.1.0 以降、3.0.0〜3.2.1 など"
+  - "セキュリティ速報: CVE-2026-110248 (Bulletin 2026-134-AWS、Important) — Amazon SageMaker Python SDK の git_utils.py で、Git clone 失敗時にリポジトリの認証情報がマスクされず CloudWatch Logs に出力される"
+  - "セキュリティ: AWS Continuum でデプロイごとにペネトレーションテストを実施する手法。SAST・SCA・DAST が疑わしい箇所を示すのに対し、実際に悪用可能かの確認を継続的に行う"
+  - "ライセンス: AWS License Manager が AWS Marketplace の Ubuntu Pro へのライセンスタイプ変換に対応。フリートを作り直さずその場でアップグレードでき、セキュリティパッチは最長 10 年 (Legacy アドオンで 15 年)"
+  - "機械学習: Amazon SageMaker Studio が Google・GitHub・Apple の資格情報でのサインアップに対応。AWS アカウント作成やクレジットカードの登録なしに設定済み環境へ入れる"
+  - "ライフサイエンス: AWS HealthOmics が Nextflow ワークフローのタスクにリソースのフォールバック順序を導入。優先するアクセラレーターを順番に指定し、CPU への退避も選べる"
+  - "生成 AI: Amazon Bedrock AgentCore で分類・抽出・検証と学習を行う自己改善型の文書処理 (IDP) を構築する手順。テンプレートの手動設定なしに新しい書式へ対応"
+  - "イベント: サーバーレス視点での AWS re:Invent 2026 セッションガイド。Lambda の新しい実行モデル、サーバーレスの新しい利用者としての AI エージェント、成熟したイベント駆動パターンを扱う"
+  - "ストレージ: Amazon S3 が Vercel Marketplace と v0 by Vercel で利用可能に"
