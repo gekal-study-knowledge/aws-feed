@@ -1,18 +1,27 @@
 "date": "2026-10-14"
-"generated_at": "2026-10-14 08:23:19 JST"
+"generated_at": "2026-10-14 21:37:27 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 7
+"article_count": 26
 "sources":
+  - "aws_architecture_blog"
   - "aws_compute_blog"
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_whats_new"
 "overview": |
-  この日は 7 件で、前日に発表された AWS Lambda Web Functions の掘り下げと、Amazon Bedrock を使った生成 AI の実装事例が中心でした。AWS Compute Blog は Lambda Web Functions で標準的な Node.js の Web サーバーを動かす方法を扱い、1 コマンドまたは AWS CloudFormation でデプロイすると、アダプター層もサーバー管理もなしに公開 HTTPS エンドポイントが得られること、1 つの実行環境が多数の同時リクエストを処理すること、アクティブ CPU 課金によって待ち時間のコストが低く抑えられることを示しています。生成 AI の事例では、Orca Security が Amazon Bedrock 上に自然言語クエリエージェント Discovery AI を構築し、平易な英語の質問を同社の Sonar クエリへ変換した例が紹介されました。多段構成のアーキテクチャにより、当初のベースラインに対してクエリコストを 90% 削減、入力トークンを 93% 削減、レイテンシーを 75% 削減したとしています。ShipStation Global は Amazon Bedrock AgentCore 上に Slack 向けの社内 IT ヘルプデスクエージェント Deckhand を構築し、整備したナレッジベースから定型的な IT の質問に答え、エラーメッセージのスクリーンショットを読み取り、Jira のチケットを作成します。最初の 3 か月でチャンネルの問い合わせの 97.5% を解決し、肯定的な評価は 96% でした。モデル関連では、Grok 4.7 が Amazon Bedrock で利用可能になり、ツール呼び出し型エージェントを構築して 3 つの推論タスクを 4 段階の reasoning effort で評価し、完了あたりの正答率とトークンコストを測ってリクエスト単位でトレードオフを調整・監視する方法が示されました。性能面では、Amazon SageMaker AI 上の融合 Mixture-of-Experts (MoE) モデルに対するカーネル最適化が共有され、WGMMA の利用率を上げる Swap-AB、FP8 量子化向けの Triton バックエンドルーティング、Triton の JIT 再コンパイルの排除によって、H200 GPU でスループットが最大 10%、Time to First Token が最大 9% 改善したとしています。運用面では、AWS Marketplace のプライベート価格オファー (MPPO) を数十から数百のアカウントで個別に承諾する手間を解消する方法として、AWS License Manager でのエンタイトルメント有効化を、1 回限りの修正用の軽量スクリプトと、継続的なイベント駆動処理のための CDK 自動化の 2 通りで示した記事が公開されました。最後に AWS Weekly Roundup では、Prime Day 2026 の数値 (Amazon ElastiCache のピークが 1 日 2.3 京リクエスト) や Claude Haiku 5.5、Amazon Nova 2.5 Sonic などが取り上げられています。
+  この日は 26 件で、Lambda Web Functions の深掘り、EC2 のセキュリティ、そしてエージェントの本番化に関する日本語記事が中心でした。コンピュートブログでは、新しい種類の Lambda 関数である Lambda Web Functions で標準的な Node.js の Web サーバーをそのまま動かし、1 コマンドまたは AWS CloudFormation でデプロイしてアダプターなしに公開 HTTPS エンドポイントを得る方法が解説されました。セキュリティでは、一時的実行攻撃「L1TF Reloaded」がハーフ Spectre ガジェットと L1TF を組み合わせてゲストデータを漏洩させる仕組みが解説され、AWS Nitro System と Nitro Hypervisor を使っている場合はゲストデータが影響を受けず追加の対応も不要であることが示されました (XPFO の概念に基づくシークレットハイディングやゲスト CPU コアの扱いも取り上げられています)。あわせて、Amazon EC2 インスタンス構成証明・NitroTPM・Attestable AMI を使ってセルフマネージド型データベースでゼロオペレーターアクセス (ZOA) を実現する方法が公開されました。Nix Flakes で再現可能な AMI をビルドして PCR 測定値を算出し、AWS KMS のキーポリシーの条件に設定することで、LUKS で暗号化された EBS ボリュームへのアクセスを構成証明に紐づけます。24 時間 365 日体制のグローバルチームである AWS Customer Incident Response Team (CIRT) の紹介記事も公開され、責任共有モデルにおける顧客側の責任範囲で進行中のセキュリティイベントへの支援範囲と依頼方法、脅威アクターによる AWS 固有の TTPs をまとめた公開リソースが示されました。サービス更新では、AWS Security Hub が露出 (exposure) の優先順位付けにリソースの重要度 (criticality) を加え、ビジネス上もっとも重要なリソースを脅かす露出に集中できるようになりました。Amazon ECS は実際に稼働中のタスク数を報告する新しいサービスメトリクス LiveTaskCount を全ユーザーに追加料金なしで提供し、あわせて RunningTaskCount メトリクスの課金を廃止しました。AWS Agent Registry (組織内のエージェント・MCP サーバー・エージェントスキル・ゲートウェイ・カスタムリソースを統制するカタログ) はレジストリレコードのカスタムメタデータに対応し、AWS Resilience Hub は次世代としてワークロードのスコープとレジリエンシー要件を実環境に揃え続けるための 3 つの機能 (サービス入力に対する Amazon EKS ラベルのサポートなど) を追加しました。そのほか、Amazon Location Service が Places・Routes・Maps の全 API をコードを書かずに視覚的に試せるインタラクティブな API Playground を公開し、AWS Deadline Cloud はファーム全体ではなく特定のキュー・フリート・ジョブにアクセスできるユーザーが、自分が到達できるリソースを Deadline Cloud monitor から直接見つけられるようになりました。Amazon DCV 2026.0 は RHEL 10・Rocky Linux 10・CentOS 10・Ubuntu 26.04 のサポートと新しい macOS クライアント、更新された Windows / Linux クライアントを追加しています。機械学習ブログでは、Amazon SageMaker AI 上で融合 Mixture-of-Experts (MoE) モデルのカーネル最適化を行う知見 (WGMMA 利用率を高める Swap-AB、FP8 量子化のための Triton バックエンドルーティングなど) が共有され、Amazon Bedrock で利用可能になった Grok 4.7 でツール呼び出しエージェントを作り、4 段階の推論強度で 3 つの推論タスクを評価する記事が公開されました。事例としては、ShipStation Global が Amazon Bedrock AgentCore 上に Slack 向けの AI IT ヘルプデスクエージェント Deckhand を構築し、整備されたナレッジベースから定型的な IT 質問に答えエラーメッセージを読み取る取り組み、Orca Security が平易な英語の質問を Sonar クエリに変換する自然言語クエリエージェント Discovery AI を Amazon Bedrock 上に構築した多段アーキテクチャが紹介されました。あわせて、数十から数百の AWS アカウントで AWS Marketplace のプライベート価格オファーを個別に受諾する手間を解消するマネージドエンタイトルメントの活用法、そして AWS Generative AI Innovation Center の Partner Agent Factory と Anchor Browser が、x402 で保護された Web リソースや API に対してエージェントが自律的に支払いを行う仕組みを Amazon Bedrock AgentCore の決済機能で構築した事例が公開されました。日本のブログでは、AI エージェントをデモから本番運用へ進めるために Build・Test・Run・Secure・Observe・Govern の 6 つの柱を自動車工場の部品在庫エージェントを例に順に解説する記事、Amazon Aurora DSQL の外部キー制約の使い方 (即時チェックと遅延チェック、ダウンタイムなしでの制約追加、OCC による競合解決、スケールを考慮した FK 設計とリトライロジック)、AWS STS のセッショントークンのサイズ制限が 4,096 バイトの単一の制限に簡素化されセッションポリシーとセッションタグに使える容量が拡大したこと (トークンサイズは API レスポンス・CloudWatch メトリクス・CloudTrail イベントで報告され、MinimumSessionTokenSize パラメータも利用可能)、AWS Builder Center の無料サンドボックス環境で AWS アカウントもクレジットカードもなしに Amazon Connect Customer のワークショップを体験できるようになったこと、株式会社インフキュリオンによる請求書カード払いでの AI エージェント連携 (Amazon Bedrock AgentCore Runtime を用いたリモート MCP サーバー構築)、株式会社エナリスと KDDI アジャイル開発センターによる Amazon Bedrock AgentCore で人の判断を記憶して ESG 対応の意思決定を支援する AI エージェント、そして月刊 AWS 製造 2026 年 10 月号が公開されました。ニュースブログでは Prime Day 2026 の数値 (Amazon EC2 の 1 日あたり 2.3 千兆リクエストなど)、Claude Haiku 5.5、Amazon Nova 2.5 Sonic などを扱う週刊まとめ (2026 年 10 月 13 日) が、セキュリティブログではサイバーセキュリティのキャリアを扱うシリーズのパート 2 が公開されています。
 "topics":
-  - "コンピュート: AWS Lambda Web Functions で標準的な Node.js Web サーバーを動かす解説。1 コマンドまたは CloudFormation でアダプター層なしの公開 HTTPS エンドポイントが得られ、アクティブ CPU 課金で待ち時間のコストを抑える"
-  - "事例: Orca Security が Amazon Bedrock 上の自然言語クエリエージェント Discovery AI で、クエリコスト 90% 削減・入力トークン 93% 削減・レイテンシー 75% 削減"
-  - "事例: ShipStation Global が Amazon Bedrock AgentCore で Slack 向け IT ヘルプデスクエージェントを構築し、3 か月で問い合わせの 97.5% を解決 (肯定的評価 96%)"
-  - "生成 AI: Grok 4.7 が Amazon Bedrock で利用可能に。4 段階の reasoning effort で正答率とトークンコストを測り、リクエスト単位でトレードオフを調整する手法"
-  - "性能: SageMaker AI 上の融合 MoE モデル向けカーネル最適化 (Swap-AB、Triton バックエンドルーティング、JIT 再コンパイル排除) で H200 のスループット最大 10%・TTFT 最大 9% 改善"
-  - "運用: AWS License Manager で Amazon Bedrock のプライベート価格オファー (MPPO) のエンタイトルメントを有効化する方法を、軽量スクリプトと CDK 自動化の 2 通りで紹介"
-  - "まとめ: AWS Weekly Roundup で Prime Day 2026 の数値 (ElastiCache のピークが 1 日 2.3 京リクエスト)、Claude Haiku 5.5、Amazon Nova 2.5 Sonic などを紹介"
+  - "コンピュート: Lambda Web Functions で標準的な Node.js Web サーバーをそのまま動かし、アダプターなしで公開 HTTPS エンドポイントを取得"
+  - "EC2 セキュリティ: 一時的実行攻撃 L1TF Reloaded に対し Nitro System / Nitro Hypervisor 利用時はゲストデータが影響を受けず追加対応も不要"
+  - "ゼロオペレーターアクセス: EC2 インスタンス構成証明・NitroTPM・Attestable AMI と KMS キーポリシーで、セルフマネージド DB の ZOA を実現"
+  - "インシデント対応: AWS Customer Incident Response Team (CIRT) の支援範囲と依頼方法、AWS 固有の TTPs 公開リソースを紹介"
+  - "セキュリティ運用: Security Hub が露出の優先順位付けにリソースの重要度を追加"
+  - "コンテナ: ECS が LiveTaskCount メトリクスを無償で追加し、RunningTaskCount の課金を廃止"
+  - "エージェント統制: AWS Agent Registry がレジストリレコードのカスタムメタデータに対応、Resilience Hub は EKS ラベル対応など 3 機能を追加"
+  - "モデル: Grok 4.7 で 4 段階の推論強度を比較しながらツール呼び出しエージェントを構築・評価"
+  - "事例: ShipStation Global が AgentCore で Slack 向け AI IT ヘルプデスク Deckhand、Orca Security が自然言語を Sonar クエリへ変換する Discovery AI"
+  - "エージェント決済: Anchor Browser と AgentCore の決済機能で、x402 保護された Web リソースや API に自律的に支払うエージェント"
+  - "国内: 本番 AI エージェントの 6 つの柱 (Build・Test・Run・Secure・Observe・Govern)、Aurora DSQL の外部キー制約、STS セッショントークンのサイズ制限簡素化"
+  - "国内事例: インフキュリオンの請求書カード払い × リモート MCP サーバー、エナリス / KDDI アジャイル開発センターの ESG 意思決定エージェント"
