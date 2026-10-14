@@ -34,4 +34,11 @@
     "published": "2026-10-14 00:17:09"
     "fetched": "2026-10-14 05:02:52"
     "summary": "AWS engineers share kernel optimizations for fused Mixture-of-Experts (MoE) models on Amazon SageMaker AI: Swap-AB for WGMMA utilization, Triton backend routing for FP8 quantization, and eliminating Triton JIT recompilation. Together they deliver up to 10% higher throughput and up to 9% faster Time to First Token on H200 GPUs."
-"last_updated": "2026-10-14 05:02:52 JST"
+  "9e51e4e52789a6c4ed524bba8681eb8e":
+    "id": "9e51e4e52789a6c4ed524bba8681eb8e"
+    "title": "Building agents that transact with Anchor Browser and AgentCore payments"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/"
+    "published": "2026-10-14 05:10:33"
+    "fetched": "2026-10-14 09:05:46"
+    "summary": "Learn how the AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for x402-protected web resources and APIs. Amazon Bedrock AgentCore payments checks budgets, signs transactions, and retries requests without exposing wallet credentials to the agent runtime."
+"last_updated": "2026-10-14 09:05:46 JST"

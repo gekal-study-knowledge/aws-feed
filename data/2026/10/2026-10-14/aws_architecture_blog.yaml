@@ -1,0 +1,9 @@
+"entries":
+  "0dbcb0f41e3ab8ed1891aa8fb8edf241":
+    "id": "0dbcb0f41e3ab8ed1891aa8fb8edf241"
+    "title": "Scope workloads and share resilience policies with AWS Resilience Hub"
+    "link": "https://aws.amazon.com/blogs/architecture/scope-workloads-and-share-resilience-policies-with-aws-resilience-hub/"
+    "published": "2026-10-14 06:30:10"
+    "fetched": "2026-10-14 09:05:45"
+    "summary": "The next generation of AWS Resilience Hub adds three capabilities to keep workload scope and resilience requirements aligned with your running environment: Amazon EKS label support for service input sources, generative AI-powered Dependency Insights, and resilience policy sharing through AWS Organizations."
+"last_updated": "2026-10-14 09:05:45 JST"
