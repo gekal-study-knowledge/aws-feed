@@ -1,0 +1,9 @@
+"entries":
+  "27c461e27eb838e7c424cb5b83450a31":
+    "id": "27c461e27eb838e7c424cb5b83450a31"
+    "title": "Build self-improving document processing using Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/"
+    "published": "2026-10-15 01:24:07"
+    "fetched": "2026-10-15 01:26:01"
+    "summary": "Learn how to build an agentic intelligent document processing (IDP) system using Amazon Bedrock AgentCore that classifies, extracts, validates, and learns from business documents with minimal human intervention, automatically handling new document formats without manual template configuration."
+"last_updated": "2026-10-15 01:26:01 JST"
