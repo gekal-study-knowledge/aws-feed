@@ -1,0 +1,9 @@
+"entries":
+  "e975e089fab7e2074e133ba76707eead":
+    "id": "e975e089fab7e2074e133ba76707eead"
+    "title": "Penetration testing every deployment with AWS Continuum"
+    "link": "https://aws.amazon.com/blogs/security/penetration-testing-every-deployment-with-aws-continuum/"
+    "published": "2026-10-15 05:21:52"
+    "fetched": "2026-10-15 05:24:29"
+    "summary": "Most security tooling that fits into a CI/CD pipeline—static analysis (SAST), software composition analysis (SCA), and dynamic scanners (DAST)—flags potential issues from patterns and signatures. A flagged pattern shows you where to look; penetration testing is what confirms whether something is actually exploitable. That confirmation has traditionally come from a periodic, out-of-band engagement that runs […]"
+"last_updated": "2026-10-15 05:24:29 JST"

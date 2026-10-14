@@ -1,0 +1,16 @@
+"entries":
+  "65d886e5bfce228f5a18a331f37d9112":
+    "id": "65d886e5bfce228f5a18a331f37d9112"
+    "title": "CVE-2026-110310 - RSA PKCS#1 v1.5 padding oracle via legacy envelope key format downgrade in Amazon S3 Encryption Client for .NET"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-135-aws/"
+    "published": "2026-10-15 04:48:49"
+    "fetched": "2026-10-15 05:24:30"
+    "summary": "<p><b>Bulletin ID:</b> 2026-135-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 10/14/2026 12:30 PM PDT</p>\n<p><b>Description:</b></p>\n<p>We identified CVE-2026-110310, an issue in Amazon S3 encryption client for .NET that could allow a remote user who can read encrypted objects in the S3 bucket can force a padding downgrade by altering the padding scheme recorded in an object's metadata to legacy PKCS#1 v1.5. Since this padding scheme is susceptible to the Bleichenbacher attack, the user can use a PKCS#1 v1.5 padding oracle to recover the RSA-wrapped envelope key and decrypt the object.</p>\n<p><b>Impacted versions:</b> &gt;= 2.1.0; 3.0.0 to 3.2.1; 4.0.0 to 4.0.2</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+  "7595435ce7aee1e4fd4f787a7cec6e0c":
+    "id": "7595435ce7aee1e4fd4f787a7cec6e0c"
+    "title": "CVE-2026-110248 - Insertion of sensitive information into log files in Amazon SageMaker Python SDK"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-134-aws/"
+    "published": "2026-10-15 03:38:55"
+    "fetched": "2026-10-15 05:24:30"
+    "summary": "<p><b>Bulletin ID:</b> 2026-134-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 10/14/2026 11:30 AM PDT</p>\n<p><b>Description:</b></p>\n<p>Amazon SageMaker Python SDK is an open source library for training and deploying machine learning models on Amazon SageMaker.</p>\n<p>We identified CVE-2026-110248, an issue in the git_utils.py component of Amazon SageMaker Python SDK. When a Git clone operation fails, repository credentials in subprocess error output are written to CloudWatch Logs without redaction. An authenticated remote user with access to those logs is able to obtain the plaintext credentials.</p>\n<p><b>Impacted versions:</b>\n <br />\n - Amazon SageMaker Python SDK V2 versions before 2.257.3\n <br />\n - Amazon SageMaker Python SDK V3 versions before 3.10.0</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-10-15 05:24:30 JST"

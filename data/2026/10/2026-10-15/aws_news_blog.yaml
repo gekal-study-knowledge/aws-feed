@@ -1,0 +1,9 @@
+"entries":
+  "ba33328b43c865d7117b522ec02265ac":
+    "id": "ba33328b43c865d7117b522ec02265ac"
+    "title": "Amazon S3 is now available on the Vercel Marketplace and v0 by Vercel"
+    "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vercel-marketplace-v0/"
+    "published": "2026-10-15 04:30:48"
+    "fetched": "2026-10-15 05:24:28"
+    "summary": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running."
+"last_updated": "2026-10-15 05:24:28 JST"
