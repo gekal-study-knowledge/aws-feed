@@ -1,0 +1,16 @@
+"entries":
+  "d22a85d27487ab12533b9f8ce1e7eeb3":
+    "id": "d22a85d27487ab12533b9f8ce1e7eeb3"
+    "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart"
+    "link": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/"
+    "published": "2026-10-16 02:43:35"
+    "fetched": "2026-10-16 02:58:16"
+    "summary": "Muse Spark Open, Meta's coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart. Deploy it to a SageMaker AI endpoint in your own AWS account using SageMaker Studio or the SageMaker Python SDK, and run your first inference request."
+  "21b41c7aec11b75c6ab2e5cc1a1968f7":
+    "id": "21b41c7aec11b75c6ab2e5cc1a1968f7"
+    "title": "Trust in Depth: Giving agents more autonomy without losing control"
+    "link": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/"
+    "published": "2026-10-16 00:05:35"
+    "fetched": "2026-10-16 02:58:16"
+    "summary": "Enterprise leaders want AI agents to take on more work but don't fully trust them to act correctly every time. Trust in Depth is AWS's layered approach-scope, know, bound, observe, and prove-that lets agents act on their own when their actions can be verified, reserving human judgment for the decisions that need it."
+"last_updated": "2026-10-16 02:58:16 JST"

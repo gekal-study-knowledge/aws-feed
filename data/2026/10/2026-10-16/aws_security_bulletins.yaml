@@ -1,0 +1,9 @@
+"entries":
+  "475b876cc168552252d66282ceefca44":
+    "id": "475b876cc168552252d66282ceefca44"
+    "title": "CVE-2026-110812 - Deserialization of untrusted data in the Gremlin graph-import path in Amazon Neptune"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-136-aws/"
+    "published": "2026-10-16 01:41:28"
+    "fetched": "2026-10-16 02:58:15"
+    "summary": "<p><b>Bulletin ID:</b> 2026-136-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 10/15/2026 09:30 AM PDT</p>\n<p><b>Description:</b></p>\n<p>Amazon Neptune is a fully managed graph database service. We identified CVE-2026-110812, an issue in Apache TinkerPop related to Gremlin functionality used by Amazon Neptune. Under certain conditions, an authenticated principal with Neptune data-plane (query) permissions could submit a request that causes the query engine to process untrusted input unsafely, which could lead to unintended activity within the query engine environment. This issue has been addressed in the engine versions listed below; we recommend customers upgrade.</p>\n<p><b>Impacted versions:</b> &gt;=1.2.0.0</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>"
+"last_updated": "2026-10-16 02:58:15 JST"

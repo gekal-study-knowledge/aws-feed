@@ -1,0 +1,9 @@
+"entries":
+  "5e2c15c09fa10c118f6e96d00d4d2889":
+    "id": "5e2c15c09fa10c118f6e96d00d4d2889"
+    "title": "AWS Security Agent (now part of AWS Continuum) exploited 33 of 37 new real-world CVEs"
+    "link": "https://aws.amazon.com/blogs/security/aws-security-agent-now-part-of-aws-continuum-exploited-33-of-37-new-real-world-cves/"
+    "published": "2026-10-16 01:10:14"
+    "fetched": "2026-10-16 02:58:14"
+    "summary": "We applied AWS Security Agent (now part of AWS Continuum), our autonomous penetration-testing agent, to 37 real, recently disclosed Common Vulnerabilities and Exposures (CVEs), each packaged as a live, containerized target with a flag hidden at the vulnerability’s intended sink. Starting from an unauthenticated or low-privilege position (an endpoint URL and a one-line hint, no […]"
+"last_updated": "2026-10-16 02:58:14 JST"
