@@ -1,0 +1,25 @@
+"date": "2026-10-16"
+"generated_at": "2026-10-16 08:21:43 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 18
+"sources":
+  - "aws_architecture_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 18 件で、セキュリティ速報 2 件と自律型ペネトレーションテストの検証結果、エージェントに自律性を与える考え方、それにサービス更新が中心でした。セキュリティ速報の 1 件目は CVE-2026-110812 で、Amazon Neptune が使う Apache TinkerPop の Gremlin 機能における信頼できないデータのデシリアライズです (Bulletin ID 2026-136-AWS、Important、2026 年 10 月 15 日 09:30 PDT 公開)。一定の条件下で、Neptune のデータプレーン (クエリ) 権限を持つ認証済みプリンシパルが、クエリエンジンに信頼できない入力を安全でない形で処理させるリクエストを送れ、クエリ処理の中で意図しない動作につながる可能性があります。2 件目は Linux カーネルの virtio-net/TAP ネットワークパスの問題 (CVE-2026-99999) で、パッチ未適用のカーネル 4.4 から 6.18 を動かす KVM ベースのハイパーバイザーが影響を受けます (Bulletin ID 2026-137-AWS、Important、同日 10:30 PDT 公開)。ゲスト仮想マシン内で特権アクセスを持つ者が細工したネットワークパケットを送ることでホストのカーネルメモリを破壊でき、ホストメモリの漏洩やサービス拒否につながる可能性があります。セキュリティではもう 1 件、AWS Continuum に統合された自律型ペネトレーションテストエージェント AWS Security Agent の検証結果が公開されました。最近公開された実在の CVE 37 件をそれぞれコンテナ化した標的として用意し、脆弱性の到達点にフラグを隠した状態で、未認証または低権限の位置 (エンドポイントの URL と 1 行のヒントのみ) から開始したところ、37 件のうち 33 件で悪用に成功したという内容です。エージェントの運用方針としては、AWS の層状のアプローチ「Trust in Depth」が紹介されました。スコープを定める、相手を知る、境界を設ける、観測する、証明する、という段階を重ねることで、行動が検証できる範囲ではエージェントに自律的に動かせ、人間の判断は本当に必要な決定に取っておけるという考え方です。モデルでは、Meta のコーディング特化のオープンウェイトモデル Muse Spark Open が Amazon SageMaker JumpStart で利用可能になりました。エージェント型のコーディングワークフローのために作られており、Mixture-of-Experts 構成で総パラメーター 816B・トークンあたり活性 42B、長時間稼働するコーディングエージェントやマルチモーダルなエンジニアリング作業を想定しています。事例では、Dynata が AI 支援のコーディングから AI-DLC (AI 主導の開発ライフサイクル) 方法論と Kiro IDE へ移行し、フルスタック機能の開発フェーズを 3〜4 スプリントから約 1 スプリントに短縮した取り組みが紹介されました。サービス更新は多岐にわたります。サーバーレスでは AWS Lambda Durable Execution SDK for Go が一般提供となり、インフラ自動化、承認ゲート付きのデプロイ、AI モデルを呼び出して人間のレビューで一時停止するパイプラインといった多段のアプリケーションを、独自の進捗管理を書かずに Go で実装できます。データベースとストリーミングでは、Amazon DynamoDB Streams がタイムスタンプ指定のストリーム処理に対応し、AT_TIMESTAMP のシャードイテレーターで指定時刻以降の最初のレコードから読み始められるようになりました (従来は保持されている最古のレコードか、読み取り開始後の新規レコードのみ)。また PostgreSQL 19 RC1 が Amazon RDS の Database Preview 環境で利用可能になり、複雑な全文検索式のエラー処理、並列 autovacuum の堅牢化、GIN インデックス保守の信頼性が改善されています。ネットワークでは Amazon CloudFront が VPC オリジンのデュアルスタックに対応し、プライベートサブネットに置いた ALB・NLB・EC2 インスタンスへ IPv6 のトラフィックをエンドツーエンドで届けられるようになりました。そのほか、Amazon Time Sync Service がマイクロ秒精度の時刻をすべての商用リージョンの 135 の EC2 インスタンスタイプ (12 ファミリー) に拡大、AWS HealthOmics が AWS Resource Access Manager 経由の VPC 共有に対応、Amazon EC2 T8i が南米 (サンパウロ) で提供開始 (第 6 世代 Intel Xeon 6 搭載で T3 比の価格性能が最大 30% 向上)、AWS Transform のフルスタック Windows モダナイゼーションが変換後の Aurora PostgreSQL のクロスリージョンデプロイと 7 リージョンの追加に対応、Amazon MSK Connect と AWS Glue Schema Registry が AWS European Sovereign Cloud (ドイツ) で利用可能に、Amazon Redshift のシステムテーブルの長期保持 (Amazon S3 Tables との統合) が追加リージョンに展開、Amazon SageMaker Studio の新しいサインイン方法 (Google・GitHub・Apple) が案内されています。
+"topics":
+  - "セキュリティ速報: CVE-2026-110812 (Bulletin 2026-136-AWS、Important) — Amazon Neptune が使う Apache TinkerPop の Gremlin 機能で信頼できないデータのデシリアライズ。データプレーン権限を持つ認証済みプリンシパルがクエリ処理内で意図しない動作を引き起こし得る"
+  - "セキュリティ速報: Linux カーネルの virtio-net/TAP の問題 (CVE-2026-99999、Bulletin 2026-137-AWS、Important) — パッチ未適用のカーネル 4.4〜6.18 の KVM ベースハイパーバイザーで、ゲスト内の特権ユーザーがホストのカーネルメモリを破壊し、メモリ漏洩や DoS を引き起こし得る"
+  - "セキュリティ: AWS Continuum の自律型ペネトレーションテストエージェントが、最近公開された実在の CVE 37 件のうち 33 件で悪用に成功。未認証または低権限の位置から、URL と 1 行のヒントのみで開始"
+  - "エージェント運用: AWS の層状アプローチ「Trust in Depth」(スコープ・把握・境界・観測・証明) により、行動が検証できる範囲でエージェントを自律的に動かし、人間の判断は必要な決定に限る"
+  - "生成 AI: Meta のコーディング特化オープンウェイトモデル Muse Spark Open が Amazon SageMaker JumpStart で利用可能に。MoE 構成で総パラメーター 816B・活性 42B、長時間稼働のコーディングエージェント向け"
+  - "事例: Dynata が AI-DLC 方法論と Kiro IDE への移行で、フルスタック機能の開発フェーズを 3〜4 スプリントから約 1 スプリントへ短縮"
+  - "サーバーレス: AWS Lambda Durable Execution SDK for Go が GA。承認ゲート付きデプロイや AI モデル呼び出し後に人間のレビューで一時停止するパイプラインを、独自の進捗管理なしに Go で実装できる"
+  - "データベース: Amazon DynamoDB Streams がタイムスタンプ指定のストリーム処理に対応。AT_TIMESTAMP のシャードイテレーターで指定時刻以降から読み始められる"
+  - "データベース: PostgreSQL 19 RC1 が Amazon RDS の Database Preview 環境で利用可能に。全文検索式のエラー処理、並列 autovacuum、GIN インデックス保守を改善"
+  - "ネットワーク: Amazon CloudFront が VPC オリジンのデュアルスタックに対応。プライベートサブネットの ALB・NLB・EC2 へ IPv6 をエンドツーエンドで配信"
+  - "時刻同期: Amazon Time Sync Service のマイクロ秒精度時刻が、全商用リージョンの 135 の EC2 インスタンスタイプ (12 ファミリー) に拡大"
+  - "リージョン拡大: Amazon EC2 T8i が南米 (サンパウロ) で提供開始 (第 6 世代 Intel Xeon 6 搭載、T3 比で価格性能が最大 30% 向上)。MSK Connect と Glue Schema Registry が AWS European Sovereign Cloud (ドイツ) で利用可能に"
