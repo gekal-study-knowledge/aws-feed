@@ -1,0 +1,18 @@
+"date": "2026-10-17"
+"generated_at": "2026-10-17 08:21:02 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 8
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 8 件で、FreeRTOS に関するセキュリティ速報 2 件 (計 4 件の CVE) と、オープンウェイトモデルの追加が中心でした。セキュリティ速報の 1 件目は FreeRTOS-Plus-TCP の問題です (Bulletin ID 2026-139-AWS、Important、2026 年 10 月 16 日 10:15 PDT 公開)。FreeRTOS-Plus-TCP は組み込みや IoT 機器向けに Amazon が配布している、スレッドセーフな TCP/IP スタックで、複数バージョンが影響を受けます。CVE-2026-102551 は IPv6 の Router Advertisement ハンドラーにおける通信チャネルの送信元検証の不備で、受信した Router Advertisement がオンリンクの送信元から来たものかを十分に検証していません。あわせて CVE-2026-102552 も公開されています。2 件目は FreeRTOS-Kernel の問題です (Bulletin ID 2026-138-AWS、Important、同日 10:00 PDT 公開)。マイクロコントローラーや小型マイクロプロセッサー向けのリアルタイム OS カーネルで、Arm Cortex-R82 (Armv8-R AArch64) の MPU ポートに 2 件の問題があり、複数バージョンが影響を受けます。CVE-2026-109587 は同 MPU ポートにおける不適切な認可で、MPU を有効にしたビルドで非特権タスクに割り当てたメモリ領域の境界を正しく強制しません。あわせて CVE-2026-109588 も公開されています。モデルでは、Reflection AI のオープンウェイトモデル Beam が Amazon SageMaker JumpStart と AWS Trainium で利用可能になりました。米国の Reflection が初めて公開したオープンウェイトモデルで、同クラスのオープンウェイトモデルの最前線にあり、推論・コーディング・エージェント系のベンチマークで高い性能を示すとしています。データとインフラを自分の管理下に置いたまま、高度なコーディングエージェントや自動化ワークフローを構築できる点が強調されています。機械学習ブログでは Beam を AWS にデプロイする手順も公開され、Amazon SageMaker JumpStart のリアルタイムエンドポイントから始める方法と、Kubernetes ネイティブに分散 GPU インフラを制御したい場合に JumpStart、SGLang、vLLM と組み合わせて Amazon SageMaker HyperPod Inference を使う方法が示されています。もう 1 つのモデル追加は NVIDIA の Nemotron 3.5 Super VL で、画像・動画・テキストを入力してテキストを生成するビジョン言語モデルとして SageMaker JumpStart に加わりました。文書理解、GUI の把握、動画への質問応答、マルチモーダルなエージェント用途を想定し、総パラメーター 120B・活性 12B のハイブリッド Mixture-of-Experts の言語バックボーンにビジョンエンコーダーを組み合わせています。エージェントの評価では、Amazon Bedrock AgentCore 上に構築した 9 段階の評価フレームワークが紹介されました。自律型エージェントの障害は静かに進むため、レイテンシーは変わらないまま回答品質だけが徐々に劣化するという問題意識から、最初のコミットから本番稼働までのライフサイクル全体で品質の退行を捉えます。サービス更新は 2 件で、AWS Lambda の durable functions が AWS GovCloud (US-West) と AWS GovCloud (US-East) で利用可能になり、Amazon CloudWatch のログ集約が AWS GovCloud (US) と追加 13 の商用リージョンで使えるようになりました。
+"topics":
+  - "セキュリティ速報: CVE-2026-102551 と CVE-2026-102552 (Bulletin 2026-139-AWS、Important) — 組み込み・IoT 向け TCP/IP スタック FreeRTOS-Plus-TCP の問題。IPv6 Router Advertisement ハンドラーが送信元がオンリンクかを十分に検証しない。複数バージョンが影響"
+  - "セキュリティ速報: CVE-2026-109587 と CVE-2026-109588 (Bulletin 2026-138-AWS、Important) — FreeRTOS-Kernel の Arm Cortex-R82 (Armv8-R AArch64) MPU ポートの問題。MPU 有効ビルドで非特権タスクのメモリ領域境界を正しく強制しない。複数バージョンが影響"
+  - "生成 AI: Reflection のオープンウェイトモデル Beam が Amazon SageMaker JumpStart と AWS Trainium で利用可能に。推論・コーディング・エージェント系ベンチマークで高い性能とされ、データとインフラを自分の管理下に置いたまま利用できる"
+  - "生成 AI: Beam を AWS にデプロイする手順。SageMaker JumpStart のリアルタイムエンドポイントから始めるか、JumpStart・SGLang・vLLM と組み合わせて SageMaker HyperPod Inference で Kubernetes ネイティブに分散 GPU を制御"
+  - "生成 AI: NVIDIA の Nemotron 3.5 Super VL が SageMaker JumpStart で利用可能に。画像・動画・テキストを入力するビジョン言語モデルで、総 120B・活性 12B のハイブリッド MoE バックボーン。文書理解や GUI 把握、動画 QA 向け"
+  - "エージェント評価: Amazon Bedrock AgentCore 上の 9 段階の評価フレームワーク。レイテンシーが変わらないまま回答品質だけが劣化する「静かな障害」を、最初のコミットから本番までのライフサイクル全体で捉える"
+  - "リージョン拡大: AWS Lambda durable functions が AWS GovCloud (US-West・US-East) で、Amazon CloudWatch のログ集約が AWS GovCloud (US) と追加 13 の商用リージョンで利用可能に"
