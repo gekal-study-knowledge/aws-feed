@@ -11,22 +11,26 @@ description: このリポジトリの日別ページに載る「AI による概�
 
 ## 実行環境
 
-コマンドはすべて **`python3`** で書いてある。macOS には `python` が無く
-(Homebrew の Python は `python3` のみを入れる)、`python` で実行すると
-`command not found` になる。
+コマンドはすべて**リポジトリ直下の venv** (`./venv/bin/python`) で書いてある。
+**素の `python3` では動かない。** Homebrew の python3 がバージョンアップすると
+PyYAML が旧バージョン側に取り残され、`ModuleNotFoundError: No module named 'yaml'`
+で全スクリプトが落ちる。
 
-依存は `.github/scripts/requirements.txt` の PyYAML。入っていなければ入れる。
+venv が無い / 壊れているときは作り直す (`venv/` は `.gitignore` 済み)。
 
 ```bash
-python3 -m pip install -r .github/scripts/requirements.txt
+python3 -m venv venv
+./venv/bin/pip install -r .github/scripts/requirements.txt
 ```
+
+依存は `.github/scripts/requirements.txt` (feedparser / PyYAML / markdown)。
 
 ## 1. 対象日を洗い出す
 
 最初に必ず実行する。手当たり次第に作らない。
 
 ```bash
-python3 .github/scripts/check_summaries.py
+./venv/bin/python .github/scripts/check_summaries.py
 ```
 
 3 つの状態を報告する。終了コードは、対応が必要な日があれば 1、なければ 0。
@@ -47,9 +51,9 @@ python3 .github/scripts/check_summaries.py
 `summary_digest.py` が HTML を落として情報源ごとに切り詰めた形にする。
 
 ```bash
-python3 .github/scripts/summary_digest.py 2026-08-27,2026-08-28 --limit 200
-python3 .github/scripts/summary_digest.py --missing --limit 200   # 未生成の日をまとめて
-python3 .github/scripts/summary_digest.py --stale                 # 要対応の日をまとめて
+./venv/bin/python .github/scripts/summary_digest.py 2026-08-27,2026-08-28 --limit 200
+./venv/bin/python .github/scripts/summary_digest.py --missing --limit 200   # 未生成の日をまとめて
+./venv/bin/python .github/scripts/summary_digest.py --stale                 # 要対応の日をまとめて
 ```
 
 `--limit` はフィードの性格で変える。**ここを誤ると読み込み量が跳ね上がる。**
@@ -108,8 +112,8 @@ python3 .github/scripts/summary_digest.py --stale                 # 要対応の
 ## 4. 書き出す
 
 ```bash
-python3 .github/scripts/write_summary.py /tmp/summaries.json           # 新規
-python3 .github/scripts/write_summary.py /tmp/summaries.json --force   # 作り直し
+./venv/bin/python .github/scripts/write_summary.py /tmp/summaries.json           # 新規
+./venv/bin/python .github/scripts/write_summary.py /tmp/summaries.json --force   # 作り直し
 ```
 
 `--force` を付けない限り既存ファイルは上書きしない。**新規の日に誤って `--force` を
@@ -121,7 +125,7 @@ python3 .github/scripts/write_summary.py /tmp/summaries.json --force   # 作り�
 ## 5. 確認する
 
 ```bash
-python3 .github/scripts/check_summaries.py   # 「対応が必要な日はありません」になること
+./venv/bin/python .github/scripts/check_summaries.py   # 「対応が必要な日はありません」になること
 npm run build                                # ビルドが通ること
 ```
 
