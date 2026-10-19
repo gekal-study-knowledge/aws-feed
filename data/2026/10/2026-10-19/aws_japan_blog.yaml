@@ -1,0 +1,23 @@
+"entries":
+  "1bf149ad2c15435031145af37944b111":
+    "id": "1bf149ad2c15435031145af37944b111"
+    "title": "Amazon Bedrock における最小権限アクセスの実装"
+    "link": "https://aws.amazon.com/jp/blogs/news/implementing-least-privilege-access-for-amazon-bedrock/"
+    "published": "2026-10-19 09:08:27"
+    "fetched": "2026-10-19 09:44:44"
+    "summary": "生成 AI アプリケーションでは、Amazon Bedrock や大規模言語モデル (LLM) などを組み合わせるため、さまざまなレベルでのアクセスコントロールが欠かせません。この記事では、モデルの選択、適応、テスト、運用の各フェーズで最小権限の原則を適用する方法を紹介します。サービスコントロールポリシー (SCP)、VPC エンドポイントポリシー、KMS キーポリシー、Amazon Bedrock Guardrails、Amazon Bedrock Agents を使ったポリシーの例も示します。あわせて、モデル呼び出しログの機密データ保護と、IAM Access Analyzer によるアクセス許可の定期的な見直しについても説明します。"
+  "08822733fa845eec6b24edc93521c7dc":
+    "id": "08822733fa845eec6b24edc93521c7dc"
+    "title": "AWS セキュリティサービスでアクセスキーの漏えいリスクを最小限に抑える実践的な手順"
+    "link": "https://aws.amazon.com/jp/blogs/news/practical-steps-to-minimize-key-exposure-using-aws-security-services/"
+    "published": "2026-10-19 09:06:18"
+    "fetched": "2026-10-19 09:44:44"
+    "summary": "漏えいした長期的な認証情報 (アクセスキー) は、AWS Customer Incident Response Team (CIRT) が観測したセキュリティインシデントで、現在も脅威アクターに最も多く使われる侵入経路です。この記事では、Amazon Q Developer や AWS IAM Access Analyzer を使用して、漏えいしたキーや未使用のアクセスを検出する方法を紹介します。さらに、SCP と RCP によるデータ境界の確立、Amazon Inspector や AWS WAF によるランタイム環境の保護、Secrets Manager によるキーの自動ローテーション、Amazon GuardDuty による異常な IAM アクティビティの検出を取り上げます。これらを組み合わせた多層防御の実践的な手順を説明します。"
+  "35e889acc067ed39cea731f687b14ba2":
+    "id": "35e889acc067ed39cea731f687b14ba2"
+    "title": "Amazon Bedrock API キーの保護: 実装と管理のベストプラクティス"
+    "link": "https://aws.amazon.com/jp/blogs/news/securing-amazon-bedrock-api-keys-best-practices-for-implementation-and-management/"
+    "published": "2026-10-19 09:04:08"
+    "fetched": "2026-10-19 09:44:44"
+    "summary": "Amazon Bedrock API キーを安全に実装、管理するためのベストプラクティスを紹介します。AWS STS の一時的な認証情報を優先し、使用できない場合は短期 API キー、最終手段として長期 API キーを選ぶという判断基準を整理します。そのうえで、SCP と条件キーによる作成と使用の制御、CloudTrail、Amazon EventBridge、AWS Config ルールによる監視、侵害時のインシデント対応手順を、NIST CSF 2.0 に沿って解説します。"
+"last_updated": "2026-10-19 09:44:44 JST"
