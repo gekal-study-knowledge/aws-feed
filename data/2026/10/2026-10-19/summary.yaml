@@ -1,0 +1,12 @@
+"date": "2026-10-19"
+"generated_at": "2026-10-19 13:15:26 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 3
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  この日は 3 件で、いずれも AWS ジャパンブログの認証情報とアクセス制御に関する記事でした。Amazon Bedrock の API キーについては、安全に実装・管理するためのベストプラクティスが紹介されました。AWS STS の一時的な認証情報を優先し、それが使えない場合は短期 API キー、最終手段として長期 API キーを選ぶという判断基準を整理したうえで、SCP と条件キーによる作成および使用の制御、CloudTrail・Amazon EventBridge・AWS Config ルールによる監視を扱います。アクセスキーの漏えいについては、漏えいした長期的な認証情報が AWS Customer Incident Response Team (CIRT) の観測したセキュリティインシデントにおいて現在も脅威アクターに最も多く使われる侵入経路であることを踏まえ、Amazon Q Developer や AWS IAM Access Analyzer を使って漏えいしたキーや未使用のアクセスを検出する実践的な手順が示されました。あわせて、Amazon Bedrock における最小権限アクセスの実装も公開されました。生成 AI アプリケーションでは Amazon Bedrock や大規模言語モデル (LLM) を組み合わせるためさまざまなレベルでのアクセスコントロールが欠かせないという前提で、モデルの選択・適応・テスト・運用の各フェーズに最小権限の原則を適用する方法を、サービスコントロールポリシー (SCP)、VPC エンドポイントポリシー、KMS キーポリシーなどを使って解説しています。
+"topics":
+  - "認証情報: Amazon Bedrock API キーのベストプラクティス。STS の一時認証情報 → 短期 API キー → 長期 API キーの順で選ぶ判断基準と、SCP・条件キーによる制御"
+  - "漏えい対策: 漏えいした長期認証情報は AWS CIRT の観測で現在も最多の侵入経路。Amazon Q Developer と IAM Access Analyzer で漏えいキーと未使用アクセスを検出"
+  - "最小権限: Amazon Bedrock でモデルの選択・適応・テスト・運用の各フェーズに最小権限を適用 (SCP・VPC エンドポイントポリシー・KMS キーポリシー)"
