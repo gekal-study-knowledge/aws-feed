@@ -1,0 +1,21 @@
+"date": "2026-10-20"
+"generated_at": "2026-10-20 08:10:18 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 11
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は 11 件で、推論性能の最適化に関する技術記事と、生成 AI モデルの追加、それに監視とセキュリティのサービス更新が中心でした。セキュリティでは、Amazon GuardDuty の Runtime Monitoring に任意で有効化できる検出ルールが追加されました。50 以上のルールを有効にでき、ある環境では日常的でも別の環境では侵害の兆候となるプロセス・ファイル・ネットワークの挙動 (sudoers ファイルの変更や監査ログの無効化など) を検出します。対象は Amazon EC2 インスタンス、Amazon EKS、EC2 と AWS Fargate 上の Amazon ECS で、永続化・権限昇格・実行・防御回避・探索・持ち出しなど MITRE ATT&CK の戦術に対応づけた 13 の検出タイプにまたがります。推論性能では vLLM に関する 2 本の記事が公開されました。1 本は prefill と decode を別のエンジンインスタンスに分ける構成で必要になる KV キャッシュの転送を扱い、転送の調整をクリティカルパスから外すプッシュ型の NIXL コネクターを導入することで、AWS EFA を使う Amazon EC2 P5en インスタンスのベンチマークで TTFT が最大 3 倍、TPOT が 30% 改善したとしています。もう 1 本はマルチターンのエージェント型ワークロード向けで、ターンごとに伸びる会話コンテキストを再処理する問題に対し、双方向の KV キャッシュ転送によって prefill ノードと decode ノードがターンをまたいで計算済みのコンテキストを再利用できるようにし、同じ P5en + EFA の環境で Qwen3-32B は最大 1.6 倍、GLM-5-FP8 は最大 3.3 倍 TTFT を短縮したとしています。また Deepgram が AWS の Forward Deployed Engineering チームと協力し、音声認識モデル Nova-3 をオフラインのバッチ推論向けに AWS Trainium2 へ移植した事例も公開され、AWS Neuron スタックへの移植、カーネルレベルのチューニング、データ並列の Rust ランタイム、バッチ文字起こしでのスループットとコストの結果が示されています。モデルでは、TwelveLabs の Pegasus 1.5 が Amazon Bedrock で利用可能になりました。長尺の動画を構造化されたタイムスタンプ付きのメタデータに変換するビデオ言語モデルで、必要な場面を定義すると該当する全区間が JSON で返り、動画のセグメンテーション、参照画像を使うマルチモーダルのプロンプト、最長 2 時間の動画をその場で処理する機能が加わっています。Amazon SageMaker JumpStart については 2026 年の 1〜3 四半期の振り返りが公開され、30 のプロバイダーから 100 を超えるモデルを追加したこと、Model Hub の簡素化、事前構成されたデプロイオプション、Hugging Face へのディープリンク統合といった改善が紹介されています。あわせて SageMaker Studio の新しい開始方法も案内され、Amazon・Apple・GitHub・Google など既存の ID でサインアップすると数ステップで設定済みの Studio 環境に入れ、多くの顧客は高度な AWS アカウントやクレジットカードが不要で、AWS 無料利用枠のクレジット 100 USD が付きます。監視では Amazon CloudWatch Omni が 8 つの追加リージョンで利用可能になりました。チームとそのアプリケーションを軸に構成された AI によるオブザーバビリティ体験で、OpenTelemetry の相互運用性と CloudWatch の規模・信頼性を組み合わせ、SSO 付きの単独の Web 体験またはローカル IDE 拡張として使えます。そのほか、Amazon Connect Customer Global Resiliency の管理サイトに Global Resiliency ページが追加され、リージョン切り替えの準備状況を一か所で確認できるようになりました (同期済み・同期待ち・対応が必要なリソースを一覧し、たとえばトラフィック配分グループに紐付いていない電話番号やユーザーをその場で関連付けられます)。また EC2 Image Builder が Auto Scaling グループの既存インスタンスを使ったイメージ作成に対応し、新しいインスタンスの起動とブートストラップの時間をなくして高速化できるようになりました。最後に AWS Weekly Roundup (2026 年 10 月 19 日) では、Lambda Web Functions や Vercel Marketplace 上の Amazon S3 などが取り上げられています。
+"topics":
+  - "セキュリティ: Amazon GuardDuty の Runtime Monitoring に任意の検出ルールを追加。50 以上のルールで sudoers 変更や監査ログ無効化などを検出し、EC2・EKS・ECS (EC2 / Fargate) を対象に MITRE ATT&CK 対応の 13 検出タイプをカバー"
+  - "推論性能: vLLM の prefill/decode 分離でプッシュ型の NIXL コネクターにより転送調整をクリティカルパスから外し、P5en + EFA で TTFT が最大 3 倍・TPOT が 30% 改善"
+  - "推論性能: 双方向の KV キャッシュ転送でマルチターンのエージェント処理のコンテキスト再利用を可能にし、Qwen3-32B で最大 1.6 倍、GLM-5-FP8 で最大 3.3 倍 TTFT を短縮"
+  - "事例: Deepgram が音声認識モデル Nova-3 をバッチ推論向けに AWS Trainium2 へ移植。Neuron スタックへの移植、カーネルチューニング、データ並列の Rust ランタイムを解説"
+  - "生成 AI: TwelveLabs の Pegasus 1.5 が Amazon Bedrock で利用可能に。長尺動画をタイムスタンプ付きの構造化メタデータに変換し、最長 2 時間の動画をその場で処理"
+  - "生成 AI: Amazon SageMaker JumpStart の 2026 年 1〜3 四半期振り返り。30 プロバイダーから 100 超のモデルを追加し、Model Hub の簡素化や Hugging Face のディープリンク統合を実施"
+  - "機械学習: SageMaker Studio の新しい開始方法。Amazon・Apple・GitHub・Google の ID でサインアップでき、多くの顧客はクレジットカード不要で無料利用枠クレジット 100 USD 付き"
+  - "監視: Amazon CloudWatch Omni が 8 つの追加リージョンで利用可能に。OpenTelemetry の相互運用性と CloudWatch の規模を組み合わせ、SSO 付き Web またはローカル IDE 拡張で利用"
+  - "コンタクトセンター: Amazon Connect Customer Global Resiliency に Global Resiliency ページを追加。リージョン切り替えの準備状況を一覧し、未関連付けの電話番号やユーザーをその場で紐付けられる"
+  - "コンピュート: EC2 Image Builder が Auto Scaling グループの既存インスタンスを使ったイメージ作成に対応し、起動とブートストラップの時間を削減"
