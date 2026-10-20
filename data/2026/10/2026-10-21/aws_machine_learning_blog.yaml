@@ -76,4 +76,11 @@
     "published": "2026-10-21 00:33:54"
     "fetched": "2026-10-21 03:17:03"
     "summary": "The third post in our semantic-layer series builds a governed customer 360 model on Amazon Redshift with AtScale, then exposes it to a Strands agent on Amazon Bedrock AgentCore through the AtScale MCP server. Identity propagation, RBAC, row security, and full query audit are enforced at the semantic layer, not the prompt."
-"last_updated": "2026-10-21 03:17:03 JST"
+  "197bde9a1af32d7830dd8ebdea81fb52":
+    "id": "197bde9a1af32d7830dd8ebdea81fb52"
+    "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch"
+    "link": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/"
+    "published": "2026-10-21 06:14:10"
+    "fetched": "2026-10-21 07:02:39"
+    "summary": "Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. Its recurrent state stays fixed at 29.5 MB per sequence regardless of context length, avoiding the growing key-value cache of transformer models and keeping serving memory predictable."
+"last_updated": "2026-10-21 07:02:39 JST"
