@@ -1,0 +1,9 @@
+"entries":
+  "c7c58816010038b06a9866a53ee0c897":
+    "id": "c7c58816010038b06a9866a53ee0c897"
+    "title": "Introducing Amazon ECS Gateway: A fully-managed ingress solution for ECS services"
+    "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/"
+    "published": "2026-10-21 02:03:38"
+    "fetched": "2026-10-21 03:17:01"
+    "summary": "Try Amazon ECS Gateway, a new account-level resource that simplifies ingress networking for containerized workloads by dynamically provisioning and managing the necessary infrastructure on your behalf, with all resources created directly in your account."
+"last_updated": "2026-10-21 03:17:01 JST"

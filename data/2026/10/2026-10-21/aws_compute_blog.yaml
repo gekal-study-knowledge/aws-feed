@@ -1,0 +1,9 @@
+"entries":
+  "4b8deeabf576cea5c30092fa93da6e63":
+    "id": "4b8deeabf576cea5c30092fa93da6e63"
+    "title": "Building an AEO scoring pipeline with AWS Lambda durable functions"
+    "link": "https://aws.amazon.com/blogs/compute/building-an-aeo-scoring-pipeline-with-aws-lambda-durable-functions/"
+    "published": "2026-10-21 02:45:29"
+    "fetched": "2026-10-21 03:17:03"
+    "summary": "Learn how to build a five-step Agent Engine Optimization (AEO) scoring pipeline on AWS Lambda durable functions. Each checkpointed step suspends without incurring costs between stages and retries without re-spending on prior work, so you can score any page against five AEO signals and deploy the solution with an AWS SAM template."
+"last_updated": "2026-10-21 03:17:03 JST"
