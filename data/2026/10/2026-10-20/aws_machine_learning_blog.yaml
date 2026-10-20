@@ -41,4 +41,11 @@
     "published": "2026-10-20 06:14:44"
     "fetched": "2026-10-20 07:47:13"
     "summary": "Amazon SageMaker JumpStart onboarded over 100 new models from 30 providers in the first three quarters of 2026. This recap covers the model-onboarding highlights and JumpStart enhancements, including the simplified Model Hub, pre-configured deployment options, and Hugging Face deep link integration."
-"last_updated": "2026-10-20 07:47:13 JST"
+  "af8cdac5bca95a6e39dea9da0bc05ffe":
+    "id": "af8cdac5bca95a6e39dea9da0bc05ffe"
+    "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/"
+    "published": "2026-10-20 08:32:19"
+    "fetched": "2026-10-20 10:30:58"
+    "summary": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use."
+"last_updated": "2026-10-20 10:30:58 JST"
