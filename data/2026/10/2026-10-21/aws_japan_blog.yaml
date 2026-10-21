@@ -1,0 +1,23 @@
+"entries":
+  "152de0595aede85cb4bab91f122ac663":
+    "id": "152de0595aede85cb4bab91f122ac663"
+    "title": "スピードと安全性の両立: AI コーディングエージェントのためのコントロールフレームワーク"
+    "link": "https://aws.amazon.com/jp/blogs/news/balancing-speed-and-safety-a-control-framework-for-ai-coding-agents/"
+    "published": "2026-10-21 09:15:14"
+    "fetched": "2026-10-21 10:13:44"
+    "summary": "Kiro などの AI コーディングエージェントは開発を加速させる一方で、プロンプトインジェクションや過度に緩い設定、サプライチェーンリスク、スコープクリープなどのリスクをもたらします。本記事では、IDE でエージェントの出力を方向付ける作成時のコントロールと、パイプラインで検証するビルド時のコントロールの 2 つの柱からなるアプリケーションセキュリティのフレームワークを紹介します。決定論的な緩和策、非決定論的な緩和策、人間によるレビューの組み合わせ方に加えて、Kiro、AWS CodeBuild、AWS CodePipeline を使用した実装例も解説します。"
+  "5dd789bd31aff83a10eb36f6231f0c89":
+    "id": "5dd789bd31aff83a10eb36f6231f0c89"
+    "title": "Amazon Linux で npm と pip のパッケージ更新を安全にする方法"
+    "link": "https://aws.amazon.com/jp/blogs/news/secure-your-npm-and-pip-package-updates-in-amazon-linux/"
+    "published": "2026-10-21 09:12:31"
+    "fetched": "2026-10-21 10:13:44"
+    "summary": "npm や PyPI のパッケージは、公開直後の数時間に最もサプライチェーンのリスクが高くなります。この記事では、Amazon Linux 2023 で npm の min-release-age と pip の uploaded-prior-to を使用して 1 日の依存関係のクールダウンを設定し、予期しないパッケージのインストールを防ぐ方法を紹介します。また、npm audit と pip-audit で特定したパッケージに限ってクールダウンをオーバーライドし、セキュリティ修正を適用する方法も説明します。"
+  "72c5d0e21a28fecfddfcd00b52ee7f9d":
+    "id": "72c5d0e21a28fecfddfcd00b52ee7f9d"
+    "title": "AWS Well-Architected フレームワークに基づくソフトウェアサプライチェーンセキュリティのベストプラクティス"
+    "link": "https://aws.amazon.com/jp/blogs/news/well-architected-best-practices-for-software-supply-chain-security/"
+    "published": "2026-10-21 09:09:38"
+    "fetched": "2026-10-21 10:13:44"
+    "summary": "2025 年 9 月以降に相次ぐ、npm Registry を悪用した Shai-Hulud などのサプライチェーン攻撃を踏まえ、AWS Well-Architected フレームワークのセキュリティの柱に沿ったパッケージ利用者向けのベストプラクティスを紹介します。一時的な認証情報と最小権限による漏えいリスクの低減、AWS Signer によるアーティファクト署名などの多層防御を取り上げます。さらに、AWS CodeArtifact による依存関係の一元管理、Amazon Inspector による依存関係スキャン、AWS CloudTrail と Amazon GuardDuty によるモニタリングも解説します。"
+"last_updated": "2026-10-21 10:13:44 JST"
