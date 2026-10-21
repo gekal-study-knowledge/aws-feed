@@ -1,0 +1,9 @@
+"entries":
+  "92c3413949efee4598e15be7fc3833ed":
+    "id": "92c3413949efee4598e15be7fc3833ed"
+    "title": "Best practices for integrating IAM Roles Anywhere with your PKI"
+    "link": "https://aws.amazon.com/blogs/security/best-practices-for-integrating-iam-roles-anywhere-with-your-pki/"
+    "published": "2026-10-22 02:03:50"
+    "fetched": "2026-10-22 02:52:12"
+    "summary": "Using temporary credentials is a security best practice to reduce the risk from credentials getting compromised. With AWS IAM Roles Anywhere, now your workloads outside of Amazon Web Services (AWS) will be able to access AWS resources by obtaining temporary security credentials in AWS Identity and Access Management (IAM). IAM Roles Anywhere relies on public […]"
+"last_updated": "2026-10-22 02:52:12 JST"
