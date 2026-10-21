@@ -1,0 +1,21 @@
+"date": "2026-10-22"
+"generated_at": "2026-10-22 08:11:28 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 10
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 10 件で、Amazon SageMaker Python SDK のセキュリティ速報、データベースの容量予約、そして移行支援と接続性の更新が中心でした。セキュリティ速報は 1 件で Important (要対応) です。CVE-2026-112408 は Amazon SageMaker Python SDK の default_bucket() 関数におけるバケット所有者の検証の欠落で (Bulletin ID: 2026-142-AWS、2026 年 10 月 21 日 12:30 PDT 公開)、SDK が予測可能な名前の Amazon S3 バケットを使い、呼び出し元の AWS アカウントがそのバケットを所有しているか確認していませんでした。先にそのバケットを作成したリモートの第三者が、リモートの SageMaker 実行環境でコードを実行して IAM の認証情報を取得できる可能性があります。対象は V2 が 2.257.3 未満、V3 が 3.0.0 以上 3.10.0 未満です。セキュリティブログでは、AWS IAM Roles Anywhere と自社 PKI を連携させるベストプラクティスが公開されました。認証情報の漏えいリスクを下げるために一時的な認証情報を使うという原則に沿って、AWS の外にあるワークロードが IAM の一時的なセキュリティ認証情報を取得して AWS リソースにアクセスできるようにするものです。データベースでは、Amazon Aurora と Amazon RDS がオンデマンドキャパシティ予約に対応しました。1 つまたは複数のアベイラビリティーゾーンで DB インスタンスのコンピュート容量を必要な期間だけ予約でき、容量不足による作成・復元・コンピュートのスケール・起動の失敗を避けられます。移行・製品ローンチ・季節的なピーク・高可用性構成・災害復旧など、必要なときに特定の DB インスタンス容量が確実に使えるという保証が要る用途向けで、DB インスタンスクラス・エンジン・アベイラビリティーゾーン・ゾーンごとの予約容量を指定します。移行支援では、AWS Transform の移行アセスメントがオンプレミスのストレージを対象に加えました。プロトコル・容量・性能にまたがる数千のボリュームを手作業で分析する代わりに、ストレージのインベントリをアップロードすればマッピングを代行し、各ワークロードに最適なサービスを割り当て、サイジングとコストの見積もりから TCO のビジネスケースまで作ります。NAS 共有・SAN LUN・直接接続ディスク・バックアップリポジトリを NetApp Digital Advisor のエクスポートや RVTools のファイルなどで取り込み、Amazon S3・Amazon EBS・Amazon EFS・Amazon FSx (NetApp ONTAP、Windows File Server、OpenZFS、Lustre) へ振り分けます。ネットワークでは、イングランドのマンチェスター近郊にある Equinix MA3 データセンターの AWS Direct Connect ロケーションで、MACsec 暗号化に対応した 10 Gbps と 100 Gbps の専用接続が追加されました。中国を除くすべての商用リージョン、AWS GovCloud リージョン、AWS Local Zones へのプライベートな直接接続が可能で、イングランドで 100 Gbps と MACsec に対応する 3 番目のロケーションです。ID 管理では、Amazon Cognito のマルチリージョンレプリケーション (MRR) が AWS GovCloud (US) リージョンに対応しました。認証情報を含むユーザーとマシンの ID データ、ユーザープールの構成、フェデレーションの設定を、指定したスタンバイリージョンの副ユーザープールへほぼリアルタイムで同期するもので、主リージョンの障害時にトラフィックを切り替えて認証を継続できます。従来は 16 の商用リージョンのみでした。機械学習では、AWS Neuron 2.33 が公開され、AWS Trainium 向けのネイティブ PyTorch バックエンド TorchNeuron がパブリックベータとして導入されました。標準の PyTorch API で書いたモデルを Amazon EC2 の Trn2・Trn3 インスタンスで eager モードまたは torch.compile で実行できます。あわせて Trainium の健全性の問題を 1 秒未満で検知して該当ノードやデバイスを特定する Neuron Observer もパブリックベータとなり、vLLM Neuron プラグインは vLLM 0.29.0 へ、Wan2.2 の動画生成向けの vLLM Omni Neuron プラグインは Neuron リリースの一部になりました。機械学習ブログでは、単一の trn2.48xlarge 上で torchtitan を使って Qwen3 を AWS Trainium で学習する 3 通りの方法 (Hugging Face Transformers v5 のモデリングバックエンド、torchtitan ネイティブの Qwen3、NKI の Mixture-of-Experts カーネル) が解説されました。同じ torchrun のランチャーと設定の構造が 3 つの経路すべてでそのまま使え、公開された Hugging Face の safetensors の読み書きにも対応します。事例としては、食料不安に取り組む非営利団体 U.S. Hunger が Amazon Quick で組織のデータと経営の意思決定をつなぎ、申請者データを経営層が直接探索し、KPI の定義や財務の文脈を Quick Spaces で共有し、政策に関する問いを Quick Research で調べている取り組みが紹介されました。
+"topics":
+  - "セキュリティ速報: CVE-2026-112408 (Important)。SageMaker Python SDK の default_bucket() がバケット所有者を検証せず、先にバケットを作った第三者が実行環境でのコード実行と IAM 認証情報の取得に至る可能性。V2 < 2.257.3 / V3 3.0.0〜3.10.0 未満が対象"
+  - "セキュリティ: IAM Roles Anywhere と自社 PKI を連携させるベストプラクティス、AWS 外のワークロードに一時的な認証情報を渡す"
+  - "データベース: Aurora と RDS がオンデマンドキャパシティ予約に対応、移行やローンチ時の容量不足による作成・復元・スケールの失敗を回避"
+  - "移行: AWS Transform の移行アセスメントがオンプレミスストレージに対応。インベントリから S3・EBS・EFS・FSx へのマッピングとサイジング、TCO のビジネスケースまで自動生成"
+  - "ネットワーク: Direct Connect がマンチェスター近郊 (Equinix MA3) で 100 Gbps と MACsec に対応、イングランドで 3 番目"
+  - "ID 管理: Cognito のマルチリージョンレプリケーションが AWS GovCloud (US) に対応、従来の 16 商用リージョンから拡大"
+  - "推論基盤: AWS Neuron 2.33 が公開。ネイティブ PyTorch バックエンド TorchNeuron と、1 秒未満で Trainium の異常を検知する Neuron Observer がパブリックベータ、vLLM Neuron プラグインは 0.29.0 へ"
+  - "学習: torchtitan で Qwen3 を Trainium で学習する 3 つの経路 (HF Transformers v5 バックエンド、torchtitan ネイティブ、NKI の MoE カーネル) を単一 trn2.48xlarge で比較"
+  - "事例: 非営利団体 U.S. Hunger が Amazon Quick で申請者データの探索と KPI 定義の共有、Quick Research による政策調査を実施"
