@@ -1,0 +1,16 @@
+"entries":
+  "0d80fc69c8ca8e1e0b6df91846255756":
+    "id": "0d80fc69c8ca8e1e0b6df91846255756"
+    "title": "Train Qwen3 on AWS Trainium with torchtitan"
+    "link": "https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/"
+    "published": "2026-10-22 05:00:22"
+    "fetched": "2026-10-22 06:11:15"
+    "summary": "Train Qwen3 on AWS Trainium with torchtitan three ways on a single trn2.48xlarge: the Hugging Face Transformers v5 modeling backend, torchtitan's native Qwen3, and NKI mixture-of-experts kernels. The same torchrun launcher and config structure work unchanged across all three paths, including loading and saving published Hugging Face safetensors."
+  "252c4a25695417a95ef139513ec36a4e":
+    "id": "252c4a25695417a95ef139513ec36a4e"
+    "title": "How U.S. Hunger connects leaders and data using Amazon Quick"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick/"
+    "published": "2026-10-22 04:19:50"
+    "fetched": "2026-10-22 06:11:15"
+    "summary": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research."
+"last_updated": "2026-10-22 06:11:15 JST"
