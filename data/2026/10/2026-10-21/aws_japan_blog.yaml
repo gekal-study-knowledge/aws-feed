@@ -20,4 +20,11 @@
     "published": "2026-10-21 09:09:38"
     "fetched": "2026-10-21 10:13:44"
     "summary": "2025 年 9 月以降に相次ぐ、npm Registry を悪用した Shai-Hulud などのサプライチェーン攻撃を踏まえ、AWS Well-Architected フレームワークのセキュリティの柱に沿ったパッケージ利用者向けのベストプラクティスを紹介します。一時的な認証情報と最小権限による漏えいリスクの低減、AWS Signer によるアーティファクト署名などの多層防御を取り上げます。さらに、AWS CodeArtifact による依存関係の一元管理、Amazon Inspector による依存関係スキャン、AWS CloudTrail と Amazon GuardDuty によるモニタリングも解説します。"
-"last_updated": "2026-10-21 10:13:44 JST"
+  "bd9ba456026d79c3a153539e2debca71":
+    "id": "bd9ba456026d79c3a153539e2debca71"
+    "title": "Amazon Bedrock と LiteLLM による OpenAI ChatGPT Codex の予算・レート制限管理"
+    "link": "https://aws.amazon.com/jp/blogs/news/set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-amazon-bedrock/"
+    "published": "2026-10-21 11:29:46"
+    "fetched": "2026-10-21 15:58:33"
+    "summary": "OpenAI ChatGPT Codex のモデル推論を Amazon Elastic Container Service (Amazon ECS) 上の LiteLLM ゲートウェイ経由で Amazon Bedrock にルーティングし、生成 AI コーディングエージェントをエンタープライズ向けに一元管理する方法を紹介します。AWS Fargate へのデプロイ手順、スコープ付きキーによる予算とレート制限の適用、Responses API の互換性検証を解説します。AWS IAM Identity Center による直接アクセスや Portkey を使用する代替アクセス経路も取り上げます。"
+"last_updated": "2026-10-21 15:58:33 JST"
