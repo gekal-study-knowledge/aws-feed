@@ -1,0 +1,30 @@
+"entries":
+  "f2c0821633b4d318dc62f7da203a2b1c":
+    "id": "f2c0821633b4d318dc62f7da203a2b1c"
+    "title": "AWS がネットワークスキャンのガイドラインを導入"
+    "link": "https://aws.amazon.com/jp/blogs/news/introducing-guidelines-for-network-scanning/"
+    "published": "2026-10-22 09:11:37"
+    "fetched": "2026-10-22 09:23:58"
+    "summary": "AWS は、お客様のワークロードを対象としたネットワークスキャンのガイドラインを導入します。ネットワークスキャンは正当なセキュリティ目的にも、脅威アクターによる偵察にも使われ、両者を見分けるのは困難です。本記事では、セキュリティデータに利害を持つさまざまな関係者を整理します。そのうえで、ガイドラインに準拠したスキャナーが従うべき 4 つの原則 (観察のみ、識別可能、協調的、機密保持) と、準拠によって得られるメリットを紹介します。"
+  "99d1441263dded13f6f9e010a26e7873":
+    "id": "99d1441263dded13f6f9e010a26e7873"
+    "title": "AWS におけるサイバーレジリエンスと事業継続のためのプロアクティブな戦略"
+    "link": "https://aws.amazon.com/jp/blogs/news/proactive-strategies-for-cyber-resilience-and-business-continuity-on-aws/"
+    "published": "2026-10-22 09:07:29"
+    "fetched": "2026-10-22 09:23:58"
+    "summary": "ランサムウェアなどのサイバーセキュリティインシデントや自然災害に備え、公共部門の組織が AWS でワークロードを復旧できるよう準備するためのプロアクティブな戦略を紹介します。NIST CSF 2.0 や AWS Well-Architected フレームワークを踏まえ、マルチアカウント戦略と、Infrastructure as Code (IaC) によるインフラストラクチャ構築の自動化を解説します。さらに、AZ ID やマルチリージョンを活用した復旧用アカウントの準備、AWS Backup によるバックアップ、復旧用アカウントでの自動テストについても説明します。"
+  "419f185138ea474c33f5b42321bbedf1":
+    "id": "419f185138ea474c33f5b42321bbedf1"
+    "title": "AWS Security Incident Response: インシデント対応ライフサイクルを加速するためのお客様の取り組み"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-security-incident-response-the-customers-journey-to-accelerating-the-incident-response-lifecycle/"
+    "published": "2026-10-22 09:01:22"
+    "fetched": "2026-10-22 09:23:58"
+    "summary": "AWS Security Incident Response がインシデント対応ライフサイクルのあらゆる段階をどのように加速するのかを、ランサムウェアの可能性がある不審なアクティビティへの対応シナリオを通じて紹介します。Amazon GuardDuty や AWS Security Hub と統合した自動トリアージ、AWS Systems Manager による自動封じ込め、AWS Security Incident Response Engineering (SIRE) チームへのエスカレーション、インシデントケース ID を使ったタグ付けなど、検出から解決までの流れを解説します。あわせて、アラート疲れを軽減し、対応時間を短縮する方法も説明します。"
+  "095f9dffab87bfce505a69f58fc5a899":
+    "id": "095f9dffab87bfce505a69f58fc5a899"
+    "title": "AWS Security Incident Response によるセキュリティ運用の最適化"
+    "link": "https://aws.amazon.com/jp/blogs/news/optimize-security-operations-with-aws-security-incident-response/"
+    "published": "2026-10-22 08:59:09"
+    "fetched": "2026-10-22 09:23:58"
+    "summary": "この記事では、AWS Security Incident Response を有効にして概念実証 (POC) を実施し、セキュリティ運用を迅速に強化する方法を説明します。まず、Amazon GuardDuty の検出結果と、AWS Security Hub でサードパーティ製ツールから取り込む一部の検出結果を自動でトリアージする仕組みを紹介します。次に、成功基準の設定、委任管理者やエスカレーションなどの構成の定義、デプロイの準備、コンソールでの有効化手順を順に解説します。さらに、初日からリアクティブ機能を活用し、疑わしいアクティビティがある場合は AWS がサポートするケースを作成して、AWS の専門家の支援を受けながら価値を最大化する方法も紹介します。"
+"last_updated": "2026-10-22 09:23:58 JST"

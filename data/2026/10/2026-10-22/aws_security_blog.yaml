@@ -6,4 +6,11 @@
     "published": "2026-10-22 02:03:50"
     "fetched": "2026-10-22 02:52:12"
     "summary": "Using temporary credentials is a security best practice to reduce the risk from credentials getting compromised. With AWS IAM Roles Anywhere, now your workloads outside of Amazon Web Services (AWS) will be able to access AWS resources by obtaining temporary security credentials in AWS Identity and Access Management (IAM). IAM Roles Anywhere relies on public […]"
-"last_updated": "2026-10-22 02:52:12 JST"
+  "40bf1476a4d35cfcf0e6789105144ecd":
+    "id": "40bf1476a4d35cfcf0e6789105144ecd"
+    "title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot"
+    "link": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
+    "published": "2026-10-22 07:36:26"
+    "fetched": "2026-10-22 09:23:59"
+    "summary": "Amazon Threat Intelligence identified a PHP2Shell exploitation attempt dating to Oct. 17, 2026, in MadPot telemetry, four days before public disclosure of CVE-2026-109618 and CVE-2026-109619. The exploit attempt originated from an IP address associated with a commercial anonymization network. While the vulnerability was under embargo, the targeting of a honeypot from an anonymized IP address […]"
+"last_updated": "2026-10-22 09:23:59 JST"
