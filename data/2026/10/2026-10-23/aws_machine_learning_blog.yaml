@@ -1,0 +1,16 @@
+"entries":
+  "1ac94e9d35929f304b3089f84472b374":
+    "id": "1ac94e9d35929f304b3089f84472b374"
+    "title": "Stop guessing auto scaling targets for TTS on Amazon SageMaker AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/"
+    "published": "2026-10-23 01:30:06"
+    "fetched": "2026-10-23 01:33:08"
+    "summary": "Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling policy from two live-endpoint measurements, Q_max and T_total, instead of guesswork."
+  "7cd0826fbeb6d8b45503291a59ad0198":
+    "id": "7cd0826fbeb6d8b45503291a59ad0198"
+    "title": "How Rescale built an AI triage agent with Strands Agents and AI-DLC"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/"
+    "published": "2026-10-23 01:25:57"
+    "fetched": "2026-10-23 01:33:08"
+    "summary": "Rescale used the AI-Driven Development Lifecycle (AI-DLC) framework on AWS, with Strands Agents and Amazon Bedrock, to build an intelligent test-triage agent in weeks. Learn how AI-DLC structures AI-assisted development and how Rescale is scaling the practice across its engineering organization."
+"last_updated": "2026-10-23 01:33:08 JST"
