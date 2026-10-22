@@ -13,4 +13,11 @@
     "published": "2026-10-22 07:36:26"
     "fetched": "2026-10-22 09:23:59"
     "summary": "Amazon Threat Intelligence identified a PHP2Shell exploitation attempt dating to Oct. 17, 2026, in MadPot telemetry, four days before public disclosure of CVE-2026-109618 and CVE-2026-109619. The exploit attempt originated from an IP address associated with a commercial anonymization network. While the vulnerability was under embargo, the targeting of a honeypot from an anonymized IP address […]"
-"last_updated": "2026-10-22 09:23:59 JST"
+  "5488c8ea314445a49301c1efea5242b2":
+    "id": "5488c8ea314445a49301c1efea5242b2"
+    "title": "Using AWS WAF to apply mitigations for PHP2Shell RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619)"
+    "link": "https://aws.amazon.com/blogs/security/using-aws-waf-to-apply-mitigations-for-php2shell-rce-vulnerabilities-cve-2026-109618-and-cve-2026-109619/"
+    "published": "2026-10-22 09:50:04"
+    "fetched": "2026-10-22 14:43:12"
+    "summary": "On October 21, 2026, the PHP project released emergency fixes for two critical remote code execution (RCE) vulnerabilities in the PHP core runtime, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively named PHP2Shell. Both are rated 9.2 (Critical) under CVSS v4.0, and both allow an unauthenticated attacker to run code on a vulnerable server. The fixed […]"
+"last_updated": "2026-10-22 14:43:12 JST"
