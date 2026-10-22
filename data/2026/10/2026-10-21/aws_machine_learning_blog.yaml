@@ -83,4 +83,11 @@
     "published": "2026-10-21 06:14:10"
     "fetched": "2026-10-21 07:02:39"
     "summary": "Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. Its recurrent state stays fixed at 29.5 MB per sequence regardless of context length, avoiding the growing key-value cache of transformer models and keeping serving memory predictable."
-"last_updated": "2026-10-21 07:02:39 JST"
+  "b8463b86145888303734d559de34ee67":
+    "id": "b8463b86145888303734d559de34ee67"
+    "title": "Workflow context for AI agents with Smartsheet MCP on AWS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/workflow-context-for-ai-agents-with-smartsheet-mcp-on-aws/"
+    "published": "2026-10-21 02:59:07"
+    "fetched": "2026-10-23 08:51:18"
+    "summary": "The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools."
+"last_updated": "2026-10-23 08:51:18 JST"

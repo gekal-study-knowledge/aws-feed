@@ -20,4 +20,11 @@
     "published": "2026-10-23 01:58:02"
     "fetched": "2026-10-23 05:23:40"
     "summary": "<p><b>Bulletin ID:</b> 2026-144-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 10/22/2026 09:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon Athena is an interactive query service that allows you to analyze data in Amazon S3 using standard SQL. We identified CVE-2026-115416, an issue in Amazon Athena engine version 3 query processing where incorrect authorization checks could have allowed an authenticated user to read AWS account identifiers and SQL statement text query metadata from other AWS accounts. Query results, and data stored in Amazon S3 or other data sources, were not accessible through this issue.</p> \n<p><b>Impacted versions:</b> Amazon Athena engine version 3</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-144-aws/\">Read this article</a></p>"
-"last_updated": "2026-10-23 05:23:40 JST"
+  "3c1cf4d6d40450552e4582e49b2a7513":
+    "id": "3c1cf4d6d40450552e4582e49b2a7513"
+    "title": "CVE-2026-115417 - Memory allocation with excessive size value in the MQTT 3.1.1 compatibility adapter in aws-c-mqtt"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-147-aws/"
+    "published": "2026-10-23 05:40:51"
+    "fetched": "2026-10-23 08:51:17"
+    "summary": "<p><b>Bulletin ID:</b> 2026-147-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 10/22/2026 13:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>aws-c-mqtt is a C99 implementation of the MQTT 3.1.1 and MQTT5 specifications, distributed as part of the AWS Common Runtime (CRT) and bundled in the AWS IoT Device SDK for C++ v2. We identified CVE-2026-115417, a memory allocation with excessive size value (CWE-789) in the library's MQTT 3.1.1 compatibility adapter. Under certain conditions, a remote actor could cause a denial of service of the client process.</p> \n<p><b>Impacted versions:</b> &gt;= 0.9.1 AND &lt; 0.16.2</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-147-aws/\">Read this article</a></p>"
+"last_updated": "2026-10-23 08:51:17 JST"
