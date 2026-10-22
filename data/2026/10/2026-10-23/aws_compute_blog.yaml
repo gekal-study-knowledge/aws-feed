@@ -1,0 +1,9 @@
+"entries":
+  "dbebf840b2139d38312fe06c146f09b8":
+    "id": "dbebf840b2139d38312fe06c146f09b8"
+    "title": "OS patching and upgrades with Amazon EC2 root volume replacement"
+    "link": "https://aws.amazon.com/blogs/compute/os-patching-and-upgrades-with-amazon-ec2-root-volume-replacement/"
+    "published": "2026-10-23 02:30:32"
+    "fetched": "2026-10-23 05:23:41"
+    "summary": "Amazon EC2 Replace Root Volume with the direct Amazon EBS volume option lets you prepare and validate a replacement root volume in advance, then swap it onto a running production instance with a single reboot. Learn how to upgrade the OS and apply patches while the instance keeps its production identity, including instances in Auto Scaling groups."
+"last_updated": "2026-10-23 05:23:41 JST"
