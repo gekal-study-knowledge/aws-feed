@@ -1,0 +1,30 @@
+"entries":
+  "4d92bbaf2f2d1a78bf331f5fc793d232":
+    "id": "4d92bbaf2f2d1a78bf331f5fc793d232"
+    "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide"
+    "link": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/"
+    "published": "2026-10-24 02:48:54"
+    "fetched": "2026-10-24 03:51:45"
+    "summary": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings."
+  "969934beef5d0e80cbfc7c6333550f31":
+    "id": "969934beef5d0e80cbfc7c6333550f31"
+    "title": "Orchestrating SageMaker AI endpoint auto scaling with AWS CDK"
+    "link": "https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/"
+    "published": "2026-10-24 01:30:10"
+    "fetched": "2026-10-24 03:51:45"
+    "summary": "Updating a SageMaker AI endpoint that has Application Auto Scaling registered makes AWS CloudFormation and AWS CDK deployments fail. This post shows how to build a reusable AWS CDK construct with CloudFormation custom resources that deregisters and re-registers auto scaling automatically, so you can update the endpoint and its scaling in a single deployment."
+  "3925147cc3eb5e3b22bb54e26c4925c0":
+    "id": "3925147cc3eb5e3b22bb54e26c4925c0"
+    "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps"
+    "link": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps/"
+    "published": "2026-10-24 01:24:55"
+    "fetched": "2026-10-24 03:51:45"
+    "summary": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates."
+  "fde857b737fe4a7c0c970d824c23f7fa":
+    "id": "fde857b737fe4a7c0c970d824c23f7fa"
+    "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/"
+    "published": "2026-10-24 01:21:36"
+    "fetched": "2026-10-24 03:51:45"
+    "summary": "Bayer Crop Science built the Agentic Decision Engine (ADE), a multi-agent platform on Amazon Bedrock AgentCore that lets breeders, analysts, and researchers ask natural language questions about their analytics platform. This post covers the ADE architecture, five design decisions, and how the team prepared it for production with AWS Unified Operations."
+"last_updated": "2026-10-24 03:51:45 JST"
