@@ -1,0 +1,9 @@
+"entries":
+  "9ba2dd70aa0644f84210029c0cf7cdec":
+    "id": "9ba2dd70aa0644f84210029c0cf7cdec"
+    "title": "CVE-2026-111943: eMudhra intermediate CA key recovery in AWS trust bundles"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-150-aws/"
+    "published": "2026-10-25 12:07:57"
+    "fetched": "2026-10-25 14:37:02"
+    "summary": "<p><b>Bulletin ID:</b> 2026-150-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 10/24/2026 20:00 PM PDT</p> \n<p><b>Summary:</b></p> \n<p>AWS identified CVE-2026-111943, a key-generation flaw at external CA eMudhra/emSign that made intermediate CA private keys recoverable. Three roots are affected: AAA Certificate Services, emSign Root TLS CA - G3, and emSign ECC Root CA - G3. They shipped in AWS-owned trust bundles, exposing soft-fail TLS clients to man-in-the-middle risk. AWS is removing the roots. Customers using CloudFront custom origins or ALB OIDC/JWT auth should check whether their certificates chain to an affected root and reissue from a different CA before enforcement.</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-150-aws/\">Read this article</a></p>"
+"last_updated": "2026-10-25 14:37:02 JST"
