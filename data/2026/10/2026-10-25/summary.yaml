@@ -1,0 +1,11 @@
+"date": "2026-10-25"
+"generated_at": "2026-10-26 08:08:03 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "aws_security_bulletins"
+"overview": |
+  この日は 1 件で、AWS のトラストバンドルに含まれるルート証明書の削除に関するセキュリティ速報でした。CVE-2026-111943 は外部の認証局 eMudhra / emSign における鍵生成の不備で、中間 CA の秘密鍵が復元可能になっていたものです (Bulletin ID: 2026-150-AWS、2026 年 10 月 24 日 20:00 PDT 公開、Important (要対応))。影響を受けるルートは AAA Certificate Services、emSign Root TLS CA - G3、emSign ECC Root CA - G3 の 3 つで、いずれも AWS が所有するトラストバンドルに含まれていたため、検証の失敗を許容する (soft-fail の) TLS クライアントが中間者攻撃のリスクにさらされていました。AWS はこれらのルートを削除します。Amazon CloudFront のカスタムオリジンや Application Load Balancer の OIDC / JWT 認証を使っている場合は、自分の証明書が影響を受けるルートにチェーンしていないかを確認し、削除が適用される前に別の認証局で再発行することが求められます。
+"topics":
+  - "セキュリティ速報: CVE-2026-111943 (Important)。外部 CA の eMudhra / emSign の鍵生成の不備で中間 CA の秘密鍵が復元可能に。AAA Certificate Services と emSign Root TLS CA - G3、emSign ECC Root CA - G3 を AWS のトラストバンドルから削除"
+  - "対応: CloudFront のカスタムオリジンや ALB の OIDC / JWT 認証を使っている場合は、証明書が対象ルートにチェーンしていないか確認し、適用前に別の CA で再発行する"
