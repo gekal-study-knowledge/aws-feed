@@ -1,0 +1,22 @@
+"date": "2026-10-27"
+"generated_at": "2026-10-27 06:01:00 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 9
+"sources":
+  - "aws_architecture_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 5 ソースから 9 本。セキュリティ速報として AWS CDK の @aws-cdk/aws-redshift-alpha のデータベースクエリ用カスタムリソースハンドラーにおける SQL インジェクション (CVE-2026-115418, Important) が公開された。What's New では OpenAI GPT-6.1 Terra の Amazon Bedrock での一般提供と WorkSpaces Core Managed Instances の ModifyVolume API 対応。ブログでは次世代 AWS Resilience Hub の推奨レジリエンステスト、S3 annotations によるデータガバナンス、Bedrock の OpenAI モデル向けプロンプトキャッシュ、マネージド Bedrock Knowledge Base でのエージェント型検索、SageMaker SDK v3 によるエッジのコンピュータビジョン運用、週次まとめ (Amazon Polly Generative エンジン、Trainium 向け TorchNeuron など) が並んだ。
+"topics":
+  - "セキュリティ速報: CVE-2026-115418 (Bulletin ID 2026-151-AWS, Important)。AWS CDK の @aws-cdk/aws-redshift-alpha にあるデータベースクエリ用カスタムリソースハンドラーで SQL インジェクション (公開 2026/10/26 09:30 PDT)"
+  - "生成AI: OpenAI GPT-6.1 Terra が Amazon Bedrock で一般提供開始。GPT-6 ファミリーの能力・速度・コストのバランス型モデル"
+  - "生成AI: Bedrock 上の OpenAI モデルでのプロンプトキャッシュの活用パターン。エージェントの各ステップで再読込するコンテキストをキャッシュし、入力コストとレイテンシを削減"
+  - "生成AI: マネージド Amazon Bedrock Knowledge Base と AWS CDK でエージェント型検索を構築。2 つのナレッジベースを振り分け、AgentCore Gateway 経由で取得"
+  - "レジリエンス: 次世代 AWS Resilience Hub が推奨レジリエンステストを導入。AWS FIS を使う事前構成済みの 4 種のテストで障害の検知と復旧を検証"
+  - "ストレージ・ガバナンス: S3 annotations で分類・保持・データ所在地・PII フラグなどのガバナンス情報を S3 オブジェクトに直接付与するパターン"
+  - "機械学習: SageMaker SDK v3 によるエッジのフリート全体のコンピュータビジョンのライフサイクル (カメラごとのモデルを学習・品質ゲート・コンパイル)"
+  - "エンドユーザーコンピューティング: WorkSpaces Core Managed Instances が ModifyVolume API に対応。ボリュームのサイズ・タイプ・IOPS・スループットをデタッチや再起動なしで変更可能"
+  - "週次まとめ (2026/10/26): Amazon Polly Generative エンジン、Trainium 向け TorchNeuron など"
