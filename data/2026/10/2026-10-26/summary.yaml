@@ -1,0 +1,15 @@
+"date": "2026-10-26"
+"generated_at": "2026-10-26 18:59:42 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 7
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  この日は AWS Japan Blog に 7 本が掲載された。Amazon OpenSearch Serverless (NextGen) の新機能 intelligent ingestion で S3 上のドキュメントから RAG 対応インデックスを構築する解説、Kiro のクレジット消費量とコストの確認方法・ダッシュボードでの継続的な可視化を扱う 2 部構成の記事、AWS Config の記録頻度 (継続的記録と定期的記録) の選び方、AWS Direct Connect の定額料金の紹介が並んだ。週刊 AWS (2026/10/19 週) と週刊生成 AI with AWS も公開された。
+"topics":
+  - "検索・生成AI: Amazon OpenSearch intelligent ingestion で S3 のドキュメントを解析・画像説明生成・チャンク分割・ベクトル埋め込みし、RAG 対応インデックスを構築"
+  - "開発ツール: Kiro の利用状況とコストの把握 (Part 1: クレジット消費量とコストの確認場所、Part 2: 複数 AWS アカウントにまたがるダッシュボードでの継続的な可視化)"
+  - "ガバナンス: AWS Config の記録頻度のベストプラクティス (リソースの静的性・リソース間の関係・ベースライン変更頻度の 3 要素と 4 ユースケースで継続的記録/定期的記録を選択)"
+  - "ネットワーク: AWS Direct Connect の定額料金で予測可能なコストを実現 (2026年10月5日公開記事の翻訳)"
+  - "週刊 AWS 2026/10/19 週: GuardDuty の Runtime Monitoring 向けオプション脅威検出ルール、Bedrock 上の Claude モデルで Structured Outputs、AWS Transform の新規ネットワーク構築とセキュリティグループ最新化、AWS Continuum for code vulnerabilities の一般提供など"
+  - "週刊生成AI with AWS 2026/10/19 週: NEC の Claude Code 全社展開 (約 3 万人体制を目指す CoE・チャンピオン制度)、コーテッグの Bedrock AgentCore による AI 分析基盤「Dotta」、Bedrock の API キー保護や最小権限など"
