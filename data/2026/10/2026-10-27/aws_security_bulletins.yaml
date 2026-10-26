@@ -1,0 +1,9 @@
+"entries":
+  "cb6d531fca77e928f2dca4ab6b3864eb":
+    "id": "cb6d531fca77e928f2dca4ab6b3864eb"
+    "title": "CVE-2026-115418 - SQL injection in the database-query custom resource handlers in Amazon Web Services (AWS)"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-151-aws/"
+    "published": "2026-10-27 01:50:46"
+    "fetched": "2026-10-27 05:52:21"
+    "summary": "<p><b>Bulletin ID:</b> 2026-151-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 10/26/2026 09:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS Cloud Development Kit (CDK) @aws-cdk/aws-redshift-alpha module provides experimental constructs that manage Amazon Redshift users, tables and privileges. We identified CVE-2026-115418, an issue where crafted user names, comments or passwords set in these constructs could change the SQL that runs with Amazon Redshift superuser privileges at deployment, including granting access to all cluster users. Exploiting the issue requires the ability to influence the CDK application's construct property values.</p> \n<p><b>Impacted versions:</b> &lt;2.274.0-alpha.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-151-aws/\">Read this article</a></p>"
+"last_updated": "2026-10-27 05:52:21 JST"

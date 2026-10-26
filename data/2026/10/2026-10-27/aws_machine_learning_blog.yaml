@@ -1,0 +1,23 @@
+"entries":
+  "41d9836c78399fe49eeac0e4d110c7bf":
+    "id": "41d9836c78399fe49eeac0e4d110c7bf"
+    "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3"
+    "link": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/"
+    "published": "2026-10-27 02:56:58"
+    "fetched": "2026-10-27 05:52:22"
+    "summary": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas."
+  "37dd1e89913a089546a9ed5ab0783876":
+    "id": "37dd1e89913a089546a9ed5ab0783876"
+    "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/"
+    "published": "2026-10-27 02:27:20"
+    "fetched": "2026-10-27 05:52:22"
+    "summary": "Every time an agent takes a step, it re-reads its entire context before acting. Here is how prompt caching for OpenAI models on Amazon Bedrock lets your agent remember, cutting input cost and latency without resending the same tools, instructions, and history every turn."
+  "f9528feb1a22e34a4db6758fe22f485e":
+    "id": "f9528feb1a22e34a4db6758fe22f485e"
+    "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/"
+    "published": "2026-10-27 02:15:14"
+    "fetched": "2026-10-27 05:52:22"
+    "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed as a single CDK application."
+"last_updated": "2026-10-27 05:52:22 JST"

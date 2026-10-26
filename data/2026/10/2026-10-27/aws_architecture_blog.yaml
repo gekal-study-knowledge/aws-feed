@@ -1,0 +1,16 @@
+"entries":
+  "7d04271be61636ba6cd992dfb2698c1e":
+    "id": "7d04271be61636ba6cd992dfb2698c1e"
+    "title": "Data governance with annotations in Amazon S3"
+    "link": "https://aws.amazon.com/blogs/architecture/data-governance-with-annotations-in-amazon-s3/"
+    "published": "2026-10-27 03:00:26"
+    "fetched": "2026-10-27 05:52:22"
+    "summary": "Attach governance context such as classification, retention, residency, and PII flags directly to your Amazon S3 objects with S3 annotations. This post walks through the end-to-end pattern and the handful of S3 behaviors that decide whether your governance design is correct."
+  "252c751b1dbe0c27bc21334564a1dfbe":
+    "id": "252c751b1dbe0c27bc21334564a1dfbe"
+    "title": "Recommended resilience testing in the next generation of AWS Resilience Hub"
+    "link": "https://aws.amazon.com/blogs/architecture/recommended-resilience-testing-in-the-next-generation-of-aws-resilience-hub/"
+    "published": "2026-10-27 02:35:01"
+    "fetched": "2026-10-27 05:52:22"
+    "summary": "The next generation of AWS Resilience Hub introduces recommended resilience testing: four pre-configured, AWS FIS-powered tests that validate how your service detects and recovers from failures across Availability Zones, dependencies, and Regions, turning your resilience policy into evidence-backed pass or fail results."
+"last_updated": "2026-10-27 05:52:22 JST"
