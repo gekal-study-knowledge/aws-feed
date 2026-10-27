@@ -13,4 +13,11 @@
     "published": "2026-10-28 02:10:35"
     "fetched": "2026-10-28 02:22:51"
     "summary": "Anchorage Digital and Turnkey built verifiable infrastructure on AWS Nitro Enclaves so crypto wallets can cryptographically verify which code parsed a transaction. This post covers the architecture, the attestation-gated access pattern, and how it extends to any high-trust workflow beyond blockchain."
-"last_updated": "2026-10-28 02:22:51 JST"
+  "10e3c729d93c103b436f0f74906fea63":
+    "id": "10e3c729d93c103b436f0f74906fea63"
+    "title": "Publishing LMS courses with a Kiro SCORM pipeline"
+    "link": "https://aws.amazon.com/blogs/architecture/publishing-lms-courses-with-a-kiro-scorm-pipeline/"
+    "published": "2026-10-28 02:23:23"
+    "fetched": "2026-10-28 06:46:06"
+    "summary": "See how to use Kiro, an agentic AI, to automate converting raw training material into compliant SCORM packages that are ready to upload to a learning management system (LMS)."
+"last_updated": "2026-10-28 06:46:06 JST"

@@ -20,4 +20,11 @@
     "published": "2026-10-28 01:50:55"
     "fetched": "2026-10-28 02:22:52"
     "summary": "In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower cost."
-"last_updated": "2026-10-28 02:22:52 JST"
+  "8fa041133a43452219c866441eaa6f36":
+    "id": "8fa041133a43452219c866441eaa6f36"
+    "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service"
+    "link": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/"
+    "published": "2026-10-28 03:03:12"
+    "fetched": "2026-10-28 06:46:07"
+    "summary": "AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS Connect Customer. This recognition marks an important milestone for our team, and it reflects years of work pushing on what's possible in customer experience.&nbsp;"
+"last_updated": "2026-10-28 06:46:07 JST"
