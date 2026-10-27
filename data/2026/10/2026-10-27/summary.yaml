@@ -1,7 +1,7 @@
 "date": "2026-10-27"
-"generated_at": "2026-10-27 22:01:29 JST"
+"generated_at": "2026-10-28 06:01:28 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 14
+"article_count": 15
 "sources":
   - "aws_architecture_blog"
   - "aws_japan_blog"
@@ -10,10 +10,11 @@
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 6 ソースから 14 本。セキュリティ速報として AWS CDK の @aws-cdk/aws-redshift-alpha のデータベースクエリ用カスタムリソースハンドラーにおける SQL インジェクション (CVE-2026-115418, Important) が公開された。What's New では OpenAI GPT-6.1 Terra の Amazon Bedrock での一般提供、WorkSpaces Core Managed Instances の ModifyVolume API 対応、Amazon Connect Customer のテスト・シミュレーションでのフローアクション結果の検証、SageMaker Unified Studio の IDC ベースドメインでのライトモード対応。AWS Japan Blog では Kiro を搭載した AWS Coding Plugin for SAP ABAP のリリースと、それを使った ABAP のスペック駆動開発 (SDD) の解説、Claude Haiku 5.5 の Kiro (IDE・CLI・Web・Crew) での提供開始が公開された。ブログでは次世代 AWS Resilience Hub の推奨レジリエンステスト、S3 annotations によるデータガバナンス、Bedrock の OpenAI モデル向けプロンプトキャッシュ、マネージド Bedrock Knowledge Base でのエージェント型検索、SageMaker SDK v3 によるエッジのコンピュータビジョン運用、週次まとめ (Amazon Polly Generative エンジン、Trainium 向け TorchNeuron など) が並んだ。
+  この日は 6 ソースから 15 本。セキュリティ速報として AWS CDK の @aws-cdk/aws-redshift-alpha のデータベースクエリ用カスタムリソースハンドラーにおける SQL インジェクション (CVE-2026-115418, Important) が公開された。What's New では OpenAI GPT-6.1 Terra の Amazon Bedrock での一般提供、Amazon ECR のレプリケーションバックフィル (既存イメージのレプリケーション) 対応、WorkSpaces Core Managed Instances の ModifyVolume API 対応、Amazon Connect Customer のテスト・シミュレーションでのフローアクション結果の検証、SageMaker Unified Studio の IDC ベースドメインでのライトモード対応。AWS Japan Blog では Kiro を搭載した AWS Coding Plugin for SAP ABAP のリリースと、それを使った ABAP のスペック駆動開発 (SDD) の解説、Claude Haiku 5.5 の Kiro (IDE・CLI・Web・Crew) での提供開始が公開された。ブログでは次世代 AWS Resilience Hub の推奨レジリエンステスト、S3 annotations によるデータガバナンス、Bedrock の OpenAI モデル向けプロンプトキャッシュ、マネージド Bedrock Knowledge Base でのエージェント型検索、SageMaker SDK v3 によるエッジのコンピュータビジョン運用、週次まとめ (Amazon Polly Generative エンジン、Trainium 向け TorchNeuron など) が並んだ。
 "topics":
   - "セキュリティ速報: CVE-2026-115418 (Bulletin ID 2026-151-AWS, Important)。AWS CDK の @aws-cdk/aws-redshift-alpha にあるデータベースクエリ用カスタムリソースハンドラーで SQL インジェクション (公開 2026/10/26 09:30 PDT)"
   - "生成AI: OpenAI GPT-6.1 Terra が Amazon Bedrock で一般提供開始。GPT-6 ファミリーの能力・速度・コストのバランス型モデル"
+  - "コンテナ: Amazon ECR がレプリケーションバックフィルに対応。プライベートレジストリの既存イメージを、設定済みのレプリケーション先へ複製可能に"
   - "開発ツール: Claude Haiku 5.5 が Kiro の IDE・CLI・Web・Crew のすべてで利用可能に。Claude 5.5 ファミリーで最も高速なモデルで、これで Claude 5.5 の 3 モデルがすべて Kiro で使える"
   - "開発ツール・SAP: Kiro を搭載した AWS Coding Plugin for SAP ABAP をリリース。Eclipse 上で ABAP Development Tools (ADT) と併せてスペック駆動開発 (SDD) を実現し、IBM Consulting ではカスタム ABAP 拡張の開発時間を最大 30% 短縮"
   - "開発ツール・SAP: Kiro CLI 上の AWS Coding Plugin for SAP ABAP によるスペックファーストの ABAP 開発。良いスペックの書き方、AI-DLC に沿ったスペックからトランスポートリリースまでの流れ、ステアリングファイルの活用"
