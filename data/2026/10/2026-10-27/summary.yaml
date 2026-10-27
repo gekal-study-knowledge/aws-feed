@@ -1,7 +1,7 @@
 "date": "2026-10-27"
-"generated_at": "2026-10-28 06:01:28 JST"
+"generated_at": "2026-10-28 08:09:43 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 15
+"article_count": 17
 "sources":
   - "aws_architecture_blog"
   - "aws_japan_blog"
@@ -10,7 +10,7 @@
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 6 ソースから 15 本。セキュリティ速報として AWS CDK の @aws-cdk/aws-redshift-alpha のデータベースクエリ用カスタムリソースハンドラーにおける SQL インジェクション (CVE-2026-115418, Important) が公開された。What's New では OpenAI GPT-6.1 Terra の Amazon Bedrock での一般提供、Amazon ECR のレプリケーションバックフィル (既存イメージのレプリケーション) 対応、WorkSpaces Core Managed Instances の ModifyVolume API 対応、Amazon Connect Customer のテスト・シミュレーションでのフローアクション結果の検証、SageMaker Unified Studio の IDC ベースドメインでのライトモード対応。AWS Japan Blog では Kiro を搭載した AWS Coding Plugin for SAP ABAP のリリースと、それを使った ABAP のスペック駆動開発 (SDD) の解説、Claude Haiku 5.5 の Kiro (IDE・CLI・Web・Crew) での提供開始が公開された。ブログでは次世代 AWS Resilience Hub の推奨レジリエンステスト、S3 annotations によるデータガバナンス、Bedrock の OpenAI モデル向けプロンプトキャッシュ、マネージド Bedrock Knowledge Base でのエージェント型検索、SageMaker SDK v3 によるエッジのコンピュータビジョン運用、週次まとめ (Amazon Polly Generative エンジン、Trainium 向け TorchNeuron など) が並んだ。
+  この日は 6 ソースから 17 本。セキュリティ速報として AWS CDK の @aws-cdk/aws-redshift-alpha のデータベースクエリ用カスタムリソースハンドラーにおける SQL インジェクション (CVE-2026-115418, Important) が公開された。What's New では OpenAI GPT-6.1 Terra の Amazon Bedrock での一般提供、Amazon ECR のレプリケーションバックフィル (既存イメージのレプリケーション) 対応、WorkSpaces Core Managed Instances の ModifyVolume API 対応、Amazon Connect Customer のテスト・シミュレーションでのフローアクション結果の検証、SageMaker Unified Studio の IDC ベースドメインでのライトモード対応。AWS Japan Blog では Kiro を搭載した AWS Coding Plugin for SAP ABAP のリリースと、それを使った ABAP のスペック駆動開発 (SDD) の解説、Claude Haiku 5.5 の Kiro (IDE・CLI・Web・Crew) での提供開始が公開された。ブログでは次世代 AWS Resilience Hub の推奨レジリエンステスト、S3 annotations によるデータガバナンス、Bedrock の OpenAI モデル向けプロンプトキャッシュ、マネージド Bedrock Knowledge Base でのエージェント型検索、SageMaker SDK v3 によるエッジのコンピュータビジョン運用、週次まとめ (Amazon Polly Generative エンジン、Trainium 向け TorchNeuron など) が並んだ。What's New ではさらに 2 件。Amazon Corretto の 2026 年 10 月のパッチ更新が 10 月 26 日に公開され、LTS と Feature Release の Corretto 27.0.1.0.11・25.0.5.0.10・21.0.13.0.11・17.0.21.0.11・11.0.33.0.10・8u512 がダウンロード可能になった。Amazon IVS Low-Latency Streaming はフェイルオーバースレート (配信が予期せず途切れたときに視聴者へ表示するアニメーション画像) に対応し、バッファリング表示や静止したフレームの代わりにスレートを出して、配信者が再接続すると視聴者がプレイヤーを再読み込みしなくても再生が自動で再開する。モバイルや回線が不安定な場所からの配信で視聴者の離脱を抑える用途を想定し、新規・既存どちらのチャンネルでも有効にでき、Amazon EventBridge のイベントと Amazon CloudWatch のメトリクスでスレートの発生を監視できる。
 "topics":
   - "セキュリティ速報: CVE-2026-115418 (Bulletin ID 2026-151-AWS, Important)。AWS CDK の @aws-cdk/aws-redshift-alpha にあるデータベースクエリ用カスタムリソースハンドラーで SQL インジェクション (公開 2026/10/26 09:30 PDT)"
   - "生成AI: OpenAI GPT-6.1 Terra が Amazon Bedrock で一般提供開始。GPT-6 ファミリーの能力・速度・コストのバランス型モデル"
@@ -27,3 +27,5 @@
   - "コンタクトセンター: Amazon Connect Customer がテスト・シミュレーションでフローアクションの開始だけでなく結果まで検証可能に"
   - "分析: Amazon SageMaker Unified Studio が Identity Center (IDC) ベースのドメインでライトモードに対応"
   - "週次まとめ (2026/10/26): Amazon Polly Generative エンジン、Trainium 向け TorchNeuron など"
+  - "言語ランタイム: Amazon Corretto の 2026 年 10 月パッチ更新 (27.0.1.0.11・25.0.5.0.10・21.0.13.0.11・17.0.21.0.11・11.0.33.0.10・8u512)"
+  - "メディア: Amazon IVS Low-Latency Streaming がフェイルオーバースレートに対応。配信断の間はアニメーション画像を表示し、再接続時に再読み込みなしで再生が再開する"

@@ -1,14 +1,16 @@
 "date": "2026-10-28"
-"generated_at": "2026-10-28 06:01:28 JST"
+"generated_at": "2026-10-28 08:09:43 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 7
+"article_count": 12
 "sources":
   - "aws_architecture_blog"
   - "aws_compute_blog"
   - "aws_machine_learning_blog"
   - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
 "overview": |
-  この日は 4 ソースから 7 本で、すべてブログ記事。機械学習では SageMaker AI の学習・処理ジョブ向けに Seekable OCI (SOCI) インデックス付きイメージが発表され、コンテナイメージを遅延読み込みしてジョブの起動を速められるようになった。ほかに Exowatt による SageMaker AI サーバーレスモデルカスタマイズでのタスク特化ファインチューニング、Property Finder による Bedrock での評価バイアスの是正 (評価ラベルの 96.8% が既存モデル由来だった問題) の事例。Compute Blog では Lambda と Bedrock AgentCore エージェントが Amazon S3 Files の共有ファイルシステム越しに文書群を調査する構成を紹介。アーキテクチャでは Anchorage Digital と Turnkey が AWS Nitro Enclaves で取引を解析したコードを暗号学的に検証する仕組み、Manta Marine Technologies の船舶ごとの機械学習による航海最適化。Security Blog はサイバーセキュリティのキャリア連載の第 3 回。
+  この日は 6 ソースから 12 本。機械学習では SageMaker AI の学習・処理ジョブ向けに Seekable OCI (SOCI) インデックス付きイメージが発表され、コンテナイメージを遅延読み込みしてジョブの起動を速められるようになった。ほかに Exowatt による SageMaker AI サーバーレスモデルカスタマイズでのタスク特化ファインチューニング、Property Finder による Bedrock での評価バイアスの是正 (評価ラベルの 96.8% が既存モデル由来だった問題) の事例。Compute Blog では Lambda と Bedrock AgentCore エージェントが Amazon S3 Files の共有ファイルシステム越しに文書群を調査する構成を紹介。アーキテクチャでは Anchorage Digital と Turnkey が AWS Nitro Enclaves で取引を解析したコードを暗号学的に検証する仕組み、Manta Marine Technologies の船舶ごとの機械学習による航海最適化。Security Blog はサイバーセキュリティのキャリア連載の第 3 回。セキュリティ速報は 1 件で Important (要対応)。CVE-2026-115413 は AWS API MCP Server における OAuth トークンのオーディエンス検証の不備である (Bulletin ID: 2026-152-AWS、2026 年 10 月 27 日 11:00 PDT 公開)。AWS API MCP Server は AI アシスタントが AWS CLI のコマンド経由で AWS のサービスやリソースを操作できるようにするオープンソースの Model Context Protocol サーバーで、streamable-http トランスポートと OAuth 認証を使う構成では、運用者が指定した ID プロバイダーに対してベアラートークンを検証する。1.3.0 以上 1.6.0 未満では、トークンの署名・発行者・有効期限は検証するものの、そのトークンがどのアプリケーション向けに発行されたかを示すクレームを検証していなかった。データベースでは Amazon Aurora serverless が Aurora PostgreSQL 互換エディションで最大 384 Aurora Capacity Unit (ACU) に対応し、従来の上限 256 ACU から 50% 引き上げられた。1 ACU はおよそ 2 GiB のメモリと相応の CPU・ネットワークに当たるため、1 つの Aurora serverless データベースが最大 768 GiB のメモリまでスケールできる。ワークロードが終われば自動でゼロまで縮むため、活動が突発的で長いアイドル時間がありトラフィックが読みにくいエージェント型 AI のアプリケーションに向くとされる。コンプライアンスでは、AWS が 172 のサービスと機能を対象とする Cloud High (PBHH) のセキュリティ評価を完了し、これを達成した最初のクラウドサービスプロバイダーとなった (2026 年 9 月 18 日付)。アーキテクチャブログでは、エージェント型 AI の Kiro を使って生の研修資料を SCORM 準拠のパッケージに変換し、学習管理システム (LMS) にアップロードできる状態にするまでを自動化する方法が紹介された。機械学習ブログでは、AWS Connect Customer が 2026 年の Gartner Magic Quadrant for Contact Center as a Service (CCaaS) でリーダーに位置づけられたことが報告された。
 "topics":
   - "機械学習: SageMaker AI の学習・処理ジョブが SOCI (Seekable OCI) インデックス付きイメージに対応。イメージを遅延読み込みし、フルダウンロードを起動のクリティカルパスから外す"
   - "機械学習: Exowatt が SageMaker AI のサーバーレスモデルカスタマイズで、2 つのデプロイ先向けのタスク特化ファインチューニングモデルを繰り返し作るパイプラインを構築し、フロンティアモデルを上回る精度"
@@ -17,3 +19,8 @@
   - "セキュリティ・アーキテクチャ: Anchorage Digital と Turnkey が AWS Nitro Enclaves 上に検証可能なインフラを構築し、暗号資産ウォレットが取引を解析したコードを暗号学的に検証"
   - "機械学習: Manta Marine Technologies が船舶ごとの運航履歴でモデルを学習し、船ごとの航海最適化を提供"
   - "セキュリティ: サイバーセキュリティのキャリア連載 Part 3「The work behind the work」"
+  - "セキュリティ速報: CVE-2026-115413 (Important)。AWS API MCP Server が OAuth トークンの署名・発行者・有効期限は検証する一方、発行先アプリケーションを示すクレームを検証していなかった。1.3.0 以上 1.6.0 未満が対象"
+  - "データベース: Aurora serverless (PostgreSQL 互換) が最大 384 ACU に対応し上限が 50% 増、1 データベースで最大 768 GiB メモリまで。終了後はゼロまで自動縮退し、突発的で読みにくいエージェント型 AI の負荷に向く"
+  - "コンプライアンス: AWS が 172 のサービス・機能を対象に Cloud High (PBHH) 評価を完了、達成した最初の CSP に (2026 年 9 月 18 日付)"
+  - "アーキテクチャ: Kiro で研修資料を SCORM 準拠パッケージへ自動変換し LMS に公開するパイプライン"
+  - "評価: AWS Connect Customer が 2026 年の Gartner Magic Quadrant for CCaaS でリーダーに"
