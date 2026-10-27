@@ -1,0 +1,9 @@
+"entries":
+  "1d69cb6d615fa29bfc188aa15a58fb42":
+    "id": "1d69cb6d615fa29bfc188aa15a58fb42"
+    "title": "Building document-investigation agents with Amazon Bedrock AgentCore and Amazon S3 Files"
+    "link": "https://aws.amazon.com/blogs/compute/building-document-investigation-agents-with-amazon-bedrock-agentcore-and-amazon-s3-files/"
+    "published": "2026-10-28 02:16:54"
+    "fetched": "2026-10-28 02:22:52"
+    "summary": "Learn how an AWS Lambda function and an Amazon Bedrock AgentCore agent investigate a folder of related documents together through a shared Amazon S3 Files file system, using ordinary file operations instead of object download and upload code."
+"last_updated": "2026-10-28 02:22:52 JST"

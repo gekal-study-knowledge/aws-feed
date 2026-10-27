@@ -1,0 +1,16 @@
+"entries":
+  "7290f2d6df278f1e03d46924adfe8c76":
+    "id": "7290f2d6df278f1e03d46924adfe8c76"
+    "title": "Vessel-specific voyage optimization with machine learning: Manta on AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/vessel-specific-voyage-optimization-with-machine-learning-manta-on-aws/"
+    "published": "2026-10-28 02:14:32"
+    "fetched": "2026-10-28 02:22:51"
+    "summary": "Manta Marine Technologies closes the gap between seemingly identical ships by training machine learning models on each vessel's own operational history. Learn how Manta delivers vessel-specific voyage optimization on AWS to help shipowners reduce fuel consumption and improve voyage efficiency."
+  "528e9d288feb3aa9f22221e3c2c9706a":
+    "id": "528e9d288feb3aa9f22221e3c2c9706a"
+    "title": "How Anchorage Digital and Turnkey verify code with AWS Nitro Enclaves"
+    "link": "https://aws.amazon.com/blogs/architecture/how-anchorage-digital-and-turnkey-verify-code-with-aws-nitro-enclaves/"
+    "published": "2026-10-28 02:10:35"
+    "fetched": "2026-10-28 02:22:51"
+    "summary": "Anchorage Digital and Turnkey built verifiable infrastructure on AWS Nitro Enclaves so crypto wallets can cryptographically verify which code parsed a transaction. This post covers the architecture, the attestation-gated access pattern, and how it extends to any high-trust workflow beyond blockchain."
+"last_updated": "2026-10-28 02:22:51 JST"

@@ -1,0 +1,23 @@
+"entries":
+  "bdeba40853ccbdb3694fd9b0d42c18b9":
+    "id": "bdeba40853ccbdb3694fd9b0d42c18b9"
+    "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs"
+    "link": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/"
+    "published": "2026-10-28 02:00:39"
+    "fetched": "2026-10-28 02:22:52"
+    "summary": "Seekable OCI (SOCI) indexing for Amazon SageMaker AI training and processing jobs takes full container image download off the critical path. SageMaker AI lazy-loads your image to start containers in seconds instead of minutes, with no changes to your job definition. See the benchmarks and how to adopt it."
+  "5ebd119549380fc693025974b209f730":
+    "id": "5ebd119549380fc693025974b209f730"
+    "title": "Fix evaluation bias to unlock better models on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/"
+    "published": "2026-10-28 01:53:02"
+    "fetched": "2026-10-28 02:22:52"
+    "summary": "Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model, hiding its true accuracy. See how they built unbiased ground truth, applied evolutionary prompt optimization, and selected a more accurate, cost-effective model on Amazon Bedrock, cutting cost by 86% across 11 image-quality attributes."
+  "d502a8c25427d794b827af4a5672b259":
+    "id": "d502a8c25427d794b827af4a5672b259"
+    "title": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization"
+    "link": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/"
+    "published": "2026-10-28 01:50:55"
+    "fetched": "2026-10-28 02:22:52"
+    "summary": "In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower cost."
+"last_updated": "2026-10-28 02:22:52 JST"
