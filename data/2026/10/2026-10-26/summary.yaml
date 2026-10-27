@@ -1,17 +1,19 @@
 "date": "2026-10-26"
-"generated_at": "2026-10-27 06:01:00 JST"
+"generated_at": "2026-10-27 22:01:29 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 12
+"article_count": 14
 "sources":
   - "aws_japan_blog"
   - "aws_whats_new"
 "overview": |
-  この日は AWS Japan Blog に 7 本、What's New に 5 本が掲載された。Japan Blog では Amazon OpenSearch Serverless (NextGen) の intelligent ingestion で S3 上のドキュメントから RAG 対応インデックスを構築する解説、Kiro のクレジット消費量とコストを把握する 2 部構成の記事、AWS Config の記録頻度の選び方、AWS Direct Connect の定額料金の紹介、週刊 AWS (2026/10/19 週) と週刊生成 AI with AWS が公開された。What's New では IAM Identity Center のクロスリージョン trusted identity propagation、EC2 Auto Scaling の Launch Before Terminate のアカウントレベル既定化、RDS for SQL Server の最新 CU/GDR 対応、Amazon Connect Customer の成果スコアリングと顧客セグメント別メトリクスが発表された。
+  この日は AWS Japan Blog に 7 本、What's New に 7 本が掲載された。Japan Blog では Amazon OpenSearch Serverless (NextGen) の intelligent ingestion で S3 上のドキュメントから RAG 対応インデックスを構築する解説、Kiro のクレジット消費量とコストを把握する 2 部構成の記事、AWS Config の記録頻度の選び方、AWS Direct Connect の定額料金の紹介、週刊 AWS (2026/10/19 週) と週刊生成 AI with AWS が公開された。What's New では AWS KMS が NIST FIPS 203 のポスト量子暗号標準 ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) による鍵カプセル化に対応し、AWS Glue Data Catalog が Apache Iceberg REST Catalog API で AWS Sign-In を使う OAuth 2.0 ベアラートークン認証に対応した。ほかに IAM Identity Center のクロスリージョン trusted identity propagation、EC2 Auto Scaling の Launch Before Terminate のアカウントレベル既定化、RDS for SQL Server の最新 CU/GDR 対応、Amazon Connect Customer の成果スコアリングと顧客セグメント別メトリクスが発表された。
 "topics":
   - "検索・生成AI: Amazon OpenSearch intelligent ingestion で S3 のドキュメントを解析・画像説明生成・チャンク分割・ベクトル埋め込みし、RAG 対応インデックスを構築"
   - "開発ツール: Kiro の利用状況とコストの把握 (Part 1: クレジット消費量とコストの確認場所、Part 2: 複数 AWS アカウントにまたがるダッシュボードでの継続的な可視化)"
   - "ガバナンス: AWS Config の記録頻度のベストプラクティス (リソースの静的性・リソース間の関係・ベースライン変更頻度の 3 要素と 4 ユースケースで継続的記録/定期的記録を選択)"
   - "ネットワーク: AWS Direct Connect の定額料金で予測可能なコストを実現 (2026年10月5日公開記事の翻訳)"
+  - "セキュリティ・暗号: AWS KMS が ML-KEM (NIST FIPS 203 のポスト量子暗号標準) による鍵カプセル化に対応。2 者間で共有鍵を確立する用途"
+  - "分析: AWS Glue Data Catalog が Apache Iceberg REST Catalog (IRC) API で OAuth 2.0 ベアラートークン認証 (AWS Sign-In を利用) に対応"
   - "アイデンティティ: AWS IAM Identity Center が trusted identity propagation のクロスリージョン対応。ユーザーのアイデンティティをリクエストに載せ、ユーザーやグループに基づく権限付与と操作ログ記録が可能"
   - "コンピューティング: EC2 Auto Scaling で Launch Before Terminate をアカウント内の全 Auto Scaling グループの既定の置き換え動作として有効化可能に (代替インスタンスを先に起動)"
   - "データベース: Amazon RDS for SQL Server が Microsoft SQL Server の最新 Cumulative Update (CU) と GDR に対応"
