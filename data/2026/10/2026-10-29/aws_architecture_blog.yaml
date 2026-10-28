@@ -1,0 +1,16 @@
+"entries":
+  "76c0ab58fb72bf4e1325007614b5b923":
+    "id": "76c0ab58fb72bf4e1325007614b5b923"
+    "title": "How Revinate accelerated API adoption with Amazon API Gateway"
+    "link": "https://aws.amazon.com/blogs/architecture/how-revinate-accelerated-api-adoption-with-amazon-api-gateway/"
+    "published": "2026-10-29 03:32:34"
+    "fetched": "2026-10-29 04:18:33"
+    "summary": "Accelerating API adoption while reducing operational overhead is a challenge that every growing organization faces. For Revinate, a hospitality provider serving over 12,500 hotels worldwide and powering more than 1.25 billion guest profiles, Amazon API Gateway became the foundation of their solution. Revinate empowers hoteliers to connect directly with guests at every touchpoint, driving $24 […]"
+  "20fc6b0d9865ed0886c98aa857717605":
+    "id": "20fc6b0d9865ed0886c98aa857717605"
+    "title": "Automating agentic AI Well-Architected reviews with the AWS Agentic AI Lens"
+    "link": "https://aws.amazon.com/blogs/architecture/automating-agentic-ai-well-architected-reviews-with-the-aws-agentic-ai-lens/"
+    "published": "2026-10-29 03:25:50"
+    "fetched": "2026-10-29 04:18:33"
+    "summary": "Smarsh used the AWS Well-Architected Framework's Agentic AI Lens to review its first agentic workload. Because the lens is not yet selectable in the console, the team encoded it as a Claude skill that assessed all 150 best practices against the workload's GitHub repository and produced an evidence-backed review workbook in hours instead of days."
+"last_updated": "2026-10-29 04:18:33 JST"

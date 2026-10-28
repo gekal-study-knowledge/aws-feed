@@ -1,0 +1,9 @@
+"entries":
+  "f3be31fd13d7d397956739978c75e9a7":
+    "id": "f3be31fd13d7d397956739978c75e9a7"
+    "title": "Amazon EKS Auto Mode now supports Kubernetes Gateway API"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/"
+    "published": "2026-10-29 02:33:00"
+    "fetched": "2026-10-29 04:18:31"
+    "summary": "<p>Amazon EKS Auto Mode now supports the Kubernetes Gateway API, giving customers a standard, portable way to define how traffic reaches their applications. Customers can configure application load balancing using Gateway and HTTPRoute resources, and EKS Auto Mode provisions and manages the underlying AWS infrastructure automatically.</p> \n<p>With this launch, EKS Auto Mode customers can adopt the next-generation Kubernetes traffic management standard without installing or configuring a separate controller. Capabilities include HTTP and gRPC routing, cross-namespace traffic routing for multi-team environments, weighted traffic splitting, header-based routing, and automatic TLS certificate discovery through AWS Certificate Manager. Existing workloads using Ingress resources continue to work alongside Gateway API resources.</p> \n<p>To get started, see the <a href=\"https://docs.aws.amazon.com/eks/latest/userguide/auto-configure-gateway-api.html\">Amazon EKS documentation</a>. Gateway API support is included as part of EKS Auto Mode and is available in all AWS Regions where EKS Auto Mode is supported. Standard charges apply for the AWS load balancing resources provisioned.</p>"
+"last_updated": "2026-10-29 04:18:31 JST"

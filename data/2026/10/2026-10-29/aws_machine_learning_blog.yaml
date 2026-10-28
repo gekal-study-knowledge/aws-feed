@@ -1,0 +1,23 @@
+"entries":
+  "bfcdc9f9f423dedcd0e7adb393fbd663":
+    "id": "bfcdc9f9f423dedcd0e7adb393fbd663"
+    "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/"
+    "published": "2026-10-29 03:28:26"
+    "fetched": "2026-10-29 04:18:34"
+    "summary": "Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through the architecture and an open-source reference blueprint: the operating model, control plane, per-Workstream cells, separate inference and tool gateways, and a CI/CD evaluation pipeline that gates each agent before production."
+  "55fcc8069648a49878ce82ef2bd43bb1":
+    "id": "55fcc8069648a49878ce82ef2bd43bb1"
+    "title": "Distributed training with Ray Train DLCs and EFA on EKS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/"
+    "published": "2026-10-29 03:19:54"
+    "fetched": "2026-10-29 04:18:34"
+    "summary": "The Ray Train Deep Learning Container ships the full CUDA-through-EFA stack, so you build no image. This post walks through a reproducible sample that fine-tunes Qwen2.5-1.5B with PyTorch FSDP across eight GPUs on two EFA-enabled g6.12xlarge instances on Amazon EKS, using the container exactly as published."
+  "ab207cb5cb74616035552d1f8f594343":
+    "id": "ab207cb5cb74616035552d1f8f594343"
+    "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3"
+    "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/"
+    "published": "2026-10-29 03:12:13"
+    "fetched": "2026-10-29 04:18:34"
+    "summary": "As QA test automation spreads across an organization, organizing tests and controlling who owns them becomes the real work. Part 3 of the QA Studio series on Amazon Nova Act adds applications that organize tests and report health metrics, plus team-based user management that controls who can see and change what."
+"last_updated": "2026-10-29 04:18:34 JST"

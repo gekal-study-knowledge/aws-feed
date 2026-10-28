@@ -1,0 +1,9 @@
+"entries":
+  "444f7bd19cf26bf94b32abffdf912e4e":
+    "id": "444f7bd19cf26bf94b32abffdf912e4e"
+    "title": "CVE-2026-118029 - Unverified ownership of the default Athena query result location in AWS SDK for pandas"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-153-aws/"
+    "published": "2026-10-29 00:40:38"
+    "fetched": "2026-10-29 04:18:33"
+    "summary": "<p><b>Bulletin ID:</b> 2026-153-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 10/28/2026 08:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS SDK for pandas (awswrangler) is an open-source Python library that integrates pandas with AWS data services such as Amazon Athena, Amazon S3, and AWS Glue. We identified CVE-2026-118029 in the Athena module, where unverified ownership of the default query result location could allow a remote user to read Athena query results and tamper with result sets returned to the caller via a pre-created S3 bucket.</p> \n<p><b>Impacted versions:</b> awswrangler &lt; 3.16.1</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-153-aws/\">Read this article</a></p>"
+"last_updated": "2026-10-29 04:18:33 JST"
