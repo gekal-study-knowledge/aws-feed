@@ -13,4 +13,11 @@
     "published": "2026-10-28 02:50:05"
     "fetched": "2026-10-28 06:46:05"
     "summary": "We continue to expand the scope of our assurance programs at Amazon Web Services (AWS) and are pleased to announce the successful completion of our first ever Cloud High (PBHH) security assessment with 172 assessed services and features. Completion of this assessment, effective September 18, 2026, makes AWS the first cloud service provider (CSP) in […]"
-"last_updated": "2026-10-28 06:46:05 JST"
+  "6d734ee63e77a586d63dac997c7a9ae8":
+    "id": "6d734ee63e77a586d63dac997c7a9ae8"
+    "title": "Introducing Route 53 Resolved IP Validation for AWS Network Firewall"
+    "link": "https://aws.amazon.com/blogs/security/introducing-route-53-resolved-ip-validation-for-aws-network-firewall/"
+    "published": "2026-10-28 08:46:13"
+    "fetched": "2026-10-28 09:56:20"
+    "summary": "Your workloads reach most destinations by domain name, but a firewall can only act on what it sees in the traffic. For HTTP and HTTPS, AWS Network Firewall domain rules match the name that the client puts in the request, and the client chooses that name. The connections for protocols such as SSH and SSH […]"
+"last_updated": "2026-10-28 09:56:20 JST"

@@ -1,0 +1,9 @@
+"entries":
+  "87d30500e0ec4f55f548a8f7386a0c94":
+    "id": "87d30500e0ec4f55f548a8f7386a0c94"
+    "title": "Amazon Bedrock AgentCore を使用した電力・公益事業向けのインテリジェントなアラーム管理"
+    "link": "https://aws.amazon.com/jp/blogs/news/intelligent-alarm-management-for-power-and-utilities-using-amazon-bedrock-agentcore/"
+    "published": "2026-10-28 09:46:01"
+    "fetched": "2026-10-28 09:56:19"
+    "summary": "北米の大手電力会社が Amazon Bedrock AgentCore 上で運用しているマルチエージェント AI アーキテクチャを紹介します。このアーキテクチャにより、オペレーターがシフトごとに何十回も、複数のシステムをまたいで手作業で行っていた調査が不要になり、アラームのトリアージにかかる時間が数時間から数分に短縮されています。業界の課題、マルチエージェントの設計、GitHub 上のリファレンス実装について説明します。"
+"last_updated": "2026-10-28 09:56:19 JST"
