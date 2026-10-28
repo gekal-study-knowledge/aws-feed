@@ -1,0 +1,21 @@
+"date": "2026-10-29"
+"generated_at": "2026-10-29 06:01:38 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 8
+"sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 5 ソースから 8 本。セキュリティ速報は 1 件で Important (要対応)。CVE-2026-118029 (Bulletin ID: 2026-153-AWS、2026 年 10 月 28 日 08:30 PDT 公開) は AWS SDK for pandas (awswrangler) の Athena モジュールで、既定のクエリ結果保存先の所有者を検証していなかった問題で、事前に作成された S3 バケットを介してリモートの第三者が Athena のクエリ結果を読み取ったり、呼び出し元に返る結果セットを改ざんしたりできるおそれがある。対象は awswrangler 3.16.1 未満。What's New では Amazon EKS Auto Mode が Kubernetes Gateway API に対応し、標準的で移植性のある方法でアプリケーションへのトラフィックを定義できるようになった。アーキテクチャでは、Smarsh がコンソールでまだ選べない Well-Architected の Agentic AI Lens を Claude のスキルとして実装してエージェント型ワークロードのレビューを自動化した事例と、世界 12,500 以上のホテルを支える Revinate の Amazon API Gateway による API 導入の加速。機械学習では Amazon Nova Act を使ったエージェント型 QA 自動化の連載第 3 回 (テストの整理と所有権の管理)、Ray Train DLC と EFA を使った EKS 上での分散学習 (PyTorch FSDP で Qwen2.5-1.5B をファインチューニング)、Bedrock AgentCore 上にガバナンスの効いたマルチアカウントの Agentic AI Platform を構築するオープンソースのリファレンスブループリント。AWS Japan Blog では AMOREPACIFIC が Kiro の spec-driven development と SAP 専用 MCP サーバー、Steering ファイルを組み合わせてレガシーな SAP ECC 6.0 環境に AI 駆動開発を導入した事例が公開された。
+"topics":
+  - "セキュリティ速報: CVE-2026-118029 (Bulletin ID 2026-153-AWS, Important, 公開 2026/10/28 08:30 PDT)。AWS SDK for pandas (awswrangler) の Athena モジュールが既定のクエリ結果保存先の所有者を検証しておらず、事前作成された S3 バケット経由でクエリ結果の読み取り・結果セットの改ざんが可能。awswrangler 3.16.1 未満が対象"
+  - "コンテナ: Amazon EKS Auto Mode が Kubernetes Gateway API に対応。標準的で移植性のある方法でアプリケーションへのトラフィックとロードバランサーを構成"
+  - "アーキテクチャ・生成AI: Smarsh が Well-Architected Framework の Agentic AI Lens (コンソールでは未選択可) を Claude のスキルとして実装し、初のエージェント型ワークロードのレビューを自動化"
+  - "API: 12,500 以上のホテルにサービスを提供する Revinate が Amazon API Gateway で API 導入を加速し運用負荷を削減"
+  - "生成AI・テスト: Amazon Nova Act によるエージェント型 QA 自動化の QA Studio 連載 Part 3。組織全体に広がったテストを整理し、所有者を管理するアプリケーション機能を追加"
+  - "機械学習: Ray Train Deep Learning Container は CUDA から EFA までのスタックを同梱しイメージ作成が不要。EKS 上で PyTorch FSDP により Qwen2.5-1.5B をファインチューニングする再現可能なサンプル"
+  - "生成AI: Amazon Bedrock AgentCore 上にガバナンスの効いたマルチアカウントの Agentic AI Platform を構築。運用モデルやコントロールプレーンを含むオープンソースのリファレンスブループリント"
+  - "開発ツール・ERP: AMOREPACIFIC が Kiro の spec-driven development、AWS SA が構築した SAP 専用 MCP サーバー、Steering ファイルを組み合わせ、レガシーな SAP ECC 6.0 環境に AI 駆動開発を導入"

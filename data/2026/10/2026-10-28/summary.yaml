@@ -1,7 +1,7 @@
 "date": "2026-10-28"
-"generated_at": "2026-10-28 22:01:35 JST"
+"generated_at": "2026-10-29 06:01:38 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 19
+"article_count": 21
 "sources":
   - "aws_architecture_blog"
   - "aws_compute_blog"
@@ -11,7 +11,7 @@
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 7 ソースから 19 本。セキュリティ速報は 1 件で Important (要対応)。CVE-2026-115413 は AWS API MCP Server における OAuth トークンのオーディエンス検証の不備である (Bulletin ID: 2026-152-AWS、2026 年 10 月 27 日 11:00 PDT 公開)。1.3.0 以上 1.6.0 未満では、streamable-http トランスポートと OAuth 認証の構成でトークンの署名・発行者・有効期限は検証するものの、発行先アプリケーションを示すクレームを検証していなかった。What's New では Amazon Aurora serverless が Aurora PostgreSQL 互換エディションで最大 384 ACU (従来上限 256 ACU から 50% 増、最大 768 GiB メモリ) に対応、Amazon ECS が NVIDIA Multi-Process Service (MPS) による GPU 共有に対応し 1 つの GPU で複数タスクを同時実行可能に、ElastiCache for Valkey が既存のノードベースクラスターで耐久性 (durability) の有効化・無効化に対応、SageMaker AI MLflow Apps が MLflow 3.16 (トレーシング体験の刷新と実験追跡の高速化) に対応した。Security Blog では AWS Network Firewall 向けの Route 53 Resolved IP Validation の紹介、AWS が 172 のサービスと機能を対象とする Cloud High (PBHH) 評価を完了し最初の CSP になったこと、サイバーセキュリティのキャリア連載の第 3 回。機械学習では SageMaker AI の学習・処理ジョブ向けの SOCI (Seekable OCI) インデックス付きイメージ、Exowatt のサーバーレスモデルカスタマイズ事例、Property Finder の評価バイアス是正 (評価ラベルの 96.8% が既存モデル由来)、AWS Connect Customer の 2026 年 Gartner Magic Quadrant for CCaaS でのリーダー選出。Compute Blog では Lambda と Bedrock AgentCore エージェントが Amazon S3 Files 越しに文書群を調査する構成、アーキテクチャでは Anchorage Digital と Turnkey の Nitro Enclaves によるコード検証、Manta Marine Technologies の船舶ごとの航海最適化、Kiro による SCORM パッケージ作成パイプライン。AWS Japan Blog では、11 月 1 日から Kiro の無料トライアルが変わり初回 Pro アップグレード時にその月の残りが無料かつ 12 か月有効な 500 トライアルクレジットが付与されること、北米の大手電力会社による Bedrock AgentCore 上のマルチエージェントでのアラーム管理 (トリアージが数時間から数分に)、ドコモSMTBネット銀行の Amazon Connect Customer AI agents による電話・チャット応対の高度化が公開された。
+  この日は 7 ソースから 21 本。セキュリティ速報は 1 件で Important (要対応)。CVE-2026-115413 は AWS API MCP Server における OAuth トークンのオーディエンス検証の不備である (Bulletin ID: 2026-152-AWS、2026 年 10 月 27 日 11:00 PDT 公開)。1.3.0 以上 1.6.0 未満では、streamable-http トランスポートと OAuth 認証の構成でトークンの署名・発行者・有効期限は検証するものの、発行先アプリケーションを示すクレームを検証していなかった。What's New では Amazon Aurora serverless が Aurora PostgreSQL 互換エディションで最大 384 ACU (従来上限 256 ACU から 50% 増、最大 768 GiB メモリ) に対応、Amazon ECS が NVIDIA Multi-Process Service (MPS) による GPU 共有に対応し 1 つの GPU で複数タスクを同時実行可能に、ElastiCache for Valkey が既存のノードベースクラスターで耐久性 (durability) の有効化・無効化に対応、SageMaker AI MLflow Apps が MLflow 3.16 (トレーシング体験の刷新と実験追跡の高速化) に対応した。Security Blog では AWS Network Firewall 向けの Route 53 Resolved IP Validation の紹介、AWS が 172 のサービスと機能を対象とする Cloud High (PBHH) 評価を完了し最初の CSP になったこと、サイバーセキュリティのキャリア連載の第 3 回。機械学習では SageMaker AI の学習・処理ジョブ向けの SOCI (Seekable OCI) インデックス付きイメージ、Exowatt のサーバーレスモデルカスタマイズ事例、Property Finder の評価バイアス是正 (評価ラベルの 96.8% が既存モデル由来)、AWS Connect Customer の 2026 年 Gartner Magic Quadrant for CCaaS でのリーダー選出。Compute Blog では Lambda と Bedrock AgentCore エージェントが Amazon S3 Files 越しに文書群を調査する構成、アーキテクチャでは Anchorage Digital と Turnkey の Nitro Enclaves によるコード検証、Manta Marine Technologies の船舶ごとの航海最適化、Kiro による SCORM パッケージ作成パイプライン。AWS Japan Blog では、11 月 1 日から Kiro の無料トライアルが変わり初回 Pro アップグレード時にその月の残りが無料かつ 12 か月有効な 500 トライアルクレジットが付与されること、北米の大手電力会社による Bedrock AgentCore 上のマルチエージェントでのアラーム管理 (トリアージが数時間から数分に)、ドコモSMTBネット銀行の Amazon Connect Customer AI agents による電話・チャット応対の高度化に加え、Kiro Crew チームが週 1,000 件の PR をマージしながら品質を保つ方法 (重大度別レビュー、役割別の AI レビュアー、80 件以上のチェックを束ねる PR Readiness 判定、prepare-pr スキルによる自動修正ループ)、AI 生成コンテンツのオーディオ来歴情報を生成元で構築する方法 (2026 年 8 月 27 日公開記事の翻訳) が公開された。
 "topics":
   - "セキュリティ速報: CVE-2026-115413 (Bulletin ID 2026-152-AWS, Important, 公開 2026/10/27 11:00 PDT)。AWS API MCP Server が OAuth トークンの署名・発行者・有効期限は検証する一方、発行先アプリケーションを示すクレームを検証していなかった。1.3.0 以上 1.6.0 未満が対象"
   - "データベース: Aurora serverless (PostgreSQL 互換) が最大 384 ACU に対応し上限が 256 ACU から 50% 増、1 データベースで最大 768 GiB メモリまで。終了後はゼロまで自動縮退し、突発的で読みにくいエージェント型 AI の負荷に向く"
@@ -27,6 +27,8 @@
   - "生成AI・電力: 北米の大手電力会社が Bedrock AgentCore 上のマルチエージェント AI でアラーム管理を自動化し、トリアージ時間を数時間から数分に短縮 (GitHub にリファレンスあり)"
   - "コンタクトセンター: ドコモSMTBネット銀行が Amazon Connect Customer AI agents を電話・チャットの両チャネルで活用し応対を高度化"
   - "開発ツール: Kiro の無料トライアルが 11 月 1 日から変更。初回 Pro アップグレードでその月の残りが無料、12 か月有効な 500 トライアルクレジットを付与し、料金とクレジットは秒単位で日割り"
+  - "開発ツール: Kiro Crew チームが週 1,000 件の PR をマージしつつ品質を維持。レビューの重大度分け、役割別の AI レビュアー、80 件以上のチェックを 1 つにまとめる PR Readiness 判定、prepare-pr スキルによる自動修正ループ、マージ後のセキュリティ対策へと段階的に発展"
+  - "生成AI・メディア: AI 生成コンテンツのオーディオ来歴情報を生成元で構築する方法 (2026 年 8 月 27 日公開の英語記事の翻訳)"
   - "セキュリティ・アーキテクチャ: Anchorage Digital と Turnkey が AWS Nitro Enclaves 上に検証可能なインフラを構築し、暗号資産ウォレットが取引を解析したコードを暗号学的に検証"
   - "機械学習: Manta Marine Technologies が船舶ごとの運航履歴でモデルを学習し、船ごとの航海最適化を提供"
   - "アーキテクチャ: Kiro で研修資料を SCORM 準拠パッケージへ自動変換し LMS に公開するパイプライン"
