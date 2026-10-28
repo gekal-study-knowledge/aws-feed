@@ -1,0 +1,9 @@
+"entries":
+  "9a4ac96f9f74441ee04da8bf7816d619":
+    "id": "9a4ac96f9f74441ee04da8bf7816d619"
+    "title": "Observing AWS Lambda durable functions with the Durable Execution Telemetry Exporter"
+    "link": "https://aws.amazon.com/blogs/compute/observing-aws-lambda-durable-functions-with-the-durable-execution-telemetry-exporter/"
+    "published": "2026-10-29 04:36:12"
+    "fetched": "2026-10-29 08:51:24"
+    "summary": "Durable functions span many Lambda invocations, so per-invocation logs answer the wrong question. The Durable Execution Telemetry Exporter is an SDK plugin that emits one complete record per execution to any of 13 destinations with a one-line change, and a companion MCP server lets an AI agent query that data in plain language."
+"last_updated": "2026-10-29 08:51:24 JST"
