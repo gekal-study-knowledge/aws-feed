@@ -1,14 +1,24 @@
 "date": "2026-10-30"
-"generated_at": "2026-10-30 06:01:12 JST"
+"generated_at": "2026-10-30 08:09:38 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 4
+"article_count": 12
 "sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
   - "aws_machine_learning_blog"
   - "aws_security_bulletins"
+  - "aws_whats_new"
 "overview": |
-  この日は AWS Machine Learning Blog と AWS Security Bulletins の 2 ソースから 4 本。セキュリティ速報は CVE-2026-119115 (Bulletin ID: 2026-156-AWS、2026 年 10 月 29 日 09:30 PDT 公開) の 1 件で、AWS Private CA Connector for Kubernetes の issuer 解決ロジックにおける不適切な認可の問題。機械学習では、120B パラメータの MoE モデル NVIDIA Nemotron 3.5 Super VL を Amazon EKS と SageMaker HyperPod EKS で動かしてエージェント型 AI を加速する方法、MoEngage が 7 リージョンにまたがる約 400 のプライベート REST API を Amazon Bedrock AgentCore Gateway で権限スコープ付きのエージェントツールに変えた事例 (サービスごとの MCP サーバーや公開エンドポイントは不要)、GPU キャパシティをチームやプロジェクトごとのクォータシェアに分け、空きを自動で貸し借りしプリエンプションで取り戻せる AWS Batch のクォータ管理を SageMaker Training ジョブで使う方法が紹介された。
+  この日は 5 ソースから 12 本。セキュリティ速報は CVE-2026-119115 (Bulletin ID: 2026-156-AWS、2026 年 10 月 29 日 09:30 PDT 公開) の 1 件で、AWS Private CA Connector for Kubernetes の issuer 解決ロジックにおける不適切な認可の問題。機械学習では、120B パラメータの MoE モデル NVIDIA Nemotron 3.5 Super VL を Amazon EKS と SageMaker HyperPod EKS で動かしてエージェント型 AI を加速する方法、MoEngage が 7 リージョンにまたがる約 400 のプライベート REST API を Amazon Bedrock AgentCore Gateway で権限スコープ付きのエージェントツールに変えた事例 (サービスごとの MCP サーバーや公開エンドポイントは不要)、GPU キャパシティをチームやプロジェクトごとのクォータシェアに分け、空きを自動で貸し借りしプリエンプションで取り戻せる AWS Batch のクォータ管理を SageMaker Training ジョブで使う方法が紹介された。What's New は 2 件。Amazon RDS for SQL Server と Amazon RDS for Oracle が、追加のストレージボリュームでもストレージの自動スケーリングに対応した。追加ボリュームは最大 3 本まで足して容量を 256 TiB まで増やせるが、従来は主ボリュームでしか自動スケーリングが使えず、追加ボリュームは見込みに基づいて手で容量を確保する必要があり、少なく見れば停止、多く見れば無駄が出ていた。Amazon Aurora PostgreSQL 互換エディションはポスト量子 TLS (PQ-TLS) の鍵交換に対応し、転送中のデータの暗号化にポスト量子暗号を選べるようになった。バージョン 18 以降で ssl_groups パラメータを変更でき、許可リストから組織のセキュリティ基準に合う暗号グループを選べる。アーキテクチャブログでは 3 本。BMW Group がコネクテッドカーのプラットフォームを x86 から AWS Graviton へ移行した事例では、Karpenter、マルチアーキテクチャのコンテナビルド、Graviton ベースの CI/CD ランナーを使って停止なしに移行し、NGINX イングレスの CPU を約 57% 削減して価格性能を約 40% 改善した。boAt は Amazon Bedrock と AWS Lambda で AI Coach を作り、インド国内の数百万人のスマートウォッチ利用者にリアルタイムのパーソナライズされたフィットネスコーチングを届けている。コンピュートブログでは AWS Outposts のオブザーバビリティを、ネットワーク・ストレージ・コンピュート・コンテナの 4 つの観点から AWS Systems Manager・Amazon CloudWatch・Amazon EventBridge で組み立て、データセンターと AWS リージョンにまたがるハイブリッド環境を一元的に可視化して対応を自動化する方法が解説された。機械学習ブログではさらに 4 本。Epsilon の Agentic Platform チームが Amazon Nova Act と Amazon Bedrock AgentCore Browser Tool で UI テストをマネージドなマルチテナントのサービスとして提供し、平文の英語でテストを書いて AWS が管理するブラウザで実行する仕組み、Kiro を使って PHP から Java への移行を繰り返し可能な工程に変える方法 (機械的な棚卸しスキャナーと、元の PHP アプリケーションを仕様として扱い parity harness で移植を検証する 8 フェーズのワークフロー)、英国の Amazon Quick ユーザーグループの 2026 年の振り返り (四半期ごとに 3 回の集まりで参加者 150 名超、Arriva・Carsa・Propulse Lab の事例) が公開された。
 "topics":
   - "セキュリティ速報: CVE-2026-119115 (Bulletin ID 2026-156-AWS, 公開 2026/10/29 09:30 PDT)。AWS Private CA Connector for Kubernetes の issuer 解決ロジックにおける不適切な認可 (Incorrect authorization) の問題。影響を受けるバージョンが存在"
   - "生成AI・コンテナ: NVIDIA Nemotron 3.5 Super VL (120B パラメータの mixture-of-experts、推論・ツール利用・マルチモーダル理解) のアーキテクチャと用途、Amazon EKS と SageMaker HyperPod EKS へのデプロイ"
   - "生成AI・事例: MoEngage が 7 つの AWS リージョンにまたがる約 400 のプライベート REST API を Amazon Bedrock AgentCore Gateway で権限スコープ付きのエージェントツール化。サービスごとの MCP サーバーや公開エンドポイントを作らずに実現"
   - "機械学習: AWS Batch のクォータ管理を SageMaker Training ジョブで利用。GPU キャパシティをチーム・プロジェクトごとのクォータシェアに分割し、アイドル分を自動で貸し出し、プリエンプションで回収"
+  - "データベース: RDS for SQL Server と RDS for Oracle が追加ストレージボリュームでも自動スケーリングに対応 (追加 3 本で最大 256 TiB)"
+  - "セキュリティ: Aurora PostgreSQL 互換エディションがポスト量子 TLS の鍵交換に対応。バージョン 18 以降で ssl_groups を変更して暗号グループを選択できる"
+  - "事例: BMW Group がコネクテッドカーのプラットフォームを x86 から Graviton へ無停止移行。NGINX イングレスの CPU を約 57% 削減し価格性能を約 40% 改善"
+  - "事例: boAt が Bedrock と Lambda で AI Coach を構築し、インドの数百万人のスマートウォッチ利用者にリアルタイムのコーチングを提供"
+  - "運用: AWS Outposts のオブザーバビリティをネットワーク・ストレージ・コンピュート・コンテナの 4 観点で構築 (Systems Manager・CloudWatch・EventBridge)"
+  - "テスト: Epsilon が Nova Act と AgentCore Browser Tool で UI テストをマネージドなマルチテナントサービス化、テストは平文の英語で記述"
+  - "移行: Kiro で PHP から Java への移行を繰り返し可能に。元の PHP を仕様として扱い parity harness で移植を検証する 8 フェーズのワークフロー"
