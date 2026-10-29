@@ -1,0 +1,9 @@
+"entries":
+  "d0af3a9bc98032302623754fa4948e0d":
+    "id": "d0af3a9bc98032302623754fa4948e0d"
+    "title": "CVE-2026-119115 - Incorrect authorization in issuer resolution in AWS Private CA Connector for Kubernetes"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-156-aws/"
+    "published": "2026-10-30 01:45:45"
+    "fetched": "2026-10-30 02:58:27"
+    "summary": "<p><b>Bulletin ID:</b> 2026-156-AWS<br /> <b>Publication Date:</b> 10/29/2026 09:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>We are aware of CVE-2026-119115, an incorrect authorization issue in the issuer resolution logic. In affected versions, under certain conditions, an authenticated user whose approval policy only authorizes a namespace-scoped issuer could obtain certificates, including subordinate CA certificates, signed by a cluster-scoped issuer they are not authorized to use.</p> \n<p><b>Impacted versions:</b><br /> - aws-privateca-issuer before v1.10.1<br /> - AWS Private CA Connector for Kubernetes EKS add-on before v1.10.1-eksbuild.1</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-156-aws/\">Read this article</a></p>"
+"last_updated": "2026-10-30 02:58:27 JST"

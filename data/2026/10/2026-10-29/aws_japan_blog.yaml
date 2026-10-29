@@ -48,4 +48,11 @@
     "published": "2026-10-29 15:39:47"
     "fetched": "2026-10-29 20:16:12"
     "summary": "AWS Japan では、2026 年 11 月から、AWS のセキュリティサービスを実際に操作するオンラインハンズオンを週次で開催します。AWS Security Agent、AWS WAF、Amazon Inspector、フロンティアモデルを活用したソースコードの脆弱性対策などをテーマに、座学とハンズオンで、ご自身の組織で試すための最初の一歩までをお伝えします。本記事は、開催日程を随時更新する案内ページです。"
-"last_updated": "2026-10-29 20:16:12 JST"
+  "9f9f633746133e4cc7ad9d4fa16bd611":
+    "id": "9f9f633746133e4cc7ad9d4fa16bd611"
+    "title": "Amazon EKS の高度な Kubernetes コントロールプレーン設定の紹介"
+    "link": "https://aws.amazon.com/jp/blogs/news/introducing-advanced-kubernetes-control-plane-configuration-in-amazon-eks/"
+    "published": "2026-10-29 22:03:32"
+    "fetched": "2026-10-30 02:58:26"
+    "summary": "2026 年 8 月に、Amazon EKS で、Kubernetes のコントロールプレーンのコンポーネント (API サーバー、スケジューラ、コントローラーマネージャー) を EKS API で直接設定できるようになりました。この記事では、設定できる項目を説明し、2 つのウォークスルーで実際に試します。1 つは Pod の配置を最適化する MostAllocated のビンパッキングの有効化、もう 1 つはイベントの保持期間の調整です。"
+"last_updated": "2026-10-30 02:58:26 JST"

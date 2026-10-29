@@ -1,0 +1,23 @@
+"entries":
+  "ddeea1e94f3fad68e5874ee5b2378fb2":
+    "id": "ddeea1e94f3fad68e5874ee5b2378fb2"
+    "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs"
+    "link": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/"
+    "published": "2026-10-30 01:58:57"
+    "fetched": "2026-10-30 02:58:28"
+    "summary": "AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination."
+  "6e6ff1def8bfd27ce4d95599f62d55f4":
+    "id": "6e6ff1def8bfd27ce4d95599f62d55f4"
+    "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/"
+    "published": "2026-10-30 01:54:52"
+    "fetched": "2026-10-30 02:58:28"
+    "summary": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work."
+  "7117fb389424b1c9c7975297c69ba65e":
+    "id": "7117fb389424b1c9c7975297c69ba65e"
+    "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS"
+    "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/"
+    "published": "2026-10-30 01:11:08"
+    "fetched": "2026-10-30 02:58:28"
+    "summary": "NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model that pairs reasoning and tool use with multimodal understanding. This post explores its architecture and use cases, then shows how to deploy it on Amazon EKS, EKS Auto Mode, and Amazon SageMaker HyperPod EKS with NVIDIA Dynamo and vLLM."
+"last_updated": "2026-10-30 02:58:28 JST"
