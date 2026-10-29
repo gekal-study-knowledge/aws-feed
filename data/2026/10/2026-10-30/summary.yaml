@@ -1,0 +1,14 @@
+"date": "2026-10-30"
+"generated_at": "2026-10-30 06:01:12 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 4
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+"overview": |
+  この日は AWS Machine Learning Blog と AWS Security Bulletins の 2 ソースから 4 本。セキュリティ速報は CVE-2026-119115 (Bulletin ID: 2026-156-AWS、2026 年 10 月 29 日 09:30 PDT 公開) の 1 件で、AWS Private CA Connector for Kubernetes の issuer 解決ロジックにおける不適切な認可の問題。機械学習では、120B パラメータの MoE モデル NVIDIA Nemotron 3.5 Super VL を Amazon EKS と SageMaker HyperPod EKS で動かしてエージェント型 AI を加速する方法、MoEngage が 7 リージョンにまたがる約 400 のプライベート REST API を Amazon Bedrock AgentCore Gateway で権限スコープ付きのエージェントツールに変えた事例 (サービスごとの MCP サーバーや公開エンドポイントは不要)、GPU キャパシティをチームやプロジェクトごとのクォータシェアに分け、空きを自動で貸し借りしプリエンプションで取り戻せる AWS Batch のクォータ管理を SageMaker Training ジョブで使う方法が紹介された。
+"topics":
+  - "セキュリティ速報: CVE-2026-119115 (Bulletin ID 2026-156-AWS, 公開 2026/10/29 09:30 PDT)。AWS Private CA Connector for Kubernetes の issuer 解決ロジックにおける不適切な認可 (Incorrect authorization) の問題。影響を受けるバージョンが存在"
+  - "生成AI・コンテナ: NVIDIA Nemotron 3.5 Super VL (120B パラメータの mixture-of-experts、推論・ツール利用・マルチモーダル理解) のアーキテクチャと用途、Amazon EKS と SageMaker HyperPod EKS へのデプロイ"
+  - "生成AI・事例: MoEngage が 7 つの AWS リージョンにまたがる約 400 のプライベート REST API を Amazon Bedrock AgentCore Gateway で権限スコープ付きのエージェントツール化。サービスごとの MCP サーバーや公開エンドポイントを作らずに実現"
+  - "機械学習: AWS Batch のクォータ管理を SageMaker Training ジョブで利用。GPU キャパシティをチーム・プロジェクトごとのクォータシェアに分割し、アイドル分を自動で貸し出し、プリエンプションで回収"
