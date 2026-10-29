@@ -1,0 +1,9 @@
+"entries":
+  "8e8c744ad82f7569e234c4cf767c8879":
+    "id": "8e8c744ad82f7569e234c4cf767c8879"
+    "title": "Unlocking full-stack observability for AWS Outposts"
+    "link": "https://aws.amazon.com/blogs/compute/unlocking-full-stack-observability-for-aws-outposts/"
+    "published": "2026-10-30 03:23:18"
+    "fetched": "2026-10-30 07:35:10"
+    "summary": "Learn how to build end-to-end observability for AWS Outposts across four dimensions: network, storage, compute, and containers. This post uses AWS Systems Manager, Amazon CloudWatch, and Amazon EventBridge for unified visibility and automated incident response across hybrid infrastructure spanning your data center and an AWS Region."
+"last_updated": "2026-10-30 07:35:10 JST"

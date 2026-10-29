@@ -1,0 +1,16 @@
+"entries":
+  "f04703e020200508c88cefbfbe75dcdc":
+    "id": "f04703e020200508c88cefbfbe75dcdc"
+    "title": "How BMW Group accelerated connected vehicle workloads on AWS Graviton"
+    "link": "https://aws.amazon.com/blogs/architecture/how-bmw-group-accelerated-connected-vehicle-workloads-on-aws-graviton/"
+    "published": "2026-10-30 05:11:14"
+    "fetched": "2026-10-30 07:35:09"
+    "summary": "Learn how BMW Group migrated its connected vehicle platform from x86 to AWS Graviton. Using Karpenter, multi-architecture container builds, and Graviton-based CI/CD runners, the team moved workloads without disruption, cutting NGINX ingress CPU by about 57 percent and delivering about 40 percent better price-performance."
+  "6524756b93f10cfaa5784d0b6a3def5e":
+    "id": "6524756b93f10cfaa5784d0b6a3def5e"
+    "title": "How boAt delivers personalized fitness coaching with Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/architecture/how-boat-delivers-personalized-fitness-coaching-with-amazon-bedrock/"
+    "published": "2026-10-30 03:16:38"
+    "fetched": "2026-10-30 07:35:09"
+    "summary": "Learn how boAt built its AI Coach feature on Amazon Bedrock and AWS Lambda to deliver personalized, real-time fitness coaching to millions of smartwatch users across India, and the design choices that made the solution scalable and cost-effective."
+"last_updated": "2026-10-30 07:35:09 JST"
