@@ -1,0 +1,23 @@
+"entries":
+  "dcec0b8a58916a6dd041c1de024b6146":
+    "id": "dcec0b8a58916a6dd041c1de024b6146"
+    "title": "CVE-2026-119117 - Insertion of sensitive information into a log file and process argument list in the Amazon Kinesis Producer Library for Java"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-159-aws/"
+    "published": "2026-10-31 03:18:40"
+    "fetched": "2026-10-31 06:21:32"
+    "summary": "<p><b>Bulletin ID:</b> 2026-159-AWS<br /> <b>Publication Date:</b> 10/30/2026 11:00 AM PDT</p> \n<p><b>Description:</b></p> \n<p>We published CVE-2026-119117. Insertion of sensitive information into a log file in Amazon Kinesis Producer Library for Java before 1.0.8, when the library's logger is configured at DEBUG log level, might allow local users to obtain the AWS credentials that the library resolved for the application. Separately, affected versions of the library pass these credentials to the native child process as command-line arguments, where a local user can read them from the process argument list.</p> \n<p><b>Impacted versions:</b><br /> - com.amazonaws:amazon-kinesis-producer &lt;= 0.15.12<br /> - oftware.amazon.kinesis:amazon-kinesis-producer &lt; 1.0.8</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-159-aws/\">Read this article</a></p>"
+  "1abc2b8833ef416f9e25ee9bb96709fd":
+    "id": "1abc2b8833ef416f9e25ee9bb96709fd"
+    "title": "CVE-2026-119086 - Missing type validation in xQueueSelectFromSet in FreeRTOS-Kernel"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-158-aws/"
+    "published": "2026-10-31 02:39:33"
+    "fetched": "2026-10-31 06:21:32"
+    "summary": "<p><b>Bulletin ID:</b> 2026-158-AWS<br /> <b>Publication Date:</b> 10/30/2026 10:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>FreeRTOS-Kernel is a real-time operating system kernel for microcontrollers and small microprocessors, distributed by Amazon. We identified CVE-2026-119086, the queue-set selection path does not fully validate that the referenced kernel object is a queue set before operating on it. On MPU-enabled builds with queue sets enabled, an unprivileged task can cause the kernel to write beyond the intended destination while executing in a privileged context, which affects the integrity of privileged execution. Applications that are built without queue sets are not affected.</p> \n<p><b>Impacted versions:</b> &gt;=V7.4.0 AND &lt;=V11.3.2 (MPU-enabled ports with configUSE_QUEUE_SETS=1)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-158-aws/\">Read this article</a></p>"
+  "e509d6f179c87ae30e46cd703056c6ac":
+    "id": "e509d6f179c87ae30e46cd703056c6ac"
+    "title": "CVE-2026-119116 and CVE-2026-119148 - Issues in AWS Nitro Enclaves SDK for C"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-157-aws/"
+    "published": "2026-10-31 01:34:46"
+    "fetched": "2026-10-31 06:21:32"
+    "summary": "<p><b>Bulletin ID:</b> 2026-157-AWS<br /> <b>Publication Date:</b> 10/30/2026 09:00 AM PDT</p> \n<p><b>Description:</b></p> \n<p>We identified CVE-2026-119116, a use-after-free in the SetClient command handler of the kmstool-enclave example application, where an application that executes on the parent EC2 instance could send crafted messages over vsock to corrupt heap memory inside the enclave and execute arbitrary code within it. Only enclave images that include kmstool-enclave, or code derived from it, are affected.</p> \n<p>We also identified CVE-2026-119148, an input validation issue in the SDK library where the AWS KMS server name is built from a caller-supplied region string. A third party could supply a crafted region to impersonate KMS to the enclave and inject forged responses, such as actor-chosen key material.</p> \n<p><b>Impacted versions:</b> aws-nitro-enclaves-sdk-c &lt;= v0.4.5 (CVE-2026-119116 affects kmstool-enclave only; CVE-2026-119148 affects the library)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-157-aws/\">Read this article</a></p>"
+"last_updated": "2026-10-31 06:21:32 JST"
