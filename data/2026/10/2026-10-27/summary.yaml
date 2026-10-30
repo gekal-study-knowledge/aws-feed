@@ -1,7 +1,7 @@
 "date": "2026-10-27"
-"generated_at": "2026-10-28 22:01:35 JST"
+"generated_at": "2026-10-30 22:01:48 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 18
+"article_count": 19
 "sources":
   - "aws_architecture_blog"
   - "aws_japan_blog"
@@ -10,10 +10,11 @@
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 6 ソースから 18 本。セキュリティ速報として AWS CDK の @aws-cdk/aws-redshift-alpha のデータベースクエリ用カスタムリソースハンドラーにおける SQL インジェクション (CVE-2026-115418, Important) が公開された。What's New では OpenAI GPT-6.1 Terra の Amazon Bedrock での一般提供、Amazon ECR のレプリケーションバックフィル (既存イメージのレプリケーション) 対応、WorkSpaces Core Managed Instances の ModifyVolume API 対応、Amazon Connect Customer のテスト・シミュレーションでのフローアクション結果の検証、SageMaker Unified Studio の IDC ベースドメインでのライトモード対応。Amazon Neptune Database はオンラインのインデックス再構築に対応し、インデックスをデフラグして未使用のストレージ領域を回収できるようになった。Amazon Corretto の 2026 年 10 月のパッチ更新が 10 月 26 日に公開され、LTS と Feature Release の Corretto 27.0.1.0.11・25.0.5.0.10・21.0.13.0.11 などがダウンロード可能になった。Amazon IVS Low-Latency Streaming はフェイルオーバースレート (配信が予期せず途切れたときに視聴者へ表示するアニメーション画像) に対応した。AWS Japan Blog では Kiro を搭載した AWS Coding Plugin for SAP ABAP のリリースと、それを使った ABAP のスペック駆動開発 (SDD) の解説、Claude Haiku 5.5 の Kiro (IDE・CLI・Web・Crew) での提供開始が公開された。ブログでは次世代 AWS Resilience Hub の推奨レジリエンステスト、S3 annotations によるデータガバナンス、Bedrock の OpenAI モデル向けプロンプトキャッシュ、マネージド Bedrock Knowledge Base でのエージェント型検索、SageMaker SDK v3 によるエッジのコンピュータビジョン運用、週次まとめ (Amazon Polly Generative エンジン、Trainium 向け TorchNeuron など) が並んだ。
+  この日は 6 ソースから 19 本。セキュリティ速報として AWS CDK の @aws-cdk/aws-redshift-alpha のデータベースクエリ用カスタムリソースハンドラーにおける SQL インジェクション (CVE-2026-115418, Important) が公開された。What's New では OpenAI GPT-6.1 Terra の Amazon Bedrock での一般提供、Amazon Bedrock の Claude Haiku 5.5 向けカナダのクロスリージョン推論 (Canada CRIS、ca-central-1 とカナダ西部 (カルガリー) の ca-west-1 の間だけで推論を処理し、モデル選択が限定された推論プロファイルとして提供)、Amazon ECR のレプリケーションバックフィル (既存イメージのレプリケーション) 対応、WorkSpaces Core Managed Instances の ModifyVolume API 対応、Amazon Connect Customer のテスト・シミュレーションでのフローアクション結果の検証、SageMaker Unified Studio の IDC ベースドメインでのライトモード対応。Amazon Neptune Database はオンラインのインデックス再構築に対応し、インデックスをデフラグして未使用のストレージ領域を回収できるようになった。Amazon Corretto の 2026 年 10 月のパッチ更新が 10 月 26 日に公開され、LTS と Feature Release の Corretto 27.0.1.0.11・25.0.5.0.10・21.0.13.0.11 などがダウンロード可能になった。Amazon IVS Low-Latency Streaming はフェイルオーバースレート (配信が予期せず途切れたときに視聴者へ表示するアニメーション画像) に対応した。AWS Japan Blog では Kiro を搭載した AWS Coding Plugin for SAP ABAP のリリースと、それを使った ABAP のスペック駆動開発 (SDD) の解説、Claude Haiku 5.5 の Kiro (IDE・CLI・Web・Crew) での提供開始が公開された。ブログでは次世代 AWS Resilience Hub の推奨レジリエンステスト、S3 annotations によるデータガバナンス、Bedrock の OpenAI モデル向けプロンプトキャッシュ、マネージド Bedrock Knowledge Base でのエージェント型検索、SageMaker SDK v3 によるエッジのコンピュータビジョン運用、週次まとめ (Amazon Polly Generative エンジン、Trainium 向け TorchNeuron など) が並んだ。
 "topics":
   - "セキュリティ速報: CVE-2026-115418 (Bulletin ID 2026-151-AWS, Important)。AWS CDK の @aws-cdk/aws-redshift-alpha にあるデータベースクエリ用カスタムリソースハンドラーで SQL インジェクション (公開 2026/10/26 09:30 PDT)"
   - "生成AI: OpenAI GPT-6.1 Terra が Amazon Bedrock で一般提供開始。GPT-6 ファミリーの能力・速度・コストのバランス型モデル"
+  - "生成AI・データ所在地: Amazon Bedrock が Claude Haiku 5.5 向けにカナダのクロスリージョン推論 (Canada CRIS) を提供。ca-central-1 と ca-west-1 (カルガリー) の間だけでルーティングし、推論をカナダ国内に留める。モデル選択が限定された推論プロファイルで、将来のモデルが提供されない可能性あり。US CRIS と global CRIS も引き続き利用可能"
   - "コンテナ: Amazon ECR がレプリケーションバックフィルに対応。プライベートレジストリの既存イメージを、設定済みのレプリケーション先へ複製可能に"
   - "データベース: Amazon Neptune Database がオンラインのインデックス再構築に対応。インデックスをデフラグし未使用のストレージ領域を回収"
   - "開発ツール: Claude Haiku 5.5 が Kiro の IDE・CLI・Web・Crew のすべてで利用可能に。Claude 5.5 ファミリーで最も高速なモデルで、これで Claude 5.5 の 3 モデルがすべて Kiro で使える"
