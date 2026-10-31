@@ -1,0 +1,16 @@
+"entries":
+  "7d19701157477608fe5d388e2ad86e8c":
+    "id": "7d19701157477608fe5d388e2ad86e8c"
+    "title": "Kiro のハロウィンハッカソン Kiroween 2026 が始まりました"
+    "link": "https://aws.amazon.com/jp/blogs/news/kiroween-2026/"
+    "published": "2026-10-31 12:37:54"
+    "fetched": "2026-10-31 16:57:02"
+    "summary": "Kiro が毎年ハロウィンの時期に開いているハッカソン Kiroween が、今年も始まりました。提出の締め切りは日本時間 2026 年 12 月 5 日（土）午前 7 時で、賞金の総額は 10 万ドルです。"
+  "bcc794a3b1169ecba78a1ef8d544cfc7":
+    "id": "bcc794a3b1169ecba78a1ef8d544cfc7"
+    "title": "Spec it safe：セキュリティ要件で仕様をハードニングし、シフトレフトを実現する"
+    "link": "https://aws.amazon.com/jp/blogs/news/spec-it-safe/"
+    "published": "2026-10-31 11:33:02"
+    "fetched": "2026-10-31 16:57:02"
+    "summary": "spec 駆動開発 (SDD) は、大規模なチームのソフトウェア開発のやり方を変えつつあります。プロンプトだけに頼るのではなく spec を書き、それに沿って AI コーディングエージェントに設計、タスク、実装を進めさせます。"
+"last_updated": "2026-10-31 16:57:02 JST"
