@@ -1,0 +1,22 @@
+"date": "2026-11-03"
+"generated_at": "2026-11-03 06:01:19 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 14
+"sources":
+  - "aws_architecture_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 6 ソースから 14 本で、セキュリティ速報 2 件とディザスターリカバリー (DR) の連載が中心でした。セキュリティ速報の CVE-2026-119301 (Bulletin ID: 2026-161-AWS、11 月 2 日 08:30 PST 公開) は AWS SDK for pandas の Apache Iceberg 書き込みコンポーネントの問題で、Glue Data Catalog のメタデータを変更できる認証済みユーザーが、細工した列名によって、より権限の高いプリンシパルが読めるテーブルを読み取り、そのプリンシパルが更新中のテーブルへ書き込めるおそれがあります。影響は awswrangler 3.5.2 以上 3.17.1 未満です。CVE-2026-119085 (Bulletin ID: 2026-162-AWS、同 09:30 PST 公開) は Virtual Engineering Workbench の公開コンポーネントのテンプレートインジェクションで、リモートの認証済み第三者が公開用 Lambda の IAM ロールの権限で任意のコードを実行できるおそれがあり、2026-05-04 にマージされた PR #31 のコミット c146486 より前のすべてのコミットが影響を受けます。アーキテクチャブログでは DR の 4 本が公開され、DR の成否を決める 3 つのビジネス上の判断、机上演習から計画フェイルオーバー、抜き打ち訓練、ゲームデーへ進む 4 段階の検証、5 ステップの準備状況レビュー、AWS Elastic Disaster Recovery のエージェントの導入・修復・撤去の自動化を扱いました。What's New では RDS がスナップショット単位の課金に対応し (追加料金なし、既定で有効)、Amazon Quick のデスクトップアプリは Web と同じサインイン方法を使えるようになりました。機械学習ブログでは Circle K が Bedrock でインシデントのトリアージを 45〜60 分から 15 分未満に短縮した事例などが紹介されました。
+"topics":
+  - "セキュリティ速報: CVE-2026-119301 (2026-161-AWS)。AWS SDK for pandas の Iceberg 書き込みで SQL 識別子のクォート処理に不備。影響は awswrangler >= 3.5.2, < 3.17.1"
+  - "セキュリティ速報: CVE-2026-119085 (2026-162-AWS)。Virtual Engineering Workbench の公開コンポーネントにテンプレートインジェクション。c146486 (PR #31、2026-05-04 マージ) より前のコミットが影響"
+  - "災害対策: DR の 3 つのビジネス判断、4 段階の検証モデル、5 ステップの準備状況レビュー、Elastic Disaster Recovery エージェントのライフサイクル自動化"
+  - "データベース: RDS がスナップショット単位の課金に対応。コスト配分タグで個別の費用を把握でき、全商用リージョンと GovCloud (US) で既定で有効、追加料金なし"
+  - "業務アプリ: Amazon Quick のデスクトップアプリが Web と同じサインインに対応し、管理者による OIDC アプリの登録が不要に"
+  - "生成AI・事例: Circle K が Bedrock のエージェント型システムでインシデントのトリアージを 45〜60 分から 15 分未満に短縮"
+  - "生成AI: Nova Multimodal Embeddings と AgentCore の航空宇宙部品代替評価、SageMaker AI の知識蒸留、Crawl4AI による Bedrock Knowledge Bases 向けの Web コンテンツ準備"
+  - "その他: DKIM 鍵のローテーションだけでは防げないメールのリプレイ攻撃の解説、11 月 2 日の Weekly Roundup (Bedrock の GPT-6.1 Terra、エージェントのツールとして使える Step Functions)"
