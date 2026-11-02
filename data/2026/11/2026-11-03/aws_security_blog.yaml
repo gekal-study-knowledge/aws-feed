@@ -1,0 +1,9 @@
+"entries":
+  "c136a1789d625d1b975e1a6c946fedca":
+    "id": "c136a1789d625d1b975e1a6c946fedca"
+    "title": "Beyond DKIM key rotation: understanding email replay attacks"
+    "link": "https://aws.amazon.com/blogs/security/beyond-dkim-key-rotation-understanding-email-replay-attacks/"
+    "published": "2026-11-03 03:06:28"
+    "fetched": "2026-11-03 04:05:58"
+    "summary": "As the email administrator for your organization’s domain, you receive a Domain-based Message Authentication, Reporting, and Conformance (DMARC) aggregate report showing email passing DomainKeys Identified Mail (DKIM) verification as though it came from your domain, sent from IP addresses you don’t recognize to recipients you didn’t contact. To clear the issue, you rotate your DKIM […]"
+"last_updated": "2026-11-03 04:05:58 JST"

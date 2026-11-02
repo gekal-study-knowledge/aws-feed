@@ -1,0 +1,16 @@
+"entries":
+  "80b6eb1ac2a9829c804ffbb34d2aaf2e":
+    "id": "80b6eb1ac2a9829c804ffbb34d2aaf2e"
+    "title": "Amazon RDS now supports per snapshot billing"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/"
+    "published": "2026-11-03 03:43:00"
+    "fetched": "2026-11-03 04:05:56"
+    "summary": "<p>Starting today, Amazon RDS supports per snapshot billing for Amazon RDS snapshots. Per snapshot billing allows you to get the cost of each individual snapshot.</p> \n<p>Previously, RDS snapshot charges were aggregated at the database instance level on the Cost and Usage report as well as the Cost Explorer. This meant that while understanding the snapshot charges, you could only see the aggregate view at the database instance instead of drilling down to each individual snapshot. Now, you can use cost allocation tags on your snapshots to see exactly how much each snapshot costs, giving you a better understanding of your backups spend and budgets. Per snapshot billing is enabled by default on all RDS snapshots for no additional charge.</p> \n<p>Per snapshot billing is available for all Amazon RDS engines in all commercial AWS Regions and the AWS GovCloud (US) Regions. To learn more, please visit our <a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithAutomatedBackups.html\" target=\"_blank\">documentation</a>.</p>"
+  "16e7a5f09fd47ca6de6d74a4da7d161f":
+    "id": "16e7a5f09fd47ca6de6d74a4da7d161f"
+    "title": "Amazon Quick on desktop now uses your organization's existing Amazon Quick sign-in"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/"
+    "published": "2026-11-03 03:36:00"
+    "fetched": "2026-11-03 04:05:56"
+    "summary": "<p>For organizations that use Amazon Quick, the desktop application now signs users in with the same sign-in method the organization already uses for Quick on the web. Administrators no longer need to register an OIDC application in their identity provider or set up separate desktop sign-in before users can get started. If a user can sign in to Quick on the web, that user can sign in to the desktop application.</p> \n<p>To turn on desktop access, an administrator adds the desktop connector once in the Amazon Quick console. Users then enter their Quick account name, choose Sign In, and finish signing in through their browser. This works for accounts that use IAM Identity Center, IAM federation, or native Amazon Quick users. If your organization wants to manage desktop sign-in separately, you can still set up a dedicated identity provider configuration with providers such as Microsoft Entra ID, Google Workspace, Okta, or Ping Identity.</p> \n<p>Amazon Quick on desktop is available in <a href=\"https://docs.aws.amazon.com/quick/latest/userguide/regions.html#regions-qs\" target=\"_blank\">AWS Regions that support the full Amazon Quick feature set</a>.</p> \n<p>To get started, see <a href=\"https://docs.aws.amazon.com/quick/latest/userguide/amazon-quick-desktop.html\">Amazon Quick on desktop</a> in the Amazon Quick User Guide.</p>"
+"last_updated": "2026-11-03 04:05:56 JST"

@@ -1,0 +1,30 @@
+"entries":
+  "963617dfc14b37d23f58828e6a026a21":
+    "id": "963617dfc14b37d23f58828e6a026a21"
+    "title": "How to run a DR readiness engagement"
+    "link": "https://aws.amazon.com/blogs/architecture/how-to-run-a-dr-readiness-engagement/"
+    "published": "2026-11-03 02:26:49"
+    "fetched": "2026-11-03 04:05:59"
+    "summary": "This final post turns the DR framework into a repeatable engagement: a five-step sequence from kickoff and gap assessment through progressive validation to an updated recovery commitment, with a real before-and-after example and ways to compress the timeline from months to weeks. Part 3 of a three-part series."
+  "9686ba8e84f91e4504aa96491bf84b7c":
+    "id": "9686ba8e84f91e4504aa96491bf84b7c"
+    "title": "Validating your DR commitment: From controlled test to real-world readiness"
+    "link": "https://aws.amazon.com/blogs/architecture/validating-your-dr-commitment-from-controlled-test-to-real-world-readiness/"
+    "published": "2026-11-03 02:26:33"
+    "fetched": "2026-11-03 04:05:59"
+    "summary": "After you define your DR targets, testing tells you whether they hold. This post walks through a four-level progressive validation model (tabletop, planned failover, surprise drill, and game day) and shows how each level surfaces a different class of recovery gap that feeds back into your commitment. Part 2 of a three-part series."
+  "e6b0807ca690fb16d319c4b64ac56b74":
+    "id": "e6b0807ca690fb16d319c4b64ac56b74"
+    "title": "Three business decisions that define your DR success"
+    "link": "https://aws.amazon.com/blogs/architecture/three-business-decisions-that-define-your-dr-success/"
+    "published": "2026-11-03 02:26:26"
+    "fetched": "2026-11-03 04:05:59"
+    "summary": "A disaster recovery strategy is only as strong as the business decisions behind it. Before you choose an architecture pattern, three decisions shape whether recovery succeeds: what you're actually recovering, what the business needs from that recovery, and what your dependencies allow you to commit to. Part 1 of a three-part series."
+  "eb5e6b70e133c13f509c23d965707bc0":
+    "id": "eb5e6b70e133c13f509c23d965707bc0"
+    "title": "Automating the full AWS DRS agent lifecycle: Install, heal, and offboard"
+    "link": "https://aws.amazon.com/blogs/architecture/automating-the-full-aws-drs-agent-lifecycle-install-heal-and-offboard/"
+    "published": "2026-11-03 02:21:29"
+    "fetched": "2026-11-03 04:05:59"
+    "summary": "Keeping a large Amazon EC2 fleet continuously recoverable with AWS Elastic Disaster Recovery is a lifecycle challenge. This post shows how to automate the full DRS agent lifecycle (install, heal, and offboard) using AWS Systems Manager Automation and Amazon EventBridge, driven by a single EC2 tag and no Lambda functions."
+"last_updated": "2026-11-03 04:05:59 JST"

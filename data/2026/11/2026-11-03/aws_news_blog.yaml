@@ -1,0 +1,9 @@
+"entries":
+  "6a9f7048c1e8a9d91c228e872073616c":
+    "id": "6a9f7048c1e8a9d91c228e872073616c"
+    "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)"
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/"
+    "published": "2026-11-03 01:45:48"
+    "fetched": "2026-11-03 04:05:57"
+    "summary": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workflows teams already trust became callable without a rewrite. In the […]"
+"last_updated": "2026-11-03 04:05:57 JST"
