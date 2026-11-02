@@ -1,0 +1,16 @@
+"date": "2026-11-02"
+"generated_at": "2026-11-02 22:00:51 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 7
+"sources":
+  - "aws_japan_blog"
+  - "aws_security_blog"
+"overview": |
+  この日は日本語ブログを中心に、AI の安全な活用と AI 時代のセキュリティ対策を扱う記事が目立ちました。Amazon Connect Customer のネイティブ機能である AI ガードレールについて、プロンプト攻撃検出、コンテンツフィルタリング、PII 保護、コンテキストグラウンディングなど 7 つの保護コンポーネントと、責任ある AI フレームワークの 8 つの側面に沿った実装指針が解説されました。セキュリティでは、2026 年 10 月 23 日と 30 日に開催した臨時セミナー「フロンティア AI 時代のサイバー攻撃に備える」の開催報告があり、AWS WAF、Amazon Inspector、AWS Security Agent など利用者側で取り組める対策が紹介され、11 月からは週次のオンラインハンズオンも開催しています。国内事例では、ニッセイ情報テクノロジーが AI-DLC v2 と内製ツールで個人保険基幹系システムの AI 駆動開発を進める取り組みが紹介されました。このほか、Amazon EVS と FSx for ONTAP 上の Oracle Database について設計とデプロイ手順の 2 本が公開され、2026 年 10 月 24 日に実施した AWS European Sovereign Cloud の演習では、EU 域外のインフラに依存せず運用できることが実証されました。
+"topics":
+  - "AI ガードレール: Amazon Connect Customer で 7 つの保護コンポーネントによる責任ある AI の実装を解説"
+  - "セキュリティ: 臨時セミナー「フロンティア AI 時代のサイバー攻撃に備える」(10/23・10/30) の開催報告、11 月から週次ハンズオン"
+  - "国内事例: ニッセイ情報テクノロジーが AI-DLC v2 と内製ツールで個人保険基幹系の AI 駆動開発を推進"
+  - "生成 AI: 週刊生成AI 2026/10/26 週でドコモSMTBネット銀行の Amazon Connect Customer AI agents による自動応対などを紹介"
+  - "データベース: Amazon EVS と FSx for ONTAP 上の Oracle Database の高可用性設計とデプロイ手順"
+  - "ソブリンクラウド: AWS European Sovereign Cloud が 2026-10-24 の演習で EU 域外インフラに依存しない運用を実証"
