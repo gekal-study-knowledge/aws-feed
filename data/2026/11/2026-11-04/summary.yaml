@@ -1,0 +1,15 @@
+"date": "2026-11-04"
+"generated_at": "2026-11-04 06:00:51 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 6
+"sources":
+  - "aws_machine_learning_blog"
+"overview": |
+  この日は AWS Machine Learning Blog の記事が 6 本で、生成 AI とエージェント関連が中心。Amazon Bedrock で Kimi K3 のインド国内推論が提供され、処理をムンバイとハイデラバードのリージョン内にとどめられるようになった。Bedrock AgentCore 関連では、EDB Postgres AI と Strands Agents によるガバナンス付きセマンティックレイヤーの構築、Gen Digital が AgentCore Web Search で構築した Norton Revamp の AI ニュースエンジン事例、AgentCore Gateway と Microsoft Entra ID による on-behalf-of トークン交換で ServiceNow REST API を呼び出す構成が紹介された。ほかに Cartesia の State Space Model による 100ms 未満の音声 AI と、Amazon Quick で構造化・非構造化データを統合する手順を扱った。
+"topics":
+  - "Amazon Bedrock: Kimi K3 のインド国内推論を提供開始、処理をムンバイ・ハイデラバードリージョン内に限定 (グローバル/地理的クロスリージョン推論の選択肢も解説)"
+  - "Bedrock AgentCore: EDB Postgres AI 内にガバナンス付きセマンティックレイヤーを構築し、Strands Agents から問い合わせる構成"
+  - "Bedrock AgentCore: Gen Digital が AgentCore Web Search でグラウンディングした Norton Revamp の AI キュレーションニュースエンジンを構築した事例"
+  - "Bedrock AgentCore: AgentCore Gateway と Microsoft Entra ID の on-behalf-of (OBO) トークン交換で、呼び出しユーザーの権限を保ったまま ServiceNow REST API を呼ぶ設定"
+  - "音声 AI: AWS パートナー Cartesia が State Space Model で 100ms 未満の音声合成・音声認識を実現、Sonic モデルのデプロイ方法"
+  - "Amazon Quick: S3 をナレッジベースとして接続し、データセットの拡充・Space 作成・カスタムチャットエージェントで構造化/非構造化データを統合"
