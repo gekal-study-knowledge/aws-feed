@@ -1,0 +1,9 @@
+"entries":
+  "e3e81e77bd939945ee7a0cdf386160ee":
+    "id": "e3e81e77bd939945ee7a0cdf386160ee"
+    "title": "Introducing queue consumption mode for Apache Kafka in AWS Lambda"
+    "link": "https://aws.amazon.com/blogs/compute/introducing-queue-consumption-mode-for-apache-kafka-in-aws-lambda/"
+    "published": "2026-11-03 06:23:46"
+    "fetched": "2026-11-03 10:57:57"
+    "summary": "AWS Lambda event source mappings now support queue consumption mode for Apache Kafka. Using Kafka Share Groups, you can scale consumer parallelism independently of partition count, with per-record acknowledgment, visibility timeouts, and automatic retries on self-managed Kafka 4.2 or later clusters."
+"last_updated": "2026-11-03 10:57:57 JST"
