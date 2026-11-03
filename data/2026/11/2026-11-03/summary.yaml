@@ -1,22 +1,27 @@
 "date": "2026-11-03"
-"generated_at": "2026-11-03 06:01:19 JST"
+"generated_at": "2026-11-03 22:01:08 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 14
+"article_count": 27
 "sources":
   - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_news_blog"
   - "aws_security_blog"
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 6 ソースから 14 本で、セキュリティ速報 2 件とディザスターリカバリー (DR) の連載が中心でした。セキュリティ速報の CVE-2026-119301 (Bulletin ID: 2026-161-AWS、11 月 2 日 08:30 PST 公開) は AWS SDK for pandas の Apache Iceberg 書き込みコンポーネントの問題で、Glue Data Catalog のメタデータを変更できる認証済みユーザーが、細工した列名によって、より権限の高いプリンシパルが読めるテーブルを読み取り、そのプリンシパルが更新中のテーブルへ書き込めるおそれがあります。影響は awswrangler 3.5.2 以上 3.17.1 未満です。CVE-2026-119085 (Bulletin ID: 2026-162-AWS、同 09:30 PST 公開) は Virtual Engineering Workbench の公開コンポーネントのテンプレートインジェクションで、リモートの認証済み第三者が公開用 Lambda の IAM ロールの権限で任意のコードを実行できるおそれがあり、2026-05-04 にマージされた PR #31 のコミット c146486 より前のすべてのコミットが影響を受けます。アーキテクチャブログでは DR の 4 本が公開され、DR の成否を決める 3 つのビジネス上の判断、机上演習から計画フェイルオーバー、抜き打ち訓練、ゲームデーへ進む 4 段階の検証、5 ステップの準備状況レビュー、AWS Elastic Disaster Recovery のエージェントの導入・修復・撤去の自動化を扱いました。What's New では RDS がスナップショット単位の課金に対応し (追加料金なし、既定で有効)、Amazon Quick のデスクトップアプリは Web と同じサインイン方法を使えるようになりました。機械学習ブログでは Circle K が Bedrock でインシデントのトリアージを 45〜60 分から 15 分未満に短縮した事例などが紹介されました。
+  この日はセキュリティ速報が 4 件 (CVE-2026-119301 AWS SDK for pandas、CVE-2026-119085 Virtual Engineering Workbench、CVE-2026-120497 aidlc-traceability、CVE-2026-116635 AWS Serverless MCP Server) 公開された。AWS Lambda が Kafka Share Groups による Apache Kafka のキュー消費モードに対応し、セルフマネージド Kafka や Confluent Cloud でも利用可能になった。Aurora MySQL 8.4.10 と 3.14 (MySQL 8.0.46 互換) の一般提供、RDS のスナップショット単位課金、RDS for Oracle の M8i/R8i リージョン拡大、Amazon Connect Customer のフローでの MCP ツール呼び出し、Kiro の AWS GovCloud (US) での Haiku 5.5 提供も発表。ブログでは DR (災害復旧) シリーズ 4 本、Circle K のインシデントトリアージ短縮事例、Kiro が自身のハーネスの性質を Lean で証明する取り組みなどが出た。
 "topics":
-  - "セキュリティ速報: CVE-2026-119301 (2026-161-AWS)。AWS SDK for pandas の Iceberg 書き込みで SQL 識別子のクォート処理に不備。影響は awswrangler >= 3.5.2, < 3.17.1"
-  - "セキュリティ速報: CVE-2026-119085 (2026-162-AWS)。Virtual Engineering Workbench の公開コンポーネントにテンプレートインジェクション。c146486 (PR #31、2026-05-04 マージ) より前のコミットが影響"
-  - "災害対策: DR の 3 つのビジネス判断、4 段階の検証モデル、5 ステップの準備状況レビュー、Elastic Disaster Recovery エージェントのライフサイクル自動化"
-  - "データベース: RDS がスナップショット単位の課金に対応。コスト配分タグで個別の費用を把握でき、全商用リージョンと GovCloud (US) で既定で有効、追加料金なし"
-  - "業務アプリ: Amazon Quick のデスクトップアプリが Web と同じサインインに対応し、管理者による OIDC アプリの登録が不要に"
-  - "生成AI・事例: Circle K が Bedrock のエージェント型システムでインシデントのトリアージを 45〜60 分から 15 分未満に短縮"
-  - "生成AI: Nova Multimodal Embeddings と AgentCore の航空宇宙部品代替評価、SageMaker AI の知識蒸留、Crawl4AI による Bedrock Knowledge Bases 向けの Web コンテンツ準備"
-  - "その他: DKIM 鍵のローテーションだけでは防げないメールのリプレイ攻撃の解説、11 月 2 日の Weekly Roundup (Bedrock の GPT-6.1 Terra、エージェントのツールとして使える Step Functions)"
+  - "セキュリティ速報: CVE-2026-119301 (AWS SDK for pandas の Apache Iceberg SQL 識別子生成での引用構文の不適切な無害化)"
+  - "セキュリティ速報: CVE-2026-119085 (Virtual Engineering Workbench の公開コンポーネントにおけるテンプレートインジェクション)"
+  - "セキュリティ速報: CVE-2026-120497 (AWS AI-DLC Workflows の aidlc-traceability の HTML レポート生成における格納型 XSS)"
+  - "セキュリティ速報: CVE-2026-116635 (AWS Serverless MCP Server のデプロイ状況コンポーネントにおけるパストラバーサル)"
+  - "サーバーレス: AWS Lambda が Kafka Share Groups を使う Apache Kafka のキュー消費モードに対応、セルフマネージド Kafka・Confluent Cloud でも利用可能"
+  - "データベース: Aurora MySQL 8.4.10 と Aurora MySQL 3.14 (MySQL 8.0.46 互換) が一般提供、RDS がスナップショット単位の課金に対応、RDS for Oracle の M8i/R8i がアジアパシフィック (ニュージーランド) などに拡大"
+  - "コンタクトセンター: Amazon Connect Customer がフローの External Tool ブロックで MCP ツールを呼び出し可能に、Wait ブロックが Cases・External Tool イベントに対応"
+  - "開発ツール: Kiro で AWS GovCloud (US) でも Haiku 5.5 が利用可能に (Claude 5.5 の 3 モデルが揃う)、Amazon Quick デスクトップが組織の既存サインインを利用"
+  - "アーキテクチャ: DR の 3 つのビジネス判断、段階的な検証モデル、DR 準備エンゲージメント、AWS DRS エージェントのライフサイクル自動化の 4 本"
+  - "AI/ML: Circle K が Amazon Bedrock でインシデントトリアージを 45〜60 分から 15 分未満に短縮、Nova Multimodal Embeddings と AgentCore のマルチエージェント、SageMaker AI での知識蒸留、Crawl4AI と Bedrock Knowledge Bases"
+  - "その他: Kiro が自身のハーネスの性質を Lean で証明、DKIM 鍵ローテーションを超えたメールリプレイ攻撃の解説、re:Invent 2026 のオブザーバビリティ 25 セッション紹介、週刊AWS (10/26 週)、Weekly Roundup (GPT-6.1 Terra on Bedrock ほか)"

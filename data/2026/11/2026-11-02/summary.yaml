@@ -1,16 +1,19 @@
 "date": "2026-11-02"
-"generated_at": "2026-11-02 22:00:51 JST"
+"generated_at": "2026-11-03 22:01:08 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 7
+"article_count": 12
 "sources":
   - "aws_japan_blog"
   - "aws_security_blog"
+  - "aws_whats_new"
 "overview": |
-  この日は日本語ブログを中心に、AI の安全な活用と AI 時代のセキュリティ対策を扱う記事が目立ちました。Amazon Connect Customer のネイティブ機能である AI ガードレールについて、プロンプト攻撃検出、コンテンツフィルタリング、PII 保護、コンテキストグラウンディングなど 7 つの保護コンポーネントと、責任ある AI フレームワークの 8 つの側面に沿った実装指針が解説されました。セキュリティでは、2026 年 10 月 23 日と 30 日に開催した臨時セミナー「フロンティア AI 時代のサイバー攻撃に備える」の開催報告があり、AWS WAF、Amazon Inspector、AWS Security Agent など利用者側で取り組める対策が紹介され、11 月からは週次のオンラインハンズオンも開催しています。国内事例では、ニッセイ情報テクノロジーが AI-DLC v2 と内製ツールで個人保険基幹系システムの AI 駆動開発を進める取り組みが紹介されました。このほか、Amazon EVS と FSx for ONTAP 上の Oracle Database について設計とデプロイ手順の 2 本が公開され、2026 年 10 月 24 日に実施した AWS European Sovereign Cloud の演習では、EU 域外のインフラに依存せず運用できることが実証されました。
+  この日は Amazon Textract のアジアパシフィック (東京)・欧州 (チューリッヒ) リージョン対応と新しいテキスト検出モデル、Amazon Inspector による EC2 AMI の脆弱性スキャン、CloudFront の Service Quotas 対応 (28 クォータ) など実用的なアップデートが並んだ。AWS for Fluent Bit 3.0.0 (Fluent Bit 4.1.1・Amazon Linux 2023 ベース) も発表。ブログでは AWS European Sovereign Cloud が EU 外のインフラに依存せず運用できることを示した 10 月 24 日の演習報告、Amazon Connect Customer の AI ガードレール解説、Amazon EVS と FSx for ONTAP 上の Oracle Database の設計・デプロイ手順、ニッセイ情報テクノロジーの AI-DLC 事例、臨時セキュリティセミナーの開催報告が出た。
 "topics":
-  - "AI ガードレール: Amazon Connect Customer で 7 つの保護コンポーネントによる責任ある AI の実装を解説"
-  - "セキュリティ: 臨時セミナー「フロンティア AI 時代のサイバー攻撃に備える」(10/23・10/30) の開催報告、11 月から週次ハンズオン"
-  - "国内事例: ニッセイ情報テクノロジーが AI-DLC v2 と内製ツールで個人保険基幹系の AI 駆動開発を推進"
-  - "生成 AI: 週刊生成AI 2026/10/26 週でドコモSMTBネット銀行の Amazon Connect Customer AI agents による自動応対などを紹介"
-  - "データベース: Amazon EVS と FSx for ONTAP 上の Oracle Database の高可用性設計とデプロイ手順"
-  - "ソブリンクラウド: AWS European Sovereign Cloud が 2026-10-24 の演習で EU 域外インフラに依存しない運用を実証"
+  - "AI/ML: Amazon Textract が東京・チューリッヒリージョンで利用可能に、更新版テキスト検出モデルで精度・多言語対応・表抽出を改善"
+  - "セキュリティ: Amazon Inspector がインスタンスを起動せずに EC2 AMI の脆弱性をスキャン可能に"
+  - "ネットワーク: Amazon CloudFront が AWS Service Quotas に対応し、28 のクォータをセルフサービスで確認・引き上げ申請可能に"
+  - "コンテナ: AWS for Fluent Bit 3.0.0 (Fluent Bit 4.1.1・Amazon Linux 2023 ベース) を発表"
+  - "ソブリンクラウド: 2026 年 10 月 24 日に AWS European Sovereign Cloud が EU 外インフラに依存せず運用できることを示す演習を実施"
+  - "コンタクトセンター: Amazon Connect Customer の AI ガードレール (プロンプト攻撃検出・PII 保護など 7 コンポーネント) の解説"
+  - "データベース: Amazon EVS と FSx for NetApp ONTAP 上での Oracle Database の高可用性設計とデプロイ手順"
+  - "事例・イベント: ニッセイ情報テクノロジーの AI-DLC v2 による AI 駆動開発、臨時 AWS セキュリティセミナー (10/23・10/30) の開催報告、週刊生成AI with AWS"
