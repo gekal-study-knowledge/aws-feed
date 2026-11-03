@@ -1,0 +1,23 @@
+"entries":
+  "8e3ff59010e8379a6caa4137f76d3f78":
+    "id": "8e3ff59010e8379a6caa4137f76d3f78"
+    "title": "re:Invent 2026 で AI 時代のオブザーバビリティを学ぶ"
+    "link": "https://aws.amazon.com/jp/blogs/news/embracing-observability-for-the-ai-era-at-reinvent-2026/"
+    "published": "2026-11-03 13:57:46"
+    "fetched": "2026-11-03 18:08:09"
+    "summary": "AWS re:Invent 2026 の Cloud Operations トラックから、Monitoring and Observability の 25 セッションを 6 つのテーマに沿って紹介します。本番環境の AI エージェントの観測、OpenTelemetry による標準化、ログ活用、フルスタックのパフォーマンストレース、マネージドなオープンソースオブザーバビリティまで、参加計画に役立つセッションを取り上げます。"
+  "9fc8e52b64bedfbd7864dd9b9e3f4590":
+    "id": "9fc8e52b64bedfbd7864dd9b9e3f4590"
+    "title": "週刊AWS – 2026/10/26週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20261026/"
+    "published": "2026-11-03 13:00:20"
+    "fetched": "2026-11-03 18:08:09"
+    "summary": "OpenAI GPT-6.1 Terra が Amazon Bedrock で一般提供開始、Amazon EKS Auto Mode が Kubernetes Gateway API をサポート、Amazon ECS で NVIDIA MPS による GPU 共有が可能に、Amazon SageMaker AI のリアルタイム推論で GPU パーティショニングに対応、AWS Lambda Managed Instances で SOCI による遅延読み込みに対応、Amazon Quick でエージェントアクションのスマート承認に対応、次世代 Amazon OpenSearch Serverless で時系列コレクションが利用可能に、Amazon Redshift で自動クロスリージョンバックアップが可能に、AWS KMS がポスト量子暗号の ML-KEM をサポート、Amazon Aurora PostgreSQL でポスト量子 TLS 鍵交換をサポート等"
+  "96ec9379fd8e549c18c44bc9192550d0":
+    "id": "96ec9379fd8e549c18c44bc9192550d0"
+    "title": "Kiro が自身のハーネスの性質を Lean で証明する"
+    "link": "https://aws.amazon.com/jp/blogs/news/harness-properties-in-lean/"
+    "published": "2026-11-03 11:03:10"
+    "fetched": "2026-11-03 18:08:09"
+    "summary": "Kiro が自身のコードの一部を Lean でモデル化し、そのモデルについての定理を証明し、各モデルを TypeScript、Rust、Python のコードと照らし合わせる作業を、自動で進める仕組みを作りました。最初に適用した対象は Kiro 自身です。"
+"last_updated": "2026-11-03 18:08:09 JST"
