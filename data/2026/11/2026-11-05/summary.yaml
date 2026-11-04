@@ -1,0 +1,17 @@
+"date": "2026-11-05"
+"generated_at": "2026-11-05 06:01:11 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 6
+"sources":
+  - "aws_compute_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は 6 本。AWS Interconnect - last mile が Equinix とのプレビューとして提供開始され、Equinix の世界 282 のデータセンターにあるインフラを数クリックで AWS に接続できるようになった。AWS Compute Blog では、Amazon EC2 Capacity Manager のリアルタイムなサポート可否チェックとキャパシティ充足メトリクスを使い、大規模 EC2 フリートでインスタンスタイプとアベイラビリティーゾーンの柔軟性を計画・計測する方法を紹介した。AWS Machine Learning Blog は 4 本で、マレーシアの 5G 事業者 U Mobile が Amazon Bedrock AgentCore 上に構築した自律型の通信運用プラットフォーム AiDaH、Indegene がライフサイエンス向けデータ基盤 NEXT Unified Data Platform に組み込んだ LLM ベースのデータ品質エージェント、Deep Insight による本番 AI エージェントのコンテキストエンジニアリング 4 層 (アーキテクチャ・プロンプト・ファイルベースのツール・検証エージェント) の実装、Amazon Quick の Smart Approvals による重要な判断だけを人に残すエージェント操作の承認が取り上げられた。
+"topics":
+  - "ネットワーク: AWS Interconnect - last mile が Equinix とのプレビューで提供開始、世界 282 の Equinix データセンターから数クリックで AWS に接続"
+  - "コンピューティング: Amazon EC2 Capacity Manager のサポート可否チェックとキャパシティ充足メトリクスで、インスタンスタイプと AZ の柔軟性を計画・計測"
+  - "Bedrock AgentCore: U Mobile (マレーシアの 5G 事業者) がエージェント型の通信運用プラットフォーム AiDaH を構築し、支援から自律的な実行へ"
+  - "AI/ML: Indegene が NEXT Unified Data Platform に LLM ベースのデータ品質エージェントを構築、文脈に応じた品質ルールを生成・検証"
+  - "AI エージェント: Deep Insight が実装した本番 AI エージェント向けコンテキストエンジニアリングの 4 層 (アーキテクチャ・プロンプト・ファイルベースツール・検証エージェント)"
+  - "Amazon Quick: Smart Approvals が既存の統制の範囲でエージェント操作を審査し、不要な承認要求を減らしつつ重要な判断は人に残す"
