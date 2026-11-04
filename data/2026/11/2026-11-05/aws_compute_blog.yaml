@@ -1,0 +1,9 @@
+"entries":
+  "e97ae0fd0feb1d05e85d250a50432927":
+    "id": "e97ae0fd0feb1d05e85d250a50432927"
+    "title": "Plan and measure EC2 flexibility with Amazon EC2 Capacity Manager"
+    "link": "https://aws.amazon.com/blogs/compute/plan-and-measure-ec2-flexibility-with-amazon-ec2-capacity-manager/"
+    "published": "2026-11-05 03:11:34"
+    "fetched": "2026-11-05 03:24:19"
+    "summary": "Amazon EC2 Capacity Manager offers real-time supportability checks and capacity fulfillment metrics for large EC2 fleets. This post shows how to measure how well your instance type and Availability Zone flexibility performs, find where capacity is strongest before a scale-up, and add it to Auto Scaling groups, Amazon EC2 Fleet, or Karpenter."
+"last_updated": "2026-11-05 03:24:19 JST"

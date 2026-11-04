@@ -1,0 +1,30 @@
+"entries":
+  "e1175e18ecf9b1cadf9dfcded5fb81cb":
+    "id": "e1175e18ecf9b1cadf9dfcded5fb81cb"
+    "title": "Smart Approvals in Amazon Quick: Human oversight where it matters"
+    "link": "https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters/"
+    "published": "2026-11-05 01:33:03"
+    "fetched": "2026-11-05 03:24:18"
+    "summary": "Smart Approvals in Amazon Quick reviews eligible agent actions within your existing controls, reducing unnecessary approval prompts while keeping consequential decisions with a person. See how policy sets the boundary, how a classifier reviews actions, and how AWS CloudTrail and Amazon CloudWatch Logs support audit."
+  "7a43d3e2947152e114e78db97b6bea3a":
+    "id": "7a43d3e2947152e114e78db97b6bea3a"
+    "title": "Four layers of context engineering for production AI agents: How Deep Insight applies them in working code"
+    "link": "https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code/"
+    "published": "2026-11-05 01:30:40"
+    "fetched": "2026-11-05 03:24:18"
+    "summary": "In production AI agents, context management is the real bottleneck. This post presents a four-layer context engineering framework (architecture, prompts, file-based tools, and verification agents), implemented in working code from Deep Insight, an open source multi-agent data analysis solution on the Strands Agents SDK and Amazon Bedrock AgentCore."
+  "c72939c41902cce16cea6e1e420c2e13":
+    "id": "c72939c41902cce16cea6e1e420c2e13"
+    "title": "How Indegene is modernizing and scaling enterprise data quality in life sciences"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences/"
+    "published": "2026-11-05 01:25:57"
+    "fetched": "2026-11-05 03:24:18"
+    "summary": "This post explores how Indegene built a production-grade, LLM-powered Data Quality Agent in its NEXT Unified Data Platform on AWS. The agent generates context-aware data quality rules, validates them, and produces ready-to-run SQL and Python under human-in-the-loop governance, helping life sciences organizations scale enterprise data quality."
+  "8e7d1a384adad8597b046ba1502a1915":
+    "id": "8e7d1a384adad8597b046ba1502a1915"
+    "title": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/"
+    "published": "2026-11-05 01:23:33"
+    "fetched": "2026-11-05 03:24:18"
+    "summary": "U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%."
+"last_updated": "2026-11-05 03:24:18 JST"
