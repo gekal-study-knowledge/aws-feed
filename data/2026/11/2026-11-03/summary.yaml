@@ -1,7 +1,7 @@
 "date": "2026-11-03"
-"generated_at": "2026-11-04 08:11:45 JST"
+"generated_at": "2026-11-04 22:01:06 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 29
+"article_count": 30
 "sources":
   - "aws_architecture_blog"
   - "aws_compute_blog"
@@ -12,7 +12,7 @@
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日はセキュリティ速報が 4 件 (CVE-2026-119301 AWS SDK for pandas、CVE-2026-119085 Virtual Engineering Workbench、CVE-2026-120497 aidlc-traceability、CVE-2026-116635 AWS Serverless MCP Server) 公開された。AWS Lambda が Kafka Share Groups による Apache Kafka のキュー消費モードに対応し、セルフマネージド Kafka や Confluent Cloud でも利用可能になった。Aurora MySQL 8.4.10 と 3.14 (MySQL 8.0.46 互換) の一般提供、RDS のスナップショット単位課金、RDS for Oracle の M8i/R8i リージョン拡大、Amazon Connect Customer のフローでの MCP ツール呼び出し、Kiro の AWS GovCloud (US) での Haiku 5.5 提供も発表。ブログでは DR (災害復旧) シリーズ 4 本、Circle K のインシデントトリアージ短縮事例、Kiro が自身のハーネスの性質を Lean で証明する取り組みなどが出た。あわせて AWS Transform for mainframe が、同じテーブルやファイルを使う業務機能をまとめていた従来の挙動を改め、データフィールド単位で業務機能を識別できるようになり、画面やキューも含めた要件カバレッジレポートを生成できるようになった。Amazon EKS Capabilities の Argo CD は Argo CD Notifications に対応し、クラスター内でトリガーとメッセージテンプレートを定義して Slack・PagerDuty・Opsgenie・Amazon SQS・Amazon EventBridge など 16 の通知サービスへ配信できる (SQS と EventBridge は IAM Capability Role で認証するため、クラスターに資格情報を置かずに済む)。
+  この日はセキュリティ速報が 4 件 (CVE-2026-119301 AWS SDK for pandas、CVE-2026-119085 Virtual Engineering Workbench、CVE-2026-120497 aidlc-traceability、CVE-2026-116635 AWS Serverless MCP Server) 公開された。AWS Lambda が Kafka Share Groups による Apache Kafka のキュー消費モードに対応し、セルフマネージド Kafka や Confluent Cloud でも利用可能になった。Aurora MySQL 8.4.10 と 3.14 (MySQL 8.0.46 互換) の一般提供、RDS のスナップショット単位課金、RDS for Oracle の M8i/R8i リージョン拡大、Amazon Connect Customer のフローでの MCP ツール呼び出し、Kiro の AWS GovCloud (US) での Haiku 5.5 提供も発表。ブログでは DR (災害復旧) シリーズ 4 本、Circle K のインシデントトリアージ短縮事例、Kiro が自身のハーネスの性質を Lean で証明する取り組みなどが出た。あわせて AWS Transform for mainframe が、同じテーブルやファイルを使う業務機能をまとめていた従来の挙動を改め、データフィールド単位で業務機能を識別できるようになり、画面やキューも含めた要件カバレッジレポートを生成できるようになった。Amazon EKS Capabilities の Argo CD は Argo CD Notifications に対応し、クラスター内でトリガーとメッセージテンプレートを定義して Slack・PagerDuty・Opsgenie・Amazon SQS・Amazon EventBridge など 16 の通知サービスへ配信できる (SQS と EventBridge は IAM Capability Role で認証するため、クラスターに資格情報を置かずに済む)。また Amazon RDS for SQL Server が Microsoft SQL Server の最新の累積更新プログラム (CU) と GDR 更新に対応した。
 "topics":
   - "セキュリティ速報: CVE-2026-119301 (AWS SDK for pandas の Apache Iceberg SQL 識別子生成での引用構文の不適切な無害化)"
   - "セキュリティ速報: CVE-2026-119085 (Virtual Engineering Workbench の公開コンポーネントにおけるテンプレートインジェクション)"
@@ -27,3 +27,4 @@
   - "その他: Kiro が自身のハーネスの性質を Lean で証明、DKIM 鍵ローテーションを超えたメールリプレイ攻撃の解説、re:Invent 2026 のオブザーバビリティ 25 セッション紹介、週刊AWS (10/26 週)、Weekly Roundup (GPT-6.1 Terra on Bedrock ほか)"
   - "マイグレーション: AWS Transform for mainframe がデータフィールド単位で業務機能を識別、画面やキューも含む要件カバレッジレポートを生成 (z/OS COBOL・PL/I 向け)"
   - "コンテナ: Amazon EKS Capabilities の Argo CD が Argo CD Notifications に対応、Slack・PagerDuty・Amazon SQS・EventBridge など 16 の通知サービスへ配信"
+  - "データベース: Amazon RDS for SQL Server が Microsoft SQL Server の最新 CU (累積更新プログラム) と GDR 更新に対応"

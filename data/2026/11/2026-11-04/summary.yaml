@@ -1,13 +1,14 @@
 "date": "2026-11-04"
-"generated_at": "2026-11-04 08:11:45 JST"
+"generated_at": "2026-11-04 22:01:06 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 12
+"article_count": 13
 "sources":
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日はセキュリティ速報が 3 件 (CVE-2026-121652 maplibre-gl-js-amplify、CVE-2026-119084 Amazon Redshift JDBC Driver、CVE-2026-119922 Babelfish for PostgreSQL) 公開された。AWS Machine Learning Blog の記事は 6 本で、生成 AI とエージェント関連が中心。Amazon Bedrock で Kimi K3 のインド国内推論が提供され、処理をムンバイとハイデラバードのリージョン内にとどめられるようになった。Bedrock AgentCore 関連では、EDB Postgres AI と Strands Agents によるガバナンス付きセマンティックレイヤーの構築、Gen Digital が AgentCore Web Search で構築した Norton Revamp の AI ニュースエンジン事例、AgentCore Gateway と Microsoft Entra ID による on-behalf-of トークン交換で ServiceNow REST API を呼び出す構成が紹介された。ほかに Cartesia の State Space Model による 100ms 未満の音声 AI と、Amazon Quick で構造化・非構造化データを統合する手順を扱った。このほか Amazon Connect Customer で、エージェントがメールを一時停止して後から再開できるようになり (一時停止時間はアクティブな処理時間と分けて計測される)、ケースから新しいメールスレッドを開始するときに顧客プロファイルのメールアドレスが自動入力されるようになった。AWS Config は Amazon ElastiCache や Amazon QuickSight などの 10 のリソースタイプを新たにサポートし、全リソースタイプの記録を有効にしている場合は自動で追跡対象に加わる。
+  この日はセキュリティ速報が 3 件 (CVE-2026-121652 maplibre-gl-js-amplify、CVE-2026-119084 Amazon Redshift JDBC Driver、CVE-2026-119922 Babelfish for PostgreSQL) 公開された。AWS Machine Learning Blog の記事は 6 本で、生成 AI とエージェント関連が中心。Amazon Bedrock で Kimi K3 のインド国内推論が提供され、処理をムンバイとハイデラバードのリージョン内にとどめられるようになった。Bedrock AgentCore 関連では、EDB Postgres AI と Strands Agents によるガバナンス付きセマンティックレイヤーの構築、Gen Digital が AgentCore Web Search で構築した Norton Revamp の AI ニュースエンジン事例、AgentCore Gateway と Microsoft Entra ID による on-behalf-of トークン交換で ServiceNow REST API を呼び出す構成が紹介された。ほかに Cartesia の State Space Model による 100ms 未満の音声 AI と、Amazon Quick で構造化・非構造化データを統合する手順を扱った。このほか Amazon Connect Customer で、エージェントがメールを一時停止して後から再開できるようになり (一時停止時間はアクティブな処理時間と分けて計測される)、ケースから新しいメールスレッドを開始するときに顧客プロファイルのメールアドレスが自動入力されるようになった。AWS Config は Amazon ElastiCache や Amazon QuickSight などの 10 のリソースタイプを新たにサポートし、全リソースタイプの記録を有効にしている場合は自動で追跡対象に加わる。AWS Japan Blog では前日に英語版が出た AWS Weekly Roundup (11 月 2 日号) の日本語版が公開され、GPT-6.1 Terra on Bedrock やエージェントツールとしての Step Functions など 10 月 26 日週の発表を振り返った。
 "topics":
   - "セキュリティ速報: CVE-2026-121652 (AWS Amplify の maplibre-gl-js-amplify のポップアップ・ジオフェンスコントロール描画における格納型 XSS、4.0.2 以下が影響)"
   - "セキュリティ速報: CVE-2026-119084 (Amazon Redshift JDBC Driver 2.3.0 未満で、JDBC 接続 URL パラメータや認証情報プロファイルの処理時に安全でないクラスロードが起きリモートコード実行の恐れ)"
@@ -20,3 +21,4 @@
   - "Amazon Quick: S3 をナレッジベースとして接続し、データセットの拡充・Space 作成・カスタムチャットエージェントで構造化/非構造化データを統合"
   - "コンタクトセンター: Amazon Connect Customer でメールの一時停止・再開が可能に (一時停止時間を分けて計測)、ケースからの新規メールスレッドで顧客のメールアドレスを自動入力"
   - "ガバナンス: AWS Config が Amazon ElastiCache・Amazon QuickSight などの 10 リソースタイプを新たにサポート"
+  - "その他: AWS Weekly Roundup (2026 年 11 月 2 日号) の日本語版、GPT-6.1 Terra on Bedrock、エージェントツールとしての Step Functions など 10 月 26 日週の発表"
