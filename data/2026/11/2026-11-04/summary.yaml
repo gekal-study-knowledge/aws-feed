@@ -1,25 +1,26 @@
 "date": "2026-11-04"
-"generated_at": "2026-11-05 06:01:11 JST"
+"generated_at": "2026-11-06 06:02:24 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 14
+"article_count": 19
 "sources":
   - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日はセキュリティ速報が 3 件 (CVE-2026-121652 maplibre-gl-js-amplify、CVE-2026-119084 Amazon Redshift JDBC Driver、CVE-2026-119922 Babelfish for PostgreSQL) 公開された。AWS Machine Learning Blog の記事は 6 本で、生成 AI とエージェント関連が中心。Amazon Bedrock で Kimi K3 のインド国内推論が提供され、処理をムンバイとハイデラバードのリージョン内にとどめられるようになった。Bedrock AgentCore 関連では、EDB Postgres AI と Strands Agents によるガバナンス付きセマンティックレイヤーの構築、Gen Digital が AgentCore Web Search で構築した Norton Revamp の AI ニュースエンジン事例、AgentCore Gateway と Microsoft Entra ID による on-behalf-of トークン交換で ServiceNow REST API を呼び出す構成が紹介された。ほかに Cartesia の State Space Model による 100ms 未満の音声 AI と、Amazon Quick で構造化・非構造化データを統合する手順を扱った。このほか Amazon Connect Customer で、エージェントがメールを一時停止して後から再開できるようになり (一時停止時間はアクティブな処理時間と分けて計測される)、ケースから新しいメールスレッドを開始するときに顧客プロファイルのメールアドレスが自動入力されるようになった。AWS Config は Amazon ElastiCache や Amazon QuickSight などの 10 のリソースタイプを新たにサポートし、全リソースタイプの記録を有効にしている場合は自動で追跡対象に加わる。AWS Japan Blog では前日に英語版が出た AWS Weekly Roundup (11 月 2 日号) の日本語版が公開され、GPT-6.1 Terra on Bedrock やエージェントツールとしての Step Functions など 10 月 26 日週の発表を振り返った。また Amazon WorkSpaces for AI agents が、従来の Windows Server に加えて Linux と Windows 11 のクラウドデスクトップに対応し、AI エージェントごとにワークフローやアプリケーションが必要とする OS を選べるようになった。
+  この日はセキュリティ速報が 3 件 (CVE-2026-121652 maplibre-gl-js-amplify、CVE-2026-119084 Amazon Redshift JDBC Driver、CVE-2026-119922 Babelfish for PostgreSQL) 公開された。AWS Machine Learning Blog の記事は 6 本で、生成 AI とエージェント関連が中心。Amazon Bedrock で Kimi K3 のインド国内推論が提供され、処理をムンバイとハイデラバードのリージョン内にとどめられるようになった。Bedrock AgentCore 関連では、EDB Postgres AI と Strands Agents によるガバナンス付きセマンティックレイヤーの構築、Gen Digital が AgentCore Web Search で構築した Norton Revamp の AI ニュースエンジン事例、AgentCore Gateway と Microsoft Entra ID による on-behalf-of トークン交換で ServiceNow REST API を呼び出す構成が紹介された。ほかに Cartesia の State Space Model による 100ms 未満の音声 AI と、Amazon Quick で構造化・非構造化データを統合する手順を扱った。Amazon S3 Tables では、Apache Hive テーブルを Apache Iceberg へマネージドに移行できるようになり、ACID トランザクション・スキーマ進化・タイムトラベルを備えたデータレイクへ移りやすくなった。EC2 関連では、Amazon EC2 Capacity Manager にリアルタイムのサポート可否チェック (インスタンスタイプごとの容量確保のしやすさのスコア) と容量充足メトリクスが加わり、EC2・VPC・AWS Global View のコンソールで、これまでセキュリティグループなどに限られていた関連リソースの表示が全リソースタイプに広がった。AWS DataSync の Enhanced mode は、Google Cloud Storage と Microsoft Azure Blob Storage のロケーションで OpenID Connect (OIDC) 認証に対応した。Amazon WorkSpaces Personal には Rocky Linux 10・Red Hat Enterprise Linux 10・Ubuntu 26.04 LTS のバンドルが追加され、WorkSpaces for AI agents も従来の Windows Server に加えて Linux と Windows 11 のクラウドデスクトップに対応した。このほか Amazon Connect Customer で、エージェントがメールを一時停止して後から再開できるようになり、ケースから新しいメールスレッドを開始するときに顧客プロファイルのメールアドレスが自動入力されるようになった。AWS Config は Amazon ElastiCache や Amazon QuickSight などの 10 のリソースタイプを新たにサポートした。AWS Japan Blog では AWS Weekly Roundup (11 月 2 日号) の日本語版が公開され、GPT-6.1 Terra on Bedrock やエージェントツールとしての Step Functions など 10 月 26 日週の発表を振り返った。
 "topics":
-  - "セキュリティ速報: CVE-2026-121652 (AWS Amplify の maplibre-gl-js-amplify のポップアップ・ジオフェンスコントロール描画における格納型 XSS、4.0.2 以下が影響)"
-  - "セキュリティ速報: CVE-2026-119084 (Amazon Redshift JDBC Driver 2.3.0 未満で、JDBC 接続 URL パラメータや認証情報プロファイルの処理時に安全でないクラスロードが起きリモートコード実行の恐れ)"
-  - "セキュリティ速報: CVE-2026-119922 (Babelfish for PostgreSQL 拡張の不適切なアクセス制御により、認証済みのリモートユーザーが権限昇格可能)"
-  - "Amazon Bedrock: Kimi K3 のインド国内推論を提供開始、処理をムンバイ・ハイデラバードリージョン内に限定 (グローバル/地理的クロスリージョン推論の選択肢も解説)"
-  - "Bedrock AgentCore: EDB Postgres AI 内にガバナンス付きセマンティックレイヤーを構築し、Strands Agents から問い合わせる構成"
-  - "Bedrock AgentCore: Gen Digital が AgentCore Web Search でグラウンディングした Norton Revamp の AI キュレーションニュースエンジンを構築した事例"
-  - "Bedrock AgentCore: AgentCore Gateway と Microsoft Entra ID の on-behalf-of (OBO) トークン交換で、呼び出しユーザーの権限を保ったまま ServiceNow REST API を呼ぶ設定"
-  - "音声 AI: AWS パートナー Cartesia が State Space Model で 100ms 未満の音声合成・音声認識を実現、Sonic モデルのデプロイ方法"
-  - "Amazon Quick: S3 をナレッジベースとして接続し、データセットの拡充・Space 作成・カスタムチャットエージェントで構造化/非構造化データを統合"
-  - "コンタクトセンター: Amazon Connect Customer でメールの一時停止・再開が可能に (一時停止時間を分けて計測)、ケースからの新規メールスレッドで顧客のメールアドレスを自動入力"
+  - "セキュリティ速報: CVE-2026-121652 (AWS Amplify の maplibre-gl-js-amplify のポップアップ描画における格納型 XSS)"
+  - "セキュリティ速報: CVE-2026-119084 (Amazon Redshift JDBC Driver 2.3.0 未満で、接続パラメータ処理時の安全でないクラスロードによりリモートコード実行の恐れ)"
+  - "セキュリティ速報: CVE-2026-119922 (Babelfish for PostgreSQL 拡張の不適切なアクセス制御による権限昇格)"
+  - "Amazon Bedrock: Kimi K3 のインド国内推論を提供開始、処理をムンバイ・ハイデラバードリージョン内に限定"
+  - "Bedrock AgentCore: EDB Postgres AI のセマンティックレイヤーを Strands Agents から利用、Gen Digital の Norton Revamp ニュースエンジン事例、AgentCore Gateway と Entra ID の OBO トークン交換で ServiceNow REST API を呼ぶ構成"
+  - "音声 AI: Cartesia が State Space Model で 100ms 未満の音声合成・音声認識を実現、Sonic モデルのデプロイ方法"
+  - "Amazon Quick: S3 をナレッジベースとして接続し、構造化/非構造化データを統合するカスタムチャットエージェントを作成"
+  - "分析: Amazon S3 Tables が Apache Hive テーブルから Apache Iceberg へのマネージド移行に対応"
+  - "コンピューティング: EC2 Capacity Manager にリアルタイムのサポート可否チェックと容量充足メトリクス、EC2・VPC・Global View コンソールで全リソースタイプの関連リソースを表示"
+  - "移行: AWS DataSync Enhanced mode が Google Cloud Storage・Azure Blob Storage ロケーションで OIDC 認証に対応"
+  - "エンドユーザーコンピューティング: WorkSpaces Personal に Rocky Linux 10・RHEL 10・Ubuntu 26.04 LTS バンドル、WorkSpaces for AI agents が Linux・Windows 11 に対応"
+  - "コンタクトセンター: Amazon Connect Customer でメールの一時停止・再開、ケースからの新規メールスレッドで顧客のメールアドレスを自動入力"
   - "ガバナンス: AWS Config が Amazon ElastiCache・Amazon QuickSight などの 10 リソースタイプを新たにサポート"
-  - "その他: AWS Weekly Roundup (2026 年 11 月 2 日号) の日本語版、GPT-6.1 Terra on Bedrock、エージェントツールとしての Step Functions など 10 月 26 日週の発表"
-  - "エンドユーザーコンピューティング: Amazon WorkSpaces for AI agents が Windows Server に加えて Linux・Windows 11 のクラウドデスクトップに対応"
+  - "その他: AWS Weekly Roundup (2026 年 11 月 2 日号) の日本語版、GPT-6.1 Terra on Bedrock、エージェントツールとしての Step Functions"

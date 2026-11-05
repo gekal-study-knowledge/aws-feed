@@ -1,17 +1,25 @@
 "date": "2026-11-05"
-"generated_at": "2026-11-05 06:01:11 JST"
+"generated_at": "2026-11-06 06:02:24 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 6
+"article_count": 17
 "sources":
   - "aws_compute_blog"
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 6 本。AWS Interconnect - last mile が Equinix とのプレビューとして提供開始され、Equinix の世界 282 のデータセンターにあるインフラを数クリックで AWS に接続できるようになった。AWS Compute Blog では、Amazon EC2 Capacity Manager のリアルタイムなサポート可否チェックとキャパシティ充足メトリクスを使い、大規模 EC2 フリートでインスタンスタイプとアベイラビリティーゾーンの柔軟性を計画・計測する方法を紹介した。AWS Machine Learning Blog は 4 本で、マレーシアの 5G 事業者 U Mobile が Amazon Bedrock AgentCore 上に構築した自律型の通信運用プラットフォーム AiDaH、Indegene がライフサイエンス向けデータ基盤 NEXT Unified Data Platform に組み込んだ LLM ベースのデータ品質エージェント、Deep Insight による本番 AI エージェントのコンテキストエンジニアリング 4 層 (アーキテクチャ・プロンプト・ファイルベースのツール・検証エージェント) の実装、Amazon Quick の Smart Approvals による重要な判断だけを人に残すエージェント操作の承認が取り上げられた。
+  この日はセキュリティ速報が 2 件公開された。CVE-2026-122192 は Firecracker v0.23.0 から v1.16.1 で、特定のホストメモリ条件下でメモリの破棄に失敗した後にゲストが Firecracker プロセスのメモリにアクセスできる問題、CVE-2026-122266 は Amazon EKS の Network Policy Agent (aws-network-policy-agent) における共有リソースの不適切な分離の問題。前日に発表された Amazon S3 Tables の Apache Hive から Apache Iceberg へのマネージド移行は、AWS News Blog と AWS Japan Blog でも詳しく紹介され、AWS Glue Data Catalog に登録された Parquet 形式の Hive テーブルを、パイプライン構築やコンピューティングのプロビジョニングなしに本番ワークロードを動かしたまま移行でき、料金はコピーしたデータ分のみとされた。AWS Interconnect - last mile が Equinix とのプレビューとして提供され、Equinix の世界 282 のデータセンターから数クリックで AWS に接続できるようになった。Amazon DocumentDB (MongoDB 互換) はアジアパシフィック (台北) とアジアパシフィック (ニュージーランド) リージョンで利用可能になり、Amazon RDS for Oracle はクロスリージョンのスナップショットコピー時にオプショングループもコピーできるようになった。Amazon ECS では、Managed Instances で json-file ログドライバーが、Managed Daemons でログドライバーボリュームがサポートされ、デーモンがアプリケーションコンテナのログを収集できるようになった。Amazon Connect Customer の問い合わせレコードにはケース ID と参照番号が含まれるようになった。AWS Machine Learning Blog は 5 本で、U Mobile が Bedrock AgentCore で構築したエージェント型通信運用基盤 AiDaH、Indegene のライフサイエンス向け LLM データ品質エージェント、Deep Insight による本番 AI エージェントの 4 層のコンテキストエンジニアリング、Amazon Quick の Smart Approvals による人間の承認の絞り込み、AgentCore Evaluations で Jev と Strands Decider の決定モデルを使う評価を扱った。AWS Compute Blog では EC2 Capacity Manager でインスタンスタイプとアベイラビリティーゾーンの柔軟性を計測する方法と、別々の AWS Outposts 上の RDS for PostgreSQL 間で論理レプリケーションを構成する手順が紹介され、AWS Japan Blog では Toyota Motor North America が 20 の SAP システムと 60 台以上の EC2 ホストを対象に AI アシスト型 SAP 運用基盤 BasisPilot を構築した事例が出た。
 "topics":
-  - "ネットワーク: AWS Interconnect - last mile が Equinix とのプレビューで提供開始、世界 282 の Equinix データセンターから数クリックで AWS に接続"
-  - "コンピューティング: Amazon EC2 Capacity Manager のサポート可否チェックとキャパシティ充足メトリクスで、インスタンスタイプと AZ の柔軟性を計画・計測"
-  - "Bedrock AgentCore: U Mobile (マレーシアの 5G 事業者) がエージェント型の通信運用プラットフォーム AiDaH を構築し、支援から自律的な実行へ"
-  - "AI/ML: Indegene が NEXT Unified Data Platform に LLM ベースのデータ品質エージェントを構築、文脈に応じた品質ルールを生成・検証"
-  - "AI エージェント: Deep Insight が実装した本番 AI エージェント向けコンテキストエンジニアリングの 4 層 (アーキテクチャ・プロンプト・ファイルベースツール・検証エージェント)"
-  - "Amazon Quick: Smart Approvals が既存の統制の範囲でエージェント操作を審査し、不要な承認要求を減らしつつ重要な判断は人に残す"
+  - "セキュリティ速報: CVE-2026-122192 (Firecracker v0.23.0〜v1.16.1 で、メモリ破棄の失敗後にゲストが Firecracker プロセスのメモリにアクセスできる)"
+  - "セキュリティ速報: CVE-2026-122266 (Amazon EKS の aws-network-policy-agent における共有リソースの不適切な分離)"
+  - "分析: Amazon S3 Tables の Hive → Iceberg マネージド移行の詳細 (Glue Data Catalog の Parquet テーブルが対象、パイプライン不要、料金はコピーしたデータ分のみ)"
+  - "ネットワーク: AWS Interconnect - last mile が Equinix とのプレビュー、世界 282 のデータセンターから数クリックで接続"
+  - "データベース: Amazon DocumentDB がアジアパシフィック (台北)・(ニュージーランド) リージョンで提供開始、RDS for Oracle がクロスリージョンのスナップショットコピー時にオプショングループをコピー可能に"
+  - "コンテナ: Amazon ECS Managed Instances で json-file ログドライバー、Managed Daemons でログドライバーボリューム対応"
+  - "コンタクトセンター: Amazon Connect Customer の問い合わせレコードにケース ID と参照番号を追加"
+  - "生成 AI: U Mobile の AgentCore によるエージェント型通信運用 AiDaH、Indegene の LLM データ品質エージェント、Deep Insight の 4 層コンテキストエンジニアリング"
+  - "生成 AI: Amazon Quick の Smart Approvals、AgentCore Evaluations で決定モデル (Jev・Strands Decider) を利用"
+  - "コンピューティング: EC2 Capacity Manager でインスタンスタイプ・AZ の柔軟性を計測、別々の AWS Outposts 上の RDS for PostgreSQL 間の論理レプリケーション"
+  - "事例: Toyota Motor North America が AWS 上に AI アシスト型 SAP 運用基盤 BasisPilot を構築 (20 の SAP システム、60 台以上の EC2 ホスト)"
