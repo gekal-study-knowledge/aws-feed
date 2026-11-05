@@ -1,0 +1,22 @@
+"date": "2026-11-06"
+"generated_at": "2026-11-06 08:09:00 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 10
+"sources":
+  - "aws_architecture_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティ速報が 1 件公開された。CVE-2026-119083 は確率的時系列モデリング向けの Python ライブラリ GluonTS 0.17.0 未満のアーカイブ展開ユーティリティの問題で、シンボリックリンクやハードリンクを含む細工した tar アーカイブを与えられると、展開プロセスの権限で意図した展開先の外に任意のファイルを書き込める恐れがある。IAM では account access manager が発表され、チームが使ってきた IAM ロールの柔軟性を IAM Identity Center の集中フェデレーションと組み合わせ、ユーザー単位の可視性も備えた形で AWS アカウントへのワークフォースアクセスを管理できるようになった。IAM Roles Anywhere は証明書失効リスト (CRL) 配布ポイント (CDP) を使った自動失効チェックに対応し、認証に使われる証明書に埋め込まれた CDP の URL から CRL を定期的に取得して失効済み証明書の認証情報要求を拒否するため、CA が CRL を更新するたびにインポートし直す運用が不要になった。Amazon Bedrock AgentCore の Web Answer が一般提供となり、自然言語の質問に対して出典付きの合成済み回答を 1 回のツール呼び出しで返すため、検索・取得・合成・引用のパイプラインを自前で構築・維持せずに済む (6 月に提供開始した Web Search を「ウェブコンテンツを見つける」から「完成した回答を返す」まで広げたもので、Web Answer 自身が検索を計画して実行する)。Amazon DynamoDB は bulk put items が一般提供となり、Amazon S3 上のファイルを既存テーブルへ、独自の取り込みパイプラインを作らず既存ワークロードにも影響を与えずに書き込めるようになった (項目ごとに条件式を指定でき、挿入のみやバージョン保護付きの書き込みを強制できる)。AWS Interconnect - last mile は米国バージニア北部に新しいメトロを追加し、ニューヨークに続く 2 番目の提供地域となった。Amazon Cognito は Plus 機能プランのユーザープールについて、2026 年 11 月 1 日から月間稼働率の SLA を 99.9% から 99.99% に引き上げた (Essentials と Lite は 99.9% のまま)。ブログでは、TUI が Amazon Bedrock と Bedrock AgentCore で 100 以上のプロダクトチームを対象とした脅威モデリング基盤を構築して所要時間を最大 70% 削減した事例、Amazon Marketplace が A+ コンテンツの品質を Amazon SageMaker AI 上で商品ページのスナップショットを視覚言語モデルで採点し OCR の可読性シグナルと CatBoost 分類器で統合して評価し、SHAP で販売パートナー向けの優先度付き改善提案に変える仕組み、AgentCore の Web Answer を AgentCore Gateway に追加してエージェントから呼び出す手順が紹介された。
+"topics":
+  - "セキュリティ速報: CVE-2026-119083 (GluonTS 0.17.0 未満のアーカイブ展開で、細工した tar のシンボリック/ハードリンクにより展開先の外へ任意のファイルを書き込める恐れ)"
+  - "セキュリティ: IAM の account access manager を発表、IAM ロールの柔軟性と IAM Identity Center の集中フェデレーションを組み合わせユーザー単位の可視性も提供"
+  - "セキュリティ: IAM Roles Anywhere が CRL 配布ポイント (CDP) による自動失効チェックに対応、CRL の手動インポートと再インポートが不要に"
+  - "生成 AI: Amazon Bedrock AgentCore の Web Answer が一般提供、1 回のツール呼び出しで出典付きの合成済み回答を返す (6 月の Web Search を拡張)"
+  - "データベース: Amazon DynamoDB の bulk put items が一般提供、S3 上のデータを既存テーブルへ取り込みパイプラインなしで書き込み (項目ごとの条件式に対応)"
+  - "ネットワーク: AWS Interconnect - last mile が米国バージニア北部に新メトロを追加、ニューヨークに続く 2 番目の提供地域に"
+  - "認証: Amazon Cognito の Plus 機能プランの SLA が 99.9% から 99.99% へ (2026 年 11 月 1 日から、Essentials と Lite は据え置き)"
+  - "事例: TUI が Amazon Bedrock と AgentCore で 100 以上のプロダクトチーム向けの脅威モデリングを自動化、所要時間を最大 70% 削減"
+  - "AI/ML: Amazon Marketplace が SageMaker AI 上で視覚言語モデルと OCR の可読性シグナルを CatBoost で統合して A+ コンテンツの品質を評価、SHAP で優先度付きの改善提案を生成"

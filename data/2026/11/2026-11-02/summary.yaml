@@ -1,13 +1,13 @@
 "date": "2026-11-02"
-"generated_at": "2026-11-03 22:01:08 JST"
+"generated_at": "2026-11-06 08:09:00 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 12
+"article_count": 13
 "sources":
   - "aws_japan_blog"
   - "aws_security_blog"
   - "aws_whats_new"
 "overview": |
-  この日は Amazon Textract のアジアパシフィック (東京)・欧州 (チューリッヒ) リージョン対応と新しいテキスト検出モデル、Amazon Inspector による EC2 AMI の脆弱性スキャン、CloudFront の Service Quotas 対応 (28 クォータ) など実用的なアップデートが並んだ。AWS for Fluent Bit 3.0.0 (Fluent Bit 4.1.1・Amazon Linux 2023 ベース) も発表。ブログでは AWS European Sovereign Cloud が EU 外のインフラに依存せず運用できることを示した 10 月 24 日の演習報告、Amazon Connect Customer の AI ガードレール解説、Amazon EVS と FSx for ONTAP 上の Oracle Database の設計・デプロイ手順、ニッセイ情報テクノロジーの AI-DLC 事例、臨時セキュリティセミナーの開催報告が出た。
+  この日は Amazon Textract のアジアパシフィック (東京)・欧州 (チューリッヒ) リージョン対応と新しいテキスト検出モデル、Amazon Inspector による EC2 AMI の脆弱性スキャン、CloudFront の Service Quotas 対応 (28 クォータ) など実用的なアップデートが並んだ。AWS for Fluent Bit 3.0.0 (Fluent Bit 4.1.1・Amazon Linux 2023 ベース) も発表。ブログでは AWS European Sovereign Cloud が EU 外のインフラに依存せず運用できることを示した 10 月 24 日の演習報告、Amazon Connect Customer の AI ガードレール解説、Amazon EVS と FSx for ONTAP 上の Oracle Database の設計・デプロイ手順、ニッセイ情報テクノロジーの AI-DLC 事例、臨時セキュリティセミナーの開催報告が出た。Amazon OpenSearch Service の最適化エンジンは OpenTelemetry のトレースを含むエージェントトレースに対応し、ログとトレースを同じ場所で扱えるようになった。OpenTelemetry のログとトレースを object・nested・flat object の各フィールドにマッピングし、スパンイベントやスパンリンク、プロンプト、ツール呼び出しのネスト構造を保ったままフィールド単位でクエリでき、ホットティアのデータではドキュメント単位の更新・削除・upsert にも対応する。
 "topics":
   - "AI/ML: Amazon Textract が東京・チューリッヒリージョンで利用可能に、更新版テキスト検出モデルで精度・多言語対応・表抽出を改善"
   - "セキュリティ: Amazon Inspector がインスタンスを起動せずに EC2 AMI の脆弱性をスキャン可能に"
@@ -17,3 +17,4 @@
   - "コンタクトセンター: Amazon Connect Customer の AI ガードレール (プロンプト攻撃検出・PII 保護など 7 コンポーネント) の解説"
   - "データベース: Amazon EVS と FSx for NetApp ONTAP 上での Oracle Database の高可用性設計とデプロイ手順"
   - "事例・イベント: ニッセイ情報テクノロジーの AI-DLC v2 による AI 駆動開発、臨時 AWS セキュリティセミナー (10/23・10/30) の開催報告、週刊生成AI with AWS"
+  - "オブザーバビリティ: Amazon OpenSearch Service の最適化エンジンが OpenTelemetry のログ・トレースに対応、ネスト構造を保ったままフィールド単位でクエリ可能、ホットティアでは更新・削除・upsert にも対応"
