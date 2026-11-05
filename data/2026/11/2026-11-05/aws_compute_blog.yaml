@@ -6,4 +6,11 @@
     "published": "2026-11-05 03:11:34"
     "fetched": "2026-11-05 03:24:19"
     "summary": "Amazon EC2 Capacity Manager offers real-time supportability checks and capacity fulfillment metrics for large EC2 fleets. This post shows how to measure how well your instance type and Availability Zone flexibility performs, find where capacity is strongest before a scale-up, and add it to Auto Scaling groups, Amazon EC2 Fleet, or Karpenter."
-"last_updated": "2026-11-05 03:24:19 JST"
+  "87c32d4946d48b0e99e3351bcb9dd53c":
+    "id": "87c32d4946d48b0e99e3351bcb9dd53c"
+    "title": "Implementing PostgreSQL logical replication between Amazon RDS for PostgreSQL instances on separate AWS Outposts"
+    "link": "https://aws.amazon.com/blogs/compute/implementing-postgresql-logical-replication-between-amazon-rds-for-postgresql-instances-on-separate-aws-outposts/"
+    "published": "2026-11-05 07:02:23"
+    "fetched": "2026-11-05 09:05:27"
+    "summary": "Learn how to configure PostgreSQL logical replication between two Amazon RDS for PostgreSQL instances on separate AWS Outposts racks, keeping all replication traffic and backups within your on-premises environment by using Customer-owned IP addresses and Local Gateways, without any data traversing the AWS Region."
+"last_updated": "2026-11-05 09:05:27 JST"

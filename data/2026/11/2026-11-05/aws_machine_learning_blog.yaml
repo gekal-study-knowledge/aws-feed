@@ -27,4 +27,11 @@
     "published": "2026-11-05 01:23:33"
     "fetched": "2026-11-05 03:24:18"
     "summary": "U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%."
-"last_updated": "2026-11-05 03:24:18 JST"
+  "eff8c31b866f24b86506d5642566fbc9":
+    "id": "eff8c31b866f24b86506d5642566fbc9"
+    "title": "Use decision models with Amazon Bedrock AgentCore Evaluations"
+    "link": "https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/"
+    "published": "2026-11-05 03:46:36"
+    "fetched": "2026-11-05 09:05:27"
+    "summary": "Some agent-evaluation questions are narrow and repeatable, and decision models answer exactly that kind of question. This post shows how to connect two decision models, Jev and Strands Decider, to Amazon Bedrock AgentCore Evaluations through code-based evaluators, and how to validate a decision-model check before you gate a release on it."
+"last_updated": "2026-11-05 09:05:27 JST"
