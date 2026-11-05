@@ -1,0 +1,16 @@
+"entries":
+  "f5e139b012055cb0761e5a59839c69a5":
+    "id": "f5e139b012055cb0761e5a59839c69a5"
+    "title": "Amazon S3 Tables で Apache Hive テーブルから Apache Iceberg へのマネージドな移行が可能に"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-s3-tables-now-offer-managed-migration-of-apache-hive-tables-to-apache-iceberg/"
+    "published": "2026-11-05 16:19:47"
+    "fetched": "2026-11-05 16:39:48"
+    "summary": "Amazon S3 Tables で、AWS Glue Data Catalog に登録された Parquet 形式の Apache Hive テーブルを Apache Iceberg へマネージドに移行できるようになりました。パイプラインの構築やコンピューティングのプロビジョニングは不要で、本番ワークロードを動かしたまま移行でき、料金はコピーしたデータ分のみです。"
+  "bd695881f501331d59b8e18dc769ec24":
+    "id": "bd695881f501331d59b8e18dc769ec24"
+    "title": "トヨタはいかにして BasisPilot を構築したか – AWS 上の AI アシスト型 SAP 運用プラットフォーム"
+    "link": "https://aws.amazon.com/jp/blogs/news/how-toyota-built-basispilot-an-ai-assisted-sap-operations-platform-on-aws/"
+    "published": "2026-11-05 12:49:44"
+    "fetched": "2026-11-05 16:39:48"
+    "summary": "Toyota Motor North America は、20 の SAP システムと 60 台以上の Amazon EC2 ホストを対象に、AI アシスト型の SAP 運用プラットフォーム BasisPilot を AWS 上に構築しました。AWS Lambda、Amazon DynamoDB、AWS Systems Manager によるサーバーレスかつフェーズベースのワークフローと、RBAC・承認ゲートの背後で動作する Amazon Bedrock のツール呼び出し型 AI アシスタントを組み合わせています。本記事では、そのアーキテクチャとガードレールの設計を解説します。パイロットでは SAP カーネルアップグレードの所要時間が約 70% 短縮されました。"
+"last_updated": "2026-11-05 16:39:48 JST"
