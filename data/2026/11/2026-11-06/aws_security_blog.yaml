@@ -1,0 +1,9 @@
+"entries":
+  "fcbbc66d276f326f895396c733c4de84":
+    "id": "fcbbc66d276f326f895396c733c4de84"
+    "title": "Introducing AWS account access manager: IAM role flexibility with centralized workforce access"
+    "link": "https://aws.amazon.com/blogs/security/introducing-aws-account-access-manager-iam-role-flexibility-with-centralized-workforce-access/"
+    "published": "2026-11-06 04:21:56"
+    "fetched": "2026-11-06 07:29:43"
+    "summary": "AWS Identity and Access Management (IAM) is introducing account access manager, a flexible new way to manage workforce access to your Amazon Web Services (AWS) accounts. This combines the IAM role flexibility your teams already rely on, delivered through the centralized federation of AWS IAM Identity Center, with user-level visibility built-in. Account access manager streamlines […]"
+"last_updated": "2026-11-06 07:29:43 JST"

@@ -13,4 +13,11 @@
     "published": "2026-11-05 07:02:23"
     "fetched": "2026-11-05 09:05:27"
     "summary": "Learn how to configure PostgreSQL logical replication between two Amazon RDS for PostgreSQL instances on separate AWS Outposts racks, keeping all replication traffic and backups within your on-premises environment by using Customer-owned IP addresses and Local Gateways, without any data traversing the AWS Region."
-"last_updated": "2026-11-05 09:05:27 JST"
+  "620e450f2765cbfa415e99b79efa6236":
+    "id": "620e450f2765cbfa415e99b79efa6236"
+    "title": "Serverless ICYMI Q3 2026"
+    "link": "https://aws.amazon.com/blogs/compute/serverless-icymi-q3-2026/"
+    "published": "2026-11-05 22:50:18"
+    "fetched": "2026-11-06 07:29:45"
+    "summary": "In this 34th quarterly recap post, discover the most impactful AWS serverless launches, features, and resources from Q3 2026 that you might have missed."
+"last_updated": "2026-11-06 07:29:45 JST"
