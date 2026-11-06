@@ -1,22 +1,30 @@
 "date": "2026-11-06"
-"generated_at": "2026-11-06 08:09:00 JST"
+"generated_at": "2026-11-06 22:02:33 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 10
+"article_count": 18
 "sources":
   - "aws_architecture_blog"
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_security_blog"
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日はセキュリティ速報が 1 件公開された。CVE-2026-119083 は確率的時系列モデリング向けの Python ライブラリ GluonTS 0.17.0 未満のアーカイブ展開ユーティリティの問題で、シンボリックリンクやハードリンクを含む細工した tar アーカイブを与えられると、展開プロセスの権限で意図した展開先の外に任意のファイルを書き込める恐れがある。IAM では account access manager が発表され、チームが使ってきた IAM ロールの柔軟性を IAM Identity Center の集中フェデレーションと組み合わせ、ユーザー単位の可視性も備えた形で AWS アカウントへのワークフォースアクセスを管理できるようになった。IAM Roles Anywhere は証明書失効リスト (CRL) 配布ポイント (CDP) を使った自動失効チェックに対応し、認証に使われる証明書に埋め込まれた CDP の URL から CRL を定期的に取得して失効済み証明書の認証情報要求を拒否するため、CA が CRL を更新するたびにインポートし直す運用が不要になった。Amazon Bedrock AgentCore の Web Answer が一般提供となり、自然言語の質問に対して出典付きの合成済み回答を 1 回のツール呼び出しで返すため、検索・取得・合成・引用のパイプラインを自前で構築・維持せずに済む (6 月に提供開始した Web Search を「ウェブコンテンツを見つける」から「完成した回答を返す」まで広げたもので、Web Answer 自身が検索を計画して実行する)。Amazon DynamoDB は bulk put items が一般提供となり、Amazon S3 上のファイルを既存テーブルへ、独自の取り込みパイプラインを作らず既存ワークロードにも影響を与えずに書き込めるようになった (項目ごとに条件式を指定でき、挿入のみやバージョン保護付きの書き込みを強制できる)。AWS Interconnect - last mile は米国バージニア北部に新しいメトロを追加し、ニューヨークに続く 2 番目の提供地域となった。Amazon Cognito は Plus 機能プランのユーザープールについて、2026 年 11 月 1 日から月間稼働率の SLA を 99.9% から 99.99% に引き上げた (Essentials と Lite は 99.9% のまま)。ブログでは、TUI が Amazon Bedrock と Bedrock AgentCore で 100 以上のプロダクトチームを対象とした脅威モデリング基盤を構築して所要時間を最大 70% 削減した事例、Amazon Marketplace が A+ コンテンツの品質を Amazon SageMaker AI 上で商品ページのスナップショットを視覚言語モデルで採点し OCR の可読性シグナルと CatBoost 分類器で統合して評価し、SHAP で販売パートナー向けの優先度付き改善提案に変える仕組み、AgentCore の Web Answer を AgentCore Gateway に追加してエージェントから呼び出す手順が紹介された。
+  この日はセキュリティ速報が 2 件公開された。CVE-2026-119083 は確率的時系列モデリング向けの Python ライブラリ GluonTS 0.17.0 未満のアーカイブ展開ユーティリティの問題で、シンボリックリンクやハードリンクを含む細工した tar アーカイブを与えられると、展開プロセスの権限で意図した展開先の外に任意のファイルを書き込める恐れがある。CVE-2026-109518 は Ubuntu と Debian の APT パッケージマネージャーの問題で、HTTP のパッケージソースをリトライ設定付きで使っている場合に、ホストとミラーの間のネットワーク上の第三者が検証を通っていないパッケージをインストールさせられる恐れがあり、Canonical (USN-8996-1) と Debian (DSA-6607-1) から修正版が出ている (Ubuntu 22.04 LTS は apt 2.4.15ubuntu0.1、24.04 LTS は 2.8.4ubuntu0.1、26.04 LTS は 3.2.1ubuntu0.1) ため、Ubuntu・Debian ベースの EC2 インスタンスやコンテナイメージには更新の適用が求められている。IAM では account access manager が発表され、チームが使ってきた IAM ロールの柔軟性を IAM Identity Center の集中フェデレーションと組み合わせ、ユーザー単位の可視性も備えた形で AWS アカウントへのワークフォースアクセスを管理できるようになった。IAM Roles Anywhere は証明書失効リスト (CRL) 配布ポイント (CDP) を使った自動失効チェックに対応し、認証に使われる証明書に埋め込まれた CDP の URL から CRL を定期的に取得して失効済み証明書の認証情報要求を拒否するため、CA が CRL を更新するたびにインポートし直す運用が不要になった。AWS Security Hub は SBOM インベントリーの提供を始め、Amazon Inspector が EC2 インスタンス・ECR コンテナイメージ・Lambda 関数について生成する SBOM から、追加設定なしで組織全体のソフトウェアパッケージの一覧 (バージョン・種類・インストール先リソース数) を作り、アカウントやリージョンで絞り込んだり API で問い合わせたりできる。Amazon Bedrock AgentCore の Web Answer が一般提供となり、自然言語の質問に対して出典付きの合成済み回答を 1 回のツール呼び出しで返すため、検索・取得・合成・引用のパイプラインを自前で構築・維持せずに済む (6 月に提供開始した Web Search を「ウェブコンテンツを見つける」から「完成した回答を返す」まで広げたもので、Web Answer 自身が検索を計画して実行する)。Amazon DynamoDB は bulk put items が一般提供となり、Amazon S3 上のファイルを既存テーブルへ、独自の取り込みパイプラインを作らず既存ワークロードにも影響を与えずに書き込めるようになった (項目ごとに条件式を指定でき、挿入のみやバージョン保護付きの書き込みを強制できる)。Amazon FSx for Lustre は Intelligent-Tiering ストレージクラスのファイルシステムでメタデータ IOPS の上限を従来の 12,000 から 16 倍の 192,000 に引き上げ (新規ファイルシステムが対象)、Amazon OpenSearch Service の最適化エンジンは OpenTelemetry を含むエージェントトレースに対応して、トレースとログを同じ場所に置き、スパンイベントやプロンプト、ツール呼び出しを入れ子構造のまま項目単位で検索できるようになった。AWS Interconnect - last mile は米国バージニア北部に新しいメトロを追加し、ニューヨークに続く 2 番目の提供地域となり、AWS Network Load Balancer はフェニックスの Local Zone (us-west-2-phx-2a) で利用可能になって、ターゲットが同じ Local Zone にあれば親リージョンを経由せずに接続を処理できるようになった。Amazon Cognito は Plus 機能プランのユーザープールについて、2026 年 11 月 1 日から月間稼働率の SLA を 99.9% から 99.99% に引き上げた (Essentials と Lite は 99.9% のまま)。ブログでは、TUI が Amazon Bedrock と Bedrock AgentCore で 100 以上のプロダクトチームを対象とした脅威モデリング基盤を構築して所要時間を最大 70% 削減した事例、Cognizant と AWS プロフェッショナルサービスが食品注文プラットフォーム OrderServ を共有 Amazon ECS 上のマルチテナント SaaS に移行し、コンピューティングコストを最大 64%、認証コストを 80% 削減してスケーリング時間を分単位から秒単位に短縮した事例、Amazon Marketplace が A+ コンテンツの品質を Amazon SageMaker AI 上で商品ページのスナップショットを視覚言語モデルで採点し OCR の可読性シグナルと CatBoost 分類器で統合して評価し、SHAP で販売パートナー向けの優先度付き改善提案に変える仕組み、AgentCore の Web Answer を AgentCore Gateway に追加してエージェントから呼び出す手順が紹介された。AWS Japan Blog では、2026 年 11 月 5 日に一般提供が始まった Kiro Crew の Bot (名前とメモリを持って長く動き続け、作業の特定部分を受け持つエージェント) の紹介と、両備システムズによる地方自治体ガバメントクラウドの共同利用 (ネットワーク分離方式) で長期継続割引を活用してクラウド利用料を削減した寄稿が出た。
 "topics":
   - "セキュリティ速報: CVE-2026-119083 (GluonTS 0.17.0 未満のアーカイブ展開で、細工した tar のシンボリック/ハードリンクにより展開先の外へ任意のファイルを書き込める恐れ)"
+  - "セキュリティ速報: CVE-2026-109518 (Ubuntu・Debian の APT で、HTTP ソース＋リトライ設定時に経路上の第三者が未検証のパッケージをインストールさせ得る、USN-8996-1・DSA-6607-1 で修正)"
   - "セキュリティ: IAM の account access manager を発表、IAM ロールの柔軟性と IAM Identity Center の集中フェデレーションを組み合わせユーザー単位の可視性も提供"
   - "セキュリティ: IAM Roles Anywhere が CRL 配布ポイント (CDP) による自動失効チェックに対応、CRL の手動インポートと再インポートが不要に"
+  - "セキュリティ: AWS Security Hub が Inspector の SBOM から組織全体のソフトウェアパッケージのインベントリーを提供 (EC2・ECR・Lambda、追加設定不要、API でも参照可)"
   - "生成 AI: Amazon Bedrock AgentCore の Web Answer が一般提供、1 回のツール呼び出しで出典付きの合成済み回答を返す (6 月の Web Search を拡張)"
   - "データベース: Amazon DynamoDB の bulk put items が一般提供、S3 上のデータを既存テーブルへ取り込みパイプラインなしで書き込み (項目ごとの条件式に対応)"
-  - "ネットワーク: AWS Interconnect - last mile が米国バージニア北部に新メトロを追加、ニューヨークに続く 2 番目の提供地域に"
+  - "ストレージ: Amazon FSx for Lustre の Intelligent-Tiering でメタデータ IOPS が 12,000 から 192,000 (16 倍) に"
+  - "分析: Amazon OpenSearch Service の最適化エンジンが OpenTelemetry を含むエージェントトレースに対応、トレースとログを同じ場所で入れ子構造のまま検索"
+  - "ネットワーク: AWS Interconnect - last mile が米国バージニア北部に新メトロを追加 (ニューヨークに続く 2 番目)、NLB がフェニックスの Local Zone (us-west-2-phx-2a) で利用可能に"
   - "認証: Amazon Cognito の Plus 機能プランの SLA が 99.9% から 99.99% へ (2026 年 11 月 1 日から、Essentials と Lite は据え置き)"
   - "事例: TUI が Amazon Bedrock と AgentCore で 100 以上のプロダクトチーム向けの脅威モデリングを自動化、所要時間を最大 70% 削減"
+  - "事例: OrderServ が共有 Amazon ECS 上のマルチテナント SaaS 化でコンピューティングコストを最大 64%、認証コストを 80% 削減"
   - "AI/ML: Amazon Marketplace が SageMaker AI 上で視覚言語モデルと OCR の可読性シグナルを CatBoost で統合して A+ コンテンツの品質を評価、SHAP で優先度付きの改善提案を生成"
+  - "開発ツール: Kiro Crew の Bot が 2026 年 11 月 5 日に一般提供、名前とメモリを持って長く動くエージェントとして作業の一部を受け持つ"
+  - "公共: 両備システムズが地方自治体ガバメントクラウドの共同利用 (ネットワーク分離方式) で長期継続割引を活用し利用料を削減"
