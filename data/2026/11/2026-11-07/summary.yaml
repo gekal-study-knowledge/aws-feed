@@ -1,0 +1,18 @@
+"date": "2026-11-07"
+"generated_at": "2026-11-07 06:01:01 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 10
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日はセキュリティ速報が 1 件公開された。CVE-2026-122193 は Trusted Remote Execution (REX) のセットアップドキュメントに例として載っている SSM ドキュメントに OS コマンドインジェクションの問題があるというもの。AWS Data Exports の Cost and Usage Report (CUR) 2.0 と AWS Cost Explorer は、Amazon EC2 Capacity Blocks for ML の前払い料金を各予約の期間にわたって償却して表示するようになった。AWS Machine Learning Blog は 8 本で、うち 5 本が Amazon Bedrock AgentCore 関連。Claude Code を AgentCore 上のリモートエージェントとして動かし、コーディングタスクごとに自分の AWS アカウント内の分離されたセッションで実行してモデル呼び出しはすべて Amazon Bedrock を経由させる構成、Taxbit がエンタープライズ向けダッシュボードに組み込んだ出典付き・権限を考慮した AI アシスタント Taxbit Assist、Greenlight Financial が多層マルチエージェントシステム Luna で月最大 4,000 件のセキュリティ・リスクのケースの 90% 以上を人手を介さず解決している自律型 SOC、Okta Cross App Access と AgentCore で AI エージェントのアクセスを統制する 2 部作 (第 2 部では AgentCore Gateway を単一の入口として Okta のグラントを引き換え、Cedar ポリシーで制御する) が紹介された。このほか、Amazon ECS on AWS Fargate 上にサーバーレスの MCP サーバーを構築し、AI エージェントにメタデータ駆動でデータレイクへの安全なアクセスを提供する方法、Amazon Quick の開発で整理したエージェント的なプリミティブの分類、Amazon SageMaker Inference が NVIDIA Multi-Instance GPU (MIG) による GPU パーティショニングに対応し、1 つの GPU をハードウェア分離された区画に分けて区画ごとに別のモデルを動かせるようになったことが取り上げられた。
+"topics":
+  - "セキュリティ速報: CVE-2026-122193 (Trusted Remote Execution (REX) のセットアップガイドにある SSM ドキュメントの例に OS コマンドインジェクション)"
+  - "コスト管理: CUR 2.0 と Cost Explorer が EC2 Capacity Blocks for ML の前払い料金を予約期間で償却表示"
+  - "生成 AI: Claude Code を Bedrock AgentCore 上のリモートエージェントとして実行 (タスクごとに分離セッション、モデル呼び出しは Bedrock 経由)"
+  - "事例: Taxbit Assist (出典付き・権限考慮の AI アシスタント)、Greenlight Financial の自律型 SOC Luna (月最大 4,000 件の 90% 超を自動解決)"
+  - "セキュリティ: Okta Cross App Access と AgentCore で AI エージェントのアクセスを統制する 2 部作 (AgentCore Gateway と Cedar ポリシー)"
+  - "AI エージェント: ECS Fargate 上のサーバーレス MCP サーバーでデータレイクへアクセス、Amazon Quick のエージェント的プリミティブの分類"
+  - "AI/ML: SageMaker Inference が NVIDIA Multi-Instance GPU (MIG) に対応、1 GPU をハードウェア分離した区画に分割して複数モデルを実行"
