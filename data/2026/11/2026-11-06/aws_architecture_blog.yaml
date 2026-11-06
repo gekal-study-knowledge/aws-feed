@@ -6,4 +6,11 @@
     "published": "2026-11-06 03:45:07"
     "fetched": "2026-11-06 07:29:44"
     "summary": "Learn how TUI, the world's leading tourism group, built an AI-powered threat modeling system on Amazon Bedrock and Amazon Bedrock AgentCore to scale security assessments across more than 100 product teams, cutting threat modeling time by up to 70% while applying security standards consistently."
-"last_updated": "2026-11-06 07:29:44 JST"
+  "3f9a7b71060ce2b0e0429eb130c0cf7d":
+    "id": "3f9a7b71060ce2b0e0429eb130c0cf7d"
+    "title": "How OrderServ achieved up to 64% cost savings with multi-tenant ECS"
+    "link": "https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs/"
+    "published": "2026-11-06 09:09:41"
+    "fetched": "2026-11-06 12:04:50"
+    "summary": "See how Cognizant and AWS Professional Services transformed the OrderServ food-ordering platform into a multi-tenant SaaS offering on shared Amazon ECS, cutting compute costs up to 64%, reducing scaling time from minutes to seconds, and lowering authentication costs by 80%."
+"last_updated": "2026-11-06 12:04:50 JST"
