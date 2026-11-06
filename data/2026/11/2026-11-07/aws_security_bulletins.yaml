@@ -6,4 +6,11 @@
     "published": "2026-11-07 02:19:55"
     "fetched": "2026-11-07 03:49:33"
     "summary": "<p><b>Bulletin ID:</b> 2026-173-AWS<br /> <b>Publication Date:</b> 11/06/2026 09:00 AM PST</p> \n<p><b>Description:</b></p> \n<p>We identified CVE-2026-122193, an OS command injection issue in an example provided in the set-up documentation. The example included a script that creates AWS Systems Manager (SSM) documents (Rex-RO and Rex-RW) for running scripts on managed instances. Due to how the example script handled input parameters, a user with permissions to invoke the SSM document could supply crafted input that would run unintended operating system commands on the managed instance, outside of the REX sandbox. The scriptArgs parameter is affected by the same class of issue.</p> \n<p><b>Impacted versions:</b></p> \n<p>This is not an issue in a shipped REX artifact version.</p> \n<p><b>Refer to the article below for the most up-to-date and complete information.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-173-aws/\">Read this article</a></p>"
-"last_updated": "2026-11-07 03:49:33 JST"
+  "c32689611e981e2c8f412ddb9b28ccf5":
+    "id": "c32689611e981e2c8f412ddb9b28ccf5"
+    "title": "CVE-2026-119923 and CVE-2026-119924: Issues with Babelfish for Aurora PostgreSQL"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-166-aws/"
+    "published": "2026-11-07 03:46:27"
+    "fetched": "2026-11-07 08:37:29"
+    "summary": "<p><b>Bulletin ID:</b> 2026-166-AWS<br /> <b>Publication Date:</b> 11/06/2026 10:00 AM PST</p> \n<p><b>Description:</b></p> \n<p>We identified two issues in the Babelfish TDS protocol layer:<br /> - CVE-2026-119923: A memory-safety issue in the TDS connection-handshake handling could allow a remote, unauthenticated actor to affect the database process.<br /> - CVE-2026-119924: A memory-safety issue in the TDS remote-procedure-call request handling could allow a remote, authenticated actor to read adjacent process memory or cause a denial of service.</p> \n<p><b>Refer to the article below for the most up-to-date and complete information.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-166-aws/\">Read this article</a></p>"
+"last_updated": "2026-11-07 08:37:29 JST"

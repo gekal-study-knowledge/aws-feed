@@ -1,0 +1,9 @@
+"entries":
+  "c540e5523e12c2d4a06081c561105bd2":
+    "id": "c540e5523e12c2d4a06081c561105bd2"
+    "title": "Addressing protocol security gaps in multi-tenant Kubernetes"
+    "link": "https://aws.amazon.com/blogs/security/addressing-protocol-security-gaps-in-multi-tenant-kubernetes/"
+    "published": "2026-11-07 06:08:50"
+    "fetched": "2026-11-07 08:37:29"
+    "summary": "Protocols like Android Debug Bridge (ADB) and Web Real-Time Communication (WebRTC), by default, use unencrypted channels for network communications and don’t support enterprise authentication mechanisms like JSON Web Tokens (JWTs). In a multi-tenant Kubernetes cluster—including Amazon Elastic Kubernetes Service (Amazon EKS)—pods can reach other tenants’ open ports by default unless you configure network policies to […]"
+"last_updated": "2026-11-07 08:37:29 JST"
