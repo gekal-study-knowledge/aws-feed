@@ -90,4 +90,11 @@
     "published": "2026-11-05 17:00:00"
     "fetched": "2026-11-06 12:04:48"
     "summary": "<p>Amazon Q Developer in the AWS Management Console and Console Mobile Apps is now called the AWS assistant. Previously, customers interacted with Amazon Q Developer across these surfaces. Now, the AWS assistant provides the same personalized, account-aware guidance and actions with a name that immediately communicates what the product does.</p>\n<p>The AWS assistant simplifies how customers build, operate, and optimize on AWS. The AWS assistant is currently offered for free. Existing Amazon Q Developer Pro subscribers will automatically retain their Pro Tier capabilities under the AWS assistant.</p>\n<p>The AWS assistant is available globally. To learn more, visit <a href=\"https://aws.amazon.com/products/assistant/\">aws.amazon.com/products/assistant/</a>.</p>"
-"last_updated": "2026-11-06 12:04:48 JST"
+  "57efd0bed52db4d244f7f7bf42294cc6":
+    "id": "57efd0bed52db4d244f7f7bf42294cc6"
+    "title": "AWS CodeConnections is now available in the AWS GovCloud (US-West) Region"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codeconnections-govcloud-west/"
+    "published": "2026-11-05 17:00:00"
+    "fetched": "2026-11-06 20:45:24"
+    "summary": "<p>AWS CodeConnections is now available in the AWS GovCloud (US-West) Region, in addition to AWS GovCloud (US-East). CodeConnections lets you connect AWS services such as AWS CodePipeline and AWS CodeBuild to source code repositories hosted with third-party providers such as Bitbucket.</p>\n<p>With this launch, customers running workloads in AWS GovCloud (US-West) can create connections to their source repositories in the same Region as their pipelines. For example, a team can configure a connection so that a commit to their repository automatically starts a release in AWS CodePipeline, without managing provider credentials for each integration.</p>\n<p>To learn more, see the <a href=\"https://docs.aws.amazon.com/dtconsole/latest/userguide/welcome-connections.html\">AWS CodeConnections User Guide</a> and the <a href=\"https://docs.aws.amazon.com/govcloud-us/latest/UserGuide/CodeStar-connections.html\">AWS GovCloud User Guide</a>. To get started, visit the AWS GovCloud (US) console.</p>"
+"last_updated": "2026-11-06 20:45:24 JST"

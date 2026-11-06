@@ -6,4 +6,11 @@
     "published": "2026-11-06 01:43:41"
     "fetched": "2026-11-06 07:29:43"
     "summary": "<p><b>Bulletin ID:</b> 2026-171-AWS<br /> <b>Publication Date:</b> 11/05/2026 08:30 AM PST</p> \n<p><b>Description:</b></p> \n<p>GluonTS is an open-source Python library for probabilistic time series modeling. We identified CVE-2026-119083, an issue in the archive extraction utility in GluonTS before 0.17.0. An actor who supplies a crafted tar archive containing symbolic or hard links might be able to write arbitrary files outside the intended extraction directory with the privileges of the extracting process.</p> \n<p><b>Impacted versions:</b> &lt; 0.17.0</p> \n<p><b>Refer to the article below for the most up-to-date and complete information.</b></p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-171-aws/\">Read this article</a></p>"
-"last_updated": "2026-11-06 07:29:43 JST"
+  "e311ae78fd33aa86b4fa1491117c0c16":
+    "id": "e311ae78fd33aa86b4fa1491117c0c16"
+    "title": "CVE-2026-109518 - APT package manager that affects Ubuntu and Debian operating systems"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-172-aws/"
+    "published": "2026-11-06 13:00:35"
+    "fetched": "2026-11-06 20:45:26"
+    "summary": "<p><b>Bulletin ID:</b> 2026-172-AWS<br /> <b>Publication Date:</b> 11/05/2026 20:00 PM PST</p> \n<p><b>Description:</b></p> \n<p>An issue in the APT package manager (CVE-2026-109518) affects Ubuntu and Debian operating systems. Under specific conditions, when APT is configured to use HTTP package sources with retry settings enabled, a third party with a network position between the host and the package mirror could cause APT to install a package that did not pass verification. Updated APT packages are available from Canonical (USN-8996-1) and Debian (DSA-6607-1). The following fixed versions address this issue:<br /> - Ubuntu 22.04 LTS: apt 2.4.15ubuntu0.1<br /> - Ubuntu 24.04 LTS: apt 2.8.4ubuntu0.1<br /> - Ubuntu 26.04 LTS: apt 3.2.1ubuntu0.1<br /> - Debian (DSA-6607-1): See Debian Security Advisory for version details</p> \n<p>Customers running Ubuntu or Debian-based Amazon EC2 instances or container images should apply the updates. For details, see the full AWS Security Bulletin.</p> \n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-172-aws/\">Read this article</a></p>"
+"last_updated": "2026-11-06 20:45:26 JST"
