@@ -1,0 +1,9 @@
+"entries":
+  "37b338b742ecb83de553a169a685ec8b":
+    "id": "37b338b742ecb83de553a169a685ec8b"
+    "title": "Kiro の Auto がモデルカスケードで作業に合ったモデルを使い分ける仕組み"
+    "link": "https://aws.amazon.com/jp/blogs/news/model-cascade/"
+    "published": "2026-11-07 10:51:29"
+    "fetched": "2026-11-07 13:27:07"
+    "summary": "Auto は裏側でモデルカスケードを使っています。どのセッションも効率のよい最初のモデルで始まり、独立したチェックがバックグラウンドで作業を確かめ、必要になったときに Auto はセッションをより高性能なモデルに引き継ぎます。"
+"last_updated": "2026-11-07 13:27:07 JST"
