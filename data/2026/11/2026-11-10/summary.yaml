@@ -1,7 +1,7 @@
 "date": "2026-11-10"
-"generated_at": "2026-11-11 06:01:19 JST"
+"generated_at": "2026-11-11 08:09:23 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 39
+"article_count": 40
 "sources":
   - "aws_architecture_blog"
   - "aws_japan_blog"
@@ -11,7 +11,7 @@
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は Claude Fable 5.2 の AWS 提供と Amazon Quick の AWS Quick への改称、AgentCore まわりの拡充が中心でした。Claude Fable 5.2 と Claude Mythos 5.2 が Amazon Bedrock と Claude Platform on AWS で使えるようになり、Fable 5.2 は GovCloud (US) でも提供、Mythos 5.2 は GovCloud (US) の対象顧客に提供されます。Amazon Quick は AWS Quick に名称を変え、初のブランドキャンペーンや skills と agents の仕組みも紹介されました。AgentCore では Web Search API が一般提供となり、Managed Knowledge Base の single-shot RAG、Cedar を採用した AgentCore Policy、Memory へのメモリポイズニング対策、Runtime V2 の国内事例が取り上げられています。EKS 向けには、ポッドを Nitro System 基盤の専用軽量 VM で動かす AWS Nitro Sandboxes が提供開始されました。セキュリティでは、STS と IAM outbound identity federation によるパーティション間フェデレーションが加わり、AWS ParallelCluster CLI のログエクスポートのパストラバーサル CVE-2026-124033 と、Amazon Braket SDK の CVE-2026-124034 / CVE-2026-124035 が公表されました。データ分析では Athena のシステムテーブル (query_executions)、Glue の SaaS 向けネイティブコネクター 100 種、DocumentDB Serverless のスループット最大 35% 向上 (プラットフォームバージョン 4)、MWAA の DuckDB オペレーター、Neptune Analytics 向けオープンソース UI が発表されました。運用面では CloudWatch Logs のアカウントレベル保持ポリシーに加え、PromQL を使う CloudWatch アラームから EC2 / Application Auto Scaling のステップ・シンプルスケーリングポリシーを起動できるようになり、OpenSearch Service では新バージョンを並行して検証してから切り替え、問題があればロールバックできるクローンベースのアップグレードが加わりました。ほかに SageMaker JumpStart の NVIDIA Nemotron 3.5 Super VL や、re:Invent 2026 (11 月 30 日〜12 月 4 日) の分野別ガイドもありました。
+  この日は Claude Fable 5.2 の AWS 提供と Amazon Quick の AWS Quick への改称、AgentCore まわりの拡充が中心でした。Claude Fable 5.2 と Claude Mythos 5.2 が Amazon Bedrock と Claude Platform on AWS で使えるようになり、Fable 5.2 は GovCloud (US) でも提供、Mythos 5.2 は GovCloud (US) の対象顧客に提供されます。Amazon Quick は AWS Quick に名称を変え、初のブランドキャンペーンや skills と agents の仕組みも紹介されました。AgentCore では Web Search API が一般提供となり、Managed Knowledge Base の single-shot RAG、Cedar を採用した AgentCore Policy、Memory へのメモリポイズニング対策、Runtime V2 の国内事例が取り上げられています。EKS 向けには、ポッドを Nitro System 基盤の専用軽量 VM で動かす AWS Nitro Sandboxes が提供開始されました。セキュリティでは、STS と IAM outbound identity federation によるパーティション間フェデレーションが加わり、AWS ParallelCluster CLI のログエクスポートのパストラバーサル CVE-2026-124033 と、Amazon Braket SDK の CVE-2026-124034 / CVE-2026-124035 が公表されました。データ分析では Athena のシステムテーブル (query_executions)、Glue の SaaS 向けネイティブコネクター 100 種、DocumentDB Serverless のスループット最大 35% 向上 (プラットフォームバージョン 4)、MWAA の DuckDB オペレーター、Neptune Analytics 向けオープンソース UI が発表されました。運用面では CloudWatch Logs のアカウントレベル保持ポリシーに加え、PromQL を使う CloudWatch アラームから EC2 / Application Auto Scaling のステップ・シンプルスケーリングポリシーを起動できるようになり、OpenSearch Service では新バージョンを並行して検証してから切り替え、問題があればロールバックできるクローンベースのアップグレードが加わりました。ほかに SageMaker JumpStart の NVIDIA Nemotron 3.5 Super VL や、re:Invent 2026 (11 月 30 日〜12 月 4 日) の分野別ガイドもありました。Amazon ElastiCache Serverless for Valkey はベクトル検索・全文検索・ハイブリッド検索と集計に対応しました。ベクトル検索では最大 99% の再現率を保ちながらマイクロ秒単位のレイテンシで 1 日あたり数十億のクエリを処理でき、書き込みが完了すればマイクロ秒ほどで更新が検索対象になるため、トラフィックが読みにくいレイテンシ重視のアプリケーションに向きます。
 "topics":
   - "生成 AI: Claude Fable 5.2 と Claude Mythos 5.2 が Bedrock で提供 (GovCloud (US) を含む)"
   - "サービス名: Amazon Quick が AWS Quick に改称"
@@ -22,3 +22,4 @@
   - "データ分析: Athena システムテーブル、Glue の SaaS コネクター 100 種、MWAA の DuckDB オペレーター"
   - "データベース: DocumentDB Serverless のスループットが最大 35% 向上、OpenSearch Service がクローンベースのアップグレードとロールバックに対応"
   - "運用: CloudWatch Logs のアカウントレベル保持ポリシー、PromQL アラームから EC2 / Application Auto Scaling を起動"
+  - "データベース: ElastiCache Serverless for Valkey がベクトル・全文・ハイブリッド検索と集計に対応 (ベクトル検索で最大 99% の再現率、マイクロ秒単位のレイテンシ)"
