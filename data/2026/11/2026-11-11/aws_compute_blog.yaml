@@ -1,0 +1,9 @@
+"entries":
+  "6492d3145742f6cb22739d9e12567512":
+    "id": "6492d3145742f6cb22739d9e12567512"
+    "title": "Nitro Sandboxes: Hardware isolation for every EKS pod, ECS task, and EC2 workload"
+    "link": "https://aws.amazon.com/blogs/compute/nitro-sandboxes-hardware-isolation-for-every-eks-pod-ecs-task-and-ec2-workload/"
+    "published": "2026-11-11 05:00:39"
+    "fetched": "2026-11-11 07:46:21"
+    "summary": "AWS Nitro Sandboxes is a new Amazon EC2 building block that gives each container, EKS pod, or ECS task the boundary of a hardware-isolated virtual machine, bringing the Nitro System's strong isolation, zero operator access, and cryptographic attestation to container workloads at near-native performance."
+"last_updated": "2026-11-11 07:46:21 JST"
