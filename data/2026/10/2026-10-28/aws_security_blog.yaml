@@ -20,4 +20,11 @@
     "published": "2026-10-28 08:46:13"
     "fetched": "2026-10-28 09:56:20"
     "summary": "Your workloads reach most destinations by domain name, but a firewall can only act on what it sees in the traffic. For HTTP and HTTPS, AWS Network Firewall domain rules match the name that the client puts in the request, and the client chooses that name. The connections for protocols such as SSH and SSH […]"
-"last_updated": "2026-10-28 09:56:20 JST"
+  "98ae23d3a94331a443ec9bd47d764781":
+    "id": "98ae23d3a94331a443ec9bd47d764781"
+    "title": "AWS becomes first CSP in Canada to complete the Cloud High profile assessment with 172 services and features in scope"
+    "link": "https://aws.amazon.com/blogs/security/aws-becomes-first-csp-to-complete-the-cloud-high-profile-assessment-with-172-services-and-features-in-scope/"
+    "published": "2026-10-28 02:50:05"
+    "fetched": "2026-11-10 10:51:37"
+    "summary": "November 9, 2026: We added a link to the French translation of this post and made other minor edits for clarity. French translation We continue to expand the scope of our assurance programs at Amazon Web Services (AWS) and are pleased to announce the successful completion of our first ever Canadian Centre for Cyber Security […]"
+"last_updated": "2026-11-10 10:51:37 JST"

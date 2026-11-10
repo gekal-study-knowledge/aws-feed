@@ -1,0 +1,16 @@
+"entries":
+  "52cbdeff58b2b96ee828a6d5c0b1fc1f":
+    "id": "52cbdeff58b2b96ee828a6d5c0b1fc1f"
+    "title": "Help defend against memory poisoning in Amazon Bedrock AgentCore with multi-layer write validation"
+    "link": "https://aws.amazon.com/blogs/security/help-defend-against-memory-poisoning-in-amazon-bedrock-agentcore-with-multi-layer-write-validation/"
+    "published": "2026-11-10 04:05:52"
+    "fetched": "2026-11-10 10:51:37"
+    "summary": "Amazon Bedrock AgentCore Memory helps AI agents maintain context across sessions through persistent short-term and long-term memory. Because memory content is automatically retrieved and injected into future conversations, the integrity of what gets written to memory directly shapes future agent behavior, which makes the write path a valuable control point to strengthen. AgentCore already provides […]"
+  "30819cbb50d8808e3677419e6f07f6c2":
+    "id": "30819cbb50d8808e3677419e6f07f6c2"
+    "title": "Simplify cross-partition access with AWS IAM outbound identity federation"
+    "link": "https://aws.amazon.com/blogs/security/simplify-cross-partition-access-with-aws-iam-outbound-identity-federation/"
+    "published": "2026-11-10 01:08:30"
+    "fetched": "2026-11-10 10:51:37"
+    "summary": "You can now use tokens from AWS Identity and Access Management (IAM) outbound federation to assume roles in other Amazon Web Services (AWS) partitions. When your workloads run across AWS partitions such as Commercial, China, GovCloud (US), and European Sovereign Cloud, a workload in one partition might need to access resources or communicate with AWS […]"
+"last_updated": "2026-11-10 10:51:37 JST"

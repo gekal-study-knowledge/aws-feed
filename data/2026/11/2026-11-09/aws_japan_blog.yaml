@@ -69,4 +69,11 @@
     "published": "2026-11-09 09:30:01"
     "fetched": "2026-11-09 16:35:10"
     "summary": "Amazon VPC 内の DNS クエリは Amazon Route 53 Resolver を経由する独自の経路をたどるため、セキュリティグループや AWS Network Firewall などの制御をバイパスします。この記事では、従来のブロックリストでは捕捉できない DNS トンネリングやドメイン生成アルゴリズム (DGA) の仕組みに加え、Amazon Route 53 Resolver DNS Firewall Advanced によるリアルタイム検出と信頼度のしきい値の選び方を解説します。さらに、コンソールでのルール作成、AWS CloudFormation テンプレートによる推奨ルールグループのデプロイ、クエリログ記録、AWS Security Hub との統合も紹介します。"
-"last_updated": "2026-11-09 16:35:10 JST"
+  "812e6032ce0484b9092c9041d0dc080f":
+    "id": "812e6032ce0484b9092c9041d0dc080f"
+    "title": "月刊AWS製造 2026年11月号"
+    "link": "https://aws.amazon.com/jp/blogs/news/monthly-manufacturing-202611/"
+    "published": "2026-11-09 21:33:48"
+    "fetched": "2026-11-10 10:51:36"
+    "summary": "みなさん、こんにちは。ソリューションアーキテクトの水野です。11 月に入り、朝晩はぐっと冷え込むようになってき […]"
+"last_updated": "2026-11-10 10:51:36 JST"

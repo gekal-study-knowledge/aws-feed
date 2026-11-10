@@ -55,4 +55,11 @@
     "published": "2026-11-07 01:45:58"
     "fetched": "2026-11-07 03:49:34"
     "summary": "Run Claude Code as a remote agent on Amazon Bedrock AgentCore. Each coding task runs in its own isolated session in your AWS account, every model call goes through Amazon Bedrock, and the result comes back as a GitHub pull request you review and merge."
-"last_updated": "2026-11-07 03:49:34 JST"
+  "6e32eaaff7cd78fabf7ccfd40b85afb8":
+    "id": "6e32eaaff7cd78fabf7ccfd40b85afb8"
+    "title": "Taxonomy of agentic primitives in AWS Quick"
+    "link": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/"
+    "published": "2026-11-07 02:34:45"
+    "fetched": "2026-11-10 10:51:38"
+    "summary": "As we built Amazon Quick, its agents grew from answering questions to taking actions, and the same primitives kept getting rebuilt under different names. This post shares the taxonomy we converged on — triggers, agents, capabilities, and learned context — found by decomposing agentic work into four plain questions: When, What, Who, and How."
+"last_updated": "2026-11-10 10:51:38 JST"
