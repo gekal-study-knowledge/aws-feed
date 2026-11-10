@@ -1,19 +1,18 @@
 "date": "2026-11-09"
-"generated_at": "2026-11-09 22:01:02 JST"
+"generated_at": "2026-11-10 22:01:32 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 10
+"article_count": 16
 "sources":
   - "aws_japan_blog"
+  - "aws_whats_new"
 "overview": |
-  この日は AWS Japan Blog のみの更新で、DNS セキュリティと SAP 向け生成 AI の記事が中心だった。Amazon Route 53 Resolver DNS Firewall については、VPC 内の DNS クエリが Route 53 Resolver を経由する独自の経路をたどるためセキュリティグループや AWS Network Firewall の制御をバイパスする点を踏まえ、従来のブロックリストでは捕捉できない DNS トンネリングやドメイン生成アルゴリズム (DGA) を防ぐ方法と、AWS Direct Connect や Site-to-Site VPN、インターネット向け Network Load Balancer を使って保護をオンプレミスワークロードへ拡張し、ハイブリッド環境全体で統一した DNS セキュリティポリシーを実現する方法が紹介された。また 2026 年 10 月 21 日に追加料金なしでリリースされた AWS Network Firewall 向け Route 53 Resolved IP Validation の解説も出た。Network Firewall が新しいアウトバウンド接続の宛先を Route 53 Resolver が返した IP アドレスと照合する機能で、SFTP や SSH などの非ウェブトラフィックをドメイン名で制御でき、SNI スプーフィングも防げる。SAP 関連では、Amazon Supply Chain Services の中核である Amazon Multi-Channel Fulfillment (MCF) を AWS 上の SAP ECC・SAP S/4HANA から SAP BTP Integration Suite と MCF API 経由で利用できるアクセラレーターの登場、SAP のマテリアルマスターデータと Amazon ECS Fargate 上の Strands Agents・Amazon Bedrock・MCP を組み合わせた競合価格モニタリング、Agentic AI が SAP ワークフローを自律実行する 7 つのユースケースを紹介するシリーズの第 1 回 (Amazon Bedrock AgentCore・Lambda・Bedrock Knowledge Bases・SNS による共通アーキテクチャとセキュリティ設計) が取り上げられた。事例では、Rivian が Bedrock AgentCore 上の ERP AI エージェント (Strands Agent が MCP サーバー経由で SAP S/4HANA と連携) で発注の会計計上を自動化し月次決算の手作業をサイクルあたり 15 日超削減した事例と、東京製鐵が AI コーディングツール Kiro を全社導入し現場の従業員が業務システムを内製する文化づくりを進めている事例が紹介された。週刊AWS (2026/11/02 週) では Amazon Textract の日本語対応と東京リージョンでの提供、Amazon Inspector の AMI 脆弱性スキャン対応、CloudFront の Service Quotas によるクォータ引き上げ対応、Lambda のセルフマネージド Kafka のキュー対応、S3 Tables の Hive から Iceberg へのマネージド移行などがまとめられ、週刊生成AI with AWS (2026 年 11 月 2 日週) ではニッセイ情報テクノロジーの国内事例、Toyota Motor North America の AI アシスト型 SAP 運用プラットフォーム BasisPilot、Kiro Crew の Bot や Kiro のモデルカスケードなどが紹介された。
+  この日はコンテナの分離とネットワーク・DNS セキュリティ、SAP 関連の生成 AI 活用が中心でした。コンテナでは AWS Nitro Sandboxes が登場し、Nitro Hypervisor が管理する軽量 VM として EKS のポッド、ECS のタスク、軽量 VM をハードウェアで分離できるようになりました。EKS Auto Mode と Karpenter は NVIDIA GPU と EFA の Dynamic Resource Allocation (DRA) に対応しています。ネットワークでは Route 53 Profiles が 1 つの VPC に複数の Profile を関連付けられるようになり、日本語ブログでも Route 53 Resolver DNS Firewall による DNS トンネリングや DGA への対策、ハイブリッド環境への拡張、10 月 21 日にリリースされた Network Firewall 向け Route 53 Resolved IP Validation が解説されました。データでは AWS の分析サービスと Workday Data Cloud の双方向・ゼロコピー統合が発表され、FSx for NetApp ONTAP は 4 リージョン、FSx for OpenZFS は 20 リージョンで S3 Access Points に対応しました。国内記事では SAP 向けの生成 AI 活用 (Rivian の財務オペレーション、価格モニタリング、Multi-Channel Fulfillment アクセラレーター、CFO 向けユースケース) や、東京製鐵の Kiro 全社導入事例、週刊 AWS、週刊生成 AI、月刊 AWS 製造 11 月号が並びました。
 "topics":
-  - "セキュリティ: Route 53 Resolver DNS Firewall で、セキュリティグループや Network Firewall をバイパスする VPC 内 DNS 経路での DNS トンネリング・DGA を防御"
-  - "セキュリティ: AWS Network Firewall 向け Route 53 Resolved IP Validation (2026 年 10 月 21 日リリース、追加料金なし) で SFTP・SSH など非ウェブトラフィックのドメイン名制御と SNI スプーフィング防止"
-  - "ネットワーク: Route 53 Resolver DNS Firewall の保護を Direct Connect・Site-to-Site VPN・NLB 経由でオンプレミスへ拡張しハイブリッド環境で統一ポリシー"
-  - "SAP: Amazon Multi-Channel Fulfillment (MCF) を SAP ECC・S/4HANA から SAP BTP Integration Suite と MCF API で使えるアクセラレーター"
-  - "SAP: マテリアルマスターデータと ECS Fargate 上の Strands Agents・Bedrock・MCP による競合価格モニタリング"
-  - "SAP: Agentic AI による SAP ワークフロー自律実行の 7 ユースケースのシリーズ第 1 回 (AgentCore・Lambda・Knowledge Bases・SNS の共通アーキテクチャ)"
-  - "事例: Rivian が Bedrock AgentCore 上の ERP AI エージェントで発注の会計計上を自動化し、月次決算の手作業をサイクルあたり 15 日超削減"
-  - "事例: 東京製鐵が Kiro を全社導入し、現場の従業員が業務システムを内製"
-  - "週刊AWS (2026/11/02 週): Textract の日本語対応と東京リージョン提供、Inspector の AMI スキャン、CloudFront の Service Quotas 対応、Lambda のセルフマネージド Kafka キュー、S3 Tables の Hive→Iceberg 移行など"
-  - "週刊生成AI with AWS (2026 年 11 月 2 日週): ニッセイ情報テクノロジー事例、Toyota Motor North America の BasisPilot、Kiro Crew の Bot、Kiro のモデルカスケード"
+  - "コンテナ: AWS Nitro Sandboxes で EKS ポッド・ECS タスク・軽量 VM をハードウェア分離"
+  - "コンテナ: EKS Auto Mode と Karpenter が NVIDIA GPU と EFA の DRA に対応"
+  - "ネットワーク: Route 53 Profiles が VPC あたり複数 Profile に対応"
+  - "セキュリティ: Route 53 Resolver DNS Firewall と Resolved IP Validation の解説"
+  - "データ: AWS 分析サービスと Workday Data Cloud のゼロコピー統合"
+  - "ストレージ: S3 Access Points for FSx が ONTAP 4 リージョン、OpenZFS 20 リージョンに拡大"
+  - "SAP: Rivian の財務オペレーション自動化など生成 AI 活用事例"
+  - "国内: 東京製鐵の Kiro 全社導入、週刊 AWS、月刊 AWS 製造 11 月号"

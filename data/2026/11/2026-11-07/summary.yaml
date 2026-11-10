@@ -1,7 +1,7 @@
 "date": "2026-11-07"
-"generated_at": "2026-11-07 22:01:45 JST"
+"generated_at": "2026-11-10 22:01:32 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 17
+"article_count": 20
 "sources":
   - "aws_japan_blog"
   - "aws_machine_learning_blog"
@@ -9,18 +9,12 @@
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日はセキュリティ速報が 2 件公開された。CVE-2026-122193 は Trusted Remote Execution (REX) のセットアップドキュメントに例として載っている SSM ドキュメントに OS コマンドインジェクションの問題があるというもの。もう 1 件 (Bulletin ID: 2026-166-AWS、2026 年 11 月 6 日 10:00 PST 公開) は Babelfish for Aurora PostgreSQL の TDS プロトコル層の 2 つの問題で、CVE-2026-119923 は TDS の接続ハンドシェイク処理のメモリ安全性の問題により認証されていないリモートの第三者がデータベースプロセスに影響を与えうるもの、CVE-2026-119924 は TDS のリモートプロシージャコール要求処理のメモリ安全性の問題により認証済みのリモートの第三者が隣接するプロセスメモリを読み取ったりサービス拒否を起こしたりしうるもの。AWS Data Exports の Cost and Usage Report (CUR) 2.0 と AWS Cost Explorer は、Amazon EC2 Capacity Blocks for ML の前払い料金を各予約の期間にわたって償却して表示するようになった。AWS Machine Learning Blog は 8 本で、うち 5 本が Amazon Bedrock AgentCore 関連。Claude Code を AgentCore 上のリモートエージェントとして動かし、コーディングタスクごとに自分の AWS アカウント内の分離されたセッションで実行してモデル呼び出しはすべて Amazon Bedrock を経由させる構成、Taxbit がエンタープライズ向けダッシュボードに組み込んだ出典付き・権限を考慮した AI アシスタント Taxbit Assist、Greenlight Financial が多層マルチエージェントシステム Luna で月最大 4,000 件のセキュリティ・リスクのケースの 90% 以上を人手を介さず解決している自律型 SOC、Okta Cross App Access と AgentCore で AI エージェントのアクセスを統制する 2 部作 (第 2 部では AgentCore Gateway を単一の入口として Okta のグラントを引き換え、Cedar ポリシーで制御する) が紹介された。このほか、Amazon ECS on AWS Fargate 上にサーバーレスの MCP サーバーを構築し、AI エージェントにメタデータ駆動でデータレイクへの安全なアクセスを提供する方法、Amazon Quick の開発で整理したエージェント的なプリミティブの分類、Amazon SageMaker Inference が NVIDIA Multi-Instance GPU (MIG) による GPU パーティショニングに対応し、1 つの GPU をハードウェア分離された区画に分けて区画ごとに別のモデルを動かせるようになったことが取り上げられた。 後から取得した発表として、Amazon Bedrock で Moonshot AI の Kimi K3.1 Pro (Highspeed) が利用可能になった。Moonshot AI によれば 100 万トークンのコンテキストウィンドウを持つネイティブなマルチモーダルのオープンウェイトなエージェント型モデルで、同社の 3 兆パラメーター級として最も高性能なモデルであり、Highspeed 版は高い出力トークン速度 (OTPS) でコーディングや文書処理などのエージェント用途に向く。Bedrock 上では独自モデルと同じセキュリティ境界で動き、明示的なプロンプトキャッシュに対応する。Amazon Redshift は SUPER データ型の個々の文字列の上限を従来の 65,535 バイトから 1,600 万バイトに広げ、データベースパラメーターでオプトインすると JSON・PARQUET・TEXT・CSV からの取り込みや ELT 処理で契約書のような長い文書もそのまま格納して SQL や PartiQL で扱えるようになった。AWS GovCloud では、Amazon MSK Replicator が GovCloud (米国東部・米国西部) で、Bedrock AgentCore から使える AWS Agent Registry (MCP サーバー・ツール・エージェント・エージェントスキルを承認ワークフロー付きで登録・検索できる中央カタログ、CloudTrail の監査ログに対応) が GovCloud (米国西部) で一般提供になった。AWS Security Blog は、Android Debug Bridge (ADB) や WebRTC のように既定で暗号化されない通信路を使い JWT などのエンタープライズ認証に対応しないプロトコルが、Amazon EKS を含むマルチテナントの Kubernetes クラスターでは、ネットワークポリシーを構成しない限り他テナントの Pod の開いたポートに到達できてしまうという課題への対処を解説した。AWS Japan Blog では、Kiro の Auto がモデルカスケードを使い、効率のよい最初のモデルでセッションを始めて独立したチェックがバックグラウンドで作業を確かめ、必要なときにより高性能なモデルへ引き継ぐ仕組みが紹介された。
+  この日は Amazon Bedrock AgentCore を軸にした AI エージェントの記事と、セキュリティ速報、データ分析サービスの機能追加が中心でした。セキュリティ速報では、Trusted Remote Execution (REX) のセットアップガイドに含まれる SSM ドキュメント例の OS コマンドインジェクション CVE-2026-122193 と、Babelfish for Aurora PostgreSQL の TDS プロトコル層の問題 CVE-2026-119923 / CVE-2026-119924 が公表されました。AgentCore 関連では、Claude Code をリモートセッションとして AgentCore 上で動かす方法、Okta Cross App Access と組み合わせたエージェントのアクセス統制 (2 部作)、Greenlight Financial の自律型 SOC、Taxbit Assist の事例が紹介され、Amazon Quick のエージェントプリミティブの分類も公開されています。データ分析では MWAA Serverless が Airflow の connections / variables と、プロバイダーパッケージやカスタムのオペレーターに対応し、Redshift の SUPER 型は最大 1,600 万バイトの文字列を扱えるようになりました。ほかに SageMaker Inference の NVIDIA MIG 対応、EC2 Capacity Blocks for ML の前払い料金の償却表示、MSK Replicator と Agent Registry の GovCloud 提供、Bedrock での Kimi K3.1 Pro (Highspeed) 提供がありました。
 "topics":
-  - "セキュリティ速報: CVE-2026-122193 (Trusted Remote Execution (REX) のセットアップガイドにある SSM ドキュメントの例に OS コマンドインジェクション)"
-  - "セキュリティ速報: CVE-2026-119923 と CVE-2026-119924 (Bulletin ID 2026-166-AWS、Babelfish for Aurora PostgreSQL の TDS プロトコル層。前者は接続ハンドシェイク処理で未認証のリモート第三者がデータベースプロセスに影響、後者は RPC 要求処理で認証済みの第三者が隣接メモリの読み取りやサービス拒否)"
-  - "コスト管理: CUR 2.0 と Cost Explorer が EC2 Capacity Blocks for ML の前払い料金を予約期間で償却表示"
-  - "生成 AI: Claude Code を Bedrock AgentCore 上のリモートエージェントとして実行 (タスクごとに分離セッション、モデル呼び出しは Bedrock 経由)"
-  - "事例: Taxbit Assist (出典付き・権限考慮の AI アシスタント)、Greenlight Financial の自律型 SOC Luna (月最大 4,000 件の 90% 超を自動解決)"
-  - "セキュリティ: Okta Cross App Access と AgentCore で AI エージェントのアクセスを統制する 2 部作 (AgentCore Gateway と Cedar ポリシー)"
-  - "AI エージェント: ECS Fargate 上のサーバーレス MCP サーバーでデータレイクへアクセス、Amazon Quick のエージェント的プリミティブの分類"
-  - "AI/ML: SageMaker Inference が NVIDIA Multi-Instance GPU (MIG) に対応、1 GPU をハードウェア分離した区画に分割して複数モデルを実行"
-  - "生成 AI: Amazon Bedrock で Moonshot AI の Kimi K3.1 Pro (Highspeed) が利用可能、100 万トークンのコンテキスト、3 兆パラメーター級のオープンウェイトなマルチモーダルモデル、明示的なプロンプトキャッシュに対応"
-  - "データベース: Amazon Redshift の SUPER データ型で個々の文字列の上限が 65,535 バイトから 1,600 万バイトに (データベースパラメーターでオプトイン)"
-  - "GovCloud: Amazon MSK Replicator が GovCloud (米国東部・米国西部)、AWS Agent Registry が GovCloud (米国西部) で利用可能に"
-  - "セキュリティ: ADB や WebRTC など暗号化・エンタープライズ認証のないプロトコルが、EKS を含むマルチテナント Kubernetes で他テナントの Pod から到達されうる課題への対処"
-  - "開発ツール: Kiro の Auto はモデルカスケードで効率的なモデルから始め、バックグラウンドのチェックを経て必要時に高性能なモデルへ引き継ぐ"
+  - "セキュリティ: CVE-2026-122193 (REX の SSM ドキュメント例)、CVE-2026-119923 / CVE-2026-119924 (Babelfish for Aurora PostgreSQL)"
+  - "AI エージェント: Claude Code を AgentCore のリモートセッションで実行、Okta Cross App Access によるアクセス統制"
+  - "データ分析: MWAA Serverless が connections / variables とプロバイダー・カスタムオペレーターに対応"
+  - "データベース: Redshift の SUPER 型が最大 1,600 万バイトの文字列に対応"
+  - "機械学習: SageMaker Inference が NVIDIA MIG に対応、Bedrock で Kimi K3.1 Pro (Highspeed) 提供"
+  - "コスト: EC2 Capacity Blocks for ML の前払い料金を CUR 2.0 と Cost Explorer で償却"
+  - "GovCloud: MSK Replicator と Agent Registry が提供開始"
