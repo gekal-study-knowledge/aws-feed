@@ -1,0 +1,9 @@
+"entries":
+  "cf6ac7f81f2d0e08fc054e90594d2868":
+    "id": "cf6ac7f81f2d0e08fc054e90594d2868"
+    "title": "CVE-2026-125271 - AWS API MCP Server Security Policy Bypass via Incorrect Operation Name Normalization"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-176-aws/"
+    "published": "2026-11-11 01:42:37"
+    "fetched": "2026-11-11 02:26:42"
+    "summary": "<p><b>Bulletin ID:</b> 2026-176-AWS<br /> <b>Publication Date:</b> 11/10/2026 08:30 AM PST</p> \n<p><b>Description:</b></p> \n<p>We identified CVE-2026-125271 of AWS API MCP Server. The server normalized operation names incorrectly before comparing them to the operator ' s security policy, so operations whose names contain consecutive capital letters never matched a correctly written denyList or elicitList entry. This might allow an actor to execute AWS API operations that the operator's security policy was configured to deny or require elicitation for.</p> \n<p><b>Impacted versions:</b> &gt;= 0.2.13 AND &lt; 1.5.1</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-176-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+"last_updated": "2026-11-11 02:26:42 JST"

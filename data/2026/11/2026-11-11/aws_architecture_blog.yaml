@@ -1,0 +1,9 @@
+"entries":
+  "b4d0ed4384c13acccb3153396804fb88":
+    "id": "b4d0ed4384c13acccb3153396804fb88"
+    "title": "Self-service regional failover with Amazon Application Recovery Controller Region Switch and centralized ingress controls"
+    "link": "https://aws.amazon.com/blogs/architecture/self-service-regional-failover-with-amazon-application-recovery-controller-region-switch-and-centralized-ingress-controls/"
+    "published": "2026-11-11 01:48:09"
+    "fetched": "2026-11-11 02:26:42"
+    "summary": "Application teams in regulated enterprises can execute self-service regional failover with Amazon Application Recovery Controller (ARC) Region Switch, even behind centrally managed ingress proxy fleets. Learn how Transit Gateway peering, Route 53 Private Hosted Zones, and VPC Lattice preserve security controls while removing cross-team coordination during DR."
+"last_updated": "2026-11-11 02:26:42 JST"
