@@ -1,0 +1,15 @@
+"date": "2026-11-11"
+"generated_at": "2026-11-11 06:01:19 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 4
+"sources":
+  - "aws_architecture_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+"overview": |
+  この日は記事が少なく、AWS API MCP Server のセキュリティ速報と、Bedrock・AgentCore の活用記事が中心でした。セキュリティでは CVE-2026-125271 が公表され、AWS API MCP Server が操作名を誤って正規化してから比較していたため、セキュリティポリシーを回避できる問題があったとされています。Architecture Blog では、規制業界の企業で中央管理された ingress プロキシの背後にあっても、Amazon Application Recovery Controller (ARC) Region Switch を使ってアプリケーションチームがセルフサービスでリージョンフェイルオーバーを実行する構成が紹介されました。Machine Learning Blog では、複数アカウントの Bedrock 呼び出しログを集約してトークン消費を分析する観測用データレイク (tokenomics data lake) の構築方法と、Tata Consultancy Services (TCS) が AgentCore 上で要件から統制されたテストを生成・実行するエージェント型テストオーケストレーターを構築した BFSI 向け事例が取り上げられています。
+"topics":
+  - "セキュリティ: CVE-2026-125271 (AWS API MCP Server の操作名正規化の誤りによるセキュリティポリシー回避)"
+  - "レジリエンス: ARC Region Switch によるセルフサービスのリージョンフェイルオーバー"
+  - "生成 AI: Bedrock 呼び出しログを集約する tokenomics データレイク"
+  - "事例: TCS が AgentCore でエージェント型テストオーケストレーターを構築"
