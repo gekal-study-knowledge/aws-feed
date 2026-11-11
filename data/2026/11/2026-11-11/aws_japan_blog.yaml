@@ -13,4 +13,11 @@
     "published": "2026-11-11 08:48:12"
     "fetched": "2026-11-11 11:29:36"
     "summary": "こんにちは。AWS ソリューションアーキテクトの崔 祐碩（Woosuk Choi）です。AI 開発を進めている多くのお客様から「開発を加速したい」というご相談をいただいています。お客様と議論を重ねるたびに、本当のボトルネックは開発そのものではなく、意思決定をめぐるプロセスと組織ではないか、と感じることが増えてきました。本ブログでは、2026年7月29日に MBK Wellness 株式会社と実施した AI-DLC ワークショップを題材に、私たちがこの仮説をどう確かめ、どんな答えが返ってきたのかをご紹介します。"
-"last_updated": "2026-11-11 11:29:36 JST"
+  "72ca78e5ce50b8a086f4d0abf3acb0b0":
+    "id": "72ca78e5ce50b8a086f4d0abf3acb0b0"
+    "title": "Kiro の「Approve for me」のご紹介"
+    "link": "https://aws.amazon.com/jp/blogs/news/introducing-approve-for-me/"
+    "published": "2026-11-11 14:29:19"
+    "fetched": "2026-11-11 19:13:51"
+    "summary": "2026 年 11 月 10 日、Kiro IDE、Kiro CLI、Kiro Web で「Approve for me」の提供を始めました。Approve for me を有効にすると、ルールで決まっていない操作について、Kiro が LLM によるレビューを行います。"
+"last_updated": "2026-11-11 19:13:51 JST"
