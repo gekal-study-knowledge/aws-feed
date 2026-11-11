@@ -1,16 +1,17 @@
 "date": "2026-11-11"
-"generated_at": "2026-11-11 08:09:23 JST"
+"generated_at": "2026-11-11 22:01:13 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 14
+"article_count": 23
 "sources":
   - "aws_architecture_blog"
   - "aws_compute_blog"
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_security_blog"
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日はセキュリティ速報 3 件と、AWS Nitro Sandboxes・AgentCore まわりの記事が中心でした。セキュリティでは CVE-2026-125271 が公表され、AWS API MCP Server が操作名を誤って正規化してから比較していたため、セキュリティポリシーを回避できる問題があったとされています。Architecture Blog では、規制業界の企業で中央管理された ingress プロキシの背後にあっても、Amazon Application Recovery Controller (ARC) Region Switch を使ってアプリケーションチームがセルフサービスでリージョンフェイルオーバーを実行する構成が紹介されました。Machine Learning Blog では、複数アカウントの Bedrock 呼び出しログを集約してトークン消費を分析する観測用データレイク (tokenomics data lake) の構築方法と、Tata Consultancy Services (TCS) が AgentCore 上で要件から統制されたテストを生成・実行するエージェント型テストオーケストレーターを構築した BFSI 向け事例が取り上げられています。あわせて CVE-2026-124848 と CVE-2026-126087 も公表されました。CVE-2026-124848 は macOS と Linux の Kiro CLI 2.27.0 より前のバージョンで、ローカルのセッション記録とプロンプト履歴のファイルが全ローカルユーザーから読める権限で作られていた問題で、同じホストの他のユーザーが記録に含まれる認証情報やソースコードを読めるおそれがあります (影響範囲は 1.16.0 以上 2.27.0 未満)。CVE-2026-126087 は OpenJD Sessions for Python 0.11.0 未満 (AWS Deadline Cloud ワーカーエージェント 0.33.0 未満が利用) のクロスユーザープロセスランチャーにおける信頼できない検索パスの問題で、キューにジョブを投入できる認証済みリモートユーザーが PATH 環境変数を書き換えるジョブを送ることで、ワーカーエージェントの OS ユーザーとして任意コードを実行し、そのエージェントが保持する AWS 認証情報を取得できるおそれがあります。Compute Blog では、コンテナ・EKS ポッド・ECS タスクのそれぞれにハードウェア分離された仮想マシンの境界を与える新しい Amazon EC2 のビルディングブロック AWS Nitro Sandboxes が解説され、Nitro System の強い分離・オペレーターアクセスなし・暗号的な構成証明をほぼネイティブの性能でコンテナワークロードに持ち込むとしています。Machine Learning Blog では、AgentCore Evaluations の組み込み評価器・DeepEval・AutoEval を使い分けて、エージェントがタスクを完了したか、話題から逸れていないか、データを漏らしていないか、手順を飛ばしていないかを評価する方法と、Trovata が Bedrock と AgentCore 上に RBAC で保護した銀行ブランド向けの自律型トレジャリーエージェントを構築した事例が公開されました。このほか Amazon RDS for PostgreSQL が Extended Support のマイナーバージョン 13.23-rds.20260819・12.22-rds.20260820・11.22-rds.20260822 を提供し、Amazon RDS for MySQL 26.10 が RDS Database Preview Environment で評価できるようになり、AWS Partner Central の事業計画機能が刷新されて AI による計画の準備状況スコアやリアルタイムの進捗追跡、計画のエクスポートが加わりました。セキュリティブログでは AWS ProcessUnity Global Risk Exchange 評価の更新と、re:Invent 2026 (11 月 30 日〜12 月 4 日、2,200 以上のセッション) のデジタルソブリンティ関連セッションの案内が出ています。
+  この日はセキュリティ速報 3 件と、AWS Nitro Sandboxes・AgentCore まわりの記事が中心でした。セキュリティでは CVE-2026-125271 が公表され、AWS API MCP Server が操作名を誤って正規化してから比較していたため、セキュリティポリシーを回避できる問題があったとされています。Architecture Blog では、規制業界の企業で中央管理された ingress プロキシの背後にあっても、Amazon Application Recovery Controller (ARC) Region Switch を使ってアプリケーションチームがセルフサービスでリージョンフェイルオーバーを実行する構成が紹介されました。Machine Learning Blog では、複数アカウントの Bedrock 呼び出しログを集約してトークン消費を分析する観測用データレイク (tokenomics data lake) の構築方法と、Tata Consultancy Services (TCS) が AgentCore 上で要件から統制されたテストを生成・実行するエージェント型テストオーケストレーターを構築した BFSI 向け事例が取り上げられています。あわせて CVE-2026-124848 と CVE-2026-126087 も公表されました。CVE-2026-124848 は macOS と Linux の Kiro CLI 2.27.0 より前のバージョンで、ローカルのセッション記録とプロンプト履歴のファイルが全ローカルユーザーから読める権限で作られていた問題で、同じホストの他のユーザーが記録に含まれる認証情報やソースコードを読めるおそれがあります (影響範囲は 1.16.0 以上 2.27.0 未満)。CVE-2026-126087 は OpenJD Sessions for Python 0.11.0 未満 (AWS Deadline Cloud ワーカーエージェント 0.33.0 未満が利用) のクロスユーザープロセスランチャーにおける信頼できない検索パスの問題で、キューにジョブを投入できる認証済みリモートユーザーが PATH 環境変数を書き換えるジョブを送ることで、ワーカーエージェントの OS ユーザーとして任意コードを実行し、そのエージェントが保持する AWS 認証情報を取得できるおそれがあります。Compute Blog では、コンテナ・EKS ポッド・ECS タスクのそれぞれにハードウェア分離された仮想マシンの境界を与える新しい Amazon EC2 のビルディングブロック AWS Nitro Sandboxes が解説され、Nitro System の強い分離・オペレーターアクセスなし・暗号的な構成証明をほぼネイティブの性能でコンテナワークロードに持ち込むとしています。Machine Learning Blog では、AgentCore Evaluations の組み込み評価器・DeepEval・AutoEval を使い分けて、エージェントがタスクを完了したか、話題から逸れていないか、データを漏らしていないか、手順を飛ばしていないかを評価する方法と、Trovata が Bedrock と AgentCore 上に RBAC で保護した銀行ブランド向けの自律型トレジャリーエージェントを構築した事例が公開されました。このほか Amazon RDS for PostgreSQL が Extended Support のマイナーバージョン 13.23-rds.20260819・12.22-rds.20260820・11.22-rds.20260822 を提供し、Amazon RDS for MySQL 26.10 が RDS Database Preview Environment で評価できるようになり、AWS Partner Central の事業計画機能が刷新されて AI による計画の準備状況スコアやリアルタイムの進捗追跡、計画のエクスポートが加わりました。セキュリティブログでは AWS ProcessUnity Global Risk Exchange 評価の更新と、re:Invent 2026 (11 月 30 日〜12 月 4 日、2,200 以上のセッション) のデジタルソブリンティ関連セッションの案内が出ています。 追加の発表として、Amazon OpenSearch Service がマネージドのクロスリージョン災害対策を提供し、2 つのリージョンのドメインをペアにすると RPO 1 分未満・RTO 20 分未満で継続的に同期され、計画的な切り替え (スイッチオーバー) もできます。Amazon EC2 G7 インスタンス (NVIDIA RTX PRO 4500 Blackwell Server Edition) が欧州 (ロンドン)・アジアパシフィック (ムンバイ、シドニー)・南米 (サンパウロ) で利用可能になり、G6 比で AI 推論性能が最大 4.6 倍とされています。Billing and Cost Management のカスタム請求ビューでは、Billing Conductor の請求グループビューと Billing Transfer のビューをソースとして組み合わせ、Cost Explorer や Budgets で使えるようになりました。生成 AI では Moonshot AI の Kimi K3.1 Pro が Bedrock で提供され (OpenAI 互換の Chat Completions / Responses と Converse API に対応)、AgentCore の Web Search API と LangGraph で依存パッケージを毎日調べる dependency watcher を作る記事も公開されました。Kiro では 11 月 10 日に IDE・CLI・Web で、ルールで決まっていない操作を LLM がレビューする「Approve for me」の提供が始まっています。セキュリティブログでは GuardDuty の脅威検出機能をカスタマイズしてアラート疲れを減らす方法が紹介され、日本のブログでは AI-DLC ワークショップを題材に AI 駆動開発のボトルネックは意思決定のプロセスと組織にあるとする記事と、製造業 7 社による AI エージェント全社基盤のラウンドテーブル (10 月 26 日開催) の報告が出ました。
 "topics":
   - "セキュリティ: CVE-2026-125271 (AWS API MCP Server の操作名正規化の誤りによるセキュリティポリシー回避)"
   - "レジリエンス: ARC Region Switch によるセルフサービスのリージョンフェイルオーバー"
@@ -22,3 +23,9 @@
   - "生成 AI: AgentCore Evaluations の組み込み評価器・DeepEval・AutoEval の使い分け、Trovata が RBAC で保護した銀行ブランド向けの自律型トレジャリーエージェントを構築"
   - "データベース: RDS for PostgreSQL が Extended Support のマイナーバージョン 13.23・12.22・11.22 を提供、RDS for MySQL 26.10 が Database Preview Environment で評価可能に"
   - "パートナー・イベント: AWS Partner Central の事業計画機能を刷新 (AI による準備状況スコアと進捗追跡)、ProcessUnity Global Risk Exchange 評価の更新、re:Invent 2026 のデジタルソブリンティ関連セッション案内"
+  - "データベース・分析: OpenSearch Service のマネージドなクロスリージョン災害対策 (RPO 1 分未満、RTO 20 分未満)"
+  - "コンピューティング: EC2 G7 インスタンスがロンドン・ムンバイ・シドニー・サンパウロで利用可能に (G6 比で AI 推論最大 4.6 倍)"
+  - "コスト管理: カスタム請求ビューが Billing Conductor / Billing Transfer のビューをソースに利用可能"
+  - "生成 AI: Kimi K3.1 Pro が Bedrock で提供、AgentCore Web Search API と LangGraph による dependency watcher"
+  - "開発ツール: Kiro の「Approve for me」(11 月 10 日提供開始、ルール外の操作を LLM がレビュー)"
+  - "セキュリティ・国内: GuardDuty の検出カスタマイズでアラート疲れを軽減、AI 駆動開発のボトルネック考察、製造業 7 社の AI エージェント基盤ラウンドテーブル報告"
