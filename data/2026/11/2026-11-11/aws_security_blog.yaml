@@ -13,4 +13,11 @@
     "published": "2026-11-11 03:10:41"
     "fetched": "2026-11-11 07:46:19"
     "summary": "AWS re:Invent returns to Las Vegas for cloud and AI’s biggest week from November 30–December 4, 2026. This year we have over 2,200 sessions, 70 percent of which are interactive, led by experts from Amazon Web Services (AWS), our customers, and our partners. With that much to choose from, we’ve pulled together the sessions built […]"
-"last_updated": "2026-11-11 07:46:19 JST"
+  "adb2d62b56b74a265d8ea63e9655eaac":
+    "id": "adb2d62b56b74a265d8ea63e9655eaac"
+    "title": "Reduce alert fatigue by customizing threat detection features in Amazon GuardDuty"
+    "link": "https://aws.amazon.com/blogs/security/reduce-alert-fatigue-by-customizing-threat-detection-features-in-amazon-guardduty/"
+    "published": "2026-11-11 08:04:52"
+    "fetched": "2026-11-11 11:29:36"
+    "summary": "The teams responsible for security today don’t have a problem with the number of alerts they receive; they have a problem turning those alerts into something truly actionable. When an analyst concludes an investigation with “this was caused by our vulnerability scanner” or “this account is configured to share Amazon Machine Images (AMIs) publicly on […]"
+"last_updated": "2026-11-11 11:29:36 JST"
