@@ -1,0 +1,17 @@
+"date": "2026-11-12"
+"generated_at": "2026-11-12 06:00:57 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 10
+"sources":
+  - "aws_compute_blog"
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は AWS Compute Blog の 6 本、Machine Learning Blog の 3 本、What's New の 1 本で、EC2 上の VFX 向け GPU ワークステーション構築シリーズと、EC2 のアプリケーションステータスチェック、SageMaker AI 双方向ストリーミングの従量課金が中心でした。Compute Blog では NVIDIA GPU を積んだ EC2 G 系インスタンスで VFX 用の仮想ワークステーションを作る全 5 回のシリーズが一挙に公開され、G インスタンスファミリーと Amazon DCV によるデスクトップストリーミング・接続方式 (Part 1)、Rocky Linux 9.5 に NVIDIA GPU ドライバーや Wacom ドライバーを入れる Linux 編 (Part 2)、Windows Server 2025 に NVIDIA ドライバーと Amazon DCV を構成する Windows 編 (Part 3)、カスタム AMI と起動テンプレートによる構成の標準化や GPU 性能の最適化 (Part 4)、デスクトップへの到達制御や DCV セッションの通信保護などのセキュリティ (Part 5) を扱っています。同じく Compute Blog では、HTTP / HTTPS のヘルスチェックでアプリケーション層の障害を検出して Amazon CloudWatch に結果を発行し、EC2 Auto Scaling で異常なインスタンスを置き換えられる EC2 アプリケーションステータスチェックが紹介されました。機械学習では、AWS Marketplace が SageMaker の双方向ストリーミング推論で従量課金の計測に対応し、モデル提供者がライブストリーム中の実使用量に応じて課金できるようになったこと (Deepgram の事例)、フレームワークごとのトレースを共通形式に変換して 36 種類の組み込みメトリクスで AI エージェントを評価するフレームワーク非依存の Universal Agent Evaluation Framework (UAEF)、AWS Quick の 6 つのエージェントで顧客の声からプロトタイプ検証までを進める AI 駆動の製品開発ライフサイクル (AI-PDLC) が取り上げられました。What's New では、AWS Quick のデスクトップアプリ (macOS / Windows) とモバイルアプリ (iOS / Android) がアジアパシフィック (シンガポール) リージョンで利用可能になりました。
+"topics":
+  - "コンピューティング: EC2 G 系インスタンスで VFX 用 GPU ワークステーションを構築する全 5 回シリーズ (セットアップ / Linux / Windows / 最適化 / セキュリティ)"
+  - "コンピューティング: EC2 アプリケーションステータスチェックで HTTP / HTTPS ヘルスチェックによる障害検出と Auto Scaling の置き換え"
+  - "機械学習: AWS Marketplace が SageMaker AI 双方向ストリーミング推論の従量課金に対応"
+  - "機械学習: 36 種類の組み込みメトリクスで AI エージェントを評価するフレームワーク非依存の UAEF"
+  - "生成 AI: AWS Quick の 6 つのエージェントによる AI 駆動の製品開発ライフサイクル (AI-PDLC)"
+  - "リージョン: AWS Quick のデスクトップ / モバイルアプリがアジアパシフィック (シンガポール) で利用可能に"
