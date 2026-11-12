@@ -1,17 +1,31 @@
 "date": "2026-11-12"
-"generated_at": "2026-11-12 06:00:57 JST"
+"generated_at": "2026-11-12 22:01:36 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 10
+"article_count": 37
 "sources":
+  - "aws_architecture_blog"
   - "aws_compute_blog"
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は AWS Compute Blog の 6 本、Machine Learning Blog の 3 本、What's New の 1 本で、EC2 上の VFX 向け GPU ワークステーション構築シリーズと、EC2 のアプリケーションステータスチェック、SageMaker AI 双方向ストリーミングの従量課金が中心でした。Compute Blog では NVIDIA GPU を積んだ EC2 G 系インスタンスで VFX 用の仮想ワークステーションを作る全 5 回のシリーズが一挙に公開され、G インスタンスファミリーと Amazon DCV によるデスクトップストリーミング・接続方式 (Part 1)、Rocky Linux 9.5 に NVIDIA GPU ドライバーや Wacom ドライバーを入れる Linux 編 (Part 2)、Windows Server 2025 に NVIDIA ドライバーと Amazon DCV を構成する Windows 編 (Part 3)、カスタム AMI と起動テンプレートによる構成の標準化や GPU 性能の最適化 (Part 4)、デスクトップへの到達制御や DCV セッションの通信保護などのセキュリティ (Part 5) を扱っています。同じく Compute Blog では、HTTP / HTTPS のヘルスチェックでアプリケーション層の障害を検出して Amazon CloudWatch に結果を発行し、EC2 Auto Scaling で異常なインスタンスを置き換えられる EC2 アプリケーションステータスチェックが紹介されました。機械学習では、AWS Marketplace が SageMaker の双方向ストリーミング推論で従量課金の計測に対応し、モデル提供者がライブストリーム中の実使用量に応じて課金できるようになったこと (Deepgram の事例)、フレームワークごとのトレースを共通形式に変換して 36 種類の組み込みメトリクスで AI エージェントを評価するフレームワーク非依存の Universal Agent Evaluation Framework (UAEF)、AWS Quick の 6 つのエージェントで顧客の声からプロトタイプ検証までを進める AI 駆動の製品開発ライフサイクル (AI-PDLC) が取り上げられました。What's New では、AWS Quick のデスクトップアプリ (macOS / Windows) とモバイルアプリ (iOS / Android) がアジアパシフィック (シンガポール) リージョンで利用可能になりました。
+  この日は 8 ソースから 37 本で、生成 AI・機械学習の記事が 13 本と最多となり、セキュリティ速報 2 件、ローカルで AWS を再現する AWS Emulator の提供開始、EC2 上の VFX 向け GPU ワークステーション構築シリーズなどが並びました。セキュリティ速報では Amazon mcp-gateway-registry の脆弱性が 2 件公表されています。CVE-2026-100307 は外部管理 API の認可漏れで、1.0.9 から 1.24.7 では認証済みのリモートユーザーが細工したグループインポート要求によって自分の ID グループにレジストリ管理者スコープを割り当て、登録済みのすべてのゲートウェイ資産を管理できてしまうおそれがあります。CVE-2026-125926 はサーバー登録・更新 API のサーバーサイドリクエストフォージェリ (SSRF) で、1.35.0 より前 (影響範囲は v1.0.3 以上 1.34.0 以下) では認証済みのリモートユーザーがゲートウェイから内部ネットワークのサービスやクラウドのインスタンスメタデータエンドポイントに要求を送り、応答を読めるおそれがあります。AWS Emulator は Rust で書かれた無料のオープンソースのローカルエミュレーターで、同じ CLI / SDK コマンドのままほぼすべての AWS サービスに対してアプリケーションを手元の PC や CI でテストできるようになり、News Blog と What's New の両方で発表されました。コンテナ・サーバーレスでは、EKS Auto Mode が Pod 単位のセキュリティグループに対応して同じノード上のワークロードに別々のセキュリティグループのルールを適用できるようになり、EKS Provisioned Control Plane の 4XL / 8XL ティアでは etcd データベースが 16 GB から 24 GB に拡張され、Lambda MicroVMs が x86 CPU アーキテクチャに対応して既存の x86 アプリケーションを再コンパイルせずに動かせるようになりました。ネットワーク・セキュリティでは、AWS Cloud WAN が VPC フローログに対応してグローバルネットワーク全体の IP トラフィックを可視化でき、AWS Network Security Manager が AWS European Sovereign Cloud リージョンと新たに 31 のリージョンで一般提供となり、Amazon Cognito がユーザープールのセッション管理に対応してサインイン後のセッションの可視化と制御ができるようになりました。セキュリティブログでは新しい AWS エクスペリエンスの使いやすさと安全なデフォルト設定の解説と、サイバーセキュリティのキャリアを振り返るシリーズの Part 4 が公開されています。機械学習では、SageMaker JumpStart で DeepSeek-V4-Pro・DeepSeek-V4-Flash・DeepSeek-V4.1-Flash と DeepReinforce AI の Ornith-1.0-9B・Ornith-1.0-35B が利用可能になり、AgentCore ではゲートウェイやリソースを作らずに署名付きの API 呼び出し 1 回でウェブ検索ができる Web Search API が発表されました。Machine Learning Blog ではほかに、AWS Marketplace が SageMaker AI の双方向ストリーミング推論で従量課金の計測に対応し、モデル提供者がライブストリーム中の実使用量に応じて課金できるようになったこと (Deepgram の事例)、トレースを共通形式に変換して 36 種類の組み込みメトリクスで評価するフレームワーク非依存の Universal Agent Evaluation Framework (UAEF)、AWS Quick の 6 つのエージェントによる AI 駆動の製品開発ライフサイクル (AI-PDLC)、RAG パイプラインなどを再利用できる 23 個の本番対応オープンソース資産のカタログ、DXC Technology が 70 か国の規制業界向けに Bedrock 上へ統制されたマルチモデル基盤 DCX OASIS を構築した事例、CloudTrail・EventBridge・Lambda・AgentCore Identity で MCP サーバーの変更を検知して AWS Agent Registry を自動更新するプッシュ型の構成、SageMaker HyperPod の分散学習で GPU のサイレントデータ破損を検出・回復する 3 つのチェック、反単一化 (anti-unification) による形式ポリシーの意味的な差分計算、Bedrock をモデルのバックエンドにして OpenAI Codex を企業内に展開するガイド、Spring AI と Bedrock で Java の自律型エージェントを作る方法、2026 年 10 月の Bedrock・AgentCore・Strands のアップデートのまとめ、140 以上のセッションがある re:Invent 2026 の AI/ML トラックの案内が公開されました。Compute Blog では NVIDIA GPU を積んだ EC2 G 系インスタンスで VFX 用の仮想ワークステーションを作る全 5 回のシリーズ (Amazon DCV によるセットアップ、Rocky Linux 9.5 編、Windows Server 2025 編、カスタム AMI と起動テンプレートによる最適化、セキュリティ) と、HTTP / HTTPS ヘルスチェックの結果を CloudWatch に発行して Auto Scaling で異常なインスタンスを置き換えられる EC2 アプリケーションステータスチェックが紹介されました。Architecture Blog では、Zillow が 1 日 1 億件以上のパーソナライズ通知をそれぞれ短命な Step Functions Express ワークフローとして処理し、10 以上のキャンペーン生成系を置き換えた事例が取り上げられています。リージョンでは AWS Quick のデスクトップアプリ (macOS / Windows) とモバイルアプリ (iOS / Android) がアジアパシフィック (シンガポール) で利用可能になりました。日本のブログでは、IHI と AWS プロフェッショナルサービスによる業務部門が自ら改善できる AI Ready Data づくりの記事と、re:Invent 2026 (11 月 30 日〜12 月 4 日、ラスベガス) のデジタル主権関連セッションを 5 つのテーマで紹介する記事が出ました。
 "topics":
-  - "コンピューティング: EC2 G 系インスタンスで VFX 用 GPU ワークステーションを構築する全 5 回シリーズ (セットアップ / Linux / Windows / 最適化 / セキュリティ)"
-  - "コンピューティング: EC2 アプリケーションステータスチェックで HTTP / HTTPS ヘルスチェックによる障害検出と Auto Scaling の置き換え"
-  - "機械学習: AWS Marketplace が SageMaker AI 双方向ストリーミング推論の従量課金に対応"
-  - "機械学習: 36 種類の組み込みメトリクスで AI エージェントを評価するフレームワーク非依存の UAEF"
-  - "生成 AI: AWS Quick の 6 つのエージェントによる AI 駆動の製品開発ライフサイクル (AI-PDLC)"
+  - "セキュリティ速報: CVE-2026-100307 (mcp-gateway-registry 1.0.9〜1.24.7 の外部管理 API の認可漏れで、レジストリ管理者への権限昇格)"
+  - "セキュリティ速報: CVE-2026-125926 (mcp-gateway-registry 1.35.0 未満のサーバー登録・更新 API の SSRF、影響範囲は v1.0.3 以上 1.34.0 以下、内部サービスやインスタンスメタデータへの要求が可能)"
+  - "開発ツール: AWS Emulator の提供開始 (Rust 製の無料オープンソースのローカルエミュレーター、同じ CLI / SDK でほぼすべての AWS サービスをテスト)"
+  - "コンテナ: EKS Auto Mode が Pod 単位のセキュリティグループに対応、EKS Provisioned Control Plane の 4XL / 8XL で etcd を 16 GB から 24 GB に拡張"
+  - "サーバーレス: Lambda MicroVMs が x86 CPU アーキテクチャに対応"
+  - "ネットワーク: Cloud WAN が VPC フローログに対応、Network Security Manager が AWS European Sovereign Cloud と新たに 31 リージョンで一般提供"
+  - "アイデンティティ: Amazon Cognito がユーザープールのセッション管理に対応"
+  - "生成 AI: SageMaker JumpStart で DeepSeek-V4-Pro / V4-Flash / V4.1-Flash と Ornith-1.0-9B / 35B が利用可能に、AgentCore の Web Search API を発表"
+  - "機械学習: SageMaker AI 双方向ストリーミングの従量課金、36 メトリクスでエージェントを評価する UAEF、AWS Quick による AI-PDLC、23 個の再利用可能な生成 AI 資産"
+  - "生成 AI: DXC の DCX OASIS 事例、AWS Agent Registry のプッシュ型自動更新、HyperPod の GPU サイレントデータ破損の検出、形式ポリシーの意味的差分、Bedrock 上の OpenAI Codex、Spring AI による Java エージェント"
+  - "イベント・まとめ: 2026 年 10 月の Bedrock / AgentCore / Strands アップデートのまとめ、re:Invent 2026 の AI/ML トラック (140 以上) とデジタル主権関連セッションの案内"
+  - "コンピューティング: EC2 G 系インスタンスで VFX 用 GPU ワークステーションを構築する全 5 回シリーズ、EC2 アプリケーションステータスチェック"
+  - "事例: Zillow が Step Functions Express で 1 日 1 億件以上の通知を処理"
   - "リージョン: AWS Quick のデスクトップ / モバイルアプリがアジアパシフィック (シンガポール) で利用可能に"
+  - "セキュリティ・国内: 新しい AWS エクスペリエンスの安全なデフォルト、IHI の AI Ready Data づくり"
