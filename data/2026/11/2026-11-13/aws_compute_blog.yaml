@@ -1,0 +1,9 @@
+"entries":
+  "9e5a568c81175caa5a856bd2ee9430ae":
+    "id": "9e5a568c81175caa5a856bd2ee9430ae"
+    "title": "Per-customer invoice management with Amazon EventBridge Scheduler"
+    "link": "https://aws.amazon.com/blogs/compute/per-customer-invoice-management-with-amazon-eventbridge-scheduler/"
+    "published": "2026-11-13 05:26:38"
+    "fetched": "2026-11-13 08:09:12"
+    "summary": "Many SaaS platforms bill each customer on their own cycle from their signup date, which turns into millions of precisely timed invoice and reminder events. Learn how to use Amazon EventBridge Scheduler as the time-aware backbone of a per-customer billing system, with recurring invoice schedules, one-time reminders, and no scheduling infrastructure to run."
+"last_updated": "2026-11-13 08:09:12 JST"
