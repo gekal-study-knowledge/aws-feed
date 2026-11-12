@@ -1,0 +1,16 @@
+"entries":
+  "4c6cdc1e548b16e8655a16b40014c1a1":
+    "id": "4c6cdc1e548b16e8655a16b40014c1a1"
+    "title": "CVE-2026-125926 - Server-side request forgery in the server registration and update API in mcp-gateway-registry"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-180-aws/"
+    "published": "2026-11-12 06:04:56"
+    "fetched": "2026-11-12 10:15:19"
+    "summary": "<p><b>Bulletin ID:</b> 2026-180-AWS<br /> <b>Publication Date:</b> 11/11/2026 13:00 PM PST</p> \n<p><b>Description:</b></p> \n<p>MServer-side request forgery (SSRF) in the server registration and update API in Amazon mcp-gateway-registry before 1.35.0 might allow an authenticated remote user to send requests from the gateway to internal network services and cloud instance metadata endpoints and read the responses via a crafted request</p> \n<p><b>Impacted versions:</b> &gt;= v1.0.3 AND &lt;= 1.34.0</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-180-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+  "f5a1dd2fb78f110023700a70be90e8b2":
+    "id": "f5a1dd2fb78f110023700a70be90e8b2"
+    "title": "CVE-2026-100307 - Missing authorization on the external management API in mcp-gateway-registry enables privilege escalation to registry administrator"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-179-aws/"
+    "published": "2026-11-12 06:03:02"
+    "fetched": "2026-11-12 10:15:19"
+    "summary": "<p><b>Bulletin ID:</b> 2026-179-AWS<br /> <b>Publication Date:</b> 11/11/2026 12:30 PM PST</p> \n<p><b>Description:</b></p> \n<p>Missing authorization in the external management API in Amazon mcp-gateway-registry 1.0.9 through 1.24.7 might allow an authenticated remote user to assign the registry administrator scope to their own identity group and obtain administrative control of every registered gateway asset via a crafted group import request.</p> \n<p><b>Impacted versions:</b> &gt;= 1.0.9 AND &lt;= 1.24.7</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-179-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+"last_updated": "2026-11-12 10:15:19 JST"

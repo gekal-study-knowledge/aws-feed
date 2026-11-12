@@ -1,0 +1,9 @@
+"entries":
+  "7d219497e96056c160f76810ab2f3d11":
+    "id": "7d219497e96056c160f76810ab2f3d11"
+    "title": "How Zillow runs 100 million daily notifications on AWS Step Functions"
+    "link": "https://aws.amazon.com/blogs/architecture/how-zillow-runs-100-million-daily-notifications-on-aws-step-functions/"
+    "published": "2026-11-12 08:25:00"
+    "fetched": "2026-11-12 10:15:19"
+    "summary": "Zillow sends more than 100 million personalized notifications a day, each as a short-lived AWS Step Functions Express workflow. See how the Comms Experience team replaced more than 10 campaign generators with one configuration-driven orchestration platform and a library of reusable content modules."
+"last_updated": "2026-11-12 10:15:19 JST"

@@ -1,0 +1,9 @@
+"entries":
+  "f88dad4c946cdc7f3bccbedc6c66262b":
+    "id": "f88dad4c946cdc7f3bccbedc6c66262b"
+    "title": "Test your applications against AWS locally with AWS Emulator"
+    "link": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/"
+    "published": "2026-11-12 04:00:44"
+    "fetched": "2026-11-12 10:15:18"
+    "summary": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against real AWS behavior."
+"last_updated": "2026-11-12 10:15:18 JST"
