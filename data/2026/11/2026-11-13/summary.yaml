@@ -1,13 +1,26 @@
 "date": "2026-11-13"
-"generated_at": "2026-11-13 06:01:12 JST"
+"generated_at": "2026-11-13 08:16:37 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 4
+"article_count": 21
 "sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
   - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
 "overview": |
-  この日は AWS Machine Learning Blog の 4 本のみで、いずれも Amazon Bedrock を中心としたエージェント構築がテーマでした。Agent DLC の記事では、エージェントがデモからリリースまでの間で停滞する原因として、エージェントの良し悪しや直前の変更の効果を測る再現可能な方法がないことを挙げ、従来の手法が通用しなくなるエージェントの 3 つの性質を解説しています。Amazon Bedrock Managed Knowledge Base を Amazon Bedrock AgentCore Gateway 経由で MCP ツールとして AI エージェントに公開しつつ、リクエストインターセプターでユーザーごとのアクセス制御を保つ方法も紹介されました。さらに、Agent-to-Agent (A2A) プロトコルを使い、Amazon ECS 上の LangChain オーケストレーターと Amazon Bedrock AgentCore 上の Strands エージェントを連携させる、組み合わせ可能で相互運用性のあるマルチエージェントシステムの構築例が示されています。最後に、amazon-bedrock スキルの移行ガイドを使い、コーディングエージェントが読み取り専用の調査で計画を立てながら、顧客管理の Bedrock ナレッジベースを Managed Knowledge Base へ移行する手順が公開されました。
+  この日は 5 ソースから 21 本で、セキュリティ速報 2 件と Amazon Bedrock のコスト管理・エージェント構築の記事が中心でした。まず AWS Machine Learning Blog の 4 本は、いずれも Amazon Bedrock を中心としたエージェント構築がテーマです。Agent DLC の記事では、エージェントがデモからリリースまでの間で停滞する原因として、エージェントの良し悪しや直前の変更の効果を測る再現可能な方法がないことを挙げ、従来の手法が通用しなくなるエージェントの 3 つの性質を解説しています。Amazon Bedrock Managed Knowledge Base を Amazon Bedrock AgentCore Gateway 経由で MCP ツールとして AI エージェントに公開しつつ、リクエストインターセプターでユーザーごとのアクセス制御を保つ方法も紹介されました。さらに、Agent-to-Agent (A2A) プロトコルを使い、Amazon ECS 上の LangChain オーケストレーターと Amazon Bedrock AgentCore 上の Strands エージェントを連携させる、組み合わせ可能で相互運用性のあるマルチエージェントシステムの構築例が示されています。最後に、amazon-bedrock スキルの移行ガイドを使い、コーディングエージェントが読み取り専用の調査で計画を立てながら、顧客管理の Bedrock ナレッジベースを Managed Knowledge Base へ移行する手順が公開されました。セキュリティ速報は 2 件です。CVE-2026-127119 は AWS SDK for pandas (awswrangler) 1.1.0 以上 3.18.0 未満の EMR モジュールの問題で、ログの保存先を明示せずにクラスターを作成すると予測可能な既定の S3 バケット名を使い、そのバケットが呼び出し元アカウントの所有かを検証しないため、先にそのバケットを作成したリモートの攻撃者がクラスターのログを読める可能性があります。CVE-2026-126793 は AWS Advanced Go Wrapper の Aurora PostgreSQL 方言判定における信頼できない検索パスの問題で、2026-04-06 リリース (awssql/v2.0.0) 以降 2026-07-29 リリース (awssql/v2.0.3) より前が対象です。認証済みのリモートユーザーが、他のデータベースユーザー (rds_superuser ロールのメンバーを含む) の接続時に実行される関数を細工することで、そのユーザーの権限まで昇格できる可能性があります。What’s New では、Graviton5 ベースの R9g データベースインスタンスが Aurora の PostgreSQL / MySQL 互換と RDS for PostgreSQL・MySQL・MariaDB で一般提供となり、Aurora では同サイズの Graviton4 ベースと比べて最大 30% の性能向上、オンデマンド料金で最大 22% の価格性能向上が得られるとされています (データベースエンジン・バージョン・ワークロードによる)。Amazon MWAA は IAM Identity Center 統合とマルチチーム環境による詳細なアクセス制御に対応し、Amazon Connect Customer はエージェントワークスペースで関連ケースの結合とリンクができるようになり、Amazon SNS はアジアパシフィック (ハイデラバード・メルボルン)、欧州 (チューリッヒ)、AWS GovCloud (US-East) でプッシュ通知に対応しました。Architecture Blog では、本番トラフィックのサンプルを新しいコードに再生して本番と一致した結果の割合でデプロイを自動ゲートするモジュール式の回帰テストフレームワーク、Ray と Anyscale で Amazon EC2 上の分散 AI ワークロードをコード変更なしにスケールさせる構成、API ゲートウェイ・5 フェーズのエージェントランタイム・ナレッジと状態の層・プラットフォームサービス・横断的な信頼と統制のフレームワークからなる 5 層のエンタープライズ AI エージェント参照アーキテクチャが公開されました。Compute Blog では、顧客ごとに異なる請求サイクルを Amazon EventBridge Scheduler で扱い、定期請求と一度だけのリマインダーをスケジューリング基盤なしに実現する方法が紹介されています。Machine Learning Blog の追加分では、AWS Deep Learning Container として公開された SGLang-Neuron で AWS Trainium 上にフロンティアモデルをデプロイする方法、Natera が AgentCore 上に構築したラボ運用のエージェント型システム SWARM (初回応答が約 130 倍速く、サポートチケットの 96.2% を自動対応)、Bedrock のコストを左右する 4 つのリクエスト単位の選択 (キャッシュ期間・サービスティア・reasoning effort・maxTokens)、IAM プリンシパルごとの Bedrock 支出を CUR 2.0 と AWS Budgets で追跡し上限超過時に Deny ポリシーを適用する方法、タスクあたりのコスト最適化とエージェントの ROI 証明、LiteLLM と AWS Fargate で Bedrock の基盤モデルを OpenAI 互換 API として提供するセルフサービス LLM ゲートウェイ、次世代 AgentCore ランタイムの解説が取り上げられています。
 "topics":
   - "エージェント開発: Agent DLC でエージェントの品質を再現可能に測定し、プロトタイプから本番へ進める方法"
   - "セキュリティ: Bedrock Managed Knowledge Base を AgentCore Gateway 経由で MCP ツールとして公開し、リクエストインターセプターでユーザー単位のアクセス制御"
   - "マルチエージェント: A2A プロトコルで Amazon ECS 上の LangChain と AgentCore 上の Strands エージェントを連携"
   - "移行: amazon-bedrock スキルの移行ガイドで顧客管理ナレッジベースを Managed Knowledge Base へコーディングエージェントが移行"
+  - "セキュリティ速報: CVE-2026-127119 (AWS SDK for pandas 1.1.0 以上 3.18.0 未満で、EMR クラスターのログ保存先に予測可能な既定の S3 バケット名を使い所有者を検証しないため、先にバケットを作った攻撃者がログを読める可能性)"
+  - "セキュリティ速報: CVE-2026-126793 (AWS Advanced Go Wrapper awssql/v2.0.0 以降 v2.0.3 未満の Aurora PostgreSQL 方言判定における信頼できない検索パスで、rds_superuser を含む他ユーザーへの権限昇格の可能性)"
+  - "データベース: Graviton5 ベースの R9g が Aurora (PostgreSQL / MySQL 互換) と RDS for PostgreSQL・MySQL・MariaDB で一般提供、Graviton4 比で最大 30% の性能向上・最大 22% の価格性能向上"
+  - "運用: Amazon MWAA が IAM Identity Center 統合とマルチチーム環境で詳細なアクセス制御に対応"
+  - "コンタクトセンター: Amazon Connect Customer がエージェントワークスペースで関連ケースの結合とリンクに対応、Amazon SNS が 4 リージョン (ハイデラバード・メルボルン・チューリッヒ・GovCloud (US-East)) でプッシュ通知に対応"
+  - "アーキテクチャ: 本番トラフィックを再生する回帰テストフレームワーク、Ray と Anyscale による EC2 上の分散 AI ワークロード、5 層のエンタープライズ AI エージェント参照アーキテクチャ、EventBridge Scheduler による顧客ごとの請求管理"
+  - "生成 AI: SGLang-Neuron で AWS Trainium にフロンティアモデルをデプロイ、Natera の AgentCore 上のラボ運用エージェント SWARM (初回応答が約 130 倍速く、チケットの 96.2% を自動対応)"
+  - "コスト: Bedrock のコストを左右する 4 つのリクエスト単位の選択 (キャッシュ期間・サービスティア・reasoning effort・maxTokens)、IAM プリンシパル単位の支出追跡と上限設定 (CUR 2.0 と AWS Budgets)、タスクあたりコストの最適化とエージェント ROI の証明"
+  - "生成 AI: LiteLLM と AWS Fargate で Bedrock を OpenAI 互換 API として提供するセルフサービス LLM ゲートウェイ、次世代 AgentCore ランタイムの解説"
