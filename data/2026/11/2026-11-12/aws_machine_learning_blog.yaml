@@ -83,4 +83,11 @@
     "published": "2026-11-12 04:19:21"
     "fetched": "2026-11-12 10:15:19"
     "summary": "Every generative AI team keeps rebuilding the same components: RAG pipelines, document processors, and agent scaffolding. This post shows how to access a curated catalog of 23 production-ready, open source reusable assets from the AWS Generative AI Innovation Center, with real delivery results from DoorDash, Lyft, and Ricoh."
-"last_updated": "2026-11-12 10:15:19 JST"
+  "3f2112338ac176deeac9d10c73acdc78":
+    "id": "3f2112338ac176deeac9d10c73acdc78"
+    "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/"
+    "published": "2026-11-12 10:18:23"
+    "fetched": "2026-11-12 18:12:07"
+    "summary": "Learn how Java developers can build production-ready autonomous AI agents using Amazon Bedrock and Spring AI. This post walks through tool calling, conversation memory, resilience patterns, and multi-agent orchestration, then deploys the agent to AWS with Amazon Bedrock AgentCore."
+"last_updated": "2026-11-12 18:12:07 JST"
