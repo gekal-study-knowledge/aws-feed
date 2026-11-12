@@ -1,0 +1,13 @@
+"date": "2026-11-13"
+"generated_at": "2026-11-13 06:01:12 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 4
+"sources":
+  - "aws_machine_learning_blog"
+"overview": |
+  この日は AWS Machine Learning Blog の 4 本のみで、いずれも Amazon Bedrock を中心としたエージェント構築がテーマでした。Agent DLC の記事では、エージェントがデモからリリースまでの間で停滞する原因として、エージェントの良し悪しや直前の変更の効果を測る再現可能な方法がないことを挙げ、従来の手法が通用しなくなるエージェントの 3 つの性質を解説しています。Amazon Bedrock Managed Knowledge Base を Amazon Bedrock AgentCore Gateway 経由で MCP ツールとして AI エージェントに公開しつつ、リクエストインターセプターでユーザーごとのアクセス制御を保つ方法も紹介されました。さらに、Agent-to-Agent (A2A) プロトコルを使い、Amazon ECS 上の LangChain オーケストレーターと Amazon Bedrock AgentCore 上の Strands エージェントを連携させる、組み合わせ可能で相互運用性のあるマルチエージェントシステムの構築例が示されています。最後に、amazon-bedrock スキルの移行ガイドを使い、コーディングエージェントが読み取り専用の調査で計画を立てながら、顧客管理の Bedrock ナレッジベースを Managed Knowledge Base へ移行する手順が公開されました。
+"topics":
+  - "エージェント開発: Agent DLC でエージェントの品質を再現可能に測定し、プロトタイプから本番へ進める方法"
+  - "セキュリティ: Bedrock Managed Knowledge Base を AgentCore Gateway 経由で MCP ツールとして公開し、リクエストインターセプターでユーザー単位のアクセス制御"
+  - "マルチエージェント: A2A プロトコルで Amazon ECS 上の LangChain と AgentCore 上の Strands エージェントを連携"
+  - "移行: amazon-bedrock スキルの移行ガイドで顧客管理ナレッジベースを Managed Knowledge Base へコーディングエージェントが移行"
