@@ -1,0 +1,23 @@
+"entries":
+  "032efc7f2ca45c793e7181eb37b2d8b7":
+    "id": "032efc7f2ca45c793e7181eb37b2d8b7"
+    "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot"
+    "link": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/"
+    "published": "2026-11-14 04:35:35"
+    "fetched": "2026-11-14 05:16:49"
+    "summary": "Learn how AssemblyAI runs cost-optimized speech-to-text inference at scale on AWS, using Amazon ECS, Amazon EC2 Spot GPU instances, and an Amazon SQS-based retry architecture to achieve 70% cost savings while maintaining SLA commitments across European Regions."
+  "f02513c671702ace80c43823983accf1":
+    "id": "f02513c671702ace80c43823983accf1"
+    "title": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock"
+    "link": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/"
+    "published": "2026-11-14 03:44:02"
+    "fetched": "2026-11-14 05:16:49"
+    "summary": "Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it. This post shows how to attribute per-user Bedrock costs for AI developer and productivity tools using IAM Identity Center, session tags, and CUR 2.0, and how to enforce per-user usage limits."
+  "5ac45e1cf5f09bda936dec5a9fb2b105":
+    "id": "5ac45e1cf5f09bda936dec5a9fb2b105"
+    "title": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture"
+    "link": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/"
+    "published": "2026-11-14 03:01:15"
+    "fetched": "2026-11-14 05:16:49"
+    "summary": "Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3. This post walks through one end-to-end example: capturing a support router's production traffic, surfacing a new-product blind spot with Amazon Athena, fine-tuning on the captured data with the HyperPod training operator, and measuring the before-and-after lift."
+"last_updated": "2026-11-14 05:16:49 JST"

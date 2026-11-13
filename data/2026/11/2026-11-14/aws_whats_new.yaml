@@ -1,0 +1,9 @@
+"entries":
+  "1576c33784d22e84cff0e86566a6b2ff":
+    "id": "1576c33784d22e84cff0e86566a6b2ff"
+    "title": "Aurora PostgreSQL with express configuration now supported in CloudFormation"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/"
+    "published": "2026-11-14 01:00:00"
+    "fetched": "2026-11-14 05:16:46"
+    "summary": "<p>Aurora PostgreSQL now supports express configuration in AWS CloudFormation for infrastructure as code deployment. This launch enables you to automate the infrastructure deployment of your Aurora clusters through CloudFormation templates while benefiting from the speed of express configuration.</p> \n<p>Aurora PostgreSQL clusters created with express configuration allow you to create and query an Aurora serverless database in seconds. The new withExpressConfiguration createOnly property on the AWS::RDS::DBCluster resource creates both the cluster and its primary database instance from one property declaration. You don't need to model or manage the instance separately in your CloudFormation template. This simplifies your templates and makes it easier to manage Aurora clusters with express configuration through infrastructure as code.</p> \n<p>The CloudFormation support is available in all AWS Regions where Aurora PostgreSQL with express configuration is offered. To learn more, see the <a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.AuroraPostgreSQL.ExpressConfig.html\" rel=\"noopener noreferrer\" target=\"_blank\">Aurora User Guide</a> and the AWS::RDS::DBCluster resource reference in the <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-rds-dbcluster.html\" rel=\"noopener noreferrer\" target=\"_blank\">AWS CloudFormation documentation</a>.</p>"
+"last_updated": "2026-11-14 05:16:46 JST"
