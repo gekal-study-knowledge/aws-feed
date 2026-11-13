@@ -69,4 +69,11 @@
     "published": "2026-11-13 10:21:12"
     "fetched": "2026-11-13 13:52:31"
     "summary": "SpaceXSI の Grok 4.7 を、Kiro IDE、CLI、Crew、Web で使えるようになりました。Grok 4.7 は数時間に及ぶ難しいタスクでも作業を続け、次に進む前に自分の作業を確かめるように作られています。"
-"last_updated": "2026-11-13 13:52:31 JST"
+  "298025f315a92f8af6a0f0cda5fc0782":
+    "id": "298025f315a92f8af6a0f0cda5fc0782"
+    "title": "GxP 環境で AI エージェントを構築するためのガイド"
+    "link": "https://aws.amazon.com/jp/blogs/news/a-guide-to-building-ai-agents-in-gxp-environments/"
+    "published": "2026-11-13 15:15:25"
+    "fetched": "2026-11-13 21:49:59"
+    "summary": "ヘルスケア・ライフサイエンスの組織は、生成 AI エージェントによって創薬、医療機器、患者ケアを変革しつつあります。本記事では、GxP 環境で AI エージェントを構築するためのリスクベースの実装、リスクレベルごとの実装上の考慮事項、コンプライアンスにおける AWS の責任共有モデル、リスク低減策の具体例を紹介します。"
+"last_updated": "2026-11-13 21:49:59 JST"
