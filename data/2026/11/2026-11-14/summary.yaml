@@ -1,0 +1,14 @@
+"date": "2026-11-14"
+"generated_at": "2026-11-14 08:09:55 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 4
+"sources":
+  - "aws_machine_learning_blog"
+  - "aws_whats_new"
+"overview": |
+  この日は 2 ソースから 4 本で、AWS Machine Learning Blog のコスト最適化とモデル改善の記事が中心でした。AssemblyAI の事例では、Amazon ECS と Amazon EC2 スポットの GPU インスタンス、Amazon SQS ベースのリトライアーキテクチャを使い、欧州リージョンで SLA を守りながら音声認識推論のコストを 70% 削減した構成が紹介されました。Amazon Bedrock については、計測コードを入れずに推論呼び出しを呼び出し元の IAM プリンシパルまで遡れる組み込みのコスト帰属機能を使い、IAM Identity Center とセッションタグ、CUR 2.0 で AI 開発ツールや生産性ツールのユーザー単位コストを把握し、ユーザーごとの利用上限を強制する方法が解説されました。Amazon SageMaker HyperPod Data Capture の記事では、本番の推論の入出力を Amazon S3 に記録し、サポート問い合わせのルーターのトラフィックから Amazon Athena で新製品に関する盲点を見つけ、記録したデータで HyperPod トレーニングオペレーターを使ってファインチューニングし、前後の改善幅を測るという一連の流れが示されています。What’s New では、Aurora PostgreSQL の express configuration が AWS CloudFormation で使えるようになり、数秒で作成・クエリできる Aurora サーバーレスデータベースを Infrastructure as Code で展開できるようになりました。
+"topics":
+  - "コスト: AssemblyAI が Amazon ECS・EC2 スポットの GPU インスタンス・SQS ベースのリトライ構成で音声認識推論のコストを 70% 削減 (欧州リージョンで SLA を維持)"
+  - "コスト: Amazon Bedrock の組み込みコスト帰属で推論呼び出しを IAM プリンシパルまで遡り、IAM Identity Center・セッションタグ・CUR 2.0 でユーザー単位のコスト把握と利用上限の強制"
+  - "AI/ML: SageMaker HyperPod Data Capture で本番推論の入出力を S3 に記録し、Athena で盲点を発見してファインチューニング、前後の改善幅を測るモデル改善サイクル"
+  - "データベース: Aurora PostgreSQL の express configuration が AWS CloudFormation に対応、Infrastructure as Code でサーバーレスデータベースを展開"

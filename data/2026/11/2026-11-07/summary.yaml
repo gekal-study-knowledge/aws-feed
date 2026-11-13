@@ -1,7 +1,7 @@
 "date": "2026-11-07"
-"generated_at": "2026-11-10 22:01:32 JST"
+"generated_at": "2026-11-14 08:09:55 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 20
+"article_count": 21
 "sources":
   - "aws_japan_blog"
   - "aws_machine_learning_blog"
@@ -9,7 +9,7 @@
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は Amazon Bedrock AgentCore を軸にした AI エージェントの記事と、セキュリティ速報、データ分析サービスの機能追加が中心でした。セキュリティ速報では、Trusted Remote Execution (REX) のセットアップガイドに含まれる SSM ドキュメント例の OS コマンドインジェクション CVE-2026-122193 と、Babelfish for Aurora PostgreSQL の TDS プロトコル層の問題 CVE-2026-119923 / CVE-2026-119924 が公表されました。AgentCore 関連では、Claude Code をリモートセッションとして AgentCore 上で動かす方法、Okta Cross App Access と組み合わせたエージェントのアクセス統制 (2 部作)、Greenlight Financial の自律型 SOC、Taxbit Assist の事例が紹介され、Amazon Quick のエージェントプリミティブの分類も公開されています。データ分析では MWAA Serverless が Airflow の connections / variables と、プロバイダーパッケージやカスタムのオペレーターに対応し、Redshift の SUPER 型は最大 1,600 万バイトの文字列を扱えるようになりました。ほかに SageMaker Inference の NVIDIA MIG 対応、EC2 Capacity Blocks for ML の前払い料金の償却表示、MSK Replicator と Agent Registry の GovCloud 提供、Bedrock での Kimi K3.1 Pro (Highspeed) 提供がありました。
+  この日は Amazon Bedrock AgentCore を軸にした AI エージェントの記事と、セキュリティ速報、データ分析サービスの機能追加が中心でした。セキュリティ速報では、Trusted Remote Execution (REX) のセットアップガイドに含まれる SSM ドキュメント例の OS コマンドインジェクション CVE-2026-122193 と、Babelfish for Aurora PostgreSQL の TDS プロトコル層の問題 CVE-2026-119923 / CVE-2026-119924 が公表されました。AgentCore 関連では、Claude Code をリモートセッションとして AgentCore 上で動かす方法、Okta Cross App Access と組み合わせたエージェントのアクセス統制 (2 部作)、Greenlight Financial の自律型 SOC、Taxbit Assist の事例が紹介され、Amazon Quick のエージェントプリミティブの分類も公開されています。データ分析では MWAA Serverless が Airflow の connections / variables と、プロバイダーパッケージやカスタムのオペレーターに対応し、Redshift の SUPER 型は最大 1,600 万バイトの文字列を扱えるようになりました。ほかに SageMaker Inference の NVIDIA MIG 対応、EC2 Capacity Blocks for ML の前払い料金の償却表示、MSK Replicator と Agent Registry の GovCloud 提供、Bedrock での Kimi K3.1 Pro (Highspeed) 提供がありました。また AWS DMS Schema Conversion が Oracle Database のオフラインソース変換に対応し、ソースデータベースへ直接接続せずにスキーマとコードを変換できるようになりました。自分の環境で標準的なデータベースコマンドを使ってメタデータを抽出し、それを DMS Schema Conversion にアップロードして処理するため、移行プロジェクトを遅らせがちなセキュリティレビューやファイアウォールの変更、VPN の設定が不要になります。
 "topics":
   - "セキュリティ: CVE-2026-122193 (REX の SSM ドキュメント例)、CVE-2026-119923 / CVE-2026-119924 (Babelfish for Aurora PostgreSQL)"
   - "AI エージェント: Claude Code を AgentCore のリモートセッションで実行、Okta Cross App Access によるアクセス統制"
@@ -18,3 +18,4 @@
   - "機械学習: SageMaker Inference が NVIDIA MIG に対応、Bedrock で Kimi K3.1 Pro (Highspeed) 提供"
   - "コスト: EC2 Capacity Blocks for ML の前払い料金を CUR 2.0 と Cost Explorer で償却"
   - "GovCloud: MSK Replicator と Agent Registry が提供開始"
+  - "マイグレーション: AWS DMS Schema Conversion が Oracle Database のオフラインソース変換に対応、ソースへ直接接続せずメタデータのアップロードで変換 (セキュリティレビューやファイアウォール変更・VPN 設定が不要)"
