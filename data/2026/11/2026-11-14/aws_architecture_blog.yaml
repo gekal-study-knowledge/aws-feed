@@ -1,0 +1,9 @@
+"entries":
+  "87711a8e76afdf2f21ec5df65c4d4ab1":
+    "id": "87711a8e76afdf2f21ec5df65c4d4ab1"
+    "title": "How Thermo Fisher Scientific built AI-powered patient matching on AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/how-thermo-fisher-scientific-built-ai-powered-patient-matching-on-aws/"
+    "published": "2026-11-14 05:26:58"
+    "fetched": "2026-11-14 10:13:53"
+    "summary": "Learn how Thermo Fisher Scientific built an AI-powered patient-matching platform on AWS, modernizing its clinical trial recruitment data foundation and using AWS Countdown Premium to de-risk the production launch."
+"last_updated": "2026-11-14 10:13:53 JST"

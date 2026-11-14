@@ -1,0 +1,9 @@
+"entries":
+  "ab328d912578f8e16900320ad57e7341":
+    "id": "ab328d912578f8e16900320ad57e7341"
+    "title": "Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents"
+    "link": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/"
+    "published": "2026-11-14 05:26:42"
+    "fetched": "2026-11-14 10:13:52"
+    "summary": "From Oct. 3 to Nov. 5, 2026, Amazon’s MadPot, a globally distributed network of decoy threat sensors, captured requests from AI agents that included operating memory from offensive campaigns that threat actors ran on ARTEX, an open-source agentic AI penetration testing framework. The ARTEX agents sent these requests to MadPot sensors configured to present as […]"
+"last_updated": "2026-11-14 10:13:52 JST"

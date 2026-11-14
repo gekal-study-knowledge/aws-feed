@@ -1,0 +1,9 @@
+"entries":
+  "85b9b700b7f434366ac5efbd5024cf77":
+    "id": "85b9b700b7f434366ac5efbd5024cf77"
+    "title": "脅威アクターが ARTEX の AI エージェントで展開するサイバー犯罪キャンペーンを Amazon Threat Intelligence が観測"
+    "link": "https://aws.amazon.com/jp/blogs/news/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/"
+    "published": "2026-11-14 07:39:34"
+    "fetched": "2026-11-14 10:13:52"
+    "summary": "Amazon のおとりの脅威センサーのネットワークである MadPot は、脅威アクターがエージェンティック AI ペネトレーションテストフレームワーク ARTEX で実行した攻撃キャンペーンの記録を捕捉しました。本記事では、AI エージェントによる AI モデルの認証情報の大規模な窃取と、ディープフェイクを使って暗号資産取引所の本人確認 (KYC) を回避しようとした手口を解説します。あわせて、防御側が取るべき対策と侵害指標 (IOC) も紹介します。"
+"last_updated": "2026-11-14 10:13:52 JST"
