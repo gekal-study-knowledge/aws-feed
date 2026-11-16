@@ -1,0 +1,14 @@
+"date": "2026-11-17"
+"generated_at": "2026-11-17 06:01:08 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 6
+"sources":
+  - "aws_machine_learning_blog"
+"overview": |
+  この日は AWS Machine Learning Blog 1 ソースから 6 本で、すべて Amazon Bedrock を中心とした生成 AI の記事でした。Amazon Bedrock 上のオープンウェイトモデルでプロンプトキャッシュを使い、毎回再送される長いコンテキストを再利用して入力コストとレイテンシーを削減する実装方法が紹介されました。Amazon Bedrock Managed Knowledge Base については、共有ナレッジベース上でテナントごとに口調、形式、検索ガイダンス、回答ポリシーを設定できる検索指示と、エージェント型検索で CSV、XLSX、XLS ファイルの値の参照や計算を行えるようになった表形式検索 (tabular search) の 2 本が取り上げられています。Amazon Bedrock Guardrails の拒否トピック (Denied Topics) は、キーワードではなく意味で一致させるため想定以上にブロックしうるという性質を踏まえた記述のベストプラクティスが解説されました。事例では、Novo Nordisk の錠剤領域の製造技術チームが Amazon Bedrock AgentCore 上にナレッジグラフを組み合わせた GraphRAG アーキテクチャのプロセスインテリジェンスアシスタントを構築し、製造工程文書をモダナイズした取り組みが紹介されました。また、保守コストが高く人材確保も難しいメインフレームのアセンブラアプリケーションを、Amazon Bedrock、Kiro IDE、AWS Transform を使った多段階の AI 活用手法で Java へモダナイズする方法も示されています。
+"topics":
+  - "Amazon Bedrock: オープンウェイトモデルでのプロンプトキャッシュにより、長いコンテキストの再利用で入力コストとレイテンシーを削減"
+  - "ナレッジベース: Managed Knowledge Base の検索指示でテナントごとに口調・形式・回答ポリシーを設定、表形式検索で CSV / XLSX / XLS 上の値参照と計算に対応"
+  - "ガードレール: Bedrock Guardrails の Denied Topics は意味で一致するため過剰ブロックに注意、記述のベストプラクティス"
+  - "事例: Novo Nordisk が Bedrock AgentCore 上に GraphRAG のプロセスインテリジェンスアシスタントを構築し製造工程文書をモダナイズ"
+  - "モダナイゼーション: Bedrock、Kiro IDE、AWS Transform による多段階の手法でメインフレームのアセンブラを Java へ移行"
