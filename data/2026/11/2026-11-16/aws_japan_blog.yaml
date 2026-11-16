@@ -1,0 +1,9 @@
+"entries":
+  "a41069b6e695c1617de1a4ac8d75929f":
+    "id": "a41069b6e695c1617de1a4ac8d75929f"
+    "title": "AWS セキュリティ運用を定着させる: AWS Security Hub と Amazon GuardDuty を活用する成熟度ロードマップ"
+    "link": "https://aws.amazon.com/jp/blogs/news/operationalizing-aws-security-a-maturity-roadmap/"
+    "published": "2026-11-16 09:35:16"
+    "fetched": "2026-11-16 09:41:15"
+    "summary": "AWS Security Hub と Amazon GuardDuty を有効化したものの、検出結果を運用に活かしきれていない組織に向けて、6 つのフェーズからなる成熟度ロードマップを紹介します。現状評価から始め、抑制ルールやコントロールの無効化によるノイズ削減、Amazon EventBridge と AWS Lambda を使った重要度別の通知、高信頼度の検出結果に対する自動修復の判断フレームワークを解説します。さらに、週次レビューや月次メトリクスによる運用サイクルの確立と、予防的コントロールによるアーキテクチャの成熟までを説明します。"
+"last_updated": "2026-11-16 09:41:15 JST"
