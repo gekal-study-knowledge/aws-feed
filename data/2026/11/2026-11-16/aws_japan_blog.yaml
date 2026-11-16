@@ -34,4 +34,11 @@
     "published": "2026-11-16 09:41:09"
     "fetched": "2026-11-16 16:35:44"
     "summary": "Amazon EC2 インスタンス上の不正なファイル変更を検出する、サーバーレスのファイル整合性監視ソリューションの構築方法を紹介します。AWS Systems Manager Inventory でファイルメタデータを収集し、バージョニングを有効にした Amazon S3 バケットに保存します。AWS Lambda 関数でバージョン間の差分を比較して AWS Security Hub に検出結果を作成します。さらに、Amazon Security Lake で OCSF 形式に正規化し、Amazon Athena で分析する手順も解説します。"
-"last_updated": "2026-11-16 16:35:44 JST"
+  "020057a1e3842a3084f6e572ccb9dae8":
+    "id": "020057a1e3842a3084f6e572ccb9dae8"
+    "title": "【開催報告】AWSデータ活用ワークショップ〜パートナー共創型・地域金融機関合同〜"
+    "link": "https://aws.amazon.com/jp/blogs/news/data-utilization-workshop-regional-bank/"
+    "published": "2026-11-16 17:15:20"
+    "fetched": "2026-11-17 02:51:49"
+    "summary": "【開催報告】AWSデータ活用ワークショップ〜パートナー共創型・地域金融機関合同〜 1. はじめに データは現代 […]"
+"last_updated": "2026-11-17 02:51:49 JST"
