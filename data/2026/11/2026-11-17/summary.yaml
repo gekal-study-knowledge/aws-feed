@@ -1,14 +1,24 @@
 "date": "2026-11-17"
-"generated_at": "2026-11-17 06:01:08 JST"
+"generated_at": "2026-11-17 22:01:52 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 6
+"article_count": 30
 "sources":
+  - "aws_architecture_blog"
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
 "overview": |
-  この日は AWS Machine Learning Blog 1 ソースから 6 本で、すべて Amazon Bedrock を中心とした生成 AI の記事でした。Amazon Bedrock 上のオープンウェイトモデルでプロンプトキャッシュを使い、毎回再送される長いコンテキストを再利用して入力コストとレイテンシーを削減する実装方法が紹介されました。Amazon Bedrock Managed Knowledge Base については、共有ナレッジベース上でテナントごとに口調、形式、検索ガイダンス、回答ポリシーを設定できる検索指示と、エージェント型検索で CSV、XLSX、XLS ファイルの値の参照や計算を行えるようになった表形式検索 (tabular search) の 2 本が取り上げられています。Amazon Bedrock Guardrails の拒否トピック (Denied Topics) は、キーワードではなく意味で一致させるため想定以上にブロックしうるという性質を踏まえた記述のベストプラクティスが解説されました。事例では、Novo Nordisk の錠剤領域の製造技術チームが Amazon Bedrock AgentCore 上にナレッジグラフを組み合わせた GraphRAG アーキテクチャのプロセスインテリジェンスアシスタントを構築し、製造工程文書をモダナイズした取り組みが紹介されました。また、保守コストが高く人材確保も難しいメインフレームのアセンブラアプリケーションを、Amazon Bedrock、Kiro IDE、AWS Transform を使った多段階の AI 活用手法で Java へモダナイズする方法も示されています。
+  この日は 6 ソースから 30 本で、セキュリティ速報 3 件、KMS を中心とした暗号鍵管理、Bedrock Managed Knowledge Base と AgentCore の記事が目立ちました。セキュリティ速報 (いずれも 11 月 16 日 PST 公開) では、CVE-2026-129266 が Amazon Deep Java Library (DJL) 0.7.0 から 0.38.0 でモデルアーカイブのメタデータ内のリソース位置が検証されず、リモートの未認証の攻撃者が任意のローカルファイルを読めるおそれがあるもの、CVE-2026-126816 が AWS Pricing MCP Server (aws-pricing-mcp-server) のコストレポート生成ツールのパストラバーサルによる任意ファイル書き込み、CVE-2026-126681 が AWS Labs Timestream for InfluxDB MCP Server の接続設定処理で意図したエンドポイントへの制限が不適切なものです。鍵管理では、AWS KMS が AWS Resource Access Manager (RAM) と統合されて組織内のアカウント間で KMS キーを共有しやすくなり、Amazon EBS はスナップショットに追加の KMS キーを関連付けて暗号化スナップショットをアカウントやリージョンをまたいで共有・コピーできるようになりました。日本語ブログでも、データ分類・アプリケーション・AWS サービス・職務の分離の 4 原則から必要な KMS キーの数を考える記事と、KMS と CloudHSM の選び方を整理する記事が公開されています。ストレージ・データでは、Amazon S3 Vectors がベクトル類似検索と全文検索を 1 クエリで組み合わせるハイブリッド検索に対応し、Amazon Redshift が Apache Iceberg テーブルのマルチステートメントトランザクション、書き込み競合の自動解決、タイムトラベルに対応し、Amazon ECR がイメージの削除とタグの除去をレプリケーション先に複製するようになりました。そのほか、AWS DevOps Agent が AWS GovCloud (米国西部) で利用可能になり、Amazon Connect Health の医療コーディングが HIPAA 対象のパブリックプレビューとして公開され、Amazon Connect Customer のエージェントアシストがカード・カルーセル・ボタン・入力フィールドなどの対話型コンポーネントに対応し、AWS Marketplace Metering Service の MeterUsage / BatchMeterUsage API が小数の使用量に対応し、Amazon WorkSpaces で AI エージェントのセットアップ・接続・ガバナンスを素早く行う方法が紹介されました。Architecture Blog では Well-Architected Framework を Well-Architected Cloud Foundations と Well-Architected Cloud Workloads に再編し新しいベストプラクティスを加える更新が発表されました。Machine Learning Blog では、Bedrock のオープンウェイトモデルでのプロンプトキャッシュ、Managed Knowledge Base のテナントごとの回答カスタマイズ (検索指示) と CSV / XLSX / XLS を対象とする表形式検索、AgentCore メモリと組み合わせて長期記憶を AgenticRetrieveStream 1 回で扱う Agentic Retrieve、Bedrock Guardrails の Denied Topics の書き方、Bedrock・Kiro IDE・AWS Transform によるメインフレーム Assembler の Java へのモダナイズ、製造業の知見に基づくマルチエージェントの設計パターンとアンチパターン、Novo Nordisk (GraphRAG による製造工程文書のアシスタント)・MoEngage (Merlin AI)・Duco (テナント分離と MCP を用いた金融データ自動化) の AgentCore 事例が公開されました。News Blog の週次まとめは AWS Nitro Sandboxes や AWS Emulator を取り上げ、日本語ブログでは週刊AWS (11 月 9 日週)、NTT ドコモのレシート OCR サーバーレスシステムにおける多重処理の流量制御、NESIC ホールディングス傘下 3 社の 99 名が AI エージェント Kiro でトラブルシューティングに挑んだ NESICホールディングス Cup 2026 の開催レポートが公開されました。
 "topics":
-  - "Amazon Bedrock: オープンウェイトモデルでのプロンプトキャッシュにより、長いコンテキストの再利用で入力コストとレイテンシーを削減"
-  - "ナレッジベース: Managed Knowledge Base の検索指示でテナントごとに口調・形式・回答ポリシーを設定、表形式検索で CSV / XLSX / XLS 上の値参照と計算に対応"
-  - "ガードレール: Bedrock Guardrails の Denied Topics は意味で一致するため過剰ブロックに注意、記述のベストプラクティス"
-  - "事例: Novo Nordisk が Bedrock AgentCore 上に GraphRAG のプロセスインテリジェンスアシスタントを構築し製造工程文書をモダナイズ"
-  - "モダナイゼーション: Bedrock、Kiro IDE、AWS Transform による多段階の手法でメインフレームのアセンブラを Java へ移行"
+  - "セキュリティ速報: CVE-2026-129266 (Deep Java Library 0.7.0〜0.38.0、モデルアーカイブのメタデータ経由で未認証の任意ローカルファイル読み取り)"
+  - "セキュリティ速報: CVE-2026-126816 (aws-pricing-mcp-server のコストレポート生成ツールのパストラバーサルと任意ファイル書き込み)"
+  - "セキュリティ速報: CVE-2026-126681 (AWS Labs Timestream for InfluxDB MCP Server の接続設定で意図したエンドポイントへの制限が不適切)"
+  - "鍵管理: KMS が AWS RAM によるキー共有に対応、EBS スナップショットに追加の KMS キーを関連付け可能に、KMS キー数の 4 原則と KMS / CloudHSM の選び方 (日本語ブログ)"
+  - "データ・ストレージ: S3 Vectors がベクトル + 全文のハイブリッド検索に対応、Redshift が Iceberg のマルチステートメントトランザクション・競合解決・タイムトラベルに対応、ECR が削除とタグ除去をレプリケート"
+  - "運用・業務アプリ: DevOps Agent が GovCloud (米国西部) で利用可能に、Connect Health 医療コーディングのパブリックプレビュー、Connect Customer エージェントアシストの対話型コンポーネント、Marketplace Metering の小数使用量、WorkSpaces での AI エージェント運用"
+  - "アーキテクチャ: Well-Architected Framework を Cloud Foundations と Cloud Workloads に再編"
+  - "生成 AI: Bedrock オープンウェイトモデルのプロンプトキャッシュ、Managed Knowledge Base のテナント別回答・表形式検索・Agentic Retrieve、Guardrails の Denied Topics、Assembler から Java へのモダナイズ、マルチエージェント設計パターン"
+  - "事例: Novo Nordisk・MoEngage・Duco の AgentCore 活用、NTT ドコモのレシート OCR 流量制御、NESICホールディングス Cup 2026 (Kiro)"
+  - "まとめ: AWS Weekly Roundup (Nitro Sandboxes、AWS Emulator)、週刊AWS (11 月 9 日週)"
