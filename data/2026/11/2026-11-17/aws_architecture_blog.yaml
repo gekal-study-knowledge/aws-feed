@@ -1,0 +1,9 @@
+"entries":
+  "024925e619088c70d3485c6934cd26c2":
+    "id": "024925e619088c70d3485c6934cd26c2"
+    "title": "Announcing updates to the AWS Well-Architected Framework"
+    "link": "https://aws.amazon.com/blogs/architecture/announcing-updates-to-the-aws-well-architected-framework-3/"
+    "published": "2026-11-17 05:03:26"
+    "fetched": "2026-11-17 10:29:53"
+    "summary": "Updates to the AWS Well-Architected Framework reorganize it into Well-Architected Cloud Foundations and Well-Architected Cloud Workloads, add new best practices, and bring the general availability of the AWS Well-Architected Agent for analyzing workloads and guiding remediation."
+"last_updated": "2026-11-17 10:29:53 JST"

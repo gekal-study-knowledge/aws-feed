@@ -1,0 +1,23 @@
+"entries":
+  "92366e8e453abbbc360680cc204d02a2":
+    "id": "92366e8e453abbbc360680cc204d02a2"
+    "title": "CVE-2026-129266 - Arbitrary local file read via unvalidated resource location in model archive metadata in Deep Java Library"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-183-aws/"
+    "published": "2026-11-17 03:37:04"
+    "fetched": "2026-11-17 10:29:52"
+    "summary": "<p><b>Bulletin ID:</b> 2026-183-AWS<br /> <b>Publication Date:</b> 11/16/2026 10:30 AM PST</p> \n<p><b>Description:</b></p> \n<p>External control of a file path in Amazon Deep Java Library (DJL) versions 0.7.0 through 0.38.0 might allow a remote unauthenticated third party to read arbitrary files that the library process can access. To do this, the third party supplies a crafted model archive.</p> \n<p><b>Impacted versions:</b> &gt;=0.7.0, &lt;=0.38.0</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-183-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+  "c21e6f969b3498748b7b0b889d5f062b":
+    "id": "c21e6f969b3498748b7b0b889d5f062b"
+    "title": "CVE-2026-126816 - Path traversal and arbitrary file write in the cost report generator of aws-pricing-mcp-server"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-184-aws/"
+    "published": "2026-11-17 05:12:51"
+    "fetched": "2026-11-17 10:29:52"
+    "summary": "<p><b>Bulletin ID:</b> 2026-184-AWS<br /> <b>Publication Date:</b> 11/16/2026 12:00 PM PST</p> \n<p><b>Description:</b></p> \n<p>Improper limitation of a pathname to a restricted directory in the cost report generation tool in AWS Pricing MCP Server (aws-pricing-mcp-server) before 1.0.31 might allow an actor who can influence the MCP agent to write actor controlled content to arbitrary locations outside the intended output directory via absolute paths or directory traversal sequences in the report output path.</p> \n<p><b>Impacted versions:</b><br /> - awslabs.aws-pricing-mcp-server &lt; 1.0.31<br /> - awslabs.cost-analysis-mcp-server &lt;= 1.0.5</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-184-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+  "7dac7add11ba37943445df3cfdf4c8c5":
+    "id": "7dac7add11ba37943445df3cfdf4c8c5"
+    "title": "CVE-2026-126681 - Improper restriction of intended endpoints in AWS Labs Timestream for InfluxDB MCP Server"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-185-aws/"
+    "published": "2026-11-17 06:03:04"
+    "fetched": "2026-11-17 10:29:52"
+    "summary": "<p><b>Bulletin ID:</b> 2026-185-AWS<br /> <b>Publication Date:</b> 11/16/2026 12:30 PM PST</p> \n<p><b>Description:</b></p> \n<p>Improper restriction of intended endpoints in the connection configuration handling of the AWS Labs Timestream for InfluxDB MCP Server (awslabs.timestream-for-influxdb-mcp-server) before 0.0.19 might allow a remote unauthenticated actor (via prompt injection) to obtain the InfluxDB API token configured on the server, sent to a crafted endpoint controlled through an InfluxDB URL introduced in the MCP client context.</p> \n<p><b>Impacted versions:</b> &gt;=0.0.12 AND &lt;0.0.19</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-185-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+"last_updated": "2026-11-17 10:29:52 JST"

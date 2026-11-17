@@ -1,0 +1,9 @@
+"entries":
+  "2073466259edca0d8b4f4a3d4ebbbd57":
+    "id": "2073466259edca0d8b4f4a3d4ebbbd57"
+    "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)"
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/"
+    "published": "2026-11-17 02:55:46"
+    "fetched": "2026-11-17 10:29:51"
+    "summary": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of that work onto your own machine: developers and coding agents can exercise AWS […]"
+"last_updated": "2026-11-17 10:29:51 JST"

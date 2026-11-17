@@ -1,0 +1,16 @@
+"entries":
+  "2c2938100a6bf26beccd9c3e5bcb5f6d":
+    "id": "2c2938100a6bf26beccd9c3e5bcb5f6d"
+    "title": "NTTドコモにおけるレシート OCR サーバーレスシステムの多重処理流量制御"
+    "link": "https://aws.amazon.com/jp/blogs/news/docomo-receipt-ocr-system/"
+    "published": "2026-11-17 09:59:52"
+    "fetched": "2026-11-17 10:29:52"
+    "summary": "NTTドコモは「つなごう。驚きを。幸せを。」をブランドスローガンとして掲げ、コンシューマ通信事業をはじめ金融・決済、マーケティングソリューション、スマートライフ領域など多岐にわたる事業を展開しています。本記事では、その中からマーケティングソリューションの1つであり、dポイント経済圏や販促ソリューションを支える「レシートでためる」サービスでの取り組みをご紹介します。"
+  "b787ecd2ae833becbd79395e635e0da2":
+    "id": "b787ecd2ae833becbd79395e635e0da2"
+    "title": "週刊AWS – 2026/11/09週"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20261109/"
+    "published": "2026-11-17 03:03:21"
+    "fetched": "2026-11-17 10:29:52"
+    "summary": "Amazon S3 Access Points for Amazon FSx が追加リージョンで利用可能に、Claude Fable 5.2 が AWS で利用可能に、Amazon Bedrock AgentCore が Web Search API の提供を開始、AWS Network Firewall が次世代ファイアウォール (NGFW) ポリシーを発表、Amazon ElastiCache Serverless がベクトル検索、全文検索、ハイブリッド検索および集計に対応、AWS Billing and Cost Management がカスタム請求ビューのソースビューとして AWS Billing Conductor と AWS Billing Transfer のビューをサポート、AWS Emulator の提供を開始、AWS アプリケーションをローカルで構築・テスト可能に、Amazon Cognito がユーザープールのセッション管理に対応、AWS Network Security Manager が AWS European Sovereign Cloud リージョンと新たな 31 リージョンで利用可能に、AWS Quick が構造化データソースを制限できる詳細なガバナンス機能を追加、AWS Secrets Manager がクロスアカウントレプリケーションをサポート、Amazon Bedrock AgentCore Identity が OAuth 2.0 discovery URL をサポート"
+"last_updated": "2026-11-17 10:29:52 JST"
