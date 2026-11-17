@@ -1,0 +1,9 @@
+"entries":
+  "6fae5b9fac29a98f3301a6b62ce20c23":
+    "id": "6fae5b9fac29a98f3301a6b62ce20c23"
+    "title": "How Rakbank built centralized observability at scale with Amazon OpenSearch Service"
+    "link": "https://aws.amazon.com/blogs/architecture/how-rakbank-built-centralized-observability-at-scale-with-amazon-opensearch-service/"
+    "published": "2026-11-18 01:03:22"
+    "fetched": "2026-11-18 04:33:22"
+    "summary": "Rakbank re-platformed logging for its retail digital banking workloads on a cross-account, Multi-AZ Amazon OpenSearch Service design that ingests ~150 GB/day through Fluent Bit, using hot/UltraWarm/cold tiering and Amazon S3 archival for 7-year compliance retention and ~55% cost savings over an all-hot cluster."
+"last_updated": "2026-11-18 04:33:22 JST"

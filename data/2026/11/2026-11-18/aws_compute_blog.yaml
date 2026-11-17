@@ -1,0 +1,9 @@
+"entries":
+  "47f40d07334cf3ea929fcba86f9410c7":
+    "id": "47f40d07334cf3ea929fcba86f9410c7"
+    "title": "Securing REST APIs with JWT authorizers in Amazon API Gateway"
+    "link": "https://aws.amazon.com/blogs/compute/securing-rest-apis-with-jwt-authorizers-in-amazon-api-gateway/"
+    "published": "2026-11-18 03:39:16"
+    "fetched": "2026-11-18 04:33:23"
+    "summary": "Amazon API Gateway REST APIs now support JWT authorizers, which validate tokens from any OIDC-compatible identity provider in API Gateway itself, with no Lambda authorizer required. Learn how JWT authorizers work, then build a REST API that accepts machine-to-machine tokens with per-method scopes and adds an Amazon Cognito user pool as a second issuer."
+"last_updated": "2026-11-18 04:33:23 JST"

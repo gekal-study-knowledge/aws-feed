@@ -1,0 +1,9 @@
+"entries":
+  "ad31cc47a414d98c768ddc88790f4572":
+    "id": "ad31cc47a414d98c768ddc88790f4572"
+    "title": "CVE-2026-130621- Time-of-check time-of-use race condition in the port selection in AWS efs-utils"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-186-aws/"
+    "published": "2026-11-18 04:18:32"
+    "fetched": "2026-11-18 04:33:22"
+    "summary": "<p><b>Bulletin ID:</b> 2026-186-AWS<br /> <b>Publication Date:</b> 11/17/2026 11:00 AM PST</p> \n<p><b>Description:</b></p> \n<p>A time-of-check time-of-use (TOCTOU) race condition in the local port selection in AWS efs-utils (amazon-efs-utils) before 3.3.5 might allow a user that can start EFS mounts on a shared host to read and write a different Amazon EFS or S3 Files file system that is mounted on that same host, under that mount's IAM identity and access point, via concurrent mount operations. Only file systems mounted on the same host at the same time can be affected.</p> \n<p><b>Impacted versions:</b><br /> - amazon-efs-utils &lt; v3.3.5<br /> - aws-efs-csi-driver &lt; v3.5.4</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-186-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+"last_updated": "2026-11-18 04:33:22 JST"
