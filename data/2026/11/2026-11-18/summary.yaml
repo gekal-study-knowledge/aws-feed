@@ -1,0 +1,21 @@
+"date": "2026-11-18"
+"generated_at": "2026-11-18 06:02:03 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 16
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 7 ソースから 16 本で、セキュリティ速報 1 件、API Gateway の JWT オーソライザー、Bedrock と AgentCore の事例が中心でした。セキュリティ速報 (11 月 17 日 PST 公開) の CVE-2026-130621 は、AWS efs-utils (amazon-efs-utils) 3.3.5 より前のローカルポート選択における TOCTOU 競合状態で、共有ホストで EFS をマウントできるユーザーが同時にマウント操作を行うことで、同じホストにマウントされている別の Amazon EFS または S3 Files ファイルシステムを、そのマウントの IAM ID とアクセスポイントで読み書きできるおそれがあるものです。影響を受けるのは amazon-efs-utils v3.3.5 未満と aws-efs-csi-driver v3.5.4 未満で、同時に同じホストにマウントされているファイルシステムだけが対象です。Amazon API Gateway の REST API がネイティブの JWT オーソライザーに対応し、OIDC 互換の ID プロバイダーのトークンを Lambda オーソライザーなしでゲートウェイ内で検証できるようになり、Compute Blog でも使い方が解説されました。ネットワークでは Amazon VPC のクロスリージョンピアリング、AWS Transit Gateway、AWS Cloud WAN のクロスリージョン通信に 99.999% の可用性 SLA が設けられ、Amazon WorkSpaces Advisor が WorkSpace の不調をユーザーより先に見つけるパブリックプレビューとして公開され、Amazon Bedrock で OpenAI GPT-6.2 Astra と GPT-6.2 Sol が一般提供になりました。Machine Learning Blog では、共有プロンプトのプレフィックスをキャッシュして実効入力コストを約 50% 削減した ArisGlobal (NavaX) の事例、ガバナンス基盤・パイロット展開などの 3 段階でエージェント型 AI に責任ある AI を組み込むロードマップ、AllCloud と Generative AI Innovation Center と組んだ LoanPro のローン管理向けマルチエージェントアシスタント、re:Invent 2026 での AWS Quick のガイド、SageMaker JumpStart で使えるようになった時系列言語モデル OpenTSLM (Nexthink と Aionic Labs の活用例)、AgentCore 上のエージェントを WhatsApp につなぐオープンソースの SMART、AWS Forward Deployed Engineering による AI の本番化支援が紹介されました。そのほか、Rakbank が Fluent Bit で 1 日約 150 GB を取り込むクロスアカウント・マルチ AZ の Amazon OpenSearch Service で集中オブザーバビリティを構築した事例、マレーシア中央銀行 (BNM) への提出に向けた RMiT ワークブックと ISO コンプライアンスガイドの使い方、4 大陸からの新しい AWS Heroes の紹介が公開されました。
+"topics":
+  - "セキュリティ速報: CVE-2026-130621 (efs-utils のポート選択の TOCTOU 競合、amazon-efs-utils v3.3.5 未満と aws-efs-csi-driver v3.5.4 未満、同一ホスト上の別 EFS / S3 Files を読み書きされるおそれ)"
+  - "API・ネットワーク: API Gateway REST API がネイティブ JWT オーソライザーに対応、VPC クロスリージョンピアリング・Transit Gateway・Cloud WAN のクロスリージョン通信に 99.999% の SLA"
+  - "生成 AI: Bedrock で OpenAI GPT-6.2 Astra / GPT-6.2 Sol が一般提供、SageMaker JumpStart に OpenTSLM、AgentCore エージェントを WhatsApp につなぐ SMART、エージェント型 AI の責任ある AI ロードマップ、re:Invent 2026 の AWS Quick ガイド"
+  - "事例: ArisGlobal のプロンプトキャッシュで入力コスト約 50% 削減、LoanPro のローン管理アシスタント (AgentCore)、Rakbank の OpenSearch による集中オブザーバビリティ、Forward Deployed Engineering"
+  - "運用・コンプライアンス: WorkSpaces Advisor のパブリックプレビュー、BNM 向け RMiT ワークブックと ISO コンプライアンスガイド"
+  - "コミュニティ: 4 大陸からの新しい AWS Heroes"
