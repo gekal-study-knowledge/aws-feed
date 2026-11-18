@@ -1,0 +1,37 @@
+"entries":
+  "d6761eb77bd4fd2b6e217077cf09728f":
+    "id": "d6761eb77bd4fd2b6e217077cf09728f"
+    "title": "Amazon ElastiCache Serverless for Valkey の DynamoDB caching で DynamoDB ワークロードを高速化"
+    "link": "https://aws.amazon.com/jp/blogs/news/accelerate-your-dynamodb-workloads-with-dynamodb-caching-with-amazon-elasticache-serverless-for-valkey/"
+    "published": "2026-11-18 10:51:42"
+    "fetched": "2026-11-18 11:02:40"
+    "summary": "本ブログでは、Amazon ElastiCache Serverless for Valkey の新機能である DynamoDB caching をご紹介します。アプリケーションコードをほとんど変更することなく、Amazon DynamoDB にライトスルー方式のキャッシュを導入でき、ミリ秒未満の読み取りレイテンシー、ホットキーによるスロットリングの軽減、読み取りコストの削減を実現します。セットアップ手順に加え、20,000 req/s の製品カタログを例に、月額コストを約 46% 削減する試算と、その前提となる注意点も解説します。"
+  "5d4a78ac9bfbff7a7c8e1271b314a6ea":
+    "id": "5d4a78ac9bfbff7a7c8e1271b314a6ea"
+    "title": "Nitro Sandboxes: すべての EKS ポッド、ECS タスク、EC2 ワークロードをハードウェアで分離"
+    "link": "https://aws.amazon.com/jp/blogs/news/nitro-sandboxes-hardware-isolation-for-every-eks-pod-ecs-task-and-ec2-workload/"
+    "published": "2026-11-18 09:51:49"
+    "fetched": "2026-11-18 11:02:40"
+    "summary": "AWS Nitro Sandboxes は、各コンテナにハードウェアで分離された仮想マシン (VM) の境界を提供する Amazon EC2 の新しいビルディングブロックです。EKS ポッド、ECS タスク、EC2 ワークロードを分離でき、機密サンドボックスではクラスター管理者や AWS にもメモリを読み取られないよう保護します。本記事では、機密サンドボックスと分離サンドボックスの 2 つのモードの違いと、アテステーションおよび AWS KMS を活用した機密データの保護を紹介します。AI エージェントや SaaS などのユースケース、EKS、ECS、EC2 での開始方法も説明します。Nitro Sandboxes は追加料金なしで利用できます。"
+  "234e37cfed995867f22cc812e6b2ec90":
+    "id": "234e37cfed995867f22cc812e6b2ec90"
+    "title": "マルチスレッド環境での AWS KMS データキーのキャッシュ: 大規模なイベント駆動型システムにおけるテナントごとの暗号化"
+    "link": "https://aws.amazon.com/jp/blogs/news/caching-kms-data-keys-in-multi-thread-environments-per-tenant-encryption-for-event-driven-systems-at-scale/"
+    "published": "2026-11-18 09:08:52"
+    "fetched": "2026-11-18 11:02:40"
+    "summary": "マルチテナントの SaaS 環境で、テナントごとのエンベロープ暗号化を行う高スループットのシステムでは、キャッシュスタンピードによって AWS KMS の冗長な呼び出しが発生します。この記事では、この問題が発生する仕組みと 2 つの解決策を説明します。1 つは DynamoDB を使用した AWS 推奨の階層キーリング、もう 1 つは Caffeine を使用した AWS KMS クライアントのカスタムキャッシュです。また、テナントごとの暗号化の分離を維持しながら AWS KMS のコストを 77% 削減した NICE Actimize の事例も紹介します。"
+  "47009853e80eb52f7718b686020f965f":
+    "id": "47009853e80eb52f7718b686020f965f"
+    "title": "未使用の AWS KMS キーの特定と誤削除の防止"
+    "link": "https://aws.amazon.com/jp/blogs/news/identify-unused-aws-kms-keys-and-prevent-accidental-key-deletions/"
+    "published": "2026-11-18 09:03:24"
+    "fetched": "2026-11-18 11:02:40"
+    "summary": "AWS Key Management Service (AWS KMS) の新しい GetKeyLastUsage API を使用して、KMS キーが最後に暗号化オペレーションに使用された日時を確認する方法を紹介します。CloudTrail ログを検索しなくても未使用キーを特定できるため、監査とコスト最適化に役立ちます。追跡期間の考え方や、Amazon EBS ボリュームを例にした削除前の注意点も説明します。さらに、kms:TrailingDaysWithoutKeyUsage 条件キーをキーポリシーで使用し、最近使用されたキーが誤って削除・無効化されるのを防ぐ方法も解説します。"
+  "f299d8a25132b6c34476011134cd01a3":
+    "id": "f299d8a25132b6c34476011134cd01a3"
+    "title": "AWS Key Management Service (AWS KMS) の対称キーローテーション間隔の短縮をめぐる考察"
+    "link": "https://aws.amazon.com/jp/blogs/news/the-curious-case-of-faster-aws-kms-symmetric-key-rotation/"
+    "published": "2026-11-18 09:00:36"
+    "fetched": "2026-11-18 11:02:40"
+    "summary": "AWS Key Management Service (AWS KMS) の対称キーで、自動キーローテーションの期間を 90～2,560 日の範囲で設定できるようになりました。オンデマンドローテーション、ListKeyRotations API によるローテーション履歴の可視化、2 回を超えるローテーションが行われたキーへの料金上限も紹介します。また、カエサル暗号から NIST SP 800-57 までのキーローテーションの歴史を振り返ります。そのうえで、HSM でキーの漏洩リスクを最小限に抑え、KDF でキーの消耗リスクを軽減する AWS KMS では、どのような場合にローテーションが必要かを解説します。"
+"last_updated": "2026-11-18 11:02:40 JST"
