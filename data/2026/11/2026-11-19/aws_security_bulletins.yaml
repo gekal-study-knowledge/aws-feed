@@ -1,0 +1,9 @@
+"entries":
+  "f4b5186886ac460945a920dc0ba03ff2":
+    "id": "f4b5186886ac460945a920dc0ba03ff2"
+    "title": "CVE-2026-130638 - Path traversal in the object detection dataset preparation tool in AutoGluon MultiModal"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-188-aws/"
+    "published": "2026-11-19 03:18:11"
+    "fetched": "2026-11-19 04:54:40"
+    "summary": "<p><b>Bulletin ID:</b> 2026-188-AWS<br /> <b>Publication Date:</b> 11/18/2026 10:00 AM PST</p> \n<p><b>Description:</b></p> \n<p>Relative path traversal in the object detection dataset preparation tool in AutoGluon Multimodal before 1.6.0 might allow adversary-in-the-middle attackers to write arbitrary files with the privileges of the user running the tool via a crafted dataset archive substituted for a dataset downloaded over plaintext HTTP.</p> \n<p><b>Impacted versions:</b> &lt; 1.6.0</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-188-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+"last_updated": "2026-11-19 04:54:40 JST"

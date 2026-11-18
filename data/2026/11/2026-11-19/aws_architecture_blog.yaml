@@ -1,0 +1,9 @@
+"entries":
+  "94b81998ca1f1401991789fc05a71bd2":
+    "id": "94b81998ca1f1401991789fc05a71bd2"
+    "title": "Block DNS threats with Infoblox rules in Amazon Route 53 Resolver DNS Firewall"
+    "link": "https://aws.amazon.com/blogs/architecture/block-dns-threats-with-infoblox-rules-in-amazon-route-53-resolver-dns-firewall/"
+    "published": "2026-11-19 03:35:14"
+    "fetched": "2026-11-19 04:54:40"
+    "summary": "Infoblox Threat Defense is now available in preview in Amazon Route 53 Resolver DNS Firewall, providing partner-managed DNS threat intelligence. Learn how to add an Infoblox managed rule to a rule group, test it in alert mode, monitor matches, and move to blocking."
+"last_updated": "2026-11-19 04:54:40 JST"

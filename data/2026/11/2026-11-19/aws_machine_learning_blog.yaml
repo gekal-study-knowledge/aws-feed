@@ -1,0 +1,30 @@
+"entries":
+  "337f2e536fb5c22684a0bd8ee3c2a1f2":
+    "id": "337f2e536fb5c22684a0bd8ee3c2a1f2"
+    "title": "How Social Department built culture-aware video discovery"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/"
+    "published": "2026-11-19 04:27:56"
+    "fetched": "2026-11-19 04:54:41"
+    "summary": "Social Department, an AI operating system for entertainment marketing, worked with TrackIt and AWS to build QuickSearch: single-action queries that surface shareable scenes, quotable lines, memeable frames, and trend-aligned moments across large video libraries, using TwelveLabs models on Amazon Bedrock and Amazon OpenSearch Serverless."
+  "a233fc364236aae7d658d3c7497918fe":
+    "id": "a233fc364236aae7d658d3c7497918fe"
+    "title": "Connect Amazon Bedrock AgentCore Gateway to private APIs in a hub-and-spoke network with centralized inspection"
+    "link": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection/"
+    "published": "2026-11-19 04:05:45"
+    "fetched": "2026-11-19 04:54:41"
+    "summary": "Many enterprises run a centralized network model: one account owns every VPC and a central firewall inspects all traffic. This post shows a tested pattern for connecting Amazon Bedrock AgentCore Gateway to private APIs and MCP servers in that model, with the VPC Lattice resource gateway in the network account so every hop crosses the firewall."
+  "1efa69dc8fc5d6c0c1da487ebd943086":
+    "id": "1efa69dc8fc5d6c0c1da487ebd943086"
+    "title": "How Stretto built an AI voice agent with Amazon Nova 2 Sonic"
+    "link": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/"
+    "published": "2026-11-19 03:58:42"
+    "fetched": "2026-11-19 04:54:41"
+    "summary": "Stretto replaced its web-form lead capture with Tara, an AI voice agent built on Amazon Nova 2 Sonic that conducts bankruptcy intake interviews by phone and qualifies leads. See how Stretto, the AWS Generative AI Innovation Center, and CI&amp;T designed the voice architecture, validated it for sensitive conversations, and moved it to production."
+  "60ddeb9b4fe6811ee5cf83b11751e15f":
+    "id": "60ddeb9b4fe6811ee5cf83b11751e15f"
+    "title": "From reporting to reasoning: Getting enterprise data ready for AI agents"
+    "link": "https://aws.amazon.com/blogs/machine-learning/from-reporting-to-reasoning-getting-enterprise-data-ready-for-ai-agents/"
+    "published": "2026-11-19 03:54:08"
+    "fetched": "2026-11-19 04:54:41"
+    "summary": "A recap of the inaugural AWS Quick User Group DC meetup, where data leaders explored getting enterprise data ready for AI agents. It covers what's new in AWS Quick, Financial Independence Group's AI analytics journey, and hands-on app and no-code flow building."
+"last_updated": "2026-11-19 04:54:41 JST"

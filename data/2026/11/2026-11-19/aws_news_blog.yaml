@@ -1,0 +1,9 @@
+"entries":
+  "e66e61efbb239d6eed301bb237e92eee":
+    "id": "e66e61efbb239d6eed301bb237e92eee"
+    "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances"
+    "link": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/"
+    "published": "2026-11-19 04:39:07"
+    "fetched": "2026-11-19 04:54:38"
+    "summary": "AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda handles all infrastructure tasks, including instance lifecycle, driver management, and auto scaling, while maximizing GPU utilization across concurrent requests with standard EC2 pricing plus a management fee"
+"last_updated": "2026-11-19 04:54:38 JST"
