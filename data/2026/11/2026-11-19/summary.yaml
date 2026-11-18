@@ -1,0 +1,21 @@
+"date": "2026-11-19"
+"generated_at": "2026-11-19 06:01:55 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 12
+"sources":
+  - "aws_architecture_blog"
+  - "aws_compute_blog"
+  - "aws_japan_blog"
+  - "aws_machine_learning_blog"
+  - "aws_news_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 7 ソースから 12 本と少なめで、AutoGluon のセキュリティ速報、Lambda のランタイム管理と GPU 対応、RDS と Cognito のデータ保護・復旧が中心でした。セキュリティ速報 CVE-2026-130638 (11 月 18 日 PST 公開) は、AutoGluon MultiModal 1.6.0 より前の物体検出用データセット準備ツールにおける相対パストラバーサルの脆弱性です。AWS Lambda は Lambda Managed Instances 上の Event Functions で G 系の GPU インスタンスに対応し、機械学習推論・メディア処理・レンダリングなどの GPU ワークロードをサーバーレスで動かせるようになったほか、Compute Blog ではランタイムの中身・更新・アクセス・ライフサイクルを利用者が管理し、一度パッケージ化して共有できるカスタマーマネージドランタイムが解説されました。データベースでは、Amazon RDS がポイントインタイムリストア、リードレプリカの作成、シングル AZ からマルチ AZ への変換で作成されるストレージボリュームを高速に初期化するようになり、RDS for MySQL がコミュニティの最新マイナーバージョン 8.4.13 に対応しました。Amazon Cognito はユーザープールのユーザーデータを過去の時点に戻せるポイントインタイムリカバリ (PITR) に対応しています。Architecture Blog では、プレビュー中の Infoblox Threat Defense のマネージドルールを Route 53 Resolver DNS Firewall のルールグループに追加して DNS の脅威を遮断する方法が紹介されました。Machine Learning Blog では、Amazon Nova 2 Sonic で破産手続きの受付面談を電話で行う音声エージェント Tara を構築した Stretto、TrackIt と組んでシーンや引用可能なセリフを探す QuickSearch を作った Social Department の事例、集中検査を行うハブアンドスポーク型ネットワークで AgentCore Gateway をプライベート API につなぐパターン、AWS Quick User Group DC の初回ミートアップのまとめが公開され、日本語ブログでは Kiro で数百万回の評価を回して得た、動的なベンチマーク・3 層の判定・ライブシグナルによる検証などの教訓が紹介されました。
+"topics":
+  - "セキュリティ速報: CVE-2026-130638 (AutoGluon MultiModal 1.6.0 未満、物体検出データセット準備ツールの相対パストラバーサル)"
+  - "サーバーレス: Lambda Managed Instances の Event Functions が GPU (G 系) インスタンスに対応、カスタマーマネージドランタイム"
+  - "データベース: RDS のストレージボリューム高速初期化 (PITR・リードレプリカ・マルチ AZ 変換)、RDS for MySQL 8.4.13"
+  - "ID: Amazon Cognito がユーザープールのポイントインタイムリカバリに対応"
+  - "ネットワークセキュリティ: Route 53 Resolver DNS Firewall で Infoblox のマネージドルールを使う方法 (プレビュー)"
+  - "生成 AI・事例: Stretto の Nova 2 Sonic 音声エージェント、Social Department の動画検索、AgentCore Gateway とプライベート API の接続、Kiro の評価運用の教訓"
