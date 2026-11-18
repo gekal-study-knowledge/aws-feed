@@ -1,17 +1,17 @@
 "date": "2026-11-16"
-"generated_at": "2026-11-17 22:01:52 JST"
+"generated_at": "2026-11-18 22:04:03 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 14
+"article_count": 17
 "sources":
   - "aws_japan_blog"
   - "aws_whats_new"
 "overview": |
-  この日は日本語ブログ 6 本と What's New 8 件の計 14 本で、アイデンティティとバックアップ、セキュリティ運用の記事が中心でした。IAM Identity Center は AWS PrivateLink による インターフェイス VPC エンドポイントとネットワークアクセス制御に対応し、トラフィックをプライベートに保ったうえでアクセス元のネットワークを制限できるようになったほか、ユーザーの対話セッションが切れるたびに外部 IdP での再認証を求める SAML リクエストの ForceAuthn にも対応しました。AWS Secrets Manager は Auth0、Okta、Palo Alto Networks の認証情報を管理対象の外部シークレットとしてローテーションできるようになり、AWS Backup の論理的エアギャップボールトは Amazon RDS の DB インスタンスに対応しました。AWS WAF の高度なレートベースルールはアジアパシフィック (タイ)、メキシコ (中部)、AWS GovCloud (米国東部 / 米国西部) で利用可能になり、Amazon VPC は共有ネットワークのコストを実際に発生させたリソースごとに按分する Networking Flexible Cost Allocation (FCA) に対応しました。AI 関連では、Amazon Bedrock AgentCore のランタイムインスタンスが米国西部 (北カリフォルニア)、カナダ (中部)、欧州 (ロンドン / パリ / ストックホルム) などさらに 6 リージョンで利用可能になり、SageMaker AI のリアルタイム推論エンドポイントが KV キャッシュを考慮したルーティングに対応して、長いプロンプトや繰り返しのプロンプトを扱う LLM ワークロードの最初のトークンまでの時間を短縮できるようになりました。日本語ブログでは、Security Hub と GuardDuty の検出結果を運用に定着させる 6 フェーズの成熟度ロードマップ、Systems Manager Inventory と Security Lake を使ったサーバーレスのファイル整合性監視、STS とセッションポリシーで権限を絞った一時認証情報を払い出してフォレンジックアーティファクトを S3 に安全に収集するフレームワーク、VPC 分離・アクセス許可の境界・SCP などで固めたマルウェア解析環境の構築といったセキュリティ記事が並び、Claude Fable 5.2 の提供開始や次世代 AgentCore Runtime のデフォルト化を含む週刊生成AI with AWS (11 月 9 日週)、地域金融機関合同のデータ活用ワークショップの開催報告も公開されました。
+  この日は日本語ブログ 6 本と What's New 11 件の計 17 本で、アイデンティティとバックアップ、セキュリティ運用の記事が中心でした。IAM Identity Center は AWS PrivateLink によるインターフェイス VPC エンドポイントとネットワークアクセス制御に対応し、トラフィックをプライベートに保ったうえでアクセス元のネットワークを制限できるようになったほか、ユーザーの対話セッションが切れるたびに外部 IdP での再認証を求める SAML リクエストの ForceAuthn にも対応しました。AWS Secrets Manager は Auth0、Okta、Palo Alto Networks の認証情報を管理対象の外部シークレットとしてローテーションできるようになり、AWS Backup の論理的エアギャップボールトは Amazon RDS の DB インスタンスに対応しました。AWS Security Hub は、既知の脆弱性を持つソフトウェアが EC2 インスタンス上で実際に動いていることを検出し、動いていない場合より高い重大度を付けるようになったほか、Network Scanning がパブリックアクセスを構成した RDS DB インスタンスをスキャンしてインターネットから到達できるポートごとに検出結果を作るようになりました。AWS Network Firewall は Transit Gateway にアタッチしたファイアウォールでも IP アドレスではなく VPC リソースのコンテキストを参照するコンテキスト認識ルールを使えるようになり、AWS WAF の高度なレートベースルールはアジアパシフィック (タイ)、メキシコ (中部)、AWS GovCloud (米国東部 / 米国西部) で利用可能になりました。Amazon VPC は共有ネットワークのコストを実際に発生させたリソースごとに按分する Networking Flexible Cost Allocation (FCA) に対応しました。AI 関連では、Amazon Bedrock AgentCore のランタイムインスタンスが米国西部 (北カリフォルニア)、カナダ (中部)、欧州 (ロンドン / パリ / ストックホルム) などさらに 6 リージョンで利用可能になり、SageMaker AI のリアルタイム推論エンドポイントが KV キャッシュを考慮したルーティングに対応して、長いプロンプトや繰り返しのプロンプトを扱う LLM ワークロードの最初のトークンまでの時間を短縮できるようになりました。日本語ブログでは、Security Hub と GuardDuty の検出結果を運用に定着させる 6 フェーズの成熟度ロードマップ、Systems Manager Inventory と Security Lake を使ったサーバーレスのファイル整合性監視、STS とセッションポリシーで権限を絞った一時認証情報を払い出してフォレンジックアーティファクトを S3 に安全に収集するフレームワーク、VPC 分離・アクセス許可の境界・SCP などで固めたマルウェア解析環境の構築といったセキュリティ記事が並び、Claude Fable 5.2 の提供開始や次世代 AgentCore Runtime のデフォルト化を含む週刊生成AI with AWS (11 月 9 日週)、地域金融機関合同のデータ活用ワークショップの開催報告も公開されました。
 "topics":
   - "アイデンティティ: IAM Identity Center がインターフェイス VPC エンドポイント (PrivateLink) とネットワークアクセス制御に対応、SAML リクエストの ForceAuthn で外部 IdP への再認証を要求可能に"
-  - "シークレット管理: Secrets Manager が Auth0・Okta・Palo Alto Networks の管理対象外部シークレットに対応"
-  - "バックアップ: AWS Backup の論理的エアギャップボールトが Amazon RDS DB インスタンスに対応"
-  - "セキュリティ: AWS WAF の高度なレートベースルールがタイ・メキシコ (中部)・GovCloud (米国東部 / 西部) で利用可能に"
+  - "シークレット・バックアップ: Secrets Manager が Auth0・Okta・Palo Alto Networks の管理対象外部シークレットに対応、AWS Backup の論理的エアギャップボールトが RDS DB インスタンスに対応"
+  - "セキュリティ: Security Hub が EC2 上で実行中の脆弱なソフトウェアを検出、Network Scanning がインターネットから到達可能な RDS をスキャン"
+  - "ネットワークセキュリティ: Transit Gateway アタッチの Network Firewall がコンテキスト認識ルールに対応、WAF の高度なレートベースルールがタイ・メキシコ (中部)・GovCloud (米国東部 / 西部) で利用可能に"
   - "コスト管理: Amazon VPC が Networking Flexible Cost Allocation (FCA) に対応、共有ネットワークコストをリソース単位で按分"
   - "生成 AI: AgentCore ランタイムインスタンスが北カリフォルニア・カナダ (中部)・ロンドン・パリ・ストックホルムなど 6 リージョンを追加、SageMaker AI のリアルタイム推論が KV キャッシュ考慮ルーティングに対応"
   - "セキュリティ運用 (日本語ブログ): Security Hub / GuardDuty の成熟度ロードマップ、ファイル整合性監視、フォレンジックアーティファクト収集、マルウェア解析環境の構築"
