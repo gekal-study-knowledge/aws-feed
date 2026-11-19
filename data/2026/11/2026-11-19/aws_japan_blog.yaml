@@ -41,4 +41,11 @@
     "published": "2026-11-19 12:52:59"
     "fetched": "2026-11-19 18:48:45"
     "summary": "新しい AWS エクスペリエンスでは、すばやく使い始められる使いやすさとセキュリティを両立させるため、安全なデフォルト設定を最初から適用します。MFA を登録できる AWS ビルダー ID でのサインイン、AWS が AWS Organizations を使って管理する組織とプロジェクト、データ境界、単一の AWS リージョン、月額 20 USD から設定できる支出上限、IAM ロールを作成してアタッチする IAM Role Manager を、その狙いとともに紹介します。"
-"last_updated": "2026-11-19 18:48:45 JST"
+  "aa719e5d970391d3a035d63c0c7ce690":
+    "id": "aa719e5d970391d3a035d63c0c7ce690"
+    "title": "AWS エージェントスキルを使った Amazon MWAA のアップグレードとトラブルシューティング"
+    "link": "https://aws.amazon.com/jp/blogs/news/upgrading-and-troubleshooting-amazon-mwaa-with-aws-agent-skills/"
+    "published": "2026-11-19 23:23:03"
+    "fetched": "2026-11-20 03:48:47"
+    "summary": "本記事では、Agent Toolkit for AWS が提供する Amazon MWAA 向けエージェントスキルの機能と導入方法を紹介します。Airflow 環境のアップグレード、DAG のトラブルシューティング、ワークフローの作成とテストに活用する手順を、サンプルプロンプトとともに解説します。"
+"last_updated": "2026-11-20 03:48:47 JST"

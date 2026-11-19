@@ -1,0 +1,9 @@
+"entries":
+  "69ca9fb8b2c5016bf705d3c464cb6533":
+    "id": "69ca9fb8b2c5016bf705d3c464cb6533"
+    "title": "Amazon Aurora DSQL now supports multi-Region peering across continents"
+    "link": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-intercontinental-multi-region-clusters/"
+    "published": "2026-11-20 00:56:00"
+    "fetched": "2026-11-20 03:48:46"
+    "summary": "<p><a href=\"https://aws.amazon.com/rds/aurora/dsql/\">Amazon Aurora DSQL</a> now lets you create multi-Region clusters whose Regions are on different continents, such as US East (N. Virginia) and Europe (Ireland). Until now, the Regions in a multi-Region cluster had to be in the same geographic Region set.</p> \n<p>With intercontinental multi-Region clusters, applications on two continents read and write to one strongly consistent database. If a Region becomes unavailable, committed writes are preserved and applications keep reading and writing in the other Region. You choose the two peer Regions and the witness Region. Place your database close to users on each continent, or separate failure domains as widely as your resilience needs require.</p> \n<p>Intercontinental multi-Region clusters are available in all <a href=\"https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/\">AWS Regions</a> where Aurora DSQL supports multi-Region clusters. To learn more, see <a href=\"https://docs.aws.amazon.com/aurora-dsql/latest/userguide/what-is-aurora-dsql.html#aurora-dsql-multi-region-availability\">Multi-Region cluster availability</a> in the Aurora DSQL User Guide.</p>"
+"last_updated": "2026-11-20 03:48:46 JST"

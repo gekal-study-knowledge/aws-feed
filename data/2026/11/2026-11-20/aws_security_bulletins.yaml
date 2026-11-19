@@ -1,0 +1,9 @@
+"entries":
+  "3520a62eb57fdcf2695d2339f0cabf94":
+    "id": "3520a62eb57fdcf2695d2339f0cabf94"
+    "title": "PHP Foundation Security Releases – November 19, 2026"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-190-aws/"
+    "published": "2026-11-20 03:30:09"
+    "fetched": "2026-11-20 03:48:47"
+    "summary": "<p><b>Bulletin ID:</b> 2026-190-AWS<br /> <b>Publication Date:</b> 11/19/2026 10:00 AM PST</p> \n<p><b>Description:</b></p> \n<p>AWS is aware of security releases that the PHP Foundation published on November 19, 2026. PHP versions 8.2.36, 8.3.37, 8.4.28, and 8.5.13 address 17 issues across the PHP 8.2, 8.3, 8.4, and 8.5 branches. The issues are in the following components:<br /> - The PHP engine<br /> - PHP-FPM and the PHP CGI binary<br /> - The SOAP, Phar, session, DOM, and date extensions<br /> - The HTTP and FTP stream wrappers<br /> - The PHP 8.5 RFC 3986 URI implementation</p> \n<p><b>Patching the affected software remains the only complete fix and should be the first priority.</b> We will update this bulletin as more information becomes available.</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-190-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+"last_updated": "2026-11-20 03:48:47 JST"

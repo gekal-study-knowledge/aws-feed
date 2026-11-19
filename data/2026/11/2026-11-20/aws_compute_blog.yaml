@@ -1,0 +1,9 @@
+"entries":
+  "93a0c63f1f434d843a4e702128998448":
+    "id": "93a0c63f1f434d843a4e702128998448"
+    "title": "Monitor the efficiency and availability of accelerated computing instances with Amazon EC2 Detailed Monitoring and performance status checks"
+    "link": "https://aws.amazon.com/blogs/compute/monitor-the-efficiency-and-availability-of-accelerated-computing-instances-with-amazon-ec2-detailed-monitoring-and-performance-status-checks/"
+    "published": "2026-11-20 03:34:57"
+    "fetched": "2026-11-20 03:48:48"
+    "summary": "Amazon EC2 now reports one-minute per-GPU metrics through Detailed Monitoring and surfaces recoverable hardware conditions with a new performance status check, giving infrastructure teams agentless visibility into accelerated computing efficiency and availability across their fleet."
+"last_updated": "2026-11-20 03:48:48 JST"
