@@ -1,0 +1,16 @@
+"entries":
+  "7cdd0ed1c819e488878eb8bdfff8381c":
+    "id": "7cdd0ed1c819e488878eb8bdfff8381c"
+    "title": "Step-up authentication: how to right-size authentication to risk"
+    "link": "https://aws.amazon.com/blogs/security/step-up-authentication-how-to-right-size-authentication-to-risk/"
+    "published": "2026-11-19 08:49:07"
+    "fetched": "2026-11-19 10:40:07"
+    "summary": "Not every action a user takes in an application carries the same risk. Viewing an account balance in a banking application isn’t the same as wiring several thousand dollars to a new payee. In practice, though, many applications ask users to prove their identity once at sign-in and then treat every action the same from […]"
+  "23de44bec11ba6cb8027a3c8fb55afb8":
+    "id": "23de44bec11ba6cb8027a3c8fb55afb8"
+    "title": "Detecting cross-cloud lateral movement with AWS Security Hub"
+    "link": "https://aws.amazon.com/blogs/security/detecting-cross-cloud-lateral-movement-with-aws-security-hub/"
+    "published": "2026-11-19 07:28:45"
+    "fetched": "2026-11-19 10:40:07"
+    "summary": "Most organizations run a multicloud estate, and so do the attackers targeting them. An adversary who compromises an identity in one provider follows that identity wherever it leads, including across a federated trust into a second cloud service provider. The signals enumerating this scenario are rarely missing; the problem is that they live in separate […]"
+"last_updated": "2026-11-19 10:40:07 JST"
