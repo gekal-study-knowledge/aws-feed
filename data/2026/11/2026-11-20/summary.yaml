@@ -1,0 +1,19 @@
+"date": "2026-11-20"
+"generated_at": "2026-11-20 06:02:25 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 9
+"sources":
+  - "aws_compute_blog"
+  - "aws_machine_learning_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 4 ソースから 9 本で、GPU を中心とした高速コンピューティングの可観測性と SageMaker AI の推論・学習基盤、PHP のセキュリティリリース、Aurora DSQL の大陸間マルチリージョン対応が中心でした。セキュリティ速報 (Bulletin ID 2026-190-AWS、11 月 19 日 10:00 PST 公開) では、PHP Foundation が 2026 年 11 月 19 日に公開したセキュリティリリース (PHP 8.2.36、8.3.37 など) を AWS が把握していることが告知されました。Amazon EC2 は Detailed Monitoring で GPU ごとの 1 分間隔のメトリクスを報告し、回復可能なハードウェアの状態を新しいパフォーマンスステータスチェックで示すようになり、エージェントなしで高速コンピューティングインスタンスの効率と可用性を監視できることが Compute Blog で解説されました。Amazon SageMaker HyperPod は GPU 学習の問題を早く診断できるよう診断・プロファイリング機能をまとめた強化されたインフラ可観測性を提供し、SageMaker AI のクロスリージョン推論ルーティングについては、1 つ以上のリージョンとアカウントで稼働する既存のエンドポイントと推論コンポーネントへの呼び出し経路を 1 本にまとめ、リージョンの容量不足時にも推論を続ける使い方が紹介されました。リアルタイムの複雑な対話向けの推論モデル PolyAI Dialog-RSN-1 が AWS Marketplace と SageMaker JumpStart で提供開始となり、Skyflow を Amazon Bedrock AgentCore Gateway のインターセプターとして追加し、ツールやモデルに渡る前に機密データを非識別化する構成も紹介されました。そのほか、オープンソースの NVIDIA Run:ai GPU Fractioning で Amazon EKS 上の NVIDIA A10G GPU 1 枚にメモリ制限付きの Pod を 2 つ載せる手順と、Cisco が AWS AI League を通じて 1,200 人のエンジニアにエージェント型 AI を学ばせ、Cisco のエンジニアが 2025 年の AWS AI League 世界大会で優勝した事例が公開されました。Amazon Aurora DSQL は、米国東部 (バージニア北部) と欧州 (アイルランド) のように異なる大陸のリージョンでマルチリージョンクラスターを作成できるようになりました。
+"topics":
+  - "セキュリティ速報: PHP Foundation の 2026-11-19 セキュリティリリース (PHP 8.2.36・8.3.37 など、Bulletin 2026-190-AWS)"
+  - "データベース: Aurora DSQL が大陸をまたぐマルチリージョンクラスターに対応 (例: バージニア北部と欧州 (アイルランド))"
+  - "コンピューティング: EC2 Detailed Monitoring の GPU 単位 1 分メトリクスと新しいパフォーマンスステータスチェック"
+  - "機械学習基盤: SageMaker HyperPod の強化されたインフラ可観測性、SageMaker AI のクロスリージョン推論ルーティング"
+  - "生成 AI: PolyAI Dialog-RSN-1 が SageMaker JumpStart と Marketplace で提供、Skyflow と AgentCore Gateway によるツール呼び出しの機密データ保護"
+  - "コンテナ: NVIDIA Run:ai GPU Fractioning で EKS 上の A10G GPU 1 枚を 2 Pod で共有"
+  - "事例: Cisco が AWS AI League で 1,200 人のエンジニアをエージェント型 AI で育成"
