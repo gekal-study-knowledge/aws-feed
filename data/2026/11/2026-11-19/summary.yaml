@@ -1,21 +1,24 @@
 "date": "2026-11-19"
-"generated_at": "2026-11-19 06:01:55 JST"
+"generated_at": "2026-11-19 22:02:15 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 12
+"article_count": 44
 "sources":
   - "aws_architecture_blog"
   - "aws_compute_blog"
   - "aws_japan_blog"
   - "aws_machine_learning_blog"
   - "aws_news_blog"
+  - "aws_security_blog"
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 7 ソースから 12 本と少なめで、AutoGluon のセキュリティ速報、Lambda のランタイム管理と GPU 対応、RDS と Cognito のデータ保護・復旧が中心でした。セキュリティ速報 CVE-2026-130638 (11 月 18 日 PST 公開) は、AutoGluon MultiModal 1.6.0 より前の物体検出用データセット準備ツールにおける相対パストラバーサルの脆弱性です。AWS Lambda は Lambda Managed Instances 上の Event Functions で G 系の GPU インスタンスに対応し、機械学習推論・メディア処理・レンダリングなどの GPU ワークロードをサーバーレスで動かせるようになったほか、Compute Blog ではランタイムの中身・更新・アクセス・ライフサイクルを利用者が管理し、一度パッケージ化して共有できるカスタマーマネージドランタイムが解説されました。データベースでは、Amazon RDS がポイントインタイムリストア、リードレプリカの作成、シングル AZ からマルチ AZ への変換で作成されるストレージボリュームを高速に初期化するようになり、RDS for MySQL がコミュニティの最新マイナーバージョン 8.4.13 に対応しました。Amazon Cognito はユーザープールのユーザーデータを過去の時点に戻せるポイントインタイムリカバリ (PITR) に対応しています。Architecture Blog では、プレビュー中の Infoblox Threat Defense のマネージドルールを Route 53 Resolver DNS Firewall のルールグループに追加して DNS の脅威を遮断する方法が紹介されました。Machine Learning Blog では、Amazon Nova 2 Sonic で破産手続きの受付面談を電話で行う音声エージェント Tara を構築した Stretto、TrackIt と組んでシーンや引用可能なセリフを探す QuickSearch を作った Social Department の事例、集中検査を行うハブアンドスポーク型ネットワークで AgentCore Gateway をプライベート API につなぐパターン、AWS Quick User Group DC の初回ミートアップのまとめが公開され、日本語ブログでは Kiro で数百万回の評価を回して得た、動的なベンチマーク・3 層の判定・ライブシグナルによる検証などの教訓が紹介されました。
+  この日は 8 ソースから 44 本で、セキュリティ速報 2 件、Lambda の GPU 対応とカスタマーマネージドランタイム、CloudFront の機能拡張、データベースと AI エージェント基盤の発表が中心でした。セキュリティ速報では、CVE-2026-130638 (11 月 18 日 10:00 PST 公開) が AutoGluon MultiModal 1.6.0 より前の物体検出用データセット準備ツールにおける相対パストラバーサル、CVE-2026-114938 (11 月 18 日 17:00 PST 公開) が AVX-512 VBMI に対応した x86-64 プロセッサ上の OpenJDK 17.0.6 以降の Base64 デコーダーのイントリンシックにおける範囲外書き込みで、2026 年 11 月の OpenJDK 更新で修正され、AWS は影響を受けるサービスへの修正の展開を進めています。AWS Lambda は Lambda Managed Instances 上の Event Functions (旧 Lambda 関数) で EC2 G 系の GPU インスタンスに対応し、AI 推論やメディア処理、レンダリングをサーバーレスで動かせるようになったほか、ランタイムの中身・更新・アクセス・ライフサイクルを利用者が管理し、一度パッケージ化して組織で共有できるカスタマーマネージドランタイムを導入しました。CloudFront は CloudFront Functions が cf.fetch() によるネットワーク呼び出しと cf.beacon() による分析イベントの送信に対応してエッジでの認可やルーティングに外部データを使えるようになり、オリジン相互 TLS で WebSocket と gRPC をサポートし、標準ログで CMCD などリアルタイムログ限定だったフィールドを使えるようになりました。データベースでは、Amazon RDS for MySQL がコミュニティの LTS であるメジャーバージョン 9.7 (9.7.4、Replication Applier Metrics・JSON Duality Views・Hypergraph Optimizer) とマイナーバージョン 8.4.13 に対応し、RDS は PITR・リードレプリカ作成・マルチ AZ 変換時のストレージボリュームを高速に初期化するようになり、Amazon Cognito はユーザープールのポイントインタイムリカバリに対応しました。DynamoDB 互換のオープンソースアダプター ExtendDB 1.0 は PostgreSQL・SQLite・Cassandra・MongoDB の 4 つのバックエンドで DynamoDB のワークロードをオンプレミスやエッジでも動かせるようにし、Aurora DSQL の監査ログの使い方も日本語ブログで解説されています。AI 関連では、AI エージェントに永続メモリを与えるサーバーレスの Amazon OpenSearch Memory の一般提供、容量不足時に別リージョンのエンドポイントへ振り分ける SageMaker AI のクロスリージョン推論ルーティング (Salesforce の事例も公開)、70 以上の基盤モデルを品質・速度・コストで比較する SageMaker JumpStart Model Leaderboard、HyperPod のワークロード復旧とインフラチェックの拡充、SageMaker AI Serverless Model Customization のフルファインチューニング、AgentCore Identity のプライベート CA 対応、AWS Glue ETL の Apache Spark 最適化エージェントが発表されました。そのほか、EKS Hybrid Nodes が大型ノードの課金 vCPU を 1 ノード 32 vCPU で頭打ちにする値下げ、Clean Rooms の PySpark ジョブの中間テーブル、AWS Transform custom の変換定義のアカウント間共有、Route 53 Resolver DNS Firewall の Infoblox ルール (プレビュー)、Security Hub によるクラウドをまたぐラテラルムーブメントの検知、リスクに応じたステップアップ認証が取り上げられました。日本語ブログでは、MFA 付きの AWS ビルダー ID や月額 20 USD から設定できる支出上限などを最初から適用する新しい AWS エクスペリエンスの安全なデフォルト設定、SATv2 によるマルチアカウント環境の LLM ジャッキング対策、Kiro の数百万回の評価から得た教訓、re:Invent 2026 のクラウドレジリエンス関連セッションガイド、AWS Weekly Roundup (Nitro Sandboxes、AWS Emulator など) が公開され、事例として United Airlines の Aurora MySQL から Apache Iceberg への CDC、Aderant の Iceberg と Lambda によるパイプライン刷新、Airbnb のコーディングエージェントのタスク単価による運用、Exa の AWS AI チップでの埋め込みスループット 50% 向上、Stretto の Nova 2 Sonic 音声エージェントなどが紹介されました。
 "topics":
   - "セキュリティ速報: CVE-2026-130638 (AutoGluon MultiModal 1.6.0 未満、物体検出データセット準備ツールの相対パストラバーサル)"
-  - "サーバーレス: Lambda Managed Instances の Event Functions が GPU (G 系) インスタンスに対応、カスタマーマネージドランタイム"
-  - "データベース: RDS のストレージボリューム高速初期化 (PITR・リードレプリカ・マルチ AZ 変換)、RDS for MySQL 8.4.13"
-  - "ID: Amazon Cognito がユーザープールのポイントインタイムリカバリに対応"
-  - "ネットワークセキュリティ: Route 53 Resolver DNS Firewall で Infoblox のマネージドルールを使う方法 (プレビュー)"
-  - "生成 AI・事例: Stretto の Nova 2 Sonic 音声エージェント、Social Department の動画検索、AgentCore Gateway とプライベート API の接続、Kiro の評価運用の教訓"
+  - "セキュリティ速報: CVE-2026-114938 (OpenJDK 17.0.6 以降の Base64 デコーダーのイントリンシックの範囲外書き込み、AVX-512 VBMI 対応 x86-64、11 月の OpenJDK 更新で修正)"
+  - "サーバーレス: Lambda Managed Instances の Event Functions が GPU (G 系) に対応、カスタマーマネージドランタイム、EKS Hybrid Nodes の大型ノード値下げ (32 vCPU で上限)"
+  - "CDN: CloudFront Functions のネットワーク呼び出し (cf.fetch / cf.beacon)、オリジン mTLS での WebSocket・gRPC、標準ログの CMCD 対応"
+  - "データベース: RDS for MySQL 9.7 (LTS) と 8.4.13、RDS のストレージ高速初期化、Cognito の PITR、DynamoDB 互換の ExtendDB 1.0、Aurora DSQL の監査ログ"
+  - "AI・ML: OpenSearch Memory が一般提供、SageMaker AI のクロスリージョン推論ルーティング、JumpStart Model Leaderboard、HyperPod のワークロード復旧、Serverless のフルファインチューニング、AgentCore Identity のプライベート CA"
+  - "データ・その他: Glue ETL の Spark 最適化エージェント、Clean Rooms の PySpark 中間テーブル、AWS Transform custom の変換定義共有、DNS Firewall の Infoblox ルール (プレビュー)"
+  - "日本語ブログ・事例: 新しい AWS エクスペリエンスの安全なデフォルト設定、SATv2 の LLM ジャッキング対策、Kiro の評価の教訓、United Airlines・Aderant・Airbnb・Exa・Stretto の事例"
