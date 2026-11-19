@@ -6,4 +6,11 @@
     "published": "2026-11-19 03:18:11"
     "fetched": "2026-11-19 04:54:40"
     "summary": "<p><b>Bulletin ID:</b> 2026-188-AWS<br /> <b>Publication Date:</b> 11/18/2026 10:00 AM PST</p> \n<p><b>Description:</b></p> \n<p>Relative path traversal in the object detection dataset preparation tool in AutoGluon Multimodal before 1.6.0 might allow adversary-in-the-middle attackers to write arbitrary files with the privileges of the user running the tool via a crafted dataset archive substituted for a dataset downloaded over plaintext HTTP.</p> \n<p><b>Impacted versions:</b> &lt; 1.6.0</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-188-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
-"last_updated": "2026-11-19 04:54:40 JST"
+  "a53eedee46d366995332318323b0844c":
+    "id": "a53eedee46d366995332318323b0844c"
+    "title": "CVE-2026-114938 - OpenJDK Base64 Decoder Intrinsic Out-of-Bounds Write Issue"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-189-aws/"
+    "published": "2026-11-19 12:02:28"
+    "fetched": "2026-11-19 18:48:46"
+    "summary": "<p><b>Bulletin ID:</b> 2026-189-AWS<br /> <b>Publication Date:</b> 11/18/2026 17:00 PM PST</p> \n<p><b>Description:</b></p> \n<p>AWS is aware of CVE-2026-114938, a memory issue in the Base64 decoder intrinsic of OpenJDK 17.0.6 and later on x86-64 processors that support AVX-512 VBMI. A fix is available in the November 2026 OpenJDK updates. AWS is working to deploy the fix to affected AWS services</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-189-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+"last_updated": "2026-11-19 18:48:46 JST"
