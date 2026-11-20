@@ -6,4 +6,11 @@
     "published": "2026-11-20 08:07:30"
     "fetched": "2026-11-20 10:00:07"
     "summary": "Country Road Group replaced Microsoft BizTalk with a pattern-driven, serverless integration platform on AWS. Learn how its Strategic Integration Platform works across four processing lanes, and get the open-source Enterprise Integration Patterns CDK library to apply the same approach to your own middleware."
-"last_updated": "2026-11-20 10:00:07 JST"
+  "ea1c4ea63a592106240c2fa5592e582d":
+    "id": "ea1c4ea63a592106240c2fa5592e582d"
+    "title": "AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS"
+    "link": "https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/"
+    "published": "2026-11-20 10:10:14"
+    "fetched": "2026-11-20 17:20:10"
+    "summary": "Cognition gave its AI software engineer, Devin, a cloud Mac. Each Devin session gets a fresh macOS VM on Amazon EC2 Mac bare metal hosts, so Devin can build, run, and test iOS and macOS apps. Learn how Cognition built it with disk snapshots, a user-space network gateway, prepared guest images, and accessibility-based control."
+"last_updated": "2026-11-20 17:20:10 JST"

@@ -1,0 +1,30 @@
+"entries":
+  "8383728edc5ed3b102fc888b2570ff25":
+    "id": "8383728edc5ed3b102fc888b2570ff25"
+    "title": "株式会社 BTM 様がシステム調査エージェントを Amazon Bedrock AgentCore でリアーキテクチャするまで"
+    "link": "https://aws.amazon.com/jp/blogs/news/genai-case-study-btm2/"
+    "published": "2026-11-20 11:37:40"
+    "fetched": "2026-11-20 17:20:09"
+    "summary": "本ブログは株式会社 BTM 様と Amazon Web Services Japan 合同会社が共同で執筆いた […]"
+  "0479bc9a236cf3ce5491ab94ae056ee2":
+    "id": "0479bc9a236cf3ce5491ab94ae056ee2"
+    "title": "AWS Lambda が Lambda Managed Instances 上のイベント関数向けに GPU インスタンスをサポートするようになりました"
+    "link": "https://aws.amazon.com/jp/blogs/news/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/"
+    "published": "2026-11-20 11:14:59"
+    "fetched": "2026-11-20 17:20:09"
+    "summary": "AWS Lambda Managed Instances (LMI) 上で実行されるイベント関数向けに、EC2 […]"
+  "75330cd1a9895f7314895b3b9902a213":
+    "id": "75330cd1a9895f7314895b3b9902a213"
+    "title": "4 大陸、4 人の新たな AWS ヒーロー: 2026 年を締めくくる"
+    "link": "https://aws.amazon.com/jp/blogs/news/four-continents-four-new-aws-heroes-closing-out-2026/"
+    "published": "2026-11-20 11:01:08"
+    "fetched": "2026-11-20 17:20:09"
+    "summary": "AWS re:Invent が間近に迫る中、新たな AWS ヒーローの皆様をご紹介できることを大変光栄に思いま […]"
+  "e93e413dcd0932d4a5c83d34a8d78a70":
+    "id": "e93e413dcd0932d4a5c83d34a8d78a70"
+    "title": "コーエーテクモゲームス「信長の野望 出陣」が API サーバーを AWS Graviton4 に移行し、大幅なコスト削減と応答性能の向上を実現"
+    "link": "https://aws.amazon.com/jp/blogs/news/koei-tecmo-nobunaga_shutsujin-amazon-ec2-graviton/"
+    "published": "2026-11-20 10:03:54"
+    "fetched": "2026-11-20 17:20:09"
+    "summary": "株式会社コーエーテクモゲームス（以下、コーエーテクモゲームス）は、数多くの人気タイトルを世に送り出してきたゲー […]"
+"last_updated": "2026-11-20 17:20:09 JST"
