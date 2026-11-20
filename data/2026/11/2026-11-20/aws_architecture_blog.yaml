@@ -1,0 +1,9 @@
+"entries":
+  "5feb81fedcd931703489092b847548c5":
+    "id": "5feb81fedcd931703489092b847548c5"
+    "title": "How Country Road Group built a pattern-driven integration solution on AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws/"
+    "published": "2026-11-20 08:07:30"
+    "fetched": "2026-11-20 10:00:07"
+    "summary": "Country Road Group replaced Microsoft BizTalk with a pattern-driven, serverless integration platform on AWS. Learn how its Strategic Integration Platform works across four processing lanes, and get the open-source Enterprise Integration Patterns CDK library to apply the same approach to your own middleware."
+"last_updated": "2026-11-20 10:00:07 JST"

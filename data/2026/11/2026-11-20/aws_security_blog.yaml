@@ -1,0 +1,23 @@
+"entries":
+  "30b394b3a55772ca728110f7912deae9":
+    "id": "30b394b3a55772ca728110f7912deae9"
+    "title": "Your AWS Security, Identity, and Governance guide to re:Invent 2026"
+    "link": "https://aws.amazon.com/blogs/security/your-aws-security-identity-and-governance-guide-to-reinvent-2026/"
+    "published": "2026-11-20 07:31:34"
+    "fetched": "2026-11-20 10:00:07"
+    "summary": "The AWS Security, Identity, and Governance team invites you to join us at re:Invent in Las Vegas from November 30 to December 4, 2026. You know all too well that AI agents now act on their own across the systems you run, and that changes what identity, detection, network protection, and governance have to cover. […]"
+  "f85e9a68fffd3f8d486a8849aa3434e4":
+    "id": "f85e9a68fffd3f8d486a8849aa3434e4"
+    "title": "Introducing the new AWS WAF security analytics dashboard"
+    "link": "https://aws.amazon.com/blogs/security/introducing-the-new-aws-waf-security-analytics-dashboard/"
+    "published": "2026-11-20 06:10:43"
+    "fetched": "2026-11-20 10:00:07"
+    "summary": "When blocked requests spike or a customer reports being locked out, a security team has to work out what is happening, where it is happening, and if AWS WAF is making the right call. Currently, that usually means opening each protection pack (web ACL) in turn, across domains, AWS Regions, and Amazon CloudFront distributions, or […]"
+  "510f3d18e0c1f2b23ff13ded745bcdec":
+    "id": "510f3d18e0c1f2b23ff13ded745bcdec"
+    "title": "How AWS Security Incident Response triages your security findings"
+    "link": "https://aws.amazon.com/blogs/security/how-aws-security-incident-response-triages-your-security-findings/"
+    "published": "2026-11-20 04:20:58"
+    "fetched": "2026-11-20 10:00:07"
+    "summary": "AWS Security Incident Response continuously triages the threat findings from Amazon GuardDuty and AWS Security Hub CSPM, but most of that work never shows up as a case. If cases are all you look at, it’s hard to tell whether the service is working at all, and that’s the question I hear most often when […]"
+"last_updated": "2026-11-20 10:00:07 JST"
