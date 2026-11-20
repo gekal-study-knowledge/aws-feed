@@ -1,19 +1,25 @@
 "date": "2026-11-20"
-"generated_at": "2026-11-20 06:02:25 JST"
+"generated_at": "2026-11-20 22:02:46 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 9
+"article_count": 57
 "sources":
+  - "aws_architecture_blog"
   - "aws_compute_blog"
+  - "aws_japan_blog"
   - "aws_machine_learning_blog"
+  - "aws_security_blog"
   - "aws_security_bulletins"
   - "aws_whats_new"
 "overview": |
-  この日は 4 ソースから 9 本で、GPU を中心とした高速コンピューティングの可観測性と SageMaker AI の推論・学習基盤、PHP のセキュリティリリース、Aurora DSQL の大陸間マルチリージョン対応が中心でした。セキュリティ速報 (Bulletin ID 2026-190-AWS、11 月 19 日 10:00 PST 公開) では、PHP Foundation が 2026 年 11 月 19 日に公開したセキュリティリリース (PHP 8.2.36、8.3.37 など) を AWS が把握していることが告知されました。Amazon EC2 は Detailed Monitoring で GPU ごとの 1 分間隔のメトリクスを報告し、回復可能なハードウェアの状態を新しいパフォーマンスステータスチェックで示すようになり、エージェントなしで高速コンピューティングインスタンスの効率と可用性を監視できることが Compute Blog で解説されました。Amazon SageMaker HyperPod は GPU 学習の問題を早く診断できるよう診断・プロファイリング機能をまとめた強化されたインフラ可観測性を提供し、SageMaker AI のクロスリージョン推論ルーティングについては、1 つ以上のリージョンとアカウントで稼働する既存のエンドポイントと推論コンポーネントへの呼び出し経路を 1 本にまとめ、リージョンの容量不足時にも推論を続ける使い方が紹介されました。リアルタイムの複雑な対話向けの推論モデル PolyAI Dialog-RSN-1 が AWS Marketplace と SageMaker JumpStart で提供開始となり、Skyflow を Amazon Bedrock AgentCore Gateway のインターセプターとして追加し、ツールやモデルに渡る前に機密データを非識別化する構成も紹介されました。そのほか、オープンソースの NVIDIA Run:ai GPU Fractioning で Amazon EKS 上の NVIDIA A10G GPU 1 枚にメモリ制限付きの Pod を 2 つ載せる手順と、Cisco が AWS AI League を通じて 1,200 人のエンジニアにエージェント型 AI を学ばせ、Cisco のエンジニアが 2025 年の AWS AI League 世界大会で優勝した事例が公開されました。Amazon Aurora DSQL は、米国東部 (バージニア北部) と欧州 (アイルランド) のように異なる大陸のリージョンでマルチリージョンクラスターを作成できるようになりました。
+  この日は 7 ソースから 57 本で、セキュリティ速報 4 件、Lambda の 30 分タイムアウトと Durable Functions の OpenTelemetry 対応、AI エージェントによる決済と購買、Aurora・Cognito・CloudFront の機能拡張が中心でした。セキュリティ速報では、PHP Foundation が 11 月 19 日に公開したセキュリティリリース (PHP 8.2.36、8.3.37 など、Bulletin 2026-190-AWS) の告知に続き、CVE-2026-132607 (2026-191-AWS) として AWS SDK for PHP の Amazon S3 Encryption Client for PHP の復号処理がオブジェクトのメタデータに記録された AES-GCM 認証タグの長さを検証しておらず、暗号化オブジェクトへの読み書き権限を持ち平文を知る・推測できるユーザーが、繰り返し書き込むことで同じ長さの任意の平文に復号される暗号文を作れるおそれがあること (平文や鍵は漏れない)、2026-192-AWS として 11 月 18 日に公開された nginx の HTTP/2 実装の問題 (CVE-2026-123007、CVE-2026-123633、CVE-2026-123634、CVE-2026-113425、CVE-2026-121810、CVE-2026-118899) が nginx 1.30.7 (stable) と 1.31.9 (mainline) で修正済みで、AWS は世界中で緩和策を展開中であり、完全な HTTP リクエストが形成される前の HTTP/2 プロトコル層で悪用され得るため AWS WAF のマネージドルールやカスタムルールでは検知・ブロックできないこと、2026-193-AWS として CRuby の正規表現エンジンと一部の非 UTF-8 エンコーディングでの文字列の大文字小文字変換にある 7 件のメモリ安全性の問題 (CVE-2026-132825 など、Ruby 4.0.10、3.4.13、3.3.14 より前が影響) で、第三者が制御する入力を処理するとリモートの未認証攻撃者がプロセスのクラッシュ・メモリの読み取り・任意コード実行を行えるおそれがあり、Rails や Sinatra など Rack ベースのアプリは既定のリクエスト処理で到達し得ることが公開されました。AWS Lambda はオンデマンドの Event Functions と Lambda Managed Instances での同期呼び出しのタイムアウトを従来の 15 分から 30 分に倍増し、Lambda durable functions は OpenTelemetry によるトレースに対応して多数の呼び出しにまたがるワークフローのトレースを 1 本にまとめられるようになり、Lambda Managed Instances で予測できるトラフィックの急増 (コンサートのチケット販売) の前に容量を温めておく参照実装も紹介されました。日本語ブログでも Lambda Managed Instances のイベント関数の GPU 対応が取り上げられています。エージェントと購買では、AWS Marketplace が x402 プロトコルによるエージェント決済に対応し、AI エージェントが AgentCore payments を通じて対象製品をリクエスト単位で米ドル建てで購入して AWS の請求にまとめられるようになり、Marketplace の agent mode は販売者のセキュリティ評価から購入・デプロイまでを 1 回の会話で行えるようになりました。AgentCore harness はオープンソースの Strands harness 上で動くようになり、推奨モデル、自動プロンプトキャッシュ、コンテキスト管理、組み込みツール、ライフサイクルフックが加わりました。データベースでは、Aurora DSQL がストレージ層の改良で書き込みスループットを最大 50% 高め、異なる大陸のリージョン (例: 米国東部 (バージニア北部) と欧州 (アイルランド)) でマルチリージョンクラスターを作れるようになり、Aurora PostgreSQL と Aurora MySQL のクラスターはデータ移行なしで別の VPC へ移動でき、express configuration で作った Aurora PostgreSQL も VPC へ移せるようになりました。ID・ネットワークでは、Amazon Cognito が OAuth のクライアント ID メタデータドキュメント (CIMD) とアプリクライアントシークレットの Secrets Manager 保管に対応し、Route 53 がインターネットに出ないプライベートエンドポイントのヘルスチェックを提供し、CloudFront の SaaS Manager はダウンタイムなしのドメイン移行、IP アドレスによるルーティング、接続ログに対応しました。AWS WAF はアカウント内のすべての保護対象アプリのトラフィックをまとめて調査できる新しいセキュリティ分析ダッシュボードを公開しています。そのほか、Amazon Connect Customer の返金や取引の異議申し立てなど大量の業務をエンドツーエンドで処理するエージェント型ソリューション Resolutions の一般提供、AWS Transform の移行評価と移行計画の統合およびアプリケーション中心の移行の全工程への拡大、MSK Connect のコネクタ再起動、Amazon IVS Real-Time Streaming の Linux ブロードキャスト SDK、MediaTailor のライブ HLS 向け Dynamic Avail Sizing、WorkSpaces Applications の WebAuthn リダイレクト、Partner Central の AI 支援によるリスティング作成、Revenue Measurement の案件単位の収益帰属、コロンビアのボゴタの新しい Local Zone の一般提供が発表されました。Amazon EC2 の Detailed Monitoring による GPU ごとの 1 分間隔メトリクスとパフォーマンスステータスチェック、SageMaker HyperPod の強化されたインフラ可観測性、SageMaker AI のクロスリージョン推論ルーティングと推論エンドポイントのレイテンシ変化・アイドル GPU の既定監視、2026 年の SageMaker 推論の新機能 13 件の振り返り、PolyAI Dialog-RSN-1 の SageMaker JumpStart と Marketplace での提供、Polly のボイスクローニング、Kimi Code CLI v2.7.0 の Bedrock ネイティブ対応 (Kimi K3.1 Pro など)、Skyflow と AgentCore Gateway による機密データの非識別化、NVIDIA Run:ai GPU Fractioning で EKS 上の A10G GPU 1 枚に 2 つの Pod を載せる手順も紹介されました。事例では、Cognition が EC2 Mac で Devin に毎セッション新しい macOS VM を割り当てる仕組み、Country Road Group の BizTalk からサーバーレス統合基盤への移行、BMW Group の数百のエージェントのガバナンス、Accenture の Bedrock のトークンコスト最適化、Cisco が AWS AI League で 1,200 人のエンジニアを育成した事例 (2025 年の世界大会で Cisco のエンジニアが優勝)、コーエーテクモゲームス「信長の野望 出陣」の API サーバーの Graviton4 移行、BTM のシステム調査エージェントの AgentCore での再構築が公開され、AWS Security Incident Response による検出結果のトリアージの解説、re:Invent 2026 (11 月 30 日〜12 月 4 日、ラスベガス) のセキュリティ・アイデンティティ・ガバナンスのガイド、4 人の新しい AWS ヒーローの紹介もありました。
 "topics":
-  - "セキュリティ速報: PHP Foundation の 2026-11-19 セキュリティリリース (PHP 8.2.36・8.3.37 など、Bulletin 2026-190-AWS)"
-  - "データベース: Aurora DSQL が大陸をまたぐマルチリージョンクラスターに対応 (例: バージニア北部と欧州 (アイルランド))"
-  - "コンピューティング: EC2 Detailed Monitoring の GPU 単位 1 分メトリクスと新しいパフォーマンスステータスチェック"
-  - "機械学習基盤: SageMaker HyperPod の強化されたインフラ可観測性、SageMaker AI のクロスリージョン推論ルーティング"
-  - "生成 AI: PolyAI Dialog-RSN-1 が SageMaker JumpStart と Marketplace で提供、Skyflow と AgentCore Gateway によるツール呼び出しの機密データ保護"
-  - "コンテナ: NVIDIA Run:ai GPU Fractioning で EKS 上の A10G GPU 1 枚を 2 Pod で共有"
-  - "事例: Cisco が AWS AI League で 1,200 人のエンジニアをエージェント型 AI で育成"
+  - "セキュリティ速報: CVE-2026-132607 (S3 Encryption Client for PHP の AES-GCM 認証タグ長の未検証)、PHP 8.2.36・8.3.37 などのセキュリティリリース (2026-190-AWS)"
+  - "セキュリティ速報: nginx HTTP/2 の CVE-2026-123007 / 123633 / 123634 / 113425 / 121810 / 118899 (1.30.7・1.31.9 で修正、AWS WAF では検知不可)"
+  - "セキュリティ速報: CVE-2026-132825 など CRuby の 7 件 (Ruby 4.0.10・3.4.13・3.3.14 未満、RCE の可能性、Rack 系アプリが到達し得る)"
+  - "サーバーレス: Lambda のオンデマンド Event Functions のタイムアウトが 30 分に、Durable Functions の OpenTelemetry トレース、Lambda Managed Instances の事前ウォームアップ"
+  - "エージェント・購買: Marketplace の x402 エージェント決済 (AgentCore payments)、agent mode での評価・購入・デプロイ、AgentCore harness の Strands 対応"
+  - "データベース: Aurora DSQL の書き込み最大 50% 向上と大陸間マルチリージョン、Aurora クラスターの VPC 移動、express configuration の VPC 対応"
+  - "ID・ネットワーク: Cognito の CIMD と Secrets Manager 連携、Route 53 のプライベートエンドポイントのヘルスチェック、CloudFront SaaS Manager の拡張、WAF のセキュリティ分析ダッシュボード"
+  - "その他: Connect の Resolutions (GA)、AWS Transform の移行評価・計画の統合、ボゴタの Local Zone (GA)、MSK Connect のコネクタ再起動、IVS の Linux SDK"
+  - "AI・ML: EC2 の GPU メトリクス、HyperPod の可観測性、SageMaker のクロスリージョン推論と異常検知、PolyAI Dialog-RSN-1、Kimi Code CLI の Bedrock 対応"
+  - "事例: Cognition (EC2 Mac 上の Devin)、Country Road Group、BMW Group、Cisco の AWS AI League、コーエーテクモゲームスの Graviton4 移行、BTM の AgentCore 活用"
