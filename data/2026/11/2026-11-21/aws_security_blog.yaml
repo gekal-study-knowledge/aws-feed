@@ -1,0 +1,16 @@
+"entries":
+  "6b0873e933cec6f90d19e226d34b52fb":
+    "id": "6b0873e933cec6f90d19e226d34b52fb"
+    "title": "Scope down permissions of existing sessions using AWS STS GetScopedCredentials"
+    "link": "https://aws.amazon.com/blogs/security/scope-down-permissions-of-existing-sessions-using-aws-sts-getscopedcredentials/"
+    "published": "2026-11-21 07:57:22"
+    "fetched": "2026-11-21 08:38:19"
+    "summary": "When you build AI agents, you often want each agent or sub-agent to have only the permissions its tasks require, rather than the full permissions of the session that started it. GetScopedCredentials is a new AWS Security Token Service (AWS STS) API that you can use to scope down the permissions of existing temporary security […]"
+  "b5b3edd84f9c1c8cdc0b1193735c7c1d":
+    "id": "b5b3edd84f9c1c8cdc0b1193735c7c1d"
+    "title": "Chinese-nexus actor’s Cairn AI agents found a zero-day on their own"
+    "link": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/"
+    "published": "2026-11-21 02:30:13"
+    "fetched": "2026-11-21 08:38:19"
+    "summary": "Amazon Threat Intelligence is sharing findings from an investigation into a Chinese-nexus threat actor using autonomous AI agents to conduct hacking operations with minimal human involvement. The actor gave the agents a simple goal: “obtain shell access.” During the campaign, the agents found a zero-day in an open-source application and used it to gain full […]"
+"last_updated": "2026-11-21 08:38:19 JST"

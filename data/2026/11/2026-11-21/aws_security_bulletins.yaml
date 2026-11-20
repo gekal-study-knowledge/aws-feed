@@ -6,4 +6,11 @@
     "published": "2026-11-21 01:41:29"
     "fetched": "2026-11-21 02:29:54"
     "summary": "<p><b>Bulletin ID:</b> 2026-194-AWS<br /> <b>Publication Date:</b> 11/20/2026 08:30 AM PST</p> \n<p><b>Description:</b></p> \n<p>Incorrect privilege assignment in the user and group reconciliation logic in AWS ssosync before 2.9.5 might allow an authenticated remote user who is assigned a reused Google Workspace e-mail address or group name to inherit the IAM Identity Center group memberships and permission set assignments of a previously synchronized, unrelated identity, via automatic synchronization of that Google Workspace account or group.</p> \n<p><b>Impacted versions:</b> &lt; 2.9.5</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-194-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
-"last_updated": "2026-11-21 02:29:54 JST"
+  "cd3296243e74691ed3bd40ba896b99d4":
+    "id": "cd3296243e74691ed3bd40ba896b99d4"
+    "title": "CVE-2026-130901 - Improper limitation of a pathname to a restricted directory in Amazon awslabs.document-loader-mcp-server"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-195-aws/"
+    "published": "2026-11-21 03:45:40"
+    "fetched": "2026-11-21 08:38:19"
+    "summary": "<p><b>Bulletin ID:</b> 2026-195-AWS<br /> <b>Publication Date:</b> 11/20/2026 10:30 AM PST</p> \n<p><b>Description:</b></p> \n<p>Improper limitation of a pathname to a restricted directory in the file access checks in Amazon awslabs.document-loader-mcp-server 1.0.10 through 1.0.20 might allow a context-dependent actor, via crafted document content processed by an MCP client, to read files outside the intended base directory and, in 1.0.12 through 1.0.20, to write PNG slide images outside it. This occurs when DOCUMENT_BASE_DIR is not set or is empty and the CI, GITHUB_ACTIONS or PYTEST_CURRENT_TEST environment variable is present. Versions before 1.0.10 do not restrict file access to a base directory.</p> \n<p><b>Impacted versions:</b> &gt;= 1.0.10 AND &lt; 1.0.21</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-195-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+"last_updated": "2026-11-21 08:38:19 JST"

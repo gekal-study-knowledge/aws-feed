@@ -1,0 +1,9 @@
+"entries":
+  "52919fd4d4663c4c66500c0f9ad620e5":
+    "id": "52919fd4d4663c4c66500c0f9ad620e5"
+    "title": "How Bee implemented Zero Operator Access for personal AI on AWS"
+    "link": "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/"
+    "published": "2026-11-21 03:49:05"
+    "fetched": "2026-11-21 08:38:19"
+    "summary": "Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data. Learn how Bee uses Amazon EC2 instance attestation and the AWS Nitro System to achieve Zero Operator Access (ZOA)."
+"last_updated": "2026-11-21 08:38:19 JST"
