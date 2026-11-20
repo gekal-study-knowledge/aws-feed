@@ -1,0 +1,10 @@
+"date": "2026-11-21"
+"generated_at": "2026-11-21 06:01:34 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "aws_security_bulletins"
+"overview": |
+  この日はセキュリティ速報 1 件のみでした。Bulletin 2026-194-AWS として CVE-2026-133199 が公開され、AWS ssosync の 2.9.5 より前のバージョンで、ユーザーとグループの照合ロジックに不適切な権限割り当ての問題があることが告知されました。Google Workspace で再利用されたメールアドレスやグループ名を割り当てられた認証済みのリモートユーザーが、そのアカウントやグループの自動同期を通じて、以前に同期された無関係な ID の IAM Identity Center のグループメンバーシップと権限セットの割り当てを引き継いでしまうおそれがあります。影響を受けるのは 2.9.5 未満で、最新の情報は記事を参照するよう案内されています。
+"topics":
+  - "セキュリティ速報: CVE-2026-133199 (AWS ssosync 2.9.5 未満、再利用された Google Workspace のメールアドレス・グループ名で IAM Identity Center の権限を引き継ぐおそれ、2026-194-AWS)"
