@@ -1,0 +1,10 @@
+"date": "2026-11-22"
+"generated_at": "2026-11-22 22:01:07 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "aws_machine_learning_blog"
+"overview": |
+  この日は AWS Machine Learning Blog の 1 本のみで、AWS Quick に Meta 広告向けの AI コネクターが追加されたことが紹介されました。Meta の広告主は Quick 上で自然言語を使い、Meta の広告管理ネットワークに接続したままキャンペーンの作成・管理・分析を行えます。
+"topics":
+  - "AI・分析: AWS Quick に Meta 広告の AI コネクターが追加、自然言語でキャンペーンを作成・管理・分析"
