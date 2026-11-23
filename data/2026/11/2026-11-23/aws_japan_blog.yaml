@@ -1,0 +1,9 @@
+"entries":
+  "9800c4070653d859e9e170a034ff9914":
+    "id": "9800c4070653d859e9e170a034ff9914"
+    "title": "1 つのスタックで VCF 全体を: EVS Deployment Orchestrator を使用して Amazon EVS へ VMware Cloud Foundation 9 をデプロイ"
+    "link": "https://aws.amazon.com/jp/blogs/news/one-stack-full-vcf-deploying-vmware-cloud-foundation-9-on-amazon-evs-with-the-evs-deployment-orchestrator/"
+    "published": "2026-11-23 18:33:31"
+    "fetched": "2026-11-23 20:43:45"
+    "summary": "以前の段階的な自動化ワークフローを改善し、EVS Deployment Orchestrator (EDO) としてまとめ直しました。EDO はオープンソースのツールで、solutions-for-amazon-evs リポジトリで公開されています。AWS CloudFormation スタックを 1 つ起動すると、Amazon Elastic VMware Service (Amazon EVS) 上に VMware Cloud Foundation (VCF) 9.x 環境を最後まで自動で構築します。所要時間は約 4〜7 時間で、途中の手動作業はありません。"
+"last_updated": "2026-11-23 20:43:45 JST"
