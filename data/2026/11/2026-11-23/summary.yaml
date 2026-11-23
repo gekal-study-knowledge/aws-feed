@@ -1,0 +1,10 @@
+"date": "2026-11-23"
+"generated_at": "2026-11-23 22:00:42 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 1
+"sources":
+  - "aws_japan_blog"
+"overview": |
+  この日は 1 ソースから 1 本で、AWS 日本語ブログが Amazon Elastic VMware Service (Amazon EVS) に VMware Cloud Foundation 9 をデプロイするオープンソースツール EVS Deployment Orchestrator (EDO) を紹介しました。以前の段階的な自動化ワークフローを改善してまとめ直したもので、solutions-for-amazon-evs リポジトリで公開されており、AWS CloudFormation のスタックを 1 つ起動するだけで VCF 全体をデプロイできます。
+"topics":
+  - "VMware 移行: EVS Deployment Orchestrator (EDO) で CloudFormation スタック 1 つから Amazon EVS へ VMware Cloud Foundation 9 をデプロイ (solutions-for-amazon-evs で公開)"
