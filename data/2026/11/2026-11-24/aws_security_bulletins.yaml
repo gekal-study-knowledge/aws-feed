@@ -1,0 +1,16 @@
+"entries":
+  "d6acf5142c1aa802ee39f86f79dc1e2e":
+    "id": "d6acf5142c1aa802ee39f86f79dc1e2e"
+    "title": "CVE-2026-134056 - Out-of-bounds write in padded block cipher decryption in AWS-LC"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-196-aws/"
+    "published": "2026-11-24 05:29:41"
+    "fetched": "2026-11-24 08:19:10"
+    "summary": "<p><b>Bulletin ID:</b> 2026-196-AWS<br /> <b>Publication Date:</b> 11/23/2026 12:00 PM PST</p> \n<p><b>Description:</b></p> \n<p> We identified CVE-2026-134056, an out-of-bounds write issue in AWS-LC's padded block cipher decryption. It affects applications that decrypt CBC or ECB ciphertext with PKCS7 padding over multiple update calls. If the output buffer is the minimum documented size, AWS-LC can write one byte past its end. This might crash the application or corrupt adjacent memory. This issue does not disclose data. The aws-lc-rs StreamingDecryptingKey API has a similar issue with cbc_pkcs7 and ecb_pkcs7. Its less_safe_update function can write up to one block (16 bytes for AES) past the buffer. Single-call decryption is not affected. Neither is decryption without padding, nor modes such as CTR, CFB, and GCM.</p> \n<p>Customers of AWS services do not need to take action.</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-196-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+  "20887336cc05095e899c0feaa9e58801":
+    "id": "20887336cc05095e899c0feaa9e58801"
+    "title": "CVE-2026-134069 - Use of a default cryptographic key in the instance registration of Amazon SSM Agent on AWS Windows Server AMIs"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-197-aws/"
+    "published": "2026-11-24 06:54:18"
+    "fetched": "2026-11-24 08:19:10"
+    "summary": "<p><b>Bulletin ID:</b> 2026-197-AWS<br /> <b>Publication Date:</b> 11/23/2026 13:30 PM PST</p> \n<p><b>Description:</b></p> \n<p>Amazon SSM Agent is the AWS Systems Manager agent that runs on EC2 instances so they can be managed through Systems Manager.</p> \n<p>We identified CVE-2026-134069, an issue in Amazon SSM Agent on AWS-provided Windows Server AMIs released before 2026-09-09, where instances launched from the same AMI shared one instance registration key. On instances managed through Default Host Management Configuration, a local user without administrative privileges might be able to obtain the instance's Default Host Management Configuration role credentials.</p> \n<p><b>Impacted versions:</b></p> \n<p>Amazon SSM Agent &lt; 3.3.5226.0 on AWS Windows Server AMIs released before 2026-09-09. Instances launched from these AMIs remain affected after an in-place agent upgrade.</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-197-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+"last_updated": "2026-11-24 08:19:10 JST"

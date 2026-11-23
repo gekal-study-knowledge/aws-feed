@@ -1,0 +1,23 @@
+"entries":
+  "e405e52075f49c342b7c204a12050175":
+    "id": "e405e52075f49c342b7c204a12050175"
+    "title": "Introducing AWS WAF simplified pricing"
+    "link": "https://aws.amazon.com/blogs/security/introducing-aws-waf-simplified-pricing/"
+    "published": "2026-11-24 05:35:03"
+    "fetched": "2026-11-24 08:19:10"
+    "summary": "Starting today, AWS WAF pricing is easier to predict. Your bill is now based on three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply to that traffic. Existing AWS WAF customers move to the new pricing on February 1, 2027. Until then, you keep your current […]"
+  "962fb04741c53b78d6c0e93572683b8c":
+    "id": "962fb04741c53b78d6c0e93572683b8c"
+    "title": "Introducing API and AI security on AWS, from discovery to protection"
+    "link": "https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/"
+    "published": "2026-11-24 05:25:17"
+    "fetched": "2026-11-24 08:19:10"
+    "summary": "APIs have run digital businesses for more than a decade. For a while, there seemed to be nothing new left to say about them. That changed in 2026, when AI endpoints joined them. Teams now run large language model (LLM) inference endpoints, Model Context Protocol (MCP) servers, and Agent2Agent (A2A) servers beside their REST APIs, […]"
+  "da6b76346c7385a75e9de87d888df0db":
+    "id": "da6b76346c7385a75e9de87d888df0db"
+    "title": "Protect identity data with point-in-time recovery in Amazon Cognito"
+    "link": "https://aws.amazon.com/blogs/security/protect-identity-data-with-point-in-time-recovery-in-amazon-cognito/"
+    "published": "2026-11-24 01:43:50"
+    "fetched": "2026-11-24 08:19:10"
+    "summary": "Amazon Cognito helps you implement secure sign-in and access control for users, microservices, and AI agents in minutes. Many of you rely on it for some of the most critical data you operate: the identities and attributes your applications use to authenticate and authorize every request. Recently, we launched point-in-time recovery (PITR) for Amazon Cognito […]"
+"last_updated": "2026-11-24 08:19:10 JST"
