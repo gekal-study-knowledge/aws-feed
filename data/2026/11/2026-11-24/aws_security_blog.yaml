@@ -20,4 +20,11 @@
     "published": "2026-11-24 01:43:50"
     "fetched": "2026-11-24 08:19:10"
     "summary": "Amazon Cognito helps you implement secure sign-in and access control for users, microservices, and AI agents in minutes. Many of you rely on it for some of the most critical data you operate: the identities and attributes your applications use to authenticate and authorize every request. Recently, we launched point-in-time recovery (PITR) for Amazon Cognito […]"
-"last_updated": "2026-11-24 08:19:10 JST"
+  "e23c244b30a6d689a1c7748a46c3b29d":
+    "id": "e23c244b30a6d689a1c7748a46c3b29d"
+    "title": "Know the identity behind the role: Authorize and audit with trusted identity propagation"
+    "link": "https://aws.amazon.com/blogs/security/know-the-identity-behind-the-role-authorize-and-audit-with-trusted-identity-propagation/"
+    "published": "2026-11-24 11:52:38"
+    "fetched": "2026-11-24 17:10:40"
+    "summary": "Today, AWS is making it easier to grant access and audit activity based on the user or workload (a non-human caller, such as an application, service, or an automated workflow) behind an AWS Identity and Access Management (IAM) role. Trusted identity propagation (TIP) carries the identity of the user or workload with each AWS request, […]"
+"last_updated": "2026-11-24 17:10:40 JST"

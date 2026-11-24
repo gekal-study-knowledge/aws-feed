@@ -1,0 +1,30 @@
+"entries":
+  "9791f926a8c0fda6626659b74b598621":
+    "id": "9791f926a8c0fda6626659b74b598621"
+    "title": "AWS と SAP のエージェント間（Agent-to-Agent）相互運用性"
+    "link": "https://aws.amazon.com/jp/blogs/news/a2a-interoperability-between-aws-and-sap/"
+    "published": "2026-11-24 15:51:26"
+    "fetched": "2026-11-24 17:10:40"
+    "summary": "AWS と SAP は、オープンプロトコル A2A によるエージェント連携をサポートしました。Amazon Bedrock AgentCore 上のエージェントが SAP の agent gateway を介して Joule エージェントを検出・呼び出し、SAP Cloud Identity Services によりユーザーの ID と既存の SAP 権限のもとで安全に実行されます。さらに AWS Quick から MCP コネクタ経由で Joule エージェントを利用でき、ビジネスユーザーは1つの会話で SAP と SAP 以外のシステムを横断して作業できます。"
+  "7f765bcafee609b0f8653d84ce615341":
+    "id": "7f765bcafee609b0f8653d84ce615341"
+    "title": "チャネルコーポレーションのアーキテクチャモダナイゼーション：Amazon DynamoDB 活用事例 パート 3 ユーザーとバッジ"
+    "link": "https://aws.amazon.com/jp/blogs/news/how-channel-corporation-modernized-their-architecture-with-amazon-dynamodb-part-3-user-and-badge/"
+    "published": "2026-11-24 14:47:06"
+    "fetched": "2026-11-24 17:10:40"
+    "summary": "チャネルコーポレーションが Amazon DynamoDB でアーキテクチャをモダナイズした事例の第 3 弾です。約 16.8 億件・1.8 TB の User テーブルからバッジの機能を UserBadge テーブルに分離し、バッジの更新によるスロットリングと GSI のバックプレッシャーを解消した経緯を紹介します。DynamoDB の Export to S3 と Import from S3、AWS Glue を使ったオンライン移行で、移行時間を 128 時間から 5.5〜6 時間に短縮し、コストを 36% 削減しました。"
+  "b1bd2ca6a25a6966a7fa730e7d075a2e":
+    "id": "b1bd2ca6a25a6966a7fa730e7d075a2e"
+    "title": "半導体設計者向けリファレンスアーキテクチャ日本版を公開 – 解釈・実行・基盤の 3 つの構成を解説"
+    "link": "https://aws.amazon.com/jp/blogs/news/semicon-refe-arch-jp-2026/"
+    "published": "2026-11-24 13:22:05"
+    "fetched": "2026-11-24 17:10:40"
+    "summary": "半導体設計者向けリファレンスアーキテクチャの日本版を、日本のお客様の要件に合わせて更新しました。検証ログを AI が読み解く「解釈」、キュー待ちの計算だけをクラウドで処理する「実行」、設計データをお客様の管理下に置く「基盤」の 3 つの構成を、全体図とともに解説します。"
+  "c1394f0feaf1830ab260836e18046116":
+    "id": "c1394f0feaf1830ab260836e18046116"
+    "title": "開発の市民化：Kiro で全社利用のシステム開発に挑む"
+    "link": "https://aws.amazon.com/jp/blogs/news/nec-kiro-spec-driven-development/"
+    "published": "2026-11-24 10:34:20"
+    "fetched": "2026-11-24 17:10:40"
+    "summary": "AI コーディングエージェントの登場で、コーディングの経験が少ない人でも、システムを開発できるようになってきました。一方で、人と AI の関わり方や構築されたシステムの信頼性を高める方法など、新たな課題に直面している開発者の方々も多いと感じます。本記事では、NEC の開発チームが、AWS が提供する AI エージェント搭載の開発環境「Kiro」を使い、人と AI が協調する方法を模索しながら、着手から 5 週間で本番環境へのデプロイまで進めた取り組みを紹介します。"
+"last_updated": "2026-11-24 17:10:40 JST"
