@@ -1,10 +1,12 @@
 "date": "2026-11-22"
-"generated_at": "2026-11-22 22:01:07 JST"
+"generated_at": "2026-11-24 22:02:29 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 1
+"article_count": 2
 "sources":
   - "aws_machine_learning_blog"
+  - "aws_whats_new"
 "overview": |
-  この日は AWS Machine Learning Blog の 1 本のみで、AWS Quick に Meta 広告向けの AI コネクターが追加されたことが紹介されました。Meta の広告主は Quick 上で自然言語を使い、Meta の広告管理ネットワークに接続したままキャンペーンの作成・管理・分析を行えます。
+  この日は 2 ソースから 2 本で、AWS Quick に Meta 広告向けの AI コネクターが追加されたことが紹介されました。Meta の広告主は Quick 上で自然言語を使い、Meta の広告管理ネットワークに接続したままキャンペーンの作成・管理・分析を行えます。また、S3 Access Points を使って、同じリージョン内の S3 汎用バケットと Amazon FSx (FSx for NetApp ONTAP と FSx for OpenZFS) のファイルシステムの間、あるいは FSx のファイルシステム同士で、データをサーバー側でコピー・移動できるようになり、S3 と FSx 間のデータ移動がより速く安く簡単になりました。
 "topics":
   - "AI・分析: AWS Quick に Meta 広告の AI コネクターが追加、自然言語でキャンペーンを作成・管理・分析"
+  - "ストレージ: S3 Access Points で S3 汎用バケットと FSx (ONTAP・OpenZFS) 間のサーバー側コピー・移動が可能に"

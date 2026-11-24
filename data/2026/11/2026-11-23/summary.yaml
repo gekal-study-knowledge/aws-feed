@@ -1,10 +1,16 @@
 "date": "2026-11-23"
-"generated_at": "2026-11-23 22:00:42 JST"
+"generated_at": "2026-11-24 22:02:29 JST"
 "generated_by": "AI (Claude Opus 5)"
-"article_count": 1
+"article_count": 11
 "sources":
   - "aws_japan_blog"
+  - "aws_whats_new"
 "overview": |
-  この日は 1 ソースから 1 本で、AWS 日本語ブログが Amazon Elastic VMware Service (Amazon EVS) に VMware Cloud Foundation 9 をデプロイするオープンソースツール EVS Deployment Orchestrator (EDO) を紹介しました。以前の段階的な自動化ワークフローを改善してまとめ直したもので、solutions-for-amazon-evs リポジトリで公開されており、AWS CloudFormation のスタックを 1 つ起動するだけで VCF 全体をデプロイできます。
+  この日は 2 ソースから 11 本で、マルチクラウド運用、セキュリティ、ML インフラの使い勝手の改善が中心でした。AWS Systems Manager Automation は、Microsoft Azure・Google Cloud・AWS のリソースにまたがる運用タスクを自動化するカスタムのランブックを作れるようになり、段階的なロールアウト、承認待ち、エラーがしきい値を超えたときの停止も使えます。セキュリティでは、API Gateway・ALB・CloudFront の背後にある API を AWS Organization 全体で自動検出して AWS WAF で保護する機能が一般提供となり、新しい API Gateway API Portal がトラフィックログとサービスの設定記録から API を見つけます (エージェントの導入やログ転送は不要)。Amazon Inspector は ECR と EC2 の検出結果に実行時の到達可能性分析を広げ、アプリが実際に使っていないパッケージの脆弱性と区別できるようになりました。ML では、SageMaker Studio から EKS オーケストレーションの SageMaker HyperPod クラスターに分散学習ジョブの投入・モデルのデプロイ・監視ができるようになり、HyperPod の EKS クラスター作成コンソールもガイド付きのワークフローに刷新され、EC2 Capacity Blocks for ML は複数のインスタンスタイプとリージョンを 1 回で検索できるようになりました (P6-B300、P6-B200、Trn2 などを最大 6 か月予約)。そのほか、FSx for NetApp ONTAP のスナップショット・クローン・レプリケーションのコンソールと CloudFormation 対応、EC2 のインプレースデプロイ中に Auto Scaling のプロセスを一時停止できる CodeDeploy の機能、Amazon Connect Customer の AI エージェントによるステップバイステップガイドの入力、自分や AI エージェントがローカルの IDE や端末からリモートの Android 端末を使える Device Farm の Device Connect が発表されました。日本語ブログでは、CloudFormation のスタック 1 つで Amazon EVS に VMware Cloud Foundation 9 をデプロイするオープンソースツール EVS Deployment Orchestrator (EDO、solutions-for-amazon-evs リポジトリで公開) が紹介されています。
 "topics":
-  - "VMware 移行: EVS Deployment Orchestrator (EDO) で CloudFormation スタック 1 つから Amazon EVS へ VMware Cloud Foundation 9 をデプロイ (solutions-for-amazon-evs で公開)"
+  - "マルチクラウド運用: Systems Manager Automation のランブックが Azure・Google Cloud のリソースに対応"
+  - "セキュリティ: AWS WAF の API 自動検出・保護が一般提供 (API Gateway API Portal)、Inspector の ECR・EC2 向け実行時到達可能性分析"
+  - "ML インフラ: SageMaker Studio から HyperPod (EKS) へのジョブ投入・デプロイ、HyperPod のクラスター作成コンソール刷新、Capacity Blocks の複数タイプ・リージョン横断検索"
+  - "ストレージ・デプロイ: FSx for NetApp ONTAP のスナップショット・クローン・レプリケーションのコンソール・CloudFormation 対応、CodeDeploy の Auto Scaling プロセス一時停止"
+  - "その他: Connect Customer の AI エージェントによるガイド入力、Device Farm の Device Connect (リモート Android 端末をローカルから操作)"
+  - "VMware 移行: EVS Deployment Orchestrator (EDO) で CloudFormation スタック 1 つから Amazon EVS へ VMware Cloud Foundation 9 をデプロイ"
