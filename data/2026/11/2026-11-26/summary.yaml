@@ -1,0 +1,18 @@
+"date": "2026-11-26"
+"generated_at": "2026-11-26 08:08:27 JST"
+"generated_by": "AI (Claude Opus 5)"
+"article_count": 10
+"sources":
+  - "aws_security_blog"
+  - "aws_security_bulletins"
+  - "aws_whats_new"
+"overview": |
+  この日は 3 ソースから 10 本で、エージェントのアクセス制御とセキュリティ速報、Graviton5 世代インスタンスのリージョン拡大が中心でした。AWS Sign-In は Enterprise-Managed Authorization (EMA) に対応し、Identity Assertion JWT Authorization Grant (ID-JAG) を使って Okta などの既存の企業 IdP 経由で AI エージェントに AWS MCP Server へのアクセスを認可できるようになりました。どのアプリケーションが AWS リソースにアクセスできるかを組織として一元的に管理できます。セキュリティ速報は 2 件です。CVE-2026-136267 は、ブラウザー上で AI エージェントが開発作業を行うクラウド型 IDE の Kiro Web において、エージェントのセッションが読み込んだリポジトリのファイルや Web ページに含まれるツール呼び出しのマークアップを一部のモデルがそのまま繰り返してしまい、同意のプロンプトなしにホストされた開発環境でコマンドとして実行されうるというものです (DeepSeek v3.2、GLM-5、MiniMax M2.1 / M2.5、Qwen3-coder-next を使ったセッションが 2026-05-18 から 2026-10-30 まで影響、Bulletin 2026-202-AWS)。CVE-2026-134070 は、AWS Config の修復などから実行される AWS 管理の Systems Manager Automation ランブック AWSConfigRemediation-EnableSystemsManagerSessionManagerAuditLogsToS3 の入力検証が不十分で、ランブックを実行できる認証済みのリモートユーザーがアカウントのリージョンごとの Session Manager 設定 (SSM-SessionManagerRunShell ドキュメント) に意図しない設定を行えるおそれがあるというものです (2026-203-AWS)。そのほかセキュリティブログでは、AWS CloudHSM から AWS KMS への移行が取り上げられ、KMS が CloudHSM のワークロードの多くが必要とする認証・アルゴリズム・性能に対応しているため、移行した組織は HSM のプロビジョニングやパッチ適用、高可用性の管理をなくしつつコストも大きく減らせたと説明されています。サインインはアプリケーションの入り口で、そこが落ちるとユーザーはログインもトークンの更新もできなくなることから、Amazon Cognito の Plus 機能プランで 99.99% の可用性を見込んで設計する方法も解説されました。インスタンスでは Graviton5 世代の展開が進み、M9gd がアジアパシフィック (ソウル)、C9gd が欧州 (アイルランド、スペイン)、C9g がアジアパシフィック (シドニー)・欧州 (アイルランド、スペイン)・南米 (サンパウロ)、M9g が米国西部 (北カリフォルニア)・カナダ (中部)・南米 (サンパウロ)・アジアパシフィック (ソウル) で利用できるようになりました。いずれも Graviton4 世代に比べて計算性能が最大 25% 向上し、第 6 世代の AWS Nitro System 上で形式検証を用いた Nitro Isolation Engine を初めて搭載します。Graviton4 ベースの M8g もイスラエル (テルアビブ) に追加され、アプリケーションサーバーやマイクロサービスなどの汎用ワークロード向けに Graviton3 ベースの M7g から最大 30% の性能向上を提供します。
+"topics":
+  - "エージェント認可: AWS Sign-In が Enterprise-Managed Authorization (ID-JAG) に対応、Okta など既存 IdP 経由で AWS MCP Server へのアクセスを一元管理"
+  - "セキュリティ速報: CVE-2026-136267 (Kiro Web でエージェントが読んだ内容のツール呼び出しマークアップが同意なしに実行、2026-05-18〜10-30 の一部モデル、2026-202-AWS)"
+  - "セキュリティ速報: CVE-2026-134070 (AWS Config 修復ランブックの入力検証不備で Session Manager のリージョン設定を改変されるおそれ、2026-203-AWS)"
+  - "鍵管理: AWS CloudHSM から AWS KMS への移行で HSM のプロビジョニング・パッチ・高可用性管理をなくしコストも削減"
+  - "可用性設計: Amazon Cognito の Plus 機能プランで 99.99% の可用性を計画する方法"
+  - "インスタンス: Graviton5 の M9gd (ソウル)、C9gd (アイルランド・スペイン)、C9g (シドニーほか)、M9g (北カリフォルニアほか) が追加、Graviton4 比で最大 25% 高速"
+  - "インスタンス: Graviton4 ベースの M8g がイスラエル (テルアビブ) で利用可能 (M7g 比で最大 30% 高速)"
