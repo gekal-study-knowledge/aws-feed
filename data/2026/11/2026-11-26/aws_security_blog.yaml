@@ -1,0 +1,23 @@
+"entries":
+  "2c8091a4e2595e522be02be6c238c513":
+    "id": "2c8091a4e2595e522be02be6c238c513"
+    "title": "Secure agentic access to AWS with Enterprise-Managed Authorization"
+    "link": "https://aws.amazon.com/blogs/security/secure-agentic-access-to-aws-with-enterprise-managed-authorization/"
+    "published": "2026-11-26 06:00:37"
+    "fetched": "2026-11-26 07:55:13"
+    "summary": "AWS Sign-In is introducing support for Enterprise-Managed Authorization (EMA) using the Identity Assertion JWT Authorization Grant (ID-JAG), enabling organizations to securely authorize AI agents to access AWS MCP Server through their existing enterprise identity providers (IdPs), such as Okta. With this capability, organizations can centrally manage which applications can access Amazon Web Services (AWS) resources […]"
+  "bc6761c5e8a86981d991aa2708432f3e":
+    "id": "bc6761c5e8a86981d991aa2708432f3e"
+    "title": "Reduce operational overhead by migrating from AWS CloudHSM to AWS KMS"
+    "link": "https://aws.amazon.com/blogs/security/reduce-operational-overhead-by-migrating-from-aws-cloudhsm-to-aws-kms/"
+    "published": "2026-11-26 04:54:52"
+    "fetched": "2026-11-26 07:55:13"
+    "summary": "AWS Key Management Service (AWS KMS) supports the security certifications, algorithms, and performance that most AWS CloudHSM workloads require. Organizations that migrate from AWS CloudHSM to AWS KMS have significantly reduced costs while eliminating hardware security module (HSM) provisioning, patching, and high-availability management. For a detailed comparison of both services, see AWS KMS or AWS […]"
+  "f2be208751efd489bc3b566a4be223c2":
+    "id": "f2be208751efd489bc3b566a4be223c2"
+    "title": "Planning for 99.99 percent availability with the Amazon Cognito Plus feature plan"
+    "link": "https://aws.amazon.com/blogs/security/planning-for-99-99-percent-availability-with-the-amazon-cognito-plus-feature-plan/"
+    "published": "2026-11-26 02:50:39"
+    "fetched": "2026-11-26 07:55:13"
+    "summary": "Amazon Cognito handles sign-in and access control for users, AI agents, and microservices with managed user directories, social and enterprise federation, and passwordless sign-in with passkeys or one-time passwords. Sign-in is the front door to your application. If your customer identity and access management (CIAM) layer is unavailable, users can’t sign in or refresh their […]"
+"last_updated": "2026-11-26 07:55:13 JST"

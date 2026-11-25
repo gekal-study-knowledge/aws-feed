@@ -1,0 +1,16 @@
+"entries":
+  "c8089050f90bfe50c8da7eeced8b4591":
+    "id": "c8089050f90bfe50c8da7eeced8b4591"
+    "title": "CVE-2026-136267 - Improper neutralization of special elements used in an OS command in Kiro Web"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-202-aws/"
+    "published": "2026-11-26 02:08:36"
+    "fetched": "2026-11-26 07:55:13"
+    "summary": "<p><b>Bulletin ID:</b> 2026-202-AWS<br /> <b>Publication Date:</b> 11/25/2026 09:00 AM PST</p> \n<p><b>Description:</b></p> \n<p>Kiro Web is a cloud-hosted, AI-powered integrated development environment where subscribers use AI agents to work on software development tasks in the browser.</p> \n<p>We are aware of CVE-2026-136267, an issue in Kiro Web where tool-call markup inside content an agent session read, such as a repository file or a web page, could be repeated by certain models and run as a command in the subscriber's hosted development environment without a consent prompt. The issue affected agent sessions using DeepSeek v3.2, GLM-5, MiniMax M2.1, MiniMax M2.5, or Qwen3-coder-next from 2026-05-18 through 2026-10-30.</p> \n<p><b>Impacted versions:</b> Kiro Web before 2026-10-30</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-202-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+  "5a0e479806bc817c8adb1b1efb72a572":
+    "id": "5a0e479806bc817c8adb1b1efb72a572"
+    "title": "CVE-2026-134070 - Improper input sanitization in the AWS Config remediation runbook AWSConfigRemediation-EnableSystemsManagerSessionManagerAuditLogsToS3"
+    "link": "https://aws.amazon.com/security/security-bulletins/rss/2026-203-aws/"
+    "published": "2026-11-26 04:41:20"
+    "fetched": "2026-11-26 07:55:13"
+    "summary": "<p><b>Bulletin ID:</b> 2026-203-AWS<br /> <b>Publication Date:</b> 11/25/2026 11:30 AM PST</p> \n<p><b>Description:</b></p> \n<p>AWS Systems Manager Automation provides AWS-managed runbooks that customers can run directly or through integrations such as AWS Config remediation. Session Manager, a capability of AWS Systems Manager, stores each account's regional session preferences in the SSM-SessionManagerRunShell document.</p> \n<p>We identified CVE-2026-134070, where improper input validation in the AWS-managed AWS Systems Manager Automation runbook AWSConfigRemediation-EnableSystemsManagerSessionManagerAuditLogsToS3 might allow an authenticated remote user who is permitted to run the runbook to set unintended configuration in the account's Regional Session Manager preferences document (SSM-SessionManagerRunShell) via a crafted S3KeyPrefix parameter value. This applies only when that document does not already exist in the Region. The unintended configuration can include arbitrary commands, which then run on managed instances when other users start Session Manager sessions.</p> \n<p><b>Impacted versions:</b> Revisions created before 2026-10-22 (UTC)</p> \n<p><b><a href=\"https://aws.amazon.com/security/security-bulletins/2026-203-aws/\">Refer to the article</a> for the most up-to-date and complete information.</b></p>"
+"last_updated": "2026-11-26 07:55:13 JST"
