@@ -1,0 +1,30 @@
+"entries":
+  "c2a11357f3dcf6d5d4456ddd7665f2aa":
+    "id": "c2a11357f3dcf6d5d4456ddd7665f2aa"
+    "title": "AWS STS GetScopedCredentials で既存セッションの権限をスコープダウン"
+    "link": "https://aws.amazon.com/jp/blogs/news/scope-down-permissions-of-existing-sessions-using-aws-sts-getscopedcredentials/"
+    "published": "2026-11-25 09:15:24"
+    "fetched": "2026-11-25 12:19:50"
+    "summary": "GetScopedCredentials は、既存の一時的なセキュリティ認証情報の権限をスコープダウンできる新しい AWS STS API です。AI エージェントやサブエージェントごとに、呼び出し元の IAM アイデンティティを維持したまま、権限の縮小やセッション期間の短縮を適用した認証情報を割り当てられます。この記事では、主なユースケース、IAM Policy Autopilot の活用を含むスコープダウンポリシーの作成方法、API の呼び出し方法、アクセスの管理方法を紹介します。"
+  "f547e563afb68e99a6baaf9c6d2d0194":
+    "id": "f547e563afb68e99a6baaf9c6d2d0194"
+    "title": "AWS Security Incident Response がセキュリティの検出結果をトリアージする仕組み"
+    "link": "https://aws.amazon.com/jp/blogs/news/how-aws-security-incident-response-triages-your-security-findings/"
+    "published": "2026-11-25 09:13:06"
+    "fetched": "2026-11-25 12:19:50"
+    "summary": "AWS Security Incident Response は、Amazon GuardDuty と AWS Security Hub CSPM からの脅威の検出結果を継続的にトリアージしますが、その作業のほとんどはケースとして表に出ません。この記事では、取り込まれた検出結果がアーカイブ、プロアクティブケースのオープン、[Current] での保持のいずれに至るのかと、トリアージの精度が時間とともに向上する仕組みを説明します。また、Proactive response ダッシュボードや月次レポートでトリアージの状況を確認する方法も紹介します。"
+  "405285dd70bef0d286d5793c40c350e9":
+    "id": "405285dd70bef0d286d5793c40c350e9"
+    "title": "Amazon GuardDuty の脅威検出機能をカスタマイズしてアラート疲れを軽減"
+    "link": "https://aws.amazon.com/jp/blogs/news/reduce-alert-fatigue-by-customizing-threat-detection-features-in-amazon-guardduty/"
+    "published": "2026-11-25 09:10:17"
+    "fetched": "2026-11-25 12:19:50"
+    "summary": "アラート疲れを軽減するため、Amazon GuardDuty の脅威検出機能をカスタマイズする方法を 3 つのステージで紹介します。Custom Detection Rules のドライランモードでノイズを測定してからライブモードで有効化する手順、ファイルハッシュを含む脅威エンティティリストの活用、ワイルドカードや追加のフィールドで範囲を絞り込んだ抑制ルールによるトリアージ、GuardDuty Investigation による調査の迅速化について説明します。"
+  "3ec9ef6df2b00001fe431148869452da":
+    "id": "3ec9ef6df2b00001fe431148869452da"
+    "title": "Greenlight Financial が Amazon Bedrock AgentCore で自律型 SOC ソリューションを構築した方法"
+    "link": "https://aws.amazon.com/jp/blogs/news/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/"
+    "published": "2026-11-25 09:07:05"
+    "fetched": "2026-11-25 12:19:50"
+    "summary": "Greenlight Financial が Amazon Bedrock AgentCore 上に構築した自律型 SOC ソリューションを紹介します。Tier 1 と Tier 2 のスーパーバイザーによる階層型マルチエージェントシステム、30 を超える専門エージェント、継続的な学習を支えるエピソード記憶を解説します。また、毎月最大 4,000 件のセキュリティおよびリスクのケースのうち 90% 超を人の介入なしに解決した成果、金融リスクのトリアージへの拡張、規制対象業界で役立つ教訓も説明します。"
+"last_updated": "2026-11-25 12:19:50 JST"
